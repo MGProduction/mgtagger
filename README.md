@@ -1,5 +1,5 @@
 mgtagger
-====
+=====
 
 This is a very simple generic pos tagger, featuring ngrams with most common word spice, with Viterbi-like code.
 
