@@ -1,14 +1,12 @@
 # mgtagger source code
 
-If you want to use mgtagger in your code you just need to add to your project mgtagger_postag.c + mgtagger_private.h / mgtagger.h
+If you want to use mgtagger in your code you just need to add to your project **mgtagger_postag.c** + **mgtagger_private.h** / **mgtagger.h**
 
 # mgtagger command line tool
 
-*mgtagger_cmd.c* is the main source code for a command line tool to learn dictionary files from corpus, to test the quality of
-this engine (if you have train/test sets), and to interactively use the tool for a quick test. 
+**mgtagger_cmd.c** is the main source code for a command line tool to learn dictionary files from corpus, to test the quality of this engine (if you have train/test sets), and to interactively use the tool for a quick test. 
 
-To compile the command line project you also need mgtagger_io.c and mgtagger_learn.c (together with mgtagger_postag.c + 
-mgtagger_private.h / mgtagger.h)
+To compile the command line project you also need **mgtagger_io.c** and **mgtagger_learn.c** (together with **mgtagger_postag.c** + **mgtagger_private.h** / **mgtagger.h**)
 
 # usage
 
