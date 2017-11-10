@@ -1,0 +1,32534 @@
+# ----------------------------
+# -
+# - MGTAGGER resource file
+# -
+# ----------------------------
+$version=1
+$codepage=utf-8
+
+[LEX:main]
+!	3 PUNCT.! 3
+$	2 SYM 2
+$10,000	1 X 1
+$5,000	1 X 1
+'	2 PUNCT 2
+''	9 PUNCT 9
+(	444 PUNCT 441 X 3
+)	444 PUNCT 441 X 3
++	1 SYM 1
+,	6149 PUNCT., 6143
+-	45 PUNCT 45
+--	9 PUNCT 9
+----	13 PUNCT 13
+-15	1 NUM 1
+-300	1 NUM 1
+.	3960 PUNCT.. 3960
+/	14 SYM 14
+0	8 NUM 8
+00	1 NUM 1
+0001	1 NUM 1
+014	1 NUM 1
+016	1 NUM 1
+04	1 NUM 1
+067400	1 NUM 1
+07	1 NUM 1
+08	1 NUM 1
+1	92 NUM 92 ***
+10	70 NUM 70
+10%	3 NUM 3
+10,000	2 NUM 2
+10.05	1 NUM 1
+10.1	1 NUM 1
+10.36	1 NUM 1
+10.5	1 NUM 1
+10.9億	1 NUM 1
+100	7 NUM 7
+100,000	1 NUM 1
+1000	2 NUM 2
+1000.7	1 NUM 1
+10000	1 NUM 1
+1003萬	1 NUM 1
+100億	3 NUM 3
+100多	3 NUM 3
+100萬	2 NUM 2
+102,000	1 NUM 1
+103	1 NUM 1
+1044	1 NUM 1
+1053	1 NUM 1
+1059萬	1 NUM 1
+106	1 NUM 1
+109	2 NUM 2
+1090	1 NUM 1
+10億	2 NUM 2
+10萬	1 NUM 1
+10餘	1 NUM 1
+11	65 NUM 65
+11,162	1 NUM 1
+11,518	1 NUM 1
+11,816	1 NUM 1
+11.28	1 NUM 1
+11.54	1 NUM 1
+110	1 NUM 1
+1109	1 NUM 1
+111	1 NUM 1
+1112	1 NUM 1
+112	1 NUM 1
+11265	1 NUM 1
+115	2 NUM 2
+1150	1 NUM 1
+1158	1 NUM 1
+1159	1 NUM 1
+116	1 NUM 1
+1164	1 NUM 1
+1167	1 NUM 1
+117	1 NUM 1
+118	2 NUM 2
+1191	1 NUM 1
+119萬	1 NUM 1
+12	73 NUM 73
+12,138	1 NUM 1
+12.15	1 NUM 1
+12.44	1 NUM 1
+12.9	1 NUM 1
+12.90	1 NUM 1
+120	1 NUM 1
+1220	1 NUM 1
+1240	1 NUM 1
+125	1 NUM 1
+1251	1 NUM 1
+12613	1 NUM 1
+1265	1 NUM 1
+1273	1 NUM 1
+127億	1 NUM 1
+128	2 NUM 2
+12900	1 NUM 1
+1294	1 NUM 1
+12:00	1 NUM 1
+13	24 NUM 24
+13-30	1 NUM 1
+13.27	1 NUM 1
+13.2萬	1 NUM 1
+13.3	1 NUM 1
+13.56	1 NUM 1
+130	1 NUM 1
+130.334	1 NUM 1
+1300	2 NUM 2
+1316	1 NUM 1
+132	3 NUM 3
+1346	1 NUM 1
+135	2 NUM 2
+136	1 NUM 1
+1363.6	1 NUM 1
+1370	1 NUM 1
+1381	1 NUM 1
+1392	1 NUM 1
+1394	1 NUM 1
+14	24 NUM 24
+14.0%	1 NUM 1
+14.2	1 NUM 1
+14.5萬	1 NUM 1
+140	1 NUM 1
+1403	1 NUM 1
+140多	1 NUM 1
+1429	1 NUM 1
+144	1 NUM 1
+1453	1 NUM 1
+14572	1 PROPN 1
+1469	1 NUM 1
+1479	1 NUM 1
+149	1 NUM 1
+149.8	1 NUM 1
+1496	1 NUM 1
+15	29 NUM 29
+15%	2 NUM 2
+15.05	1 NUM 1
+15.17	2 NUM 2
+15.3	1 NUM 1
+15.4億	1 NUM 1
+15.63	1 NUM 1
+15.94	1 NUM 1
+150	5 NUM 5
+15000	1 NUM 1
+1502	1 NUM 1
+150多	1 NUM 1
+15100	1 NUM 1
+1512	1 NUM 1
+1525	1 NUM 1
+1533	1 NUM 1
+154	1 NUM 1
+155	1 NUM 1
+1555	1 NUM 1
+1557	1 NUM 1
+156	1 NUM 1
+1567	1 NUM 1
+1570	1 NUM 1
+1571	1 NUM 1
+1578	1 NUM 1
+1579	2 NUM 2
+1581	1 NUM 1
+1585	1 NUM 1
+1596	1 NUM 1
+1599	1 NUM 1
+15萬	1 NUM 1
+16	20 NUM 20
+16,700	1 NUM 1
+16,939	1 NUM 1
+160	2 NUM 2
+160,000	1 NUM 1
+1600	1 NUM 1
+16000	1 NUM 1
+160cm	1 X 1
+160億	1 NUM 1
+160萬	1 NUM 1
+1610	1 NUM 1
+1612	1 NUM 1
+1613	1 NUM 1
+1615	1 NUM 1
+1617	1 NUM 1
+162	1 NUM 1
+1620	1 NUM 1
+1623	1 NUM 1
+1629	1 NUM 1
+163	1 NUM 1
+1634	1 NUM 1
+1636	1 NUM 1
+1642	1 NUM 1
+165	1 NUM 1
+1657	1 NUM 1
+1658	1 NUM 1
+1660	1 NUM 1
+1661	1 NUM 1
+167	1 NUM 1
+168,185	1 NUM 1
+1688	1 NUM 1
+1697	1 NUM 1
+17	14 NUM 14
+17%	1 NUM 1
+17,600	1 NUM 1
+17.07	1 NUM 1
+17.3%	1 NUM 1
+17.45	1 NUM 1
+170	2 NUM 2
+1701	1 NUM 1
+1723	1 NUM 1
+1724	1 NUM 1
+1727	2 NUM 2
+1728	2 NUM 2
+1733	1 NUM 1
+1737	1 NUM 1
+1760	1 NUM 1
+1763	1 NUM 1
+17638	1 NUM 1
+1765	1 NUM 1
+1767	1 NUM 1
+1769	1 NUM 1
+1774	2 NUM 2
+1776	1 NUM 1
+1777	2 NUM 2
+1779	1 NUM 1
+1781	1 NUM 1
+1784	1 NUM 1
+1786	2 NUM 2
+1788	2 NUM 2
+1789	1 NUM 1
+1791	1 NUM 1
+1793	1 NUM 1
+18	20 NUM 20
+18,000	1 NUM 1
+18.2	1 NUM 1
+18.87	1 NUM 1
+18.9	1 NUM 1
+1800	1 NUM 1
+1806	2 NUM 2
+1808	2 NUM 2
+180餘萬	1 NUM 1
+1812	1 NUM 1
+1819	1 NUM 1
+1823	2 NUM 2
+1824	1 NUM 1
+1826	1 NUM 1
+1827	2 NUM 2
+183	1 NUM 1
+1832	1 NUM 1
+184	1 NUM 1
+1840	1 NUM 1
+18412	1 NUM 1
+1844	2 NUM 2
+1845	1 NUM 1
+1848	2 NUM 2
+185	1 NUM 1
+1851	1 NUM 1
+1852	1 NUM 1
+1854	2 NUM 2
+1855	1 NUM 1
+1856	1 NUM 1
+1857	2 NUM 2
+1859	2 NUM 2
+1860	1 NUM 1
+1862	1 NUM 1
+1863	1 NUM 1
+1864	1 NUM 1
+1865	2 NUM 2
+1866	2 NUM 2
+1867	1 NUM 1
+1870	3 NUM 3
+1871	2 NUM 2
+1872	1 NUM 1
+1873	1 NUM 1
+1875	2 NUM 2
+1877	1 NUM 1
+1878	2 NUM 2
+1879	2 NUM 2
+1880	2 NUM 2
+1881	2 NUM 2
+1884	1 NUM 1
+1885	1 NUM 1
+1886	1 NUM 1
+1887	2 NUM 2
+1889	1 NUM 1
+189	1 NUM 1
+1890	4 NUM 4
+1891	1 NUM 1
+1892	1 NUM 1
+1893	4 NUM 4
+1894	2 NUM 2
+1896	1 NUM 1
+1897	1 NUM 1
+1898	2 NUM 2
+1899	2 NUM 2
+19	23 NUM 23
+19,000	1 NUM 1
+19.2%	1 NUM 1
+19.38	1 NUM 1
+1900	3 NUM 3
+1901	3 NUM 3
+1902	3 NUM 3
+1903	2 NUM 2
+1904	1 NUM 1
+1905	2 NUM 2
+1906	3 NUM 3
+1907	1 NUM 1
+1908	2 NUM 2
+1909	6 NUM 6
+191	1 NUM 1
+1910	3 NUM 3
+1911	1 NUM 1
+1912	2 NUM 2
+1913	2 NUM 2
+1914	3 NUM 3
+1915	2 NUM 2
+1916	3 NUM 3
+1917	5 NUM 5
+1918	4 NUM 4
+1919	10 NUM 10
+1920	7 NUM 7
+1921	3 NUM 3
+1923	3 NUM 3
+1924	2 NUM 2
+1925	2 NUM 2
+1926	2 NUM 2
+1927	4 NUM 4
+1928	6 NUM 6
+1929	9 NUM 9
+1930	7 NUM 7
+1931	3 NUM 3
+1932	5 NUM 5
+1933	3 NUM 3
+1934	2 NUM 2
+1935	6 NUM 6
+1936	6 NUM 6
+1937	11 NUM 11
+1938	6 NUM 6
+1939	2 NUM 2
+1940	4 NUM 4
+1941	4 NUM 4
+1942	3 NUM 3
+1943	5 NUM 5
+1945	6 NUM 6
+1946	5 NUM 5
+1947	1 NUM 1
+1948	1 NUM 1
+1949	9 NUM 9
+1950	10 NUM 10
+1951	5 NUM 5
+1952	3 NUM 3
+1953	3 NUM 3
+1954	3 NUM 3
+1955	5 NUM 5
+1956	5 NUM 5
+1957	4 NUM 4
+1958	9 NUM 9
+1959	4 NUM 4
+1960	11 NUM 11
+1961	6 NUM 6
+1962	9 NUM 9
+1963	6 NUM 6
+1964	4 NUM 4
+1965	2 NUM 2
+1966	5 NUM 5
+1967	3 NUM 3
+1968	4 NUM 4
+1969	7 NUM 7
+197	1 NUM 1
+1970	8 NUM 8
+1971	5 NUM 5
+1972	8 NUM 8
+1973	5 NUM 5
+1974	3 NUM 3
+1975	2 NUM 2
+1976	7 NUM 7
+1977	6 NUM 6
+1978	8 NUM 8
+1979	4 NUM 4
+1980	8 NUM 8
+1981	3 NUM 3
+1982	6 NUM 6
+1983	4 NUM 4
+1984	6 NUM 6
+1985	8 NUM 8
+1986	10 NUM 10
+1987	5 NUM 5
+1988	8 NUM 8
+1989	12 NUM 12
+199	1 NUM 1
+1990	5 NUM 5
+1991	10 NUM 10
+1992	5 NUM 5
+1993	5 NUM 5
+1994	9 NUM 9
+1995	10 NUM 10
+1996	11 NUM 11
+1997	12 NUM 12
+1998	18 NUM 18
+1999	15 NUM 15
+1億7千6百萬	1 NUM 1
+1千億	2 NUM 2
+2	83 NUM 83 ***
+20	33 NUM 33
+20%	2 NUM 2
+20.39	1 NUM 1
+20.4%	1 NUM 1
+20.41	1 NUM 1
+200	4 NUM 4
+2000	15 NUM 15
+2000多	1 NUM 1
+2001	32 NUM 32
+2002	13 NUM 13
+2003	23 NUM 23
+2004	21 NUM 21
+2004/05	1 NUM 1
+2005	25 NUM 25
+2006	34 NUM 34
+2006-2007	1 NUM 1
+2007	37 NUM 37
+2008	31 NUM 31
+2009	55 NUM 55
+200萬	3 NUM 3
+200餘	1 NUM 1
+2010	34 NUM 34
+2011	29 NUM 29
+2011/12	1 NUM 1
+2012	29 NUM 29
+2013	10 NUM 10
+2014	3 NUM 3
+2017	1 NUM 1
+2018	1 NUM 1
+2020	1 NUM 1
+2021	1 NUM 1
+2030	1 NUM 1
+2046	1 NUM 1
+207	1 NUM 1
+20多	1 NUM 1
+20萬	2 NUM 2
+20餘	1 NUM 1
+21	13 NUM 13
+21,100	1 NUM 1
+211	1 NUM 1
+213	1 NUM 1
+213.4	1 NUM 1
+215萬	1 NUM 1
+21:00	1 NUM 1
+22	11 NUM 11
+22%-27%	1 NUM 1
+22.2	1 NUM 1
+22.97	1 NUM 1
+220	2 NUM 2
+2200餘	1 NUM 1
+2222	1 NUM 1
+223	1 NUM 1
+23	7 NUM 7
+23%	1 NUM 1
+23.7萬	1 NUM 1
+2345	1 NUM 1
+236	1 NUM 1
+237	1 NUM 1
+23萬	1 NUM 1
+24	9 NUM 9
+24.3	1 NUM 1
+2409	2 NUM 2
+242	1 NUM 1
+2439	1 NUM 1
+244	1 NUM 1
+244X	1 X 1
+246	1 NUM 1
+249	1 NUM 1
+25	12 NUM 12
+25%	1 NUM 1
+25,800	1 NUM 1
+250	3 NUM 3
+2500	3 NUM 3
+253114	1 NUM 1
+258	1 NUM 1
+2589	1 NUM 1
+26	10 NUM 10
+260	1 NUM 1
+2600多	1 NUM 1
+2613	1 NUM 1
+263	1 NUM 1
+27	12 NUM 12
+27.2%	1 NUM 1
+273	1 NUM 1
+276	1 NUM 1
+279	1 NUM 1
+28	18 NUM 18
+28,169	1 NUM 1
+280	1 NUM 1
+281M	1 X 1
+29	12 NUM 12
+29.8	1 NUM 1
+290	1 NUM 1
+290999	1 NUM 1
+293	3 NUM 3
+29420	1 NUM 1
+298	2 NUM 2
+2988	1 NUM 1
+2nd	1 NUM 1
+2千億	1 NUM 1
+2萬億	1 NUM 1
+3	80 NUM 80 ***
+30	26 NUM 26
+30.8萬	1 NUM 1
+300	3 NUM 3
+3000	1 NUM 1
+30000	1 NUM 1
+300000	1 NUM 1
+3000餘	1 NUM 1
+300多	1 NUM 1
+300萬	1 NUM 1
+3019	1 NUM 1
+30°	1 X 1
+30多	1 NUM 1
+30萬	1 NUM 1
+31	13 NUM 13
+31.6%	1 NUM 1
+316,700	1 NUM 1
+31萬	1 NUM 1
+32	2 NUM 2
+32.09	1 NUM 1
+32.89	1 NUM 1
+32.8萬	1 NUM 1
+320	1 NUM 1
+3200	1 NUM 1
+33	2 NUM 2
+33%	1 NUM 1
+33.5	1 NUM 1
+33.65	1 NUM 1
+3308	1 NUM 1
+333	1 NUM 1
+334	1 NUM 1
+3345	1 NUM 1
+338	2 NUM 2
+34	2 NUM 2
+340萬	1 NUM 1
+347	1 NUM 1
+3480	2 NUM 2
+35	1 NUM 1
+35,301	1 NUM 1
+35.86	1 NUM 1
+350.19億	1 NUM 1
+35000	1 NUM 1
+356	1 NUM 1
+35萬	1 NUM 1
+35萬7千	1 NUM 1
+36,000	1 NUM 1
+36.4	1 NUM 1
+360	3 PROPN 2 NUM 1
+365	1 NUM 1
+367	1 NUM 1
+36A	1 X 1
+36B	1 X 1
+37	4 NUM 4
+37%-44%	1 NUM 1
+37,000	1 NUM 1
+375	1 NUM 1
+3771	1 NUM 1
+3790	1 NUM 1
+38	2 NUM 2
+381	1 NUM 1
+39	2 NUM 2
+39,152	1 NUM 1
+391	1 NUM 1
+394	1 NUM 1
+397	1 NUM 1
+3D	2 X 2
+3億5千3百萬	1 NUM 1
+3千億	1 NUM 1
+3百多萬	1 NUM 1
+4	73 NUM 73
+40	7 NUM 7
+400	2 NUM 2
+400,000	1 NUM 1
+4000	1 NUM 1
+4058	1 NUM 1
+40800	1 NUM 1
+41	1 NUM 1
+41,737	1 NUM 1
+41.2%	1 NUM 1
+410	1 NUM 1
+42	3 NUM 3
+420	1 NUM 1
+421	1 NUM 1
+432	1 NUM 1
+433	1 NUM 1
+44.8%	1 NUM 1
+4400億	1 NUM 1
+4496	1 NUM 1
+45	2 NUM 2
+45%	1 NUM 1
+450	2 NUM 2
+455	1 NUM 1
+457	1 NUM 1
+46	3 NUM 3
+46,500	1 NUM 1
+46.8	1 NUM 1
+466	1 NUM 1
+47	1 NUM 1
+47,802	1 NUM 1
+476	1 NUM 1
+48	2 NUM 2
+483	1 NUM 1
+484	2 NUM 2
+49	2 NUM 2
+499	1 NUM 1
+4C	1 X 1
+4億2千萬	1 NUM 1
+4千億	1 NUM 1
+4百萬	1 NUM 1
+4萬	1 NUM 1
+5	74 NUM 74
+50	8 NUM 8
+50%	2 NUM 2
+50,000	2 NUM 2
+50.07%	1 NUM 1
+500	4 NUM 4
+500億	1 NUM 1
+500萬	1 NUM 1
+50°	1 X 1
+50億	1 NUM 1
+50多	1 NUM 1
+50萬	1 NUM 1
+51	1 NUM 1
+5168	1 NUM 1
+52	1 NUM 1
+521	1 NUM 1
+537	1 NUM 1
+54	4 NUM 4
+54%	1 NUM 1
+540	1 NUM 1
+542	1 NUM 1
+55	1 NUM 1
+55%	1 NUM 1
+55,408	1 NUM 1
+552	1 NUM 1
+5557	1 NUM 1
+56	1 NUM 1
+560	1 NUM 1
+5653	1 NUM 1
+576	1 NUM 1
+58	2 NUM 2
+58%	1 NUM 1
+58.3	1 NUM 1
+58.52%	1 NUM 1
+581萬	1 NUM 1
+585	1 NUM 1
+59	2 NUM 2
+595	1 NUM 1
+596	1 NUM 1
+5億4500萬	1 NUM 1
+5萬	1 NUM 1
+6	60 NUM 60
+60	11 NUM 11
+60%	5 NUM 5
+60.2	1 NUM 1
+600	3 NUM 3
+603	1 NUM 1
+606	1 NUM 1
+61	1 NUM 1
+61.85	1 NUM 1
+61.9	1 NUM 1
+61萬	1 NUM 1
+620萬	1 NUM 1
+63	2 NUM 2
+63%	1 NUM 1
+636萬8千餘	1 NUM 1
+64	3 NUM 3
+648	1 NUM 1
+65	3 NUM 3
+659	1 NUM 1
+66	4 NUM 4
+66.06%	1 NUM 1
+66.97%	1 NUM 1
+662	1 NUM 1
+666	1 NUM 1
+6672	1 NUM 1
+673	1 NUM 1
+68	2 NUM 2
+69	2 NUM 2
+6F	1 X 1
+6百萬	1 NUM 1
+6萬	1 NUM 1
+6萬多	1 NUM 1
+7	62 NUM 62
+70	6 NUM 6
+70萬	1 NUM 1
+70餘	1 NUM 1
+71	2 NUM 2
+710	1 NUM 1
+711	1 NUM 1
+715	1 NUM 1
+721103	1 NUM 1
+723	1 NUM 1
+73	1 NUM 1
+73.40%	1 NUM 1
+730	1 NUM 1
+7329	1 NUM 1
+73億	1 NUM 1
+743	1 NUM 1
+747	1 NUM 1
+75	2 NUM 2
+750	1 NUM 1
+756	1 NUM 1
+756400	1 NUM 1
+75億	1 NUM 1
+76	1 NUM 1
+767	1 NUM 1
+77	1 NUM 1
+77%	1 NUM 1
+777	1 NUM 1
+777-200LR	1 X 1
+77萬	1 NUM 1
+78	2 NUM 2
+7849	1 NUM 1
+787	1 NUM 1
+789	1 NUM 1
+79.70%	1 NUM 1
+8	69 NUM 69
+8.17	1 NOUN 1
+80	5 NUM 5
+80%	4 NUM 4
+80.55%	1 NUM 1
+8000萬	1 NUM 1
+800萬	1 NUM 1
+805	1 NUM 1
+80萬	1 NUM 1
+81	2 NUM 2
+815	1 NUM 1
+8160	1 NUM 1
+82.7%	1 NUM 1
+83	2 NUM 2
+832	1 NUM 1
+84	2 NUM 2
+84.43%	1 NUM 1
+85A	1 X 1
+86	1 NUM 1
+862	1 NUM 1
+8680	1 NUM 1
+87.18%	1 NUM 1
+8735	1 NUM 1
+875	1 NUM 1
+8787	1 NUM 1
+88	1 NUM 1
+886	1 NUM 1
+886.68億	1 NUM 1
+887	1 NUM 1
+888	1 NUM 1
+88萬	1 NUM 1
+8903	1 NUM 1
+893	1 NUM 1
+8萬	1 NUM 1
+9	51 NUM 51
+90	7 NUM 7
+90%	1 NUM 1
+90,928	1 NUM 1
+90,963	1 NUM 1
+900	1 NUM 1
+91	1 NUM 1
+910	1 NUM 1
+916	2 NUM 2
+92	1 NUM 1
+927	1 NUM 1
+93	1 NUM 1
+932	1 NUM 1
+94	1 NUM 1
+94%	1 NUM 1
+95	1 NUM 1
+96%	1 NUM 1
+966	1 NUM 1
+97	1 NUM 1
+971	1 NUM 1
+973	1 NUM 1
+9732	1 NUM 1
+977	1 NUM 1
+98	3 NUM 3
+98.53%	1 NUM 1
+99	1 NUM 1
+99.9%	1 NUM 1
+996	1 NUM 1
+999	1 NUM 1
+9成	1 NUM 1
+:	86 PUNCT.: 86
+;	85 PUNCT.; 85
+?	11 PUNCT.? 11
+Adilabad	1 X 1
+Adisumarmo	1 X 1
+Admiral	1 X 1
+Aero	1 X 1
+Aethra	1 X 1
+Ages	1 X 1
+Airlines	1 X 1
+Aleksej	1 X 1
+Alpha	1 X 1
+Alyssum	1 X 1
+Android	1 X 1
+Antarctic	1 X 1
+Argonauts	1 X 1
+Arrested	1 X 1
+Arts	2 X 2
+Arwadi	1 X 1
+Auld	1 X 1
+Auteuil	1 X 1
+Aviv	1 X 1
+BOF	3997 BOF 3997 ***
+Bad	1 X 1
+Ballklub	1 X 1
+Bank	1 X 1
+Barros	1 X 1
+Barsbold	1 X 1
+Beatles	1 X 1
+Beaune-Sud	1 X 1
+Beckham	1 X 1
+Beinasco	1 X 1
+Belgaum	1 X 1
+Bellagio	1 X 1
+Berg	1 X 1
+Berne-Belp	1 X 1
+Besar	1 X 1
+Birgeneau	1 X 1
+Books	1 X 1
+Boy	2 X 2
+Bronfenbrenner	1 X 1
+Brough	1 X 1
+Bud	1 X 1
+CI-7957	1 X 1
+Calling	1 X 1
+Campostoma	1 X 1
+Canal	1 X 1
+Capital	1 X 1
+Casey	4 X 3 PROPN 1
+Cathedral	1 X 1
+Center	3 X 3
+Cerro	1 X 1
+Chau	1 X 1
+Chell	1 PROPN 1
+Christopher	1 X 1
+Churchill	1 X 1
+City	1 X 1
+Clark	1 X 1
+Colchis	1 X 1
+Color	1 X 1
+Comic	1 X 1
+Company	1 X 1
+Conroy	1 X 1
+Cornell	1 X 1
+Costa	1 X 1
+Council	1 X 1
+Cushing	1 X 1
+Cálida	1 X 1
+DC-10	2 X 2
+Dakota	1 X 1
+Damrosch	1 X 1
+Daria	1 X 1
+Dark	1 X 1
+DeSanctis	1 X 1
+Dennis	1 X 1
+Derby	1 X 1
+Devasthanam	1 PROPN 1
+Dick	1 X 1
+Digi	1 X 1
+DigiBook	1 X 1
+Dog	1 X 1
+Dolichos	1 X 1
+Dossing	1 X 1
+EOF	3997 EOF 3997 ***
+Electronic	1 X 1
+Elisabeth	1 X 1
+Eminescu	1 X 1
+End	1 X 1
+Epithema	1 X 1
+F-15A	1 X 1
+F-16A	1 X 1
+Falls	1 X 1
+Family	1 X 1
+Fernando	1 X 1
+Films	1 X 1
+Firefox	1 X 1
+Firozpur	1 X 1
+Fook	1 X 1
+Forever	1 X 1
+Fox	1 X 1
+Frank	1 X 1
+Fred	1 X 1
+Frito-Lay	1 X 1
+Fund	1 X 1
+Galliano	1 X 1
+Gear	1 X 1
+Geophysical	1 X 1
+Gibbs	1 PROPN 1
+Giuliano	1 X 1
+Good	1 X 1
+Goodnow	1 X 1
+Greater	1 X 1
+Groening	1 X 1
+Ground	1 X 1
+Group	1 X 1
+Guariglia	1 X 1
+Halifax	1 X 1
+Hall	2 X 2
+Harry	1 X 1
+Harvey	1 X 1
+Hau	1 X 1
+HeH	1 X 1
+Herrera	1 X 1
+Herschel	1 X 1
+Higher	1 X 1
+Holy	1 X 1
+Hopkins	1 X 1
+Housing	1 X 1
+Humphrey	1 X 1
+IPark	1 X 1
+Inc	1 X 1
+India	1 X 1
+Ingeri	1 X 1
+International	2 X 2
+Isartor	1 X 1
+Ischl	1 X 1
+It's	1 X 1
+James	3 X 2 PROPN 1
+Jay	1 X 1
+Jazz	1 X 1
+Jeff	1 X 1
+Juvisy	1 X 1
+Kansas	1 X 1
+Karaköy	1 X 1
+Karlstor	1 X 1
+Kekal	1 X 1
+Kenway	1 X 1
+Kilpatrick	1 X 1
+Kink.com	1 SYM 1
+Kinross	1 X 1
+Knudstrup	1 X 1
+Koffka	1 X 1
+Kurnool	1 X 1
+Langford	1 X 1
+Leaf	1 X 1
+Lees	1 X 1
+Lethal	1 X 1
+Liaoxipterus	1 X 1
+Lilim	1 X 1
+Linux	1 X 1
+Liu	1 X 1
+Lotz	1 X 1
+Lou	1 X 1
+Low	1 X 1
+Lowell	1 X 1
+Luis	1 X 1
+MD-11	1 X 1
+Magic	1 X 1
+Magma	1 X 1
+Mamaia	1 X 1
+Man	1 X 1
+Manea	1 X 1
+Mappy	3 X 3
+Maria	1 X 1
+Mario	1 X 1
+Marshlands	1 X 1
+Mayflower	1 X 1
+Mechernich	1 X 1
+Medical	1 X 1
+Menachem	1 X 1
+Merina	1 X 1
+Methala	1 PROPN 1
+Metress	1 X 1
+Meyers	1 X 1
+Micro	1 X 1
+Micro-USM	1 X 1
+Mihai	1 X 1
+Mintz	1 X 1
+Mitchell	1 X 1
+Mogens	1 X 1
+Money	1 X 1
+Monsters	1 X 1
+Montana	1 X 1
+Multitier	1 X 1
+Mundell	1 X 1
+Museum	1 X 1
+Myers	1 X 1
+Nanocells	1 X 1
+Natasha	1 X 1
+New	3 X 3
+Niarchos	1 X 1
+Nibiru	1 X 1
+Nicea	2 X 2
+Nirmal	1 X 1
+North	1 X 1
+Novogrudok	1 X 1
+Odd	1 PROPN 1
+Omega	1 X 1
+Omniworld	1 X 1
+Opus	1 X 1
+Orkney	1 X 1
+Oryx	1 X 1
+Ospatulus	1 X 1
+Otto	1 X 1
+Paleorhinus	1 X 1
+Pangjiabu	1 X 1
+Papa	1 X 1
+Park	1 X 1
+Pau	1 X 1
+Paul	1 X 1
+Perth	1 X 1
+Phil	1 X 1
+Philippa	1 X 1
+Phillips	2 X 2
+Piano	1 X 1
+Pinerolo	1 X 1
+Piniella	1 X 1
+Pisapia	1 X 1
+Pittsburghia	1 X 1
+PlanetShanghai	1 X 1
+Playgirl	1 X 1
+Pre-rendering	1 X 1
+Primary	1 X 1
+Psychology	1 X 1
+Pukaki	1 X 1
+Pulau	1 X 1
+Purma	1 X 1
+Railway	1 X 1
+Record	1 X 1
+Review	1 X 1
+RhCl3	1 X 1
+River	1 X 1
+Rivers	2 X 2
+Rocha	1 X 1
+Rolf	1 X 1
+Rosenborg	1 X 1
+Rossabi	1 X 1
+Ruger	1 X 1
+Russell	1 X 1
+Safari	1 X 1
+Sam	1 X 1
+Sara	1 X 1
+Sarianidi	1 X 1
+Savannah	1 X 1
+School	1 X 1
+Sea	1 X 1
+Secobarbital	1 X 1
+Sendlinger	1 X 1
+Sheegog	1 X 1
+Snipes	1 X 1
+Social	1 X 1
+Sofi	1 X 1
+Soobedars	1 X 1
+Spector	1 X 1
+Spittel	1 X 1
+Srisailamgudem	1 PROPN 1
+Standard	1 X 1
+Star	1 X 1
+Stars	1 X 1
+Stavros	1 X 1
+Steinbeck	1 X 1
+Stonewall	1 X 1
+Streymoy	1 X 1
+Suica	1 X 1
+Suzuki	1 X 1
+Sōya	1 X 1
+TVS-5	1 X 1
+Tau	1 X 1
+Technology	1 X 1
+Tel	1 X 1
+Texas	1 X 1
+Theodor	1 X 1
+Thomas	1 X 1
+Thrissur	1 PROPN 1
+Timati	1 X 1
+Tizard	1 X 1
+Tor	1 X 1
+Tru	1 X 1
+Tsang	1 X 1
+Tyler	1 X 1
+Uhler-Phillips	1 X 1
+Utricularia	1 X 1
+Valla	1 X 1
+Varginha	1 X 1
+Victoria	1 X 1
+Viktor	1 X 1
+Villa	1 X 1
+Volantis	1 X 1
+Walker	1 X 1
+Walter	1 X 1
+Wesley	1 X 1
+Westmeath	1 X 1
+Wheeler	1 X 1
+Wii	1 X 1
+William	1 X 1
+Wing	1 X 1
+Wireless	1 X 1
+Wood	1 X 1
+World	1 X 1
+Wyclef	2 X 2
+Year	1 X 1
+You	3 X 3
+``	1 PUNCT 1
+académie	1 X 1
+and	2 X 2
+architecture	1 X 1
+asteroid	1 X 1
+bar	1 X 1
+biflorus	1 X 1
+bransoni	1 X 1
+can	1 X 1
+ceyhan	1 X 1
+clf	1 X 1
+copper	1 X 1
+de	2 X 2
+director	1 X 1
+double	1 X 1
+e	1 X 1
+earth	1 X 1
+entity	1 X 1
+f(x)	1 X 1
+g(x)	1 X 1
+gbest	1 X 1
+hangar	1 X 1
+hear	1 X 1
+iPhone	1 X 1
+iPod	2 X 2
+iTunes	1 X 1
+j	1 X 1
+justice	1 X 1
+km	1 SYM 1
+km/h	2 X 2
+laurifolia	1 X 1
+liability	1 X 1
+loratadin	1 X 1
+managing	1 X 1
+morus	1 X 1
+n=1	1 NOUN 1
+neé	1 X 1
+nickel	1 X 1
+no	1 X 1
+of	5 X 5
+one	1 X 1
+ornatum	1 X 1
+p	1 X 1
+pbest	1 X 1
+peronismo	1 X 1
+rhythm	1 X 1
+rock	1 X 1
+sandwithii	1 X 1
+scream	1 X 1
+scree	1 X 1
+shelters	1 X 1
+silver	2 X 2
+space	1 X 1
+study	1 X 1
+supply	1 X 1
+t.163.com	1 SYM 1
+t.qq.com	1 SYM 1
+t.sina.com.cn	1 SYM 1
+t.sohu.com	1 SYM 1
+t.xxxx.com	1 SYM 1
+the	3 X 3
+to	1 X 1
+touch	1 X 1
+trail	1 X 1
+truncatulus	1 X 1
+view	1 X 1
+w=0	1 NOUN 1
+white	1 X 1
+x	1 X 1
+you	1 X 1
+zone	1 X 1
+~	7 PUNCT 7
+°	1 SYM 1
+°C	3 X 2 NOUN 1
+·	190 PUNCT 190
+ð	1 X 1
+þ	1 X 1
+̄	1 PUNCT 1
+θ	1 X 1
+‧	2 PUNCT 2
+─	3 PUNCT 3
+、	1008 PUNCT 1006 NUM 2
+〈	2 PUNCT 2
+〉	2 PUNCT 2
+《	224 PUNCT 224
+》	224 PUNCT 224
+「	332 PUNCT 332
+」	333 PUNCT 333
+『	6 PUNCT 6
+』	5 PUNCT 5
+〔	1 PUNCT 1
+〕	1 PUNCT 1
+・	3 PUNCT 3
+一	910 NUM 909 NOUN 1 ***
+一,	1 NUM 1
+一世	4 PROPN 4
+一中	2 NOUN 1 PROPN 1
+一中全會	1 PROPN 1
+一九五八	1 NUM 1
+一些	59 ADJ 58 NUM 1
+一併	1 ADV 1
+一億	1 NUM 1
+一八	1 NUM 1
+一共	2 ADV 2
+一分為二	1 VERB 1
+一切	10 DET 7 NOUN 2 ADJ 1
+一到	1 VERB 1
+一勞永逸	1 ADJ 1
+一千	2 NUM 2
+一半	5 NUM 5
+一反其道	1 VERB 1
+一同	3 ADV 3
+一向	2 ADV 1 ADJ 1
+一字一句	1 NOUN 1
+一定	15 ADJ 11 ADV 4
+一帶	13 NOUN 13
+一度	2 ADV 2
+一式一樣	1 VERB 1
+一成	1 NUM 1
+一戰	1 NOUN 1
+一手	2 ADV 2
+一提	2 VERB 2
+一改	1 VERB 1
+一旦	4 ADP 4
+一時	1 ADV 1
+一概	1 ADV 1
+一模一樣	1 ADJ 1
+一樣	22 ADJ 22
+一氧化碳	1 NOUN 1
+一炮	1 VERB 1
+一爭	1 AUX 1
+一發	1 VERB 1
+一百	1 NUM 1
+一百幾十	1 NUM 1
+一百萬	1 NUM 1
+一百餘	1 NUM 1
+一益	1 PROPN 1
+一直	37 ADV 36 ADJ 1
+一等	1 NOUN 1
+一而再、再而三	1 ADJ 1
+一致	10 ADV 4 ADJ 4 NOUN 2
+一舉	1 ADV 1
+一般	49 ADJ 28 ADV 21
+一落千丈	1 VERB 1
+一見鍾情	1 VERB 1
+一貫	2 ADV 2
+一起	22 NOUN 20 ADV 2
+一路	1 NOUN 1
+一身	1 NOUN 1
+一邊	1 ADV 1
+一面	2 ADV 2
+一點	1 ADJ 1
+丁	3 PROPN 3
+丁字	1 NOUN 1
+丁目	2 NOUN 2
+七	17 NUM 17
+七七	1 NUM 1
+七十	1 NUM 1
+七喜	2 PROPN 2
+七里	1 PROPN 1
+丈夫	6 NOUN 6
+三	122 NUM 122 ***
+三、	1 X 1
+三一	1 NUM 1
+三世	4 PROPN 4
+三中	1 PROPN 1
+三中全會	1 PROPN 1
+三井	1 PROPN 1
+三井住友	1 PROPN 1
+三亞	1 PROPN 1
+三元	1 PROPN 1
+三十	3 NUM 3
+三十四	1 NUM 1
+三原	1 PROPN 1
+三峽	1 PROPN 1
+三崎	1 PROPN 1
+三星	1 PROPN 1
+三氯化金	2 NOUN 2
+三氯化銠	1 NOUN 1
+三氯氧釩	1 NOUN 1
+三江	3 PROPN 3
+三浦	1 PROPN 1
+三王	1 PROPN 1
+三百	1 NUM 1
+三百六七十	1 NUM 1
+三百多	1 NUM 1
+三索頜腔蛇	1 NOUN 1
+三船	1 PROPN 1
+三菱	1 PROPN 1
+三萬	1 NUM 1
+三藏	2 PROPN 2
+三藩市	1 PROPN 1
+三軍	1 PROPN 1
+三門	1 PROPN 1
+上	242 ADP 174 NOUN 61 VERB 5 DET 1 ADV 1 ***
+上下	1 NOUN 1
+上下行	1 NOUN 1
+上下車	2 NOUN 2
+上任	2 VERB 1 NOUN 1
+上佳	2 ADJ 2
+上傳	1 VERB 1
+上升	8 VERB 7 NOUN 1
+上午	2 NOUN 2
+上去	1 VERB 1
+上古	1 NOUN 1
+上司	1 NOUN 1
+上吊	2 VERB 2
+上埔	1 PROPN 1
+上報	1 VERB 1
+上塘	1 PROPN 1
+上奏	1 VERB 1
+上學	1 VERB 1
+上將	3 NOUN 3
+上尉	1 NOUN 1
+上層	2 NOUN 2
+上市	6 VERB 6
+上帝	13 PROPN 8 NOUN 5
+上手	1 VERB 1
+上新世	1 NOUN 1
+上方	3 NOUN 3
+上映	6 VERB 6
+上朝	1 VERB 1
+上林	1 PROPN 1
+上校	2 NOUN 2
+上沖	1 PROPN 1
+上海	38 PROPN 38
+上游	3 NOUN 3
+上演	4 VERB 4
+上班	1 VERB 1
+上環	3 PROPN 3
+上端	1 NOUN 1
+上網	1 VERB 1
+上線	1 VERB 1
+上色	1 NOUN 1
+上蓋	1 NOUN 1
+上街	2 VERB 2
+上表	3 VERB 2 AUX 1
+上訪	1 VERB 1
+上訴	4 NOUN 2 VERB 2
+上課	3 VERB 2 NOUN 1
+上調	1 VERB 1
+上路	1 VERB 1
+上身	1 NOUN 1
+上車	1 VERB 1
+上述	6 NOUN 4 ADJ 2
+上選	1 NOUN 1
+上部	1 NOUN 1
+上限	1 NOUN 1
+上陣	9 VERB 9
+上集	1 NOUN 1
+上雲	1 PROPN 1
+上面	3 NOUN 3
+上顎	1 NOUN 1
+下	84 ADP 57 NOUN 18 DET 8 VERB 1
+下令	5 VERB 5
+下來	8 VERB 8
+下列	3 NOUN 3
+下剋上高潮	1 X 1
+下午	8 NOUN 8
+下半	1 NOUN 1
+下去	2 VERB 2
+下台	3 VERB 3
+下圖	1 NOUN 1
+下場	3 NOUN 3
+下層	2 NOUN 2
+下屬	2 VERB 2
+下徹	1 PROPN 1
+下方	1 NOUN 1
+下旬	2 NOUN 2
+下樓	1 VERB 1
+下水	2 VERB 2
+下河	1 PROPN 1
+下海	2 PROPN 2
+下游	3 NOUN 3
+下潛	1 VERB 1
+下獄	1 VERB 1
+下稱	1 VERB 1
+下級	3 NOUN 3
+下蝕	1 NOUN 1
+下設	1 VERB 1
+下課	1 NOUN 1
+下跌	1 VERB 1
+下車	1 VERB 1
+下轄	17 VERB 16 NOUN 1
+下遊	1 NOUN 1
+下部	1 NOUN 1
+下野	2 VERB 2
+下關	1 PROPN 1
+下降	9 VERB 9
+下院	1 NOUN 1
+下集	1 NOUN 1
+下雷	1 PROPN 1
+下面	1 NOUN 1
+下頜	4 NOUN 4
+下顎	1 NOUN 1
+下風	1 NOUN 1
+不	168 ADV 165 PART 3 ***
+不一	2 ADJ 2
+不丹	1 PROPN 1
+不久	20 NOUN 20
+不乏	1 VERB 1
+不以為然	1 ADJ 1
+不但	3 ADP 3
+不停	2 VERB 2
+不僅	5 ADP 5
+不克	1 VERB 1
+不入	1 ADV 1
+不再	2 ADV 2
+不凡	1 ADJ 1
+不出	1 VERB 1
+不出所料	1 ADV 1
+不列顛	2 PROPN 2
+不利	1 ADJ 1
+不到	1 VERB 1
+不力	1 ADJ 1
+不動	1 VERB 1
+不去	1 VERB 1
+不及	4 VERB 4
+不受	2 VERB 2
+不可	7 AUX 7
+不吃	1 VERB 1
+不合	1 VERB 1
+不同	82 ADJ 78 NOUN 3 VERB 1 ***
+不和	1 VERB 1
+不問	1 VERB 1
+不均	1 ADJ 1
+不多	1 ADJ 1
+不夠	2 AUX 1 ADJ 1
+不大	1 ADJ 1
+不好	5 ADJ 5
+不如	2 VERB 2
+不定	1 ADJ 1
+不宜	2 ADV 1 ADJ 1
+不實	1 ADJ 1
+不少	22 ADJ 21 NUM 1
+不已	2 ADJ 2
+不幸	2 ADV 2
+不得	4 AUX 3 VERB 1
+不惜	2 VERB 2
+不想	3 AUX 3
+不愛	1 VERB 1
+不應	4 AUX 4
+不懷好意	1 VERB 1
+不折不扣	1 ADJ 1
+不捨	1 VERB 1
+不收	1 ADV 1
+不敬	1 VERB 1
+不敵	3 VERB 3
+不料	1 VERB 1
+不斷	9 ADV 6 ADJ 3
+不明	3 ADJ 3
+不易	1 ADV 1
+不是	35 AUX 24 VERB 11
+不景	1 ADJ 1
+不會	20 AUX 20
+不服	1 VERB 1
+不朽	1 ADJ 1
+不歸	1 PROPN 1
+不法	2 ADJ 2
+不清	2 ADJ 2
+不準	1 AUX 1
+不滿	10 ADJ 6 VERB 3 NOUN 1
+不理	1 VERB 1
+不用	2 VERB 2
+不畏	1 VERB 1
+不知所措	1 VERB 1
+不符	1 VERB 1
+不等	4 ADJ 3 VERB 1
+不管	2 ADP 2
+不紅	1 ADJ 1
+不純	1 ADJ 1
+不絕	1 VERB 1
+不能	20 AUX 20
+不良	2 ADJ 2
+不行	1 VERB 1
+不衰	1 ADJ 1
+不要	1 AUX 1
+不見天日	1 ADJ 1
+不解	1 ADJ 1
+不計其數	1 ADJ 1
+不該	1 AUX 1
+不詳	1 VERB 1
+不論	2 ADP 2
+不變	2 ADJ 1 VERB 1
+不豐	1 ADJ 1
+不賣	1 VERB 1
+不足	4 ADJ 4
+不輸	1 VERB 1
+不辭辛勞	1 VERB 1
+不過	26 ADV 25 ADJ 1
+不道	1 VERB 1
+不遠	3 ADJ 3
+不適	1 ADJ 1
+不銹	1 ADJ 1
+不錯	2 ADJ 2
+不限	1 VERB 1
+不需	2 AUX 2
+不露	1 VERB 1
+不韋	3 PROPN 3
+不願	2 AUX 2
+不顧	1 VERB 1
+丐幫	2 NOUN 2
+且	14 CCONJ 7 ADV 6 PROPN 1
+且是	1 AUX 1
+世	3 NOUN 3
+世上	1 NOUN 1
+世人	2 NOUN 2
+世代相傳	1 VERB 1
+世俗	3 NOUN 3
+世充	1 PROPN 1
+世凱	4 PROPN 4
+世則	1 PROPN 1
+世博	2 NOUN 2
+世卿	2 NOUN 2
+世子	1 NOUN 1
+世宗	3 NOUN 2 PROPN 1
+世家	1 NOUN 1
+世昌	1 PROPN 1
+世民	1 PROPN 1
+世田谷	1 PROPN 1
+世界	85 NOUN 84 PROPN 1 ***
+世祿	1 NOUN 1
+世紀	60 NOUN 60
+世綱	1 PROPN 1
+世襲	2 VERB 1 ADJ 1
+世貿	1 PROPN 1
+世道	1 NOUN 1
+世銘	1 PROPN 1
+世錦	3 NOUN 3
+丘	1 PROPN 1
+丘陵	2 NOUN 2
+丙組	1 NOUN 1
+丞相	1 NOUN 1
+丟失	3 VERB 3
+並	268 ADV 254 CCONJ 14 ***
+並且	28 ADV 24 CCONJ 4
+並無	1 VERB 1
+並稱	1 VERB 1
+並系	1 NOUN 1
+並非	10 VERB 6 AUX 4
+中	392 ADP 310 NOUN 40 PROPN 37 VERB 3 PART 2 ***
+中信	1 PROPN 1
+中共	16 PROPN 16
+中區	2 NOUN 2
+中午	2 NOUN 2
+中南	1 PROPN 1
+中南海	1 PROPN 1
+中原	1 NOUN 1
+中古	3 NOUN 3
+中國	229 PROPN 229 ***
+中堅	1 NOUN 1
+中場	1 NOUN 1
+中天	2 PROPN 2
+中央	32 NOUN 31 PROPN 1
+中子	3 NOUN 3
+中學	14 NOUN 14
+中將	3 NOUN 3
+中山	10 PROPN 10
+中巴	2 PROPN 2
+中底層	1 NOUN 1
+中彈	1 VERB 1
+中心	51 NOUN 51
+中性	1 NOUN 1
+中投	1 PROPN 1
+中斷	1 VERB 1
+中旬	1 NOUN 1
+中期	3 NOUN 3
+中東	4 PROPN 4
+中校	1 NOUN 1
+中樞	1 NOUN 1
+中檔	1 NOUN 1
+中止	4 VERB 4
+中正	2 PROPN 2
+中殿	1 NOUN 1
+中毒	1 VERB 1
+中波希米亞	1 PROPN 1
+中環	8 PROPN 8
+中田	1 PROPN 1
+中立	5 ADJ 5
+中級	1 NOUN 1
+中綴	1 NOUN 1
+中線	1 NOUN 1
+中耳	1 NOUN 1
+中聯	1 PROPN 1
+中興	1 NOUN 1
+中華	64 PROPN 64
+中葉	1 NOUN 1
+中藥	1 NOUN 1
+中西	3 NOUN 2 PROPN 1
+中西方	1 PROPN 1
+中西醫	1 PROPN 1
+中視	4 PROPN 4
+中觀	1 NOUN 1
+中超	1 PROPN 1
+中轉	3 NOUN 2 VERB 1
+中農	1 PROPN 1
+中途	2 NOUN 2
+中道	2 NOUN 2
+中遠	2 PROPN 2
+中部	13 NOUN 13
+中鐵	1 PROPN 1
+中間	6 NOUN 6
+中風	3 VERB 2 NOUN 1
+串聯	1 VERB 1
+丸都	1 PROPN 1
+丹	1 PROPN 1
+丹佛	3 PROPN 3
+丹尼士	3 PROPN 2 NOUN 1
+丹尼士達智	1 PROPN 1
+丹羽	4 PROPN 4
+丹路殊	1 PROPN 1
+丹麥	9 PROPN 9
+主	25 PART 14 ADJ 10 PROPN 1
+主上	2 NOUN 2
+主人	7 NOUN 7
+主任	4 NOUN 4
+主修	1 VERB 1
+主創	1 NOUN 1
+主力	2 NOUN 2
+主動	3 ADV 3
+主唱	3 NOUN 3
+主因	2 NOUN 2
+主場	2 NOUN 2
+主導	1 VERB 1
+主席	21 NOUN 21
+主帶	1 NOUN 1
+主幹	1 NOUN 1
+主張	12 VERB 10 NOUN 2
+主意	1 NOUN 1
+主持	11 VERB 9 NOUN 2
+主控	1 VERB 1
+主教	11 NOUN 11
+主機	3 NOUN 3
+主權	2 NOUN 2
+主治	1 NOUN 1
+主流	5 NOUN 5
+主演	4 VERB 4
+主炮	2 NOUN 2
+主犯	1 NOUN 1
+主筆	1 NOUN 1
+主管	2 VERB 1 NOUN 1
+主線	2 NOUN 2
+主編	3 VERB 2 NOUN 1
+主義	34 NOUN 34
+主船	1 NOUN 1
+主要	84 ADJ 43 ADV 41
+主角	15 NOUN 15
+主辦	3 VERB 3
+主題	8 NOUN 8
+主食	1 NOUN 1
+主體	3 NOUN 3
+乃	4 VERB 3 ADV 1
+乃威	1 PROPN 1
+久	5 NOUN 4 ADJ 1
+久經	1 VERB 1
+久藏	1 PROPN 1
+之	218 PART 198 PRON 19 X 1 ***
+之上	4 NOUN 2 ADP 2
+之下	7 ADP 7
+之中	11 ADP 9 NOUN 2
+之內	3 ADP 3
+之前	16 ADP 14 NOUN 2
+之外	10 ADP 9 NOUN 1
+之後	61 ADP 48 NOUN 13
+之所以	1 ADP 1
+之時	3 ADP 3
+之申	1 PROPN 1
+之銓	1 PROPN 1
+之鋒	1 PROPN 1
+之間	50 ADP 35 NOUN 15
+乘	6 VERB 5 ADP 1
+乘勢	1 VERB 1
+乘坐	4 VERB 4
+乘客	4 NOUN 4
+乘搭	3 VERB 3
+乘撘	1 VERB 1
+乘船	2 VERB 2
+乘裝	1 VERB 1
+乘車	2 VERB 1 NOUN 1
+乙	1 PROPN 1
+乙二胺	1 NOUN 1
+乙未	1 NOUN 1
+乙級	2 NOUN 2
+乙組	1 NOUN 1
+乙苯	1 NOUN 1
+九	14 NUM 13 PROPN 1
+九一八	2 NUM 2
+九十	1 NUM 1
+九州	2 PROPN 2
+九巴	2 PROPN 2
+九江	1 PROPN 1
+九緞	1 PROPN 1
+九鐵	1 PROPN 1
+九龍	16 PROPN 16
+也	254 ADV 248 CCONJ 6 ***
+也好	3 ADJ 3
+也是	70 AUX 63 VERB 4 ADV 3
+也有	2 VERB 2
+也許	2 ADV 2
+乳房	1 NOUN 1
+乳糖	1 NOUN 1
+乳酪	2 NOUN 2
+乾季	1 NOUN 1
+乾德	1 PROPN 1
+乾淨	1 ADJ 1
+乾燥	4 ADJ 4
+乾西	1 PROPN 1
+乾隆	4 PROPN 4
+亂	1 NOUN 1
+亂倫	1 VERB 1
+亂刀	1 ADV 1
+了	645 PART 608 X 37
+了解	4 VERB 3 NOUN 1
+予	5 VERB 5
+事	11 NOUN 9 PART 2
+事件	27 NOUN 27
+事先	1 ADV 1
+事務	9 NOUN 9
+事宜	1 NOUN 1
+事實	7 NOUN 7
+事後	2 NOUN 2
+事情	7 NOUN 7
+事態	1 NOUN 1
+事故	5 NOUN 5
+事業	12 NOUN 12
+事物	6 NOUN 6
+事發	1 VERB 1
+事與願違	1 VERB 1
+事變	4 NOUN 4
+事跡	1 NOUN 1
+事蹟	1 NOUN 1
+二	59 NUM 59
+二世	8 PROPN 8
+二中全會	1 PROPN 1
+二二八	1 NUM 1
+二十	6 NUM 6
+二十二	1 NUM 1
+二十五	1 NUM 1
+二十八	1 NUM 1
+二十六	2 NUM 2
+二十多	1 NUM 1
+二十萬	1 NUM 1
+二宮	1 PROPN 1
+二戰	7 NOUN 7
+二戶	1 PROPN 1
+二甘醇	2 NOUN 2
+二百	1 NUM 1
+二百五十餘	1 NUM 1
+二百餘	1 NUM 1
+二胺	1 NOUN 1
+二郎	1 PROPN 1
+于	4 PROPN 3 ADP 1
+于敏	1 PROPN 1
+互作	1 VERB 1
+互利	1 VERB 1
+互助	1 PROPN 1
+互動	2 VERB 1 NOUN 1
+互惠	1 VERB 1
+互相	9 ADV 9
+互聯	3 VERB 2 ADJ 1
+互通	1 VERB 1
+互選	1 VERB 1
+五	60 NUM 60
+五一	1 PROPN 1
+五世	4 PROPN 4
+五中全會	1 PROPN 1
+五十	1 NUM 1
+五十六	1 NUM 1
+五四	2 PROPN 1 NUM 1
+五峰	2 PROPN 2
+五常	1 PROPN 1
+五弟	1 NOUN 1
+五彩繽紛	1 ADJ 1
+五成半	1 NUM 1
+五指	1 PROPN 1
+五氧化二氮	1 NOUN 1
+五百	2 NUM 2
+五百萬	1 NUM 1
+五萬三千	1 NUM 1
+五角	3 PROPN 3
+井	2 PART 2
+井字	1 NOUN 1
+井村	1 PROPN 1
+井田	1 NOUN 1
+些	3 ADJ 3
+些微	1 ADJ 1
+亞	18 PROPN 15 PART 3
+亞丁	1 PROPN 1
+亞他那修	1 PROPN 1
+亞伯塔	1 PROPN 1
+亞伯拉罕	1 PROPN 1
+亞冠	2 NOUN 2
+亞冠龍	1 NOUN 1
+亞利桑那	2 PROPN 2
+亞基	1 NOUN 1
+亞奧	1 PROPN 1
+亞彬	1 PROPN 1
+亞得里亞	2 PROPN 2
+亞文	1 PROPN 1
+亞普芮	1 PROPN 1
+亞東	1 PROPN 1
+亞歷山大丹尼士	1 PROPN 1
+亞洲	8 PROPN 8
+亞流	1 PROPN 1
+亞烏扎	1 PROPN 1
+亞瑟	1 PROPN 1
+亞當	3 PROPN 3
+亞目	3 NOUN 3
+亞視	3 PROPN 3
+亞諾夫卡	1 PROPN 1
+亞軍	4 NOUN 4
+亞述	1 PROPN 1
+亞運	1 PROPN 1
+亞邦	1 PROPN 1
+亞馬遜	5 PROPN 5
+亞麻	1 NOUN 1
+亡故	1 VERB 1
+交	2 VERB 2
+交互	2 NOUN 2
+交付	1 VERB 1
+交代	1 VERB 1
+交出	1 VERB 1
+交到	2 VERB 2
+交匯	2 VERB 2
+交口	1 NOUN 1
+交回	1 VERB 1
+交好	2 VERB 2
+交州	1 PROPN 1
+交往	3 VERB 3
+交情	2 NOUN 2
+交戰	2 NOUN 1 VERB 1
+交手	2 NOUN 1 VERB 1
+交換	7 VERB 4 NOUN 3
+交易	14 NOUN 7 VERB 7
+交替	1 VERB 1
+交棒	1 VERB 1
+交流	10 NOUN 7 VERB 3
+交涉	1 VERB 1
+交界	1 VERB 1
+交給	4 VERB 4
+交行	1 PROPN 1
+交角	1 NOUN 1
+交談	1 NOUN 1
+交趾	2 PROPN 2
+交通	24 NOUN 20 PROPN 4
+交道	1 NOUN 1
+交配	4 VERB 3 NOUN 1
+交錯	1 VERB 1
+交響	4 VERB 2 NOUN 2
+亦	60 ADV 60
+亦即	1 VERB 1
+亦是	6 AUX 5 ADV 1
+亦為	5 AUX 4 VERB 1
+亨	1 PROPN 1
+亨利	11 PROPN 10 NOUN 1
+享	1 VERB 1
+享受	6 VERB 6
+享年	4 VERB 4
+京	13 PROPN 13
+京劇	1 NOUN 1
+京王	1 PROPN 1
+京都	3 PROPN 3
+京釜	1 PROPN 1
+亭湖	1 PROPN 1
+亮	7 PROPN 6 ADJ 1
+亮度	3 NOUN 3
+亮相	1 NOUN 1
+人	490 NOUN 301 PART 188 VERB 1 ***
+人世	1 NOUN 1
+人事	4 NOUN 4
+人仕	1 NOUN 1
+人們	15 NOUN.P_人 15
+人力	2 NOUN 2
+人口	116 NOUN 116 ***
+人員	27 NOUN 27
+人均	5 ADJ 5
+人士	11 NOUN 11
+人字	1 NOUN 1
+人客	1 NOUN 1
+人工	8 NOUN 7 ADJ 1
+人心	2 NOUN 2
+人性	3 NOUN 3
+人手	1 NOUN 1
+人才	2 NOUN 2
+人數	12 NOUN 12
+人文	2 NOUN 2
+人日	1 NOUN 1
+人格	2 NOUN 2
+人權	1 NOUN 1
+人次	3 NOUN 3
+人殉	1 NOUN 1
+人民	61 NOUN 60 PROPN 1
+人氣	1 NOUN 1
+人熙	2 PROPN 2
+人物	37 NOUN 37
+人生	3 NOUN 2 VERB 1
+人祭	1 NOUN 1
+人種	1 NOUN 1
+人稱	1 NOUN 1
+人群	2 NOUN 2
+人行	1 NOUN 1
+人身	3 NOUN 3
+人道	1 ADJ 1
+人選	1 NOUN 1
+人間	2 NOUN 2
+人類	36 NOUN 36
+人魚	2 NOUN 2
+人麻呂	1 PROPN 1
+什麼	13 PRON 13
+仁傑	1 PROPN 1
+仁和	1 PROPN 1
+仁壽	1 PROPN 1
+仁守	1 PROPN 1
+仁宗	1 PROPN 1
+仁慈	2 ADJ 2
+仁煥	1 PROPN 1
+仁牙因	1 PROPN 1
+仁玕	1 PROPN 1
+仁穆	1 PROPN 1
+仁粹	1 PROPN 1
+仁記	2 PROPN 2
+仁青	1 PROPN 1
+仇人	1 NOUN 1
+今	16 NOUN 16
+今天	5 NOUN 5
+今川	1 PROPN 1
+今年	2 NOUN 2
+今日	6 NOUN 6
+介乎	2 VERB 2
+介入	5 VERB 4 NOUN 1
+介壽	1 PROPN 1
+介石	2 PROPN 2
+介紹	10 VERB 9 NOUN 1
+介質	1 NOUN 1
+仍	32 ADV 32
+仍是	1 ADV 1
+仍有	1 VERB 1
+仍然	21 ADV 21
+仍算	1 AUX 1
+仍舊	2 ADV 2
+他	462 PRON 462 ***
+他人	4 NOUN 4
+他倆	1 PRON 1
+他們	97 PRON.P_他 97 ***
+他家	1 NOUN 1
+付出	3 VERB 3
+付款	2 VERB 2
+仙	2 PROPN 2
+仙人打坐	1 PROPN 1
+仙劍	2 NOUN 2
+仙女	2 NOUN 2
+仙女木	1 NOUN 1
+仙鶴	1 PROPN 1
+代	20 NOUN 19 PART 1
+代亞布羅	1 PROPN 1
+代價	1 NOUN 1
+代名詞	1 NOUN 1
+代幣	1 NOUN 1
+代數	1 NOUN 1
+代牧	1 NOUN 1
+代理	6 VERB 4 NOUN 2
+代碼	1 NOUN 1
+代表	63 VERB 35 NOUN 28
+代言	4 VERB 4
+令	19 VERB 16 PART 2 AUX 1
+令狐	1 PROPN 1
+令華	1 PROPN 1
+以	264 ADP 116 VERB 86 ADV 62 ***
+以上	20 ADP 13 DET 6 NOUN 1
+以下	12 DET 8 ADP 4
+以來	15 ADP 15
+以前	12 NOUN 7 ADP 5
+以北	5 NOUN 5
+以南	3 NOUN 3
+以及	67 CCONJ 67
+以外	8 ADP 8
+以往	3 NOUN 3
+以後	11 ADP 9 NOUN 2
+以東	2 NOUN 2
+以為	3 VERB 2 AUX 1
+以爲	1 AUX 1
+以至	2 ADV 2
+以致	3 VERB 3
+以色列	11 PROPN 11
+以西	4 NOUN 4
+仰光	1 PROPN 1
+仰望	1 VERB 1
+仲	1 PROPN 1
+仲雄	1 PROPN 1
+件	11 NOUN 11
+任	45 VERB 29 NOUN 14 PROPN 2
+任何	18 DET 18
+任免	1 VERB 1
+任內	3 NOUN 3
+任務	7 NOUN 7
+任命	7 VERB 7
+任城	2 PROPN 2
+任天堂	2 PROPN 2
+任意	2 ADV 2
+任教	3 VERB 3
+任期	5 NOUN 5
+任職	5 VERB 5
+任選	1 VERB 1
+份	12 NOUN 12
+份子	4 NOUN 4
+份額	2 NOUN 2
+仿	2 VERB 2
+企圖	4 VERB 4
+企業	18 NOUN 18
+企鵝	3 NOUN 3
+伊	1 PROPN 1
+伊利	1 PROPN 1
+伊塔蒂亞亞	1 PROPN 1
+伊娃	1 PROPN 1
+伊尹	1 PROPN 1
+伊恩	3 PROPN 3
+伊摩琴	1 PROPN 1
+伊朗	1 PROPN 1
+伊犁	1 PROPN 1
+伊甸	1 PROPN 1
+伊莎貝	1 PROPN 1
+伊薩	1 PROPN 1
+伊賀	3 PROPN 3
+伊阿宋	1 PROPN 1
+伊頓	1 PROPN 1
+伊麗莎白	7 PROPN 7
+伍德	1 PROPN 1
+伍德羅	1 PROPN 1
+伎倆	1 NOUN 1
+伏塔	1 PROPN 1
+伏威	2 PROPN 2
+伐	1 VERB 1
+休假	1 VERB 1
+休克	1 VERB 1
+休息	3 VERB 2 NOUN 1
+休憩	1 NOUN 1
+休斯	1 PROPN 1
+休閑	1 NOUN 1
+休閒	2 NOUN 1 VERB 1
+休養	1 VERB 1
+伙食	1 NOUN 1
+伯公	2 PROPN 2
+伯多祿	1 PROPN 1
+伯恩	1 PROPN 1
+伯明翰	1 PROPN 1
+伯根約	1 PROPN 1
+伯格	1 PROPN 1
+伯溫	1 PROPN 1
+伯爵	2 NOUN 2
+伯納姆	1 PROPN 1
+伯納雷	1 PROPN 1
+伯莎	1 PROPN 1
+伯虎	1 PROPN 1
+伯謙	1 PROPN 1
+伯達	1 PROPN 1
+估計	3 VERB 3
+伴侶	1 NOUN 1
+伴奏	1 VERB 1
+伴有	1 VERB 1
+伴生	1 VERB 1
+伴隨	2 VERB 2
+伶	3 PROPN 3
+伸一	1 PROPN 1
+伸冤	1 VERB 1
+伸出	3 VERB 3
+伸延	1 VERB 1
+伸港	1 PROPN 1
+伺服	4 VERB 4
+似	3 VERB 3
+似乎	2 ADV 2
+伽利略	3 PROPN 3
+伽馬	1 NOUN 1
+但	173 ADV 173 ***
+但丁	6 PROPN 6
+但是	50 ADV 50
+佈局	1 NOUN 1
+佈置	1 VERB 1
+佈道	1 VERB 1
+位	198 VERB 134 NOUN 63 PART 1
+位列	1 VERB 1
+位在	1 VERB 1
+位居	1 VERB 1
+位置	14 NOUN 14
+位階	1 NOUN 1
+位面	1 NOUN 1
+低	16 PART 9 ADJ 7
+低下	1 ADJ 1
+低估	1 VERB 1
+低價	1 NOUN 1
+低地	2 NOUN 2
+低層	1 NOUN 1
+低平	1 NOUN 1
+低座	1 NOUN 1
+低廉	2 ADJ 2
+低檔	1 NOUN 1
+低溫	2 NOUN 2
+低潮	1 NOUN 1
+低等	1 ADJ 1
+低調	1 ADJ 1
+低額	1 NOUN 1
+住	6 VERB 6
+住宅	7 NOUN 7
+住戶	3 NOUN 3
+住房	2 NOUN 2
+住所	1 NOUN 1
+住進	1 VERB 1
+住院	3 VERB 2 NOUN 1
+佐佐木	1 PROPN 1
+佐和子	1 PROPN 1
+佐土原	2 PROPN 2
+佐民	1 PROPN 1
+佐藤	2 PROPN 2
+佔	11 VERB 11
+佔地	8 VERB 6 NOUN 2
+佔據	5 VERB 5
+佔有	3 VERB 3
+佔用	1 VERB 1
+佔領	19 VERB 16 NOUN 3
+何	8 PROPN 7 PRON 1
+何力特	1 PROPN 1
+何方	1 PRON 1
+何時	1 ADV 1
+佛	3 PART 2 NOUN 1
+佛事	1 NOUN 1
+佛像	3 NOUN 3
+佛典	1 NOUN 1
+佛學	3 NOUN 3
+佛山	2 PROPN 2
+佛教	8 PROPN 5 NOUN 3
+佛朗明哥	2 PROPN 2
+佛殿	2 NOUN 2
+佛經	1 NOUN 1
+佛羅里達	1 PROPN 1
+佛萊明	1 PROPN 1
+佛蒙特	1 PROPN 1
+佛頭	1 NOUN 1
+作	64 VERB 61 NOUN 2 PART 1
+作出	7 VERB 7
+作品	45 NOUN 45
+作好	2 VERB 2
+作家	10 NOUN 10
+作對	1 VERB 1
+作怪	1 VERB 1
+作戰	15 VERB 8 NOUN 7
+作曲	1 VERB 1
+作業	2 VERB 1 NOUN 1
+作次郎	1 PROPN 1
+作法	1 NOUN 1
+作為	1 NOUN 1
+作物	2 NOUN 2
+作用	21 NOUN 19 VERB 2
+作畫	1 NOUN 1
+作者	11 NOUN 11
+作雲	1 PROPN 1
+作霖	3 PROPN 3
+作風	1 NOUN 1
+你	17 PRON 17
+佩佐拉諾	1 PROPN 1
+佩儂	1 PROPN 1
+佩劍	2 NOUN 2
+佩戴	1 VERB 1
+佩琪	1 PROPN 1
+佩芮	1 PROPN 1
+佬	1 PART 1
+佳作	1 NOUN 1
+佳佳	1 PROPN 1
+佳節	1 NOUN 1
+併	3 ADV 2 CCONJ 1
+併入	2 VERB 2
+併發	1 VERB 1
+使	59 VERB 56 PART 3
+使命	2 NOUN 2
+使喚	1 VERB 1
+使團	1 NOUN 1
+使得	15 VERB 15
+使用	106 VERB 96 NOUN 10 ***
+使節	1 NOUN 1
+使者	2 NOUN 2
+使館	2 NOUN 2
+侄子	1 NOUN 1
+來	119 ADV 70 VERB 35 ADP 14
+來到	9 VERB 9
+來往	10 VERB 9 NOUN 1
+來源	6 NOUN 5 VERB 1
+來看	1 VERB 1
+來臨	1 VERB 1
+來自	3 VERB 3
+來襲	1 VERB 1
+來訪	2 VERB 2
+來館	1 VERB 1
+侈談	1 VERB 1
+例	2 NOUN 2
+例外	2 NOUN 1 ADJ 1
+例如	25 VERB 23 ADV 2
+例子	4 NOUN 4
+侍奉	1 VERB 1
+侍女	1 NOUN 1
+侍從	1 NOUN 1
+侏羅	1 PROPN 1
+供	10 VERB 10
+供奉	3 VERB 3
+供應	4 VERB 3 NOUN 1
+供暖	2 VERB 2
+供水	1 VERB 1
+供熱	2 NOUN 2
+供給	3 NOUN 2 VERB 1
+供職	2 NOUN 1 VERB 1
+供電	1 VERB 1
+供養	1 VERB 1
+依	3 ADP 3
+依據	8 ADP 4 NOUN 3 VERB 1
+依次	1 ADV 1
+依法	4 VERB 4
+依然	6 ADV 6
+依照	1 ADP 1
+依瑪	1 PROPN 1
+依舊	5 ADV 5
+依託	1 NOUN 1
+依託泊苷	1 NOUN 1
+依賴	3 VERB 3
+依附	1 VERB 1
+依靠	6 VERB 4 ADP 2
+侮辱	1 VERB 1
+侯	1 PART 1
+侵	2 VERB 2
+侵佔	1 VERB 1
+侵入	2 VERB 2
+侵害	1 NOUN 1
+侵犯	2 VERB 2
+侵略	5 VERB 3 NOUN 2
+侵蝕	4 NOUN 2 VERB 2
+便	45 ADV 39 VERB 6
+便利	1 ADJ 1
+便宜	3 ADJ 3
+便捷	1 ADJ 1
+便是	1 AUX 1
+便服	1 NOUN 1
+便當	1 NOUN 1
+便秘	1 VERB 1
+促使	2 VERB 2
+促成	2 VERB 2
+促進	6 VERB 5 NOUN 1
+俄	10 PROPN 10
+俄亥俄	3 PROPN 3
+俄國	8 PROPN 8
+俊業	1 PROPN 1
+俗	1 ADJ 1
+俗稱	2 VERB 2
+俘獲	1 VERB 1
+俘虜	3 VERB 2 NOUN 1
+保	1 VERB 1
+保住	1 VERB 1
+保全	1 VERB 1
+保大	1 PROPN 1
+保存	5 VERB 3 NOUN 1 AUX 1
+保守	9 ADJ 8 VERB 1
+保安	3 PROPN 2 NOUN 1
+保定	3 PROPN 3
+保密	1 NOUN 1
+保持	11 VERB 11
+保明	1 PROPN 1
+保有	2 VERB 2
+保溫	1 NOUN 1
+保留	12 VERB 11 NOUN 1
+保級	2 AUX 1 VERB 1
+保羅	2 PROPN 2
+保育	3 NOUN 3
+保衛	2 NOUN 1 VERB 1
+保證	3 VERB 3
+保護	40 NOUN 21 VERB 19
+保送	1 NOUN 1
+保障	4 NOUN 3 VERB 1
+保險	11 NOUN 10 VERB 1
+保養	1 VERB 1
+俠	1 NOUN 1
+信	5 PROPN 3 PART 1 NOUN 1
+信中	1 NOUN 1
+信仰	12 NOUN 12
+信任	5 NOUN 3 VERB 2
+信奉	5 VERB 5
+信徒	4 NOUN 4
+信德	3 PROPN 2 NOUN 1
+信心	2 NOUN 2
+信念	1 NOUN 1
+信息	8 NOUN 8
+信教	1 VERB 1
+信玄	1 PROPN 1
+信神	1 NOUN 1
+信竹	1 PROPN 1
+信義	2 NOUN 2
+信號	6 NOUN 6
+信裡	1 NOUN 1
+信託	5 NOUN 5
+信長	2 PROPN 2
+信雄	2 PROPN 2
+修士	2 NOUN 2
+修好	1 VERB 1
+修學	1 VERB 1
+修建	5 VERB 5
+修復	4 NOUN 2 AUX 1 VERB 1
+修憲	1 VERB 1
+修正	5 VERB 4 NOUN 1
+修煉	1 VERB 1
+修理	2 VERB 2
+修羅	1 NOUN 1
+修習	2 NOUN 1 VERB 1
+修葺	1 NOUN 1
+修訂	2 VERB 2
+修讀	1 VERB 1
+修道	3 VERB 3
+修鍊	2 VERB 2
+修長	1 ADJ 1
+修鞋	1 VERB 1
+修養	1 NOUN 1
+俯瞰	1 VERB 1
+俱樂部	14 NOUN 14
+俸祿	1 NOUN 1
+俾路支	1 PROPN 1
+倉促	1 ADJ 1
+倉庫	1 NOUN 1
+個	498 NOUN 498 ***
+個人	12 NOUN 5 PRON 4 ADJ 3
+個位	1 NOUN 1
+個個	1 NOUN 1
+個別	3 ADJ 3
+個展	1 NOUN 1
+個性	3 NOUN 3
+個案	2 NOUN 2
+個體	6 NOUN 6
+倍	9 NOUN 9
+們	24 PART 24
+倒下	1 VERB 1
+倒入	1 VERB 1
+倒台	2 VERB 1 NOUN 1
+倒掛	2 VERB 2
+倖免	1 VERB 1
+倖存	3 VERB 3
+候旨	1 VERB 1
+候補	1 VERB 1
+候選	3 VERB 3
+候鳥	2 NOUN 2
+倚天	1 VERB 1
+倚靠	1 VERB 1
+借	1 VERB 1
+借用	3 VERB 2 NOUN 1
+倡導	2 VERB 2
+倩文	1 PROPN 1
+倪	4 PROPN 4
+倫	2 PROPN 2
+倫巴底	1 PROPN 1
+倫拜	1 PROPN 1
+倫敦	14 PROPN 14
+倫理	4 NOUN 4
+倫納特	1 PROPN 1
+倬標	1 PROPN 1
+倭國	1 PROPN 1
+倭寇	1 NOUN 1
+值	3 NOUN 1 VERB 1 PART 1
+值得	3 VERB 3
+假使	1 ADP 1
+假借	1 VERB 1
+假名	1 NOUN 1
+假如	2 ADP 2
+假帳	1 NOUN 1
+假期	2 NOUN 2
+假設	1 NOUN 1
+假說	1 NOUN 1
+假象	1 NOUN 1
+假釋	1 VERB 1
+假面	1 NOUN 1
+假髮	2 NOUN 2
+偉	1 PROPN 1
+偉大	4 ADJ 4
+偉強	1 PROPN 1
+偏	3 ADP 3
+偏低	1 ADJ 1
+偏僻	1 ADJ 1
+偏向	1 VERB 1
+偏小	1 ADJ 1
+偏差	2 NOUN 2
+偏東	1 VERB 1
+偏重	1 VERB 1
+偏離	1 NOUN 1
+做	27 VERB 25 AUX 2
+做出	4 VERB 4
+做到	1 VERB 1
+做成	1 VERB 1
+做法	7 NOUN 7
+停	3 VERB 3
+停刊	1 VERB 1
+停戰	2 VERB 2
+停業	1 VERB 1
+停機	1 VERB 1
+停止	6 VERB 6
+停泊	1 VERB 1
+停滯	2 NOUN 1 VERB 1
+停留	4 VERB 3 NOUN 1
+停職	1 NOUN 1
+停車	3 VERB 3
+停辦	1 VERB 1
+停靠	1 VERB 1
+停飛	1 VERB 1
+健保	1 NOUN 1
+健壯	2 ADJ 2
+健將	1 NOUN 1
+健康	9 NOUN 7 ADJ 2
+健身	1 NOUN 1
+側	6 NOUN 3 PART 3
+側目	1 VERB 1
+側邊	1 NOUN 1
+偵察	1 VERB 1
+偵測	1 VERB 1
+偵緝	1 VERB 1
+偶像	2 NOUN 2
+偶然	2 ADJ 1 ADV 1
+偶爾	2 ADV 2
+偶發	1 ADJ 1
+偷取	1 VERB 1
+偷羊	1 VERB 1
+偷襲	1 VERB 1
+偷走	1 VERB 1
+偽	1 PART 1
+偽季米特里	1 PROPN 1
+偽裝	1 VERB 1
+偽造	2 VERB 2
+傀儡	1 NOUN 1
+傅	8 PROPN 8
+傅萊	1 PROPN 1
+傍	1 VERB 1
+傍晚	1 NOUN 1
+傑	1 PROPN 1
+傑作	2 NOUN 2
+傑出	5 ADJ 5
+傑志	1 PROPN 1
+傑斐遜	1 PROPN 1
+備	3 PROPN 2 VERB 1
+備受	3 VERB 3
+備忘	2 VERB 1 NOUN 1
+備戰	1 NOUN 1
+備案	1 VERB 1
+備用	1 NOUN 1
+備註	1 VERB 1
+傢具	1 NOUN 1
+催化	2 VERB 2
+催芽	1 VERB 1
+傭人	1 NOUN 1
+傳	7 PART 6 VERB 1
+傳來	1 VERB 1
+傳入	2 VERB 2
+傳到	2 VERB 2
+傳動	2 VERB 1 NOUN 1
+傳奇	3 NOUN 3
+傳媒	2 NOUN 2
+傳導	2 NOUN 2
+傳承	5 VERB 3 NOUN 2
+傳授	2 NOUN 1 VERB 1
+傳播	14 NOUN 7 VERB 7
+傳教	3 VERB 3
+傳染	3 VERB 3
+傳給	1 VERB 1
+傳統	22 NOUN 18 ADJ 4
+傳聞	2 NOUN 1 VERB 1
+傳言	2 NOUN 2
+傳記	1 NOUN 1
+傳說	7 NOUN 4 VERB 3
+傳送	2 VERB 2
+傳遍	1 VERB 1
+傳達	2 VERB 2
+債券	2 NOUN 2
+債務	2 NOUN 2
+傷	2 NOUN 2
+傷及	1 VERB 1
+傷口	1 NOUN 1
+傷害	5 NOUN 3 VERB 2
+傷心	1 ADJ 1
+傷患	1 NOUN 1
+傷悲	1 ADJ 1
+傷病	1 NOUN 1
+傷透	1 VERB 1
+傻	1 VERB 1
+傾向	3 VERB 2 NOUN 1
+傾心	1 VERB 1
+傾斜	1 VERB 1
+傾聽	2 VERB 2
+傾談	1 VERB 1
+僅	22 ADV 22
+僅僅	2 ADV 2
+僅屬	1 ADV 1
+僅用	1 VERB 1
+像	18 VERB 9 ADP 8 AUX 1
+像差	1 NOUN 1
+像是	6 ADV 2 ADP 2 VERB 2
+僑	1 PART 1
+僕人	1 NOUN 1
+僖	1 PROPN 1
+僧人	1 NOUN 1
+僧孺	1 PROPN 1
+僧尼	1 NOUN 1
+僧格	1 PROPN 1
+僧祐	1 PROPN 1
+僱主	1 NOUN 1
+僱傭	1 VERB 1
+僱員	2 NOUN 2
+僵局	1 NOUN 1
+價	4 PART 3 NOUN 1
+價位	1 NOUN 1
+價值	12 NOUN 12
+價格	10 NOUN 9 PROPN 1
+價錢	1 NOUN 1
+儀器	1 NOUN 1
+儀式	5 NOUN 5
+儀錶	2 NOUN 2
+億	1 NUM 1
+儒	8 PROPN 8
+儒士	1 NOUN 1
+儒家	2 PROPN 2
+儒略	1 PROPN 1
+儘快	1 ADV 1
+儘管	11 ADP 11
+儘量	1 ADV 1
+償付	1 VERB 1
+優	1 ADJ 1
+優值	1 NOUN 1
+優先	3 VERB 2 ADV 1
+優勢	6 NOUN 5 ADJ 1
+優惠	4 NOUN 3 ADJ 1
+優異	4 ADJ 4
+優秀	4 ADJ 4
+優良	1 ADJ 1
+優裕	1 ADJ 1
+優質	1 ADJ 1
+儲備	2 NOUN 2
+儲物	1 NOUN 1
+儲量	1 NOUN 1
+儷	1 PROPN 1
+兀惹	1 PROPN 1
+允	1 PROPN 1
+允良	1 PROPN 1
+允許	4 VERB 4
+元	58 NOUN 48 PART 5 PROPN 4 ADJ 1
+元代	2 PROPN 2
+元件	2 NOUN 2
+元子	1 NOUN 1
+元帥	2 NOUN 2
+元年	2 NOUN 2
+元朗	6 PROPN 6
+元朝	1 PROPN 1
+元氣	1 NOUN 1
+元洪	3 PROPN 3
+元洲	2 PROPN 2
+元澄	1 PROPN 1
+元璋	2 PROPN 2
+元甲	2 PROPN 2
+元素	12 NOUN 12
+元老	1 NOUN 1
+元起	1 PROPN 1
+元首	2 NOUN 2
+兄	1 NOUN 1
+兄弟	4 NOUN 4
+兄長	1 NOUN 1
+充任	1 VERB 1
+充分	1 ADV 1
+充斥	3 VERB 3
+充氣	1 NOUN 1
+充滿	1 VERB 1
+充當	2 VERB 2
+充軍	1 VERB 1
+充電	4 VERB 3 NOUN 1
+兆基	1 PROPN 1
+兆帕	2 NOUN 2
+兆楠	1 PROPN 1
+兆瓦	1 NOUN 1
+兆陽	1 PROPN 1
+兇多吉少	1 VERB 1
+兇悍	1 ADJ 1
+兇猛	1 ADJ 1
+先	5 ADV 3 PART 2
+先前	1 ADJ 1
+先帝	1 NOUN 1
+先師	1 NOUN 1
+先後	19 ADV 18 NOUN 1
+先攻	1 NOUN 1
+先生	12 NOUN 12
+先知	2 NOUN 2
+先行	2 VERB 1 ADV 1
+先賢	1 NOUN 1
+先進	5 ADJ 5
+先鋒	1 NOUN 1
+先驅	2 NOUN 2
+先驗	1 ADJ 1
+光	9 NOUN 6 PART 2 ADV 1
+光啟	1 PROPN 1
+光學	2 NOUN 2
+光宇	1 PROPN 1
+光州	1 PROPN 1
+光度	1 NOUN 1
+光復	1 VERB 1
+光景	1 NOUN 1
+光束	1 NOUN 1
+光棍	8 NOUN 7 PART 1
+光泰	1 PROPN 1
+光源	3 NOUN 3
+光滑	1 ADJ 1
+光照	1 VERB 1
+光環	1 NOUN 1
+光緒	3 PROPN 3
+光線	3 NOUN 3
+光范	1 PROPN 1
+光華	1 PROPN 1
+光譜	2 NOUN 2
+光軸	2 NOUN 2
+光顧	1 VERB 1
+克力佛	1 PROPN 1
+克勤	1 PROPN 1
+克家	1 PROPN 1
+克拉瑪	1 PROPN 1
+克拉西奇	1 PROPN 1
+克敏能	1 PROPN 1
+克欽	1 PROPN 1
+克用	2 PROPN 2
+克羅維茲	1 PROPN 1
+克羅迪歐	1 PROPN 1
+克莉絲汀	1 PROPN 1
+克蘇魯	1 PROPN 1
+克農	1 PROPN 1
+克里姆希爾特	1 PROPN 1
+克里斯多弗	1 PROPN 1
+克里斯托弗	1 PROPN 1
+克里波門	1 PROPN 1
+克里米亞	3 PROPN 3
+克隆	2 VERB 1 NOUN 1
+克魯	1 PROPN 1
+兌換	1 VERB 1
+免	1 VERB 1
+免疫	1 NOUN 1
+免職	2 VERB 2
+免費	5 ADV 2 ADJ 2 VERB 1
+免遭	1 VERB 1
+免除	1 VERB 1
+兒女	3 NOUN 3
+兒子	26 NOUN 26
+兒童	14 NOUN 14
+兔	1 NOUN 1
+兔毛	1 NOUN 1
+兢兢業業	1 ADJ 1
+入	5 VERB 5
+入世	1 VERB 1
+入伍	2 VERB 2
+入侵	10 VERB 8 NOUN 2
+入口	4 NOUN 4
+入圍	2 VERB 2
+入地	1 VERB 1
+入塞	1 VERB 1
+入境	1 VERB 1
+入學	3 VERB 2 NOUN 1
+入手	1 VERB 1
+入獄	2 VERB 2
+入聲	3 NOUN 3
+入股	1 VERB 1
+入讀	2 VERB 2
+入選	4 VERB 4
+入門	2 VERB 2
+入閘	1 VERB 1
+入院	1 VERB 1
+入駐	1 VERB 1
+內	58 NOUN 37 ADP 20 PART 1
+內側	1 NOUN 1
+內務	2 NOUN 2
+內化	1 VERB 1
+內在	1 ADJ 1
+內地	8 NOUN 8
+內埔	1 PROPN 1
+內壁	1 NOUN 1
+內外	2 NOUN 1 ADP 1
+內容	24 NOUN 24
+內心	2 NOUN 2
+內戰	8 NOUN 7 VERB 1
+內政	1 NOUN 1
+內流	2 VERB 2
+內燃	2 VERB 2
+內置	1 NOUN 1
+內胎	1 NOUN 1
+內臟	1 NOUN 1
+內載	1 NOUN 1
+內遷	1 VERB 1
+內部	13 NOUN 13
+內閣	9 NOUN 9
+內陸	3 NOUN 3
+全	23 DET 20 ADV 2 PROPN 1
+全劇	1 NOUN 1
+全名	1 NOUN 1
+全國	35 NOUN 34 PROPN 1
+全境	1 NOUN 1
+全壘	2 NOUN 2
+全套	1 DET 1
+全家	6 NOUN 6
+全島	1 NOUN 1
+全州	1 PROPN 1
+全市	3 NOUN 3
+全得	1 VERB 1
+全德	1 PROPN 1
+全效	1 ADJ 1
+全敗	1 VERB 1
+全數	1 NOUN 1
+全新	2 ADJ 2
+全日	2 NOUN 2
+全書	1 NOUN 1
+全校	2 NOUN 2
+全權	2 NOUN 2
+全球	11 NOUN 11
+全盛	1 ADJ 1
+全盤	1 ADV 1
+全省	1 NOUN 1
+全福	1 PROPN 1
+全程	1 NOUN 1
+全稱	1 VERB 1
+全線	1 NOUN 1
+全縣	3 NOUN 3
+全能	2 ADJ 2
+全興	1 PROPN 1
+全身	2 NOUN 2
+全邨	1 NOUN 1
+全部	13 DET 11 ADV 2
+全鎮	1 NOUN 1
+全長	9 NOUN 9
+全隊	1 NOUN 1
+全面	4 ADV 3 ADJ 1
+全額	1 NOUN 1
+全體	3 DET 3
+全黑	1 NOUN 1
+兩	218 NUM 218 ***
+兩億	1 NUM 1
+兩千五百萬	1 NUM 1
+兩千萬	1 NUM 1
+八	35 NUM 35
+八一	2 NUM 1 PROPN 1
+八世	1 PROPN 1
+八十九	1 NUM 1
+八卦	3 PROPN 3
+八思巴	1 PROPN 1
+八成	1 NUM 1
+八杉	1 PROPN 1
+八百	1 NUM 1
+八百餘	2 NUM 2
+公	6 PART 3 NOUN 2 VERB 1
+公主	14 NOUN 14
+公交	5 NOUN 5
+公仔	1 NOUN 1
+公佈	1 VERB 1
+公元	13 NOUN 13
+公克	1 NOUN 1
+公共	11 ADJ 11
+公分	8 NOUN 8
+公務	7 NOUN 7
+公司	95 NOUN 95 ***
+公告	1 VERB 1
+公國	3 NOUN 3
+公園	30 NOUN 30
+公墓	1 NOUN 1
+公學	2 NOUN 2
+公安	4 NOUN 4
+公寓	4 NOUN 4
+公尺	3 NOUN 3
+公屋	1 NOUN 1
+公布	11 VERB 6 NOUN 5
+公平	2 ADJ 2
+公式	4 NOUN 4
+公斤	2 NOUN 2
+公會	5 NOUN 5
+公款	1 NOUN 1
+公正	1 ADJ 1
+公民	7 NOUN 7
+公爵	7 NOUN 7
+公狼	1 NOUN 1
+公眾	6 NOUN 6
+公約	1 NOUN 1
+公署	2 NOUN 2
+公衛	1 NOUN 1
+公袥	1 PROPN 1
+公視	1 PROPN 1
+公認	2 VERB 2
+公超	1 PROPN 1
+公路	13 NOUN 13
+公轉	3 VERB 2 NOUN 1
+公里	51 NOUN 51
+公開	15 VERB 7 ADJ 6 ADV 2
+公關	2 NOUN 2
+公頃	1 NOUN 1
+公館	1 NOUN 1
+六	23 NUM 23
+六七	1 NUM 1
+六六	1 PROPN 1
+六十	3 NUM 3
+六千	1 NUM 1
+六千四百萬	1 NUM 1
+六合	1 PROPN 1
+六四	4 NUM 4
+六安	1 PROPN 1
+六甲	1 PROPN 1
+共	50 ADV 46 PROPN 3 NOUN 1
+共享	1 VERB 1
+共同	18 ADV 11 ADJ 7
+共和	44 NOUN 39 VERB 5
+共尾	1 ADJ 1
+共振	4 NOUN 3 VERB 1
+共生	1 VERB 1
+共產	12 NOUN 6 VERB 6
+共處	1 VERB 1
+共計	3 VERB 3
+共識	1 NOUN 1
+共鳴	1 VERB 1
+兵	5 PART 4 NOUN 1
+兵力	3 NOUN 3
+兵團	1 NOUN 1
+兵家	1 NOUN 1
+兵房	1 NOUN 1
+兵營	2 NOUN 2
+兵鋒	1 NOUN 1
+其	164 PRON 164 ***
+其中	90 NOUN 90 ***
+其他	57 DET 57
+其妻	1 NOUN 1
+其子	1 NOUN 1
+其它	7 DET 7
+其實	9 ADV 9
+其後	13 NOUN 13
+其次	2 NOUN 2
+其母	1 NOUN 1
+其父	2 NOUN 2
+其間	4 NOUN 4
+其餘	5 DET 5
+具	12 VERB 12
+具備	2 VERB 2
+具有	32 VERB 32
+具體	4 ADJ 4
+典型	8 NOUN 6 ADJ 2
+典禮	2 NOUN 2
+典籍	1 NOUN 1
+兼	6 CCONJ 6
+兼任	3 VERB 3
+兼修	1 VERB 1
+兼具	1 VERB 1
+兼容	1 VERB 1
+兼屬	1 VERB 1
+兼并	1 VERB 1
+冀望	1 VERB 1
+冉	1 PROPN 1
+冊	1 NOUN 1
+冊封	3 VERB 3
+再	37 ADV 37
+再三	2 ADJ 1 ADV 1
+再保	1 NOUN 1
+再度	9 ADV 9
+再次	17 ADV 17
+再用	1 VERB 1
+再臨	1 VERB 1
+再補	1 VERB 1
+再見	2 NOUN 1 VERB 1
+再造	2 VERB 2
+冒	1 VERB 1
+冒險	1 NOUN 1
+冠	2 PART 1 VERB 1
+冠上	1 VERB 1
+冠峰	1 PROPN 1
+冠狀	1 NOUN 1
+冠玉	1 PROPN 1
+冠藍鴉	1 NOUN 1
+冠軍	26 NOUN 26
+冢	1 PART 1
+冤案	1 NOUN 1
+冥冥	1 NOUN 1
+冥想	1 NOUN 1
+冬初	1 NOUN 1
+冬天	4 NOUN 4
+冬季	2 NOUN 2
+冬眠	1 NOUN 1
+冬青	1 PROPN 1
+冰	2 PROPN 1 NOUN 1
+冰兄	2 PROPN 2
+冰冰	1 PROPN 1
+冰塔	1 NOUN 1
+冰天	1 NOUN 1
+冰峰	2 NOUN 2
+冰島	1 PROPN 1
+冰川	4 NOUN 4
+冰晶	1 NOUN 1
+冰柱	1 NOUN 1
+冰河	2 NOUN 2
+冰河龍	1 NOUN 1
+冰湖	1 NOUN 1
+冰瀑	1 NOUN 1
+冰球	1 NOUN 1
+冰雪	2 NOUN 2
+冰風	1 PROPN 1
+冷	4 PROPN 3 PART 1
+冷凍	1 NOUN 1
+冷卻	5 NOUN 3 VERB 2
+冷市	1 PROPN 1
+冷暖氣	1 NOUN 1
+冷次	1 PROPN 1
+冷氣	1 NOUN 1
+冷眼	1 NOUN 1
+冷遇	1 NOUN 1
+冷靜	1 ADJ 1
+凄美	1 ADJ 1
+准	1 PART 1
+准考	1 VERB 1
+凈白	1 ADJ 1
+凊	1 ADJ 1
+凌	2 PROPN 2
+凌日	1 VERB 1
+凌晨	1 NOUN 1
+凌辱	1 VERB 1
+凌駕	1 VERB 1
+凍傷	1 NOUN 1
+凝結	1 VERB 1
+凝集	3 VERB 3
+凡	2 ADV 1 PROPN 1
+凡爾登	1 PROPN 1
+凡爾賽	1 PROPN 1
+凱倫	2 PROPN 2
+凱恩	1 PROPN 1
+凱撒	3 PROPN 3
+凱文	1 PROPN 1
+凱爾特	1 PROPN 1
+凱特	2 PROPN 2
+凱瑞	2 PROPN 2
+凱瑟琳	2 PROPN 2
+凱美特	1 PROPN 1
+凱茜	1 PROPN 1
+凱莉	1 PROPN 1
+凱薩	1 PROPN 1
+凶	1 NOUN 1
+凸	1 NOUN 1
+凸起	1 VERB 1
+凸顯	1 VERB 1
+凹版	1 NOUN 1
+出	38 VERB 38
+出世	1 VERB 1
+出人意料	1 ADJ 1
+出任	21 VERB 21
+出使	3 VERB 3
+出來	9 VERB 9
+出入	2 NOUN 2
+出入口	2 NOUN 2
+出具	1 VERB 1
+出到	1 VERB 1
+出動	1 VERB 1
+出去	1 VERB 1
+出口	3 NOUN 2 VERB 1
+出名	1 VERB 1
+出品	1 VERB 1
+出售	9 VERB 9
+出國	1 VERB 1
+出土	6 VERB 5 NOUN 1
+出城	1 VERB 1
+出場	4 VERB 2 NOUN 2
+出奇	1 ADJ 1
+出嫁	1 VERB 1
+出家	2 NOUN 1 VERB 1
+出局	1 VERB 1
+出師	1 VERB 1
+出席	2 VERB 2
+出廠	1 VERB 1
+出征	1 VERB 1
+出戰	5 VERB 5
+出手	1 VERB 1
+出擊	1 VERB 1
+出校	1 VERB 1
+出榜	1 VERB 1
+出演	2 VERB 2
+出版	25 VERB 23 NOUN 2
+出獄	3 VERB 3
+出現	42 VERB 40 NOUN 2
+出生	22 VERB 21 NOUN 1
+出產	2 VERB 2
+出發	4 VERB 4
+出租	4 VERB 3 NOUN 1
+出色	4 ADJ 4
+出血	1 NOUN 1
+出訪	1 VERB 1
+出賽	2 VERB 1 NOUN 1
+出路	1 NOUN 1
+出身	11 VERB 11
+出逃	1 VERB 1
+出道	2 VERB 2
+出門	1 VERB 1
+出頭	1 VERB 1
+函數	3 NOUN 3
+刀	4 NOUN 4
+刀鞘	1 NOUN 1
+分	37 VERB 22 NOUN 13 PART 2
+分享	2 VERB 2
+分佈	4 VERB 3 NOUN 1
+分別	22 ADV 20 ADJ 1 NOUN 1
+分化	2 VERB 1 NOUN 1
+分區	2 NOUN 2
+分契	1 NOUN 1
+分子	21 NOUN 21
+分工	1 NOUN 1
+分布	24 VERB 21 NOUN 2 AUX 1
+分店	1 NOUN 1
+分成	4 VERB 4
+分手	2 NOUN 1 VERB 1
+分批	1 ADV 1
+分擔	2 VERB 2
+分攤	1 VERB 1
+分支	9 NOUN 8 VERB 1
+分散	3 VERB 3
+分數	2 NOUN 2
+分明	1 ADJ 1
+分期	4 NOUN 4
+分析	7 NOUN 5 VERB 2
+分枝	1 NOUN 1
+分校	2 NOUN 2
+分歧	2 NOUN 2
+分泌	1 NOUN 1
+分流	1 NOUN 1
+分發	1 VERB 1
+分科	1 NOUN 1
+分立	1 VERB 1
+分站	1 NOUN 1
+分管	1 VERB 1
+分組	1 NOUN 1
+分缺	1 VERB 1
+分行	3 NOUN 3
+分裂	4 VERB 2 NOUN 2
+分解	3 VERB 3
+分貝	1 NOUN 1
+分辨	2 VERB 1 NOUN 1
+分部	1 NOUN 1
+分配	5 VERB 5
+分鏡	1 NOUN 1
+分鐘	8 NOUN 8
+分隊	2 NOUN 2
+分隔	1 VERB 1
+分離	1 VERB 1
+分題	1 NOUN 1
+分類	5 NOUN 3 VERB 2
+分點	1 NOUN 1
+切下	1 VERB 1
+切什梅	1 PROPN 1
+切分	1 NOUN 1
+切割	1 VERB 1
+切合	1 VERB 1
+切實	1 ADJ 1
+切成	1 VERB 1
+切斷	3 VERB 3
+切望	1 VERB 1
+切爾尼赫	1 PROPN 1
+切片	1 VERB 1
+刊物	3 NOUN 3
+刊載	2 VERB 2
+刑事	1 NOUN 1
+刑部	1 NOUN 1
+划算	1 ADJ 1
+划艇	1 NOUN 1
+列	7 VERB 5 NOUN 2
+列傳	2 NOUN 2
+列入	5 VERB 5
+列出	2 VERB 2
+列夫·達維多維奇	1 PROPN 1
+列寧	1 PROPN 1
+列斯聯	1 PROPN 1
+列治文	1 PROPN 1
+列為	3 VERB 3
+列表	4 NOUN 4
+列車	21 NOUN 21
+初	16 ADP 10 NOUN 3 NUM 2 ADV 1
+初中	1 NOUN 1
+初始	1 ADV 1
+初學	2 VERB 2
+初年	2 NOUN 2
+初時	1 NOUN 1
+初期	13 NOUN 13
+初次	1 ADV 1
+初步	1 ADV 1
+初稿	2 NOUN 2
+初級	2 ADJ 1 NOUN 1
+初見	1 NOUN 1
+初賽	2 NOUN 2
+判	1 VERB 1
+判令	1 VERB 1
+判定	2 VERB 2
+判寺事	1 NOUN 1
+判斷	2 VERB 2
+判決	6 NOUN 4 VERB 2
+判處	2 VERB 2
+判詞	1 NOUN 1
+別	2 ADV 1 DET 1
+別人	1 NOUN 1
+別克	2 PROPN 2
+別名	1 NOUN 1
+別墅	6 NOUN 6
+別院	1 NOUN 1
+利	3 VERB 3
+利他能	1 NOUN 1
+利刃	1 NOUN 1
+利好	1 ADJ 1
+利恩茨	1 PROPN 1
+利比亞	2 PROPN 2
+利物浦	2 PROPN 2
+利用	16 VERB 16
+利益	8 NOUN 8
+利維奧	1 PROPN 1
+刪剪	1 VERB 1
+刪除	1 VERB 1
+刮目相看	1 VERB 1
+到	181 VERB 145 CCONJ 19 ADP 17 ***
+到任	1 VERB 1
+到來	2 VERB 2
+到底	2 ADV 2
+到期	1 VERB 1
+到發	1 NOUN 1
+到達	10 VERB 10
+制	21 PART 19 VERB 2
+制動	1 NOUN 1
+制定	3 VERB 3
+制度	16 NOUN 16
+制式	1 NOUN 1
+制止	2 VERB 2
+制瓷	1 NOUN 1
+制約	1 NOUN 1
+制裁	2 NOUN 2
+制訂	3 VERB 3
+制酸	1 VERB 1
+刷	1 VERB 1
+刷到	1 VERB 1
+券	1 PART 1
+券頂	1 NOUN 1
+刺	2 VERB 1 NOUN 1
+刺客	2 NOUN 2
+刺死	2 VERB 2
+刺殺	1 VERB 1
+刺激	7 VERB 3 NOUN 2 ADJ 2
+刻	2 VERB 2
+刻劃	1 NOUN 1
+刻寫	1 VERB 1
+刻有	2 VERB 2
+刻板	1 ADJ 1
+刻滿	1 VERB 1
+刻畫	1 VERB 1
+則	100 ADV 97 NOUN 3 ***
+則士	1 PROPN 1
+則天	4 PROPN 4
+則是	16 ADV 9 AUX 4 VERB 3
+則為	4 AUX 4
+削弱	2 VERB 2
+削減	1 VERB 1
+前	79 ADP 50 PART 13 NOUN 8 DET 8
+前任	2 NOUN 1 DET 1
+前來	3 VERB 3
+前傾	1 VERB 1
+前去	1 VERB 1
+前因後果	1 NOUN 1
+前奏	1 NOUN 1
+前妻	2 NOUN 2
+前委	1 NOUN 1
+前嫌	1 NOUN 1
+前季	1 NOUN 1
+前往	17 VERB 17
+前後	4 NOUN 2 ADV 1 ADP 1
+前提	1 NOUN 1
+前景	1 NOUN 1
+前期	4 NOUN 4
+前稱	1 VERB 1
+前端	1 NOUN 1
+前綴	3 NOUN 3
+前線	4 NOUN 4
+前置	1 VERB 1
+前者	1 NOUN 1
+前肢	1 NOUN 1
+前身	8 NOUN 8
+前途	2 NOUN 2
+前進	4 NOUN 2 VERB 2
+前鋒	3 NOUN 3
+前面	3 NOUN 3
+前齒	1 NOUN 1
+剛	7 ADV 7
+剛剛	1 ADV 1
+剛好	3 ADV 3
+剛性	1 NOUN 1
+剛果	2 PROPN 2
+剛直	1 ADJ 1
+剛鐸	1 PROPN 1
+剝奪	3 VERB 3
+剩	1 VERB 1
+剩下	2 VERB 2
+剩餘	1 NOUN 1
+副	22 PART 21 NOUN 1
+副劍齒虎	1 NOUN 1
+副本	2 NOUN 2
+副長	1 NOUN 1
+割據	1 NOUN 1
+割破	1 VERB 1
+割讓	1 VERB 1
+割開	1 VERB 1
+創	2 VERB 2
+創作	16 VERB 10 NOUN 6
+創保	1 PROPN 1
+創傷	1 NOUN 1
+創刊	1 VERB 1
+創始	2 VERB 2
+創建	5 VERB 5
+創意	3 NOUN 3
+創新	2 ADJ 1 NOUN 1
+創業	2 NOUN 1 VERB 1
+創煥	1 PROPN 1
+創生	1 NOUN 1
+創立	12 VERB 12
+創辦	12 VERB 12
+創造	7 VERB 6 NOUN 1
+剷除	1 VERB 1
+剿	1 VERB 1
+剿滅	1 VERB 1
+劃入	2 VERB 2
+劃出	1 VERB 1
+劃分	6 VERB 6
+劃歸	1 VERB 1
+劃界	1 VERB 1
+劃給	2 VERB 2
+劇	18 PART 13 NOUN 5
+劇中	1 NOUN 1
+劇作	1 NOUN 1
+劇團	3 NOUN 3
+劇場	1 NOUN 1
+劇情	8 NOUN 8
+劇本	3 NOUN 3
+劇烈	2 ADV 1 ADJ 1
+劇目	3 NOUN 3
+劇組	1 NOUN 1
+劇院	3 NOUN 3
+劇集	4 NOUN 4
+劉	39 PROPN 39
+劍	4 NOUN 3 PART 1
+劍俠	1 NOUN 1
+劍橋	3 PROPN 3
+劍法	1 NOUN 1
+劍羚	2 NOUN 2
+劍術	2 NOUN 2
+劍麻	1 NOUN 1
+劍齒虎	2 NOUN 2
+劑	8 PART 8
+劑量	1 NOUN 1
+力	22 PART 21 NOUN 1
+力克	1 VERB 1
+力圖	1 VERB 1
+力嬌	1 PROPN 1
+力學	3 NOUN 3
+力量	11 NOUN 11
+力霸	1 PROPN 1
+功	2 PART 2
+功勞	1 NOUN 1
+功德	1 NOUN 1
+功樂	1 PROPN 1
+功率	3 NOUN 3
+功績	1 NOUN 1
+功能	20 NOUN 20
+加	8 VERB 7 CCONJ 1
+加上	13 VERB 13
+加之	2 VERB 2
+加侖	1 NOUN 1
+加值	1 VERB 1
+加入	24 VERB 24
+加冕	1 VERB 1
+加利奇	1 PROPN 1
+加劇	1 VERB 1
+加勁	1 VERB 1
+加勒比	2 PROPN 2
+加喜特	1 PROPN 1
+加堆	2 PROPN 2
+加州	8 PROPN 8
+加工	6 NOUN 4 VERB 2
+加強	4 VERB 4
+加查	1 PROPN 1
+加熱	5 VERB 5
+加爾文	1 PROPN 1
+加盟	5 VERB 5
+加粗	1 VERB 1
+加藤	2 PROPN 2
+加賀	1 PROPN 1
+加速	1 VERB 1
+加重	2 VERB 2
+加電	1 VERB 1
+劣	1 PART 1
+劣勢	2 NOUN 2
+助	1 NOUN 1
+助戰	2 VERB 2
+助手	1 NOUN 1
+助燃	1 VERB 1
+助理	6 NOUN 6
+助聽	1 VERB 1
+助長	1 VERB 1
+努兒道刺特	1 PROPN 1
+努力	7 NOUN 2 ADV 2 ADJ 1 AUX 1 VERB 1
+劫匪	1 NOUN 1
+劫持	1 VERB 1
+効忠	1 PROPN 1
+勁光	1 PROPN 1
+勁報	1 PROPN 1
+勁敵	1 NOUN 1
+勁歌	2 NOUN 1 PROPN 1
+勃起	1 NOUN 1
+勇俊	1 PROPN 1
+勇士	1 NOUN 1
+勇武	1 ADJ 1
+勒格里	2 PROPN 2
+勒沃	2 PROPN 2
+勒溫	1 PROPN 1
+動人	1 ADJ 1
+動作	5 NOUN 5
+動力	6 NOUN 6
+動向	1 NOUN 1
+動土	1 VERB 1
+動地	1 NOUN 1
+動機	2 NOUN 2
+動漫	1 NOUN 1
+動漫畫	1 NOUN 1
+動物	40 NOUN 40
+動用	1 VERB 1
+動畫	9 NOUN 9
+動能	1 NOUN 1
+動脈	2 NOUN 2
+動蕩	1 ADJ 1
+動詞	1 NOUN 1
+動車	2 NOUN 2
+動量	1 NOUN 1
+勘探	1 NOUN 1
+務工	1 VERB 1
+勝	1 NOUN 1
+勝任	1 VERB 1
+勝出	2 VERB 2
+勝利	5 NOUN 4 VERB 1
+勝昭	1 PROPN 1
+勝素	1 PROPN 1
+勝者	1 NOUN 1
+勝訴	1 VERB 1
+勝賴	1 PROPN 1
+勞動	10 NOUN 6 VERB 4
+勞工	5 NOUN 5
+勞累	1 ADJ 1
+募款	1 NOUN 1
+募集	1 NOUN 1
+勢傾中外	1 VERB 1
+勢力	16 NOUN 16
+勢能	1 NOUN 1
+勤先	1 PROPN 1
+勤快	1 ADJ 1
+勳	2 PROPN 2
+勳位	1 NOUN 1
+勳爵	1 NOUN 1
+勳章	2 NOUN 2
+勳銜	2 NOUN 2
+勵珍	1 PROPN 1
+勸	1 VERB 1
+勾引	2 VERB 2
+勾形	1 NOUN 1
+勾畫	1 VERB 1
+勾結	1 VERB 1
+包	5 VERB 2 PROPN 2 PART 1
+包含	11 VERB 11
+包圍	2 VERB 2
+包廂	2 NOUN 2
+包括	72 VERB 72
+包攬	1 VERB 1
+包衣	2 NOUN 2
+包袱	1 NOUN 1
+包裝	4 NOUN 3 VERB 1
+包裹	1 AUX 1
+包覆	1 VERB 1
+包頭	1 PROPN 1
+匈	3 PROPN 3
+匈奴	7 PROPN 7
+匕首	2 NOUN 2
+化	24 PART 24
+化合	5 VERB 5
+化名	1 VERB 1
+化妝	1 VERB 1
+化學	10 NOUN 10
+化工	3 NOUN 3
+化成	1 VERB 1
+化整為零	1 VERB 1
+化用	1 VERB 1
+化石	16 NOUN 16
+化纖	2 NOUN 2
+化肥	1 NOUN 1
+化身	2 NOUN 1 VERB 1
+化隆	1 PROPN 1
+北	33 NOUN 33
+北京	30 PROPN 30
+北伐	2 NOUN 2
+北側	1 NOUN 1
+北冕	3 PROPN 3
+北冰	1 PROPN 1
+北宋	2 PROPN 2
+北平	2 PROPN 2
+北方	2 NOUN 2
+北景	1 PROPN 1
+北歐	1 PROPN 1
+北段	1 NOUN 1
+北洋	3 PROPN 3
+北海	5 PROPN 5
+北甘馬粦	1 PROPN 1
+北端	2 NOUN 2
+北約	2 PROPN 2
+北美	1 PROPN 1
+北美擬獅	1 NOUN 1
+北角	7 PROPN 7
+北車	1 PROPN 1
+北返	1 VERB 1
+北道	2 NOUN 2
+北達科他	1 PROPN 1
+北邊	1 NOUN 1
+北部	14 NOUN 14
+北齊	2 PROPN 2
+匡	1 PROPN 1
+匯入	1 VERB 1
+匯合	1 VERB 1
+匯報	1 VERB 1
+匯率	2 NOUN 2
+匯聚	1 VERB 1
+匯聯	1 PROPN 1
+匯集	1 VERB 1
+匹	1 NOUN 1
+匾額	1 NOUN 1
+區	122 PART 118 NOUN 4 ***
+區分	3 NOUN 2 VERB 1
+區別	3 VERB 2 NOUN 1
+區劃	4 NOUN 4
+區域	16 NOUN 16
+區塊	1 NOUN 1
+區段	1 NOUN 1
+區間	1 NOUN 1
+十	18 NUM 18
+十一	8 NUM 8
+十七	3 NUM 3
+十三	2 NUM 2
+十二	5 NUM 5
+十二烷基苯	1 NOUN 1
+十五	4 NUM 4
+十全十美	1 ADJ 1
+十八	6 NUM 6
+十八億	1 NUM 1
+十八大	1 NOUN 1
+十六	2 NUM 1 PROPN 1
+十分	15 ADV 15
+十四	1 PROPN 1
+十多	3 NUM 3
+十字	7 NOUN 5 PROPN 2
+十數	1 NUM 1
+十萬	1 NUM 1
+十餘	1 NUM 1
+千	5 NUM 5
+千兆	1 NUM 1
+千克	1 NOUN 1
+千島	1 PROPN 1
+千方百計	1 NOUN 1
+千春	1 PROPN 1
+千瓦	1 NOUN 1
+千米	2 NOUN 2
+千萬	1 ADV 1
+千里迢迢	1 ADV 1
+千陽	1 PROPN 1
+千鶴	1 PROPN 1
+升	3 VERB 2 NOUN 1
+升任	4 VERB 4
+升值	1 VERB 1
+升到	1 VERB 1
+升天	1 VERB 1
+升學	2 VERB 1 NOUN 1
+升格	3 VERB 3
+升級	5 NOUN 3 VERB 2
+升越	1 VERB 1
+升降	1 VERB 1
+升高	1 VERB 1
+午膳	1 NOUN 1
+半	20 NUM 16 PART 4
+半導體	1 NOUN 1
+半山	2 NOUN 1 PROPN 1
+半島	12 NOUN 12
+半牧	1 NOUN 1
+半球	2 NOUN 2
+半農	1 NOUN 1
+卑詩	1 PROPN 1
+卓著	1 ADJ 1
+協助	16 VERB 13 NOUN 3
+協合	1 NOUN 1
+協商	2 VERB 2
+協奏	2 NOUN 1 VERB 1
+協定	4 NOUN 4
+協會	12 NOUN 12
+協理	1 VERB 1
+協約	2 NOUN 2
+協調	4 NOUN 2 VERB 2
+協議	6 NOUN 6
+協進	1 NOUN 1
+南	25 NOUN 25
+南下	2 VERB 2
+南京	17 PROPN 17
+南人	1 NOUN 1
+南側	4 NOUN 4
+南北	6 NOUN 6
+南哲	1 PROPN 1
+南大	1 PROPN 1
+南安	1 PROPN 1
+南安大略	1 PROPN 1
+南寧	1 PROPN 1
+南山	2 PROPN 2
+南市	1 PROPN 1
+南延	4 VERB 4
+南征	1 VERB 1
+南方	9 NOUN 6 PROPN 3
+南昌	3 PROPN 3
+南極	6 PROPN 5 NOUN 1
+南海	3 PROPN 3
+南端	1 NOUN 1
+南線	1 NOUN 1
+南美	1 PROPN 1
+南臨	1 VERB 1
+南航	1 PROPN 1
+南船	1 PROPN 1
+南路	1 NOUN 1
+南通	1 PROPN 1
+南遣	2 PROPN 2
+南遷	1 VERB 1
+南邊	2 NOUN 2
+南部	17 NOUN 17
+南鄰	1 VERB 1
+南門	1 NOUN 1
+南開	1 PROPN 1
+南院	1 NOUN 1
+南陽	2 PROPN 2
+南雄	1 PROPN 1
+南非	3 PROPN 3
+南面	2 NOUN 2
+南韓	2 PROPN 2
+南風	1 PROPN 1
+南麓	1 NOUN 1
+博	1 VERB 1
+博凱蒂	1 PROPN 1
+博士	14 NOUN 14
+博多	1 PROPN 1
+博學	1 NOUN 1
+博弈	2 VERB 2
+博彩	2 NOUN 2
+博恩	2 PROPN 2
+博格	1 PROPN 1
+博滕	1 PROPN 1
+博物	14 NOUN 14
+博義	1 PROPN 1
+博覽	1 VERB 1
+占	3 VERB 3
+占卜	2 VERB 1 NOUN 1
+占星	1 VERB 1
+卡	8 PART 7 NOUN 1
+卡力崗	1 PROPN 1
+卡夫	1 PROPN 1
+卡夫卡	1 PROPN 1
+卡巴雷羅	1 PROPN 1
+卡希	1 PROPN 1
+卡拉OK	1 X 1
+卡拉柯伊	1 PROPN 1
+卡拉維拿	1 PROPN 1
+卡斯楚	1 PROPN 1
+卡斯特羅	1 PROPN 1
+卡普里維	1 PROPN 1
+卡梅隆	2 PROPN 2
+卡波特	1 PROPN 1
+卡洛琳	1 PROPN 1
+卡爾	6 PROPN 6
+卡片	2 NOUN 2
+卡臣	1 PROPN 1
+卡車	1 NOUN 1
+卡達	1 PROPN 1
+卦	1 NOUN 1
+卧底	1 NOUN 1
+卧病	1 VERB 1
+卧薪嘗膽	1 VERB 1
+印	2 PROPN 1 VERB 1
+印信	1 NOUN 1
+印刷	1 NOUN 1
+印加	2 PROPN 2
+印尼	2 PROPN 2
+印度	32 PROPN 32
+印表	1 VERB 1
+印製	3 VERB 3
+印象	3 NOUN 3
+印鈔	1 NOUN 1
+危在旦夕	1 VERB 1
+危害	1 VERB 1
+危機	4 NOUN 4
+危殆	1 ADJ 1
+危險	9 ADJ 6 NOUN 3
+即	37 ADV 16 AUX 16 VERB 5
+即位	3 VERB 3
+即使	9 ADP 9
+即場	1 ADV 1
+即將	3 ADV 3
+即時	2 ADV 1 ADJ 1
+即有	1 VERB 1
+即期	1 ADJ 1
+即興	2 ADJ 1 ADV 1
+卵內	1 NOUN 1
+卷	2 NOUN 2
+卸任	1 VERB 1
+卻	38 ADV 38
+卻是	3 AUX 1 ADV 1 VERB 1
+卿	2 PART 2
+卿雲	2 NOUN 2
+厄運	2 NOUN 2
+厘	1 NOUN 1
+厘米	4 NOUN 4
+原	21 PART 13 ADV 6 PROPN 2
+原來	8 ADV 8
+原先	2 ADV 2
+原則	3 NOUN 3
+原名	3 NOUN 3
+原告	3 NOUN 3
+原因	26 NOUN 26
+原址	2 NOUN 2
+原型	1 NOUN 1
+原始	6 ADJ 6
+原姓	1 NOUN 1
+原子	20 NOUN 20
+原屬	1 VERB 1
+原平	1 PROPN 1
+原意	1 NOUN 1
+原指	1 VERB 1
+原文	1 NOUN 1
+原料	3 NOUN 3
+原有	4 NOUN 2 ADJ 1 VERB 1
+原本	12 ADV 9 ADJ 3
+原核	1 NOUN 1
+原理	4 NOUN 4
+原畫	1 NOUN 1
+原籍	1 NOUN 1
+原罪	1 NOUN 1
+原聲	2 NOUN 2
+原著	7 NOUN 7
+原諒	1 VERB 1
+厥	1 PROPN 1
+厭世	1 VERB 1
+厭惡	1 VERB 1
+去	31 VERB 18 ADV 13
+去世	11 VERB 11
+去年	1 NOUN 1
+去搶	1 VERB 1
+去留	1 VERB 1
+去看	1 VERB 1
+去除	2 VERB 2
+參加	40 VERB 40
+參戰	1 VERB 1
+參政	1 VERB 1
+參演	1 VERB 1
+參看	1 VERB 1
+參禮	1 NOUN 1
+參考	4 NOUN 2 VERB 2
+參與	23 VERB 23
+參觀	2 NOUN 1 VERB 1
+參謀	5 VERB 3 NOUN 2
+參議	6 VERB 5 NOUN 1
+參賽	5 VERB 4 NOUN 1
+參贊	1 NOUN 1
+參選	2 VERB 2
+參閱	1 VERB 1
+又	66 ADV 58 CCONJ 8
+又廷	1 PROPN 1
+又或	1 CCONJ 1
+又是	2 VERB 1 AUX 1
+又稱	2 VERB 2
+及	193 CCONJ 192 VERB 1 ***
+及後	1 ADV 1
+及時	1 ADV 1
+及格	2 VERB 1 NOUN 1
+友	1 PART 1
+友好	2 ADJ 2
+友情	1 NOUN 1
+友誼	3 NOUN 3
+友邦	1 PROPN 1
+反	11 VERB 10 ADV 1
+反共	1 VERB 1
+反動	2 VERB 1 ADJ 1
+反叛	2 ADJ 1 VERB 1
+反右	1 NOUN 1
+反向	1 ADJ 1
+反射	6 VERB 6
+反對	24 VERB 23 NOUN 1
+反恐	1 NOUN 1
+反應	12 NOUN 9 VERB 3
+反抗	2 VERB 2
+反擊	3 VERB 3
+反映	12 VERB 11 NOUN 1
+反省	1 VERB 1
+反綁	1 VERB 1
+反證	1 NOUN 1
+反響	1 NOUN 1
+反黨	1 NOUN 1
+叔叔	2 NOUN 2
+叔父	1 NOUN 1
+取	3 VERB 3
+取下	1 VERB 1
+取代	11 VERB 11
+取出	1 VERB 1
+取名	1 VERB 1
+取回	1 VERB 1
+取得	19 VERB 19
+取悅	1 VERB 1
+取決	3 VERB 3
+取消	7 VERB 7
+取液	1 VERB 1
+取物	1 VERB 1
+取用	1 VERB 1
+取而代之	1 VERB 1
+受	23 VERB 23
+受傷	5 VERB 5
+受到	29 VERB 29
+受命	1 VERB 1
+受孕	1 NOUN 1
+受害	1 VERB 1
+受審	2 VERB 2
+受挫	1 VERB 1
+受損	3 VERB 3
+受洗	1 VERB 1
+受益	2 VERB 2
+受精	1 VERB 1
+受罰	1 VERB 1
+受襲	1 VERB 1
+受賄	1 VERB 1
+受阻	1 VERB 1
+受雇	1 VERB 1
+受體	2 NOUN 2
+叛亂	3 NOUN 2 VERB 1
+叛徒	1 NOUN 1
+叛變	1 NOUN 1
+叛軍	1 NOUN 1
+叡	1 PROPN 1
+叢刊	1 NOUN 1
+叢書	1 NOUN 1
+口	9 PART 7 NOUN 2
+口中	2 NOUN 2
+口供	1 NOUN 1
+口信	1 NOUN 1
+口吻	1 NOUN 1
+口徑	3 NOUN 3
+口感	1 NOUN 1
+口服	1 NOUN 1
+口號	6 NOUN 6
+口語	1 NOUN 1
+口述	2 NOUN 2
+口音	1 NOUN 1
+古	22 PART 19 NOUN 3
+古代	9 NOUN 9
+古典	9 NOUN 5 ADJ 4
+古喙龍	1 NOUN 1
+古城	3 NOUN 3
+古堡	1 NOUN 1
+古寺	1 NOUN 1
+古巴	3 PROPN 3
+古廟	1 NOUN 1
+古德諾	1 PROPN 1
+古惑	1 ADJ 1
+古柯鹼	2 NOUN 2
+古燒	1 NOUN 1
+古物	4 NOUN 4
+古老	9 ADJ 9
+古蹟	2 NOUN 2
+古迹	1 NOUN 1
+句	4 NOUN 4
+句子	1 NOUN 1
+句點	1 NOUN 1
+另	31 DET 29 ADV 2
+另加	1 VERB 1
+另外	30 ADV 22 DET 8
+另娶	1 ADV 1
+另立	1 VERB 1
+另築	1 VERB 1
+另類	1 ADJ 1
+只	54 ADV 54
+只好	1 ADV 1
+只是	1 AUX 1
+只會	1 ADV 1
+只有	22 VERB 15 ADP 5 ADV 2
+只知	1 VERB 1
+只能	1 AUX 1
+只要	4 ADP 4
+叫	9 VERB 9
+叫作	1 VERB 1
+叫做	5 VERB 5
+叫拜	1 VERB 1
+叫聲	1 NOUN 1
+召	1 VERB 1
+召喚	2 NOUN 1 VERB 1
+召開	11 VERB 11
+召集	1 VERB 1
+可	86 AUX 85 ADV 1 ***
+可以	120 AUX 120 ***
+可可	1 PROPN 1
+可塑	1 VERB 1
+可惜	3 ADV 3
+可愛	1 ADJ 1
+可憐	1 ADJ 1
+可是	12 ADV 12
+可樂	1 NOUN 1
+可欣	1 PROPN 1
+可汗	2 NOUN 2
+可能	54 AUX 46 NOUN 8
+可西卡	1 PROPN 1
+可靠	2 ADJ 2
+可風	1 PROPN 1
+台	51 PART 35 NOUN 9 PROPN 6 X 1
+台中	4 PROPN 4
+台北	19 PROPN 19
+台南	1 PROPN 1
+台標	1 NOUN 1
+台灣	40 PROPN 40
+台視	1 PROPN 1
+台詞	1 NOUN 1
+台長	1 NOUN 1
+史	5 PART 5
+史上	3 NOUN 3
+史前	1 NOUN 1
+史學	2 NOUN 2
+史官	1 NOUN 1
+史稱	1 VERB 1
+史記	1 PROPN 1
+史跡	1 NOUN 1
+史館	1 NOUN 1
+右	7 NOUN 7
+右任	1 PROPN 1
+右岸	2 NOUN 2
+右手	1 NOUN 1
+右方	1 NOUN 1
+右臂	1 NOUN 1
+司	6 PART 4 NOUN 2
+司令	15 NOUN 15
+司可巴比妥	1 NOUN 1
+司機	2 NOUN 2
+司法	7 NOUN 7
+司鐸	1 NOUN 1
+司長	2 NOUN 2
+司馬	7 PROPN 7
+司鼓	2 NOUN 2
+吁宋	1 PROPN 1
+吃	9 VERB 9
+吃上	1 VERB 1
+吃到	1 VERB 1
+吃掉	1 VERB 1
+吃法	1 NOUN 1
+吃肉	2 VERB 2
+吃起	1 VERB 1
+吃飯	2 VERB 2
+各	37 DET 37
+各個	5 DET 5
+各國	4 NOUN 4
+各地	7 NOUN 7
+各州	3 DET 2 NOUN 1
+各式	2 NOUN 1 DET 1
+各式各樣	2 NOUN 1 ADJ 1
+各方	1 NOUN 1
+各球	1 NOUN 1
+各界	5 NOUN 5
+各異	1 ADJ 1
+各省	3 NOUN 3
+各科	1 NOUN 1
+各種	16 DET 16
+各種各樣	1 DET 1
+各級	2 DET 1 NOUN 1
+各職	1 NOUN 1
+各自	2 PRON 2
+各處	1 NOUN 1
+各行各業	1 NOUN 1
+各部	2 NOUN 2
+各隊	1 NOUN 1
+各項	1 DET 1
+各類	9 DET 7 NOUN 2
+合	5 VERB 5
+合作	14 VERB 10 NOUN 4
+合併	19 VERB 16 NOUN 3
+合共	1 ADV 1
+合力	1 VERB 1
+合同	2 NOUN 2
+合和	1 PROPN 1
+合唱	1 NOUN 1
+合夥	1 VERB 1
+合奏	1 VERB 1
+合川	2 PROPN 2
+合成	5 NOUN 3 VERB 1 ADJ 1
+合法	6 ADJ 3 NOUN 2 VERB 1
+合流	1 VERB 1
+合理	5 ADJ 5
+合眾	4 NOUN 2 VERB 2
+合稱	2 VERB 2
+合約	2 NOUN 2
+合組	1 VERB 1
+合葬	2 VERB 2
+合計	1 VERB 1
+合資	1 VERB 1
+合辦	1 VERB 1
+合適	1 ADJ 1
+合金	4 NOUN 4
+合陽	1 PROPN 1
+合體	1 VERB 1
+吉	4 PROPN 3 NOUN 1
+吉他	4 NOUN 4
+吉利	1 ADJ 1
+吉姆	1 PROPN 1
+吉布地	1 PROPN 1
+吉普	2 NOUN 2
+吉林	2 PROPN 2
+吉爾伯特	1 PROPN 1
+吉祥	1 ADJ 1
+吉米	1 PROPN 1
+吉西	1 PROPN 1
+吉隆坡	1 PROPN 1
+吋	1 NOUN 1
+同	31 DET 18 ADP 9 PART 2 ADV 1 CCONJ 1
+同事	4 NOUN 4
+同人	2 NOUN 2
+同仁社	1 PROPN 1
+同伴	1 NOUN 1
+同僚	1 NOUN 1
+同台	1 ADV 1
+同名	3 NOUN 3
+同型	1 NOUN 1
+同學	1 NOUN 1
+同居	2 VERB 1 NOUN 1
+同工	1 NOUN 1
+同年	25 NOUN 23 DET 2
+同志	1 NOUN 1
+同性	3 NOUN 3
+同情	3 NOUN 2 VERB 1
+同意	13 VERB 12 NOUN 1
+同日	1 NOUN 1
+同時	61 NOUN 61
+同月	1 NOUN 1
+同校	1 NOUN 1
+同樣	9 ADV 6 ADJ 2 NOUN 1
+同步	1 ADV 1
+同母	1 NOUN 1
+同治	4 PROPN 4
+同燈	1 NOUN 1
+同父	1 NOUN 1
+同甘共苦	1 VERB 1
+同盟	5 NOUN 5
+同花	1 NOUN 1
+同行	1 NOUN 1
+同郷	1 NOUN 1
+同食	1 VERB 1
+同飲	1 VERB 1
+同體	2 NOUN 2
+名	104 NOUN 97 PART 4 VERB 3 ***
+名人	2 NOUN 2
+名作	1 NOUN 1
+名分	1 NOUN 1
+名利	2 NOUN 2
+名利雙收	1 VERB 1
+名單	5 NOUN 5
+名城	1 NOUN 1
+名字	17 NOUN 17
+名將	4 NOUN 4
+名帥	1 NOUN 1
+名師	1 NOUN 1
+名村	1 NOUN 1
+名氣	1 NOUN 1
+名流	1 NOUN 1
+名港	1 PROPN 1
+名稱	7 NOUN 7
+名縉	2 PROPN 2
+名義	7 NOUN 7
+名聲	1 NOUN 1
+名臣	1 NOUN 1
+名茶	1 NOUN 1
+名號	1 NOUN 1
+名詞	4 NOUN 4
+名譽	4 NOUN 4
+名鎮	2 NOUN 2
+名門	1 NOUN 1
+名額	1 NOUN 1
+后	1 NOUN 1
+后妃	1 NOUN 1
+吐	1 VERB 1
+吐嘈	1 VERB 1
+向	78 ADP 69 VERB 8 PROPN 1
+向前	1 PROPN 1
+向滋	1 PROPN 1
+向量	2 NOUN 2
+君	2 PART 2
+君主	10 NOUN 10
+君如	1 PROPN 1
+君權	1 NOUN 1
+君王	2 NOUN 2
+君長	1 NOUN 1
+吞下	1 VERB 1
+吞併	3 VERB 3
+吟唱	1 VERB 1
+否	1 PART 1
+否則	2 VERB 2
+否定	2 NOUN 1 VERB 1
+否決	1 VERB 1
+否認	5 VERB 4 NOUN 1
+吧	1 PART 1
+吩咐	1 VERB 1
+含	1 VERB 1
+含有	6 VERB 6
+含糖	1 VERB 1
+含量	1 NOUN 1
+吳	9 PROPN 9
+吳王	1 PROPN 1
+吵醒	1 VERB 1
+吸塵	1 VERB 1
+吸引	7 VERB 7
+吸收	6 VERB 5 NOUN 1
+吸毒	1 NOUN 1
+吸菸	1 VERB 1
+吸附	1 VERB 1
+吸食	1 VERB 1
+吹來	1 VERB 1
+吹氣	1 VERB 1
+吹滅	1 VERB 1
+吻	1 NOUN 1
+吻部	1 NOUN 1
+呀	1 X 1
+呂	6 PROPN 6
+呂宋	1 PROPN 1
+呆	1 ADJ 1
+呈	6 VERB 6
+呈交	1 VERB 1
+呈現	5 VERB 5
+告別	2 VERB 2
+告戒	1 NOUN 1
+告白	1 VERB 1
+告知	2 VERB 2
+告示	1 VERB 1
+告終	2 VERB 2
+告訴	3 VERB 3
+呎	4 NOUN 4
+呢	4 X 4
+周	11 PROPN 10 NOUN 1
+周代	1 PROPN 1
+周刊	1 NOUN 1
+周圍	5 NOUN 5
+周年	4 NOUN 4
+周敏	1 PROPN 1
+周日	1 NOUN 1
+周朝	1 PROPN 1
+周期	1 NOUN 1
+周歲	2 NOUN 2
+周迅	1 PROPN 1
+周遭	1 NOUN 1
+周邊	3 NOUN 3
+味	2 PART 2
+味道	1 NOUN 1
+呼	1 VERB 1
+呼叫	2 NOUN 1 VERB 1
+呼吸	6 VERB 3 NOUN 3
+呼和浩特	1 PROPN 1
+呼籲	2 VERB 2
+呼聲	3 NOUN 3
+命	7 VERB 5 NOUN 2
+命令	8 NOUN 6 VERB 2
+命名	23 VERB 19 NOUN 4
+命運	4 NOUN 4
+命題	1 NOUN 1
+和	674 CCONJ 614 ADP 56 PROPN 3 NOUN 1 ***
+和也	3 PROPN 3
+和夫	1 PROPN 1
+和好	1 NOUN 1
+和宜合	1 PROPN 1
+和平	10 NOUN 6 ADJ 3 ADV 1
+和康	1 PROPN 1
+和暖	1 ADJ 1
+和會	1 NOUN 1
+和林	1 PROPN 1
+和樹	1 PROPN 1
+和睦	1 ADV 1
+和約	3 NOUN 3
+和美	1 PART 1
+和衷	1 ADV 1
+和親	1 NOUN 1
+和解	2 VERB 1 NOUN 1
+和記	1 PROPN 1
+和談	2 VERB 1 NOUN 1
+和諧	1 NOUN 1
+和議	1 NOUN 1
+和階	1 ADJ 1
+咖啡	6 NOUN 6
+咧嘴	1 VERB 1
+咬弦	1 ADJ 1
+咬金	2 PROPN 2
+咸州	1 PROPN 1
+咸平	1 PROPN 1
+咸康	1 PROPN 1
+咸淳	1 PROPN 1
+咸鏡	1 PROPN 1
+咸陽	1 PROPN 1
+哀悼	1 VERB 1
+品	9 PART 8 PROPN 1
+品嘗	1 VERB 1
+品學兼優	1 VERB 1
+品德	1 NOUN 1
+品源	1 PROPN 1
+品牌	5 NOUN 5
+品種	3 NOUN 3
+品行	2 NOUN 2
+哈	1 PROPN 1
+哈丹姆	1 PROPN 1
+哈佛	3 PROPN 3
+哈吉	1 PROPN 1
+哈定	5 PROPN 5
+哈希姆	1 PROPN 1
+哈恩	1 PROPN 1
+哈爾濱	4 PROPN 3 PART 1
+哈羅	1 PROPN 1
+哈萊姆	1 PROPN 1
+哈達	1 PROPN 1
+哈里發	2 NOUN 2
+員	34 PART 34
+員佐	1 NOUN 1
+員外	1 NOUN 1
+員工	7 NOUN 7
+哥倫比亞	4 PROPN 4
+哥利茲	1 PROPN 1
+哥哥	3 NOUN 3
+哥本哈根	2 PROPN 2
+哥特	2 PROPN 2
+哨所	1 NOUN 1
+哪	1 PRON 1
+哪裡	2 PRON 2
+哭	1 VERB 1
+哲	3 PROPN 2 NOUN 1
+哲也	1 PROPN 1
+哲元	1 PROPN 1
+哲孟雄	1 PROPN 1
+哲學	7 NOUN 7
+哲生	1 NOUN 1
+哲蚌	1 PROPN 1
+哺乳	4 NOUN 3 VERB 1
+唇槍舌劍	1 NOUN 1
+唐	19 PROPN 19
+唐代	1 PROPN 1
+唐朝	7 PROPN 7
+售予	1 VERB 1
+售出	1 VERB 1
+售票	1 NOUN 1
+售賣	2 VERB 2
+唯	1 ADV 1
+唯一	25 ADJ 23 ADV 2
+唯有	2 VERB 1 ADP 1
+唯獨	1 ADV 1
+唯美	2 ADJ 2
+唱	3 VERB 3
+唱戲	1 VERB 1
+唱法	1 NOUN 1
+唱片	10 NOUN 10
+唸	1 VERB 1
+唸珠	1 NOUN 1
+唾液	1 NOUN 1
+商	18 PART 14 NOUN 4
+商事	1 NOUN 1
+商人	4 NOUN 4
+商務	1 NOUN 1
+商品	6 NOUN 6
+商圈	1 NOUN 1
+商城	1 NOUN 1
+商埠	2 NOUN 2
+商場	1 NOUN 1
+商幫	1 NOUN 1
+商店	6 NOUN 6
+商朝	1 PROPN 1
+商業	13 NOUN 12 ADJ 1
+商湯	1 PROPN 1
+商用	1 ADJ 1
+商羯羅	1 PROPN 1
+商船	1 NOUN 1
+商量	1 VERB 1
+啊	1 X 1
+問	2 NOUN 1 VERB 1
+問吧	1 NOUN 1
+問話	1 VERB 1
+問題	34 NOUN 34
+啟	1 PROPN 1
+啟傑	1 PROPN 1
+啟動	2 VERB 1 NOUN 1
+啟明	1 PROPN 1
+啟用	4 VERB 4
+啟發	1 NOUN 1
+啟睿	2 PROPN 2
+啟示	1 NOUN 1
+啟程	1 VERB 1
+啟聯	1 PROPN 1
+啟航	2 VERB 2
+啟蒙	2 NOUN 2
+啟超	5 PROPN 5
+啟鑰	1 NOUN 1
+啤酒	1 NOUN 1
+喀什	1 PROPN 1
+喀拉拉邦	1 PROPN 1
+善	8 VERB 6 PROPN 1 ADJ 1
+善事	1 NOUN 1
+善作	1 PROPN 1
+善化	2 PROPN 2
+善待	1 VERB 1
+善後	1 NOUN 1
+善惡	1 NOUN 1
+善意	2 NOUN 2
+善撲	1 VERB 1
+善良	1 ADJ 1
+喇嘛	5 NOUN 5
+喇薩	1 PROPN 1
+喉嚨	2 NOUN 2
+喊出	1 VERB 1
+喘息	1 VERB 1
+喙	1 NOUN 1
+喙端	1 NOUN 1
+喚	1 VERB 1
+喚回	1 VERB 1
+喚起	1 VERB 1
+喜	1 AUX 1
+喜劇	3 NOUN 3
+喜好	1 NOUN 1
+喜愛	3 NOUN 2 VERB 1
+喜歡	9 VERB 9
+喝	2 VERB 2
+喝醉	1 VERB 1
+喝采	1 VERB 1
+喪失	1 VERB 1
+喪生	2 VERB 2
+喬木	1 NOUN 1
+喬治	7 PROPN 7
+喬治亞	4 PROPN 4
+喬科維奇	1 PROPN 1
+單	25 NUM 23 PART 2
+單一	3 ADJ 3
+單位	39 NOUN 39
+單元	2 NOUN 2
+單曲	2 NOUN 2
+單獨	1 ADV 1
+單調	1 ADJ 1
+單質	1 NOUN 1
+單車	4 NOUN 4
+單項	1 NOUN 1
+喻	2 PROPN 2
+嗅到	1 VERB 1
+嗎	1 X 1
+嗜酸	1 VERB 1
+嗜鹼	1 VERB 1
+嗣位	1 VERB 1
+嗣業	1 PROPN 1
+嘉慶	2 PROPN 2
+嘉木揚	1 PROPN 1
+嘉木樣	1 PROPN 1
+嘉樂	1 PROPN 1
+嘉玲	2 PROPN 2
+嘉許	1 NOUN 1
+嘉賓	3 NOUN 3
+嘉道理	1 PROPN 1
+嘉陵	1 PROPN 1
+嘉靖	1 PROPN 1
+嘔吐	1 VERB 1
+嘗試	6 VERB 6
+嘩然	1 VERB 1
+嘮叨	1 VERB 1
+嘯林	1 PROPN 1
+嘲諷	4 NOUN 3 VERB 1
+嘴	1 NOUN 1
+噁心	1 ADJ 1
+噁爆	1 PROPN 1
+器	32 PART 32
+器具	1 NOUN 1
+器官	3 NOUN 3
+器械	1 NOUN 1
+器物	2 NOUN 2
+器蓋	1 NOUN 1
+器身	1 NOUN 1
+噪音	2 NOUN 2
+噴射	1 VERB 1
+噴氣	2 NOUN 2
+噴水	1 VERB 1
+噴泉	3 NOUN 3
+噸	15 NOUN 15
+噸位	1 NOUN 1
+嚇人	1 VERB 1
+嚮導	1 NOUN 1
+嚴	1 PROPN 1
+嚴令	1 VERB 1
+嚴加	1 ADV 1
+嚴密	2 ADJ 2
+嚴島	1 PROPN 1
+嚴懲	1 VERB 1
+嚴斥	1 VERB 1
+嚴格	4 ADJ 4
+嚴氏	1 PROPN 1
+嚴肅	1 ADJ 1
+嚴謹	1 ADJ 1
+嚴重	12 ADJ 10 ADV 2
+囊胚	1 NOUN 1
+囑咐	1 VERB 1
+囚犯	1 NOUN 1
+囚禁	2 VERB 2
+四	71 NUM 70 X 1
+四世	3 PROPN 3
+四十	2 NUM 2
+四十三	1 NUM 1
+四十多	1 NUM 1
+四十餘	1 NUM 1
+四周	2 NOUN 2
+四川	6 PROPN 6
+四平	1 PROPN 1
+四方八面	1 NOUN 1
+四牌	1 PROPN 1
+四萬	1 NUM 1
+四郎	1 PROPN 1
+回	7 PROPN 3 VERB 2 NOUN 2
+回來	4 VERB 4
+回信	1 VERB 1
+回到	16 VERB 16
+回合	1 NOUN 1
+回國	4 VERB 4
+回填	1 VERB 1
+回家	1 VERB 1
+回寺	1 VERB 1
+回彈	1 NOUN 1
+回復	1 VERB 1
+回想	2 VERB 2
+回憶	2 VERB 2
+回應	4 VERB 2 NOUN 2
+回收	2 VERB 1 NOUN 1
+回教	1 PROPN 1
+回歸	3 VERB 3
+回生	1 NOUN 1
+回程	1 VERB 1
+回答	1 VERB 1
+因	115 ADP 115 ***
+因為	83 ADP 83 ***
+因素	8 NOUN 8
+因而	13 ADV 13
+因達農	1 PROPN 1
+困	1 VERB 1
+困住	1 VERB 1
+困擾	1 VERB 1
+困難	7 ADJ 4 NOUN 3
+固	1 PROPN 1
+固定	5 ADJ 4 NOUN 1
+固態	1 NOUN 1
+固有	1 ADJ 1
+固醇	1 NOUN 1
+固體	5 NOUN 5
+圈	10 PART 8 VERB 1 NOUN 1
+國	113 PART 82 NOUN 29 PROPN 2
+國中	1 NOUN 1
+國主	1 NOUN 1
+國代	2 NOUN 2
+國光	1 PROPN 1
+國內	15 NOUN 15
+國公	1 NOUN 1
+國共	1 PROPN 1
+國務	9 NOUN 9
+國史	1 NOUN 1
+國名	1 NOUN 1
+國君	1 NOUN 1
+國土	1 NOUN 1
+國外	2 NOUN 2
+國奧	1 NOUN 1
+國妃	1 NOUN 1
+國安會	1 NOUN 1
+國家	91 NOUN 91 ***
+國寶	2 NOUN 1 PROPN 1
+國府	2 NOUN 1 PROPN 1
+國度	1 NOUN 1
+國庫	1 NOUN 1
+國徽	2 NOUN 2
+國情	1 NOUN 1
+國慶	1 PROPN 1
+國成	1 PROPN 1
+國旗	10 NOUN 10
+國會	12 NOUN 12
+國松	1 PROPN 1
+國歌	6 NOUN 6
+國民	28 NOUN 26 PROPN 2
+國泰	3 PROPN 3
+國父	1 NOUN 1
+國王	16 NOUN 16
+國璋	2 PROPN 2
+國產	1 NOUN 1
+國界	1 NOUN 1
+國立	1 NOUN 1
+國策	1 NOUN 1
+國籍	3 NOUN 3
+國訊	1 NOUN 1
+國語	2 PROPN 1 NOUN 1
+國諱	1 NOUN 1
+國軍	3 NOUN 3
+國鋒	2 PROPN 2
+國防	4 NOUN 4
+國際	40 NOUN 40
+國雄	1 PROPN 1
+圍	5 PART 3 NOUN 2
+圍坐	1 VERB 1
+圍攻	2 VERB 2
+圍棋	1 NOUN 1
+圍牆	1 NOUN 1
+圍繞	3 VERB 3
+圍魏救趙	1 VERB 1
+園	11 PART 10 PROPN 1
+園丁	1 NOUN 1
+園主	1 NOUN 1
+園內	1 NOUN 1
+園區	3 NOUN 3
+園明園	1 PROPN 1
+園林	1 NOUN 1
+園藝	2 NOUN 2
+圓	1 PART 1
+圓圓	1 PROPN 1
+圓弧	1 NOUN 1
+圓形	4 NOUN 4
+圓柱	1 NOUN 1
+圓滑	1 ADJ 1
+圓環	1 NOUN 1
+圓頂	2 NOUN 2
+圖	8 PART 8
+圖像	5 NOUN 5
+圖取	1 VERB 1
+圖布丹	1 PROPN 1
+圖形	1 NOUN 1
+圖書	13 NOUN 13
+圖案	8 NOUN 8
+圖樣	2 NOUN 2
+圖片	1 NOUN 1
+圖畫	2 NOUN 2
+圖示	1 NOUN 1
+圖稿	1 NOUN 1
+團	11 PART 11
+團圓	1 VERB 1
+團結	2 VERB 1 ADJ 1
+團聚	2 VERB 2
+團長	2 NOUN 2
+團隊	2 NOUN 2
+團體	10 NOUN 10
+土	3 PART 2 NOUN 1
+土匪	1 NOUN 1
+土司	1 NOUN 1
+土地	13 NOUN 13
+土壤	3 NOUN 3
+土石	1 NOUN 1
+土耳其	5 PROPN 5
+土虱	1 NOUN 1
+在	1351 ADP 881 VERB 446 ADV 24 ***
+在任	3 VERB 3
+在位	2 VERB 2
+在來	2 NOUN 1 ADJ 1
+在內	6 ADP 4 NOUN 2
+在場	3 VERB 2 NOUN 1
+在崗	1 NOUN 1
+在校	1 NOUN 1
+在此	7 VERB 7
+在身	1 VERB 1
+在錫	1 PROPN 1
+地	100 PART 77 NOUN 23 ***
+地下	23 NOUN 23
+地中	3 PROPN 3
+地位	22 NOUN 22
+地勢	4 NOUN 4
+地區	91 NOUN 91 ***
+地名	1 NOUN 1
+地圖	5 NOUN 5
+地域	1 NOUN 1
+地基	1 NOUN 1
+地外	2 NOUN 2
+地帶	2 NOUN 2
+地平	1 ADJ 1
+地底	4 NOUN 4
+地庫	1 NOUN 1
+地形	4 NOUN 4
+地政	1 NOUN 1
+地方	41 NOUN 41
+地板	1 NOUN 1
+地標	1 NOUN 1
+地獄	3 NOUN 3
+地球	15 PROPN 11 NOUN 4
+地理	3 NOUN 3
+地產	6 NOUN 6
+地盤	1 NOUN 1
+地級	1 NOUN 1
+地表	1 NOUN 1
+地貌	1 NOUN 1
+地質	1 NOUN 1
+地道	1 NOUN 1
+地鐵	8 NOUN 7 PROPN 1
+地震	1 NOUN 1
+地面	4 NOUN 4
+地點	9 NOUN 9
+坂本	1 PROPN 1
+均	35 ADV 35
+均勻	1 ADJ 1
+均衡	1 ADJ 1
+坊	4 PART 4
+坎特伯里	1 PROPN 1
+坎農	1 PROPN 1
+坐在	1 VERB 1
+坐監	1 VERB 1
+坐落	2 VERB 2
+坐診	2 VERB 2
+坐骨	1 NOUN 1
+坡	3 PART 3
+坡子	1 PROPN 1
+坤玲	1 PROPN 1
+坦	1 PROPN 1
+坦克	1 NOUN 1
+坦干伊喀	1 PROPN 1
+坦然	1 ADV 1
+坦白	1 ADV 1
+型	23 PART 18 NOUN 5
+型式	1 NOUN 1
+型態	3 NOUN 3
+垛口	1 NOUN 1
+垛牆	2 NOUN 2
+垮台	1 VERB 1
+埃	2 PROPN 2
+埃及	13 PROPN 13
+埃弗里	1 PROPN 1
+埃米內斯庫	1 PROPN 1
+埃米琳	1 PROPN 1
+埃米莉	2 PROPN 2
+埃蘭	1 PROPN 1
+埃默里希	1 PROPN 1
+埋怨	1 VERB 1
+埋葬	1 VERB 1
+埋藏	1 VERB 1
+城	27 PART 24 NOUN 3
+城中	2 NOUN 1 PROPN 1
+城主	1 NOUN 1
+城光	1 PROPN 1
+城內	1 NOUN 1
+城區	6 NOUN 6
+城南	1 PROPN 1
+城址	1 NOUN 1
+城堡	7 NOUN 7
+城子	2 PROPN 2
+城巴	1 PROPN 1
+城市	49 NOUN 49
+城池	1 NOUN 1
+城牆	1 NOUN 1
+城西	1 PROPN 1
+城鎮	21 NOUN 21
+城門	7 NOUN 6 PROPN 1
+城隍	1 NOUN 1
+埜堂	1 PROPN 1
+域名	2 NOUN 2
+埠村	1 PROPN 1
+埤	1 PART 1
+執委	1 NOUN 1
+執導	2 VERB 2
+執掌	2 VERB 2
+執政	5 VERB 3 NOUN 1 AUX 1
+執教	2 VERB 2
+執業	1 NOUN 1
+執法	2 NOUN 2
+執行	10 VERB 10
+執飛	1 VERB 1
+培元	1 PROPN 1
+培育	1 VERB 1
+培養	5 VERB 4 NOUN 1
+基	7 VERB 7
+基亞索	1 PROPN 1
+基因	6 NOUN 6
+基地	12 NOUN 12
+基層	1 NOUN 1
+基平	1 PROPN 1
+基底	2 NOUN 2
+基徹	1 PROPN 1
+基數	1 NOUN 1
+基本	16 NOUN 15 ADJ 1
+基督	16 PROPN 16
+基石	1 NOUN 1
+基礎	15 NOUN 15
+基金	7 NOUN 7
+基頻	1 NOUN 1
+堂	13 PART 13
+堂區	2 NOUN 2
+堂堂正正	1 ADJ 1
+堅	2 ADJ 1 PROPN 1
+堅固	2 ADJ 2
+堅城	1 NOUN 1
+堅定	2 VERB 1 ADJ 1
+堅尼地	1 PROPN 1
+堅強	2 ADJ 2
+堅拒	1 VERB 1
+堅持	5 VERB 5
+堅決	4 ADV 4
+堅蜥	1 NOUN 1
+堆填	1 VERB 1
+堆積	1 VERB 1
+堈	1 PROPN 1
+堡	5 PART 5
+堪憐	1 ADJ 1
+堪稱	1 VERB 1
+報	10 PART 8 NOUN 1 VERB 1
+報仇	1 VERB 1
+報分	2 VERB 1 NOUN 1
+報刊	1 NOUN 1
+報到	1 VERB 1
+報名	1 NOUN 1
+報告	11 NOUN 10 VERB 1
+報導	3 VERB 2 NOUN 1
+報復	1 VERB 1
+報紙	2 NOUN 2
+報讀	1 VERB 1
+報道	8 NOUN 7 VERB 1
+場	55 NOUN 35 PART 20
+場內	1 NOUN 1
+場合	4 NOUN 4
+場地	5 NOUN 5
+場均	1 ADJ 1
+場場	2 NOUN 2
+場所	7 NOUN 7
+場景	1 NOUN 1
+塊	3 NOUN 3
+塑像	1 NOUN 1
+塑料	1 NOUN 1
+塑有	1 VERB 1
+塑膠	1 NOUN 1
+塑造	3 VERB 2 NOUN 1
+塔	9 PART 6 NOUN 3
+塔利班	1 PROPN 1
+塔台	1 NOUN 1
+塔夫茨	1 PROPN 1
+塔林	1 PROPN 1
+塔樓	1 NOUN 1
+塔西佗	1 PROPN 1
+塗黑	1 VERB 1
+塘	3 PART 3
+塚	1 NOUN 1
+塞法迪	1 PROPN 1
+塞爾維亞	3 PROPN 3
+塞爾達	1 PROPN 1
+塞琉古	1 PROPN 1
+塞維魯	1 PROPN 1
+塞維魯敉	1 PROPN 1
+塞隆	1 PROPN 1
+塞音	1 NOUN 1
+塞馬	1 PROPN 1
+填充	3 VERB 3
+填海	3 VERB 3
+填補	3 VERB 3
+境內	14 NOUN 14
+境地	3 NOUN 3
+境外	2 NOUN 2
+墓	4 PART 4
+墓地	2 NOUN 2
+墓室	2 NOUN 2
+墓葬	1 NOUN 1
+墓頂	1 NOUN 1
+墜入	1 VERB 1
+墜毀	3 VERB 3
+墜落	1 NOUN 1
+增加	22 VERB 22
+增多	2 NOUN 1 VERB 1
+增建	2 VERB 2
+增強	2 VERB 2
+增殖	1 VERB 1
+增生	1 VERB 1
+增祥	1 PROPN 1
+增設	2 VERB 2
+增進	1 VERB 1
+增長	10 VERB 6 NOUN 4
+增額	1 NOUN 1
+墟	1 PART 1
+墟內	1 NOUN 1
+墨	1 NOUN 1
+墨客	1 NOUN 1
+墨色	1 NOUN 1
+墨西哥	13 PROPN 13
+墮胎	2 NOUN 1 VERB 1
+墳	1 PART 1
+墾田	1 NOUN 1
+壁畫	5 NOUN 5
+壓	1 PART 1
+壓倒	2 VERB 2
+壓力	6 NOUN 6
+壓強	2 NOUN 2
+壓縮	1 VERB 1
+壓迫	2 VERB 1 NOUN 1
+壘	5 NOUN 5
+壞球	1 NOUN 1
+壩上	1 NOUN 1
+壩下	1 NOUN 1
+士	2 NOUN 1 PART 1
+士兵	9 NOUN 9
+士官	3 NOUN 3
+士珍	1 PROPN 1
+士禛	1 PROPN 1
+士評	1 NOUN 1
+壯	3 PROPN 3
+壯大	2 ADJ 1 VERB 1
+壯年	2 NOUN 2
+壯漢	1 NOUN 1
+壯烈	1 ADV 1
+壯觀	3 ADJ 3
+壹	1 NUM 1
+壺	1 NOUN 1
+壺中仙	1 PROPN 1
+壽命	1 NOUN 1
+壽宴	1 NOUN 1
+壽星	1 NOUN 1
+夏	4 PROPN 3 NOUN 1
+夏伊	2 PROPN 2
+夏天	3 NOUN 3
+夏威夷	1 PROPN 1
+夏季	2 NOUN 2
+夏愨	1 PROPN 1
+夏秋季	1 NOUN 1
+夏至	1 PROPN 1
+夏茸切哇	1 X 1
+夏茸穹哇	1 X 1
+夏默	1 PROPN 1
+外	14 ADP 7 NOUN 5 PART 2
+外交	18 NOUN 18
+外來	3 ADJ 3
+外借	1 VERB 1
+外側	1 NOUN 1
+外傳	2 NOUN 2
+外僑	1 NOUN 1
+外力	1 NOUN 1
+外加	1 VERB 1
+外務	1 NOUN 1
+外匯	1 NOUN 1
+外國	6 NOUN 6
+外圍	2 NOUN 2
+外在	2 VERB 1 NOUN 1
+外地	1 NOUN 1
+外壁	1 NOUN 1
+外套	1 NOUN 1
+外層	1 NOUN 1
+外形	1 NOUN 1
+外援	2 NOUN 2
+外星	4 NOUN 4
+外殼	1 NOUN 1
+外甥	1 NOUN 1
+外甥女	1 NOUN 1
+外界	3 NOUN 3
+外省	1 NOUN 1
+外科	5 NOUN 5
+外管	1 NOUN 1
+外表	1 NOUN 1
+外褂	1 NOUN 1
+外觀	2 NOUN 2
+外訪	1 VERB 1
+外語	1 NOUN 1
+外資	2 NOUN 2
+外部	3 NOUN 3
+外銷	1 VERB 1
+多	100 NUM 65 ADV 24 ADJ 10 PART 1
+多倫	1 PROPN 1
+多元	1 ADJ 1
+多半	2 ADV 2
+多少	2 NUM 2
+多數	23 ADJ 21 ADV 2
+多樣	6 ADJ 6
+多汁	1 ADJ 1
+多謝	1 VERB 1
+多達	4 VERB 3 ADV 1
+多雨	1 ADJ 1
+夜	4 PART 2 NOUN 2
+夜夜	1 NOUN 1
+夜戰	1 NOUN 1
+夜晚	2 NOUN 2
+夠	3 AUX 2 VERB 1
+夠大	1 ADJ 1
+夢	4 NOUN 3 PART 1
+夢中	1 NOUN 1
+夢境	1 NOUN 1
+夢幻	1 ADJ 1
+夢想	1 NOUN 1
+夢雲	1 PROPN 1
+夢鴿	1 PROPN 1
+夥伴	2 NOUN 2
+夥兒	1 NOUN 1
+大	170 PART 122 ADJ 28 ADV 16 PROPN 3 NOUN 1 ***
+大不了	1 ADJ 1
+大乘	1 NOUN 1
+大亂	2 VERB 2
+大事	1 NOUN 1
+大二	1 NOUN 1
+大佛	2 NOUN 2
+大使	7 NOUN 7
+大儒	1 NOUN 1
+大公	2 ADJ 1 NOUN 1
+大力	2 ADV 2
+大勝	2 VERB 2
+大區	1 NOUN 1
+大半	2 NUM 2
+大友	1 PROPN 1
+大受	1 VERB 1
+大吉	1 PROPN 1
+大同	4 PROPN 3 ADJ 1
+大名	1 PROPN 1
+大君	1 PROPN 1
+大和	1 PROPN 1
+大喊	1 VERB 1
+大國	1 NOUN 1
+大圍	1 PROPN 1
+大型	13 NOUN 8 ADJ 5
+大城	1 PROPN 1
+大堂	2 NOUN 2
+大堆	1 NOUN 1
+大堤	1 NOUN 1
+大增	1 VERB 1
+大士	1 PROPN 1
+大多	8 ADV 5 ADJ 3
+大大	6 ADV 6
+大夫	3 NOUN 3
+大失所望	1 VERB 1
+大妃	2 NOUN 2
+大學	93 NOUN 92 PROPN 1 ***
+大家	3 PRON 2 NOUN 1
+大將	2 NOUN 2
+大小	8 NOUN 8
+大屋	2 NOUN 2
+大島	1 NOUN 1
+大嶼	1 PROPN 1
+大帝	4 NOUN 4
+大師	3 NOUN 3
+大幅	1 ADV 1
+大廈	16 NOUN 16
+大廳	2 NOUN 2
+大怒	1 VERB 1
+大悟	1 PROPN 1
+大戰	17 NOUN 17
+大批	2 NOUN 2
+大敗	2 VERB 2
+大敵	1 NOUN 1
+大新	1 PROPN 1
+大會	12 NOUN 12
+大校	1 NOUN 1
+大概	1 ADV 1
+大槍	2 NOUN 2
+大樓	16 NOUN 16
+大橋	3 PROPN 2 NOUN 1
+大權	3 NOUN 3
+大正	1 PROPN 1
+大殿	1 NOUN 1
+大氣	5 NOUN 5
+大汗	1 NOUN 1
+大河	1 NOUN 1
+大洋	1 PROPN 1
+大湖	1 PROPN 1
+大溪	1 PROPN 1
+大漠	1 NOUN 1
+大火	2 NOUN 2
+大熱	1 NOUN 1
+大獎	7 NOUN 7
+大獲	1 VERB 1
+大理	1 NOUN 1
+大發	1 VERB 1
+大眾	6 NOUN 6
+大碟	2 NOUN 2
+大窘	1 ADJ 1
+大笨	2 ADJ 2
+大約	16 ADV 16
+大紅	1 ADJ 1
+大經	1 NOUN 1
+大綱	1 NOUN 1
+大腦	1 NOUN 1
+大腸	1 NOUN 1
+大膽	1 ADJ 1
+大臣	4 NOUN 4
+大致	3 ADV 3
+大舉	1 ADV 1
+大艇	1 NOUN 1
+大華	1 PROPN 1
+大蒜	1 NOUN 1
+大街	2 NOUN 2
+大街小巷	1 NOUN 1
+大衛	2 PROPN 2
+大西	6 PROPN 6
+大賽	3 NOUN 3
+大跌	1 VERB 1
+大路	1 NOUN 1
+大辦	1 VERB 1
+大通	1 PROPN 1
+大連	3 PROPN 3
+大進	1 VERB 1
+大道	8 NOUN 8
+大選	3 NOUN 3
+大郎	1 PROPN 1
+大部	1 NOUN 1
+大都	1 ADV 1
+大量	25 ADJ 23 ADV 2
+大釗	1 PROPN 1
+大銘	1 PROPN 1
+大門	1 NOUN 1
+大阪	2 PROPN 2
+大陸	30 NOUN 29 PROPN 1
+大雄	1 PROPN 1
+大韓	1 PROPN 1
+大馬	1 PROPN 1
+大驚	1 VERB 1
+大體	1 NOUN 1
+大鬧	1 ADV 1
+大黨	1 NOUN 1
+大鼠	1 NOUN 1
+天	30 NOUN 26 PART 2 NUM 2
+天主	13 PROPN 10 NOUN 3
+天份	1 NOUN 1
+天佐	1 PROPN 1
+天使	1 NOUN 1
+天倫之樂	1 NOUN 1
+天元	1 NOUN 1
+天國	3 NOUN 3
+天地	2 NOUN 1 PROPN 1
+天子	2 NOUN 2
+天安	2 PROPN 2
+天寶樓	1 PROPN 1
+天差地遠	1 VERB 1
+天師	2 NOUN 2
+天性	1 NOUN 1
+天悅	1 PROPN 1
+天慶	1 PROPN 1
+天才	1 NOUN 1
+天敵	3 NOUN 3
+天文	19 NOUN 19
+天星	7 PROPN 7
+天母	1 PROPN 1
+天氣	2 NOUN 2
+天河	1 PROPN 1
+天津	20 PROPN 20
+天涯	1 NOUN 1
+天然	7 ADJ 7
+天王	3 NOUN 3
+天球	1 NOUN 1
+天皇	4 NOUN 4
+天祐	1 PROPN 1
+天空	3 NOUN 2 PROPN 1
+天窗	1 NOUN 1
+天紀	1 PROPN 1
+天翔	1 PROPN 1
+天衣	2 PROPN 2
+天賜	1 PROPN 1
+天賦	1 NOUN 1
+天雷	2 NOUN 2
+天馬	1 NOUN 1
+太	3 ADV 3
+太傅	1 NOUN 1
+太元	1 PROPN 1
+太冷	1 ADJ 1
+太初	1 PROPN 1
+太古	2 PROPN 2
+太后	1 NOUN 1
+太多	2 ADJ 2
+太大	2 ADJ 2
+太子	2 NOUN 2
+太守	2 NOUN 2
+太宗	1 PROPN 1
+太宰	1 NOUN 1
+太尉	1 NOUN 1
+太小	3 ADJ 3
+太常	1 NOUN 1
+太平	14 PROPN 11 ADJ 3
+太極	1 NOUN 1
+太湖	1 PROPN 1
+太炎	1 PROPN 1
+太監	1 NOUN 1
+太祖	2 PROPN 1 NOUN 1
+太空	6 NOUN 6
+太行	1 PROPN 1
+太近	1 ADJ 1
+太遠	1 ADJ 1
+太郎	1 NOUN 1
+太陽	16 NOUN 14 PROPN 2
+夫人	6 NOUN 6
+夫仇	1 NOUN 1
+夫妻	1 NOUN 1
+夫婦	4 NOUN 4
+央行	1 NOUN 1
+失利	1 VERB 1
+失去	15 VERB 15
+失地	1 NOUN 1
+失效	1 VERB 1
+失敗	8 VERB 5 NOUN 2 ADJ 1
+失望	4 ADJ 3 NOUN 1
+失業	3 VERB 3
+失職	1 VERB 1
+失能	1 VERB 1
+失落	1 VERB 1
+失誤	1 VERB 1
+失蹤	1 VERB 1
+夷昧	1 PROPN 1
+夸脫	2 NOUN 2
+夾	1 VERB 1
+夾狀	1 NOUN 1
+奇俠	1 NOUN 1
+奇幻	1 ADJ 1
+奇怪	1 ADJ 1
+奇異	3 ADJ 3
+奇缺	1 VERB 1
+奈米	3 NOUN 3
+奈葉	1 PROPN 1
+奉	2 VERB 2
+奉命	1 VERB 1
+奉天	2 PROPN 2
+奉安	1 PROPN 1
+奉律	1 PROPN 1
+奉新	1 PROPN 1
+奉系	1 PROPN 1
+奏	1 PART 1
+奏鳴	1 NOUN 1
+契合	2 VERB 2
+契約	3 NOUN 3
+奔走	1 VERB 1
+奕	1 PROPN 1
+奕詝	1 PROPN 1
+套	7 NOUN 6 PART 1
+套出	1 VERB 1
+套用	1 VERB 1
+奚	1 PROPN 1
+奠定	1 VERB 1
+奢侈	2 ADJ 2
+奢華	2 ADJ 2
+奧	3 PROPN 3
+奧伊	1 PROPN 1
+奧古斯丁	1 PROPN 1
+奧姆	1 PROPN 1
+奧布賴恩	2 PROPN 2
+奧得	1 PROPN 1
+奧托	1 PROPN 1
+奧斯卡	1 PROPN 1
+奧斯汀	1 PROPN 1
+奧爾滕	1 PROPN 1
+奧爾良	1 PROPN 1
+奧特	1 PROPN 1
+奧特伊	1 PROPN 1
+奧羽	1 PROPN 1
+奧蒂洛	1 PROPN 1
+奧運	7 PROPN 6 NOUN 1
+奪冠	3 VERB 2 NOUN 1
+奪去	1 VERB 1
+奪取	3 VERB 3
+奪得	9 VERB 9
+奬懲	1 VERB 1
+女	36 NOUN 32 PART 4
+女人	1 NOUN 1
+女傭	1 NOUN 1
+女僕	1 NOUN 1
+女優	1 NOUN 1
+女兒	15 NOUN 15
+女友	1 NOUN 1
+女士	2 NOUN 2
+女嬰	1 NOUN 1
+女子	12 NOUN 12
+女孩	2 NOUN 2
+女巫	3 NOUN 3
+女性	17 NOUN 17
+女水	1 NOUN 1
+女版	1 NOUN 1
+女王	3 NOUN 2 PROPN 1
+女生	1 NOUN 1
+女皇	2 NOUN 2
+女真	1 PROPN 1
+女眷	1 NOUN 1
+女神	3 NOUN 3
+女郎	1 NOUN 1
+奴役	1 NOUN 1
+奴隸	7 NOUN 7
+奶爸	1 NOUN 1
+奸	1 PART 1
+她	135 PRON 135 ***
+她倆	1 PRON 1
+她們	7 PRON.P_她 7
+好	10 ADJ 6 ADV 3 PART 1
+好上	1 VERB 1
+好友	7 NOUN 7
+好奇	1 ADJ 1
+好幾	1 NUM 1
+好手	2 NOUN 2
+好氧	1 ADJ 1
+好色	1 ADJ 1
+好評	3 NOUN 3
+如	50 VERB 41 ADP 5 ADV 2 AUX 2
+如下	5 VERB 5
+如今	5 NOUN 5
+如何	4 ADV 3 PRON 1
+如同	6 VERB 4 AUX 1 ADP 1
+如數	1 NOUN 1
+如果	31 ADP 31
+如此	15 VERB 15
+妃	3 NOUN 2 PART 1
+妄圖	1 VERB 1
+妊娠	1 VERB 1
+妖怪	1 NOUN 1
+妖精	2 NOUN 2
+妖魔	2 NOUN 2
+妙	1 NOUN 1
+妥善	2 ADV 2
+妨礙	3 VERB 3
+妮綺	1 PROPN 1
+妳	1 PRON 1
+妹	1 PART 1
+妹夫	1 NOUN 1
+妹妹	4 NOUN 4
+妻	5 NOUN 5
+妻妹	1 NOUN 1
+妻姐	1 NOUN 1
+妻子	13 NOUN 13
+妻室	1 NOUN 1
+姊妹	2 NOUN 2
+姊姊	1 NOUN 1
+始	8 VERB 4 NOUN 2 ADP 1 PART 1
+始建	6 VERB 6
+始發	1 NOUN 1
+始皇	2 NOUN 2
+始祖	1 NOUN 1
+始稱	1 VERB 1
+始終	6 ADV 5 NOUN 1
+始興	1 PROPN 1
+姐妹	2 NOUN 2
+姐姐	4 NOUN 4
+姐弟	2 NOUN 2
+姑娘	1 NOUN 1
+姑家	2 NOUN 2
+姑母	1 NOUN 1
+姓	2 VERB 1 NOUN 1
+姓名	2 NOUN 2
+姓氏	4 NOUN 4
+委任	4 VERB 3 NOUN 1
+委員	37 NOUN 37
+委派	3 VERB 3
+委託	3 VERB 3
+委身	1 VERB 1
+姚	2 PROPN 2
+姚里	1 PROPN 1
+姜	2 PROPN 2
+姥姥	1 NOUN 1
+姦情	1 NOUN 1
+姪女	1 NOUN 1
+姿	1 NOUN 1
+姿勢	1 NOUN 1
+姿態	3 NOUN 3
+姿色	1 NOUN 1
+威	1 PROPN 1
+威光	1 PROPN 1
+威力	3 NOUN 3
+威嚇	1 VERB 1
+威廉	10 PROPN 10
+威斯康辛	2 PROPN 2
+威斯特米思從	1 PROPN 1
+威權	1 NOUN 1
+威爾士	3 PROPN 3
+威爾歇	1 PROPN 1
+威爾遜	2 PROPN 2
+威特	1 PROPN 1
+威脅	12 NOUN 8 VERB 4
+威舍	1 PROPN 1
+娃娃	3 NOUN 3
+娘	1 PART 1
+娘家	1 NOUN 1
+娘舅	2 NOUN 2
+娛樂	14 NOUN 10 PROPN 3 VERB 1
+娜塔莉	1 PROPN 1
+娶	3 VERB 3
+婁	1 PROPN 1
+婆	1 PART 1
+婆婆	2 NOUN 2
+婆羅	1 PROPN 1
+婉轉	1 ADJ 1
+婚	1 NOUN 1
+婚事	1 NOUN 1
+婚姻	4 NOUN 4
+婚宴	1 NOUN 1
+婚禮	1 NOUN 1
+婢女	1 NOUN 1
+婦	1 PART 1
+婦女	4 NOUN 4
+婷婷	1 PROPN 1
+媒介	1 NOUN 1
+媒體	9 NOUN 9
+媚娘	1 PROPN 1
+媽媽	4 NOUN 4
+嫁給	3 VERB 3
+嫁與	1 VERB 1
+嫉妒	2 VERB 2
+嫌疑	3 NOUN 3
+嫘縈	1 NOUN 1
+嫣然	1 PROPN 1
+嬌嬌	3 PROPN 3
+嬰孩	1 NOUN 1
+嬴	6 PROPN 6
+子	18 NOUN 16 PART 2
+子夜	2 NOUN 2
+子女	3 NOUN 3
+子孫	1 NOUN 1
+子文	1 PROPN 1
+子珍	2 PROPN 2
+子球	1 NOUN 1
+子程	1 PROPN 1
+孔	7 PROPN 5 PART 2
+孔子	2 PROPN 2
+孕育	1 VERB 1
+孕酮	1 NOUN 1
+字	21 PART 14 NOUN 7
+字元	2 NOUN 2
+字喃	1 PROPN 1
+字型	2 NOUN 2
+字幕	1 NOUN 1
+字模	1 NOUN 1
+字母	9 NOUN 9
+字號	1 NOUN 1
+字體	2 NOUN 2
+存世	1 VERB 1
+存取	1 VERB 1
+存在	28 VERB 24 NOUN 4
+存放	1 VERB 1
+存有	2 VERB 2
+存活	2 VERB 2
+孝感	1 PROPN 1
+孝次	1 PROPN 1
+孟	1 PROPN 1
+孟能	2 PROPN 2
+季	11 NOUN 10 PART 1
+季前	2 NOUN 2
+季後	1 NOUN 1
+季惟	1 PROPN 1
+季節	6 NOUN 6
+季軍	2 NOUN 2
+季風	1 NOUN 1
+季龍	1 PROPN 1
+孤僻	2 NOUN 1 ADJ 1
+孤島	1 NOUN 1
+孤獨	2 VERB 1 NOUN 1
+孤芳自賞	1 VERB 1
+孤身	1 ADV 1
+孩子	9 NOUN 9
+孩提	1 NOUN 1
+孫	13 PROPN 13
+孫子	3 NOUN 3
+孵化	2 VERB 2
+學	66 PART 66
+學位	11 NOUN 11
+學到	1 VERB 1
+學制	3 NOUN 3
+學前	1 PROPN 1
+學名	5 NOUN 5
+學問	2 NOUN 2
+學堂	4 NOUN 4
+學士	2 NOUN 2
+學家	1 NOUN 1
+學年	2 NOUN 2
+學府	3 PROPN 3
+學府二道	1 PROPN 1
+學會	5 NOUN 4 PROPN 1
+學期	3 NOUN 3
+學校	45 NOUN 45
+學業	1 NOUN 1
+學民	1 NOUN 1
+學津	1 PROPN 1
+學生	33 NOUN 33
+學社	1 NOUN 1
+學科	5 NOUN 5
+學童	2 NOUN 2
+學系	2 NOUN 2
+學習	17 VERB 10 NOUN 7
+學者	9 NOUN 9
+學聯	1 NOUN 1
+學苑	1 NOUN 1
+學術	8 NOUN 8
+學費	2 NOUN 2
+學院	62 NOUN 61 PROPN 1
+它	74 PRON 74
+它們	28 PRON.P_它 28
+宇	3 PROPN 3
+宇一郎	2 PROPN 2
+宇宙	5 NOUN 5
+宇牆	1 NOUN 1
+宇航	1 VERB 1
+守備	1 VERB 1
+守孝	1 NOUN 1
+守文	1 PROPN 1
+守法	1 NOUN 1
+守臣	1 NOUN 1
+守衛	2 VERB 2
+守謙	1 PROPN 1
+守齋	1 VERB 1
+安	3 PROPN 3
+安二郎	1 PROPN 1
+安修	2 PROPN 2
+安全	12 NOUN 11 ADJ 1
+安妮	1 PROPN 1
+安安	1 PROPN 1
+安岳	1 PROPN 1
+安徒生	1 PROPN 1
+安得拉邦	1 PROPN 1
+安德魯	1 PROPN 1
+安徽	3 PROPN 3
+安息	2 NOUN 1 PROPN 1
+安打	2 NOUN 2
+安托瓦內特	1 PROPN 1
+安排	8 VERB 6 NOUN 2
+安撫	1 VERB 1
+安放	1 VERB 1
+安東	1 PROPN 1
+安樂	1 PROPN 1
+安正	1 PROPN 1
+安民	1 VERB 1
+安汶	1 PROPN 1
+安然	1 ADV 1
+安營	1 VERB 1
+安理	1 NOUN 1
+安納	1 PROPN 1
+安置	3 NOUN 2 VERB 1
+安聯	1 PROPN 1
+安菲特裡忒	2 PROPN 2
+安葬	2 VERB 2
+安蘭	1 PROPN 1
+安裝	6 VERB 6
+安達信	1 PROPN 1
+安邑	2 PROPN 2
+安那罕	1 PROPN 1
+宋	8 PROPN 8
+宋國	1 PROPN 1
+宋朝	3 PROPN 3
+完	2 VERB 2
+完備	3 ADJ 3
+完全	15 ADV 13 ADJ 2
+完善	4 NOUN 2 ADJ 1 VERB 1
+完好	1 ADJ 1
+完工	3 VERB 3
+完成	15 VERB 14 NOUN 1
+完整	2 ADJ 1 ADV 1
+完畢	1 ADJ 1
+完美	3 ADJ 3
+宏	3 PROPN 2 PART 1
+宏偉	1 ADJ 1
+宏坤	1 PROPN 1
+宏聲	1 PROPN 1
+宏觀	2 ADJ 1 NOUN 1
+宏道	1 PROPN 1
+宏量	1 ADJ 1
+宗	3 PART 2 NOUN 1
+宗偉	1 PROPN 1
+宗室	2 NOUN 2
+宗憲	1 PROPN 1
+宗教	17 NOUN 16 PROPN 1
+宗谷	1 PROPN 1
+宗龍	1 PROPN 1
+官	8 PART 6 NOUN 2
+官僚	3 NOUN 3
+官兵	1 NOUN 1
+官司	1 NOUN 1
+官吏	5 NOUN 5
+官員	4 NOUN 4
+官府	1 NOUN 1
+官方	7 NOUN 7
+官服	1 NOUN 1
+官渡	1 PROPN 1
+官職	2 NOUN 2
+官腔	1 NOUN 1
+官話	3 NOUN 3
+官邸	1 NOUN 1
+官長	1 NOUN 1
+宙域	1 NOUN 1
+定	3 VERB 3
+定下	2 VERB 2
+定位	1 VERB 1
+定價	1 VERB 1
+定名	2 VERB 2
+定向	1 ADJ 1
+定型	2 VERB 2
+定居	6 VERB 6
+定影	1 NOUN 1
+定律	4 NOUN 4
+定性	1 VERB 1
+定期	2 ADJ 2
+定案	1 NOUN 1
+定理	1 NOUN 1
+定義	6 NOUN 4 VERB 2
+定量	1 NOUN 1
+宛城	1 PROPN 1
+宜興	1 PROPN 1
+客	2 PART 2
+客串	2 VERB 2
+客人	2 NOUN 2
+客場	1 NOUN 1
+客室	2 NOUN 2
+客家	1 PROPN 1
+客戶	5 NOUN 5
+客機	2 NOUN 2
+客觀	1 ADJ 1
+客貨運	1 NOUN 1
+客車	2 NOUN 2
+客輪	1 NOUN 1
+客運	6 NOUN 5 VERB 1
+客量	1 NOUN 1
+客體	5 NOUN 5
+宣	1 PROPN 1
+宣佈	7 VERB 7
+宣傳	5 NOUN 5
+宣判	1 NOUN 1
+宣化	1 PROPN 1
+宣告	3 VERB 3
+宣布	24 VERB 24
+宣帝	1 PROPN 1
+宣戰	2 VERB 2
+宣稱	4 VERB 4
+宣言	1 NOUN 1
+宣誓	1 VERB 1
+室	27 PART 26 NOUN 1
+室內	3 NOUN 3
+室外	1 NOUN 1
+室溫	1 NOUN 1
+宦官	1 NOUN 1
+宮	6 PART 5 NOUN 1
+宮人	1 NOUN 1
+宮崎	1 PROPN 1
+宮廷	5 NOUN 5
+宰李	1 PROPN 1
+宰相	3 NOUN 3
+害怕	2 VERB 2
+宴席	1 NOUN 1
+宴會	1 NOUN 1
+家	120 PART 85 NOUN 35
+家中	6 NOUN 6
+家久	2 PROPN 2
+家人	9 NOUN 9
+家光	1 PROPN 1
+家勁	1 PROPN 1
+家務	1 NOUN 1
+家境	2 NOUN 2
+家外	1 NOUN 1
+家奴	1 NOUN 1
+家寶	3 PROPN 3
+家屬	2 NOUN 2
+家干	1 PROPN 1
+家庭	17 NOUN 17
+家族	17 NOUN 17
+家產	2 NOUN 2
+家用	1 NOUN 1
+家立	1 PROPN 1
+家衛	2 PROPN 2
+家裡	3 NOUN 3
+家貓	2 NOUN 2
+家道中落	1 VERB 1
+家鄉	3 NOUN 3
+家長	5 NOUN 5
+家驤	1 PROPN 1
+容	1 VERB 1
+容器	1 NOUN 1
+容忍	1 VERB 1
+容易	15 ADV 13 ADJ 2
+容納	6 VERB 5 NOUN 1
+容許	1 VERB 1
+容量	1 NOUN 1
+宿敵	1 NOUN 1
+宿根	1 NOUN 1
+宿舍	5 NOUN 5
+寄存	1 VERB 1
+寄宿	2 VERB 1 NOUN 1
+寄送	1 VERB 1
+寅成	1 PROPN 1
+密	1 PROPN 1
+密切	2 ADJ 2
+密山	1 PROPN 1
+密度	14 NOUN 14
+密文	1 NOUN 1
+密歇根	1 PROPN 1
+密碼	6 NOUN 6
+密蘇里	2 PROPN 2
+密西西比	1 PROPN 1
+密集	1 ADJ 1
+富	2 VERB 1 PART 1
+富人	2 NOUN 2
+富商	1 NOUN 1
+富恩特德奧羅	1 PROPN 1
+富有	3 VERB 2 ADJ 1
+富江	3 PROPN 3
+富特	2 PROPN 2
+富翁	1 NOUN 1
+富裕	1 ADJ 1
+富豪	1 NOUN 1
+富貴	1 NOUN 1
+富農	1 NOUN 1
+富邦	1 PROPN 1
+寒冷	3 ADJ 3
+察合台	1 PROPN 1
+察沃	1 PROPN 1
+察覺	5 VERB 5
+寡尿	1 NOUN 1
+實	1 PROPN 1
+實則	1 ADV 1
+實力	2 NOUN 2
+實務	2 NOUN 2
+實在	3 ADV 3
+實屬	1 AUX 1
+實德	1 PROPN 1
+實情	1 NOUN 1
+實戰	1 NOUN 1
+實收	1 VERB 1
+實施	4 VERB 4
+實業	4 NOUN 4
+實權	1 NOUN 1
+實況	1 NOUN 1
+實現	8 VERB 8
+實用	2 ADJ 2
+實習	2 VERB 2
+實行	7 VERB 7
+實踐	1 NOUN 1
+實際	16 NOUN 14 ADV 2
+實驗	16 NOUN 11 VERB 5
+實體	4 NOUN 4
+寧波	1 PROPN 1
+審	2 PART 1 NOUN 1
+審判	3 NOUN 3
+審批	1 VERB 1
+審查	2 NOUN 2
+審理	1 VERB 1
+審計	1 NOUN 1
+審評	1 VERB 1
+審議	1 VERB 1
+寫	9 VERB 9
+寫下	1 VERB 1
+寫作	6 NOUN 5 VERB 1
+寫信	1 VERB 1
+寫入	1 VERB 1
+寫出	1 VERB 1
+寫字	1 VERB 1
+寫成	1 VERB 1
+寫有	1 VERB 1
+寫進	1 VERB 1
+寫道	2 VERB 2
+寬	12 ADJ 10 PART 2
+寬厚	1 ADJ 1
+寬容	1 ADJ 1
+寬度	1 NOUN 1
+寬廣	2 ADJ 2
+寬敞	1 ADJ 1
+寬條	1 NOUN 1
+寬順	1 PROPN 1
+寬頻	2 NOUN 2
+寬鬆	2 ADJ 2
+寮國	1 PROPN 1
+寵物	1 NOUN 1
+寵臣	1 NOUN 1
+寶光	1 PROPN 1
+寶劍	1 NOUN 1
+寶如	1 PROPN 1
+寶應	1 PROPN 1
+寶殿	1 NOUN 1
+寶玉	1 NOUN 1
+寶田	1 PROPN 1
+寶石	2 NOUN 2
+寶血	1 NOUN 1
+寶貝	4 NOUN 4
+寶雞	1 PROPN 1
+寶雲	1 PROPN 1
+寶麗金	1 PROPN 1
+寺	33 PART 31 NOUN 2
+寺前	1 NOUN 1
+寺廟	2 NOUN 2
+寺院	3 NOUN 3
+封	8 VERB 7 NOUN 1
+封土	1 NOUN 1
+封為	1 VERB 1
+封爵	1 VERB 1
+封神	2 VERB 2
+封穴	1 NOUN 1
+封號	1 NOUN 1
+封裝	1 VERB 1
+封路	1 NOUN 1
+封閉	3 VERB 2 NOUN 1
+封面	2 NOUN 2
+射入	3 VERB 3
+射失	1 VERB 1
+射擊	4 NOUN 3 VERB 1
+射殺	2 VERB 2
+射洞	1 NOUN 1
+射程	1 NOUN 1
+射箭	1 VERB 1
+射線	1 NOUN 1
+射鵰	1 NOUN 1
+將	148 VERB 102 ADV 45 PART 1 ***
+將來	2 NOUN 2
+將軍	12 NOUN 11 PROPN 1
+將領	1 NOUN 1
+專	1 ADV 1
+專一	1 ADJ 1
+專任	1 NOUN 1
+專利	6 NOUN 6
+專制	1 ADJ 1
+專區	2 NOUN 2
+專吃	1 VERB 1
+專員	2 NOUN 2
+專家	5 NOUN 5
+專指	1 VERB 1
+專政	1 NOUN 1
+專有	2 NOUN 1 ADJ 1
+專業	15 NOUN 8 ADJ 7
+專機	1 NOUN 1
+專橫	1 ADJ 1
+專欄	1 NOUN 1
+專權	1 VERB 1
+專款	1 NOUN 1
+專注	1 VERB 1
+專用	4 ADJ 2 VERB 2
+專科	7 NOUN 7
+專線	1 NOUN 1
+專註	1 VERB 1
+專賣	1 VERB 1
+專輯	12 NOUN 12
+專長	1 VERB 1
+專門	9 ADV 8 ADJ 1
+專項	1 NOUN 1
+專題	2 NOUN 1 ADV 1
+尉	2 PROPN 2
+尊	4 NOUN 4
+尊嚴	2 NOUN 2
+尊崇	1 VERB 1
+尊敬	1 VERB 1
+尊稱	1 VERB 1
+尊重	2 NOUN 2
+尋回	1 VERB 1
+尋常	2 ADJ 2
+尋找	8 VERB 8
+尋求	7 VERB 7
+尋親	1 VERB 1
+對	163 ADP 153 VERB 4 NOUN 3 ADJ 2 PART 1 ***
+對上	1 VERB 1
+對付	1 VERB 1
+對外	5 ADV 4 ADJ 1
+對峙	2 VERB 2
+對待	2 VERB 2
+對應	6 VERB 5 ADJ 1
+對手	10 NOUN 10
+對抗	6 VERB 5 NOUN 1
+對撞	1 VERB 1
+對方	3 PRON 2 NOUN 1
+對於	27 ADP 27
+對此	5 VERB 2 ADV 1 AUX 1 ADP 1
+對比	3 NOUN 3
+對準	2 VERB 2
+對照	1 NOUN 1
+對生	1 ADJ 1
+對白	1 NOUN 1
+對稱	1 ADJ 1
+對立	1 VERB 1
+對簿公堂	1 VERB 1
+對話	1 NOUN 1
+對象	6 NOUN 6
+對陣	2 VERB 2
+對面	1 NOUN 1
+對飛	1 VERB 1
+導	1 PROPN 1
+導入	1 VERB 1
+導出	1 VERB 1
+導向	1 NOUN 1
+導彈	1 NOUN 1
+導播	1 NOUN 1
+導正	1 VERB 1
+導演	7 VERB 4 NOUN 3
+導致	24 VERB 24
+導航	3 VERB 2 NOUN 1
+導體	1 NOUN 1
+小	84 PART 72 ADJ 10 PROPN 1 NOUN 1
+小人	1 NOUN 1
+小兒	2 NOUN 2
+小兔	1 NOUN 1
+小刀	1 NOUN 1
+小南	1 PROPN 1
+小吃	3 NOUN 3
+小國	1 NOUN 1
+小型	8 NOUN 8
+小堂	3 NOUN 3
+小姐	2 NOUN 2
+小孩	3 NOUN 3
+小學	4 NOUN 4
+小小	1 ADJ 1
+小島	1 NOUN 1
+小平	3 PROPN 3
+小心	2 ADV 1 ADJ 1
+小息	1 NOUN 1
+小數	1 NOUN 1
+小時	8 NOUN 8
+小書	1 NOUN 1
+小桃	2 PROPN 2
+小梅	2 PROPN 2
+小欖	1 PROPN 1
+小水鴨	1 NOUN 1
+小河兒	1 PROPN 1
+小津	1 PROPN 1
+小浪底	1 PROPN 1
+小澤	1 PROPN 1
+小片	1 NOUN 1
+小生	1 NOUN 1
+小田急	1 PROPN 1
+小知	1 PROPN 1
+小石	1 PROPN 1
+小童	1 NOUN 1
+小組	8 NOUN 8
+小舖	1 NOUN 1
+小虎	1 PROPN 1
+小街	1 NOUN 1
+小說	34 NOUN 34
+小輪	1 NOUN 1
+小野	1 PROPN 1
+小鎮	2 NOUN 2
+小閻	2 PROPN 2
+小隊	1 NOUN 1
+小青	2 PROPN 2
+小順	1 PROPN 1
+小顏	1 PROPN 1
+小風	1 PROPN 1
+小體	1 NOUN 1
+小龍	1 PROPN 1
+少	4 ADV 2 NUM 1 ADJ 1
+少兒	1 NOUN 1
+少女	4 NOUN 4
+少將	1 NOUN 1
+少年	1 NOUN 1
+少懷	1 PROPN 1
+少數	5 ADJ 5
+少林	1 PROPN 1
+少見	1 VERB 1
+少許	1 NUM 1
+少量	1 ADJ 1
+尖	3 PART 2 ADJ 1
+尖端	1 PROPN 1
+尖酸	1 ADV 1
+尖頂	1 NOUN 1
+尚	8 ADV 7 PROPN 1
+尚州	1 PROPN 1
+尚德	1 PROPN 1
+尚方	1 NOUN 1
+尚書	1 NOUN 1
+尤其	13 ADV 13
+尤勒	1 PROPN 1
+尤指	1 VERB 1
+尤里卡	1 PROPN 1
+就	92 ADV 88 ADP 4 ***
+就任	2 VERB 2
+就是	42 AUX 23 VERB 14 ADV 5
+就業	2 VERB 1 NOUN 1
+就此	1 ADV 1
+就熟	1 ADJ 1
+就算	3 ADP 3
+就職	1 VERB 1
+就讀	9 VERB 9
+尷尬	1 NOUN 1
+尹	1 PROPN 1
+尹氏	1 PROPN 1
+尺	2 NOUN 2
+尺寸	1 NOUN 1
+尼克貝	1 PROPN 1
+尼古丁	1 NOUN 1
+尼山	3 PROPN 3
+尼師今	1 NOUN 1
+尼庫瑙	1 PROPN 1
+尼比魯	1 PROPN 1
+尼爾	1 PROPN 1
+尼米茲	1 PROPN 1
+尼羅	2 PROPN 2
+尼西亞	2 PROPN 2
+尼采	2 PROPN 2
+尼龍	4 NOUN 4
+尾	1 NOUN 1
+尾巴	5 NOUN 5
+尾柄	1 NOUN 1
+尾部	2 NOUN 2
+尾隨	1 VERB 1
+尾鰭	1 NOUN 1
+尾龍	1 NOUN 1
+局	52 PART 46 NOUN 5 PROPN 1
+局勢	2 NOUN 2
+局部	4 NOUN 4
+局長	8 NOUN 8
+局間	1 NOUN 1
+局限	2 VERB 2
+局面	3 NOUN 3
+屁股	1 NOUN 1
+居	3 VERB 3
+居住	13 VERB 11 NOUN 2
+居委	2 NOUN 2
+居家	1 VERB 1
+居所	1 NOUN 1
+居民	16 NOUN 16
+居留	1 VERB 1
+居禮	1 PROPN 1
+居里	2 PROPN 2
+屆	32 NOUN 32
+屆滿	1 VERB 1
+屈	3 PROPN 3
+屈折	1 VERB 1
+屋	1 PART 1
+屋大維	2 PROPN 2
+屋大薇	1 PROPN 1
+屋宇	1 NOUN 1
+屋苑	2 NOUN 2
+屋邨	3 NOUN 3
+屋頂	1 NOUN 1
+屍	1 PART 1
+屍體	1 NOUN 1
+屏山	1 PROPN 1
+屏東	1 PROPN 1
+屏風	1 NOUN 1
+展	2 PART 2
+展出	5 VERB 5
+展品	1 NOUN 1
+展望	1 VERB 1
+展示	4 VERB 4
+展覽	6 NOUN 6
+展貿	1 NOUN 1
+展開	5 VERB 5
+展館	2 NOUN 2
+屠	3 PROPN 3
+屠村	1 VERB 1
+屠龍	1 VERB 1
+層	40 NOUN 30 PART 10
+層壓	1 VERB 1
+層次	1 NOUN 1
+層疊	1 VERB 1
+層級	1 NOUN 1
+層面	1 NOUN 1
+履仁	2 PROPN 2
+履行	1 VERB 1
+屬	66 VERB 51 PART 9 NOUN 6
+屬名	3 NOUN 3
+屬國	1 NOUN 1
+屬於	1 VERB 1
+屬靈	1 NOUN 1
+屯	3 PART 3
+屯南	1 PROPN 1
+屯門	4 PROPN 4
+山	41 PART 41
+山下	1 NOUN 1
+山丘	2 NOUN 2
+山內	1 PROPN 1
+山區	4 NOUN 4
+山口	1 NOUN 1
+山地	1 NOUN 1
+山坡	2 NOUN 2
+山姆	1 PROPN 1
+山峰	1 NOUN 1
+山崖	1 NOUN 1
+山手	1 PROPN 1
+山月	1 PROPN 1
+山村	1 NOUN 1
+山東	18 PROPN 18
+山楂	1 NOUN 1
+山海	2 NOUN 1 PROPN 1
+山猿	1 NOUN 1
+山田	1 PROPN 1
+山胞	1 NOUN 1
+山脈	11 NOUN 11
+山葉	1 PROPN 1
+山西	8 PROPN 8
+山陵	1 NOUN 1
+山頂	4 PROPN 3 NOUN 1
+山麓	1 NOUN 1
+山龍眼	1 NOUN 1
+岐女短	1 PROPN 1
+岐阜	1 PROPN 1
+岐陽	1 PROPN 1
+岑	1 PROPN 1
+岔江	1 PROPN 1
+岡恩	1 PROPN 1
+岡本	1 PROPN 1
+岩	4 PART 3 PROPN 1
+岩屋	1 NOUN 1
+岩心	1 NOUN 1
+岩手	1 PROPN 1
+岩漿	1 NOUN 1
+岩石	2 NOUN 2
+岳	1 PROPN 1
+岳母	2 NOUN 2
+岳泰	1 PROPN 1
+岳父	2 NOUN 2
+岷江	1 PROPN 1
+岸	5 NOUN 5
+岸川	1 PROPN 1
+岸賈	1 PROPN 1
+岸邊	1 NOUN 1
+峯崎	1 PROPN 1
+峰倉	1 PROPN 1
+峰景	1 PROPN 1
+島	31 PART 23 NOUN 7 PROPN 1
+島上	6 NOUN 6
+島內	1 NOUN 1
+島國	1 NOUN 1
+島嶼	7 NOUN 7
+島式	4 NOUN 4
+島津	4 PROPN 4
+島蚺	1 NOUN 1
+峽	1 PART 1
+峽灣	1 NOUN 1
+峽谷	1 NOUN 1
+崇善	1 PROPN 1
+崇尚	1 VERB 1
+崇拜	2 VERB 2
+崇敬	1 NOUN 1
+崎頭	1 PROPN 1
+崔	1 PROPN 1
+崔西	2 PROPN 2
+崔陂	1 PROPN 1
+崖	2 PART 2
+崗	1 PART 1
+崗斜	1 PROPN 1
+崙頂	1 PROPN 1
+崞縣	1 PROPN 1
+崩坍	1 NOUN 1
+崩潰	1 VERB 1
+嵌	2 VERB 2
+嵩祝	1 PROPN 1
+嶺	4 PART 4
+嶺南	2 PROPN 2
+嶽麓	2 PROPN 2
+巔峰	1 NOUN 1
+川	2 PROPN 2
+川南	1 PROPN 1
+川村	1 PROPN 1
+川邊	1 PROPN 1
+州	94 PART 78 NOUN 15 ADJ 1 ***
+州界	1 NOUN 1
+州舞	1 NOUN 1
+州長	3 NOUN 3
+巡査	1 NOUN 1
+巡迴	5 NOUN 2 ADJ 1 ADV 1 VERB 1
+巢	1 PROPN 1
+工	6 PART 4 NOUN 1 PROPN 1
+工事	1 NOUN 1
+工人	10 NOUN 10
+工作	67 NOUN 49 VERB 18
+工兵	2 NOUN 2
+工具	5 NOUN 5
+工務	1 NOUN 1
+工商	2 NOUN 2
+工序	1 NOUN 1
+工廠	1 NOUN 1
+工會	1 PROPN 1
+工業	22 NOUN 22
+工法	1 NOUN 1
+工潮	1 NOUN 1
+工程	29 NOUN 29
+工藝	8 NOUN 8
+工資	8 NOUN 8
+工農	2 NOUN 2
+工黨	3 NOUN 3
+左	7 NOUN 6 PROPN 1
+左上	2 NOUN 2
+左側	2 NOUN 2
+左右	8 ADP 8
+左右神策軍	1 PROPN 1
+左岸	1 NOUN 1
+左拉	1 PROPN 1
+左派	1 NOUN 1
+左膀	1 NOUN 1
+左轉	1 VERB 1
+巧眉	2 PROPN 2
+巧言	2 PROPN 2
+巨作	1 NOUN 1
+巨像	1 NOUN 1
+巨冊	1 NOUN 1
+巨型	1 NOUN 1
+巨大	8 ADJ 8
+巨石	1 NOUN 1
+巨賈	1 NOUN 1
+巨野	1 PROPN 1
+巫師	1 NOUN 1
+差	1 AUX 1
+差分	1 NOUN 1
+差別	1 NOUN 1
+差勁	1 ADJ 1
+差會	1 NOUN 1
+差異	7 NOUN 7
+差距	2 NOUN 2
+差點	2 ADV 2
+己二胺	1 NOUN 1
+己巳	1 NOUN 1
+己酉	1 NOUN 1
+已	91 ADV 90 VERB 1 ***
+已婚	3 VERB 2 NOUN 1
+已故	1 NOUN 1
+已晚	1 ADJ 1
+已死	1 VERB 1
+已知	3 VERB 3
+已經	45 ADV 45
+巴	1 PROPN 1
+巴亞莫	1 PROPN 1
+巴克	1 PROPN 1
+巴克特里亞	2 PROPN 2
+巴克禮	1 PROPN 1
+巴列姆	1 PROPN 1
+巴哈伊	3 PROPN 3
+巴喬	1 PROPN 1
+巴城	1 PROPN 1
+巴塞	1 PROPN 1
+巴塞羅那	1 PROPN 1
+巴塞隆拿	1 PROPN 1
+巴士	26 NOUN 25 PROPN 1
+巴孛許諾	1 PROPN 1
+巴庫	1 PROPN 1
+巴思缽	1 PROPN 1
+巴斯	3 PROPN 3
+巴斯蒂亞	1 PROPN 1
+巴格達	2 PROPN 2
+巴比	1 PROPN 1
+巴比倫	1 PROPN 1
+巴爾幹	2 PROPN 2
+巴爾虎	1 PROPN 1
+巴納巴	1 PROPN 1
+巴英額	1 PROPN 1
+巴莫鱷	1 NOUN 1
+巴蒂斯塔	1 PROPN 1
+巴西	5 PROPN 5
+巴西利卡	1 PROPN 1
+巴西班讓	1 PROPN 1
+巴諾	1 PROPN 1
+巴賽	1 PROPN 1
+巴赫	1 PROPN 1
+巴頓	1 PROPN 1
+巴黎	20 PROPN 20
+巷	2 PART 2
+市	115 PART 97 NOUN 17 PROPN 1 ***
+市值	2 NOUN 2
+市內	2 NOUN 2
+市區	7 NOUN 7
+市售	1 ADJ 1
+市商	2 NOUN 2
+市場	15 NOUN 15
+市境	1 NOUN 1
+市政	5 NOUN 5
+市民	8 NOUN 8
+市營	1 ADJ 1
+市縣	1 NOUN 1
+市轄	1 VERB 1
+市郊	2 NOUN 2
+市鎮	32 NOUN 32
+市長	3 NOUN 3
+市面	1 NOUN 1
+布	1 PART 1
+布伯	1 PROPN 1
+布倫內羅	1 PROPN 1
+布卡	2 PROPN 2
+布庫	3 NOUN 3
+布政	1 NOUN 1
+布料	1 NOUN 1
+布朗	2 PROPN 2
+布林	1 PROPN 1
+布氏奇非鯽	1 NOUN 1
+布爾	1 PROPN 1
+布置	1 NOUN 1
+布萊姆	1 PROPN 1
+布袋	3 NOUN 3
+布里斯托	1 PROPN 1
+布里斯班	1 PROPN 1
+布隆施泰因	1 PROPN 1
+帆布	1 NOUN 1
+帆船	1 NOUN 1
+希伯來	1 PROPN 1
+希望	17 VERB 13 NOUN 4
+希皮奧內	1 PROPN 1
+希羅	2 PROPN 2
+希臘	20 PROPN 20
+希鵬	1 PROPN 1
+帕克	1 PROPN 1
+帕搏	1 PROPN 1
+帕維亞	1 PROPN 1
+帕迪恩	1 PROPN 1
+帛琉	2 PROPN 2
+帝	12 PART 8 NOUN 4
+帝國	49 NOUN 49
+帝王	1 NOUN 1
+帝都	1 NOUN 1
+師	13 PART 12 NOUN 1
+師傅	3 NOUN 3
+師團	1 NOUN 1
+師徒	1 NOUN 1
+師從	1 VERB 1
+師父	1 NOUN 1
+師生	1 NOUN 1
+師祖	1 NOUN 1
+師範	6 NOUN 6
+席	6 NOUN 5 PART 1
+席位	5 NOUN 5
+席勒	1 PROPN 1
+帳目	1 NOUN 1
+帶	23 VERB 14 PART 8 NOUN 1
+帶上	1 VERB 1
+帶來	13 VERB 13
+帶兵	1 VERB 1
+帶出	1 VERB 1
+帶到	3 VERB 3
+帶去	2 VERB 2
+帶子	1 NOUN 1
+帶少	1 VERB 1
+帶有	2 VERB 2
+帶水	1 VERB 1
+帶給	4 VERB 4
+帶走	4 VERB 4
+帶領	9 VERB 8 NOUN 1
+帶頭	3 VERB 3
+常	15 ADV 15
+常住	1 VERB 1
+常務	3 NOUN 3
+常勝	1 VERB 1
+常客	1 NOUN 1
+常常	7 ADV 7
+常年	2 NOUN 1 ADV 1
+常德	2 PROPN 2
+常態	1 NOUN 1
+常春	1 ADJ 1
+常春藤	1 NOUN 1
+常春藤葉	2 NOUN 2
+常用	4 ADJ 3 VERB 1
+常盛	1 PROPN 1
+常見	17 ADJ 16 VERB 1
+常規	3 NOUN 3
+常識	1 NOUN 1
+常量	1 ADJ 1
+常青	1 ADJ 1
+常駐	1 VERB 1
+帽	3 PART 3
+帽子	3 NOUN 3
+幀	1 NOUN 1
+幅	1 NOUN 1
+幅員遼闊	1 ADJ 1
+幅度	4 NOUN 4
+幕	1 NOUN 1
+幕府	1 NOUN 1
+幕後	1 NOUN 1
+幢	1 NOUN 1
+幣	7 PART 7
+幣原	1 PROPN 1
+幪面	1 NOUN 1
+幫	4 PART 2 NOUN 1 VERB 1
+幫主	1 NOUN 1
+幫助	15 VERB 13 NOUN 2
+幫忙	2 VERB 2
+干擾	2 NOUN 2
+干涉	2 VERB 1 NOUN 1
+干王	1 PROPN 1
+干預	2 VERB 1 NOUN 1
+平	2 VERB 1 NOUN 1
+平原	7 NOUN 6 PROPN 1
+平反	1 VERB 1
+平台	4 NOUN 4
+平和	1 PROPN 1
+平地	1 NOUN 1
+平均	13 ADJ 8 ADV 5
+平坦	1 ADJ 1
+平安	2 PROPN 2
+平帝	1 PROPN 1
+平常	2 NOUN 1 ADJ 1
+平息	2 VERB 2
+平成	2 PROPN 2
+平手	1 NOUN 1
+平方公里	66 NOUN 66
+平方千米	8 NOUN 8
+平方呎	3 NOUN 3
+平方米	11 NOUN 11
+平方英里	4 NOUN 4
+平日	1 NOUN 1
+平時	2 NOUN 2
+平林	1 PROPN 1
+平民	3 NOUN 3
+平沼	1 PROPN 1
+平滑	1 ADJ 1
+平等	6 ADJ 4 NOUN 2
+平臺	1 NOUN 1
+平行	1 VERB 1
+平衡	4 NOUN 3 ADJ 1
+平陵	1 PROPN 1
+平陽	1 PROPN 1
+平面	6 NOUN 6
+平頂	2 NOUN 1 PROPN 1
+年	1225 NOUN 1221 PART 4 ***
+年中	1 NOUN 1
+年代	49 NOUN 49
+年份	1 NOUN 1
+年初	2 NOUN 2
+年幼	1 ADJ 1
+年度	6 NOUN 6
+年息	1 NOUN 1
+年第	1 NOUN 1
+年紀	2 NOUN 2
+年級	7 NOUN 7
+年老	1 ADJ 1
+年號	1 NOUN 1
+年譜	2 NOUN 2
+年資	1 NOUN 1
+年輕	7 ADJ 7
+年間	3 NOUN 3
+年青	1 ADJ 1
+年齡	4 NOUN 4
+并行	1 VERB 1
+幸一	1 PROPN 1
+幸好	1 ADV 1
+幸福	3 NOUN 2 ADJ 1
+幸運	1 ADJ 1
+幹	1 NOUN 1
+幹事	1 NOUN 1
+幹掉	1 VERB 1
+幹流	1 NOUN 1
+幹線	3 NOUN 3
+幹道	1 NOUN 1
+幻想	8 NOUN 7 VERB 1
+幼	3 NOUN 2 ADJ 1
+幼子	1 NOUN 1
+幼年	2 NOUN 2
+幼弟	1 NOUN 1
+幼發拉底	1 PROPN 1
+幼稚	1 ADJ 1
+幼貓	1 NOUN 1
+幼體	2 NOUN 2
+幼魚	1 NOUN 1
+幼鯨	1 NOUN 1
+幼鳥	1 NOUN 1
+幽閣	1 NOUN 1
+幽默	4 ADJ 3 NOUN 1
+幾	27 NUM 27
+幾乎	17 ADV 16 ADJ 1
+幾何	3 NOUN 3
+幾內亞	2 PROPN 2
+幾十	1 NUM 1
+幾千	1 NUM 1
+幾多	1 NUM 1
+幾百	1 NUM 1
+床	1 NOUN 1
+床墊	2 NOUN 2
+床鋪	1 NOUN 1
+序列	3 NOUN 3
+序數	2 NOUN 2
+底	6 ADP 6
+底冊	1 NOUN 1
+底層	2 NOUN 2
+底片	1 NOUN 1
+底特律	1 PROPN 1
+底稿	1 NOUN 1
+底質	1 NOUN 1
+底部	5 NOUN 5
+店	7 PART 7
+店家	1 NOUN 1
+店鋪	2 NOUN 2
+庚戌	1 NOUN 1
+府	22 PART 22
+府中	1 NOUN 1
+府城	1 PROPN 1
+府尹	1 NOUN 1
+府第	1 NOUN 1
+度	20 NOUN 11 PART 9
+度假	4 VERB 3 NOUN 1
+度宗	1 NOUN 1
+度母	2 PROPN 2
+度過	4 VERB 4
+座	41 NOUN 35 PART 6
+座位	1 NOUN 1
+座右	1 NOUN 1
+座堂	2 NOUN 2
+座座	1 NOUN 1
+座椅	1 NOUN 1
+座西	1 VERB 1
+座談	1 NOUN 1
+庫	4 PART 4
+庫伊瓦涅米	1 PROPN 1
+庫夫	2 PROPN 2
+庫容	2 NOUN 2
+庫欣	1 PROPN 1
+庫爾特	1 PROPN 1
+庫賽	1 PROPN 1
+庫赫莫	1 PROPN 1
+庫迪尼奧	1 PROPN 1
+庫頁	1 PROPN 1
+庭	2 PART 2
+庭園	1 NOUN 1
+庭薺	1 NOUN 1
+庭長	1 NOUN 1
+康	3 PROPN 3
+康史	1 PROPN 1
+康子	1 PROPN 1
+康寧	1 PROPN 1
+康復	2 NOUN 1 VERB 1
+康樂	1 NOUN 1
+康濟鼐	1 PROPN 1
+康福	1 PROPN 1
+康羅伊	1 PROPN 1
+庾	3 PROPN 3
+廂	1 NOUN 1
+廈門	5 PROPN 5
+廉潔	1 ADJ 1
+廉租	2 NOUN 2
+廖	5 PROPN 5
+廚師	1 NOUN 1
+廚房	4 NOUN 4
+廝守	1 VERB 1
+廟	9 PART 9
+廟倉	1 NOUN 1
+廟方	1 NOUN 1
+廟橋	1 PROPN 1
+廟鎮	1 PROPN 1
+廠	12 PART 11 NOUN 1
+廠房	2 NOUN 2
+廢	2 VERB 2
+廢墟	2 NOUN 2
+廢棄	1 VERB 1
+廢止	2 VERB 2
+廢熱	1 NOUN 1
+廢舊	1 ADJ 1
+廢除	4 VERB 4
+廣	5 ADV 3 ADJ 1 PROPN 1
+廣受	1 VERB 1
+廣告	6 NOUN 6
+廣場	21 NOUN 21
+廣大	1 ADJ 1
+廣大興	1 PROPN 1
+廣安	2 PROPN 2
+廣州	18 PROPN 18
+廣播	8 NOUN 6 VERB 2
+廣東	9 PROPN 9
+廣權	1 PROPN 1
+廣泛	24 ADJ 14 ADV 10
+廣澳	1 PROPN 1
+廣稱	1 VERB 1
+廣義	2 NOUN 1 PROPN 1
+廣西	5 PROPN 5
+廣金	1 PROPN 1
+廬山	1 PROPN 1
+廳	8 PART 8
+廳局	1 NOUN 1
+廳長	1 NOUN 1
+延	1 VERB 1
+延任	2 VERB 2
+延伸	6 VERB 5 NOUN 1
+延安	1 PROPN 1
+延年益壽	1 VERB 1
+延緩	1 VERB 1
+延續	3 VERB 3
+延遲	2 VERB 2
+延長	5 VERB 5
+延音	1 NOUN 1
+廷	4 PART 4
+廷和	1 PROPN 1
+廷尉	1 NOUN 1
+建	13 VERB 12 PROPN 1
+建交	2 VERB 2
+建國	7 VERB 6 NOUN 1
+建好	1 VERB 1
+建威	1 PROPN 1
+建州	1 PROPN 1
+建市	1 VERB 1
+建康	2 PROPN 1 NOUN 1
+建御名方	1 PROPN 1
+建御雷	1 PROPN 1
+建成	5 VERB 5
+建有	2 VERB 2
+建業	4 PROPN 4
+建構	1 VERB 1
+建武	1 PROPN 1
+建立	43 VERB 41 NOUN 2
+建築	54 NOUN 43 VERB 11
+建置	1 NOUN 1
+建華	1 PROPN 1
+建設	13 NOUN 9 VERB 4
+建議	12 NOUN 7 VERB 5
+建超	1 PROPN 1
+建造	14 VERB 14
+建銘	2 PROPN 2
+廿五	1 NUM 1
+廿六	1 NUM 1
+弄到	1 VERB 1
+弄清	1 VERB 1
+弊案	1 NOUN 1
+式	31 PART 30 NOUN 1
+式微	1 VERB 1
+弓尾	1 NOUN 1
+弓弦	1 NOUN 1
+弓毛	3 NOUN 3
+弓箭	1 NOUN 1
+引來	1 VERB 1
+引入	3 VERB 3
+引力	3 NOUN 3
+引咎	1 VERB 1
+引導	1 VERB 1
+引擎	9 NOUN 9
+引江	1 PROPN 1
+引渡	1 NOUN 1
+引用	3 VERB 3
+引申	1 VERB 1
+引發	5 VERB 5
+引種	2 VERB 2
+引資	1 VERB 1
+引起	21 VERB 21
+引退	2 VERB 2
+引進	3 VERB 3
+弗朗丹	1 PROPN 1
+弗朗恰	1 PROPN 1
+弗朗索	1 PROPN 1
+弗特	1 PROPN 1
+弗里德里希	1 PROPN 1
+弗里施	1 PROPN 1
+弗里茨	1 PROPN 1
+弘	1 PROPN 1
+弘前	1 PROPN 1
+弘宣	1 PROPN 1
+弟子	3 NOUN 3
+弟弟	5 NOUN 5
+弧形	1 NOUN 1
+弭兵	1 VERB 1
+弱	1 ADJ 1
+弱小	3 ADJ 3
+張	53 PROPN 38 NOUN 15
+張家口	1 PROPN 1
+張氏	1 PROPN 1
+強	10 NOUN 5 PART 3 ADJ 2
+強制	3 VERB 2 NOUN 1
+強勁	1 ADJ 1
+強勢	1 ADJ 1
+強化	1 VERB 1
+強壯	3 ADJ 3
+強大	9 ADJ 6 VERB 2 NOUN 1
+強度	6 NOUN 6
+強拍	1 NOUN 1
+強暴	1 VERB 1
+強權	1 NOUN 1
+強求	1 VERB 1
+強烈	11 ADJ 10 ADV 1
+強盜	1 NOUN 1
+強調	7 VERB 7
+強迫	1 VERB 1
+強韌	1 ADJ 1
+強項	1 NOUN 1
+強風	2 NOUN 2
+彈	3 PART 2 VERB 1
+彈劾	1 NOUN 1
+彈奏	2 VERB 2
+彈性	2 NOUN 2
+彈撥	1 NOUN 1
+彈盡糧絕	1 VERB 1
+彈簧	3 NOUN 3
+彌撒	1 NOUN 1
+彌補	1 VERB 1
+彌賽亞	1 PROPN 1
+彌迦	2 PROPN 2
+彎曲	2 NOUN 1 ADJ 1
+彗差	1 NOUN 1
+彗星	1 NOUN 1
+彙編	1 NOUN 1
+彙集	2 VERB 2
+彝	1 PROPN 1
+形	14 PART 14
+形像	1 NOUN 1
+形同	1 VERB 1
+形容	6 VERB 4 AUX 1 NOUN 1
+形式	13 NOUN 13
+形態	6 NOUN 6
+形成	32 VERB 28 NOUN 3 AUX 1
+形狀	6 NOUN 6
+形象	11 NOUN 11
+形體	1 NOUN 1
+彥根	1 PROPN 1
+彥直	1 PROPN 1
+彩	1 NOUN 1
+彩畫	1 NOUN 1
+彩繪	1 NOUN 1
+彩色	2 NOUN 2
+彩雲	1 PROPN 1
+彩鳳	1 PROPN 1
+彪馬	1 PROPN 1
+彭	4 PROPN 4
+彭劉楊	1 PROPN 1
+彭博倫	1 PROPN 1
+彭古魯	1 NOUN 1
+彭定康	1 PROPN 1
+彭拿路	1 PROPN 1
+彰信	1 PROPN 1
+彰化	4 PROPN 4
+影像	4 NOUN 4
+影展	2 NOUN 2
+影帝	1 NOUN 1
+影業	4 NOUN 4
+影片	6 NOUN 6
+影線	1 NOUN 1
+影視	4 NOUN 4
+影評	1 NOUN 1
+影迷	1 NOUN 1
+影集	1 NOUN 1
+影音	1 NOUN 1
+影響	40 NOUN 23 VERB 15 AUX 2
+彷彿	1 ADV 1
+役	1 NOUN 1
+彼此	6 PRON 6
+彼特	1 PROPN 1
+往	5 ADP 4 VERB 1
+往上	1 ADV 1
+往世	1 NOUN 1
+往來	3 VERB 3
+往往	9 ADV 9
+往後	3 NOUN 2 ADV 1
+往日	1 NOUN 1
+往返	2 VERB 2
+征	2 VERB 1 PROPN 1
+征戰	2 NOUN 2
+征服	3 VERB 3
+征西	1 NOUN 1
+待	3 VERB 2 AUX 1
+待到	1 VERB 1
+待遇	3 NOUN 3
+很	37 ADV 37
+很久	1 ADJ 1
+很假	1 ADJ 1
+很多	33 NUM 30 ADJ 3
+很大	13 ADJ 13
+很好	3 ADJ 3
+很小	1 ADJ 1
+很少	7 ADV 4 ADJ 3
+很差	1 ADJ 1
+很強	1 ADJ 1
+很忙	1 ADJ 1
+很快	4 ADV 2 ADJ 2
+很懶	1 ADJ 1
+很是	1 ADV 1
+很深	1 ADJ 1
+很近	2 ADJ 2
+很遠	1 ADJ 1
+很重	1 ADJ 1
+很長	1 ADJ 1
+很難	4 ADV 4
+很高	3 ADJ 3
+律定	1 VERB 1
+律師	12 NOUN 12
+後	213 ADP 190 ADV 18 DET 3 NOUN 2 ***
+後世	1 NOUN 1
+後人	4 NOUN 4
+後代	1 NOUN 1
+後來	43 NOUN 43
+後勤	1 NOUN 1
+後南	1 PROPN 1
+後周	1 PROPN 1
+後宮	1 NOUN 1
+後庄	1 PROPN 1
+後悔	1 ADJ 1
+後援	1 NOUN 1
+後攻	1 NOUN 1
+後方	3 NOUN 3
+後期	11 NOUN 11
+後梁	1 PROPN 1
+後段	1 NOUN 1
+後母	1 NOUN 1
+後稱	1 VERB 1
+後端	2 NOUN 2
+後組	1 NOUN 1
+後綴	1 NOUN 1
+後續	2 NOUN 2
+後置	1 VERB 1
+後者	4 NOUN 4
+後藤	1 PROPN 1
+後衛	4 NOUN 4
+後裔	2 NOUN 2
+後送	1 VERB 1
+後防	1 NOUN 1
+後面	4 NOUN 4
+後齒	1 NOUN 1
+徐	10 PROPN 10
+徐水	1 PROPN 1
+徑	3 PART 3
+徒	6 PART 5 NOUN 1
+徒具	1 VERB 1
+徒刑	2 NOUN 2
+徒手	1 ADV 1
+徒步	3 VERB 3
+得	31 PART 18 VERB 12 AUX 1
+得分	4 NOUN 4
+得到	34 VERB 34
+得名	4 VERB 4
+得寵	4 VERB 3 AUX 1
+得心應手	1 ADJ 1
+得悉	1 VERB 1
+得獎	1 VERB 1
+得益	1 VERB 1
+得知	5 VERB 5
+得票	2 VERB 2
+得道	2 NOUN 1 VERB 1
+從	106 ADP 105 ADV 1 ***
+從事	15 VERB 15
+從來	1 ADV 1
+從句	1 NOUN 1
+從周	1 PROPN 1
+從善如流	1 VERB 1
+從小	2 ADV 2
+從政	1 VERB 1
+從此	9 ADV 9
+從而	2 ADV 2
+從軍	2 NOUN 2
+御史	1 NOUN 1
+御墨	1 NOUN 1
+御宅	1 NOUN 1
+御窯	1 PROPN 1
+御苑	2 NOUN 1 PROPN 1
+復	3 PROPN 2 VERB 1
+復健	1 NOUN 1
+復合	1 VERB 1
+復寫	1 VERB 1
+復工	3 VERB 3
+復旦	1 PROPN 1
+復甦	1 NOUN 1
+復興	10 NOUN 7 VERB 3
+復辟	3 VERB 3
+循環	4 NOUN 2 VERB 1 ADV 1
+循道	1 PROPN 1
+徭役	1 NOUN 1
+微	4 PART 4
+微博	5 NOUN 5
+微型	1 NOUN 1
+微妙	1 ADJ 1
+微小	1 ADJ 1
+微山	2 PROPN 2
+微波	1 NOUN 1
+微粒	1 NOUN 1
+微粒體	1 NOUN 1
+微觀	1 NOUN 1
+微量	1 ADJ 1
+徵兆	1 NOUN 1
+徵召	4 NOUN 2 VERB 2
+徵招	1 VERB 1
+徵收	3 VERB 3
+徵祥	1 PROPN 1
+德	10 PROPN 10
+德勝	1 PROPN 1
+德國	39 PROPN 39
+德國牧羊犬	1 NOUN 1
+德妃	1 NOUN 1
+德宏德特	1 PROPN 1
+德富卡	1 PROPN 1
+德川	3 PROPN 3
+德州	2 PROPN 2
+德干	1 PROPN 1
+德愛	1 PROPN 1
+德懷	1 PROPN 1
+德文	1 PROPN 1
+德比	1 PROPN 1
+德江	1 PROPN 1
+德爾	1 PROPN 1
+德爾斐	1 PROPN 1
+德甲	1 PROPN 1
+德綱	3 PROPN 3
+德華	1 PROPN 1
+德輔	2 PROPN 2
+德高	1 PROPN 1
+德魯茲	1 PROPN 1
+徹底	3 ADV 2 ADJ 1
+徽	1 PART 1
+徽章	1 NOUN 1
+心	6 PART 3 NOUN 3
+心中	2 NOUN 2
+心境	1 NOUN 1
+心宿	1 PROPN 1
+心情	3 NOUN 3
+心意	1 NOUN 1
+心智	1 NOUN 1
+心理	18 NOUN 18
+心目	1 NOUN 1
+心肌	1 NOUN 1
+必	3 AUX 3
+必和必拓	1 PROPN 1
+必然	3 ADV 2 ADJ 1
+必要	3 NOUN 2 ADJ 1
+必走	1 VERB 1
+必需	1 VERB 1
+必須	24 AUX 22 VERB 1 ADJ 1
+忍心	1 VERB 1
+忍氣吞聲	1 VERB 1
+志	1 PROPN 1
+志剛	2 PROPN 2
+志平	1 PROPN 1
+志摩	1 PROPN 1
+志明	1 PROPN 1
+志道	1 PROPN 1
+志願	4 NOUN 3 VERB 1
+忘	1 VERB 1
+忘記	1 VERB 1
+忙	1 NOUN 1
+忠	1 PROPN 1
+忠於	1 VERB 1
+忠誠	1 ADJ 1
+快	4 ADJ 2 ADV 1 PART 1
+快上	1 VERB 1
+快捷	1 ADJ 1
+快樂	2 NOUN 2
+快綫	1 NOUN 1
+快車	1 NOUN 1
+快速	9 ADV 5 ADJ 3 NOUN 1
+忽	1 ADV 1
+忽略	3 VERB 3
+忽視	1 VERB 1
+怎	1 ADV 1
+怎麼	4 ADV 4
+怒	1 NOUN 1
+怕	1 VERB 1
+思侯	1 PROPN 1
+思念	2 VERB 1 NOUN 1
+思想	22 NOUN 22
+思成	1 PROPN 1
+思明	2 PROPN 2
+思潮	3 NOUN 3
+思科	2 PROPN 2
+思維	1 NOUN 1
+思考	1 NOUN 1
+怡	1 PROPN 1
+怡和	3 PROPN 3
+急劇	1 ADV 1
+急忙	1 ADV 1
+急救	1 NOUN 1
+急於	1 VERB 1
+急流	1 NOUN 1
+急症	1 NOUN 1
+急行	1 NOUN 1
+急速	3 ADV 3
+性	95 PART 88 NOUN 7 ***
+性交	2 NOUN 2
+性別	4 NOUN 4
+性向	1 NOUN 1
+性命	1 NOUN 1
+性情	1 NOUN 1
+性感	1 ADJ 1
+性格	4 NOUN 4
+性腺	1 NOUN 1
+性質	4 NOUN 4
+怪	1 PART 1
+怪圈	1 NOUN 1
+怪物	3 PROPN 2 NOUN 1
+怪獸	3 NOUN 2 PROPN 1
+怪聲	1 NOUN 1
+恆	1 PART 1
+恆大	1 PROPN 1
+恆德	1 PROPN 1
+恆星	12 NOUN 12
+恆河	1 PROPN 1
+恆鳳	2 PROPN 2
+恐嚇	1 NOUN 1
+恐怖	13 NOUN 7 ADJ 6
+恐慌	2 ADJ 1 NOUN 1
+恐懼	1 VERB 1
+恐龍	4 NOUN 4
+恢復	9 VERB 9
+恢豐	1 PROPN 1
+恣意	1 ADV 1
+恤	1 NOUN 1
+恥辱	2 NOUN 2
+恨	1 VERB 1
+恩	2 PROPN 2
+恩來	3 PROPN 3
+恩南伽	1 PROPN 1
+恩寵	2 PROPN 1 NOUN 1
+恩慈	1 NOUN 1
+恩秀	1 PROPN 1
+恩賜	2 NOUN 2
+恩贈	1 VERB 1
+恭子	1 PROPN 1
+恭順	1 ADJ 1
+息率	1 NOUN 1
+悅強	2 PROPN 2
+悉心	1 ADJ 1
+悟到	1 VERB 1
+悟空	1 PROPN 1
+悠久	3 ADJ 3
+患	1 VERB 1
+患得患失	1 ADJ 1
+患病	1 VERB 1
+患者	4 NOUN 4
+您	1 PRON 1
+悲傷	1 ADJ 1
+悲劇	1 NOUN 1
+悲嘆	1 VERB 1
+悲慘	1 ADJ 1
+悲痛	1 ADJ 1
+悲痛欲絕	1 VERB 1
+悲觀	2 ADJ 1 NOUN 1
+悲鴻	1 PROPN 1
+悼念	1 VERB 1
+情	1 NOUN 1
+情不自禁	1 ADJ 1
+情人	1 NOUN 1
+情勢	1 NOUN 1
+情報	4 NOUN 4
+情場	1 NOUN 1
+情形	4 NOUN 4
+情愁	1 NOUN 1
+情意	2 NOUN 2
+情愛	1 NOUN 1
+情感	6 NOUN 6
+情景	1 NOUN 1
+情書	3 NOUN 3
+情況	28 NOUN 28
+情節	5 NOUN 5
+情結	1 NOUN 1
+情緒	5 NOUN 5
+情誼	1 NOUN 1
+情資	1 NOUN 1
+情陷	1 VERB 1
+情願	1 VERB 1
+惇曧	1 PROPN 1
+惟	1 ADV 1
+惠	2 PROPN 2
+惠亞	1 PROPN 1
+惠山	2 PROPN 2
+惠梨香	1 PROPN 1
+惠鳴	1 PROPN 1
+惡	1 ADJ 1
+惡人	1 NOUN 1
+惡化	1 VERB 1
+惡夢	1 NOUN 1
+惡性	1 NOUN 1
+惡搞	1 VERB 1
+惡臭	1 NOUN 1
+惡靈	1 NOUN 1
+惡魔	1 NOUN 1
+想	18 AUX 15 VERB 3
+想像	7 NOUN 4 VERB 3
+想到	3 VERB 3
+想必	1 VERB 1
+想法	3 NOUN 3
+想起	1 VERB 1
+愈	2 ADV 2
+愈加	1 ADV 1
+愈大	1 ADJ 1
+愈高	1 ADJ 1
+愉快	1 ADJ 1
+愉景	2 PROPN 2
+意	7 NOUN 7
+意味	7 VERB 5 NOUN 2
+意圖	1 NOUN 1
+意外	10 NOUN 9 ADJ 1
+意志	2 NOUN 2
+意念	1 NOUN 1
+意思	5 NOUN 5
+意料	1 NOUN 1
+意甲	1 PROPN 1
+意義	8 NOUN 8
+意見	8 NOUN 8
+意識	7 NOUN 4 VERB 3
+意願	2 NOUN 2
+意魔	1 PROPN 1
+愙威	1 PROPN 1
+愚園	1 PROPN 1
+愚昧	1 NOUN 1
+愛	7 VERB 3 AUX 2 NOUN 2
+愛上	3 VERB 3
+愛國	3 NOUN 2 VERB 1
+愛好	1 NOUN 1
+愛娜	1 PROPN 1
+愛娜茲薇	1 PROPN 1
+愛恨	1 NOUN 1
+愛情	6 NOUN 6
+愛惜	2 NOUN 1 VERB 1
+愛意	1 NOUN 1
+愛慕	1 VERB 1
+愛斯基摩犬	1 NOUN 1
+愛明內斯庫	1 PROPN 1
+愛樂	1 NOUN 1
+愛河	1 NOUN 1
+愛知	1 PROPN 1
+愛迪生	1 PROPN 1
+愛達荷	3 PROPN 3
+愛默生	1 PROPN 1
+感	6 PART 5 VERB 1
+感冒	1 VERB 1
+感到	11 AUX 8 VERB 3
+感動	2 VERB 1 ADJ 1
+感受	3 NOUN 2 VERB 1
+感召	1 VERB 1
+感情	5 NOUN 5
+感應	3 VERB 2 NOUN 1
+感染	2 VERB 2
+感覺	5 NOUN 4 AUX 1
+感謝	1 VERB 1
+慈善	5 NOUN 4 ADJ 1
+慈幼	2 NOUN 1 PROPN 1
+慈湖	1 PROPN 1
+慈濟	1 PROPN 1
+慈鯛	2 NOUN 2
+態	2 PART 2
+態度	5 NOUN 5
+慌亂	1 NOUN 1
+慎	1 PROPN 1
+慎太郎	1 PROPN 1
+慕容	1 PROPN 1
+慕肯	1 PROPN 1
+慘叫	1 NOUN 1
+慘敗	2 NOUN 1 VERB 1
+慘重	1 ADJ 1
+慚愧	1 ADJ 1
+慢慢	3 ADV 3
+慢行	1 VERB 1
+慢駛	1 VERB 1
+慣例	2 NOUN 2
+慧嫻	1 PROPN 1
+慰安	1 VERB 1
+慶	1 PROPN 1
+慶典	1 NOUN 1
+慶尚	2 PROPN 2
+慶曆	1 PROPN 1
+慶祝	5 VERB 4 NOUN 1
+慶豐	2 PROPN 2
+慶貽	1 PROPN 1
+慶黎	1 PROPN 1
+慷慨	1 ADJ 1
+慾望	2 NOUN 2
+憂	1 NOUN 1
+憂憤	1 VERB 1
+憎恨	2 NOUN 1 VERB 1
+憑	2 ADP 2
+憑藉	3 VERB 2 ADP 1
+憤怒	3 ADJ 3
+憲政	2 NOUN 2
+憲民	1 PROPN 1
+憲法	1 NOUN 1
+憶蓮	1 PROPN 1
+懂	1 VERB 1
+應	12 AUX 11 ADP 1
+應付	1 VERB 1
+應允	1 VERB 1
+應對	2 NOUN 1 VERB 1
+應屆	1 NOUN 1
+應戰	1 VERB 1
+應昌	1 PROPN 1
+應用	16 VERB 9 NOUN 7
+應當	1 AUX 1
+應許	1 VERB 1
+應該	4 AUX 4
+應邀	1 VERB 1
+懊惱	2 NOUN 1 ADJ 1
+懲罰	1 NOUN 1
+懶爪龍	1 NOUN 1
+懷	1 PROPN 1
+懷仁	1 PROPN 1
+懷俄明	2 PROPN 2
+懷孕	6 VERB 6
+懷念	1 VERB 1
+懷慶	1 PROPN 1
+懷抱	1 VERB 1
+懷水	1 PROPN 1
+懷疑	3 VERB 2 NOUN 1
+懷聖	1 PROPN 1
+懷舊	2 ADJ 1 NOUN 1
+懸崖	3 NOUN 3
+懸掛	1 VERB 1
+懸浮	2 NOUN 2
+懸索	2 NOUN 2
+懼高	1 VERB 1
+懿	1 PROPN 1
+戀	6 PART 5 NOUN 1
+戀人	1 NOUN 1
+戀屍	1 VERB 1
+戀愛	4 NOUN 4
+戀童	1 VERB 1
+戈爾	1 PROPN 1
+戈登	1 PROPN 1
+戈矛	1 NOUN 1
+戈蘭	1 PROPN 1
+成	137 VERB 136 PROPN 1 ***
+成事	1 VERB 1
+成人	4 NOUN 4
+成仁	1 VERB 1
+成仙	2 VERB 2
+成份	3 NOUN 3
+成傑	2 PROPN 2
+成分	4 NOUN 4
+成功	40 ADJ 17 ADV 12 NOUN 4 PROPN 4 VERB 3
+成化	1 PROPN 1
+成千上萬	3 NUM 3
+成名	1 VERB 1
+成品	1 NOUN 1
+成員	26 NOUN 26
+成因	2 NOUN 2
+成型	2 NOUN 1 VERB 1
+成套	1 NOUN 1
+成對	1 VERB 1
+成就	2 NOUN 2
+成年	6 NOUN 4 VERB 2
+成形	1 VERB 1
+成本	5 NOUN 5
+成果	3 NOUN 3
+成梁	1 PROPN 1
+成熟	6 ADJ 4 VERB 1 NOUN 1
+成立	60 VERB 57 NOUN 3
+成績	6 NOUN 6
+成群	2 VERB 2
+成行	1 VERB 1
+成語	1 NOUN 1
+成貓	2 NOUN 2
+成都	5 PROPN 5
+成長	6 VERB 4 NOUN 2
+我	35 PRON 35
+我們	25 PRON.P_我 25
+我國	1 NOUN 1
+戒毒	3 NOUN 2 VERB 1
+或	147 CCONJ 142 ADV 5 ***
+或是	8 CCONJ 7 AUX 1
+或者	16 CCONJ 15 ADV 1
+截	1 VERB 1
+截止	3 ADP 1 NOUN 1 VERB 1
+截然不同	1 ADJ 1
+截至	1 ADP 1
+截頜鯉	1 NOUN 1
+戰	17 PART 9 NOUN 8
+戰亂	2 NOUN 2
+戰事	1 NOUN 1
+戰俘	3 NOUN 3
+戰列	2 NOUN 2
+戰力	1 NOUN 1
+戰勝	1 VERB 1
+戰區	1 NOUN 1
+戰國	5 NOUN 3 PROPN 2
+戰地	1 NOUN 1
+戰場	2 NOUN 2
+戰士	2 NOUN 2
+戰平	1 VERB 1
+戰役	18 NOUN 18
+戰後	5 NOUN 5
+戰情	1 NOUN 1
+戰敗	4 VERB 4
+戰時	3 NOUN 3
+戰死	4 VERB 4
+戰爭	42 NOUN 42
+戰略	9 NOUN 9
+戰線	2 NOUN 2
+戰船	1 NOUN 1
+戰艦	3 NOUN 3
+戰術	2 NOUN 2
+戰鬥	27 NOUN 25 VERB 2
+戲	7 PART 7
+戲劇	6 NOUN 6
+戲子	1 NOUN 1
+戲曲	1 NOUN 1
+戲法	1 NOUN 1
+戲碼	1 NOUN 1
+戲謔	1 NOUN 1
+戲院	1 NOUN 1
+戴	2 VERB 1 PROPN 1
+戴上	1 VERB 1
+戴克里先	1 PROPN 1
+戴蒙	1 PROPN 1
+戴頓	1 PROPN 1
+戴麟趾	2 PROPN 2
+戶	3 NOUN 3
+戶田	1 PROPN 1
+戶籍	1 NOUN 1
+房	2 PART 2
+房地產	3 NOUN 3
+房子	3 NOUN 3
+房屋	8 NOUN 8
+房東	1 NOUN 1
+房間	5 NOUN 5
+所	159 ADV 122 NOUN 19 PART 18 ***
+所以	19 ADV 19
+所有	48 DET 46 VERB 2
+所為	1 NOUN 1
+所長	1 NOUN 1
+扁豆	1 NOUN 1
+手	14 NOUN 10 PART 4
+手上	1 NOUN 1
+手下	3 NOUN 3
+手中	5 NOUN 5
+手冊	2 NOUN 2
+手動	2 VERB 1 ADV 1
+手工	1 NOUN 1
+手感	1 NOUN 1
+手抄	1 VERB 1
+手持	1 VERB 1
+手指	1 NOUN 1
+手提	2 VERB 2
+手槍	1 NOUN 1
+手機	2 NOUN 2
+手段	5 NOUN 5
+手法	6 NOUN 6
+手稿	1 NOUN 1
+手筆	1 NOUN 1
+手腳	1 NOUN 1
+手術	10 NOUN 10
+手裡	2 NOUN 2
+手邊	1 NOUN 1
+手錶	1 NOUN 1
+手風	1 NOUN 1
+才	36 ADV 36
+才子	1 NOUN 1
+才是	1 AUX 1
+才智	1 NOUN 1
+才能	2 NOUN 2
+扎維耶	3 PROPN 3
+打	15 VERB 12 PART 2 AUX 1
+打亂	1 VERB 1
+打人	1 VERB 1
+打出	2 VERB 2
+打包	1 VERB 1
+打工	2 VERB 1 NOUN 1
+打撈	1 VERB 1
+打擊	9 VERB 7 NOUN 2
+打敗	2 VERB 2
+打死	1 VERB 1
+打水	1 VERB 1
+打牌	1 VERB 1
+打破	2 VERB 2
+打碎	1 VERB 1
+打算	8 VERB 8
+打造	1 VERB 1
+打開	2 VERB 2
+打響	1 VERB 1
+扔出	1 VERB 1
+托倫	1 PROPN 1
+托加下	1 PROPN 1
+托勒密	5 PROPN 5
+托洛洛	1 PROPN 1
+托爾斯泰	2 PROPN 2
+托盤	1 NOUN 1
+托米	1 PROPN 1
+托茂	1 PROPN 1
+扣上	1 VERB 1
+扭曲	3 ADJ 1 NOUN 1 VERB 1
+扮演	4 VERB 3 NOUN 1
+扶手	3 NOUN 3
+扶植	2 VERB 2
+批	9 NOUN 9
+批准	6 VERB 5 NOUN 1
+批判	4 VERB 3 NOUN 1
+批次	1 NOUN 1
+批評	9 VERB 5 NOUN 4
+扼止	1 NOUN 1
+找	5 VERB 5
+找來	1 VERB 1
+找出	2 VERB 2
+找到	7 VERB 7
+找回	2 VERB 2
+找尋	2 VERB 2
+找續	1 VERB 1
+承受	3 VERB 3
+承天	1 NOUN 1
+承德	1 PROPN 1
+承接	1 VERB 1
+承擔	4 VERB 3 NOUN 1
+承斌	1 PROPN 1
+承租	1 VERB 1
+承認	16 VERB 15 NOUN 1
+承諾	2 NOUN 1 VERB 1
+承辦	1 VERB 1
+技巧	4 NOUN 4
+技師	1 NOUN 1
+技戰術	1 NOUN 1
+技法	1 NOUN 1
+技能	5 NOUN 5
+技術	40 NOUN 40
+抄襲	2 VERB 2
+把	55 VERB 53 NOUN 2
+抑制	1 VERB 1
+抑鬱	1 ADJ 1
+抒情	4 ADJ 2 VERB 2
+抒解	1 VERB 1
+抓	2 VERB 2
+抓住	2 VERB 2
+抓到	1 VERB 1
+投交	1 VERB 1
+投入	10 VERB 10
+投奔	1 VERB 1
+投影	2 VERB 2
+投手	3 NOUN 3
+投標	1 VERB 1
+投球	1 VERB 1
+投票	7 VERB 4 NOUN 3
+投資	15 NOUN 8 VERB 7
+投身	1 VERB 1
+投降	2 VERB 2
+投靠	1 VERB 1
+抗	14 VERB 14
+抗大	1 PROPN 1
+抗戰	4 NOUN 3 VERB 1
+抗拒	1 VERB 1
+抗擊	2 VERB 2
+抗衡	1 VERB 1
+抗議	7 VERB 4 NOUN 3
+抗體	1 NOUN 1
+折射	1 VERB 1
+折斷	1 VERB 1
+折衷	1 ADJ 1
+抨擊	1 VERB 1
+披覆	1 VERB 1
+披頭士	1 PROPN 1
+抬昇	1 NOUN 1
+抱	1 VERB 1
+抱持	1 VERB 1
+抵受	1 VERB 1
+抵抗	5 VERB 4 NOUN 1
+抵擋	3 VERB 3
+抵禦	1 VERB 1
+抵達	5 VERB 5
+押韻	1 VERB 1
+抽取	2 VERB 2
+抽檢	1 NOUN 1
+抽煙	1 VERB 1
+抽象	1 ADJ 1
+抽走	1 VERB 1
+拆分	1 VERB 1
+拆卸	1 VERB 1
+拆掉	1 VERB 1
+拆穿	2 VERB 2
+拆解	2 VERB 2
+拆遷	1 NOUN 1
+拆除	3 VERB 3
+拉	1 VERB 1
+拉丁	3 PROPN 3
+拉什沃思	1 PROPN 1
+拉卜楞	1 PROPN 1
+拉奏	1 VERB 1
+拉姆齊	1 PROPN 1
+拉差諾	1 PROPN 1
+拉布	1 VERB 1
+拉彼魯茲	1 PROPN 1
+拉林	1 PROPN 1
+拉格	2 PROPN 2
+拉森	1 PROPN 1
+拉瑙	1 PROPN 1
+拉美	1 PROPN 1
+拉薩	2 PROPN 2
+拋棄	1 VERB 1
+拋物	1 VERB 1
+拍	2 VERB 2
+拍攝	10 VERB 9 NOUN 1
+拍照	1 VERB 1
+拍賣	1 VERB 1
+拒不	1 VERB 1
+拒絕	16 VERB 16
+拓務	1 VERB 1
+拓展	4 VERB 3 NOUN 1
+拓建	1 VERB 1
+拓撲	1 PROPN 1
+拔出	2 VERB 2
+拔刀	1 VERB 1
+拖	2 PART 1 VERB 1
+拖延	2 VERB 2
+拖進	1 VERB 1
+拖鞋	1 NOUN 1
+拘捕	1 VERB 1
+拙劣	1 ADJ 1
+招	1 VERB 1
+招募	4 VERB 3 NOUN 1
+招商	2 VERB 1 PROPN 1
+招潮蟹	1 NOUN 1
+招生	1 NOUN 1
+招聘	1 VERB 1
+招股	2 VERB 2
+招降	1 VERB 1
+拜拜	1 VERB 1
+括弧	1 NOUN 1
+拯救	3 VERB 3
+拱廊	1 NOUN 1
+拱橋	1 NOUN 1
+拳一	1 PROPN 1
+拳擊	1 NOUN 1
+拳賽	1 NOUN 1
+拷問	1 NOUN 1
+拷貝	2 VERB 1 NOUN 1
+拼寫	1 NOUN 1
+拼音	2 NOUN 2
+拾糞	1 VERB 1
+拿	2 VERB 2
+拿來	1 VERB 1
+拿到	2 VERB 2
+拿走	2 VERB 2
+持	3 VERB 3
+持久	1 VERB 1
+持有	8 VERB 8
+持球	1 VERB 1
+持續	5 VERB 4 ADV 1
+指	49 VERB 49
+指令	3 NOUN 3
+指使	1 VERB 1
+指出	15 VERB 15
+指南	2 VERB 2
+指定	5 VERB 4 NOUN 1
+指導	7 VERB 4 NOUN 3
+指引	2 NOUN 2
+指控	2 VERB 1 NOUN 1
+指揮	15 VERB 10 NOUN 5
+指數	4 NOUN 4
+指標	3 NOUN 3
+指派	1 VERB 1
+指涉	2 VERB 2
+指示	5 VERB 3 NOUN 2
+指稱	1 VERB 1
+指責	1 VERB 1
+按	8 ADP 8
+按照	5 ADP 4 VERB 1
+按鍵	2 NOUN 2
+挑戰	5 NOUN 3 VERB 2
+挑選	1 VERB 1
+挖	1 VERB 1
+挖子	1 PROPN 1
+挖掘	2 VERB 1 NOUN 1
+挖角	2 VERB 2
+挪動	1 VERB 1
+挪威	4 PROPN 4
+挪用	1 VERB 1
+振	1 NOUN 1
+振動	1 NOUN 1
+振幅	1 NOUN 1
+振林	1 PROPN 1
+挹江	1 PROPN 1
+挺	3 VERB 2 NOUN 1
+挺身而出	1 VERB 1
+挽回	1 VERB 1
+挽救	2 VERB 2
+挾持	1 VERB 1
+捉弄	1 NOUN 1
+捉拿	1 VERB 1
+捉襟見肘	1 VERB 1
+捍衛	1 VERB 1
+捐	1 VERB 1
+捐助	3 VERB 2 NOUN 1
+捐款	1 VERB 1
+捐獻	1 VERB 1
+捐贈	2 VERB 2
+捕	2 VERB 2
+捕捉	3 VERB 2 NOUN 1
+捕撈	1 VERB 1
+捕殺	1 VERB 1
+捕獲	2 VERB 2
+捕獵	1 NOUN 1
+捕食	2 VERB 1 NOUN 1
+捕魚	1 VERB 1
+捕鼠	1 VERB 1
+捲入	2 VERB 2
+捲曲	1 VERB 1
+捷克	3 PROPN 3
+捷徑	1 NOUN 1
+捷運	2 NOUN 2
+授	3 VERB 3
+授予	6 VERB 6
+授勳	1 NOUN 1
+授意	1 NOUN 1
+授權	2 NOUN 2
+授與	1 VERB 1
+掉	2 VERB 2
+掉頭	1 VERB 1
+掌	1 VERB 1
+掌控	1 VERB 1
+掌握	5 VERB 4 NOUN 1
+掌摑	1 VERB 1
+掌權	1 VERB 1
+掌鏡	1 VERB 1
+排	2 VERB 2
+排出	3 VERB 3
+排列	4 VERB 3 NOUN 1
+排名	5 NOUN 3 VERB 2
+排場	1 NOUN 1
+排外	1 NOUN 1
+排序	1 VERB 1
+排放	2 NOUN 2
+排氣	2 VERB 2
+排水	4 VERB 4
+排演	2 VERB 2
+排行	4 VERB 3 AUX 1
+排除	1 VERB 1
+掙扎	1 VERB 1
+掛	1 VERB 1
+掛接	1 VERB 1
+掛果	1 VERB 1
+掛架	2 NOUN 2
+掛牌	1 VERB 1
+掛鉤	1 NOUN 1
+掠奪	1 VERB 1
+掠過	2 VERB 2
+掠食	2 NOUN 1 VERB 1
+採	1 VERB 1
+採信	1 VERB 1
+採取	17 VERB 17
+採摘	1 VERB 1
+採樣	1 NOUN 1
+採用	21 VERB 21
+採納	1 VERB 1
+採訪	2 VERB 1 NOUN 1
+採購	1 VERB 1
+採集	1 NOUN 1
+採食	1 VERB 1
+探明	1 VERB 1
+探望	1 VERB 1
+探求	1 VERB 1
+探測	7 VERB 6 NOUN 1
+探究	1 VERB 1
+探討	3 VERB 3
+探險	1 VERB 1
+接	11 VERB 11
+接任	3 VERB 3
+接到	1 VERB 1
+接力	1 NOUN 1
+接受	29 VERB 29
+接唱	3 VERB 2 AUX 1
+接待	2 VERB 1 NOUN 1
+接掌	2 VERB 2
+接收	4 VERB 3 NOUN 1
+接替	4 VERB 4
+接班	1 VERB 1
+接種	2 NOUN 2
+接管	5 VERB 5
+接納	1 VERB 1
+接聽	1 VERB 1
+接見	1 VERB 1
+接觸	9 VERB 7 NOUN 2
+接辦	1 VERB 1
+接近	11 VERB 11
+接送	1 VERB 1
+接連	1 ADV 1
+接駁	2 VERB 2
+控	3 VERB 3
+控制	30 VERB 19 NOUN 10 AUX 1
+控告	1 VERB 1
+控球	3 NOUN 2 VERB 1
+控訴	2 VERB 2
+推介	1 NOUN 1
+推免生	1 NOUN 1
+推出	11 VERB 11
+推前	1 VERB 1
+推力	1 NOUN 1
+推動	10 VERB 9 NOUN 1
+推導	1 VERB 1
+推廣	2 NOUN 1 VERB 1
+推斷	1 VERB 1
+推測	1 VERB 1
+推演	1 VERB 1
+推特	1 PROPN 1
+推理	1 VERB 1
+推翻	2 VERB 2
+推舉	1 VERB 1
+推薦	4 NOUN 2 VERB 2
+推行	4 VERB 3 NOUN 1
+推論	1 VERB 1
+推進	5 NOUN 3 AUX 1 VERB 1
+推遲	1 VERB 1
+推選	2 VERB 2
+掩	1 VERB 1
+掩蓋	1 VERB 1
+措施	5 NOUN 5
+描寫	4 VERB 2 NOUN 2
+描摹	1 VERB 1
+描繪	2 VERB 2
+描述	12 VERB 8 NOUN 4
+提供	44 VERB 44
+提倡	2 VERB 2
+提出	18 VERB 18
+提到	6 VERB 6
+提前	1 VERB 1
+提升	8 VERB 7 NOUN 1
+提及	2 VERB 2
+提名	7 VERB 4 NOUN 3
+提問	1 NOUN 1
+提子	1 NOUN 1
+提安	1 PROPN 1
+提拔	1 VERB 1
+提攜	1 NOUN 1
+提昇	1 VERB 1
+提案	3 NOUN 3
+提煉	1 VERB 1
+提督	1 NOUN 1
+提示	2 VERB 2
+提籃	1 PROPN 1
+提議	3 VERB 3
+提醒	1 VERB 1
+提高	8 VERB 8
+插圖	2 NOUN 2
+插手	1 VERB 1
+插曲	1 NOUN 1
+揚州	4 PROPN 4
+揚聲	2 VERB 2
+揚言	1 VERB 1
+換	5 VERB 5
+換乘	3 VERB 3
+換入	2 VERB 2
+換回	1 VERB 1
+換成	1 VERB 1
+換掛	1 VERB 1
+換算	1 NOUN 1
+換股	2 NOUN 2
+握帶	1 NOUN 1
+握持	1 VERB 1
+揭曉	1 VERB 1
+揭發	1 VERB 1
+揭開	1 VERB 1
+揭露	1 VERB 1
+揮舞	1 VERB 1
+揮軍	1 VERB 1
+援	1 VERB 1
+援助	1 NOUN 1
+援外	1 NOUN 1
+援引	1 VERB 1
+援手	1 NOUN 1
+援救	1 VERB 1
+損傷	2 NOUN 2
+損失	3 NOUN 2 VERB 1
+損害	3 NOUN 3
+損毀	2 VERB 2
+搖滾	6 NOUN 4 ADJ 1 VERB 1
+搗毀	1 VERB 1
+搜尋	1 NOUN 1
+搜狐	1 PROPN 1
+搜索	6 NOUN 5 VERB 1
+搜羅	1 VERB 1
+搜集	1 VERB 1
+搞垮	1 VERB 1
+搞笑	2 ADJ 2
+搞錯	1 VERB 1
+搬到	3 VERB 3
+搬動	1 NOUN 1
+搬往	1 VERB 1
+搬移	1 VERB 1
+搬遷	1 VERB 1
+搭乘	1 VERB 1
+搭檔	2 NOUN 1 VERB 1
+搭配	2 VERB 2
+搶	1 VERB 1
+搶先	1 VERB 1
+搶劫	1 VERB 1
+搶奪	1 NOUN 1
+搶救	1 VERB 1
+搶險	2 VERB 1 NOUN 1
+摒棄	1 VERB 1
+摔	1 VERB 1
+摘下	1 VERB 1
+摘星	1 PROPN 1
+摘錄	1 VERB 1
+摧毀	2 VERB 2
+摩加迪沙	1 PROPN 1
+摩天	1 NOUN 1
+摩崖	1 NOUN 1
+摩托	1 NOUN 1
+摩擦	1 VERB 1
+摩根	2 PROPN 2
+摩爾	3 PROPN 3
+摩登	1 PROPN 1
+摩納哥	1 PROPN 1
+摩西	1 PROPN 1
+摯友	1 NOUN 1
+摸摸	1 VERB 1
+撒拉	1 PROPN 1
+撒營盤	1 PROPN 1
+撞入	1 VERB 1
+撞擊	3 VERB 3
+撞死	1 VERB 1
+撤出	2 VERB 2
+撤回	1 VERB 1
+撤職	1 VERB 1
+撤軍	2 VERB 2
+撤退	1 VERB 1
+撤銷	5 VERB 5
+撤除	1 VERB 1
+撤離	1 VERB 1
+撥	1 VERB 1
+撥出	1 VERB 1
+撥號	1 NOUN 1
+撫養	1 VERB 1
+播	2 VERB 2
+播出	10 VERB 8 NOUN 2
+播客	2 NOUN 2
+播放	12 VERB 11 NOUN 1
+播映	3 VERB 3
+播種	1 NOUN 1
+撮合	1 VERB 1
+撰寫	3 VERB 2 NOUN 1
+撰述	1 NOUN 1
+撲克	1 NOUN 1
+撿	1 VERB 1
+撿起	1 VERB 1
+擁	1 VERB 1
+擁堵	1 ADJ 1
+擁戴	1 NOUN 1
+擁擠	1 ADJ 1
+擁有	33 VERB 33
+擁護	1 VERB 1
+擂台	1 NOUN 1
+擅長	2 VERB 2
+擊	2 VERB 2
+擊中	1 VERB 1
+擊劍	1 NOUN 1
+擊敗	14 VERB 14
+擊斃	1 VERB 1
+擊毀	1 VERB 1
+擊潰	1 VERB 1
+擊破	1 VERB 1
+擊退	2 VERB 2
+擋	1 PART 1
+擋住	1 VERB 1
+操	1 PROPN 1
+操作	6 NOUN 3 VERB 3
+操控	1 VERB 1
+操縱	1 VERB 1
+擒抱	2 NOUN 1 VERB 1
+擒拿	1 VERB 1
+擔任	36 VERB 36
+擔心	4 VERB 4
+擔憂	1 VERB 1
+擔當	3 VERB 2 NOUN 1
+擔竿	1 PROPN 1
+擔綱	1 VERB 1
+擔負	2 VERB 2
+據	12 ADP 12
+據傳	1 VERB 1
+據守	2 VERB 2
+據此	1 ADV 1
+據稱	1 VERB 1
+據說	3 VERB 3
+據點	1 NOUN 1
+擠塞	1 NOUN 1
+擠壓	1 NOUN 1
+擠奶	1 VERB 1
+擠眉弄眼	1 VERB 1
+擠迫	1 ADJ 1
+擢升	1 VERB 1
+擬	1 VERB 1
+擬桿菌	1 NOUN 1
+擬訂	1 VERB 1
+擬議	1 VERB 1
+擴充	3 VERB 2 NOUN 1
+擴大	4 NOUN 3 VERB 1
+擴展	6 VERB 5 NOUN 1
+擴建	4 NOUN 2 VERB 2
+擴張	4 VERB 4
+擴散	1 VERB 1
+擴編	1 VERB 1
+擺弄	1 VERB 1
+擺渡	1 NOUN 1
+擺脫	2 VERB 2
+擾亂	1 VERB 1
+擾動	2 NOUN 2
+攀爬	1 VERB 1
+攔截	1 VERB 1
+攝像	1 VERB 1
+攝取	1 VERB 1
+攝影	8 NOUN 7 VERB 1
+攪拌	1 VERB 1
+支	10 NOUN 8 PART 2
+支付	3 VERB 3
+支出	3 NOUN 2 VERB 1
+支取	1 VERB 1
+支廳	1 NOUN 1
+支持	26 VERB 16 NOUN 10
+支援	8 VERB 7 NOUN 1
+支撐	3 VERB 2 NOUN 1
+支柱	2 NOUN 2
+支派	1 NOUN 1
+支流	3 NOUN 3
+支那	1 PROPN 1
+支部	1 NOUN 1
+支隊	1 NOUN 1
+收	2 VERB 2
+收入	6 NOUN 6
+收到	4 VERB 4
+收取	1 VERB 1
+收回	3 VERB 3
+收場	1 VERB 1
+收容	1 VERB 1
+收市	1 VERB 1
+收復	2 VERB 2
+收拾	3 VERB 3
+收支	1 NOUN 1
+收斂	7 NOUN 6 VERB 1
+收生	1 VERB 1
+收發	2 VERB 2
+收益	2 NOUN 2
+收租	1 NOUN 1
+收穫	2 NOUN 1 VERB 1
+收緊	1 VERB 1
+收聽	1 VERB 1
+收藏	5 NOUN 3 VERB 2
+收視	2 NOUN 1 VERB 1
+收買	1 VERB 1
+收費	1 NOUN 1
+收購	3 VERB 2 NOUN 1
+收錄	4 VERB 4
+收集	4 VERB 4
+收養	1 VERB 1
+攸之	1 PROPN 1
+改	18 VERB 18
+改作	1 VERB 1
+改制	5 VERB 5
+改名	10 VERB 10
+改善	3 VERB 3
+改回	2 VERB 2
+改寫	2 VERB 2
+改屬	1 VERB 1
+改建	2 VERB 2
+改投	1 VERB 1
+改採	1 VERB 1
+改換	1 VERB 1
+改派	1 VERB 1
+改版	2 VERB 2
+改發	1 VERB 1
+改稱	3 VERB 3
+改穿	1 VERB 1
+改組	1 VERB 1
+改編	6 VERB 5 NOUN 1
+改良	2 VERB 1 NOUN 1
+改裝	4 VERB 3 NOUN 1
+改變	13 VERB 9 NOUN 4
+改造	4 NOUN 3 VERB 1
+改進	3 NOUN 2 VERB 1
+改選	1 VERB 1
+改隸	1 VERB 1
+改革	12 NOUN 8 VERB 4
+攻下	1 VERB 1
+攻佔	4 VERB 4
+攻克	5 VERB 5
+攻入	9 VERB 9
+攻勢	1 NOUN 1
+攻堅	1 VERB 1
+攻打	3 VERB 3
+攻擊	20 VERB 10 NOUN 10
+攻方	1 NOUN 1
+攻殺	1 VERB 1
+攻訐	1 VERB 1
+攻讀	1 VERB 1
+攻陷	2 VERB 2
+放	7 VERB 7
+放任	1 VERB 1
+放入	1 VERB 1
+放出	1 VERB 1
+放到	1 VERB 1
+放大	1 VERB 1
+放射	4 VERB 3 NOUN 1
+放映	2 VERB 2
+放棄	10 VERB 10
+放榜	1 VERB 1
+放牧	1 VERB 1
+放緩	1 VERB 1
+放置	3 VERB 3
+放送	1 VERB 1
+放逐	1 VERB 1
+放開	1 VERB 1
+放鬆	1 VERB 1
+政	8 PROPN 7 NOUN 1
+政務	5 NOUN 4 PROPN 1
+政協	2 NOUN 2
+政團	1 NOUN 1
+政委	1 NOUN 1
+政局	1 NOUN 1
+政府	93 NOUN 93 ***
+政廳	1 NOUN 1
+政敵	1 NOUN 1
+政樞	1 PROPN 1
+政權	10 NOUN 10
+政治	47 NOUN 47
+政法	1 NOUN 1
+政爭	1 NOUN 1
+政界	1 NOUN 1
+政策	13 NOUN 13
+政變	2 NOUN 2
+政黨	2 NOUN 2
+故	14 ADV 13 VERB 1
+故事	46 NOUN 46
+故宮	5 PROPN 4 NOUN 1
+故意	2 ADV 2
+故此	2 ADV 2
+故稱	1 VERB 1
+故郷	1 NOUN 1
+故鄉	2 NOUN 2
+故障	3 NOUN 3
+效力	6 VERB 5 NOUN 1
+效尤	1 VERB 1
+效忠	2 VERB 2
+效果	10 NOUN 10
+效率	2 NOUN 2
+效能	1 NOUN 1
+敏	2 PROPN 2
+敏感	2 ADJ 2
+敏銳	1 ADJ 1
+救	3 VERB 3
+救人	1 VERB 1
+救出	1 VERB 1
+救助	1 VERB 1
+救國	1 VERB 1
+救援	1 VERB 1
+救星	1 NOUN 1
+救災	1 VERB 1
+救生	1 VERB 1
+救贖	1 NOUN 1
+敕	1 VERB 1
+敕令	1 NOUN 1
+敕書	1 NOUN 1
+敖	4 PROPN 4
+敗	1 VERB 1
+敗局	1 NOUN 1
+敗死	1 VERB 1
+敗瓦	1 NOUN 1
+敗給	2 VERB 2
+敗退	1 VERB 1
+敘利亞	6 PROPN 6
+敘述	3 VERB 3
+教	35 PART 35
+教務	1 NOUN 1
+教區	4 NOUN 4
+教友	2 NOUN 2
+教員	2 NOUN 2
+教堂	17 NOUN 17
+教士	1 NOUN 1
+教委	1 NOUN 1
+教子	1 NOUN 1
+教學	9 NOUN 9
+教宗	6 NOUN 6
+教室	2 NOUN 2
+教導	6 VERB 6
+教師	8 NOUN 8
+教席	1 NOUN 1
+教徒	2 NOUN 2
+教授	9 NOUN 8 VERB 1
+教會	15 NOUN 15
+教材	1 NOUN 1
+教案	1 NOUN 1
+教派	2 NOUN 2
+教皇	5 NOUN 5
+教科	1 NOUN 1
+教科文	2 NOUN 2
+教籍	1 NOUN 1
+教練	4 NOUN 4
+教總	1 NOUN 1
+教義	1 NOUN 1
+教習	5 NOUN 5
+教職員	1 NOUN 1
+教育	35 NOUN 32 VERB 3
+教養	3 NOUN 3
+散射	1 VERB 1
+敦	1 PROPN 1
+敦煌	1 PROPN 1
+敬仰	1 VERB 1
+敬堯	1 PROPN 1
+敬請	1 VERB 1
+敲擊	1 VERB 1
+敲訂	1 VERB 1
+整	1 DET 1
+整修	2 NOUN 2
+整個	23 DET 22 NOUN 1
+整塊	1 DET 1
+整套	2 DET 2
+整所	1 DET 1
+整架	1 DET 1
+整片	1 DET 1
+整理	4 VERB 2 NOUN 2
+整篇	1 NOUN 1
+整軍	1 VERB 1
+整顆	1 DET 1
+整體	2 NOUN 2
+整點	1 NOUN 1
+整齊	1 ADJ 1
+敵人	5 NOUN 5
+敵兵	1 NOUN 1
+敵對	2 VERB 2
+敵方	1 NOUN 1
+數	27 NUM 14 PART 13
+數以千計	1 NUM 1
+數位	2 NOUN 2
+數值	1 NOUN 1
+數十	3 NUM 3
+數十億	1 NUM 1
+數十萬	1 NUM 1
+數千	4 NUM 4
+數字	4 NOUN 4
+數學	14 NOUN 14
+數據	15 NOUN 15
+數澤	1 PROPN 1
+數理	2 NOUN 2
+數百	2 NUM 2
+數目	3 NOUN 3
+數碼	3 NOUN 3
+數萬	1 NUM 1
+數論	1 NOUN 1
+數量	13 NOUN 13
+文	35 PART 31 PROPN 2 NOUN 2
+文人	3 NOUN 3
+文件	3 NOUN 3
+文元	2 PROPN 2
+文化	52 NOUN 52
+文哲	1 PROPN 1
+文姬	1 PROPN 1
+文字	11 NOUN 11
+文學	22 NOUN 22
+文官	2 NOUN 2
+文岳	1 PROPN 1
+文巨	1 PROPN 1
+文帝	2 NOUN 1 PROPN 1
+文康	2 NOUN 2
+文德	1 PROPN 1
+文忠	5 PROPN 5
+文摘	1 NOUN 1
+文政	1 PROPN 1
+文明	10 NOUN 10
+文書	1 NOUN 1
+文本	1 NOUN 1
+文楷	1 PROPN 1
+文武	1 PROPN 1
+文法	1 NOUN 1
+文泰	4 PROPN 4
+文清	1 PROPN 1
+文物	23 NOUN 23
+文獻	5 NOUN 5
+文章	8 NOUN 8
+文職	1 NOUN 1
+文英	2 PROPN 2
+文華	2 PROPN 2
+文藝	10 NOUN 10
+文賢	1 PROPN 1
+文集	1 NOUN 1
+文革	2 NOUN 1 PROPN 1
+文體	1 NOUN 1
+文體教	1 NOUN 1
+斐濟	2 PROPN 2
+斑塊	1 NOUN 1
+斑點	1 NOUN 1
+斗貴子	1 PROPN 1
+料	1 NOUN 1
+料理	3 NOUN 3
+斜	1 ADJ 1
+斜坡	1 NOUN 1
+斥教	1 NOUN 1
+斥資	2 VERB 2
+斬落	1 VERB 1
+斯	5 PROPN 5
+斯佩克特	1 PROPN 1
+斯哥特	1 PROPN 1
+斯圖爾特	2 PROPN 2
+斯坦福	1 PROPN 1
+斯基龍	1 NOUN 1
+斯塔茨門	1 PROPN 1
+斯尼夫魯	1 PROPN 1
+斯德哥爾摩	1 PROPN 1
+斯氏亞冠龍	1 NOUN 1
+斯氏星蟒	2 NOUN 2
+斯洛特	1 PROPN 1
+斯特萊默	1 PROPN 1
+斯理	2 PROPN 2
+斯瓦爾恩	1 PROPN 1
+斯科特	1 PROPN 1
+斯里蘭卡	3 PROPN 3
+斯里賽拉姆古德姆德瓦斯塔納姆	1 PROPN 1
+新	93 PART 72 ADJ 15 ADV 4 PROPN 2
+新人	1 NOUN 1
+新任	1 NOUN 1
+新修	1 VERB 1
+新加坡	12 PROPN 12
+新址	1 NOUN 1
+新型	5 NOUN 5
+新城	6 PROPN 4 NOUN 2
+新埔	1 PROPN 1
+新增	3 VERB 3
+新太郎	1 PROPN 1
+新奧爾良	1 PROPN 1
+新字	1 NOUN 1
+新宿	2 PROPN 2
+新寧	1 PROPN 1
+新屋	1 PROPN 1
+新岩	2 PROPN 2
+新巴	1 PROPN 1
+新建	3 VERB 3
+新思	1 PROPN 1
+新教	3 PROPN 3
+新昌	1 PROPN 1
+新明	1 PROPN 1
+新春	1 NOUN 1
+新晉	1 NOUN 1
+新曲	2 NOUN 2
+新月	1 PROPN 1
+新村	3 NOUN 3
+新核	1 NOUN 1
+新榮	1 PROPN 1
+新民	1 PROPN 1
+新浪	1 PROPN 1
+新版	1 NOUN 1
+新生	3 NOUN 3
+新田	2 PROPN 2
+新疆	4 PROPN 4
+新秀	1 NOUN 1
+新竹	4 PROPN 4
+新篇	1 NOUN 1
+新約	1 NOUN 1
+新編	1 NOUN 1
+新罕布夏	1 PROPN 1
+新羅	3 PROPN 3
+新義	1 PROPN 1
+新聞	18 NOUN 18
+新興	2 ADJ 1 NOUN 1
+新舊	1 ADJ 1
+新華	5 PROPN 5
+新製	1 NOUN 1
+新開	1 NOUN 1
+新飛	1 PROPN 1
+新馬	1 PROPN 1
+新高	1 NOUN 1
+新鮮	5 ADJ 5
+新黨	1 NOUN 1
+斷後	1 VERB 1
+斷盡	1 VERB 1
+斷裂	2 VERB 2
+斷言	1 VERB 1
+方	37 NOUN 18 PART 9 PROPN 5 ADV 5
+方丈	1 NOUN 1
+方位	2 NOUN 2
+方便	5 VERB 4 ADJ 1
+方向	7 NOUN 7
+方尖	1 ADJ 1
+方式	32 NOUN 32
+方形	6 NOUN 6
+方案	8 NOUN 8
+方正	1 PROPN 1
+方法	30 NOUN 30
+方田	1 NOUN 1
+方石	1 PROPN 1
+方程	1 NOUN 1
+方蓋	1 NOUN 1
+方蟹	1 NOUN 1
+方言	7 NOUN 7
+方針	2 NOUN 2
+方面	39 NOUN 39
+於	719 VERB 397 ADP 322 ***
+於是	24 ADV 24
+施	8 PROPN 8
+施工	5 NOUN 4 VERB 1
+施文	1 PROPN 1
+施瓦本	1 PROPN 1
+施用	1 VERB 1
+施行	2 VERB 2
+旁	2 NOUN 2
+旁遮普	3 PROPN 3
+旁邊	2 NOUN 2
+旅	1 PROPN 1
+旅客	4 NOUN 4
+旅居	1 VERB 1
+旅程	1 NOUN 1
+旅行	5 VERB 3 NOUN 2
+旅遊	8 NOUN 6 VERB 2
+旅鴿	2 NOUN 2
+旋律	2 NOUN 2
+旋渦	1 NOUN 1
+旋轉	2 VERB 2
+族	24 PART 21 NOUN 3
+族群	3 NOUN 3
+族雄	1 PROPN 1
+族頭	1 NOUN 1
+旗	14 NOUN 9 PART 3 PROPN 2
+旗下	7 NOUN 7
+旗艦	1 NOUN 1
+旗面	1 NOUN 1
+既	4 CCONJ 4
+既得	1 VERB 1
+既是	1 ADP 1
+既然	1 ADP 1
+日	367 NOUN 313 PROPN 46 PART 6 NUM 2 ***
+日出	1 VERB 1
+日向	1 PROPN 1
+日喀則	2 PROPN 2
+日報	6 NOUN 6
+日夜	1 NOUN 1
+日子	2 NOUN 2
+日常	5 ADJ 4 NOUN 1
+日後	3 NOUN 3
+日日	1 NOUN 1
+日期	6 NOUN 6
+日本	97 PROPN 97 ***
+日本龍	2 NOUN 2
+日照	1 PROPN 1
+日用	1 VERB 1
+日益	2 ADV 2
+日航	2 PROPN 2
+日落	1 NOUN 1
+日行	2 PROPN 2
+日誌	1 NOUN 1
+日賜	1 VERB 1
+日間	3 NOUN 3
+旦增	1 PROPN 1
+旨	3 NOUN 2 VERB 1
+早	10 ADV 6 NOUN 3 ADJ 1
+早上	2 NOUN 2
+早年	5 NOUN 5
+早有	1 VERB 1
+早期	14 NOUN 14
+早餐	1 NOUN 1
+旭	1 PROPN 1
+旱災	1 NOUN 1
+旺山	2 PROPN 2
+旺盛	2 ADJ 2
+旺角	1 PROPN 1
+旻寧	1 PROPN 1
+昆丁	1 PROPN 1
+昆明	5 PROPN 5
+昆蟲	1 NOUN 1
+昌	2 PROPN 2
+昌吉	1 PROPN 1
+昌都	1 PROPN 1
+明	8 PROPN 8
+明中	1 PROPN 1
+明亞	1 PROPN 1
+明亮	1 PROPN 1
+明代	1 PROPN 1
+明基	4 PROPN 4
+明宗	1 PROPN 1
+明尼蘇達	1 PROPN 1
+明帝	2 PROPN 2
+明憲	1 PROPN 1
+明昌	1 PROPN 1
+明星	3 NOUN 3
+明智	1 ADJ 1
+明朝	18 PROPN 18
+明正	1 PROPN 1
+明治	5 PROPN 5
+明潭	1 PROPN 1
+明珠	3 NOUN 2 PROPN 1
+明白	1 VERB 1
+明碁	1 PROPN 1
+明確	8 ADJ 6 ADV 2
+明納努	3 PROPN 3
+明視	1 PROPN 1
+明顯	10 ADJ 7 ADV 3
+昏迷	3 VERB 2 NOUN 1
+易	3 VERB 1 ADV 1 NOUN 1
+易卜拉欣	1 PROPN 1
+易名	2 VERB 2
+易守	1 VERB 1
+易幟	1 NOUN 1
+易斯	1 PROPN 1
+易水	1 PROPN 1
+易燃	1 ADJ 1
+易經	1 NOUN 1
+昔日	2 NOUN 2
+星	17 PART 15 NOUN 2
+星光	4 NOUN 3 PROPN 1
+星團	1 NOUN 1
+星塵	1 PROPN 1
+星展	1 PROPN 1
+星崎	1 PROPN 1
+星形	2 NOUN 2
+星期	10 NOUN 10
+星球	4 NOUN 4
+星空	1 NOUN 1
+星章	3 NOUN 3
+星等	4 NOUN 4
+星系	1 NOUN 1
+星際	3 NOUN 3
+星雲	3 NOUN 3
+映像	1 NOUN 1
+映射	3 NOUN 3
+春	1 NOUN 1
+春丕	1 PROPN 1
+春天	2 NOUN 2
+春季	1 NOUN 1
+春日	2 NOUN 1 PROPN 1
+春日井	1 PROPN 1
+春會	1 NOUN 1
+春田	1 PROPN 1
+春秋	4 NOUN 3 PROPN 1
+春節	2 NOUN 2
+春緋	1 PROPN 1
+春耕	1 PROPN 1
+昨日	1 NOUN 1
+昭侯	1 PROPN 1
+昭儀	1 NOUN 1
+昭和	3 PROPN 3
+昭宗	1 NOUN 1
+昭烈	1 PROPN 1
+昭禮	1 PROPN 1
+昭通	1 PROPN 1
+是	965 AUX 700 VERB 264 X 1 ***
+是否	3 VERB 2 AUX 1
+是否是	2 AUX 2
+是年	1 NOUN 1
+是方	1 PROPN 1
+是次	1 DET 1
+時	201 ADP 182 NOUN 19 ***
+時事	1 NOUN 1
+時代	32 NOUN 32
+時任	6 VERB 3 NOUN 3
+時份	1 NOUN 1
+時候	28 NOUN 28
+時值	1 VERB 1
+時光	1 NOUN 1
+時分	1 NOUN 1
+時刻	1 NOUN 1
+時報	1 PROPN 1
+時尚	3 NOUN 3
+時常	6 ADV 6
+時弊	1 NOUN 1
+時期	40 NOUN 40
+時機	3 NOUN 3
+時段	4 NOUN 4
+時稱	1 VERB 1
+時空	3 NOUN 3
+時舉	1 PROPN 1
+時速	3 NOUN 3
+時針	1 NOUN 1
+時間	44 NOUN 44
+晃動	1 VERB 1
+晉	1 PROPN 1
+晉北	1 PROPN 1
+晉升	2 VERB 2
+晉哲	1 PROPN 1
+晉國	4 PROPN 4
+晉江	1 PROPN 1
+晉級	1 VERB 1
+晒乾	1 VERB 1
+晚	3 NOUN 2 PART 1
+晚上	2 NOUN 2
+晚年	3 NOUN 3
+晚會	3 NOUN 3
+晚間	5 NOUN 5
+晨興	3 PROPN 3
+晨間	1 NOUN 1
+普	2 PROPN 2
+普世	1 ADJ 1
+普什圖	1 PROPN 1
+普伊瑪諾娃	1 PROPN 1
+普及	2 NOUN 1 VERB 1
+普拉賽思	1 PROPN 1
+普查	17 NOUN 17
+普爾塔龍	1 NOUN 1
+普通	11 ADJ 10 VERB 1
+普遍	12 ADV 8 ADJ 4
+普選	3 VERB 2 NOUN 1
+普陀	2 PROPN 2
+普魯士	7 PROPN 7
+景	2 PROPN 1 NOUN 1
+景帝	2 PROPN 2
+景德	3 PROPN 3
+景泰	1 PROPN 1
+景觀	2 NOUN 2
+景象	2 NOUN 2
+景點	3 NOUN 3
+晴神	1 PROPN 1
+晶	1 PROPN 1
+晶瑩	1 ADJ 1
+晶閘	1 NOUN 1
+晶體	3 NOUN 3
+智伯	1 PROPN 1
+智利	1 PROPN 1
+智慧	2 NOUN 2
+智浩	1 PROPN 1
+智趣	1 NOUN 1
+暑假	2 NOUN 2
+暑期	2 NOUN 2
+暖	1 PART 1
+暗	3 PART 3
+暗中	1 ADV 1
+暗喻	1 NOUN 1
+暗影	1 PROPN 1
+暗房	1 NOUN 1
+暗指	1 VERB 1
+暗殺	2 NOUN 2
+暗礁	1 NOUN 1
+暗示	4 VERB 4
+暗紅	1 NOUN 1
+暗號	1 NOUN 1
+暗諭	1 VERB 1
+暢銷	2 ADJ 2
+暨	3 CCONJ 3
+暫	1 ADV 1
+暫停	2 VERB 2
+暫別	1 NOUN 1
+暫時	4 ADV 4
+暫無	1 VERB 1
+暫緩	2 VERB 2
+暮光	1 NOUN 1
+暱稱	1 NOUN 1
+暴亂	1 NOUN 1
+暴力	4 NOUN 4
+暴動	3 NOUN 3
+暴斂	1 VERB 1
+暴死	1 VERB 1
+暴行	1 NOUN 1
+暴露	2 NOUN 1 ADJ 1
+暴風雪	1 NOUN 1
+暹羅	1 PROPN 1
+曄之	1 PROPN 1
+曉彬	1 PROPN 1
+曉得	1 VERB 1
+曉聲	1 PROPN 1
+曉舟	1 PROPN 1
+曖昧	1 ADJ 1
+曝氣	2 VERB 2
+曬相	1 VERB 1
+曬衣	1 NOUN 1
+曲	19 PART 10 NOUN 9
+曲張	1 VERB 1
+曲率	1 NOUN 1
+曲目	1 NOUN 1
+曲線	1 NOUN 1
+曲藝	1 NOUN 1
+曲阜	1 PROPN 1
+曲頜形翼龍	1 NOUN 1
+更	58 ADV 58
+更低	1 ADJ 1
+更佳	1 ADJ 1
+更加	6 ADV 6
+更名	6 VERB 6
+更多	14 ADJ 13 ADV 1
+更大	1 ADJ 1
+更好	2 ADJ 2
+更審	1 VERB 1
+更小	1 ADJ 1
+更強	1 ADJ 1
+更快	1 ADJ 1
+更換	4 VERB 4
+更改	2 VERB 2
+更新世	1 NOUN 1
+更是	1 AUX 1
+更深	2 ADJ 2
+更為	3 ADV 3
+更硬	1 ADJ 1
+更衣	1 VERB 1
+更輕	1 ADJ 1
+更長	1 ADJ 1
+更高	2 ADJ 2
+曷懶甸	1 PROPN 1
+書	37 NOUN 19 PART 18
+書中	5 NOUN 5
+書信	2 NOUN 2
+書名	2 NOUN 2
+書寫	2 VERB 2
+書店	3 NOUN 3
+書房	2 NOUN 2
+書本	1 NOUN 1
+書法	2 NOUN 2
+書裡	1 NOUN 1
+書記	8 NOUN 8
+書迷	1 NOUN 1
+書院	8 NOUN 8
+書面	1 NOUN 1
+書香世家	1 NOUN 1
+曹	8 PROPN 8
+曹家	1 PROPN 1
+曹甸	1 PROPN 1
+曹記	1 PROPN 1
+曼城	1 PROPN 1
+曼寧	1 PROPN 1
+曼徹斯特	1 PROPN 1
+曼成	1 PROPN 1
+曼海姆	1 PROPN 1
+曼涅托	1 PROPN 1
+曼玉	1 PROPN 1
+曼科	1 PROPN 1
+曼聯	3 PROPN 3
+曾	98 ADV 90 PROPN 8 ***
+曾任	1 VERB 1
+曾孫	1 NOUN 1
+曾愛	1 VERB 1
+曾祖父母	1 NOUN 1
+曾經	14 ADV 14
+替	3 VERB 2 ADP 1
+替人	1 VERB 1
+替代	3 VERB 3
+替換	3 VERB 2 NOUN 1
+最	81 ADV 80 NOUN 1 ***
+最久	2 ADJ 1 ADV 1
+最低	5 ADJ 5
+最佳	5 ADJ 5
+最內	1 ADJ 1
+最初	18 NOUN 18
+最前	1 ADJ 1
+最受	1 VERB 1
+最外	1 ADJ 1
+最多	7 ADJ 6 ADV 1
+最大	25 ADJ 25
+最好	4 ADJ 3 ADV 1
+最小	2 ADJ 2
+最少	2 ADJ 1 ADV 1
+最常	1 ADV 1
+最強	1 ADJ 1
+最後	48 NOUN 47 ADJ 1
+最新	2 ADJ 2
+最早	19 ADJ 13 ADV 6
+最旺	1 ADJ 1
+最最	1 ADV 1
+最末	1 ADJ 1
+最東	1 ADJ 1
+最為	3 ADV 3
+最純	1 ADJ 1
+最終	39 NOUN 39
+最近	6 NOUN 4 ADJ 2
+最遊	2 NOUN 2
+最遠	1 ADJ 1
+最長	4 ADJ 4
+最高	32 ADJ 30 ADV 2
+會	281 AUX 167 PART 111 NOUN 3 ***
+會上	1 NOUN 1
+會員	2 NOUN 2
+會址	1 NOUN 1
+會堂	3 NOUN 3
+會場	2 NOUN 2
+會師	1 VERB 1
+會戰	1 NOUN 1
+會所	1 NOUN 1
+會晤	1 NOUN 1
+會社	2 NOUN 2
+會章	1 NOUN 1
+會見	1 VERB 1
+會計	1 NOUN 1
+會談	2 NOUN 2
+會議	22 NOUN 22
+會長	2 NOUN 2
+會面	1 NOUN 1
+月	476 NOUN 476 ***
+月刊	3 NOUN 3
+月台	12 NOUN 12
+月氏	3 PROPN 3
+月球	3 NOUN 2 PROPN 1
+月色	1 NOUN 1
+月薪	1 NOUN 1
+有	483 VERB 482 AUX 1 ***
+有些	22 VERB 21 AUX 1
+有份	1 VERB 1
+有別	1 VERB 1
+有利	3 VERB 2 ADJ 1
+有力	1 ADJ 1
+有助	2 VERB 2
+有名	1 ADJ 1
+有意	2 VERB 2
+有愛	1 VERB 1
+有效	10 ADJ 6 VERB 2 ADV 2
+有方	1 ADJ 1
+有時	13 ADV 13
+有期	1 ADJ 1
+有染	1 VERB 1
+有條不紊	1 ADJ 1
+有機	3 ADJ 3
+有權	4 VERB 4
+有毒	2 NOUN 2
+有用	4 ADJ 4
+有異	1 VERB 1
+有病	1 VERB 1
+有的	5 DET 4 VERB 1
+有稱	1 VERB 1
+有罪	2 VERB 2
+有花	1 NOUN 1
+有趣	3 ADJ 2 NOUN 1
+有軌	1 NOUN 1
+有關	22 ADJ 13 ADP 6 VERB 3
+有限	15 ADJ 14 NOUN 1
+有點	1 VERB 1
+朋友	9 NOUN 9
+服	2 PART 2
+服刑	1 VERB 1
+服務	37 NOUN 28 VERB 9
+服役	3 VERB 2 NOUN 1
+服從	2 VERB 2
+服用	3 VERB 3
+服裝	4 NOUN 4
+朔	1 PROPN 1
+朔日	2 NOUN 2
+朗豪	1 PROPN 1
+朗頓	1 PROPN 1
+望族	1 NOUN 1
+望遠	5 VERB 4 NOUN 1
+朝	6 PART 4 PROPN 1 VERB 1
+朝下	1 VERB 1
+朝代	3 NOUN 3
+朝元	1 PROPN 1
+朝向	1 NOUN 1
+朝廷	6 NOUN 6
+朝政	1 NOUN 1
+朝散	1 NOUN 1
+朝日	3 PROPN 3
+朝東	1 VERB 1
+朝聖	1 VERB 1
+朝覲	1 NOUN 1
+朝貢	1 NOUN 1
+朝陽	1 PROPN 1
+朝鮮	20 PROPN 20
+期	20 NOUN 11 PART 9
+期刊	2 NOUN 2
+期望	3 VERB 3
+期間	50 NOUN 49 ADP 1
+木中	1 NOUN 1
+木乃伊	1 NOUN 1
+木刻	1 NOUN 1
+木卡姆	1 PROPN 1
+木城	1 PROPN 1
+木尼	1 PROPN 1
+木屋	1 NOUN 1
+木工	1 NOUN 1
+木戶	1 PROPN 1
+木斯塘	1 PROPN 1
+木星	2 PROPN 2
+木材	4 NOUN 4
+木村	1 PROPN 1
+木板	3 NOUN 3
+木櫾	1 PROPN 1
+木管	2 NOUN 2
+木蘭	1 PROPN 1
+木造	1 VERB 1
+未	25 ADV 25
+未來	15 NOUN 14 PROPN 1
+未入	1 VERB 1
+未敢	1 VERB 1
+未有	1 VERB 1
+未深	1 ADJ 1
+未滿	1 VERB 1
+未能	9 AUX 9
+末	13 ADP 12 VERB 1
+末年	2 NOUN 2
+末期	2 NOUN 2
+末端	1 NOUN 1
+本	26 DET 15 NOUN 4 PART 3 ADV 3 PROPN 1
+本人	9 PRON 7 NOUN 2
+本作	4 NOUN 4
+本來	4 ADV 3 NOUN 1
+本劇	1 NOUN 1
+本區	2 NOUN 2
+本名	1 NOUN 1
+本土	4 NOUN 4
+本地	7 NOUN 6 PRON 1
+本城	1 NOUN 1
+本始	1 PROPN 1
+本季	1 NOUN 1
+本屆	2 DET 2
+本島	1 NOUN 1
+本市	1 NOUN 1
+本德	1 PROPN 1
+本書	1 NOUN 1
+本營	1 NOUN 1
+本片	5 NOUN 5
+本班	2 DET 2
+本目	1 NOUN 1
+本省	1 NOUN 1
+本社	1 NOUN 1
+本科	4 NOUN 4
+本站	2 NOUN 2
+本線	4 NOUN 4
+本縣	1 NOUN 1
+本能	1 NOUN 1
+本著	1 VERB 1
+本質	2 NOUN 2
+本身	9 PRON 7 NOUN 2
+本郡	1 NOUN 1
+本部	1 NOUN 1
+本鄉	1 NOUN 1
+本集	1 NOUN 1
+本領	1 NOUN 1
+本願	2 PROPN 2
+本魚	4 NOUN 4
+札幌	1 PROPN 1
+朱	11 PROPN 11
+朱里	1 PROPN 1
+朴	2 PROPN 2
+杉並	1 PROPN 1
+李	74 PROPN 74
+李察	1 PROPN 1
+杏子	1 PROPN 1
+材	1 PART 1
+材官	1 NOUN 1
+材料	9 NOUN 9
+材質	1 NOUN 1
+村	68 PART 66 NOUN 2
+村旁	1 NOUN 1
+村民	3 NOUN 3
+村落	2 NOUN 2
+村頭	2 NOUN 2
+杖責	1 VERB 1
+杜	5 PROPN 5
+杜伊	1 PROPN 1
+杜成	1 PROPN 1
+杜浦	1 PROPN 1
+杜甫	1 PROPN 1
+杜蘭戈	3 PROPN 3
+杜蘭特	1 PROPN 1
+束	1 PART 1
+束縛	2 VERB 1 NOUN 1
+杭	2 PROPN 2
+杭州	10 PROPN 10
+杯	6 PART 6
+杯架	1 NOUN 1
+杯賽	1 NOUN 1
+杰	3 PROPN 3
+杰仔	1 PROPN 1
+東	32 NOUN 31 PROPN 1
+東主	1 NOUN 1
+東亞	3 PROPN 3
+東京	13 PROPN 13
+東側	3 NOUN 3
+東加	1 PROPN 1
+東勝	1 PROPN 1
+東北	21 NOUN 21
+東區	4 PROPN 3 NOUN 1
+東南	15 NOUN 15
+東南亞	1 PROPN 1
+東吳	3 PROPN 3
+東坡	1 PROPN 1
+東姑	1 PROPN 1
+東宮	1 NOUN 1
+東尼	1 PROPN 1
+東山	2 PROPN 2
+東岸	1 NOUN 1
+東巡	1 VERB 1
+東征	2 NOUN 2
+東急	1 PROPN 1
+東支	1 NOUN 1
+東方	10 PROPN 6 NOUN 4
+東昇	1 PROPN 1
+東映	1 PROPN 1
+東晉	3 PROPN 3
+東桑	1 PROPN 1
+東條	1 PROPN 1
+東正	2 PROPN 2
+東武	1 PROPN 1
+東海	5 PROPN 5
+東涌	1 PROPN 1
+東渡	1 VERB 1
+東港	3 PROPN 3
+東直	1 PROPN 1
+東站	1 NOUN 1
+東線	1 NOUN 1
+東興	1 PROPN 1
+東華	1 PROPN 1
+東西	6 NOUN 6
+東西向	1 NOUN 1
+東視	2 PROPN 2
+東距	1 VERB 1
+東道	1 NOUN 1
+東邊	1 NOUN 1
+東郊	1 NOUN 1
+東部	12 NOUN 12
+東鄉	1 PROPN 1
+東鐵	1 PROPN 1
+東隧	1 PROPN 1
+東面	3 NOUN 3
+東風	1 PROPN 1
+松下	1 PROPN 1
+松坂	1 PROPN 1
+松山	1 PROPN 1
+松島	1 PROPN 1
+松州	1 PROPN 1
+松潘	2 PROPN 2
+松盤	2 PROPN 2
+松翔	1 PROPN 1
+松花	1 PROPN 1
+松鼠	1 NOUN 1
+松鼠猴	2 NOUN 2
+板	1 PART 1
+板塊	3 NOUN 3
+板式	1 NOUN 1
+林	27 PROPN 23 PART 3 NOUN 1
+林克	1 PROPN 1
+林周	1 PROPN 1
+林地	1 NOUN 1
+林場	1 NOUN 1
+林庄	2 PROPN 2
+林業	1 NOUN 1
+林檎	1 PROPN 1
+林翼	1 PROPN 1
+林胡	1 PROPN 1
+枚	11 NOUN 11
+果實	2 NOUN 2
+果汁	2 NOUN 2
+果然	1 ADV 1
+果真	1 ADV 1
+果酒	1 NOUN 1
+枝葉	1 NOUN 1
+架	14 NOUN 9 PART 5
+架構	6 NOUN 6
+架次	1 NOUN 1
+架設	2 NOUN 2
+枸杞	1 NOUN 1
+柏	1 PROPN 1
+柏加	1 PROPN 1
+柏村	1 PROPN 1
+柏松	1 PROPN 1
+柏林	9 PROPN 9
+柏油	2 NOUN 2
+柏臣	1 PROPN 1
+某	4 DET 4
+某些	7 DET 7
+某個	4 DET 4
+某種	5 DET 5
+染手	1 NOUN 1
+染病	1 VERB 1
+染色	2 VERB 1 AUX 1
+柔佛	2 PROPN 2
+柔弱	2 ADJ 2
+柔道	1 NOUN 1
+柚木	1 NOUN 1
+柝聲	1 PROPN 1
+查	2 PROPN 2
+查德	2 PROPN 2
+查找	1 NOUN 1
+查氏	1 PROPN 1
+查理	5 PROPN 5
+柬	1 PROPN 1
+柬埔寨	1 PROPN 1
+柯	2 PROPN 2
+柯爾	1 PROPN 1
+柯爾克孜	1 PROPN 1
+柱	2 NOUN 2
+柱銘	1 PROPN 1
+柳	2 PROPN 2
+柳川	1 PROPN 1
+柳州	1 PROPN 1
+柳江	2 PROPN 2
+柴油	3 NOUN 3
+柴灣	2 PROPN 2
+柴電	1 NOUN 1
+柿本	1 PROPN 1
+栃木	3 PROPN 3
+栗橋	1 PROPN 1
+校內	2 NOUN 2
+校區	6 NOUN 6
+校名	3 NOUN 3
+校呔	1 NOUN 1
+校園	7 NOUN 7
+校簿	1 NOUN 1
+校舍	4 NOUN 4
+校長	7 NOUN 7
+校門	1 NOUN 1
+校隊	2 NOUN 2
+栩栩如生	1 ADJ 1
+株	1 PART 1
+株式	1 NOUN 1
+核	20 NOUN 11 PART 9
+核孔	1 NOUN 1
+核實	1 VERB 1
+核工	1 NOUN 1
+核彈	1 NOUN 1
+核心	9 NOUN 8 PROPN 1
+核發	1 VERB 1
+核研	1 NOUN 1
+核算	1 VERB 1
+核糖	7 NOUN 7
+核能	2 NOUN 2
+核電	3 NOUN 3
+根	1 NOUN 1
+根培烏孜	1 PROPN 1
+根據	49 ADP 47 NOUN 1 VERB 1
+根本	2 ADV 1 NOUN 1
+根深柢固	1 ADV 1
+根生	1 PROPN 1
+根莖	1 NOUN 1
+根部	1 NOUN 1
+格	4 NOUN 3 PART 1
+格仔	1 NOUN 1
+格來	1 PROPN 1
+格勞庇烏	1 PROPN 1
+格勞賓登	1 PROPN 1
+格子	1 NOUN 1
+格式	2 NOUN 2
+格式塔	1 NOUN 1
+格律	1 NOUN 1
+格拉漢姆	1 PROPN 1
+格林	2 PROPN 2
+格林威治	1 PROPN 1
+格林布希	1 PROPN 1
+格林美	1 PROPN 1
+格格	2 NOUN 2
+格檔	2 NOUN 2
+格羅先	1 PROPN 1
+格羅希	1 PROPN 1
+格蘭特	1 PROPN 1
+格魯	1 PROPN 1
+栽培	3 VERB 2 NOUN 1
+栽種	3 VERB 3
+桂陵	1 PROPN 1
+桃	3 NOUN 3
+桃園	3 PROPN 2 NOUN 1
+桃子	1 NOUN 1
+桃浦	3 PROPN 3
+框架	1 NOUN 1
+框線	1 NOUN 1
+案	14 PART 13 NOUN 1
+案件	4 NOUN 4
+案例	1 NOUN 1
+案達羅	1 PROPN 1
+桌面	2 NOUN 2
+桐生	1 PROPN 1
+桑德威斯狸藻	1 NOUN 1
+桑葚	2 NOUN 2
+桓子	1 PROPN 1
+桓玄	1 PROPN 1
+梁	14 PROPN 12 PART 2
+梁龍	1 NOUN 1
+梅	3 PROPN 3
+梅園	1 PROPN 1
+梅塔	1 PROPN 1
+梅妃	3 NOUN 3
+梅帕器	1 PROPN 1
+梅特涅	3 PROPN 3
+梓里	1 NOUN 1
+條	62 NOUN 62
+條件	10 NOUN 10
+條例	4 NOUN 4
+條款	1 NOUN 1
+條約	7 NOUN 7
+條紋	1 NOUN 1
+梧州	1 PROPN 1
+梨花	1 PROPN 1
+梭羅	1 PROPN 1
+梯隊	1 NOUN 1
+梳	1 VERB 1
+梳頜翼龍	1 NOUN 1
+梵安	1 PROPN 1
+棄巢	1 VERB 1
+棄用	1 VERB 1
+棉條	1 NOUN 1
+棉花	5 NOUN 5
+棋局	1 NOUN 1
+棋盤	1 NOUN 1
+棋聖	1 NOUN 1
+棋院	1 NOUN 1
+棋類	1 NOUN 1
+棒	1 PART 1
+棒球	5 NOUN 5
+棒錘樹	1 NOUN 1
+棕熊	2 NOUN 2
+棕色	1 NOUN 1
+棕褐	1 NOUN 1
+棟	1 NOUN 1
+棣	2 PROPN 2
+森	1 PROPN 1
+森德靈	1 PROPN 1
+森林	10 NOUN 9 PROPN 1
+棲地	1 NOUN 1
+棲息	14 VERB 13 NOUN 1
+棲身	1 VERB 1
+棵	2 NOUN 2
+植株	1 NOUN 1
+植物	22 NOUN 22
+植被	2 NOUN 2
+椎名	1 PROPN 1
+椰林	1 NOUN 1
+楊	14 PROPN 14
+楊樹	2 NOUN 2
+楓樹	1 NOUN 1
+楚	7 PROPN 7
+楚克	1 PROPN 1
+楚國	4 PROPN 4
+楚瑜	1 PROPN 1
+楚紅	1 PROPN 1
+楠桂	1 PROPN 1
+楠溪	1 PROPN 1
+業	24 PART 23 NOUN 1
+業主	1 NOUN 1
+業務	11 NOUN 11
+業者	2 NOUN 2
+業餘	1 ADJ 1
+極	5 ADV 3 NOUN 2
+極北	1 NOUN 1
+極區	1 NOUN 1
+極大	2 ADJ 2
+極少	1 ADJ 1
+極度	3 ADV 2 ADJ 1
+極性	2 NOUN 2
+極為	1 ADV 1
+極矮	1 ADJ 1
+極端	3 ADJ 2 ADV 1
+極長	1 ADJ 1
+極闊	1 ADJ 1
+極限	1 NOUN 1
+極高	3 ADJ 3
+楷書	1 NOUN 1
+楷模	1 NOUN 1
+概念	4 NOUN 4
+概率	3 NOUN 3
+概要	1 NOUN 1
+榆林	1 PROPN 1
+榔頭	1 NOUN 1
+榕樹	1 NOUN 1
+榜	6 PART 6
+榜羅	1 PROPN 1
+榨出	1 VERB 1
+榫眼	1 NOUN 1
+榮	3 PROPN 3
+榮廷	1 PROPN 1
+榮洲	1 PROPN 1
+榮獲	2 VERB 2
+榮耀	1 NOUN 1
+榮聲	3 PROPN 3
+榮茂	1 PROPN 1
+榮譽	7 NOUN 7
+榴彈	1 NOUN 1
+構思	1 NOUN 1
+構成	5 VERB 5
+構造	1 VERB 1
+槍	3 PART 2 NOUN 1
+槍尖	1 NOUN 1
+槍尾	1 NOUN 1
+槍手	3 NOUN 3
+槍殺	1 VERB 1
+槍術	1 NOUN 1
+槳	1 PART 1
+樁	2 NOUN 2
+樂	5 PART 5
+樂器	4 NOUN 4
+樂園	1 NOUN 1
+樂團	13 NOUN 13
+樂壇	2 NOUN 2
+樂安	1 PROPN 1
+樂官	1 NOUN 1
+樂山	1 PROPN 1
+樂師	1 NOUN 1
+樂手	1 NOUN 1
+樂敏錠	1 PROPN 1
+樂施	1 PROPN 1
+樂曲	3 NOUN 3
+樂樂	1 PROPN 1
+樂活	1 PROPN 1
+樂章	3 NOUN 3
+樂翠	1 PROPN 1
+樂觀	1 ADJ 1
+樂趣	1 NOUN 1
+樂農	2 NOUN 1 PROPN 1
+樂隊	7 NOUN 7
+樊	3 PROPN 3
+樓	14 NOUN 7 PART 7
+樓宇	1 NOUN 1
+樓層	1 NOUN 1
+樓底	1 NOUN 1
+樓梯	5 NOUN 5
+樓煩	1 PROPN 1
+樓盤	1 NOUN 1
+樓面	1 NOUN 1
+樓高	1 NOUN 1
+標	1 NOUN 1
+標售	1 NOUN 1
+標志	1 VERB 1
+標明	1 VERB 1
+標有	1 VERB 1
+標本	4 NOUN 4
+標準	14 NOUN 11 ADJ 3
+標示	1 VERB 1
+標籤	1 NOUN 1
+標記	1 NOUN 1
+標註	1 NOUN 1
+標誌	9 NOUN 8 VERB 1
+標語	2 NOUN 2
+標題	2 NOUN 2
+標高	1 VERB 1
+樞密	1 NOUN 1
+樞機	2 NOUN 2
+樞紐	4 NOUN 4
+樟湖	2 PROPN 2
+模仿	4 VERB 4
+模具	2 NOUN 2
+模型	10 NOUN 10
+模式	14 NOUN 14
+模擬	3 NOUN 3
+模樣	1 NOUN 1
+樣	1 ADJ 1
+樣品	1 NOUN 1
+樣式	1 NOUN 1
+樣本	2 NOUN 2
+樣貌	1 NOUN 1
+樸實	1 ADJ 1
+樹	7 PART 7
+樹上	1 NOUN 1
+樹幹	1 NOUN 1
+樹木	2 NOUN 2
+樹枝	1 NOUN 1
+橄欖	4 NOUN 4
+橈腳	1 NOUN 1
+橋	15 PART 10 NOUN 4 PROPN 1
+橋上	1 NOUN 1
+橋樑	1 NOUN 1
+橋面	1 NOUN 1
+橙	2 NOUN 1 PART 1
+機	48 PART 47 NOUN 1
+機上	1 NOUN 1
+機位	1 NOUN 1
+機制	6 NOUN 6
+機動	2 ADJ 2
+機員	2 NOUN 2
+機器	5 NOUN 5
+機型	1 NOUN 1
+機場	29 NOUN 29
+機密	1 NOUN 1
+機師	1 NOUN 1
+機床	1 NOUN 1
+機敏	1 ADJ 1
+機會	11 NOUN 11
+機械	1 NOUN 1
+機構	21 NOUN 21
+機槍	2 NOUN 2
+機率	3 NOUN 3
+機理	1 NOUN 1
+機種	1 NOUN 1
+機能	1 NOUN 1
+機製	1 NOUN 1
+機車	10 NOUN 10
+機遇	1 NOUN 1
+機關	12 NOUN 12
+橡樹	1 NOUN 1
+橡樹龍	1 NOUN 1
+橡膠	2 NOUN 2
+橢	1 PART 1
+橫	1 NOUN 1
+橫山	2 PROPN 2
+橫帶	1 NOUN 1
+橫徵	1 VERB 1
+橫渡	1 VERB 1
+橫濱	2 PROPN 2
+橫線	1 NOUN 1
+橫貫	1 NOUN 1
+橫跨	2 VERB 2
+檔	4 NOUN 3 PART 1
+檔案	1 NOUN 1
+檔次	1 NOUN 1
+檜山	1 PROPN 1
+檢察	3 NOUN 3
+檢查	7 VERB 4 NOUN 3
+檢測	4 NOUN 3 VERB 1
+檢索	2 NOUN 2
+檢討	2 VERB 1 NOUN 1
+檢驗	1 VERB 1
+檳榔	1 NOUN 1
+檸七	1 NOUN 1
+檸檬	3 NOUN 3
+櫃	2 PART 2
+櫃檯	1 NOUN 1
+櫟社	1 PROPN 1
+欄目	1 NOUN 1
+權	27 PART 25 PROPN 1 NOUN 1
+權利	10 NOUN 10
+權力	3 NOUN 3
+權勢	3 NOUN 3
+權威	2 NOUN 2
+權氏	1 PROPN 1
+權益	4 NOUN 4
+權貴	2 NOUN 2
+權限	1 NOUN 1
+次	141 NOUN 136 VERB 2 PART 2 NUM 1 ***
+次子	3 NOUN 3
+次席	1 NOUN 1
+次年	5 NOUN 5
+次數	2 NOUN 2
+次日	3 NOUN 3
+次月	1 NOUN 1
+次生	1 ADJ 1
+次程	1 NOUN 1
+次級	2 NOUN 2
+次要	2 ADJ 2
+次郎	2 PROPN 2
+次長	2 NOUN 2
+欣快	1 NOUN 1
+欣賞	6 VERB 3 NOUN 3
+欲	4 AUX 4
+欺	1 VERB 1
+欺騙	2 VERB 2
+欽	1 PROPN 1
+款	7 NOUN 6 PART 1
+款式	1 NOUN 1
+歆	1 PROPN 1
+歌	4 PART 2 NOUN 2
+歌人	1 NOUN 1
+歌仔	2 NOUN 2
+歌劇	3 NOUN 3
+歌唱	3 NOUN 3
+歌壇	1 NOUN 1
+歌手	15 NOUN 15
+歌星	2 NOUN 2
+歌曲	7 NOUN 7
+歌聲	2 NOUN 2
+歌舞	1 NOUN 1
+歌詞	1 NOUN 1
+歌迷	2 NOUN 2
+歌頌	1 VERB 1
+歐	19 PROPN 19
+歐律狄刻	1 PROPN 1
+歐斯巴特	1 PROPN 1
+歐洲	35 PROPN 35
+歐盟	1 PROPN 1
+歐羅巴	1 PROPN 1
+歐青	1 PROPN 1
+歡	1 PROPN 1
+歡慶	1 NOUN 1
+歡樂	2 NOUN 2
+歡迎	6 VERB 6
+止	6 NOUN 5 VERB 1
+正	24 ADV 21 PART 3
+正值	1 VERB 1
+正傳	1 NOUN 1
+正夫	1 PROPN 1
+正子	1 NOUN 1
+正宇	1 PROPN 1
+正巧	1 ADV 1
+正常	5 ADJ 3 ADV 2
+正平	1 PROPN 1
+正式	39 ADV 33 ADJ 6
+正是	2 VERB 1 AUX 1
+正月	4 NOUN 4
+正比	1 NOUN 1
+正派	1 ADJ 1
+正版	1 NOUN 1
+正當	1 ADJ 1
+正直	2 ADJ 2
+正確	5 ADJ 5
+正統	2 NOUN 1 ADJ 1
+正經	1 ADJ 1
+正義	3 NOUN 3
+正負粒子	1 NOUN 1
+正選	3 NOUN 3
+正配	1 NOUN 1
+正陽	1 PROPN 1
+正面	2 NOUN 2
+此	158 PRON 105 DET 52 ADP 1 ***
+此事	2 NOUN 2
+此人	2 NOUN 2
+此前	4 NOUN 4
+此地	1 NOUN 1
+此外	23 NOUN 23
+此夢	1 NOUN 1
+此市	1 NOUN 1
+此後	16 NOUN 16
+此時	9 NOUN 9
+此書	1 NOUN 1
+此案	2 NOUN 2
+此樓	1 NOUN 1
+此橋	1 NOUN 1
+此次	4 DET 3 NOUN 1
+此片	1 NOUN 1
+此物	2 NOUN 2
+此種	2 DET 2
+此線	2 NOUN 2
+此舉	2 NOUN 2
+此處	1 NOUN 1
+此語	1 NOUN 1
+此起彼落	1 VERB 1
+此路	1 NOUN 1
+此陵	1 NOUN 1
+此項	1 DET 1
+此類	2 DET 2
+此魚	1 NOUN 1
+步	18 NOUN 18
+步伐	1 NOUN 1
+步兵	4 NOUN 4
+步態	2 NOUN 2
+步槍	4 NOUN 4
+步蟾	1 PROPN 1
+步行	1 VERB 1
+步道	3 NOUN 3
+步驟	2 NOUN 2
+武	8 PROPN 6 NOUN 2
+武克希	1 PROPN 1
+武力	1 NOUN 1
+武器	16 NOUN 16
+武大	3 PROPN 3
+武威	1 PROPN 1
+武帝	1 PROPN 1
+武廟	1 PROPN 1
+武廠	1 PROPN 1
+武德	1 PROPN 1
+武打	1 NOUN 1
+武昌	2 PROPN 2
+武松	2 PROPN 2
+武漢	9 PROPN 9
+武王	1 PROPN 1
+武略	1 NOUN 1
+武皇	1 PROPN 1
+武者	1 NOUN 1
+武藏	1 PROPN 1
+武術	4 NOUN 4
+武裝	5 NOUN 5
+歧視	2 NOUN 1 VERB 1
+歩	1 NOUN 1
+歲	50 NOUN 50
+歲月	1 NOUN 1
+歷代	1 NOUN 1
+歷任	5 VERB 4 NOUN 1
+歷來	1 ADV 1
+歷史	51 NOUN 51
+歷屬	1 VERB 1
+歷程	1 NOUN 1
+歸	5 VERB 5
+歸來	1 VERB 1
+歸入	1 VERB 1
+歸到	1 VERB 1
+歸功	1 VERB 1
+歸咎	1 VERB 1
+歸國	1 VERB 1
+歸案	1 VERB 1
+歸還	1 VERB 1
+歸附	2 VERB 2
+歸降	1 VERB 1
+歸類	2 VERB 2
+死	13 VERB 9 NOUN 2 ADJ 1 PART 1
+死亡	14 VERB 11 NOUN 3
+死傷	3 NOUN 3
+死刑	1 NOUN 1
+死去	3 VERB 3
+死因	1 NOUN 1
+死地	1 NOUN 1
+死後	6 VERB 6
+死戰	1 NOUN 1
+死期	1 NOUN 1
+死板	1 ADJ 1
+死狀	1 NOUN 1
+死神	4 NOUN 4
+死而復生	1 VERB 1
+死靈	2 NOUN 2
+死黨	1 NOUN 1
+殉教	1 VERB 1
+殉爆	1 VERB 1
+殉職	1 NOUN 1
+殊榮	1 NOUN 1
+殖民	12 VERB 7 NOUN 5
+殘基	1 NOUN 1
+殘存	2 VERB 2
+殘忍	2 ADJ 2
+殘疾	1 NOUN 1
+殘破	1 ADJ 1
+殘遺	1 NOUN 1
+殘部	1 NOUN 1
+殘酷	2 ADJ 2
+殯葬	2 NOUN 2
+殲滅	1 VERB 1
+段	35 NOUN 25 PART 6 PROPN 4
+殺	10 VERB 10
+殺人	1 VERB 1
+殺傷	2 VERB 2
+殺害	5 VERB 5
+殺手	1 NOUN 1
+殺掉	2 VERB 2
+殺機	1 NOUN 1
+殺死	4 VERB 4
+殼層	1 NOUN 1
+殼體	1 NOUN 1
+殿	9 PART 9
+殿堂	1 NOUN 1
+毀	4 VERB 4
+毀壞	1 VERB 1
+毀容	1 VERB 1
+毀滅	3 NOUN 3
+毅	1 PROPN 1
+毅仁	1 PROPN 1
+毅然	1 ADV 1
+母	4 NOUN 2 PART 2
+母會	1 NOUN 1
+母校	1 NOUN 1
+母狼	1 NOUN 1
+母猴	1 NOUN 1
+母艦	2 NOUN 2
+母親	22 NOUN 22
+母語	3 NOUN 3
+母貓	1 NOUN 1
+母音	7 NOUN 7
+毎年	1 DET 1
+每	30 DET 25 ADV 5
+每位	2 DET 2
+每個	13 DET 13
+每元	1 DET 1
+每卡	1 DET 1
+每周	2 DET 2
+每天	6 DET 5 NOUN 1
+每層	2 NOUN 2
+每年	19 DET 19
+每座	1 DET 1
+每戶	1 DET 1
+每所	1 DET 1
+每日	2 DET 1 PROPN 1
+每枚	1 DET 1
+每次	2 DET 2
+每每	1 ADV 1
+每片	1 DET 1
+每秒	5 DET 5
+每組	1 DET 1
+每股	1 NOUN 1
+每邊	1 DET 1
+每集	1 DET 1
+每鼎	1 NOUN 1
+毒​​物	1 NOUN 1
+毒品	1 NOUN 1
+毒性	2 NOUN 2
+毒死	1 VERB 1
+毒殺	2 VERB 2
+毒癮	1 NOUN 1
+毒舌	1 ADJ 1
+毒藥	2 NOUN 2
+毓林	1 PROPN 1
+毓楓	1 PROPN 1
+毓芳	1 PROPN 1
+比	43 ADP 34 CCONJ 5 VERB 4
+比亞迪	1 PROPN 1
+比例	4 NOUN 4
+比利	1 PROPN 1
+比利時	1 PROPN 1
+比喻	1 VERB 1
+比如	8 VERB 8
+比得哥什	1 PROPN 1
+比數	1 NOUN 1
+比方	1 ADV 1
+比武	1 VERB 1
+比薩	1 PROPN 1
+比袍	1 ADV 1
+比褂	1 ADV 1
+比賽	30 NOUN 29 VERB 1
+比起	4 ADP 4
+比較	20 ADV 16 VERB 2 NOUN 2
+毗鄰	2 VERB 1 NOUN 1
+毛	18 PROPN 14 NOUN 4
+毛利	2 PROPN 2
+毛色	1 NOUN 1
+毛髮	1 NOUN 1
+毫克	4 NOUN 4
+毫安	1 NOUN 1
+毫無	1 VERB 1
+毫米	4 NOUN 4
+毯子	1 NOUN 1
+氈幕	1 NOUN 1
+氏	7 PART 7
+民	5 NOUN 3 PROPN 2
+民不聊生	2 VERB 2
+民主	19 NOUN 18 PROPN 1
+民事	1 NOUN 1
+民俗	1 NOUN 1
+民兵	5 NOUN 5
+民力	1 NOUN 1
+民和	1 PROPN 1
+民國	35 NOUN 25 PROPN 10
+民居	1 NOUN 1
+民工	1 NOUN 1
+民心	1 NOUN 1
+民意	1 NOUN 1
+民房	1 NOUN 1
+民政	1 NOUN 1
+民族	21 NOUN 21
+民柬	1 PROPN 1
+民權	1 NOUN 1
+民法	1 NOUN 1
+民生	1 PROPN 1
+民盟	1 PROPN 1
+民眾	6 NOUN 6
+民答那峨	1 PROPN 1
+民航	1 NOUN 1
+民英	1 PROPN 1
+民調	2 NOUN 2
+民謠	1 NOUN 1
+民豐	1 ADJ 1
+民進	3 PROPN 2 NOUN 1
+民選	1 VERB 1
+民都洛水牛	2 NOUN 2
+民鐸	1 PROPN 1
+民間	9 NOUN 9
+民防	1 NOUN 1
+氘	1 NOUN 1
+氚	1 NOUN 1
+氣	2 NOUN 1 PART 1
+氣候	7 NOUN 7
+氣壓	3 NOUN 3
+氣息	1 NOUN 1
+氣態	1 NOUN 1
+氣憤	1 ADJ 1
+氣旋	1 NOUN 1
+氣槍	1 NOUN 1
+氣死	1 VERB 1
+氣泡	3 NOUN 3
+氣溫	1 NOUN 1
+氣燄	1 NOUN 1
+氣田	2 NOUN 2
+氣胸	1 NOUN 1
+氣象	1 NOUN 1
+氣體	5 NOUN 5
+氦	1 NOUN 1
+氧	2 NOUN 2
+氧化	3 VERB 3
+氧化鐵	1 NOUN 1
+氧氣	3 NOUN 3
+氨基酸	1 NOUN 1
+氫	1 NOUN 1
+氫化氦	1 NOUN 1
+氫彈	2 NOUN 2
+氫氣	1 NOUN 1
+氫鍵	1 NOUN 1
+氮	1 NOUN 1
+氮素	1 NOUN 1
+氯化	1 VERB 1
+氯化氫	1 NOUN 1
+氯化銠	1 NOUN 1
+氯化鋁	1 NOUN 1
+氯金酸	2 NOUN 2
+氯雷他定	1 NOUN 1
+水	24 NOUN 14 PART 9 PROPN 1
+水上	3 NOUN 3
+水世	1 NOUN 1
+水份	1 NOUN 1
+水力	2 NOUN 2
+水圈	1 NOUN 1
+水域	3 NOUN 3
+水塔	3 NOUN 3
+水壓	1 NOUN 1
+水壩	1 NOUN 1
+水孔	2 NOUN 2
+水平	14 NOUN 14
+水床	1 NOUN 1
+水庫	7 NOUN 7
+水扁	1 PROPN 1
+水手	2 NOUN 2
+水攻	1 VERB 1
+水族	3 NOUN 3
+水晶	1 NOUN 1
+水果	5 NOUN 5
+水汽	1 NOUN 1
+水流	1 NOUN 1
+水深	4 NOUN 4
+水準	2 NOUN 2
+水溝	3 PROPN 2 NOUN 1
+水溫	2 NOUN 2
+水滸	2 PROPN 2
+水火不容	1 VERB 1
+水球	1 NOUN 1
+水產	1 NOUN 1
+水療	1 NOUN 1
+水稻	3 NOUN 3
+水系	5 NOUN 5
+水翼	1 NOUN 1
+水能	1 NOUN 1
+水舞	1 NOUN 1
+水警	1 NOUN 1
+水質	2 NOUN 2
+水道	2 NOUN 2
+水電	1 NOUN 1
+水面	1 NOUN 1
+水餃	2 NOUN 2
+水鳥	1 NOUN 1
+永久	1 ADV 1
+永元	1 PROPN 1
+永升	1 PROPN 1
+永吉	1 PROPN 1
+永和	1 PROPN 1
+永嘉	2 PROPN 2
+永壽	1 PROPN 1
+永好	1 PROPN 1
+永寧	2 PROPN 2
+永平	1 PROPN 1
+永成	1 PROPN 1
+永昌	1 PROPN 1
+永樂	1 PROPN 1
+永樂環	1 PROPN 1
+永權	1 PROPN 1
+永江	4 PROPN 4
+永續	1 ADV 1
+永輝	1 PROPN 1
+永遠	3 NOUN 3
+永靖	1 PROPN 1
+汁液	1 NOUN 1
+求	1 VERB 1
+求偶	1 VERB 1
+求出	1 VERB 1
+求助	1 NOUN 1
+求問	1 VERB 1
+求婚	1 VERB 1
+求情	1 VERB 1
+求援	1 VERB 1
+求救	3 VERB 3
+求籤	1 VERB 1
+求醫	1 VERB 1
+汗位	2 NOUN 2
+汝南	1 PROPN 1
+汝寧	1 PROPN 1
+汝霖	2 PROPN 2
+汞	5 NOUN 5
+汞柱	1 NOUN 1
+江	11 PROPN 6 PART 5
+江北	2 PROPN 2
+江協	1 PROPN 1
+江南	3 PROPN 2 NOUN 1
+江口	1 PROPN 1
+江孜	3 PROPN 3
+江戶	2 PROPN 2
+江浙	1 PROPN 1
+江海	1 PROPN 1
+江源	1 PROPN 1
+江漢	1 PROPN 1
+江灣	1 PROPN 1
+江蘇	12 PROPN 12
+江西	5 PROPN 5
+江谷	1 PROPN 1
+江都	1 PROPN 1
+江閣	1 PROPN 1
+江魚	1 NOUN 1
+池	7 PART 7
+池塘	1 NOUN 1
+池尻	2 PROPN 2
+池田	1 PROPN 1
+污損	1 VERB 1
+污染	8 NOUN 6 VERB 2
+污水	3 NOUN 3
+污泥	4 NOUN 4
+污點	1 NOUN 1
+汪	1 PROPN 1
+汪達	1 PROPN 1
+汲及	1 VERB 1
+決定	36 VERB 34 NOUN 2
+決心	2 NOUN 1 VERB 1
+決意	1 VERB 1
+決戰	2 VERB 1 NOUN 1
+決擇	1 NOUN 1
+決然	1 ADV 1
+決策	7 NOUN 5 VERB 2
+決裂	1 VERB 1
+決議	3 NOUN 3
+決賽	12 NOUN 12
+汽油	2 NOUN 2
+汽船	1 NOUN 1
+汽車	20 NOUN 20
+沃夫	2 PROPN 2
+沃奎茲	1 PROPN 1
+沃季采	1 PROPN 1
+沃州	1 PROPN 1
+沃思	1 PROPN 1
+沃爾	1 PROPN 1
+沃羅涅日	1 PROPN 1
+沈	4 PROPN 4
+沈氏	1 PROPN 1
+沉水	1 NOUN 1
+沉澱	4 VERB 4
+沉迷	1 VERB 1
+沉重	1 ADJ 1
+沉降	1 NOUN 1
+沒	8 VERB 4 ADV 4
+沒收	3 VERB 3
+沒有	97 VERB 97 ***
+沒能	1 AUX 1
+沒落	1 VERB 1
+沒錯	1 VERB 1
+沖	3 PROPN 3
+沖之	1 PROPN 1
+沖片	1 VERB 1
+沖繩	2 PROPN 2
+沖走	1 VERB 1
+沙	2 NOUN 2
+沙丘	1 NOUN 1
+沙依	1 PROPN 1
+沙俄赫爾松	1 PROPN 1
+沙咀	2 NOUN 2
+沙崙	1 PROPN 1
+沙巴	1 PROPN 1
+沙柏	2 PROPN 2
+沙梁伐	1 PROPN 1
+沙池	1 NOUN 1
+沙河	2 PROPN 2
+沙洛蒙	1 PROPN 1
+沙漠	1 NOUN 1
+沙灘	4 NOUN 4
+沙田	1 PROPN 1
+沙畹	1 PROPN 1
+沙蠶	1 NOUN 1
+沙迦罕	1 PROPN 1
+沙邦	1 PROPN 1
+沙里亞	1 PROPN 1
+沙龍	2 NOUN 1 PROPN 1
+沛侯	1 NOUN 1
+沮喪	1 ADJ 1
+河	40 PART 38 NOUN 2
+河北	6 PROPN 6
+河南	5 PROPN 5
+河卡	1 PROPN 1
+河圖	1 NOUN 1
+河岸	1 NOUN 1
+河川	4 NOUN 4
+河心	1 PROPN 1
+河段	1 NOUN 1
+河水	2 NOUN 2
+河流	10 NOUN 10
+河漫	1 PROPN 1
+河西	1 PROPN 1
+河道	6 NOUN 6
+油價	4 NOUN 4
+油煙	1 NOUN 1
+油田	1 NOUN 1
+油脂	3 NOUN 3
+油菜	1 NOUN 1
+油量	1 NOUN 1
+油電	1 NOUN 1
+治	4 VERB 4
+治中	1 PROPN 1
+治勲	1 PROPN 1
+治勳	1 PROPN 1
+治喪	1 VERB 1
+治國	1 NOUN 1
+治學	1 NOUN 1
+治水	1 NOUN 1
+治理	1 NOUN 1
+治療	18 NOUN 15 VERB 3
+治軍	1 NOUN 1
+沼	1 PART 1
+沼澤	3 NOUN 3
+沽渚	1 PROPN 1
+沾解	1 PROPN 1
+沿	1 ADP 1
+沿海	9 NOUN 5 ADJ 4
+沿線	1 NOUN 1
+沿著	3 ADP 2 VERB 1
+沿襲	1 VERB 1
+沿途	1 NOUN 1
+泄殖	2 VERB 2
+泉	1 PART 1
+泉州	2 PROPN 2
+法	28 PART 13 PROPN 12 NOUN 3
+法人	3 NOUN 3
+法令	1 NOUN 1
+法國	37 PROPN 37
+法學	3 NOUN 3
+法官	3 NOUN 3
+法師	1 NOUN 1
+法庭	10 NOUN 10
+法律	19 NOUN 19
+法拉龍	1 PROPN 1
+法政	1 NOUN 1
+法格拿	1 PROPN 1
+法案	6 NOUN 6
+法比恩	1 PROPN 1
+法海	1 PROPN 1
+法登	1 PROPN 1
+法羅	1 PROPN 1
+法老	1 NOUN 1
+法規	4 NOUN 4
+法輪	1 NOUN 1
+法醫	2 NOUN 2
+法院	19 NOUN 18 PROPN 1
+泛濫	1 ADJ 1
+泠	1 PROPN 1
+泡沫	2 NOUN 2
+波	10 PART 6 NOUN 3 PROPN 1
+波動	3 NOUN 3
+波包	1 NOUN 1
+波卡特洛	1 PROPN 1
+波及	1 VERB 1
+波因	1 PROPN 1
+波圖	1 PROPN 1
+波城	1 PROPN 1
+波塞冬	1 PROPN 1
+波希米亞	4 PROPN 3 NOUN 1
+波形	1 NOUN 1
+波恩	1 PROPN 1
+波折	1 NOUN 1
+波斯	4 PROPN 4
+波普	1 PROPN 1
+波森	1 PROPN 1
+波爾	1 PROPN 1
+波特威瑟	1 PROPN 1
+波蘭	15 PROPN 15
+波錠	1 PROPN 1
+波長	3 NOUN 3
+波音	5 PROPN 4 NOUN 1
+波黑	1 PROPN 1
+泥土	1 NOUN 1
+泥塑	5 NOUN 5
+泥潭	1 NOUN 1
+注入	4 VERB 4
+注射	2 VERB 1 NOUN 1
+注意	8 NOUN 5 VERB 3
+注資	1 VERB 1
+注重	2 VERB 2
+泰	1 PROPN 1
+泰共	1 PROPN 1
+泰勒	1 PROPN 1
+泰北	1 PROPN 1
+泰國	3 PROPN 3
+泰坦	2 PROPN 2
+泰始	1 PROPN 1
+泰姬	1 PROPN 1
+泰姬瑪哈	1 PROPN 1
+泰安	5 PROPN 5
+泰州	1 PROPN 1
+泰曾	1 PROPN 1
+泰然	1 ADV 1
+泰琳達	1 PROPN 1
+泰興	1 PROPN 1
+泳兒	5 PROPN 5
+泳屋	1 NOUN 1
+泳灘	1 NOUN 1
+泵水	1 NOUN 1
+洋	21 PART 20 NOUN 1
+洋介	1 PROPN 1
+洋房	3 NOUN 3
+洋行	3 NOUN 3
+洗	2 VERB 2
+洗劫	1 VERB 1
+洗手	2 VERB 2
+洗浴	3 VERB 2 NOUN 1
+洗衣	1 NOUN 1
+洛城	1 PROPN 1
+洛夫喬伊	1 PROPN 1
+洛恩	1 PROPN 1
+洛書	1 NOUN 1
+洛杉磯	6 PROPN 6
+洛桑	5 PROPN 5
+洛珊	1 PROPN 1
+洛茲	1 PROPN 1
+洛陽	4 PROPN 4
+洛雷托	1 PROPN 1
+洞	2 PART 2
+洞子	1 PROPN 1
+洞穴	1 NOUN 1
+洞窟	1 NOUN 1
+津	1 PROPN 1
+津貼	1 NOUN 1
+洩慾	1 NOUN 1
+洩漏	1 VERB 1
+洪	5 PROPN 5
+洪堡	1 PROPN 1
+洪家	1 PROPN 1
+洪橋	1 PROPN 1
+洲	11 PART 11
+洵	1 PROPN 1
+洵美	1 PROPN 1
+活	2 ADJ 1 VERB 1
+活佛	3 NOUN 3
+活出	1 VERB 1
+活力	3 NOUN 3
+活動	33 NOUN 29 VERB 4
+活化	1 NOUN 1
+活埋	1 VERB 1
+活性	2 NOUN 2
+活水	1 PROPN 1
+活潑	1 ADJ 1
+活用	1 NOUN 1
+活躍	1 VERB 1
+活靈活現	1 ADJ 1
+派	29 PART 18 VERB 10 NOUN 1
+派出	2 VERB 2
+派別	2 NOUN 2
+派對	1 NOUN 1
+派往	1 VERB 1
+派遣	10 VERB 8 NOUN 2
+派駐	2 VERB 2
+流	1 VERB 1
+流下	1 VERB 1
+流亡	1 VERB 1
+流傳	2 VERB 2
+流入	2 VERB 2
+流出	1 VERB 1
+流動	3 VERB 2 NOUN 1
+流域	13 NOUN 13
+流失	2 VERB 2
+流嶼	1 PROPN 1
+流感	3 NOUN 3
+流放	1 VERB 1
+流星	1 NOUN 1
+流標	1 VERB 1
+流民	1 NOUN 1
+流水	1 NOUN 1
+流求	2 PROPN 2
+流派	2 NOUN 2
+流浪	2 VERB 2
+流產	1 VERB 1
+流程	1 NOUN 1
+流經	4 VERB 4
+流行	7 ADJ 6 VERB 1
+流言	1 NOUN 1
+流通	2 VERB 2
+流逝	1 VERB 1
+流量	3 NOUN 3
+流露	1 VERB 1
+浙東	2 PROPN 2
+浙江	9 PROPN 9
+浚稽	1 PROPN 1
+浦	4 PROPN 3 PART 1
+浦口	1 PROPN 1
+浦市	1 PROPN 1
+浦那	1 PROPN 1
+浦鎮	1 PROPN 1
+浩劫	2 NOUN 2
+浪	1 NOUN 1
+浪漫	1 ADJ 1
+浪潮	1 NOUN 1
+浪費	1 NOUN 1
+浪跡	1 VERB 1
+浮	1 NOUN 1
+浮冰	2 NOUN 2
+浮動	1 VERB 1
+浴場	1 NOUN 1
+海	24 PART 17 NOUN 5 PROPN 2
+海上	3 NOUN 3
+海事	1 NOUN 1
+海光	1 PROPN 1
+海南	2 PROPN 2
+海因茨	1 PROPN 1
+海地	1 PROPN 1
+海域	4 NOUN 4
+海外	4 NOUN 4
+海岸	8 NOUN 8
+海峰	1 PROPN 1
+海峽	5 NOUN 5
+海布隆	1 PROPN 1
+海平	1 NOUN 1
+海底	5 NOUN 5
+海廷	1 PROPN 1
+海怡	1 PROPN 1
+海戰	4 NOUN 4
+海拔	26 NOUN 26
+海昌	1 PROPN 1
+海景	1 NOUN 1
+海水	4 NOUN 4
+海洋	7 NOUN 6 PROPN 1
+海涌	2 PROPN 2
+海淀	1 PROPN 1
+海港	1 NOUN 1
+海濱	1 NOUN 1
+海灘	1 NOUN 1
+海灣	4 NOUN 2 PROPN 2
+海爾賽	1 PROPN 1
+海珊	3 PROPN 3
+海盜	6 NOUN 5 PROPN 1
+海神	1 NOUN 1
+海秀	1 NOUN 1
+海老名	1 PROPN 1
+海航	1 PROPN 1
+海藍	1 NOUN 1
+海螺	1 PROPN 1
+海豐	1 PROPN 1
+海豹	3 NOUN 2 PROPN 1
+海軍	22 NOUN 22
+海邊	2 NOUN 2
+海關	2 NOUN 2
+海陸	1 NOUN 1
+海面	4 NOUN 4
+海風	1 NOUN 1
+海鷗	1 NOUN 1
+浸染	1 VERB 1
+浸泡	3 VERB 3
+涅爾皮奇耶	1 PROPN 1
+涇波	1 PROPN 1
+涇陽	1 PROPN 1
+消化	2 VERB 2
+消失	2 VERB 2
+消息	5 NOUN 5
+消極	1 NOUN 1
+消滅	3 VERB 3
+消耗	1 NOUN 1
+消費	6 VERB 3 NOUN 3
+消退	1 VERB 1
+消除	1 VERB 1
+涉世	1 AUX 1
+涉及	11 VERB 10 NOUN 1
+涉嫌	1 VERB 1
+涉足	1 VERB 1
+涌	2 PART 2
+涪江	1 PROPN 1
+涮	2 NOUN 2
+涮煮	1 VERB 1
+液	2 PART 2
+液化	1 NOUN 1
+液壓	1 NOUN 1
+液態	4 NOUN 4
+液體	4 NOUN 4
+涵蓋	1 VERB 1
+淄博	2 PROPN 2
+淄川	1 PROPN 1
+淋巴	3 NOUN 3
+淑妃	1 NOUN 1
+淑怡	1 PROPN 1
+淘寶	1 PROPN 1
+淘汰	3 VERB 3
+淘洗	1 VERB 1
+淘金	1 VERB 1
+淡	1 PART 1
+淡定	1 NOUN 1
+淡水	3 NOUN 3
+淡色	1 NOUN 1
+淨土	1 PROPN 1
+淪	2 VERB 2
+淪落	1 VERB 1
+淪陷	2 VERB 2
+淫蕩	1 ADJ 1
+淮	2 PROPN 2
+淮南	1 PROPN 1
+淮河	2 PROPN 2
+淮許	1 VERB 1
+深	4 PART 2 ADV 1 ADJ 1
+深入	6 VERB 5 ADJ 1
+深厚	2 ADJ 2
+深受	1 VERB 1
+深圳	6 PROPN 6
+深埋	1 VERB 1
+深層	1 NOUN 1
+深度	3 NOUN 3
+深得	2 VERB 2
+深愛	2 VERB 2
+深感	1 AUX 1
+深有	1 VERB 1
+深海	1 NOUN 1
+深港	1 PROPN 1
+深溪	1 PROPN 1
+深紅	1 NOUN 1
+深綠	1 NOUN 1
+深色	1 NOUN 1
+深處	1 NOUN 1
+深造	1 VERB 1
+深遠	2 ADJ 2
+淵源	1 PROPN 1
+混	1 PART 1
+混亂	1 NOUN 1
+混凝	1 VERB 1
+混合	7 VERB 4 NOUN 2 ADV 1
+混沌	1 ADJ 1
+混為一談	1 VERB 1
+混燃	1 NOUN 1
+淹沒	3 VERB 3
+淹浸	1 VERB 1
+淺	1 PART 1
+淺水	1 NOUN 1
+淺綠	1 NOUN 1
+添丁	1 PROPN 1
+添加	3 VERB 3
+清	21 PROPN 17 PART 2 NOUN 2
+清代	3 PROPN 3
+清償	1 VERB 1
+清凈	1 PROPN 1
+清單	1 NOUN 1
+清場	1 VERB 1
+清帝	1 PROPN 1
+清拆	1 VERB 1
+清教	1 PROPN 1
+清文	1 PROPN 1
+清明	1 PROPN 1
+清晨	2 NOUN 2
+清朝	23 PROPN 23
+清楚	2 VERB 1 ADJ 1
+清洗	1 VERB 1
+清潔	2 VERB 2
+清理	1 NOUN 1
+清真	7 ADJ 6 PROPN 1
+清純	2 ADJ 2
+清華	2 PROPN 2
+清道	1 VERB 1
+清遠	1 PROPN 1
+清還	1 VERB 1
+清鄉	1 NOUN 1
+清鍾	2 PROPN 2
+減低	1 VERB 1
+減刑	1 NOUN 1
+減小	1 VERB 1
+減少	12 VERB 12
+減焦	1 VERB 1
+減輕	2 VERB 2
+減退	1 VERB 1
+渝	3 PROPN 3
+渠子	1 PROPN 1
+渠道	1 NOUN 1
+渡	1 PART 1
+渡過	1 VERB 1
+渣打	1 PROPN 1
+渤海	1 PROPN 1
+測繪	1 VERB 1
+測試	8 NOUN 6 VERB 2
+測量	4 VERB 3 NOUN 1
+渭州	1 PROPN 1
+港	30 PROPN 22 PART 8
+港交	1 PROPN 1
+港區	1 PROPN 1
+港口	3 NOUN 3
+港島	7 PROPN 6 NOUN 1
+港府	1 PROPN 1
+港鐵	4 PROPN 4
+渲染	1 VERB 1
+渴求	1 VERB 1
+游	1 VERB 1
+游擊	5 NOUN 5
+游標	1 NOUN 1
+游牧	2 NOUN 2
+游說	1 VERB 1
+渾	1 PROPN 1
+湄洲	1 PROPN 1
+湖	25 PART 23 NOUN 2
+湖上	1 NOUN 1
+湖人	1 PROPN 1
+湖北	5 PROPN 5
+湖南	7 PROPN 7
+湖名	1 NOUN 1
+湖州	2 PROPN 2
+湖水	3 NOUN 3
+湖泊	9 NOUN 9
+湖畔	1 NOUN 1
+湘	2 PROPN 2
+湘南	1 PROPN 1
+湘西	1 PROPN 1
+湘陰	1 PROPN 1
+湛恩	1 PROPN 1
+湧現	1 VERB 1
+湮滅	1 VERB 1
+湯	4 PROPN 2 NOUN 2
+湯姆	7 PROPN 7
+湯料	1 NOUN 1
+湯米	1 PROPN 1
+湯興	2 PROPN 2
+源	5 VERB 4 NOUN 1
+源於	1 VERB 1
+源田	1 PROPN 1
+準	1 PART 1
+準備	13 NOUN 6 VERB 6 AUX 1
+準則	3 NOUN 3
+準基	1 PROPN 1
+準將	1 NOUN 1
+準確	1 ADV 1
+溝	1 PART 1
+溝壑	1 NOUN 1
+溝通	2 VERB 2
+溝齒鼩	1 NOUN 1
+溢漏	1 NOUN 1
+溥儀	3 PROPN 2 PART 1
+溪	1 PART 1
+溪水	1 NOUN 1
+溪流	2 NOUN 2
+溪美	1 PROPN 1
+溪鱂	1 NOUN 1
+溫	5 PROPN 5
+溫和	2 ADJ 2
+溫坡	1 PROPN 1
+溫州	2 PROPN 2
+溫布萊	1 PROPN 1
+溫帶	3 NOUN 3
+溫度	5 NOUN 5
+溫徹斯特	1 PROPN 1
+溫暖	2 ADJ 1 PROPN 1
+溫柔	1 ADJ 1
+溫標	1 NOUN 1
+溫泉	5 NOUN 5
+溶劑	1 NOUN 1
+溶氣	1 VERB 1
+溶解	3 VERB 3
+滄州	2 PROPN 2
+滅	1 VERB 1
+滅亡	6 VERB 5 NOUN 1
+滅口	2 VERB 2
+滅絕	5 VERB 4 NOUN 1
+滉	3 PROPN 3
+滑冰	4 NOUN 4
+滑板	1 NOUN 1
+滑稽	1 ADJ 1
+滑鼠	1 NOUN 1
+滕氏	1 PROPN 1
+滙業	1 PROPN 1
+滙豐	2 PROPN 2
+滬	4 PROPN 4
+滬東	2 PROPN 2
+滬江	1 PROPN 1
+滯洪	1 VERB 1
+滲入	1 VERB 1
+滲出	1 VERB 1
+滴下	1 VERB 1
+滾動	1 VERB 1
+滾石	1 PROPN 1
+滿	7 PROPN 3 VERB 3 PART 1
+滿分	1 NOUN 1
+滿意	1 ADJ 1
+滿洲	9 PROPN 8 PART 1
+滿清	1 PROPN 1
+滿貫	4 NOUN 4
+滿足	3 VERB 3
+滿載	1 NOUN 1
+漁村	1 NOUN 1
+漁梁	1 PROPN 1
+漁業	2 NOUN 2
+漁船	1 NOUN 1
+漂亮	3 ADJ 3
+漂流	2 VERB 2
+漂浮	1 NOUN 1
+漆器	1 NOUN 1
+演	1 VERB 1
+演出	27 NOUN 14 VERB 13
+演化	5 VERB 3 NOUN 2
+演員	10 NOUN 10
+演唱	10 VERB 10
+演奏	5 VERB 3 NOUN 2
+演成	1 VERB 1
+演戲	1 VERB 1
+演技	1 NOUN 1
+演繹	1 VERB 1
+演義	1 NOUN 1
+演藝	1 NOUN 1
+演說	2 NOUN 2
+演講	1 NOUN 1
+漢	35 PROPN 35
+漢中	1 PROPN 1
+漢佛瑞	2 PROPN 2
+漢口	2 PROPN 2
+漢城	3 PROPN 2 NOUN 1
+漢娜	1 PROPN 1
+漢字	1 NOUN 1
+漢朝	5 PROPN 5
+漢桓	1 PROPN 1
+漫漶	1 ADJ 1
+漫畫	17 NOUN 17
+漫長	1 ADJ 1
+漬	1 NOUN 1
+漱芳	1 PROPN 1
+漲幅	1 NOUN 1
+漳州	3 PROPN 3
+漸漸	2 ADV 2
+漸變	1 VERB 1
+漸趨	1 VERB 1
+潑	1 VERB 1
+潔	2 PROPN 2
+潔瑩	1 PROPN 1
+潘	5 PROPN 5
+潘丘	1 PROPN 1
+潘恩	1 PROPN 1
+潛伏	1 VERB 1
+潛入	3 VERB 3
+潛力	2 NOUN 2
+潛望	1 VERB 1
+潛水	1 VERB 1
+潛游	1 VERB 1
+潛艇	12 NOUN 12
+潟湖	1 NOUN 1
+潢川	1 PROPN 1
+潭村	1 PROPN 1
+潭東	1 PROPN 1
+潭西	2 PROPN 2
+潭陽	1 PROPN 1
+潮州	2 PROPN 2
+潮濕	4 ADJ 3 NOUN 1
+潰散	1 VERB 1
+潰瘍	1 NOUN 1
+澀谷	1 PROPN 1
+澤尻	1 PROPN 1
+澤普	2 PROPN 2
+澤東	5 PROPN 5
+澤男	1 PROPN 1
+澳	5 PROPN 4 PART 1
+澳底	2 PROPN 2
+澳洲	8 PROPN 8
+澳門	14 PROPN 14
+激光	2 NOUN 2
+激勵	1 VERB 1
+激戰	2 NOUN 2
+激烈	7 ADJ 7
+激發	1 VERB 1
+激素	1 NOUN 1
+激起	2 VERB 2
+激進	1 ADJ 1
+濁	1 PART 1
+濃	1 PART 1
+濃厚	1 ADJ 1
+濃密	1 ADJ 1
+濃度	6 NOUN 6
+濃煙	1 NOUN 1
+濃縮	2 VERB 2
+濕原	2 NOUN 2
+濕地	1 NOUN 1
+濕度	2 NOUN 2
+濞	1 PROPN 1
+濟	1 PROPN 1
+濟世	1 VERB 1
+濟南	5 PROPN 5
+濟寧	2 PROPN 2
+濟科	1 PROPN 1
+濟邦	1 PROPN 1
+濤	1 PROPN 1
+濫用	1 NOUN 1
+濱松	2 PROPN 2
+濱海	1 PROPN 1
+濱湖	2 NOUN 1 PROPN 1
+濾掉	1 VERB 1
+瀋陽	8 PROPN 8
+瀏覽	2 VERB 2
+瀏陽	1 PROPN 1
+瀑布	1 NOUN 1
+瀕危	1 ADJ 1
+瀘溪	1 PROPN 1
+瀝泗	1 PROPN 1
+瀟洒	1 ADJ 1
+灌木	2 NOUN 2
+灘	2 PART 2
+灣	22 PART 22
+灣仔	4 PROPN 4
+火	6 NOUN 4 PART 2
+火上加薪	1 VERB 1
+火候	1 NOUN 1
+火喉	1 NOUN 1
+火山	2 NOUN 2
+火心	1 PROPN 1
+火掌	1 PROPN 1
+火星	15 PROPN 15
+火災	4 NOUN 4
+火炮	2 NOUN 2
+火爆	1 ADJ 1
+火箭	4 NOUN 3 PROPN 1
+火藥	2 NOUN 2
+火車	11 NOUN 11
+火鍋	1 NOUN 1
+灰棕	1 NOUN 1
+灰狼	2 NOUN 2
+灰色	2 NOUN 2
+灰雲	1 NOUN 1
+灰黑	1 NOUN 1
+災害	2 NOUN 2
+災禍	1 NOUN 1
+災難	3 NOUN 3
+炎	5 PART 4 PROPN 1
+炎培	1 PROPN 1
+炎熱	1 ADJ 1
+炙手可熱	1 ADJ 1
+炭疽	1 NOUN 1
+炮	1 PART 1
+炮台	2 NOUN 1 PROPN 1
+炸彈	1 NOUN 1
+炸死	1 VERB 1
+炸毀	1 VERB 1
+炸糕	1 NOUN 1
+炸藥	4 NOUN 4
+為	930 AUX 424 VERB 402 ADP 102 X 1 PROPN 1 ***
+為了	56 ADP 56
+為人	1 AUX 1
+為數	2 NOUN 2
+為時	1 NOUN 1
+為期	3 VERB 3
+烈格司	1 PROPN 1
+烈酒	1 NOUN 1
+烏代	1 PROPN 1
+烏來杜鵑	1 PROPN 1
+烏孫	2 PROPN 2
+烏宗哈珊	1 PROPN 1
+烏干達	1 PROPN 1
+烏德特	1 PROPN 1
+烏扎	1 PROPN 1
+烏托邦	1 NOUN 1
+烏拉圭	2 PROPN 2
+烏腳	1 NOUN 1
+烏魯木齊	1 PROPN 1
+烴	1 PART 1
+烹煮	1 VERB 1
+烹飪	1 NOUN 1
+焊接	1 NOUN 1
+焗豆	1 NOUN 1
+焚	1 VERB 1
+焚屍	1 VERB 1
+焚燒	1 VERB 1
+焜耀	1 PROPN 1
+無	23 VERB 22 ADV 1
+無俚頭	1 ADJ 1
+無力	2 ADV 2
+無危	1 VERB 1
+無厭	1 ADJ 1
+無子	1 VERB 1
+無家可歸	1 VERB 1
+無心	1 ADJ 1
+無忌	1 PROPN 1
+無意	4 VERB 4
+無所不能	1 ADJ 1
+無效	2 VERB 2
+無數	3 NUM 3
+無暇	1 VERB 1
+無有	1 VERB 1
+無機	1 ADJ 1
+無氧	1 NOUN 1
+無水氯化鋁	1 NOUN 1
+無法	23 VERB 23
+無派	1 NOUN 1
+無產	1 NOUN 1
+無界	2 ADJ 1 PROPN 1
+無疑	1 ADV 1
+無盡	1 ADJ 1
+無綫	7 PROPN 4 NOUN 3
+無線	4 ADJ 3 VERB 1
+無緣	2 VERB 2
+無罪	1 VERB 1
+無能為力	1 VERB 1
+無與倫比	1 VERB 1
+無色	1 ADJ 1
+無處	1 VERB 1
+無視	1 VERB 1
+無誤	1 ADJ 1
+無論	6 ADP 6
+無辜	2 ADJ 2
+無過	1 VERB 1
+無量壽	1 PROPN 1
+無錫	4 PROPN 4
+無關	5 VERB 4 ADJ 1
+無關緊要	1 VERB 1
+無限	2 ADJ 2
+無雙	1 ADJ 1
+無頭	1 VERB 1
+無點	1 ADJ 1
+無黨	2 NOUN 2
+無齒龍	1 NOUN 1
+焦尼	1 PROPN 1
+焦耳	2 PROPN 2
+焦距	1 NOUN 1
+焦點	1 NOUN 1
+然	2 ADJ 2
+然後	7 ADV 7
+然而	29 ADV 29
+煉油	1 NOUN 1
+煉金	1 NOUN 1
+煙	1 PART 1
+煙囪	1 NOUN 1
+煙槍	1 NOUN 1
+煙熏	2 VERB 2
+煙草	3 NOUN 3
+煙霧	1 NOUN 1
+煜全	1 PROPN 1
+煤建	1 PROPN 1
+煤氣	1 NOUN 1
+煥	1 PROPN 1
+煦	1 PROPN 1
+照射	1 NOUN 1
+照料	2 VERB 1 NOUN 1
+照片	4 NOUN 4
+照相	3 VERB 2 NOUN 1
+照顧	2 VERB 2
+煩惱	3 NOUN 2 VERB 1
+煮	2 VERB 2
+煮制	2 VERB 2
+煮食	1 VERB 1
+煽動	1 VERB 1
+熄匙	1 VERB 1
+熊	2 NOUN 2
+熊族	1 NOUN 1
+熊本	1 PROPN 1
+熊貓	7 NOUN 7
+熊隊	1 PROPN 1
+熊隻	2 NOUN 2
+熏烤	1 VERB 1
+熏陶	1 NOUN 1
+熔化	1 NOUN 1
+熔岩	2 NOUN 2
+熟知	1 VERB 1
+熟釜	1 NOUN 1
+熱	8 PART 6 NOUN 2
+熱值	1 NOUN 1
+熱刺	1 PROPN 1
+熱力	1 NOUN 1
+熱帶	12 NOUN 12
+熱庫	3 NOUN 3
+熱心	1 ADJ 1
+熱愛	1 VERB 1
+熱比婭	2 PROPN 2
+熱水	1 NOUN 1
+熱田	1 PROPN 1
+熱羅姆	1 PROPN 1
+熱能	3 NOUN 3
+熱衷	2 VERB 2
+熱身	1 NOUN 1
+熱量	1 NOUN 1
+熱電	1 NOUN 1
+熱鬧	1 ADJ 1
+熾熱	1 ADJ 1
+燁	1 PROPN 1
+燃料	8 NOUN 8
+燃氣	1 NOUN 1
+燃燒	2 NOUN 1 VERB 1
+燈光	1 NOUN 1
+燈謎	1 NOUN 1
+燒毀	2 VERB 2
+燒灼	1 NOUN 1
+燒荒	1 VERB 1
+燒餅	2 NOUN 2
+燕	1 PROPN 1
+燕山	2 PROPN 2
+燕窩	1 PROPN 1
+營	4 PART 3 NOUN 1
+營口	1 PROPN 1
+營團	1 NOUN 1
+營地	1 NOUN 1
+營寨	1 NOUN 1
+營帳	1 NOUN 1
+營業	4 VERB 4
+營火	1 NOUN 1
+營造	1 NOUN 1
+營運	14 VERB 9 NOUN 5
+營長	1 NOUN 1
+營養	1 NOUN 1
+燦爛	1 ADJ 1
+燭光	1 NOUN 1
+燾	1 PROPN 1
+爆炸	9 VERB 7 NOUN 2
+爆發	16 VERB 13 NOUN 3
+爐	1 PART 1
+爪	2 NOUN 2
+爪獸	2 NOUN 2
+爪部	1 NOUN 1
+爬到	1 VERB 1
+爬山	1 VERB 1
+爬梯	1 NOUN 1
+爬行	3 NOUN 2 VERB 1
+爭	4 VERB 4
+爭冠	1 VERB 1
+爭占	1 VERB 1
+爭取	2 VERB 2
+爭吵	1 NOUN 1
+爭執	2 VERB 1 NOUN 1
+爭奪	1 VERB 1
+爭寵	1 VERB 1
+爭得	1 VERB 1
+爭界	1 VERB 1
+爭相	1 VERB 1
+爭端	1 NOUN 1
+爭競	1 VERB 1
+爭論	1 NOUN 1
+爭議	10 NOUN 10
+爭辯	2 AUX 1 NOUN 1
+爭霸	2 VERB 2
+爭鬥	1 NOUN 1
+爲	3 AUX 1 ADP 1 VERB 1
+爵士	9 NOUN 9
+父	5 NOUN 4 PART 1
+父子	2 NOUN 2
+父母	9 NOUN 9
+父親	38 NOUN 38
+父風	1 NOUN 1
+爸爸	1 NOUN 1
+爺	1 PART 1
+爺爺	1 NOUN 1
+爽	4 PROPN 4
+爽文	1 PROPN 1
+爾後	2 ADV 1 NOUN 1
+爾炘	1 PROPN 1
+牆	1 NOUN 1
+牆上	1 NOUN 1
+牆壁	3 NOUN 3
+牆身	1 NOUN 1
+牆面	1 NOUN 1
+牆體	2 NOUN 2
+片	17 PART 9 NOUN 8
+片劑	1 NOUN 1
+片尾	1 NOUN 1
+片斷	1 NOUN 1
+片段	2 NOUN 2
+片頭	1 NOUN 1
+版	22 PART 19 NOUN 3
+版主	1 NOUN 1
+版本	15 NOUN 15
+版權	6 NOUN 6
+版畫	1 NOUN 1
+牌	6 PART 4 NOUN 2
+牌照	1 NOUN 1
+牙籤	1 NOUN 1
+牙線	1 NOUN 1
+牙薩克	1 NOUN 1
+牙醫	1 NOUN 1
+牙齒	6 NOUN 6
+牛	3 PROPN 3
+牛仔	2 PROPN 1 NOUN 1
+牛奶	4 NOUN 4
+牛池	1 PROPN 1
+牛津	3 PROPN 3
+牛潭尾	1 PROPN 1
+牛石	1 PROPN 1
+牛肉	2 NOUN 2
+牛首	1 NOUN 1
+牛鼻栓	1 NOUN 1
+牟	1 PROPN 1
+牟利	1 VERB 1
+牟合	1 NOUN 1
+牠	1 PRON 1
+牠們	16 PRON.P_牠 16
+牡蠣	1 NOUN 1
+牧	1 PROPN 1
+牧區	1 NOUN 1
+牧場	4 NOUN 4
+牧師	2 NOUN 2
+牧民	1 NOUN 1
+牧羊	1 VERB 1
+牧谷	1 PROPN 1
+牧養	2 VERB 2
+物	28 PART 27 NOUN 1
+物件	1 NOUN 1
+物價	2 NOUN 2
+物品	5 NOUN 5
+物業	5 NOUN 5
+物理	17 NOUN 17
+物產	1 NOUN 1
+物種	13 NOUN 13
+物象	1 NOUN 1
+物資	3 NOUN 3
+物質	15 NOUN 15
+物鏡	1 NOUN 1
+物阜	1 ADJ 1
+物體	5 NOUN 5
+牲畜	1 NOUN 1
+牴牾	1 VERB 1
+特使	2 NOUN 2
+特備	1 NOUN 1
+特優	1 ADJ 1
+特別	20 ADV 14 ADJ 6
+特務	1 NOUN 1
+特化	3 VERB 3
+特區	1 NOUN 1
+特大	9 ADJ 9
+特定	10 ADJ 10
+特工	1 NOUN 1
+特徵	10 NOUN 10
+特快	1 ADJ 1
+特性	2 NOUN 2
+特意	1 ADV 1
+特攝	1 VERB 1
+特有	7 VERB 5 ADJ 2
+特權	2 NOUN 2
+特殊	10 ADJ 10
+特派	1 VERB 1
+特爾瑪	1 PROPN 1
+特瓦史塔	1 PROPN 1
+特產	1 NOUN 1
+特異	1 ADJ 1
+特種	3 ADJ 3
+特約	2 VERB 2
+特色	14 NOUN 14
+特質	1 NOUN 1
+特遣	4 NOUN 4
+特重	1 VERB 1
+特隆赫姆	1 PROPN 1
+特雷格羅恩	1 PROPN 1
+特點	4 NOUN 4
+牽引	1 VERB 1
+牽牛花	1 NOUN 1
+犧牲	1 NOUN 1
+犬科	1 NOUN 1
+犬種	1 NOUN 1
+犬隻	2 NOUN 2
+犬髖	1 NOUN 1
+犬齒	2 NOUN 2
+犯	2 PART 1 VERB 1
+犯人	1 NOUN 1
+犯罪	4 NOUN 3 VERB 1
+狀	3 PART 3
+狀元	4 NOUN 4
+狀態	16 NOUN 16
+狀況	9 NOUN 9
+狂	4 PART 4
+狂亂	1 ADJ 1
+狄	1 PROPN 1
+狐	1 NOUN 1
+狐庸	1 PROPN 1
+狐狸	2 NOUN 2
+狗	5 NOUN 4 PART 1
+狙擊	4 VERB 3 NOUN 1
+狡猾	1 ADJ 1
+狩獵	5 VERB 4 NOUN 1
+狸藻	1 NOUN 1
+狹小	1 ADJ 1
+狹窄	3 ADJ 3
+狼人	1 NOUN 1
+狼堡	1 PROPN 1
+狼影	1 PROPN 1
+狼群	1 NOUN 1
+猛烈	2 ADV 1 ADJ 1
+猛虎	2 NOUN 2
+猜忌	1 NOUN 1
+猜想	1 NOUN 1
+猝死	1 VERB 1
+猴年	1 NOUN 1
+猴群	1 NOUN 1
+猶他	2 PROPN 2
+猶大	1 PROPN 1
+猶太	21 PROPN 21
+猶豫	2 ADJ 1 NOUN 1
+獅	2 PART 2
+獅子	1 NOUN 1
+獅心	1 PROPN 1
+獎	15 PART 15
+獎勵	4 NOUN 4
+獎學	3 VERB 3
+獎牌	1 NOUN 1
+獎盃	1 NOUN 1
+獎章	2 NOUN 2
+獎金	2 NOUN 2
+獎項	3 NOUN 3
+獨一無二	1 ADJ 1
+獨具	1 VERB 1
+獨唱	1 NOUN 1
+獨孤	1 PROPN 1
+獨家	1 ADV 1
+獨居	2 NOUN 1 VERB 1
+獨攬	1 VERB 1
+獨有	1 VERB 1
+獨特	10 ADJ 10
+獨眠	1 VERB 1
+獨立	29 ADJ 10 NOUN 9 VERB 7 ADV 2 PROPN 1
+獨自	2 ADJ 1 ADV 1
+獨行	1 NOUN 1
+獨資	1 NOUN 1
+獲	22 VERB 22
+獲准	1 VERB 1
+獲判	1 VERB 1
+獲利	3 AUX 2 VERB 1
+獲勳	1 VERB 1
+獲取	3 VERB 3
+獲召	1 VERB 1
+獲得	57 VERB 57
+獲悉	1 VERB 1
+獲授	1 VERB 1
+獲獎	2 VERB 2
+獲益	1 VERB 1
+獲薦	1 VERB 1
+獲選	1 VERB 1
+獲頒	1 VERB 1
+獵奇	2 NOUN 2
+獵殺	2 NOUN 2
+獵物	1 NOUN 1
+獵食	3 VERB 3
+獸人	1 NOUN 1
+獸族	1 NOUN 1
+獻	1 VERB 1
+獻上	1 VERB 1
+獻堂	1 VERB 1
+獻策	1 NOUN 1
+獻給	3 VERB 3
+獻言	1 NOUN 1
+獻議	1 VERB 1
+玄	2 PROPN 2
+玄天	1 PROPN 1
+玄宗	1 NOUN 1
+玄機	2 PROPN 2
+玄武	1 PROPN 1
+玄策	1 PROPN 1
+玄貓	1 NOUN 1
+率	22 PART 18 VERB 4
+率軍	2 VERB 2
+率領	3 VERB 3
+玉帶	2 PROPN 2
+玉柴	1 PROPN 1
+玉純	1 PROPN 1
+玉門	2 PROPN 2
+玉魔	1 PROPN 1
+玉鳳花	1 NOUN 1
+玉麟	1 PROPN 1
+王	75 PROPN 52 PART 18 NOUN 5
+王位	2 NOUN 2
+王儲	1 NOUN 1
+王冠	1 NOUN 1
+王后	4 NOUN 4
+王國	14 NOUN 14
+王墓	1 NOUN 1
+王妃	2 NOUN 2
+王子	5 NOUN 5
+王室	3 NOUN 3
+王宮	1 NOUN 1
+王座	1 PROPN 1
+王朝	7 NOUN 7
+王蓮	1 NOUN 1
+玩	2 VERB 2
+玩伴	1 NOUN 1
+玩具	2 NOUN 2
+玩家	13 NOUN 13
+玩弄	1 VERB 1
+玩法	1 NOUN 1
+玩笑	2 NOUN 2
+玫瑰	1 NOUN 1
+玲玲	1 PROPN 1
+玷染	1 VERB 1
+玻璃	6 NOUN 6
+珀斯	1 PROPN 1
+珀西	2 PROPN 2
+珊瑚	5 NOUN 5
+珍	2 NOUN 1 PROPN 1
+珍品	2 NOUN 2
+珍寶	1 NOUN 1
+珍珠	4 NOUN 3 PROPN 1
+珠	1 PROPN 1
+珠海	3 PROPN 3
+珠璣	1 PROPN 1
+珠鋼	1 NOUN 1
+班	7 NOUN 5 PROPN 1 PART 1
+班卓	1 NOUN 1
+班子	1 NOUN 1
+班布里奇	1 PROPN 1
+班機	1 NOUN 1
+班次	2 NOUN 2
+班禪	1 NOUN 1
+班級	1 NOUN 1
+現	9 NOUN 9
+現今	4 NOUN 3 ADJ 1
+現代	20 NOUN 20
+現任	3 NOUN 2 VERB 1
+現在	36 NOUN 36
+現址	2 NOUN 2
+現場	5 NOUN 5
+現存	8 NOUN 4 VERB 4
+現實	5 NOUN 4 ADJ 1
+現役	1 NOUN 1
+現時	13 NOUN 13
+現有	7 VERB 4 NOUN 3
+現狀	2 NOUN 2
+現象	7 NOUN 7
+現身	1 VERB 1
+現金	4 NOUN 4
+球	22 NOUN 13 PART 9
+球員	7 NOUN 7
+球場	3 NOUN 3
+球壇	1 NOUN 1
+球季	7 NOUN 7
+球差	1 NOUN 1
+球星	1 NOUN 1
+球會	4 NOUN 4
+球根	1 NOUN 1
+球狀	1 NOUN 1
+球衣	1 NOUN 1
+球迷	2 NOUN 2
+球道	1 NOUN 1
+球隊	31 NOUN 31
+球面	1 NOUN 1
+琅	1 PROPN 1
+理事	5 NOUN 5
+理工	8 NOUN 8
+理念	2 NOUN 2
+理性	1 ADJ 1
+理想	5 NOUN 3 ADJ 2
+理查	1 PROPN 1
+理由	1 NOUN 1
+理解	4 VERB 4
+理論	35 NOUN 35
+琉球	4 PROPN 4
+琦	1 PROPN 1
+琪	2 PROPN 2
+琬	1 PROPN 1
+琮	1 PROPN 1
+琳	1 PROPN 1
+琳達	1 PROPN 1
+琴	2 PART 2
+琴弓	1 NOUN 1
+琴行	2 NOUN 2
+琺琅	1 NOUN 1
+瑋	2 PROPN 2
+瑛	1 PROPN 1
+瑜伽	1 NOUN 1
+瑞典	12 PROPN 12
+瑞士	9 PROPN 9
+瑞普肯	1 PROPN 1
+瑞欽	1 PROPN 1
+瑞草	3 PROPN 3
+瑞霖	1 PROPN 1
+瑟洛	1 PROPN 1
+瑣法	1 PROPN 1
+瑪	1 PROPN 1
+瑪利	1 PROPN 1
+瑪利亞	2 PROPN 2
+瑪利亞路易莎	1 PROPN 1
+瑪利歐	1 PROPN 1
+瑪君龍	1 NOUN 1
+瑪莉	2 PROPN 2
+瑪莎	1 PROPN 1
+瑪麗	4 PROPN 4
+瑪麗亞	2 PROPN 2
+瑪麗特	1 PROPN 1
+瑾	1 PROPN 1
+環	4 NOUN 4
+環保	1 NOUN 1
+環境	21 NOUN 21
+環島	2 NOUN 2
+環帶	1 NOUN 1
+環形	2 NOUN 1 ADJ 1
+環狀	1 NOUN 1
+環球	2 PROPN 2
+環礁	2 NOUN 2
+環節	1 NOUN 1
+環繞	1 VERB 1
+瓊斯	1 PROPN 1
+瓊珊	1 PROPN 1
+瓊璘	2 PROPN 2
+瓘	1 PROPN 1
+瓜分	2 VERB 2
+瓦伊杜	1 PROPN 1
+瓦德	1 PROPN 1
+瓦拉	1 PROPN 1
+瓦爾那	2 NOUN 2
+瓦薩	1 PROPN 1
+瓦解	1 VERB 1
+瓦里奧	1 PROPN 1
+瓶中	1 NOUN 1
+瓷器	4 NOUN 4
+甄別	1 NOUN 1
+甘	5 PROPN 5
+甘肅	7 PROPN 6 NOUN 1
+甘草	1 NOUN 1
+甚	2 ADV 2
+甚厚	1 ADJ 1
+甚嚴	1 ADJ 1
+甚多	1 ADJ 1
+甚小	1 ADJ 1
+甚少	2 ADJ 1 ADV 1
+甚深	1 ADJ 1
+甚篤	1 ADJ 1
+甚至	26 ADV 24 CCONJ 2
+甚至是	1 CCONJ 1
+甚麼	2 PRON 2
+甜兒	1 PROPN 1
+甜度	1 NOUN 1
+甜甜	2 PROPN 2
+生	33 VERB 13 PART 13 NOUN 7
+生下	5 VERB 5
+生主	1 NOUN 1
+生出	1 VERB 1
+生前	3 NOUN 3
+生動	2 ADJ 2
+生化	4 NOUN 3 VERB 1
+生命	13 NOUN 13
+生天	1 NOUN 1
+生子	1 VERB 1
+生存	7 VERB 7
+生平	1 NOUN 1
+生性	1 NOUN 1
+生意	4 NOUN 4
+生態	7 NOUN 7
+生成	3 VERB 3
+生效	1 VERB 1
+生日	2 NOUN 2
+生機	1 NOUN 1
+生殖	3 NOUN 3
+生殺	1 NOUN 1
+生母	2 NOUN 2
+生氣	1 ADJ 1
+生活	38 NOUN 28 VERB 10
+生涯	5 NOUN 5
+生火	1 VERB 1
+生物	28 NOUN 28
+生產	25 VERB 14 NOUN 11
+生病	2 VERB 2
+生肖	1 NOUN 1
+生財之道	1 NOUN 1
+生還	1 VERB 1
+生長	10 VERB 8 NOUN 2
+產	2 VERB 2
+產下	3 VERB 3
+產值	2 NOUN 2
+產出	1 VERB 1
+產區	2 NOUN 2
+產品	13 NOUN 13
+產地	4 NOUN 4
+產業	13 NOUN 13
+產物	2 NOUN 2
+產生	30 VERB 30
+產經	1 PROPN 1
+產量	4 NOUN 4
+甦醒	1 VERB 1
+用	104 VERB 103 NOUN 1 ***
+用人	1 NOUN 1
+用作	7 VERB 7
+用來	1 VERB 1
+用光	1 VERB 1
+用兵	1 VERB 1
+用品	3 NOUN 3
+用地	4 NOUN 4
+用字	1 NOUN 1
+用完	1 VERB 1
+用戶	3 NOUN 3
+用手	1 VERB 1
+用有	1 VERB 1
+用水	1 VERB 1
+用法	3 NOUN 3
+用藥	1 VERB 1
+用計	1 VERB 1
+用詞	1 NOUN 1
+用途	3 NOUN 3
+用電	2 VERB 2
+甩	1 VERB 1
+甬	1 PROPN 1
+田	3 PROPN 3
+田園	1 NOUN 1
+田地	1 NOUN 1
+田心	1 PROPN 1
+田野	1 NOUN 1
+田頭	1 PROPN 1
+由	222 VERB 173 ADP 47 NOUN 2 ***
+由來	2 NOUN 2
+由於	91 ADP 91 ***
+由衷	2 ADV 1 ADJ 1
+甲	2 NUM 2
+甲山	1 PROPN 1
+甲板	2 NOUN 2
+甲殼	1 NOUN 1
+甲醇	2 NOUN 2
+申花	3 PROPN 3
+申請	7 VERB 6 NOUN 1
+申辦	1 NOUN 1
+男	15 NOUN 14 PART 1
+男人	1 NOUN 1
+男友	6 NOUN 6
+男士	1 NOUN 1
+男女	3 NOUN 3
+男嬰	1 NOUN 1
+男子	10 NOUN 10
+男孩	3 NOUN 3
+男性	13 NOUN 13
+男方	1 NOUN 1
+男爵	2 NOUN 2
+男童	1 NOUN 1
+町	7 PART 6 NOUN 1
+町村	2 NOUN 2
+界	11 PART 10 NOUN 1
+界定	1 VERB 1
+界限	1 NOUN 1
+畔	1 PART 1
+留	5 VERB 5
+留下	11 VERB 11
+留傳	1 VERB 1
+留哥	1 PROPN 1
+留存	2 VERB 2
+留學	2 VERB 2
+留待	1 VERB 1
+留意	2 VERB 2
+留空	1 VERB 1
+留聲	1 NOUN 1
+留良	1 PROPN 1
+留香	2 NOUN 1 PROPN 1
+畜	2 NOUN 2
+畜牧	1 NOUN 1
+畜養	1 VERB 1
+畝	4 NOUN 4
+畢	3 PROPN 3
+畢打	1 PROPN 1
+畢業	18 VERB 17 NOUN 1
+畢氏	1 PROPN 1
+畢馬威	1 PROPN 1
+略帶	1 VERB 1
+略有	1 VERB 1
+略為	1 ADV 1
+番	4 NOUN 4
+畫	6 VERB 3 AUX 1 PART 1 NOUN 1
+畫上	2 VERB 2
+畫下	1 VERB 1
+畫中	1 NOUN 1
+畫作	3 NOUN 3
+畫分	1 VERB 1
+畫報	2 NOUN 2
+畫家	6 NOUN 6
+畫會	1 NOUN 1
+畫畫	1 VERB 1
+畫面	1 NOUN 1
+異事	1 NOUN 1
+異姓	1 NOUN 1
+異常	3 ADJ 3
+異度	1 NOUN 1
+異形	1 NOUN 1
+異性	2 NOUN 2
+異曲同工	1 ADJ 1
+異母	1 NOUN 1
+異端	1 NOUN 1
+當	44 ADP 40 VERB 3 AUX 1
+當上	1 VERB 1
+當下	1 NOUN 1
+當中	10 NOUN 9 ADP 1
+當事	2 VERB 2
+當今	3 NOUN 2 ADJ 1
+當代	2 NOUN 2
+當作	3 VERB 3
+當值	1 VERB 1
+當初	3 NOUN 3
+當前	2 NOUN 2
+當地	29 NOUN 29
+當場	2 NOUN 2
+當天	4 NOUN 4
+當官	1 VERB 1
+當局	13 NOUN 13
+當屆	1 DET 1
+當年	5 NOUN 5
+當成	2 VERB 2
+當政	1 VERB 1
+當日	4 NOUN 4
+當時	72 NOUN 72
+當晚	1 NOUN 1
+當期	1 NOUN 1
+當歸	1 NOUN 1
+當然	4 ADV 2 ADJ 2
+當選	13 VERB 12 NOUN 1
+當面	1 ADV 1
+疆域	1 NOUN 1
+疏浚	1 VERB 1
+疏遠	1 VERB 1
+疑	1 VERB 1
+疑問	3 NOUN 2 VERB 1
+疑點	1 NOUN 1
+疙瘩	1 NOUN 1
+疫情	2 NOUN 2
+疫苗	4 NOUN 4
+疲勞	1 NOUN 1
+疲弱	1 ADJ 1
+疼痛	1 NOUN 1
+疾病	18 NOUN 18
+病	13 PART 12 NOUN 1
+病人	2 NOUN 2
+病原	1 NOUN 1
+病患	1 NOUN 1
+病情	1 NOUN 1
+病故	3 VERB 3
+病歷	1 NOUN 1
+病死	1 VERB 1
+病毒	6 NOUN 6
+病理	2 NOUN 2
+病逝	8 VERB 8
+病重	1 VERB 1
+症	10 PART 10
+症候	1 NOUN 1
+症狀	1 NOUN 1
+痕跡	1 NOUN 1
+痕迹	2 NOUN 2
+痙攣	1 VERB 1
+痛心疾首	1 ADJ 1
+痢疾	1 NOUN 1
+痰	1 NOUN 1
+瘋狂	3 ADJ 2 VERB 1
+瘦	1 ADJ 1
+瘧疾	1 NOUN 1
+癌	1 PART 1
+癌症	4 NOUN 4
+癖	1 PART 1
+癥狀	1 NOUN 1
+登	1 VERB 1
+登上	3 VERB 3
+登丹	1 PROPN 1
+登基	3 VERB 3
+登場	3 VERB 3
+登記	4 VERB 4
+登輝	2 PROPN 2
+登陸	3 VERB 3
+發	2 VERB 1 NOUN 1
+發佈	1 VERB 1
+發作	1 VERB 1
+發兵	1 VERB 1
+發出	7 VERB 7
+發動	11 VERB 11
+發呆	1 VERB 1
+發售	2 VERB 2
+發回	2 VERB 2
+發奮	1 VERB 1
+發射	12 VERB 8 NOUN 3 X 1
+發展	60 VERB 34 NOUN 22 AUX 4
+發布	9 VERB 9
+發掘	2 VERB 2
+發揚光大	1 VERB 1
+發揮	3 VERB 3
+發改委	1 NOUN 1
+發放	1 VERB 1
+發明	8 NOUN 4 VERB 4
+發洩	1 VERB 1
+發源	3 VERB 3
+發炎	1 VERB 1
+發燒	1 VERB 1
+發牌	1 NOUN 1
+發現	67 VERB 66 NOUN 1
+發球	1 VERB 1
+發生	59 VERB 56 NOUN 3
+發病	1 VERB 1
+發聲	1 VERB 1
+發育	4 VERB 2 AUX 1 NOUN 1
+發行	18 VERB 18
+發表	17 VERB 16 NOUN 1
+發覺	2 VERB 2
+發言	4 VERB 4
+發財	1 VERB 1
+發起	6 VERB 6
+發車	1 NOUN 1
+發送	5 VERB 4 NOUN 1
+發達	7 ADJ 6 NOUN 1
+發配	1 VERB 1
+發酵	4 VERB 3 NOUN 1
+發電	3 VERB 3
+發音	2 NOUN 1 VERB 1
+白	15 PROPN 8 NOUN 7
+白丁	1 NOUN 1
+白井	1 PROPN 1
+白人	3 NOUN 3
+白公	1 PROPN 1
+白利南	1 PROPN 1
+白化	1 NOUN 1
+白堊	1 PROPN 1
+白天	1 NOUN 1
+白宮	1 PROPN 1
+白砂	1 NOUN 1
+白紙	2 NOUN 2
+白色	8 NOUN 8
+白蓮	1 PROPN 1
+白蛇	1 NOUN 1
+白軍	1 NOUN 1
+白金	1 NOUN 1
+白金漢	2 PROPN 2
+白銅	1 NOUN 1
+白陵	1 PROPN 1
+白雲	1 NOUN 1
+白面	1 NOUN 1
+白頸長尾雉	1 NOUN 1
+白馬	2 NOUN 2
+白鹿	1 PROPN 1
+白麗	1 PROPN 1
+百	6 NUM 6
+百事	1 PROPN 1
+百代	1 PROPN 1
+百億	1 NUM 1
+百兆	1 NUM 1
+百姓	1 NOUN 1
+百帕斯卡	1 NOUN 1
+百度	2 PROPN 2
+百廢待舉	1 VERB 1
+百濟	1 PROPN 1
+百無聊賴	1 ADJ 1
+百科	3 NOUN 3
+百老匯	1 PROPN 1
+百花齊放	1 VERB 1
+百萬	1 NUM 1
+百貨	1 NOUN 1
+百餘	1 NUM 1
+百鳴	1 PROPN 1
+的	4501 PART 4397 X 104 ***
+的士	1 NOUN 1
+的確	1 ADV 1
+的話	8 X 8
+的黎波里	1 PROPN 1
+皆	8 ADV 8
+皇	3 NOUN 3
+皇位	1 NOUN 1
+皇冠	1 NOUN 1
+皇后	9 PROPN 5 NOUN 4
+皇城	1 NOUN 1
+皇太極	1 PROPN 1
+皇妃	1 NOUN 1
+皇子	2 NOUN 2
+皇室	3 NOUN 3
+皇宮	2 NOUN 2
+皇家	10 NOUN 10
+皇帝	26 NOUN 26
+皇廷	1 PROPN 1
+皇權	1 NOUN 1
+皇發	1 PROPN 1
+皈依	1 VERB 1
+皋	1 PROPN 1
+皓	1 PROPN 1
+皓若	1 PROPN 1
+皮	2 PART 1 PROPN 1
+皮亞韋	1 PROPN 1
+皮內羅洛	1 PROPN 1
+皮埃蒙特	2 PROPN 2
+皮毛	1 NOUN 1
+皮特	1 PROPN 1
+皮特凱恩	1 PROPN 1
+皮耶特普拉桑克穆斯特魯	1 PROPN 1
+皮膚	4 NOUN 4
+皰疹	1 NOUN 1
+盃	13 PART 13
+盆地	1 NOUN 1
+盆子	2 NOUN 2
+盈盈	1 PROPN 1
+益	1 PROPN 1
+益世	2 PROPN 2
+益城	1 PROPN 1
+益新	1 PROPN 1
+益處	1 NOUN 1
+盔甲	1 NOUN 1
+盛事	1 NOUN 1
+盛大	1 ADJ 1
+盛妝	1 NOUN 1
+盛揮	1 PROPN 1
+盛產	1 VERB 1
+盛行	1 ADJ 1
+盜用	1 VERB 1
+盟	1 NOUN 1
+盟友	3 NOUN 3
+盟旗	3 NOUN 3
+盟校	2 NOUN 2
+盟軍	1 NOUN 1
+盡到	1 VERB 1
+盡喪	1 VERB 1
+盡情	1 ADV 1
+盡頭	1 NOUN 1
+監察	2 NOUN 2
+監工	1 NOUN 1
+監控	1 VERB 1
+監測	1 NOUN 1
+監獄	4 NOUN 4
+監督	8 NOUN 7 VERB 1
+監禁	1 VERB 1
+監管	3 AUX 1 NOUN 1 VERB 1
+監聽	1 VERB 1
+監製	2 VERB 2
+監視	2 NOUN 1 VERB 1
+盤踞	1 VERB 1
+盧	1 PROPN 1
+盧加	1 PROPN 1
+盧溝	1 PROPN 1
+盪	1 VERB 1
+目	13 PART 13
+目前	54 NOUN 54
+目標	14 NOUN 14
+目的	12 NOUN 12
+目睹	1 VERB 1
+目錄	3 NOUN 3
+目鏡	1 NOUN 1
+直	4 ADV 4
+直人	2 PROPN 2
+直到	15 ADP 15
+直勉	1 PROPN 1
+直升	4 VERB 4
+直屬	1 NOUN 1
+直布羅陀	2 PROPN 2
+直徑	5 NOUN 5
+直接	26 ADV 19 ADJ 7
+直立	1 ADJ 1
+直系	3 ADJ 2 NOUN 1
+直線	3 NOUN 3
+直至	6 ADP 6
+直覺	1 NOUN 1
+直言	1 VERB 1
+直說	1 NOUN 1
+直轄	2 NOUN 1 VERB 1
+直通	2 VERB 2
+直選	3 NOUN 3
+直間	1 NOUN 1
+直隸	4 VERB 3 NOUN 1
+相	5 ADV 4 NOUN 1
+相互	9 ADV 5 ADJ 4
+相似	10 ADJ 9 VERB 1
+相位	1 NOUN 1
+相信	14 VERB 13 NOUN 1
+相傳	1 VERB 1
+相反	3 VERB 3
+相同	15 ADJ 15
+相容	1 NOUN 1
+相對	14 ADV 6 ADJ 4 VERB 2 ADP 2
+相差無幾	1 VERB 1
+相悖	1 VERB 1
+相應	1 ADV 1
+相戀	2 VERB 2
+相挺	1 VERB 1
+相機	5 NOUN 5
+相比	4 VERB 3 ADP 1
+相異	1 ADJ 1
+相當	18 ADV 10 VERB 8
+相稱	1 VERB 1
+相等	2 VERB 1 ADJ 1
+相約	1 VERB 1
+相繼	3 ADV 2 VERB 1
+相聲	1 NOUN 1
+相若	1 VERB 1
+相處	1 VERB 1
+相見	1 VERB 1
+相識	2 VERB 2
+相較	1 VERB 1
+相近	4 ADJ 3 VERB 1
+相通	1 VERB 1
+相速	1 NOUN 1
+相連	2 VERB 2
+相遇	3 VERB 2 NOUN 1
+相鄰	1 VERB 1
+相間	1 VERB 1
+相關	14 ADJ 12 VERB 2
+盾座苣苔	1 NOUN 1
+盾系	1 NOUN 1
+省	108 PART 105 NOUN 3 ***
+省份	4 NOUN 4
+省務	1 NOUN 1
+省委	4 NOUN 4
+省思	1 VERB 1
+省油	1 VERB 1
+省略	1 VERB 1
+省立	2 NOUN 2
+省級	5 NOUN 5
+眉山	1 PROPN 1
+看	12 VERB 11 AUX 1
+看中	1 VERB 1
+看似	2 AUX 2
+看出	1 VERB 1
+看分	1 VERB 1
+看到	14 VERB 14
+看台	1 NOUN 1
+看得	1 AUX 1
+看法	2 NOUN 2
+看看	1 VERB 1
+看管	1 VERB 1
+看見	1 VERB 1
+看透	1 VERB 1
+看重	1 VERB 1
+真	1 ADJ 1
+真人	3 NOUN 3
+真假	1 ADJ 1
+真光	1 PROPN 1
+真北	1 NOUN 1
+真名	1 NOUN 1
+真好	1 ADJ 1
+真宗	2 PROPN 1 NOUN 1
+真實	7 ADJ 7
+真希	1 PROPN 1
+真情	2 NOUN 2
+真木	1 PROPN 1
+真核	1 NOUN 1
+真正	8 ADJ 7 ADV 1
+真武	3 PROPN 3
+真理	6 NOUN 4 PROPN 2
+真的	2 ADV 2
+真相	4 NOUN 4
+真相大白	1 VERB 1
+眯眼	1 VERB 1
+眷村	1 NOUN 1
+眼	5 PART 3 NOUN 2
+眼下	1 NOUN 1
+眼中	1 NOUN 1
+眼淚	1 NOUN 1
+眼狀	1 NOUN 1
+眼球	1 NOUN 1
+眼皮	1 NOUN 1
+眼睛	3 NOUN 3
+眼神	1 NOUN 1
+眼鏡	2 PROPN 1 NOUN 1
+眾	12 NOUN 9 DET 2 PART 1
+眾人	2 NOUN 2
+眾多	12 NUM 7 ADJ 5
+眾經	1 NOUN 1
+眾說紛紜	1 ADJ 1
+睡	1 VERB 1
+睡眠	1 NOUN 1
+睡蓮	3 NOUN 3
+睡衣	2 NOUN 2
+睡覺	1 VERB 1
+督	5 PART 4 PROPN 1
+督察	4 NOUN 4
+督撫	1 NOUN 1
+督辦	1 NOUN 1
+睾丁蛋白	1 NOUN 1
+睿	1 PROPN 1
+睿智	1 NOUN 1
+瞪羚	1 NOUN 1
+瞬時	1 NOUN 1
+瞭如指掌	1 VERB 1
+瞭解	4 VERB 4
+矗立	1 VERB 1
+矚目	2 NOUN 2
+矛	1 NOUN 1
+矛盾	2 NOUN 2
+矢口否認	1 VERB 1
+知	8 VERB 8
+知名	9 ADJ 8 VERB 1
+知府	1 NOUN 1
+知情	3 VERB 3
+知曉	1 VERB 1
+知節	2 PROPN 2
+知識	14 NOUN 14
+知足	1 VERB 1
+知道	12 VERB 12
+矩陣	4 NOUN 4
+短	7 ADJ 4 PART 3
+短少	1 ADJ 1
+短尾貓	3 NOUN 3
+短暫	4 ADJ 3 ADV 1
+短期	2 NOUN 2
+短短	3 ADJ 3
+短篇	4 NOUN 4
+短草	1 NOUN 1
+短裙	1 NOUN 1
+短詩	1 NOUN 1
+短語	1 NOUN 1
+短面熊	2 NOUN 2
+短音	1 NOUN 1
+短髮	1 NOUN 1
+矮人	2 NOUN 2
+矮星	1 NOUN 1
+石	9 PROPN 4 PART 3 NOUN 2
+石像	1 NOUN 1
+石化	2 VERB 1 NOUN 1
+石原	2 PROPN 2
+石器	1 NOUN 1
+石塊	1 NOUN 1
+石家	2 PROPN 2
+石材	1 NOUN 1
+石油	7 NOUN 7
+石湖	1 PROPN 1
+石灰	1 NOUN 1
+石牆	1 PROPN 1
+石牌	1 PROPN 1
+石頭門坎	1 PROPN 1
+砂拉越	1 PROPN 1
+砂漿	1 NOUN 1
+砂紙	1 NOUN 1
+砍伐	1 VERB 1
+砍柴	2 VERB 2
+砒霜	1 NOUN 1
+研發	4 VERB 4
+研磨	1 VERB 1
+研究	78 NOUN 42 VERB 36
+研製	2 VERB 2
+研討	2 VERB 2
+砝碼	1 NOUN 1
+砲	2 PART 2
+破壞	9 VERB 5 NOUN 4
+破損	1 VERB 1
+破曉	3 NOUN 3
+破滅	1 VERB 1
+破產	3 NOUN 3
+破舊	1 ADJ 1
+破落	1 ADJ 1
+硅	2 PART 2
+硝酸甘油片	1 NOUN 1
+硫	1 NOUN 1
+硫化氫	1 NOUN 1
+硫化鉛	1 NOUN 1
+硫磺	2 PROPN 1 NOUN 1
+硫酸銨	1 NOUN 1
+硬	2 ADJ 2
+硬幣	2 NOUN 2
+硬體	2 NOUN 2
+碎片	3 NOUN 3
+碎石	2 NOUN 2
+碑	6 PART 5 NOUN 1
+碑亭	1 NOUN 1
+碑刻	1 NOUN 1
+碗狀	1 NOUN 1
+碘	2 NOUN 2
+碧波	1 NOUN 1
+碧琴	1 PROPN 1
+碩士	2 NOUN 2
+碰撞	1 VERB 1
+碳	3 NOUN 3
+碳化	3 NOUN 2 VERB 1
+碳紙	1 NOUN 1
+碳酸鎂	1 NOUN 1
+確保	3 VERB 3
+確定	11 VERB 7 ADJ 4
+確實	2 ADJ 1 ADV 1
+確知	1 VERB 1
+確立	3 VERB 2 NOUN 1
+確診	1 VERB 1
+確認	6 VERB 5 NOUN 1
+碼	1 NOUN 1
+碼頭	15 NOUN 15
+磁性	1 NOUN 1
+磅	2 NOUN 2
+磐田	1 PROPN 1
+磚室	1 NOUN 1
+磨坊	1 NOUN 1
+磨折	1 VERB 1
+磨損	2 NOUN 2
+磨槽	1 NOUN 1
+磷化	1 VERB 1
+磷素	1 NOUN 1
+磷酸	1 NOUN 1
+礁	7 PART 7
+礙	1 VERB 1
+礦	2 NOUN 1 PART 1
+礦場	1 NOUN 1
+礦業	2 NOUN 2
+礦物	1 NOUN 1
+礦石	1 NOUN 1
+礦藏	1 NOUN 1
+示	2 VERB 2
+示人	1 VERB 1
+示威	2 NOUN 1 VERB 1
+示愛	1 VERB 1
+社	13 PART 11 NOUN 2
+社交	2 NOUN 1 VERB 1
+社區	11 NOUN 11
+社團	4 NOUN 4
+社會	60 NOUN 60
+社皮	1 PROPN 1
+社群	3 NOUN 3
+社論	1 NOUN 1
+社長	1 NOUN 1
+祁鏞	1 PROPN 1
+祂	2 PRON 2
+祈願	1 VERB 1
+祐希	1 PROPN 1
+祕教	2 PROPN 2
+祖	1 PROPN 1
+祖上	1 NOUN 1
+祖先	5 NOUN 5
+祖圭	1 PROPN 1
+祖外公	1 NOUN 1
+祖外婆	1 NOUN 1
+祖宗	1 NOUN 1
+祖父	3 NOUN 3
+祖籍	1 NOUN 1
+神	12 NOUN 6 PART 6
+神仙	1 NOUN 1
+神代	2 NOUN 2
+神偷	1 NOUN 1
+神器	1 NOUN 1
+神奇	6 ADJ 6
+神廟	4 NOUN 4
+神明	1 NOUN 1
+神殿	1 NOUN 1
+神父	3 NOUN 3
+神社	1 NOUN 1
+神秘	5 ADJ 4 ADV 1
+神秘果	1 NOUN 1
+神籤	1 NOUN 1
+神經	6 NOUN 6
+神聖	5 ADJ 4 PROPN 1
+神話	10 NOUN 10
+神達	4 PROPN 4
+神魔	1 NOUN 1
+祠	1 PART 1
+祥子	1 PROPN 1
+祥州	1 PROPN 1
+票	2 NOUN 2
+票價	4 NOUN 4
+票房	4 NOUN 4
+票據	2 NOUN 2
+票數	1 NOUN 1
+祭司	1 NOUN 1
+祭壇	1 NOUN 1
+祭師	1 NOUN 1
+祭物	1 NOUN 1
+祭祀	1 VERB 1
+祭酒	1 NOUN 1
+祺瑞	2 PROPN 2
+祿勸	1 PROPN 1
+祿山	1 PROPN 1
+禁止	6 VERB 6
+禁煙	1 NOUN 1
+禁用	1 VERB 1
+禁藥	1 NOUN 1
+禁賽	1 VERB 1
+禍	1 NOUN 1
+福	3 PROPN 3
+福來	2 PROPN 2
+福利	2 NOUN 2
+福安	1 PROPN 1
+福島	3 PROPN 3
+福州	2 PROPN 2
+福建	13 PROPN 13
+福慧	1 NOUN 1
+福斯	3 PROPN 3
+福池	1 PROPN 1
+福清	1 PROPN 1
+福部	2 PROPN 2
+福音	2 NOUN 2
+禕	1 PROPN 1
+禪師	1 NOUN 1
+禮	4 PART 2 NOUN 1 PROPN 1
+禮儀	3 NOUN 3
+禮堂	1 NOUN 1
+禮拜	4 NOUN 2 VERB 2
+禮濤	1 PROPN 1
+禮炮	1 NOUN 1
+禮物	1 NOUN 1
+禮節	2 NOUN 2
+禱文	1 NOUN 1
+禽流感	1 NOUN 1
+禽龍	2 NOUN 2
+秀	3 PROPN 2 PART 1
+秀全	2 PROPN 2
+秀吉	2 PROPN 2
+秀實	1 PROPN 1
+秀康	1 PROPN 1
+秀怡	1 PROPN 1
+秀珠	1 PROPN 1
+私下	1 ADV 1
+私交	1 AUX 1
+私人	6 ADJ 6
+私奔	1 VERB 1
+私宅	1 NOUN 1
+私家	1 ADJ 1
+私有	1 ADJ 1
+私立	1 ADJ 1
+私財	1 NOUN 1
+秉國	1 PROPN 1
+秋	5 PROPN 2 NOUN 2 PART 1
+秋人	1 PROPN 1
+秋天	2 NOUN 2
+秋山	1 PROPN 1
+秋爽	1 PROPN 1
+秋興	1 PROPN 1
+秋香	1 PROPN 1
+科	24 PART 21 NOUN 3
+科學	46 NOUN 46
+科屬	1 NOUN 1
+科幻	2 NOUN 1 ADJ 1
+科恩	1 PROPN 1
+科技	15 NOUN 15
+科教	1 NOUN 1
+科朗	1 NOUN 1
+科特	1 PROPN 1
+科目	1 NOUN 1
+科系	3 NOUN 3
+科赫	2 PROPN 2
+科隆	3 PROPN 3
+秘密	9 NOUN 7 ADJ 1 ADV 1
+秘指	1 VERB 1
+秘書	8 NOUN 8
+秘魯	2 PROPN 2
+租予	1 VERB 1
+租借	3 NOUN 3
+租務	1 NOUN 1
+租地	1 NOUN 1
+租客	2 NOUN 2
+租戶	1 NOUN 1
+租用	1 NOUN 1
+租界	4 NOUN 4
+租賃	3 NOUN 2 VERB 1
+秦	8 PROPN 8
+秦國	6 PROPN 6
+秦城	1 PROPN 1
+秦州	1 PROPN 1
+秦晉之好	1 NOUN 1
+秦朝	1 PROPN 1
+秦石	1 PROPN 1
+秩序	1 NOUN 1
+移交	1 VERB 1
+移動	7 VERB 6 NOUN 1
+移居	5 VERB 5
+移往	1 VERB 1
+移植	1 VERB 1
+移民	11 VERB 6 NOUN 5
+移至	1 VERB 1
+移送	1 VERB 1
+移除	2 VERB 2
+稀有	2 ADJ 2
+稀釋	1 NOUN 1
+稅	2 PART 2
+稅項	1 NOUN 1
+程	5 PROPN 4 NOUN 1
+程序	6 NOUN 6
+程度	8 NOUN 8
+程式	2 NOUN 2
+稍為	1 ADV 1
+稗官野史	1 NOUN 1
+種	154 NOUN 148 PART 5 VERB 1 ***
+種內	1 NOUN 1
+種名	1 NOUN 1
+種姓	2 NOUN 2
+種子	1 NOUN 1
+種屬	1 NOUN 1
+種族	4 NOUN 4
+種植	5 NOUN 3 VERB 2
+種種	4 NOUN 4
+種類	6 NOUN 6
+稱	92 VERB 89 NOUN 3 ***
+稱作	5 VERB 5
+稱呼	3 VERB 2 NOUN 1
+稱海	1 PROPN 1
+稱病	1 VERB 1
+稱臣	2 VERB 2
+稱號	4 NOUN 4
+稱許	1 NOUN 1
+稱謂	1 NOUN 1
+稱讚	2 VERB 1 NOUN 1
+稱銜	1 NOUN 1
+稻子	1 NOUN 1
+稻盛	2 PROPN 2
+稻草	1 NOUN 1
+稼祥	1 PROPN 1
+穀	1 NOUN 1
+穀物	1 NOUN 1
+穆宗	1 PROPN 1
+穆拉	1 PROPN 1
+穆斯塔法凱馬爾帕沙	1 PROPN 1
+穆斯林	6 PROPN 4 NOUN 2
+穆薩	1 PROPN 1
+積分	2 NOUN 1 VERB 1
+積山	1 PROPN 1
+積極	3 ADV 1 VERB 1 ADJ 1
+積良	1 PROPN 1
+穎珊	1 PROPN 1
+穩	1 ADJ 1
+穩固	1 ADJ 1
+穩妥	1 ADJ 1
+穩定	10 ADJ 8 VERB 1 NOUN 1
+究竟	1 ADJ 1
+空中	9 NOUN 8 PROPN 1
+空出	1 VERB 1
+空前	1 ADJ 1
+空名	1 NOUN 1
+空客	1 NOUN 1
+空戰	1 NOUN 1
+空氣	5 NOUN 5
+空缺	2 NOUN 2
+空調	4 NOUN 4
+空軍	7 NOUN 7
+空間	10 NOUN 10
+空降	1 VERB 1
+空隙	1 NOUN 1
+空難	1 NOUN 1
+穿	5 VERB 5
+穿幫	1 NOUN 1
+穿戴	1 VERB 1
+穿甲	1 VERB 1
+穿耳	2 VERB 2
+穿行	1 VERB 1
+穿過	1 VERB 1
+突出	2 ADJ 2
+突厥	2 PROPN 2
+突感	1 AUX 1
+突擊	2 NOUN 1 VERB 1
+突然	4 ADV 3 ADJ 1
+突現	1 VERB 1
+突破	7 VERB 7
+突變	5 NOUN 3 VERB 2
+窄袖	1 NOUN 1
+窗口	1 NOUN 1
+窗外	1 NOUN 1
+窗戶	1 NOUN 1
+窘境	1 NOUN 1
+窟	2 PART 2
+窟檐	1 NOUN 1
+窮苦	1 ADJ 1
+窮追	1 VERB 1
+窯	1 PART 1
+窯洞	1 NOUN 1
+窯瓷	3 NOUN 3
+竄紅	1 VERB 1
+竊聽	1 VERB 1
+立	10 VERB 10
+立下	2 VERB 2
+立交	1 VERB 1
+立刻	6 ADV 6
+立即	4 ADV 4
+立國	1 VERB 1
+立場	6 NOUN 6
+立憲	2 NOUN 2
+立方米	9 NOUN 9
+立村	1 VERB 1
+立法	16 VERB 10 NOUN 6
+立熙	2 PROPN 2
+立營	1 VERB 1
+立花	1 PROPN 1
+立蒙	1 PROPN 1
+立陶宛	3 PROPN 3
+立面	1 NOUN 1
+立體	1 NOUN 1
+站	72 PART 67 VERB 3 NOUN 2
+站上	1 VERB 1
+站內	1 NOUN 1
+站台	2 NOUN 2
+站名	1 NOUN 1
+站坪	1 NOUN 1
+站廳	1 NOUN 1
+站點	1 NOUN 1
+竟	1 ADV 1
+竟然	2 ADV 2
+章	3 PROPN 2 NOUN 1
+章丘	2 PROPN 2
+章回	1 NOUN 1
+章斐	1 PROPN 1
+竣工	2 VERB 2
+童	4 PROPN 4
+童女	1 NOUN 1
+童年	6 NOUN 6
+童星	2 NOUN 2
+童男	1 NOUN 1
+童話	3 NOUN 3
+端	6 NOUN 3 PART 3
+端川	1 PROPN 1
+競技	2 VERB 2
+競爭	5 NOUN 4 VERB 1
+競相	1 ADV 1
+競賽	5 NOUN 4 VERB 1
+競選	3 NOUN 2 VERB 1
+競馬	2 NOUN 1 VERB 1
+竹	1 NOUN 1
+竹器	1 NOUN 1
+竹子	3 NOUN 3
+竹治	1 PROPN 1
+竹溪	1 PROPN 1
+竹片	1 NOUN 1
+笑話	2 NOUN 2
+笛	1 NOUN 1
+符	1 PART 1
+符合	6 VERB 6
+符桐	1 PROPN 1
+符號	8 NOUN 8
+笨	2 PART 1 ADJ 1
+第	1 NUM 1
+第1	9 NUM 9
+第10	2 NUM 2
+第12	3 NUM 3
+第15	2 NUM 2
+第16	1 PROPN 1
+第18	1 NUM 1
+第2	3 NUM 3
+第201	1 NUM 1
+第23	2 NUM 2
+第24	1 NUM 1
+第25	1 NUM 1
+第27	1 NUM 1
+第277	1 NUM 1
+第28	1 NUM 1
+第29	1 NUM 1
+第3	4 NUM 4
+第33	1 NUM 1
+第34	1 NUM 1
+第37	1 NUM 1
+第38	1 NUM 1
+第4	4 NUM 4
+第47	1 NUM 1
+第49	1 NUM 1
+第5	1 NUM 1
+第55	1 NUM 1
+第59	1 NUM 1
+第6	2 NUM 2
+第62	1 NUM 1
+第64	1 NUM 1
+第7	2 NUM 2
+第8	1 NUM 1
+第9	1 NUM 1
+第91	1 NUM 1
+第一	99 NUM 97 PROPN 2 ***
+第七	6 NUM 6
+第三	35 NUM 35
+第三十三	1 NUM 1
+第九	2 NUM 2
+第二	60 NUM 60
+第五	9 NUM 9
+第八	4 NUM 4
+第六	5 NUM 5
+第十	3 NUM 3
+第十七	1 NUM 1
+第十三	3 NUM 3
+第十五	1 NUM 1
+第十四	1 NUM 1
+第四	14 NUM 13 X 1
+第廿	1 NUM 1
+第谷	1 PROPN 1
+笳冬	1 PROPN 1
+筆	3 NOUN 3
+筆下	2 NOUN 2
+等	184 NOUN 181 VERB 3 ***
+等位	1 ADJ 1
+等到	2 VERB 2
+等客	1 VERB 1
+等待	2 VERB 2
+等等	8 NOUN 8
+等級	4 NOUN 4
+等號	1 NOUN 1
+筐仔沙	1 PROPN 1
+筒狀	1 NOUN 1
+答應	2 VERB 2
+策	2 PROPN 2
+策劃	2 VERB 2
+策略	7 NOUN 7
+箏	1 NOUN 1
+算	3 VERB 3
+算出	1 VERB 1
+算術	1 NOUN 1
+管	11 PART 10 VERB 1
+管制	1 VERB 1
+管子	1 NOUN 1
+管弦	2 NOUN 2
+管治	2 NOUN 1 VERB 1
+管理	41 VERB 23 NOUN 17 AUX 1
+管轄	21 VERB 20 NOUN 1
+管道	3 NOUN 3
+箬松	1 PROPN 1
+箱	4 PART 4
+箱型	1 NOUN 1
+箴言	1 NOUN 1
+節	18 PART 16 NOUN 1 PROPN 1
+節奏	2 NOUN 2
+節度	1 NOUN 1
+節慶	3 NOUN 3
+節日	4 NOUN 4
+節目	36 NOUN 36
+節省	3 VERB 3
+節節	1 ADV 1
+範圍	20 NOUN 20
+範疇	1 NOUN 1
+篇	10 NOUN 9 PART 1
+篡位	1 VERB 1
+篡國	1 VERB 1
+篡地	1 PROPN 1
+簡	2 PROPN 2
+簡化	1 VERB 1
+簡單	5 ADJ 5
+簡易	2 ADJ 2
+簡稱	14 VERB 14
+簡約	1 ADJ 1
+簡訊	1 NOUN 1
+簧	1 NOUN 1
+簽下	1 VERB 1
+簽名	1 NOUN 1
+簽定	1 VERB 1
+簽約	4 NOUN 2 VERB 2
+簽署	2 VERB 2
+簽訂	7 VERB 7
+簽認	1 VERB 1
+簽證	1 NOUN 1
+簽賬	1 VERB 1
+籃壇	2 NOUN 2
+籃子	2 NOUN 2
+籃球	6 NOUN 6
+籃筐	1 NOUN 1
+籌備	1 NOUN 1
+籌建	2 VERB 2
+籌措	1 VERB 1
+籌款	1 NOUN 1
+籌資	1 NOUN 1
+籌辦	1 VERB 1
+籍	3 PART 3
+籍貫	2 NOUN 2
+籠式	1 NOUN 1
+籤	2 NOUN 2
+米	69 NOUN 68 PART 1
+米利特	2 NOUN 2
+米南加保	1 PROPN 1
+米古	1 PROPN 1
+米哈伊	1 PROPN 1
+米格	2 PROPN 2
+米沙鄢	1 PROPN 1
+米洛塞維奇	1 PROPN 1
+米爾扎	2 PROPN 2
+米線	1 NOUN 1
+米蘭	6 PROPN 6
+米酒	1 NOUN 1
+米高梅	2 PROPN 2
+粉	1 PART 1
+粉碎	1 VERB 1
+粉紅	1 NOUN 1
+粉絲	1 NOUN 1
+粒	4 NOUN 4
+粒子	8 NOUN 8
+粗	1 ADJ 1
+粗壯	1 ADJ 1
+粗鱗蟒	1 NOUN 1
+粵	6 PROPN 6
+粵明	1 PROPN 1
+粽子	1 NOUN 1
+精	1 PART 1
+精力	1 NOUN 1
+精子	1 NOUN 1
+精密	1 ADJ 1
+精度	2 NOUN 2
+精心	1 ADJ 1
+精武	2 PROPN 2
+精液	2 NOUN 2
+精湛	1 ADJ 1
+精確	4 ADJ 3 NOUN 1
+精神	12 NOUN 12
+精算	1 NOUN 1
+精索	1 NOUN 1
+精緻	2 ADJ 2
+精美	2 ADJ 2
+精裝	1 ADJ 1
+精通	3 VERB 3
+精選	3 NOUN 2 VERB 1
+精采	2 ADJ 2
+精靈	1 NOUN 1
+糖	3 NOUN 3
+糖份	2 NOUN 2
+糖尿	1 NOUN 1
+糖蒜	1 NOUN 1
+糞	1 NOUN 1
+糟糕	1 ADJ 1
+糧儲	1 NOUN 1
+糧食	3 NOUN 3
+糧餉	1 NOUN 1
+系	14 PART 12 VERB 1 NOUN 1
+系列	25 NOUN 25
+系數	1 NOUN 1
+系統	40 NOUN 40
+糾正	1 VERB 1
+糾紛	1 NOUN 1
+紀	2 PART 2
+紀元	1 NOUN 1
+紀念	22 NOUN 11 VERB 11
+紀錄	13 NOUN 11 VERB 2
+紂	1 PROPN 1
+約	59 ADV 59
+約克	2 PROPN 2
+約定	1 VERB 1
+約定俗成	2 ADJ 1 VERB 1
+約會	2 VERB 2
+約翰	8 PROPN 8
+約翰麥克連	1 PROPN 1
+約長	1 ADJ 1
+紅	8 NOUN 4 PROPN 2 ADJ 1 PART 1
+紅旗	1 PROPN 1
+紅日	1 NOUN 1
+紅木	2 PROPN 1 NOUN 1
+紅杏出牆	1 VERB 1
+紅樓	1 NOUN 1
+紅樓夢	1 PROPN 1
+紅樹	1 NOUN 1
+紅玉	1 PROPN 1
+紅磡	3 PROPN 3
+紅磨	1 NOUN 1
+紅色	3 NOUN 3
+紅茶	1 NOUN 1
+紅襪	1 NOUN 1
+紅軍	5 NOUN 4 PROPN 1
+紅遍	1 VERB 1
+紅酒	1 NOUN 1
+紅麴	2 NOUN 2
+紅點	1 NOUN 1
+紈	1 PROPN 1
+紋	2 PART 2
+紋理	4 NOUN 4
+紋路	1 NOUN 1
+紋飾	1 NOUN 1
+納入	1 VERB 1
+納爾遜	1 PROPN 1
+納粹	4 PROPN 4
+紐國	1 PROPN 1
+紐約	22 PROPN 22
+紐黑文	1 PROPN 1
+紓緩	2 VERB 2
+純	4 PART 4
+純一	1 PROPN 1
+純凈	1 ADJ 1
+純樸	1 ADJ 1
+純淨	2 ADJ 2
+純粹	2 ADV 1 ADJ 1
+純陽	1 PROPN 1
+紙	2 PART 1 NOUN 1
+紙上	1 NOUN 1
+紙幣	4 NOUN 4
+紙條	1 NOUN 1
+紙盒	1 NOUN 1
+級	29 PART 16 NOUN 13
+級別	5 NOUN 5
+級數	1 NOUN 1
+紛爭	3 NOUN 3
+紛紛	4 ADV 4
+素	8 PART 7 PROPN 1
+素包	1 NOUN 1
+素貞	3 PROPN 3
+素質	2 NOUN 2
+素食	1 NOUN 1
+素餡	1 NOUN 1
+紡織	3 NOUN 2 VERB 1
+索倫	1 PROPN 1
+索尼	1 PROPN 1
+索引	2 NOUN 2
+索溪峪	1 PROPN 1
+索菲	1 PROPN 1
+索菲亞	1 PROPN 1
+索賠	1 VERB 1
+索馬里	1 PROPN 1
+紮實	1 ADJ 1
+累計	1 VERB 1
+細	1 ADJ 1
+細小	3 ADJ 3
+細岡	1 PROPN 1
+細窄	1 ADJ 1
+細節	5 NOUN 5
+細緻	3 ADJ 3
+細胞	22 NOUN 22
+細膩	1 ADJ 1
+細菌	1 NOUN 1
+細部	1 NOUN 1
+細長	2 ADJ 2
+紳士	1 NOUN 1
+紹	1 PROPN 1
+紹儀	1 PROPN 1
+紹榮	1 PROPN 1
+紺三郎	1 PROPN 1
+終	2 VERB 1 ADV 1
+終審	1 VERB 1
+終於	10 ADV 10
+終止	4 VERB 4
+終結	4 VERB 4
+終身大事	1 NOUN 1
+終點	3 NOUN 3
+組	16 PART 10 NOUN 6
+組件	2 NOUN 2
+組像	1 NOUN 1
+組別	1 NOUN 1
+組口	1 NOUN 1
+組合	5 NOUN 4 VERB 1
+組建	3 VERB 3
+組態	1 NOUN 1
+組成	23 VERB 21 NOUN 2
+組織	46 NOUN 42 VERB 4
+組織胺	1 NOUN 1
+組裝	3 VERB 3
+組長	2 NOUN 2
+組隊	1 VERB 1
+結	2 VERB 1 PART 1
+結交	1 VERB 1
+結冰	1 VERB 1
+結合	7 VERB 5 NOUN 2
+結婚	10 VERB 10
+結尾	1 NOUN 1
+結局	5 NOUN 4 VERB 1
+結成	3 VERB 3
+結晶	2 VERB 2
+結束	22 VERB 22
+結果	21 NOUN 21
+結構	22 NOUN 22
+結社	1 VERB 1
+結識	2 VERB 2
+結雅	1 PROPN 1
+絕	1 ADV 1
+絕壁	1 NOUN 1
+絕大	1 ADJ 1
+絕對	9 ADJ 5 ADV 4
+絕後	1 VERB 1
+絕望	2 ADJ 1 NOUN 1
+絕版	1 NOUN 1
+絕罰	1 NOUN 1
+絞刑	1 VERB 1
+絞死	1 VERB 1
+絞痛	1 NOUN 1
+給	36 VERB 35 ADP 1
+給予	11 VERB 11
+給定	1 VERB 1
+給職	1 NOUN 1
+給藥	1 NOUN 1
+給體	1 NOUN 1
+統	1 VERB 1
+統一	16 VERB 9 ADJ 4 NOUN 2 PROPN 1
+統帥	1 NOUN 1
+統治	16 VERB 9 NOUN 7
+統稱	2 NOUN 1 VERB 1
+統籌	1 NOUN 1
+統計	15 NOUN 9 VERB 6
+絲山	1 PROPN 1
+絲帶	1 NOUN 1
+絲綢	2 NOUN 2
+絶	1 ADV 1
+綁	1 VERB 1
+綉	1 PART 1
+綏遠	1 PROPN 1
+經	18 ADP 14 NOUN 2 VERB 2
+經典	6 NOUN 6
+經商	1 NOUN 1
+經國	1 PROPN 1
+經常	23 ADV 23
+經意	1 VERB 1
+經文	1 NOUN 1
+經昌	1 PROPN 1
+經期	1 NOUN 1
+經歷	9 VERB 6 NOUN 3
+經濟	31 NOUN 31
+經營	12 VERB 12
+經理	9 NOUN 9
+經由	1 ADP 1
+經界	1 NOUN 1
+經紀	2 NOUN 2
+經費	2 NOUN 2
+經過	27 ADP 16 VERB 11
+經驗	6 NOUN 6
+綜	1 PART 1
+綜合	9 ADJ 3 NOUN 3 VERB 2 ADV 1
+綜理	1 NOUN 1
+綜藝	1 NOUN 1
+綜錄	1 NOUN 1
+綠	2 NOUN 2
+綠化	1 VERB 1
+綠帶	1 PROPN 1
+綠滙	1 NOUN 1
+綠燈	1 NOUN 1
+綠社	1 PROPN 1
+綠黨	1 NOUN 1
+綫	10 PART 10
+維	2 NOUN 2
+維京	3 PROPN 3
+維修	2 NOUN 1 VERB 1
+維健	1 PROPN 1
+維克托	1 PROPN 1
+維基	3 PROPN 3
+維多莉亞	1 PROPN 1
+維希	1 PROPN 1
+維德	1 PROPN 1
+維持	10 VERB 10
+維新	7 NOUN 7
+維景灣	1 PROPN 1
+維生	1 VERB 1
+維祀	1 PROPN 1
+維記	1 PROPN 1
+維護	1 NOUN 1
+維鈞	2 PROPN 2
+綱	7 PART 7
+綱領	1 NOUN 1
+網	7 PART 7
+網上	3 NOUN 3
+網友	2 NOUN 2
+網址	1 NOUN 1
+網易	1 PROPN 1
+網民	2 NOUN 2
+網球	4 NOUN 4
+網站	12 NOUN 12
+網線	1 NOUN 1
+網購	1 NOUN 1
+網路	15 NOUN 15
+綺塍	1 PROPN 1
+綺色佳	1 PROPN 1
+綽號	1 NOUN 1
+綿羊	1 NOUN 1
+緊密	4 ADJ 3 ADV 1
+緊張	2 ADJ 2
+緊緊	1 ADV 1
+緊貼	1 VERB 1
+緊逼	1 ADJ 1
+緊鄰	2 VERB 2
+緊閉	1 VERB 1
+線	55 PART 44 NOUN 11
+線上	1 NOUN 1
+線前	1 NOUN 1
+線度	1 NOUN 1
+線條	1 NOUN 1
+線粒	2 NOUN 2
+線索	1 NOUN 1
+線西	2 PROPN 2
+線路	12 NOUN 12
+線道	1 NOUN 1
+締造	1 VERB 1
+編上	1 VERB 1
+編入	2 VERB 2
+編劇	3 NOUN 3
+編寫	2 VERB 2
+編導	1 NOUN 1
+編碼	8 NOUN 5 VERB 3
+編程	1 NOUN 1
+編篡	1 NOUN 1
+編繪	1 VERB 1
+編纂	1 VERB 1
+編者	1 NOUN 1
+編腔	1 VERB 1
+編號	5 NOUN 4 VERB 1
+編製	2 VERB 2
+編輯	8 NOUN 6 VERB 2
+編隊	1 NOUN 1
+緩和	1 VERB 1
+緩存	2 NOUN 2
+緩慢	2 ADJ 2
+緩衝	1 VERB 1
+緩解	1 VERB 1
+緩鬢	1 NOUN 1
+緩龍	1 NOUN 1
+緬	1 PROPN 1
+緬因	2 PROPN 2
+緬甸	7 PROPN 7
+緯來	1 PROPN 1
+練兵	1 VERB 1
+練習	5 VERB 3 NOUN 2
+緹	1 PROPN 1
+縣	81 PART 69 NOUN 12
+縣城	3 NOUN 2 PROPN 1
+縣市	1 NOUN 1
+縣治	2 ADJ 1 NOUN 1
+縣裡	1 NOUN 1
+縣長	2 NOUN 2
+縫	1 VERB 1
+縫製	1 VERB 1
+縮寫	1 NOUN 1
+縮小	1 VERB 1
+縱	1 NOUN 1
+縱使	1 ADP 1
+縱橫	2 NOUN 1 VERB 1
+縱觀	1 VERB 1
+縱貫	2 VERB 2
+縱隊	1 NOUN 1
+總	79 PART 75 ADV 4
+總值	2 NOUN 2
+總共	4 ADV 4
+總區	1 NOUN 1
+總和	1 NOUN 1
+總局	1 NOUN 1
+總數	4 NOUN 4
+總會	2 NOUN 2
+總理	10 NOUN 10
+總監	2 NOUN 2
+總督	11 NOUN 11
+總站	2 NOUN 2
+總管	2 NOUN 2
+總結	3 VERB 3
+總統	28 NOUN 28
+總署	5 NOUN 5
+總行	1 NOUN 1
+總裁	1 NOUN 1
+總計	1 VERB 1
+總辦	1 NOUN 1
+總部	17 NOUN 17
+總量	4 NOUN 4
+總長	4 NOUN 4
+總額	2 NOUN 2
+總體	3 NOUN 3
+績效	1 NOUN 1
+繁多	1 ADJ 1
+繁忙	2 ADJ 2
+繁榮	2 NOUN 2
+繁殖	2 NOUN 1 VERB 1
+繁瑣	1 ADJ 1
+繁盛	1 ADJ 1
+繁雜	1 ADJ 1
+繁體	1 NOUN 1
+織布	1 NOUN 1
+繚	2 PROPN 2
+繞	5 ADP 3 VERB 2
+繞城	2 NOUN 2
+繞境	1 NOUN 1
+繞開	1 VERB 1
+繡	1 PROPN 1
+繩架	1 NOUN 1
+繪圖	2 NOUN 2
+繪畫	6 NOUN 4 VERB 2
+繪製	3 VERB 3
+繭	1 NOUN 1
+繳付	1 VERB 1
+繳納	1 VERB 1
+繼	5 ADP 5
+繼任	4 VERB 4
+繼位	3 VERB 3
+繼承	12 VERB 11 NOUN 1
+繼業	1 VERB 1
+繼科	1 PROPN 1
+繼續	21 VERB 19 NOUN 1 ADJ 1
+續篇	2 NOUN 2
+續約	3 VERB 3
+續航	1 NOUN 1
+續部	1 NOUN 1
+纏足	1 VERB 1
+纖維	3 NOUN 3
+纜車	1 NOUN 1
+缺乏	6 VERB 5 NOUN 1
+缺口	1 NOUN 1
+缺失	1 NOUN 1
+缺少	1 VERB 1
+缺席	3 VERB 3
+缺氧	1 VERB 1
+缺血	1 VERB 1
+缺點	3 NOUN 3
+罕有	1 ADJ 1
+罕見	4 ADJ 3 ADV 1
+罪	2 PART 2
+罪名	4 NOUN 4
+罪惡	1 NOUN 1
+罪案	2 NOUN 2
+罪狀	1 NOUN 1
+罪行	2 NOUN 2
+置	4 VERB 4
+置富	3 PROPN 3
+置有	1 VERB 1
+置物	1 VERB 1
+罰則	1 NOUN 1
+署	9 PART 9
+署名	2 VERB 2
+署理	1 VERB 1
+署長	2 NOUN 2
+罵聲	1 NOUN 1
+罷免	2 VERB 2
+罷工	1 NOUN 1
+罷黜	2 VERB 2
+罹患	2 VERB 2
+罹癌	1 NOUN 1
+罹難	1 NOUN 1
+羅	6 PROPN 6
+羅丹	2 PROPN 2
+羅乞多毗闍	1 PROPN 1
+羅什艾因	1 PROPN 1
+羅伊	1 PROPN 1
+羅伯特	5 PROPN 5
+羅培茲	1 PROPN 1
+羅塞塔	2 PROPN 2
+羅夫	1 PROPN 1
+羅希	1 PROPN 1
+羅拔	1 PROPN 1
+羅斯	2 PROPN 2
+羅斯提	2 PROPN 2
+羅曼什	1 PROPN 1
+羅柔	1 PROPN 1
+羅漢	2 PROPN 1 NOUN 1
+羅素	2 NOUN 1 PROPN 1
+羅馬	30 PROPN 30
+羊	2 PART 1 NOUN 1
+羊圈	1 NOUN 1
+羊曲	2 PROPN 2
+羊毛	2 NOUN 2
+羊肉	3 NOUN 3
+羌	2 PROPN 2
+美	60 PROPN 59 PART 1
+美利堅	3 PROPN 3
+美味	1 NOUN 1
+美國	144 PROPN 144 ***
+美女	2 NOUN 2
+美孚	1 PROPN 1
+美寶	1 PROPN 1
+美幸	1 PROPN 1
+美林豬籠草	1 NOUN 1
+美洲	5 PROPN 5
+美洲豹	1 NOUN 1
+美琴	1 PROPN 1
+美知留	1 PROPN 1
+美稱	1 NOUN 1
+美索不達米亞	1 PROPN 1
+美聯	1 PROPN 1
+美聲	1 NOUN 1
+美薇	1 PROPN 1
+美術	1 NOUN 1
+美觀	1 ADJ 1
+美譽	1 NOUN 1
+美里	1 PROPN 1
+美食	1 NOUN 1
+美麗	6 ADJ 5 PROPN 1
+羚羊	1 PROPN 1
+羞恥	1 NOUN 1
+群	10 PART 6 NOUN 4
+群峰	1 NOUN 1
+群島	5 NOUN 5
+群族	1 NOUN 1
+群眾	6 NOUN 6
+群組	1 NOUN 1
+群落	1 NOUN 1
+群速	1 NOUN 1
+群雄	1 NOUN 1
+群體	1 NOUN 1
+羨慕	1 VERB 1
+義	2 PROPN 2
+義久	1 PROPN 1
+義勇	1 ADJ 1
+義務	4 NOUN 4
+義和	2 PROPN 2
+義安	1 PROPN 1
+義工	1 NOUN 1
+義弘	1 PROPN 1
+義春	1 PROPN 1
+義民	1 NOUN 1
+義父	1 NOUN 1
+義重如山	1 VERB 1
+義項	1 NOUN 1
+羱羊	1 NOUN 1
+羲	1 PROPN 1
+羽毛	10 NOUN 10
+羽狀	1 NOUN 1
+羽田	1 PROPN 1
+羽絨	1 NOUN 1
+翁	3 PROPN 2 PART 1
+翌年	8 NOUN 8
+翌日	2 NOUN 2
+習	2 PROPN 1 VERB 1
+習俗	6 NOUN 6
+習性	2 NOUN 2
+習慣	4 NOUN 4
+習經	1 PROPN 1
+翔	1 PROPN 1
+翔麟	1 PROPN 1
+翟	1 PROPN 1
+翠鳥	1 PROPN 1
+翡翠	6 PROPN 4 NOUN 2
+翦	2 PROPN 2
+翻新	2 NOUN 2
+翻覆	1 VERB 1
+翻譯	8 VERB 4 NOUN 4
+翻越	2 VERB 2
+翼	2 NOUN 2
+翼手龍	1 NOUN 1
+翼龍	1 NOUN 1
+耀樞	1 PROPN 1
+耀武	1 PROPN 1
+耀邦	1 PROPN 1
+老	15 PART 15
+老人	1 NOUN 1
+老大	1 NOUN 1
+老套	1 ADJ 1
+老婦	1 NOUN 1
+老將	1 NOUN 1
+老少	1 NOUN 1
+老師	9 NOUN 9
+老年	2 NOUN 2
+老式	2 NOUN 1 ADJ 1
+老弱	1 ADJ 1
+老橋	1 PROPN 1
+老漢	1 NOUN 1
+老舍	2 PROPN 2
+老闆	4 NOUN 4
+老鷹	1 NOUN 1
+老鼠	3 NOUN 3
+考	4 VERB 4
+考上	1 VERB 1
+考古	3 VERB 3
+考場	2 NOUN 2
+考夫卡	1 PROPN 1
+考察	4 VERB 3 NOUN 1
+考慮	8 VERB 7 NOUN 1
+考柯	1 PROPN 1
+考牙	1 PROPN 1
+考生	1 NOUN 1
+考究	1 NOUN 1
+考績	1 VERB 1
+考試	4 NOUN 3 VERB 1
+考證	2 NOUN 1 VERB 1
+考進	1 VERB 1
+考選	1 NOUN 1
+考驗	3 NOUN 3
+者	133 PART 124 NOUN 9 ***
+而	261 ADV 252 CCONJ 9 ***
+而且	18 ADV 17 CCONJ 1
+而已	1 X 1
+而是	11 ADV 5 VERB 3 AUX 3
+而非	3 AUX 2 VERB 1
+耐受	1 VERB 1
+耐庵	1 PROPN 1
+耐玩	1 ADJ 1
+耐聽	1 ADJ 1
+耐航	1 ADJ 1
+耕作	2 NOUN 1 PROPN 1
+耕地	5 NOUN 5
+耕種	2 VERB 1 NOUN 1
+耳光	1 NOUN 1
+耳勺	1 NOUN 1
+耳孔	1 NOUN 1
+耳朵	2 NOUN 2
+耳朵眼	1 PROPN 1
+耳珠	1 NOUN 1
+耳環	1 NOUN 1
+耳癤	1 NOUN 1
+耳蝸	1 NOUN 1
+耳道	2 NOUN 2
+耳門	1 NOUN 1
+耳骨	1 NOUN 1
+耶律	2 PROPN 2
+耶穌	5 PROPN 5
+耶索洛	1 PROPN 1
+耶路撒冷	1 PROPN 1
+耶魯	2 PROPN 2
+耽擱	1 VERB 1
+聆聽	1 VERB 1
+聖	4 PROPN 3 PART 1
+聖三	2 PROPN 2
+聖人	1 NOUN 1
+聖保羅	1 PROPN 1
+聖名	1 NOUN 1
+聖地	2 NOUN 2
+聖地亞哥	1 PROPN 1
+聖徒	1 NOUN 1
+聖歌	1 NOUN 1
+聖母	4 PROPN 4
+聖水	1 PROPN 1
+聖求	1 PROPN 1
+聖潔	1 ADJ 1
+聖祖	1 PROPN 1
+聖神	1 PROPN 1
+聖經	2 PROPN 2
+聖訓	1 PROPN 1
+聖誕	4 PROPN 3 NOUN 1
+聖赫勒拿	1 PROPN 1
+聖赫勒拿島戴勝	1 NOUN 1
+聖靈	3 NOUN 2 PROPN 1
+聖體	1 NOUN 1
+聘任	2 VERB 2
+聘問	1 VERB 1
+聘用	1 VERB 1
+聘請	3 VERB 3
+聚	2 PROPN 1 VERB 1
+聚合	2 VERB 2
+聚居	2 VERB 2
+聚會	3 NOUN 2 VERB 1
+聚氯乙烯	1 NOUN 1
+聚禮	1 VERB 1
+聚苯乙烯	1 NOUN 1
+聚變	1 NOUN 1
+聚集	8 VERB 8
+聚體	1 NOUN 1
+聞名	1 VERB 1
+聞言	1 VERB 1
+聯	2 PROPN 1 VERB 1
+聯合	27 VERB 21 NOUN 4 PROPN 2
+聯名	3 NOUN 1 VERB 1 ADV 1
+聯姻	1 NOUN 1
+聯手	3 VERB 3
+聯播	1 VERB 1
+聯歡	1 NOUN 1
+聯江	1 PROPN 1
+聯浦	1 PROPN 1
+聯產	1 NOUN 1
+聯甲	1 PROPN 1
+聯盟	23 NOUN 20 VERB 2 PROPN 1
+聯絡	6 VERB 4 NOUN 2
+聯繫	9 NOUN 6 VERB 3
+聯美	1 PROPN 1
+聯賽	23 NOUN 23
+聯軍	3 NOUN 3
+聯邦	15 NOUN 15
+聰敏	1 ADJ 1
+聰明	2 NOUN 1 ADJ 1
+聲勢	3 NOUN 3
+聲名	2 NOUN 2
+聲恆	1 PROPN 1
+聲援	2 VERB 2
+聲明	5 NOUN 4 VERB 1
+聲望	2 NOUN 2
+聲波	1 NOUN 1
+聲稱	5 VERB 5
+聲譽	4 NOUN 4
+聲谷	1 PROPN 1
+聲道	2 NOUN 2
+聲門	1 NOUN 1
+聲音	1 NOUN 1
+聶丞益	1 PROPN 1
+職	6 NOUN 6
+職位	4 NOUN 4
+職務	10 NOUN 10
+職員	1 NOUN 1
+職場	1 NOUN 1
+職棒	1 NOUN 1
+職業	15 NOUN 15
+聽	2 VERB 2
+聽到	1 VERB 1
+聽命	1 VERB 1
+聽從	1 VERB 1
+聽眾	1 NOUN 1
+聽聞	1 VERB 1
+聾人	1 NOUN 1
+肅宗	1 NOUN 1
+肆	1 NUM 1
+肆意	1 ADV 1
+肇	1 VERB 1
+肉	9 NOUN 5 PART 4
+肉夾	1 VERB 1
+肉湯	1 NOUN 1
+肉瘤	1 NOUN 1
+肉糕	2 NOUN 2
+肉緊	1 ADJ 1
+肉食	2 NOUN 1 VERB 1
+肌肉	1 NOUN 1
+肖	2 PROPN 2
+肖像	2 NOUN 2
+肖嚴	1 PROPN 1
+肖金	2 PROPN 2
+肚臍	1 NOUN 1
+肚餓	1 ADJ 1
+肝	2 NOUN 2
+肝臟	2 NOUN 2
+股	2 NOUN 2
+股份	9 NOUN 9
+股價	3 NOUN 3
+股市	1 NOUN 1
+股本	1 NOUN 1
+股東	1 NOUN 1
+股權	2 NOUN 2
+股票	3 NOUN 3
+肢	2 NOUN 2
+肥牛	1 NOUN 1
+肥田	1 VERB 1
+肥胖	2 ADJ 1 NOUN 1
+肩	1 NOUN 1
+肩高	1 NOUN 1
+肯	1 AUX 1
+肯亞	1 PROPN 1
+肯定	6 NOUN 5 VERB 1
+肯尼迪	2 PROPN 2
+肯特	1 PROPN 1
+育才	2 VERB 1 PROPN 1
+育新	1 PROPN 1
+育有	1 VERB 1
+育樂	1 NOUN 1
+育種	2 VERB 1 NOUN 1
+育空	1 PROPN 1
+肺炎	2 NOUN 2
+肺病	1 NOUN 1
+胃	1 NOUN 1
+胃石	1 NOUN 1
+背上	1 NOUN 1
+背依	1 VERB 1
+背包	1 NOUN 1
+背叛	1 VERB 1
+背後	1 NOUN 1
+背景	4 NOUN 4
+背靠	1 VERB 1
+背面	1 NOUN 1
+背鰭	1 NOUN 1
+胎	1 PART 1
+胎兒	2 NOUN 2
+胖子	2 PROPN 1 NOUN 1
+胚	1 PART 1
+胚胎	1 NOUN 1
+胞	1 NOUN 1
+胞弟	1 NOUN 1
+胡	20 PROPN 20
+胡佛	4 PROPN 4
+胡安	3 PROPN 3
+胡禮	1 PROPN 1
+胡蜂	1 PROPN 1
+胡馬雍	1 PROPN 1
+胸痛	1 NOUN 1
+胸管	1 NOUN 1
+胸部	1 NOUN 1
+胸鰭	1 NOUN 1
+能	62 AUX 59 PART 3
+能人	1 NOUN 1
+能力	22 NOUN 22
+能否	1 AUX 1
+能夠	21 AUX 21
+能幹	1 ADJ 1
+能源	2 NOUN 2
+能級	2 NOUN 2
+能量	6 NOUN 6
+脆	1 ADJ 1
+脊椎	1 NOUN 1
+脫疽	1 VERB 1
+脫落	1 VERB 1
+脫隊	1 VERB 1
+脫離	1 VERB 1
+脱口秀	1 NOUN 1
+脾氣	1 NOUN 1
+腎	2 NOUN 2
+腐敗	1 NOUN 1
+腐蝕	1 VERB 1
+腓力	1 PROPN 1
+腔	1 PART 1
+腫瘤	1 NOUN 1
+腳	2 NOUN 1 PART 1
+腳掌	2 NOUN 2
+腳本	1 NOUN 1
+腳趾	2 NOUN 2
+腳點	1 NOUN 1
+腸胃	1 NOUN 1
+腸道	1 NOUN 1
+腸骨	1 NOUN 1
+腹	1 NOUN 1
+腹甲	2 NOUN 2
+腹面	2 NOUN 2
+腺葉木犀欖	2 NOUN 2
+腿	1 PART 1
+腿部	1 NOUN 1
+膜	3 NOUN 2 PART 1
+膝傷	1 NOUN 1
+膝蓋	2 NOUN 2
+膝頭	1 NOUN 1
+膠	1 PROPN 1
+膠州	1 PROPN 1
+膠東	1 PROPN 1
+膠澳	1 PROPN 1
+膠質	2 NOUN 2
+膠體	1 NOUN 1
+膨脹	1 VERB 1
+膽	1 NOUN 1
+膽酸	1 NOUN 1
+臉	1 PART 1
+臉頰	1 NOUN 1
+臉龐	1 NOUN 1
+臘	1 NOUN 1
+臘汁	2 NOUN 2
+臣民	2 NOUN 2
+臥龍	1 PROPN 1
+臧	1 PROPN 1
+臨	1 VERB 1
+臨床	2 NOUN 2
+臨時	8 ADJ 7 ADV 1
+臨榆	1 PROPN 1
+臨淄	2 PROPN 2
+臨終	1 VERB 1
+臨近	2 VERB 2
+臨邑	2 PROPN 2
+臨高	1 PROPN 1
+自	86 ADP 55 VERB 31
+自主	2 ADV 2
+自作自受	1 VERB 1
+自保	1 NOUN 1
+自信	1 NOUN 1
+自傳	3 NOUN 3
+自助	2 VERB 2
+自動	4 ADJ 4
+自卑	1 NOUN 1
+自在	1 NOUN 1
+自學	1 VERB 1
+自家	2 PRON 2
+自己	81 PRON 81 ***
+自帶	1 VERB 1
+自強	1 NOUN 1
+自從	2 ADP 2
+自成	1 PROPN 1
+自我	4 NOUN 3 PRON 1
+自殺	2 VERB 2
+自治	22 VERB 17 NOUN 5
+自然	17 NOUN 12 ADJ 3 ADV 2
+自用	1 VERB 1
+自由	22 NOUN 14 ADJ 4 PROPN 3 ADV 1
+自發	1 VERB 1
+自稱	4 VERB 4
+自行	9 ADV 7 VERB 2
+自衛	2 VERB 2
+自製	1 VERB 1
+自訂	1 VERB 1
+自負	1 ADJ 1
+自身	3 PRON 2 NOUN 1
+自轉	2 NOUN 1 VERB 1
+自辦	1 NOUN 1
+自願	3 ADV 2 VERB 1
+臭氧	2 NOUN 2
+至	131 CCONJ 56 VERB 49 ADP 26
+至上	1 ADJ 1
+至善	1 PROPN 1
+至少	3 ADV 3
+至於	3 ADP 3
+至柔	1 PROPN 1
+至正	1 PROPN 1
+至死不渝	1 VERB 1
+至關	1 ADV 1
+至關重要	1 ADJ 1
+致	2 VERB 2
+致使	1 VERB 1
+致函	1 VERB 1
+致力	3 VERB 3
+致命	3 ADJ 3
+致恐	1 VERB 1
+致死	2 VERB 2
+致病	1 NOUN 1
+致瘋	1 VERB 1
+致癌	1 NOUN 1
+臺	7 PART 4 PROPN 3
+臺中	2 PROPN 2
+臺北	2 PROPN 2
+臺南	3 PROPN 3
+臺大	1 PROPN 1
+臺灣	7 PROPN 7
+臼齒	3 NOUN 3
+舀出	1 VERB 1
+舅父	1 NOUN 1
+與	391 ADP 197 CCONJ 194 ***
+興	2 PROPN 2
+興化	2 PROPN 2
+興國	2 PROPN 2
+興奮	5 ADJ 4 NOUN 1
+興學	1 VERB 1
+興建	7 VERB 7
+興業	1 PROPN 1
+興海	1 PROPN 1
+興祖	1 PROPN 1
+興起	5 VERB 3 NOUN 2
+興趣	7 NOUN 7
+舉	2 VERB 2
+舉世矚目	1 ADJ 1
+舉人	2 NOUN 2
+舉例	2 VERB 2
+舉動	2 NOUN 2
+舉國	1 NOUN 1
+舉止	1 NOUN 1
+舉薦	1 VERB 1
+舉行	24 VERB 24
+舉起	1 VERB 1
+舉辦	7 VERB 7
+舊	13 PART 12 ADJ 1
+舊友	1 NOUN 1
+舊址	2 NOUN 2
+舊屋	1 NOUN 1
+舊時	1 NOUN 1
+舊稱	1 VERB 1
+舊部	1 NOUN 1
+舊金山	1 PROPN 1
+舌頭	1 NOUN 1
+舍爾	1 PROPN 1
+舒	1 PROPN 1
+舒服	2 ADJ 2
+舒查特	1 PROPN 1
+舒爾特	1 PROPN 1
+舒適	2 ADJ 2
+舜初	1 PROPN 1
+舞	1 PART 1
+舞劇	1 NOUN 1
+舞台	2 NOUN 2
+舞蹈	3 NOUN 3
+舞陽	1 PROPN 1
+舟	1 NOUN 1
+航天	1 NOUN 1
+航海	3 NOUN 2 VERB 1
+航班	7 NOUN 7
+航程	3 NOUN 3
+航空	35 NOUN 34 PROPN 1
+航站	1 NOUN 1
+航線	7 NOUN 7
+航行	1 NOUN 1
+般	5 ADJ 5
+般若	1 NOUN 1
+船	12 PART 8 NOUN 4
+船上	5 NOUN 5
+船員	4 NOUN 4
+船塢	1 NOUN 1
+船尾	2 NOUN 2
+船山	1 PROPN 1
+船廠	2 NOUN 2
+船業	1 NOUN 1
+船舶	1 NOUN 1
+船艦	2 NOUN 2
+船長	2 NOUN 2
+船隻	4 NOUN 4
+船體	2 NOUN 2
+艇	2 PART 2
+艘	5 NOUN 5
+艙	4 PART 4
+艦	7 PART 6 NOUN 1
+艦艇	2 NOUN 2
+艦身	1 NOUN 1
+艦隊	19 NOUN 19
+良	1 PROPN 1
+良好	8 ADJ 8
+良師益友	1 NOUN 1
+良心	1 NOUN 1
+良性	1 ADJ 1
+良田	1 NOUN 1
+良知	1 NOUN 1
+良種	1 NOUN 1
+艱巨	1 ADJ 1
+艱苦	2 ADJ 2
+艱難	4 ADJ 4
+色	14 PART 10 NOUN 4
+色帶	1 NOUN 1
+色度	2 NOUN 2
+色彩	6 NOUN 6
+色情	1 NOUN 1
+色目	1 PROPN 1
+色素	2 NOUN 2
+色調	1 NOUN 1
+艷姬	1 NOUN 1
+艷麗	1 ADJ 1
+艾伍士	1 PROPN 1
+艾倫	1 PROPN 1
+艾塞羅	1 PROPN 1
+艾夏	1 PROPN 1
+艾女	3 PROPN 3
+艾崔奇	1 PROPN 1
+艾滋	3 NOUN 3
+艾琳	1 PROPN 1
+艾瑞	1 PROPN 1
+艾瑪	1 PROPN 1
+艾美	1 PROPN 1
+艾蓮娜	1 PROPN 1
+艾迴	1 PROPN 1
+艾雲	1 PROPN 1
+艾麗卡	1 PROPN 1
+芝加哥	8 PROPN 8
+芬妮	1 PROPN 1
+芬蘭	9 PROPN 9
+芭比	3 PROPN 3
+芭蕉	1 NOUN 1
+花	7 VERB 3 NOUN 2 PART 2
+花上	1 VERB 1
+花俏	1 ADJ 1
+花卉	2 NOUN 2
+花園	9 NOUN 9
+花園蔥蝸牛	1 NOUN 1
+花坮	1 PROPN 1
+花城	1 PROPN 1
+花崗	2 NOUN 2
+花店	1 NOUN 1
+花式	1 NOUN 1
+花旗	1 PROPN 1
+花月	1 PROPN 1
+花果	1 NOUN 1
+花枝	1 NOUN 1
+花樣	2 NOUN 2
+花瓶	1 NOUN 1
+花甲	1 NOUN 1
+花蜜	1 NOUN 1
+花費	3 VERB 3
+花鞋	1 NOUN 1
+苗	2 PROPN 2
+苗栗	1 PROPN 1
+苗穗	1 PROPN 1
+苟且	1 NOUN 1
+若	11 ADP 11
+若干	2 NUM 2
+若愚	1 PROPN 1
+若是	2 ADP 2
+若羌	1 PROPN 1
+若英	1 PROPN 1
+苦	1 NOUN 1
+苦力	1 NOUN 1
+苦悶	1 NOUN 1
+苦情	1 NOUN 1
+苦惱	2 ADJ 2
+苦艾	4 NOUN 4
+苦苣苔	1 NOUN 1
+苦讀	1 NOUN 1
+苯並芘	1 NOUN 1
+苯乙烯	1 NOUN 1
+英	48 PROPN 47 NOUN 1
+英一	1 PROPN 1
+英乙	1 PROPN 1
+英九	3 PROPN 3
+英俊	2 ADJ 2
+英倫	1 PROPN 1
+英傑	1 NOUN 1
+英勇	1 NOUN 1
+英吋	1 NOUN 1
+英國	57 PROPN 57
+英國短毛豬	1 NOUN 1
+英寸	1 NOUN 1
+英尺	1 NOUN 1
+英年	1 NOUN 1
+英廷	1 PROPN 1
+英戈	1 PROPN 1
+英格瑪	1 PROPN 1
+英男	1 PROPN 1
+英超	2 PROPN 2
+英里	1 NOUN 1
+英雄	2 NOUN 2
+茂	1 PROPN 1
+茂名	1 PROPN 1
+范	3 PROPN 3
+范恩	1 PROPN 1
+茄南	1 PROPN 1
+茄芮	1 PROPN 1
+茅家	1 PROPN 1
+茲羅提	1 PROPN 1
+茶	7 PART 5 NOUN 2
+茶樓	1 NOUN 1
+茶湯	1 NOUN 1
+茶葉	3 NOUN 3
+茶館	1 NOUN 1
+荃灣	1 PROPN 1
+荃麟	1 PROPN 1
+草原	1 NOUN 1
+草地	1 NOUN 1
+草坪	2 NOUN 2
+草席	1 NOUN 1
+草本	4 NOUN 4
+草稿	1 NOUN 1
+草食	3 VERB 3
+荊州	1 PROPN 1
+荒地	1 NOUN 1
+荒蕪	1 ADJ 1
+荒誕不經	1 ADJ 1
+荔灣	1 PROPN 1
+荷爾蒙	1 NOUN 1
+荷花	2 PROPN 2
+荷蘭	4 PROPN 4
+荷蘭豬	2 NOUN 2
+荷銀	1 PROPN 1
+莆	1 PROPN 1
+莆田	2 PROPN 2
+莉拉	2 PROPN 2
+莊	4 PART 2 PROPN 2
+莊嚴	1 ADJ 1
+莊園	4 NOUN 4
+莊王	1 PROPN 1
+莎拉	2 PROPN 2
+莎樂美	1 PROPN 1
+莎莉	2 PROPN 2
+莫	1 PROPN 1
+莫吉爾諾	1 PROPN 1
+莫名	2 VERB 2
+莫埃索	1 PROPN 1
+莫扎特	1 PROPN 1
+莫札特	1 PROPN 1
+莫桑	1 PROPN 1
+莫泊桑	2 PROPN 2
+莫瑙恩	1 PROPN 1
+莫瓦桑	1 PROPN 1
+莫臥兒	1 PROPN 1
+莫過	1 VERB 1
+莫里亞	1 PROPN 1
+莫高	2 PROPN 2
+莽	3 PROPN 3
+莽山	1 NOUN 1
+菁英	2 NOUN 2
+菅	1 PROPN 1
+菊	1 PROPN 1
+菊花	1 NOUN 1
+菌	2 PART 2
+菜	1 PART 1
+菩薩	2 NOUN 2
+華	22 PROPN 22
+華夏	2 PROPN 2
+華少	1 PROPN 1
+華新	1 PROPN 1
+華族	1 NOUN 1
+華林	1 PROPN 1
+華氏	1 PROPN 1
+華爾	1 PROPN 1
+華界	1 PROPN 1
+華石	1 PROPN 1
+華秀	1 PROPN 1
+華納	1 PROPN 1
+華航	4 PROPN 4
+華西	1 PROPN 1
+華視	5 PROPN 5
+華隆	2 PROPN 2
+華頓	1 PROPN 1
+華麗	2 ADJ 2
+菲	2 PROPN 2
+菲力	1 PROPN 1
+菲國	1 PROPN 1
+菲律賓	9 PROPN 9
+菲爾	1 PROPN 1
+菲萊	1 PROPN 1
+菲詩	1 PROPN 1
+菸害	1 NOUN 1
+萊因	1 PROPN 1
+萊姆	3 PROPN 3
+萊希	1 PROPN 1
+萊文	1 PROPN 1
+萊斯特	1 PROPN 1
+萊爾	1 PROPN 1
+萊特	2 PROPN 2
+萊茵	3 PROPN 3
+萊蕪	1 PROPN 1
+萊采巴	1 PROPN 1
+萌	1 NOUN 1
+萌芽	1 VERB 1
+萍	1 PROPN 1
+萎縮	1 VERB 1
+萬一	1 ADV 1
+萬丹	1 PROPN 1
+萬宜	2 PROPN 2
+萬春	2 PROPN 2
+萬萬	2 ADV 2
+萬貴	1 PROPN 1
+落	1 VERB 1
+落下	1 VERB 1
+落入	2 VERB 2
+落實	1 VERB 1
+落差	2 NOUN 2
+落後	5 ADJ 3 NOUN 1 VERB 1
+落成	4 VERB 4
+落敗	1 VERB 1
+落葉	1 VERB 1
+葆玖	1 PROPN 1
+葉	9 PROPN 5 PART 2 NOUN 2
+葉利欽	1 PROPN 1
+葉士域治	1 PROPN 1
+葉子	4 NOUN 4
+葉序	1 NOUN 1
+葉海亞	2 PROPN 2
+葉片	4 NOUN 4
+葉綠	1 NOUN 1
+葉赫	1 PROPN 1
+著	102 PART 101 VERB 1 ***
+著作	7 NOUN 7
+著名	17 ADJ 17
+著想	2 VERB 2
+著手	1 VERB 1
+著有	1 VERB 1
+著稱	3 VERB 3
+著譯	1 VERB 1
+著迷	2 VERB 2
+著重	4 VERB 4
+葛	1 PROPN 1
+葛朱	1 PROPN 1
+葛浩文	1 PROPN 1
+葛量洪	1 PROPN 1
+葛馮	2 PROPN 2
+葡	1 PROPN 1
+葡萄	10 NOUN 10
+葡萄牙	2 PROPN 2
+葡超	1 PROPN 1
+董	4 PROPN 4
+董事	14 NOUN 14
+葫蘆	1 NOUN 1
+葬禮	1 NOUN 1
+葵盛	2 PROPN 2
+葵青	1 PROPN 1
+蒂利妮	1 PROPN 1
+蒂娜	1 PROPN 1
+蒂安娜	2 PROPN 2
+蒐集	2 NOUN 1 VERB 1
+蒙	2 PROPN 2
+蒙丹	1 PROPN 1
+蒙卡達	1 PROPN 1
+蒙古	16 PROPN 16
+蒙哥	1 PROPN 1
+蒙塔尼萊博恩	1 PROPN 1
+蒙大拿	3 PROPN 3
+蒙山	2 PROPN 2
+蒙得維	1 PROPN 1
+蒙扎	4 PROPN 4
+蒙特內哥羅	3 PROPN 3
+蒙羞	1 VERB 1
+蒙蔽	2 VERB 2
+蒙面	1 NOUN 1
+蒙馬特	1 PROPN 1
+蒲	1 PROPN 1
+蒲飛	1 PROPN 1
+蒸氣	1 NOUN 1
+蒸汽	3 NOUN 3
+蒸發	1 VERB 1
+蒸餾	2 VERB 1 NOUN 1
+蒼白	1 NOUN 1
+蓄水	1 VERB 1
+蓄電	2 VERB 2
+蓉蓉	4 PROPN 4
+蓋兒	1 PROPN 1
+蓋因	1 ADP 1
+蓋多	1 PROPN 1
+蓋曼	1 PROPN 1
+蓋頂	1 NOUN 1
+蓓	1 PROPN 1
+蓓天翼龍	1 NOUN 1
+蓬勃	3 ADJ 2 ADV 1
+蓬塔德馬塔	1 PROPN 1
+蓬拉貝	1 PROPN 1
+蓬皮杜	1 PROPN 1
+蓮	1 PROPN 1
+蓮安	1 PROPN 1
+蓮屬	2 NOUN 2
+蓮花	1 PROPN 1
+蔑稱	1 VERB 1
+蔡	10 PROPN 10
+蔡斯	1 PROPN 1
+蔣	6 PROPN 6
+蔣公	1 PROPN 1
+蔬菜	2 NOUN 2
+蔭權	2 PROPN 2
+蕙嫻	1 PROPN 1
+蕨類	1 NOUN 1
+蕩漾	1 VERB 1
+蕭	6 PROPN 6
+蕾妮	1 PROPN 1
+薄	1 ADJ 1
+薄弱	1 ADJ 1
+薔	1 PROPN 1
+薛慶	1 PROPN 1
+薦	1 VERB 1
+薩	2 PROPN 2
+薩凡娜	1 PROPN 1
+薩哈	1 PROPN 1
+薩德	1 PROPN 1
+薩拉只	1 PROPN 1
+薩摩	4 PROPN 4
+薩摩亞	1 PROPN 1
+薩爾茨卡默古特	1 PROPN 1
+薩爾馬提亞	1 PROPN 1
+薩瑞阿尼迪	1 PROPN 1
+薩維塔	1 PROPN 1
+薩達姆	2 PROPN 2
+薩馬	1 PROPN 1
+薪俸	1 NOUN 1
+薪資	2 NOUN 2
+藉	2 ADP 2
+藉助	1 ADP 1
+藉口	2 VERB 2
+藉此	1 VERB 1
+藉由	6 ADP 6
+藉著	3 ADP 3
+藍	3 NOUN 2 PART 1
+藍儂	1 PROPN 1
+藍寶石華麗雨林	1 NOUN 1
+藍尼	1 PROPN 1
+藍本	1 NOUN 1
+藍欽	1 PROPN 1
+藍潟	1 PROPN 1
+藍灰	1 NOUN 1
+藍田	1 PROPN 1
+藍白	1 NOUN 1
+藍背	1 NOUN 1
+藍色	3 NOUN 3
+藍調	2 NOUN 2
+藍邊	1 NOUN 1
+藍領	1 NOUN 1
+藍鯨	2 NOUN 2
+藍黨	1 PROPN 1
+藏	11 PROPN 10 VERB 1
+藏之介	1 PROPN 1
+藏在	2 VERB 2
+藏寶	1 VERB 1
+藏有	1 VERB 1
+藝	1 NOUN 1
+藝人	5 NOUN 5
+藝名	1 NOUN 1
+藝員	2 NOUN 2
+藝能	1 NOUN 1
+藝術	19 NOUN 19
+藝謀	1 PROPN 1
+藝電	1 PROPN 1
+藤	3 PART 2 PROPN 1
+藤原	1 PROPN 1
+藤木	1 PROPN 1
+藤本	1 NOUN 1
+藤村	1 PROPN 1
+藤枝	1 PROPN 1
+藤藝	1 NOUN 1
+藥	3 PART 3
+藥品	1 NOUN 1
+藥師	1 NOUN 1
+藥材	1 NOUN 1
+藥水	1 NOUN 1
+藥物	5 NOUN 5
+藥石	1 NOUN 1
+藩	3 PART 2 PROPN 1
+藩主	1 NOUN 1
+藩士	1 NOUN 1
+藩西	1 PROPN 1
+蘇	10 PROPN 10
+蘇丹	2 PROPN 2
+蘇利文	1 PROPN 1
+蘇北	1 PROPN 1
+蘇家	4 PROPN 4
+蘇尋三	1 PROPN 1
+蘇州	3 PROPN 3
+蘇木	1 NOUN 1
+蘇格拉底	1 PROPN 1
+蘇維匯	1 PROPN 1
+蘇維埃	2 PROPN 2
+蘇聯	17 PROPN 17
+蘇醒	1 VERB 1
+蘇里南	1 PROPN 1
+蘊藏	1 VERB 1
+蘋果	4 PROPN 3 NOUN 1
+蘭	3 PROPN 3
+蘭利	1 PROPN 1
+蘭卡斯特	1 PROPN 1
+蘭封	1 PROPN 1
+蘭州	1 PROPN 1
+蘭德	1 PROPN 1
+虎丘	5 PROPN 5
+虎式	1 NOUN 1
+虎棒	1 PROPN 1
+虎翼	1 PROPN 1
+虎視眈眈	1 VERB 1
+虎豹	2 PROPN 2
+虎鯨	3 NOUN 3
+虐待	2 VERB 2
+虔信	1 VERB 1
+虔誠	2 ADV 1 ADJ 1
+處	50 PART 21 VERB 18 NOUN 11
+處之泰然	1 VERB 1
+處境	2 NOUN 2
+處女	1 NOUN 1
+處決	1 VERB 1
+處理	9 VERB 5 NOUN 4
+處置	1 VERB 1
+處長	1 NOUN 1
+虛弱	2 ADJ 2
+虛擬	6 ADJ 3 NOUN 2 VERB 1
+虛榮	1 NOUN 1
+虛構	5 NOUN 3 VERB 2
+虛無	1 NOUN 1
+號	72 NOUN 42 PART 30
+號吾	1 PROPN 1
+號子	1 NOUN 1
+號稱	1 VERB 1
+號誌	1 NOUN 1
+虢	1 PROPN 1
+虢國	1 NOUN 1
+虹	1 PROPN 1
+虹橋	1 PROPN 1
+蚊類	1 NOUN 1
+蚩尤	1 PROPN 1
+蛇	2 NOUN 2
+蛇夫	2 PROPN 2
+蛇油	1 NOUN 1
+蛇種	1 NOUN 1
+蛇類	2 NOUN 2
+蛇魔	1 NOUN 1
+蛋	1 NOUN 1
+蛋白	4 NOUN 4
+蛋白質	3 NOUN 3
+蛙	1 PART 1
+蜀	3 PROPN 3
+蜀漢	1 PROPN 1
+蜂擁而至	1 VERB 1
+蜂蜜	1 NOUN 1
+蜆殼	1 PROPN 1
+蜘蛛	4 NOUN 4
+蜚聲	1 VERB 1
+蜥蜴	2 NOUN 2
+蜿蜒	1 ADJ 1
+蝴蝶	1 NOUN 1
+融入	1 VERB 1
+融化	1 VERB 1
+融合	5 VERB 3 NOUN 2
+融和	1 VERB 1
+融雪	1 NOUN 1
+螞蟻	1 NOUN 1
+螢幕	1 NOUN 1
+螺旋	2 NOUN 1 VERB 1
+蟠家	1 PROPN 1
+蟬聯	1 VERB 1
+蟲	1 NOUN 1
+蟲洞	1 NOUN 1
+蠟浸	1 VERB 1
+蠟燭	2 NOUN 2
+蠶院	1 PROPN 1
+蠻子	1 NOUN 1
+蠻族	2 NOUN 2
+血型	2 NOUN 2
+血壓	5 NOUN 5
+血栓	4 NOUN 4
+血液	2 NOUN 2
+血清	2 NOUN 2
+血竭	1 NOUN 1
+血管	1 NOUN 1
+血統	6 NOUN 6
+血緣	2 NOUN 2
+血腥	1 ADJ 1
+行	6 NOUN 4 PART 2
+行人	1 NOUN 1
+行使	1 VERB 1
+行列	1 NOUN 1
+行動	18 NOUN 15 VERB 3
+行將	1 ADV 1
+行政	36 NOUN 36
+行星	47 NOUN 47
+行李	2 NOUN 2
+行業	6 NOUN 6
+行為	24 NOUN 23 VERB 1
+行用	1 VERB 1
+行省	4 NOUN 4
+行禮	1 VERB 1
+行程	2 NOUN 2
+行船	1 VERB 1
+行走	6 VERB 6
+行車	2 NOUN 2
+行長	1 NOUN 1
+行駛	3 VERB 3
+行騙	1 VERB 1
+衍生	4 NOUN 3 VERB 1
+術	1 PART 1
+術士	2 NOUN 2
+術語	4 NOUN 4
+街	32 PART 30 NOUN 2
+街上	1 NOUN 1
+街區	2 NOUN 2
+街名	1 NOUN 1
+街市	1 NOUN 1
+街路	1 NOUN 1
+街道	15 NOUN 15
+街頭	1 NOUN 1
+衙門	3 NOUN 3
+衛	3 PROPN 2 PART 1
+衛冕	3 VERB 2 NOUN 1
+衛戍	2 NOUN 1 PROPN 1
+衛星	4 NOUN 4
+衛理	1 PROPN 1
+衛生	8 NOUN 8
+衛視	3 NOUN 3
+衝出	1 VERB 1
+衝動	1 NOUN 1
+衝擊	3 VERB 2 NOUN 1
+衝突	10 NOUN 8 VERB 2
+衝鋒	1 VERB 1
+衡	1 PROPN 1
+衡量	1 VERB 1
+衢山	1 PROPN 1
+衣	1 PART 1
+衣冠	1 NOUN 1
+衣服	3 NOUN 3
+衣物	1 NOUN 1
+衣索比亞	1 PROPN 1
+表	3 PART 3
+表型	1 NOUN 1
+表妹	1 NOUN 1
+表姐	1 NOUN 1
+表徵	1 NOUN 1
+表情	1 NOUN 1
+表態	2 VERB 2
+表揚	2 VERB 2
+表明	6 VERB 6
+表格	1 NOUN 1
+表決	1 VERB 1
+表演	9 NOUN 6 VERB 3
+表現	19 NOUN 12 VERB 4 AUX 3
+表白	1 NOUN 1
+表皮	2 NOUN 2
+表示	44 VERB 43 AUX 1
+表述	1 VERB 1
+表達	11 VERB 10 NOUN 1
+表面	8 NOUN 7 ADJ 1
+衰敗	1 VERB 1
+衰落	1 VERB 1
+袁	6 PROPN 6
+袋中	2 NOUN 2
+袖手旁觀	1 VERB 1
+袖箭	1 NOUN 1
+被	334 VERB 334 ***
+被告	1 NOUN 1
+被子	1 NOUN 1
+裁判	3 NOUN 2 VERB 1
+裁定	2 VERB 2
+裁決	1 VERB 1
+裁減	1 VERB 1
+裂縫	1 NOUN 1
+裂變	1 NOUN 1
+裋褐	1 NOUN 1
+裏	3 ADP 3
+裔	7 PART 7
+裕	1 PROPN 1
+裕智	1 PROPN 1
+裕軍	1 PROPN 1
+裕隆	2 PROPN 2
+裙子	1 NOUN 1
+補償	1 VERB 1
+補充	2 NOUN 1 VERB 1
+補助	2 NOUN 1 VERB 1
+補天	1 NOUN 1
+補教	1 NOUN 1
+補時	1 NOUN 1
+補給	3 NOUN 3
+補褂	1 NOUN 1
+補選	1 NOUN 1
+裝	3 AUX 2 VERB 1
+裝修	1 NOUN 1
+裝備	1 VERB 1
+裝嵌	1 VERB 1
+裝有	1 VERB 1
+裝瓶	1 VERB 1
+裝甲	5 NOUN 4 PROPN 1
+裝病	2 VERB 2
+裝置	5 NOUN 5
+裝葯	1 VERB 1
+裝設	1 VERB 1
+裝載	1 VERB 1
+裝飾	4 NOUN 2 VERB 2
+裡	26 ADP 19 NOUN 7
+裡面	5 NOUN 4 ADP 1
+裴	1 PROPN 1
+裴林	1 PROPN 1
+裸子	1 NOUN 1
+裸照	1 NOUN 1
+製	4 VERB 3 PART 1
+製作	33 VERB 26 NOUN 7
+製備	1 VERB 1
+製冷	2 NOUN 2
+製得	1 VERB 1
+製成	6 VERB 6
+製片	2 VERB 2
+製造	23 VERB 14 NOUN 9
+複合	3 VERB 2 ADJ 1
+複數	1 NOUN 1
+複葉	1 NOUN 1
+複製	3 VERB 3
+複雜	9 ADJ 9
+褐色	1 NOUN 1
+褪色	1 VERB 1
+褲	1 PART 1
+褲子	1 NOUN 1
+褲袋	1 NOUN 1
+襄	1 PROPN 1
+襄助	1 NOUN 1
+襄王	1 PROPN 1
+襄陽	1 PROPN 1
+襲	1 VERB 1
+襲封	1 VERB 1
+襲擊	8 NOUN 6 VERB 2
+西	24 NOUN 24
+西亞特	1 PROPN 1
+西京	1 PROPN 1
+西側	4 NOUN 4
+西元	2 NOUN 2
+西北	18 NOUN 16 PROPN 2
+西區	2 NOUN 2
+西南	8 NOUN 8
+西周	1 PROPN 1
+西坑	1 PROPN 1
+西域	1 NOUN 1
+西夏	1 PROPN 1
+西安	3 PROPN 3
+西宮	1 PROPN 1
+西寧	2 PROPN 2
+西岸	1 NOUN 1
+西島	1 PROPN 1
+西廠	1 NOUN 1
+西式	1 NOUN 1
+西斯廷	1 PROPN 1
+西方	8 PROPN 7 NOUN 1
+西晉	1 PROPN 1
+西曼	4 PROPN 4
+西段	1 NOUN 1
+西沙	2 PROPN 2
+西河	1 PROPN 1
+西洋	3 NOUN 3
+西洋坪	1 PROPN 1
+西湖	3 PROPN 3
+西漢	1 PROPN 1
+西班牙	33 PROPN 33
+西甌	1 PROPN 1
+西甲	2 PROPN 2
+西站	2 NOUN 1 PROPN 1
+西納	3 PROPN 3
+西線	1 NOUN 1
+西美	1 PROPN 1
+西蒙	1 PROPN 1
+西薩	1 PROPN 1
+西藏	11 PROPN 11
+西蘭卡普	1 PROPN 1
+西西里	1 PROPN 1
+西距	1 VERB 1
+西迪	1 PROPN 1
+西遊	5 VERB 4 NOUN 1
+西部	15 NOUN 15
+西鄉	1 PROPN 1
+西鄰	2 VERB 2
+西鐵	2 PROPN 1 NOUN 1
+西門	3 PROPN 3
+西門子	2 PROPN 2
+西關	3 PROPN 3
+西雅圖	2 PROPN 2
+西面	3 NOUN 3
+要	63 AUX 58 VERB 5
+要是	1 ADP 1
+要求	41 VERB 25 NOUN 15 AUX 1
+要素	2 NOUN 2
+要職	2 NOUN 2
+要脅	1 NOUN 1
+要衝	1 NOUN 1
+要道	1 NOUN 1
+覆蓋	7 VERB 6 NOUN 1
+見	12 VERB 12
+見人	1 VERB 1
+見到	3 VERB 3
+見稱	1 VERB 1
+見義勇為	2 VERB 2
+見聞	1 NOUN 1
+見解	1 NOUN 1
+見證	2 VERB 2
+見識	1 NOUN 1
+見長	1 VERB 1
+規例	1 NOUN 1
+規則	6 NOUN 5 ADJ 1
+規劃	7 VERB 4 NOUN 3
+規勸	1 NOUN 1
+規定	10 NOUN 7 VERB 3
+規格	3 NOUN 3
+規模	15 NOUN 15
+規範	2 NOUN 1 VERB 1
+覓食	1 VERB 1
+視	14 VERB 14
+視乎	1 VERB 1
+視作	1 VERB 1
+視圖	1 NOUN 1
+視覺	3 NOUN 3
+視角	1 NOUN 1
+視頻	3 NOUN 3
+親	5 ADJ 2 PART 1 VERB 1 NOUN 1
+親人	1 NOUN 1
+親信	1 NOUN 1
+親密	2 ADJ 2
+親屬	2 NOUN 2
+親情	2 NOUN 2
+親戚	2 NOUN 2
+親政	1 VERB 1
+親朋	1 NOUN 1
+親王	4 NOUN 4
+親筆	1 ADV 1
+親緣	2 NOUN 2
+親臨	1 VERB 1
+親自	3 ADV 3
+親身	1 ADV 1
+親近	2 ADJ 1 NOUN 1
+覺察	1 VERB 1
+覺得	7 VERB 6 AUX 1
+覽	1 NOUN 1
+觀	5 PART 4 PROPN 1
+觀世音	2 PROPN 2
+觀光	1 NOUN 1
+觀塘	2 PROPN 2
+觀察	1 VERB 1
+觀念	1 NOUN 1
+觀戰	1 VERB 1
+觀望	1 VERB 1
+觀測	7 NOUN 4 VERB 3
+觀看	1 VERB 1
+觀眾	9 NOUN 9
+觀者	1 NOUN 1
+觀賞	2 VERB 2
+觀點	7 NOUN 7
+角	21 NOUN 18 PART 3
+角宿	2 PROPN 2
+角膜	1 NOUN 1
+角色	21 NOUN 21
+角逐	2 VERB 2
+解	2 VERB 1 NOUN 1
+解僱	1 VERB 1
+解夢	1 VERB 1
+解放	10 VERB 7 NOUN 2 PROPN 1
+解散	6 VERB 6
+解析	1 VERB 1
+解決	15 VERB 13 NOUN 2
+解答	1 NOUN 1
+解職	1 VERB 1
+解脫	1 NOUN 1
+解說	1 NOUN 1
+解釋	9 VERB 6 NOUN 3
+解鎖	2 VERB 1 NOUN 1
+解體	2 VERB 2
+觸怒	1 VERB 1
+觸手可及	1 ADJ 1
+觸覺	1 NOUN 1
+觸診	1 NOUN 1
+言	15 VERB 15
+言官	1 NOUN 1
+言語	1 NOUN 1
+言論	3 NOUN 3
+言辭	1 NOUN 1
+訂位	1 VERB 1
+訂婚	2 VERB 2
+訂購	2 VERB 2
+訃告	1 NOUN 1
+訄書	1 PROPN 1
+訇開	1 VERB 1
+計	2 VERB 2
+計劃	31 NOUN 20 VERB 11
+計委	1 NOUN 1
+計畫	4 NOUN 3 VERB 1
+計算	8 VERB 6 NOUN 2
+計謀	1 NOUN 1
+討伐	3 VERB 3
+討論	9 VERB 7 NOUN 2
+討逆	1 VERB 1
+訓	1 PROPN 1
+訓練	12 VERB 7 NOUN 5
+託	1 VERB 1
+記	10 PART 9 NOUN 1
+記念	1 VERB 1
+記憶	3 NOUN 3
+記者	17 NOUN 17
+記號	2 NOUN 2
+記載	10 VERB 5 NOUN 5
+記述	1 VERB 1
+記錄	11 NOUN 8 VERB 3
+記集	1 NOUN 1
+訪問	7 VERB 7
+設	22 VERB 22
+設備	9 NOUN 9
+設定	13 VERB 7 NOUN 6
+設施	7 NOUN 7
+設有	16 VERB 16
+設立	17 VERB 17
+設站	1 VERB 1
+設置	6 VERB 5 NOUN 1
+設計	41 NOUN 21 VERB 20
+許	8 PROPN 7 VERB 1
+許可	3 VERB 3
+許多	53 NUM 53
+許昌	1 PROPN 1
+許諾	2 VERB 1 PROPN 1
+許願	2 VERB 2
+訴	1 VERB 1
+訴求	1 VERB 1
+訴訟	1 NOUN 1
+訴說	2 VERB 2
+訴諸	1 VERB 1
+診斷	5 NOUN 3 VERB 2
+註	1 NOUN 1
+註冊	3 VERB 3
+註明	1 VERB 1
+註銷	1 VERB 1
+詐死	1 VERB 1
+詔書	1 NOUN 1
+評	9 VERB 9
+評估	3 NOUN 2 VERB 1
+評價	5 NOUN 4 VERB 1
+評出	1 VERB 1
+評判	1 NOUN 1
+評定	4 NOUN 3 VERB 1
+評審	3 NOUN 2 VERB 1
+評論	7 VERB 6 NOUN 1
+評議	2 VERB 1 NOUN 1
+評選	2 NOUN 2
+評鑑	1 VERB 1
+詛咒	1 VERB 1
+詞	9 NOUN 9
+詞幹	1 NOUN 1
+詞彙	2 NOUN 2
+詞意	1 NOUN 1
+詞素	2 NOUN 2
+詞綴	1 NOUN 1
+詞義	1 NOUN 1
+詞語	4 NOUN 4
+詞頭	1 NOUN 1
+詢問	1 VERB 1
+試	4 VERB 4
+試劑	1 NOUN 1
+試圖	12 VERB 12
+試播	1 VERB 1
+試種	1 NOUN 1
+試製	1 VERB 1
+試音	1 VERB 1
+試飛	1 VERB 1
+試驗	6 NOUN 6
+詩	7 PART 5 NOUN 2
+詩人	7 NOUN 7
+詩文	1 NOUN 1
+詩歌	7 NOUN 7
+詩篇	2 NOUN 2
+詮釋	2 NOUN 1 VERB 1
+話	11 PART 8 NOUN 3
+話語	2 NOUN 2
+該	128 DET 128 ***
+該事	1 NOUN 1
+該人	1 NOUN 1
+該劇	4 NOUN 4
+該區	4 NOUN 4
+該國	13 NOUN 13
+該地	5 NOUN 5
+該墓	1 NOUN 1
+該寺	3 NOUN 3
+該屬	5 NOUN 5
+該島	1 NOUN 1
+該市	11 NOUN 11
+該年	1 NOUN 1
+該廟	2 NOUN 2
+該批	1 DET 1
+該族	1 DET 1
+該書	3 NOUN 3
+該會	1 NOUN 1
+該校	3 NOUN 3
+該條	1 DET 1
+該段	1 DET 1
+該片	6 NOUN 6
+該科	1 NOUN 1
+該站	3 NOUN 3
+該系	1 NOUN 1
+該處	1 NOUN 1
+該路	1 NOUN 1
+該車	2 NOUN 2
+該鎮	3 NOUN 3
+該館	2 NOUN 2
+該黨	1 NOUN 1
+詳情	1 NOUN 1
+詳細	1 ADV 1
+詹姆士	1 PROPN 1
+詼諧	1 ADJ 1
+誇祖魯	1 PROPN 1
+誌	1 PART 1
+誌家	1 PROPN 1
+認一民	1 PROPN 1
+認可	5 VERB 3 NOUN 2
+認同	2 VERB 2
+認定	1 VERB 1
+認為	69 VERB 69
+認真	1 ADJ 1
+認知	5 NOUN 5
+認罪	1 VERB 1
+認證	2 NOUN 2
+認識	5 NOUN 2 VERB 2 AUX 1
+認輔	1 NOUN 1
+誓言	1 NOUN 1
+誕	1 VERB 1
+誕下	1 VERB 1
+誕生	5 VERB 5
+誕辰	2 NOUN 2
+誘因	1 NOUN 1
+誘發	2 VERB 2
+語	47 PART 46 NOUN 1
+語堂	2 PROPN 2
+語文	1 NOUN 1
+語法	1 NOUN 1
+語流	1 NOUN 1
+語素	1 NOUN 1
+語言	25 NOUN 25
+語訓	1 NOUN 1
+語調	1 NOUN 1
+語速	1 NOUN 1
+語音	1 NOUN 1
+誠實	3 NOUN 2 ADJ 1
+誠意	1 NOUN 1
+誤	1 ADV 1
+誤信	1 AUX 1
+誤導	2 VERB 1 NOUN 1
+誤差	1 NOUN 1
+誤會	1 VERB 1
+誤槍	1 VERB 1
+誤認	3 VERB 3
+誤譯	1 NOUN 1
+誥命	1 NOUN 1
+誦	1 PROPN 1
+說	68 VERB 63 NOUN 3 PART 2
+說出	1 VERB 1
+說唱	2 NOUN 2
+說客	1 NOUN 1
+說成	1 VERB 1
+說明	3 VERB 3
+說服	6 VERB 5 NOUN 1
+說法	6 NOUN 6
+說話	2 VERB 2
+說謊	1 VERB 1
+說道	1 VERB 1
+誰	4 PRON 4
+課	2 PART 2
+課室	3 NOUN 3
+課本	1 NOUN 1
+課程	4 NOUN 4
+課題	2 NOUN 2
+誹謗	1 VERB 1
+調值	1 NOUN 1
+調停	1 NOUN 1
+調入	1 VERB 1
+調動	2 VERB 2
+調和	1 VERB 1
+調控	2 NOUN 2
+調整	7 VERB 6 NOUN 1
+調料	2 NOUN 2
+調景	2 PROPN 2
+調查	16 NOUN 11 VERB 5
+調水	1 NOUN 1
+調沙	1 NOUN 1
+調研	1 NOUN 1
+調節	1 VERB 1
+調職	1 VERB 1
+調解	1 NOUN 1
+諂媚	1 VERB 1
+談判	1 NOUN 1
+談妥	1 VERB 1
+談話	4 NOUN 2 VERB 2
+談論	1 VERB 1
+請	5 VERB 3 AUX 2
+請來	1 VERB 1
+請求	5 VERB 3 NOUN 2
+請辭	1 VERB 1
+請願	1 VERB 1
+諒解	1 NOUN 1
+論	6 PART 6
+論事	1 VERB 1
+論壇	2 NOUN 2
+論文	4 NOUN 4
+諜海	1 NOUN 1
+諧波	1 NOUN 1
+諮詢	6 NOUN 4 VERB 2
+諶	1 PROPN 1
+諷刺	3 VERB 3
+諸	1 DET 1
+諸侯	2 NOUN 2
+諸多	3 ADJ 2 NUM 1
+諸如	1 ADP 1
+諸暨	1 PROPN 1
+諸河	1 NOUN 1
+諸葛	2 PROPN 2
+諺言	1 NOUN 1
+諾丁漢	1 PROPN 1
+諾域治	1 PROPN 1
+諾斯	1 PROPN 1
+諾曼	1 PROPN 1
+謀取	1 VERB 1
+謀士	1 NOUN 1
+謀殺	3 VERB 2 NOUN 1
+謀求	1 VERB 1
+謀職	1 VERB 1
+謁者	1 NOUN 1
+謂	3 VERB 2 AUX 1
+謇	1 PROPN 1
+謊言	1 NOUN 1
+謎	2 NOUN 2
+謙卑	1 ADJ 1
+謙虛	2 ADJ 2
+謚	1 NOUN 1
+講	2 VERB 2
+講助	1 NOUN 1
+講完	1 VERB 1
+講究	1 VERB 1
+講話	1 NOUN 1
+講談	1 VERB 1
+講述	7 VERB 7
+講道	1 VERB 1
+謝	3 PROPN 3
+謝世	1 VERB 1
+謝列梅捷沃	1 PROPN 1
+謝爾比	1 PROPN 1
+謝瓦爾德納澤	1 PROPN 1
+謠言	2 NOUN 2
+謹	1 ADV 1
+謹慎	1 ADJ 1
+證	2 PART 2
+證件	2 NOUN 2
+證券	2 NOUN 2
+證實	3 VERB 3
+證據	2 NOUN 2
+證明	6 VERB 5 NOUN 1
+識別	7 VERB 5 NOUN 2
+識字	4 VERB 4
+譚	1 PROPN 1
+譜	2 PART 2
+譜代	1 PROPN 1
+譜寫	2 VERB 2
+警備	1 NOUN 1
+警務	1 NOUN 1
+警句	1 NOUN 1
+警告	2 VERB 1 NOUN 1
+警員	1 NOUN 1
+警報	2 NOUN 2
+警官	2 NOUN 2
+警察	10 NOUN 10
+警戒	1 NOUN 1
+警方	3 NOUN 3
+警署	4 NOUN 4
+警衛	1 NOUN 1
+警覺	1 NOUN 1
+警鐘	1 NOUN 1
+警長	2 NOUN 2
+譯	2 VERB 1 NOUN 1
+譯作	1 VERB 1
+譯名	2 NOUN 2
+譯員	1 NOUN 1
+譯場	1 NOUN 1
+譯本	1 NOUN 1
+譯法	2 NOUN 2
+議員	22 NOUN 22
+議席	1 NOUN 1
+議會	26 NOUN 26
+議長	4 NOUN 4
+議院	7 NOUN 7
+譴責	1 VERB 1
+護佑	1 NOUN 1
+護城	1 VERB 1
+護墊	1 NOUN 1
+護士	2 NOUN 2
+護法	2 VERB 1 NOUN 1
+護照	3 NOUN 3
+護送	1 VERB 1
+譽	3 VERB 3
+讀	7 VERB 7
+讀取	1 VERB 1
+讀書	3 VERB 3
+讀法	1 NOUN 1
+讀者	4 NOUN 4
+變	8 AUX 3 VERB 3 NOUN 2
+變動	1 VERB 1
+變化	11 VERB 6 NOUN 5
+變回	1 VERB 1
+變差	1 VERB 1
+變形	3 VERB 3
+變得	2 AUX 2
+變成	14 VERB 14
+變換	2 VERB 2
+變數	3 NOUN 3
+變更	2 VERB 2
+變異	2 NOUN 2
+變調	1 NOUN 1
+變身	1 VERB 1
+變遷	1 VERB 1
+變革	1 NOUN 1
+變體	3 NOUN 3
+讓	46 VERB 45 PROPN 1
+讓出	1 VERB 1
+讓步	1 NOUN 1
+讓開	1 VERB 1
+讚喻	1 VERB 1
+讚揚	1 NOUN 1
+讚美	1 NOUN 1
+讚譽	1 NOUN 1
+讚賞	3 NOUN 2 VERB 1
+谷	2 PART 2
+谷山	1 PROPN 1
+谷氨酸	1 NOUN 1
+豆瓣	1 NOUN 1
+豆科	1 NOUN 1
+豈	1 ADV 1
+豎立	2 VERB 2
+豎起	1 VERB 1
+豐久	1 PROPN 1
+豐厚	1 ADJ 1
+豐城	1 PROPN 1
+豐富	7 ADJ 7
+豐臣	1 PROPN 1
+豐邑	1 PROPN 1
+豐隆	1 PROPN 1
+象	3 PART 2 ADP 1
+象徵	6 VERB 5 NOUN 1
+象數	1 NOUN 1
+象晉	1 PROPN 1
+象棋	2 NOUN 2
+象牙	1 PROPN 1
+豢養	1 VERB 1
+豪宅	1 NOUN 1
+豪華	2 ADJ 2
+豪門	1 NOUN 1
+豫	2 PROPN 2
+豫南	1 PROPN 1
+豬	1 NOUN 1
+豬圈	1 NOUN 1
+豬油	1 NOUN 1
+豬肉	1 NOUN 1
+貂	1 NOUN 1
+貓	8 NOUN 8
+貓咪	1 NOUN 1
+貓囒	1 PROPN 1
+貓科	1 NOUN 1
+貓頭鷹	2 NOUN 2
+貝克	1 PROPN 1
+貝克漢	1 PROPN 1
+貝南	1 PROPN 1
+貝斯	1 NOUN 1
+貝爾	3 PROPN 3
+貝爾普	1 PROPN 1
+貝碧嘉	1 PROPN 1
+貝都因	1 PROPN 1
+貝類	1 NOUN 1
+貞昌	1 PROPN 1
+貞潔	1 NOUN 1
+貞觀	1 PROPN 1
+負	4 VERB 2 NOUN 2
+負擔	1 NOUN 1
+負芻	1 PROPN 1
+負荷	1 VERB 1
+負責	40 VERB 40
+負面	1 ADJ 1
+負額	1 NOUN 1
+財務	2 NOUN 2
+財困	2 NOUN 1 VERB 1
+財團	2 NOUN 2
+財富	4 NOUN 4
+財政	6 NOUN 6
+財物	2 NOUN 2
+財產	6 NOUN 6
+財經	1 NOUN 1
+財落	1 PROPN 1
+貢	1 PROPN 1
+貢品	1 NOUN 1
+貢嘎	1 PROPN 1
+貢巴	1 PROPN 1
+貢獻	9 NOUN 8 VERB 1
+貧	1 ADJ 1
+貧乏	1 ADJ 1
+貧窮	1 ADJ 1
+貧鈾	1 NOUN 1
+貨	1 NOUN 1
+貨品	1 NOUN 1
+貨幣	5 NOUN 5
+貨機	1 NOUN 1
+貨櫃	2 NOUN 2
+貨物	4 NOUN 4
+貨車	5 NOUN 5
+貨運	4 NOUN 4
+販子	2 NOUN 2
+販賣	1 VERB 1
+貪圖	1 VERB 1
+貪婪	1 NOUN 1
+貪心	1 VERB 1
+貪污	2 NOUN 2
+貪瀆	1 NOUN 1
+貫徹	1 VERB 1
+貫穿	2 VERB 2
+貫通	1 VERB 1
+責任	10 NOUN 10
+責怪	1 VERB 1
+責難	1 NOUN 1
+貴人	2 NOUN 2
+貴妃	3 NOUN 3
+貴州	3 PROPN 3
+貴族	7 NOUN 7
+貴築	1 PROPN 1
+貴賓	1 NOUN 1
+貴陽	1 PROPN 1
+貴霜	1 PROPN 1
+貶意	1 NOUN 1
+買	3 VERB 3
+買下	2 VERB 2
+買來	2 VERB 2
+買入	1 VERB 1
+買家	3 NOUN 3
+買賣	1 NOUN 1
+費	4 PART 2 PROPN 1 NOUN 1
+費曼	1 PROPN 1
+費用	2 NOUN 2
+費盡	1 VERB 1
+費羅	1 PROPN 1
+費雪	3 PROPN 3
+貼身	1 ADJ 1
+貿易	7 NOUN 6 VERB 1
+賀	4 PROPN 4
+賀氏	2 PROPN 2
+賀特	1 PROPN 1
+賀立	1 PROPN 1
+賄選	3 NOUN 2 VERB 1
+資	1 PART 1
+資助	3 VERB 2 NOUN 1
+資政	1 NOUN 1
+資料	18 NOUN 18
+資方	2 NOUN 2
+資本	4 NOUN 4
+資格	9 NOUN 9
+資深	4 ADJ 4
+資源	17 NOUN 17
+資產	2 NOUN 2
+資訊	11 NOUN 11
+資金	4 NOUN 4
+資陽	1 PROPN 1
+賈	5 PROPN 5
+賈亞辛哈	1 PROPN 1
+賈多特	1 PROPN 1
+賈斯丁	1 PROPN 1
+賈斯珀	1 PROPN 1
+賈氏	1 PROPN 1
+賓客	1 NOUN 1
+賓州	2 PROPN 2
+賞識	1 VERB 1
+賠償	2 NOUN 2
+賠禮	1 VERB 1
+賡臣	1 PROPN 1
+賢	3 PROPN 3
+賢妃	2 NOUN 2
+賢思	1 NOUN 1
+賣	1 VERB 1
+賣出	1 VERB 1
+賣到	1 VERB 1
+賣地	1 VERB 1
+賣家	1 NOUN 1
+賣掉	1 VERB 1
+賣空	1 VERB 1
+賤女	1 NOUN 1
+賤民	1 NOUN 1
+賦予	3 VERB 3
+賦稅	1 NOUN 1
+質	4 PART 4
+質子	2 NOUN 2
+質疑	2 VERB 2
+質素	2 NOUN 2
+質詢	1 NOUN 1
+質量	6 NOUN 6
+賭徒	1 NOUN 1
+賭檔	1 NOUN 1
+賴宣	1 PROPN 1
+賺取	1 VERB 1
+賺錢	1 VERB 1
+購入	2 VERB 2
+購得	1 VERB 1
+購物	2 NOUN 2
+購置	2 VERB 2
+購買	4 VERB 4
+賽	26 PART 25 VERB 1
+賽事	13 NOUN 13
+賽場	1 NOUN 1
+賽季	8 NOUN 8
+賽段	1 NOUN 1
+賽車	1 NOUN 1
+賽道	1 NOUN 1
+賽馬	2 NOUN 2
+贈	1 VERB 1
+贈送	1 VERB 1
+贊助	5 VERB 3 NOUN 2
+贊成	1 VERB 1
+贏取	1 VERB 1
+贏家	1 NOUN 1
+贏得	8 VERB 8
+贖回	1 NOUN 1
+赤坂	1 PROPN 1
+赤壁	1 PROPN 1
+赤川	2 PROPN 2
+赤樹	1 PROPN 1
+赤狐	1 NOUN 1
+赤道	5 NOUN 5
+赤鱲	1 PROPN 1
+赦	1 VERB 1
+赫伯特	1 PROPN 1
+赫塔卜	1 PROPN 1
+赫斯	1 PROPN 1
+走	6 VERB 6
+走上	1 VERB 1
+走出	2 VERB 2
+走到	1 VERB 1
+走勢	1 NOUN 1
+走廊	3 NOUN 3
+走漏	1 VERB 1
+走私	1 NOUN 1
+走路	2 VERB 2
+赴	5 VERB 5
+起	32 ADP 21 VERB 9 NOUN 2
+起事	1 VERB 1
+起伏	1 VERB 1
+起來	15 VERB 15
+起初	1 NOUN 1
+起名	1 VERB 1
+起因	1 NOUN 1
+起始	1 VERB 1
+起建	1 VERB 1
+起止	1 VERB 1
+起死回生	1 VERB 1
+起源	10 VERB 5 NOUN 5
+起碼	1 ADV 1
+起端	1 NOUN 1
+起義	4 NOUN 4
+起舞	1 VERB 1
+起落	1 VERB 1
+起訖	1 VERB 1
+起訴	3 VERB 3
+起降	1 VERB 1
+起飛	2 VERB 2
+起點	1 NOUN 1
+趁	1 ADP 1
+趁機	2 ADV 2
+超	11 PART 6 PROPN 5
+超人	6 NOUN 6
+超出	1 VERB 1
+超前	1 VERB 1
+超導	1 ADJ 1
+超強	1 ADJ 1
+超我	1 NOUN 1
+超時	1 ADV 1
+超武	1 PROPN 1
+超然	1 ADJ 1
+超級	5 ADJ 5
+超越	2 VERB 2
+超過	28 VERB 24 ADV 4
+超重	1 ADJ 1
+超齡	1 VERB 1
+越	3 ADV 2 VERB 1
+越亮	1 ADJ 1
+越低	2 ADJ 2
+越來越	11 ADV 11
+越共	1 PROPN 1
+越前	1 PROPN 1
+越南	5 PROPN 5
+越好	1 ADJ 1
+越弱	1 ADJ 1
+越戰	1 NOUN 1
+越早	1 ADJ 1
+越暗	1 ADJ 1
+越牆	1 VERB 1
+越獄	2 NOUN 2
+越發	1 ADV 1
+越近	1 ADJ 1
+越過	1 VERB 1
+越遠	2 ADJ 2
+越高	2 ADJ 2
+趕出	2 VERB 2
+趕往	1 VERB 1
+趙	19 PROPN 19
+趙國	5 PROPN 5
+趙氏	1 PROPN 1
+趟	1 NOUN 1
+趣事	1 NOUN 1
+趨	2 AUX 1 VERB 1
+趨勢	1 NOUN 1
+趨同	2 ADV 1 NOUN 1
+趨於	1 AUX 1
+足	4 NOUN 3 ADV 1
+足不出戶	1 VERB 1
+足協	3 NOUN 3
+足夠	1 ADJ 1
+足球	35 NOUN 35
+足見	1 VERB 1
+足跡	1 NOUN 1
+趾爪	1 NOUN 1
+趾骨	1 NOUN 1
+跋扈	1 ADJ 1
+跌	1 VERB 1
+跑	1 VERB 1
+跑壘	1 VERB 1
+跑步	1 VERB 1
+跑車	1 NOUN 1
+跑道	6 NOUN 6
+跑馬	1 PROPN 1
+距	5 ADP 5
+距離	26 NOUN 14 ADP 12
+跟	15 ADP 11 VERB 3 CCONJ 1
+跟操	1 VERB 1
+跟班	1 NOUN 1
+跟蹤	1 VERB 1
+跟進	1 NOUN 1
+跟隨	1 VERB 1
+跨	1 VERB 1
+跨國	1 NOUN 1
+跨度	1 VERB 1
+跨步	1 VERB 1
+跨足	1 VERB 1
+跨過	1 VERB 1
+路	38 PART 31 NOUN 6 PROPN 1
+路上	2 NOUN 2
+路口	2 NOUN 2
+路徑	3 NOUN 3
+路政	1 NOUN 1
+路易	5 PROPN 5
+路濟亞	1 PROPN 1
+路綫	1 NOUN 1
+路網	1 NOUN 1
+路線	15 NOUN 15
+路透	1 PROPN 1
+路過	1 VERB 1
+路障	1 NOUN 1
+路面	1 NOUN 1
+跳	3 VERB 3
+跳動	1 VERB 1
+跳槽	1 VERB 1
+跳過	1 VERB 1
+跳遠	1 VERB 1
+跳高	1 NOUN 1
+踏上	1 VERB 1
+踏入	1 VERB 1
+踢	3 VERB 3
+踢進	1 VERB 1
+躁	1 PART 1
+躁動	1 ADJ 1
+躍升	1 VERB 1
+身	3 NOUN 2 PART 1
+身上	4 NOUN 4
+身亡	5 VERB 5
+身份	13 NOUN 13
+身分	4 NOUN 4
+身受	1 VERB 1
+身型	1 NOUN 1
+身旁	1 NOUN 1
+身為	1 VERB 1
+身無分文	1 VERB 1
+身著	1 VERB 1
+身軀	1 NOUN 1
+身邊	3 NOUN 3
+身長	2 NOUN 2
+身體	20 NOUN 20
+身高	1 NOUN 1
+躬耕	1 NOUN 1
+躲到	1 VERB 1
+躲過	2 VERB 2
+躲避	4 VERB 4
+車	18 PART 15 NOUN 3
+車上	1 NOUN 1
+車中	2 NOUN 2
+車仁	1 PROPN 1
+車型	1 NOUN 1
+車士打菲特	1 PROPN 1
+車外	1 NOUN 1
+車尾	1 NOUN 1
+車展	6 NOUN 6
+車市	1 NOUN 1
+車序	4 NOUN 4
+車廂	4 NOUN 4
+車廠	1 NOUN 1
+車手	1 NOUN 1
+車票	2 PROPN 1 NOUN 1
+車程	1 NOUN 1
+車窗	1 NOUN 1
+車站	39 NOUN 39
+車系	1 NOUN 1
+車號	1 NOUN 1
+車費	1 NOUN 1
+車資	2 NOUN 2
+車路士	1 PROPN 1
+車輛	15 NOUN 15
+車迷	1 NOUN 1
+車隊	2 NOUN 2
+車頭	1 NOUN 1
+車體	3 NOUN 3
+軋箏	1 NOUN 1
+軌跡	1 NOUN 1
+軌道	16 NOUN 16
+軍	113 PART 99 NOUN 14 ***
+軍中	1 NOUN 1
+軍事	25 NOUN 25
+軍人	5 NOUN 5
+軍備	1 NOUN 1
+軍力	4 NOUN 4
+軍功	1 NOUN 1
+軍務	1 NOUN 1
+軍區	2 NOUN 2
+軍團	5 NOUN 5
+軍委	1 NOUN 1
+軍官	4 NOUN 4
+軍師	1 NOUN 1
+軍援	1 NOUN 1
+軍方	1 NOUN 1
+軍服	1 NOUN 1
+軍校	3 NOUN 3
+軍法	2 NOUN 2
+軍營	1 NOUN 1
+軍艦	1 NOUN 1
+軍裝	1 NOUN 1
+軍訓	3 NOUN 3
+軍閥	4 NOUN 4
+軍隊	19 NOUN 19
+軍階	1 NOUN 1
+軍需	1 NOUN 1
+軒轅	1 PROPN 1
+軟	1 PART 1
+軟化	1 VERB 1
+軟硬體	1 NOUN 1
+軟骨	1 NOUN 1
+軟體	8 NOUN 8
+軸	1 PART 1
+軸心	1 NOUN 1
+較	16 ADV 14 ADP 2
+較低	1 ADJ 1
+較佳	1 ADJ 1
+較厚	1 ADJ 1
+較圓	1 ADJ 1
+較多	4 ADJ 4
+較大	4 ADJ 4
+較小	7 ADJ 7
+較少	4 ADJ 4
+較快	1 ADJ 1
+較深	1 ADJ 1
+較為	7 ADV 7
+較近	1 ADJ 1
+較遠	1 ADJ 1
+較長	3 ADJ 3
+較高	4 ADJ 4
+載人	1 NOUN 1
+載淳	1 PROPN 1
+載重	2 NOUN 2
+輔	1 PROPN 1
+輔佐	1 PROPN 1
+輔助	3 NOUN 2 VERB 1
+輔導	3 NOUN 2 VERB 1
+輔政	3 VERB 3
+輔音	2 NOUN 2
+輕	2 PART 1 ADJ 1
+輕傷	2 NOUN 2
+輕型	2 NOUN 2
+輕微	1 ADJ 1
+輕易	2 ADV 1 ADJ 1
+輕盈	1 ADJ 1
+輕視	2 VERB 2
+輕軌	1 NOUN 1
+輕鐵	1 NOUN 1
+輕髻	1 NOUN 1
+輕鬆	1 ADJ 1
+輛	7 NOUN 7
+輝	1 PROPN 1
+輝彥	1 PROPN 1
+輟學	2 VERB 2
+輪	5 NOUN 5
+輪周	1 NOUN 1
+輪廓	1 NOUN 1
+輪流	1 ADV 1
+輪船	1 NOUN 1
+輪車	1 NOUN 1
+輪迴	1 VERB 1
+輯	1 NOUN 1
+輯錄	1 VERB 1
+輸	1 VERB 1
+輸入	4 VERB 2 NOUN 2
+輸出	3 NOUN 3
+輸掉	1 VERB 1
+輸精	1 VERB 1
+輸血	1 NOUN 1
+輸送	1 VERB 1
+輻射	4 NOUN 4
+輻轍	1 NOUN 1
+輻鰭	1 NOUN 1
+輾轉	1 VERB 1
+輿論	6 NOUN 6
+轄	3 VERB 3
+轄下	4 NOUN 4
+轄區	3 NOUN 3
+轄境	2 NOUN 2
+轄有	3 VERB 3
+轅	1 PROPN 1
+轉	8 VERB 7 NOUN 1
+轉乘	3 VERB 3
+轉交	1 VERB 1
+轉介	2 VERB 2
+轉任	1 VERB 1
+轉到	3 VERB 3
+轉動	1 VERB 1
+轉化	1 VERB 1
+轉向	1 VERB 1
+轉型	2 VERB 2
+轉差	1 VERB 1
+轉往	1 VERB 1
+轉念	1 VERB 1
+轉投	4 VERB 4
+轉換	4 VERB 4
+轉播	1 VERB 1
+轉會	1 NOUN 1
+轉檯	1 NOUN 1
+轉正	1 VERB 1
+轉移	5 VERB 4 NOUN 1
+轉角	1 NOUN 1
+轉變	5 VERB 3 NOUN 2
+轉讓	3 VERB 3
+轉賣	1 VERB 1
+轉赴	1 VERB 1
+轉車	2 VERB 2
+轎車	3 NOUN 3
+轟動一時	2 VERB 2
+轟炸	7 VERB 6 NOUN 1
+辛亥	2 PROPN 1 NOUN 1
+辛普朗	1 PROPN 1
+辛辛那提	1 PROPN 1
+辜	1 PROPN 1
+辟邪	1 VERB 1
+辣妹	2 NOUN 2
+辦	2 VERB 2
+辦事	4 VERB 4
+辦公	13 VERB 10 NOUN 3
+辦學	1 AUX 1
+辦有	1 VERB 1
+辦法	4 NOUN 4
+辦理	4 VERB 4
+辨別	1 VERB 1
+辨明	1 VERB 1
+辨識	1 VERB 1
+辭典	1 NOUN 1
+辭去	5 VERB 5
+辭官	1 VERB 1
+辭歲	1 VERB 1
+辭職	5 VERB 5
+辭退	2 VERB 2
+辯證	1 NOUN 1
+辯護	2 NOUN 2
+辰國	1 PROPN 1
+辰男	1 PROPN 1
+農	3 NOUN 2 PROPN 1
+農事	1 NOUN 1
+農地	2 NOUN 2
+農場	2 NOUN 2
+農墾	1 NOUN 1
+農工	1 NOUN 1
+農曆	2 NOUN 2
+農書	1 NOUN 1
+農林	1 NOUN 1
+農業	17 NOUN 17
+農民	4 NOUN 4
+農田	2 NOUN 2
+農舍	1 NOUN 1
+農藥	2 NOUN 2
+迅	1 PROPN 1
+迅即	1 ADV 1
+迅猛	1 ADJ 1
+迅速	7 ADV 5 ADJ 2
+迎	1 VERB 1
+迎神	1 NOUN 1
+迎賓	1 VERB 1
+迎送	1 VERB 1
+迎面	1 VERB 1
+近	13 ADV 8 VERB 3 PART 1 ADP 1
+近代	6 NOUN 6
+近似	1 VERB 1
+近侍	1 NOUN 1
+近平	1 PROPN 1
+近年	7 NOUN 7
+近日	1 VERB 1
+近期	3 NOUN 3
+近東	1 PROPN 1
+近海	1 NOUN 1
+近現代	1 NOUN 1
+近藤	2 PROPN 2
+近衛	2 NOUN 1 PROPN 1
+近親	1 NOUN 1
+近鄰	1 NOUN 1
+返	1 VERB 1
+返回	7 VERB 7
+返樸歸真	1 VERB 1
+迥異	1 ADJ 1
+迦南	1 PROPN 1
+迦納	1 PROPN 1
+迪克	1 PROPN 1
+迪比亞吉奧	1 PROPN 1
+迪爾汗	1 NOUN 1
+迪米特	1 PROPN 1
+迫	3 VERB 3
+迫使	3 VERB 3
+迫切	1 ADJ 1
+迫害	2 NOUN 1 VERB 1
+述	1 PROPN 1
+迴流	1 VERB 1
+迴避	2 VERB 2
+迷	2 PART 2
+迷你變色龍	1 NOUN 1
+迷信	2 NOUN 2
+迷唐	1 PROPN 1
+迷幻	2 ADJ 2
+迷路	1 VERB 1
+追兇	1 VERB 1
+追回	1 VERB 1
+追封	1 VERB 1
+追尋	1 VERB 1
+追尾	1 NOUN 1
+追思	1 NOUN 1
+追憶	1 VERB 1
+追查	1 VERB 1
+追根究底	1 VERB 1
+追殺	1 NOUN 1
+追求	1 VERB 1
+追溯	2 VERB 2
+追究	1 VERB 1
+追討	1 VERB 1
+追述	1 VERB 1
+追逐	3 VERB 3
+退休	3 VERB 3
+退位	1 VERB 1
+退出	5 VERB 5
+退化	2 NOUN 2
+退回	1 VERB 1
+退夷	1 NOUN 1
+退居	1 VERB 1
+退役	6 VERB 6
+退敵	1 VERB 1
+退隱	1 NOUN 1
+送	3 VERB 3
+送來	1 VERB 1
+送入	2 VERB 2
+送到	1 VERB 1
+送回	1 VERB 1
+送殯	1 VERB 1
+送給	1 VERB 1
+送走	1 VERB 1
+送院	1 VERB 1
+逃	3 VERB 3
+逃亡	1 VERB 1
+逃出	2 VERB 2
+逃奔	1 VERB 1
+逃往	4 VERB 4
+逃至	1 VERB 1
+逃跑	1 VERB 1
+逃避	2 VERB 2
+逃離	3 VERB 3
+逆	1 VERB 1
+逆戟鯨	1 NOUN 1
+逍遙	1 PROPN 1
+透徹	1 ADJ 1
+透支	1 NOUN 1
+透明	2 ADJ 2
+透水	1 VERB 1
+透視	1 NOUN 1
+透過	12 ADP 11 VERB 1
+透鏡	1 NOUN 1
+逐客	1 VERB 1
+逐步	3 ADV 3
+逐漸	21 ADV 21
+逐鹿	2 PROPN 2
+途中	1 NOUN 1
+途人	1 NOUN 1
+途徑	2 NOUN 2
+途經	1 VERB 1
+這	317 DET 256 PRON 61 ***
+這些	69 DET 69
+這兒	1 PRON 1
+這時	1 NOUN 1
+這樣	15 PRON 12 ADV 3
+這裡	16 PRON 14 NOUN 2
+這麼	4 ADV 4
+通	10 PART 6 VERB 2 PROPN 1 NOUN 1
+通俗	1 ADJ 1
+通信	3 NOUN 2 VERB 1
+通商	1 NOUN 1
+通報	2 NOUN 1 VERB 1
+通天	1 PROPN 1
+通婚	2 VERB 2
+通宏	1 PROPN 1
+通州	1 PROPN 1
+通常	42 ADV 40 ADJ 2
+通往	6 VERB 6
+通渭	1 PROPN 1
+通用	5 PROPN 2 NOUN 1 ADJ 1 VERB 1
+通知	2 VERB 2
+通稱	2 VERB 2
+通航	2 VERB 1 NOUN 1
+通行	3 VERB 2 NOUN 1
+通訊	6 NOUN 5 VERB 1
+通貨	1 NOUN 1
+通車	6 VERB 6
+通通	1 ADV 1
+通運	1 NOUN 1
+通過	47 VERB 26 ADP 20 NOUN 1
+通道	5 NOUN 5
+通靈	1 NOUN 1
+通風	1 ADJ 1
+逛街	1 VERB 1
+逝世	10 VERB 10
+速寫	2 VERB 2
+速度	15 NOUN 15
+速往	1 VERB 1
+速率	2 NOUN 2
+速銷	1 NOUN 1
+速食	3 NOUN 3
+造	6 VERB 6
+造價	1 NOUN 1
+造出	2 VERB 2
+造反	1 VERB 1
+造就	1 VERB 1
+造幣	1 VERB 1
+造成	19 VERB 19
+造福	1 VERB 1
+造船	2 VERB 2
+造血	1 NOUN 1
+造訪	1 VERB 1
+造謠	1 VERB 1
+逢	3 ADP 3
+逢吉	1 PROPN 1
+連	6 ADV 4 ADP 1 NOUN 1
+連串	1 NOUN 1
+連任	5 VERB 3 AUX 2
+連克	1 VERB 1
+連同	2 ADP 1 CCONJ 1
+連坐	1 VERB 1
+連帶	2 NOUN 1 VERB 1
+連年	1 ADV 1
+連座	1 NOUN 1
+連成	1 VERB 1
+連拍	1 VERB 1
+連接	7 VERB 7
+連環	3 ADJ 3
+連筆	1 VERB 1
+連篇累牘	1 ADV 1
+連結	1 VERB 1
+連絡	1 NOUN 1
+連線	3 VERB 2 NOUN 1
+連續	5 ADJ 3 ADV 2
+連通	1 VERB 1
+連進	1 VERB 1
+連鎖	2 ADJ 1 NOUN 1
+連餓	1 VERB 1
+逮捕	3 VERB 3
+週	3 NOUN 2 PART 1
+週年	2 NOUN 2
+週期	4 NOUN 4
+週末	1 NOUN 1
+週邊	1 NOUN 1
+進	21 VERB 21
+進位	1 VERB 1
+進來	1 VERB 1
+進修	2 NOUN 1 VERB 1
+進入	32 VERB 32
+進出	1 VERB 1
+進出口	2 NOUN 1 VERB 1
+進動	1 NOUN 1
+進化	2 VERB 2
+進口	6 NOUN 3 VERB 3
+進士	9 NOUN 9
+進攻	15 VERB 10 NOUN 5
+進步	6 VERB 3 NOUN 3
+進犯	1 VERB 1
+進球	4 NOUN 3 VERB 1
+進程	4 NOUN 4
+進而	5 ADV 5
+進行	76 VERB 76 ***
+進軍	6 VERB 6
+進駐	2 VERB 2
+逼	1 VERB 1
+逼使	1 VERB 1
+逼停	1 VERB 1
+逼到	1 VERB 1
+逾	3 ADV 2 VERB 1
+逾期	1 VERB 1
+遂	4 ADV 4
+遂起	1 VERB 1
+遇上	1 VERB 1
+遇到	3 VERB 3
+遇刺	1 VERB 1
+遇有	1 VERB 1
+遇見	3 VERB 3
+遇陛	1 PROPN 1
+遇難	1 VERB 1
+遊仙	2 PROPN 2
+遊客	2 NOUN 2
+遊憩	1 VERB 1
+遊戲	52 NOUN 51 VERB 1
+遊擊	1 NOUN 1
+遊樂	3 NOUN 2 VERB 1
+遊歷	1 VERB 1
+遊玩	2 VERB 2
+遊艇	1 NOUN 1
+遊行	4 VERB 3 NOUN 1
+遊覽	1 VERB 1
+遊說	1 VERB 1
+遊離	1 VERB 1
+運	1 VERB 1
+運作	10 NOUN 5 VERB 4 AUX 1
+運動	39 NOUN 23 VERB 16
+運回	1 VERB 1
+運往	1 VERB 1
+運河	2 NOUN 2
+運煤	1 VERB 1
+運營	3 VERB 3
+運用	2 VERB 2
+運算	1 VERB 1
+運糧	1 PROPN 1
+運行	10 VERB 5 NOUN 5
+運補	1 VERB 1
+運載	1 NOUN 1
+運輸	14 NOUN 12 VERB 2
+運轉	2 VERB 2
+遍	1 NOUN 1
+遍布	1 VERB 1
+過	55 PART 45 VERB 7 PROPN 2 ADJ 1
+過世	2 VERB 2
+過來	6 VERB 6
+過冷	1 ADJ 1
+過剩	1 VERB 1
+過勞	2 VERB 1 ADJ 1
+過去	10 NOUN 10
+過多	1 ADJ 1
+過年	2 VERB 2
+過度	4 ADJ 3 VERB 1
+過往	1 NOUN 1
+過敏	1 ADJ 1
+過於	2 ADV 2
+過枝	4 NOUN 2 VERB 2
+過橋	1 NOUN 1
+過海	2 NOUN 2
+過渡	3 NOUN 2 VERB 1
+過濾	1 NOUN 1
+過甚	1 ADJ 1
+過程	18 NOUN 18
+過繼	1 VERB 1
+過苛	1 ADJ 1
+過路	1 PROPN 1
+過重	1 ADJ 1
+過關	2 VERB 2
+過頭	1 VERB 1
+道	29 PART 23 NOUN 4 VERB 2
+道世民	1 PROPN 1
+道光	3 PROPN 3
+道具	1 NOUN 1
+道場	2 NOUN 2
+道墟	1 PROPN 1
+道士	1 NOUN 1
+道學	1 PROPN 1
+道宇	1 PROPN 1
+道安	1 PROPN 1
+道德	7 NOUN 7
+道歉	1 VERB 1
+道烺	1 PROPN 1
+道理	1 NOUN 1
+道生	2 PROPN 2
+道綽	1 PROPN 1
+道羅	1 PROPN 1
+道義	1 NOUN 1
+道路	17 NOUN 17
+道靜	1 PROPN 1
+達	24 VERB 22 PROPN 2
+達上	1 VERB 1
+達也	3 PROPN 3
+達人	1 NOUN 1
+達到	20 VERB 19 AUX 1
+達古武	1 PROPN 1
+達成	7 VERB 7
+達拏	1 PROPN 1
+達拖錯	1 PROPN 1
+達母拿錯	1 PROPN 1
+達濠	1 PROPN 1
+達爾	2 PROPN 2
+達爾文	1 PROPN 1
+達章	1 PROPN 1
+達致	1 VERB 1
+達華	1 PROPN 1
+達賴	1 NOUN 1
+違反	2 VERB 2
+違法	3 NOUN 2 VERB 1
+違背	2 VERB 2
+遙陽	1 PROPN 1
+遜位	1 VERB 1
+遞交	1 VERB 1
+遞增	1 VERB 1
+遞歸	2 NOUN 2
+遠	6 ADV 3 PART 2 ADJ 1
+遠呂智	1 PROPN 1
+遠嫁	1 VERB 1
+遠揚	1 VERB 1
+遠日	1 VERB 1
+遠東	2 PROPN 2
+遠洋	1 NOUN 1
+遠航	3 VERB 2 NOUN 1
+遠處	1 NOUN 1
+遠遠	2 ADJ 1 ADV 1
+遠離	1 VERB 1
+遣	1 VERB 1
+遣返	1 VERB 1
+適之	1 PROPN 1
+適合	7 VERB 7
+適應	3 VERB 3
+適用	2 VERB 2
+適當	5 ADJ 4 ADV 1
+遭	9 VERB 9
+遭到	12 VERB 12
+遭受	2 VERB 2
+遭殃	1 VERB 1
+遭遇	5 VERB 4 NOUN 1
+遮天	1 VERB 1
+遮蔭	1 VERB 1
+遮陰	1 VERB 1
+遲	1 ADJ 1
+遲遲	1 ADV 1
+遴選	2 NOUN 2
+遵守	2 VERB 2
+遷	2 VERB 2
+遷出	1 VERB 1
+遷居	1 VERB 1
+遷往	2 VERB 2
+遷徙	3 VERB 2 NOUN 1
+遷校	1 VERB 1
+遷移	4 NOUN 2 VERB 2
+選	4 VERB 4
+選上	1 VERB 1
+選中	2 VERB 2
+選修	1 VERB 1
+選出	7 VERB 7
+選區	6 NOUN 6
+選定	1 VERB 1
+選手	4 NOUN 4
+選拔	2 VERB 1 NOUN 1
+選擇	18 VERB 16 NOUN 2
+選民	2 NOUN 2
+選為	2 VERB 2
+選用	1 VERB 1
+選票	1 NOUN 1
+選秀	3 NOUN 3
+選美	1 NOUN 1
+選舉	22 NOUN 17 VERB 5
+選訓	1 VERB 1
+選調	1 VERB 1
+選進	1 VERB 1
+選題	1 VERB 1
+遹	2 PROPN 2
+遺傳	6 NOUN 4 VERB 2
+遺囑	2 NOUN 2
+遺址	15 NOUN 15
+遺物	1 NOUN 1
+遺產	2 NOUN 2
+遺留	1 NOUN 1
+遺腹	1 ADJ 1
+遺跡	2 NOUN 2
+遺迹	1 NOUN 1
+遺骸	1 NOUN 1
+遺體	3 NOUN 3
+遼寧	4 PROPN 4
+遼東	2 PROPN 2
+遼西翼龍	1 NOUN 1
+避	1 VERB 1
+避免	12 VERB 12
+避禍	1 VERB 1
+避開	1 VERB 1
+邀請	6 VERB 4 NOUN 2
+邁克	1 PROPN 1
+邁向	1 VERB 1
+邁阿密	1 PROPN 1
+還	80 ADV 80 ***
+還擊	1 VERB 1
+還是	16 ADV 11 CCONJ 3 AUX 2
+還有	1 VERB 1
+還珠	2 PROPN 1 NOUN 1
+邊	11 NOUN 8 PART 3
+邊區	1 NOUN 1
+邊境	6 NOUN 6
+邊界	3 NOUN 3
+邊緣	6 NOUN 6
+邏輯	7 NOUN 6 ADJ 1
+邗江	1 PROPN 1
+那	19 DET 16 ADV 2 PRON 1
+那些	2 DET 2
+那時	1 NOUN 1
+那曲	1 PROPN 1
+那樣	2 PRON 2
+那裏	3 PRON 3
+那裡	6 PRON 6
+那麼	9 ADV 9
+邦	6 PROPN 3 PART 3
+邦初	2 PROPN 2
+邦國	1 NOUN 1
+邦德	1 PROPN 1
+邦聯	3 NOUN 3
+邦蒂	1 PROPN 1
+邦達倉	1 PROPN 1
+邨	8 PART 8
+邪惡	1 ADJ 1
+邪神	1 NOUN 1
+邪馬台	1 PROPN 1
+邱	6 PROPN 6
+邱家	1 PROPN 1
+邳縣	1 PROPN 1
+邵	4 PROPN 4
+邵伯	1 PROPN 1
+邵氏	1 PROPN 1
+郊外	2 NOUN 2
+郊狼	1 NOUN 1
+郎	1 PART 1
+郗	5 PROPN 5
+郝	1 PROPN 1
+郡	13 PART 9 NOUN 4
+郡區	1 NOUN 1
+郡縣	1 NOUN 1
+部	119 PART 76 NOUN 43 ***
+部下	2 NOUN 2
+部件	2 NOUN 2
+部份	19 NOUN 19
+部位	1 NOUN 1
+部分	72 NOUN 72
+部字	1 NOUN 1
+部將	1 NOUN 1
+部族	3 NOUN 3
+部落	5 NOUN 5
+部長	8 NOUN 8
+部門	11 NOUN 11
+部隊	24 NOUN 24
+部首	1 NOUN 1
+郪江	1 PROPN 1
+郫縣	1 PROPN 1
+郭	12 PROPN 12
+郭家	1 PROPN 1
+郵件	2 NOUN 2
+郵報	1 NOUN 1
+郵政	5 NOUN 5
+郵票	4 NOUN 4
+郵輪	1 NOUN 1
+都	120 ADV 118 NOUN 1 PART 1 ***
+都城	2 NOUN 2
+都城嘉慕	1 PROPN 1
+都察	1 NOUN 1
+都尉	1 NOUN 1
+都市	4 NOUN 4
+都是	28 AUX 13 VERB 10 ADV 5
+都會	2 NOUN 2
+都有	1 VERB 1
+都督	1 NOUN 1
+都統	2 NOUN 2
+都靈	1 PROPN 1
+鄂	1 PROPN 1
+鄂倫春	1 PROPN 1
+鄉	25 PART 21 NOUN 4
+鄉內	1 NOUN 1
+鄉團	1 NOUN 1
+鄉村	1 NOUN 1
+鄉議	3 NOUN 3
+鄉鎮	6 NOUN 6
+鄉長	1 NOUN 1
+鄧	8 PROPN 8
+鄭	19 PROPN 19
+鄭國	2 PROPN 2
+鄭氏	2 PROPN 2
+鄰	1 VERB 1
+鄰國	2 NOUN 2
+鄰域	1 NOUN 1
+鄰居	1 NOUN 1
+鄰近	5 VERB 2 NOUN 2 ADJ 1
+鄰里	1 NOUN 1
+酃縣	1 PROPN 1
+酆	1 PROPN 1
+配	3 VERB 2 PART 1
+配上	1 VERB 1
+配件	1 NOUN 1
+配備	1 VERB 1
+配合	2 NOUN 1 VERB 1
+配器	1 NOUN 1
+配對	2 VERB 2
+配有	1 VERB 1
+配樂	3 NOUN 2 VERB 1
+配置	3 VERB 2 NOUN 1
+配角	1 NOUN 1
+酒	16 PART 14 NOUN 2
+酒吧	2 NOUN 2
+酒家	1 NOUN 1
+酒店	10 NOUN 10
+酒杯	1 NOUN 1
+酒樓	1 NOUN 1
+酒泉	2 PROPN 2
+酒精	6 NOUN 6
+酒醉	2 VERB 2
+酒鬼	1 NOUN 1
+酗酒	3 VERB 3
+酩酊大醉	1 ADJ 1
+酵母	1 NOUN 1
+酷似	1 VERB 1
+酷刑	1 NOUN 1
+酸	3 NOUN 2 PART 1
+醉酒	2 NOUN 2
+醉醺醺	1 ADJ 1
+醋酸根	1 NOUN 1
+醒亞	5 PROPN 5
+醜聞	2 NOUN 2
+醣蛋白	1 NOUN 1
+醣類	2 NOUN 2
+醫	10 PART 6 NOUN 4
+醫學	7 NOUN 7
+醫師	5 NOUN 5
+醫書	1 NOUN 1
+醫生	6 NOUN 6
+醫療	8 NOUN 8
+醫科	1 NOUN 1
+醫藥	2 NOUN 2
+醫術	1 NOUN 1
+醫院	12 NOUN 12
+醬貨	1 NOUN 1
+醴陵	1 PROPN 1
+釀成	1 VERB 1
+釀造	1 VERB 1
+釀酒	3 NOUN 2 VERB 1
+釉下	2 NOUN 2
+釉色	1 NOUN 1
+釋出	1 VERB 1
+釋放	4 NOUN 2 VERB 2
+釋迦	1 PROPN 1
+里	22 ADP 8 PART 8 NOUN 6
+里士滿	1 PROPN 1
+里昂	2 PROPN 2
+里港	1 PROPN 1
+里程	3 NOUN 3
+里馬	1 PROPN 1
+重	9 NOUN 5 ADJ 2 PART 2
+重修	2 VERB 2
+重傷	3 VERB 2 NOUN 1
+重創	1 VERB 1
+重力	1 NOUN 1
+重回	1 VERB 1
+重型	2 NOUN 1 ADJ 1
+重大	8 ADJ 8
+重建	12 VERB 8 NOUN 4
+重復	1 ADV 1
+重心	1 NOUN 1
+重情	1 VERB 1
+重慶	12 PROPN 12
+重播	2 NOUN 2
+重整	3 NOUN 2 VERB 1
+重新	21 ADV 21
+重核	1 NOUN 1
+重物	1 NOUN 1
+重獲	1 VERB 1
+重現	1 VERB 1
+重生	1 VERB 1
+重用	1 VERB 1
+重疊	1 ADJ 1
+重禮	1 VERB 1
+重組	1 NOUN 1
+重義	1 VERB 1
+重考	1 NOUN 1
+重華	2 PROPN 2
+重製	1 NOUN 1
+重複	1 VERB 1
+重要	53 ADJ 53
+重見天日	1 VERB 1
+重視	4 NOUN 2 VERB 2
+重言	2 VERB 2
+重讀	1 VERB 1
+重返	2 VERB 2
+重重	2 ADJ 2
+重量	2 NOUN 2
+重鎮	1 NOUN 1
+重開	1 VERB 1
+重陽	1 PROPN 1
+重音	1 NOUN 1
+重鳳	1 PROPN 1
+重點	7 NOUN 7
+野外	1 NOUN 1
+野心勃勃	1 ADJ 1
+野戰	1 NOUN 1
+野木	1 PROPN 1
+野獸	2 NOUN 2
+野球	1 NOUN 1
+野生	4 ADJ 4
+野菜	1 NOUN 1
+量	23 PART 22 NOUN 1
+量子	4 NOUN 4
+量度	1 VERB 1
+量表	2 NOUN 2
+金	17 PROPN 7 PART 7 NOUN 3
+金剛	1 NOUN 1
+金字	4 NOUN 4
+金寶	1 PROPN 1
+金屬	9 NOUN 9
+金山	2 PROPN 2
+金幣	1 NOUN 1
+金平	1 PROPN 1
+金庫	3 NOUN 3
+金庸	3 PROPN 3
+金恩	1 PROPN 1
+金星	2 PROPN 2
+金曲	1 NOUN 1
+金氏	1 PROPN 1
+金泉	1 PROPN 1
+金浦	1 PROPN 1
+金湖	1 PROPN 1
+金牌	2 NOUN 2
+金牛	1 PROPN 1
+金獎	1 NOUN 1
+金箔	1 NOUN 1
+金美	1 PROPN 1
+金華	1 PROPN 1
+金蓮	2 PROPN 2
+金融	6 NOUN 6
+金質	1 NOUN 1
+金邊	1 PROPN 1
+金銀	1 NOUN 1
+金錢	1 NOUN 1
+金鐘	3 PROPN 3
+金門	1 PROPN 1
+金雞	2 NOUN 2
+金靴	1 NOUN 1
+金頂	1 NOUN 1
+金額	1 NOUN 1
+金馬	2 NOUN 2
+金魚	1 NOUN 1
+金鵰	1 NOUN 1
+釜山	1 PROPN 1
+針	2 PART 2
+針劑	1 NOUN 1
+針對	4 VERB 4
+釧路	1 PROPN 1
+鈇	1 PROPN 1
+鈞	2 NOUN 1 PROPN 1
+鈦	1 NOUN 1
+鈺源	1 PROPN 1
+鉑金	1 NOUN 1
+銀	2 NOUN 2
+銀杏	1 NOUN 1
+銀河	8 PROPN 8
+銀熊	1 NOUN 1
+銀牌	1 NOUN 1
+銀白	1 NOUN 1
+銀紅	1 NOUN 1
+銀色	1 NOUN 1
+銀行	24 NOUN 23 PROPN 1
+銅	3 NOUN 3
+銅仁	1 PROPN 1
+銅像	1 NOUN 1
+銅削	1 NOUN 1
+銅斧	1 NOUN 1
+銅柄	1 NOUN 1
+銅臿	1 NOUN 1
+銅製	1 VERB 1
+銅銎	1 NOUN 1
+銅錛	1 NOUN 1
+銅錢	1 NOUN 1
+銅鑼	4 PROPN 4
+銘	1 PART 1
+銘皖	1 PROPN 1
+銘銘	1 PROPN 1
+銜稱	1 NOUN 1
+銠	1 NOUN 1
+銳利	1 ADJ 1
+銷售	6 VERB 4 NOUN 2
+銷毀	1 VERB 1
+銷量	1 NOUN 1
+鋅	2 NOUN 2
+鋒	1 PROPN 1
+鋪成	1 VERB 1
+鋪有	1 VERB 1
+鋸齒龍	1 NOUN 1
+鋼	3 PART 2 NOUN 1
+鋼板	1 NOUN 1
+鋼琴	4 NOUN 4
+鋼鐵	2 NOUN 2
+錄	4 PART 4
+錄影	1 VERB 1
+錄得	1 VERB 1
+錄放影機	1 NOUN 1
+錄製	7 VERB 7
+錄音	3 VERB 2 NOUN 1
+錢	2 NOUN 2
+錢上	1 PROPN 1
+錦	1 PART 1
+錦俊	1 PROPN 1
+錦承	1 PROPN 1
+錦標	10 NOUN 10
+錦江	1 PROPN 1
+錦田	1 PROPN 1
+錫	1 PROPN 1
+錫伯	1 PROPN 1
+錫勇	1 PROPN 1
+錫昌	1 PROPN 1
+錫金	2 PROPN 2
+錯	1 ADJ 1
+錯視	1 NOUN 1
+錯覺	1 NOUN 1
+錯誤	5 ADJ 3 NOUN 2
+錳	1 NOUN 1
+錳礦	1 NOUN 1
+鍊金	1 NOUN 1
+鍋	3 NOUN 2 PART 1
+鍋中	1 NOUN 1
+鍋內	1 NOUN 1
+鍋爐	1 NOUN 1
+鍔	1 PROPN 1
+鍛煉	1 VERB 1
+鍛鍊	1 NOUN 1
+鍝	1 PROPN 1
+鍵	3 NOUN 1 PROPN 1 PART 1
+鍵盤	2 NOUN 2
+鍾	1 PROPN 1
+鎊	5 NOUN 5
+鎖妖	1 PROPN 1
+鎖閉	1 VERB 1
+鎮	41 PART 35 NOUN 5 PROPN 1
+鎮壓	5 VERB 5
+鎮守	1 VERB 1
+鎮岳	1 PROPN 1
+鎮朔	1 PROPN 1
+鎮賚	1 PROPN 1
+鎮里	1 NOUN 1
+鎮靜	1 VERB 1
+鎰	1 PROPN 1
+鎳	3 NOUN 3
+鎳銀	1 NOUN 1
+鏈	1 PART 1
+鏡	10 PART 10
+鏡波	1 PROPN 1
+鏡湖	1 PROPN 1
+鏡片	4 NOUN 4
+鏡面	4 NOUN 4
+鏡頭	8 NOUN 8
+鐘錶	2 NOUN 2
+鐳	1 NOUN 1
+鐵	6 PART 4 NOUN 1 PROPN 1
+鐵人	3 NOUN 3
+鐵伊	2 PROPN 2
+鐵削	1 NOUN 1
+鐵匾	1 NOUN 1
+鐵棍	1 NOUN 1
+鐵民	1 PROPN 1
+鐵爐	1 PROPN 1
+鐵管	1 NOUN 1
+鐵路	46 NOUN 46
+鐵道	15 NOUN 15
+鐵釘	1 NOUN 1
+鐵銹	1 NOUN 1
+鐵錛	1 NOUN 1
+鑄幣	1 VERB 1
+鑄造	3 VERB 3
+鑑別	1 VERB 1
+鑑定	2 VERB 2
+鑑泉	1 PROPN 1
+鑑證	1 VERB 1
+鑒	5 PROPN 5
+鑒定	1 NOUN 1
+鑫新	1 PROPN 1
+鑲	1 VERB 1
+鑽入	1 VERB 1
+鑽出	1 VERB 1
+鑽探	1 VERB 1
+鑿出	1 VERB 1
+長	41 PART 22 ADJ 17 VERB 1 NOUN 1
+長久	2 ADJ 2
+長凳	1 NOUN 1
+長史	1 NOUN 1
+長城	2 NOUN 1 PROPN 1
+長大	5 VERB 5
+長女	2 NOUN 2
+長婁	1 PROPN 1
+長子	4 NOUN 4
+長孫	1 NOUN 1
+長安	3 PROPN 3
+長官	5 NOUN 5
+長岡	1 PROPN 1
+長崎	1 PROPN 1
+長州	3 PROPN 3
+長度	8 NOUN 8
+長廊	1 NOUN 1
+長廷	1 PROPN 1
+長方	1 NOUN 1
+長春	2 PROPN 2
+長期	7 NOUN 7
+長榮	1 PROPN 1
+長毛	1 VERB 1
+長江	4 PROPN 4
+長沙	5 PROPN 5
+長治	1 PROPN 1
+長溝	1 PROPN 1
+長滿	1 VERB 1
+長瑪喀比	1 PROPN 1
+長盛	1 VERB 1
+長相	3 NOUN 2 ADV 1
+長笛	1 NOUN 1
+長篇	1 NOUN 1
+長編	1 NOUN 1
+長老	2 NOUN 2
+長者	2 NOUN 2
+長興	2 PROPN 2
+長蘆	2 PROPN 2
+長跑	1 NOUN 1
+長軸	2 NOUN 2
+長途跋涉	1 VERB 1
+長達	9 VERB 9
+長遠	3 ADJ 3
+長音	2 NOUN 2
+長頸鹿	1 NOUN 1
+長髮	1 NOUN 1
+門	14 PART 10 NOUN 3 PROPN 1
+門前	3 NOUN 3
+門口	2 NOUN 2
+門廳	1 NOUN 1
+門式	1 NOUN 1
+門戶	2 NOUN 2
+門診	4 NOUN 4
+門齒	2 NOUN 2
+閃米特	1 PROPN 1
+閃長	1 ADJ 1
+閃電	1 NOUN 1
+閉日	1 VERB 1
+開	6 VERB 6
+開價	1 VERB 1
+開光	1 NOUN 1
+開入	1 VERB 1
+開創	2 VERB 2
+開口	2 AUX 1 NOUN 1
+開啟	1 VERB 1
+開場	1 VERB 1
+開墾	1 VERB 1
+開始	121 VERB 116 ADP 3 AUX 1 NOUN 1
+開學	1 VERB 1
+開展	6 VERB 6
+開工	1 VERB 1
+開幕	4 VERB 3 NOUN 1
+開往	1 VERB 1
+開心	2 ADJ 2
+開戰	1 VERB 1
+開拍	2 VERB 2
+開拓	1 VERB 1
+開挖	1 VERB 1
+開採	2 VERB 1 NOUN 1
+開播	3 VERB 3
+開支	1 NOUN 1
+開放	6 VERB 6
+開教	1 VERB 1
+開會	2 VERB 2
+開業	1 VERB 1
+開槍	1 VERB 1
+開火	2 VERB 2
+開球	1 NOUN 1
+開發	16 VERB 10 NOUN 6
+開票	1 VERB 1
+開羅	2 PROPN 2
+開設	5 VERB 5
+開賽	2 VERB 2
+開車	1 VERB 1
+開辦	1 VERB 1
+開通	2 VERB 2
+開錄	1 VERB 1
+開門	2 VERB 2
+開闢	4 VERB 4
+開除	2 VERB 2
+閏年	2 NOUN 2
+閑聊	1 VERB 1
+閑談	1 VERB 1
+閒言閒語	1 NOUN 1
+間	43 NOUN 22 ADP 19 PART 2
+間接	2 ADJ 2
+間斷	1 NOUN 1
+間碟	1 NOUN 1
+間距	1 NOUN 1
+間隙	2 NOUN 2
+閘口	1 NOUN 1
+閘機	1 NOUN 1
+閘門	2 NOUN 2
+閣	1 PART 1
+閩侯	1 PROPN 1
+閩南	1 PROPN 1
+閱讀	2 VERB 1 NOUN 1
+闊	2 ADJ 1 NOUN 1
+闖進	1 VERB 1
+關	8 PROPN 6 PART 1 VERB 1
+關中	1 PROPN 1
+關係	43 NOUN 43
+關心	4 VERB 2 ADJ 1 AUX 1
+關斷	1 VERB 1
+關於	10 ADP 9 VERB 1
+關東	2 PROPN 2
+關注	2 NOUN 1 VERB 1
+關節	3 NOUN 3
+關羽	1 PROPN 1
+關聯	2 NOUN 2
+關說	2 VERB 1 NOUN 1
+關連	1 VERB 1
+關鍵	3 NOUN 2 ADJ 1
+關門	2 NOUN 2
+關閉	2 VERB 2
+闡述	1 VERB 1
+闢	1 VERB 1
+阡陌	1 NOUN 1
+阪神	1 PROPN 1
+防凍	1 VERB 1
+防守	4 NOUN 3 VERB 1
+防止	1 VERB 1
+防盜	1 NOUN 1
+防禦	5 NOUN 4 VERB 1
+防範	2 VERB 2
+防衛	3 VERB 2 NOUN 1
+防護	1 NOUN 1
+阻塞	1 VERB 1
+阻撓	1 NOUN 1
+阻擋	2 VERB 2
+阻止	6 VERB 6
+阻礙	2 VERB 2
+阻隔	1 VERB 1
+阿	2 PROPN 2
+阿一	1 PROPN 1
+阿仙奴	1 PROPN 1
+阿保機	2 PROPN 2
+阿信	1 PROPN 1
+阿修羅	1 PROPN 1
+阿兒法	3 PROPN 3
+阿內爾卡	1 PROPN 1
+阿勒格尼郡	1 PROPN 1
+阿勝	1 PROPN 1
+阿勞	1 PROPN 1
+阿堯	1 PROPN 1
+阿姆斯特丹	2 PROPN 2
+阿寧	1 PROPN 1
+阿布	1 PROPN 1
+阿拉法特	1 PROPN 1
+阿斗	1 PROPN 1
+阿普第	1 PROPN 1
+阿曼達	1 PROPN 1
+阿東	1 PROPN 1
+阿根廷	3 PROPN 3
+阿格	2 PROPN 2
+阿格雷斯蒂	1 PROPN 1
+阿比西尼亞豬	1 NOUN 1
+阿波羅	1 PROPN 1
+阿爾巴諾	1 PROPN 1
+阿爾布巴	1 PROPN 1
+阿爾扎阿爾拉齊蓋	1 PROPN 1
+阿爾法	1 PROPN 1
+阿爾發	1 PROPN 1
+阿爾茨海默	1 PROPN 1
+阿爾高	1 PROPN 1
+阿特	1 PROPN 1
+阿猴	1 PROPN 1
+阿瑜陀耶	1 PROPN 1
+阿羅那順	1 PROPN 1
+阿美	2 PROPN 2
+阿聯酋	1 PROPN 1
+阿育	1 PROPN 1
+阿茲海默	1 PROPN 1
+阿諾	1 PROPN 1
+阿赫	1 PROPN 1
+阿里	1 PROPN 1
+阿隆索	1 PROPN 1
+阿骨打	1 PROPN 1
+附	1 VERB 1
+附上	1 VERB 1
+附加	2 NOUN 1 VERB 1
+附屬	3 NOUN 3
+附帶	2 VERB 2
+附著	2 NOUN 1 VERB 1
+附蟲	1 VERB 1
+附表	1 NOUN 1
+附身	1 VERB 1
+附近	23 NOUN 23
+降	3 VERB 2 NOUN 1
+降低	8 VERB 8
+降將	1 NOUN 1
+降格	1 VERB 1
+降水	1 VERB 1
+降班	2 VERB 2
+降級	2 VERB 2
+降臨	1 VERB 1
+降落	3 VERB 3
+降解	2 AUX 1 VERB 1
+降魔	1 VERB 1
+限	1 VERB 1
+限制	15 VERB 8 NOUN 7
+限定	1 VERB 1
+限時	1 NOUN 1
+限期	1 NOUN 1
+陝西	5 PROPN 5
+陞	1 VERB 1
+陡壁	1 NOUN 1
+院	29 PART 25 NOUN 4
+院士	1 NOUN 1
+院子	1 NOUN 1
+院校	4 NOUN 4
+院落	1 NOUN 1
+院長	6 NOUN 6
+陣	1 NOUN 1
+陣營	3 NOUN 3
+除	23 VERB 15 ADP 8
+除冰	1 VERB 1
+除夕	1 NOUN 1
+除外	3 VERB 2 ADP 1
+除此	1 VERB 1
+除籍	2 VERB 2
+除非	1 ADP 1
+陪同	1 VERB 1
+陪葬	1 VERB 1
+陪都	1 NOUN 1
+陰天	1 NOUN 1
+陰暗	1 ADJ 1
+陰陽	1 NOUN 1
+陰霾	2 NOUN 2
+陳	19 PROPN 19
+陳國	1 PROPN 1
+陳屍	1 VERB 1
+陳相	1 PROPN 1
+陳述	1 VERB 1
+陵	3 PART 3
+陵園	1 NOUN 1
+陵墓	2 NOUN 2
+陵寢	2 NOUN 2
+陶恩	1 PROPN 1
+陶瓷	3 NOUN 3
+陷入	6 VERB 6
+陷落	1 NOUN 1
+陷阱	2 NOUN 2
+陸	5 PROPN 4 PART 1
+陸仔	1 PROPN 1
+陸地	3 NOUN 3
+陸域	1 NOUN 1
+陸續	3 ADV 3
+陸行	1 ADJ 1
+陸軍	11 NOUN 11
+陽	1 PROPN 1
+陽光	4 NOUN 3 PROPN 1
+陽台	1 NOUN 1
+陽安	1 PROPN 1
+陽明	1 PROPN 1
+陽澄	2 PROPN 2
+隆亨	1 PROPN 1
+隊	50 PART 45 NOUN 5
+隊伍	4 NOUN 4
+隊列	1 NOUN 1
+隊友	2 NOUN 2
+隊名	1 NOUN 1
+隊員	6 NOUN 6
+隊徽	1 NOUN 1
+隊長	2 NOUN 2
+隋	2 PROPN 2
+隋代	2 PROPN 2
+階	4 PART 2 NOUN 2
+階層	5 NOUN 5
+階段	9 NOUN 9
+階級	6 NOUN 6
+隔	2 VERB 1 ADP 1
+隔日	1 NOUN 1
+隔開	1 VERB 1
+隔離	4 NOUN 2 VERB 2
+隕星	1 NOUN 1
+隕石	2 NOUN 2
+隕鐵	1 NOUN 1
+際	3 NOUN 2 PART 1
+際春	1 PROPN 1
+障礙	5 NOUN 5
+隠居	1 VERB 1
+隧道	9 NOUN 9
+隨	31 VERB 25 ADP 6
+隨丁	1 NOUN 1
+隨之	2 ADV 2
+隨便	1 ADV 1
+隨即	8 ADV 8
+隨同	1 ADP 1
+隨往	1 VERB 1
+隨後	11 ADV 10 ADJ 1
+隨時	1 ADJ 1
+隨機	6 ADJ 5 ADV 1
+隨軍	1 VERB 1
+隨隊	1 ADV 1
+險些	1 ADV 1
+險要	1 ADJ 1
+隱含	1 VERB 1
+隱姓埋名	1 VERB 1
+隱居	1 VERB 1
+隱性	1 ADJ 1
+隱私	2 NOUN 2
+隱藏	3 VERB 3
+隱語	3 NOUN 3
+隸屬	5 VERB 5
+隻	12 NOUN 12
+隻身	1 ADV 1
+雄	1 NOUN 1
+雄師	1 NOUN 1
+雄性	8 NOUN 8
+雄獅	1 PROPN 1
+雄龜	1 NOUN 1
+雅克	1 PROPN 1
+雅典	3 PROPN 3
+雅加達	1 PROPN 1
+雅君	1 PROPN 1
+雅麗遜	1 PROPN 1
+集	16 NOUN 11 PART 5
+集中	9 VERB 7 ADJ 1 ADV 1
+集團	23 NOUN 23
+集寧	1 PROPN 1
+集成	2 NOUN 2
+集結	1 VERB 1
+集聚	1 VERB 1
+集資	2 VERB 1 NOUN 1
+集雨	2 NOUN 2
+集體	2 NOUN 2
+雌性	1 NOUN 1
+雌獸	1 NOUN 1
+雌雄	3 ADJ 2 NOUN 1
+雌鯨	1 NOUN 1
+雌龜	1 NOUN 1
+雍正	2 PROPN 2
+雎	1 PROPN 1
+雕像	3 NOUN 3
+雕刻	6 VERB 5 NOUN 1
+雕塑	4 NOUN 3 VERB 1
+雖	7 ADP 7
+雖然	35 ADP 35
+雙	31 NUM 30 NOUN 1
+雙十	1 NUM 1
+雙子	1 PROPN 1
+雙江	1 PROPN 1
+雙立	3 PROPN 3
+雜姓	1 NOUN 1
+雜技	3 NOUN 3
+雜糧	1 NOUN 1
+雜處	1 VERB 1
+雜誌	10 NOUN 10
+雜食	1 ADJ 1
+雞腿	1 NOUN 1
+雞頭	1 NOUN 1
+離	6 ADP 4 VERB 2
+離任	2 VERB 2
+離別	1 VERB 1
+離域	1 NOUN 1
+離場	1 NOUN 1
+離婚	2 VERB 2
+離子	1 NOUN 1
+離島	1 NOUN 1
+離心	2 VERB 1 NOUN 1
+離群索居	1 VERB 1
+離職	1 VERB 1
+離開	18 VERB 18
+難	6 ADJ 5 ADV 1
+難吃	1 ADJ 1
+難度	3 NOUN 3
+難得	1 ADJ 1
+難攻	1 VERB 1
+難過	1 AUX 1
+雨季	2 NOUN 2
+雨後春筍	1 NOUN 1
+雨林	1 NOUN 1
+雨水	4 NOUN 4
+雪上加霜	1 ADJ 1
+雪佛龍	1 PROPN 1
+雪兒	1 PROPN 1
+雪崩	1 NOUN 1
+雪弟	1 PROPN 1
+雪梅	1 PROPN 1
+雪梨	3 PROPN 3
+雪橇犬	2 NOUN 2
+雪莉	3 PROPN 3
+雪貂	2 NOUN 2
+雲	3 PROPN 3
+雲中	1 NOUN 1
+雲亭	1 PROPN 1
+雲南	7 PROPN 7
+雲岩	1 PROPN 1
+雲想	2 PROPN 2
+雲松	1 PROPN 1
+雲里	1 PROPN 1
+零	3 NUM 3
+零件	1 NOUN 1
+零售	3 NOUN 2 VERB 1
+零星	2 ADJ 2
+零部件	1 NOUN 1
+零食	1 NOUN 1
+雷	1 PROPN 1
+雷克南	1 PROPN 1
+雷姆	1 PROPN 1
+雷定	1 PROPN 1
+雷曼	1 PROPN 1
+雷王	1 PROPN 1
+雷蒂亞	1 PROPN 1
+雷雨	1 NOUN 1
+電	4 PART 3 NOUN 1
+電信	1 NOUN 1
+電力	6 NOUN 6
+電動	2 ADJ 2
+電台	4 NOUN 4
+電器	2 NOUN 2
+電壓	2 NOUN 2
+電子	13 NOUN 13
+電影	49 NOUN 49
+電梯	6 NOUN 6
+電極	1 NOUN 1
+電氣	2 NOUN 2
+電池	6 NOUN 6
+電流	2 NOUN 2
+電瓶	1 NOUN 1
+電磁	4 NOUN 4
+電線	1 NOUN 1
+電纜	2 NOUN 2
+電能	2 NOUN 2
+電腦	28 NOUN 28
+電視	45 NOUN 45
+電訊	4 NOUN 4
+電話	9 NOUN 9
+電路	2 NOUN 2
+電車	6 NOUN 6
+電通	1 NOUN 1
+電邀	1 VERB 1
+電鐵	2 NOUN 2
+需	12 AUX 9 VERB 3
+需時	1 VERB 1
+需求	8 NOUN 8
+需要	34 VERB 14 AUX 14 NOUN 6
+霆鋒	1 PROPN 1
+震動	2 VERB 2
+震寰	1 PROPN 1
+震波	1 NOUN 1
+震災	1 NOUN 1
+震盪	2 NOUN 2
+震驚	2 ADJ 2
+霍	2 PROPN 2
+霍亂	1 NOUN 1
+霍姆	1 PROPN 1
+霍巴特	1 PROPN 1
+霍斯	1 PROPN 1
+霍普	2 PROPN 2
+霍爾滕	1 PROPN 1
+霍爾特	1 PROPN 1
+霞	1 PROPN 1
+霧	1 NOUN 1
+露出	1 VERB 1
+露比	1 PROPN 1
+露臉	1 VERB 1
+露西	1 PROPN 1
+露面	1 VERB 1
+霸主	2 NOUN 2
+霸佔	1 VERB 1
+霸權	1 NOUN 1
+霸王	2 NOUN 2
+靈	3 NOUN 3
+靈前	1 NOUN 1
+靈力	1 NOUN 1
+靈性	1 NOUN 1
+靈感	1 NOUN 1
+靈柩	1 NOUN 1
+靈活	1 ADJ 1
+靈異	1 ADJ 1
+靈籤	1 NOUN 1
+靈素	2 PROPN 2
+靈長	1 NOUN 1
+靈魂	1 NOUN 1
+青	1 PROPN 1
+青島	3 PROPN 3
+青年	9 NOUN 9
+青梅	1 PROPN 1
+青森	1 PROPN 1
+青海	5 PROPN 5
+青睞	1 VERB 1
+青聯	2 PROPN 2
+青藏	2 PROPN 2
+青蛙	2 NOUN 2
+青訓	1 NOUN 1
+青金	1 NOUN 1
+青銅	4 NOUN 4
+靖	1 PROPN 1
+靖王	1 PROPN 1
+靖雯	1 PROPN 1
+靜安	1 PROPN 1
+靜岡	1 PROPN 1
+靜態	4 NOUN 4
+靜脈	4 NOUN 4
+靜華	1 PROPN 1
+靜電	2 NOUN 2
+非	27 PART 9 PROPN 8 AUX 5 VERB 4 ADV 1
+非常	31 ADV 31
+非法	4 ADJ 3 ADV 1
+非洲	8 PROPN 8
+靠	8 ADP 6 VERB 1 AUX 1
+靠右	1 VERB 1
+靠左	1 VERB 1
+靠近	4 VERB 4
+面	12 NOUN 8 PART 4
+面具	1 NOUN 1
+面向	1 VERB 1
+面對	7 VERB 7
+面積	80 NOUN 80 ***
+面臨	2 VERB 2
+面試	2 NOUN 2
+面貌	1 NOUN 1
+面部	2 NOUN 2
+革命	17 NOUN 17
+革除	1 VERB 1
+鞏	1 PROPN 1
+鞏固	3 VERB 3
+鞦韆	1 NOUN 1
+韃靼	1 PROPN 1
+韋	1 PROPN 1
+韋契特	1 PROPN 1
+韋德	1 PROPN 1
+韋拿	1 PROPN 1
+韋斯特	1 PROPN 1
+韋科	1 PROPN 1
+韌	1 ADJ 1
+韓	21 PROPN 21
+韓國	7 PROPN 7
+韓氏	1 PROPN 1
+韓浜	1 PROPN 1
+音	4 PART 4
+音律	1 NOUN 1
+音樂	52 NOUN 52
+音系	2 NOUN 2
+音色	1 NOUN 1
+音變	2 NOUN 2
+音量	1 NOUN 1
+音頻	3 NOUN 3
+音高	1 NOUN 1
+韶之	1 PROPN 1
+韻律	2 NOUN 2
+響號	1 VERB 1
+頂	2 VERB 1 NOUN 1
+頂上	1 VERB 1
+頂尖	1 ADJ 1
+頂層	3 NOUN 3
+頂峰	2 NOUN 2
+頂端	1 NOUN 1
+頂級	1 ADJ 1
+頂部	1 NOUN 1
+項	27 NOUN 26 PROPN 1
+項目	14 NOUN 14
+項鏈	1 NOUN 1
+順	4 PROPN 2 VERB 2
+順位	4 NOUN 4
+順利	3 ADV 2 ADJ 1
+順宗	1 NOUN 1
+順岸	1 VERB 1
+順序	2 NOUN 2
+順德	2 PROPN 2
+順應	1 VERB 1
+順懷	1 PROPN 1
+順治	1 PROPN 1
+順滑	1 ADJ 1
+順陽	1 PROPN 1
+須	6 AUX 6
+頌平	1 PROPN 1
+頌揚	1 PROPN 1
+頌歌	1 VERB 1
+預	1 ADV 1
+預估	1 VERB 1
+預備	2 NOUN 1 VERB 1
+預先	3 ADV 3
+預告	1 VERB 1
+預定	2 NOUN 1 VERB 1
+預期	5 NOUN 3 VERB 2
+預測	5 VERB 3 NOUN 2
+預留	1 VERB 1
+預知	1 VERB 1
+預示	1 VERB 1
+預算	5 NOUN 5
+預約	1 VERB 1
+預言	2 NOUN 2
+預計	3 VERB 3
+預防	5 NOUN 3 VERB 2
+頑石	1 NOUN 1
+頒布	2 VERB 2
+頒獎	1 VERB 1
+頒發	2 VERB 2
+頒給	1 VERB 1
+頓	2 NOUN 2
+頗	1 ADV 1
+頗多	1 ADJ 1
+頗大	1 ADJ 1
+頗有	1 VERB 1
+頗盛	1 ADJ 1
+頗豐	1 ADJ 1
+領事	1 NOUN 1
+領先	7 VERB 4 NOUN 2 ADJ 1
+領取	1 VERB 1
+領土	5 NOUN 5
+領地	2 NOUN 2
+領域	18 NOUN 18
+領奏	1 VERB 1
+領導	19 VERB 13 NOUN 6
+領獎	1 VERB 1
+領航	1 VERB 1
+領袖	7 NOUN 7
+領軍	1 VERB 1
+領隊	1 NOUN 1
+頡	1 PROPN 1
+頭	4 PART 3 NOUN 1
+頭上	1 NOUN 1
+頭前	1 NOUN 1
+頭型	1 NOUN 1
+頭尾	1 NOUN 1
+頭槌	1 NOUN 1
+頭版	1 NOUN 1
+頭盔	1 NOUN 1
+頭等	2 NOUN 2
+頭紗	1 NOUN 1
+頭部	2 NOUN 2
+頭銜	3 NOUN 3
+頭髮	1 NOUN 1
+頸	1 NOUN 1
+頸部	1 NOUN 1
+頹垣	1 NOUN 1
+頻	1 NOUN 1
+頻寬	1 NOUN 1
+頻散	1 NOUN 1
+頻率	5 NOUN 5
+頻繁	1 ADJ 1
+頻譜	3 NOUN 3
+頻道	9 NOUN 9
+頻頻	1 ADV 1
+顆	18 NOUN 18
+題	4 PART 3 NOUN 1
+題寫	3 VERB 3
+題材	7 NOUN 7
+題獻	1 VERB 1
+題記	1 NOUN 1
+額	4 PART 4
+額外	2 ADJ 2
+額度	1 NOUN 1
+顏色	9 NOUN 9
+願意	4 AUX 4
+願望	2 NOUN 2
+類	18 PART 11 NOUN 7
+類似	10 VERB 7 ADJ 3
+類別	1 NOUN 1
+類固醇	1 NOUN 1
+類型	21 NOUN 21
+顥	1 PROPN 1
+顧	2 PROPN 2
+顧問	7 NOUN 7
+顯	1 AUX 1
+顯光	1 PROPN 1
+顯徑	1 PROPN 1
+顯得	2 AUX 1 VERB 1
+顯現	1 VERB 1
+顯示	15 VERB 15
+顯聖	2 VERB 2
+顯著	2 ADJ 2
+顯靈	1 VERB 1
+風	3 PART 3
+風俗	2 NOUN 2
+風化	1 NOUN 1
+風尚	1 NOUN 1
+風景	2 NOUN 2
+風暴	7 NOUN 7
+風格	20 NOUN 20
+風氣	2 NOUN 2
+風波	1 NOUN 1
+風濕	2 NOUN 2
+風行	1 VERB 1
+風間	1 PROPN 1
+風險	5 NOUN 5
+風雨	1 NOUN 1
+風雲	2 NOUN 2
+風靡	2 VERB 2
+颱風	4 NOUN 4
+飈	1 PROPN 1
+飛	4 PROPN 3 VERB 1
+飛往	1 VERB 1
+飛抵	1 VERB 1
+飛機	18 NOUN 18
+飛毛	1 VERB 1
+飛沫	1 NOUN 1
+飛碟	1 NOUN 1
+飛行	12 VERB 8 NOUN 4
+飛鏢	1 NOUN 1
+飛靶	1 NOUN 1
+飛鳥	1 PROPN 1
+飛龍	1 NOUN 1
+食	3 NOUN 3
+食人	1 VERB 1
+食品	5 NOUN 5
+食夢	2 VERB 2
+食材	2 NOUN 2
+食物	14 NOUN 14
+食用	7 VERB 7
+食米	1 NOUN 1
+食肆	1 NOUN 1
+食肉	1 NOUN 1
+食蟲	1 NOUN 1
+食鹽	1 NOUN 1
+飢荒	2 NOUN 2
+飯	2 NOUN 1 PART 1
+飲品	2 NOUN 2
+飲料	5 NOUN 5
+飲用	2 VERB 2
+飲茶	1 VERB 1
+飲食	3 NOUN 2 VERB 1
+飼料	1 NOUN 1
+飼草	1 NOUN 1
+飼養	4 VERB 4
+飽和	1 ADJ 1
+飽經	1 VERB 1
+飾	5 VERB 5
+飾演	3 VERB 3
+飾物	1 NOUN 1
+餃子	1 NOUN 1
+餅	1 PART 1
+養份	1 NOUN 1
+養大	1 VERB 1
+養女	1 NOUN 1
+養母	1 NOUN 1
+養父	1 NOUN 1
+養精蓄銳	1 VERB 1
+養育	1 NOUN 1
+養菊	1 NOUN 1
+養蠶	1 VERB 1
+餐	4 NOUN 2 PART 2
+餐廳	8 NOUN 8
+餐車	1 NOUN 1
+餘	1 NOUN 1
+餘下	5 VERB 5
+餘熱	1 NOUN 1
+餘眾	1 NOUN 1
+餘額	3 NOUN 3
+館	39 PART 39
+館前	1 NOUN 1
+館名	1 NOUN 1
+館址	1 NOUN 1
+館藏	2 NOUN 2
+饃	1 PART 1
+饑荒	2 NOUN 2
+饑餓	1 NOUN 1
+饒平	1 PROPN 1
+饒舌	2 NOUN 2
+饕餮	1 NOUN 1
+首	11 NOUN 9 DET 1 NUM 1
+首仗	1 NOUN 1
+首任	3 NUM 2 DET 1
+首位	4 NUM 3 NOUN 1
+首個	1 NUM 1
+首先	6 ADV 6
+首名	1 NOUN 1
+首場	1 NUM 1
+首屈一指	1 VERB 1
+首席	1 NOUN 1
+首府	8 NOUN 8
+首戰	1 NOUN 1
+首批	1 NUM 1
+首播	2 VERB 1 NOUN 1
+首日	1 NUM 1
+首映	1 NOUN 1
+首條	1 DET 1
+首次	17 NUM 17
+首演	3 NOUN 2 VERB 1
+首爾	2 PROPN 2
+首相	5 NOUN 5
+首腦	2 NOUN 2
+首艦	1 NOUN 1
+首讀	1 NOUN 1
+首部	2 NUM 1 DET 1
+首都	10 NOUN 10
+首領	4 NOUN 4
+香	1 PROPN 1
+香亭	1 PROPN 1
+香儂	1 PROPN 1
+香吉士	1 PROPN 1
+香味	1 NOUN 1
+香坊	1 PROPN 1
+香塍	1 PROPN 1
+香成	1 PROPN 1
+香水	1 PROPN 1
+香洲	1 PROPN 1
+香港	84 PROPN 84 ***
+香火	1 NOUN 1
+香織	1 PROPN 1
+香蕉	2 NOUN 2
+馬	14 PROPN 9 NOUN 4 PART 1
+馬丁	2 PROPN 2
+馬丁尼茲	1 PROPN 1
+馬上	1 ADV 1
+馬來	3 PROPN 3
+馬來亞	3 PROPN 3
+馬修	1 PROPN 1
+馬克安諾	1 PROPN 1
+馬克思	2 PROPN 2
+馬內阿	1 PROPN 1
+馬六甲	1 PROPN 1
+馬匹	1 NOUN 1
+馬喇	1 PROPN 1
+馬圈	1 PROPN 1
+馬德里	3 PROPN 3
+馬托格羅索	1 PROPN 1
+馬拉松	2 NOUN 2
+馬爾他	1 PROPN 1
+馬爾默	1 PROPN 1
+馬球	1 NOUN 1
+馬約拉那	1 PROPN 1
+馬耳他	2 PROPN 2
+馬莎	1 PROPN 1
+馬薩	1 PROPN 1
+馬薩諸塞	1 PROPN 1
+馬賽	1 PROPN 1
+馬赫盧普	1 PROPN 1
+馬路	1 NOUN 1
+馬達	5 NOUN 5
+馬里內蒂	1 PROPN 1
+馬里奧	2 PROPN 2
+馬鞍	1 PROPN 1
+馬黑麻	1 PROPN 1
+馮	5 PROPN 5
+馳名	1 VERB 1
+馴化	1 VERB 1
+駐	10 VERB 10
+駐任	1 VERB 1
+駐地	1 NOUN 1
+駐守	7 VERB 7
+駐紮	2 NOUN 1 VERB 1
+駐足	2 VERB 2
+駐防	1 VERB 1
+駕崩	1 VERB 1
+駕駛	2 VERB 2
+駙馬	1 NOUN 1
+駛	1 VERB 1
+駛入	1 VERB 1
+駛過	1 VERB 1
+駿	2 PROPN 2
+駿業	1 PROPN 1
+騁遠	1 PROPN 1
+騎	1 NOUN 1
+騎兵	6 NOUN 6
+騎士	5 NOUN 5
+騎馬	1 VERB 1
+騏一郎	1 PROPN 1
+騙徒	1 NOUN 1
+騰出	1 VERB 1
+騰訊	1 PROPN 1
+騷擾	1 VERB 1
+驅	1 VERB 1
+驅動	3 VERB 3
+驅逐	3 VERB 3
+驗屍	1 VERB 1
+驗票	1 NOUN 1
+驗證	1 VERB 1
+驗電	1 VERB 1
+驚人	1 ADJ 1
+驚動	1 VERB 1
+驚喜	1 NOUN 1
+驚嘆	1 NOUN 1
+驚覺	1 VERB 1
+驚訝	1 ADJ 1
+驚醒	1 VERB 1
+驟減	1 VERB 1
+驟逝	1 VERB 1
+驢肉	1 NOUN 1
+驥	1 PROPN 1
+骨	2 NOUN 1 PART 1
+骨幹	1 NOUN 1
+骨頭	2 NOUN 2
+骨髓	2 NOUN 2
+骯髒	1 ADJ 1
+骷髏	1 NOUN 1
+體	21 PART 18 NOUN 3
+體側	1 NOUN 1
+體內	4 NOUN 4
+體制	3 NOUN 3
+體力	2 NOUN 2
+體型	5 NOUN 5
+體外	1 NOUN 1
+體委	1 NOUN 1
+體工	1 NOUN 1
+體操	3 NOUN 3
+體會	1 VERB 1
+體校	3 NOUN 3
+體溫	1 NOUN 1
+體現	7 VERB 7
+體積	5 NOUN 5
+體系	7 NOUN 7
+體育	19 NOUN 19
+體色	5 NOUN 5
+體裁	1 NOUN 1
+體重	2 NOUN 2
+體長	4 NOUN 4
+體驗	2 NOUN 1 VERB 1
+體魄	1 NOUN 1
+髖骨	1 NOUN 1
+高	42 ADJ 24 PART 11 PROPN 6 VERB 1
+高下	1 ADJ 1
+高中	8 NOUN 8
+高低	2 NOUN 2
+高低槓	3 NOUN 3
+高傲	1 ADJ 1
+高傲不群	1 ADJ 1
+高出	1 VERB 1
+高升	1 NOUN 1
+高原	4 NOUN 4
+高地	2 NOUN 2
+高壓	2 NOUN 2
+高大	1 ADJ 1
+高層	3 NOUN 3
+高山	4 NOUN 4
+高峰	1 NOUN 1
+高平	2 PROPN 2
+高度	25 NOUN 23 ADJ 2
+高座	1 NOUN 1
+高手	1 NOUN 1
+高效	1 ADJ 1
+高新	1 PROPN 1
+高杉	1 PROPN 1
+高架	4 NOUN 4
+高校	2 NOUN 2
+高檔	1 ADJ 1
+高止	2 PROPN 2
+高清	1 ADJ 1
+高溫	4 NOUN 3 ADJ 1
+高漲	1 NOUN 1
+高熱	1 NOUN 1
+高燥	1 ADJ 1
+高爾夫	1 NOUN 1
+高琦	1 PROPN 1
+高盧	1 PROPN 1
+高等	11 ADJ 6 NOUN 5
+高級	7 ADJ 7
+高聳	1 ADJ 1
+高能	2 NOUN 1 PROPN 1
+高興	2 ADJ 2
+高處	1 NOUN 1
+高買	1 VERB 1
+高質	1 ADJ 1
+高超	1 ADJ 1
+高速	16 ADJ 12 NOUN 2 ADV 2
+高達	7 VERB 7
+高郵	2 PROPN 2
+高雄	1 PROPN 1
+高高在上	1 VERB 1
+高麗	3 PROPN 3
+高齡	1 NOUN 1
+髮	1 NOUN 1
+髮型	1 NOUN 1
+髮生	1 VERB 1
+髮辮	1 NOUN 1
+鬆散	2 ADJ 2
+鬆髻	1 NOUN 1
+鬚	1 NOUN 1
+鬚鯨	1 NOUN 1
+鬥爭	4 NOUN 4
+鬥雞	1 NOUN 1
+鬧	1 VERB 1
+鬧出	1 VERB 1
+鬼	2 PART 1 NOUN 1
+鬼影	1 NOUN 1
+鬼怪	1 NOUN 1
+鬼道	1 NOUN 1
+魁智	1 PROPN 1
+魅力	2 NOUN 2
+魅惑	1 NOUN 1
+魏	2 PROPN 2
+魏國	1 PROPN 1
+魏氏	1 PROPN 1
+魔力	1 NOUN 1
+魔法	7 NOUN 7
+魔界	1 NOUN 1
+魔石	1 NOUN 1
+魔鬼	1 NOUN 1
+魚	7 PART 4 NOUN 3
+魚尾	1 NOUN 1
+魚腹	1 NOUN 1
+魚苗	1 NOUN 1
+魚雷	2 NOUN 2
+魚頭	2 NOUN 2
+魚類	1 NOUN 1
+魯	1 PROPN 1
+魯伯	1 PROPN 1
+魯國	1 PROPN 1
+魯殊	2 PROPN 2
+魯特	1 PROPN 1
+魯良新元	1 PROPN 1
+魯茨科伊	1 PROPN 1
+魯西迪	1 PROPN 1
+鮑亞士	1 PROPN 1
+鮑克瑟	1 PROPN 1
+鮑爾溫	1 PROPN 1
+鮑維	1 PROPN 1
+鮑魚	1 NOUN 1
+鮮	1 PART 1
+鮮明	2 ADJ 2
+鮮有	1 VERB 1
+鮮用	1 VERB 1
+鮮虞	1 PROPN 1
+鯉形	2 NOUN 2
+鯉科	2 NOUN 2
+鯉齒	1 NOUN 1
+鰂魚	2 PROPN 2
+鰓蓋	1 NOUN 1
+鰭條	1 NOUN 1
+鰺沢駅	1 PROPN 1
+鱗	1 NOUN 1
+鱗甲	1 NOUN 1
+鱗骨	1 NOUN 1
+鱸形	2 NOUN 2
+鳥	1 PART 1
+鳥取	2 PROPN 2
+鳥獸	1 NOUN 1
+鳥種	1 NOUN 1
+鳥綱	2 NOUN 2
+鳥類	4 NOUN 4
+鳳	1 PROPN 1
+鳳凰	2 PROPN 2
+鳳山	3 PROPN 3
+鳳彬	1 PROPN 1
+鳳翔	2 PROPN 2
+鳴叫	1 VERB 1
+鳴放	1 VERB 1
+鳴道	1 PROPN 1
+鴛鴦	1 NOUN 1
+鴻南	1 PROPN 1
+鴻章	1 PROPN 1
+鴻績	1 PROPN 1
+鴻華	1 PROPN 1
+鴻超	1 PROPN 1
+鴻逵	1 PROPN 1
+鴻銘	1 PROPN 1
+鵪鶉	1 NOUN 1
+鹼	2 NOUN 1 PART 1
+鹽	1 NOUN 1
+鹽城	1 PROPN 1
+鹽州	1 PROPN 1
+鹽酸	1 NOUN 1
+鹿	2 NOUN 2
+鹿兒	2 PROPN 2
+鹿兒島	1 PROPN 1
+鹿鼎	1 NOUN 1
+麒	1 PROPN 1
+麗晶	1 PROPN 1
+麗泰	1 PROPN 1
+麗珍	1 PROPN 1
+麗珠	2 PROPN 2
+麗茲	2 PROPN 2
+麗華	1 PROPN 1
+麗閣	1 PROPN 1
+麥克	1 PROPN 1
+麥克塞	2 PROPN 2
+麥拉倫	1 PROPN 1
+麥田	3 NOUN 3
+麥當勞	1 PROPN 1
+麥芽	1 NOUN 1
+麥迪文	1 PROPN 1
+麩氨酸	1 NOUN 1
+麵	1 NOUN 1
+麵團	1 NOUN 1
+麵皮	1 NOUN 1
+麻城	1 PROPN 1
+麻塞諸塞	1 PROPN 1
+麻將	1 NOUN 1
+麻布	1 NOUN 1
+麻木	1 NOUN 1
+麻河	2 PROPN 2
+麻痹	1 ADJ 1
+麻省	2 PROPN 2
+麻薩諸塞	1 PROPN 1
+黃	15 PROPN 14 NOUN 1
+黃埔	4 PROPN 4
+黃岡	1 PROPN 1
+黃巾	1 NOUN 1
+黃帝	2 PROPN 2
+黃昏	1 NOUN 1
+黃沙	1 PROPN 1
+黃河	2 PROPN 2
+黃色	2 NOUN 2
+黃蜂	1 NOUN 1
+黃金	3 NOUN 3
+黎	6 PROPN 6
+黎家	1 PROPN 1
+黎明	1 NOUN 1
+黎筍	1 PROPN 1
+黑	4 NOUN 4
+黑人	5 NOUN 5
+黑奴	1 NOUN 1
+黑子	3 NOUN 3
+黑帶	1 NOUN 1
+黑幫	2 NOUN 2
+黑手	1 NOUN 1
+黑斑	3 NOUN 3
+黑暗	1 ADJ 1
+黑木	1 PROPN 1
+黑板	1 NOUN 1
+黑死	1 VERB 1
+黑池	1 PROPN 1
+黑洞	3 NOUN 3
+黑海	1 PROPN 1
+黑色	4 NOUN 4
+黑衫	1 NOUN 1
+黑貓	2 NOUN 2
+黑錢	1 NOUN 1
+黑鐵木	1 NOUN 1
+黑雲	1 NOUN 1
+黑髮	1 NOUN 1
+黑龍	2 PROPN 2
+黔	2 PROPN 2
+默比施	1 PROPN 1
+默默	1 ADV 1
+黛安娜	1 PROPN 1
+黛比	3 PROPN 3
+黛絲	1 PROPN 1
+點	27 PART 22 NOUN 4 ADJ 1
+點擊	2 VERB 2
+點數	2 NOUN 2
+點球	2 NOUN 2
+點陣	1 NOUN 1
+點點頭	1 VERB 1
+黨	51 PART 46 NOUN 5
+黨員	3 NOUN 3
+黨團	1 NOUN 1
+黨委	1 NOUN 1
+黨校	1 NOUN 1
+黨歌	1 NOUN 1
+黨派	2 NOUN 2
+黨籍	4 NOUN 4
+黨衛	1 NOUN 1
+黨部	1 NOUN 1
+黨魁	1 NOUN 1
+鼎灶	1 NOUN 1
+鼎盛	2 ADJ 2
+鼎芬	1 PROPN 1
+鼎金	1 PROPN 1
+鼓動	1 NOUN 1
+鼓勵	4 VERB 4
+鼓手	1 NOUN 1
+鼠疫	2 NOUN 2
+鼬鼠	1 NOUN 1
+齊	3 PROPN 3
+齊克果	2 PROPN 2
+齊國	1 PROPN 1
+齋	1 PART 1
+齒擦	2 VERB 2
+齒狀	1 NOUN 1
+齒軌	2 NOUN 2
+齒輪	1 NOUN 1
+齧齒	2 NOUN 2
+齲齒	1 NOUN 1
+龍	3 PROPN 3
+龍台	1 PROPN 1
+龍女	1 PROPN 1
+龍文	1 PROPN 1
+龍耳	1 PROPN 1
+龍頭	1 NOUN 1
+龍馬	3 PROPN 3
+龐	1 PROPN 1
+龐大	5 ADJ 5
+龐特佛雷特	1 PROPN 1
+龐貝	1 PROPN 1
+龜茲	1 PROPN 1
+
+[LEX:colls]
+1:NUM 日:NOUN	26 NOUN 26
+1:NUM 月:NOUN	37 NOUN 37
+2:NUM 日:NOUN	13 NOUN 13
+2:NUM 月:NOUN	30 NOUN 30
+3:NUM 日:NOUN	8 NOUN 8
+3:NUM 月:NOUN	43 NOUN 43
+一:NUM 個:NOUN	245 NOUN 245
+一:NUM 名:NOUN	31 NOUN 31
+一:NUM 年:NOUN	13 NOUN 13
+一:NUM 所:NOUN	7 NOUN 7
+一:NUM 次:NOUN	23 NOUN 23
+一:NUM 種:NOUN	62 NOUN 62
+一:NUM 部:NOUN	18 NOUN 18
+三:NUM 個:NOUN	10 NOUN 10
+上:ADP 最:ADV	5 ADV 5
+上:ADP 有:VERB	6 VERB 6
+上:ADP 的:PART	31 PART 31
+上:NOUN 的:PART	12 PART 12
+不同:ADJ 的:PART	26 PART 26
+世界:NOUN 上:ADP	8 ADP 8
+並:ADV 不:ADV	18 ADV 18
+並:ADV 在:ADP	21 ADP 21
+並:ADV 於:ADP	10 ADP 10
+並:ADV 沒有:VERB	13 VERB 13
+並:ADV 與:ADP	6 ADP 6
+中:ADP 有:VERB	7 VERB 7
+中:ADP 的:PART	56 PART 56
+中:ADP 被:VERB	7 VERB 7
+中國:PROPN 的:PART	9 PART 9
+之:PART 一:NUM	69 NUM 69
+也:ADV 不:ADV	5 ADV 5
+也:ADV 可以:AUX	8 AUX 8
+也:ADV 在:ADP	5 ADP 5
+也:ADV 成:VERB	8 VERB 8
+也:ADV 會:AUX	8 AUX 8
+也:ADV 有:VERB	17 VERB 17
+也:ADV 被:VERB	12 VERB 12
+人:NOUN 在:ADP	7 ADP 7
+人:NOUN 的:PART	11 PART 11
+人:PART 和:CCONJ	9 CCONJ 9
+人:PART 的:PART	14 PART 14
+人口:NOUN 為:AUX	27 AUX 27
+他:PRON 在:ADP	21 ADP 21
+他:PRON 在:VERB	11 VERB 11
+他:PRON 是:AUX	14 AUX 14
+他:PRON 曾:ADV	8 ADV 8
+他:PRON 的:PART	81 PART 81
+他:PRON 還:ADV	5 ADV 5
+他們:PRON.P 的:PART	24 PART 24
+但:ADV 在:ADP	15 ADP 15
+但:ADV 由於:ADP	6 ADP 6
+使用:VERB 的:PART	13 PART 13
+個:NOUN 人:NOUN	13 NOUN 13
+個:NOUN 月:NOUN	17 NOUN 17
+兩:NUM 人:NOUN	22 NOUN 22
+兩:NUM 個:NOUN	34 NOUN 34
+兩:NUM 次:NOUN	10 NOUN 10
+兩:NUM 種:NOUN	12 NOUN 12
+兩:NUM 者:NOUN	7 NOUN 7
+公司:NOUN 的:PART	8 PART 8
+其中:NOUN 一:NUM	19 NUM 19
+則:ADV 會:AUX	6 AUX 6
+區:PART 的:PART	9 PART 9
+及:CCONJ 其:PRON	10 PRON 10
+因:ADP 此:PRON	70 PRON 70
+因為:ADP 他:PRON	7 PRON 7
+國家:NOUN 的:PART	11 PART 11
+在:ADP 一:NUM	15 NUM 15
+在:ADP 他:PRON	14 PRON 14
+在:ADP 其:PRON	7 PRON 7
+在:ADP 對:ADP	5 ADP 5
+在:ADP 此:DET	7 DET 7
+在:ADP 這:DET	13 DET 13
+在:VERB 中國:PROPN	14 PROPN 14
+在:VERB 於:VERB	8 VERB 8
+地區:NOUN 的:PART	16 PART 16
+她:PRON 在:ADP	10 ADP 10
+她:PRON 是:AUX	7 AUX 7
+她:PRON 的:PART	21 PART 21
+將:ADV 會:AUX	7 AUX 7
+將:VERB 他:PRON	7 PRON 7
+就:ADV 可以:AUX	6 AUX 6
+就:ADV 在:ADP	5 ADP 5
+就:ADV 會:AUX	5 AUX 5
+州:PART 的:PART	10 PART 10
+已:ADV 於:ADP	7 ADP 7
+已:ADV 有:VERB	8 VERB 8
+市:PART 的:PART	10 PART 10
+年:NOUN 1:NUM	30 NUM 30
+年:NOUN 2:NUM	27 NUM 27
+年:NOUN 3:NUM	32 NUM 32
+年:NOUN 人口:NOUN	19 NOUN 19
+年:NOUN 他:PRON	13 PRON 13
+年:NOUN 在:VERB	11 VERB 11
+年:NOUN 後:ADP	10 ADP 10
+年:NOUN 時:ADP	30 ADP 30
+年:NOUN 由:VERB	7 VERB 7
+年:NOUN 的:PART	40 PART 40
+年:NOUN 美國:PROPN	10 PROPN 10
+從:ADP 一:NUM	5 NUM 5
+性:PART 的:PART	22 PART 22
+成:VERB 為:VERB	107 VERB 107
+所:ADV 在:VERB	8 VERB 8
+於:VERB 中國:PROPN	17 PROPN 17
+於:VERB 美國:PROPN	13 PROPN 13
+於:VERB 香港:PROPN	9 PROPN 9
+日:PROPN 軍:PART	19 PART 19
+是:AUX 一:NUM	100 NUM 100
+是:AUX 中國:PROPN	27 PROPN 27
+是:AUX 個:NOUN	8 NOUN 8
+是:AUX 日本:PROPN	10 PROPN 10
+是:AUX 最:ADV	8 ADV 8
+是:AUX 由:VERB	6 VERB 6
+是:AUX 美國:PROPN	8 PROPN 8
+是:AUX 香港:PROPN	11 PROPN 11
+是:VERB 以:ADP	6 ADP 6
+是:VERB 因為:ADP	9 ADP 9
+是:VERB 在:ADP	19 ADP 19
+是:VERB 由:VERB	16 VERB 16
+時:ADP 會:AUX	5 AUX 5
+時:ADP 的:PART	32 PART 32
+曾:ADV 被:VERB	8 VERB 8
+會:AUX 以:ADP	5 ADP 5
+會:AUX 在:ADP	6 ADP 6
+會:AUX 有:VERB	7 VERB 7
+會:PART 的:PART	8 PART 8
+月:NOUN 1:NUM	25 NUM 25
+月:NOUN 2:NUM	13 NUM 13
+月:NOUN 3:NUM	8 NUM 8
+月:NOUN 的:PART	9 PART 9
+有:VERB 一:NUM	22 NUM 22
+有:VERB 人:NOUN	15 NOUN 15
+有:VERB 人口:NOUN	14 NOUN 14
+有:VERB 兩:NUM	13 NUM 13
+有:VERB 所:ADV	5 ADV 5
+有:VERB 著:PART	11 PART 11
+次:NOUN 世界:NOUN	9 NOUN 9
+為:ADP 此:PRON	6 PRON 6
+為:AUX 一:NUM	13 NUM 13
+為:AUX 名:NOUN	6 NOUN 6
+為:VERB 一:NUM	13 NUM 13
+用:VERB 於:VERB	18 VERB 18
+的:PART 一:NUM	120 NUM 120
+的:PART 三:NUM	9 NUM 9
+的:PART 世界:NOUN	8 NOUN 8
+的:PART 人:NOUN	23 NOUN 23
+的:PART 人口:NOUN	31 NOUN 31
+的:PART 兩:NUM	15 NUM 15
+的:PART 國家:NOUN	10 NOUN 10
+的:PART 大:PART	9 PART 9
+的:PART 是:AUX	15 AUX 15
+的:PART 是:VERB	15 VERB 15
+的:PART 第一:NUM	20 NUM 20
+稱:VERB 為:VERB	36 VERB 36
+第一:NUM 個:NOUN	13 NOUN 13
+第一:NUM 次:NOUN	21 NOUN 21
+等:NOUN 人:NOUN	11 NOUN 11
+等:NOUN 地:NOUN	12 NOUN 12
+者:PART 的:PART	12 PART 12
+而:ADV 在:ADP	10 ADP 10
+而:ADV 成:VERB	6 VERB 6
+自己:PRON 的:PART	33 PART 33
+被:VERB 用:VERB	9 VERB 9
+被:VERB 稱:VERB	13 VERB 13
+該:DET 公司:NOUN	9 NOUN 9
+軍:PART 的:PART	9 PART 9
+這:DET 一:NUM	20 NUM 20
+這:DET 三:NUM	6 NUM 6
+這:DET 個:NOUN	50 NOUN 50
+這:DET 兩:NUM	15 NUM 15
+這:DET 次:NOUN	10 NOUN 10
+這:DET 種:NOUN	37 NOUN 37
+這:DET 部:NOUN	6 NOUN 6
+這:PRON 是:AUX	12 AUX 12
+這:PRON 是:VERB	9 VERB 9
+還:ADV 有:VERB	22 VERB 22
+部:PART 的:PART	10 PART 10
+都:ADV 可以:AUX	6 AUX 6
+都:ADV 會:AUX	9 AUX 9
+都:ADV 有:VERB	8 VERB 8
+
+[LEX:unknown]
+A	14 X 14
+A*	55 X 55
+A*A	4 X 4
+A*C	8 X 8
+A*I	7 X 7
+A*P	6 X 6
+A*e	4 X 4
+Aa*	95 X 93 PROPN 2
+Aa*e	25 X 25
+Aa*n	20 X 20
+Aa*on	10 X 10
+Aa*s	9 X 8 PROPN 1
+Aa*t	5 X 5
+Aa*ty	6 X 6
+Aa*y	13 X 12 PROPN 1
+Ad*	4 X 4
+_	24 PUNCT 19 PUNCT.! 3 SYM 2
+_*	7 PUNCT 4 X 2 NOUN 1
+_*.	4 PUNCT 4
+a	1391 PROPN 361 PART 305 NOUN 289 VERB 280 ADV 44 ADP 34 ADJ 27 AUX 17 NUM 11 CCONJ 8 PRON 6 DET 5 X 4
+a*	11387 NOUN 5498 VERB 2705 PROPN 2002 ADJ 607 ADV 238 NUM 120 AUX 66 ADP 62 DET 51 PRON 21 X 14
+a*一	4 NUM 4
+a*世	4 PROPN 4
+a*亞	69 PROPN 68 NOUN 1
+a*伯	7 PROPN 7
+a*克	24 PROPN 24
+a*利	7 PROPN 7
+a*利亞	12 PROPN 12
+a*加	7 PROPN 7
+a*勒	5 PROPN 5
+a*口	4 NOUN 3 VERB 1
+a*坦	4 PROPN 4
+a*基	5 PROPN 5
+a*堡	8 PROPN 8
+a*士	6 PROPN 5 NOUN 1
+a*多	4 PROPN 4
+a*大	5 PROPN 5
+a*夫	9 PROPN 9
+a*安	4 PROPN 4
+a*安那	5 PROPN 5
+a*尺	5 NOUN 5
+a*尼	6 PROPN 6
+a*尼亞	15 PROPN 15
+a*屋	6 PROPN 6
+a*山大	5 PROPN 5
+a*崙	4 PROPN 4
+a*布	4 PROPN 4
+a*庭	5 PROPN 5
+a*德	4 PROPN 4
+a*志	4 PROPN 4
+a*拉	8 PROPN 8
+a*斯	66 PROPN 66
+a*曼	9 PROPN 9
+a*林	4 PROPN 4
+a*格	8 PROPN 8
+a*森	4 PROPN 4
+a*濱	4 PROPN 3 PART 1
+a*烈	7 PROPN 7
+a*爾	32 PROPN 32
+a*特	6 PROPN 4 NOUN 2
+a*瓦	7 PROPN 7
+a*科	7 PROPN 7
+a*米亞	7 PROPN 6 NOUN 1
+a*納	5 PROPN 5
+a*絲	5 PROPN 5
+a*芬	7 PROPN 7
+a*華	6 PROPN 6
+a*薩	5 PROPN 5
+a*薩斯	5 PROPN 5
+a*蘭	9 PROPN 9
+a*西	5 PROPN 5
+a*西亞	5 PROPN 5
+a*那	9 PROPN 7 NOUN 2
+a*里	11 PROPN 7 NOUN 4
+a*頓	15 PROPN 15
+a*馬	4 PROPN 4
+a*魚	6 NOUN 6
+a*鳥	4 NOUN 4
+a*黑	4 PROPN 4
+d*	1086 NUM 1080 PROPN 4 X 2
+d*000	6 NUM 6
+d*5	4 NUM 4
+d_*	16 NUM 16
+d_*0	8 NUM 8
+d_*00	8 NUM 8
+
+[LEX:dependencies]
+ADJ	123 root 123
+ADJ<ADJ	58 conj 54 amod 2 dep 1 ccomp 1
+ADJ<NOUN	9 dislocated 4 conj 3 appos 1 csubj 1
+ADJ<VERB	144 ccomp 93 xcomp 30 conj 13 obj 6 acl 1 dep 1
+ADJ>ADJ	100 advcl 39 dep 39 cop 6 acl 5 ccomp 3 nsubj 2 xcomp 2 advmod 2 csubj 1 nmod 1
+ADJ>NOUN	1392 amod 1199 acl:relcl 112 nmod 31 det 20 dep 12 acl 5 nummod 4 case:pref 3 advmod 2
+ADJ>PART	281 case:suff 132 amod 128 acl:relcl 10 det 5 nmod 4 acl 1 advmod 1
+ADJ>PROPN	10 amod 6 acl:relcl 3 nmod 1
+ADJ>VERB	307 dep 95 advmod 82 acl 72 ccomp 29 csubj 18 xcomp 4 obl 3 nsubj:pass 2 amod 1 acl:relcl 1
+ADJ>X	8 amod 5 det 2 acl:relcl 1
+ADP	12 root 12
+ADP<ADJ	8 mark 8
+ADP<ADV	11 case 11
+ADP<NOUN	788 acl 775 mark 10 conj 2 case 1
+ADP<NUM	5 acl 5
+ADP<PART	94 acl 94
+ADP<PRON	6 acl 6
+ADP<PROPN	29 acl 28 dep 1
+ADP<VERB	409 mark 373 xcomp 24 acl 7 ccomp 1 nmod:tmod 1 acl:relcl 1 obj 1 case 1
+ADP<X	7 acl 7
+ADP>ADJ	49 case 47 csubj 1 dep 1
+ADP>ADP	7 case 6 dep 1
+ADP>NOUN	1816 case 1691 det 116 acl:relcl 4 cc 3 amod 2
+ADP>NUM	10 case 10
+ADP>PART	221 case 217 det 4
+ADP>PRON	140 case 140
+ADP>PROPN	186 case 186
+ADP>VERB	546 case 528 xcomp 5 obl 3 dep 3 mark 2 nmod:tmod 2 advmod 1 cc 1 det 1
+ADP>X	25 case 24 cc 1
+ADV	4 root 4
+ADV<VERB	12 mark 7 advmod 3 conj 1 ccomp 1
+ADV>ADJ	423 advmod 330 mark 92 advcl 1
+ADV>ADP	8 advmod 7 mark 1
+ADV>ADV	41 advmod 36 mark 5
+ADV>AUX	16 advmod 12 mark 4
+ADV>NOUN	212 advmod 154 mark 58
+ADV>NUM	28 advmod 26 mark 2
+ADV>PART	22 advmod 13 mark 8 amod 1
+ADV>PROPN	7 advmod 5 mark 2
+ADV>VERB	3805 mark 1939 advmod 1853 acl 4 nmod:tmod 4 amod 3
+AUX>ADJ	167 cop 146 aux 21
+AUX>NOUN	938 cop 927 aux 10 acl:relcl 1
+AUX>NUM	78 cop 78
+AUX>PART	197 cop 193 aux 4
+AUX>PROPN	43 cop 43
+AUX>VERB	694 aux 685 cop 8 dep 1
+AUX>X	15 cop 15
+CCONJ<NOUN	11 cc 11
+CCONJ>ADJ	37 cc 37
+CCONJ>NOUN	758 cc 758
+CCONJ>NUM	37 cc 37
+CCONJ>PART	204 cc 204
+CCONJ>PROPN	157 cc 157
+CCONJ>VERB	143 cc 143
+CCONJ>X	24 cc 24
+DET>NOUN	891 det 872 advmod 8 nsubj 5 nmod 3 amod 2 case:pref 1
+DET>NUM	14 det 14
+DET>PART	63 det 63
+DET>PROPN	15 det 14 amod 1
+DET>VERB	54 nmod:tmod 18 advmod 17 nsubj 15 det 3 obl 1
+NOUN	414 root 414
+NOUN.P>VERB	10 nsubj 10
+NOUN<ADJ	48 advmod 31 obj 10 conj 3 xcomp 1 appos 1 ccomp 1 acl 1
+NOUN<ADP	93 nmod 84 obj 3 xcomp 3 ccomp 2 det 1
+NOUN<ADV	6 obj 3 nmod 1 advmod 1 ccomp 1
+NOUN<NOUN	1558 conj 1111 acl 256 appos 168 nmod 13 dislocated 2 dep 2 obj 2
+NOUN<PART	228 conj 100 acl 82 appos 39 dislocated 3 dep 2 nsubj 1 obj 1
+NOUN<PRON	11 conj 8 appos 2 nmod 1
+NOUN<PROPN	229 appos 99 acl 76 conj 46 dep 8
+NOUN<VERB	4932 obj 4462 obl 183 ccomp 148 advmod 46 iobj 35 xcomp 25 conj 10 nmod:tmod 9
+NOUN<X	14 appos 9 conj 3 acl 2
+NOUN>ADJ	584 nsubj 368 nmod 109 advmod 51 nmod:tmod 31 dep 11 advcl 6 ccomp 2 obj 2 csubj 1 nsubj:pass 1 acl 1 appos 1
+NOUN>ADP	13 nsubj 6 nmod:tmod 3 nmod 2 appos 1 advcl 1
+NOUN>NOUN	9002 nmod 5129 clf 1803 det 1161 nsubj 552 dep 134 appos 66 advmod 41 acl 35 nmod:tmod 31 amod 10 case:suff 9 advcl 8 csubj 7 nummod 6 acl:relcl 6
+NOUN>NUM	195 det 72 nsubj 54 nmod 27 dep 24 advmod 5 nmod:tmod 5 appos 4 acl 3 csubj 1
+NOUN>PART	2667 case:suff 1509 nmod 867 det 145 nsubj 73 appos 35 dep 10 nmod:tmod 8 advmod 6 acl 5 obj 3 csubj 2
+NOUN>PROPN	423 appos 262 nmod 82 det 28 nsubj 28 clf 12 nmod:tmod 4 acl:relcl 3 dep 2 case:suff 1 acl 1
+NOUN>VERB	6571 nsubj 3158 obl 1376 nmod:tmod 1122 advmod 331 dep 151 acl 143 nsubj:pass 121 obj 111 csubj 16 xcomp 13 ccomp 12 appos 10
+NOUN>X	70 appos 29 nmod 17 nsubj 12 det 10 nmod:tmod 1 obj 1
+NUM	67 root 67
+NUM<NOUN	29 nummod 18 acl 3 conj 2 nmod 2 appos 2 nsubj 1 advmod 1
+NUM<NUM	40 conj 40
+NUM<VERB	58 obj 48 xcomp 3 ccomp 3 advmod 2 nummod 1 dep 1
+NUM<X	5 nummod 3 acl 1 conj 1
+NUM>ADJ	8 nummod 4 advmod 3 dep 1
+NUM>NOUN	4961 nummod 4860 nmod 36 det 27 nsubj 10 dep 6 nmod:tmod 6 amod 5
+NUM>NUM	14 dep 8 nummod 6
+NUM>PART	64 nummod 48 det 6 case:suff 3 appos 2 nmod 2 nsubj 1 dep 1 amod 1
+NUM>PROPN	9 nummod 9
+NUM>VERB	70 advmod 29 nsubj 15 obl 8 acl 5 nummod 4 dep 3 nmod:tmod 2 ccomp 2 nsubj:pass 1 punct 1
+NUM>X	15 nummod 8 nmod 6 det 1
+PART	78 root 78
+PART<ADJ	633 mark:relcl 594 case:dec 27 obj 4 case:aspect 4 conj 3 mark:advb 1
+PART<ADP	148 case:dec 120 nmod 23 mark:relcl 4 ccomp 1
+PART<DET	20 case:dec 20
+PART<NOUN	1595 case:dec 1423 conj 146 mark:relcl 11 appos 8 dep 3 obj 2
+PART<NUM	35 case:dec 34 appos 1
+PART<PART	602 case:dec 336 conj 250 mark:relcl 9 appos 6 dep 1
+PART<PRON	177 case:dec 177
+PART<PRON.P	32 case:dec 32
+PART<PROPN	466 case:dec 424 appos 22 conj 20
+PART<VERB	2964 mark:relcl 1314 obj 815 case:aspect 745 obl 36 ccomp 24 iobj 8 xcomp 6 case:dec 5 mark:comp 4 conj 3
+PART<X	29 case:dec 27 conj 2
+PART>ADJ	93 nsubj 41 nmod 22 mark:comp 14 mark:advb 7 case:aspect 2 dep 2 appos 1 case:pref 1 obj 1 advmod 1 csubj 1
+PART>NOUN	1692 nmod 766 case:pref 494 det 277 nsubj 122 dep 9 appos 8 acl:relcl 6 amod 5 acl 4 case:aspect 1
+PART>NUM	28 nsubj 13 det 9 nmod 2 dep 2 acl 1 case:pref 1
+PART>PART	562 nmod 300 case:suff 111 case:pref 56 det 43 nsubj 35 dep 9 appos 4 acl 2 amod 1 case:aspect 1
+PART>PROPN	130 appos 54 case:pref 34 nmod 27 nsubj 7 det 5 acl:relcl 1 advmod 1 amod 1
+PART>VERB	1150 nsubj 783 obl 150 mark:advb 76 acl 34 dep 32 nsubj:pass 21 advmod 18 obj 17 nmod:tmod 7 xcomp 4 appos 2 csubj 2 ccomp 2 case:pref 1 acl:relcl 1
+PART>X	20 nmod 7 appos 5 dep 5 nsubj 2 det 1
+PRON.P<VERB	12 obj 12
+PRON.P>NOUN	51 det 30 nmod 15 nsubj 4 appos 2
+PRON.P>VERB	104 nsubj 96 obj 4 obl 2 nsubj:pass 2
+PRON<NOUN	9 appos 8 conj 1
+PRON<VERB	86 obj 76 iobj 7 obl 3
+PRON>ADJ	41 nsubj 26 nmod 9 advmod 4 obj 2
+PRON>NOUN	403 nmod 178 det 173 nsubj 52
+PRON>NUM	10 nsubj 9 nmod 1
+PRON>PART	41 nsubj 14 nmod 13 det 12 case:suff 2
+PRON>VERB	650 nsubj 491 obl 122 nsubj:pass 18 obj 14 advmod 3 csubj 1 xcomp 1
+PROPN	25 root 25
+PROPN<ADP	21 nmod 21
+PROPN<NOUN	30 conj 20 appos 7 dep 2 nmod 1
+PROPN<PART	16 conj 12 appos 3 dislocated 1
+PROPN<PROPN	402 conj 382 appos 12 nmod 6 flat:foreign 2
+PROPN<VERB	678 obj 624 obl 29 iobj 13 ccomp 9 appos 1 xcomp 1 conj 1
+PROPN>ADJ	42 nsubj 25 nmod 14 advmod 2 det 1
+PROPN>NOUN	2524 nmod 2043 det 364 nsubj 103 case:suff 8 dep 3
+PROPN>NUM	12 nsubj 6 nmod 6
+PROPN>PART	2237 case:suff 1588 nmod 574 det 47 nsubj 24 nummod 2
+PROPN>PROPN	1167 nmod 1138 det 12 appos 6 case:suff 3 nsubj 2 nummod 2 dep 2
+PROPN>VERB	1503 nsubj 1254 obl 149 nsubj:pass 58 dep 15 advmod 10 obj 9 nmod:tmod 4
+PROPN>X	12 nmod 10 det 1 dep 1
+PUNCT.,<NOUN	33 punct 33
+PUNCT.,<PROPN	40 punct 39 dep 1
+PUNCT.,<VERB	166 punct 166
+PUNCT.,<X	15 punct 15
+PUNCT.,>ADJ	202 punct 202
+PUNCT.,>ADP	16 punct 16
+PUNCT.,>NOUN	607 punct 607
+PUNCT.,>NUM	85 punct 85
+PUNCT.,>PART	134 punct 134
+PUNCT.,>PROPN	50 punct 50
+PUNCT.,>VERB	4754 punct 4754
+PUNCT.,>X	15 punct 15
+PUNCT..<ADJ	122 punct 122
+PUNCT..<ADP	12 punct 12
+PUNCT..<NOUN	418 punct 418
+PUNCT..<NUM	67 punct 67
+PUNCT..<PART	78 punct 78
+PUNCT..<PROPN	26 punct 26
+PUNCT..<VERB	3223 punct 3223
+PUNCT..<X	8 punct 8
+PUNCT.:<NOUN	19 punct 19
+PUNCT.:<VERB	33 punct 33
+PUNCT.:>VERB	12 punct 12
+PUNCT.;>VERB	64 punct 64
+PUNCT.?<VERB	10 punct 10
+PUNCT<ADJ	15 punct 15
+PUNCT<NOUN	394 punct 394
+PUNCT<NUM	13 punct 13
+PUNCT<PART	124 punct 124
+PUNCT<PROPN	65 punct 65
+PUNCT<VERB	159 punct 159
+PUNCT<X	212 punct 212
+PUNCT>ADJ	53 punct 53
+PUNCT>NOUN	934 punct 934
+PUNCT>NUM	25 punct 25
+PUNCT>PART	332 punct 332
+PUNCT>PROPN	482 punct 482
+PUNCT>VERB	262 punct 261 nsubj 1
+PUNCT>X	224 punct 224
+SYM<VERB	6 obj 6
+SYM>NOUN	7 punct 7
+VERB	3266 root 3266
+VERB<ADJ	36 mark 16 conj 15 xcomp 3 ccomp 2
+VERB<ADP	48 ccomp 30 xcomp 17 nmod 1
+VERB<ADV	13 xcomp 8 ccomp 5
+VERB<NOUN	52 dislocated 18 conj 11 appos 10 dep 7 xcomp 3 ccomp 3
+VERB<PART	7 dislocated 3 dep 3 appos 1
+VERB<PROPN	10 dislocated 6 dep 3 conj 1
+VERB<VERB	3555 ccomp 1166 mark 1094 xcomp 1022 conj 223 obj 36 dep 7 acl 4 dislocated 2
+VERB>ADJ	176 dep 64 advcl 44 csubj 25 acl 20 xcomp 8 ccomp 7 mark 4 aux:pass 2 aux:caus 1 advmod 1
+VERB>ADP	16 dep 7 advcl 6 amod 2 csubj 1
+VERB>NOUN	1560 acl:relcl 1062 amod 201 dep 110 acl 75 csubj 43 nmod 21 advcl 18 ccomp 8 xcomp 5 appos 5 det 5 nsubj 3 case:suff 2
+VERB>NUM	40 dep 22 acl 12 csubj 3 acl:relcl 1 xcomp 1 amod 1
+VERB>PART	1227 case:suff 973 acl:relcl 147 amod 33 acl 31 dep 22 nmod 8 nsubj 3 csubj 2 ccomp 2 xcomp 2 mark 1 advcl 1 obj 1 aux:caus 1
+VERB>PROPN	74 acl:relcl 43 dep 20 csubj 5 amod 3 acl 2 ccomp 1
+VERB>VERB	4879 acl 2551 dep 1178 aux:pass 342 xcomp 263 ccomp 184 csubj 158 aux:caus 153 advmod 12 nsubj 11 obl 6 mark 5 csubj:pass 5 nmod:tmod 4 acl:relcl 4
+VERB>X	17 acl:relcl 8 dep 6 amod 2 csubj 1
+X	7 root 7
+X<ADJ	26 discourse 25 obj 1
+X<NOUN	103 appos 88 discourse 6 nummod 4 conj 3 amod 1 acl 1
+X<NUM	9 appos 5 flat:foreign 4
+X<PART	40 appos 38 discourse 2
+X<PROPN	67 appos 64 conj 3
+X<VERB	177 discourse 121 obj 42 appos 5 dep 5 obl 3 ccomp 1
+X<X	302 flat:foreign 267 conj 30 appos 4 dep 1
+X>ADJ	7 nmod 4 nsubj 2 dep 1
+X>NOUN	98 nmod 69 det 22 dep 5 nsubj 2
+X>NUM	3 dep 2 nsubj 1
+X>PART	61 case:suff 33 nmod 19 det 4 nsubj 3 acl 1 amod 1
+X>PROPN	6 nmod 4 appos 2
+X>VERB	87 nsubj 52 obl 17 dep 16 nummod 1 advmod 1
+X>X	4 nmod 3 det 1
+
+[INWARDS:1]
+3306
+ADJ:不同	78
+ADJ:不同 NOUN	36
+ADJ:不同 NOUN PART	16
+ADJ:不同 NOUN PART NOUN	14
+ADJ:不同 NOUN PUNCT., VERB	4
+ADJ:不同 NOUN PUNCT..	7
+ADJ:不同 PART	27
+ADJ:不同 PART NOUN	21
+ADJ:不同 PART NOUN NOUN	7
+ADJ:不同 PART NOUN PART	3
+ADJ:不同 PART NOUN PUNCT.,	6
+ADJ:不同 VERB	3
+ADP:上	174
+ADP:上 ADJ	6
+ADP:上 ADJ PART	5
+ADP:上 ADJ PART NOUN	5
+ADP:上 ADP	5
+ADP:上 ADV	22
+ADP:上 ADV ADJ	7
+ADP:上 ADV ADJ PART	6
+ADP:上 ADV ADV	3
+ADP:上 ADV ADV VERB	3
+ADP:上 ADV VERB NOUN	4
+ADP:上 DET NOUN	4
+ADP:上 NUM NOUN	4
+ADP:上 PART	32
+ADP:上 PART ADJ	4
+ADP:上 PART NOUN NOUN	9
+ADP:上 PART NOUN PUNCT..	5
+ADP:上 PART NOUN VERB	3
+ADP:上 PUNCT.,	27
+ADP:上 PUNCT., VERB	6
+ADP:上 PUNCT..	7
+ADP:上 VERB	52
+ADP:上 VERB ADJ	3
+ADP:上 VERB NOUN NOUN	3
+ADP:上 VERB NUM	10
+ADP:上 VERB PART	11
+ADP:上 VERB PART PROPN	3
+ADP:上 VERB VERB	9
+ADP:上 VERB VERB PART	4
+ADP:中	310
+ADP:中 ADJ	9
+ADP:中 ADJ PART	4
+ADP:中 ADJ PART NOUN	3
+ADP:中 ADV	21
+ADP:中 ADV AUX	3
+ADP:中 ADV VERB	14
+ADP:中 AUX	4
+ADP:中 NOUN PART	3
+ADP:中 NOUN PART NOUN	3
+ADP:中 NUM NOUN	11
+ADP:中 NUM NOUN NOUN	5
+ADP:中 NUM NOUN NUM	3
+ADP:中 PART	56
+ADP:中 PART NOUN AUX	3
+ADP:中 PART NOUN NOUN	6
+ADP:中 PART NOUN PART	3
+ADP:中 PART NOUN PUNCT.,	5
+ADP:中 PART NOUN PUNCT..	5
+ADP:中 PART NOUN VERB	4
+ADP:中 PART NUM	7
+ADP:中 PART NUM NOUN	7
+ADP:中 PART PROPN	6
+ADP:中 PART PROPN PART	3
+ADP:中 PART PUNCT	6
+ADP:中 PART PUNCT NOUN	5
+ADP:中 PART VERB	3
+ADP:中 PUNCT.,	77
+ADP:中 PUNCT., ADV VERB	3
+ADP:中 PUNCT., DET	4
+ADP:中 PUNCT., NOUN	19
+ADP:中 PUNCT., NOUN AUX	3
+ADP:中 PUNCT., NOUN VERB	4
+ADP:中 PUNCT., NUM	5
+ADP:中 PUNCT., NUM NOUN	5
+ADP:中 PUNCT., PART	4
+ADP:中 PUNCT., PRON VERB	3
+ADP:中 PUNCT., PROPN PART	4
+ADP:中 PUNCT., PROPN PROPN	7
+ADP:中 PUNCT., PROPN VERB	4
+ADP:中 PUNCT., VERB NOUN	3
+ADP:中 PUNCT..	14
+ADP:中 VERB	91
+ADP:中 VERB ADJ	7
+ADP:中 VERB ADV	4
+ADP:中 VERB ADV VERB	3
+ADP:中 VERB NOUN	20
+ADP:中 VERB NOUN PART	4
+ADP:中 VERB NOUN PUNCT.,	4
+ADP:中 VERB NOUN PUNCT..	4
+ADP:中 VERB NUM	7
+ADP:中 VERB NUM NOUN	7
+ADP:中 VERB PART	17
+ADP:中 VERB PART NUM	6
+ADP:中 VERB PROPN	7
+ADP:中 VERB PROPN NOUN	3
+ADP:中 VERB PUNCT.,	6
+ADP:中 VERB PUNCT..	3
+ADP:中 VERB VERB PROPN	4
+ADP:中 VERB VERB VERB	3
+ADP:以	116
+ADP:以 ADJ	4
+ADP:以 ADJ NOUN	3
+ADP:以 DET	7
+ADP:以 DET NOUN NOUN	3
+ADP:以 NOUN	45
+ADP:以 NOUN NOUN	18
+ADP:以 NOUN NOUN ADV	4
+ADP:以 NOUN NOUN VERB	8
+ADP:以 NOUN VERB	17
+ADP:以 NOUN VERB PUNCT.,	4
+ADP:以 NOUN VERB PUNCT..	6
+ADP:以 NUM	21
+ADP:以 NUM CCONJ	3
+ADP:以 NUM CCONJ NUM	3
+ADP:以 NUM NOUN NOUN	3
+ADP:以 NUM NOUN PART	5
+ADP:以 NUM PART	3
+ADP:以 PROPN NOUN	5
+ADP:以 PROPN PART	4
+ADP:以 PUNCT	7
+ADP:以 PUNCT VERB	3
+ADP:因	115
+ADP:因 ADJ	3
+ADP:因 NOUN NOUN	4
+ADP:因 NOUN VERB	5
+ADP:因 PRON	73
+ADP:因 PRON ADP	9
+ADP:因 PRON ADP NOUN	6
+ADP:因 PRON ADV VERB	4
+ADP:因 PRON AUX	6
+ADP:因 PRON NOUN VERB	3
+ADP:因 PRON NUM	3
+ADP:因 PRON PRON	4
+ADP:因 PRON PROPN	5
+ADP:因 PRON PUNCT.,	7
+ADP:因 PRON VERB	25
+ADP:因 PRON VERB ADJ	3
+ADP:因 PRON VERB ADV	3
+ADP:因 PRON VERB NOUN	5
+ADP:因 PRON VERB PUNCT..	3
+ADP:因 PRON VERB VERB	4
+ADP:因 VERB NOUN	3
+ADP:因 VERB VERB	4
+ADP:因為	83
+ADP:因為 ADJ	3
+ADP:因為 ADV	3
+ADP:因為 DET	4
+ADP:因為 DET NOUN	4
+ADP:因為 NOUN NOUN	3
+ADP:因為 NOUN VERB	4
+ADP:因為 NUM NOUN	3
+ADP:因為 PRON	15
+ADP:因為 PRON NOUN	3
+ADP:因為 PRON.P	3
+ADP:因為 PRON.P ADV	3
+ADP:因為 PROPN PART	5
+ADP:因為 VERB	21
+ADP:因為 VERB ADV	3
+ADP:因為 VERB NOUN	7
+ADP:因為 VERB NOUN VERB	3
+ADP:因為 VERB VERB	6
+ADP:在	881
+ADP:在 ADJ	26
+ADP:在 ADJ NOUN	18
+ADP:在 ADJ NOUN ADP	9
+ADP:在 ADJ PART NOUN	5
+ADP:在 ADV ADJ	4
+ADP:在 ADV VERB	9
+ADP:在 ADV VERB NOUN	5
+ADP:在 DET	49
+ADP:在 DET NOUN ADP	8
+ADP:在 DET NOUN NOUN	14
+ADP:在 DET NOUN PUNCT.,	5
+ADP:在 DET NOUN VERB	4
+ADP:在 DET NUM NOUN	10
+ADP:在 NOUN	315
+ADP:在 NOUN ADJ PART	3
+ADP:在 NOUN ADP	69
+ADP:在 NOUN ADP PUNCT.,	15
+ADP:在 NOUN ADP VERB	33
+ADP:在 NOUN ADV ADV	3
+ADP:在 NOUN ADV VERB	5
+ADP:在 NOUN CCONJ	13
+ADP:在 NOUN NOUN	100
+ADP:在 NOUN NOUN ADP	30
+ADP:在 NOUN NOUN CCONJ	7
+ADP:在 NOUN NOUN NOUN	16
+ADP:在 NOUN NOUN PUNCT.,	10
+ADP:在 NOUN NUM	14
+ADP:在 NOUN NUM NOUN	12
+ADP:在 NOUN PART ADP	6
+ADP:在 NOUN PART NOUN	21
+ADP:在 NOUN PART NUM	5
+ADP:在 NOUN PART PART	3
+ADP:在 NOUN PUNCT NOUN	4
+ADP:在 NOUN PUNCT.,	6
+ADP:在 NOUN VERB ADP	7
+ADP:在 NOUN VERB NOUN	8
+ADP:在 NOUN VERB NUM	6
+ADP:在 NOUN VERB PART	8
+ADP:在 NOUN VERB PUNCT.,	3
+ADP:在 NOUN VERB VERB	3
+ADP:在 NUM	208
+ADP:在 NUM NOUN	203
+ADP:在 NUM NOUN ADP	23
+ADP:在 NUM NOUN ADV	9
+ADP:在 NUM NOUN CCONJ	9
+ADP:在 NUM NOUN NOUN	30
+ADP:在 NUM NOUN PART	14
+ADP:在 NUM NOUN PUNCT.,	18
+ADP:在 PART NOUN	7
+ADP:在 PART NOUN NOUN	4
+ADP:在 PART PROPN	5
+ADP:在 PART PROPN PART	4
+ADP:在 PRON NOUN	6
+ADP:在 PRON PART	10
+ADP:在 PRON PART NOUN	8
+ADP:在 PRON VERB	7
+ADP:在 PRON VERB ADP	3
+ADP:在 PROPN	122
+ADP:在 PROPN ADV	5
+ADP:在 PROPN ADV VERB	4
+ADP:在 PROPN NOUN	45
+ADP:在 PROPN NOUN ADP	9
+ADP:在 PROPN NOUN NOUN	13
+ADP:在 PROPN NOUN PUNCT.,	3
+ADP:在 PROPN PART ADP	3
+ADP:在 PROPN PART NOUN	6
+ADP:在 PROPN PART PART	4
+ADP:在 PROPN PART VERB	3
+ADP:在 PROPN PROPN NOUN	6
+ADP:在 PROPN PROPN PROPN	3
+ADP:在 PROPN PROPN PUNCT.,	3
+ADP:在 PROPN PUNCT	6
+ADP:在 PROPN PUNCT PROPN	5
+ADP:在 PROPN PUNCT.,	3
+ADP:在 PROPN VERB NOUN	4
+ADP:在 PROPN VERB PART	6
+ADP:在 PUNCT	11
+ADP:在 PUNCT NOUN	6
+ADP:在 PUNCT NOUN NOUN	4
+ADP:在 PUNCT PROPN	4
+ADP:在 VERB ADP	17
+ADP:在 VERB ADP ADV	4
+ADP:在 VERB ADP VERB	8
+ADP:在 VERB DET	3
+ADP:在 VERB DET NOUN	3
+ADP:在 VERB NOUN	10
+ADP:在 VERB NOUN ADP	3
+ADP:在 VERB NOUN NOUN	3
+ADP:在 VERB NUM	4
+ADP:在 VERB PART	19
+ADP:在 VERB PART NOUN	7
+ADP:在 VERB PART VERB	4
+ADP:在 VERB PROPN	7
+ADP:在 VERB PROPN PART	4
+ADP:在 VERB VERB	11
+ADP:在 VERB VERB ADP	3
+ADP:在 VERB VERB NOUN	4
+ADP:在 X	6
+ADP:對	153
+ADP:對 ADJ	6
+ADP:對 ADJ NOUN	4
+ADP:對 DET	10
+ADP:對 DET NOUN	8
+ADP:對 DET NOUN NOUN	3
+ADP:對 NOUN	65
+ADP:對 NOUN ADJ	4
+ADP:對 NOUN ADJ PART	3
+ADP:對 NOUN NOUN PART	7
+ADP:對 NOUN PART	24
+ADP:對 NOUN PART ADJ	4
+ADP:對 NOUN PART NOUN	15
+ADP:對 NOUN PART PART	3
+ADP:對 NOUN VERB	16
+ADP:對 NOUN VERB NOUN	5
+ADP:對 NOUN VERB PART	5
+ADP:對 PRON	13
+ADP:對 PRON VERB	7
+ADP:對 PRON VERB NOUN	3
+ADP:對 PROPN	45
+ADP:對 PROPN CCONJ	3
+ADP:對 PROPN CCONJ PROPN	3
+ADP:對 PROPN PART	19
+ADP:對 PROPN PART NOUN	8
+ADP:對 PROPN PART NUM	3
+ADP:對 PROPN PROPN ADV	3
+ADP:對 PROPN VERB NOUN	3
+ADP:對 PROPN VERB PART	3
+ADP:對 VERB PART	5
+ADP:後	190
+ADP:後 ADV	19
+ADP:後 ADV AUX	3
+ADP:後 ADV AUX VERB	3
+ADP:後 ADV VERB	14
+ADP:後 ADV VERB VERB	4
+ADP:後 NOUN VERB	5
+ADP:後 PUNCT.,	102
+ADP:後 PUNCT., ADV VERB	5
+ADP:後 PUNCT., NOUN NOUN	5
+ADP:後 PUNCT., NOUN VERB	3
+ADP:後 PUNCT., NUM NOUN	4
+ADP:後 PUNCT., PRON	10
+ADP:後 PUNCT., PRON VERB	5
+ADP:後 PUNCT., PRON.P	3
+ADP:後 PUNCT., PROPN	40
+ADP:後 PUNCT., PROPN NOUN	7
+ADP:後 PUNCT., PROPN PROPN	14
+ADP:後 PUNCT., PROPN VERB	10
+ADP:後 PUNCT., VERB	16
+ADP:後 PUNCT., VERB PART	4
+ADP:後 PUNCT., VERB PROPN	5
+ADP:後 VERB	42
+ADP:後 VERB PART	9
+ADP:後 VERB PART NUM	4
+ADP:後 VERB PROPN	4
+ADP:後 VERB PUNCT.,	3
+ADP:後 VERB VERB	8
+ADP:從	105
+ADP:從 ADJ	3
+ADP:從 DET	5
+ADP:從 DET NOUN	4
+ADP:從 NOUN	38
+ADP:從 NOUN ADP	8
+ADP:從 NOUN ADP VERB	6
+ADP:從 NOUN VERB	16
+ADP:從 NOUN VERB NOUN	4
+ADP:從 NOUN VERB PUNCT.,	3
+ADP:從 NUM	28
+ADP:從 NUM NOUN ADP	4
+ADP:從 NUM NOUN VERB	13
+ADP:從 PROPN	23
+ADP:從 PROPN PROPN	7
+ADP:從 PROPN PROPN NOUN	4
+ADP:從 PROPN VERB	7
+ADP:從 PROPN VERB PROPN	3
+ADP:於	322
+ADP:於 DET NOUN	3
+ADP:於 NOUN ADP	3
+ADP:於 NOUN NOUN	12
+ADP:於 NOUN NOUN PUNCT..	5
+ADP:於 NOUN NUM	8
+ADP:於 NOUN NUM NOUN	8
+ADP:於 NOUN PART	7
+ADP:於 NOUN PROPN	3
+ADP:於 NOUN PUNCT	6
+ADP:於 NOUN VERB	8
+ADP:於 NOUN VERB ADP	3
+ADP:於 NOUN VERB PART	3
+ADP:於 NUM	181
+ADP:於 NUM NOUN	177
+ADP:於 NUM NOUN CCONJ	8
+ADP:於 NUM NOUN NUM	76
+ADP:於 NUM NOUN PUNCT	4
+ADP:於 NUM NOUN PUNCT..	4
+ADP:於 NUM NOUN VERB	50
+ADP:於 PROPN	68
+ADP:於 PROPN CCONJ	4
+ADP:於 PROPN NOUN	21
+ADP:於 PROPN NOUN NOUN	9
+ADP:於 PROPN NOUN PROPN	3
+ADP:於 PROPN PART	15
+ADP:於 PROPN PART PROPN	6
+ADP:於 PROPN PROPN	14
+ADP:於 PROPN PROPN PART	7
+ADP:於 PROPN PROPN PUNCT.,	3
+ADP:於 PROPN VERB PART	4
+ADP:時	182
+ADP:時 ADP	7
+ADP:時 ADP NOUN	3
+ADP:時 ADV	16
+ADP:時 ADV AUX	3
+ADP:時 ADV AUX VERB	3
+ADP:時 ADV VERB	10
+ADP:時 ADV VERB NOUN	5
+ADP:時 AUX	11
+ADP:時 NOUN NOUN	3
+ADP:時 NOUN VERB	4
+ADP:時 PART	32
+ADP:時 PART NOUN	28
+ADP:時 PART NOUN AUX	26
+ADP:時 PUNCT.,	65
+ADP:時 PUNCT., ADV	7
+ADP:時 PUNCT., AUX	4
+ADP:時 PUNCT., AUX VERB	3
+ADP:時 PUNCT., NOUN	15
+ADP:時 PUNCT., NOUN ADV	6
+ADP:時 PUNCT., NOUN NOUN	5
+ADP:時 PUNCT., PRON	7
+ADP:時 PUNCT., PRON VERB	4
+ADP:時 PUNCT., PROPN NOUN	3
+ADP:時 PUNCT., PROPN PART	3
+ADP:時 PUNCT., PROPN VERB	4
+ADP:時 PUNCT., VERB	13
+ADP:時 PUNCT., VERB NOUN	8
+ADP:時 PUNCT., VERB VERB	3
+ADP:時 VERB	32
+ADP:時 VERB NOUN	9
+ADP:時 VERB NOUN VERB	3
+ADP:時 VERB PUNCT.,	4
+ADP:時 VERB VERB	8
+ADP:為	102
+ADP:為 DET	5
+ADP:為 NOUN NOUN	4
+ADP:為 NOUN NOUN VERB	3
+ADP:為 NOUN VERB	8
+ADP:為 PRON	20
+ADP:為 PRON ADV	3
+ADP:為 PRON ADV VERB	3
+ADP:為 PRON PUNCT.,	3
+ADP:為 PRON VERB	7
+ADP:為 PROPN	15
+ADP:為 PROPN VERB	6
+ADP:為 VERB	39
+ADP:為 VERB DET	4
+ADP:為 VERB DET NOUN	4
+ADP:為 VERB NOUN	14
+ADP:為 VERB NOUN PUNCT.,	5
+ADP:為 VERB NOUN VERB	3
+ADP:為 VERB PROPN	4
+ADP:為 VERB VERB VERB	3
+ADP:由於	91
+ADP:由於 DET	3
+ADP:由於 NOUN	38
+ADP:由於 NOUN ADJ	3
+ADP:由於 NOUN ADJ PUNCT.,	3
+ADP:由於 NOUN NOUN	12
+ADP:由於 NOUN NOUN ADJ	3
+ADP:由於 NOUN PART	7
+ADP:由於 NOUN PART NOUN	6
+ADP:由於 NOUN PROPN	4
+ADP:由於 PRON	7
+ADP:由於 PRON VERB	3
+ADP:由於 PROPN	17
+ADP:由於 PROPN NOUN	7
+ADP:由於 PROPN NOUN PART	3
+ADP:由於 PROPN PART	6
+ADP:由於 VERB	14
+ADP:由於 VERB NOUN	4
+ADP:由於 VERB PART	3
+ADP:與	197
+ADP:與 ADJ	5
+ADP:與 DET	8
+ADP:與 DET NOUN	6
+ADP:與 NOUN	73
+ADP:與 NOUN ADV	4
+ADP:與 NOUN CCONJ	4
+ADP:與 NOUN CCONJ NOUN	3
+ADP:與 NOUN NOUN	21
+ADP:與 NOUN NOUN ADJ	4
+ADP:與 NOUN NOUN NOUN	3
+ADP:與 NOUN NOUN PART	4
+ADP:與 NOUN NOUN VERB	4
+ADP:與 NOUN PART	17
+ADP:與 NOUN PART ADJ	3
+ADP:與 NOUN PROPN	4
+ADP:與 NOUN VERB NOUN	5
+ADP:與 NOUN VERB PUNCT.,	4
+ADP:與 NUM NOUN	4
+ADP:與 PRON	15
+ADP:與 PRON NOUN	5
+ADP:與 PRON VERB	7
+ADP:與 PRON VERB PART	4
+ADP:與 PROPN	77
+ADP:與 PROPN ADJ	3
+ADP:與 PROPN NOUN PART	5
+ADP:與 PROPN NOUN VERB	6
+ADP:與 PROPN PART VERB	3
+ADP:與 PROPN PROPN	26
+ADP:與 PROPN PROPN PUNCT	7
+ADP:與 PROPN PROPN VERB	9
+ADP:與 PROPN PUNCT	8
+ADP:與 PROPN PUNCT PROPN	8
+ADP:與 PROPN VERB PUNCT.,	3
+ADP:與 VERB NOUN	3
+ADP:與 X	3
+ADV:不	165
+ADV:不 ADJ	40
+ADV:不 ADJ PART NOUN	5
+ADV:不 ADJ PUNCT.,	12
+ADV:不 ADJ PUNCT., ADP	3
+ADV:不 ADJ PUNCT., ADV	4
+ADV:不 ADJ PUNCT..	7
+ADV:不 ADJ VERB	3
+ADV:不 ADV	24
+ADV:不 ADV AUX	5
+ADV:不 ADV VERB	17
+ADV:不 ADV VERB NOUN	6
+ADV:不 ADV VERB PART	3
+ADV:不 ADV VERB PUNCT..	3
+ADV:不 AUX ADJ	4
+ADV:不 AUX VERB	9
+ADV:不 VERB ADJ	3
+ADV:不 VERB DET	3
+ADV:不 VERB NOUN	26
+ADV:不 VERB NOUN PART	12
+ADV:不 VERB NOUN PUNCT.,	3
+ADV:不 VERB NUM	5
+ADV:不 VERB NUM NOUN	5
+ADV:不 VERB PROPN	12
+ADV:不 VERB PROPN PART	3
+ADV:不 VERB PROPN PROPN	3
+ADV:不 VERB PUNCT.,	5
+ADV:不 VERB VERB	17
+ADV:不 VERB VERB VERB	3
+ADV:不 VERB X	3
+ADV:並	254
+ADV:並 ADP	45
+ADV:並 ADP NOUN NOUN	3
+ADV:並 ADP NOUN VERB	5
+ADV:並 ADP NUM	19
+ADV:並 ADP NUM NOUN	19
+ADV:並 ADP PRON	4
+ADV:並 ADV	37
+ADV:並 ADV ADJ	4
+ADV:並 ADV ADJ PUNCT.,	4
+ADV:並 ADV ADV	3
+ADV:並 ADV ADV VERB	3
+ADV:並 ADV VERB	27
+ADV:並 ADV VERB NOUN	7
+ADV:並 ADV VERB PART	3
+ADV:並 ADV VERB PROPN	4
+ADV:並 AUX NOUN	3
+ADV:並 AUX NOUN PART	3
+ADV:並 AUX VERB	8
+ADV:並 AUX VERB PRON	3
+ADV:並 NOUN VERB	3
+ADV:並 VERB	148
+ADV:並 VERB ADJ	7
+ADV:並 VERB ADP	6
+ADV:並 VERB DET	3
+ADV:並 VERB DET NOUN	3
+ADV:並 VERB NOUN NOUN	7
+ADV:並 VERB NOUN PART	4
+ADV:並 VERB NOUN PUNCT..	5
+ADV:並 VERB NOUN VERB	7
+ADV:並 VERB NUM	11
+ADV:並 VERB PART DET	3
+ADV:並 VERB PART NOUN	4
+ADV:並 VERB PART PROPN	3
+ADV:並 VERB PRON	10
+ADV:並 VERB PRON VERB	3
+ADV:並 VERB PROPN	16
+ADV:並 VERB PROPN PART	4
+ADV:並 VERB PROPN PROPN	6
+ADV:並 VERB PROPN VERB	3
+ADV:並 VERB VERB	43
+ADV:並 VERB VERB DET	4
+ADV:並 VERB VERB NOUN	10
+ADV:並 VERB VERB PRON	4
+ADV:並 VERB VERB PROPN	9
+ADV:並 VERB VERB PUNCT..	3
+ADV:也	248
+ADV:也 ADP ADJ	3
+ADV:也 ADP ADJ NOUN	3
+ADV:也 ADP NOUN	4
+ADV:也 ADP PRON	4
+ADV:也 ADP PRON VERB	3
+ADV:也 ADP PROPN	3
+ADV:也 ADV	39
+ADV:也 ADV ADJ	7
+ADV:也 ADV ADJ PUNCT..	4
+ADV:也 ADV AUX	4
+ADV:也 ADV VERB NOUN	3
+ADV:也 ADV VERB PART	6
+ADV:也 ADV VERB PROPN	3
+ADV:也 ADV VERB PUNCT..	3
+ADV:也 ADV VERB VERB	7
+ADV:也 AUX	39
+ADV:也 AUX ADP	5
+ADV:也 AUX ADV	3
+ADV:也 AUX ADV ADJ	3
+ADV:也 AUX VERB	21
+ADV:也 AUX VERB DET	3
+ADV:也 AUX VERB NOUN	9
+ADV:也 VERB	145
+ADV:也 VERB ADV	4
+ADV:也 VERB ADV VERB	4
+ADV:也 VERB NOUN ADJ	3
+ADV:也 VERB NOUN NOUN	3
+ADV:也 VERB NOUN PART	5
+ADV:也 VERB NOUN VERB	9
+ADV:也 VERB NUM NOUN	5
+ADV:也 VERB PART	23
+ADV:也 VERB PRON	7
+ADV:也 VERB PRON ADJ	3
+ADV:也 VERB PROPN	18
+ADV:也 VERB PROPN NOUN	7
+ADV:也 VERB VERB	52
+ADV:也 VERB VERB ADJ	3
+ADV:也 VERB VERB NOUN	13
+ADV:也 VERB VERB PART	7
+ADV:也 VERB VERB VERB	10
+ADV:但	173
+ADV:但 ADJ PART	3
+ADV:但 ADP	24
+ADV:但 ADP NOUN	11
+ADV:但 ADP NOUN NOUN	4
+ADV:但 ADP PROPN NOUN	4
+ADV:但 ADP VERB	4
+ADV:但 ADV	36
+ADV:但 ADV ADP	5
+ADV:但 ADV ADP NOUN	4
+ADV:但 ADV ADV	7
+ADV:但 ADV ADV ADP	3
+ADV:但 ADV VERB ADJ	3
+ADV:但 ADV VERB NOUN	5
+ADV:但 ADV VERB VERB	7
+ADV:但 AUX VERB	3
+ADV:但 DET	6
+ADV:但 DET NOUN	4
+ADV:但 NOUN	39
+ADV:但 NOUN ADP	5
+ADV:但 NOUN ADV	10
+ADV:但 NOUN ADV ADV	3
+ADV:但 NOUN PART	4
+ADV:但 NOUN PART NOUN	3
+ADV:但 NUM	5
+ADV:但 PRON	6
+ADV:但 PRON VERB	4
+ADV:但 PRON.P	7
+ADV:但 PRON.P ADV	4
+ADV:但 PROPN	21
+ADV:但 PROPN ADV	4
+ADV:但 PROPN PROPN	5
+ADV:但 PROPN PROPN VERB	4
+ADV:但 VERB NOUN	3
+ADV:但 VERB PART	4
+ADV:但 VERB VERB	3
+ADV:則	97
+ADV:則 ADP	13
+ADV:則 ADP NOUN	5
+ADV:則 ADP PROPN	4
+ADV:則 ADV	17
+ADV:則 ADV ADV	3
+ADV:則 ADV AUX	3
+ADV:則 ADV VERB VERB	3
+ADV:則 AUX	15
+ADV:則 NOUN	5
+ADV:則 VERB NOUN	14
+ADV:則 VERB NOUN VERB	3
+ADV:則 VERB NUM	6
+ADV:則 VERB NUM NOUN	6
+ADV:則 VERB PART	4
+ADV:則 VERB PROPN	7
+ADV:則 VERB VERB	8
+ADV:則 VERB VERB PROPN	3
+ADV:就	88
+ADV:就 ADP	10
+ADV:就 ADP NOUN	5
+ADV:就 ADV	11
+ADV:就 AUX	22
+ADV:就 AUX ADV	3
+ADV:就 AUX ADV VERB	3
+ADV:就 AUX VERB	14
+ADV:就 AUX VERB NOUN	6
+ADV:就 VERB NOUN	10
+ADV:就 VERB NOUN VERB	4
+ADV:就 VERB PART	6
+ADV:就 VERB PART NOUN	3
+ADV:就 VERB PRON	4
+ADV:就 VERB PROPN	4
+ADV:就 VERB VERB	8
+ADV:已	90
+ADV:已 ADP	12
+ADV:已 ADP NUM	7
+ADV:已 ADP NUM NOUN	7
+ADV:已 ADV	9
+ADV:已 VERB	59
+ADV:已 VERB NOUN	12
+ADV:已 VERB NOUN NOUN	4
+ADV:已 VERB NOUN VERB	4
+ADV:已 VERB NUM	7
+ADV:已 VERB PART	11
+ADV:已 VERB VERB	17
+ADV:已 VERB VERB NOUN	4
+ADV:已 VERB VERB NUM	3
+ADV:已 VERB VERB PROPN	3
+ADV:所	122
+ADV:所 VERB	120
+ADV:所 VERB NOUN PART	3
+ADV:所 VERB PART	64
+ADV:所 VERB PART NOUN	43
+ADV:所 VERB PUNCT.,	14
+ADV:所 VERB PUNCT., VERB	5
+ADV:所 VERB PUNCT..	16
+ADV:所 VERB VERB PART	4
+ADV:所 VERB X	4
+ADV:曾	90
+ADV:曾 ADP	17
+ADV:曾 ADP NUM	4
+ADV:曾 ADP NUM NOUN	4
+ADV:曾 ADP PROPN	8
+ADV:曾 ADP PROPN PROPN	5
+ADV:曾 NUM	6
+ADV:曾 NUM NOUN	6
+ADV:曾 NUM NOUN VERB	5
+ADV:曾 VERB	59
+ADV:曾 VERB ADJ	3
+ADV:曾 VERB ADP	4
+ADV:曾 VERB ADP PROPN	4
+ADV:曾 VERB NUM	8
+ADV:曾 VERB NUM NOUN	8
+ADV:曾 VERB PROPN	17
+ADV:曾 VERB PROPN NOUN	8
+ADV:曾 VERB PROPN PART	4
+ADV:曾 VERB VERB NOUN	3
+ADV:曾 VERB VERB PROPN	3
+ADV:最	80
+ADV:最 ADJ	62
+ADV:最 ADJ PART	52
+ADV:最 ADJ PART NOUN	38
+ADV:最 ADJ PART NUM	7
+ADV:最 VERB NOUN	8
+ADV:最 VERB NOUN PART	6
+ADV:最 VERB VERB	4
+ADV:最 VERB VERB PART	3
+ADV:而	252
+ADV:而 ADP NOUN	6
+ADV:而 ADP PROPN	6
+ADV:而 ADP VERB	5
+ADV:而 ADV ADJ	3
+ADV:而 ADV ADJ PART	3
+ADV:而 ADV VERB	15
+ADV:而 ADV VERB PROPN	3
+ADV:而 ADV VERB VERB	4
+ADV:而 AUX NOUN	6
+ADV:而 DET	6
+ADV:而 DET NOUN	5
+ADV:而 DET NOUN NOUN	3
+ADV:而 NOUN	34
+ADV:而 NOUN ADV	9
+ADV:而 NOUN NOUN	12
+ADV:而 NOUN NOUN NOUN	3
+ADV:而 NOUN PART	4
+ADV:而 NUM	7
+ADV:而 PRON	7
+ADV:而 PRON ADV	3
+ADV:而 PRON.P	3
+ADV:而 PROPN	24
+ADV:而 PROPN PART	12
+ADV:而 PROPN PART AUX	3
+ADV:而 PROPN PART NOUN	5
+ADV:而 VERB NOUN	19
+ADV:而 VERB NOUN NOUN	5
+ADV:而 VERB NOUN PART	4
+ADV:而 VERB NOUN PUNCT..	6
+ADV:而 VERB NUM	4
+ADV:而 VERB NUM NOUN	4
+ADV:而 VERB PART	12
+ADV:而 VERB PART VERB	6
+ADV:而 VERB PRON	3
+ADV:而 VERB PROPN	8
+ADV:而 VERB PROPN PART	3
+ADV:而 VERB PROPN VERB	3
+ADV:而 VERB PUNCT.,	19
+ADV:而 VERB PUNCT..	16
+ADV:而 VERB VERB	14
+ADV:而 VERB VERB NOUN	4
+ADV:而 VERB X	7
+ADV:而 VERB X PUNCT.,	4
+ADV:還	80
+ADV:還 ADP PROPN	3
+ADV:還 ADV	11
+ADV:還 ADV VERB	8
+ADV:還 AUX	11
+ADV:還 AUX VERB	9
+ADV:還 AUX VERB NOUN	4
+ADV:還 VERB	53
+ADV:還 VERB ADJ	4
+ADV:還 VERB ADJ NOUN	3
+ADV:還 VERB NUM	15
+ADV:還 VERB PROPN	5
+ADV:還 VERB VERB	12
+ADV:還 VERB VERB NOUN	4
+ADV:都	118
+ADV:都 ADP	12
+ADV:都 ADP NOUN	5
+ADV:都 ADP NOUN VERB	4
+ADV:都 ADP PROPN	4
+ADV:都 ADV	16
+ADV:都 ADV ADJ	6
+ADV:都 ADV ADJ PUNCT.,	3
+ADV:都 AUX	26
+ADV:都 AUX ADP	3
+ADV:都 AUX VERB	18
+ADV:都 AUX VERB NOUN	5
+ADV:都 AUX VERB NUM	3
+ADV:都 AUX VERB VERB	4
+ADV:都 VERB ADJ	3
+ADV:都 VERB DET	3
+ADV:都 VERB NOUN	6
+ADV:都 VERB NUM	3
+ADV:都 VERB PART	7
+ADV:都 VERB PART PRON	3
+ADV:都 VERB PRON	3
+ADV:都 VERB PROPN	5
+ADV:都 VERB PROPN VERB	3
+ADV:都 VERB VERB	22
+ADV:都 VERB VERB NOUN	6
+ADV:都 VERB VERB NUM	3
+ADV:都 VERB VERB PROPN	3
+AUX:可	85
+AUX:可 ADP	9
+AUX:可 VERB	71
+AUX:可 VERB NOUN NOUN	4
+AUX:可 VERB NOUN PUNCT.,	3
+AUX:可 VERB NOUN PUNCT..	3
+AUX:可 VERB NUM	11
+AUX:可 VERB PART	8
+AUX:可 VERB PROPN	5
+AUX:可 VERB PROPN NOUN	4
+AUX:可 VERB PUNCT.,	5
+AUX:可 VERB PUNCT..	4
+AUX:可 VERB VERB	14
+AUX:可 VERB VERB NOUN	3
+AUX:可 VERB VERB VERB	6
+AUX:可以	120
+AUX:可以 ADP	16
+AUX:可以 ADP NOUN NOUN	3
+AUX:可以 ADP NUM	3
+AUX:可以 ADV	9
+AUX:可以 ADV VERB	6
+AUX:可以 VERB	87
+AUX:可以 VERB ADJ PART	5
+AUX:可以 VERB DET	3
+AUX:可以 VERB NOUN	27
+AUX:可以 VERB NOUN NOUN	8
+AUX:可以 VERB NOUN PUNCT..	7
+AUX:可以 VERB NUM	8
+AUX:可以 VERB NUM NOUN	7
+AUX:可以 VERB PART NOUN	6
+AUX:可以 VERB PUNCT.,	5
+AUX:可以 VERB VERB	17
+AUX:可以 VERB VERB PART	3
+AUX:可以 VERB VERB VERB	5
+AUX:是	700
+AUX:是 ADJ NOUN	10
+AUX:是 ADJ NOUN NOUN	3
+AUX:是 ADJ NOUN PUNCT.,	3
+AUX:是 ADJ PART	10
+AUX:是 ADJ PART NOUN	9
+AUX:是 ADJ X	10
+AUX:是 ADJ X PUNCT.,	5
+AUX:是 ADJ X PUNCT..	5
+AUX:是 ADP NOUN	9
+AUX:是 ADP NOUN NOUN	3
+AUX:是 ADP NUM	3
+AUX:是 ADP NUM NOUN	3
+AUX:是 ADV ADJ	15
+AUX:是 ADV ADJ PART	8
+AUX:是 ADV ADJ X	3
+AUX:是 DET	15
+AUX:是 DET NOUN	9
+AUX:是 DET PROPN	3
+AUX:是 NOUN	148
+AUX:是 NOUN ADJ	11
+AUX:是 NOUN ADJ PART	7
+AUX:是 NOUN ADP	6
+AUX:是 NOUN ADP ADV	3
+AUX:是 NOUN ADV	6
+AUX:是 NOUN ADV ADJ	3
+AUX:是 NOUN ADV AUX	3
+AUX:是 NOUN CCONJ	5
+AUX:是 NOUN NOUN	38
+AUX:是 NOUN NOUN ADP	4
+AUX:是 NOUN NOUN PART	11
+AUX:是 NOUN NOUN PROPN	3
+AUX:是 NOUN NUM	5
+AUX:是 NOUN PART NOUN	11
+AUX:是 NOUN PART NUM	3
+AUX:是 NOUN PART PART	7
+AUX:是 NOUN PROPN	9
+AUX:是 NOUN PROPN NOUN	4
+AUX:是 NOUN PROPN PART	4
+AUX:是 NOUN PUNCT	5
+AUX:是 NOUN PUNCT., NOUN	3
+AUX:是 NOUN PUNCT., VERB	3
+AUX:是 NOUN VERB	17
+AUX:是 NOUN VERB PART	6
+AUX:是 NUM	132
+AUX:是 NUM NOUN	128
+AUX:是 NUM NOUN ADJ	16
+AUX:是 NUM NOUN ADP	6
+AUX:是 NUM NOUN ADV	4
+AUX:是 NUM NOUN NOUN	32
+AUX:是 NUM NOUN PART	12
+AUX:是 NUM NOUN PROPN	19
+AUX:是 NUM NOUN VERB	28
+AUX:是 PART NOUN	4
+AUX:是 PART PROPN	6
+AUX:是 PRON	7
+AUX:是 PROPN	242
+AUX:是 PROPN ADJ NOUN	3
+AUX:是 PROPN CCONJ PROPN	3
+AUX:是 PROPN NOUN ADJ	3
+AUX:是 PROPN NOUN ADP	3
+AUX:是 PROPN NOUN ADV	3
+AUX:是 PROPN NOUN NOUN	28
+AUX:是 PROPN NOUN NUM	7
+AUX:是 PROPN NOUN PART	10
+AUX:是 PROPN NOUN PROPN	10
+AUX:是 PROPN NOUN PUNCT	3
+AUX:是 PROPN NOUN VERB	6
+AUX:是 PROPN NUM	10
+AUX:是 PROPN NUM NOUN	9
+AUX:是 PROPN PART ADJ	3
+AUX:是 PROPN PART ADP	3
+AUX:是 PROPN PART NOUN	33
+AUX:是 PROPN PART NUM	5
+AUX:是 PROPN PART PART	8
+AUX:是 PROPN PART PROPN	5
+AUX:是 PROPN PART PUNCT.,	6
+AUX:是 PROPN PART PUNCT..	3
+AUX:是 PROPN PART VERB	3
+AUX:是 PROPN PROPN	56
+AUX:是 PROPN PROPN NOUN	14
+AUX:是 PROPN PROPN PART	27
+AUX:是 PROPN PROPN PROPN	6
+AUX:是 PROPN PUNCT PROPN	5
+AUX:是 PUNCT NOUN	3
+AUX:是 PUNCT NUM	3
+AUX:是 PUNCT NUM NOUN	3
+AUX:是 PUNCT PROPN	3
+AUX:是 VERB ADJ	3
+AUX:是 VERB NOUN	16
+AUX:是 VERB NOUN NOUN	6
+AUX:是 VERB NOUN VERB	3
+AUX:是 VERB PART	8
+AUX:是 VERB PROPN	7
+AUX:是 VERB PROPN NOUN	6
+AUX:是 VERB VERB	14
+AUX:是 VERB VERB PROPN	9
+AUX:會	167
+AUX:會 ADJ PART	3
+AUX:會 ADJ PART VERB	3
+AUX:會 ADP	21
+AUX:會 ADP ADJ	3
+AUX:會 ADP ADJ NOUN	3
+AUX:會 ADP NOUN	11
+AUX:會 ADP NOUN ADP	3
+AUX:會 ADV	13
+AUX:會 ADV VERB	10
+AUX:會 ADV VERB VERB	3
+AUX:會 AUX	5
+AUX:會 VERB	123
+AUX:會 VERB ADJ	8
+AUX:會 VERB ADJ NOUN	4
+AUX:會 VERB ADV	4
+AUX:會 VERB DET	7
+AUX:會 VERB NOUN	39
+AUX:會 VERB NOUN PART	10
+AUX:會 VERB NOUN PUNCT.,	8
+AUX:會 VERB NUM NOUN	8
+AUX:會 VERB PART NOUN	3
+AUX:會 VERB PART VERB	3
+AUX:會 VERB PRON	6
+AUX:會 VERB VERB	29
+AUX:會 VERB VERB NOUN	9
+AUX:會 VERB VERB VERB	7
+AUX:為	424
+AUX:為 ADJ NOUN	4
+AUX:為 ADJ PART	3
+AUX:為 ADJ PUNCT.,	5
+AUX:為 ADJ PUNCT., ADV	4
+AUX:為 ADJ PUNCT..	6
+AUX:為 NOUN	150
+AUX:為 NOUN ADV VERB	3
+AUX:為 NOUN NOUN NOUN	3
+AUX:為 NOUN NOUN PART	4
+AUX:為 NOUN NOUN PUNCT.,	7
+AUX:為 NOUN NOUN PUNCT..	7
+AUX:為 NOUN PART	35
+AUX:為 NOUN PART PUNCT.,	10
+AUX:為 NOUN PUNCT	5
+AUX:為 NOUN PUNCT NOUN	3
+AUX:為 NOUN PUNCT.,	36
+AUX:為 NOUN PUNCT., ADV	11
+AUX:為 NOUN PUNCT., PROPN	3
+AUX:為 NOUN PUNCT..	23
+AUX:為 NOUN VERB PART	3
+AUX:為 NUM	128
+AUX:為 NUM NOUN NOUN	9
+AUX:為 NUM NOUN NUM	5
+AUX:為 NUM NOUN PART	8
+AUX:為 NUM NOUN PROPN	4
+AUX:為 NUM NOUN PUNCT	4
+AUX:為 NUM NOUN PUNCT.,	23
+AUX:為 NUM NOUN PUNCT..	44
+AUX:為 NUM PROPN	3
+AUX:為 NUM PROPN NOUN	3
+AUX:為 NUM PUNCT.,	5
+AUX:為 NUM PUNCT., NOUN	3
+AUX:為 NUM PUNCT..	10
+AUX:為 NUM X	3
+AUX:為 NUM X PUNCT.,	3
+AUX:為 PART	17
+AUX:為 PART NOUN	10
+AUX:為 PART NOUN PUNCT.,	4
+AUX:為 PART NOUN PUNCT..	3
+AUX:為 PART PROPN	4
+AUX:為 PROPN ADJ	4
+AUX:為 PROPN ADJ NOUN	3
+AUX:為 PROPN NOUN	22
+AUX:為 PROPN NOUN NOUN	10
+AUX:為 PROPN NOUN PUNCT..	5
+AUX:為 PROPN PART	21
+AUX:為 PROPN PART PROPN	3
+AUX:為 PROPN PART PUNCT.,	5
+AUX:為 PROPN PART PUNCT..	4
+AUX:為 PROPN PROPN	11
+AUX:為 PROPN PROPN NOUN	3
+AUX:為 PROPN PROPN PUNCT..	3
+AUX:為 PROPN PUNCT	3
+AUX:為 PUNCT	20
+AUX:為 PUNCT NOUN PUNCT	3
+AUX:為 PUNCT PROPN	7
+AUX:為 PUNCT PROPN NOUN	4
+AUX:為 VERB NOUN	3
+AUX:為 VERB PART	5
+AUX:為 X	5
+CCONJ:及	192
+CCONJ:及 ADP	3
+CCONJ:及 DET	5
+CCONJ:及 NOUN ADP	4
+CCONJ:及 NOUN NOUN	36
+CCONJ:及 NOUN NOUN NOUN	10
+CCONJ:及 NOUN NOUN PUNCT.,	6
+CCONJ:及 NOUN PART	12
+CCONJ:及 NOUN PUNCT.,	5
+CCONJ:及 NOUN VERB	6
+CCONJ:及 NOUN VERB PART	4
+CCONJ:及 NUM NOUN	16
+CCONJ:及 NUM NOUN NOUN	6
+CCONJ:及 NUM NOUN VERB	4
+CCONJ:及 PART	5
+CCONJ:及 PART NOUN	4
+CCONJ:及 PRON	11
+CCONJ:及 PRON NOUN	7
+CCONJ:及 PRON NOUN NOUN	4
+CCONJ:及 PROPN	48
+CCONJ:及 PROPN NOUN	17
+CCONJ:及 PROPN NOUN NOUN	6
+CCONJ:及 PROPN NOUN PUNCT.,	3
+CCONJ:及 PROPN PART NOUN	5
+CCONJ:及 PROPN PART VERB	3
+CCONJ:及 PROPN PROPN	6
+CCONJ:及 PROPN VERB	5
+CCONJ:及 PROPN VERB PART	4
+CCONJ:及 VERB	22
+CCONJ:及 VERB PART	6
+CCONJ:及 VERB PART PUNCT..	3
+CCONJ:及 VERB PUNCT.,	4
+CCONJ:和	614
+CCONJ:和 ADJ NOUN	12
+CCONJ:和 ADJ NOUN NOUN	6
+CCONJ:和 ADJ PART	9
+CCONJ:和 ADJ PART NOUN	8
+CCONJ:和 ADV VERB	6
+CCONJ:和 DET NOUN	3
+CCONJ:和 NOUN	283
+CCONJ:和 NOUN ADP	14
+CCONJ:和 NOUN ADP PART	5
+CCONJ:和 NOUN ADP PUNCT..	3
+CCONJ:和 NOUN ADV	18
+CCONJ:和 NOUN ADV ADJ	3
+CCONJ:和 NOUN ADV ADV	3
+CCONJ:和 NOUN NOUN ADP	3
+CCONJ:和 NOUN NOUN ADV	10
+CCONJ:和 NOUN NOUN NOUN	18
+CCONJ:和 NOUN NOUN PART	19
+CCONJ:和 NOUN NOUN PUNCT.,	14
+CCONJ:和 NOUN NOUN PUNCT..	13
+CCONJ:和 NOUN NOUN VERB	11
+CCONJ:和 NOUN NUM	8
+CCONJ:和 NOUN NUM NOUN	6
+CCONJ:和 NOUN PART ADV	4
+CCONJ:和 NOUN PART NOUN	24
+CCONJ:和 NOUN PART PART	4
+CCONJ:和 NOUN PART PROPN	4
+CCONJ:和 NOUN PART PUNCT..	3
+CCONJ:和 NOUN PUNCT NOUN	3
+CCONJ:和 NOUN PUNCT., ADV	7
+CCONJ:和 NOUN PUNCT., VERB	8
+CCONJ:和 NOUN PUNCT..	32
+CCONJ:和 NOUN VERB	24
+CCONJ:和 NOUN VERB PART	11
+CCONJ:和 NOUN VERB VERB	4
+CCONJ:和 NUM NOUN	32
+CCONJ:和 NUM NOUN ADV	3
+CCONJ:和 NUM NOUN NOUN	8
+CCONJ:和 NUM NOUN PROPN	3
+CCONJ:和 NUM NOUN PUNCT.,	3
+CCONJ:和 PART NOUN	8
+CCONJ:和 PART NOUN NOUN	6
+CCONJ:和 PRON PART	5
+CCONJ:和 PRON.P	3
+CCONJ:和 PROPN	154
+CCONJ:和 PROPN ADV	7
+CCONJ:和 PROPN NOUN NOUN	10
+CCONJ:和 PROPN NOUN PART	6
+CCONJ:和 PROPN NOUN VERB	5
+CCONJ:和 PROPN NUM NOUN	3
+CCONJ:和 PROPN PART	61
+CCONJ:和 PROPN PART ADV	3
+CCONJ:和 PROPN PART NOUN	21
+CCONJ:和 PROPN PART PROPN	7
+CCONJ:和 PROPN PART PUNCT..	7
+CCONJ:和 PROPN PROPN	18
+CCONJ:和 PROPN PROPN ADV	3
+CCONJ:和 PROPN PROPN NOUN	5
+CCONJ:和 PROPN PUNCT PROPN	7
+CCONJ:和 PROPN PUNCT.,	7
+CCONJ:和 PROPN VERB PART	4
+CCONJ:和 PROPN VERB VERB	3
+CCONJ:和 PUNCT	18
+CCONJ:和 PUNCT NOUN	9
+CCONJ:和 PUNCT NOUN NOUN	3
+CCONJ:和 PUNCT VERB	3
+CCONJ:和 VERB NOUN	10
+CCONJ:和 VERB NOUN NOUN	5
+CCONJ:和 VERB PART	16
+CCONJ:和 VERB PART PUNCT.,	3
+CCONJ:和 VERB PART VERB	3
+CCONJ:和 VERB PROPN	3
+CCONJ:和 VERB PUNCT..	4
+CCONJ:和 VERB VERB	7
+CCONJ:和 X	17
+CCONJ:和 X NOUN	3
+CCONJ:和 X PART NOUN	3
+CCONJ:和 X VERB	3
+CCONJ:或	142
+CCONJ:或 ADJ	7
+CCONJ:或 ADV	5
+CCONJ:或 AUX	3
+CCONJ:或 DET	6
+CCONJ:或 DET NOUN	5
+CCONJ:或 NOUN	62
+CCONJ:或 NOUN ADV	5
+CCONJ:或 NOUN NOUN ADV	3
+CCONJ:或 NOUN NOUN PART	3
+CCONJ:或 NOUN NOUN PUNCT..	4
+CCONJ:或 NOUN PART NOUN	4
+CCONJ:或 NOUN PART PUNCT.,	3
+CCONJ:或 NOUN PUNCT.,	8
+CCONJ:或 NOUN PUNCT., NOUN	3
+CCONJ:或 NOUN PUNCT., VERB	3
+CCONJ:或 NOUN PUNCT..	8
+CCONJ:或 NOUN VERB	8
+CCONJ:或 NUM NOUN	5
+CCONJ:或 PART	5
+CCONJ:或 PART NOUN	4
+CCONJ:或 PROPN NOUN	5
+CCONJ:或 PROPN PART	6
+CCONJ:或 PUNCT	3
+CCONJ:或 VERB	27
+CCONJ:或 VERB ADP	3
+CCONJ:或 VERB PUNCT..	3
+CCONJ:與	194
+CCONJ:與 ADJ	11
+CCONJ:與 ADJ NOUN	6
+CCONJ:與 ADJ NOUN NOUN	3
+CCONJ:與 DET	5
+CCONJ:與 DET NOUN	4
+CCONJ:與 NOUN	89
+CCONJ:與 NOUN ADP	5
+CCONJ:與 NOUN ADV	6
+CCONJ:與 NOUN ADV VERB	4
+CCONJ:與 NOUN NOUN ADP	3
+CCONJ:與 NOUN NOUN NOUN	4
+CCONJ:與 NOUN NOUN PART	7
+CCONJ:與 NOUN NOUN PUNCT	3
+CCONJ:與 NOUN NOUN PUNCT.,	6
+CCONJ:與 NOUN PART	18
+CCONJ:與 NOUN PART ADJ	4
+CCONJ:與 NOUN PART PUNCT	3
+CCONJ:與 NOUN PROPN	4
+CCONJ:與 NOUN PUNCT	6
+CCONJ:與 NOUN PUNCT.,	9
+CCONJ:與 NOUN PUNCT., ADP	3
+CCONJ:與 NOUN PUNCT., VERB	3
+CCONJ:與 NUM NOUN	5
+CCONJ:與 PRON	4
+CCONJ:與 PRON PART	4
+CCONJ:與 PRON PART NOUN	4
+CCONJ:與 PROPN	60
+CCONJ:與 PROPN ADV	4
+CCONJ:與 PROPN NOUN	20
+CCONJ:與 PROPN NOUN PART	6
+CCONJ:與 PROPN NOUN PROPN	3
+CCONJ:與 PROPN NOUN VERB	5
+CCONJ:與 PROPN PART NOUN	7
+CCONJ:與 PROPN PART PART	6
+CCONJ:與 PROPN PROPN	7
+CCONJ:與 PROPN PROPN VERB	3
+CCONJ:與 PROPN VERB	7
+CCONJ:與 VERB PART	3
+DET:該	128
+DET:該 ADJ	3
+DET:該 NOUN	115
+DET:該 NOUN ADP	17
+DET:該 NOUN ADP NOUN	5
+DET:該 NOUN ADP NUM	4
+DET:該 NOUN ADP PROPN	3
+DET:該 NOUN ADP VERB	3
+DET:該 NOUN ADV	10
+DET:該 NOUN ADV VERB	7
+DET:該 NOUN NOUN ADP	3
+DET:該 NOUN PART	46
+DET:該 NOUN PART NOUN	41
+DET:該 NOUN VERB	20
+DET:該 NOUN VERB ADP	5
+DET:該 NOUN VERB PART	5
+DET:該 NOUN VERB PROPN	3
+DET:該 NOUN VERB VERB	5
+DET:該 VERB PART	6
+DET:該 VERB PART ADV	3
+DET:這	256
+DET:這 NOUN	206
+DET:這 NOUN ADJ	7
+DET:這 NOUN ADJ PART	3
+DET:這 NOUN ADV VERB	6
+DET:這 NOUN NOUN	147
+DET:這 NOUN NOUN ADP	18
+DET:這 NOUN NOUN ADV	19
+DET:這 NOUN NOUN AUX	6
+DET:這 NOUN NOUN NOUN	18
+DET:這 NOUN NOUN PUNCT.,	15
+DET:這 NOUN NOUN VERB	35
+DET:這 NOUN PART NOUN	9
+DET:這 NOUN PROPN	4
+DET:這 NOUN VERB ADP	3
+DET:這 NOUN VERB PART	8
+DET:這 NOUN VERB VERB	4
+DET:這 NUM	48
+DET:這 NUM NOUN NOUN	27
+DET:這 NUM NOUN PART	3
+DET:這 NUM NOUN PUNCT.,	7
+DET:這 NUM NOUN VERB	7
+NOUN:世界	84
+NOUN:世界 ADJ	8
+NOUN:世界 ADJ NOUN	3
+NOUN:世界 ADJ PART	4
+NOUN:世界 ADJ PART NOUN	3
+NOUN:世界 ADP	10
+NOUN:世界 ADP ADJ	4
+NOUN:世界 ADP ADJ PART	4
+NOUN:世界 ADP NUM	3
+NOUN:世界 NOUN	30
+NOUN:世界 NOUN ADP	5
+NOUN:世界 NOUN ADP PUNCT.,	4
+NOUN:世界 NOUN NOUN	8
+NOUN:世界 NOUN NOUN NOUN	3
+NOUN:世界 NOUN PART	9
+NOUN:世界 NOUN PART NOUN	5
+NOUN:世界 NUM	6
+NOUN:世界 PART	17
+NOUN:世界 PART NOUN	9
+NOUN:世界 PART NOUN NOUN	4
+NOUN:世界 PART PART	4
+NOUN:世界 PART PART NOUN	4
+NOUN:人	301
+NOUN:人 ADJ PART	4
+NOUN:人 ADP NOUN	3
+NOUN:人 ADP PUNCT	3
+NOUN:人 ADV	28
+NOUN:人 ADV ADV	6
+NOUN:人 ADV AUX VERB	3
+NOUN:人 ADV VERB NOUN	3
+NOUN:人 ADV VERB PART	6
+NOUN:人 AUX	11
+NOUN:人 AUX VERB	8
+NOUN:人 AUX VERB PUNCT.,	3
+NOUN:人 CCONJ NOUN	4
+NOUN:人 NOUN VERB	3
+NOUN:人 PART NOUN	7
+NOUN:人 PART NUM	3
+NOUN:人 PUNCT.,	45
+NOUN:人 PUNCT., NOUN	21
+NOUN:人 PUNCT., NOUN NOUN	11
+NOUN:人 PUNCT., NOUN NUM	8
+NOUN:人 PUNCT., VERB	10
+NOUN:人 PUNCT., VERB VERB	4
+NOUN:人 PUNCT..	64
+NOUN:人 PUNCT.;	6
+NOUN:人 PUNCT.; NUM	3
+NOUN:人 PUNCT.; VERB	3
+NOUN:人 PUNCT.; VERB PART	3
+NOUN:人 SYM	5
+NOUN:人 SYM NOUN	5
+NOUN:人 SYM NOUN PUNCT..	3
+NOUN:人 VERB	92
+NOUN:人 VERB NOUN PUNCT.,	3
+NOUN:人 VERB PART NOUN	5
+NOUN:人 VERB PRON	4
+NOUN:人 VERB PROPN	11
+NOUN:人 VERB PROPN NOUN	3
+NOUN:人 VERB PROPN PART	7
+NOUN:人 VERB PUNCT	5
+NOUN:人 VERB PUNCT.,	11
+NOUN:人 VERB PUNCT., ADV	3
+NOUN:人 VERB PUNCT., VERB	3
+NOUN:人 VERB PUNCT..	16
+NOUN:人 VERB VERB NOUN	4
+NOUN:人口	116
+NOUN:人口 ADV NUM	3
+NOUN:人口 AUX	28
+NOUN:人口 AUX NUM	27
+NOUN:人口 AUX NUM NOUN	27
+NOUN:人口 NOUN	28
+NOUN:人口 NOUN DET	4
+NOUN:人口 NOUN DET NOUN	4
+NOUN:人口 NOUN NUM	5
+NOUN:人口 NOUN NUM NOUN	5
+NOUN:人口 NOUN PUNCT.,	14
+NOUN:人口 NOUN PUNCT., ADV	3
+NOUN:人口 NOUN PUNCT., NOUN	10
+NOUN:人口 NUM	43
+NOUN:人口 NUM NOUN PUNCT.,	12
+NOUN:人口 NUM NOUN PUNCT..	13
+NOUN:人口 NUM PUNCT.,	8
+NOUN:人口 NUM PUNCT., NOUN	3
+NOUN:人口 NUM PUNCT..	7
+NOUN:人口 PART NUM	3
+NOUN:個	498
+NOUN:個 ADJ	44
+NOUN:個 ADJ NOUN	18
+NOUN:個 ADJ NOUN PART	4
+NOUN:個 ADJ NOUN PUNCT.,	6
+NOUN:個 ADJ PART	21
+NOUN:個 ADJ PART NOUN	15
+NOUN:個 ADJ PART VERB	4
+NOUN:個 ADP PROPN	3
+NOUN:個 ADV ADJ	5
+NOUN:個 ADV ADJ PART	3
+NOUN:個 ADV VERB	4
+NOUN:個 ADV VERB NOUN	3
+NOUN:個 AUX VERB	3
+NOUN:個 NOUN	320
+NOUN:個 NOUN ADJ	8
+NOUN:個 NOUN ADJ PART	8
+NOUN:個 NOUN ADP	18
+NOUN:個 NOUN ADP PUNCT.,	4
+NOUN:個 NOUN ADV	20
+NOUN:個 NOUN ADV ADP	3
+NOUN:個 NOUN ADV AUX	3
+NOUN:個 NOUN CCONJ NOUN	6
+NOUN:個 NOUN NOUN ADP	3
+NOUN:個 NOUN NOUN ADV	4
+NOUN:個 NOUN NOUN NOUN	14
+NOUN:個 NOUN NOUN PART	6
+NOUN:個 NOUN NOUN PUNCT.,	10
+NOUN:個 NOUN NOUN PUNCT..	3
+NOUN:個 NOUN NOUN VERB	4
+NOUN:個 NOUN PART	64
+NOUN:個 NOUN PART NOUN	36
+NOUN:個 NOUN PART NUM	5
+NOUN:個 NOUN PART PART	5
+NOUN:個 NOUN PART PUNCT.,	4
+NOUN:個 NOUN PART PUNCT..	3
+NOUN:個 NOUN PART VERB	7
+NOUN:個 NOUN PUNCT NUM	8
+NOUN:個 NOUN PUNCT.,	51
+NOUN:個 NOUN PUNCT., ADV	12
+NOUN:個 NOUN PUNCT., DET	5
+NOUN:個 NOUN PUNCT., PRON	3
+NOUN:個 NOUN PUNCT., VERB	18
+NOUN:個 NOUN PUNCT..	47
+NOUN:個 NOUN VERB NOUN	8
+NOUN:個 NOUN VERB NUM	3
+NOUN:個 NOUN VERB PART	3
+NOUN:個 NOUN VERB PUNCT.,	4
+NOUN:個 NOUN VERB VERB	7
+NOUN:個 NUM NOUN	5
+NOUN:個 PART NOUN	12
+NOUN:個 PART NOUN PUNCT..	4
+NOUN:個 PART NOUN VERB	3
+NOUN:個 PROPN	16
+NOUN:個 PROPN NOUN	5
+NOUN:個 PROPN PART	9
+NOUN:個 PROPN PART NOUN	3
+NOUN:個 PROPN PART PART	3
+NOUN:個 PUNCT., ADV	3
+NOUN:個 VERB ADJ	3
+NOUN:個 VERB ADJ NOUN	3
+NOUN:個 VERB ADP	3
+NOUN:個 VERB NOUN	8
+NOUN:個 VERB NOUN PART	5
+NOUN:個 VERB PART	21
+NOUN:個 VERB PART NOUN	10
+NOUN:個 VERB PART VERB	3
+NOUN:個 VERB PROPN	4
+NOUN:個 VERB VERB	14
+NOUN:個 VERB VERB PROPN	9
+NOUN:公司	95
+NOUN:公司 ADP	6
+NOUN:公司 ADP NUM	4
+NOUN:公司 ADP NUM NOUN	4
+NOUN:公司 ADV	7
+NOUN:公司 ADV VERB	6
+NOUN:公司 AUX	4
+NOUN:公司 CCONJ	3
+NOUN:公司 NOUN NOUN	4
+NOUN:公司 NOUN PART	4
+NOUN:公司 NOUN VERB	3
+NOUN:公司 PART NOUN	7
+NOUN:公司 PART NOUN NOUN	3
+NOUN:公司 PUNCT	10
+NOUN:公司 PUNCT PROPN	4
+NOUN:公司 VERB	25
+NOUN:公司 VERB ADP	3
+NOUN:公司 VERB NOUN	6
+NOUN:公司 VERB PUNCT..	3
+NOUN:其中	90
+NOUN:其中 ADJ	4
+NOUN:其中 ADJ NOUN	4
+NOUN:其中 ADV	8
+NOUN:其中 ADV VERB	5
+NOUN:其中 NOUN AUX	3
+NOUN:其中 NOUN AUX NUM	3
+NOUN:其中 NOUN NOUN	4
+NOUN:其中 NOUN NUM	7
+NOUN:其中 NOUN NUM NOUN	7
+NOUN:其中 NUM	27
+NOUN:其中 NUM NOUN	26
+NOUN:其中 NUM NOUN ADV	3
+NOUN:其中 NUM NOUN NOUN	8
+NOUN:其中 NUM NOUN PUNCT..	3
+NOUN:其中 NUM NOUN VERB	6
+NOUN:其中 PART NOUN	5
+NOUN:其中 PART NUM	5
+NOUN:其中 PROPN	6
+NOUN:其中 PROPN NOUN	3
+NOUN:其中 VERB NOUN	4
+NOUN:其中 VERB NOUN PUNCT	3
+NOUN:其中 VERB NUM	4
+NOUN:名	97
+NOUN:名 AUX	4
+NOUN:名 NOUN	37
+NOUN:名 NOUN NOUN	9
+NOUN:名 NOUN PUNCT..	5
+NOUN:名 NOUN VERB	8
+NOUN:名 PROPN	10
+NOUN:名 PROPN NOUN	10
+NOUN:名 PROPN NOUN NOUN	7
+NOUN:名 PUNCT., NOUN	4
+NOUN:名 PUNCT., NOUN NOUN	3
+NOUN:名 PUNCT., VERB	3
+NOUN:名 PUNCT..	8
+NOUN:名 VERB	23
+NOUN:名 VERB ADP	6
+NOUN:名 VERB ADP NOUN	4
+NOUN:名 VERB PART	9
+NOUN:名 VERB PART PUNCT.,	3
+NOUN:名 VERB PROPN	4
+NOUN:國家	91
+NOUN:國家 CCONJ	4
+NOUN:國家 CCONJ NOUN	4
+NOUN:國家 CCONJ NOUN NOUN	3
+NOUN:國家 NOUN	36
+NOUN:國家 NOUN CCONJ	5
+NOUN:國家 NOUN CCONJ NOUN	4
+NOUN:國家 NOUN NOUN	11
+NOUN:國家 NOUN NOUN VERB	4
+NOUN:國家 NOUN PART	10
+NOUN:國家 PART	17
+NOUN:國家 PART ADJ	3
+NOUN:國家 PART NOUN NOUN	4
+NOUN:國家 PART VERB	3
+NOUN:國家 PUNCT..	9
+NOUN:國家 VERB PART	3
+NOUN:地區	91
+NOUN:地區 ADP	6
+NOUN:地區 ADP NOUN	3
+NOUN:地區 ADV VERB	3
+NOUN:地區 AUX	6
+NOUN:地區 AUX VERB	3
+NOUN:地區 NOUN NOUN	3
+NOUN:地區 NOUN PART	3
+NOUN:地區 PART	18
+NOUN:地區 PART NOUN	12
+NOUN:地區 PART NOUN PUNCT..	3
+NOUN:地區 PART NUM	3
+NOUN:地區 PROPN	3
+NOUN:地區 PROPN PART	3
+NOUN:地區 PUNCT.,	12
+NOUN:地區 PUNCT., ADV	5
+NOUN:地區 PUNCT., ADV VERB	3
+NOUN:地區 PUNCT., VERB	3
+NOUN:地區 PUNCT..	9
+NOUN:地區 VERB	14
+NOUN:地區 VERB NOUN	3
+NOUN:地區 VERB PART	4
+NOUN:地區 VERB PUNCT..	4
+NOUN:大學	92
+NOUN:大學 ADP	6
+NOUN:大學 CCONJ	3
+NOUN:大學 NOUN NOUN	6
+NOUN:大學 NOUN PART	3
+NOUN:大學 NOUN PUNCT..	3
+NOUN:大學 NOUN VERB	4
+NOUN:大學 PART	12
+NOUN:大學 PART VERB	4
+NOUN:大學 PART VERB PART	3
+NOUN:大學 PROPN	8
+NOUN:大學 PROPN NOUN	5
+NOUN:大學 PUNCT	9
+NOUN:大學 PUNCT PROPN	5
+NOUN:大學 PUNCT PROPN NOUN	4
+NOUN:大學 PUNCT.,	12
+NOUN:大學 PUNCT., VERB	3
+NOUN:大學 VERB	14
+NOUN:大學 VERB NOUN	3
+NOUN:大學 VERB NUM	3
+NOUN:年	1221
+NOUN:年 ADP	113
+NOUN:年 ADP ADP	4
+NOUN:年 ADP ADV VERB	4
+NOUN:年 ADP PART	32
+NOUN:年 ADP PART NOUN	30
+NOUN:年 ADP PRON	3
+NOUN:年 ADP PROPN	12
+NOUN:年 ADP PROPN NOUN	5
+NOUN:年 ADP PROPN PART	3
+NOUN:年 ADP PUNCT.,	32
+NOUN:年 ADP PUNCT., NOUN	11
+NOUN:年 ADP PUNCT., PRON	3
+NOUN:年 ADP PUNCT., PROPN	10
+NOUN:年 ADP VERB NOUN	3
+NOUN:年 ADP VERB PROPN	4
+NOUN:年 ADP VERB VERB	7
+NOUN:年 ADV NUM	3
+NOUN:年 ADV NUM NOUN	3
+NOUN:年 ADV VERB	15
+NOUN:年 CCONJ NUM	30
+NOUN:年 CCONJ NUM NOUN	30
+NOUN:年 DET	4
+NOUN:年 DET NOUN	3
+NOUN:年 NOUN ADP	4
+NOUN:年 NOUN ADV	4
+NOUN:年 NOUN NOUN	15
+NOUN:年 NOUN NOUN NOUN	3
+NOUN:年 NOUN NOUN PUNCT.,	5
+NOUN:年 NOUN NOUN VERB	4
+NOUN:年 NOUN NUM	14
+NOUN:年 NOUN NUM PUNCT.,	6
+NOUN:年 NOUN NUM PUNCT..	5
+NOUN:年 NOUN PART	8
+NOUN:年 NOUN PUNCT	3
+NOUN:年 NOUN PUNCT.,	11
+NOUN:年 NOUN PUNCT., PROPN	6
+NOUN:年 NOUN VERB	8
+NOUN:年 NOUN VERB ADP	3
+NOUN:年 NUM	355
+NOUN:年 NUM NOUN	351
+NOUN:年 NUM NOUN NUM	236
+NOUN:年 PART NOUN	40
+NOUN:年 PART NOUN NUM	3
+NOUN:年 PART NOUN PART	6
+NOUN:年 PART NOUN PUNCT.,	9
+NOUN:年 PART PROPN	9
+NOUN:年 PART PROPN NOUN	5
+NOUN:年 PART PUNCT	3
+NOUN:年 PRON	17
+NOUN:年 PRON VERB	10
+NOUN:年 PRON VERB PROPN	5
+NOUN:年 PRON VERB VERB	3
+NOUN:年 PROPN	50
+NOUN:年 PROPN NOUN	24
+NOUN:年 PROPN NOUN NOUN	19
+NOUN:年 PROPN VERB	6
+NOUN:年 PROPN VERB PROPN	3
+NOUN:年 PUNCT	96
+NOUN:年 PUNCT NOUN NUM	7
+NOUN:年 PUNCT NUM	36
+NOUN:年 PUNCT NUM NOUN	35
+NOUN:年 PUNCT PROPN	10
+NOUN:年 PUNCT PROPN NUM	4
+NOUN:年 PUNCT PROPN PUNCT	3
+NOUN:年 PUNCT PUNCT PROPN	3
+NOUN:年 PUNCT PUNCT.,	16
+NOUN:年 PUNCT PUNCT., NOUN	3
+NOUN:年 PUNCT PUNCT., PROPN	9
+NOUN:年 PUNCT PUNCT..	5
+NOUN:年 PUNCT VERB	8
+NOUN:年 PUNCT VERB PROPN	3
+NOUN:年 PUNCT.,	208
+NOUN:年 PUNCT., NOUN ADV	3
+NOUN:年 PUNCT., NOUN NOUN	5
+NOUN:年 PUNCT., NOUN PART	7
+NOUN:年 PUNCT., NOUN VERB	8
+NOUN:年 PUNCT., NUM	10
+NOUN:年 PUNCT., NUM NOUN	10
+NOUN:年 PUNCT., PRON	13
+NOUN:年 PUNCT., PRON VERB	9
+NOUN:年 PUNCT., PRON.P	3
+NOUN:年 PUNCT., PROPN	118
+NOUN:年 PUNCT., PROPN PROPN	40
+NOUN:年 PUNCT., PROPN VERB	24
+NOUN:年 PUNCT., VERB NOUN	3
+NOUN:年 PUNCT., VERB PART	3
+NOUN:年 PUNCT., VERB PROPN	4
+NOUN:年 PUNCT., X	3
+NOUN:年 VERB	178
+NOUN:年 VERB ADP PROPN	5
+NOUN:年 VERB NOUN NOUN	5
+NOUN:年 VERB NOUN NUM	3
+NOUN:年 VERB NOUN PART	4
+NOUN:年 VERB NOUN PUNCT..	3
+NOUN:年 VERB NUM	16
+NOUN:年 VERB NUM NOUN	16
+NOUN:年 VERB PART NOUN	8
+NOUN:年 VERB PART NUM	6
+NOUN:年 VERB PART PROPN	6
+NOUN:年 VERB PART PUNCT	5
+NOUN:年 VERB PROPN	35
+NOUN:年 VERB PROPN NOUN	10
+NOUN:年 VERB PROPN PROPN	6
+NOUN:年 VERB PROPN PUNCT.,	3
+NOUN:年 VERB PROPN VERB	6
+NOUN:年 VERB PUNCT., ADP	3
+NOUN:年 VERB PUNCT., NOUN	4
+NOUN:年 VERB PUNCT., NUM	3
+NOUN:年 VERB PUNCT..	12
+NOUN:年 VERB VERB	37
+NOUN:年 VERB VERB DET	3
+NOUN:年 VERB VERB NOUN	9
+NOUN:年 VERB VERB PUNCT.,	5
+NOUN:年 VERB VERB PUNCT..	7
+NOUN:政府	93
+NOUN:政府 ADP	11
+NOUN:政府 ADP NUM	3
+NOUN:政府 ADP NUM NOUN	3
+NOUN:政府 ADP PROPN	3
+NOUN:政府 ADV	6
+NOUN:政府 ADV VERB	5
+NOUN:政府 CCONJ	3
+NOUN:政府 CCONJ NOUN	3
+NOUN:政府 NOUN	22
+NOUN:政府 NOUN ADP	3
+NOUN:政府 NOUN NOUN	8
+NOUN:政府 NOUN NOUN PART	4
+NOUN:政府 NOUN PUNCT.,	5
+NOUN:政府 PART NOUN	9
+NOUN:政府 PART NOUN PUNCT..	3
+NOUN:政府 PUNCT NOUN	3
+NOUN:政府 VERB	25
+NOUN:政府 VERB PROPN	6
+NOUN:政府 VERB PUNCT.,	3
+NOUN:政府 VERB VERB	6
+NOUN:日	313
+NOUN:日 ADP	20
+NOUN:日 ADP PROPN	8
+NOUN:日 ADP PROPN NOUN	3
+NOUN:日 ADP VERB	7
+NOUN:日 ADV VERB	6
+NOUN:日 ADV VERB PUNCT..	3
+NOUN:日 CCONJ	10
+NOUN:日 CCONJ NUM	10
+NOUN:日 CCONJ NUM NOUN	10
+NOUN:日 NOUN PUNCT.,	3
+NOUN:日 PRON	3
+NOUN:日 PRON VERB	3
+NOUN:日 PROPN	20
+NOUN:日 PROPN ADP	3
+NOUN:日 PROPN NOUN	6
+NOUN:日 PROPN VERB	3
+NOUN:日 PUNCT PROPN	3
+NOUN:日 PUNCT PUNCT.,	3
+NOUN:日 PUNCT.,	150
+NOUN:日 PUNCT., ADP VERB	3
+NOUN:日 PUNCT., ADV VERB	4
+NOUN:日 PUNCT., NOUN	29
+NOUN:日 PUNCT., NOUN NOUN	8
+NOUN:日 PUNCT., NOUN PART	6
+NOUN:日 PUNCT., NOUN PROPN	5
+NOUN:日 PUNCT., NUM NOUN	4
+NOUN:日 PUNCT., PART	3
+NOUN:日 PUNCT., PART PROPN	3
+NOUN:日 PUNCT., PROPN	82
+NOUN:日 PUNCT., PROPN ADP	8
+NOUN:日 PUNCT., PROPN PROPN	24
+NOUN:日 PUNCT., PROPN PUNCT	12
+NOUN:日 PUNCT., VERB PROPN	3
+NOUN:日 VERB	62
+NOUN:日 VERB NOUN	10
+NOUN:日 VERB NOUN PUNCT.,	3
+NOUN:日 VERB NUM NOUN	3
+NOUN:日 VERB PROPN	9
+NOUN:日 VERB PROPN PUNCT.,	3
+NOUN:日 VERB PUNCT.,	7
+NOUN:日 VERB PUNCT., NOUN	3
+NOUN:日 VERB PUNCT..	12
+NOUN:日 VERB VERB	13
+NOUN:日 VERB VERB PROPN	3
+NOUN:日 VERB VERB PUNCT	3
+NOUN:月	476
+NOUN:月 ADP ADP	3
+NOUN:月 ADP PUNCT.,	4
+NOUN:月 ADP VERB	3
+NOUN:月 ADV VERB	5
+NOUN:月 CCONJ NUM	5
+NOUN:月 CCONJ NUM NOUN	5
+NOUN:月 NOUN PUNCT.,	3
+NOUN:月 NOUN VERB	3
+NOUN:月 NUM	304
+NOUN:月 NUM NOUN	304
+NOUN:月 NUM NOUN ADP	19
+NOUN:月 NUM NOUN ADV	7
+NOUN:月 NUM NOUN CCONJ	10
+NOUN:月 NUM NOUN PRON	3
+NOUN:月 NUM NOUN PROPN	19
+NOUN:月 NUM NOUN PUNCT	12
+NOUN:月 NUM NOUN PUNCT.,	149
+NOUN:月 NUM NOUN VERB	61
+NOUN:月 PART NOUN	5
+NOUN:月 PROPN PART	3
+NOUN:月 PROPN VERB	4
+NOUN:月 PROPN VERB PROPN	4
+NOUN:月 PUNCT.,	78
+NOUN:月 PUNCT., ADP PROPN	3
+NOUN:月 PUNCT., DET	3
+NOUN:月 PUNCT., NOUN NOUN	3
+NOUN:月 PUNCT., NUM NOUN	3
+NOUN:月 PUNCT., PRON	4
+NOUN:月 PUNCT., PRON VERB	3
+NOUN:月 PUNCT., PROPN	39
+NOUN:月 PUNCT., PROPN NOUN	12
+NOUN:月 PUNCT., PROPN PROPN	13
+NOUN:月 PUNCT., PROPN VERB	6
+NOUN:月 VERB NOUN	5
+NOUN:月 VERB PROPN	6
+NOUN:月 VERB PUNCT.,	5
+NOUN:月 VERB PUNCT..	5
+NOUN:月 VERB VERB	3
+NOUN:次	136
+NOUN:次 ADJ	5
+NOUN:次 NOUN	50
+NOUN:次 NOUN ADP	5
+NOUN:次 NOUN ADP PUNCT.,	3
+NOUN:次 NOUN NOUN	14
+NOUN:次 NOUN NOUN ADP	4
+NOUN:次 NOUN NOUN NOUN	5
+NOUN:次 NOUN PART NOUN	4
+NOUN:次 NOUN PUNCT.,	9
+NOUN:次 NOUN PUNCT., NUM	3
+NOUN:次 NOUN VERB	8
+NOUN:次 NOUN VERB ADP	3
+NOUN:次 PART NOUN	4
+NOUN:次 PROPN	7
+NOUN:次 PROPN NOUN	7
+NOUN:次 PROPN NOUN NOUN	5
+NOUN:次 VERB	51
+NOUN:次 VERB ADP	5
+NOUN:次 VERB NOUN	10
+NOUN:次 VERB NOUN NOUN	5
+NOUN:次 VERB PART NOUN	3
+NOUN:次 VERB PROPN	7
+NOUN:次 VERB PROPN NOUN	3
+NOUN:種	148
+NOUN:種 ADJ	17
+NOUN:種 ADJ NOUN	5
+NOUN:種 ADJ PART	11
+NOUN:種 ADJ PART NOUN	10
+NOUN:種 ADP	8
+NOUN:種 ADP NOUN	4
+NOUN:種 AUX VERB	3
+NOUN:種 NOUN	79
+NOUN:種 NOUN ADJ	3
+NOUN:種 NOUN ADJ PART	3
+NOUN:種 NOUN AUX	5
+NOUN:種 NOUN NOUN	15
+NOUN:種 NOUN NOUN ADP	3
+NOUN:種 NOUN NOUN PUNCT.,	4
+NOUN:種 NOUN PART	18
+NOUN:種 NOUN PART NOUN	10
+NOUN:種 NOUN VERB	16
+NOUN:種 NOUN VERB NOUN	3
+NOUN:種 NOUN VERB PART	4
+NOUN:種 PUNCT., VERB	9
+NOUN:種 PUNCT., VERB ADP	9
+NOUN:種 VERB PART	6
+NOUN:種 VERB PART NOUN	4
+NOUN:種 VERB VERB	4
+NOUN:等	181
+NOUN:等 ADJ	11
+NOUN:等 ADJ NOUN	9
+NOUN:等 ADJ NOUN PUNCT..	4
+NOUN:等 ADV VERB	5
+NOUN:等 NOUN	95
+NOUN:等 NOUN ADV	9
+NOUN:等 NOUN NOUN PUNCT.,	3
+NOUN:等 NOUN NOUN PUNCT..	4
+NOUN:等 NOUN NOUN VERB	3
+NOUN:等 NOUN PART NOUN	8
+NOUN:等 NOUN PUNCT.,	16
+NOUN:等 NOUN PUNCT., VERB	6
+NOUN:等 NOUN PUNCT..	17
+NOUN:等 NOUN VERB	19
+NOUN:等 NOUN VERB NOUN	7
+NOUN:等 NUM NOUN	7
+NOUN:等 NUM NOUN NOUN	5
+NOUN:等 PART PUNCT.,	3
+NOUN:等 PROPN NOUN	3
+NOUN:等 PUNCT..	29
+NOUN:等 VERB PROPN	3
+NOUN:面積	80
+NOUN:面積 ADV	14
+NOUN:面積 ADV AUX	10
+NOUN:面積 ADV AUX NUM	10
+NOUN:面積 ADV NUM	3
+NOUN:面積 ADV NUM NOUN	3
+NOUN:面積 AUX	4
+NOUN:面積 AUX NUM	3
+NOUN:面積 AUX NUM NOUN	3
+NOUN:面積 NUM	55
+NOUN:面積 NUM NOUN	55
+NOUN:面積 NUM NOUN PUNCT.,	48
+NOUN:面積 NUM NOUN PUNCT..	5
+NUM:1	92
+NUM:1 CCONJ	3
+NUM:1 CCONJ NUM	3
+NUM:1 CCONJ NUM NOUN	3
+NUM:1 NOUN	85
+NUM:1 NOUN ADP	5
+NUM:1 NOUN ADV	4
+NUM:1 NOUN ADV VERB	3
+NUM:1 NOUN NOUN NOUN	5
+NUM:1 NOUN NUM	23
+NUM:1 NOUN NUM NOUN	23
+NUM:1 NOUN PUNCT	4
+NUM:1 NOUN PUNCT.,	17
+NUM:1 NOUN PUNCT., NOUN	4
+NUM:1 NOUN PUNCT., PROPN	9
+NUM:1 NOUN VERB PROPN	3
+NUM:1 NOUN VERB PUNCT.,	3
+NUM:1 NOUN VERB VERB	3
+NUM:2	83
+NUM:2 CCONJ	3
+NUM:2 CCONJ NUM	3
+NUM:2 NOUN NOUN	8
+NUM:2 NOUN NUM	23
+NUM:2 NOUN NUM NOUN	23
+NUM:2 NOUN PART	4
+NUM:2 NOUN PART NOUN	4
+NUM:2 NOUN PUNCT.,	16
+NUM:2 NOUN PUNCT., PROPN	8
+NUM:2 NOUN PUNCT., VERB	3
+NUM:2 NOUN VERB	12
+NUM:2 NOUN VERB NOUN	3
+NUM:2 PUNCT	5
+NUM:3	80
+NUM:3 NOUN	75
+NUM:3 NOUN NOUN NOUN	3
+NUM:3 NOUN NUM	35
+NUM:3 NOUN NUM NOUN	35
+NUM:3 NOUN PART	8
+NUM:3 NOUN PROPN	4
+NUM:3 NOUN PUNCT., PROPN	3
+NUM:一	909
+NUM:一 NOUN ADJ	67
+NUM:一 NOUN ADJ ADJ	3
+NUM:一 NOUN ADJ PART	41
+NUM:一 NOUN ADP	29
+NUM:一 NOUN ADP NOUN	11
+NUM:一 NOUN ADP NUM	3
+NUM:一 NOUN ADP VERB	5
+NUM:一 NOUN ADV	35
+NUM:一 NOUN ADV ADJ	10
+NUM:一 NOUN AUX	13
+NUM:一 NOUN AUX VERB	8
+NUM:一 NOUN CCONJ	3
+NUM:一 NOUN DET	3
+NUM:一 NOUN NOUN	317
+NUM:一 NOUN NOUN ADJ	6
+NUM:一 NOUN NOUN AUX	5
+NUM:一 NOUN NOUN CCONJ	8
+NUM:一 NOUN NOUN NOUN	63
+NUM:一 NOUN NOUN PART	52
+NUM:一 NOUN NOUN PUNCT.,	62
+NUM:一 NOUN NOUN PUNCT..	42
+NUM:一 NOUN NOUN X	4
+NUM:一 NOUN NUM	19
+NUM:一 NOUN PART	42
+NUM:一 NOUN PART CCONJ	3
+NUM:一 NOUN PART NOUN	33
+NUM:一 NOUN PROPN	35
+NUM:一 NOUN PROPN NOUN	18
+NUM:一 NOUN PROPN PART	9
+NUM:一 NOUN PUNCT	14
+NUM:一 NOUN PUNCT NUM	5
+NUM:一 NOUN PUNCT.,	53
+NUM:一 NOUN PUNCT., ADP	8
+NUM:一 NOUN PUNCT., ADV	9
+NUM:一 NOUN PUNCT., PRON	3
+NUM:一 NOUN PUNCT., VERB	13
+NUM:一 NOUN PUNCT..	32
+NUM:一 NOUN VERB	143
+NUM:一 NOUN VERB ADJ	4
+NUM:一 NOUN VERB DET	3
+NUM:一 NOUN VERB NOUN	33
+NUM:一 NOUN VERB NUM	10
+NUM:一 NOUN VERB PUNCT	3
+NUM:一 NOUN VERB VERB	28
+NUM:一 NOUN X	3
+NUM:一 PART NOUN	4
+NUM:一 PUNCT.,	11
+NUM:一 PUNCT., ADV	3
+NUM:一 PUNCT., ADV VERB	3
+NUM:一 PUNCT..	53
+NUM:一 VERB	16
+NUM:一 VERB NOUN	4
+NUM:一 VERB VERB	5
+NUM:三	122
+NUM:三 NOUN	111
+NUM:三 NOUN ADJ	6
+NUM:三 NOUN ADP	7
+NUM:三 NOUN ADV	3
+NUM:三 NOUN CCONJ	5
+NUM:三 NOUN NOUN	44
+NUM:三 NOUN NOUN ADP	3
+NUM:三 NOUN NOUN ADV	5
+NUM:三 NOUN NOUN NOUN	9
+NUM:三 NOUN NOUN PUNCT	4
+NUM:三 NOUN NOUN VERB	10
+NUM:三 NOUN PART	21
+NUM:三 NOUN PART PART	3
+NUM:三 NOUN PART PUNCT.,	3
+NUM:三 NOUN PUNCT	5
+NUM:三 NOUN VERB PART	4
+NUM:三 PART	3
+NUM:三 PART NOUN	3
+NUM:三 VERB	3
+NUM:三 VERB PART	3
+NUM:兩	218
+NUM:兩 NOUN	212
+NUM:兩 NOUN ADP	18
+NUM:兩 NOUN ADP NOUN	4
+NUM:兩 NOUN ADP PART	4
+NUM:兩 NOUN ADV	10
+NUM:兩 NOUN ADV VERB	8
+NUM:兩 NOUN NOUN	79
+NUM:兩 NOUN NOUN ADJ	4
+NUM:兩 NOUN NOUN ADP	6
+NUM:兩 NOUN NOUN ADV	5
+NUM:兩 NOUN NOUN PART	13
+NUM:兩 NOUN NOUN PROPN	3
+NUM:兩 NOUN NOUN PUNCT..	10
+NUM:兩 NOUN NOUN VERB	14
+NUM:兩 NOUN PART NOUN	10
+NUM:兩 NOUN PROPN PART	3
+NUM:兩 NOUN PUNCT., ADV	5
+NUM:兩 NOUN PUNCT., NOUN	7
+NUM:兩 NOUN PUNCT., VERB	3
+NUM:兩 NOUN VERB	48
+NUM:兩 NOUN VERB NOUN	9
+NUM:兩 NOUN VERB PART	16
+NUM:兩 NOUN VERB VERB	11
+NUM:兩 PROPN	3
+NUM:第一	97
+NUM:第一 NOUN	91
+NUM:第一 NOUN NOUN	39
+NUM:第一 NOUN NOUN NOUN	11
+NUM:第一 NOUN NOUN PUNCT	3
+NUM:第一 NOUN NOUN PUNCT.,	7
+NUM:第一 NOUN NOUN VERB	6
+NUM:第一 NOUN PART NOUN	4
+NUM:第一 NOUN PROPN	6
+NUM:第一 NOUN PROPN NOUN	4
+NUM:第一 NOUN VERB	24
+NUM:第一 NOUN VERB ADP	3
+NUM:第一 NOUN VERB NOUN	5
+NUM:第一 NOUN VERB PART	7
+PART:之	198
+PART:之 NOUN	120
+PART:之 NOUN ADV	6
+PART:之 NOUN PART NOUN	4
+PART:之 NOUN PROPN	7
+PART:之 NOUN PROPN PROPN	6
+PART:之 NOUN PUNCT	10
+PART:之 NOUN PUNCT NOUN	4
+PART:之 NOUN PUNCT.,	27
+PART:之 NOUN PUNCT., ADV	13
+PART:之 NOUN PUNCT., NOUN	5
+PART:之 NOUN PUNCT., PROPN	4
+PART:之 NOUN PUNCT..	36
+PART:之 NOUN VERB	14
+PART:之 NOUN VERB NOUN	4
+PART:之 NOUN VERB PART	4
+PART:之 NUM	70
+PART:之 NUM PUNCT.,	11
+PART:之 NUM PUNCT..	53
+PART:人	188
+PART:人 ADP	9
+PART:人 ADP NOUN	4
+PART:人 ADP NOUN NOUN	3
+PART:人 ADV	19
+PART:人 ADV VERB NOUN	3
+PART:人 ADV VERB VERB	3
+PART:人 AUX	9
+PART:人 AUX VERB	3
+PART:人 AUX VERB NOUN	3
+PART:人 CCONJ	15
+PART:人 CCONJ PROPN	11
+PART:人 CCONJ PROPN PART	9
+PART:人 NOUN NOUN	4
+PART:人 PART	16
+PART:人 PART NOUN	13
+PART:人 PART NOUN PUNCT..	3
+PART:人 PART NOUN VERB	3
+PART:人 PROPN PROPN	5
+PART:人 PROPN PROPN VERB	3
+PART:人 PUNCT	11
+PART:人 PUNCT PROPN	3
+PART:人 PUNCT PROPN PART	3
+PART:人 PUNCT.,	26
+PART:人 PUNCT., AUX	5
+PART:人 PUNCT., AUX NUM	5
+PART:人 PUNCT., PROPN	7
+PART:人 PUNCT., PROPN NOUN	7
+PART:人 PUNCT..	14
+PART:人 VERB	41
+PART:人 VERB PROPN	6
+PART:人 VERB PROPN PART	4
+PART:人 VERB PUNCT.,	5
+PART:人 VERB PUNCT..	6
+PART:人 VERB VERB	13
+PART:人 VERB VERB NOUN	3
+PART:人 VERB VERB PROPN	4
+PART:區	118
+PART:區 ADV VERB	3
+PART:區 CCONJ	5
+PART:區 CCONJ PROPN	3
+PART:區 NOUN NOUN	5
+PART:區 NOUN PART	5
+PART:區 NOUN PUNCT.,	3
+PART:區 NOUN VERB	4
+PART:區 PART	10
+PART:區 PROPN	23
+PART:區 PROPN NOUN	7
+PART:區 PROPN NOUN PROPN	3
+PART:區 PROPN PART	14
+PART:區 PROPN PART PROPN	7
+PART:區 PUNCT	8
+PART:區 PUNCT VERB	3
+PART:區 PUNCT VERB NOUN	3
+PART:區 PUNCT X	3
+PART:區 PUNCT X PUNCT	3
+PART:區 PUNCT.,	14
+PART:區 PUNCT., ADV	3
+PART:區 PUNCT., VERB	6
+PART:區 PUNCT..	11
+PART:區 VERB	17
+PART:區 VERB PART	10
+PART:區 VERB PART NUM	7
+PART:區 VERB VERB	3
+PART:地	77
+PART:地 ADJ	5
+PART:地 ADV	3
+PART:地 AUX	4
+PART:地 AUX PROPN	3
+PART:地 PART	5
+PART:地 PART NOUN	4
+PART:地 PUNCT..	5
+PART:地 VERB	47
+PART:地 VERB NOUN	9
+PART:地 VERB PART PROPN	3
+PART:地 VERB PART VERB	3
+PART:地 VERB PRON	3
+PART:地 VERB PUNCT..	4
+PART:地 VERB VERB NOUN	3
+PART:大	122
+PART:大 NOUN	111
+PART:大 NOUN ADP	5
+PART:大 NOUN ADP PUNCT.,	3
+PART:大 NOUN AUX	6
+PART:大 NOUN AUX NOUN	3
+PART:大 NOUN NOUN ADV	5
+PART:大 NOUN NOUN NOUN	4
+PART:大 NOUN NOUN PUNCT.,	3
+PART:大 NOUN NOUN PUNCT..	4
+PART:大 NOUN NOUN VERB	4
+PART:大 NOUN PART	26
+PART:大 NOUN PART NOUN	17
+PART:大 NOUN PROPN	7
+PART:大 NOUN PUNCT	5
+PART:大 NOUN PUNCT., ADV	4
+PART:大 NOUN VERB	16
+PART:大 NOUN VERB PART	3
+PART:大 NOUN VERB VERB	5
+PART:大 PROPN NOUN	3
+PART:州	78
+PART:州 NOUN NOUN	4
+PART:州 NOUN PART	7
+PART:州 NOUN PART PART	3
+PART:州 PART	11
+PART:州 PART NOUN NOUN	3
+PART:州 PROPN	10
+PART:州 PROPN PART	6
+PART:州 PUNCT	16
+PART:州 PUNCT PROPN	14
+PART:州 PUNCT PROPN PART	14
+PART:州 PUNCT.,	4
+PART:州 PUNCT..	6
+PART:州 VERB	12
+PART:州 VERB VERB	8
+PART:州 VERB VERB PUNCT.,	7
+PART:市	97
+PART:市 AUX	3
+PART:市 NOUN NOUN	10
+PART:市 NOUN NOUN NOUN	3
+PART:市 NOUN NOUN PUNCT.,	3
+PART:市 NOUN NUM	3
+PART:市 NOUN NUM NOUN	3
+PART:市 NOUN PART	5
+PART:市 NOUN PART NOUN	3
+PART:市 PART	12
+PART:市 PART NOUN NOUN	4
+PART:市 PART NOUN PART	3
+PART:市 PROPN	37
+PART:市 PROPN PART	31
+PART:市 PROPN PART PROPN	13
+PART:市 PROPN PART VERB	8
+PART:市 PUNCT	5
+PART:市 PUNCT.,	6
+PART:市 PUNCT., VERB	3
+PART:市 VERB PART	3
+PART:性	88
+PART:性 ADV	3
+PART:性 ADV VERB	3
+PART:性 CCONJ	3
+PART:性 CCONJ NOUN	3
+PART:性 NOUN NOUN	4
+PART:性 NOUN PART	3
+PART:性 NOUN PUNCT.,	6
+PART:性 NOUN PUNCT., VERB	3
+PART:性 NOUN PUNCT..	9
+PART:性 PART	26
+PART:性 PART NOUN NOUN	6
+PART:性 PART NOUN PUNCT.,	3
+PART:性 PART VERB	7
+PART:性 PUNCT.,	7
+PART:性 PUNCT..	8
+PART:性 VERB PART	4
+PART:會	111
+PART:會 ADP	11
+PART:會 ADV	4
+PART:會 CCONJ	6
+PART:會 CCONJ NOUN	4
+PART:會 NOUN NOUN	10
+PART:會 NOUN NOUN NOUN	3
+PART:會 NOUN NOUN PUNCT.,	3
+PART:會 NOUN PART	4
+PART:會 NOUN PART NOUN	3
+PART:會 NOUN PROPN	3
+PART:會 NOUN PUNCT.,	5
+PART:會 NOUN VERB	5
+PART:會 NUM NOUN	3
+PART:會 PART	10
+PART:會 PART NOUN	7
+PART:會 PUNCT	8
+PART:會 PUNCT PROPN	3
+PART:會 PUNCT.,	12
+PART:會 PUNCT., NOUN	3
+PART:會 PUNCT., VERB	3
+PART:會 PUNCT..	8
+PART:會 VERB	15
+PART:會 VERB NOUN	4
+PART:會 VERB PUNCT..	3
+PART:會 VERB VERB	3
+PART:的	4397
+PART:的 ADJ	212
+PART:的 ADJ ADJ NOUN	3
+PART:的 ADJ NOUN	157
+PART:的 ADJ NOUN ADP	9
+PART:的 ADJ NOUN ADV	7
+PART:的 ADJ NOUN AUX	10
+PART:的 ADJ NOUN CCONJ	5
+PART:的 ADJ NOUN PUNCT.,	32
+PART:的 ADJ NOUN PUNCT..	37
+PART:的 ADJ NOUN VERB	19
+PART:的 ADJ PART NOUN	9
+PART:的 ADJ PART PUNCT.,	7
+PART:的 ADJ PUNCT	3
+PART:的 ADJ VERB	13
+PART:的 ADJ VERB PART	13
+PART:的 ADV ADJ	6
+PART:的 ADV VERB	10
+PART:的 ADV VERB PART	3
+PART:的 AUX NOUN	5
+PART:的 AUX NUM	4
+PART:的 AUX NUM NOUN	4
+PART:的 AUX VERB	3
+PART:的 DET	45
+PART:的 DET NOUN	31
+PART:的 DET NOUN NOUN	10
+PART:的 DET NOUN PUNCT.,	6
+PART:的 DET NOUN VERB	4
+PART:的 DET NUM	10
+PART:的 DET NUM NOUN	10
+PART:的 NOUN	3121
+PART:的 NOUN ADJ ADV	3
+PART:的 NOUN ADJ NOUN	4
+PART:的 NOUN ADJ PART	8
+PART:的 NOUN ADJ PUNCT.,	12
+PART:的 NOUN ADP	146
+PART:的 NOUN ADP ADV	6
+PART:的 NOUN ADP DET	5
+PART:的 NOUN ADP PRON	5
+PART:的 NOUN ADP PROPN	8
+PART:的 NOUN ADP PUNCT.,	53
+PART:的 NOUN ADP PUNCT..	9
+PART:的 NOUN ADV	176
+PART:的 NOUN ADV ADP	11
+PART:的 NOUN ADV ADV	15
+PART:的 NOUN ADV AUX	26
+PART:的 NOUN ADV VERB	111
+PART:的 NOUN AUX	126
+PART:的 NOUN AUX ADJ	10
+PART:的 NOUN AUX ADV	7
+PART:的 NOUN AUX NUM	38
+PART:的 NOUN AUX PART	3
+PART:的 NOUN AUX VERB	28
+PART:的 NOUN CCONJ	102
+PART:的 NOUN CCONJ NOUN	78
+PART:的 NOUN CCONJ VERB	5
+PART:的 NOUN NOUN	703
+PART:的 NOUN NOUN ADP	45
+PART:的 NOUN NOUN AUX	22
+PART:的 NOUN NOUN CCONJ	33
+PART:的 NOUN NOUN PUNCT.,	149
+PART:的 NOUN NOUN PUNCT..	146
+PART:的 NOUN NOUN VERB	93
+PART:的 NOUN NUM NOUN	15
+PART:的 NOUN PART ADJ	3
+PART:的 NOUN PART ADP	7
+PART:的 NOUN PART ADV	6
+PART:的 NOUN PART AUX	3
+PART:的 NOUN PART CCONJ	7
+PART:的 NOUN PART NOUN	48
+PART:的 NOUN PART NUM	25
+PART:的 NOUN PART PART	9
+PART:的 NOUN PART PROPN	4
+PART:的 NOUN PART PUNCT	13
+PART:的 NOUN PART PUNCT.,	23
+PART:的 NOUN PART PUNCT..	23
+PART:的 NOUN PART VERB	24
+PART:的 NOUN PROPN NOUN	9
+PART:的 NOUN PROPN PART	3
+PART:的 NOUN PROPN PROPN	10
+PART:的 NOUN PROPN PUNCT	7
+PART:的 NOUN PROPN PUNCT.,	4
+PART:的 NOUN PROPN VERB	8
+PART:的 NOUN PUNCT ADJ	3
+PART:的 NOUN PUNCT AUX	3
+PART:的 NOUN PUNCT CCONJ	5
+PART:的 NOUN PUNCT NOUN	33
+PART:的 NOUN PUNCT PROPN	7
+PART:的 NOUN PUNCT PUNCT	3
+PART:的 NOUN PUNCT PUNCT.,	5
+PART:的 NOUN PUNCT PUNCT..	11
+PART:的 NOUN PUNCT VERB	11
+PART:的 NOUN PUNCT X	3
+PART:的 NOUN PUNCT.,	584
+PART:的 NOUN PUNCT., ADJ	9
+PART:的 NOUN PUNCT., ADP	54
+PART:的 NOUN PUNCT., DET	10
+PART:的 NOUN PUNCT., PRON	24
+PART:的 NOUN PUNCT., PRON.P	7
+PART:的 NOUN PUNCT., VERB	163
+PART:的 NOUN PUNCT., X	3
+PART:的 NOUN PUNCT..	496
+PART:的 NOUN PUNCT.. PUNCT	3
+PART:的 NOUN PUNCT.:	7
+PART:的 NOUN PUNCT.;	10
+PART:的 NOUN PUNCT.; ADV	4
+PART:的 NOUN VERB	377
+PART:的 NOUN VERB ADJ	19
+PART:的 NOUN VERB ADV	10
+PART:的 NOUN VERB DET	3
+PART:的 NOUN VERB NOUN	61
+PART:的 NOUN VERB NUM	16
+PART:的 NOUN VERB PRON	6
+PART:的 NOUN VERB PROPN	34
+PART:的 NOUN VERB VERB	94
+PART:的 NUM	273
+PART:的 NUM NOUN	251
+PART:的 NUM NOUN ADV	7
+PART:的 NUM NOUN NOUN	149
+PART:的 NUM NOUN PUNCT..	21
+PART:的 NUM PART NOUN	3
+PART:的 PART NOUN	60
+PART:的 PART NOUN ADP	4
+PART:的 PART NOUN PART	6
+PART:的 PART NOUN PROPN	3
+PART:的 PART NOUN PUNCT	3
+PART:的 PART NOUN PUNCT.,	11
+PART:的 PART PROPN	3
+PART:的 PART VERB	4
+PART:的 PART VERB PART	4
+PART:的 PROPN ADP	3
+PART:的 PROPN ADV	4
+PART:的 PROPN CCONJ	3
+PART:的 PROPN CCONJ PROPN	3
+PART:的 PROPN NOUN	106
+PART:的 PROPN NOUN ADV	4
+PART:的 PROPN NOUN AUX	4
+PART:的 PROPN NOUN CCONJ	3
+PART:的 PROPN NOUN NOUN	35
+PART:的 PROPN NOUN PUNCT.,	15
+PART:的 PROPN NOUN PUNCT..	13
+PART:的 PROPN PART	91
+PART:的 PROPN PART ADV	11
+PART:的 PROPN PART AUX	4
+PART:的 PROPN PART NOUN	34
+PART:的 PROPN PART PUNCT	10
+PART:的 PROPN PART PUNCT..	8
+PART:的 PROPN PROPN	40
+PART:的 PROPN PROPN ADP	3
+PART:的 PROPN PROPN ADV	3
+PART:的 PROPN PROPN PUNCT.,	3
+PART:的 PROPN PROPN VERB	13
+PART:的 PROPN PUNCT	21
+PART:的 PROPN PUNCT X	4
+PART:的 PROPN PUNCT.,	9
+PART:的 PROPN PUNCT., ADV	4
+PART:的 PROPN PUNCT..	8
+PART:的 PROPN VERB	14
+PART:的 PROPN VERB PART	7
+PART:的 PUNCT ADJ	4
+PART:的 PUNCT NOUN	32
+PART:的 PUNCT NOUN NOUN	9
+PART:的 PUNCT NOUN PART	10
+PART:的 PUNCT NOUN PUNCT	7
+PART:的 PUNCT NUM	3
+PART:的 PUNCT PART	3
+PART:的 PUNCT PART NOUN	3
+PART:的 PUNCT PROPN	8
+PART:的 PUNCT VERB	5
+PART:的 VERB ADP	3
+PART:的 VERB NOUN	19
+PART:的 VERB NOUN NOUN	8
+PART:的 VERB NOUN PART	4
+PART:的 VERB NUM	6
+PART:的 VERB NUM NOUN	6
+PART:的 VERB PART	147
+PART:的 VERB PART ADV	18
+PART:的 VERB PART AUX	4
+PART:的 VERB PART CCONJ	6
+PART:的 VERB PART PUNCT.,	31
+PART:的 VERB PART PUNCT..	31
+PART:的 VERB PROPN	8
+PART:的 VERB PROPN NOUN	6
+PART:的 VERB PUNCT.,	11
+PART:的 VERB VERB	16
+PART:的 VERB VERB NOUN	7
+PART:的 VERB VERB PART	4
+PART:的 X	33
+PART:的 X NOUN	11
+PART:的 X VERB	3
+PART:的 X X VERB	3
+PART:省	105
+PART:省 CCONJ	3
+PART:省 CCONJ PROPN	3
+PART:省 CCONJ PROPN PART	3
+PART:省 NOUN NOUN	9
+PART:省 NOUN NOUN NOUN	8
+PART:省 NOUN PART	9
+PART:省 NOUN PART NOUN	4
+PART:省 NOUN PUNCT..	3
+PART:省 PART	7
+PART:省 PART NUM	4
+PART:省 PART NUM NOUN	4
+PART:省 PROPN	46
+PART:省 PROPN PART	43
+PART:省 PROPN PART PART	4
+PART:省 PROPN PART PROPN	30
+PART:省 VERB VERB	3
+PART:省 VERB VERB PUNCT.,	3
+PART:者	124
+PART:者 ADP	5
+PART:者 ADV	9
+PART:者 ADV AUX	3
+PART:者 ADV VERB PRON	3
+PART:者 AUX	11
+PART:者 AUX NOUN	3
+PART:者 AUX VERB	3
+PART:者 CCONJ	3
+PART:者 CCONJ VERB	3
+PART:者 PART	17
+PART:者 PART NOUN	12
+PART:者 PART NOUN PUNCT.,	3
+PART:者 PART NOUN PUNCT..	6
+PART:者 PART NUM	3
+PART:者 PUNCT	6
+PART:者 PUNCT.,	25
+PART:者 PUNCT., ADP	3
+PART:者 PUNCT., ADV	10
+PART:者 PUNCT., ADV VERB	7
+PART:者 PUNCT..	14
+PART:者 VERB	20
+PART:者 VERB PUNCT.,	3
+PART:者 VERB VERB	7
+PART:者 VERB VERB PART	3
+PART:著	101
+PART:著 ADJ	16
+PART:著 ADJ PART	13
+PART:著 ADJ PART NOUN	13
+PART:著 ADP	7
+PART:著 ADP NOUN	4
+PART:著 ADV	3
+PART:著 DET	3
+PART:著 NOUN ADP	3
+PART:著 NOUN CCONJ	3
+PART:著 NOUN NOUN	9
+PART:著 NOUN PART	5
+PART:著 NOUN PART NOUN	3
+PART:著 NOUN VERB	7
+PART:著 NOUN VERB PUNCT.,	4
+PART:著 NUM	10
+PART:著 NUM NOUN	10
+PART:著 NUM NOUN VERB	3
+PART:著 PRON	6
+PART:著 PRON PART	3
+PART:著 VERB	13
+PART:著 VERB NOUN	4
+PART:著 VERB VERB	3
+PART:軍	99
+PART:軍 ADP	3
+PART:軍 ADV	12
+PART:軍 ADV ADV	3
+PART:軍 ADV ADV VERB	3
+PART:軍 ADV VERB	8
+PART:軍 ADV VERB PART	3
+PART:軍 ADV VERB VERB	3
+PART:軍 AUX	4
+PART:軍 NOUN NOUN	10
+PART:軍 NOUN NOUN VERB	4
+PART:軍 NOUN PROPN	3
+PART:軍 NOUN PROPN PROPN	3
+PART:軍 NOUN VERB	5
+PART:軍 NUM NOUN	3
+PART:軍 PART	9
+PART:軍 PART NOUN	6
+PART:軍 PART NOUN NOUN	3
+PART:軍 PUNCT.,	5
+PART:軍 VERB	27
+PART:軍 VERB PROPN	8
+PART:軍 VERB PUNCT.,	4
+PART:軍 VERB PUNCT., PROPN	3
+PART:軍 VERB VERB	5
+PART:部	76
+PART:部 ADV	3
+PART:部 CCONJ	4
+PART:部 CCONJ NOUN	3
+PART:部 NOUN NOUN	4
+PART:部 NOUN PART	3
+PART:部 NOUN VERB	3
+PART:部 PART	12
+PART:部 PART NUM	3
+PART:部 PART NUM NOUN	3
+PART:部 PART PROPN	4
+PART:部 PUNCT	5
+PART:部 PUNCT NUM	4
+PART:部 PUNCT NUM NOUN	4
+PART:部 PUNCT.,	11
+PART:部 PUNCT., VERB	4
+PART:部 PUNCT., VERB PROPN	3
+PART:部 PUNCT..	6
+PART:部 VERB	17
+PART:部 VERB PROPN	3
+PART:部 VERB PROPN PROPN	3
+PART:部 VERB VERB	3
+PRON.P:他們	97
+PRON.P:他們 ADP NUM	3
+PRON.P:他們 ADP NUM NOUN	3
+PRON.P:他們 ADV AUX	4
+PRON.P:他們 ADV VERB	8
+PRON.P:他們 ADV VERB VERB	4
+PRON.P:他們 AUX VERB	4
+PRON.P:他們 NOUN	8
+PRON.P:他們 NUM	3
+PRON.P:他們 PART	24
+PRON.P:他們 PART NOUN NOUN	3
+PRON.P:他們 PART NOUN PUNCT.,	4
+PRON.P:他們 PART NOUN PUNCT..	3
+PRON.P:他們 PART NOUN VERB	4
+PRON.P:他們 VERB	31
+PRON.P:他們 VERB NOUN	8
+PRON.P:他們 VERB NUM	5
+PRON.P:他們 VERB NUM NOUN	5
+PRON.P:他們 VERB VERB PROPN	3
+PRON:他	462
+PRON:他 ADP	53
+PRON:他 ADP DET	4
+PRON:他 ADP DET NOUN	3
+PRON:他 ADP NOUN NOUN	3
+PRON:他 ADP NOUN VERB	4
+PRON:他 ADP NUM	13
+PRON:他 ADP PRON	5
+PRON:他 ADP PROPN	12
+PRON:他 ADP PROPN PART	3
+PRON:他 ADP PROPN VERB	4
+PRON:他 ADP VERB NOUN	3
+PRON:他 ADV	79
+PRON:他 ADV ADP	9
+PRON:他 ADV ADV	7
+PRON:他 ADV ADV VERB	6
+PRON:他 ADV AUX VERB	4
+PRON:他 ADV VERB NOUN	8
+PRON:他 ADV VERB NUM	3
+PRON:他 ADV VERB PART	6
+PRON:他 ADV VERB PRON	5
+PRON:他 ADV VERB PROPN	9
+PRON:他 ADV VERB VERB	14
+PRON:他 AUX NOUN	3
+PRON:他 AUX NUM	8
+PRON:他 AUX NUM NOUN	8
+PRON:他 AUX PROPN	12
+PRON:他 AUX PROPN NOUN	8
+PRON:他 AUX VERB	5
+PRON:他 CCONJ	5
+PRON:他 NOUN PART	5
+PRON:他 NOUN PART NOUN	5
+PRON:他 NOUN VERB	6
+PRON:他 NUM NOUN	7
+PRON:他 PART	82
+PRON:他 PART NOUN ADP	3
+PRON:他 PART NOUN ADV	6
+PRON:他 PART NOUN NOUN	13
+PRON:他 PART NOUN PROPN	4
+PRON:他 PART NOUN PUNCT.,	10
+PRON:他 PART NOUN PUNCT..	3
+PRON:他 PART NOUN VERB	17
+PRON:他 PART NUM	7
+PRON:他 PART NUM NOUN	7
+PRON:他 PART PART	3
+PRON:他 PART PART NOUN	3
+PRON:他 PUNCT., ADV	6
+PRON:他 VERB	161
+PRON:他 VERB NOUN	27
+PRON:他 VERB NOUN NOUN	7
+PRON:他 VERB NOUN PART	5
+PRON:他 VERB NOUN VERB	8
+PRON:他 VERB NUM	7
+PRON:他 VERB NUM NOUN	6
+PRON:他 VERB PART NOUN	10
+PRON:他 VERB PART NUM	5
+PRON:他 VERB PART PROPN	4
+PRON:他 VERB PART VERB	3
+PRON:他 VERB PRON VERB	3
+PRON:他 VERB PROPN	28
+PRON:他 VERB PROPN NOUN	9
+PRON:他 VERB PROPN PUNCT	3
+PRON:他 VERB PROPN VERB	7
+PRON:他 VERB PUNCT.,	10
+PRON:他 VERB PUNCT., ADP	3
+PRON:他 VERB PUNCT., VERB	4
+PRON:他 VERB VERB	35
+PRON:他 VERB VERB NOUN	10
+PRON:他 VERB VERB PART	3
+PRON:他 VERB VERB PRON	4
+PRON:他 VERB VERB PROPN	6
+PRON:其	164
+PRON:其 ADJ	11
+PRON:其 ADJ PART	7
+PRON:其 ADP NOUN	4
+PRON:其 ADV VERB	9
+PRON:其 ADV VERB PART	3
+PRON:其 NOUN	95
+PRON:其 NOUN ADV	8
+PRON:其 NOUN ADV VERB	4
+PRON:其 NOUN AUX	8
+PRON:其 NOUN AUX NOUN	4
+PRON:其 NOUN CCONJ	3
+PRON:其 NOUN CCONJ NOUN	3
+PRON:其 NOUN NOUN	27
+PRON:其 NOUN NOUN ADP	3
+PRON:其 NOUN NOUN ADV	3
+PRON:其 NOUN NOUN CCONJ	4
+PRON:其 NOUN NOUN PUNCT..	6
+PRON:其 NOUN PART NOUN	7
+PRON:其 NOUN PROPN	5
+PRON:其 NOUN PUNCT	3
+PRON:其 NOUN VERB PROPN	3
+PRON:其 NOUN VERB VERB	7
+PRON:其 NUM	5
+PRON:其 VERB NOUN	3
+PRON:其 VERB PART	8
+PRON:其 VERB PART NOUN	4
+PRON:其 VERB VERB	4
+PRON:她	135
+PRON:她 ADP	23
+PRON:她 ADP NUM	6
+PRON:她 ADP NUM NOUN	6
+PRON:她 ADP VERB	4
+PRON:她 ADV	24
+PRON:她 ADV ADP	3
+PRON:她 ADV ADV	3
+PRON:她 ADV VERB VERB	4
+PRON:她 AUX PROPN	5
+PRON:她 CCONJ	4
+PRON:她 NUM	3
+PRON:她 NUM NOUN	3
+PRON:她 PART	21
+PRON:她 PART NOUN	18
+PRON:她 PART NOUN NOUN	5
+PRON:她 PART NOUN PUNCT.,	3
+PRON:她 PART NOUN PUNCT..	3
+PRON:她 PART NOUN VERB	5
+PRON:她 VERB	38
+PRON:她 VERB ADP	5
+PRON:她 VERB DET	3
+PRON:她 VERB VERB VERB	3
+PRON:此	105
+PRON:此 ADP	11
+PRON:此 ADP NOUN	6
+PRON:此 ADP NOUN VERB	3
+PRON:此 ADV VERB	5
+PRON:此 AUX	9
+PRON:此 AUX VERB	3
+PRON:此 DET	3
+PRON:此 NOUN PROPN	3
+PRON:此 NUM	4
+PRON:此 PRON	6
+PRON:此 PRON ADV	3
+PRON:此 PROPN	5
+PRON:此 PUNCT.,	14
+PRON:此 PUNCT., ADP	3
+PRON:此 PUNCT., PROPN	6
+PRON:此 VERB	38
+PRON:此 VERB ADJ	3
+PRON:此 VERB ADV	3
+PRON:此 VERB DET	3
+PRON:此 VERB NUM	3
+PRON:此 VERB PUNCT.,	3
+PRON:此 VERB PUNCT..	4
+PRON:此 VERB VERB NOUN	3
+PRON:自己	81
+PRON:自己 ADJ	3
+PRON:自己 ADV VERB	5
+PRON:自己 NOUN PART	3
+PRON:自己 PART	34
+PRON:自己 PART NOUN	30
+PRON:自己 PART NOUN PUNCT.,	6
+PRON:自己 PART NOUN PUNCT..	8
+PRON:自己 PUNCT.,	5
+PRON:自己 VERB NOUN	4
+PRON:自己 VERB PART	5
+PROPN:中國	229
+PROPN:中國 ADJ	5
+PROPN:中國 ADJ NOUN	3
+PROPN:中國 ADV VERB	3
+PROPN:中國 NOUN	121
+PROPN:中國 NOUN ADJ	3
+PROPN:中國 NOUN ADJ PART	3
+PROPN:中國 NOUN AUX	3
+PROPN:中國 NOUN NOUN	52
+PROPN:中國 NOUN NOUN ADJ	3
+PROPN:中國 NOUN NOUN NOUN	16
+PROPN:中國 NOUN NOUN PUNCT	5
+PROPN:中國 NOUN NOUN VERB	11
+PROPN:中國 NOUN PART	29
+PROPN:中國 NOUN PART ADJ	4
+PROPN:中國 NOUN PART PROPN	4
+PROPN:中國 NOUN PART VERB	5
+PROPN:中國 NOUN VERB PART	5
+PROPN:中國 NOUN VERB PROPN	3
+PROPN:中國 NOUN VERB PUNCT.,	3
+PROPN:中國 PART NOUN	5
+PROPN:中國 PART VERB	4
+PROPN:中國 PROPN	54
+PROPN:中國 PROPN NOUN PART	3
+PROPN:中國 PROPN PART	32
+PROPN:中國 PROPN PART PROPN	23
+PROPN:中國 PROPN PROPN	8
+PROPN:中國 PROPN PROPN PART	3
+PROPN:中國 PROPN VERB PART	3
+PROPN:中國 VERB PART	9
+PROPN:中國 VERB PROPN	5
+PROPN:中國 VERB PROPN NOUN	3
+PROPN:日本	97
+PROPN:日本 ADJ	3
+PROPN:日本 CCONJ	3
+PROPN:日本 NOUN	37
+PROPN:日本 NOUN NOUN VERB	4
+PROPN:日本 NOUN PART	12
+PROPN:日本 NOUN PART NOUN	5
+PROPN:日本 NOUN PART VERB	3
+PROPN:日本 NOUN VERB	8
+PROPN:日本 NOUN VERB NUM	3
+PROPN:日本 NOUN VERB PART	3
+PROPN:日本 PART NOUN	9
+PROPN:日本 PART NOUN NOUN	4
+PROPN:日本 PROPN PART	8
+PROPN:日本 PUNCT PROPN	3
+PROPN:日本 VERB	15
+PROPN:日本 VERB PART	5
+PROPN:日本 VERB PROPN	5
+PROPN:日本 VERB PROPN NOUN	5
+PROPN:美國	144
+PROPN:美國 ADJ	6
+PROPN:美國 ADJ NOUN	3
+PROPN:美國 ADJ PART	3
+PROPN:美國 NOUN	72
+PROPN:美國 NOUN CCONJ	4
+PROPN:美國 NOUN NOUN	32
+PROPN:美國 NOUN NOUN CCONJ	4
+PROPN:美國 NOUN NOUN PART	7
+PROPN:美國 NOUN NOUN PUNCT.,	10
+PROPN:美國 NOUN PART	19
+PROPN:美國 NOUN PART PART	4
+PROPN:美國 NOUN PROPN	4
+PROPN:美國 NOUN VERB VERB	3
+PROPN:美國 NUM	8
+PROPN:美國 NUM NOUN NOUN	3
+PROPN:美國 PROPN	26
+PROPN:美國 PROPN NOUN	6
+PROPN:美國 PROPN PART	14
+PROPN:美國 PROPN PART PROPN	6
+PROPN:美國 PUNCT.,	6
+PROPN:美國 VERB PART	4
+PROPN:香港	84
+PROPN:香港 NOUN	31
+PROPN:香港 NOUN ADV	3
+PROPN:香港 NOUN NOUN	10
+PROPN:香港 NOUN NOUN NOUN	4
+PROPN:香港 NOUN NOUN PART	4
+PROPN:香港 NOUN PUNCT.,	3
+PROPN:香港 NUM	5
+PROPN:香港 PART NUM	4
+PROPN:香港 PART NUM NOUN	4
+PROPN:香港 PROPN NOUN	4
+PROPN:香港 PROPN PROPN	3
+PROPN:香港 PUNCT.,	5
+PROPN:香港 PUNCT., ADP	3
+PROPN:香港 VERB	12
+PROPN:香港 VERB NUM	5
+PROPN:香港 VERB NUM NOUN	5
+PROPN:香港 VERB PUNCT.,	3
+VERB:以	86
+VERB:以 ADJ	3
+VERB:以 NOUN	25
+VERB:以 NOUN AUX	7
+VERB:以 NOUN AUX NOUN	5
+VERB:以 NOUN NOUN AUX	3
+VERB:以 NOUN PUNCT	3
+VERB:以 NOUN PUNCT NOUN	3
+VERB:以 NUM	7
+VERB:以 PRON	3
+VERB:以 PROPN	24
+VERB:以 PROPN AUX	4
+VERB:以 PROPN AUX NOUN	3
+VERB:以 PROPN PROPN	7
+VERB:以 PROPN PROPN AUX	4
+VERB:以 PROPN PUNCT	4
+VERB:以 PROPN PUNCT PROPN	4
+VERB:以 PUNCT	6
+VERB:以 PUNCT NOUN	3
+VERB:以 PUNCT NOUN PUNCT	3
+VERB:以 PUNCT PROPN	3
+VERB:以 VERB PART	3
+VERB:使用	96
+VERB:使用 DET	4
+VERB:使用 NOUN	23
+VERB:使用 NOUN PART	6
+VERB:使用 NOUN PART NOUN	4
+VERB:使用 NOUN PUNCT.,	3
+VERB:使用 NOUN PUNCT..	3
+VERB:使用 NOUN VERB	6
+VERB:使用 NOUN VERB NOUN	4
+VERB:使用 NUM NOUN	3
+VERB:使用 PART	22
+VERB:使用 PART NOUN	11
+VERB:使用 PART NOUN NOUN	5
+VERB:使用 PART PROPN	3
+VERB:使用 PROPN NOUN	3
+VERB:使用 PUNCT.,	7
+VERB:使用 PUNCT..	5
+VERB:使用 VERB PART	6
+VERB:使用 X	3
+VERB:到	145
+VERB:到 DET	8
+VERB:到 NOUN	39
+VERB:到 NOUN NOUN	13
+VERB:到 NOUN NOUN PART	3
+VERB:到 NOUN NOUN PUNCT.,	3
+VERB:到 NOUN PART	12
+VERB:到 NOUN PART NOUN	6
+VERB:到 NUM	16
+VERB:到 NUM NOUN	16
+VERB:到 NUM NOUN PUNCT.,	8
+VERB:到 NUM NOUN PUNCT..	3
+VERB:到 PART NOUN	5
+VERB:到 PART NUM	8
+VERB:到 PART NUM NOUN	8
+VERB:到 PROPN	40
+VERB:到 PROPN NOUN PUNCT.,	3
+VERB:到 PROPN PART	11
+VERB:到 PROPN PART VERB	3
+VERB:到 PROPN PUNCT	3
+VERB:到 PROPN PUNCT..	4
+VERB:到 PROPN VERB	5
+VERB:到 VERB PART	3
+VERB:在	446
+VERB:在 DET NOUN	4
+VERB:在 DET NOUN NOUN	3
+VERB:在 NOUN	143
+VERB:在 NOUN ADP	7
+VERB:在 NOUN ADP VERB	3
+VERB:在 NOUN NOUN	49
+VERB:在 NOUN NOUN ADJ	3
+VERB:在 NOUN NOUN ADP	3
+VERB:在 NOUN NOUN ADV	5
+VERB:在 NOUN NOUN VERB	11
+VERB:在 NOUN PART NOUN	6
+VERB:在 NOUN PART PROPN	3
+VERB:在 NOUN PART VERB	5
+VERB:在 NOUN PROPN	11
+VERB:在 NOUN PROPN NOUN	4
+VERB:在 NOUN PUNCT., VERB	3
+VERB:在 NOUN VERB	30
+VERB:在 NOUN VERB NUM	4
+VERB:在 NOUN VERB VERB	5
+VERB:在 NUM NOUN	13
+VERB:在 NUM NOUN ADP	4
+VERB:在 PART NOUN	5
+VERB:在 PART PROPN	5
+VERB:在 PRON	16
+VERB:在 PRON NOUN	3
+VERB:在 PRON VERB	8
+VERB:在 PRON VERB PART	3
+VERB:在 PRON VERB PUNCT..	3
+VERB:在 PROPN	212
+VERB:在 PROPN CCONJ	6
+VERB:在 PROPN CCONJ PROPN	6
+VERB:在 PROPN NOUN ADV	3
+VERB:在 PROPN NOUN NOUN	18
+VERB:在 PROPN NOUN PART	6
+VERB:在 PROPN NOUN VERB	15
+VERB:在 PROPN PART ADJ	3
+VERB:在 PROPN PART NOUN	16
+VERB:在 PROPN PART NUM	3
+VERB:在 PROPN PART PART	4
+VERB:在 PROPN PART PROPN	4
+VERB:在 PROPN PART VERB	10
+VERB:在 PROPN PROPN NOUN	5
+VERB:在 PROPN PROPN PART	8
+VERB:在 PROPN PROPN PUNCT..	3
+VERB:在 PROPN PROPN VERB	6
+VERB:在 PROPN PUNCT PROPN	6
+VERB:在 PROPN VERB	62
+VERB:在 PROPN VERB NUM	5
+VERB:在 PROPN VERB PART	17
+VERB:在 PROPN VERB PUNCT.,	12
+VERB:在 PROPN VERB PUNCT..	6
+VERB:在 VERB NOUN	7
+VERB:在 VERB NOUN NOUN	3
+VERB:在 VERB PART	11
+VERB:在 VERB PART PART	3
+VERB:在 VERB VERB	6
+VERB:在 VERB VERB NOUN	3
+VERB:將	102
+VERB:將 DET	6
+VERB:將 DET NOUN	5
+VERB:將 NOUN	38
+VERB:將 NOUN ADV	3
+VERB:將 NOUN ADV VERB	3
+VERB:將 NOUN PART	7
+VERB:將 NOUN PART NOUN	4
+VERB:將 NOUN VERB	19
+VERB:將 NOUN VERB NOUN	5
+VERB:將 NOUN VERB VERB	7
+VERB:將 NUM NOUN	3
+VERB:將 PRON	17
+VERB:將 PRON PART	5
+VERB:將 PRON PART NOUN	5
+VERB:將 PRON VERB	10
+VERB:將 PRON VERB VERB	5
+VERB:將 PRON.P	4
+VERB:將 PRON.P VERB	3
+VERB:將 PROPN	18
+VERB:將 PROPN NOUN	7
+VERB:將 PROPN NOUN VERB	3
+VERB:將 PROPN PART	5
+VERB:將 VERB PART	6
+VERB:將 VERB PART VERB	4
+VERB:成	136
+VERB:成 NUM NOUN	6
+VERB:成 VERB	109
+VERB:成 VERB ADJ	5
+VERB:成 VERB ADJ PART	3
+VERB:成 VERB DET	4
+VERB:成 VERB DET NOUN	4
+VERB:成 VERB NOUN	29
+VERB:成 VERB NOUN ADP	3
+VERB:成 VERB NOUN NOUN	11
+VERB:成 VERB NOUN PUNCT..	3
+VERB:成 VERB NUM	10
+VERB:成 VERB PART	16
+VERB:成 VERB PART NUM	3
+VERB:成 VERB PART PROPN	5
+VERB:成 VERB PROPN	37
+VERB:成 VERB PROPN ADJ	3
+VERB:成 VERB PROPN NOUN	18
+VERB:於	397
+VERB:於 ADJ	12
+VERB:於 ADJ PROPN	3
+VERB:於 ADP PROPN	3
+VERB:於 DET	9
+VERB:於 NOUN	103
+VERB:於 NOUN ADJ	5
+VERB:於 NOUN NOUN	39
+VERB:於 NOUN NOUN PART	16
+VERB:於 NOUN NOUN PUNCT.,	12
+VERB:於 NOUN NUM	4
+VERB:於 NOUN PART	18
+VERB:於 NOUN PART NOUN	9
+VERB:於 NOUN PART PART	3
+VERB:於 NOUN PROPN	8
+VERB:於 NOUN PROPN PART	5
+VERB:於 NOUN PUNCT NOUN	4
+VERB:於 NOUN PUNCT.,	12
+VERB:於 NOUN PUNCT., ADP	4
+VERB:於 NUM	41
+VERB:於 NUM NOUN NOUN	7
+VERB:於 NUM NOUN PART	5
+VERB:於 NUM NOUN PUNCT.,	10
+VERB:於 NUM NOUN PUNCT..	4
+VERB:於 NUM PART	3
+VERB:於 PART NOUN	3
+VERB:於 PROPN	169
+VERB:於 PROPN CCONJ	3
+VERB:於 PROPN CCONJ PROPN	3
+VERB:於 PROPN NOUN NOUN	12
+VERB:於 PROPN NOUN PART	6
+VERB:於 PROPN NOUN PROPN	6
+VERB:於 PROPN NOUN PUNCT.,	4
+VERB:於 PROPN NOUN PUNCT..	3
+VERB:於 PROPN NUM	3
+VERB:於 PROPN PART	63
+VERB:於 PROPN PART CCONJ	3
+VERB:於 PROPN PART PART	7
+VERB:於 PROPN PART PROPN	21
+VERB:於 PROPN PART PUNCT	4
+VERB:於 PROPN PART PUNCT..	4
+VERB:於 PROPN PROPN	42
+VERB:於 PROPN PROPN PART	28
+VERB:於 PROPN PROPN PROPN	6
+VERB:於 PROPN PUNCT PROPN	4
+VERB:於 PROPN VERB PART	5
+VERB:於 PROPN VERB PUNCT.,	3
+VERB:於 VERB NOUN	11
+VERB:於 VERB NOUN NOUN	6
+VERB:於 VERB PART	6
+VERB:於 VERB PART NOUN	6
+VERB:於 VERB PUNCT.,	4
+VERB:於 X	5
+VERB:是	264
+VERB:是 ADJ NOUN	3
+VERB:是 ADP	74
+VERB:是 ADP ADJ	3
+VERB:是 ADP ADJ PART	3
+VERB:是 ADP ADP	3
+VERB:是 ADP ADV	3
+VERB:是 ADP NOUN	24
+VERB:是 ADP NOUN NOUN	15
+VERB:是 ADP NUM	8
+VERB:是 ADP PRON	5
+VERB:是 ADP PROPN NOUN	4
+VERB:是 ADP VERB	13
+VERB:是 ADP VERB NOUN	7
+VERB:是 ADV	11
+VERB:是 ADV VERB	8
+VERB:是 ADV VERB X	3
+VERB:是 AUX	5
+VERB:是 AUX VERB	3
+VERB:是 NOUN ADJ	3
+VERB:是 NOUN NOUN	6
+VERB:是 NOUN PART	4
+VERB:是 NOUN VERB	5
+VERB:是 NUM NOUN	3
+VERB:是 PROPN NOUN	5
+VERB:是 PROPN NOUN NOUN	3
+VERB:是 PROPN PROPN	3
+VERB:是 PROPN VERB	3
+VERB:是 PUNCT., ADP	4
+VERB:是 PUNCT., NOUN	3
+VERB:是 VERB	107
+VERB:是 VERB ADJ	4
+VERB:是 VERB ADJ PART	3
+VERB:是 VERB ADP	5
+VERB:是 VERB ADV	3
+VERB:是 VERB ADV VERB	3
+VERB:是 VERB DET	4
+VERB:是 VERB DET NOUN	4
+VERB:是 VERB NOUN	31
+VERB:是 VERB NOUN ADP	3
+VERB:是 VERB NOUN ADV	3
+VERB:是 VERB NOUN CCONJ	3
+VERB:是 VERB NOUN NOUN	13
+VERB:是 VERB NOUN VERB	3
+VERB:是 VERB NUM NOUN	5
+VERB:是 VERB PROPN	19
+VERB:是 VERB PROPN NOUN	6
+VERB:是 VERB VERB	24
+VERB:是 VERB VERB NOUN	9
+VERB:是 VERB VERB VERB	4
+VERB:是 VERB X	3
+VERB:有	482
+VERB:有 ADJ	61
+VERB:有 ADJ NOUN	28
+VERB:有 ADJ NOUN PUNCT.,	8
+VERB:有 ADJ NOUN PUNCT..	6
+VERB:有 ADJ NOUN VERB	3
+VERB:有 ADJ PART	25
+VERB:有 ADJ PART NOUN	18
+VERB:有 ADJ PART VERB	4
+VERB:有 ADP NOUN	3
+VERB:有 ADV	19
+VERB:有 ADV ADJ	5
+VERB:有 ADV ADJ PART	5
+VERB:有 ADV NUM	6
+VERB:有 ADV NUM NOUN	6
+VERB:有 ADV VERB PUNCT.,	3
+VERB:有 DET	9
+VERB:有 DET NOUN	8
+VERB:有 NOUN	161
+VERB:有 NOUN ADJ	5
+VERB:有 NOUN AUX	3
+VERB:有 NOUN NOUN CCONJ	4
+VERB:有 NOUN NOUN PART	7
+VERB:有 NOUN NOUN PUNCT.,	7
+VERB:有 NOUN NOUN VERB	6
+VERB:有 NOUN NUM	19
+VERB:有 NOUN NUM NOUN	18
+VERB:有 NOUN PART NOUN	15
+VERB:有 NOUN PART VERB	4
+VERB:有 NOUN PUNCT	11
+VERB:有 NOUN PUNCT NOUN	7
+VERB:有 NOUN PUNCT., NOUN	4
+VERB:有 NOUN PUNCT., VERB	3
+VERB:有 NOUN VERB	40
+VERB:有 NOUN VERB PRON	3
+VERB:有 NOUN VERB PROPN	8
+VERB:有 NOUN VERB PUNCT.,	6
+VERB:有 NUM	130
+VERB:有 NUM ADJ	7
+VERB:有 NUM ADJ NOUN	4
+VERB:有 NUM NOUN ADJ	4
+VERB:有 NUM NOUN ADP	3
+VERB:有 NUM NOUN NOUN	46
+VERB:有 NUM NOUN NUM	3
+VERB:有 NUM NOUN PART	5
+VERB:有 NUM NOUN PROPN	3
+VERB:有 NUM NOUN PUNCT.,	13
+VERB:有 NUM NOUN PUNCT..	7
+VERB:有 NUM NOUN VERB	20
+VERB:有 NUM PART	3
+VERB:有 NUM PART NOUN	3
+VERB:有 PART ADJ	8
+VERB:有 PART ADJ PART	6
+VERB:有 PART NOUN	7
+VERB:有 PROPN NOUN	7
+VERB:有 PROPN PROPN	4
+VERB:有 PUNCT NOUN	4
+VERB:有 VERB NOUN	15
+VERB:有 VERB NOUN NOUN	5
+VERB:有 VERB NOUN PART	5
+VERB:有 VERB PART	10
+VERB:有 VERB PART PART	3
+VERB:有 VERB PART PUNCT.,	3
+VERB:有 VERB PUNCT..	5
+VERB:有 VERB VERB	3
+VERB:沒有	97
+VERB:沒有 ADJ	11
+VERB:沒有 ADJ NOUN PART	3
+VERB:沒有 ADJ PART	7
+VERB:沒有 ADJ PART NOUN	5
+VERB:沒有 ADP NOUN	3
+VERB:沒有 ADV	3
+VERB:沒有 ADV VERB	3
+VERB:沒有 DET	4
+VERB:沒有 DET NOUN	3
+VERB:沒有 NOUN	23
+VERB:沒有 NOUN PART	4
+VERB:沒有 NOUN PUNCT.,	6
+VERB:沒有 NOUN PUNCT., ADV	3
+VERB:沒有 PRON	3
+VERB:沒有 VERB	46
+VERB:沒有 VERB DET	3
+VERB:沒有 VERB NOUN PART	3
+VERB:沒有 VERB NOUN PUNCT..	5
+VERB:沒有 VERB PART NOUN	3
+VERB:沒有 VERB PRON	3
+VERB:沒有 VERB PUNCT..	6
+VERB:沒有 VERB VERB	9
+VERB:沒有 VERB VERB PUNCT	3
+VERB:為	402
+VERB:為 ADJ	24
+VERB:為 ADJ NOUN NOUN	3
+VERB:為 ADJ PART NOUN	4
+VERB:為 ADJ PUNCT.,	3
+VERB:為 AUX	6
+VERB:為 DET	8
+VERB:為 DET NOUN	6
+VERB:為 DET NOUN NOUN	3
+VERB:為 NOUN	117
+VERB:為 NOUN ADP	4
+VERB:為 NOUN CCONJ	5
+VERB:為 NOUN NOUN	40
+VERB:為 NOUN NOUN PUNCT.,	7
+VERB:為 NOUN NOUN PUNCT..	10
+VERB:為 NOUN NUM	6
+VERB:為 NOUN NUM NOUN	5
+VERB:為 NOUN PART NOUN	6
+VERB:為 NOUN PART PART	4
+VERB:為 NOUN PART PUNCT.,	3
+VERB:為 NOUN PART PUNCT..	3
+VERB:為 NOUN PUNCT..	14
+VERB:為 NOUN VERB PART	3
+VERB:為 NUM	47
+VERB:為 NUM NOUN	44
+VERB:為 NUM NOUN ADJ	4
+VERB:為 NUM NOUN NOUN	16
+VERB:為 PART NOUN	7
+VERB:為 PART NUM	3
+VERB:為 PART NUM NOUN	3
+VERB:為 PART PROPN	5
+VERB:為 PART PROPN NOUN	3
+VERB:為 PRON PART	3
+VERB:為 PRON PART NOUN	3
+VERB:為 PROPN	96
+VERB:為 PROPN ADJ	3
+VERB:為 PROPN NOUN	35
+VERB:為 PROPN NOUN NOUN	12
+VERB:為 PROPN NOUN PART	9
+VERB:為 PROPN NOUN PUNCT.,	4
+VERB:為 PROPN NUM	3
+VERB:為 PROPN NUM NOUN	3
+VERB:為 PROPN PART	31
+VERB:為 PROPN PART NOUN	11
+VERB:為 PROPN PART PART	8
+VERB:為 PROPN PART PUNCT..	3
+VERB:為 PROPN PROPN NOUN	5
+VERB:為 PROPN PUNCT	10
+VERB:為 PUNCT	31
+VERB:為 PUNCT NOUN	12
+VERB:為 PUNCT NOUN NOUN	3
+VERB:為 PUNCT NOUN PUNCT	5
+VERB:為 PUNCT PROPN	10
+VERB:為 PUNCT PROPN NOUN	4
+VERB:為 VERB NOUN	4
+VERB:為 VERB PART	13
+VERB:為 VERB PART PUNCT..	3
+VERB:為 VERB PROPN	5
+VERB:為 VERB PUNCT.,	4
+VERB:為 VERB VERB	5
+VERB:為 X	5
+VERB:用	103
+VERB:用 ADV	18
+VERB:用 ADV VERB	16
+VERB:用 ADV VERB NOUN	6
+VERB:用 ADV VERB VERB	4
+VERB:用 NOUN	27
+VERB:用 NOUN NOUN VERB	3
+VERB:用 NOUN VERB	13
+VERB:用 PART NOUN	5
+VERB:用 PROPN PART	3
+VERB:用 SYM	4
+VERB:用 SYM PUNCT.,	3
+VERB:用 SYM PUNCT., PROPN	3
+VERB:用 VERB	27
+VERB:用 VERB NOUN	10
+VERB:用 VERB NOUN NOUN	5
+VERB:用 VERB VERB	12
+VERB:用 VERB VERB NOUN	6
+VERB:由	173
+VERB:由 ADJ	8
+VERB:由 ADJ NOUN	4
+VERB:由 ADJ PART	3
+VERB:由 DET	3
+VERB:由 DET NOUN	3
+VERB:由 NOUN	45
+VERB:由 NOUN NOUN	17
+VERB:由 NOUN NOUN NOUN	4
+VERB:由 NOUN NOUN VERB	10
+VERB:由 NOUN PART VERB	3
+VERB:由 NOUN PROPN	4
+VERB:由 NOUN VERB	13
+VERB:由 NOUN VERB PART	3
+VERB:由 NOUN VERB VERB	4
+VERB:由 NUM	15
+VERB:由 NUM NOUN	14
+VERB:由 NUM NOUN NOUN	5
+VERB:由 PROPN	88
+VERB:由 PROPN NOUN	29
+VERB:由 PROPN NOUN NOUN	10
+VERB:由 PROPN NOUN PART	7
+VERB:由 PROPN NOUN VERB	6
+VERB:由 PROPN PART NOUN	6
+VERB:由 PROPN PART VERB	13
+VERB:由 PROPN PROPN	16
+VERB:由 PROPN PROPN VERB	7
+VERB:由 PROPN PUNCT	8
+VERB:由 PROPN PUNCT PROPN	8
+VERB:由 PROPN VERB	10
+VERB:由 PROPN VERB PART	3
+VERB:由 PROPN VERB PUNCT..	3
+VERB:由 X	5
+VERB:稱	89
+VERB:稱 NOUN NOUN	5
+VERB:稱 PRON	6
+VERB:稱 PRON AUX	6
+VERB:稱 PRON AUX PUNCT	4
+VERB:稱 PROPN NOUN	4
+VERB:稱 PROPN PROPN	3
+VERB:稱 PUNCT	8
+VERB:稱 PUNCT NOUN	4
+VERB:稱 PUNCT NOUN PUNCT	3
+VERB:稱 PUNCT.,	6
+VERB:稱 VERB	43
+VERB:稱 VERB NOUN	12
+VERB:稱 VERB NOUN PART	4
+VERB:稱 VERB PROPN PUNCT	3
+VERB:稱 VERB PUNCT	9
+VERB:稱 VERB PUNCT NOUN	4
+VERB:稱 VERB VERB PART	3
+VERB:被	334
+VERB:被 ADJ PART	3
+VERB:被 ADV	7
+VERB:被 ADV VERB	6
+VERB:被 NOUN NOUN	7
+VERB:被 NOUN NOUN NOUN	3
+VERB:被 NOUN NOUN VERB	4
+VERB:被 NOUN VERB	8
+VERB:被 NUM NOUN	5
+VERB:被 NUM NOUN NOUN	3
+VERB:被 PROPN NOUN	8
+VERB:被 PROPN NOUN PART	3
+VERB:被 PROPN PART	10
+VERB:被 PROPN PART VERB	5
+VERB:被 PROPN PROPN	6
+VERB:被 PROPN VERB	5
+VERB:被 PROPN VERB VERB	3
+VERB:被 VERB	252
+VERB:被 VERB ADP	11
+VERB:被 VERB ADV	8
+VERB:被 VERB ADV VERB	5
+VERB:被 VERB AUX	14
+VERB:被 VERB AUX NOUN	4
+VERB:被 VERB AUX PROPN	5
+VERB:被 VERB CCONJ	5
+VERB:被 VERB CCONJ VERB	5
+VERB:被 VERB NOUN NOUN	3
+VERB:被 VERB NOUN PART	5
+VERB:被 VERB NOUN PUNCT.,	3
+VERB:被 VERB NUM NOUN	3
+VERB:被 VERB PART NOUN	13
+VERB:被 VERB PART PUNCT.,	3
+VERB:被 VERB PROPN NOUN	4
+VERB:被 VERB PROPN PART	4
+VERB:被 VERB PROPN PUNCT.,	4
+VERB:被 VERB PUNCT VERB	3
+VERB:被 VERB PUNCT.,	25
+VERB:被 VERB PUNCT., ADV	9
+VERB:被 VERB PUNCT..	16
+VERB:被 VERB VERB	100
+VERB:被 VERB VERB ADP	3
+VERB:被 VERB VERB AUX	4
+VERB:被 VERB VERB NOUN	30
+VERB:被 VERB VERB PROPN	18
+VERB:被 VERB VERB PUNCT	10
+VERB:被 VERB VERB PUNCT..	7
+VERB:被 VERB VERB VERB	14
+VERB:被 VERB X	4
+VERB:進行	76
+VERB:進行 ADJ	3
+VERB:進行 ADJ PART	3
+VERB:進行 ADJ PART NOUN	3
+VERB:進行 NOUN	43
+VERB:進行 NOUN CCONJ	3
+VERB:進行 NOUN NOUN	16
+VERB:進行 NOUN NOUN PUNCT.,	5
+VERB:進行 NOUN NOUN PUNCT..	5
+VERB:進行 NOUN PUNCT.,	10
+VERB:進行 NOUN PUNCT., ADP	4
+VERB:進行 NOUN PUNCT..	7
+VERB:進行 NUM NOUN	3
+VERB:進行 PART	14
+VERB:進行 PART NOUN	6
+VERB:進行 PART NOUN PUNCT.,	3
+VERB:進行 PART NUM	4
+X:的	104
+X:的 PUNCT.,	40
+X:的 PUNCT., ADP	6
+X:的 PUNCT., ADP VERB	3
+X:的 PUNCT., ADV	10
+X:的 PUNCT., DET	4
+X:的 PUNCT., DET NUM	3
+X:的 PUNCT., NOUN NOUN	3
+X:的 PUNCT., PRON	3
+X:的 PUNCT., VERB	6
+X:的 PUNCT..	59
+
+[INWARDS:2]
+3109
+ADJ ADJ PART:的	22
+ADJ ADP:時	7
+ADJ ADV ADJ PART:的	5
+ADJ ADV VERB PART:的	5
+ADJ ADV:最	3
+ADJ ADV:而	8
+ADJ CCONJ ADJ PART:的	10
+ADJ CCONJ:或	8
+ADJ NOUN ADP PART:的	3
+ADJ NOUN ADP:上	6
+ADJ NOUN ADP:於	3
+ADJ NOUN ADV VERB:被	3
+ADJ NOUN ADV:也	3
+ADJ NOUN ADV:則	3
+ADJ NOUN ADV:而	3
+ADJ NOUN AUX:會	4
+ADJ NOUN AUX:為	10
+ADJ NOUN CCONJ:和	12
+ADJ NOUN CCONJ:或	3
+ADJ NOUN CCONJ:與	6
+ADJ NOUN NOUN CCONJ:和	4
+ADJ NOUN NOUN PART:的	15
+ADJ NOUN NOUN VERB:有	3
+ADJ NOUN PART NUM:一	10
+ADJ NOUN PART PART:的	6
+ADJ NOUN PART:之	9
+ADJ NOUN PART:的	85
+ADJ NOUN PART:者	3
+ADJ NOUN VERB VERB:在	4
+ADJ NOUN VERB VERB:於	4
+ADJ NOUN VERB:是	5
+ADJ NOUN:公司	11
+ADJ NOUN:國家	5
+ADJ NOUN:地區	4
+ADJ NOUN:大學	5
+ADJ NOUN:政府	3
+ADJ NUM:一	14
+ADJ NUM:兩	3
+ADJ PART NOUN ADP:中	4
+ADJ PART NOUN ADP:為	3
+ADJ PART NOUN ADV:都	3
+ADJ PART NOUN AUX:是	10
+ADJ PART NOUN CCONJ:和	13
+ADJ PART NOUN PART:之	5
+ADJ PART NOUN VERB:是	7
+ADJ PART NOUN VERB:有	3
+ADJ PART NOUN VERB:被	3
+ADJ PART NOUN:人	5
+ADJ PART NOUN:國家	3
+ADJ PART NOUN:地區	3
+ADJ PART NUM:一	10
+ADJ PART NUM:兩	3
+ADJ PART VERB PART:者	4
+ADJ PART VERB VERB:在	3
+ADJ PART VERB:是	10
+ADJ PART:地	39
+ADJ PART:性	22
+ADJ PART:的	625
+ADJ PROPN PART:人	3
+ADJ PUNCT ADJ PART:的	3
+ADJ PUNCT PART:的	5
+ADJ PUNCT., ADP:以	3
+ADJ PUNCT., ADP:因	3
+ADJ PUNCT., ADP:因為	3
+ADJ PUNCT., ADP:在	7
+ADJ PUNCT., ADP:對	3
+ADJ PUNCT., ADV ADP:在	6
+ADJ PUNCT., ADV AUX:會	3
+ADJ PUNCT., ADV:不	3
+ADJ PUNCT., ADV:但	11
+ADJ PUNCT., DET:這	3
+ADJ PUNCT., NOUN PART:的	3
+ADJ PUNCT., PRON:他	3
+ADJ VERB PART:人	4
+ADJ VERB PART:者	6
+ADJ VERB:於	14
+ADJ X PUNCT., ADP:因為	3
+ADJ X:的	25
+ADJ:不同	78
+ADP ADJ NOUN ADP:中	3
+ADP ADJ NOUN PART:的	9
+ADP ADJ:不同	4
+ADP ADP:以	6
+ADP ADP:在	17
+ADP ADP:對	11
+ADP ADP:從	3
+ADP ADP:與	9
+ADP ADV ADJ PART:的	11
+ADP ADV AUX:可	3
+ADP ADV AUX:會	3
+ADP ADV VERB PART:的	9
+ADP ADV VERB VERB:為	5
+ADP ADV VERB:在	3
+ADP ADV VERB:有	11
+ADP ADV:不	12
+ADP ADV:也	10
+ADP ADV:就	5
+ADP ADV:已	7
+ADP ADV:最	7
+ADP ADV:還	3
+ADP ADV:都	10
+ADP AUX:可以	4
+ADP AUX:會	5
+ADP DET NOUN ADP:中	7
+ADP DET NOUN PART:的	6
+ADP DET NOUN:個	7
+ADP DET NOUN:種	6
+ADP DET NUM NOUN:個	8
+ADP DET NUM:一	21
+ADP DET VERB PART:的	3
+ADP DET:這	34
+ADP NOUN ADJ PART:的	10
+ADP NOUN ADP PART:的	10
+ADP NOUN ADP VERB:有	3
+ADP NOUN ADP:上	28
+ADP NOUN ADP:中	36
+ADP NOUN ADV:就	5
+ADP NOUN ADV:而	4
+ADP NOUN ADV:還	3
+ADP NOUN CCONJ:及	6
+ADP NOUN CCONJ:或	10
+ADP NOUN NOUN ADP:上	6
+ADP NOUN NOUN ADP:中	20
+ADP NOUN NOUN ADV:不	3
+ADP NOUN NOUN ADV:而	3
+ADP NOUN NOUN CCONJ:和	8
+ADP NOUN NOUN PART:的	29
+ADP NOUN NOUN VERB:有	4
+ADP NOUN NUM NOUN:個	3
+ADP NOUN NUM:一	5
+ADP NOUN PART ADP:中	4
+ADP NOUN PART PART:的	11
+ADP NOUN PART:的	76
+ADP NOUN PART:部	4
+ADP NOUN VERB ADP:時	4
+ADP NOUN VERB PART:的	22
+ADP NOUN VERB:到	6
+ADP NOUN VERB:有	12
+ADP NOUN VERB:用	4
+ADP NOUN:世界	5
+ADP NOUN:政府	4
+ADP NUM NOUN ADP:中	3
+ADP NUM NOUN ADP:在	3
+ADP NUM NOUN ADP:後	4
+ADP NUM NOUN NOUN:世界	6
+ADP NUM NOUN NOUN:人口	3
+ADP NUM NOUN NUM:3	10
+ADP NUM NOUN PART:的	24
+ADP NUM NOUN PROPN:美國	10
+ADP NUM NOUN VERB:到	7
+ADP NUM NOUN VERB:在	5
+ADP NUM NOUN VERB:成	3
+ADP NUM NOUN VERB:由	5
+ADP NUM NOUN VERB:進行	3
+ADP NUM NOUN:年	375
+ADP NUM NOUN:次	19
+ADP NUM PART:的	3
+ADP PART NOUN AUX:為	27
+ADP PART NOUN CCONJ:和	3
+ADP PART NOUN:人口	26
+ADP PART NUM NOUN:個	9
+ADP PART NUM:一	7
+ADP PART:大	6
+ADP PART:的	168
+ADP PRON ADP:對	3
+ADP PRON ADV:也	3
+ADP PRON AUX NUM:一	3
+ADP PRON NOUN PART:的	4
+ADP PRON NUM NOUN:年	3
+ADP PRON PART:的	23
+ADP PRON PRON:他	4
+ADP PRON VERB PART:的	8
+ADP PRON VERB VERB:為	3
+ADP PRON VERB:有	4
+ADP PRON.P PART:的	5
+ADP PRON:此	99
+ADP PROPN ADP:在	9
+ADP PROPN CCONJ:及	5
+ADP PROPN CCONJ:和	10
+ADP PROPN NOUN ADP:中	5
+ADP PROPN NOUN PART:部	5
+ADP PROPN NOUN:大學	5
+ADP PROPN NUM NOUN:年	5
+ADP PROPN PART PART:的	8
+ADP PROPN PART:人	9
+ADP PROPN PART:州	6
+ADP PROPN PART:的	38
+ADP PROPN PART:軍	6
+ADP PROPN PROPN PART:的	9
+ADP PROPN VERB PART:的	8
+ADP PROPN VERB:進行	4
+ADP PROPN:中國	16
+ADP PROPN:日本	8
+ADP PROPN:美國	16
+ADP PROPN:香港	12
+ADP PUNCT., ADV VERB:以	3
+ADP PUNCT., ADV VERB:有	5
+ADP PUNCT., ADV:曾	5
+ADP PUNCT., DET:該	3
+ADP PUNCT., NOUN PART:的	6
+ADP PUNCT., NUM:一	7
+ADP PUNCT., PRON.P:他們	6
+ADP PUNCT., PRON:他	22
+ADP PUNCT., PROPN PART:人	5
+ADP PUNCT., PROPN PART:的	5
+ADP PUNCT., PROPN PART:軍	3
+ADP PUNCT., PROPN VERB:成	3
+ADP PUNCT., VERB PART:的	3
+ADP PUNCT., VERB:有	4
+ADP PUNCT., VERB:沒有	3
+ADP PUNCT., VERB:由	5
+ADP VERB ADP:時	12
+ADP VERB ADP:與	3
+ADP VERB ADV:所	4
+ADP VERB ADV:而	4
+ADP VERB DET:這	4
+ADP VERB NOUN ADP:時	4
+ADP VERB NOUN ADV:而	3
+ADP VERB NOUN CCONJ:和	3
+ADP VERB NOUN:人	4
+ADP VERB NUM NOUN:個	10
+ADP VERB NUM:一	18
+ADP VERB NUM:兩	3
+ADP VERB PART PART:的	6
+ADP VERB PART:會	4
+ADP VERB PART:的	35
+ADP VERB PRON PART:的	3
+ADP VERB PRON:他	5
+ADP VERB PRON:其	3
+ADP VERB PROPN PART:的	3
+ADP VERB VERB PART:的	9
+ADP VERB X:的	4
+ADP VERB:使用	6
+ADP VERB:將	5
+ADP VERB:有	34
+ADP VERB:沒有	14
+ADP VERB:被	16
+ADP VERB:進行	4
+ADP:上	174
+ADP:中	310
+ADP:以	116
+ADP:因	115
+ADP:因為	83
+ADP:在	881
+ADP:對	153
+ADP:後	190
+ADP:從	105
+ADP:於	322
+ADP:時	182
+ADP:為	102
+ADP:由於	91
+ADP:與	197
+ADV ADJ CCONJ:和	5
+ADV ADJ NOUN CCONJ:與	3
+ADV ADJ NOUN PART:的	4
+ADV ADJ PART NUM:一	5
+ADV ADJ PART VERB:是	5
+ADV ADJ PART:地	12
+ADV ADJ PART:的	118
+ADV ADJ PUNCT., ADP:在	3
+ADV ADJ PUNCT., ADV:並	5
+ADV ADJ VERB:於	3
+ADV ADP DET NUM:一	3
+ADV ADP DET:這	4
+ADV ADP NOUN ADP:上	5
+ADV ADP NOUN CCONJ:或	3
+ADV ADP NOUN PART:的	7
+ADV ADP NOUN VERB:有	3
+ADV ADP NUM NOUN:年	52
+ADV ADP NUM NOUN:月	6
+ADV ADP NUM:一	4
+ADV ADP PRON:他	5
+ADV ADP PRON:其	4
+ADV ADP PROPN PART:的	4
+ADV ADP PROPN:中國	3
+ADV ADP VERB PART:的	7
+ADV ADP:以	15
+ADV ADP:因為	11
+ADV ADP:在	129
+ADV ADP:對	18
+ADV ADP:從	13
+ADV ADP:於	34
+ADV ADP:為	16
+ADV ADP:由於	11
+ADV ADP:與	34
+ADV ADV ADP:為	3
+ADV ADV AUX:會	5
+ADV ADV AUX:為	5
+ADV ADV VERB DET:這	3
+ADV ADV VERB NOUN:人	6
+ADV ADV VERB NUM:一	5
+ADV ADV VERB NUM:兩	3
+ADV ADV VERB PRON:他	4
+ADV ADV VERB VERB:於	8
+ADV ADV VERB VERB:被	3
+ADV ADV VERB:使用	4
+ADV ADV VERB:有	19
+ADV ADV VERB:沒有	7
+ADV ADV VERB:用	3
+ADV ADV VERB:被	12
+ADV ADV:不	54
+ADV ADV:已	10
+ADV ADV:曾	15
+ADV AUX ADJ PART:的	4
+ADV AUX ADP:以	4
+ADV AUX ADP:對	3
+ADV AUX AUX:是	4
+ADV AUX NOUN PART:的	3
+ADV AUX PROPN:中國	3
+ADV AUX VERB NUM:一	7
+ADV AUX VERB PART:的	8
+ADV AUX VERB VERB:在	3
+ADV AUX VERB:使用	3
+ADV AUX VERB:在	4
+ADV AUX VERB:將	5
+ADV AUX VERB:是	3
+ADV AUX VERB:有	5
+ADV AUX VERB:被	6
+ADV AUX:可	22
+ADV AUX:可以	40
+ADV AUX:會	63
+ADV NOUN ADP:上	5
+ADV NOUN ADV VERB:有	4
+ADV NOUN ADV:則	6
+ADV NOUN ADV:已	3
+ADV NOUN PART:的	8
+ADV NOUN VERB PART:的	3
+ADV NUM NOUN PART:的	10
+ADV NUM NOUN VERB:被	3
+ADV NUM NOUN:人	16
+ADV NUM NOUN:次	13
+ADV NUM NOUN:種	4
+ADV NUM PART:的	3
+ADV NUM:三	3
+ADV NUM:兩	9
+ADV PRON PART:的	3
+ADV PRON:他	14
+ADV PRON:她	5
+ADV PROPN NOUN PART:的	3
+ADV PROPN PART:的	6
+ADV PROPN PART:軍	4
+ADV PROPN:中國	3
+ADV PUNCT., ADP:由於	3
+ADV PUNCT., ADV VERB:有	3
+ADV PUNCT., PRON:她	3
+ADV VERB ADJ PART:的	32
+ADV VERB ADP:在	29
+ADV VERB ADP:於	23
+ADV VERB ADP:為	5
+ADV VERB ADV:並	3
+ADV VERB ADV:也	3
+ADV VERB AUX:可	3
+ADV VERB CCONJ:和	3
+ADV VERB CCONJ:或	3
+ADV VERB DET:這	11
+ADV VERB NOUN AUX:是	3
+ADV VERB NOUN CCONJ:及	5
+ADV VERB NOUN PART:的	53
+ADV VERB NOUN PART:部	3
+ADV VERB NOUN:人	19
+ADV VERB NOUN:人口	5
+ADV VERB NUM NOUN:人	7
+ADV VERB NUM NOUN:名	4
+ADV VERB NUM NOUN:種	7
+ADV VERB NUM:1	3
+ADV VERB NUM:2	3
+ADV VERB NUM:3	4
+ADV VERB NUM:兩	16
+ADV VERB PART NOUN:其中	3
+ADV VERB PART NUM:一	12
+ADV VERB PART PRON:他	6
+ADV VERB PART PRON:自己	4
+ADV VERB PART:地	3
+ADV VERB PART:大	4
+ADV VERB PART:的	122
+ADV VERB PART:著	17
+ADV VERB PRON ADP:在	3
+ADV VERB PRON NUM:一	3
+ADV VERB PRON PART:的	12
+ADV VERB PRON:其	17
+ADV VERB PRON:她	11
+ADV VERB PROPN PART:人	4
+ADV VERB PROPN PART:的	16
+ADV VERB PROPN:中國	12
+ADV VERB PROPN:美國	8
+ADV VERB PUNCT., ADP:因	3
+ADV VERB PUNCT., ADV:並	6
+ADV VERB PUNCT., ADV:但	4
+ADV VERB PUNCT., ADV:而	3
+ADV VERB PUNCT., DET:這	4
+ADV VERB VERB NOUN:人	3
+ADV VERB VERB PART:性	6
+ADV VERB VERB PART:者	4
+ADV VERB VERB PRON.P:他們	3
+ADV VERB VERB PRON:他	8
+ADV VERB VERB PROPN:美國	4
+ADV VERB VERB VERB:成	3
+ADV VERB VERB VERB:於	9
+ADV VERB VERB VERB:為	23
+ADV VERB VERB:使用	5
+ADV VERB VERB:到	19
+ADV VERB VERB:將	7
+ADV VERB VERB:用	7
+ADV VERB VERB:稱	7
+ADV VERB VERB:被	4
+ADV VERB X:的	19
+ADV VERB:以	18
+ADV VERB:使用	25
+ADV VERB:將	21
+ADV VERB:成	38
+ADV VERB:有	176
+ADV VERB:沒有	42
+ADV VERB:稱	27
+ADV VERB:被	100
+ADV:不	165
+ADV:並	254
+ADV:也	248
+ADV:但	173
+ADV:則	97
+ADV:就	88
+ADV:已	90
+ADV:所	122
+ADV:曾	90
+ADV:最	80
+ADV:而	252
+ADV:還	80
+ADV:都	118
+AUX ADJ NUM:一	3
+AUX ADJ PART:地	3
+AUX ADJ PART:性	3
+AUX ADJ PUNCT., ADV:而	3
+AUX ADJ X:的	11
+AUX ADP DET:這	3
+AUX ADP:以	8
+AUX ADP:因	4
+AUX ADP:對	10
+AUX ADP:從	4
+AUX ADP:為	3
+AUX ADP:與	9
+AUX ADV ADJ PART:的	10
+AUX ADV ADJ X:的	4
+AUX ADV ADP:在	3
+AUX ADV VERB NUM:一	3
+AUX ADV VERB PART:的	3
+AUX ADV:不	5
+AUX ADV:最	11
+AUX AUX:是	11
+AUX AUX:會	7
+AUX NOUN ADJ PART:的	6
+AUX NOUN ADP:上	4
+AUX NOUN ADV:最	4
+AUX NOUN CCONJ:和	4
+AUX NOUN NOUN ADP:上	3
+AUX NOUN NOUN:政府	3
+AUX NOUN VERB PART:的	4
+AUX NOUN:世界	8
+AUX NOUN:個	8
+AUX NOUN:名	6
+AUX NUM NOUN VERB:由	4
+AUX NUM NOUN:人	29
+AUX NUM NOUN:個	47
+AUX NUM NOUN:名	13
+AUX NUM NOUN:種	26
+AUX NUM NOUN:等	8
+AUX NUM:一	125
+AUX NUM:第一	6
+AUX PART:大	4
+AUX PRON PART:的	4
+AUX PROPN CCONJ:和	3
+AUX PROPN NOUN ADV:最	3
+AUX PROPN NOUN NUM:一	3
+AUX PROPN NOUN PART:的	10
+AUX PROPN NUM:一	3
+AUX PROPN PART NUM:一	5
+AUX PROPN PART:區	4
+AUX PROPN PART:市	5
+AUX PROPN PART:的	43
+AUX PROPN PROPN PART:省	11
+AUX PROPN:中國	36
+AUX PROPN:日本	12
+AUX PROPN:美國	10
+AUX PROPN:香港	11
+AUX VERB ADJ PART:的	19
+AUX VERB ADJ:不同	3
+AUX VERB ADP:在	6
+AUX VERB DET NOUN:個	4
+AUX VERB DET:這	6
+AUX VERB NUM NOUN:人	4
+AUX VERB NUM NOUN:個	9
+AUX VERB NUM NOUN:名	3
+AUX VERB NUM NOUN:種	4
+AUX VERB NUM:一	17
+AUX VERB PART NUM:一	3
+AUX VERB PART PART:的	3
+AUX VERB PART:之	3
+AUX VERB PART:的	39
+AUX VERB PRON:自己	5
+AUX VERB PROPN PART:的	4
+AUX VERB VERB PART:的	6
+AUX VERB VERB:到	4
+AUX VERB VERB:於	20
+AUX VERB VERB:為	16
+AUX VERB X:的	3
+AUX VERB:使用	8
+AUX VERB:將	12
+AUX VERB:用	16
+AUX VERB:由	8
+AUX VERB:被	19
+AUX VERB:進行	7
+AUX:可	85
+AUX:可以	120
+AUX:是	700
+AUX:會	167
+AUX:為	424
+BOF ADJ ADV:而	4
+BOF ADJ PART:的	22
+BOF ADP ADJ PART:的	4
+BOF ADP ADP:在	3
+BOF ADP DET NOUN:個	4
+BOF ADP DET NOUN:種	3
+BOF ADP DET:這	11
+BOF ADP NOUN ADP:上	5
+BOF ADP NOUN CCONJ:和	4
+BOF ADP NOUN VERB:有	4
+BOF ADP NUM NOUN:年	69
+BOF ADP NUM NOUN:次	7
+BOF ADP NUM:一	5
+BOF ADP NUM:第一	4
+BOF ADP PRON:他	9
+BOF ADP PRON:其	3
+BOF ADP PRON:此	26
+BOF ADP PROPN PART:的	8
+BOF ADP PROPN:美國	5
+BOF ADP VERB NUM:一	3
+BOF ADP VERB:沒有	6
+BOF ADP:因	16
+BOF ADP:因為	10
+BOF ADP:在	185
+BOF ADP:從	17
+BOF ADP:由於	46
+BOF ADV ADJ PART:地	3
+BOF ADV ADP:因為	3
+BOF ADV ADP:在	18
+BOF ADV ADP:由於	6
+BOF ADV DET:這	5
+BOF ADV NOUN PART:的	3
+BOF ADV PRON:他	5
+BOF ADV PUNCT., ADP:由於	3
+BOF ADV VERB NOUN:人	3
+BOF ADV VERB PART:著	3
+BOF ADV VERB:有	5
+BOF ADV:但	32
+BOF ADV:最	5
+BOF ADV:而	44
+BOF DET AUX:是	3
+BOF DET NOUN ADV:也	3
+BOF DET NOUN VERB:由	5
+BOF DET NOUN:次	5
+BOF DET NOUN:種	11
+BOF DET NUM:一	14
+BOF DET NUM:兩	5
+BOF DET:該	63
+BOF DET:這	82
+BOF NOUN ADP PART:的	3
+BOF NOUN ADP:上	10
+BOF NOUN ADP:在	13
+BOF NOUN ADP:於	6
+BOF NOUN ADP:與	6
+BOF NOUN ADV ADV:不	3
+BOF NOUN ADV AUX:是	5
+BOF NOUN ADV VERB:在	3
+BOF NOUN ADV VERB:有	9
+BOF NOUN ADV:不	3
+BOF NOUN ADV:也	6
+BOF NOUN ADV:已	3
+BOF NOUN AUX:可	3
+BOF NOUN AUX:是	18
+BOF NOUN AUX:會	6
+BOF NOUN CCONJ:和	5
+BOF NOUN NOUN ADP:中	4
+BOF NOUN NOUN ADP:在	4
+BOF NOUN NOUN ADV:也	3
+BOF NOUN NOUN ADV:則	3
+BOF NOUN NOUN AUX:是	7
+BOF NOUN NOUN VERB:是	3
+BOF NOUN NUM NOUN:年	5
+BOF NOUN NUM NOUN:月	10
+BOF NOUN NUM:一	3
+BOF NOUN PART ADP:在	3
+BOF NOUN PART AUX:是	4
+BOF NOUN PART PART:的	3
+BOF NOUN PART:會	3
+BOF NOUN PRON:他	9
+BOF NOUN PROPN PART:的	3
+BOF NOUN PUNCT., AUX:是	3
+BOF NOUN PUNCT., PRON:他	5
+BOF NOUN VERB ADP:後	6
+BOF NOUN VERB ADP:於	5
+BOF NOUN VERB NUM:一	5
+BOF NOUN VERB PART:著	3
+BOF NOUN VERB VERB:於	8
+BOF NOUN VERB VERB:為	4
+BOF NOUN VERB:在	5
+BOF NOUN VERB:是	6
+BOF NOUN VERB:有	5
+BOF NOUN VERB:由	4
+BOF NOUN:世界	4
+BOF NOUN:公司	5
+BOF NOUN:其中	14
+BOF NUM NOUN ADP:在	7
+BOF NUM NOUN ADP:後	7
+BOF NUM NOUN CCONJ:和	4
+BOF NUM NOUN NOUN:世界	3
+BOF NUM NOUN NUM:1	21
+BOF NUM NOUN NUM:2	14
+BOF NUM NOUN NUM:3	21
+BOF NUM NOUN NUM:兩	3
+BOF NUM NOUN PART:的	6
+BOF NUM NOUN PRON:他	9
+BOF NUM NOUN VERB:在	3
+BOF NUM NOUN:年	390
+BOF NUM:三	13
+BOF PART NOUN PART:的	3
+BOF PART NOUN:面積	5
+BOF PART:大	4
+BOF PRON ADP:在	15
+BOF PRON ADP:於	6
+BOF PRON ADV ADV:曾	3
+BOF PRON ADV:也	6
+BOF PRON ADV:曾	4
+BOF PRON ADV:還	3
+BOF PRON AUX:是	20
+BOF PRON NOUN PART:的	3
+BOF PRON NOUN VERB:是	3
+BOF PRON PART NUM:一	3
+BOF PRON PART:的	31
+BOF PRON VERB PART:的	5
+BOF PRON VERB VERB:於	4
+BOF PRON VERB:在	3
+BOF PRON VERB:是	4
+BOF PRON.P PART:的	8
+BOF PRON:他	106
+BOF PRON:她	31
+BOF PROPN ADP:在	18
+BOF PROPN ADP:對	4
+BOF PROPN ADV VERB:有	3
+BOF PROPN ADV:也	3
+BOF PROPN ADV:曾	5
+BOF PROPN AUX NUM:一	5
+BOF PROPN AUX:是	24
+BOF PROPN CCONJ:與	5
+BOF PROPN NOUN ADP:在	3
+BOF PROPN NOUN AUX:是	10
+BOF PROPN NOUN NOUN:政府	3
+BOF PROPN NOUN VERB:有	3
+BOF PROPN NOUN:國家	4
+BOF PROPN NOUN:大學	6
+BOF PROPN NUM NOUN:年	14
+BOF PROPN PART ADP:在	3
+BOF PROPN PART ADP:於	4
+BOF PROPN PART AUX:是	31
+BOF PROPN PART CCONJ:與	3
+BOF PROPN PART VERB:由	4
+BOF PROPN PROPN ADP:於	6
+BOF PROPN PROPN AUX:是	12
+BOF PROPN PROPN PART:的	11
+BOF PROPN PROPN VERB:在	5
+BOF PROPN VERB ADP:後	7
+BOF PROPN VERB ADP:於	6
+BOF PROPN VERB PART:的	6
+BOF PROPN VERB PRON:自己	3
+BOF PROPN VERB:是	3
+BOF PROPN VERB:有	5
+BOF VERB ADP:後	5
+BOF VERB ADP:於	5
+BOF VERB NOUN:人	5
+BOF VERB NUM:一	4
+BOF VERB PART AUX:是	4
+BOF VERB PART:者	4
+BOF VERB PART:著	9
+BOF VERB VERB PART:的	4
+BOF VERB:以	4
+BOF VERB:到	3
+BOF VERB:在	34
+BOF VERB:有	12
+BOF VERB:由	5
+BOF X PART:的	4
+CCONJ ADJ PART:的	20
+CCONJ ADV VERB PART:的	3
+CCONJ DET NOUN PART:的	3
+CCONJ NOUN ADP PART:的	7
+CCONJ NOUN ADP:上	5
+CCONJ NOUN ADP:中	5
+CCONJ NOUN ADP:在	4
+CCONJ NOUN ADV:不	3
+CCONJ NOUN ADV:都	5
+CCONJ NOUN CCONJ:與	3
+CCONJ NOUN NOUN ADV:都	3
+CCONJ NOUN NOUN CCONJ:及	3
+CCONJ NOUN NOUN NOUN:等	5
+CCONJ NOUN NOUN PART:的	21
+CCONJ NOUN NOUN:等	8
+CCONJ NOUN NUM:三	3
+CCONJ NOUN PART PART:的	5
+CCONJ NOUN PART:的	50
+CCONJ NOUN PART:部	4
+CCONJ NOUN:世界	4
+CCONJ NOUN:國家	3
+CCONJ NOUN:政府	6
+CCONJ NUM NOUN PRON:他	3
+CCONJ NUM NOUN:名	3
+CCONJ NUM NOUN:年	42
+CCONJ NUM PART:的	5
+CCONJ NUM:2	5
+CCONJ NUM:三	6
+CCONJ NUM:第一	3
+CCONJ PART NOUN PART:的	3
+CCONJ PRON.P:他們	3
+CCONJ PRON:其	12
+CCONJ PROPN NOUN PART:的	12
+CCONJ PROPN NOUN:地區	4
+CCONJ PROPN NOUN:等	11
+CCONJ PROPN NUM:兩	3
+CCONJ PROPN PART PART:的	11
+CCONJ PROPN PART:人	10
+CCONJ PROPN PART:區	3
+CCONJ PROPN PART:省	5
+CCONJ PROPN PROPN PART:的	3
+CCONJ PROPN:日本	4
+CCONJ VERB NOUN PART:的	6
+CCONJ VERB PART PART:的	3
+CCONJ VERB PART:性	4
+CCONJ VERB:使用	4
+CCONJ VERB:有	6
+CCONJ:及	192
+CCONJ:和	614
+CCONJ:或	142
+CCONJ:與	194
+DET ADJ PART:的	6
+DET ADV:都	3
+DET NOUN ADJ PART:的	3
+DET NOUN ADP:中	10
+DET NOUN ADP:在	4
+DET NOUN ADP:於	4
+DET NOUN ADV VERB:有	4
+DET NOUN ADV:也	5
+DET NOUN ADV:都	9
+DET NOUN AUX:可以	3
+DET NOUN NOUN ADP:上	4
+DET NOUN NOUN ADP:在	7
+DET NOUN NOUN ADV:也	6
+DET NOUN NOUN AUX:會	3
+DET NOUN NOUN PART:的	32
+DET NOUN NOUN VERB:是	4
+DET NOUN NOUN VERB:有	3
+DET NOUN NOUN VERB:被	3
+DET NOUN NOUN:國家	3
+DET NOUN NUM NOUN:人	5
+DET NOUN NUM:1	3
+DET NOUN PART NOUN:面積	26
+DET NOUN PART:的	62
+DET NOUN VERB ADP:在	3
+DET NOUN VERB NUM:一	3
+DET NOUN VERB VERB:在	3
+DET NOUN VERB:是	6
+DET NOUN VERB:由	6
+DET NOUN VERB:被	3
+DET NOUN:世界	4
+DET NOUN:個	53
+DET NOUN:公司	10
+DET NOUN:國家	5
+DET NOUN:地區	10
+DET NOUN:次	11
+DET NOUN:種	43
+DET NUM NOUN PART:的	7
+DET NUM NOUN:個	35
+DET NUM NOUN:種	6
+DET NUM:2	4
+DET NUM:一	89
+DET NUM:三	11
+DET NUM:兩	25
+DET PART:的	20
+DET PROPN PART:的	3
+DET VERB ADJ:不同	4
+DET VERB PART AUX:為	3
+DET VERB PART:者	5
+DET VERB:有	10
+DET:該	128
+DET:這	256
+NOUN ADJ ADJ PART:的	5
+NOUN ADJ ADP:時	4
+NOUN ADJ NOUN AUX:為	3
+NOUN ADJ NOUN:公司	11
+NOUN ADJ NOUN:國家	3
+NOUN ADJ PART PART:的	4
+NOUN ADJ PART:地	12
+NOUN ADJ PART:的	137
+NOUN ADJ PUNCT PART:的	3
+NOUN ADJ PUNCT., ADV:但	8
+NOUN ADJ PUNCT., ADV:而	3
+NOUN ADJ VERB:於	4
+NOUN ADJ:不同	22
+NOUN ADP ADJ PART:的	11
+NOUN ADP ADP:對	5
+NOUN ADP ADP:與	6
+NOUN ADP ADV VERB:有	7
+NOUN ADP ADV:也	9
+NOUN ADP ADV:所	3
+NOUN ADP ADV:都	8
+NOUN ADP AUX:可以	3
+NOUN ADP AUX:是	5
+NOUN ADP DET NUM:一	6
+NOUN ADP NOUN ADP:上	7
+NOUN ADP NOUN CCONJ:和	3
+NOUN ADP NOUN CCONJ:與	3
+NOUN ADP NOUN PART:的	20
+NOUN ADP NUM NOUN:個	5
+NOUN ADP NUM NOUN:月	3
+NOUN ADP NUM:一	10
+NOUN ADP NUM:第一	3
+NOUN ADP PART NOUN:人口	26
+NOUN ADP PART NUM:一	4
+NOUN ADP PART:的	118
+NOUN ADP PRON PART:的	4
+NOUN ADP PRON.P PART:的	3
+NOUN ADP PRON.P:他們	3
+NOUN ADP PRON:他	8
+NOUN ADP PROPN:美國	4
+NOUN ADP PROPN:香港	5
+NOUN ADP PUNCT., ADV:曾	4
+NOUN ADP PUNCT., NUM:一	5
+NOUN ADP PUNCT., PRON.P:他們	5
+NOUN ADP PUNCT., PRON:他	11
+NOUN ADP PUNCT., VERB:有	4
+NOUN ADP VERB ADP:時	3
+NOUN ADP VERB PART:著	3
+NOUN ADP VERB PRON:他	3
+NOUN ADP VERB VERB:於	4
+NOUN ADP VERB:使用	3
+NOUN ADP VERB:在	3
+NOUN ADP VERB:是	9
+NOUN ADP VERB:有	16
+NOUN ADP VERB:被	10
+NOUN ADP VERB:進行	4
+NOUN ADP:上	149
+NOUN ADP:中	237
+NOUN ADP:後	62
+NOUN ADP:時	94
+NOUN ADV ADJ PART:地	3
+NOUN ADV ADP PRON:此	3
+NOUN ADV ADP:以	8
+NOUN ADV ADP:因	3
+NOUN ADV ADP:對	5
+NOUN ADV ADP:從	3
+NOUN ADV ADP:與	10
+NOUN ADV ADV VERB:有	8
+NOUN ADV ADV:不	24
+NOUN ADV ADV:已	4
+NOUN ADV ADV:都	3
+NOUN ADV AUX VERB:有	3
+NOUN ADV AUX VERB:被	4
+NOUN ADV AUX:可	9
+NOUN ADV AUX:是	17
+NOUN ADV AUX:會	31
+NOUN ADV AUX:為	24
+NOUN ADV NUM NOUN:人	6
+NOUN ADV VERB ADP:在	9
+NOUN ADV VERB ADP:後	4
+NOUN ADV VERB ADP:時	3
+NOUN ADV VERB ADV:而	3
+NOUN ADV VERB NOUN:人	8
+NOUN ADV VERB NUM:1	3
+NOUN ADV VERB NUM:一	8
+NOUN ADV VERB PART:的	40
+NOUN ADV VERB PRON:他	4
+NOUN ADV VERB PRON:其	6
+NOUN ADV VERB PRON:自己	3
+NOUN ADV VERB PROPN:中國	5
+NOUN ADV VERB VERB:到	9
+NOUN ADV VERB VERB:在	8
+NOUN ADV VERB VERB:將	3
+NOUN ADV VERB VERB:於	17
+NOUN ADV VERB VERB:為	16
+NOUN ADV VERB VERB:用	4
+NOUN ADV VERB X:的	10
+NOUN ADV VERB:以	8
+NOUN ADV VERB:使用	8
+NOUN ADV VERB:在	25
+NOUN ADV VERB:是	14
+NOUN ADV VERB:有	60
+NOUN ADV VERB:為	12
+NOUN ADV VERB:用	6
+NOUN ADV VERB:由	6
+NOUN ADV VERB:被	43
+NOUN ADV VERB:進行	4
+NOUN ADV:也	101
+NOUN ADV:則	56
+NOUN ADV:就	30
+NOUN ADV:已	33
+NOUN ADV:所	49
+NOUN ADV:最	29
+NOUN ADV:還	24
+NOUN ADV:都	64
+NOUN AUX ADJ PART:的	8
+NOUN AUX ADJ X:的	8
+NOUN AUX ADP:在	5
+NOUN AUX ADP:對	3
+NOUN AUX ADP:與	4
+NOUN AUX ADV:不	3
+NOUN AUX ADV:最	5
+NOUN AUX NOUN ADP:上	3
+NOUN AUX NOUN NOUN:政府	3
+NOUN AUX NOUN PART:的	9
+NOUN AUX NOUN:世界	6
+NOUN AUX NUM NOUN:人	28
+NOUN AUX NUM NOUN:年	10
+NOUN AUX NUM NOUN:等	7
+NOUN AUX PROPN:日本	3
+NOUN AUX PROPN:美國	3
+NOUN AUX PROPN:香港	4
+NOUN AUX VERB ADP:在	3
+NOUN AUX VERB DET:這	3
+NOUN AUX VERB PART:之	3
+NOUN AUX VERB VERB:於	5
+NOUN AUX VERB:使用	4
+NOUN AUX VERB:有	4
+NOUN AUX VERB:用	5
+NOUN AUX:為	219
+NOUN CCONJ NOUN ADV:不	3
+NOUN CCONJ NOUN ADV:都	4
+NOUN CCONJ NOUN NOUN:等	7
+NOUN CCONJ NOUN PART:的	38
+NOUN CCONJ NOUN PART:部	4
+NOUN CCONJ NOUN:政府	5
+NOUN CCONJ NUM NOUN:個	7
+NOUN CCONJ NUM NOUN:年	35
+NOUN CCONJ NUM NOUN:月	10
+NOUN CCONJ NUM:一	8
+NOUN CCONJ PRON PART:的	3
+NOUN CCONJ PRON.P:他們	3
+NOUN CCONJ PRON:其	6
+NOUN CCONJ PROPN NOUN:地區	3
+NOUN CCONJ PROPN PART:的	3
+NOUN CCONJ VERB PART:性	3
+NOUN CCONJ:及	109
+NOUN CCONJ:和	343
+NOUN CCONJ:或	75
+NOUN CCONJ:與	103
+NOUN DET NOUN PART:的	6
+NOUN DET NOUN:個	4
+NOUN DET NUM NOUN:年	3
+NOUN DET VERB:有	4
+NOUN NOUN ADJ NOUN:公司	8
+NOUN NOUN ADJ PART:地	3
+NOUN NOUN ADJ:不同	6
+NOUN NOUN ADP NUM:一	5
+NOUN NOUN ADP VERB:是	3
+NOUN NOUN ADP VERB:被	3
+NOUN NOUN ADP:中	85
+NOUN NOUN ADP:以	7
+NOUN NOUN ADP:因為	3
+NOUN NOUN ADP:在	42
+NOUN NOUN ADP:對	5
+NOUN NOUN ADP:後	18
+NOUN NOUN ADP:從	8
+NOUN NOUN ADP:於	11
+NOUN NOUN ADP:為	8
+NOUN NOUN ADP:與	11
+NOUN NOUN ADV ADP:在	4
+NOUN NOUN ADV ADP:於	3
+NOUN NOUN ADV AUX:可以	5
+NOUN NOUN ADV AUX:會	8
+NOUN NOUN ADV AUX:為	7
+NOUN NOUN ADV VERB:以	3
+NOUN NOUN ADV VERB:使用	3
+NOUN NOUN ADV VERB:在	9
+NOUN NOUN ADV VERB:沒有	4
+NOUN NOUN ADV VERB:為	4
+NOUN NOUN ADV VERB:被	18
+NOUN NOUN ADV:不	12
+NOUN NOUN ADV:並	12
+NOUN NOUN ADV:也	30
+NOUN NOUN ADV:就	9
+NOUN NOUN ADV:曾	3
+NOUN NOUN ADV:而	18
+NOUN NOUN ADV:還	8
+NOUN NOUN ADV:都	20
+NOUN NOUN AUX ADP:在	3
+NOUN NOUN AUX NUM:一	6
+NOUN NOUN AUX:可	5
+NOUN NOUN AUX:可以	5
+NOUN NOUN AUX:是	49
+NOUN NOUN AUX:會	14
+NOUN NOUN AUX:為	58
+NOUN NOUN CCONJ NOUN:政府	3
+NOUN NOUN CCONJ NUM:一	3
+NOUN NOUN CCONJ:及	39
+NOUN NOUN CCONJ:和	108
+NOUN NOUN DET NUM:一	3
+NOUN NOUN NOUN ADP:上	6
+NOUN NOUN NOUN ADP:中	15
+NOUN NOUN NOUN ADV:不	3
+NOUN NOUN NOUN ADV:也	5
+NOUN NOUN NOUN ADV:而	3
+NOUN NOUN NOUN ADV:都	3
+NOUN NOUN NOUN AUX:是	8
+NOUN NOUN NOUN CCONJ:與	5
+NOUN NOUN NOUN NOUN:公司	3
+NOUN NOUN NOUN PART:之	7
+NOUN NOUN NOUN PART:會	15
+NOUN NOUN NOUN PART:的	90
+NOUN NOUN NOUN VERB:在	4
+NOUN NOUN NOUN VERB:是	6
+NOUN NOUN NOUN VERB:被	3
+NOUN NOUN NOUN VERB:進行	3
+NOUN NOUN NOUN:公司	14
+NOUN NOUN NOUN:等	23
+NOUN NOUN NUM NOUN:人	21
+NOUN NOUN NUM NOUN:個	3
+NOUN NOUN NUM NOUN:年	5
+NOUN NOUN NUM NOUN:次	5
+NOUN NOUN NUM:一	8
+NOUN NOUN NUM:第一	3
+NOUN NOUN PART ADP:上	3
+NOUN NOUN PART ADP:中	8
+NOUN NOUN PART ADP:於	3
+NOUN NOUN PART AUX:為	3
+NOUN NOUN PART CCONJ:和	6
+NOUN NOUN PART NOUN:其中	3
+NOUN NOUN PART NUM:一	30
+NOUN NOUN PART NUM:第一	4
+NOUN NOUN PART:之	35
+NOUN NOUN PART:區	12
+NOUN NOUN PART:會	31
+NOUN NOUN PART:的	481
+NOUN NOUN PART:者	6
+NOUN NOUN PART:軍	10
+NOUN NOUN PRON:她	3
+NOUN NOUN PROPN PART:的	5
+NOUN NOUN PUNCT NOUN:等	3
+NOUN NOUN PUNCT NUM:一	4
+NOUN NOUN PUNCT PART:的	11
+NOUN NOUN PUNCT., ADP:以	4
+NOUN NOUN PUNCT., ADP:對	3
+NOUN NOUN PUNCT., ADP:從	3
+NOUN NOUN PUNCT., ADP:於	8
+NOUN NOUN PUNCT., ADP:為	4
+NOUN NOUN PUNCT., ADV:並	29
+NOUN NOUN PUNCT., ADV:曾	5
+NOUN NOUN PUNCT., ADV:還	4
+NOUN NOUN PUNCT., AUX:可	5
+NOUN NOUN PUNCT., AUX:可以	5
+NOUN NOUN PUNCT., DET:該	7
+NOUN NOUN PUNCT., NOUN:其中	9
+NOUN NOUN PUNCT., NUM:兩	4
+NOUN NOUN PUNCT., PRON.P:他們	3
+NOUN NOUN PUNCT., PRON:其	6
+NOUN NOUN PUNCT., PROPN:日本	3
+NOUN NOUN PUNCT., VERB:以	3
+NOUN NOUN PUNCT., VERB:成	4
+NOUN NOUN PUNCT., VERB:是	3
+NOUN NOUN PUNCT., VERB:由	9
+NOUN NOUN VERB ADP:在	11
+NOUN NOUN VERB ADP:後	10
+NOUN NOUN VERB ADV:而	4
+NOUN NOUN VERB NUM:一	13
+NOUN NOUN VERB PART:大	3
+NOUN NOUN VERB VERB:以	4
+NOUN NOUN VERB VERB:到	6
+NOUN NOUN VERB VERB:將	3
+NOUN NOUN VERB VERB:成	3
+NOUN NOUN VERB VERB:於	24
+NOUN NOUN VERB VERB:有	3
+NOUN NOUN VERB:使用	6
+NOUN NOUN VERB:將	4
+NOUN NOUN VERB:是	37
+NOUN NOUN VERB:有	33
+NOUN NOUN VERB:沒有	4
+NOUN NOUN VERB:為	3
+NOUN NOUN VERB:由	11
+NOUN NOUN VERB:進行	14
+NOUN NOUN X:的	4
+NOUN NOUN:世界	29
+NOUN NOUN:人口	32
+NOUN NOUN:公司	34
+NOUN NOUN:地區	33
+NOUN NOUN:政府	34
+NOUN NOUN:等	70
+NOUN NUM ADJ PART:的	4
+NOUN NUM CCONJ:和	3
+NOUN NUM NOUN ADP:於	4
+NOUN NUM NOUN AUX:為	4
+NOUN NUM NOUN CCONJ:和	7
+NOUN NUM NOUN NUM:1	21
+NOUN NUM NOUN VERB:在	6
+NOUN NUM NOUN VERB:有	5
+NOUN NUM NOUN VERB:被	9
+NOUN NUM NOUN:人	60
+NOUN NUM NOUN:日	303
+NOUN NUM NOUN:月	359
+NOUN NUM PART:大	4
+NOUN NUM:1	65
+NOUN NUM:2	46
+NOUN NUM:3	46
+NOUN PART ADJ PART:性	7
+NOUN PART ADJ:不同	3
+NOUN PART ADP:上	10
+NOUN PART ADP:中	23
+NOUN PART ADP:在	18
+NOUN PART ADP:於	9
+NOUN PART ADV AUX:可以	3
+NOUN PART ADV:並	3
+NOUN PART ADV:則	4
+NOUN PART ADV:已	3
+NOUN PART ADV:還	3
+NOUN PART AUX NUM:一	6
+NOUN PART AUX:為	13
+NOUN PART CCONJ:和	31
+NOUN PART CCONJ:或	6
+NOUN PART CCONJ:與	11
+NOUN PART DET NUM:一	4
+NOUN PART NOUN ADP:上	12
+NOUN PART NOUN ADP:後	4
+NOUN PART NOUN ADV:則	7
+NOUN PART NOUN ADV:而	10
+NOUN PART NOUN AUX:是	15
+NOUN PART NOUN AUX:會	6
+NOUN PART NOUN CCONJ:及	8
+NOUN PART NOUN CCONJ:或	6
+NOUN PART NOUN NOUN:等	4
+NOUN PART NOUN PART:之	11
+NOUN PART NOUN PART:區	3
+NOUN PART NOUN PART:性	5
+NOUN PART NOUN PART:會	6
+NOUN PART NOUN PART:部	8
+NOUN PART NOUN VERB:是	16
+NOUN PART NOUN VERB:被	8
+NOUN PART NOUN:人	11
+NOUN PART NOUN:公司	4
+NOUN PART NOUN:其中	4
+NOUN PART NOUN:面積	27
+NOUN PART NUM NOUN:名	7
+NOUN PART NUM NOUN:次	5
+NOUN PART NUM NOUN:種	5
+NOUN PART NUM PART:的	3
+NOUN PART NUM:一	101
+NOUN PART NUM:三	6
+NOUN PART PART NOUN:其中	3
+NOUN PART PART NUM:一	10
+NOUN PART PART:之	9
+NOUN PART PART:的	167
+NOUN PART PART:者	3
+NOUN PART PROPN PART:人	8
+NOUN PART PROPN PART:省	9
+NOUN PART PUNCT CCONJ:和	6
+NOUN PART PUNCT PART:的	8
+NOUN PART PUNCT., ADP:與	3
+NOUN PART PUNCT., ADV:並	6
+NOUN PART PUNCT., ADV:但	5
+NOUN PART PUNCT., ADV:而	3
+NOUN PART PUNCT., NOUN:其中	3
+NOUN PART PUNCT., VERB:由	4
+NOUN PART VERB ADP:後	6
+NOUN PART VERB PART:人	9
+NOUN PART VERB PART:者	14
+NOUN PART VERB PART:著	3
+NOUN PART VERB:在	8
+NOUN PART VERB:進行	4
+NOUN PART:之	110
+NOUN PART:性	30
+NOUN PART:會	74
+NOUN PART:的	1663
+NOUN PART:部	66
+NOUN PRON ADP:對	3
+NOUN PRON PART:的	5
+NOUN PRON.P:他們	4
+NOUN PRON:他	31
+NOUN PRON:她	10
+NOUN PROPN ADP:與	3
+NOUN PROPN AUX:是	3
+NOUN PROPN NOUN PART:的	16
+NOUN PROPN NOUN VERB:在	3
+NOUN PROPN NOUN VERB:有	3
+NOUN PROPN NOUN:人口	9
+NOUN PROPN NOUN:國家	4
+NOUN PROPN NOUN:地區	5
+NOUN PROPN NOUN:大學	7
+NOUN PROPN PART:人	9
+NOUN PROPN PART:市	8
+NOUN PROPN PROPN AUX:為	4
+NOUN PROPN PROPN PART:之	3
+NOUN PROPN PROPN PART:的	10
+NOUN PROPN PROPN VERB:在	5
+NOUN PROPN VERB ADP:後	3
+NOUN PROPN VERB VERB:為	3
+NOUN PROPN VERB:被	5
+NOUN PROPN:中國	21
+NOUN PROPN:日本	10
+NOUN PROPN:美國	18
+NOUN PUNCT ADJ PART:的	4
+NOUN PUNCT ADP PART:的	4
+NOUN PUNCT ADV VERB:稱	5
+NOUN PUNCT ADV:而	7
+NOUN PUNCT AUX:為	4
+NOUN PUNCT CCONJ:或	4
+NOUN PUNCT CCONJ:與	3
+NOUN PUNCT NOUN CCONJ:及	12
+NOUN PUNCT NOUN CCONJ:或	4
+NOUN PUNCT NOUN NOUN:等	21
+NOUN PUNCT NOUN NUM:兩	3
+NOUN PUNCT NOUN PART:的	13
+NOUN PUNCT NOUN:等	6
+NOUN PUNCT NUM NOUN:個	6
+NOUN PUNCT NUM NOUN:年	43
+NOUN PUNCT NUM:2	3
+NOUN PUNCT NUM:一	13
+NOUN PUNCT NUM:兩	4
+NOUN PUNCT PART:大	3
+NOUN PUNCT PART:的	38
+NOUN PUNCT PROPN NOUN:大學	6
+NOUN PUNCT PROPN PART:的	4
+NOUN PUNCT PROPN:中國	4
+NOUN PUNCT PROPN:日本	4
+NOUN PUNCT PUNCT., ADV:而	3
+NOUN PUNCT VERB VERB:為	5
+NOUN PUNCT., ADJ PART:的	7
+NOUN PUNCT., ADP DET:這	3
+NOUN PUNCT., ADP NUM:一	4
+NOUN PUNCT., ADP PRON:此	31
+NOUN PUNCT., ADP PROPN:中國	5
+NOUN PUNCT., ADP:因	31
+NOUN PUNCT., ADP:在	59
+NOUN PUNCT., ADP:為	12
+NOUN PUNCT., ADV ADP:在	32
+NOUN PUNCT., ADV ADP:從	3
+NOUN PUNCT., ADV ADP:於	8
+NOUN PUNCT., ADV ADP:為	3
+NOUN PUNCT., ADV ADV:也	4
+NOUN PUNCT., ADV ADV:就	3
+NOUN PUNCT., ADV ADV:已	3
+NOUN PUNCT., ADV ADV:曾	4
+NOUN PUNCT., ADV AUX:可	6
+NOUN PUNCT., ADV AUX:可以	7
+NOUN PUNCT., ADV AUX:為	4
+NOUN PUNCT., ADV NUM:一	3
+NOUN PUNCT., ADV VERB:在	12
+NOUN PUNCT., ADV VERB:將	7
+NOUN PUNCT., ADV VERB:成	6
+NOUN PUNCT., ADV VERB:是	11
+NOUN PUNCT., ADV VERB:被	11
+NOUN PUNCT., ADV:並	91
+NOUN PUNCT., ADV:也	27
+NOUN PUNCT., ADV:但	72
+NOUN PUNCT., ADV:則	7
+NOUN PUNCT., ADV:而	44
+NOUN PUNCT., ADV:還	10
+NOUN PUNCT., AUX NUM:一	11
+NOUN PUNCT., AUX PROPN:中國	9
+NOUN PUNCT., AUX VERB:被	3
+NOUN PUNCT., AUX:可	10
+NOUN PUNCT., AUX:可以	9
+NOUN PUNCT., AUX:會	3
+NOUN PUNCT., AUX:為	19
+NOUN PUNCT., CCONJ VERB:有	3
+NOUN PUNCT., DET NOUN:地區	3
+NOUN PUNCT., DET:該	15
+NOUN PUNCT., DET:這	25
+NOUN PUNCT., NOUN ADP:以	3
+NOUN PUNCT., NOUN ADV:都	3
+NOUN PUNCT., NOUN AUX:可	3
+NOUN PUNCT., NOUN AUX:為	22
+NOUN PUNCT., NOUN CCONJ:及	3
+NOUN PUNCT., NOUN CCONJ:和	6
+NOUN PUNCT., NOUN NOUN:政府	3
+NOUN PUNCT., NOUN NOUN:面積	10
+NOUN PUNCT., NOUN NUM:一	4
+NOUN PUNCT., NOUN VERB:是	4
+NOUN PUNCT., NOUN VERB:有	17
+NOUN PUNCT., NOUN VERB:稱	3
+NOUN PUNCT., NOUN VERB:被	4
+NOUN PUNCT., NOUN:其中	30
+NOUN PUNCT., NOUN:國家	4
+NOUN PUNCT., NOUN:面積	12
+NOUN PUNCT., NUM NOUN:年	76
+NOUN PUNCT., NUM:三	4
+NOUN PUNCT., NUM:兩	14
+NOUN PUNCT., PART NOUN:人口	5
+NOUN PUNCT., PART:大	6
+NOUN PUNCT., PRON ADP:以	3
+NOUN PUNCT., PRON ADP:在	6
+NOUN PUNCT., PRON AUX:是	3
+NOUN PUNCT., PRON.P PART:的	3
+NOUN PUNCT., PRON:其	20
+NOUN PUNCT., PROPN ADP:在	8
+NOUN PUNCT., PROPN ADP:為	3
+NOUN PUNCT., PROPN ADP:與	6
+NOUN PUNCT., PROPN AUX:是	3
+NOUN PUNCT., PROPN NOUN:大學	5
+NOUN PUNCT., PROPN NOUN:等	3
+NOUN PUNCT., PROPN PART:市	5
+NOUN PUNCT., PROPN PART:省	4
+NOUN PUNCT., PROPN PART:軍	9
+NOUN PUNCT., PROPN VERB:在	9
+NOUN PUNCT., PROPN:美國	10
+NOUN PUNCT., PROPN:香港	6
+NOUN PUNCT., VERB ADJ:不同	4
+NOUN PUNCT., VERB ADP:在	14
+NOUN PUNCT., VERB ADP:於	18
+NOUN PUNCT., VERB NOUN:人	3
+NOUN PUNCT., VERB NUM:三	3
+NOUN PUNCT., VERB PART:的	10
+NOUN PUNCT., VERB PART:著	13
+NOUN PUNCT., VERB PRON:其	6
+NOUN PUNCT., VERB PROPN:美國	3
+NOUN PUNCT., VERB VERB:以	5
+NOUN PUNCT., VERB VERB:於	68
+NOUN PUNCT., VERB VERB:有	4
+NOUN PUNCT., VERB:以	11
+NOUN PUNCT., VERB:將	8
+NOUN PUNCT., VERB:是	8
+NOUN PUNCT., VERB:有	23
+NOUN PUNCT., VERB:用	6
+NOUN PUNCT., VERB:稱	8
+NOUN VERB ADJ PART:的	30
+NOUN VERB ADP PRON:他	3
+NOUN VERB ADP:後	37
+NOUN VERB ADP:於	49
+NOUN VERB ADP:時	19
+NOUN VERB ADV VERB:成	3
+NOUN VERB ADV:不	5
+NOUN VERB ADV:並	3
+NOUN VERB ADV:而	11
+NOUN VERB AUX:可以	3
+NOUN VERB AUX:會	3
+NOUN VERB CCONJ:及	4
+NOUN VERB DET NUM:一	3
+NOUN VERB DET:該	4
+NOUN VERB NOUN ADP:後	3
+NOUN VERB NOUN ADV:所	3
+NOUN VERB NOUN CCONJ:和	9
+NOUN VERB NOUN CCONJ:或	3
+NOUN VERB NOUN PART:性	3
+NOUN VERB NOUN VERB:有	3
+NOUN VERB NOUN VERB:被	3
+NOUN VERB NOUN:人口	8
+NOUN VERB NOUN:等	3
+NOUN VERB NUM NOUN:人	9
+NOUN VERB NUM NOUN:月	5
+NOUN VERB NUM NOUN:次	6
+NOUN VERB NUM PART:的	3
+NOUN VERB NUM:2	4
+NOUN VERB NUM:三	6
+NOUN VERB NUM:第一	4
+NOUN VERB PART ADP:中	3
+NOUN VERB PART AUX:是	7
+NOUN VERB PART AUX:為	6
+NOUN VERB PART CCONJ:和	5
+NOUN VERB PART NUM:兩	6
+NOUN VERB PART PART:之	3
+NOUN VERB PART PRON:他	4
+NOUN VERB PART:人	20
+NOUN VERB PART:大	6
+NOUN VERB PART:的	216
+NOUN VERB PART:軍	5
+NOUN VERB PART:部	4
+NOUN VERB PRON PART:的	10
+NOUN VERB PRON:他	21
+NOUN VERB PROPN ADP:與	3
+NOUN VERB PROPN CCONJ:和	3
+NOUN VERB PROPN PART:人	3
+NOUN VERB PROPN PART:軍	6
+NOUN VERB PUNCT PROPN:中國	3
+NOUN VERB PUNCT., ADP:因	5
+NOUN VERB PUNCT., ADP:在	6
+NOUN VERB PUNCT., ADP:於	3
+NOUN VERB PUNCT., ADV:也	6
+NOUN VERB PUNCT., ADV:而	8
+NOUN VERB PUNCT., AUX:是	3
+NOUN VERB PUNCT., PRON:其	3
+NOUN VERB VERB ADP:於	3
+NOUN VERB VERB ADP:時	4
+NOUN VERB VERB AUX:是	5
+NOUN VERB VERB DET:該	3
+NOUN VERB VERB DET:這	4
+NOUN VERB VERB NUM:第一	3
+NOUN VERB VERB PART:的	23
+NOUN VERB VERB PRON:他	4
+NOUN VERB VERB PROPN:中國	12
+NOUN VERB VERB VERB:於	8
+NOUN VERB VERB VERB:有	3
+NOUN VERB VERB VERB:為	20
+NOUN VERB VERB X:的	7
+NOUN VERB VERB:以	7
+NOUN VERB VERB:使用	4
+NOUN VERB VERB:到	21
+NOUN VERB VERB:在	34
+NOUN VERB VERB:成	12
+NOUN VERB VERB:為	100
+NOUN VERB VERB:用	7
+NOUN VERB VERB:由	15
+NOUN VERB VERB:稱	4
+NOUN VERB VERB:被	4
+NOUN VERB:是	121
+NOUN VERB:有	132
+NOUN VERB:用	27
+NOUN VERB:由	46
+NOUN VERB:稱	23
+NOUN VERB:被	97
+NOUN VERB:進行	27
+NOUN X CCONJ:和	3
+NOUN X:的	14
+NOUN.P PART:的	3
+NOUN:世界	84
+NOUN:人	301
+NOUN:人口	116
+NOUN:個	498
+NOUN:公司	95
+NOUN:其中	90
+NOUN:名	97
+NOUN:國家	91
+NOUN:地區	91
+NOUN:大學	92
+NOUN:年	1221
+NOUN:政府	93
+NOUN:日	313
+NOUN:月	476
+NOUN:次	136
+NOUN:種	148
+NOUN:等	181
+NOUN:面積	80
+NUM ADJ PART:的	16
+NUM ADJ:不同	6
+NUM AUX:為	3
+NUM CCONJ NUM PART:的	3
+NUM CCONJ NUM:2	4
+NUM NOUN ADJ PART:的	46
+NUM NOUN ADJ:不同	10
+NUM NOUN ADP ADV:也	3
+NUM NOUN ADP PART:的	38
+NUM NOUN ADP:因	4
+NUM NOUN ADP:在	17
+NUM NOUN ADP:對	4
+NUM NOUN ADP:後	19
+NUM NOUN ADP:從	4
+NUM NOUN ADP:於	9
+NUM NOUN ADP:時	44
+NUM NOUN ADP:為	4
+NUM NOUN ADV ADP:在	3
+NUM NOUN ADV VERB:有	9
+NUM NOUN ADV:已	3
+NUM NOUN ADV:最	6
+NUM NOUN ADV:還	3
+NUM NOUN ADV:都	9
+NUM NOUN AUX:可	3
+NUM NOUN AUX:可以	3
+NUM NOUN AUX:是	12
+NUM NOUN NOUN ADP:在	8
+NUM NOUN NOUN ADP:後	4
+NUM NOUN NOUN ADV:並	3
+NUM NOUN NOUN ADV:就	3
+NUM NOUN NOUN ADV:所	3
+NUM NOUN NOUN ADV:都	5
+NUM NOUN NOUN AUX:為	8
+NUM NOUN NOUN CCONJ:或	4
+NUM NOUN NOUN PART:之	9
+NUM NOUN NOUN PART:區	4
+NUM NOUN NOUN PART:性	3
+NUM NOUN NOUN VERB:是	10
+NUM NOUN NOUN VERB:由	3
+NUM NOUN NOUN VERB:被	5
+NUM NOUN NOUN:世界	17
+NUM NOUN NOUN:人	15
+NUM NOUN NOUN:人口	23
+NUM NOUN NOUN:國家	6
+NUM NOUN NOUN:地區	6
+NUM NOUN NOUN:大學	3
+NUM NOUN NOUN:月	17
+NUM NOUN NUM NOUN:日	302
+NUM NOUN NUM NOUN:月	342
+NUM NOUN NUM NOUN:次	8
+NUM NOUN NUM:1	57
+NUM NOUN NUM:2	41
+NUM NOUN NUM:3	41
+NUM NOUN NUM:一	12
+NUM NOUN NUM:三	3
+NUM NOUN NUM:兩	8
+NUM NOUN PART NOUN:人口	3
+NUM NOUN PART:之	10
+NUM NOUN PART:大	6
+NUM NOUN PART:的	153
+NUM NOUN PRON:他	17
+NUM NOUN PROPN NOUN:人口	9
+NUM NOUN PROPN PART:人	3
+NUM NOUN PROPN PART:的	4
+NUM NOUN PROPN:中國	9
+NUM NOUN PROPN:日本	8
+NUM NOUN PROPN:美國	13
+NUM NOUN PROPN:香港	3
+NUM NOUN PUNCT PART:的	9
+NUM NOUN PUNCT., ADP:在	16
+NUM NOUN PUNCT., ADP:於	6
+NUM NOUN PUNCT., ADP:由於	3
+NUM NOUN PUNCT., ADV:也	3
+NUM NOUN PUNCT., ADV:但	6
+NUM NOUN PUNCT., ADV:而	4
+NUM NOUN PUNCT., AUX:是	6
+NUM NOUN PUNCT., AUX:為	4
+NUM NOUN PUNCT., DET:該	3
+NUM NOUN PUNCT., NOUN:人口	4
+NUM NOUN PUNCT., NOUN:其中	14
+NUM NOUN PUNCT., NOUN:國家	3
+NUM NOUN PUNCT., NOUN:面積	4
+NUM NOUN PUNCT., NUM:一	7
+NUM NOUN PUNCT., PRON.P:他們	3
+NUM NOUN PUNCT., PRON:他	22
+NUM NOUN PUNCT., PRON:她	4
+NUM NOUN PUNCT., PROPN:中國	10
+NUM NOUN PUNCT., PROPN:日本	3
+NUM NOUN PUNCT., PROPN:香港	4
+NUM NOUN PUNCT., VERB:在	6
+NUM NOUN PUNCT., VERB:由	6
+NUM NOUN VERB ADP:在	7
+NUM NOUN VERB ADP:於	14
+NUM NOUN VERB NUM:一	6
+NUM NOUN VERB PART:之	4
+NUM NOUN VERB PART:的	42
+NUM NOUN VERB PART:者	3
+NUM NOUN VERB PRON:他	4
+NUM NOUN VERB PROPN:中國	3
+NUM NOUN VERB PROPN:美國	3
+NUM NOUN VERB PROPN:香港	5
+NUM NOUN VERB VERB:使用	3
+NUM NOUN VERB VERB:到	5
+NUM NOUN VERB VERB:於	19
+NUM NOUN VERB:到	11
+NUM NOUN VERB:在	24
+NUM NOUN VERB:將	3
+NUM NOUN VERB:成	6
+NUM NOUN VERB:為	4
+NUM NOUN VERB:由	12
+NUM NOUN VERB:被	25
+NUM NOUN:人	179
+NUM NOUN:個	433
+NUM NOUN:名	79
+NUM NOUN:年	1207
+NUM NOUN:日	312
+NUM NOUN:月	456
+NUM NOUN:次	125
+NUM NOUN:種	101
+NUM NUM NOUN:年	4
+NUM PART:大	20
+NUM PART:的	39
+NUM PROPN NOUN PART:的	8
+NUM PUNCT NUM:3	4
+NUM PUNCT., NOUN AUX:為	3
+NUM PUNCT., NOUN:其中	4
+NUM VERB NUM NOUN:年	3
+NUM VERB:在	3
+NUM X PUNCT AUX:是	4
+NUM:1	92
+NUM:2	83
+NUM:3	80
+NUM:一	909
+NUM:三	122
+NUM:兩	218
+NUM:第一	97
+PART ADJ NOUN AUX:為	5
+PART ADJ NOUN CCONJ:和	5
+PART ADJ NOUN PART:之	5
+PART ADJ PART:之	4
+PART ADJ PART:性	10
+PART ADJ VERB PART:人	3
+PART ADJ VERB PART:者	3
+PART ADP ADV:最	3
+PART ADP DET NUM:一	3
+PART ADP NUM NOUN:年	23
+PART ADP PART NUM:一	3
+PART ADP PART:的	23
+PART ADP VERB NUM:一	4
+PART ADP VERB:有	3
+PART ADP:上	21
+PART ADP:中	39
+PART ADP:對	15
+PART ADP:於	18
+PART ADP:與	11
+PART ADV ADJ PART:的	12
+PART ADV ADP:在	5
+PART ADV AUX:可以	6
+PART ADV AUX:是	7
+PART ADV VERB ADP:於	3
+PART ADV VERB NUM:一	7
+PART ADV VERB PART:的	10
+PART ADV VERB VERB:於	4
+PART ADV VERB VERB:為	7
+PART ADV VERB:在	3
+PART ADV VERB:成	4
+PART ADV VERB:是	3
+PART ADV VERB:有	14
+PART ADV VERB:用	3
+PART ADV VERB:稱	3
+PART ADV VERB:被	8
+PART ADV:則	12
+PART ADV:就	9
+PART ADV:已	9
+PART ADV:所	10
+PART ADV:還	9
+PART ADV:都	17
+PART AUX NOUN PART:的	4
+PART AUX NUM NOUN:個	9
+PART AUX NUM NOUN:種	5
+PART AUX NUM:一	19
+PART AUX PROPN PART:的	11
+PART AUX PROPN:中國	6
+PART AUX PROPN:日本	3
+PART AUX VERB VERB:於	6
+PART AUX:是	97
+PART AUX:為	48
+PART CCONJ NUM:一	3
+PART CCONJ PROPN PART:人	8
+PART CCONJ PROPN PART:省	5
+PART CCONJ:及	32
+PART CCONJ:和	93
+PART DET NOUN:個	6
+PART DET NUM:一	11
+PART DET PART:的	3
+PART NOUN ADP ADP:與	3
+PART NOUN ADP PART:的	6
+PART NOUN ADP VERB:有	3
+PART NOUN ADP VERB:被	3
+PART NOUN ADP:中	38
+PART NOUN ADP:以	4
+PART NOUN ADP:在	23
+PART NOUN ADP:從	6
+PART NOUN ADP:於	4
+PART NOUN ADP:為	3
+PART NOUN ADP:與	9
+PART NOUN ADV ADP:以	3
+PART NOUN ADV ADP:在	3
+PART NOUN ADV ADV:不	5
+PART NOUN ADV AUX:可	3
+PART NOUN ADV AUX:可以	4
+PART NOUN ADV VERB:沒有	3
+PART NOUN ADV VERB:被	10
+PART NOUN ADV:不	3
+PART NOUN ADV:並	9
+PART NOUN ADV:則	10
+PART NOUN ADV:而	18
+PART NOUN AUX ADV:最	3
+PART NOUN AUX NUM:一	5
+PART NOUN AUX:可以	12
+PART NOUN AUX:是	58
+PART NOUN AUX:會	11
+PART NOUN CCONJ NUM:一	3
+PART NOUN CCONJ:和	79
+PART NOUN CCONJ:與	22
+PART NOUN NOUN ADP:上	8
+PART NOUN NOUN ADP:中	17
+PART NOUN NOUN ADP:從	3
+PART NOUN NOUN ADP:為	3
+PART NOUN NOUN ADV:也	6
+PART NOUN NOUN ADV:則	3
+PART NOUN NOUN ADV:就	3
+PART NOUN NOUN ADV:所	4
+PART NOUN NOUN AUX:是	9
+PART NOUN NOUN CCONJ:和	32
+PART NOUN NOUN CCONJ:與	5
+PART NOUN NOUN NOUN:公司	4
+PART NOUN NOUN NOUN:等	4
+PART NOUN NOUN PART:之	9
+PART NOUN NOUN VERB:在	6
+PART NOUN NOUN VERB:是	9
+PART NOUN NOUN VERB:被	3
+PART NOUN NOUN VERB:進行	5
+PART NOUN NOUN:面積	3
+PART NOUN NUM NOUN:人	9
+PART NOUN NUM NOUN:個	3
+PART NOUN NUM NOUN:名	3
+PART NOUN NUM NOUN:種	4
+PART NOUN NUM:一	19
+PART NOUN NUM:兩	3
+PART NOUN PART ADP:中	4
+PART NOUN PART CCONJ:和	7
+PART NOUN PART NUM:一	36
+PART NOUN PART:之	29
+PART NOUN PART:人	4
+PART NOUN PART:區	4
+PART NOUN PART:大	4
+PART NOUN PART:性	12
+PART NOUN PART:會	11
+PART NOUN PART:部	19
+PART NOUN PROPN PART:的	4
+PART NOUN PUNCT AUX:是	3
+PART NOUN PUNCT PROPN:中國	3
+PART NOUN PUNCT., ADP:因	13
+PART NOUN PUNCT., ADP:因為	3
+PART NOUN PUNCT., ADV:並	33
+PART NOUN PUNCT., ADV:也	12
+PART NOUN PUNCT., ADV:但	30
+PART NOUN PUNCT., ADV:就	6
+PART NOUN PUNCT., ADV:曾	3
+PART NOUN PUNCT., AUX:可以	3
+PART NOUN PUNCT., AUX:是	8
+PART NOUN PUNCT., AUX:為	6
+PART NOUN PUNCT., DET:這	6
+PART NOUN PUNCT., NOUN:面積	7
+PART NOUN PUNCT., NUM:兩	3
+PART NOUN PUNCT., PART:大	4
+PART NOUN PUNCT., PRON.P:他們	5
+PART NOUN PUNCT., PRON:他	12
+PART NOUN PUNCT., PRON:她	3
+PART NOUN PUNCT., PROPN:美國	3
+PART NOUN PUNCT., VERB:在	6
+PART NOUN PUNCT., VERB:將	4
+PART NOUN PUNCT., VERB:是	3
+PART NOUN PUNCT., VERB:有	7
+PART NOUN PUNCT., VERB:由	5
+PART NOUN PUNCT., VERB:稱	4
+PART NOUN VERB ADP:在	5
+PART NOUN VERB ADP:後	5
+PART NOUN VERB NUM:一	3
+PART NOUN VERB NUM:兩	3
+PART NOUN VERB PART:人	3
+PART NOUN VERB PART:者	3
+PART NOUN VERB PART:著	4
+PART NOUN VERB PRON:他	5
+PART NOUN VERB VERB:到	4
+PART NOUN VERB VERB:成	6
+PART NOUN VERB VERB:於	16
+PART NOUN VERB VERB:由	6
+PART NOUN VERB:以	3
+PART NOUN VERB:在	13
+PART NOUN VERB:成	4
+PART NOUN VERB:是	40
+PART NOUN VERB:有	23
+PART NOUN VERB:用	4
+PART NOUN VERB:稱	6
+PART NOUN VERB:被	23
+PART NOUN X:的	3
+PART NOUN.P PART:的	3
+PART NOUN:人口	43
+PART NOUN:國家	19
+PART NOUN:面積	36
+PART NUM NOUN:個	111
+PART NUM NOUN:名	10
+PART NUM NOUN:次	19
+PART NUM NOUN:種	14
+PART NUM PART:大	6
+PART NUM PUNCT., NOUN:其中	3
+PART NUM:一	245
+PART NUM:三	14
+PART NUM:兩	30
+PART NUM:第一	25
+PART PART CCONJ:和	8
+PART PART NOUN ADP:中	4
+PART PART NOUN CCONJ:和	10
+PART PART NOUN NUM:一	4
+PART PART NOUN PART:之	5
+PART PART NOUN PART:的	8
+PART PART NOUN VERB:有	3
+PART PART NOUN:其中	3
+PART PART NOUN:國家	4
+PART PART NUM NOUN:個	18
+PART PART NUM:一	31
+PART PART PART:大	3
+PART PART PUNCT., AUX:是	3
+PART PART:之	21
+PART PART:人	13
+PART PART:區	8
+PART PART:大	12
+PART PART:的	375
+PART PRON PART:的	16
+PART PRON.P PART:的	3
+PART PRON.P:他們	5
+PART PRON:他	18
+PART PRON:她	6
+PART PRON:自己	12
+PART PROPN CCONJ:與	3
+PART PROPN NOUN AUX:是	3
+PART PROPN NOUN CCONJ:和	3
+PART PROPN NOUN:國家	3
+PART PROPN NOUN:地區	7
+PART PROPN PART CCONJ:和	3
+PART PROPN PART PART:人	5
+PART PROPN PART:人	22
+PART PROPN PART:區	22
+PART PROPN PART:地	3
+PART PROPN PART:市	41
+PART PROPN PROPN ADP:在	3
+PART PROPN PROPN AUX:是	3
+PART PROPN PROPN CCONJ:和	3
+PART PROPN VERB PART:會	3
+PART PUNCT ADP:中	9
+PART PUNCT CCONJ:和	8
+PART PUNCT NOUN CCONJ:與	4
+PART PUNCT NUM:三	3
+PART PUNCT PROPN PART:人	3
+PART PUNCT PROPN PART:州	14
+PART PUNCT PUNCT., AUX:是	4
+PART PUNCT., ADP PRON:此	5
+PART PUNCT., ADP:以	3
+PART PUNCT., ADP:因	5
+PART PUNCT., ADP:與	4
+PART PUNCT., ADV AUX:是	3
+PART PUNCT., ADV PRON:他	3
+PART PUNCT., ADV VERB:有	4
+PART PUNCT., ADV:並	15
+PART PUNCT., ADV:也	5
+PART PUNCT., AUX NUM:一	15
+PART PUNCT., AUX:可	4
+PART PUNCT., AUX:是	36
+PART PUNCT., AUX:為	12
+PART PUNCT., NOUN ADV:也	3
+PART PUNCT., NOUN AUX:為	6
+PART PUNCT., NOUN VERB:在	3
+PART PUNCT., NOUN:人口	4
+PART PUNCT., NUM NOUN:年	6
+PART PUNCT., PRON VERB:是	3
+PART PUNCT., VERB ADP:於	3
+PART PUNCT., VERB VERB:為	5
+PART PUNCT., VERB:在	4
+PART PUNCT., VERB:成	4
+PART PUNCT., VERB:由	5
+PART VERB ADP:後	9
+PART VERB NUM NOUN:人	3
+PART VERB NUM:3	3
+PART VERB NUM:兩	3
+PART VERB PART ADV:就	3
+PART VERB PART AUX:是	3
+PART VERB PART AUX:為	3
+PART VERB PART CCONJ:和	5
+PART VERB PART NUM:一	18
+PART VERB PART PART:的	12
+PART VERB PART:之	4
+PART VERB PART:人	12
+PART VERB PART:區	9
+PART VERB PART:地	3
+PART VERB PART:者	29
+PART VERB PRON PART:的	4
+PART VERB PRON:自己	6
+PART VERB PROPN PART:的	11
+PART VERB PROPN:日本	6
+PART VERB PUNCT., ADP:在	4
+PART VERB VERB ADP:後	3
+PART VERB VERB PART:的	9
+PART VERB VERB PART:者	3
+PART VERB VERB:於	30
+PART VERB VERB:由	3
+PART VERB:使用	7
+PART VERB:是	30
+PART VERB:由	12
+PART VERB:稱	6
+PART VERB:進行	8
+PART:之	198
+PART:人	188
+PART:區	118
+PART:地	77
+PART:大	122
+PART:州	78
+PART:市	97
+PART:性	88
+PART:會	111
+PART:的	4397
+PART:省	105
+PART:者	124
+PART:著	101
+PART:軍	99
+PART:部	76
+PRON ADJ PART:的	17
+PRON ADJ:不同	3
+PRON ADP NOUN ADP:中	3
+PRON ADP NOUN PART:的	7
+PRON ADP NUM NOUN:年	14
+PRON ADP PRON:自己	3
+PRON ADP:以	6
+PRON ADP:在	36
+PRON ADP:對	16
+PRON ADP:從	8
+PRON ADP:為	4
+PRON ADP:與	11
+PRON ADV ADV:曾	4
+PRON ADV AUX:會	3
+PRON ADV VERB ADP:於	4
+PRON ADV VERB PART:的	9
+PRON ADV VERB PRON:自己	3
+PRON ADV VERB VERB:為	4
+PRON ADV VERB:在	3
+PRON ADV VERB:成	4
+PRON ADV VERB:沒有	3
+PRON ADV:也	20
+PRON ADV:就	7
+PRON ADV:已	4
+PRON ADV:所	9
+PRON ADV:曾	9
+PRON ADV:還	7
+PRON AUX NUM NOUN:個	10
+PRON AUX NUM:一	16
+PRON AUX PROPN PART:的	4
+PRON AUX:是	45
+PRON CCONJ:和	7
+PRON NOUN ADP PART:的	3
+PRON NOUN ADP:上	3
+PRON NOUN ADP:中	3
+PRON NOUN AUX:是	4
+PRON NOUN NOUN CCONJ:和	3
+PRON NOUN NOUN PART:的	5
+PRON NOUN PART:的	17
+PRON NOUN VERB VERB:於	3
+PRON NOUN VERB:是	6
+PRON NUM NOUN:個	4
+PRON NUM:一	11
+PRON NUM:三	3
+PRON PART NOUN AUX:是	4
+PRON PART NOUN CCONJ:與	3
+PRON PART NOUN PART:的	3
+PRON PART NOUN VERB:是	3
+PRON PART NOUN VERB:被	3
+PRON PART:的	185
+PRON VERB ADJ PART:的	8
+PRON VERB DET:這	3
+PRON VERB NUM NOUN:個	5
+PRON VERB NUM:一	3
+PRON VERB PART NUM:一	4
+PRON VERB PART:的	20
+PRON VERB PART:著	7
+PRON VERB PRON PART:的	3
+PRON VERB PRON:她	4
+PRON VERB PROPN NOUN:大學	3
+PRON VERB PROPN PART:的	5
+PRON VERB VERB:到	3
+PRON VERB VERB:在	7
+PRON VERB VERB:於	10
+PRON VERB VERB:為	12
+PRON VERB:在	15
+PRON VERB:成	7
+PRON VERB:是	11
+PRON VERB:有	12
+PRON VERB:沒有	5
+PRON VERB:被	9
+PRON.P ADP:在	4
+PRON.P ADP:對	4
+PRON.P ADV:也	4
+PRON.P NUM NOUN:人	3
+PRON.P NUM:兩	4
+PRON.P PART:的	34
+PRON.P VERB NUM NOUN:個	4
+PRON.P VERB NUM:一	3
+PRON.P VERB PART:的	4
+PRON.P VERB:在	3
+PRON.P VERB:有	3
+PRON.P:他們	97
+PRON:他	462
+PRON:其	164
+PRON:她	135
+PRON:此	105
+PRON:自己	81
+PROPN ADJ ADJ PART:的	3
+PROPN ADJ PART:地	3
+PROPN ADP NOUN ADP:中	6
+PROPN ADP NUM NOUN:年	28
+PROPN ADP NUM:一	3
+PROPN ADP PRON PART:的	3
+PROPN ADP PRON:他	8
+PROPN ADP PRON:其	4
+PROPN ADP PROPN PART:的	7
+PROPN ADP:以	14
+PROPN ADP:因	8
+PROPN ADP:在	70
+PROPN ADP:對	17
+PROPN ADP:從	7
+PROPN ADP:於	24
+PROPN ADP:為	8
+PROPN ADP:與	23
+PROPN ADV ADP:於	5
+PROPN ADV ADV:不	4
+PROPN ADV AUX:是	4
+PROPN ADV NUM NOUN:次	3
+PROPN ADV VERB ADP:於	3
+PROPN ADV VERB PRON:他	3
+PROPN ADV VERB VERB:為	4
+PROPN ADV VERB:在	4
+PROPN ADV VERB:成	3
+PROPN ADV VERB:有	17
+PROPN ADV VERB:沒有	5
+PROPN ADV VERB:被	8
+PROPN ADV:也	22
+PROPN ADV:已	12
+PROPN ADV:所	15
+PROPN ADV:曾	16
+PROPN ADV:最	7
+PROPN ADV:還	8
+PROPN AUX NOUN PART:的	5
+PROPN AUX NOUN:個	3
+PROPN AUX NUM NOUN:個	5
+PROPN AUX NUM NOUN:名	3
+PROPN AUX NUM:一	10
+PROPN AUX PROPN PART:的	13
+PROPN AUX PROPN:中國	5
+PROPN AUX:是	52
+PROPN AUX:為	34
+PROPN CCONJ PRON PART:的	3
+PROPN CCONJ PRON:他	3
+PROPN CCONJ PRON:其	5
+PROPN CCONJ PROPN NOUN:等	8
+PROPN CCONJ PROPN PART:的	15
+PROPN CCONJ PROPN:中國	3
+PROPN CCONJ:及	28
+PROPN CCONJ:和	88
+PROPN CCONJ:與	43
+PROPN NOUN ADJ PART:地	3
+PROPN NOUN ADP PART:的	8
+PROPN NOUN ADP:在	14
+PROPN NOUN ADP:後	5
+PROPN NOUN ADP:從	3
+PROPN NOUN ADP:於	9
+PROPN NOUN ADP:與	4
+PROPN NOUN ADV AUX:是	5
+PROPN NOUN ADV VERB:有	6
+PROPN NOUN ADV:並	3
+PROPN NOUN ADV:也	8
+PROPN NOUN ADV:已	3
+PROPN NOUN ADV:所	6
+PROPN NOUN ADV:曾	4
+PROPN NOUN ADV:最	7
+PROPN NOUN AUX PROPN:中國	3
+PROPN NOUN AUX:是	19
+PROPN NOUN AUX:會	3
+PROPN NOUN CCONJ:與	8
+PROPN NOUN NOUN ADP:在	6
+PROPN NOUN NOUN ADP:於	4
+PROPN NOUN NOUN ADV:而	3
+PROPN NOUN NOUN AUX:是	11
+PROPN NOUN NOUN CCONJ:及	6
+PROPN NOUN NOUN CCONJ:與	4
+PROPN NOUN NOUN NOUN:公司	5
+PROPN NOUN NOUN:人	10
+PROPN NOUN NOUN:公司	10
+PROPN NOUN NOUN:地區	6
+PROPN NOUN NOUN:大學	8
+PROPN NOUN NOUN:政府	9
+PROPN NOUN NUM NOUN:個	4
+PROPN NOUN NUM:一	4
+PROPN NOUN NUM:第一	8
+PROPN NOUN PART ADP:在	3
+PROPN NOUN PART ADP:於	3
+PROPN NOUN PART AUX:是	4
+PROPN NOUN PART CCONJ:和	3
+PROPN NOUN PART:區	3
+PROPN NOUN PART:大	3
+PROPN NOUN PART:會	12
+PROPN NOUN PART:軍	5
+PROPN NOUN PART:部	10
+PROPN NOUN PROPN PART:市	4
+PROPN NOUN PUNCT ADP:中	3
+PROPN NOUN PUNCT PART:的	3
+PROPN NOUN PUNCT., ADP:在	4
+PROPN NOUN PUNCT., ADP:為	3
+PROPN NOUN PUNCT., ADV:並	6
+PROPN NOUN PUNCT., ADV:而	3
+PROPN NOUN PUNCT., AUX:是	8
+PROPN NOUN PUNCT., VERB:有	4
+PROPN NOUN VERB ADP:後	6
+PROPN NOUN VERB ADP:於	5
+PROPN NOUN VERB NUM:一	4
+PROPN NOUN VERB PART:人	3
+PROPN NOUN VERB PROPN:中國	3
+PROPN NOUN VERB VERB:於	5
+PROPN NOUN VERB VERB:為	9
+PROPN NOUN VERB:在	14
+PROPN NOUN VERB:沒有	4
+PROPN NOUN VERB:用	5
+PROPN NOUN:人口	9
+PROPN NOUN:公司	12
+PROPN NOUN:國家	20
+PROPN NOUN:地區	28
+PROPN NOUN:大學	52
+PROPN NOUN:政府	18
+PROPN NOUN:等	55
+PROPN NUM NOUN NOUN:人口	3
+PROPN NUM NOUN:人	6
+PROPN NUM NOUN:年	44
+PROPN NUM PART:大	3
+PROPN NUM:3	3
+PROPN NUM:三	6
+PROPN NUM:兩	16
+PROPN NUM:第一	8
+PROPN PART ADP PART:的	7
+PROPN PART ADP:上	7
+PROPN PART ADP:在	11
+PROPN PART ADP:於	6
+PROPN PART ADP:與	3
+PROPN PART ADV ADP:在	3
+PROPN PART ADV AUX:是	4
+PROPN PART ADV VERB:成	3
+PROPN PART ADV VERB:有	4
+PROPN PART ADV:也	3
+PROPN PART ADV:則	5
+PROPN PART ADV:已	5
+PROPN PART ADV:所	5
+PROPN PART AUX NUM:一	8
+PROPN PART AUX PROPN:中國	4
+PROPN PART AUX PROPN:日本	3
+PROPN PART AUX:是	42
+PROPN PART AUX:會	4
+PROPN PART CCONJ:及	12
+PROPN PART CCONJ:和	33
+PROPN PART CCONJ:或	3
+PROPN PART CCONJ:與	11
+PROPN PART DET:這	3
+PROPN PART NOUN ADP:中	9
+PROPN PART NOUN ADP:在	8
+PROPN PART NOUN ADP:時	4
+PROPN PART NOUN ADP:與	3
+PROPN PART NOUN ADV:也	6
+PROPN PART NOUN ADV:而	3
+PROPN PART NOUN AUX:是	9
+PROPN PART NOUN AUX:為	6
+PROPN PART NOUN CCONJ:及	3
+PROPN PART NOUN CCONJ:與	4
+PROPN PART NOUN NOUN:政府	4
+PROPN PART NOUN NUM:一	4
+PROPN PART NOUN PART:的	37
+PROPN PART NOUN PART:部	9
+PROPN PART NOUN VERB:在	3
+PROPN PART NOUN VERB:有	6
+PROPN PART NOUN:國家	4
+PROPN PART NOUN:地區	3
+PROPN PART NOUN:政府	7
+PROPN PART NOUN:等	10
+PROPN PART NUM:兩	4
+PROPN PART NUM:第一	6
+PROPN PART PART CCONJ:和	4
+PROPN PART PART NUM:一	12
+PROPN PART PART PART:的	7
+PROPN PART PART:人	10
+PROPN PART PART:區	8
+PROPN PART PART:的	115
+PROPN PART PROPN PART:區	18
+PROPN PART PROPN PART:市	37
+PROPN PART PROPN PART:的	5
+PROPN PART PROPN:美國	3
+PROPN PART PUNCT., ADV:但	3
+PROPN PART PUNCT., AUX:是	21
+PROPN PART PUNCT., NOUN:人口	4
+PROPN PART PUNCT., PRON:他	3
+PROPN PART VERB PART:區	5
+PROPN PART VERB PART:的	20
+PROPN PART VERB PROPN:中國	3
+PROPN PART VERB PROPN:日本	4
+PROPN PART VERB VERB:於	19
+PROPN PART VERB VERB:為	7
+PROPN PART VERB:在	5
+PROPN PART VERB:成	3
+PROPN PART VERB:由	5
+PROPN PART VERB:被	3
+PROPN PART VERB:進行	3
+PROPN PART:人	110
+PROPN PART:區	53
+PROPN PART:州	75
+PROPN PART:市	92
+PROPN PART:省	98
+PROPN PART:軍	65
+PROPN PROPN ADP PRON:其	3
+PROPN PROPN ADP:以	9
+PROPN PROPN ADP:因	4
+PROPN PROPN ADP:在	21
+PROPN PROPN ADP:於	10
+PROPN PROPN ADP:與	7
+PROPN PROPN ADV:並	4
+PROPN PROPN ADV:已	5
+PROPN PROPN ADV:所	5
+PROPN PROPN ADV:曾	7
+PROPN PROPN ADV:還	4
+PROPN PROPN AUX:為	21
+PROPN PROPN CCONJ:與	14
+PROPN PROPN NOUN CCONJ:和	4
+PROPN PROPN NOUN NOUN:人	5
+PROPN PROPN NOUN PART:的	13
+PROPN PROPN NOUN:政府	3
+PROPN PROPN NOUN:等	17
+PROPN PROPN NUM:一	5
+PROPN PROPN NUM:兩	7
+PROPN PROPN PART:之	13
+PROPN PROPN PART:州	13
+PROPN PROPN PART:的	79
+PROPN PROPN PART:省	28
+PROPN PROPN PUNCT., ADV:並	3
+PROPN PROPN VERB ADP:在	4
+PROPN PROPN VERB ADP:於	5
+PROPN PROPN VERB PART:區	5
+PROPN PROPN VERB PART:的	19
+PROPN PROPN VERB PRON:其	3
+PROPN PROPN VERB VERB:為	11
+PROPN PROPN VERB:到	3
+PROPN PROPN VERB:在	16
+PROPN PROPN VERB:將	4
+PROPN PROPN VERB:是	3
+PROPN PROPN VERB:用	3
+PROPN PUNCT NUM NOUN:年	3
+PROPN PUNCT PART:的	13
+PROPN PUNCT PROPN ADP:在	3
+PROPN PUNCT PROPN ADP:於	6
+PROPN PUNCT PROPN CCONJ:和	19
+PROPN PUNCT PROPN CCONJ:與	4
+PROPN PUNCT PROPN NOUN:等	15
+PROPN PUNCT PROPN NUM:兩	4
+PROPN PUNCT PROPN PART:的	19
+PROPN PUNCT., ADP:在	5
+PROPN PUNCT., ADP:於	4
+PROPN PUNCT., ADV:並	11
+PROPN PUNCT., ADV:但	7
+PROPN PUNCT., ADV:而	4
+PROPN PUNCT., AUX:是	10
+PROPN PUNCT., NUM NOUN:年	6
+PROPN PUNCT., PRON:他	6
+PROPN PUNCT., PROPN PART:人	3
+PROPN PUNCT., PROPN PART:省	3
+PROPN PUNCT., PROPN:日本	3
+PROPN PUNCT., VERB VERB:為	5
+PROPN VERB ADJ PART:的	4
+PROPN VERB ADP:以	3
+PROPN VERB ADP:後	24
+PROPN VERB ADP:於	14
+PROPN VERB ADV:而	3
+PROPN VERB NUM:兩	3
+PROPN VERB PART NUM:一	8
+PROPN VERB PART:區	9
+PROPN VERB PART:大	3
+PROPN VERB PART:會	5
+PROPN VERB PART:的	61
+PROPN VERB PRON PART:的	5
+PROPN VERB PRON.P:他們	3
+PROPN VERB PRON:他	8
+PROPN VERB PRON:其	6
+PROPN VERB PRON:自己	6
+PROPN VERB PROPN PART:人	3
+PROPN VERB PROPN PART:的	9
+PROPN VERB PROPN:日本	4
+PROPN VERB PROPN:香港	4
+PROPN VERB PUNCT., ADV:並	3
+PROPN VERB VERB PART:的	10
+PROPN VERB VERB PROPN:美國	4
+PROPN VERB VERB VERB:為	6
+PROPN VERB VERB:以	3
+PROPN VERB VERB:為	25
+PROPN VERB X:的	3
+PROPN VERB:在	42
+PROPN VERB:將	9
+PROPN VERB:被	36
+PROPN VERB:進行	9
+PROPN:中國	229
+PROPN:日本	97
+PROPN:美國	144
+PROPN:香港	84
+PUNCT ADJ CCONJ:和	3
+PUNCT ADP NUM NOUN:年	8
+PUNCT ADP PART:的	6
+PUNCT ADP VERB PART:的	3
+PUNCT ADP VERB:有	3
+PUNCT ADP:中	21
+PUNCT ADP:因為	3
+PUNCT ADP:後	3
+PUNCT ADV ADJ PART:的	3
+PUNCT ADV ADP:在	3
+PUNCT ADV VERB VERB:為	4
+PUNCT ADV VERB:稱	8
+PUNCT ADV:不	5
+PUNCT ADV:也	6
+PUNCT ADV:所	7
+PUNCT ADV:而	9
+PUNCT ADV:都	3
+PUNCT AUX NUM NOUN:年	3
+PUNCT AUX NUM:一	12
+PUNCT AUX PROPN PART:的	4
+PUNCT AUX VERB PART:的	3
+PUNCT AUX VERB VERB:於	4
+PUNCT AUX:是	63
+PUNCT CCONJ NOUN PART:的	3
+PUNCT CCONJ:和	36
+PUNCT CCONJ:或	9
+PUNCT DET NOUN:個	3
+PUNCT DET:這	6
+PUNCT NOUN AUX:是	5
+PUNCT NOUN CCONJ:及	14
+PUNCT NOUN CCONJ:與	11
+PUNCT NOUN NOUN CCONJ:及	5
+PUNCT NOUN NOUN CCONJ:和	8
+PUNCT NOUN NOUN NOUN:等	9
+PUNCT NOUN NOUN:等	21
+PUNCT NOUN NUM NOUN:年	7
+PUNCT NOUN NUM:一	4
+PUNCT NOUN NUM:三	6
+PUNCT NOUN NUM:兩	3
+PUNCT NOUN PART CCONJ:和	6
+PUNCT NOUN PART:之	6
+PUNCT NOUN PUNCT AUX:是	6
+PUNCT NOUN PUNCT CCONJ:和	7
+PUNCT NOUN PUNCT NUM:一	4
+PUNCT NOUN VERB PART:人	3
+PUNCT NOUN:世界	7
+PUNCT NOUN:其中	3
+PUNCT NOUN:等	10
+PUNCT NUM NOUN ADP:中	5
+PUNCT NUM NOUN AUX:為	3
+PUNCT NUM NOUN:名	4
+PUNCT NUM NOUN:年	59
+PUNCT NUM:2	4
+PUNCT NUM:3	5
+PUNCT NUM:三	6
+PUNCT PART:之	3
+PUNCT PART:大	6
+PUNCT PART:的	89
+PUNCT PRON PART:的	4
+PUNCT PROPN ADP:於	6
+PUNCT PROPN CCONJ:和	20
+PUNCT PROPN NOUN PART:的	5
+PUNCT PROPN NOUN:地區	3
+PUNCT PROPN NOUN:大學	6
+PUNCT PROPN NOUN:等	17
+PUNCT PROPN NUM NOUN:年	7
+PUNCT PROPN NUM:兩	4
+PUNCT PROPN PART CCONJ:及	4
+PUNCT PROPN PART CCONJ:和	7
+PUNCT PROPN PART NOUN:等	6
+PUNCT PROPN PART:州	14
+PUNCT PROPN PART:的	24
+PUNCT PROPN PROPN CCONJ:及	3
+PUNCT PROPN PROPN NOUN:等	9
+PUNCT PROPN PUNCT AUX:是	3
+PUNCT PROPN PUNCT., AUX:是	3
+PUNCT PROPN VERB ADP:在	3
+PUNCT PROPN VERB PART:的	3
+PUNCT PROPN VERB:在	9
+PUNCT PUNCT AUX:是	3
+PUNCT PUNCT., ADP:因為	3
+PUNCT PUNCT., ADV ADP:在	3
+PUNCT PUNCT., ADV VERB:稱	3
+PUNCT PUNCT., ADV:但	5
+PUNCT PUNCT., ADV:而	4
+PUNCT PUNCT., AUX NUM:一	4
+PUNCT PUNCT., AUX:是	18
+PUNCT PUNCT., DET:該	4
+PUNCT PUNCT., NUM NOUN:月	3
+PUNCT VERB CCONJ:與	3
+PUNCT VERB NOUN PART:的	9
+PUNCT VERB PART CCONJ:及	3
+PUNCT VERB PART NOUN:等	4
+PUNCT VERB VERB PROPN:美國	3
+PUNCT VERB VERB:於	8
+PUNCT VERB VERB:為	9
+PUNCT VERB:成	3
+PUNCT., ADJ NOUN PART:的	4
+PUNCT., ADP ADJ PART:的	3
+PUNCT., ADP NOUN ADP:上	3
+PUNCT., ADP NOUN PART:的	8
+PUNCT., ADP NOUN VERB:有	3
+PUNCT., ADP NUM NOUN:個	4
+PUNCT., ADP NUM NOUN:月	4
+PUNCT., ADP NUM NOUN:次	7
+PUNCT., ADP NUM:一	8
+PUNCT., ADP PRON ADP:在	4
+PUNCT., ADP PRON PART:的	6
+PUNCT., ADP PRON PRON:他	3
+PUNCT., ADP PRON:他	13
+PUNCT., ADP PRON:其	4
+PUNCT., ADP PRON:此	51
+PUNCT., ADP PROPN ADP:在	3
+PUNCT., ADP PROPN:中國	5
+PUNCT., ADP VERB PART:的	4
+PUNCT., ADP:以	19
+PUNCT., ADP:因	55
+PUNCT., ADP:因為	30
+PUNCT., ADP:為	19
+PUNCT., ADP:由於	21
+PUNCT., ADV ADP PRON:此	3
+PUNCT., ADV ADP:因	3
+PUNCT., ADV ADP:在	58
+PUNCT., ADV ADP:從	6
+PUNCT., ADV ADP:於	16
+PUNCT., ADV ADP:由於	5
+PUNCT., ADV ADP:與	16
+PUNCT., ADV ADV VERB:有	9
+PUNCT., ADV ADV VERB:沒有	6
+PUNCT., ADV ADV VERB:被	5
+PUNCT., ADV ADV:並	3
+PUNCT., ADV ADV:也	6
+PUNCT., ADV ADV:就	5
+PUNCT., ADV ADV:已	4
+PUNCT., ADV ADV:曾	5
+PUNCT., ADV ADV:還	4
+PUNCT., ADV AUX:可	7
+PUNCT., ADV AUX:是	17
+PUNCT., ADV AUX:為	7
+PUNCT., ADV NOUN ADV:則	5
+PUNCT., ADV NUM NOUN:人	7
+PUNCT., ADV NUM NOUN:次	6
+PUNCT., ADV NUM:一	3
+PUNCT., ADV NUM:兩	6
+PUNCT., ADV PRON PART:的	3
+PUNCT., ADV PRON:其	3
+PUNCT., ADV PROPN PART:軍	4
+PUNCT., ADV PROPN:中國	3
+PUNCT., ADV VERB ADP:在	15
+PUNCT., ADV VERB ADP:為	3
+PUNCT., ADV VERB NOUN:人口	3
+PUNCT., ADV VERB NUM:一	7
+PUNCT., ADV VERB NUM:兩	6
+PUNCT., ADV VERB PART:著	3
+PUNCT., ADV VERB PRON:他	9
+PUNCT., ADV VERB PRON:她	5
+PUNCT., ADV VERB PROPN:中國	4
+PUNCT., ADV VERB PROPN:美國	3
+PUNCT., ADV VERB VERB:在	4
+PUNCT., ADV VERB VERB:於	15
+PUNCT., ADV VERB VERB:為	23
+PUNCT., ADV VERB VERB:由	3
+PUNCT., ADV VERB:以	6
+PUNCT., ADV VERB:到	3
+PUNCT., ADV VERB:在	17
+PUNCT., ADV VERB:將	10
+PUNCT., ADV VERB:是	18
+PUNCT., ADV VERB:用	3
+PUNCT., ADV VERB:由	8
+PUNCT., ADV VERB:稱	10
+PUNCT., ADV:並	172
+PUNCT., ADV:但	132
+PUNCT., ADV:曾	27
+PUNCT., ADV:而	85
+PUNCT., AUX ADJ PART:的	5
+PUNCT., AUX ADP:在	3
+PUNCT., AUX ADV:最	3
+PUNCT., AUX NOUN PART:的	3
+PUNCT., AUX NUM NOUN:個	11
+PUNCT., AUX NUM NOUN:名	7
+PUNCT., AUX NUM NOUN:年	3
+PUNCT., AUX NUM NOUN:次	3
+PUNCT., AUX NUM NOUN:種	9
+PUNCT., AUX NUM:一	34
+PUNCT., AUX NUM:第一	3
+PUNCT., AUX PROPN:中國	13
+PUNCT., AUX VERB PART:的	4
+PUNCT., AUX VERB VERB:為	3
+PUNCT., AUX VERB:是	3
+PUNCT., AUX VERB:用	3
+PUNCT., AUX VERB:由	3
+PUNCT., AUX VERB:被	3
+PUNCT., AUX:可	16
+PUNCT., AUX:可以	18
+PUNCT., AUX:是	128
+PUNCT., CCONJ VERB VERB:於	3
+PUNCT., CCONJ VERB:有	3
+PUNCT., CCONJ:或	9
+PUNCT., DET NOUN ADP:在	3
+PUNCT., DET NOUN PART:的	4
+PUNCT., DET NOUN:公司	3
+PUNCT., DET NOUN:地區	4
+PUNCT., DET NOUN:次	3
+PUNCT., DET NOUN:種	11
+PUNCT., DET NUM NOUN:月	3
+PUNCT., DET NUM:三	3
+PUNCT., DET NUM:兩	4
+PUNCT., DET PART:的	4
+PUNCT., DET VERB:有	3
+PUNCT., DET:該	26
+PUNCT., DET:這	45
+PUNCT., NOUN ADJ PART:的	4
+PUNCT., NOUN ADP PART:的	6
+PUNCT., NOUN ADP PRON:此	3
+PUNCT., NOUN ADP:上	7
+PUNCT., NOUN ADP:以	4
+PUNCT., NOUN ADP:因	3
+PUNCT., NOUN ADP:在	11
+PUNCT., NOUN ADP:於	5
+PUNCT., NOUN ADV AUX:會	7
+PUNCT., NOUN ADV AUX:為	11
+PUNCT., NOUN ADV VERB:在	6
+PUNCT., NOUN ADV VERB:將	3
+PUNCT., NOUN ADV VERB:是	4
+PUNCT., NOUN ADV VERB:被	5
+PUNCT., NOUN ADV:不	3
+PUNCT., NOUN ADV:也	22
+PUNCT., NOUN ADV:則	8
+PUNCT., NOUN ADV:就	5
+PUNCT., NOUN ADV:曾	4
+PUNCT., NOUN ADV:還	3
+PUNCT., NOUN AUX NUM:一	4
+PUNCT., NOUN AUX:可	6
+PUNCT., NOUN AUX:是	15
+PUNCT., NOUN AUX:會	5
+PUNCT., NOUN AUX:為	37
+PUNCT., NOUN CCONJ:和	10
+PUNCT., NOUN CCONJ:或	3
+PUNCT., NOUN CCONJ:與	3
+PUNCT., NOUN NOUN ADP:在	4
+PUNCT., NOUN NOUN ADV:也	4
+PUNCT., NOUN NOUN ADV:則	3
+PUNCT., NOUN NOUN AUX:為	21
+PUNCT., NOUN NOUN CCONJ:和	9
+PUNCT., NOUN NOUN VERB:有	5
+PUNCT., NOUN NOUN:政府	3
+PUNCT., NOUN NOUN:面積	11
+PUNCT., NOUN NUM NOUN:人	9
+PUNCT., NOUN NUM NOUN:個	4
+PUNCT., NOUN NUM NOUN:年	5
+PUNCT., NOUN NUM:一	6
+PUNCT., NOUN PART ADP:在	3
+PUNCT., NOUN PART CCONJ:和	3
+PUNCT., NOUN PART VERB:在	3
+PUNCT., NOUN PART:大	4
+PUNCT., NOUN PART:會	4
+PUNCT., NOUN PART:部	3
+PUNCT., NOUN VERB ADP:於	4
+PUNCT., NOUN VERB NOUN:人口	8
+PUNCT., NOUN VERB NUM:一	3
+PUNCT., NOUN VERB NUM:兩	3
+PUNCT., NOUN VERB PROPN:中國	3
+PUNCT., NOUN VERB VERB:於	5
+PUNCT., NOUN VERB VERB:為	8
+PUNCT., NOUN VERB:以	3
+PUNCT., NOUN VERB:在	11
+PUNCT., NOUN VERB:是	7
+PUNCT., NOUN VERB:有	22
+PUNCT., NOUN VERB:由	4
+PUNCT., NOUN VERB:稱	5
+PUNCT., NOUN VERB:被	7
+PUNCT., NOUN:人口	13
+PUNCT., NOUN:公司	4
+PUNCT., NOUN:其中	47
+PUNCT., NOUN:國家	6
+PUNCT., NOUN:政府	4
+PUNCT., NOUN:面積	22
+PUNCT., NUM NOUN ADP:時	29
+PUNCT., NUM NOUN NOUN:人口	14
+PUNCT., NUM NOUN NUM:2	3
+PUNCT., NUM NOUN:人	11
+PUNCT., NUM NOUN:名	7
+PUNCT., NUM NOUN:年	113
+PUNCT., NUM:兩	17
+PUNCT., NUM:第一	7
+PUNCT., PART NOUN:人口	5
+PUNCT., PART:大	9
+PUNCT., PRON ADP:以	4
+PUNCT., PRON ADP:與	6
+PUNCT., PRON ADV:並	3
+PUNCT., PRON ADV:就	3
+PUNCT., PRON ADV:所	3
+PUNCT., PRON VERB ADP:在	3
+PUNCT., PRON VERB PRON:她	3
+PUNCT., PRON VERB VERB:於	3
+PUNCT., PRON VERB:在	4
+PUNCT., PRON VERB:是	5
+PUNCT., PRON VERB:被	4
+PUNCT., PRON.P PART:的	5
+PUNCT., PRON.P:他們	28
+PUNCT., PRON:他	117
+PUNCT., PRON:其	33
+PUNCT., PRON:她	32
+PUNCT., PROPN ADP:因	3
+PUNCT., PROPN ADP:對	3
+PUNCT., PROPN ADP:於	5
+PUNCT., PROPN ADP:為	4
+PUNCT., PROPN ADP:與	8
+PUNCT., PROPN ADV:也	9
+PUNCT., PROPN AUX:是	5
+PUNCT., PROPN CCONJ:與	3
+PUNCT., PROPN NOUN ADP:於	4
+PUNCT., PROPN NOUN CCONJ:和	5
+PUNCT., PROPN NOUN NOUN:公司	4
+PUNCT., PROPN NOUN PART:會	3
+PUNCT., PROPN NOUN PART:的	14
+PUNCT., PROPN NOUN VERB:用	4
+PUNCT., PROPN NOUN VERB:被	3
+PUNCT., PROPN NOUN:公司	3
+PUNCT., PROPN NOUN:大學	7
+PUNCT., PROPN NOUN:政府	4
+PUNCT., PROPN PART CCONJ:和	7
+PUNCT., PROPN PART PART:的	4
+PUNCT., PROPN PART:人	14
+PUNCT., PROPN PART:的	28
+PUNCT., PROPN PART:省	8
+PUNCT., PROPN PART:軍	19
+PUNCT., PROPN PROPN ADP:在	9
+PUNCT., PROPN PROPN ADP:與	4
+PUNCT., PROPN PROPN ADV:也	3
+PUNCT., PROPN PROPN CCONJ:和	4
+PUNCT., PROPN PROPN CCONJ:與	4
+PUNCT., PROPN PROPN PART:人	4
+PUNCT., PROPN PROPN PART:的	8
+PUNCT., PROPN PROPN VERB:被	5
+PUNCT., PROPN VERB PRON:他	4
+PUNCT., PROPN VERB VERB:於	3
+PUNCT., PROPN VERB VERB:為	6
+PUNCT., PROPN VERB:在	11
+PUNCT., PROPN VERB:成	3
+PUNCT., PROPN VERB:被	12
+PUNCT., PROPN:日本	12
+PUNCT., PROPN:香港	10
+PUNCT., VERB ADJ:不同	5
+PUNCT., VERB ADP PART:的	3
+PUNCT., VERB ADP:在	20
+PUNCT., VERB ADP:對	6
+PUNCT., VERB ADP:於	27
+PUNCT., VERB ADV:不	3
+PUNCT., VERB DET:這	3
+PUNCT., VERB NOUN AUX:可以	3
+PUNCT., VERB NOUN CCONJ:與	3
+PUNCT., VERB NOUN PART:部	4
+PUNCT., VERB NUM NOUN:人	5
+PUNCT., VERB NUM NOUN:個	17
+PUNCT., VERB NUM NOUN:次	3
+PUNCT., VERB NUM:三	4
+PUNCT., VERB PART ADP:對	3
+PUNCT., VERB PART AUX:為	7
+PUNCT., VERB PART PART:大	3
+PUNCT., VERB PART:著	20
+PUNCT., VERB PRON AUX:是	4
+PUNCT., VERB PRON.P:他們	8
+PUNCT., VERB PRON:他	14
+PUNCT., VERB PRON:其	11
+PUNCT., VERB PRON:她	4
+PUNCT., VERB PROPN PART:州	11
+PUNCT., VERB PROPN PART:省	5
+PUNCT., VERB PROPN PART:軍	3
+PUNCT., VERB PROPN:日本	4
+PUNCT., VERB VERB ADP:後	3
+PUNCT., VERB VERB PROPN:中國	8
+PUNCT., VERB VERB PROPN:香港	3
+PUNCT., VERB VERB:以	5
+PUNCT., VERB VERB:於	97
+PUNCT., VERB VERB:有	4
+PUNCT., VERB:以	14
+PUNCT., VERB:將	14
+PUNCT., VERB:成	17
+PUNCT., VERB:用	9
+PUNCT., VERB:由	42
+PUNCT., VERB:稱	11
+PUNCT.: X PUNCT AUX:是	3
+PUNCT.; ADP NUM NOUN:年	3
+PUNCT.; ADP:在	3
+PUNCT.; ADV:而	5
+PUNCT.; NUM NOUN:年	3
+VERB ADJ ADJ PART:的	6
+VERB ADJ NOUN PART:的	41
+VERB ADJ PART:的	134
+VERB ADJ:不同	28
+VERB ADP ADJ PART:的	6
+VERB ADP ADP:在	3
+VERB ADP ADP:對	3
+VERB ADP AUX:會	3
+VERB ADP DET NUM:一	5
+VERB ADP NOUN ADP:中	5
+VERB ADP NOUN CCONJ:或	5
+VERB ADP NUM NOUN:個	7
+VERB ADP NUM NOUN:年	49
+VERB ADP NUM:一	6
+VERB ADP PRON PART:的	3
+VERB ADP PRON:他	11
+VERB ADP PRON:其	3
+VERB ADP PRON:她	3
+VERB ADP PROPN CCONJ:及	3
+VERB ADP PROPN NOUN:大學	4
+VERB ADP PROPN PART:州	4
+VERB ADP PROPN:中國	7
+VERB ADP PROPN:日本	3
+VERB ADP PROPN:美國	4
+VERB ADP PUNCT., PRON:他	7
+VERB ADP PUNCT., VERB:由	3
+VERB ADP VERB ADP:時	4
+VERB ADP VERB VERB:為	3
+VERB ADP VERB:被	3
+VERB ADP:後	109
+VERB ADP:於	133
+VERB ADP:時	64
+VERB ADV ADJ PART:地	3
+VERB ADV ADV:不	3
+VERB ADV NUM NOUN:種	4
+VERB ADV VERB PART:的	16
+VERB ADV VERB X:的	5
+VERB ADV VERB:到	5
+VERB ADV VERB:成	6
+VERB ADV VERB:由	3
+VERB ADV:不	20
+VERB ADV:所	14
+VERB ADV:最	6
+VERB ADV:而	32
+VERB AUX VERB PART:的	6
+VERB AUX:可	8
+VERB AUX:可以	6
+VERB CCONJ VERB PART:的	4
+VERB CCONJ VERB:使用	3
+VERB CCONJ:或	16
+VERB DET NOUN PART:的	23
+VERB DET NOUN VERB:是	3
+VERB DET NOUN:人	3
+VERB DET NOUN:個	12
+VERB DET NOUN:公司	4
+VERB DET NOUN:地區	3
+VERB DET NUM:一	22
+VERB DET PART:的	7
+VERB DET PROPN PART:的	3
+VERB NOUN ADJ PART:的	20
+VERB NOUN ADJ:不同	3
+VERB NOUN ADP PART:的	9
+VERB NOUN ADP:上	14
+VERB NOUN ADP:在	4
+VERB NOUN ADP:對	5
+VERB NOUN ADP:後	7
+VERB NOUN ADP:時	15
+VERB NOUN ADP:與	4
+VERB NOUN ADV:並	4
+VERB NOUN ADV:所	10
+VERB NOUN ADV:而	10
+VERB NOUN AUX NUM:一	3
+VERB NOUN AUX:可以	3
+VERB NOUN AUX:是	7
+VERB NOUN AUX:會	4
+VERB NOUN AUX:為	15
+VERB NOUN CCONJ:和	41
+VERB NOUN CCONJ:或	13
+VERB NOUN CCONJ:與	13
+VERB NOUN NOUN ADP:後	6
+VERB NOUN NOUN ADV:而	4
+VERB NOUN NOUN AUX:為	4
+VERB NOUN NOUN CCONJ:或	7
+VERB NOUN NOUN CCONJ:與	7
+VERB NOUN NOUN NUM:一	4
+VERB NOUN NOUN PART:會	6
+VERB NOUN NOUN PART:的	102
+VERB NOUN NOUN PART:部	5
+VERB NOUN NOUN:地區	6
+VERB NOUN NOUN:政府	8
+VERB NOUN NUM NOUN:人	15
+VERB NOUN NUM NOUN:個	3
+VERB NOUN NUM NOUN:年	3
+VERB NOUN NUM:一	5
+VERB NOUN NUM:兩	5
+VERB NOUN PART ADP:中	3
+VERB NOUN PART PART:的	32
+VERB NOUN PART:人	4
+VERB NOUN PART:地	3
+VERB NOUN PART:性	11
+VERB NOUN PART:的	268
+VERB NOUN PART:者	3
+VERB NOUN PART:部	11
+VERB NOUN PROPN PART:的	4
+VERB NOUN PROPN PART:省	3
+VERB NOUN PROPN:中國	4
+VERB NOUN PUNCT PART:的	3
+VERB NOUN PUNCT., ADP:因	6
+VERB NOUN PUNCT., ADP:因為	3
+VERB NOUN PUNCT., ADV:但	11
+VERB NOUN PUNCT., ADV:而	8
+VERB NOUN PUNCT., AUX:是	4
+VERB NOUN PUNCT., DET:這	3
+VERB NOUN PUNCT., PRON:他	3
+VERB NOUN PUNCT., PRON:其	3
+VERB NOUN PUNCT., VERB:有	4
+VERB NOUN VERB ADV:而	4
+VERB NOUN VERB DET:這	3
+VERB NOUN VERB NUM:一	5
+VERB NOUN VERB PART:人	3
+VERB NOUN VERB PART:的	33
+VERB NOUN VERB PART:者	3
+VERB NOUN VERB PRON:他	5
+VERB NOUN VERB VERB:在	3
+VERB NOUN VERB VERB:為	14
+VERB NOUN VERB X:的	3
+VERB NOUN VERB:使用	4
+VERB NOUN VERB:到	4
+VERB NOUN VERB:在	4
+VERB NOUN VERB:將	3
+VERB NOUN VERB:成	3
+VERB NOUN VERB:稱	4
+VERB NOUN:人	47
+VERB NOUN:人口	15
+VERB NUM ADJ PART:的	5
+VERB NUM ADJ:不同	5
+VERB NUM NOUN ADJ:不同	6
+VERB NUM NOUN ADP:在	4
+VERB NUM NOUN NOUN:人	5
+VERB NUM NOUN NOUN:地區	3
+VERB NUM NOUN NOUN:月	9
+VERB NUM NOUN NUM:3	3
+VERB NUM NOUN NUM:一	3
+VERB NUM NOUN PART:之	6
+VERB NUM NOUN VERB:有	5
+VERB NUM NOUN:人	35
+VERB NUM NOUN:個	134
+VERB NUM NOUN:名	21
+VERB NUM NOUN:次	23
+VERB NUM NOUN:種	36
+VERB NUM:一	199
+VERB NUM:三	24
+VERB NUM:兩	54
+VERB PART ADJ PART:的	35
+VERB PART ADP:在	7
+VERB PART ADP:對	11
+VERB PART ADP:與	5
+VERB PART ADV AUX:可以	3
+VERB PART ADV VERB:有	5
+VERB PART ADV VERB:被	6
+VERB PART ADV:不	5
+VERB PART ADV:也	4
+VERB PART ADV:就	4
+VERB PART ADV:還	3
+VERB PART ADV:都	7
+VERB PART AUX:可以	3
+VERB PART AUX:會	8
+VERB PART AUX:為	24
+VERB PART CCONJ NUM:一	3
+VERB PART CCONJ:及	15
+VERB PART CCONJ:或	5
+VERB PART DET NOUN:個	4
+VERB PART DET PART:的	3
+VERB PART DET:這	10
+VERB PART NOUN ADP:中	7
+VERB PART NOUN ADP:在	4
+VERB PART NOUN ADV:不	3
+VERB PART NOUN ADV:而	4
+VERB PART NOUN AUX:可以	7
+VERB PART NOUN AUX:會	3
+VERB PART NOUN AUX:為	5
+VERB PART NOUN CCONJ:和	13
+VERB PART NOUN CCONJ:與	5
+VERB PART NOUN NUM:一	5
+VERB PART NOUN PART:大	3
+VERB PART NOUN PART:性	4
+VERB PART NOUN PART:的	45
+VERB PART NOUN VERB:被	4
+VERB PART NOUN.P PART:的	3
+VERB PART NOUN:人	5
+VERB PART NOUN:其中	3
+VERB PART NOUN:國家	4
+VERB PART NOUN:等	7
+VERB PART NUM NOUN:人	3
+VERB PART NUM NOUN:年	24
+VERB PART NUM NOUN:次	12
+VERB PART NUM:兩	14
+VERB PART PART CCONJ:和	3
+VERB PART PART:之	6
+VERB PART PART:大	4
+VERB PART PRON PART:的	16
+VERB PART PRON.P PART:的	3
+VERB PART PRON.P:他們	5
+VERB PART PRON:他	17
+VERB PART PRON:其	5
+VERB PART PRON:她	6
+VERB PART PRON:自己	11
+VERB PART PROPN CCONJ:和	4
+VERB PART PROPN NOUN:地區	5
+VERB PART PROPN PART:的	15
+VERB PART PROPN:中國	5
+VERB PART PROPN:日本	3
+VERB PART PROPN:美國	6
+VERB PART PUNCT ADP:中	5
+VERB PART PUNCT., ADV:也	3
+VERB PART PUNCT., AUX:為	3
+VERB PART PUNCT., PRON:他	3
+VERB PART VERB PART:的	14
+VERB PART VERB PART:者	6
+VERB PART VERB PRON:自己	3
+VERB PART VERB VERB:為	4
+VERB PART VERB:到	3
+VERB PART VERB:在	5
+VERB PART VERB:是	10
+VERB PART VERB:有	8
+VERB PART VERB:由	4
+VERB PART VERB:被	5
+VERB PART:地	19
+VERB PART:性	36
+VERB PART:會	28
+VERB PART:者	96
+VERB PART:著	99
+VERB PRON ADJ PART:的	9
+VERB PRON ADP:對	5
+VERB PRON ADV:所	4
+VERB PRON AUX NUM:一	4
+VERB PRON AUX:為	14
+VERB PRON NUM NOUN:個	3
+VERB PRON NUM:一	5
+VERB PRON PART:的	65
+VERB PRON VERB VERB:為	7
+VERB PRON VERB:成	3
+VERB PRON.P PART:的	9
+VERB PRON.P:他們	27
+VERB PRON:其	58
+VERB PRON:自己	50
+VERB PROPN ADJ PART:的	3
+VERB PROPN ADP PRON:他	3
+VERB PROPN ADP:對	3
+VERB PROPN ADP:後	9
+VERB PROPN ADP:時	5
+VERB PROPN ADV:並	3
+VERB PROPN ADV:已	3
+VERB PROPN ADV:所	3
+VERB PROPN AUX:為	6
+VERB PROPN CCONJ:及	5
+VERB PROPN CCONJ:和	18
+VERB PROPN NOUN ADP:後	3
+VERB PROPN NOUN CCONJ:及	4
+VERB PROPN NOUN CCONJ:和	6
+VERB PROPN NOUN CCONJ:或	3
+VERB PROPN NOUN NOUN:公司	3
+VERB PROPN NOUN NUM:第一	4
+VERB PROPN NOUN PART:會	4
+VERB PROPN NOUN PART:的	46
+VERB PROPN NOUN VERB:在	3
+VERB PROPN NOUN:公司	3
+VERB PROPN NOUN:大學	12
+VERB PROPN NUM:一	5
+VERB PROPN NUM:第一	3
+VERB PROPN PART CCONJ:及	4
+VERB PROPN PART NUM:一	5
+VERB PROPN PART PART:的	32
+VERB PROPN PART:之	4
+VERB PROPN PART:區	13
+VERB PROPN PART:大	5
+VERB PROPN PART:州	25
+VERB PROPN PART:的	115
+VERB PROPN PART:省	24
+VERB PROPN PART:軍	16
+VERB PROPN PROPN ADP:於	3
+VERB PROPN PROPN ADV:所	3
+VERB PROPN PROPN AUX:為	12
+VERB PROPN PROPN CCONJ:和	3
+VERB PROPN PROPN CCONJ:與	3
+VERB PROPN PROPN PART:州	9
+VERB PROPN PROPN PART:省	14
+VERB PROPN PUNCT PART:的	3
+VERB PROPN PUNCT., ADP:在	3
+VERB PROPN VERB ADP:後	3
+VERB PROPN VERB PART:區	3
+VERB PROPN VERB PART:的	14
+VERB PROPN:中國	78
+VERB PROPN:日本	30
+VERB PROPN:美國	52
+VERB PROPN:香港	35
+VERB PUNCT NOUN:世界	3
+VERB PUNCT PROPN:中國	5
+VERB PUNCT PUNCT., ADV:並	3
+VERB PUNCT., ADJ PART:的	3
+VERB PUNCT., ADP PRON:此	10
+VERB PUNCT., ADP:以	4
+VERB PUNCT., ADP:因	11
+VERB PUNCT., ADP:在	15
+VERB PUNCT., ADP:於	7
+VERB PUNCT., ADV ADP:與	6
+VERB PUNCT., ADV ADV:不	3
+VERB PUNCT., ADV VERB:由	3
+VERB PUNCT., ADV:不	3
+VERB PUNCT., ADV:並	34
+VERB PUNCT., ADV:也	7
+VERB PUNCT., ADV:但	24
+VERB PUNCT., ADV:就	4
+VERB PUNCT., ADV:而	16
+VERB PUNCT., AUX:可以	3
+VERB PUNCT., DET NOUN:種	4
+VERB PUNCT., DET:這	9
+VERB PUNCT., NOUN ADP:上	3
+VERB PUNCT., NOUN ADV:也	3
+VERB PUNCT., NOUN ADV:則	3
+VERB PUNCT., NOUN AUX:是	5
+VERB PUNCT., NOUN VERB:在	3
+VERB PUNCT., NOUN VERB:被	3
+VERB PUNCT., NOUN:面積	7
+VERB PUNCT., NUM NOUN:個	3
+VERB PUNCT., NUM NOUN:月	4
+VERB PUNCT., NUM:一	8
+VERB PUNCT., NUM:第一	3
+VERB PUNCT., PRON PART:的	3
+VERB PUNCT., PRON:其	5
+VERB PUNCT., PRON:她	4
+VERB PUNCT., PROPN ADV:也	3
+VERB PUNCT., PROPN PART:的	5
+VERB PUNCT., PROPN VERB:被	4
+VERB PUNCT., PROPN:中國	3
+VERB PUNCT., PROPN:日本	3
+VERB PUNCT., VERB NUM:一	6
+VERB PUNCT., VERB VERB:為	6
+VERB PUNCT., VERB:在	8
+VERB PUNCT., VERB:成	3
+VERB PUNCT., VERB:由	9
+VERB PUNCT., VERB:被	3
+VERB VERB ADJ PART:地	3
+VERB VERB ADP:在	11
+VERB VERB ADP:對	6
+VERB VERB ADP:從	3
+VERB VERB ADP:時	8
+VERB VERB ADV:不	4
+VERB VERB ADV:並	3
+VERB VERB ADV:所	3
+VERB VERB ADV:而	6
+VERB VERB AUX:是	16
+VERB VERB AUX:為	3
+VERB VERB CCONJ:和	5
+VERB VERB CCONJ:或	6
+VERB VERB DET NOUN:個	3
+VERB VERB DET:該	8
+VERB VERB DET:這	10
+VERB VERB NOUN ADP:上	6
+VERB VERB NOUN ADP:中	4
+VERB VERB NOUN ADV:所	3
+VERB VERB NOUN CCONJ:及	3
+VERB VERB NOUN CCONJ:和	11
+VERB VERB NOUN CCONJ:與	5
+VERB VERB NOUN PART:性	4
+VERB VERB NOUN PART:的	75
+VERB VERB NOUN:國家	4
+VERB VERB NOUN:大學	3
+VERB VERB NUM NOUN:年	34
+VERB VERB NUM NOUN:種	10
+VERB VERB NUM:1	3
+VERB VERB NUM:一	43
+VERB VERB NUM:第一	6
+VERB VERB PART AUX:是	3
+VERB VERB PART AUX:為	3
+VERB VERB PART CCONJ:和	3
+VERB VERB PART NOUN:國家	3
+VERB VERB PART NUM:一	5
+VERB VERB PART PART:的	18
+VERB VERB PART:之	5
+VERB VERB PART:人	3
+VERB VERB PART:大	3
+VERB VERB PART:性	14
+VERB VERB PART:會	5
+VERB VERB PART:的	116
+VERB VERB PART:者	18
+VERB VERB PRON PART:的	16
+VERB VERB PRON.P:他們	7
+VERB VERB PRON:他	17
+VERB VERB PRON:她	6
+VERB VERB PRON:自己	9
+VERB VERB PROPN CCONJ:和	7
+VERB VERB PROPN PART:區	9
+VERB VERB PROPN PART:市	11
+VERB VERB PROPN PART:的	38
+VERB VERB PROPN PART:省	14
+VERB VERB PROPN:中國	32
+VERB VERB PROPN:美國	23
+VERB VERB PROPN:香港	13
+VERB VERB PUNCT., ADV:並	9
+VERB VERB PUNCT., NOUN:面積	7
+VERB VERB PUNCT., PRON:他	3
+VERB VERB PUNCT., VERB:在	3
+VERB VERB VERB ADP:在	4
+VERB VERB VERB AUX:是	4
+VERB VERB VERB CCONJ:和	3
+VERB VERB VERB NUM:一	9
+VERB VERB VERB VERB:在	5
+VERB VERB VERB VERB:於	4
+VERB VERB VERB X:的	3
+VERB VERB VERB:以	5
+VERB VERB VERB:在	14
+VERB VERB VERB:成	6
+VERB VERB VERB:是	5
+VERB VERB VERB:有	6
+VERB VERB VERB:為	70
+VERB VERB X:的	14
+VERB VERB:以	26
+VERB VERB:到	72
+VERB VERB:在	99
+VERB VERB:將	21
+VERB VERB:成	28
+VERB VERB:於	374
+VERB VERB:為	370
+VERB VERB:用	21
+VERB X:的	55
+VERB:以	86
+VERB:使用	96
+VERB:到	145
+VERB:在	446
+VERB:將	102
+VERB:成	136
+VERB:於	397
+VERB:是	264
+VERB:有	482
+VERB:沒有	97
+VERB:為	402
+VERB:用	103
+VERB:由	173
+VERB:稱	89
+VERB:被	334
+VERB:進行	76
+X AUX:是	3
+X CCONJ:和	10
+X CCONJ:或	4
+X NOUN ADP:中	3
+X PART PART:的	4
+X PART:的	26
+X PUNCT ADP:於	3
+X PUNCT ADV:也	3
+X PUNCT ADV:所	5
+X PUNCT AUX NUM:一	7
+X PUNCT AUX:是	30
+X PUNCT AUX:為	5
+X PUNCT CCONJ:與	3
+X PUNCT PART:的	13
+X PUNCT PUNCT., AUX:是	9
+X PUNCT VERB VERB:於	5
+X PUNCT., ADP:因為	4
+X PUNCT., ADV:而	3
+X PUNCT., AUX:是	3
+X VERB PART:的	3
+X VERB:在	3
+X X PART:的	3
+X X PUNCT ADV:所	4
+X X PUNCT AUX:為	4
+X X PUNCT CCONJ:和	3
+X X PUNCT PART:的	4
+X:的	104
+
+[NGRAMS:1]
+25
+ADJ	2446
+ADP	4379
+ADV	4584
+AUX	2142
+BOF	3997
+CCONJ	1385
+DET	1041
+EOF	3997
+NOUN	27081
+NOUN.P	15
+NUM	5352
+PART	10460
+PRON	1260
+PRON.P	173
+PROPN	8679
+PUNCT	3307
+PUNCT.!	3
+PUNCT.,	6143
+PUNCT..	3960
+PUNCT.:	86
+PUNCT.;	85
+PUNCT.?	11
+SYM	25
+VERB	14991
+X	1000
+
+[NGRAMS:2]
+312
+ADJ ADJ	61
+ADJ ADP	18
+ADJ ADV	41
+ADJ AUX	9
+ADJ CCONJ	37
+ADJ DET	4
+ADJ NOUN	796
+ADJ NUM	52
+ADJ PART	820
+ADJ PRON	4
+ADJ PROPN	28
+ADJ PUNCT	46
+ADJ PUNCT.,	260
+ADJ PUNCT..	150
+ADJ PUNCT.;	7
+ADJ VERB	76
+ADJ X	36
+ADP ADJ	107
+ADP ADP	73
+ADP ADV	153
+ADP AUX	38
+ADP CCONJ	2
+ADP DET	136
+ADP NOUN	1010
+ADP NOUN.P	2
+ADP NUM	597
+ADP PART	196
+ADP PRON	241
+ADP PRON.P	18
+ADP PROPN	592
+ADP PUNCT	51
+ADP PUNCT.,	472
+ADP PUNCT..	36
+ADP VERB	628
+ADP X	24
+ADV ADJ	325
+ADV ADP	371
+ADV ADV	409
+ADV AUX	386
+ADV DET	27
+ADV NOUN	143
+ADV NOUN.P	2
+ADV NUM	121
+ADV PART	7
+ADV PRON	32
+ADV PRON.P	13
+ADV PROPN	81
+ADV PUNCT	7
+ADV PUNCT.,	65
+ADV VERB	2594
+AUX ADJ	155
+AUX ADP	103
+AUX ADV	90
+AUX AUX	30
+AUX CCONJ	2
+AUX DET	28
+AUX NOUN	369
+AUX NUM	290
+AUX PART	47
+AUX PRON	16
+AUX PROPN	341
+AUX PUNCT	37
+AUX PUNCT.:	3
+AUX VERB	616
+AUX X	13
+BOF ADJ	70
+BOF ADP	517
+BOF ADV	242
+BOF AUX	8
+BOF DET	234
+BOF NOUN	847
+BOF NOUN.P	2
+BOF NUM	545
+BOF PART	36
+BOF PRON	219
+BOF PRON.P	30
+BOF PROPN	910
+BOF PUNCT	47
+BOF VERB	263
+BOF X	27
+CCONJ ADJ	67
+CCONJ ADP	12
+CCONJ ADV	21
+CCONJ AUX	12
+CCONJ DET	27
+CCONJ NOUN	545
+CCONJ NUM	146
+CCONJ PART	23
+CCONJ PRON	23
+CCONJ PRON.P	4
+CCONJ PROPN	301
+CCONJ PUNCT	27
+CCONJ VERB	154
+CCONJ X	23
+DET ADJ	20
+DET ADP	9
+DET ADV	12
+DET AUX	10
+DET NOUN	712
+DET NUM	163
+DET PART	26
+DET PROPN	23
+DET VERB	61
+DET X	2
+NOUN ADJ	559
+NOUN ADP	1365
+NOUN ADV	1321
+NOUN AUX	682
+NOUN CCONJ	718
+NOUN DET	74
+NOUN EOF	4
+NOUN NOUN	6204
+NOUN NUM	1257
+NOUN PART	3462
+NOUN PRON	61
+NOUN PRON.P	5
+NOUN PROPN	759
+NOUN PUNCT	1229
+NOUN PUNCT.!	3
+NOUN PUNCT.,	3294
+NOUN PUNCT..	2219
+NOUN PUNCT.:	39
+NOUN PUNCT.;	40
+NOUN PUNCT.?	2
+NOUN SYM	8
+NOUN VERB	3706
+NOUN X	70
+NOUN.P ADV	2
+NOUN.P PART	3
+NOUN.P VERB	6
+NUM ADJ	35
+NUM ADP	13
+NUM ADV	10
+NUM AUX	5
+NUM CCONJ	39
+NUM DET	4
+NUM NOUN	4812
+NUM NUM	8
+NUM PART	76
+NUM PROPN	59
+NUM PUNCT	58
+NUM PUNCT.,	46
+NUM PUNCT..	92
+NUM SYM	4
+NUM VERB	73
+NUM X	18
+PART ADJ	344
+PART ADP	226
+PART ADV	270
+PART AUX	202
+PART CCONJ	179
+PART DET	94
+PART NOUN	4719
+PART NOUN.P	4
+PART NUM	569
+PART PART	620
+PART PRON	49
+PART PRON.P	7
+PART PROPN	767
+PART PUNCT	488
+PART PUNCT.,	501
+PART PUNCT..	344
+PART PUNCT.:	9
+PART PUNCT.;	10
+PART SYM	2
+PART VERB	995
+PART X	61
+PRON ADJ	35
+PRON ADP	120
+PRON ADV	167
+PRON AUX	108
+PRON CCONJ	12
+PRON DET	6
+PRON NOUN	153
+PRON NUM	26
+PRON PART	189
+PRON PRON	11
+PRON PROPN	10
+PRON PUNCT	12
+PRON PUNCT.,	39
+PRON PUNCT..	15
+PRON PUNCT.;	2
+PRON PUNCT.?	2
+PRON VERB	351
+PRON.P ADJ	2
+PRON.P ADP	14
+PRON.P ADV	29
+PRON.P AUX	17
+PRON.P NOUN	13
+PRON.P NUM	5
+PRON.P PART	34
+PRON.P PUNCT..	6
+PRON.P VERB	50
+PROPN ADJ	68
+PROPN ADP	260
+PROPN ADV	281
+PROPN AUX	128
+PROPN CCONJ	170
+PROPN DET	13
+PROPN NOUN	2049
+PROPN NUM	166
+PROPN PART	2119
+PROPN PRON	10
+PROPN PROPN	1344
+PROPN PUNCT	617
+PROPN PUNCT.,	246
+PROPN PUNCT..	126
+PROPN PUNCT.;	2
+PROPN SYM	3
+PROPN VERB	1056
+PROPN X	20
+PUNCT ADJ	75
+PUNCT ADP	68
+PUNCT ADV	80
+PUNCT AUX	98
+PUNCT CCONJ	75
+PUNCT DET	14
+PUNCT EOF	30
+PUNCT NOUN	735
+PUNCT NUM	208
+PUNCT PART	138
+PUNCT PRON	16
+PUNCT PRON.P	2
+PUNCT PROPN	801
+PUNCT PUNCT	98
+PUNCT PUNCT.,	198
+PUNCT PUNCT..	164
+PUNCT VERB	285
+PUNCT X	219
+PUNCT.! EOF	2
+PUNCT., ADJ	95
+PUNCT., ADP	507
+PUNCT., ADV	1149
+PUNCT., AUX	302
+PUNCT., CCONJ	68
+PUNCT., DET	144
+PUNCT., NOUN	1055
+PUNCT., NOUN.P	3
+PUNCT., NUM	269
+PUNCT., PART	43
+PUNCT., PRON	240
+PUNCT., PRON.P	44
+PUNCT., PROPN	850
+PUNCT., PUNCT	30
+PUNCT., VERB	1291
+PUNCT., X	52
+PUNCT.. EOF	3938
+PUNCT.. PUNCT	22
+PUNCT.: ADP	4
+PUNCT.: ADV	2
+PUNCT.: EOF	9
+PUNCT.: NOUN	15
+PUNCT.: NUM	5
+PUNCT.: PROPN	10
+PUNCT.: PUNCT	19
+PUNCT.: VERB	5
+PUNCT.: X	15
+PUNCT.; ADP	11
+PUNCT.; ADV	14
+PUNCT.; AUX	2
+PUNCT.; DET	3
+PUNCT.; NOUN	23
+PUNCT.; NUM	8
+PUNCT.; PRON	3
+PUNCT.; PROPN	7
+PUNCT.; VERB	10
+PUNCT.? EOF	9
+PUNCT.? PUNCT	2
+SYM NOUN	8
+SYM NUM	4
+SYM PROPN	3
+SYM PUNCT.,	4
+VERB ADJ	420
+VERB ADP	678
+VERB ADV	271
+VERB AUX	96
+VERB CCONJ	62
+VERB DET	231
+VERB EOF	2
+VERB NOUN	2789
+VERB NOUN.P	2
+VERB NUM	904
+VERB PART	2560
+VERB PRON	333
+VERB PRON.P	48
+VERB PROPN	1783
+VERB PUNCT	265
+VERB PUNCT.,	903
+VERB PUNCT..	710
+VERB PUNCT.:	31
+VERB PUNCT.;	19
+VERB PUNCT.?	2
+VERB SYM	4
+VERB VERB	2727
+VERB X	151
+X ADJ	5
+X ADP	9
+X ADV	20
+X AUX	8
+X CCONJ	19
+X NOUN	83
+X NUM	9
+X PART	60
+X PROPN	10
+X PUNCT	247
+X PUNCT.,	114
+X PUNCT..	96
+X PUNCT.:	2
+X PUNCT.;	3
+X PUNCT.?	5
+X VERB	44
+X X	265
+
+[NGRAMS:3]
+1709
+ADJ ADJ NOUN	14
+ADJ ADJ PART	26
+ADJ ADJ PUNCT.,	10
+ADJ ADJ PUNCT..	8
+ADJ ADP ADV	3
+ADJ ADP NOUN	6
+ADJ ADP PUNCT.,	3
+ADJ ADP VERB	3
+ADJ ADV ADJ	6
+ADJ ADV ADV	3
+ADJ ADV AUX	3
+ADJ ADV NUM	3
+ADJ ADV VERB	25
+ADJ CCONJ ADJ	23
+ADJ CCONJ ADV	5
+ADJ CCONJ VERB	5
+ADJ DET NOUN	4
+ADJ NOUN ADJ	9
+ADJ NOUN ADP	45
+ADJ NOUN ADV	39
+ADJ NOUN AUX	28
+ADJ NOUN CCONJ	24
+ADJ NOUN NOUN	139
+ADJ NOUN NUM	5
+ADJ NOUN PART	133
+ADJ NOUN PROPN	11
+ADJ NOUN PUNCT	37
+ADJ NOUN PUNCT.,	112
+ADJ NOUN PUNCT..	102
+ADJ NOUN VERB	103
+ADJ NOUN X	3
+ADJ NUM NOUN	49
+ADJ PART ADJ	16
+ADJ PART ADP	5
+ADJ PART ADV	15
+ADJ PART AUX	13
+ADJ PART CCONJ	6
+ADJ PART NOUN	525
+ADJ PART NUM	23
+ADJ PART PART	21
+ADJ PART PROPN	31
+ADJ PART PUNCT	19
+ADJ PART PUNCT.,	24
+ADJ PART PUNCT..	13
+ADJ PART VERB	98
+ADJ PART X	7
+ADJ PRON NOUN	3
+ADJ PROPN NOUN	11
+ADJ PROPN PART	11
+ADJ PUNCT ADJ	15
+ADJ PUNCT ADV	4
+ADJ PUNCT CCONJ	3
+ADJ PUNCT NOUN	8
+ADJ PUNCT PART	7
+ADJ PUNCT VERB	4
+ADJ PUNCT., ADJ	8
+ADJ PUNCT., ADP	26
+ADJ PUNCT., ADV	82
+ADJ PUNCT., AUX	13
+ADJ PUNCT., DET	7
+ADJ PUNCT., NOUN	47
+ADJ PUNCT., NUM	8
+ADJ PUNCT., PRON	6
+ADJ PUNCT., PROPN	8
+ADJ PUNCT., VERB	50
+ADJ PUNCT.. EOF	148
+ADJ VERB ADJ	5
+ADJ VERB NOUN	13
+ADJ VERB NUM	5
+ADJ VERB PART	31
+ADJ VERB PROPN	6
+ADJ VERB PUNCT.,	3
+ADJ VERB VERB	5
+ADJ X PUNCT.,	15
+ADJ X PUNCT..	13
+ADP ADJ ADJ	4
+ADP ADJ NOUN	46
+ADP ADJ PART	39
+ADP ADJ PUNCT	3
+ADP ADJ VERB	4
+ADP ADP ADJ	5
+ADP ADP NOUN	26
+ADP ADP NUM	7
+ADP ADP PROPN	16
+ADP ADP VERB	8
+ADP ADV ADJ	23
+ADP ADV ADP	7
+ADP ADV ADV	12
+ADP ADV AUX	16
+ADP ADV NUM	3
+ADP ADV VERB	90
+ADP AUX ADV	4
+ADP AUX NOUN	8
+ADP AUX PART	3
+ADP AUX VERB	16
+ADP DET NOUN	94
+ADP DET NUM	28
+ADP DET PROPN	3
+ADP DET VERB	7
+ADP NOUN ADJ	43
+ADP NOUN ADP	101
+ADP NOUN ADV	49
+ADP NOUN AUX	19
+ADP NOUN CCONJ	35
+ADP NOUN DET	6
+ADP NOUN NOUN	276
+ADP NOUN NUM	40
+ADP NOUN PART	145
+ADP NOUN PROPN	27
+ADP NOUN PUNCT	21
+ADP NOUN PUNCT.,	19
+ADP NOUN PUNCT..	3
+ADP NOUN VERB	224
+ADP NUM CCONJ	7
+ADP NUM NOUN	567
+ADP NUM PART	5
+ADP NUM PROPN	4
+ADP NUM PUNCT	6
+ADP NUM VERB	5
+ADP PART ADJ	11
+ADP PART DET	5
+ADP PART NOUN	126
+ADP PART NUM	15
+ADP PART PROPN	20
+ADP PART PUNCT	6
+ADP PART VERB	6
+ADP PART X	3
+ADP PRON ADJ	6
+ADP PRON ADP	19
+ADP PRON ADV	22
+ADP PRON AUX	11
+ADP PRON DET	3
+ADP PRON NOUN	35
+ADP PRON NUM	7
+ADP PRON PART	23
+ADP PRON PRON	7
+ADP PRON PROPN	7
+ADP PRON PUNCT.,	17
+ADP PRON VERB	81
+ADP PRON.P ADV	4
+ADP PRON.P PART	5
+ADP PRON.P VERB	6
+ADP PROPN ADJ	8
+ADP PROPN ADP	16
+ADP PROPN ADV	13
+ADP PROPN CCONJ	17
+ADP PROPN NOUN	163
+ADP PROPN NUM	10
+ADP PROPN PART	126
+ADP PROPN PROPN	108
+ADP PROPN PUNCT	23
+ADP PROPN PUNCT.,	8
+ADP PROPN VERB	95
+ADP PUNCT ADJ	3
+ADP PUNCT NOUN	19
+ADP PUNCT NUM	5
+ADP PUNCT PART	3
+ADP PUNCT PROPN	8
+ADP PUNCT VERB	6
+ADP PUNCT., ADJ	6
+ADP PUNCT., ADP	25
+ADP PUNCT., ADV	50
+ADP PUNCT., AUX	9
+ADP PUNCT., DET	14
+ADP PUNCT., NOUN	94
+ADP PUNCT., NUM	21
+ADP PUNCT., PART	8
+ADP PUNCT., PRON	33
+ADP PUNCT., PRON.P	7
+ADP PUNCT., PROPN	129
+ADP PUNCT., VERB	67
+ADP PUNCT., X	5
+ADP PUNCT.. EOF	36
+ADP VERB ADJ	26
+ADP VERB ADP	40
+ADP VERB ADV	19
+ADP VERB AUX	5
+ADP VERB CCONJ	4
+ADP VERB DET	16
+ADP VERB NOUN	137
+ADP VERB NUM	46
+ADP VERB PART	113
+ADP VERB PRON	14
+ADP VERB PROPN	44
+ADP VERB PUNCT	7
+ADP VERB PUNCT.,	35
+ADP VERB PUNCT..	14
+ADP VERB VERB	101
+ADP VERB X	6
+ADP X NOUN	8
+ADP X VERB	4
+ADP X X	3
+ADV ADJ ADJ	5
+ADV ADJ ADP	3
+ADV ADJ ADV	4
+ADV ADJ CCONJ	9
+ADV ADJ NOUN	26
+ADV ADJ PART	138
+ADV ADJ PUNCT	3
+ADV ADJ PUNCT.,	63
+ADV ADJ PUNCT..	53
+ADV ADJ VERB	7
+ADV ADJ X	8
+ADV ADP ADJ	11
+ADV ADP ADP	4
+ADV ADP ADV	3
+ADV ADP DET	11
+ADV ADP NOUN	111
+ADV ADP NUM	74
+ADV ADP PRON	24
+ADV ADP PROPN	77
+ADV ADP PUNCT	6
+ADV ADP VERB	43
+ADV ADP X	3
+ADV ADV ADJ	39
+ADV ADV ADP	25
+ADV ADV ADV	29
+ADV ADV AUX	30
+ADV ADV NOUN	4
+ADV ADV VERB	274
+ADV AUX ADJ	26
+ADV AUX ADP	29
+ADV AUX ADV	19
+ADV AUX AUX	7
+ADV AUX NOUN	48
+ADV AUX NUM	26
+ADV AUX PART	4
+ADV AUX PROPN	26
+ADV AUX PUNCT	3
+ADV AUX VERB	191
+ADV DET NOUN	17
+ADV DET NUM	3
+ADV DET VERB	3
+ADV NOUN ADJ	6
+ADV NOUN ADP	13
+ADV NOUN ADV	27
+ADV NOUN DET	3
+ADV NOUN NOUN	31
+ADV NOUN PART	11
+ADV NOUN PROPN	4
+ADV NOUN PUNCT.,	4
+ADV NOUN VERB	36
+ADV NUM NOUN	105
+ADV NUM PART	4
+ADV NUM PUNCT	3
+ADV NUM VERB	3
+ADV PART NOUN	3
+ADV PRON ADP	5
+ADV PRON ADV	9
+ADV PRON AUX	3
+ADV PRON PART	3
+ADV PRON VERB	9
+ADV PRON.P ADV	6
+ADV PRON.P VERB	4
+ADV PROPN ADP	3
+ADV PROPN ADV	9
+ADV PROPN CCONJ	3
+ADV PROPN NOUN	13
+ADV PROPN PART	24
+ADV PROPN PROPN	12
+ADV PROPN PUNCT	3
+ADV PROPN VERB	9
+ADV PUNCT., ADP	12
+ADV PUNCT., ADV	3
+ADV PUNCT., DET	4
+ADV PUNCT., NOUN	9
+ADV PUNCT., PRON	8
+ADV PUNCT., PROPN	17
+ADV PUNCT., VERB	5
+ADV VERB ADJ	79
+ADV VERB ADP	101
+ADV VERB ADV	53
+ADV VERB AUX	17
+ADV VERB CCONJ	8
+ADV VERB DET	43
+ADV VERB NOUN	513
+ADV VERB NUM	166
+ADV VERB PART	327
+ADV VERB PRON	90
+ADV VERB PRON.P	10
+ADV VERB PROPN	240
+ADV VERB PUNCT	43
+ADV VERB PUNCT.,	139
+ADV VERB PUNCT..	146
+ADV VERB PUNCT.:	5
+ADV VERB PUNCT.;	3
+ADV VERB VERB	572
+ADV VERB X	35
+AUX ADJ ADJ	3
+AUX ADJ ADV	3
+AUX ADJ CCONJ	3
+AUX ADJ NOUN	17
+AUX ADJ NUM	3
+AUX ADJ PART	34
+AUX ADJ PUNCT	3
+AUX ADJ PUNCT.,	41
+AUX ADJ PUNCT..	28
+AUX ADJ VERB	4
+AUX ADJ X	12
+AUX ADP ADJ	7
+AUX ADP DET	6
+AUX ADP NOUN	46
+AUX ADP NUM	10
+AUX ADP PRON	6
+AUX ADP PROPN	8
+AUX ADP PUNCT	3
+AUX ADP VERB	14
+AUX ADV ADJ	31
+AUX ADV ADP	7
+AUX ADV ADV	4
+AUX ADV VERB	42
+AUX AUX ADJ	4
+AUX AUX NOUN	6
+AUX AUX VERB	10
+AUX DET NOUN	16
+AUX DET NUM	5
+AUX DET PROPN	4
+AUX NOUN ADJ	13
+AUX NOUN ADP	9
+AUX NOUN ADV	13
+AUX NOUN CCONJ	8
+AUX NOUN DET	3
+AUX NOUN NOUN	88
+AUX NOUN NUM	9
+AUX NOUN PART	78
+AUX NOUN PROPN	19
+AUX NOUN PUNCT	11
+AUX NOUN PUNCT.,	48
+AUX NOUN PUNCT..	38
+AUX NOUN VERB	28
+AUX NUM NOUN	258
+AUX NUM PROPN	3
+AUX NUM PUNCT.,	5
+AUX NUM PUNCT..	13
+AUX NUM X	3
+AUX PART ADJ	10
+AUX PART ADV	3
+AUX PART NOUN	17
+AUX PART PROPN	11
+AUX PRON ADP	3
+AUX PRON NOUN	3
+AUX PRON PART	4
+AUX PROPN ADJ	10
+AUX PROPN ADV	3
+AUX PROPN CCONJ	5
+AUX PROPN NOUN	111
+AUX PROPN NUM	10
+AUX PROPN PART	109
+AUX PROPN PROPN	70
+AUX PROPN PUNCT	10
+AUX PROPN VERB	6
+AUX PUNCT NOUN	11
+AUX PUNCT NUM	4
+AUX PUNCT PART	3
+AUX PUNCT PROPN	10
+AUX PUNCT VERB	3
+AUX VERB ADJ	40
+AUX VERB ADP	17
+AUX VERB ADV	13
+AUX VERB AUX	3
+AUX VERB DET	21
+AUX VERB NOUN	160
+AUX VERB NUM	55
+AUX VERB PART	65
+AUX VERB PRON	29
+AUX VERB PROPN	35
+AUX VERB PUNCT	5
+AUX VERB PUNCT.,	28
+AUX VERB PUNCT..	16
+AUX VERB VERB	117
+AUX VERB X	7
+AUX X PUNCT.,	3
+AUX X X	4
+BOF ADJ ADV	8
+BOF ADJ NOUN	28
+BOF ADJ PART	26
+BOF ADJ PROPN	3
+BOF ADP ADJ	13
+BOF ADP ADP	9
+BOF ADP ADV	7
+BOF ADP DET	35
+BOF ADP NOUN	150
+BOF ADP NUM	104
+BOF ADP PART	5
+BOF ADP PRON	44
+BOF ADP PRON.P	5
+BOF ADP PROPN	65
+BOF ADP PUNCT	7
+BOF ADP VERB	66
+BOF ADP X	5
+BOF ADV ADJ	16
+BOF ADV ADP	42
+BOF ADV ADV	7
+BOF ADV DET	10
+BOF ADV NOUN	24
+BOF ADV NUM	7
+BOF ADV PRON	8
+BOF ADV PRON.P	3
+BOF ADV PROPN	27
+BOF ADV PUNCT.,	57
+BOF ADV VERB	35
+BOF AUX VERB	3
+BOF DET ADJ	6
+BOF DET AUX	4
+BOF DET NOUN	179
+BOF DET NUM	24
+BOF DET PART	4
+BOF DET VERB	8
+BOF NOUN ADJ	15
+BOF NOUN ADP	75
+BOF NOUN ADV	65
+BOF NOUN AUX	50
+BOF NOUN CCONJ	9
+BOF NOUN DET	5
+BOF NOUN NOUN	206
+BOF NOUN NUM	27
+BOF NOUN PART	113
+BOF NOUN PRON	14
+BOF NOUN PROPN	51
+BOF NOUN PUNCT	17
+BOF NOUN PUNCT.,	73
+BOF NOUN VERB	125
+BOF NUM NOUN	529
+BOF NUM PART	3
+BOF NUM PROPN	3
+BOF NUM VERB	3
+BOF PART NOUN	28
+BOF PART PROPN	7
+BOF PRON ADJ	5
+BOF PRON ADP	32
+BOF PRON ADV	32
+BOF PRON AUX	29
+BOF PRON CCONJ	3
+BOF PRON NOUN	25
+BOF PRON PART	31
+BOF PRON VERB	61
+BOF PRON.P ADP	4
+BOF PRON.P ADV	5
+BOF PRON.P PART	8
+BOF PRON.P VERB	9
+BOF PROPN ADJ	4
+BOF PROPN ADP	40
+BOF PROPN ADV	34
+BOF PROPN AUX	33
+BOF PROPN CCONJ	12
+BOF PROPN NOUN	217
+BOF PROPN NUM	21
+BOF PROPN PART	217
+BOF PROPN PROPN	195
+BOF PROPN PUNCT	48
+BOF PROPN PUNCT.,	5
+BOF PROPN VERB	80
+BOF PUNCT ADJ	3
+BOF PUNCT NOUN	22
+BOF PUNCT NUM	5
+BOF PUNCT PROPN	9
+BOF PUNCT VERB	5
+BOF VERB ADP	22
+BOF VERB ADV	5
+BOF VERB AUX	3
+BOF VERB DET	3
+BOF VERB NOUN	57
+BOF VERB NUM	9
+BOF VERB PART	77
+BOF VERB PRON	3
+BOF VERB PROPN	36
+BOF VERB PUNCT.,	8
+BOF VERB VERB	34
+BOF X NOUN	4
+BOF X PART	6
+BOF X VERB	5
+BOF X X	3
+CCONJ ADJ NOUN	24
+CCONJ ADJ PART	24
+CCONJ ADJ PUNCT	3
+CCONJ ADJ PUNCT..	5
+CCONJ ADP NOUN	4
+CCONJ ADP NUM	3
+CCONJ ADP PROPN	3
+CCONJ ADV ADJ	3
+CCONJ ADV VERB	17
+CCONJ AUX NOUN	3
+CCONJ AUX VERB	6
+CCONJ DET NOUN	18
+CCONJ NOUN ADJ	3
+CCONJ NOUN ADP	26
+CCONJ NOUN ADV	30
+CCONJ NOUN AUX	5
+CCONJ NOUN CCONJ	3
+CCONJ NOUN DET	3
+CCONJ NOUN NOUN	186
+CCONJ NOUN NUM	13
+CCONJ NOUN PART	102
+CCONJ NOUN PROPN	12
+CCONJ NOUN PUNCT	16
+CCONJ NOUN PUNCT.,	48
+CCONJ NOUN PUNCT..	50
+CCONJ NOUN VERB	45
+CCONJ NUM NOUN	125
+CCONJ NUM PART	5
+CCONJ NUM PROPN	3
+CCONJ NUM PUNCT	4
+CCONJ NUM VERB	8
+CCONJ PART NOUN	18
+CCONJ PRON NOUN	8
+CCONJ PRON PART	11
+CCONJ PROPN ADJ	3
+CCONJ PROPN ADP	3
+CCONJ PROPN ADV	13
+CCONJ PROPN NOUN	80
+CCONJ PROPN NUM	7
+CCONJ PROPN PART	102
+CCONJ PROPN PROPN	34
+CCONJ PROPN PUNCT	16
+CCONJ PROPN PUNCT.,	8
+CCONJ PROPN PUNCT..	4
+CCONJ PROPN VERB	26
+CCONJ PUNCT NOUN	12
+CCONJ PUNCT NUM	3
+CCONJ PUNCT PROPN	6
+CCONJ PUNCT VERB	3
+CCONJ VERB ADJ	4
+CCONJ VERB ADP	5
+CCONJ VERB NOUN	37
+CCONJ VERB NUM	5
+CCONJ VERB PART	34
+CCONJ VERB PROPN	10
+CCONJ VERB PUNCT.,	7
+CCONJ VERB PUNCT..	12
+CCONJ VERB VERB	30
+CCONJ X NOUN	3
+CCONJ X PART	7
+CCONJ X VERB	3
+DET ADJ NOUN	10
+DET ADJ PART	7
+DET ADP NOUN	3
+DET ADP PROPN	4
+DET ADV VERB	8
+DET AUX VERB	5
+DET NOUN ADJ	13
+DET NOUN ADP	36
+DET NOUN ADV	50
+DET NOUN AUX	24
+DET NOUN CCONJ	6
+DET NOUN DET	4
+DET NOUN NOUN	243
+DET NOUN NUM	15
+DET NOUN PART	121
+DET NOUN PROPN	9
+DET NOUN PUNCT	5
+DET NOUN PUNCT.,	41
+DET NOUN PUNCT..	39
+DET NOUN VERB	104
+DET NUM NOUN	157
+DET PART NOUN	20
+DET PROPN NOUN	10
+DET PROPN NUM	3
+DET PROPN PART	5
+DET VERB ADJ	4
+DET VERB NOUN	5
+DET VERB NUM	15
+DET VERB PART	23
+DET VERB PROPN	5
+NOUN ADJ ADJ	15
+NOUN ADJ ADP	5
+NOUN ADJ ADV	10
+NOUN ADJ AUX	4
+NOUN ADJ CCONJ	10
+NOUN ADJ NOUN	139
+NOUN ADJ NUM	16
+NOUN ADJ PART	179
+NOUN ADJ PUNCT	9
+NOUN ADJ PUNCT.,	107
+NOUN ADJ PUNCT..	38
+NOUN ADJ PUNCT.;	4
+NOUN ADJ VERB	19
+NOUN ADJ X	3
+NOUN ADP ADJ	29
+NOUN ADP ADP	27
+NOUN ADP ADV	89
+NOUN ADP AUX	17
+NOUN ADP DET	23
+NOUN ADP NOUN	211
+NOUN ADP NUM	129
+NOUN ADP PART	122
+NOUN ADP PRON	21
+NOUN ADP PRON.P	5
+NOUN ADP PROPN	109
+NOUN ADP PUNCT	17
+NOUN ADP PUNCT.,	284
+NOUN ADP PUNCT..	28
+NOUN ADP VERB	245
+NOUN ADP X	5
+NOUN ADV ADJ	102
+NOUN ADV ADP	76
+NOUN ADV ADV	131
+NOUN ADV AUX	150
+NOUN ADV NOUN	11
+NOUN ADV NUM	34
+NOUN ADV VERB	811
+NOUN AUX ADJ	55
+NOUN AUX ADP	25
+NOUN AUX ADV	27
+NOUN AUX AUX	9
+NOUN AUX DET	13
+NOUN AUX NOUN	151
+NOUN AUX NUM	119
+NOUN AUX PART	15
+NOUN AUX PROPN	80
+NOUN AUX PUNCT	17
+NOUN AUX VERB	163
+NOUN AUX X	5
+NOUN CCONJ ADJ	29
+NOUN CCONJ ADP	5
+NOUN CCONJ AUX	3
+NOUN CCONJ DET	18
+NOUN CCONJ NOUN	434
+NOUN CCONJ NUM	90
+NOUN CCONJ PART	15
+NOUN CCONJ PRON	9
+NOUN CCONJ PRON.P	4
+NOUN CCONJ PROPN	69
+NOUN CCONJ VERB	32
+NOUN CCONJ X	7
+NOUN DET ADV	3
+NOUN DET NOUN	36
+NOUN DET NUM	16
+NOUN DET VERB	12
+NOUN NOUN ADJ	146
+NOUN NOUN ADP	341
+NOUN NOUN ADV	363
+NOUN NOUN AUX	164
+NOUN NOUN CCONJ	205
+NOUN NOUN DET	17
+NOUN NOUN NOUN	1093
+NOUN NOUN NUM	125
+NOUN NOUN PART	913
+NOUN NOUN PRON	5
+NOUN NOUN PROPN	98
+NOUN NOUN PUNCT	326
+NOUN NOUN PUNCT.,	841
+NOUN NOUN PUNCT..	684
+NOUN NOUN PUNCT.:	12
+NOUN NOUN PUNCT.;	11
+NOUN NOUN VERB	836
+NOUN NOUN X	20
+NOUN NUM ADJ	8
+NOUN NUM ADV	6
+NOUN NUM AUX	3
+NOUN NUM CCONJ	9
+NOUN NUM NOUN	1156
+NOUN NUM PART	12
+NOUN NUM PROPN	5
+NOUN NUM PUNCT	18
+NOUN NUM PUNCT.,	13
+NOUN NUM PUNCT..	11
+NOUN NUM VERB	13
+NOUN PART ADJ	111
+NOUN PART ADP	88
+NOUN PART ADV	83
+NOUN PART AUX	41
+NOUN PART CCONJ	56
+NOUN PART DET	27
+NOUN PART NOUN	1637
+NOUN PART NUM	190
+NOUN PART PART	251
+NOUN PART PRON	4
+NOUN PART PROPN	164
+NOUN PART PUNCT	159
+NOUN PART PUNCT.,	177
+NOUN PART PUNCT..	132
+NOUN PART PUNCT.;	3
+NOUN PART VERB	313
+NOUN PART X	23
+NOUN PRON ADP	7
+NOUN PRON ADV	11
+NOUN PRON AUX	3
+NOUN PRON NOUN	3
+NOUN PRON PART	5
+NOUN PRON VERB	30
+NOUN PRON.P ADV	3
+NOUN PROPN ADJ	3
+NOUN PROPN ADP	15
+NOUN PROPN ADV	19
+NOUN PROPN AUX	6
+NOUN PROPN CCONJ	8
+NOUN PROPN NOUN	209
+NOUN PROPN NUM	10
+NOUN PROPN PART	163
+NOUN PROPN PROPN	150
+NOUN PROPN PUNCT	57
+NOUN PROPN PUNCT.,	22
+NOUN PROPN PUNCT..	10
+NOUN PROPN VERB	82
+NOUN PROPN X	3
+NOUN PUNCT ADJ	21
+NOUN PUNCT ADP	29
+NOUN PUNCT ADV	36
+NOUN PUNCT AUX	30
+NOUN PUNCT CCONJ	32
+NOUN PUNCT DET	4
+NOUN PUNCT EOF	3
+NOUN PUNCT NOUN	415
+NOUN PUNCT NUM	105
+NOUN PUNCT PART	53
+NOUN PUNCT PROPN	116
+NOUN PUNCT PUNCT	46
+NOUN PUNCT PUNCT.,	99
+NOUN PUNCT PUNCT..	63
+NOUN PUNCT VERB	99
+NOUN PUNCT X	76
+NOUN PUNCT., ADJ	61
+NOUN PUNCT., ADP	279
+NOUN PUNCT., ADV	589
+NOUN PUNCT., AUX	139
+NOUN PUNCT., CCONJ	39
+NOUN PUNCT., DET	75
+NOUN PUNCT., NOUN	569
+NOUN PUNCT., NUM	154
+NOUN PUNCT., PART	25
+NOUN PUNCT., PRON	114
+NOUN PUNCT., PRON.P	23
+NOUN PUNCT., PROPN	468
+NOUN PUNCT., PUNCT	15
+NOUN PUNCT., VERB	721
+NOUN PUNCT., X	21
+NOUN PUNCT.. EOF	2210
+NOUN PUNCT.. PUNCT	9
+NOUN PUNCT.: EOF	4
+NOUN PUNCT.: NOUN	10
+NOUN PUNCT.: NUM	4
+NOUN PUNCT.: PROPN	5
+NOUN PUNCT.: X	8
+NOUN PUNCT.; ADP	4
+NOUN PUNCT.; ADV	8
+NOUN PUNCT.; NOUN	12
+NOUN PUNCT.; NUM	3
+NOUN PUNCT.; VERB	7
+NOUN SYM NOUN	7
+NOUN VERB ADJ	102
+NOUN VERB ADP	201
+NOUN VERB ADV	61
+NOUN VERB AUX	18
+NOUN VERB CCONJ	15
+NOUN VERB DET	42
+NOUN VERB NOUN	579
+NOUN VERB NUM	215
+NOUN VERB PART	683
+NOUN VERB PRON	48
+NOUN VERB PRON.P	7
+NOUN VERB PROPN	366
+NOUN VERB PUNCT	54
+NOUN VERB PUNCT.,	318
+NOUN VERB PUNCT..	244
+NOUN VERB PUNCT.:	10
+NOUN VERB PUNCT.;	6
+NOUN VERB SYM	4
+NOUN VERB VERB	703
+NOUN VERB X	29
+NOUN X CCONJ	3
+NOUN X NOUN	9
+NOUN X PART	8
+NOUN X PUNCT	5
+NOUN X PUNCT.,	11
+NOUN X PUNCT..	14
+NOUN X VERB	3
+NOUN X X	13
+NOUN.P VERB VERB	3
+NUM ADJ NOUN	14
+NUM ADJ PART	20
+NUM ADP NOUN	5
+NUM ADP PUNCT..	3
+NUM ADV VERB	8
+NUM CCONJ NOUN	3
+NUM CCONJ NUM	36
+NUM DET NOUN	3
+NUM NOUN ADJ	117
+NUM NOUN ADP	270
+NUM NOUN ADV	118
+NUM NOUN AUX	39
+NUM NOUN CCONJ	74
+NUM NOUN DET	9
+NUM NOUN NOUN	983
+NUM NOUN NUM	724
+NUM NOUN PART	299
+NUM NOUN PRON	25
+NUM NOUN PROPN	182
+NUM NOUN PUNCT	195
+NUM NOUN PUNCT.,	827
+NUM NOUN PUNCT..	253
+NUM NOUN PUNCT.:	3
+NUM NOUN PUNCT.;	9
+NUM NOUN SYM	5
+NUM NOUN VERB	668
+NUM NOUN X	11
+NUM NUM NOUN	8
+NUM PART ADJ	5
+NUM PART NOUN	58
+NUM PART PROPN	4
+NUM PART VERB	4
+NUM PROPN NOUN	34
+NUM PROPN PART	13
+NUM PROPN PROPN	3
+NUM PUNCT NOUN	5
+NUM PUNCT NUM	33
+NUM PUNCT PUNCT..	6
+NUM PUNCT VERB	3
+NUM PUNCT., ADP	3
+NUM PUNCT., ADV	12
+NUM PUNCT., AUX	4
+NUM PUNCT., NOUN	12
+NUM PUNCT., NUM	3
+NUM PUNCT., VERB	7
+NUM PUNCT.. EOF	91
+NUM VERB NOUN	15
+NUM VERB NUM	4
+NUM VERB PART	23
+NUM VERB PROPN	5
+NUM VERB PUNCT.,	4
+NUM VERB PUNCT..	4
+NUM VERB VERB	10
+NUM X NOUN	3
+NUM X PART	3
+NUM X PUNCT	5
+NUM X PUNCT.,	3
+PART ADJ ADJ	10
+PART ADJ NOUN	193
+PART ADJ NUM	4
+PART ADJ PART	79
+PART ADJ PUNCT	3
+PART ADJ PUNCT.,	15
+PART ADJ PUNCT..	13
+PART ADJ VERB	17
+PART ADP ADV	6
+PART ADP DET	7
+PART ADP NOUN	49
+PART ADP NUM	30
+PART ADP PART	24
+PART ADP PRON	8
+PART ADP PROPN	28
+PART ADP PUNCT	4
+PART ADP PUNCT.,	31
+PART ADP VERB	30
+PART ADV ADJ	26
+PART ADV ADP	12
+PART ADV ADV	32
+PART ADV AUX	30
+PART ADV NUM	5
+PART ADV VERB	163
+PART AUX ADJ	16
+PART AUX ADP	4
+PART AUX ADV	7
+PART AUX NOUN	35
+PART AUX NUM	31
+PART AUX PART	6
+PART AUX PROPN	52
+PART AUX VERB	39
+PART AUX X	4
+PART CCONJ ADJ	5
+PART CCONJ DET	3
+PART CCONJ NOUN	59
+PART CCONJ NUM	10
+PART CCONJ PART	3
+PART CCONJ PROPN	68
+PART CCONJ VERB	25
+PART DET ADP	3
+PART DET NOUN	64
+PART DET NUM	17
+PART DET PART	3
+PART DET VERB	4
+PART NOUN ADJ	49
+PART NOUN ADP	201
+PART NOUN ADV	229
+PART NOUN AUX	167
+PART NOUN CCONJ	140
+PART NOUN DET	3
+PART NOUN NOUN	1041
+PART NOUN NUM	99
+PART NOUN PART	477
+PART NOUN PRON	3
+PART NOUN PROPN	102
+PART NOUN PUNCT	156
+PART NOUN PUNCT.,	779
+PART NOUN PUNCT..	692
+PART NOUN PUNCT.:	10
+PART NOUN PUNCT.;	12
+PART NOUN VERB	545
+PART NOUN X	10
+PART NOUN.P PART	3
+PART NUM ADJ	5
+PART NUM ADP	4
+PART NUM NOUN	449
+PART NUM PART	13
+PART NUM PROPN	7
+PART NUM PUNCT.,	18
+PART NUM PUNCT..	57
+PART NUM VERB	8
+PART PART ADJ	17
+PART PART ADP	3
+PART PART ADV	8
+PART PART AUX	3
+PART PART CCONJ	8
+PART PART NOUN	384
+PART PART NUM	44
+PART PART PART	19
+PART PART PROPN	42
+PART PART PUNCT	17
+PART PART PUNCT.,	26
+PART PART PUNCT..	7
+PART PART VERB	39
+PART PRON ADP	4
+PART PRON NOUN	3
+PART PRON PART	16
+PART PRON PUNCT.,	3
+PART PRON PUNCT..	4
+PART PRON VERB	7
+PART PRON.P PART	3
+PART PROPN ADJ	6
+PART PROPN ADP	10
+PART PROPN ADV	6
+PART PROPN AUX	4
+PART PROPN CCONJ	10
+PART PROPN NOUN	189
+PART PROPN NUM	10
+PART PROPN PART	310
+PART PROPN PROPN	97
+PART PROPN PUNCT	49
+PART PROPN PUNCT.,	21
+PART PROPN PUNCT..	16
+PART PROPN VERB	34
+PART PUNCT ADJ	11
+PART PUNCT ADP	13
+PART PUNCT ADV	9
+PART PUNCT AUX	8
+PART PUNCT CCONJ	12
+PART PUNCT NOUN	114
+PART PUNCT NUM	24
+PART PUNCT PART	26
+PART PUNCT PROPN	133
+PART PUNCT PUNCT	12
+PART PUNCT PUNCT.,	28
+PART PUNCT PUNCT..	22
+PART PUNCT VERB	37
+PART PUNCT X	33
+PART PUNCT., ADJ	4
+PART PUNCT., ADP	35
+PART PUNCT., ADV	95
+PART PUNCT., AUX	62
+PART PUNCT., CCONJ	7
+PART PUNCT., DET	11
+PART PUNCT., NOUN	90
+PART PUNCT., NUM	15
+PART PUNCT., PRON	24
+PART PUNCT., PROPN	32
+PART PUNCT., VERB	119
+PART PUNCT.. EOF	343
+PART PUNCT.: X	7
+PART PUNCT.; NUM	3
+PART VERB ADJ	12
+PART VERB ADP	29
+PART VERB ADV	16
+PART VERB CCONJ	4
+PART VERB DET	6
+PART VERB NOUN	124
+PART VERB NUM	47
+PART VERB PART	319
+PART VERB PRON	13
+PART VERB PROPN	94
+PART VERB PUNCT	9
+PART VERB PUNCT.,	74
+PART VERB PUNCT..	56
+PART VERB PUNCT.:	3
+PART VERB PUNCT.;	3
+PART VERB VERB	172
+PART VERB X	10
+PART X ADJ	3
+PART X CCONJ	4
+PART X NOUN	14
+PART X PART	5
+PART X PUNCT.,	7
+PART X PUNCT..	3
+PART X VERB	3
+PART X X	17
+PRON ADJ NOUN	5
+PRON ADJ PART	19
+PRON ADJ PUNCT.,	3
+PRON ADP DET	6
+PRON ADP NOUN	42
+PRON ADP NUM	21
+PRON ADP PRON	7
+PRON ADP PROPN	22
+PRON ADP PUNCT.,	5
+PRON ADP VERB	9
+PRON ADV ADJ	3
+PRON ADV ADP	13
+PRON ADV ADV	14
+PRON ADV AUX	16
+PRON ADV NUM	3
+PRON ADV VERB	118
+PRON AUX ADJ	5
+PRON AUX ADP	5
+PRON AUX ADV	5
+PRON AUX NOUN	17
+PRON AUX NUM	19
+PRON AUX PRON	3
+PRON AUX PROPN	22
+PRON AUX PUNCT	7
+PRON AUX VERB	20
+PRON CCONJ NOUN	3
+PRON CCONJ PROPN	6
+PRON DET NOUN	3
+PRON NOUN ADJ	7
+PRON NOUN ADP	13
+PRON NOUN ADV	10
+PRON NOUN AUX	12
+PRON NOUN CCONJ	3
+PRON NOUN NOUN	29
+PRON NOUN PART	20
+PRON NOUN PROPN	8
+PRON NOUN PUNCT	3
+PRON NOUN PUNCT.,	5
+PRON NOUN PUNCT..	5
+PRON NOUN VERB	35
+PRON NUM NOUN	23
+PRON PART ADJ	7
+PRON PART NOUN	156
+PRON PART NUM	10
+PRON PART PART	3
+PRON PART PROPN	3
+PRON PART VERB	5
+PRON PRON ADV	3
+PRON PROPN NOUN	3
+PRON PROPN PART	3
+PRON PROPN PROPN	3
+PRON PUNCT VERB	4
+PRON PUNCT., ADP	5
+PRON PUNCT., ADV	8
+PRON PUNCT., NOUN	4
+PRON PUNCT., PROPN	8
+PRON PUNCT., VERB	7
+PRON PUNCT.. EOF	15
+PRON VERB ADJ	14
+PRON VERB ADP	26
+PRON VERB ADV	4
+PRON VERB AUX	3
+PRON VERB DET	11
+PRON VERB NOUN	51
+PRON VERB NUM	13
+PRON VERB PART	65
+PRON VERB PRON	13
+PRON VERB PROPN	41
+PRON VERB PUNCT	5
+PRON VERB PUNCT.,	19
+PRON VERB PUNCT..	12
+PRON VERB VERB	71
+PRON.P ADP NOUN	4
+PRON.P ADP NUM	3
+PRON.P ADV ADV	7
+PRON.P ADV AUX	7
+PRON.P ADV VERB	14
+PRON.P AUX ADP	4
+PRON.P AUX ADV	3
+PRON.P AUX VERB	5
+PRON.P NUM NOUN	4
+PRON.P PART NOUN	28
+PRON.P PART PROPN	3
+PRON.P PUNCT.. EOF	6
+PRON.P VERB ADP	3
+PRON.P VERB NOUN	10
+PRON.P VERB NUM	7
+PRON.P VERB PART	6
+PRON.P VERB VERB	16
+PROPN ADJ ADJ	4
+PROPN ADJ NOUN	29
+PROPN ADJ PART	21
+PROPN ADJ PUNCT.,	5
+PROPN ADJ VERB	3
+PROPN ADP ADP	3
+PROPN ADP ADV	4
+PROPN ADP DET	6
+PROPN ADP NOUN	57
+PROPN ADP NUM	42
+PROPN ADP PART	14
+PROPN ADP PRON	17
+PROPN ADP PROPN	47
+PROPN ADP PUNCT	6
+PROPN ADP PUNCT.,	20
+PROPN ADP VERB	39
+PROPN ADV ADJ	9
+PROPN ADV ADP	22
+PROPN ADV ADV	24
+PROPN ADV AUX	14
+PROPN ADV NUM	9
+PROPN ADV VERB	201
+PROPN AUX ADJ	10
+PROPN AUX ADP	5
+PROPN AUX ADV	4
+PROPN AUX NOUN	24
+PROPN AUX NUM	14
+PROPN AUX PART	3
+PROPN AUX PROPN	45
+PROPN AUX PUNCT	4
+PROPN AUX VERB	15
+PROPN CCONJ NOUN	14
+PROPN CCONJ NUM	3
+PROPN CCONJ PRON	8
+PROPN CCONJ PROPN	136
+PROPN CCONJ VERB	4
+PROPN DET NOUN	9
+PROPN DET NUM	3
+PROPN NOUN ADJ	34
+PROPN NOUN ADP	85
+PROPN NOUN ADV	88
+PROPN NOUN AUX	36
+PROPN NOUN CCONJ	48
+PROPN NOUN DET	6
+PROPN NOUN NOUN	597
+PROPN NOUN NUM	46
+PROPN NOUN PART	359
+PROPN NOUN PROPN	92
+PROPN NOUN PUNCT	116
+PROPN NOUN PUNCT.,	139
+PROPN NOUN PUNCT..	88
+PROPN NOUN VERB	307
+PROPN NOUN X	4
+PROPN NUM ADJ	4
+PROPN NUM NOUN	148
+PROPN NUM PART	7
+PROPN PART ADJ	40
+PROPN PART ADP	60
+PROPN PART ADV	67
+PROPN PART AUX	64
+PROPN PART CCONJ	62
+PROPN PART DET	10
+PROPN PART NOUN	681
+PROPN PART NUM	67
+PROPN PART PART	187
+PROPN PART PROPN	221
+PROPN PART PUNCT	191
+PROPN PART PUNCT.,	128
+PROPN PART PUNCT..	73
+PROPN PART PUNCT.:	6
+PROPN PART PUNCT.;	3
+PROPN PART VERB	252
+PROPN PART X	7
+PROPN PROPN ADJ	13
+PROPN PROPN ADP	73
+PROPN PROPN ADV	92
+PROPN PROPN AUX	51
+PROPN PROPN CCONJ	41
+PROPN PROPN NOUN	212
+PROPN PROPN NUM	31
+PROPN PROPN PART	243
+PROPN PROPN PROPN	35
+PROPN PROPN PUNCT	99
+PROPN PROPN PUNCT.,	70
+PROPN PROPN PUNCT..	33
+PROPN PROPN VERB	348
+PROPN PUNCT ADV	4
+PROPN PUNCT AUX	9
+PROPN PUNCT CCONJ	9
+PROPN PUNCT NOUN	17
+PROPN PUNCT NUM	12
+PROPN PUNCT PART	16
+PROPN PUNCT PROPN	432
+PROPN PUNCT PUNCT	8
+PROPN PUNCT PUNCT.,	11
+PROPN PUNCT PUNCT..	11
+PROPN PUNCT VERB	20
+PROPN PUNCT X	63
+PROPN PUNCT., ADP	20
+PROPN PUNCT., ADV	51
+PROPN PUNCT., AUX	13
+PROPN PUNCT., NOUN	27
+PROPN PUNCT., NUM	11
+PROPN PUNCT., PRON	8
+PROPN PUNCT., PROPN	48
+PROPN PUNCT., PUNCT	3
+PROPN PUNCT., VERB	59
+PROPN PUNCT.. EOF	126
+PROPN VERB ADJ	12
+PROPN VERB ADP	69
+PROPN VERB ADV	12
+PROPN VERB AUX	4
+PROPN VERB DET	12
+PROPN VERB NOUN	136
+PROPN VERB NUM	37
+PROPN VERB PART	210
+PROPN VERB PRON	24
+PROPN VERB PRON.P	3
+PROPN VERB PROPN	187
+PROPN VERB PUNCT	21
+PROPN VERB PUNCT.,	95
+PROPN VERB PUNCT..	50
+PROPN VERB PUNCT.:	5
+PROPN VERB VERB	170
+PROPN VERB X	7
+PROPN X PUNCT.,	4
+PROPN X X	4
+PUNCT ADJ CCONJ	5
+PUNCT ADJ NOUN	24
+PUNCT ADJ PART	26
+PUNCT ADJ PUNCT	11
+PUNCT ADJ PUNCT.,	3
+PUNCT ADP ADJ	3
+PUNCT ADP NOUN	10
+PUNCT ADP NUM	9
+PUNCT ADP PART	6
+PUNCT ADP PROPN	5
+PUNCT ADP PUNCT.,	10
+PUNCT ADP VERB	19
+PUNCT ADV ADJ	6
+PUNCT ADV ADP	8
+PUNCT ADV ADV	6
+PUNCT ADV AUX	4
+PUNCT ADV VERB	54
+PUNCT AUX ADJ	6
+PUNCT AUX ADP	3
+PUNCT AUX ADV	3
+PUNCT AUX NOUN	19
+PUNCT AUX NUM	17
+PUNCT AUX PROPN	24
+PUNCT AUX VERB	20
+PUNCT CCONJ ADJ	4
+PUNCT CCONJ NOUN	12
+PUNCT CCONJ NUM	3
+PUNCT CCONJ PRON	3
+PUNCT CCONJ PROPN	16
+PUNCT CCONJ PUNCT	26
+PUNCT CCONJ VERB	4
+PUNCT DET NOUN	10
+PUNCT NOUN ADJ	8
+PUNCT NOUN ADP	4
+PUNCT NOUN ADV	14
+PUNCT NOUN AUX	7
+PUNCT NOUN CCONJ	55
+PUNCT NOUN NOUN	217
+PUNCT NOUN NUM	29
+PUNCT NOUN PART	95
+PUNCT NOUN PROPN	19
+PUNCT NOUN PUNCT	189
+PUNCT NOUN PUNCT.,	17
+PUNCT NOUN PUNCT..	14
+PUNCT NOUN PUNCT.:	7
+PUNCT NOUN VERB	58
+PUNCT NUM CCONJ	5
+PUNCT NUM NOUN	170
+PUNCT NUM PART	5
+PUNCT NUM PROPN	4
+PUNCT NUM PUNCT	10
+PUNCT NUM VERB	4
+PUNCT NUM X	7
+PUNCT PART ADJ	4
+PUNCT PART NOUN	95
+PUNCT PART NUM	8
+PUNCT PART PART	3
+PUNCT PART PROPN	19
+PUNCT PART VERB	5
+PUNCT PRON AUX	6
+PUNCT PRON PART	4
+PUNCT PRON VERB	3
+PUNCT PROPN ADP	12
+PUNCT PROPN ADV	13
+PUNCT PROPN AUX	4
+PUNCT PROPN CCONJ	35
+PUNCT PROPN NOUN	138
+PUNCT PROPN NUM	22
+PUNCT PROPN PART	180
+PUNCT PROPN PROPN	115
+PUNCT PROPN PUNCT	179
+PUNCT PROPN PUNCT.,	18
+PUNCT PROPN PUNCT..	7
+PUNCT PROPN VERB	70
+PUNCT PROPN X	4
+PUNCT PUNCT AUX	3
+PUNCT PUNCT NOUN	20
+PUNCT PUNCT PROPN	19
+PUNCT PUNCT PUNCT	17
+PUNCT PUNCT PUNCT.,	4
+PUNCT PUNCT VERB	5
+PUNCT PUNCT X	24
+PUNCT PUNCT., ADP	18
+PUNCT PUNCT., ADV	41
+PUNCT PUNCT., AUX	23
+PUNCT PUNCT., CCONJ	4
+PUNCT PUNCT., DET	4
+PUNCT PUNCT., NOUN	26
+PUNCT PUNCT., NUM	7
+PUNCT PUNCT., PRON	7
+PUNCT PUNCT., PROPN	26
+PUNCT PUNCT., VERB	34
+PUNCT PUNCT.. EOF	163
+PUNCT VERB ADJ	5
+PUNCT VERB ADP	6
+PUNCT VERB ADV	5
+PUNCT VERB CCONJ	8
+PUNCT VERB DET	4
+PUNCT VERB NOUN	63
+PUNCT VERB NUM	10
+PUNCT VERB PART	57
+PUNCT VERB PRON	3
+PUNCT VERB PROPN	25
+PUNCT VERB PUNCT	23
+PUNCT VERB PUNCT.,	15
+PUNCT VERB PUNCT..	9
+PUNCT VERB VERB	50
+PUNCT X NOUN	3
+PUNCT X PART	5
+PUNCT X PUNCT	92
+PUNCT X X	115
+PUNCT., ADJ ADJ	4
+PUNCT., ADJ NOUN	38
+PUNCT., ADJ NUM	14
+PUNCT., ADJ PART	22
+PUNCT., ADJ PROPN	7
+PUNCT., ADJ VERB	4
+PUNCT., ADP ADJ	18
+PUNCT., ADP ADP	12
+PUNCT., ADP ADV	8
+PUNCT., ADP AUX	4
+PUNCT., ADP DET	21
+PUNCT., ADP NOUN	124
+PUNCT., ADP NUM	89
+PUNCT., ADP PART	5
+PUNCT., ADP PRON	79
+PUNCT., ADP PRON.P	6
+PUNCT., ADP PROPN	71
+PUNCT., ADP VERB	65
+PUNCT., ADP X	3
+PUNCT., ADV ADJ	18
+PUNCT., ADV ADP	139
+PUNCT., ADV ADV	122
+PUNCT., ADV AUX	98
+PUNCT., ADV DET	13
+PUNCT., ADV NOUN	92
+PUNCT., ADV NUM	30
+PUNCT., ADV PRON	22
+PUNCT., ADV PRON.P	8
+PUNCT., ADV PROPN	45
+PUNCT., ADV PUNCT.,	6
+PUNCT., ADV VERB	551
+PUNCT., AUX ADJ	18
+PUNCT., AUX ADP	15
+PUNCT., AUX ADV	7
+PUNCT., AUX NOUN	40
+PUNCT., AUX NUM	52
+PUNCT., AUX PART	8
+PUNCT., AUX PRON	4
+PUNCT., AUX PROPN	77
+PUNCT., AUX VERB	75
+PUNCT., CCONJ ADJ	5
+PUNCT., CCONJ ADV	7
+PUNCT., CCONJ AUX	4
+PUNCT., CCONJ NOUN	13
+PUNCT., CCONJ NUM	3
+PUNCT., CCONJ PROPN	4
+PUNCT., CCONJ VERB	28
+PUNCT., DET ADV	4
+PUNCT., DET NOUN	96
+PUNCT., DET NUM	20
+PUNCT., DET PART	4
+PUNCT., DET VERB	15
+PUNCT., NOUN ADJ	39
+PUNCT., NOUN ADP	54
+PUNCT., NOUN ADV	148
+PUNCT., NOUN AUX	80
+PUNCT., NOUN CCONJ	20
+PUNCT., NOUN DET	5
+PUNCT., NOUN NOUN	270
+PUNCT., NOUN NUM	56
+PUNCT., NOUN PART	100
+PUNCT., NOUN PRON	6
+PUNCT., NOUN PROPN	46
+PUNCT., NOUN PUNCT	10
+PUNCT., NOUN PUNCT.,	16
+PUNCT., NOUN VERB	198
+PUNCT., NOUN X	5
+PUNCT., NUM NOUN	252
+PUNCT., NUM PART	3
+PUNCT., NUM VERB	7
+PUNCT., PART NOUN	32
+PUNCT., PART PROPN	7
+PUNCT., PRON ADP	27
+PUNCT., PRON ADV	51
+PUNCT., PRON AUX	20
+PUNCT., PRON NOUN	27
+PUNCT., PRON NUM	3
+PUNCT., PRON PART	22
+PUNCT., PRON VERB	83
+PUNCT., PRON.P ADV	9
+PUNCT., PRON.P AUX	9
+PUNCT., PRON.P NOUN	3
+PUNCT., PRON.P PART	5
+PUNCT., PRON.P VERB	14
+PUNCT., PROPN ADJ	5
+PUNCT., PROPN ADP	42
+PUNCT., PROPN ADV	52
+PUNCT., PROPN AUX	12
+PUNCT., PROPN CCONJ	6
+PUNCT., PROPN NOUN	192
+PUNCT., PROPN NUM	16
+PUNCT., PROPN PART	133
+PUNCT., PROPN PROPN	228
+PUNCT., PROPN PUNCT	41
+PUNCT., PROPN PUNCT.,	4
+PUNCT., PROPN VERB	118
+PUNCT., PUNCT NOUN	9
+PUNCT., PUNCT PROPN	12
+PUNCT., PUNCT VERB	3
+PUNCT., VERB ADJ	44
+PUNCT., VERB ADP	88
+PUNCT., VERB ADV	29
+PUNCT., VERB AUX	9
+PUNCT., VERB CCONJ	3
+PUNCT., VERB DET	12
+PUNCT., VERB NOUN	265
+PUNCT., VERB NUM	84
+PUNCT., VERB PART	153
+PUNCT., VERB PRON	37
+PUNCT., VERB PRON.P	12
+PUNCT., VERB PROPN	217
+PUNCT., VERB PUNCT	16
+PUNCT., VERB PUNCT.,	3
+PUNCT., VERB PUNCT..	5
+PUNCT., VERB VERB	300
+PUNCT., VERB X	12
+PUNCT., X ADV	4
+PUNCT., X AUX	4
+PUNCT., X NOUN	4
+PUNCT., X PUNCT	7
+PUNCT., X PUNCT.,	6
+PUNCT., X VERB	3
+PUNCT., X X	18
+PUNCT.. PUNCT EOF	20
+PUNCT.: NOUN NOUN	5
+PUNCT.: NOUN PART	3
+PUNCT.: NOUN PUNCT	3
+PUNCT.: NUM NOUN	5
+PUNCT.: PROPN NOUN	3
+PUNCT.: PUNCT PRON	5
+PUNCT.: PUNCT PROPN	5
+PUNCT.: PUNCT VERB	4
+PUNCT.: X PUNCT	6
+PUNCT.: X X	8
+PUNCT.; ADP NUM	3
+PUNCT.; ADP VERB	3
+PUNCT.; ADV VERB	4
+PUNCT.; NOUN ADP	4
+PUNCT.; NOUN ADV	3
+PUNCT.; NOUN AUX	3
+PUNCT.; NOUN VERB	5
+PUNCT.; NUM NOUN	6
+PUNCT.; PROPN PROPN	3
+PUNCT.; VERB PART	5
+SYM NOUN PUNCT	3
+SYM NOUN PUNCT..	3
+SYM PUNCT., PROPN	3
+VERB ADJ ADJ	13
+VERB ADJ ADP	3
+VERB ADJ ADV	5
+VERB ADJ CCONJ	3
+VERB ADJ NOUN	187
+VERB ADJ NUM	6
+VERB ADJ PART	157
+VERB ADJ PROPN	11
+VERB ADJ PUNCT	8
+VERB ADJ PUNCT.,	7
+VERB ADJ PUNCT..	3
+VERB ADJ VERB	10
+VERB ADP ADJ	13
+VERB ADP ADP	12
+VERB ADP ADV	26
+VERB ADP AUX	10
+VERB ADP DET	17
+VERB ADP NOUN	157
+VERB ADP NUM	70
+VERB ADP PART	13
+VERB ADP PRON	25
+VERB ADP PROPN	130
+VERB ADP PUNCT	4
+VERB ADP PUNCT.,	116
+VERB ADP VERB	81
+VERB ADV ADJ	42
+VERB ADV ADP	12
+VERB ADV ADV	15
+VERB ADV AUX	8
+VERB ADV NOUN	5
+VERB ADV NUM	21
+VERB ADV PROPN	3
+VERB ADV VERB	164
+VERB AUX ADP	10
+VERB AUX ADV	8
+VERB AUX NOUN	11
+VERB AUX NUM	4
+VERB AUX PROPN	9
+VERB AUX VERB	43
+VERB CCONJ ADV	4
+VERB CCONJ VERB	54
+VERB DET ADJ	3
+VERB DET NOUN	161
+VERB DET NUM	40
+VERB DET PART	9
+VERB DET PROPN	8
+VERB DET VERB	7
+VERB NOUN ADJ	53
+VERB NOUN ADP	79
+VERB NOUN ADV	72
+VERB NOUN AUX	45
+VERB NOUN CCONJ	85
+VERB NOUN DET	7
+VERB NOUN NOUN	774
+VERB NOUN NUM	65
+VERB NOUN PART	474
+VERB NOUN PRON	3
+VERB NOUN PRON.P	3
+VERB NOUN PROPN	75
+VERB NOUN PUNCT	114
+VERB NOUN PUNCT.,	317
+VERB NOUN PUNCT..	236
+VERB NOUN PUNCT.;	5
+VERB NOUN VERB	373
+VERB NOUN X	7
+VERB NUM ADJ	12
+VERB NUM ADP	4
+VERB NUM CCONJ	12
+VERB NUM NOUN	793
+VERB NUM PART	17
+VERB NUM PROPN	24
+VERB NUM PUNCT	6
+VERB NUM PUNCT.,	6
+VERB NUM PUNCT..	8
+VERB NUM VERB	12
+VERB NUM X	5
+VERB PART ADJ	117
+VERB PART ADP	67
+VERB PART ADV	89
+VERB PART AUX	77
+VERB PART CCONJ	46
+VERB PART DET	46
+VERB PART NOUN	875
+VERB PART NOUN.P	3
+VERB PART NUM	205
+VERB PART PART	123
+VERB PART PRON	44
+VERB PART PRON.P	7
+VERB PART PROPN	231
+VERB PART PUNCT	92
+VERB PART PUNCT.,	142
+VERB PART PUNCT..	117
+VERB PART VERB	260
+VERB PART X	15
+VERB PRON ADJ	18
+VERB PRON ADP	20
+VERB PRON ADV	30
+VERB PRON AUX	32
+VERB PRON DET	3
+VERB PRON NOUN	42
+VERB PRON NUM	10
+VERB PRON PART	66
+VERB PRON PUNCT	8
+VERB PRON PUNCT.,	17
+VERB PRON PUNCT..	8
+VERB PRON VERB	70
+VERB PRON.P ADP	5
+VERB PRON.P AUX	4
+VERB PRON.P NOUN	4
+VERB PRON.P PART	9
+VERB PRON.P PUNCT..	4
+VERB PRON.P VERB	15
+VERB PROPN ADJ	10
+VERB PROPN ADP	45
+VERB PROPN ADV	24
+VERB PROPN AUX	14
+VERB PROPN CCONJ	30
+VERB PROPN NOUN	461
+VERB PROPN NUM	24
+VERB PROPN PART	474
+VERB PROPN PRON	4
+VERB PROPN PROPN	289
+VERB PROPN PUNCT	84
+VERB PROPN PUNCT.,	87
+VERB PROPN PUNCT..	52
+VERB PROPN VERB	177
+VERB PROPN X	3
+VERB PUNCT ADJ	15
+VERB PUNCT ADP	9
+VERB PUNCT ADV	6
+VERB PUNCT AUX	8
+VERB PUNCT CCONJ	4
+VERB PUNCT NOUN	65
+VERB PUNCT NUM	7
+VERB PUNCT PART	10
+VERB PUNCT PRON	4
+VERB PUNCT PROPN	43
+VERB PUNCT PUNCT	4
+VERB PUNCT PUNCT.,	11
+VERB PUNCT PUNCT..	13
+VERB PUNCT VERB	54
+VERB PUNCT X	6
+VERB PUNCT., ADJ	13
+VERB PUNCT., ADP	76
+VERB PUNCT., ADV	194
+VERB PUNCT., AUX	31
+VERB PUNCT., CCONJ	9
+VERB PUNCT., DET	21
+VERB PUNCT., NOUN	158
+VERB PUNCT., NUM	44
+VERB PUNCT., PRON	29
+VERB PUNCT., PRON.P	7
+VERB PUNCT., PROPN	105
+VERB PUNCT., PUNCT	4
+VERB PUNCT., VERB	206
+VERB PUNCT., X	4
+VERB PUNCT.. EOF	704
+VERB PUNCT.. PUNCT	6
+VERB PUNCT.: EOF	5
+VERB PUNCT.: NOUN	4
+VERB PUNCT.: PROPN	3
+VERB PUNCT.: PUNCT	15
+VERB PUNCT.; ADP	4
+VERB PUNCT.; NOUN	5
+VERB PUNCT.; PROPN	3
+VERB SYM PUNCT.,	3
+VERB VERB ADJ	67
+VERB VERB ADP	66
+VERB VERB ADV	48
+VERB VERB AUX	30
+VERB VERB CCONJ	14
+VERB VERB DET	55
+VERB VERB NOUN	612
+VERB VERB NUM	184
+VERB VERB PART	350
+VERB VERB PRON	52
+VERB VERB PRON.P	7
+VERB VERB PROPN	468
+VERB VERB PUNCT	75
+VERB VERB PUNCT.,	149
+VERB VERB PUNCT..	139
+VERB VERB PUNCT.:	3
+VERB VERB PUNCT.;	5
+VERB VERB VERB	367
+VERB VERB X	36
+VERB X CCONJ	3
+VERB X NOUN	22
+VERB X PART	13
+VERB X PROPN	3
+VERB X PUNCT	10
+VERB X PUNCT.,	31
+VERB X PUNCT..	51
+VERB X VERB	8
+VERB X X	8
+X ADV AUX	4
+X ADV VERB	14
+X CCONJ X	13
+X NOUN ADP	6
+X NOUN ADV	3
+X NOUN NOUN	22
+X NOUN PART	16
+X NOUN PUNCT	5
+X NOUN PUNCT.,	6
+X NOUN PUNCT..	10
+X NOUN VERB	12
+X NUM NOUN	6
+X PART NOUN	33
+X PART PART	6
+X PART VERB	5
+X PART X	3
+X PROPN PART	3
+X PROPN PUNCT	3
+X PROPN VERB	3
+X PUNCT ADP	10
+X PUNCT ADV	15
+X PUNCT AUX	36
+X PUNCT CCONJ	12
+X PUNCT NOUN	13
+X PUNCT NUM	3
+X PUNCT PART	16
+X PUNCT PROPN	7
+X PUNCT PUNCT	8
+X PUNCT PUNCT.,	39
+X PUNCT PUNCT..	41
+X PUNCT VERB	33
+X PUNCT X	13
+X PUNCT., ADP	8
+X PUNCT., ADV	23
+X PUNCT., AUX	6
+X PUNCT., CCONJ	3
+X PUNCT., DET	5
+X PUNCT., NOUN	18
+X PUNCT., NUM	3
+X PUNCT., PRON	8
+X PUNCT., PROPN	4
+X PUNCT., VERB	16
+X PUNCT., X	16
+X PUNCT.. EOF	94
+X PUNCT.? EOF	4
+X VERB NOUN	9
+X VERB PART	17
+X VERB VERB	4
+X X ADP	3
+X X ADV	4
+X X CCONJ	3
+X X NOUN	7
+X X PART	4
+X X PUNCT	115
+X X PUNCT.,	29
+X X PUNCT..	10
+X X VERB	13
+X X X	69
+
+[NGRAMS:4]
+3457
+ADJ ADJ PART NOUN	17
+ADJ ADJ PUNCT., ADV	5
+ADJ ADJ PUNCT.. EOF	7
+ADJ ADV ADJ PART	5
+ADJ ADV VERB PART	6
+ADJ ADV VERB PUNCT.,	9
+ADJ CCONJ ADJ PART	11
+ADJ NOUN ADP NOUN	5
+ADJ NOUN ADP PUNCT.,	9
+ADJ NOUN ADP VERB	10
+ADJ NOUN ADV ADV	6
+ADJ NOUN ADV AUX	5
+ADJ NOUN ADV VERB	24
+ADJ NOUN AUX NOUN	7
+ADJ NOUN AUX NUM	7
+ADJ NOUN AUX VERB	8
+ADJ NOUN CCONJ NOUN	17
+ADJ NOUN NOUN ADV	7
+ADJ NOUN NOUN CCONJ	7
+ADJ NOUN NOUN NOUN	24
+ADJ NOUN NOUN PART	22
+ADJ NOUN NOUN PUNCT	9
+ADJ NOUN NOUN PUNCT.,	22
+ADJ NOUN NOUN PUNCT..	21
+ADJ NOUN NOUN VERB	15
+ADJ NOUN NUM NOUN	5
+ADJ NOUN PART NOUN	81
+ADJ NOUN PART NUM	10
+ADJ NOUN PART PART	8
+ADJ NOUN PART PUNCT.,	5
+ADJ NOUN PART PUNCT..	5
+ADJ NOUN PART VERB	10
+ADJ NOUN PUNCT PUNCT.,	6
+ADJ NOUN PUNCT., ADP	10
+ADJ NOUN PUNCT., ADV	22
+ADJ NOUN PUNCT., DET	5
+ADJ NOUN PUNCT., NOUN	16
+ADJ NOUN PUNCT., PRON	7
+ADJ NOUN PUNCT., PROPN	8
+ADJ NOUN PUNCT., VERB	29
+ADJ NOUN PUNCT.. EOF	100
+ADJ NOUN VERB ADJ	7
+ADJ NOUN VERB NOUN	12
+ADJ NOUN VERB NUM	6
+ADJ NOUN VERB PART	13
+ADJ NOUN VERB PROPN	11
+ADJ NOUN VERB PUNCT.,	10
+ADJ NOUN VERB PUNCT..	7
+ADJ NOUN VERB VERB	30
+ADJ NUM NOUN NOUN	6
+ADJ NUM NOUN PUNCT.,	21
+ADJ NUM NOUN PUNCT..	8
+ADJ PART ADJ NOUN	7
+ADJ PART ADJ PART	5
+ADJ PART ADV VERB	8
+ADJ PART NOUN ADP	18
+ADJ PART NOUN ADV	15
+ADJ PART NOUN AUX	21
+ADJ PART NOUN CCONJ	17
+ADJ PART NOUN NOUN	128
+ADJ PART NOUN PART	51
+ADJ PART NOUN PROPN	6
+ADJ PART NOUN PUNCT	9
+ADJ PART NOUN PUNCT.,	92
+ADJ PART NOUN PUNCT..	96
+ADJ PART NOUN VERB	56
+ADJ PART NUM NOUN	21
+ADJ PART PART NOUN	14
+ADJ PART PROPN NOUN	15
+ADJ PART PROPN PART	9
+ADJ PART PUNCT NOUN	8
+ADJ PART PUNCT., ADV	7
+ADJ PART PUNCT., VERB	5
+ADJ PART PUNCT.. EOF	13
+ADJ PART VERB NOUN	12
+ADJ PART VERB PART	34
+ADJ PART VERB PROPN	5
+ADJ PART VERB PUNCT.,	12
+ADJ PART VERB PUNCT..	5
+ADJ PART VERB VERB	14
+ADJ PUNCT ADJ PUNCT	6
+ADJ PUNCT PART NOUN	5
+ADJ PUNCT., ADP NOUN	10
+ADJ PUNCT., ADP PRON	5
+ADJ PUNCT., ADV ADP	14
+ADJ PUNCT., ADV ADV	6
+ADJ PUNCT., ADV AUX	10
+ADJ PUNCT., ADV NOUN	9
+ADJ PUNCT., ADV VERB	28
+ADJ PUNCT., AUX VERB	5
+ADJ PUNCT., DET NOUN	5
+ADJ PUNCT., NOUN ADJ	8
+ADJ PUNCT., NOUN ADV	9
+ADJ PUNCT., NOUN NOUN	10
+ADJ PUNCT., NOUN PART	7
+ADJ PUNCT., NOUN VERB	6
+ADJ PUNCT., NUM NOUN	8
+ADJ PUNCT., VERB NOUN	14
+ADJ PUNCT., VERB PART	5
+ADJ PUNCT., VERB PROPN	6
+ADJ PUNCT., VERB VERB	11
+ADJ VERB NOUN PART	6
+ADJ VERB NUM NOUN	5
+ADJ VERB PART NOUN	5
+ADJ VERB PART PUNCT.,	6
+ADJ X PUNCT., ADP	5
+ADJ X PUNCT.. EOF	13
+ADP ADJ NOUN ADP	10
+ADP ADJ NOUN NOUN	8
+ADP ADJ NOUN PART	10
+ADP ADJ NOUN PUNCT.,	5
+ADP ADJ NOUN VERB	9
+ADP ADJ PART NOUN	26
+ADP ADJ PART VERB	6
+ADP ADP NOUN NOUN	8
+ADP ADP NOUN VERB	9
+ADP ADP NUM NOUN	5
+ADP ADP PROPN PROPN	7
+ADP ADV ADJ PART	12
+ADP ADV ADV VERB	10
+ADP ADV AUX VERB	11
+ADP ADV VERB ADJ	5
+ADP ADV VERB NOUN	26
+ADP ADV VERB NUM	8
+ADP ADV VERB PART	16
+ADP ADV VERB PROPN	5
+ADP ADV VERB PUNCT.,	6
+ADP ADV VERB VERB	16
+ADP DET NOUN ADP	11
+ADP DET NOUN NOUN	34
+ADP DET NOUN PART	11
+ADP DET NOUN PUNCT.,	7
+ADP DET NOUN VERB	17
+ADP DET NUM NOUN	28
+ADP DET VERB PART	5
+ADP NOUN ADJ PART	11
+ADP NOUN ADJ PUNCT.,	12
+ADP NOUN ADP ADV	12
+ADP NOUN ADP NOUN	8
+ADP NOUN ADP PART	10
+ADP NOUN ADP PUNCT.,	16
+ADP NOUN ADP VERB	42
+ADP NOUN ADV ADV	7
+ADP NOUN ADV AUX	7
+ADP NOUN ADV VERB	25
+ADP NOUN AUX NOUN	5
+ADP NOUN AUX VERB	6
+ADP NOUN CCONJ NOUN	25
+ADP NOUN NOUN ADJ	17
+ADP NOUN NOUN ADP	42
+ADP NOUN NOUN ADV	24
+ADP NOUN NOUN AUX	10
+ADP NOUN NOUN CCONJ	13
+ADP NOUN NOUN NOUN	39
+ADP NOUN NOUN PART	41
+ADP NOUN NOUN PUNCT	6
+ADP NOUN NOUN PUNCT.,	17
+ADP NOUN NOUN PUNCT..	7
+ADP NOUN NOUN VERB	52
+ADP NOUN NUM NOUN	34
+ADP NOUN PART ADJ	15
+ADP NOUN PART ADP	9
+ADP NOUN PART ADV	8
+ADP NOUN PART NOUN	71
+ADP NOUN PART NUM	7
+ADP NOUN PART PART	12
+ADP NOUN PART VERB	11
+ADP NOUN PROPN NOUN	6
+ADP NOUN PROPN PART	5
+ADP NOUN PROPN PROPN	7
+ADP NOUN PUNCT NOUN	12
+ADP NOUN VERB ADJ	9
+ADP NOUN VERB ADP	15
+ADP NOUN VERB NOUN	41
+ADP NOUN VERB NUM	15
+ADP NOUN VERB PART	42
+ADP NOUN VERB PROPN	14
+ADP NOUN VERB PUNCT	7
+ADP NOUN VERB PUNCT.,	31
+ADP NOUN VERB PUNCT..	15
+ADP NOUN VERB VERB	25
+ADP NUM CCONJ NUM	7
+ADP NUM NOUN ADP	46
+ADP NUM NOUN ADV	24
+ADP NUM NOUN CCONJ	19
+ADP NUM NOUN NOUN	79
+ADP NUM NOUN NUM	149
+ADP NUM NOUN PART	28
+ADP NUM NOUN PROPN	22
+ADP NUM NOUN PUNCT	7
+ADP NUM NOUN PUNCT.,	41
+ADP NUM NOUN PUNCT..	6
+ADP NUM NOUN VERB	137
+ADP NUM PUNCT NUM	6
+ADP PART ADJ NOUN	6
+ADP PART NOUN AUX	32
+ADP PART NOUN NOUN	31
+ADP PART NOUN PART	5
+ADP PART NOUN PUNCT.,	14
+ADP PART NOUN PUNCT..	15
+ADP PART NOUN VERB	15
+ADP PART NUM NOUN	15
+ADP PART PROPN NOUN	6
+ADP PART PROPN PART	8
+ADP PART PUNCT NOUN	5
+ADP PRON ADP NOUN	12
+ADP PRON ADV VERB	17
+ADP PRON NOUN NOUN	6
+ADP PRON NOUN VERB	9
+ADP PRON NUM NOUN	6
+ADP PRON PART NOUN	18
+ADP PRON PUNCT., PROPN	7
+ADP PRON VERB ADJ	6
+ADP PRON VERB ADP	9
+ADP PRON VERB NOUN	15
+ADP PRON VERB PART	12
+ADP PRON VERB PROPN	5
+ADP PRON VERB PUNCT.,	7
+ADP PRON VERB VERB	11
+ADP PRON.P PART NOUN	5
+ADP PROPN ADP NOUN	6
+ADP PROPN ADV VERB	8
+ADP PROPN CCONJ PROPN	13
+ADP PROPN NOUN ADP	15
+ADP PROPN NOUN ADV	5
+ADP PROPN NOUN NOUN	39
+ADP PROPN NOUN PART	37
+ADP PROPN NOUN PROPN	11
+ADP PROPN NOUN PUNCT	5
+ADP PROPN NOUN PUNCT.,	6
+ADP PROPN NOUN VERB	37
+ADP PROPN NUM NOUN	9
+ADP PROPN PART ADP	5
+ADP PROPN PART ADV	7
+ADP PROPN PART NOUN	46
+ADP PROPN PART NUM	7
+ADP PROPN PART PART	10
+ADP PROPN PART PROPN	12
+ADP PROPN PART PUNCT	5
+ADP PROPN PART VERB	23
+ADP PROPN PROPN ADV	6
+ADP PROPN PROPN NOUN	20
+ADP PROPN PROPN PART	20
+ADP PROPN PROPN PROPN	8
+ADP PROPN PROPN PUNCT	11
+ADP PROPN PROPN PUNCT.,	6
+ADP PROPN PROPN VERB	23
+ADP PROPN PUNCT PROPN	18
+ADP PROPN VERB NOUN	17
+ADP PROPN VERB NUM	6
+ADP PROPN VERB PART	27
+ADP PROPN VERB PROPN	11
+ADP PROPN VERB PUNCT.,	11
+ADP PROPN VERB VERB	10
+ADP PUNCT NOUN NOUN	12
+ADP PUNCT., ADP PROPN	5
+ADP PUNCT., ADP VERB	5
+ADP PUNCT., ADV VERB	36
+ADP PUNCT., AUX VERB	5
+ADP PUNCT., DET NOUN	9
+ADP PUNCT., NOUN ADP	6
+ADP PUNCT., NOUN ADV	15
+ADP PUNCT., NOUN AUX	6
+ADP PUNCT., NOUN NOUN	22
+ADP PUNCT., NOUN PART	10
+ADP PUNCT., NOUN VERB	17
+ADP PUNCT., NUM NOUN	21
+ADP PUNCT., PART NOUN	5
+ADP PUNCT., PRON ADV	10
+ADP PUNCT., PRON VERB	15
+ADP PUNCT., PROPN ADP	8
+ADP PUNCT., PROPN ADV	8
+ADP PUNCT., PROPN NOUN	21
+ADP PUNCT., PROPN PART	21
+ADP PUNCT., PROPN PROPN	34
+ADP PUNCT., PROPN VERB	26
+ADP PUNCT., VERB NOUN	19
+ADP PUNCT., VERB PART	12
+ADP PUNCT., VERB PROPN	7
+ADP PUNCT., VERB VERB	14
+ADP VERB ADJ NOUN	15
+ADP VERB ADJ PART	6
+ADP VERB ADP ADV	5
+ADP VERB ADP NOUN	10
+ADP VERB ADP PUNCT.,	5
+ADP VERB ADP VERB	13
+ADP VERB ADV VERB	12
+ADP VERB DET NOUN	13
+ADP VERB NOUN ADP	7
+ADP VERB NOUN ADV	6
+ADP VERB NOUN CCONJ	6
+ADP VERB NOUN NOUN	32
+ADP VERB NOUN PART	18
+ADP VERB NOUN PUNCT	8
+ADP VERB NOUN PUNCT.,	21
+ADP VERB NOUN PUNCT..	8
+ADP VERB NOUN VERB	22
+ADP VERB NUM NOUN	42
+ADP VERB PART ADJ	7
+ADP VERB PART NOUN	40
+ADP VERB PART NUM	16
+ADP VERB PART PART	8
+ADP VERB PART PROPN	11
+ADP VERB PART VERB	15
+ADP VERB PROPN NOUN	17
+ADP VERB PROPN PART	10
+ADP VERB PROPN VERB	7
+ADP VERB PUNCT NOUN	5
+ADP VERB PUNCT., ADV	5
+ADP VERB PUNCT., NOUN	5
+ADP VERB PUNCT., PROPN	5
+ADP VERB PUNCT., VERB	5
+ADP VERB PUNCT.. EOF	14
+ADP VERB VERB NOUN	24
+ADP VERB VERB PART	20
+ADP VERB VERB PROPN	14
+ADP VERB VERB PUNCT.,	5
+ADP VERB VERB PUNCT..	6
+ADP VERB VERB VERB	12
+ADV ADJ CCONJ ADJ	6
+ADV ADJ NOUN NOUN	5
+ADV ADJ NOUN PART	5
+ADV ADJ PART NOUN	92
+ADV ADJ PART NUM	11
+ADV ADJ PART VERB	18
+ADV ADJ PUNCT., ADP	8
+ADV ADJ PUNCT., ADV	19
+ADV ADJ PUNCT., AUX	5
+ADV ADJ PUNCT., NOUN	8
+ADV ADJ PUNCT., VERB	11
+ADV ADJ PUNCT.. EOF	53
+ADV ADP ADJ NOUN	6
+ADV ADP DET NOUN	7
+ADV ADP NOUN ADJ	5
+ADV ADP NOUN ADP	13
+ADV ADP NOUN CCONJ	5
+ADV ADP NOUN NOUN	30
+ADV ADP NOUN PART	10
+ADV ADP NOUN VERB	35
+ADV ADP NUM NOUN	73
+ADV ADP PRON VERB	11
+ADV ADP PROPN NOUN	22
+ADV ADP PROPN PART	10
+ADV ADP PROPN PROPN	17
+ADV ADP PROPN PUNCT	5
+ADV ADP PROPN VERB	14
+ADV ADP VERB NOUN	6
+ADV ADP VERB PART	12
+ADV ADP VERB VERB	7
+ADV ADV ADJ PART	5
+ADV ADV ADJ PUNCT.,	17
+ADV ADV ADJ PUNCT..	11
+ADV ADV ADP NOUN	10
+ADV ADV ADV VERB	18
+ADV ADV AUX VERB	18
+ADV ADV VERB ADJ	11
+ADV ADV VERB ADP	6
+ADV ADV VERB ADV	5
+ADV ADV VERB DET	5
+ADV ADV VERB NOUN	57
+ADV ADV VERB NUM	15
+ADV ADV VERB PART	29
+ADV ADV VERB PRON	10
+ADV ADV VERB PROPN	29
+ADV ADV VERB PUNCT	5
+ADV ADV VERB PUNCT.,	13
+ADV ADV VERB PUNCT..	30
+ADV ADV VERB VERB	51
+ADV AUX ADJ PART	6
+ADV AUX ADJ PUNCT.,	7
+ADV AUX ADJ PUNCT..	8
+ADV AUX ADP NOUN	12
+ADV AUX ADV ADJ	5
+ADV AUX ADV VERB	12
+ADV AUX NOUN NOUN	10
+ADV AUX NOUN PART	7
+ADV AUX NOUN PUNCT.,	7
+ADV AUX NOUN VERB	7
+ADV AUX NUM NOUN	24
+ADV AUX PROPN NOUN	7
+ADV AUX PROPN PART	8
+ADV AUX PROPN PROPN	5
+ADV AUX VERB ADJ	12
+ADV AUX VERB DET	10
+ADV AUX VERB NOUN	50
+ADV AUX VERB NUM	18
+ADV AUX VERB PART	11
+ADV AUX VERB PRON	11
+ADV AUX VERB PROPN	8
+ADV AUX VERB PUNCT.,	6
+ADV AUX VERB PUNCT..	10
+ADV AUX VERB VERB	41
+ADV DET NOUN NOUN	7
+ADV NOUN ADV ADV	5
+ADV NOUN ADV VERB	15
+ADV NOUN NOUN ADV	8
+ADV NOUN NOUN NOUN	6
+ADV NOUN NOUN VERB	6
+ADV NOUN PART NOUN	6
+ADV NOUN VERB NOUN	8
+ADV NOUN VERB VERB	10
+ADV NUM NOUN ADP	6
+ADV NUM NOUN NOUN	9
+ADV NUM NOUN PART	13
+ADV NUM NOUN PUNCT.,	19
+ADV NUM NOUN PUNCT..	17
+ADV NUM NOUN VERB	26
+ADV PRON ADV VERB	7
+ADV PROPN ADV VERB	5
+ADV PROPN PART ADV	7
+ADV PROPN PART NOUN	5
+ADV PROPN PROPN VERB	6
+ADV PUNCT., PROPN NOUN	5
+ADV VERB ADJ NOUN	36
+ADV VERB ADJ PART	35
+ADV VERB ADP NOUN	28
+ADV VERB ADP NUM	12
+ADV VERB ADP PRON	5
+ADV VERB ADP PROPN	21
+ADV VERB ADP PUNCT.,	11
+ADV VERB ADP VERB	13
+ADV VERB ADV ADJ	7
+ADV VERB ADV NUM	6
+ADV VERB ADV VERB	31
+ADV VERB AUX VERB	10
+ADV VERB CCONJ VERB	8
+ADV VERB DET NOUN	30
+ADV VERB DET NUM	10
+ADV VERB NOUN ADJ	12
+ADV VERB NOUN ADP	12
+ADV VERB NOUN ADV	13
+ADV VERB NOUN AUX	10
+ADV VERB NOUN CCONJ	15
+ADV VERB NOUN NOUN	129
+ADV VERB NOUN NUM	9
+ADV VERB NOUN PART	87
+ADV VERB NOUN PROPN	13
+ADV VERB NOUN PUNCT	16
+ADV VERB NOUN PUNCT.,	49
+ADV VERB NOUN PUNCT..	56
+ADV VERB NOUN VERB	90
+ADV VERB NUM CCONJ	5
+ADV VERB NUM NOUN	145
+ADV VERB NUM PROPN	5
+ADV VERB PART ADJ	16
+ADV VERB PART ADP	5
+ADV VERB PART DET	10
+ADV VERB PART NOUN	157
+ADV VERB PART NUM	35
+ADV VERB PART PRON	12
+ADV VERB PART PROPN	38
+ADV VERB PART PUNCT	6
+ADV VERB PART PUNCT.,	5
+ADV VERB PART VERB	24
+ADV VERB PRON ADJ	7
+ADV VERB PRON ADP	5
+ADV VERB PRON ADV	8
+ADV VERB PRON AUX	8
+ADV VERB PRON NOUN	15
+ADV VERB PRON PART	12
+ADV VERB PRON PUNCT.,	5
+ADV VERB PRON PUNCT..	5
+ADV VERB PRON VERB	17
+ADV VERB PROPN ADP	9
+ADV VERB PROPN NOUN	58
+ADV VERB PROPN PART	50
+ADV VERB PROPN PROPN	46
+ADV VERB PROPN PUNCT	14
+ADV VERB PROPN PUNCT.,	12
+ADV VERB PROPN PUNCT..	9
+ADV VERB PROPN VERB	28
+ADV VERB PUNCT NOUN	12
+ADV VERB PUNCT PROPN	7
+ADV VERB PUNCT VERB	9
+ADV VERB PUNCT., ADP	12
+ADV VERB PUNCT., ADV	32
+ADV VERB PUNCT., AUX	6
+ADV VERB PUNCT., DET	5
+ADV VERB PUNCT., NOUN	26
+ADV VERB PUNCT., NUM	5
+ADV VERB PUNCT., PROPN	9
+ADV VERB PUNCT., VERB	30
+ADV VERB PUNCT.. EOF	145
+ADV VERB VERB ADJ	17
+ADV VERB VERB ADP	12
+ADV VERB VERB ADV	9
+ADV VERB VERB AUX	8
+ADV VERB VERB DET	17
+ADV VERB VERB NOUN	124
+ADV VERB VERB NUM	37
+ADV VERB VERB PART	61
+ADV VERB VERB PRON	17
+ADV VERB VERB PROPN	78
+ADV VERB VERB PUNCT	11
+ADV VERB VERB PUNCT.,	31
+ADV VERB VERB PUNCT..	37
+ADV VERB VERB VERB	94
+ADV VERB VERB X	13
+ADV VERB X PUNCT.,	10
+ADV VERB X PUNCT..	14
+AUX ADJ NOUN PUNCT.,	5
+AUX ADJ PART NOUN	22
+AUX ADJ PART VERB	5
+AUX ADJ PUNCT., ADV	13
+AUX ADJ PUNCT., NOUN	11
+AUX ADJ PUNCT., VERB	8
+AUX ADJ PUNCT.. EOF	27
+AUX ADJ X PUNCT.,	6
+AUX ADJ X PUNCT..	5
+AUX ADP ADJ NOUN	6
+AUX ADP DET NOUN	5
+AUX ADP NOUN ADP	9
+AUX ADP NOUN CCONJ	5
+AUX ADP NOUN NOUN	10
+AUX ADP NOUN PART	6
+AUX ADP NOUN VERB	7
+AUX ADP NUM NOUN	9
+AUX ADV ADJ PART	11
+AUX ADV ADJ PUNCT..	6
+AUX ADV ADP NOUN	6
+AUX ADV VERB NOUN	12
+AUX ADV VERB NUM	5
+AUX ADV VERB PUNCT..	5
+AUX ADV VERB VERB	7
+AUX AUX VERB NOUN	5
+AUX DET NOUN NOUN	8
+AUX DET NUM NOUN	5
+AUX NOUN ADJ PART	7
+AUX NOUN ADV ADJ	5
+AUX NOUN CCONJ NOUN	7
+AUX NOUN NOUN ADP	5
+AUX NOUN NOUN NOUN	12
+AUX NOUN NOUN PART	20
+AUX NOUN NOUN PUNCT.,	18
+AUX NOUN NOUN PUNCT..	15
+AUX NOUN NUM NOUN	7
+AUX NOUN PART NOUN	28
+AUX NOUN PART NUM	5
+AUX NOUN PART PART	14
+AUX NOUN PART PROPN	5
+AUX NOUN PART PUNCT.,	10
+AUX NOUN PART PUNCT..	8
+AUX NOUN PROPN NOUN	8
+AUX NOUN PROPN PART	6
+AUX NOUN PUNCT., ADV	13
+AUX NOUN PUNCT., NOUN	11
+AUX NOUN PUNCT., VERB	13
+AUX NOUN PUNCT.. EOF	36
+AUX NOUN VERB ADV	5
+AUX NOUN VERB NOUN	7
+AUX NOUN VERB PART	9
+AUX NUM NOUN ADJ	20
+AUX NUM NOUN ADP	9
+AUX NUM NOUN NOUN	46
+AUX NUM NOUN NUM	8
+AUX NUM NOUN PART	20
+AUX NUM NOUN PROPN	27
+AUX NUM NOUN PUNCT	7
+AUX NUM NOUN PUNCT.,	27
+AUX NUM NOUN PUNCT..	46
+AUX NUM NOUN VERB	37
+AUX NUM PUNCT.. EOF	13
+AUX PART NOUN PUNCT.,	6
+AUX PART PROPN PART	5
+AUX PROPN ADJ NOUN	6
+AUX PROPN CCONJ PROPN	5
+AUX PROPN NOUN ADJ	5
+AUX PROPN NOUN NOUN	41
+AUX PROPN NOUN NUM	7
+AUX PROPN NOUN PART	20
+AUX PROPN NOUN PROPN	11
+AUX PROPN NOUN PUNCT..	5
+AUX PROPN NOUN VERB	7
+AUX PROPN NUM NOUN	9
+AUX PROPN PART NOUN	48
+AUX PROPN PART NUM	5
+AUX PROPN PART PART	10
+AUX PROPN PART PROPN	8
+AUX PROPN PART PUNCT.,	11
+AUX PROPN PART PUNCT..	7
+AUX PROPN PART VERB	6
+AUX PROPN PROPN NOUN	17
+AUX PROPN PROPN PART	29
+AUX PROPN PROPN PROPN	7
+AUX PROPN PROPN PUNCT..	6
+AUX PROPN PUNCT PROPN	7
+AUX PUNCT NOUN PUNCT	5
+AUX PUNCT PROPN NOUN	5
+AUX VERB ADJ NOUN	13
+AUX VERB ADJ PART	20
+AUX VERB ADP NOUN	10
+AUX VERB ADV ADJ	7
+AUX VERB ADV VERB	5
+AUX VERB DET NOUN	16
+AUX VERB NOUN NOUN	45
+AUX VERB NOUN PART	32
+AUX VERB NOUN PUNCT	6
+AUX VERB NOUN PUNCT.,	17
+AUX VERB NOUN PUNCT..	18
+AUX VERB NOUN VERB	17
+AUX VERB NUM NOUN	47
+AUX VERB PART NOUN	36
+AUX VERB PART VERB	9
+AUX VERB PRON PART	10
+AUX VERB PROPN NOUN	16
+AUX VERB PROPN PART	9
+AUX VERB PUNCT., ADV	8
+AUX VERB PUNCT., VERB	6
+AUX VERB PUNCT.. EOF	15
+AUX VERB VERB ADJ	6
+AUX VERB VERB NOUN	23
+AUX VERB VERB NUM	7
+AUX VERB VERB PART	14
+AUX VERB VERB PROPN	15
+AUX VERB VERB PUNCT	6
+AUX VERB VERB PUNCT.,	5
+AUX VERB VERB PUNCT..	6
+AUX VERB VERB VERB	26
+BOF ADJ ADV VERB	8
+BOF ADJ NOUN NOUN	9
+BOF ADJ NOUN VERB	8
+BOF ADJ PART NOUN	15
+BOF ADP ADJ NOUN	6
+BOF ADP ADJ PART	6
+BOF ADP DET NOUN	25
+BOF ADP NOUN ADP	18
+BOF ADP NOUN NOUN	48
+BOF ADP NOUN PART	24
+BOF ADP NOUN PUNCT.,	9
+BOF ADP NOUN VERB	23
+BOF ADP NUM NOUN	99
+BOF ADP PRON NOUN	7
+BOF ADP PRON PUNCT.,	14
+BOF ADP PRON VERB	12
+BOF ADP PROPN NOUN	16
+BOF ADP PROPN PART	19
+BOF ADP PROPN PROPN	9
+BOF ADP PROPN VERB	8
+BOF ADP VERB NOUN	14
+BOF ADP VERB PART	9
+BOF ADP VERB PRON	5
+BOF ADP VERB PUNCT.,	6
+BOF ADP VERB VERB	11
+BOF ADV ADJ PART	12
+BOF ADV ADP NOUN	11
+BOF ADV ADP NUM	9
+BOF ADV ADP PROPN	8
+BOF ADV ADP VERB	6
+BOF ADV DET NOUN	9
+BOF ADV NOUN VERB	6
+BOF ADV NUM NOUN	6
+BOF ADV PROPN PART	9
+BOF ADV PUNCT., ADP	10
+BOF ADV PUNCT., NOUN	9
+BOF ADV PUNCT., PRON	6
+BOF ADV PUNCT., PROPN	15
+BOF ADV VERB NOUN	7
+BOF ADV VERB PART	9
+BOF ADV VERB VERB	6
+BOF DET NOUN ADP	8
+BOF DET NOUN ADV	17
+BOF DET NOUN AUX	9
+BOF DET NOUN NOUN	57
+BOF DET NOUN PART	54
+BOF DET NOUN VERB	26
+BOF DET NUM NOUN	22
+BOF NOUN ADJ NOUN	8
+BOF NOUN ADP NOUN	14
+BOF NOUN ADP NUM	14
+BOF NOUN ADP PROPN	11
+BOF NOUN ADP PUNCT.,	15
+BOF NOUN ADP VERB	7
+BOF NOUN ADV ADV	7
+BOF NOUN ADV AUX	11
+BOF NOUN ADV VERB	38
+BOF NOUN AUX ADP	5
+BOF NOUN AUX NOUN	12
+BOF NOUN AUX PROPN	8
+BOF NOUN AUX VERB	12
+BOF NOUN CCONJ NOUN	7
+BOF NOUN NOUN ADJ	10
+BOF NOUN NOUN ADP	13
+BOF NOUN NOUN ADV	24
+BOF NOUN NOUN AUX	17
+BOF NOUN NOUN CCONJ	5
+BOF NOUN NOUN NOUN	30
+BOF NOUN NOUN PART	39
+BOF NOUN NOUN PUNCT.,	16
+BOF NOUN NOUN VERB	39
+BOF NOUN NUM NOUN	26
+BOF NOUN PART ADP	6
+BOF NOUN PART ADV	6
+BOF NOUN PART AUX	7
+BOF NOUN PART NOUN	49
+BOF NOUN PART NUM	7
+BOF NOUN PART PROPN	9
+BOF NOUN PART PUNCT	8
+BOF NOUN PART VERB	14
+BOF NOUN PRON VERB	6
+BOF NOUN PROPN NOUN	12
+BOF NOUN PROPN PART	14
+BOF NOUN PROPN PROPN	10
+BOF NOUN PUNCT NOUN	8
+BOF NOUN PUNCT X	7
+BOF NOUN PUNCT., ADP	6
+BOF NOUN PUNCT., AUX	5
+BOF NOUN PUNCT., NOUN	18
+BOF NOUN PUNCT., NUM	5
+BOF NOUN PUNCT., PRON	7
+BOF NOUN PUNCT., PROPN	15
+BOF NOUN PUNCT., VERB	6
+BOF NOUN VERB ADP	17
+BOF NOUN VERB NOUN	17
+BOF NOUN VERB NUM	14
+BOF NOUN VERB PART	21
+BOF NOUN VERB PROPN	15
+BOF NOUN VERB PUNCT.,	5
+BOF NOUN VERB VERB	24
+BOF NUM NOUN ADP	45
+BOF NUM NOUN CCONJ	8
+BOF NUM NOUN NOUN	44
+BOF NUM NOUN NUM	203
+BOF NUM NOUN PART	11
+BOF NUM NOUN PRON	10
+BOF NUM NOUN PROPN	25
+BOF NUM NOUN PUNCT	9
+BOF NUM NOUN PUNCT.,	135
+BOF NUM NOUN VERB	30
+BOF PART NOUN NUM	11
+BOF PRON ADP NOUN	6
+BOF PRON ADP NUM	14
+BOF PRON ADV ADV	5
+BOF PRON ADV VERB	21
+BOF PRON AUX NOUN	5
+BOF PRON AUX NUM	8
+BOF PRON AUX PROPN	8
+BOF PRON NOUN VERB	9
+BOF PRON PART NOUN	25
+BOF PRON VERB ADP	6
+BOF PRON VERB NOUN	9
+BOF PRON VERB PART	10
+BOF PRON VERB PROPN	7
+BOF PRON VERB PUNCT.,	5
+BOF PRON VERB VERB	15
+BOF PRON.P PART NOUN	7
+BOF PROPN ADP NUM	11
+BOF PROPN ADP PROPN	6
+BOF PROPN ADP VERB	11
+BOF PROPN ADV VERB	26
+BOF PROPN AUX NUM	6
+BOF PROPN AUX PROPN	16
+BOF PROPN CCONJ PROPN	8
+BOF PROPN NOUN ADP	14
+BOF PROPN NOUN ADV	18
+BOF PROPN NOUN AUX	12
+BOF PROPN NOUN NOUN	67
+BOF PROPN NOUN PART	36
+BOF PROPN NOUN PROPN	8
+BOF PROPN NOUN PUNCT	6
+BOF PROPN NOUN PUNCT.,	14
+BOF PROPN NOUN VERB	31
+BOF PROPN NUM NOUN	21
+BOF PROPN PART ADP	13
+BOF PROPN PART ADV	9
+BOF PROPN PART AUX	36
+BOF PROPN PART CCONJ	5
+BOF PROPN PART NOUN	71
+BOF PROPN PART PART	15
+BOF PROPN PART PROPN	5
+BOF PROPN PART PUNCT	13
+BOF PROPN PART PUNCT.,	11
+BOF PROPN PART VERB	34
+BOF PROPN PROPN ADP	21
+BOF PROPN PROPN ADV	20
+BOF PROPN PROPN AUX	16
+BOF PROPN PROPN NOUN	25
+BOF PROPN PROPN NUM	7
+BOF PROPN PROPN PART	22
+BOF PROPN PROPN PUNCT	5
+BOF PROPN PROPN PUNCT.,	24
+BOF PROPN PROPN VERB	48
+BOF PROPN PUNCT PROPN	42
+BOF PROPN VERB ADP	15
+BOF PROPN VERB NOUN	7
+BOF PROPN VERB PART	15
+BOF PROPN VERB PROPN	11
+BOF PROPN VERB VERB	17
+BOF PUNCT NOUN NOUN	9
+BOF PUNCT NOUN PUNCT	6
+BOF VERB ADP PUNCT.,	11
+BOF VERB NOUN NOUN	14
+BOF VERB NOUN PART	8
+BOF VERB NOUN PROPN	6
+BOF VERB NOUN VERB	16
+BOF VERB NUM NOUN	8
+BOF VERB PART ADP	6
+BOF VERB PART ADV	6
+BOF VERB PART AUX	7
+BOF VERB PART NOUN	23
+BOF VERB PART NUM	6
+BOF VERB PART VERB	17
+BOF VERB PROPN NOUN	12
+BOF VERB PROPN PART	7
+BOF VERB PROPN PUNCT.,	5
+BOF VERB VERB NOUN	6
+BOF VERB VERB PART	9
+CCONJ ADJ NOUN NOUN	10
+CCONJ ADJ PART NOUN	20
+CCONJ ADJ PUNCT.. EOF	5
+CCONJ ADV VERB NOUN	7
+CCONJ NOUN ADP PART	7
+CCONJ NOUN ADV ADJ	5
+CCONJ NOUN ADV VERB	14
+CCONJ NOUN NOUN ADP	7
+CCONJ NOUN NOUN ADV	15
+CCONJ NOUN NOUN NOUN	35
+CCONJ NOUN NOUN PART	39
+CCONJ NOUN NOUN PUNCT	7
+CCONJ NOUN NOUN PUNCT.,	30
+CCONJ NOUN NOUN PUNCT..	26
+CCONJ NOUN NOUN VERB	18
+CCONJ NOUN NUM NOUN	9
+CCONJ NOUN PART ADJ	7
+CCONJ NOUN PART NOUN	50
+CCONJ NOUN PART PART	5
+CCONJ NOUN PART PROPN	5
+CCONJ NOUN PART PUNCT	6
+CCONJ NOUN PART PUNCT..	8
+CCONJ NOUN PART VERB	5
+CCONJ NOUN PROPN PART	5
+CCONJ NOUN PUNCT NOUN	7
+CCONJ NOUN PUNCT., ADP	5
+CCONJ NOUN PUNCT., ADV	8
+CCONJ NOUN PUNCT., NOUN	5
+CCONJ NOUN PUNCT., VERB	16
+CCONJ NOUN PUNCT.. EOF	50
+CCONJ NOUN VERB NOUN	6
+CCONJ NOUN VERB PART	20
+CCONJ NOUN VERB VERB	6
+CCONJ NUM NOUN ADP	9
+CCONJ NUM NOUN ADV	5
+CCONJ NUM NOUN NOUN	27
+CCONJ NUM NOUN NUM	11
+CCONJ NUM NOUN PART	14
+CCONJ NUM NOUN PROPN	6
+CCONJ NUM NOUN PUNCT.,	10
+CCONJ NUM NOUN PUNCT..	6
+CCONJ NUM NOUN VERB	24
+CCONJ PART NOUN NOUN	7
+CCONJ PRON PART NOUN	8
+CCONJ PROPN ADV VERB	7
+CCONJ PROPN NOUN NOUN	26
+CCONJ PROPN NOUN PART	19
+CCONJ PROPN NOUN PUNCT..	6
+CCONJ PROPN NOUN VERB	11
+CCONJ PROPN NUM NOUN	7
+CCONJ PROPN PART NOUN	35
+CCONJ PROPN PART PART	16
+CCONJ PROPN PART PROPN	7
+CCONJ PROPN PART PUNCT	6
+CCONJ PROPN PART PUNCT..	11
+CCONJ PROPN PART VERB	9
+CCONJ PROPN PROPN NOUN	7
+CCONJ PROPN PROPN PART	6
+CCONJ PROPN PROPN VERB	8
+CCONJ PROPN PUNCT PROPN	14
+CCONJ PROPN VERB PART	8
+CCONJ PROPN VERB VERB	5
+CCONJ PUNCT NOUN PUNCT	5
+CCONJ VERB NOUN NOUN	16
+CCONJ VERB NOUN PART	9
+CCONJ VERB NUM NOUN	5
+CCONJ VERB PART NOUN	11
+CCONJ VERB PART PUNCT..	8
+CCONJ VERB PART VERB	5
+CCONJ VERB PUNCT.. EOF	12
+CCONJ VERB VERB NOUN	8
+CCONJ VERB VERB PART	10
+DET ADJ PART NOUN	7
+DET NOUN ADJ NOUN	5
+DET NOUN ADP NOUN	6
+DET NOUN ADP NUM	5
+DET NOUN ADP VERB	6
+DET NOUN ADV ADP	5
+DET NOUN ADV ADV	7
+DET NOUN ADV VERB	31
+DET NOUN AUX VERB	9
+DET NOUN NOUN ADJ	8
+DET NOUN NOUN ADP	28
+DET NOUN NOUN ADV	31
+DET NOUN NOUN AUX	9
+DET NOUN NOUN NOUN	27
+DET NOUN NOUN PART	39
+DET NOUN NOUN PUNCT.,	24
+DET NOUN NOUN PUNCT..	13
+DET NOUN NOUN VERB	56
+DET NOUN NUM NOUN	15
+DET NOUN PART ADJ	5
+DET NOUN PART ADV	6
+DET NOUN PART NOUN	90
+DET NOUN PUNCT., ADP	5
+DET NOUN PUNCT., ADV	8
+DET NOUN PUNCT., NOUN	7
+DET NOUN PUNCT., VERB	6
+DET NOUN PUNCT.. EOF	39
+DET NOUN VERB ADJ	5
+DET NOUN VERB ADP	10
+DET NOUN VERB NOUN	13
+DET NOUN VERB NUM	8
+DET NOUN VERB PART	25
+DET NOUN VERB PUNCT.,	8
+DET NOUN VERB VERB	23
+DET NUM NOUN ADV	9
+DET NUM NOUN NOUN	70
+DET NUM NOUN PART	11
+DET NUM NOUN PUNCT.,	25
+DET NUM NOUN PUNCT..	6
+DET NUM NOUN VERB	15
+DET PART NOUN PUNCT.,	5
+DET PROPN NOUN NOUN	5
+DET VERB NUM NOUN	12
+DET VERB PART ADV	5
+DET VERB PART VERB	5
+NOUN ADJ ADJ PART	5
+NOUN ADJ ADJ PUNCT.,	5
+NOUN ADJ ADV VERB	7
+NOUN ADJ CCONJ ADJ	7
+NOUN ADJ NOUN ADJ	5
+NOUN ADJ NOUN ADP	6
+NOUN ADJ NOUN ADV	8
+NOUN ADJ NOUN AUX	6
+NOUN ADJ NOUN NOUN	20
+NOUN ADJ NOUN PART	24
+NOUN ADJ NOUN PUNCT	7
+NOUN ADJ NOUN PUNCT.,	13
+NOUN ADJ NOUN PUNCT..	16
+NOUN ADJ NOUN VERB	25
+NOUN ADJ NUM NOUN	15
+NOUN ADJ PART NOUN	108
+NOUN ADJ PART PART	11
+NOUN ADJ PART PROPN	7
+NOUN ADJ PART VERB	33
+NOUN ADJ PUNCT., ADP	8
+NOUN ADJ PUNCT., ADV	33
+NOUN ADJ PUNCT., AUX	5
+NOUN ADJ PUNCT., NOUN	21
+NOUN ADJ PUNCT., NUM	6
+NOUN ADJ PUNCT., VERB	21
+NOUN ADJ PUNCT.. EOF	38
+NOUN ADJ VERB NOUN	6
+NOUN ADP ADJ NOUN	8
+NOUN ADP ADJ PART	12
+NOUN ADP ADP NOUN	7
+NOUN ADP ADP PROPN	8
+NOUN ADP ADV ADJ	13
+NOUN ADP ADV ADV	7
+NOUN ADP ADV AUX	10
+NOUN ADP ADV VERB	54
+NOUN ADP AUX VERB	6
+NOUN ADP DET NOUN	14
+NOUN ADP DET NUM	7
+NOUN ADP NOUN ADJ	12
+NOUN ADP NOUN ADP	20
+NOUN ADP NOUN ADV	13
+NOUN ADP NOUN CCONJ	8
+NOUN ADP NOUN NOUN	50
+NOUN ADP NOUN NUM	6
+NOUN ADP NOUN PART	32
+NOUN ADP NOUN VERB	58
+NOUN ADP NUM NOUN	119
+NOUN ADP PART ADJ	6
+NOUN ADP PART NOUN	90
+NOUN ADP PART NUM	8
+NOUN ADP PART PROPN	7
+NOUN ADP PRON VERB	8
+NOUN ADP PROPN NOUN	34
+NOUN ADP PROPN PART	23
+NOUN ADP PROPN PROPN	17
+NOUN ADP PROPN PUNCT	5
+NOUN ADP PROPN VERB	21
+NOUN ADP PUNCT NOUN	5
+NOUN ADP PUNCT., ADJ	5
+NOUN ADP PUNCT., ADP	14
+NOUN ADP PUNCT., ADV	31
+NOUN ADP PUNCT., AUX	6
+NOUN ADP PUNCT., DET	9
+NOUN ADP PUNCT., NOUN	64
+NOUN ADP PUNCT., NUM	15
+NOUN ADP PUNCT., PART	7
+NOUN ADP PUNCT., PRON	16
+NOUN ADP PUNCT., PRON.P	5
+NOUN ADP PUNCT., PROPN	69
+NOUN ADP PUNCT., VERB	35
+NOUN ADP PUNCT.. EOF	28
+NOUN ADP VERB ADJ	10
+NOUN ADP VERB ADP	10
+NOUN ADP VERB ADV	5
+NOUN ADP VERB DET	6
+NOUN ADP VERB NOUN	53
+NOUN ADP VERB NUM	18
+NOUN ADP VERB PART	49
+NOUN ADP VERB PROPN	16
+NOUN ADP VERB PUNCT.,	16
+NOUN ADP VERB PUNCT..	11
+NOUN ADP VERB VERB	42
+NOUN ADV ADJ PART	34
+NOUN ADV ADJ PUNCT.,	32
+NOUN ADV ADJ PUNCT..	17
+NOUN ADV ADP DET	5
+NOUN ADV ADP NOUN	25
+NOUN ADV ADP NUM	15
+NOUN ADV ADP PRON	5
+NOUN ADV ADP PROPN	16
+NOUN ADV ADV ADJ	22
+NOUN ADV ADV ADV	8
+NOUN ADV ADV AUX	8
+NOUN ADV ADV VERB	88
+NOUN ADV AUX ADJ	10
+NOUN ADV AUX ADP	9
+NOUN ADV AUX ADV	8
+NOUN ADV AUX NOUN	19
+NOUN ADV AUX NUM	17
+NOUN ADV AUX PROPN	6
+NOUN ADV AUX VERB	72
+NOUN ADV NOUN VERB	6
+NOUN ADV NUM NOUN	26
+NOUN ADV VERB ADJ	23
+NOUN ADV VERB ADP	29
+NOUN ADV VERB ADV	19
+NOUN ADV VERB DET	9
+NOUN ADV VERB NOUN	153
+NOUN ADV VERB NUM	53
+NOUN ADV VERB PART	106
+NOUN ADV VERB PRON	19
+NOUN ADV VERB PROPN	55
+NOUN ADV VERB PUNCT	15
+NOUN ADV VERB PUNCT.,	54
+NOUN ADV VERB PUNCT..	61
+NOUN ADV VERB VERB	191
+NOUN ADV VERB X	14
+NOUN AUX ADJ NOUN	5
+NOUN AUX ADJ PART	10
+NOUN AUX ADJ PUNCT.,	14
+NOUN AUX ADJ PUNCT..	13
+NOUN AUX ADJ X	8
+NOUN AUX ADP NOUN	11
+NOUN AUX ADV ADJ	13
+NOUN AUX ADV VERB	10
+NOUN AUX DET NOUN	8
+NOUN AUX NOUN ADJ	6
+NOUN AUX NOUN NOUN	39
+NOUN AUX NOUN PART	35
+NOUN AUX NOUN PUNCT	6
+NOUN AUX NOUN PUNCT.,	23
+NOUN AUX NOUN PUNCT..	18
+NOUN AUX NOUN VERB	10
+NOUN AUX NUM NOUN	101
+NOUN AUX NUM PUNCT..	10
+NOUN AUX PART NOUN	10
+NOUN AUX PROPN NOUN	21
+NOUN AUX PROPN PART	29
+NOUN AUX PROPN PROPN	15
+NOUN AUX PUNCT PROPN	8
+NOUN AUX VERB ADJ	14
+NOUN AUX VERB ADP	6
+NOUN AUX VERB DET	8
+NOUN AUX VERB NOUN	36
+NOUN AUX VERB NUM	19
+NOUN AUX VERB PART	20
+NOUN AUX VERB PRON	5
+NOUN AUX VERB PROPN	11
+NOUN AUX VERB PUNCT.,	9
+NOUN AUX VERB VERB	26
+NOUN CCONJ ADJ NOUN	16
+NOUN CCONJ ADJ PART	10
+NOUN CCONJ DET NOUN	10
+NOUN CCONJ NOUN ADP	22
+NOUN CCONJ NOUN ADV	24
+NOUN CCONJ NOUN NOUN	153
+NOUN CCONJ NOUN NUM	8
+NOUN CCONJ NOUN PART	73
+NOUN CCONJ NOUN PUNCT	14
+NOUN CCONJ NOUN PUNCT.,	43
+NOUN CCONJ NOUN PUNCT..	42
+NOUN CCONJ NOUN VERB	42
+NOUN CCONJ NUM NOUN	84
+NOUN CCONJ PART NOUN	14
+NOUN CCONJ PROPN NOUN	33
+NOUN CCONJ PROPN PART	21
+NOUN CCONJ PROPN PROPN	6
+NOUN CCONJ VERB NOUN	9
+NOUN CCONJ VERB PART	9
+NOUN CCONJ VERB VERB	6
+NOUN DET NOUN NOUN	9
+NOUN DET NOUN PART	10
+NOUN DET NUM NOUN	16
+NOUN DET VERB NUM	6
+NOUN NOUN ADJ NOUN	27
+NOUN NOUN ADJ PART	42
+NOUN NOUN ADJ PUNCT.,	41
+NOUN NOUN ADJ PUNCT..	18
+NOUN NOUN ADP ADJ	9
+NOUN NOUN ADP ADP	7
+NOUN NOUN ADP ADV	18
+NOUN NOUN ADP NOUN	60
+NOUN NOUN ADP NUM	37
+NOUN NOUN ADP PART	25
+NOUN NOUN ADP PROPN	25
+NOUN NOUN ADP PUNCT	6
+NOUN NOUN ADP PUNCT.,	73
+NOUN NOUN ADP PUNCT..	8
+NOUN NOUN ADP VERB	61
+NOUN NOUN ADV ADJ	23
+NOUN NOUN ADV ADP	21
+NOUN NOUN ADV ADV	38
+NOUN NOUN ADV AUX	32
+NOUN NOUN ADV NUM	9
+NOUN NOUN ADV VERB	237
+NOUN NOUN AUX ADJ	18
+NOUN NOUN AUX ADP	8
+NOUN NOUN AUX NOUN	34
+NOUN NOUN AUX NUM	34
+NOUN NOUN AUX PROPN	22
+NOUN NOUN AUX PUNCT	6
+NOUN NOUN AUX VERB	34
+NOUN NOUN CCONJ ADJ	13
+NOUN NOUN CCONJ NOUN	130
+NOUN NOUN CCONJ NUM	14
+NOUN NOUN CCONJ PART	7
+NOUN NOUN CCONJ PROPN	15
+NOUN NOUN CCONJ VERB	14
+NOUN NOUN DET NOUN	10
+NOUN NOUN NOUN ADJ	24
+NOUN NOUN NOUN ADP	58
+NOUN NOUN NOUN ADV	51
+NOUN NOUN NOUN AUX	19
+NOUN NOUN NOUN CCONJ	27
+NOUN NOUN NOUN NOUN	215
+NOUN NOUN NOUN NUM	15
+NOUN NOUN NOUN PART	170
+NOUN NOUN NOUN PROPN	19
+NOUN NOUN NOUN PUNCT	60
+NOUN NOUN NOUN PUNCT.,	163
+NOUN NOUN NOUN PUNCT..	123
+NOUN NOUN NOUN VERB	135
+NOUN NOUN NUM NOUN	96
+NOUN NOUN NUM PUNCT.,	8
+NOUN NOUN NUM PUNCT..	7
+NOUN NOUN PART ADJ	30
+NOUN NOUN PART ADP	24
+NOUN NOUN PART ADV	18
+NOUN NOUN PART AUX	8
+NOUN NOUN PART CCONJ	10
+NOUN NOUN PART DET	7
+NOUN NOUN PART NOUN	453
+NOUN NOUN PART NUM	53
+NOUN NOUN PART PART	68
+NOUN NOUN PART PROPN	36
+NOUN NOUN PART PUNCT	23
+NOUN NOUN PART PUNCT.,	50
+NOUN NOUN PART PUNCT..	33
+NOUN NOUN PART VERB	91
+NOUN NOUN PART X	9
+NOUN NOUN PROPN NOUN	13
+NOUN NOUN PROPN PART	20
+NOUN NOUN PROPN PROPN	22
+NOUN NOUN PROPN PUNCT	15
+NOUN NOUN PROPN VERB	16
+NOUN NOUN PUNCT ADP	8
+NOUN NOUN PUNCT ADV	14
+NOUN NOUN PUNCT AUX	6
+NOUN NOUN PUNCT CCONJ	5
+NOUN NOUN PUNCT NOUN	108
+NOUN NOUN PUNCT NUM	22
+NOUN NOUN PUNCT PART	14
+NOUN NOUN PUNCT PROPN	27
+NOUN NOUN PUNCT PUNCT	16
+NOUN NOUN PUNCT PUNCT.,	28
+NOUN NOUN PUNCT PUNCT..	12
+NOUN NOUN PUNCT VERB	37
+NOUN NOUN PUNCT X	25
+NOUN NOUN PUNCT., ADJ	7
+NOUN NOUN PUNCT., ADP	86
+NOUN NOUN PUNCT., ADV	176
+NOUN NOUN PUNCT., AUX	47
+NOUN NOUN PUNCT., CCONJ	15
+NOUN NOUN PUNCT., DET	29
+NOUN NOUN PUNCT., NOUN	149
+NOUN NOUN PUNCT., NUM	41
+NOUN NOUN PUNCT., PRON	20
+NOUN NOUN PUNCT., PROPN	62
+NOUN NOUN PUNCT., VERB	195
+NOUN NOUN PUNCT.. EOF	684
+NOUN NOUN PUNCT.; NOUN	5
+NOUN NOUN VERB ADJ	25
+NOUN NOUN VERB ADP	50
+NOUN NOUN VERB ADV	19
+NOUN NOUN VERB AUX	7
+NOUN NOUN VERB CCONJ	5
+NOUN NOUN VERB DET	11
+NOUN NOUN VERB NOUN	143
+NOUN NOUN VERB NUM	45
+NOUN NOUN VERB PART	155
+NOUN NOUN VERB PRON	10
+NOUN NOUN VERB PROPN	58
+NOUN NOUN VERB PUNCT	10
+NOUN NOUN VERB PUNCT.,	72
+NOUN NOUN VERB PUNCT..	49
+NOUN NOUN VERB VERB	165
+NOUN NOUN VERB X	5
+NOUN NOUN X PUNCT.,	5
+NOUN NOUN X PUNCT..	5
+NOUN NUM ADJ PART	5
+NOUN NUM ADV VERB	5
+NOUN NUM CCONJ NUM	7
+NOUN NUM NOUN ADJ	15
+NOUN NUM NOUN ADP	46
+NOUN NUM NOUN ADV	21
+NOUN NUM NOUN AUX	10
+NOUN NUM NOUN CCONJ	23
+NOUN NUM NOUN NOUN	87
+NOUN NUM NOUN NUM	261
+NOUN NUM NOUN PART	51
+NOUN NUM NOUN PROPN	37
+NOUN NUM NOUN PUNCT	38
+NOUN NUM NOUN PUNCT.,	353
+NOUN NUM NOUN PUNCT..	58
+NOUN NUM NOUN PUNCT.;	7
+NOUN NUM NOUN SYM	5
+NOUN NUM NOUN VERB	138
+NOUN NUM PART NOUN	8
+NOUN NUM PUNCT NUM	7
+NOUN NUM PUNCT.. EOF	11
+NOUN PART ADJ NOUN	73
+NOUN PART ADJ PART	22
+NOUN PART ADP NOUN	14
+NOUN PART ADP NUM	13
+NOUN PART ADP PART	13
+NOUN PART ADP PROPN	7
+NOUN PART ADP PUNCT.,	13
+NOUN PART ADP VERB	14
+NOUN PART ADV ADJ	7
+NOUN PART ADV ADP	5
+NOUN PART ADV ADV	13
+NOUN PART ADV AUX	9
+NOUN PART ADV VERB	47
+NOUN PART AUX ADJ	7
+NOUN PART AUX NOUN	7
+NOUN PART AUX NUM	8
+NOUN PART AUX PROPN	5
+NOUN PART AUX VERB	8
+NOUN PART CCONJ NOUN	34
+NOUN PART CCONJ PROPN	8
+NOUN PART CCONJ VERB	8
+NOUN PART DET NOUN	18
+NOUN PART DET NUM	5
+NOUN PART NOUN ADJ	17
+NOUN PART NOUN ADP	73
+NOUN PART NOUN ADV	106
+NOUN PART NOUN AUX	43
+NOUN PART NOUN CCONJ	56
+NOUN PART NOUN NOUN	358
+NOUN PART NOUN NUM	47
+NOUN PART NOUN PART	148
+NOUN PART NOUN PROPN	19
+NOUN PART NOUN PUNCT	60
+NOUN PART NOUN PUNCT.,	267
+NOUN PART NOUN PUNCT..	248
+NOUN PART NOUN VERB	185
+NOUN PART NUM NOUN	106
+NOUN PART NUM PART	5
+NOUN PART NUM PUNCT.,	11
+NOUN PART NUM PUNCT..	51
+NOUN PART NUM VERB	5
+NOUN PART PART ADJ	10
+NOUN PART PART NOUN	161
+NOUN PART PART NUM	14
+NOUN PART PART PART	6
+NOUN PART PART PROPN	18
+NOUN PART PART PUNCT	5
+NOUN PART PART PUNCT.,	7
+NOUN PART PART VERB	17
+NOUN PART PROPN NOUN	45
+NOUN PART PROPN PART	56
+NOUN PART PROPN PROPN	30
+NOUN PART PROPN PUNCT	12
+NOUN PART PROPN VERB	6
+NOUN PART PUNCT ADP	5
+NOUN PART PUNCT AUX	5
+NOUN PART PUNCT CCONJ	7
+NOUN PART PUNCT NOUN	47
+NOUN PART PUNCT NUM	11
+NOUN PART PUNCT PART	11
+NOUN PART PUNCT PROPN	17
+NOUN PART PUNCT PUNCT.,	13
+NOUN PART PUNCT PUNCT..	10
+NOUN PART PUNCT VERB	12
+NOUN PART PUNCT X	10
+NOUN PART PUNCT., ADP	16
+NOUN PART PUNCT., ADV	32
+NOUN PART PUNCT., AUX	20
+NOUN PART PUNCT., DET	5
+NOUN PART PUNCT., NOUN	29
+NOUN PART PUNCT., NUM	5
+NOUN PART PUNCT., PRON	9
+NOUN PART PUNCT., PROPN	10
+NOUN PART PUNCT., VERB	44
+NOUN PART PUNCT.. EOF	132
+NOUN PART VERB ADJ	5
+NOUN PART VERB ADP	13
+NOUN PART VERB ADV	5
+NOUN PART VERB NOUN	44
+NOUN PART VERB NUM	14
+NOUN PART VERB PART	109
+NOUN PART VERB PROPN	24
+NOUN PART VERB PUNCT.,	23
+NOUN PART VERB PUNCT..	16
+NOUN PART VERB VERB	48
+NOUN PART X NOUN	6
+NOUN PART X X	6
+NOUN PRON ADV VERB	8
+NOUN PRON PART NOUN	5
+NOUN PRON VERB NOUN	6
+NOUN PRON VERB PART	5
+NOUN PRON VERB PROPN	7
+NOUN PRON VERB VERB	9
+NOUN PROPN ADP NOUN	6
+NOUN PROPN ADV VERB	14
+NOUN PROPN NOUN ADP	6
+NOUN PROPN NOUN ADV	8
+NOUN PROPN NOUN NOUN	70
+NOUN PROPN NOUN PART	30
+NOUN PROPN NOUN PROPN	10
+NOUN PROPN NOUN PUNCT	12
+NOUN PROPN NOUN PUNCT.,	12
+NOUN PROPN NOUN PUNCT..	10
+NOUN PROPN NOUN VERB	33
+NOUN PROPN NUM NOUN	6
+NOUN PROPN PART ADJ	7
+NOUN PROPN PART ADP	14
+NOUN PROPN PART ADV	6
+NOUN PROPN PART NOUN	49
+NOUN PROPN PART PART	20
+NOUN PROPN PART PROPN	14
+NOUN PROPN PART PUNCT	10
+NOUN PROPN PART PUNCT.,	10
+NOUN PROPN PART PUNCT..	7
+NOUN PROPN PART VERB	17
+NOUN PROPN PROPN ADP	7
+NOUN PROPN PROPN ADV	10
+NOUN PROPN PROPN AUX	9
+NOUN PROPN PROPN NOUN	15
+NOUN PROPN PROPN PART	21
+NOUN PROPN PROPN PUNCT	10
+NOUN PROPN PROPN PUNCT.,	10
+NOUN PROPN PROPN PUNCT..	8
+NOUN PROPN PROPN VERB	52
+NOUN PROPN PUNCT PROPN	37
+NOUN PROPN PUNCT X	9
+NOUN PROPN PUNCT., ADV	7
+NOUN PROPN PUNCT., PROPN	7
+NOUN PROPN PUNCT.. EOF	10
+NOUN PROPN VERB ADP	6
+NOUN PROPN VERB NOUN	8
+NOUN PROPN VERB PART	20
+NOUN PROPN VERB PROPN	14
+NOUN PROPN VERB PUNCT.,	12
+NOUN PROPN VERB VERB	12
+NOUN PUNCT ADJ PART	10
+NOUN PUNCT ADP VERB	8
+NOUN PUNCT ADV VERB	29
+NOUN PUNCT AUX NOUN	5
+NOUN PUNCT AUX PROPN	9
+NOUN PUNCT AUX VERB	7
+NOUN PUNCT CCONJ NOUN	8
+NOUN PUNCT CCONJ PROPN	5
+NOUN PUNCT CCONJ PUNCT	13
+NOUN PUNCT NOUN ADV	5
+NOUN PUNCT NOUN CCONJ	42
+NOUN PUNCT NOUN NOUN	132
+NOUN PUNCT NOUN NUM	18
+NOUN PUNCT NOUN PART	38
+NOUN PUNCT NOUN PROPN	8
+NOUN PUNCT NOUN PUNCT	114
+NOUN PUNCT NOUN PUNCT.,	14
+NOUN PUNCT NOUN PUNCT..	8
+NOUN PUNCT NOUN VERB	27
+NOUN PUNCT NUM NOUN	95
+NOUN PUNCT PART NOUN	42
+NOUN PUNCT PROPN NOUN	43
+NOUN PUNCT PROPN NUM	5
+NOUN PUNCT PROPN PART	27
+NOUN PUNCT PROPN PROPN	10
+NOUN PUNCT PROPN PUNCT	19
+NOUN PUNCT PUNCT NOUN	5
+NOUN PUNCT PUNCT PROPN	7
+NOUN PUNCT PUNCT PUNCT	14
+NOUN PUNCT PUNCT X	15
+NOUN PUNCT PUNCT., ADP	7
+NOUN PUNCT PUNCT., ADV	21
+NOUN PUNCT PUNCT., AUX	5
+NOUN PUNCT PUNCT., NOUN	14
+NOUN PUNCT PUNCT., NUM	5
+NOUN PUNCT PUNCT., PROPN	18
+NOUN PUNCT PUNCT., VERB	20
+NOUN PUNCT PUNCT.. EOF	63
+NOUN PUNCT VERB NOUN	30
+NOUN PUNCT VERB NUM	5
+NOUN PUNCT VERB PART	20
+NOUN PUNCT VERB PROPN	9
+NOUN PUNCT VERB PUNCT	5
+NOUN PUNCT VERB PUNCT.,	7
+NOUN PUNCT VERB VERB	15
+NOUN PUNCT X PUNCT	36
+NOUN PUNCT X X	38
+NOUN PUNCT., ADJ NOUN	28
+NOUN PUNCT., ADJ NUM	13
+NOUN PUNCT., ADJ PART	12
+NOUN PUNCT., ADP ADJ	8
+NOUN PUNCT., ADP ADP	9
+NOUN PUNCT., ADP DET	7
+NOUN PUNCT., ADP NOUN	70
+NOUN PUNCT., ADP NUM	44
+NOUN PUNCT., ADP PRON	45
+NOUN PUNCT., ADP PROPN	40
+NOUN PUNCT., ADP VERB	39
+NOUN PUNCT., ADV ADJ	7
+NOUN PUNCT., ADV ADP	63
+NOUN PUNCT., ADV ADV	63
+NOUN PUNCT., ADV AUX	53
+NOUN PUNCT., ADV DET	6
+NOUN PUNCT., ADV NOUN	51
+NOUN PUNCT., ADV NUM	16
+NOUN PUNCT., ADV PRON	10
+NOUN PUNCT., ADV PROPN	27
+NOUN PUNCT., ADV VERB	284
+NOUN PUNCT., AUX ADJ	9
+NOUN PUNCT., AUX ADP	11
+NOUN PUNCT., AUX NOUN	27
+NOUN PUNCT., AUX NUM	16
+NOUN PUNCT., AUX PROPN	31
+NOUN PUNCT., AUX VERB	33
+NOUN PUNCT., CCONJ NOUN	6
+NOUN PUNCT., CCONJ VERB	19
+NOUN PUNCT., DET NOUN	49
+NOUN PUNCT., DET NUM	12
+NOUN PUNCT., DET VERB	7
+NOUN PUNCT., NOUN ADJ	16
+NOUN PUNCT., NOUN ADP	25
+NOUN PUNCT., NOUN ADV	80
+NOUN PUNCT., NOUN AUX	40
+NOUN PUNCT., NOUN CCONJ	12
+NOUN PUNCT., NOUN NOUN	155
+NOUN PUNCT., NOUN NUM	30
+NOUN PUNCT., NOUN PART	58
+NOUN PUNCT., NOUN PROPN	22
+NOUN PUNCT., NOUN PUNCT	5
+NOUN PUNCT., NOUN PUNCT.,	12
+NOUN PUNCT., NOUN VERB	105
+NOUN PUNCT., NUM NOUN	146
+NOUN PUNCT., NUM VERB	5
+NOUN PUNCT., PART NOUN	19
+NOUN PUNCT., PRON ADP	15
+NOUN PUNCT., PRON ADV	20
+NOUN PUNCT., PRON AUX	7
+NOUN PUNCT., PRON NOUN	17
+NOUN PUNCT., PRON PART	12
+NOUN PUNCT., PRON VERB	39
+NOUN PUNCT., PRON.P AUX	6
+NOUN PUNCT., PRON.P VERB	7
+NOUN PUNCT., PROPN ADP	29
+NOUN PUNCT., PROPN ADV	27
+NOUN PUNCT., PROPN AUX	5
+NOUN PUNCT., PROPN NOUN	113
+NOUN PUNCT., PROPN NUM	7
+NOUN PUNCT., PROPN PART	62
+NOUN PUNCT., PROPN PROPN	122
+NOUN PUNCT., PROPN PUNCT	31
+NOUN PUNCT., PROPN VERB	64
+NOUN PUNCT., PUNCT PROPN	6
+NOUN PUNCT., VERB ADJ	21
+NOUN PUNCT., VERB ADP	52
+NOUN PUNCT., VERB ADV	17
+NOUN PUNCT., VERB AUX	6
+NOUN PUNCT., VERB DET	5
+NOUN PUNCT., VERB NOUN	153
+NOUN PUNCT., VERB NUM	49
+NOUN PUNCT., VERB PART	81
+NOUN PUNCT., VERB PRON	19
+NOUN PUNCT., VERB PRON.P	6
+NOUN PUNCT., VERB PROPN	123
+NOUN PUNCT., VERB PUNCT	6
+NOUN PUNCT., VERB VERB	173
+NOUN PUNCT., VERB X	7
+NOUN PUNCT., X X	8
+NOUN PUNCT.. PUNCT EOF	8
+NOUN PUNCT.; VERB PART	5
+NOUN VERB ADJ NOUN	50
+NOUN VERB ADJ PART	33
+NOUN VERB ADP ADV	7
+NOUN VERB ADP NOUN	41
+NOUN VERB ADP NUM	29
+NOUN VERB ADP PRON	6
+NOUN VERB ADP PROPN	38
+NOUN VERB ADP PUNCT.,	43
+NOUN VERB ADP VERB	25
+NOUN VERB ADV ADJ	6
+NOUN VERB ADV NUM	5
+NOUN VERB ADV VERB	39
+NOUN VERB AUX VERB	13
+NOUN VERB CCONJ VERB	13
+NOUN VERB DET NOUN	31
+NOUN VERB DET NUM	5
+NOUN VERB NOUN ADJ	9
+NOUN VERB NOUN ADP	17
+NOUN VERB NOUN ADV	12
+NOUN VERB NOUN AUX	7
+NOUN VERB NOUN CCONJ	13
+NOUN VERB NOUN NOUN	136
+NOUN VERB NOUN NUM	20
+NOUN VERB NOUN PART	84
+NOUN VERB NOUN PROPN	18
+NOUN VERB NOUN PUNCT	25
+NOUN VERB NOUN PUNCT.,	89
+NOUN VERB NOUN PUNCT..	52
+NOUN VERB NOUN VERB	91
+NOUN VERB NUM NOUN	187
+NOUN VERB NUM PROPN	5
+NOUN VERB NUM VERB	5
+NOUN VERB PART ADJ	39
+NOUN VERB PART ADP	14
+NOUN VERB PART ADV	26
+NOUN VERB PART AUX	16
+NOUN VERB PART CCONJ	9
+NOUN VERB PART DET	6
+NOUN VERB PART NOUN	233
+NOUN VERB PART NUM	55
+NOUN VERB PART PART	36
+NOUN VERB PART PRON	9
+NOUN VERB PART PROPN	57
+NOUN VERB PART PUNCT	29
+NOUN VERB PART PUNCT.,	45
+NOUN VERB PART PUNCT..	30
+NOUN VERB PART VERB	75
+NOUN VERB PRON ADV	6
+NOUN VERB PRON AUX	5
+NOUN VERB PRON PART	10
+NOUN VERB PRON VERB	14
+NOUN VERB PROPN ADP	10
+NOUN VERB PROPN ADV	7
+NOUN VERB PROPN CCONJ	5
+NOUN VERB PROPN NOUN	91
+NOUN VERB PROPN NUM	5
+NOUN VERB PROPN PART	91
+NOUN VERB PROPN PROPN	58
+NOUN VERB PROPN PUNCT	13
+NOUN VERB PROPN PUNCT.,	21
+NOUN VERB PROPN PUNCT..	16
+NOUN VERB PROPN VERB	44
+NOUN VERB PUNCT NOUN	17
+NOUN VERB PUNCT PROPN	8
+NOUN VERB PUNCT PUNCT..	6
+NOUN VERB PUNCT VERB	9
+NOUN VERB PUNCT., ADP	30
+NOUN VERB PUNCT., ADV	67
+NOUN VERB PUNCT., AUX	11
+NOUN VERB PUNCT., DET	7
+NOUN VERB PUNCT., NOUN	60
+NOUN VERB PUNCT., NUM	17
+NOUN VERB PUNCT., PRON	7
+NOUN VERB PUNCT., PROPN	34
+NOUN VERB PUNCT., VERB	78
+NOUN VERB PUNCT.. EOF	243
+NOUN VERB VERB ADJ	15
+NOUN VERB VERB ADP	17
+NOUN VERB VERB ADV	14
+NOUN VERB VERB AUX	9
+NOUN VERB VERB DET	20
+NOUN VERB VERB NOUN	151
+NOUN VERB VERB NUM	61
+NOUN VERB VERB PART	65
+NOUN VERB VERB PRON	11
+NOUN VERB VERB PROPN	125
+NOUN VERB VERB PUNCT	21
+NOUN VERB VERB PUNCT.,	45
+NOUN VERB VERB PUNCT..	46
+NOUN VERB VERB VERB	84
+NOUN VERB VERB X	14
+NOUN VERB X NOUN	7
+NOUN VERB X PUNCT.,	5
+NOUN VERB X PUNCT..	10
+NOUN X PART NOUN	5
+NOUN X PUNCT.. EOF	14
+NOUN X X X	5
+NUM ADJ PART NOUN	18
+NUM CCONJ NUM NOUN	23
+NUM NOUN ADJ NOUN	46
+NUM NOUN ADJ PART	52
+NUM NOUN ADP ADP	7
+NUM NOUN ADP ADV	16
+NUM NOUN ADP NOUN	35
+NUM NOUN ADP NUM	8
+NUM NOUN ADP PART	39
+NUM NOUN ADP PROPN	29
+NUM NOUN ADP PUNCT	5
+NUM NOUN ADP PUNCT.,	69
+NUM NOUN ADP PUNCT..	5
+NUM NOUN ADP VERB	43
+NUM NOUN ADV ADJ	13
+NUM NOUN ADV ADP	8
+NUM NOUN ADV ADV	10
+NUM NOUN ADV AUX	6
+NUM NOUN ADV VERB	76
+NUM NOUN AUX ADJ	5
+NUM NOUN AUX NOUN	7
+NUM NOUN AUX NUM	8
+NUM NOUN AUX PROPN	5
+NUM NOUN AUX VERB	13
+NUM NOUN CCONJ NOUN	9
+NUM NOUN CCONJ NUM	59
+NUM NOUN DET NOUN	6
+NUM NOUN NOUN ADJ	15
+NUM NOUN NOUN ADP	43
+NUM NOUN NOUN ADV	47
+NUM NOUN NOUN AUX	15
+NUM NOUN NOUN CCONJ	23
+NUM NOUN NOUN NOUN	191
+NUM NOUN NOUN NUM	25
+NUM NOUN NOUN PART	156
+NUM NOUN NOUN PROPN	18
+NUM NOUN NOUN PUNCT	42
+NUM NOUN NOUN PUNCT.,	166
+NUM NOUN NOUN PUNCT..	98
+NUM NOUN NOUN PUNCT.:	5
+NUM NOUN NOUN VERB	130
+NUM NOUN NOUN X	5
+NUM NOUN NUM NOUN	708
+NUM NOUN NUM VERB	5
+NUM NOUN PART ADJ	6
+NUM NOUN PART ADP	5
+NUM NOUN PART ADV	5
+NUM NOUN PART CCONJ	5
+NUM NOUN PART NOUN	160
+NUM NOUN PART NUM	15
+NUM NOUN PART PART	20
+NUM NOUN PART PROPN	27
+NUM NOUN PART PUNCT	15
+NUM NOUN PART PUNCT.,	17
+NUM NOUN PART VERB	13
+NUM NOUN PRON ADV	5
+NUM NOUN PRON VERB	14
+NUM NOUN PROPN ADP	5
+NUM NOUN PROPN NOUN	83
+NUM NOUN PROPN PART	35
+NUM NOUN PROPN PROPN	19
+NUM NOUN PROPN VERB	27
+NUM NOUN PUNCT NOUN	27
+NUM NOUN PUNCT NUM	58
+NUM NOUN PUNCT PART	12
+NUM NOUN PUNCT PROPN	17
+NUM NOUN PUNCT PUNCT	6
+NUM NOUN PUNCT PUNCT.,	28
+NUM NOUN PUNCT PUNCT..	16
+NUM NOUN PUNCT VERB	13
+NUM NOUN PUNCT., ADJ	30
+NUM NOUN PUNCT., ADP	45
+NUM NOUN PUNCT., ADV	49
+NUM NOUN PUNCT., AUX	21
+NUM NOUN PUNCT., DET	14
+NUM NOUN PUNCT., NOUN	169
+NUM NOUN PUNCT., NUM	68
+NUM NOUN PUNCT., PART	12
+NUM NOUN PUNCT., PRON	28
+NUM NOUN PUNCT., PRON.P	5
+NUM NOUN PUNCT., PROPN	262
+NUM NOUN PUNCT., PUNCT	5
+NUM NOUN PUNCT., VERB	108
+NUM NOUN PUNCT., X	8
+NUM NOUN PUNCT.. EOF	253
+NUM NOUN SYM NOUN	5
+NUM NOUN VERB ADJ	9
+NUM NOUN VERB ADP	36
+NUM NOUN VERB DET	9
+NUM NOUN VERB NOUN	97
+NUM NOUN VERB NUM	39
+NUM NOUN VERB PART	131
+NUM NOUN VERB PRON	6
+NUM NOUN VERB PROPN	97
+NUM NOUN VERB PUNCT	7
+NUM NOUN VERB PUNCT.,	50
+NUM NOUN VERB PUNCT..	46
+NUM NOUN VERB VERB	129
+NUM NOUN X NOUN	6
+NUM NUM NOUN NOUN	6
+NUM PART NOUN NOUN	12
+NUM PART NOUN PART	5
+NUM PART NOUN PUNCT	5
+NUM PART NOUN PUNCT.,	9
+NUM PART NOUN PUNCT..	8
+NUM PART NOUN VERB	8
+NUM PROPN NOUN PART	9
+NUM PROPN NOUN PUNCT.,	9
+NUM PROPN PART PART	5
+NUM PUNCT NUM NOUN	22
+NUM PUNCT NUM X	5
+NUM PUNCT PUNCT.. EOF	6
+NUM PUNCT., ADV VERB	7
+NUM PUNCT., NOUN NOUN	7
+NUM VERB NOUN PUNCT.,	5
+NUM VERB PART NOUN	5
+PART ADJ NOUN ADP	10
+PART ADJ NOUN ADV	8
+PART ADJ NOUN AUX	11
+PART ADJ NOUN CCONJ	6
+PART ADJ NOUN NOUN	29
+PART ADJ NOUN PART	21
+PART ADJ NOUN PUNCT.,	39
+PART ADJ NOUN PUNCT..	42
+PART ADJ NOUN VERB	20
+PART ADJ PART NOUN	48
+PART ADJ PART PUNCT.,	7
+PART ADJ PUNCT., ADV	5
+PART ADJ PUNCT.. EOF	13
+PART ADJ VERB PART	15
+PART ADP NOUN NOUN	12
+PART ADP NOUN PART	10
+PART ADP NOUN VERB	10
+PART ADP NUM NOUN	27
+PART ADP PART NOUN	11
+PART ADP PRON VERB	5
+PART ADP PROPN NOUN	7
+PART ADP PROPN PART	9
+PART ADP PROPN VERB	6
+PART ADP PUNCT., ADV	5
+PART ADP PUNCT., NOUN	7
+PART ADP PUNCT., PROPN	5
+PART ADP PUNCT., VERB	5
+PART ADP VERB NOUN	10
+PART ADP VERB NUM	7
+PART ADP VERB PART	7
+PART ADV ADJ PART	14
+PART ADV ADV VERB	22
+PART ADV AUX ADP	5
+PART ADV AUX VERB	13
+PART ADV VERB ADJ	7
+PART ADV VERB ADP	9
+PART ADV VERB NOUN	33
+PART ADV VERB NUM	22
+PART ADV VERB PART	19
+PART ADV VERB PRON	7
+PART ADV VERB PROPN	13
+PART ADV VERB PUNCT.,	7
+PART ADV VERB VERB	35
+PART AUX ADJ PUNCT.,	5
+PART AUX NOUN NOUN	6
+PART AUX NOUN PART	6
+PART AUX NOUN PUNCT.,	9
+PART AUX NOUN PUNCT..	5
+PART AUX NUM NOUN	25
+PART AUX PART PROPN	5
+PART AUX PROPN NOUN	16
+PART AUX PROPN PART	18
+PART AUX PROPN PROPN	13
+PART AUX VERB NOUN	11
+PART AUX VERB VERB	10
+PART CCONJ NOUN NOUN	19
+PART CCONJ NOUN PART	20
+PART CCONJ NOUN PUNCT..	6
+PART CCONJ NUM NOUN	10
+PART CCONJ PROPN NOUN	12
+PART CCONJ PROPN PART	50
+PART CCONJ VERB PART	17
+PART DET NOUN NOUN	20
+PART DET NOUN PUNCT.,	8
+PART DET NOUN PUNCT..	17
+PART DET NOUN VERB	7
+PART DET NUM NOUN	16
+PART NOUN ADJ NOUN	9
+PART NOUN ADJ PART	12
+PART NOUN ADJ PUNCT.,	15
+PART NOUN ADP ADP	6
+PART NOUN ADP ADV	8
+PART NOUN ADP DET	6
+PART NOUN ADP NOUN	30
+PART NOUN ADP NUM	15
+PART NOUN ADP PART	6
+PART NOUN ADP PRON	6
+PART NOUN ADP PROPN	11
+PART NOUN ADP PUNCT.,	67
+PART NOUN ADP PUNCT..	9
+PART NOUN ADP VERB	29
+PART NOUN ADV ADJ	17
+PART NOUN ADV ADP	13
+PART NOUN ADV ADV	17
+PART NOUN ADV AUX	33
+PART NOUN ADV VERB	142
+PART NOUN AUX ADJ	10
+PART NOUN AUX ADV	9
+PART NOUN AUX NOUN	36
+PART NOUN AUX NUM	45
+PART NOUN AUX PROPN	14
+PART NOUN AUX VERB	37
+PART NOUN CCONJ ADJ	6
+PART NOUN CCONJ NOUN	98
+PART NOUN CCONJ NUM	10
+PART NOUN CCONJ PROPN	11
+PART NOUN CCONJ VERB	6
+PART NOUN NOUN ADJ	21
+PART NOUN NOUN ADP	61
+PART NOUN NOUN ADV	67
+PART NOUN NOUN AUX	26
+PART NOUN NOUN CCONJ	41
+PART NOUN NOUN NOUN	165
+PART NOUN NOUN NUM	9
+PART NOUN NOUN PART	76
+PART NOUN NOUN PROPN	9
+PART NOUN NOUN PUNCT	47
+PART NOUN NOUN PUNCT.,	182
+PART NOUN NOUN PUNCT..	194
+PART NOUN NOUN VERB	134
+PART NOUN NUM NOUN	85
+PART NOUN NUM PUNCT	7
+PART NOUN PART ADJ	11
+PART NOUN PART ADP	13
+PART NOUN PART ADV	10
+PART NOUN PART AUX	5
+PART NOUN PART CCONJ	9
+PART NOUN PART NOUN	170
+PART NOUN PART NUM	46
+PART NOUN PART PART	39
+PART NOUN PART PROPN	16
+PART NOUN PART PUNCT	27
+PART NOUN PART PUNCT.,	40
+PART NOUN PART PUNCT..	37
+PART NOUN PART VERB	46
+PART NOUN PROPN NOUN	18
+PART NOUN PROPN PART	10
+PART NOUN PROPN PROPN	37
+PART NOUN PROPN PUNCT	11
+PART NOUN PROPN PUNCT.,	7
+PART NOUN PROPN VERB	10
+PART NOUN PUNCT AUX	5
+PART NOUN PUNCT CCONJ	5
+PART NOUN PUNCT NOUN	50
+PART NOUN PUNCT NUM	5
+PART NOUN PUNCT PART	6
+PART NOUN PUNCT PROPN	15
+PART NOUN PUNCT PUNCT	7
+PART NOUN PUNCT PUNCT.,	7
+PART NOUN PUNCT PUNCT..	16
+PART NOUN PUNCT VERB	16
+PART NOUN PUNCT X	10
+PART NOUN PUNCT., ADJ	10
+PART NOUN PUNCT., ADP	70
+PART NOUN PUNCT., ADV	202
+PART NOUN PUNCT., AUX	32
+PART NOUN PUNCT., CCONJ	10
+PART NOUN PUNCT., DET	13
+PART NOUN PUNCT., NOUN	110
+PART NOUN PUNCT., NUM	17
+PART NOUN PUNCT., PART	6
+PART NOUN PUNCT., PRON	30
+PART NOUN PUNCT., PRON.P	7
+PART NOUN PUNCT., PROPN	56
+PART NOUN PUNCT., VERB	208
+PART NOUN PUNCT.. EOF	688
+PART NOUN VERB ADJ	23
+PART NOUN VERB ADP	25
+PART NOUN VERB ADV	12
+PART NOUN VERB AUX	5
+PART NOUN VERB NOUN	81
+PART NOUN VERB NUM	23
+PART NOUN VERB PART	72
+PART NOUN VERB PRON	8
+PART NOUN VERB PROPN	49
+PART NOUN VERB PUNCT	6
+PART NOUN VERB PUNCT.,	53
+PART NOUN VERB PUNCT..	39
+PART NOUN VERB VERB	133
+PART NUM NOUN ADJ	24
+PART NUM NOUN ADP	9
+PART NUM NOUN ADV	12
+PART NUM NOUN NOUN	213
+PART NUM NOUN NUM	16
+PART NUM NOUN PART	24
+PART NUM NOUN PROPN	19
+PART NUM NOUN PUNCT	16
+PART NUM NOUN PUNCT.,	40
+PART NUM NOUN PUNCT..	32
+PART NUM NOUN VERB	35
+PART NUM PART NOUN	7
+PART NUM PUNCT., ADV	5
+PART NUM PUNCT.. EOF	56
+PART PART ADJ NOUN	16
+PART PART ADV VERB	5
+PART PART NOUN ADJ	6
+PART PART NOUN ADP	13
+PART PART NOUN ADV	12
+PART PART NOUN AUX	12
+PART PART NOUN CCONJ	13
+PART PART NOUN NOUN	96
+PART PART NOUN NUM	5
+PART PART NOUN PART	36
+PART PART NOUN PROPN	7
+PART PART NOUN PUNCT	7
+PART PART NOUN PUNCT.,	61
+PART PART NOUN PUNCT..	78
+PART PART NOUN VERB	36
+PART PART NUM NOUN	36
+PART PART PART NOUN	14
+PART PART PROPN NOUN	13
+PART PART PROPN PART	10
+PART PART PROPN PROPN	7
+PART PART PROPN PUNCT	7
+PART PART PUNCT NOUN	8
+PART PART PUNCT., ADV	5
+PART PART PUNCT., PROPN	7
+PART PART PUNCT.. EOF	7
+PART PART VERB PART	19
+PART PART VERB VERB	8
+PART PRON PART NOUN	11
+PART PROPN CCONJ PROPN	7
+PART PROPN NOUN ADP	6
+PART PROPN NOUN ADV	6
+PART PROPN NOUN CCONJ	5
+PART PROPN NOUN NOUN	53
+PART PROPN NOUN PART	25
+PART PROPN NOUN PROPN	7
+PART PROPN NOUN PUNCT	8
+PART PROPN NOUN PUNCT.,	25
+PART PROPN NOUN PUNCT..	19
+PART PROPN NOUN VERB	25
+PART PROPN NUM NOUN	9
+PART PROPN PART ADJ	6
+PART PROPN PART ADV	13
+PART PROPN PART AUX	5
+PART PROPN PART CCONJ	5
+PART PROPN PART NOUN	76
+PART PROPN PART NUM	9
+PART PROPN PART PART	28
+PART PROPN PART PROPN	70
+PART PROPN PART PUNCT	21
+PART PROPN PART PUNCT.,	28
+PART PROPN PART PUNCT..	11
+PART PROPN PART VERB	34
+PART PROPN PROPN ADP	6
+PART PROPN PROPN ADV	5
+PART PROPN PROPN CCONJ	5
+PART PROPN PROPN NOUN	23
+PART PROPN PROPN PART	19
+PART PROPN PROPN PUNCT.,	6
+PART PROPN PROPN VERB	23
+PART PROPN PUNCT PROPN	37
+PART PROPN PUNCT X	6
+PART PROPN PUNCT., ADV	8
+PART PROPN PUNCT., VERB	5
+PART PROPN PUNCT.. EOF	16
+PART PROPN VERB PART	12
+PART PROPN VERB PUNCT.,	7
+PART PROPN VERB VERB	5
+PART PUNCT ADJ PART	6
+PART PUNCT ADV VERB	5
+PART PUNCT CCONJ PUNCT	7
+PART PUNCT NOUN CCONJ	10
+PART PUNCT NOUN NOUN	28
+PART PUNCT NOUN PART	27
+PART PUNCT NOUN PROPN	7
+PART PUNCT NOUN PUNCT	20
+PART PUNCT NOUN VERB	8
+PART PUNCT NUM NOUN	17
+PART PUNCT PART NOUN	17
+PART PUNCT PART PROPN	5
+PART PUNCT PROPN NOUN	10
+PART PUNCT PROPN PART	100
+PART PUNCT PROPN PROPN	9
+PART PUNCT PROPN PUNCT	6
+PART PUNCT PUNCT X	5
+PART PUNCT PUNCT., ADV	6
+PART PUNCT PUNCT., VERB	5
+PART PUNCT PUNCT.. EOF	22
+PART PUNCT VERB NOUN	9
+PART PUNCT VERB PART	14
+PART PUNCT VERB VERB	6
+PART PUNCT X PUNCT	20
+PART PUNCT X X	13
+PART PUNCT., ADP NOUN	10
+PART PUNCT., ADP PRON	7
+PART PUNCT., ADP PROPN	6
+PART PUNCT., ADV ADP	9
+PART PUNCT., ADV ADV	8
+PART PUNCT., ADV AUX	12
+PART PUNCT., ADV NOUN	9
+PART PUNCT., ADV VERB	52
+PART PUNCT., AUX NUM	19
+PART PUNCT., AUX PROPN	26
+PART PUNCT., AUX VERB	10
+PART PUNCT., DET NOUN	8
+PART PUNCT., NOUN ADP	6
+PART PUNCT., NOUN ADV	15
+PART PUNCT., NOUN AUX	10
+PART PUNCT., NOUN NOUN	22
+PART PUNCT., NOUN NUM	8
+PART PUNCT., NOUN VERB	18
+PART PUNCT., NUM NOUN	12
+PART PUNCT., PRON ADV	8
+PART PUNCT., PRON VERB	12
+PART PUNCT., PROPN NOUN	11
+PART PUNCT., PROPN PART	12
+PART PUNCT., PROPN PROPN	5
+PART PUNCT., VERB ADJ	5
+PART PUNCT., VERB ADP	8
+PART PUNCT., VERB NOUN	21
+PART PUNCT., VERB NUM	7
+PART PUNCT., VERB PART	10
+PART PUNCT., VERB PROPN	26
+PART PUNCT., VERB VERB	28
+PART PUNCT.: X X	5
+PART VERB ADJ NOUN	8
+PART VERB ADP NOUN	8
+PART VERB ADP PUNCT.,	9
+PART VERB ADP VERB	5
+PART VERB ADV VERB	9
+PART VERB DET NOUN	5
+PART VERB NOUN CCONJ	5
+PART VERB NOUN NOUN	51
+PART VERB NOUN PART	16
+PART VERB NOUN PUNCT.,	11
+PART VERB NOUN PUNCT..	12
+PART VERB NOUN VERB	13
+PART VERB NUM NOUN	40
+PART VERB PART ADJ	13
+PART VERB PART ADP	7
+PART VERB PART ADV	21
+PART VERB PART AUX	7
+PART VERB PART CCONJ	9
+PART VERB PART DET	8
+PART VERB PART NOUN	59
+PART VERB PART NUM	28
+PART VERB PART PART	18
+PART VERB PART PROPN	28
+PART VERB PART PUNCT	10
+PART VERB PART PUNCT.,	34
+PART VERB PART PUNCT..	41
+PART VERB PART VERB	29
+PART VERB PROPN NOUN	21
+PART VERB PROPN PART	29
+PART VERB PROPN PROPN	15
+PART VERB PROPN VERB	9
+PART VERB PUNCT., ADP	6
+PART VERB PUNCT., ADV	12
+PART VERB PUNCT., NOUN	12
+PART VERB PUNCT., PROPN	18
+PART VERB PUNCT., VERB	10
+PART VERB PUNCT.. EOF	56
+PART VERB VERB ADP	11
+PART VERB VERB NOUN	39
+PART VERB VERB NUM	11
+PART VERB VERB PART	23
+PART VERB VERB PROPN	34
+PART VERB VERB PUNCT.,	20
+PART VERB VERB PUNCT..	6
+PART VERB VERB VERB	14
+PART X X VERB	5
+PRON ADJ PART NOUN	14
+PRON ADP NOUN NOUN	11
+PRON ADP NOUN PART	10
+PRON ADP NOUN VERB	10
+PRON ADP NUM NOUN	20
+PRON ADP PROPN NOUN	6
+PRON ADP PROPN VERB	6
+PRON ADV ADV VERB	11
+PRON ADV AUX VERB	9
+PRON ADV VERB ADP	6
+PRON ADV VERB NOUN	20
+PRON ADV VERB PART	16
+PRON ADV VERB PRON	10
+PRON ADV VERB PROPN	12
+PRON ADV VERB PUNCT.,	5
+PRON ADV VERB VERB	28
+PRON AUX ADP NOUN	5
+PRON AUX NUM NOUN	19
+PRON AUX PROPN NOUN	14
+PRON AUX PROPN PART	6
+PRON AUX VERB NOUN	7
+PRON NOUN ADV VERB	5
+PRON NOUN NOUN PART	5
+PRON NOUN NOUN PUNCT..	6
+PRON NOUN NOUN VERB	6
+PRON NOUN PART NOUN	16
+PRON NOUN PUNCT.. EOF	5
+PRON NOUN VERB PART	6
+PRON NOUN VERB PROPN	5
+PRON NOUN VERB VERB	9
+PRON NUM NOUN NOUN	11
+PRON NUM NOUN VERB	5
+PRON PART NOUN ADV	12
+PRON PART NOUN AUX	5
+PRON PART NOUN NOUN	31
+PRON PART NOUN PART	7
+PRON PART NOUN PROPN	6
+PRON PART NOUN PUNCT	8
+PRON PART NOUN PUNCT.,	22
+PRON PART NOUN PUNCT..	19
+PRON PART NOUN VERB	30
+PRON PART NUM NOUN	10
+PRON PART VERB PART	5
+PRON PUNCT., ADV VERB	6
+PRON VERB ADJ NOUN	5
+PRON VERB ADJ PART	8
+PRON VERB ADP NOUN	8
+PRON VERB ADP PROPN	5
+PRON VERB NOUN NOUN	11
+PRON VERB NOUN PART	9
+PRON VERB NOUN PUNCT.,	8
+PRON VERB NOUN VERB	11
+PRON VERB NUM NOUN	10
+PRON VERB PART NOUN	23
+PRON VERB PART NUM	9
+PRON VERB PART PROPN	8
+PRON VERB PART VERB	7
+PRON VERB PROPN NOUN	13
+PRON VERB PROPN PART	9
+PRON VERB PROPN VERB	7
+PRON VERB PUNCT., VERB	5
+PRON VERB PUNCT.. EOF	11
+PRON VERB VERB NOUN	18
+PRON VERB VERB PART	5
+PRON VERB VERB PRON	5
+PRON VERB VERB PROPN	11
+PRON VERB VERB VERB	16
+PRON.P ADV ADV VERB	5
+PRON.P ADV VERB VERB	6
+PRON.P PART NOUN NOUN	5
+PRON.P PART NOUN VERB	7
+PRON.P VERB NUM NOUN	6
+PROPN ADJ NOUN NOUN	5
+PROPN ADJ NOUN PART	9
+PROPN ADJ PART NOUN	10
+PROPN ADJ PART VERB	5
+PROPN ADP NOUN ADP	9
+PROPN ADP NOUN NOUN	14
+PROPN ADP NOUN PART	6
+PROPN ADP NOUN VERB	13
+PROPN ADP NUM NOUN	42
+PROPN ADP PART NOUN	8
+PROPN ADP PRON NOUN	5
+PROPN ADP PRON VERB	9
+PROPN ADP PROPN NOUN	10
+PROPN ADP PROPN PART	10
+PROPN ADP PROPN PROPN	9
+PROPN ADP PROPN VERB	10
+PROPN ADP VERB ADJ	5
+PROPN ADP VERB NOUN	7
+PROPN ADP VERB PROPN	6
+PROPN ADP VERB VERB	9
+PROPN ADV ADP NUM	5
+PROPN ADV ADP PROPN	9
+PROPN ADV ADV VERB	20
+PROPN ADV AUX PROPN	5
+PROPN ADV AUX VERB	5
+PROPN ADV NUM NOUN	9
+PROPN ADV VERB ADJ	6
+PROPN ADV VERB ADP	11
+PROPN ADV VERB ADV	9
+PROPN ADV VERB NOUN	25
+PROPN ADV VERB NUM	11
+PROPN ADV VERB PART	32
+PROPN ADV VERB PRON	7
+PROPN ADV VERB PROPN	24
+PROPN ADV VERB PUNCT.,	11
+PROPN ADV VERB PUNCT..	10
+PROPN ADV VERB VERB	48
+PROPN AUX ADJ PUNCT.,	6
+PROPN AUX NOUN NOUN	6
+PROPN AUX NOUN PART	5
+PROPN AUX NUM NOUN	14
+PROPN AUX PROPN NOUN	14
+PROPN AUX PROPN PART	20
+PROPN AUX PROPN PROPN	9
+PROPN CCONJ NOUN NOUN	6
+PROPN CCONJ NOUN PROPN	5
+PROPN CCONJ PROPN ADV	11
+PROPN CCONJ PROPN NOUN	27
+PROPN CCONJ PROPN NUM	5
+PROPN CCONJ PROPN PART	26
+PROPN CCONJ PROPN PROPN	21
+PROPN CCONJ PROPN PUNCT	9
+PROPN CCONJ PROPN PUNCT.,	8
+PROPN CCONJ PROPN VERB	18
+PROPN NOUN ADJ NOUN	10
+PROPN NOUN ADJ PART	10
+PROPN NOUN ADP NOUN	14
+PROPN NOUN ADP NUM	21
+PROPN NOUN ADP PART	8
+PROPN NOUN ADP PROPN	9
+PROPN NOUN ADP PUNCT.,	11
+PROPN NOUN ADP VERB	12
+PROPN NOUN ADV ADJ	7
+PROPN NOUN ADV ADP	5
+PROPN NOUN ADV ADV	11
+PROPN NOUN ADV AUX	7
+PROPN NOUN ADV VERB	56
+PROPN NOUN AUX NOUN	6
+PROPN NOUN AUX PROPN	12
+PROPN NOUN AUX VERB	7
+PROPN NOUN CCONJ NOUN	10
+PROPN NOUN CCONJ PROPN	29
+PROPN NOUN NOUN ADJ	12
+PROPN NOUN NOUN ADP	28
+PROPN NOUN NOUN ADV	24
+PROPN NOUN NOUN AUX	15
+PROPN NOUN NOUN CCONJ	14
+PROPN NOUN NOUN NOUN	132
+PROPN NOUN NOUN NUM	14
+PROPN NOUN NOUN PART	119
+PROPN NOUN NOUN PROPN	17
+PROPN NOUN NOUN PUNCT	31
+PROPN NOUN NOUN PUNCT.,	55
+PROPN NOUN NOUN PUNCT..	48
+PROPN NOUN NOUN VERB	85
+PROPN NOUN NUM NOUN	40
+PROPN NOUN PART ADJ	14
+PROPN NOUN PART ADP	11
+PROPN NOUN PART ADV	11
+PROPN NOUN PART AUX	6
+PROPN NOUN PART DET	5
+PROPN NOUN PART NOUN	145
+PROPN NOUN PART NUM	23
+PROPN NOUN PART PART	29
+PROPN NOUN PART PROPN	27
+PROPN NOUN PART PUNCT	15
+PROPN NOUN PART PUNCT.,	17
+PROPN NOUN PART PUNCT..	9
+PROPN NOUN PART VERB	40
+PROPN NOUN PROPN NOUN	21
+PROPN NOUN PROPN PART	31
+PROPN NOUN PROPN PROPN	17
+PROPN NOUN PROPN PUNCT	9
+PROPN NOUN PROPN VERB	6
+PROPN NOUN PUNCT ADP	7
+PROPN NOUN PUNCT ADV	5
+PROPN NOUN PUNCT NOUN	9
+PROPN NOUN PUNCT PROPN	38
+PROPN NOUN PUNCT PUNCT	5
+PROPN NOUN PUNCT PUNCT.,	10
+PROPN NOUN PUNCT PUNCT..	7
+PROPN NOUN PUNCT VERB	6
+PROPN NOUN PUNCT X	18
+PROPN NOUN PUNCT., ADP	13
+PROPN NOUN PUNCT., ADV	23
+PROPN NOUN PUNCT., AUX	11
+PROPN NOUN PUNCT., NOUN	21
+PROPN NOUN PUNCT., NUM	6
+PROPN NOUN PUNCT., PROPN	17
+PROPN NOUN PUNCT., VERB	42
+PROPN NOUN PUNCT.. EOF	87
+PROPN NOUN VERB ADP	20
+PROPN NOUN VERB NOUN	40
+PROPN NOUN VERB NUM	19
+PROPN NOUN VERB PART	64
+PROPN NOUN VERB PRON	7
+PROPN NOUN VERB PROPN	37
+PROPN NOUN VERB PUNCT.,	31
+PROPN NOUN VERB PUNCT..	22
+PROPN NOUN VERB VERB	46
+PROPN NUM NOUN ADP	7
+PROPN NUM NOUN NOUN	32
+PROPN NUM NOUN NUM	5
+PROPN NUM NOUN PART	14
+PROPN NUM NOUN PUNCT	29
+PROPN NUM NOUN PUNCT.,	12
+PROPN NUM NOUN PUNCT..	6
+PROPN NUM NOUN VERB	29
+PROPN NUM PART NOUN	7
+PROPN PART ADJ NOUN	31
+PROPN PART ADP NOUN	11
+PROPN PART ADP NUM	11
+PROPN PART ADP PART	7
+PROPN PART ADP PROPN	11
+PROPN PART ADP PUNCT.,	9
+PROPN PART ADP VERB	5
+PROPN PART ADV ADP	5
+PROPN PART ADV ADV	7
+PROPN PART ADV AUX	5
+PROPN PART ADV VERB	46
+PROPN PART AUX NOUN	7
+PROPN PART AUX NUM	8
+PROPN PART AUX PROPN	30
+PROPN PART AUX VERB	12
+PROPN PART CCONJ PROPN	53
+PROPN PART DET NOUN	5
+PROPN PART NOUN ADJ	7
+PROPN PART NOUN ADP	44
+PROPN PART NOUN ADV	36
+PROPN PART NOUN AUX	17
+PROPN PART NOUN CCONJ	15
+PROPN PART NOUN NOUN	150
+PROPN PART NOUN NUM	11
+PROPN PART NOUN PART	86
+PROPN PART NOUN PROPN	34
+PROPN PART NOUN PUNCT	16
+PROPN PART NOUN PUNCT.,	119
+PROPN PART NOUN PUNCT..	55
+PROPN PART NOUN VERB	89
+PROPN PART NUM NOUN	64
+PROPN PART PART NOUN	98
+PROPN PART PART NUM	16
+PROPN PART PART PART	10
+PROPN PART PART PROPN	16
+PROPN PART PART PUNCT	8
+PROPN PART PART PUNCT.,	15
+PROPN PART PART VERB	8
+PROPN PART PROPN NOUN	31
+PROPN PART PROPN PART	150
+PROPN PART PROPN PROPN	15
+PROPN PART PROPN PUNCT	9
+PROPN PART PUNCT NOUN	23
+PROPN PART PUNCT PART	6
+PROPN PART PUNCT PROPN	103
+PROPN PART PUNCT PUNCT.,	7
+PROPN PART PUNCT VERB	9
+PROPN PART PUNCT X	18
+PROPN PART PUNCT., ADP	6
+PROPN PART PUNCT., ADV	18
+PROPN PART PUNCT., AUX	27
+PROPN PART PUNCT., NOUN	32
+PROPN PART PUNCT., PRON	5
+PROPN PART PUNCT., PROPN	10
+PROPN PART PUNCT., VERB	26
+PROPN PART PUNCT.. EOF	73
+PROPN PART PUNCT.: X	6
+PROPN PART VERB NOUN	21
+PROPN PART VERB NUM	6
+PROPN PART VERB PART	75
+PROPN PART VERB PROPN	37
+PROPN PART VERB PUNCT.,	16
+PROPN PART VERB PUNCT..	21
+PROPN PART VERB VERB	59
+PROPN PROPN ADJ NOUN	8
+PROPN PROPN ADP NOUN	19
+PROPN PROPN ADP NUM	15
+PROPN PROPN ADP PRON	5
+PROPN PROPN ADP PROPN	11
+PROPN PROPN ADP VERB	9
+PROPN PROPN ADV ADP	9
+PROPN PROPN ADV VERB	71
+PROPN PROPN AUX NOUN	7
+PROPN PROPN AUX PROPN	22
+PROPN PROPN AUX VERB	6
+PROPN PROPN CCONJ NOUN	5
+PROPN PROPN CCONJ PROPN	29
+PROPN PROPN NOUN ADJ	8
+PROPN PROPN NOUN ADP	10
+PROPN PROPN NOUN ADV	12
+PROPN PROPN NOUN CCONJ	6
+PROPN PROPN NOUN NOUN	44
+PROPN PROPN NOUN NUM	7
+PROPN PROPN NOUN PART	27
+PROPN PROPN NOUN PROPN	14
+PROPN PROPN NOUN PUNCT	12
+PROPN PROPN NOUN PUNCT.,	13
+PROPN PROPN NOUN PUNCT..	14
+PROPN PROPN NOUN VERB	44
+PROPN PROPN NUM NOUN	29
+PROPN PROPN PART AUX	5
+PROPN PROPN PART NOUN	101
+PROPN PROPN PART NUM	14
+PROPN PROPN PART PART	14
+PROPN PROPN PART PROPN	45
+PROPN PROPN PART PUNCT	12
+PROPN PROPN PART PUNCT.,	10
+PROPN PROPN PART PUNCT..	5
+PROPN PROPN PART VERB	22
+PROPN PROPN PROPN NOUN	10
+PROPN PROPN PROPN PART	12
+PROPN PROPN PUNCT NUM	8
+PROPN PROPN PUNCT PROPN	69
+PROPN PROPN PUNCT VERB	5
+PROPN PROPN PUNCT., ADV	10
+PROPN PROPN PUNCT., NOUN	10
+PROPN PROPN PUNCT., PROPN	22
+PROPN PROPN PUNCT., VERB	15
+PROPN PROPN PUNCT.. EOF	33
+PROPN PROPN VERB ADP	24
+PROPN PROPN VERB DET	5
+PROPN PROPN VERB NOUN	52
+PROPN PROPN VERB NUM	7
+PROPN PROPN VERB PART	49
+PROPN PROPN VERB PRON	5
+PROPN PROPN VERB PROPN	76
+PROPN PROPN VERB PUNCT	12
+PROPN PROPN VERB PUNCT.,	35
+PROPN PROPN VERB PUNCT..	21
+PROPN PROPN VERB VERB	51
+PROPN PUNCT NUM NOUN	8
+PROPN PUNCT PART NOUN	10
+PROPN PUNCT PROPN ADP	10
+PROPN PUNCT PROPN ADV	11
+PROPN PUNCT PROPN CCONJ	32
+PROPN PUNCT PROPN NOUN	52
+PROPN PUNCT PROPN NUM	14
+PROPN PUNCT PROPN PART	32
+PROPN PUNCT PROPN PROPN	75
+PROPN PUNCT PROPN PUNCT	128
+PROPN PUNCT PROPN PUNCT.,	16
+PROPN PUNCT PROPN PUNCT..	6
+PROPN PUNCT PROPN VERB	52
+PROPN PUNCT PUNCT.. EOF	11
+PROPN PUNCT VERB VERB	5
+PROPN PUNCT X PUNCT	20
+PROPN PUNCT X X	42
+PROPN PUNCT., ADP NUM	6
+PROPN PUNCT., ADP PROPN	6
+PROPN PUNCT., ADV ADP	11
+PROPN PUNCT., ADV ADV	8
+PROPN PUNCT., ADV VERB	21
+PROPN PUNCT., AUX PROPN	6
+PROPN PUNCT., NOUN NOUN	6
+PROPN PUNCT., NOUN VERB	7
+PROPN PUNCT., NUM NOUN	11
+PROPN PUNCT., PROPN NOUN	13
+PROPN PUNCT., PROPN PART	12
+PROPN PUNCT., PROPN PROPN	12
+PROPN PUNCT., VERB NOUN	11
+PROPN PUNCT., VERB PROPN	16
+PROPN PUNCT., VERB VERB	14
+PROPN VERB ADP NOUN	6
+PROPN VERB ADP NUM	5
+PROPN VERB ADP PROPN	19
+PROPN VERB ADP PUNCT.,	22
+PROPN VERB ADV VERB	8
+PROPN VERB DET NOUN	9
+PROPN VERB NOUN NOUN	38
+PROPN VERB NOUN PART	15
+PROPN VERB NOUN PROPN	5
+PROPN VERB NOUN PUNCT.,	29
+PROPN VERB NOUN PUNCT..	8
+PROPN VERB NOUN VERB	21
+PROPN VERB NUM NOUN	36
+PROPN VERB PART ADJ	9
+PROPN VERB PART ADP	6
+PROPN VERB PART AUX	5
+PROPN VERB PART DET	9
+PROPN VERB PART NOUN	69
+PROPN VERB PART NUM	21
+PROPN VERB PART PART	8
+PROPN VERB PART PROPN	24
+PROPN VERB PART PUNCT	11
+PROPN VERB PART PUNCT.,	7
+PROPN VERB PART PUNCT..	7
+PROPN VERB PART VERB	21
+PROPN VERB PRON ADV	7
+PROPN VERB PRON PART	5
+PROPN VERB PRON VERB	5
+PROPN VERB PROPN ADP	9
+PROPN VERB PROPN ADV	7
+PROPN VERB PROPN NOUN	44
+PROPN VERB PROPN PART	34
+PROPN VERB PROPN PROPN	26
+PROPN VERB PROPN PUNCT	5
+PROPN VERB PROPN PUNCT.,	19
+PROPN VERB PROPN PUNCT..	5
+PROPN VERB PROPN VERB	34
+PROPN VERB PUNCT., ADP	6
+PROPN VERB PUNCT., ADV	14
+PROPN VERB PUNCT., NOUN	16
+PROPN VERB PUNCT., NUM	5
+PROPN VERB PUNCT., PROPN	21
+PROPN VERB PUNCT., VERB	25
+PROPN VERB PUNCT.. EOF	50
+PROPN VERB PUNCT.: PUNCT	5
+PROPN VERB VERB NOUN	31
+PROPN VERB VERB NUM	9
+PROPN VERB VERB PART	29
+PROPN VERB VERB PROPN	33
+PROPN VERB VERB PUNCT.,	12
+PROPN VERB VERB PUNCT..	9
+PROPN VERB VERB VERB	24
+PUNCT ADJ NOUN NOUN	7
+PUNCT ADJ NOUN PUNCT	14
+PUNCT ADJ PART NOUN	14
+PUNCT ADJ PART PUNCT	6
+PUNCT ADJ PUNCT ADJ	6
+PUNCT ADP NUM NOUN	9
+PUNCT ADV ADV VERB	5
+PUNCT ADV VERB NOUN	10
+PUNCT ADV VERB PART	10
+PUNCT ADV VERB PROPN	6
+PUNCT ADV VERB PUNCT..	5
+PUNCT ADV VERB VERB	11
+PUNCT AUX NOUN PART	10
+PUNCT AUX NUM NOUN	16
+PUNCT AUX PROPN NOUN	5
+PUNCT AUX PROPN PART	6
+PUNCT AUX PROPN PROPN	8
+PUNCT AUX VERB PART	5
+PUNCT AUX VERB VERB	7
+PUNCT CCONJ PUNCT NOUN	12
+PUNCT CCONJ PUNCT PROPN	6
+PUNCT NOUN ADV VERB	9
+PUNCT NOUN AUX NOUN	5
+PUNCT NOUN CCONJ NOUN	42
+PUNCT NOUN NOUN ADJ	6
+PUNCT NOUN NOUN CCONJ	13
+PUNCT NOUN NOUN NOUN	56
+PUNCT NOUN NOUN PART	17
+PUNCT NOUN NOUN PUNCT	81
+PUNCT NOUN NOUN PUNCT.,	11
+PUNCT NOUN NOUN PUNCT..	6
+PUNCT NOUN NOUN VERB	8
+PUNCT NOUN NUM NOUN	25
+PUNCT NOUN PART CCONJ	8
+PUNCT NOUN PART NOUN	31
+PUNCT NOUN PART PUNCT	39
+PUNCT NOUN PART VERB	5
+PUNCT NOUN PROPN NOUN	6
+PUNCT NOUN PROPN PUNCT	6
+PUNCT NOUN PUNCT AUX	9
+PUNCT NOUN PUNCT CCONJ	12
+PUNCT NOUN PUNCT NOUN	102
+PUNCT NOUN PUNCT NUM	5
+PUNCT NOUN PUNCT PART	9
+PUNCT NOUN PUNCT PROPN	5
+PUNCT NOUN PUNCT PUNCT	7
+PUNCT NOUN PUNCT PUNCT.,	12
+PUNCT NOUN PUNCT PUNCT..	9
+PUNCT NOUN PUNCT VERB	8
+PUNCT NOUN PUNCT.. EOF	14
+PUNCT NOUN PUNCT.: X	6
+PUNCT NOUN VERB NOUN	8
+PUNCT NOUN VERB NUM	5
+PUNCT NOUN VERB PART	11
+PUNCT NOUN VERB PROPN	6
+PUNCT NOUN VERB PUNCT	7
+PUNCT NOUN VERB PUNCT..	8
+PUNCT NOUN VERB VERB	6
+PUNCT NUM CCONJ NUM	5
+PUNCT NUM NOUN ADP	11
+PUNCT NUM NOUN NOUN	25
+PUNCT NUM NOUN NUM	14
+PUNCT NUM NOUN PART	16
+PUNCT NUM NOUN PUNCT	59
+PUNCT NUM NOUN PUNCT.,	12
+PUNCT NUM NOUN VERB	14
+PUNCT NUM X PUNCT	5
+PUNCT PART NOUN NOUN	11
+PUNCT PART NOUN PART	8
+PUNCT PART NOUN PROPN	7
+PUNCT PART NOUN PUNCT	11
+PUNCT PART NOUN PUNCT.,	17
+PUNCT PART NOUN PUNCT..	14
+PUNCT PART NOUN VERB	17
+PUNCT PART NUM NOUN	6
+PUNCT PART PROPN PART	8
+PUNCT PROPN ADP NUM	8
+PUNCT PROPN ADV VERB	6
+PUNCT PROPN CCONJ PROPN	31
+PUNCT PROPN NOUN NOUN	46
+PUNCT PROPN NOUN PART	18
+PUNCT PROPN NOUN PUNCT	44
+PUNCT PROPN NOUN VERB	8
+PUNCT PROPN NUM NOUN	21
+PUNCT PROPN PART CCONJ	11
+PUNCT PROPN PART NOUN	32
+PUNCT PROPN PART NUM	5
+PUNCT PROPN PART PART	10
+PUNCT PROPN PART PUNCT	99
+PUNCT PROPN PART PUNCT.:	5
+PUNCT PROPN PROPN CCONJ	8
+PUNCT PROPN PROPN NOUN	23
+PUNCT PROPN PROPN PART	6
+PUNCT PROPN PROPN PUNCT	44
+PUNCT PROPN PROPN VERB	17
+PUNCT PROPN PUNCT AUX	6
+PUNCT PROPN PUNCT NOUN	6
+PUNCT PROPN PUNCT PART	10
+PUNCT PROPN PUNCT PROPN	100
+PUNCT PROPN PUNCT PUNCT.,	9
+PUNCT PROPN PUNCT VERB	6
+PUNCT PROPN PUNCT X	31
+PUNCT PROPN PUNCT., VERB	6
+PUNCT PROPN PUNCT.. EOF	7
+PUNCT PROPN VERB ADP	8
+PUNCT PROPN VERB NOUN	8
+PUNCT PROPN VERB PART	10
+PUNCT PROPN VERB PROPN	14
+PUNCT PROPN VERB PUNCT	6
+PUNCT PROPN VERB PUNCT..	5
+PUNCT PROPN VERB VERB	10
+PUNCT PUNCT NOUN PUNCT	8
+PUNCT PUNCT PROPN PROPN	9
+PUNCT PUNCT PROPN PUNCT	6
+PUNCT PUNCT PUNCT NOUN	10
+PUNCT PUNCT X PUNCT	8
+PUNCT PUNCT X X	15
+PUNCT PUNCT., ADP NUM	5
+PUNCT PUNCT., ADV ADP	6
+PUNCT PUNCT., ADV AUX	5
+PUNCT PUNCT., ADV VERB	20
+PUNCT PUNCT., AUX NUM	6
+PUNCT PUNCT., AUX PROPN	9
+PUNCT PUNCT., NOUN NOUN	7
+PUNCT PUNCT., NOUN VERB	9
+PUNCT PUNCT., NUM NOUN	7
+PUNCT PUNCT., PROPN PROPN	13
+PUNCT PUNCT., VERB NOUN	5
+PUNCT PUNCT., VERB VERB	11
+PUNCT VERB CCONJ VERB	7
+PUNCT VERB NOUN NOUN	20
+PUNCT VERB NOUN PART	13
+PUNCT VERB NOUN PUNCT	9
+PUNCT VERB NOUN VERB	6
+PUNCT VERB NUM NOUN	8
+PUNCT VERB PART CCONJ	5
+PUNCT VERB PART NOUN	23
+PUNCT VERB PART PUNCT	12
+PUNCT VERB PROPN NOUN	6
+PUNCT VERB PROPN PART	7
+PUNCT VERB PROPN PUNCT	5
+PUNCT VERB PUNCT VERB	13
+PUNCT VERB PUNCT.. EOF	9
+PUNCT VERB VERB NOUN	8
+PUNCT VERB VERB NUM	8
+PUNCT VERB VERB PART	10
+PUNCT VERB VERB PROPN	9
+PUNCT VERB VERB PUNCT	5
+PUNCT VERB VERB VERB	6
+PUNCT X PUNCT ADV	6
+PUNCT X PUNCT AUX	10
+PUNCT X PUNCT CCONJ	6
+PUNCT X PUNCT NOUN	5
+PUNCT X PUNCT PART	8
+PUNCT X PUNCT PUNCT.,	17
+PUNCT X PUNCT PUNCT..	13
+PUNCT X PUNCT VERB	14
+PUNCT X X PUNCT	71
+PUNCT X X PUNCT.,	10
+PUNCT X X X	33
+PUNCT., ADJ NOUN ADV	5
+PUNCT., ADJ NOUN NOUN	6
+PUNCT., ADJ NOUN PART	5
+PUNCT., ADJ NOUN VERB	9
+PUNCT., ADJ NUM NOUN	14
+PUNCT., ADJ PART NOUN	11
+PUNCT., ADJ PROPN PART	6
+PUNCT., ADP ADJ NOUN	8
+PUNCT., ADP ADJ PART	6
+PUNCT., ADP DET NOUN	17
+PUNCT., ADP NOUN ADJ	7
+PUNCT., ADP NOUN ADP	8
+PUNCT., ADP NOUN ADV	9
+PUNCT., ADP NOUN AUX	7
+PUNCT., ADP NOUN NOUN	33
+PUNCT., ADP NOUN PART	15
+PUNCT., ADP NOUN PROPN	10
+PUNCT., ADP NOUN VERB	26
+PUNCT., ADP NUM NOUN	86
+PUNCT., ADP PRON ADP	12
+PUNCT., ADP PRON ADV	9
+PUNCT., ADP PRON AUX	7
+PUNCT., ADP PRON NOUN	9
+PUNCT., ADP PRON PART	6
+PUNCT., ADP PRON PRON	5
+PUNCT., ADP PRON VERB	19
+PUNCT., ADP PROPN ADP	5
+PUNCT., ADP PROPN NOUN	16
+PUNCT., ADP PROPN PART	15
+PUNCT., ADP PROPN PROPN	14
+PUNCT., ADP PROPN VERB	8
+PUNCT., ADP VERB ADP	6
+PUNCT., ADP VERB NOUN	18
+PUNCT., ADP VERB PART	7
+PUNCT., ADP VERB PROPN	7
+PUNCT., ADP VERB VERB	9
+PUNCT., ADV ADJ PART	12
+PUNCT., ADV ADP ADJ	6
+PUNCT., ADV ADP NOUN	43
+PUNCT., ADV ADP NUM	34
+PUNCT., ADV ADP PRON	9
+PUNCT., ADV ADP PROPN	27
+PUNCT., ADV ADP VERB	16
+PUNCT., ADV ADV ADP	11
+PUNCT., ADV ADV ADV	11
+PUNCT., ADV ADV AUX	8
+PUNCT., ADV ADV VERB	82
+PUNCT., ADV AUX ADP	9
+PUNCT., ADV AUX ADV	6
+PUNCT., ADV AUX NOUN	15
+PUNCT., ADV AUX PROPN	8
+PUNCT., ADV AUX VERB	48
+PUNCT., ADV DET NOUN	6
+PUNCT., ADV NOUN ADP	10
+PUNCT., ADV NOUN ADV	20
+PUNCT., ADV NOUN NOUN	26
+PUNCT., ADV NOUN PART	6
+PUNCT., ADV NOUN VERB	19
+PUNCT., ADV NUM NOUN	27
+PUNCT., ADV PRON ADV	8
+PUNCT., ADV PROPN ADV	5
+PUNCT., ADV PROPN NOUN	6
+PUNCT., ADV PROPN PART	13
+PUNCT., ADV PROPN PROPN	8
+PUNCT., ADV PROPN VERB	6
+PUNCT., ADV VERB ADJ	19
+PUNCT., ADV VERB ADP	34
+PUNCT., ADV VERB ADV	8
+PUNCT., ADV VERB AUX	7
+PUNCT., ADV VERB DET	16
+PUNCT., ADV VERB NOUN	122
+PUNCT., ADV VERB NUM	39
+PUNCT., ADV VERB PART	50
+PUNCT., ADV VERB PRON	27
+PUNCT., ADV VERB PROPN	73
+PUNCT., ADV VERB PUNCT	9
+PUNCT., ADV VERB PUNCT.,	6
+PUNCT., ADV VERB VERB	127
+PUNCT., AUX ADJ PART	9
+PUNCT., AUX ADP NOUN	10
+PUNCT., AUX NOUN NOUN	9
+PUNCT., AUX NOUN PART	8
+PUNCT., AUX NOUN PROPN	8
+PUNCT., AUX NUM NOUN	50
+PUNCT., AUX PROPN ADJ	5
+PUNCT., AUX PROPN NOUN	30
+PUNCT., AUX PROPN PART	19
+PUNCT., AUX PROPN PROPN	17
+PUNCT., AUX VERB NOUN	29
+PUNCT., AUX VERB NUM	7
+PUNCT., AUX VERB PART	6
+PUNCT., AUX VERB PROPN	6
+PUNCT., AUX VERB VERB	13
+PUNCT., CCONJ ADV VERB	5
+PUNCT., CCONJ NOUN NOUN	5
+PUNCT., CCONJ VERB NOUN	5
+PUNCT., CCONJ VERB VERB	9
+PUNCT., DET NOUN ADP	10
+PUNCT., DET NOUN ADV	13
+PUNCT., DET NOUN NOUN	37
+PUNCT., DET NOUN PART	7
+PUNCT., DET NOUN VERB	19
+PUNCT., DET NUM NOUN	19
+PUNCT., NOUN ADJ NOUN	6
+PUNCT., NOUN ADJ PART	5
+PUNCT., NOUN ADJ PUNCT.,	11
+PUNCT., NOUN ADP NOUN	12
+PUNCT., NOUN ADP NUM	10
+PUNCT., NOUN ADP PART	6
+PUNCT., NOUN ADP PROPN	5
+PUNCT., NOUN ADP VERB	7
+PUNCT., NOUN ADV ADJ	12
+PUNCT., NOUN ADV ADP	8
+PUNCT., NOUN ADV ADV	14
+PUNCT., NOUN ADV AUX	25
+PUNCT., NOUN ADV NUM	9
+PUNCT., NOUN ADV VERB	79
+PUNCT., NOUN AUX NOUN	22
+PUNCT., NOUN AUX NUM	14
+PUNCT., NOUN AUX PART	6
+PUNCT., NOUN AUX PROPN	7
+PUNCT., NOUN AUX VERB	16
+PUNCT., NOUN CCONJ NOUN	18
+PUNCT., NOUN NOUN ADJ	14
+PUNCT., NOUN NOUN ADP	14
+PUNCT., NOUN NOUN ADV	34
+PUNCT., NOUN NOUN AUX	30
+PUNCT., NOUN NOUN CCONJ	12
+PUNCT., NOUN NOUN DET	5
+PUNCT., NOUN NOUN NOUN	36
+PUNCT., NOUN NOUN NUM	36
+PUNCT., NOUN NOUN PART	22
+PUNCT., NOUN NOUN PROPN	6
+PUNCT., NOUN NOUN PUNCT.,	5
+PUNCT., NOUN NOUN VERB	52
+PUNCT., NOUN NUM NOUN	52
+PUNCT., NOUN PART ADP	6
+PUNCT., NOUN PART ADV	5
+PUNCT., NOUN PART CCONJ	5
+PUNCT., NOUN PART NOUN	44
+PUNCT., NOUN PART VERB	23
+PUNCT., NOUN PROPN NOUN	15
+PUNCT., NOUN PROPN PART	5
+PUNCT., NOUN PROPN PROPN	12
+PUNCT., NOUN PUNCT NOUN	9
+PUNCT., NOUN PUNCT., NOUN	9
+PUNCT., NOUN VERB ADJ	5
+PUNCT., NOUN VERB ADP	10
+PUNCT., NOUN VERB NOUN	42
+PUNCT., NOUN VERB NUM	22
+PUNCT., NOUN VERB PART	29
+PUNCT., NOUN VERB PROPN	31
+PUNCT., NOUN VERB PUNCT.,	6
+PUNCT., NOUN VERB PUNCT..	8
+PUNCT., NOUN VERB VERB	34
+PUNCT., NUM NOUN ADP	43
+PUNCT., NUM NOUN ADV	12
+PUNCT., NUM NOUN NOUN	53
+PUNCT., NUM NOUN NUM	21
+PUNCT., NUM NOUN PART	14
+PUNCT., NUM NOUN PROPN	8
+PUNCT., NUM NOUN PUNCT	6
+PUNCT., NUM NOUN PUNCT.,	12
+PUNCT., NUM NOUN VERB	69
+PUNCT., PART NOUN NOUN	7
+PUNCT., PART NOUN NUM	8
+PUNCT., PART NOUN PART	5
+PUNCT., PART NOUN VERB	5
+PUNCT., PRON ADP NOUN	10
+PUNCT., PRON ADP PROPN	6
+PUNCT., PRON ADV ADP	7
+PUNCT., PRON ADV AUX	5
+PUNCT., PRON ADV VERB	36
+PUNCT., PRON AUX PROPN	5
+PUNCT., PRON AUX VERB	7
+PUNCT., PRON NOUN AUX	5
+PUNCT., PRON NOUN VERB	9
+PUNCT., PRON PART NOUN	19
+PUNCT., PRON VERB ADP	9
+PUNCT., PRON VERB NOUN	7
+PUNCT., PRON VERB PART	17
+PUNCT., PRON VERB PRON	8
+PUNCT., PRON VERB PROPN	13
+PUNCT., PRON VERB VERB	17
+PUNCT., PROPN ADP NOUN	10
+PUNCT., PROPN ADP PROPN	18
+PUNCT., PROPN ADP VERB	5
+PUNCT., PROPN ADV ADP	6
+PUNCT., PROPN ADV VERB	37
+PUNCT., PROPN CCONJ PROPN	6
+PUNCT., PROPN NOUN ADP	10
+PUNCT., PROPN NOUN ADV	13
+PUNCT., PROPN NOUN AUX	5
+PUNCT., PROPN NOUN CCONJ	6
+PUNCT., PROPN NOUN NOUN	62
+PUNCT., PROPN NOUN PART	29
+PUNCT., PROPN NOUN PROPN	7
+PUNCT., PROPN NOUN VERB	51
+PUNCT., PROPN NUM NOUN	14
+PUNCT., PROPN PART ADV	12
+PUNCT., PROPN PART AUX	5
+PUNCT., PROPN PART CCONJ	11
+PUNCT., PROPN PART NOUN	45
+PUNCT., PROPN PART NUM	5
+PUNCT., PROPN PART PART	6
+PUNCT., PROPN PART PROPN	11
+PUNCT., PROPN PART PUNCT.,	6
+PUNCT., PROPN PART VERB	25
+PUNCT., PROPN PROPN ADP	23
+PUNCT., PROPN PROPN ADV	33
+PUNCT., PROPN PROPN AUX	5
+PUNCT., PROPN PROPN CCONJ	8
+PUNCT., PROPN PROPN NOUN	15
+PUNCT., PROPN PROPN NUM	8
+PUNCT., PROPN PROPN PART	24
+PUNCT., PROPN PROPN PUNCT	8
+PUNCT., PROPN PROPN VERB	100
+PUNCT., PROPN PUNCT PROPN	39
+PUNCT., PROPN VERB NOUN	9
+PUNCT., PROPN VERB NUM	5
+PUNCT., PROPN VERB PART	14
+PUNCT., PROPN VERB PRON	8
+PUNCT., PROPN VERB PROPN	29
+PUNCT., PROPN VERB VERB	37
+PUNCT., PUNCT NOUN PART	5
+PUNCT., PUNCT PROPN PUNCT	5
+PUNCT., VERB ADJ NOUN	19
+PUNCT., VERB ADJ PART	14
+PUNCT., VERB ADP ADV	6
+PUNCT., VERB ADP DET	5
+PUNCT., VERB ADP NOUN	22
+PUNCT., VERB ADP NUM	11
+PUNCT., VERB ADP PROPN	26
+PUNCT., VERB ADP VERB	5
+PUNCT., VERB ADV VERB	17
+PUNCT., VERB AUX VERB	5
+PUNCT., VERB DET NOUN	8
+PUNCT., VERB NOUN ADJ	9
+PUNCT., VERB NOUN ADP	7
+PUNCT., VERB NOUN ADV	8
+PUNCT., VERB NOUN AUX	9
+PUNCT., VERB NOUN CCONJ	13
+PUNCT., VERB NOUN NOUN	85
+PUNCT., VERB NOUN NUM	13
+PUNCT., VERB NOUN PART	45
+PUNCT., VERB NOUN PROPN	6
+PUNCT., VERB NOUN PUNCT	12
+PUNCT., VERB NOUN PUNCT.,	16
+PUNCT., VERB NOUN PUNCT..	8
+PUNCT., VERB NOUN VERB	33
+PUNCT., VERB NUM NOUN	71
+PUNCT., VERB PART ADJ	8
+PUNCT., VERB PART ADP	11
+PUNCT., VERB PART ADV	7
+PUNCT., VERB PART AUX	16
+PUNCT., VERB PART NOUN	36
+PUNCT., VERB PART NUM	14
+PUNCT., VERB PART PRON	5
+PUNCT., VERB PART PROPN	26
+PUNCT., VERB PART VERB	15
+PUNCT., VERB PRON ADP	5
+PUNCT., VERB PRON ADV	5
+PUNCT., VERB PRON AUX	6
+PUNCT., VERB PRON NOUN	6
+PUNCT., VERB PRON VERB	10
+PUNCT., VERB PRON.P VERB	6
+PUNCT., VERB PROPN ADP	6
+PUNCT., VERB PROPN CCONJ	5
+PUNCT., VERB PROPN NOUN	47
+PUNCT., VERB PROPN PART	70
+PUNCT., VERB PROPN PROPN	39
+PUNCT., VERB PROPN PUNCT	11
+PUNCT., VERB PROPN PUNCT.,	5
+PUNCT., VERB PROPN VERB	24
+PUNCT., VERB PUNCT.. EOF	5
+PUNCT., VERB VERB ADJ	6
+PUNCT., VERB VERB ADP	7
+PUNCT., VERB VERB ADV	9
+PUNCT., VERB VERB NOUN	69
+PUNCT., VERB VERB NUM	22
+PUNCT., VERB VERB PART	29
+PUNCT., VERB VERB PRON	6
+PUNCT., VERB VERB PROPN	94
+PUNCT., VERB VERB PUNCT	5
+PUNCT., VERB VERB PUNCT.,	7
+PUNCT., VERB VERB VERB	37
+PUNCT., X PUNCT., X	5
+PUNCT.: X X PUNCT	5
+VERB ADJ ADJ PART	7
+VERB ADJ NOUN ADP	5
+VERB ADJ NOUN ADV	5
+VERB ADJ NOUN CCONJ	5
+VERB ADJ NOUN NOUN	30
+VERB ADJ NOUN PART	44
+VERB ADJ NOUN PUNCT	6
+VERB ADJ NOUN PUNCT.,	38
+VERB ADJ NOUN PUNCT..	30
+VERB ADJ NOUN VERB	20
+VERB ADJ NUM NOUN	6
+VERB ADJ PART NOUN	102
+VERB ADJ PART PROPN	12
+VERB ADJ PART PUNCT.,	7
+VERB ADJ PART VERB	15
+VERB ADJ PROPN NOUN	6
+VERB ADP ADJ PART	9
+VERB ADP ADP NOUN	6
+VERB ADP ADV VERB	18
+VERB ADP AUX VERB	7
+VERB ADP DET NOUN	11
+VERB ADP DET NUM	5
+VERB ADP NOUN ADJ	7
+VERB ADP NOUN ADP	13
+VERB ADP NOUN ADV	5
+VERB ADP NOUN CCONJ	7
+VERB ADP NOUN NOUN	53
+VERB ADP NOUN NUM	12
+VERB ADP NOUN PART	21
+VERB ADP NOUN PUNCT	6
+VERB ADP NOUN VERB	21
+VERB ADP NUM NOUN	68
+VERB ADP PART NOUN	6
+VERB ADP PRON VERB	7
+VERB ADP PROPN CCONJ	6
+VERB ADP PROPN NOUN	40
+VERB ADP PROPN PART	28
+VERB ADP PROPN PROPN	24
+VERB ADP PROPN PUNCT.,	6
+VERB ADP PROPN VERB	15
+VERB ADP PUNCT., ADP	5
+VERB ADP PUNCT., ADV	7
+VERB ADP PUNCT., NOUN	18
+VERB ADP PUNCT., NUM	5
+VERB ADP PUNCT., PRON	10
+VERB ADP PUNCT., PROPN	45
+VERB ADP PUNCT., VERB	19
+VERB ADP VERB ADP	6
+VERB ADP VERB NOUN	18
+VERB ADP VERB PART	13
+VERB ADP VERB PUNCT.,	5
+VERB ADP VERB VERB	14
+VERB ADV ADJ NOUN	7
+VERB ADV ADJ PART	25
+VERB ADV ADV VERB	8
+VERB ADV NUM NOUN	19
+VERB ADV VERB NOUN	31
+VERB ADV VERB PART	23
+VERB ADV VERB PROPN	11
+VERB ADV VERB PUNCT.,	16
+VERB ADV VERB PUNCT..	19
+VERB ADV VERB VERB	33
+VERB ADV VERB X	6
+VERB AUX VERB NOUN	9
+VERB AUX VERB PART	8
+VERB AUX VERB VERB	7
+VERB CCONJ VERB NOUN	14
+VERB CCONJ VERB PART	5
+VERB CCONJ VERB PUNCT.,	7
+VERB CCONJ VERB PUNCT..	10
+VERB CCONJ VERB VERB	8
+VERB DET NOUN ADV	5
+VERB DET NOUN NOUN	58
+VERB DET NOUN PART	28
+VERB DET NOUN PUNCT.,	18
+VERB DET NOUN PUNCT..	12
+VERB DET NOUN VERB	21
+VERB DET NUM NOUN	39
+VERB DET PART NOUN	9
+VERB DET VERB PART	7
+VERB NOUN ADJ NOUN	11
+VERB NOUN ADJ PART	26
+VERB NOUN ADJ PUNCT.,	5
+VERB NOUN ADP ADV	6
+VERB NOUN ADP NOUN	12
+VERB NOUN ADP PART	9
+VERB NOUN ADP PROPN	5
+VERB NOUN ADP PUNCT.,	16
+VERB NOUN ADP VERB	15
+VERB NOUN ADV ADJ	5
+VERB NOUN ADV AUX	6
+VERB NOUN ADV VERB	52
+VERB NOUN AUX ADJ	6
+VERB NOUN AUX NOUN	8
+VERB NOUN AUX VERB	14
+VERB NOUN CCONJ ADJ	5
+VERB NOUN CCONJ DET	6
+VERB NOUN CCONJ NOUN	58
+VERB NOUN CCONJ VERB	5
+VERB NOUN DET NOUN	6
+VERB NOUN NOUN ADJ	12
+VERB NOUN NOUN ADP	28
+VERB NOUN NOUN ADV	21
+VERB NOUN NOUN AUX	8
+VERB NOUN NOUN CCONJ	36
+VERB NOUN NOUN NOUN	119
+VERB NOUN NOUN NUM	13
+VERB NOUN NOUN PART	144
+VERB NOUN NOUN PROPN	13
+VERB NOUN NOUN PUNCT	26
+VERB NOUN NOUN PUNCT.,	129
+VERB NOUN NOUN PUNCT..	125
+VERB NOUN NOUN VERB	89
+VERB NOUN NUM NOUN	51
+VERB NOUN PART ADJ	7
+VERB NOUN PART ADP	8
+VERB NOUN PART ADV	7
+VERB NOUN PART CCONJ	9
+VERB NOUN PART DET	6
+VERB NOUN PART NOUN	236
+VERB NOUN PART NUM	12
+VERB NOUN PART PART	42
+VERB NOUN PART PROPN	23
+VERB NOUN PART PUNCT	16
+VERB NOUN PART PUNCT.,	29
+VERB NOUN PART PUNCT..	24
+VERB NOUN PART VERB	45
+VERB NOUN PROPN NOUN	18
+VERB NOUN PROPN PART	21
+VERB NOUN PROPN PROPN	13
+VERB NOUN PROPN PUNCT.,	7
+VERB NOUN PROPN VERB	6
+VERB NOUN PUNCT NOUN	68
+VERB NOUN PUNCT VERB	13
+VERB NOUN PUNCT X	7
+VERB NOUN PUNCT., ADJ	5
+VERB NOUN PUNCT., ADP	29
+VERB NOUN PUNCT., ADV	72
+VERB NOUN PUNCT., AUX	11
+VERB NOUN PUNCT., CCONJ	6
+VERB NOUN PUNCT., DET	6
+VERB NOUN PUNCT., NOUN	49
+VERB NOUN PUNCT., NUM	8
+VERB NOUN PUNCT., PRON	11
+VERB NOUN PUNCT., PROPN	29
+VERB NOUN PUNCT., VERB	88
+VERB NOUN PUNCT.. EOF	236
+VERB NOUN VERB ADJ	6
+VERB NOUN VERB ADP	6
+VERB NOUN VERB ADV	10
+VERB NOUN VERB DET	6
+VERB NOUN VERB NOUN	56
+VERB NOUN VERB NUM	12
+VERB NOUN VERB PART	76
+VERB NOUN VERB PRON	8
+VERB NOUN VERB PROPN	34
+VERB NOUN VERB PUNCT	7
+VERB NOUN VERB PUNCT.,	43
+VERB NOUN VERB PUNCT..	38
+VERB NOUN VERB VERB	58
+VERB NOUN VERB X	6
+VERB NUM ADJ NOUN	6
+VERB NUM ADJ PART	6
+VERB NUM CCONJ NUM	12
+VERB NUM NOUN ADJ	35
+VERB NUM NOUN ADP	29
+VERB NUM NOUN ADV	18
+VERB NUM NOUN CCONJ	6
+VERB NUM NOUN NOUN	268
+VERB NUM NOUN NUM	27
+VERB NUM NOUN PART	76
+VERB NUM NOUN PROPN	26
+VERB NUM NOUN PUNCT	17
+VERB NUM NOUN PUNCT.,	117
+VERB NUM NOUN PUNCT..	63
+VERB NUM NOUN VERB	100
+VERB NUM PART NOUN	16
+VERB NUM PROPN NOUN	15
+VERB NUM PROPN PART	6
+VERB NUM PUNCT NUM	5
+VERB NUM PUNCT.. EOF	8
+VERB NUM VERB PART	5
+VERB PART ADJ NOUN	47
+VERB PART ADJ PART	42
+VERB PART ADJ PUNCT.,	7
+VERB PART ADJ PUNCT..	5
+VERB PART ADP NOUN	19
+VERB PART ADP NUM	5
+VERB PART ADP PROPN	10
+VERB PART ADP PUNCT.,	8
+VERB PART ADP VERB	11
+VERB PART ADV ADJ	11
+VERB PART ADV ADV	9
+VERB PART ADV AUX	12
+VERB PART ADV VERB	55
+VERB PART AUX ADV	5
+VERB PART AUX NOUN	15
+VERB PART AUX NUM	14
+VERB PART AUX PROPN	12
+VERB PART AUX VERB	16
+VERB PART CCONJ NOUN	15
+VERB PART CCONJ NUM	7
+VERB PART CCONJ VERB	15
+VERB PART DET NOUN	36
+VERB PART NOUN ADJ	11
+VERB PART NOUN ADP	33
+VERB PART NOUN ADV	29
+VERB PART NOUN AUX	33
+VERB PART NOUN CCONJ	23
+VERB PART NOUN NOUN	186
+VERB PART NOUN NUM	10
+VERB PART NOUN PART	107
+VERB PART NOUN PROPN	13
+VERB PART NOUN PUNCT	31
+VERB PART NOUN PUNCT.,	156
+VERB PART NOUN PUNCT..	143
+VERB PART NOUN VERB	89
+VERB PART NUM NOUN	185
+VERB PART NUM PROPN	5
+VERB PART PART NOUN	84
+VERB PART PART NUM	11
+VERB PART PART VERB	9
+VERB PART PRON PART	16
+VERB PART PRON VERB	5
+VERB PART PROPN CCONJ	7
+VERB PART PROPN NOUN	65
+VERB PART PROPN NUM	8
+VERB PART PROPN PART	53
+VERB PART PROPN PROPN	35
+VERB PART PROPN PUNCT	14
+VERB PART PROPN PUNCT.,	11
+VERB PART PROPN PUNCT..	7
+VERB PART PROPN VERB	18
+VERB PART PUNCT ADJ	6
+VERB PART PUNCT ADP	6
+VERB PART PUNCT NOUN	23
+VERB PART PUNCT NUM	6
+VERB PART PUNCT PART	5
+VERB PART PUNCT PROPN	11
+VERB PART PUNCT PUNCT.,	5
+VERB PART PUNCT PUNCT..	6
+VERB PART PUNCT VERB	12
+VERB PART PUNCT X	5
+VERB PART PUNCT., ADP	11
+VERB PART PUNCT., ADV	32
+VERB PART PUNCT., AUX	10
+VERB PART PUNCT., DET	5
+VERB PART PUNCT., NOUN	23
+VERB PART PUNCT., PRON	8
+VERB PART PUNCT., VERB	38
+VERB PART PUNCT.. EOF	116
+VERB PART VERB ADP	12
+VERB PART VERB ADV	5
+VERB PART VERB NOUN	38
+VERB PART VERB NUM	24
+VERB PART VERB PART	62
+VERB PART VERB PRON	6
+VERB PART VERB PROPN	23
+VERB PART VERB PUNCT.,	22
+VERB PART VERB PUNCT..	14
+VERB PART VERB VERB	38
+VERB PART X X	7
+VERB PRON ADJ PART	9
+VERB PRON ADP NOUN	7
+VERB PRON ADV AUX	5
+VERB PRON ADV VERB	22
+VERB PRON AUX NOUN	6
+VERB PRON AUX PUNCT	6
+VERB PRON NOUN ADP	6
+VERB PRON NOUN NOUN	8
+VERB PRON NOUN PART	9
+VERB PRON NOUN PUNCT..	5
+VERB PRON NOUN VERB	5
+VERB PRON NUM NOUN	8
+VERB PRON PART NOUN	58
+VERB PRON PUNCT., ADV	7
+VERB PRON PUNCT.. EOF	8
+VERB PRON VERB NOUN	11
+VERB PRON VERB PART	13
+VERB PRON VERB PROPN	5
+VERB PRON VERB PUNCT.,	6
+VERB PRON VERB PUNCT..	7
+VERB PRON VERB VERB	17
+VERB PRON.P PART NOUN	7
+VERB PRON.P VERB VERB	8
+VERB PROPN ADJ PART	5
+VERB PROPN ADP NOUN	8
+VERB PROPN ADP PRON	5
+VERB PROPN ADP PUNCT.,	13
+VERB PROPN ADP VERB	7
+VERB PROPN ADV VERB	19
+VERB PROPN AUX NOUN	6
+VERB PROPN CCONJ PROPN	29
+VERB PROPN NOUN ADJ	5
+VERB PROPN NOUN ADP	13
+VERB PROPN NOUN ADV	12
+VERB PROPN NOUN CCONJ	19
+VERB PROPN NOUN NOUN	137
+VERB PROPN NOUN NUM	12
+VERB PROPN NOUN PART	97
+VERB PROPN NOUN PROPN	18
+VERB PROPN NOUN PUNCT	18
+VERB PROPN NOUN PUNCT.,	46
+VERB PROPN NOUN PUNCT..	25
+VERB PROPN NOUN VERB	55
+VERB PROPN NUM NOUN	19
+VERB PROPN PART ADJ	9
+VERB PROPN PART ADP	8
+VERB PROPN PART CCONJ	17
+VERB PROPN PART NOUN	165
+VERB PROPN PART NUM	13
+VERB PROPN PART PART	48
+VERB PROPN PART PROPN	45
+VERB PROPN PART PUNCT	17
+VERB PROPN PART PUNCT.,	45
+VERB PROPN PART PUNCT..	27
+VERB PROPN PART VERB	70
+VERB PROPN PROPN ADV	7
+VERB PROPN PROPN AUX	12
+VERB PROPN PROPN CCONJ	7
+VERB PROPN PROPN NOUN	51
+VERB PROPN PROPN NUM	5
+VERB PROPN PROPN PART	80
+VERB PROPN PROPN PROPN	8
+VERB PROPN PROPN PUNCT	14
+VERB PROPN PROPN PUNCT.,	19
+VERB PROPN PROPN PUNCT..	14
+VERB PROPN PROPN VERB	65
+VERB PROPN PUNCT PROPN	63
+VERB PROPN PUNCT X	6
+VERB PROPN PUNCT., ADP	11
+VERB PROPN PUNCT., ADV	16
+VERB PROPN PUNCT., NOUN	9
+VERB PROPN PUNCT., PROPN	14
+VERB PROPN PUNCT., VERB	25
+VERB PROPN PUNCT.. EOF	52
+VERB PROPN VERB ADP	6
+VERB PROPN VERB NOUN	27
+VERB PROPN VERB NUM	9
+VERB PROPN VERB PART	46
+VERB PROPN VERB PROPN	23
+VERB PROPN VERB PUNCT.,	20
+VERB PROPN VERB PUNCT..	15
+VERB PROPN VERB VERB	20
+VERB PUNCT ADJ NOUN	7
+VERB PUNCT ADP VERB	5
+VERB PUNCT NOUN NOUN	14
+VERB PUNCT NOUN PART	9
+VERB PUNCT NOUN PUNCT	22
+VERB PUNCT NOUN VERB	10
+VERB PUNCT NUM NOUN	7
+VERB PUNCT PART NOUN	7
+VERB PUNCT PROPN NOUN	13
+VERB PUNCT PROPN PART	10
+VERB PUNCT PROPN PROPN	9
+VERB PUNCT PROPN PUNCT	8
+VERB PUNCT PUNCT.. EOF	13
+VERB PUNCT VERB CCONJ	6
+VERB PUNCT VERB NOUN	8
+VERB PUNCT VERB PART	7
+VERB PUNCT VERB PUNCT	14
+VERB PUNCT VERB VERB	7
+VERB PUNCT., ADP NOUN	20
+VERB PUNCT., ADP NUM	18
+VERB PUNCT., ADP PRON	14
+VERB PUNCT., ADP PROPN	6
+VERB PUNCT., ADP VERB	10
+VERB PUNCT., ADV ADP	30
+VERB PUNCT., ADV ADV	26
+VERB PUNCT., ADV AUX	8
+VERB PUNCT., ADV NOUN	16
+VERB PUNCT., ADV NUM	7
+VERB PUNCT., ADV PRON	5
+VERB PUNCT., ADV PROPN	10
+VERB PUNCT., ADV VERB	85
+VERB PUNCT., AUX VERB	12
+VERB PUNCT., DET NOUN	14
+VERB PUNCT., NOUN ADJ	11
+VERB PUNCT., NOUN ADP	9
+VERB PUNCT., NOUN ADV	18
+VERB PUNCT., NOUN AUX	15
+VERB PUNCT., NOUN NOUN	31
+VERB PUNCT., NOUN NUM	12
+VERB PUNCT., NOUN PART	13
+VERB PUNCT., NOUN PROPN	9
+VERB PUNCT., NOUN VERB	33
+VERB PUNCT., NUM NOUN	40
+VERB PUNCT., PRON ADP	5
+VERB PUNCT., PRON ADV	5
+VERB PUNCT., PRON NOUN	5
+VERB PUNCT., PRON VERB	6
+VERB PUNCT., PROPN ADV	10
+VERB PUNCT., PROPN NOUN	19
+VERB PUNCT., PROPN NUM	5
+VERB PUNCT., PROPN PART	16
+VERB PUNCT., PROPN PROPN	32
+VERB PUNCT., PROPN VERB	15
+VERB PUNCT., VERB ADJ	7
+VERB PUNCT., VERB ADP	12
+VERB PUNCT., VERB ADV	5
+VERB PUNCT., VERB NOUN	35
+VERB PUNCT., VERB NUM	18
+VERB PUNCT., VERB PART	30
+VERB PUNCT., VERB PRON	7
+VERB PUNCT., VERB PROPN	32
+VERB PUNCT., VERB VERB	45
+VERB PUNCT.. PUNCT EOF	5
+VERB VERB ADJ NOUN	27
+VERB VERB ADJ PART	26
+VERB VERB ADJ PROPN	5
+VERB VERB ADP NOUN	19
+VERB VERB ADP PROPN	11
+VERB VERB ADP PUNCT.,	8
+VERB VERB ADP VERB	9
+VERB VERB ADV ADJ	10
+VERB VERB ADV VERB	30
+VERB VERB AUX NOUN	8
+VERB VERB AUX PROPN	5
+VERB VERB AUX VERB	7
+VERB VERB CCONJ VERB	12
+VERB VERB DET NOUN	37
+VERB VERB DET NUM	10
+VERB VERB NOUN ADJ	13
+VERB VERB NOUN ADP	20
+VERB VERB NOUN ADV	17
+VERB VERB NOUN CCONJ	22
+VERB VERB NOUN NOUN	187
+VERB VERB NOUN NUM	13
+VERB VERB NOUN PART	128
+VERB VERB NOUN PROPN	15
+VERB VERB NOUN PUNCT	25
+VERB VERB NOUN PUNCT.,	57
+VERB VERB NOUN PUNCT..	60
+VERB VERB NOUN VERB	48
+VERB VERB NUM NOUN	166
+VERB VERB NUM PART	5
+VERB VERB PART ADJ	15
+VERB VERB PART ADP	6
+VERB VERB PART AUX	8
+VERB VERB PART CCONJ	6
+VERB VERB PART NOUN	141
+VERB VERB PART NUM	12
+VERB VERB PART PART	30
+VERB VERB PART PROPN	30
+VERB VERB PART PUNCT	14
+VERB VERB PART PUNCT.,	25
+VERB VERB PART PUNCT..	16
+VERB VERB PART VERB	32
+VERB VERB PRON NOUN	9
+VERB VERB PRON PART	16
+VERB VERB PRON VERB	8
+VERB VERB PROPN ADJ	6
+VERB VERB PROPN CCONJ	10
+VERB VERB PROPN NOUN	126
+VERB VERB PROPN NUM	8
+VERB VERB PROPN PART	151
+VERB VERB PROPN PROPN	83
+VERB VERB PROPN PUNCT	25
+VERB VERB PROPN PUNCT.,	16
+VERB VERB PROPN PUNCT..	14
+VERB VERB PROPN VERB	17
+VERB VERB PUNCT ADJ	5
+VERB VERB PUNCT NOUN	19
+VERB VERB PUNCT PART	5
+VERB VERB PUNCT PROPN	17
+VERB VERB PUNCT VERB	14
+VERB VERB PUNCT., ADP	12
+VERB VERB PUNCT., ADV	41
+VERB VERB PUNCT., NOUN	23
+VERB VERB PUNCT., NUM	8
+VERB VERB PUNCT., PROPN	9
+VERB VERB PUNCT., VERB	39
+VERB VERB PUNCT.. EOF	137
+VERB VERB VERB ADJ	8
+VERB VERB VERB ADP	9
+VERB VERB VERB AUX	5
+VERB VERB VERB NOUN	104
+VERB VERB VERB NUM	17
+VERB VERB VERB PART	68
+VERB VERB VERB PROPN	41
+VERB VERB VERB PUNCT	17
+VERB VERB VERB PUNCT.,	16
+VERB VERB VERB PUNCT..	21
+VERB VERB VERB VERB	43
+VERB VERB VERB X	5
+VERB VERB X NOUN	5
+VERB VERB X PUNCT.,	8
+VERB VERB X PUNCT..	12
+VERB X NOUN NOUN	7
+VERB X PUNCT., ADV	10
+VERB X PUNCT.. EOF	50
+X NOUN NOUN VERB	7
+X NOUN PUNCT.. EOF	10
+X PART NOUN NOUN	9
+X PUNCT ADP NUM	5
+X PUNCT ADV VERB	12
+X PUNCT AUX NOUN	10
+X PUNCT AUX NUM	8
+X PUNCT AUX PROPN	10
+X PUNCT AUX VERB	6
+X PUNCT NOUN VERB	6
+X PUNCT PART NOUN	7
+X PUNCT PUNCT., ADV	6
+X PUNCT PUNCT., AUX	11
+X PUNCT PUNCT., NOUN	6
+X PUNCT PUNCT., VERB	6
+X PUNCT PUNCT.. EOF	40
+X PUNCT VERB PART	6
+X PUNCT VERB VERB	11
+X PUNCT., ADV VERB	9
+X PUNCT., NOUN ADV	5
+X PUNCT., VERB PART	6
+X PUNCT., X PUNCT	5
+X PUNCT., X PUNCT.,	5
+X PUNCT., X X	5
+X X PUNCT ADP	6
+X X PUNCT ADV	8
+X X PUNCT AUX	15
+X X PUNCT CCONJ	5
+X X PUNCT NOUN	6
+X X PUNCT PUNCT.,	17
+X X PUNCT PUNCT..	23
+X X PUNCT VERB	18
+X X PUNCT X	5
+X X PUNCT., NOUN	6
+X X PUNCT., VERB	5
+X X PUNCT., X	9
+X X PUNCT.. EOF	9
+X X X PUNCT	35
+X X X PUNCT.,	7
+X X X X	17
+
+[NGRAMS:5]
+2706
+ADJ CCONJ ADJ PART NOUN	9
+ADJ NOUN AUX NUM NOUN	7
+ADJ NOUN CCONJ NOUN NOUN	8
+ADJ NOUN NOUN PART NOUN	12
+ADJ NOUN NOUN PUNCT.. EOF	21
+ADJ NOUN PART NOUN ADV	9
+ADJ NOUN PART NOUN NOUN	20
+ADJ NOUN PART NOUN PART	8
+ADJ NOUN PART NOUN PUNCT.,	23
+ADJ NOUN PART NUM PUNCT..	7
+ADJ NOUN PUNCT., ADV VERB	8
+ADJ NOUN PUNCT., VERB NOUN	9
+ADJ NOUN PUNCT., VERB VERB	7
+ADJ NOUN VERB PART NOUN	8
+ADJ NOUN VERB PUNCT.. EOF	7
+ADJ NOUN VERB VERB NOUN	7
+ADJ NUM NOUN PUNCT., ADJ	8
+ADJ NUM NOUN PUNCT.. EOF	8
+ADJ PART NOUN ADP PUNCT.,	10
+ADJ PART NOUN ADV VERB	10
+ADJ PART NOUN AUX NOUN	7
+ADJ PART NOUN CCONJ NOUN	11
+ADJ PART NOUN NOUN NOUN	12
+ADJ PART NOUN NOUN PART	7
+ADJ PART NOUN NOUN PUNCT	10
+ADJ PART NOUN NOUN PUNCT.,	30
+ADJ PART NOUN NOUN PUNCT..	32
+ADJ PART NOUN NOUN VERB	14
+ADJ PART NOUN PART NOUN	18
+ADJ PART NOUN PART PUNCT.,	8
+ADJ PART NOUN PUNCT., ADP	7
+ADJ PART NOUN PUNCT., ADV	23
+ADJ PART NOUN PUNCT., NOUN	16
+ADJ PART NOUN PUNCT., VERB	23
+ADJ PART NOUN PUNCT.. EOF	95
+ADJ PART NOUN VERB NOUN	11
+ADJ PART NOUN VERB PART	7
+ADJ PART NOUN VERB VERB	15
+ADJ PART NUM NOUN NOUN	13
+ADJ PART VERB PART PUNCT.,	11
+ADJ PUNCT., ADV VERB VERB	7
+ADP ADJ NOUN PART NOUN	7
+ADP ADJ PART NOUN NOUN	10
+ADP ADV ADJ PART NOUN	9
+ADP ADV VERB NOUN PART	9
+ADP ADV VERB NUM NOUN	7
+ADP ADV VERB PART NOUN	13
+ADP DET NOUN NOUN ADP	7
+ADP DET NOUN NOUN PART	7
+ADP DET NOUN NOUN VERB	9
+ADP DET NUM NOUN NOUN	12
+ADP NOUN ADJ PART NOUN	8
+ADP NOUN ADP ADV VERB	8
+ADP NOUN ADP PART NOUN	8
+ADP NOUN ADP VERB NOUN	9
+ADP NOUN ADP VERB PART	8
+ADP NOUN ADP VERB VERB	10
+ADP NOUN ADV ADV VERB	7
+ADP NOUN CCONJ NOUN ADP	7
+ADP NOUN NOUN ADJ PUNCT.,	7
+ADP NOUN NOUN ADP PUNCT.,	10
+ADP NOUN NOUN ADP VERB	13
+ADP NOUN NOUN ADV VERB	21
+ADP NOUN NOUN CCONJ NOUN	10
+ADP NOUN NOUN NOUN PART	10
+ADP NOUN NOUN NOUN VERB	8
+ADP NOUN NOUN PART NOUN	24
+ADP NOUN NOUN PUNCT., PROPN	7
+ADP NOUN NOUN PUNCT.. EOF	7
+ADP NOUN NOUN VERB NOUN	16
+ADP NOUN NOUN VERB PART	8
+ADP NOUN NOUN VERB VERB	7
+ADP NOUN NUM NOUN VERB	11
+ADP NOUN PART ADJ NOUN	7
+ADP NOUN PART ADJ PART	7
+ADP NOUN PART NOUN ADP	8
+ADP NOUN PART NOUN ADV	9
+ADP NOUN PART NOUN NOUN	20
+ADP NOUN PART PART NOUN	12
+ADP NOUN VERB NOUN PUNCT.,	7
+ADP NOUN VERB NOUN VERB	9
+ADP NOUN VERB NUM NOUN	14
+ADP NOUN VERB PART NOUN	19
+ADP NOUN VERB PUNCT., NOUN	7
+ADP NOUN VERB PUNCT., VERB	10
+ADP NOUN VERB PUNCT.. EOF	15
+ADP NUM NOUN ADP PROPN	8
+ADP NUM NOUN ADP PUNCT.,	15
+ADP NUM NOUN ADP VERB	11
+ADP NUM NOUN ADV VERB	17
+ADP NUM NOUN CCONJ NUM	18
+ADP NUM NOUN NOUN ADP	9
+ADP NUM NOUN NOUN NOUN	20
+ADP NUM NOUN NOUN PART	14
+ADP NUM NOUN NOUN PUNCT.,	8
+ADP NUM NOUN NOUN VERB	19
+ADP NUM NOUN NUM NOUN	143
+ADP NUM NOUN PART NOUN	18
+ADP NUM NOUN PROPN NOUN	17
+ADP NUM NOUN PUNCT., PROPN	15
+ADP NUM NOUN VERB ADP	7
+ADP NUM NOUN VERB NOUN	12
+ADP NUM NOUN VERB NUM	10
+ADP NUM NOUN VERB PART	20
+ADP NUM NOUN VERB PROPN	23
+ADP NUM NOUN VERB PUNCT.,	12
+ADP NUM NOUN VERB PUNCT..	10
+ADP NUM NOUN VERB VERB	37
+ADP PART NOUN AUX NUM	27
+ADP PART NOUN NOUN PUNCT.,	8
+ADP PART NOUN PUNCT.. EOF	15
+ADP PART NUM NOUN NOUN	10
+ADP PRON VERB PART NOUN	7
+ADP PROPN NOUN NOUN NOUN	9
+ADP PROPN NOUN NOUN PART	7
+ADP PROPN NOUN PART NOUN	11
+ADP PROPN NOUN PART PART	8
+ADP PROPN NOUN PART VERB	7
+ADP PROPN NOUN VERB PART	9
+ADP PROPN NOUN VERB PUNCT.,	7
+ADP PROPN PART NOUN NOUN	9
+ADP PROPN PART NOUN VERB	14
+ADP PROPN PART NUM NOUN	7
+ADP PROPN PART PROPN PART	9
+ADP PROPN PART VERB PART	7
+ADP PROPN PROPN NOUN NOUN	7
+ADP PROPN PROPN NOUN VERB	8
+ADP PROPN PROPN PART NOUN	12
+ADP PROPN PROPN PUNCT PROPN	10
+ADP PROPN PUNCT PROPN PUNCT	7
+ADP PROPN VERB PART NOUN	10
+ADP PUNCT NOUN NOUN PUNCT	10
+ADP PUNCT., ADV VERB NOUN	7
+ADP PUNCT., ADV VERB PROPN	7
+ADP PUNCT., ADV VERB VERB	7
+ADP PUNCT., NOUN VERB PART	9
+ADP PUNCT., PRON ADV VERB	7
+ADP PUNCT., PROPN PART VERB	7
+ADP PUNCT., PROPN PROPN VERB	14
+ADP PUNCT., PROPN VERB VERB	9
+ADP VERB NOUN NOUN PART	7
+ADP VERB NOUN NOUN VERB	7
+ADP VERB NOUN PART NOUN	11
+ADP VERB NOUN PUNCT., ADV	8
+ADP VERB NOUN PUNCT.. EOF	8
+ADP VERB NUM NOUN NOUN	14
+ADP VERB NUM NOUN PUNCT.,	7
+ADP VERB NUM NOUN VERB	8
+ADP VERB PART NOUN NOUN	9
+ADP VERB PART NOUN VERB	9
+ADP VERB PART NUM NOUN	13
+ADP VERB PART PART NOUN	7
+ADP VERB VERB NOUN PART	7
+ADP VERB VERB PART NOUN	7
+ADV ADJ PART NOUN AUX	10
+ADV ADJ PART NOUN NOUN	13
+ADV ADJ PART NOUN PART	9
+ADV ADJ PART NOUN PUNCT.,	18
+ADV ADJ PART NOUN PUNCT..	21
+ADV ADJ PART NOUN VERB	9
+ADV ADJ PART NUM NOUN	10
+ADV ADJ PUNCT., ADV VERB	8
+ADV ADP NOUN ADP VERB	8
+ADV ADP NOUN NOUN NOUN	7
+ADV ADP NOUN NOUN VERB	9
+ADV ADP NOUN VERB NOUN	9
+ADV ADP NUM NOUN ADP	11
+ADV ADP NUM NOUN NOUN	9
+ADV ADP NUM NOUN NUM	26
+ADV ADP NUM NOUN VERB	12
+ADV ADP PROPN NOUN PART	8
+ADV ADP PROPN NOUN VERB	9
+ADV ADP VERB PART NOUN	7
+ADV ADV ADJ PUNCT.. EOF	11
+ADV ADV VERB ADJ PART	8
+ADV ADV VERB NOUN NOUN	12
+ADV ADV VERB NOUN PART	7
+ADV ADV VERB NOUN PUNCT..	13
+ADV ADV VERB NOUN VERB	12
+ADV ADV VERB NUM NOUN	15
+ADV ADV VERB PART NOUN	15
+ADV ADV VERB PROPN NOUN	7
+ADV ADV VERB PUNCT.. EOF	30
+ADV ADV VERB VERB NOUN	12
+ADV AUX ADJ PUNCT.. EOF	8
+ADV AUX NUM NOUN PUNCT.,	7
+ADV AUX VERB ADJ PART	9
+ADV AUX VERB NOUN NOUN	9
+ADV AUX VERB NOUN PART	9
+ADV AUX VERB NOUN PUNCT.,	9
+ADV AUX VERB NOUN PUNCT..	8
+ADV AUX VERB NUM NOUN	15
+ADV AUX VERB PUNCT.. EOF	10
+ADV AUX VERB VERB VERB	9
+ADV NUM NOUN PART NOUN	10
+ADV NUM NOUN PUNCT.. EOF	17
+ADV NUM NOUN VERB VERB	8
+ADV VERB ADJ NOUN PUNCT.,	7
+ADV VERB ADJ NOUN PUNCT..	8
+ADV VERB ADJ PART NOUN	22
+ADV VERB ADP NOUN NOUN	13
+ADV VERB ADP NUM NOUN	11
+ADV VERB ADP PROPN NOUN	7
+ADV VERB ADV VERB VERB	9
+ADV VERB DET NOUN NOUN	9
+ADV VERB DET NUM NOUN	10
+ADV VERB NOUN ADV VERB	11
+ADV VERB NOUN CCONJ NOUN	9
+ADV VERB NOUN NOUN NOUN	15
+ADV VERB NOUN NOUN PART	27
+ADV VERB NOUN NOUN PUNCT.,	17
+ADV VERB NOUN NOUN PUNCT..	28
+ADV VERB NOUN NOUN VERB	17
+ADV VERB NOUN NUM NOUN	7
+ADV VERB NOUN PART NOUN	44
+ADV VERB NOUN PART PART	10
+ADV VERB NOUN PART VERB	9
+ADV VERB NOUN PUNCT NOUN	8
+ADV VERB NOUN PUNCT., ADV	9
+ADV VERB NOUN PUNCT., NOUN	10
+ADV VERB NOUN PUNCT., VERB	15
+ADV VERB NOUN PUNCT.. EOF	56
+ADV VERB NOUN VERB NOUN	12
+ADV VERB NOUN VERB PART	19
+ADV VERB NOUN VERB PUNCT.,	7
+ADV VERB NOUN VERB PUNCT..	16
+ADV VERB NOUN VERB VERB	16
+ADV VERB NUM NOUN NOUN	49
+ADV VERB NUM NOUN PART	13
+ADV VERB NUM NOUN PUNCT.,	19
+ADV VERB NUM NOUN PUNCT..	16
+ADV VERB NUM NOUN VERB	20
+ADV VERB PART ADJ PART	8
+ADV VERB PART DET NOUN	7
+ADV VERB PART NOUN AUX	9
+ADV VERB PART NOUN NOUN	40
+ADV VERB PART NOUN PART	21
+ADV VERB PART NOUN PUNCT.,	23
+ADV VERB PART NOUN PUNCT..	26
+ADV VERB PART NOUN VERB	14
+ADV VERB PART NUM NOUN	31
+ADV VERB PART PROPN NOUN	8
+ADV VERB PART PROPN PART	7
+ADV VERB PART VERB PART	8
+ADV VERB PRON PART NOUN	11
+ADV VERB PROPN NOUN CCONJ	7
+ADV VERB PROPN NOUN NOUN	19
+ADV VERB PROPN NOUN PART	12
+ADV VERB PROPN PART NOUN	23
+ADV VERB PROPN PART VERB	7
+ADV VERB PROPN PROPN NOUN	8
+ADV VERB PROPN PROPN PART	10
+ADV VERB PROPN PROPN VERB	13
+ADV VERB PROPN PUNCT PROPN	11
+ADV VERB PROPN PUNCT.. EOF	9
+ADV VERB PROPN VERB NOUN	7
+ADV VERB PUNCT., ADV VERB	13
+ADV VERB PUNCT., NOUN VERB	9
+ADV VERB VERB DET NOUN	8
+ADV VERB VERB NOUN NOUN	35
+ADV VERB VERB NOUN PART	26
+ADV VERB VERB NOUN PUNCT.,	10
+ADV VERB VERB NOUN PUNCT..	15
+ADV VERB VERB NOUN VERB	10
+ADV VERB VERB NUM NOUN	33
+ADV VERB VERB PART NOUN	23
+ADV VERB VERB PART PROPN	10
+ADV VERB VERB PART VERB	11
+ADV VERB VERB PROPN NOUN	19
+ADV VERB VERB PROPN PART	26
+ADV VERB VERB PROPN PROPN	14
+ADV VERB VERB PUNCT., ADV	11
+ADV VERB VERB PUNCT.. EOF	36
+ADV VERB VERB VERB NOUN	34
+ADV VERB VERB VERB PART	12
+ADV VERB VERB VERB PROPN	9
+ADV VERB VERB VERB PUNCT	7
+ADV VERB VERB VERB VERB	14
+ADV VERB X PUNCT.. EOF	14
+AUX ADJ PART NOUN NOUN	7
+AUX ADP NOUN ADP VERB	7
+AUX ADP NUM NOUN VERB	7
+AUX ADV ADJ PART NOUN	8
+AUX NOUN NOUN PART NOUN	7
+AUX NOUN NOUN PUNCT.. EOF	15
+AUX NOUN PART NOUN PART	9
+AUX NOUN PART PUNCT.. EOF	8
+AUX NOUN PUNCT., VERB NOUN	7
+AUX NUM NOUN ADJ PART	15
+AUX NUM NOUN NOUN NOUN	17
+AUX NUM NOUN NOUN PART	15
+AUX NUM NOUN NUM NOUN	8
+AUX NUM NOUN PROPN NOUN	14
+AUX NUM NOUN PUNCT., NOUN	11
+AUX NUM NOUN PUNCT., VERB	8
+AUX NUM NOUN PUNCT.. EOF	46
+AUX NUM NOUN VERB NOUN	9
+AUX NUM NOUN VERB VERB	12
+AUX PROPN NOUN NOUN NOUN	7
+AUX PROPN NOUN NOUN PART	21
+AUX PROPN NOUN PART NOUN	9
+AUX PROPN PART NOUN NOUN	10
+AUX PROPN PART NOUN PART	8
+AUX PROPN PART NOUN PUNCT.,	20
+AUX PROPN PART PART NOUN	8
+AUX PROPN PART PUNCT., NOUN	7
+AUX PROPN PART PUNCT.. EOF	7
+AUX PROPN PROPN PART PROPN	12
+AUX VERB ADJ PART NOUN	15
+AUX VERB NOUN NOUN PART	9
+AUX VERB NOUN NOUN VERB	10
+AUX VERB NOUN PART NOUN	16
+AUX VERB NOUN PUNCT., ADV	8
+AUX VERB NOUN PUNCT.. EOF	18
+AUX VERB NUM NOUN NOUN	16
+AUX VERB PART NOUN PUNCT..	14
+AUX VERB PRON PART NOUN	10
+AUX VERB VERB PROPN PROPN	8
+AUX VERB VERB VERB NOUN	8
+AUX VERB VERB VERB PART	7
+BOF ADJ ADV VERB PUNCT.,	7
+BOF ADP DET NOUN NOUN	12
+BOF ADP NOUN ADP PUNCT.,	9
+BOF ADP NOUN NOUN ADP	9
+BOF ADP NOUN NOUN NOUN	12
+BOF ADP NOUN NOUN PUNCT.,	8
+BOF ADP NOUN PART NOUN	11
+BOF ADP NUM NOUN ADP	11
+BOF ADP NUM NOUN NOUN	16
+BOF ADP NUM NOUN NUM	19
+BOF ADP NUM NOUN PROPN	12
+BOF ADP NUM NOUN PUNCT.,	16
+BOF ADP NUM NOUN VERB	13
+BOF ADP PROPN PART NOUN	7
+BOF ADV ADP NUM NOUN	9
+BOF DET NOUN ADV VERB	11
+BOF DET NOUN NOUN ADV	11
+BOF DET NOUN NOUN NOUN	8
+BOF DET NOUN NOUN PART	9
+BOF DET NOUN NOUN VERB	16
+BOF DET NOUN PART NOUN	47
+BOF DET NOUN VERB VERB	7
+BOF DET NUM NOUN NOUN	12
+BOF NOUN ADP NUM NOUN	14
+BOF NOUN ADV VERB PART	7
+BOF NOUN ADV VERB VERB	9
+BOF NOUN NOUN ADV VERB	15
+BOF NOUN NOUN NOUN VERB	7
+BOF NOUN NOUN PART NOUN	16
+BOF NOUN NOUN PART VERB	11
+BOF NOUN NOUN PUNCT., PROPN	7
+BOF NOUN NOUN VERB PROPN	7
+BOF NOUN NOUN VERB VERB	12
+BOF NOUN NUM NOUN NUM	7
+BOF NOUN PART NOUN NOUN	12
+BOF NOUN PART NOUN VERB	17
+BOF NOUN VERB NUM NOUN	12
+BOF NOUN VERB PART NOUN	7
+BOF NOUN VERB VERB PROPN	7
+BOF NUM NOUN ADP NOUN	8
+BOF NUM NOUN ADP PUNCT.,	27
+BOF NUM NOUN CCONJ NUM	8
+BOF NUM NOUN NOUN NOUN	9
+BOF NUM NOUN NOUN PUNCT.,	7
+BOF NUM NOUN NOUN VERB	11
+BOF NUM NOUN NUM NOUN	201
+BOF NUM NOUN PRON VERB	7
+BOF NUM NOUN PROPN NOUN	7
+BOF NUM NOUN PUNCT., NOUN	14
+BOF NUM NOUN PUNCT., PRON	7
+BOF NUM NOUN PUNCT., PROPN	95
+BOF PRON ADP NUM NOUN	14
+BOF PRON AUX NUM NOUN	8
+BOF PRON PART NOUN NOUN	8
+BOF PRON PART NOUN VERB	8
+BOF PROPN ADP NUM NOUN	11
+BOF PROPN AUX PROPN PART	11
+BOF PROPN NOUN ADP NUM	7
+BOF PROPN NOUN ADV VERB	10
+BOF PROPN NOUN AUX PROPN	7
+BOF PROPN NOUN NOUN ADP	9
+BOF PROPN NOUN NOUN AUX	8
+BOF PROPN NOUN NOUN NOUN	13
+BOF PROPN NOUN NOUN PART	14
+BOF PROPN NOUN NOUN VERB	15
+BOF PROPN NOUN PART NOUN	11
+BOF PROPN NOUN VERB PART	8
+BOF PROPN NUM NOUN PUNCT	9
+BOF PROPN PART ADV VERB	7
+BOF PROPN PART AUX PROPN	22
+BOF PROPN PART NOUN AUX	8
+BOF PROPN PART NOUN NOUN	17
+BOF PROPN PART NOUN PART	7
+BOF PROPN PART NOUN VERB	23
+BOF PROPN PART PART NOUN	12
+BOF PROPN PART PUNCT., AUX	7
+BOF PROPN PART VERB PROPN	8
+BOF PROPN PART VERB VERB	14
+BOF PROPN PROPN ADV VERB	13
+BOF PROPN PROPN AUX PROPN	9
+BOF PROPN PROPN NUM NOUN	7
+BOF PROPN PROPN PART NOUN	13
+BOF PROPN PROPN PUNCT., PROPN	17
+BOF PROPN PROPN VERB ADP	9
+BOF PROPN PROPN VERB PROPN	13
+BOF PROPN PROPN VERB VERB	8
+BOF PROPN PUNCT PROPN PUNCT	11
+BOF PROPN PUNCT PROPN VERB	10
+CCONJ ADJ PART NOUN NOUN	8
+CCONJ ADJ PART NOUN PUNCT..	7
+CCONJ NOUN NOUN ADV VERB	7
+CCONJ NOUN NOUN NOUN NOUN	7
+CCONJ NOUN NOUN NOUN PART	7
+CCONJ NOUN NOUN PART NOUN	21
+CCONJ NOUN NOUN PUNCT.. EOF	26
+CCONJ NOUN PART NOUN ADP	7
+CCONJ NOUN PART NOUN NOUN	9
+CCONJ NOUN PART NOUN PUNCT.,	9
+CCONJ NOUN PART NOUN PUNCT..	8
+CCONJ NOUN PART PUNCT.. EOF	8
+CCONJ NOUN PUNCT., VERB NOUN	7
+CCONJ NUM NOUN NUM NOUN	11
+CCONJ NUM NOUN PART NOUN	9
+CCONJ NUM NOUN VERB PART	8
+CCONJ PROPN NOUN NOUN NOUN	9
+CCONJ PROPN NOUN PART NOUN	7
+CCONJ PROPN PART NOUN NOUN	8
+CCONJ PROPN PART PART NOUN	11
+CCONJ PROPN PART PUNCT.. EOF	11
+CCONJ VERB PART PUNCT.. EOF	8
+DET NOUN ADV VERB NOUN	8
+DET NOUN NOUN ADP NOUN	8
+DET NOUN NOUN ADV VERB	24
+DET NOUN NOUN PART NOUN	25
+DET NOUN NOUN PUNCT.. EOF	13
+DET NOUN NOUN VERB NOUN	8
+DET NOUN NOUN VERB PART	10
+DET NOUN NOUN VERB VERB	11
+DET NOUN PART NOUN NOUN	15
+DET NOUN PART NOUN NUM	26
+DET NOUN PART NOUN PART	7
+DET NOUN PART NOUN PUNCT.,	14
+DET NOUN PART NOUN PUNCT..	8
+DET NOUN PART NOUN VERB	10
+DET NOUN VERB NUM NOUN	7
+DET NUM NOUN NOUN ADV	10
+DET NUM NOUN NOUN PART	13
+DET NUM NOUN NOUN VERB	13
+DET NUM NOUN PART NOUN	9
+NOUN ADJ NOUN NOUN PUNCT.,	7
+NOUN ADJ NOUN PART NOUN	12
+NOUN ADJ NOUN PUNCT.. EOF	15
+NOUN ADJ NUM NOUN PUNCT.,	8
+NOUN ADJ PART NOUN NOUN	30
+NOUN ADJ PART NOUN PART	18
+NOUN ADJ PART NOUN PUNCT.,	19
+NOUN ADJ PART NOUN PUNCT..	15
+NOUN ADJ PART NOUN VERB	11
+NOUN ADJ PART PART NOUN	10
+NOUN ADJ PART VERB PART	13
+NOUN ADJ PUNCT., ADV VERB	12
+NOUN ADJ PUNCT., NOUN ADJ	7
+NOUN ADP ADJ PART NOUN	10
+NOUN ADP ADV AUX VERB	7
+NOUN ADP ADV VERB NOUN	14
+NOUN ADP ADV VERB PART	9
+NOUN ADP ADV VERB VERB	8
+NOUN ADP DET NUM NOUN	7
+NOUN ADP NOUN ADP VERB	10
+NOUN ADP NOUN NOUN ADP	10
+NOUN ADP NOUN NOUN PART	7
+NOUN ADP NOUN NOUN VERB	14
+NOUN ADP NOUN PART NOUN	14
+NOUN ADP NOUN VERB NOUN	8
+NOUN ADP NOUN VERB PART	16
+NOUN ADP NOUN VERB PUNCT.,	10
+NOUN ADP NOUN VERB VERB	7
+NOUN ADP NUM NOUN ADP	7
+NOUN ADP NUM NOUN ADV	10
+NOUN ADP NUM NOUN NOUN	19
+NOUN ADP NUM NOUN NUM	28
+NOUN ADP NUM NOUN VERB	38
+NOUN ADP PART NOUN AUX	28
+NOUN ADP PART NOUN NOUN	16
+NOUN ADP PART NOUN PUNCT.,	11
+NOUN ADP PART NOUN PUNCT..	13
+NOUN ADP PART NOUN VERB	10
+NOUN ADP PART NUM NOUN	8
+NOUN ADP PROPN NOUN NOUN	7
+NOUN ADP PROPN NOUN VERB	9
+NOUN ADP PROPN PART NOUN	9
+NOUN ADP PROPN VERB PART	8
+NOUN ADP PUNCT., ADV VERB	23
+NOUN ADP PUNCT., NOUN ADV	7
+NOUN ADP PUNCT., NOUN NOUN	15
+NOUN ADP PUNCT., NOUN PART	9
+NOUN ADP PUNCT., NOUN VERB	14
+NOUN ADP PUNCT., NUM NOUN	15
+NOUN ADP PUNCT., PRON VERB	7
+NOUN ADP PUNCT., PROPN NOUN	11
+NOUN ADP PUNCT., PROPN PART	13
+NOUN ADP PUNCT., PROPN PROPN	16
+NOUN ADP PUNCT., PROPN VERB	12
+NOUN ADP PUNCT., VERB NOUN	10
+NOUN ADP PUNCT., VERB PART	7
+NOUN ADP VERB NOUN NOUN	12
+NOUN ADP VERB NOUN PART	7
+NOUN ADP VERB NOUN PUNCT.,	9
+NOUN ADP VERB NUM NOUN	18
+NOUN ADP VERB PART NOUN	16
+NOUN ADP VERB PART NUM	8
+NOUN ADP VERB PROPN NOUN	8
+NOUN ADP VERB PUNCT.. EOF	11
+NOUN ADP VERB VERB NOUN	9
+NOUN ADP VERB VERB PART	8
+NOUN ADP VERB VERB PROPN	7
+NOUN ADV ADJ PART NOUN	24
+NOUN ADV ADJ PUNCT.. EOF	17
+NOUN ADV ADP NOUN NOUN	7
+NOUN ADV ADP NOUN VERB	8
+NOUN ADV ADP NUM NOUN	14
+NOUN ADV ADV ADJ PUNCT.,	13
+NOUN ADV ADV VERB NOUN	19
+NOUN ADV ADV VERB PART	8
+NOUN ADV ADV VERB PROPN	7
+NOUN ADV ADV VERB PUNCT.,	7
+NOUN ADV ADV VERB PUNCT..	14
+NOUN ADV ADV VERB VERB	14
+NOUN ADV AUX NUM NOUN	15
+NOUN ADV AUX VERB NOUN	19
+NOUN ADV AUX VERB VERB	18
+NOUN ADV NUM NOUN PUNCT.,	10
+NOUN ADV VERB ADJ NOUN	8
+NOUN ADV VERB ADJ PART	14
+NOUN ADV VERB ADP NOUN	9
+NOUN ADV VERB ADV VERB	10
+NOUN ADV VERB DET NOUN	8
+NOUN ADV VERB NOUN NOUN	39
+NOUN ADV VERB NOUN PART	25
+NOUN ADV VERB NOUN PUNCT.,	18
+NOUN ADV VERB NOUN PUNCT..	12
+NOUN ADV VERB NOUN VERB	27
+NOUN ADV VERB NUM NOUN	42
+NOUN ADV VERB PART NOUN	51
+NOUN ADV VERB PART NUM	11
+NOUN ADV VERB PART PROPN	14
+NOUN ADV VERB PROPN NOUN	13
+NOUN ADV VERB PROPN PART	11
+NOUN ADV VERB PROPN PROPN	13
+NOUN ADV VERB PUNCT., ADV	10
+NOUN ADV VERB PUNCT., NOUN	7
+NOUN ADV VERB PUNCT., VERB	11
+NOUN ADV VERB PUNCT.. EOF	61
+NOUN ADV VERB VERB NOUN	35
+NOUN ADV VERB VERB NUM	11
+NOUN ADV VERB VERB PART	17
+NOUN ADV VERB VERB PROPN	26
+NOUN ADV VERB VERB PUNCT	7
+NOUN ADV VERB VERB PUNCT.,	15
+NOUN ADV VERB VERB PUNCT..	16
+NOUN ADV VERB VERB VERB	33
+NOUN AUX ADJ PART NOUN	9
+NOUN AUX ADJ PUNCT.. EOF	13
+NOUN AUX NOUN NOUN PART	7
+NOUN AUX NOUN NOUN PUNCT.,	11
+NOUN AUX NOUN NOUN PUNCT..	8
+NOUN AUX NOUN PART NOUN	9
+NOUN AUX NOUN PART PART	9
+NOUN AUX NOUN PUNCT., NOUN	7
+NOUN AUX NOUN PUNCT.. EOF	17
+NOUN AUX NUM NOUN NOUN	8
+NOUN AUX NUM NOUN PART	11
+NOUN AUX NUM NOUN PUNCT.,	17
+NOUN AUX NUM NOUN PUNCT..	41
+NOUN AUX NUM PUNCT.. EOF	10
+NOUN AUX PROPN NOUN NOUN	8
+NOUN AUX PROPN PART NOUN	9
+NOUN AUX VERB ADJ NOUN	7
+NOUN AUX VERB ADJ PART	7
+NOUN AUX VERB DET NOUN	8
+NOUN AUX VERB NOUN NOUN	9
+NOUN AUX VERB NOUN PART	7
+NOUN AUX VERB NUM NOUN	15
+NOUN AUX VERB PART NOUN	12
+NOUN AUX VERB VERB NOUN	11
+NOUN CCONJ ADJ NOUN NOUN	10
+NOUN CCONJ ADJ PART NOUN	9
+NOUN CCONJ NOUN ADV VERB	10
+NOUN CCONJ NOUN NOUN ADV	13
+NOUN CCONJ NOUN NOUN NOUN	30
+NOUN CCONJ NOUN NOUN PART	24
+NOUN CCONJ NOUN NOUN PUNCT	7
+NOUN CCONJ NOUN NOUN PUNCT.,	25
+NOUN CCONJ NOUN NOUN PUNCT..	26
+NOUN CCONJ NOUN NOUN VERB	16
+NOUN CCONJ NOUN PART NOUN	39
+NOUN CCONJ NOUN PUNCT., VERB	14
+NOUN CCONJ NOUN PUNCT.. EOF	42
+NOUN CCONJ NOUN VERB PART	18
+NOUN CCONJ NUM NOUN ADP	7
+NOUN CCONJ NUM NOUN NOUN	18
+NOUN CCONJ NUM NOUN NUM	10
+NOUN CCONJ NUM NOUN PART	8
+NOUN CCONJ NUM NOUN PUNCT.,	8
+NOUN CCONJ NUM NOUN VERB	15
+NOUN CCONJ PROPN NOUN NOUN	12
+NOUN CCONJ PROPN PART NOUN	12
+NOUN NOUN ADJ PART NOUN	25
+NOUN NOUN ADJ PART VERB	9
+NOUN NOUN ADJ PUNCT., ADV	17
+NOUN NOUN ADJ PUNCT., NOUN	10
+NOUN NOUN ADJ PUNCT.. EOF	18
+NOUN NOUN ADP ADJ PART	7
+NOUN NOUN ADP ADV VERB	10
+NOUN NOUN ADP NOUN NOUN	17
+NOUN NOUN ADP NOUN PART	10
+NOUN NOUN ADP NOUN VERB	16
+NOUN NOUN ADP NUM NOUN	33
+NOUN NOUN ADP PART NOUN	15
+NOUN NOUN ADP PROPN PROPN	7
+NOUN NOUN ADP PUNCT., ADV	9
+NOUN NOUN ADP PUNCT., NOUN	11
+NOUN NOUN ADP PUNCT., NUM	7
+NOUN NOUN ADP PUNCT., PROPN	24
+NOUN NOUN ADP PUNCT., VERB	8
+NOUN NOUN ADP PUNCT.. EOF	8
+NOUN NOUN ADP VERB NOUN	15
+NOUN NOUN ADP VERB PART	12
+NOUN NOUN ADP VERB VERB	11
+NOUN NOUN ADV ADJ PUNCT.,	11
+NOUN NOUN ADV ADV ADJ	7
+NOUN NOUN ADV ADV VERB	26
+NOUN NOUN ADV AUX VERB	14
+NOUN NOUN ADV NUM NOUN	8
+NOUN NOUN ADV VERB ADP	11
+NOUN NOUN ADV VERB NOUN	43
+NOUN NOUN ADV VERB NUM	10
+NOUN NOUN ADV VERB PART	26
+NOUN NOUN ADV VERB PROPN	13
+NOUN NOUN ADV VERB PUNCT.,	15
+NOUN NOUN ADV VERB PUNCT..	24
+NOUN NOUN ADV VERB VERB	67
+NOUN NOUN AUX NOUN NOUN	11
+NOUN NOUN AUX NUM NOUN	26
+NOUN NOUN AUX PROPN PART	11
+NOUN NOUN CCONJ ADJ NOUN	9
+NOUN NOUN CCONJ NOUN NOUN	75
+NOUN NOUN CCONJ NOUN PART	21
+NOUN NOUN CCONJ NOUN PUNCT..	8
+NOUN NOUN CCONJ NOUN VERB	12
+NOUN NOUN CCONJ NUM NOUN	12
+NOUN NOUN CCONJ PART NOUN	7
+NOUN NOUN CCONJ PROPN PART	8
+NOUN NOUN NOUN ADJ NOUN	7
+NOUN NOUN NOUN ADJ PUNCT.,	8
+NOUN NOUN NOUN ADP NOUN	9
+NOUN NOUN NOUN ADP NUM	9
+NOUN NOUN NOUN ADP PUNCT.,	16
+NOUN NOUN NOUN ADP VERB	10
+NOUN NOUN NOUN ADV VERB	36
+NOUN NOUN NOUN CCONJ NOUN	17
+NOUN NOUN NOUN NOUN ADP	13
+NOUN NOUN NOUN NOUN CCONJ	7
+NOUN NOUN NOUN NOUN NOUN	39
+NOUN NOUN NOUN NOUN PART	36
+NOUN NOUN NOUN NOUN PUNCT	15
+NOUN NOUN NOUN NOUN PUNCT.,	35
+NOUN NOUN NOUN NOUN PUNCT..	28
+NOUN NOUN NOUN NOUN VERB	20
+NOUN NOUN NOUN NUM NOUN	11
+NOUN NOUN NOUN PART ADJ	7
+NOUN NOUN NOUN PART NOUN	81
+NOUN NOUN NOUN PART NUM	11
+NOUN NOUN NOUN PART PART	16
+NOUN NOUN NOUN PART PUNCT.,	8
+NOUN NOUN NOUN PART PUNCT..	8
+NOUN NOUN NOUN PART VERB	15
+NOUN NOUN NOUN PUNCT NOUN	20
+NOUN NOUN NOUN PUNCT PUNCT.,	8
+NOUN NOUN NOUN PUNCT VERB	8
+NOUN NOUN NOUN PUNCT., ADP	16
+NOUN NOUN NOUN PUNCT., ADV	31
+NOUN NOUN NOUN PUNCT., NOUN	39
+NOUN NOUN NOUN PUNCT., NUM	7
+NOUN NOUN NOUN PUNCT., PROPN	10
+NOUN NOUN NOUN PUNCT., VERB	39
+NOUN NOUN NOUN PUNCT.. EOF	123
+NOUN NOUN NOUN VERB NOUN	18
+NOUN NOUN NOUN VERB NUM	8
+NOUN NOUN NOUN VERB PART	28
+NOUN NOUN NOUN VERB PUNCT.,	14
+NOUN NOUN NOUN VERB PUNCT..	8
+NOUN NOUN NOUN VERB VERB	34
+NOUN NOUN NUM NOUN NOUN	8
+NOUN NOUN NUM NOUN PART	9
+NOUN NOUN NUM NOUN PUNCT.,	43
+NOUN NOUN NUM NOUN PUNCT..	10
+NOUN NOUN NUM NOUN VERB	7
+NOUN NOUN NUM PUNCT.. EOF	7
+NOUN NOUN PART ADJ NOUN	22
+NOUN NOUN PART ADJ PART	7
+NOUN NOUN PART ADV VERB	13
+NOUN NOUN PART CCONJ NOUN	8
+NOUN NOUN PART NOUN ADP	17
+NOUN NOUN PART NOUN ADV	32
+NOUN NOUN PART NOUN AUX	14
+NOUN NOUN PART NOUN CCONJ	14
+NOUN NOUN PART NOUN NOUN	115
+NOUN NOUN PART NOUN NUM	7
+NOUN NOUN PART NOUN PART	27
+NOUN NOUN PART NOUN PUNCT	15
+NOUN NOUN PART NOUN PUNCT.,	76
+NOUN NOUN PART NOUN PUNCT..	75
+NOUN NOUN PART NOUN VERB	50
+NOUN NOUN PART NUM NOUN	24
+NOUN NOUN PART NUM PUNCT..	19
+NOUN NOUN PART PART NOUN	46
+NOUN NOUN PART PART VERB	8
+NOUN NOUN PART PROPN NOUN	7
+NOUN NOUN PART PROPN PART	17
+NOUN NOUN PART PUNCT., ADV	8
+NOUN NOUN PART PUNCT., NOUN	10
+NOUN NOUN PART PUNCT., PROPN	7
+NOUN NOUN PART PUNCT., VERB	12
+NOUN NOUN PART PUNCT.. EOF	33
+NOUN NOUN PART VERB ADP	9
+NOUN NOUN PART VERB NOUN	8
+NOUN NOUN PART VERB PART	35
+NOUN NOUN PART VERB PROPN	8
+NOUN NOUN PART VERB PUNCT.,	9
+NOUN NOUN PART VERB VERB	14
+NOUN NOUN PROPN PART NOUN	8
+NOUN NOUN PROPN PROPN VERB	8
+NOUN NOUN PROPN PUNCT PROPN	11
+NOUN NOUN PUNCT ADV VERB	13
+NOUN NOUN PUNCT NOUN CCONJ	7
+NOUN NOUN PUNCT NOUN NOUN	50
+NOUN NOUN PUNCT NOUN PART	11
+NOUN NOUN PUNCT NOUN PUNCT	16
+NOUN NOUN PUNCT NOUN VERB	11
+NOUN NOUN PUNCT NUM NOUN	20
+NOUN NOUN PUNCT PART NOUN	14
+NOUN NOUN PUNCT PROPN NOUN	7
+NOUN NOUN PUNCT PROPN PART	7
+NOUN NOUN PUNCT PROPN PUNCT	7
+NOUN NOUN PUNCT PUNCT X	7
+NOUN NOUN PUNCT PUNCT., ADV	8
+NOUN NOUN PUNCT PUNCT., VERB	9
+NOUN NOUN PUNCT PUNCT.. EOF	12
+NOUN NOUN PUNCT VERB NOUN	12
+NOUN NOUN PUNCT VERB PART	7
+NOUN NOUN PUNCT X PUNCT	13
+NOUN NOUN PUNCT X X	11
+NOUN NOUN PUNCT., ADP NOUN	27
+NOUN NOUN PUNCT., ADP NUM	17
+NOUN NOUN PUNCT., ADP PRON	8
+NOUN NOUN PUNCT., ADP PROPN	14
+NOUN NOUN PUNCT., ADP VERB	7
+NOUN NOUN PUNCT., ADV ADP	27
+NOUN NOUN PUNCT., ADV ADV	20
+NOUN NOUN PUNCT., ADV AUX	13
+NOUN NOUN PUNCT., ADV NOUN	17
+NOUN NOUN PUNCT., ADV VERB	79
+NOUN NOUN PUNCT., AUX NOUN	8
+NOUN NOUN PUNCT., AUX PROPN	7
+NOUN NOUN PUNCT., AUX VERB	13
+NOUN NOUN PUNCT., CCONJ VERB	7
+NOUN NOUN PUNCT., DET NOUN	21
+NOUN NOUN PUNCT., NOUN ADV	18
+NOUN NOUN PUNCT., NOUN AUX	13
+NOUN NOUN PUNCT., NOUN NOUN	49
+NOUN NOUN PUNCT., NOUN PART	8
+NOUN NOUN PUNCT., NOUN VERB	32
+NOUN NOUN PUNCT., NUM NOUN	40
+NOUN NOUN PUNCT., PROPN ADP	7
+NOUN NOUN PUNCT., PROPN NOUN	14
+NOUN NOUN PUNCT., PROPN PART	10
+NOUN NOUN PUNCT., PROPN PROPN	8
+NOUN NOUN PUNCT., PROPN PUNCT	7
+NOUN NOUN PUNCT., VERB ADJ	7
+NOUN NOUN PUNCT., VERB ADP	13
+NOUN NOUN PUNCT., VERB NOUN	34
+NOUN NOUN PUNCT., VERB NUM	16
+NOUN NOUN PUNCT., VERB PART	21
+NOUN NOUN PUNCT., VERB PROPN	43
+NOUN NOUN PUNCT., VERB VERB	44
+NOUN NOUN VERB ADJ NOUN	14
+NOUN NOUN VERB ADJ PART	9
+NOUN NOUN VERB ADP NOUN	9
+NOUN NOUN VERB ADP NUM	14
+NOUN NOUN VERB ADP PROPN	8
+NOUN NOUN VERB ADP PUNCT.,	7
+NOUN NOUN VERB ADV VERB	12
+NOUN NOUN VERB NOUN NOUN	35
+NOUN NOUN VERB NOUN PART	24
+NOUN NOUN VERB NOUN PUNCT	8
+NOUN NOUN VERB NOUN PUNCT.,	22
+NOUN NOUN VERB NOUN PUNCT..	14
+NOUN NOUN VERB NOUN VERB	22
+NOUN NOUN VERB NUM NOUN	39
+NOUN NOUN VERB PART ADJ	9
+NOUN NOUN VERB PART ADV	7
+NOUN NOUN VERB PART NOUN	60
+NOUN NOUN VERB PART NUM	11
+NOUN NOUN VERB PART PROPN	14
+NOUN NOUN VERB PART PUNCT.,	8
+NOUN NOUN VERB PART VERB	22
+NOUN NOUN VERB PROPN NOUN	17
+NOUN NOUN VERB PROPN PART	14
+NOUN NOUN VERB PROPN PROPN	10
+NOUN NOUN VERB PUNCT., ADV	14
+NOUN NOUN VERB PUNCT., NOUN	14
+NOUN NOUN VERB PUNCT., PROPN	8
+NOUN NOUN VERB PUNCT., VERB	20
+NOUN NOUN VERB PUNCT.. EOF	49
+NOUN NOUN VERB VERB NOUN	44
+NOUN NOUN VERB VERB NUM	15
+NOUN NOUN VERB VERB PART	11
+NOUN NOUN VERB VERB PROPN	28
+NOUN NOUN VERB VERB PUNCT.,	8
+NOUN NOUN VERB VERB VERB	25
+NOUN NUM NOUN ADJ NOUN	9
+NOUN NUM NOUN ADP PROPN	10
+NOUN NUM NOUN ADP PUNCT.,	10
+NOUN NUM NOUN ADP VERB	9
+NOUN NUM NOUN ADV VERB	16
+NOUN NUM NOUN CCONJ NUM	16
+NOUN NUM NOUN NOUN NOUN	14
+NOUN NUM NOUN NOUN PART	14
+NOUN NUM NOUN NOUN PUNCT.,	17
+NOUN NUM NOUN NOUN VERB	21
+NOUN NUM NOUN NUM NOUN	259
+NOUN NUM NOUN PART NOUN	23
+NOUN NUM NOUN PROPN NOUN	13
+NOUN NUM NOUN PROPN PART	8
+NOUN NUM NOUN PROPN VERB	8
+NOUN NUM NOUN PUNCT NUM	13
+NOUN NUM NOUN PUNCT., ADJ	12
+NOUN NUM NOUN PUNCT., ADP	14
+NOUN NUM NOUN PUNCT., ADV	11
+NOUN NUM NOUN PUNCT., NOUN	84
+NOUN NUM NOUN PUNCT., NUM	46
+NOUN NUM NOUN PUNCT., PART	8
+NOUN NUM NOUN PUNCT., PRON	8
+NOUN NUM NOUN PUNCT., PROPN	118
+NOUN NUM NOUN PUNCT., VERB	32
+NOUN NUM NOUN PUNCT.. EOF	58
+NOUN NUM NOUN VERB NOUN	29
+NOUN NUM NOUN VERB PART	20
+NOUN NUM NOUN VERB PROPN	22
+NOUN NUM NOUN VERB PUNCT.,	13
+NOUN NUM NOUN VERB PUNCT..	18
+NOUN NUM NOUN VERB VERB	21
+NOUN PART ADJ NOUN NOUN	9
+NOUN PART ADJ NOUN PART	8
+NOUN PART ADJ NOUN PUNCT.,	8
+NOUN PART ADJ NOUN PUNCT..	25
+NOUN PART ADJ NOUN VERB	8
+NOUN PART ADJ PART NOUN	9
+NOUN PART ADP NUM NOUN	11
+NOUN PART ADP PART NOUN	7
+NOUN PART ADV ADV VERB	10
+NOUN PART ADV VERB NOUN	7
+NOUN PART ADV VERB NUM	8
+NOUN PART ADV VERB VERB	9
+NOUN PART CCONJ NOUN NOUN	8
+NOUN PART CCONJ NOUN PART	16
+NOUN PART DET NOUN NOUN	7
+NOUN PART NOUN ADJ PUNCT.,	8
+NOUN PART NOUN ADP PUNCT.,	27
+NOUN PART NOUN ADP VERB	12
+NOUN PART NOUN ADV ADJ	11
+NOUN PART NOUN ADV AUX	18
+NOUN PART NOUN ADV VERB	66
+NOUN PART NOUN AUX NOUN	8
+NOUN PART NOUN AUX VERB	11
+NOUN PART NOUN CCONJ NOUN	38
+NOUN PART NOUN CCONJ NUM	7
+NOUN PART NOUN NOUN ADP	24
+NOUN PART NOUN NOUN ADV	22
+NOUN PART NOUN NOUN AUX	11
+NOUN PART NOUN NOUN CCONJ	12
+NOUN PART NOUN NOUN NOUN	55
+NOUN PART NOUN NOUN PART	18
+NOUN PART NOUN NOUN PUNCT	17
+NOUN PART NOUN NOUN PUNCT.,	67
+NOUN PART NOUN NOUN PUNCT..	66
+NOUN PART NOUN NOUN VERB	51
+NOUN PART NOUN NUM NOUN	43
+NOUN PART NOUN PART NOUN	43
+NOUN PART NOUN PART NUM	16
+NOUN PART NOUN PART PART	13
+NOUN PART NOUN PART PUNCT	12
+NOUN PART NOUN PART PUNCT.,	11
+NOUN PART NOUN PART PUNCT..	13
+NOUN PART NOUN PART VERB	15
+NOUN PART NOUN PROPN PROPN	10
+NOUN PART NOUN PUNCT NOUN	20
+NOUN PART NOUN PUNCT PROPN	8
+NOUN PART NOUN PUNCT VERB	7
+NOUN PART NOUN PUNCT., ADP	21
+NOUN PART NOUN PUNCT., ADV	77
+NOUN PART NOUN PUNCT., AUX	12
+NOUN PART NOUN PUNCT., NOUN	43
+NOUN PART NOUN PUNCT., PRON	9
+NOUN PART NOUN PUNCT., PROPN	17
+NOUN PART NOUN PUNCT., VERB	68
+NOUN PART NOUN PUNCT.. EOF	245
+NOUN PART NOUN VERB ADP	12
+NOUN PART NOUN VERB NOUN	29
+NOUN PART NOUN VERB NUM	12
+NOUN PART NOUN VERB PART	26
+NOUN PART NOUN VERB PROPN	12
+NOUN PART NOUN VERB PUNCT.,	15
+NOUN PART NOUN VERB PUNCT..	14
+NOUN PART NOUN VERB VERB	43
+NOUN PART NUM NOUN NOUN	50
+NOUN PART NUM NOUN PUNCT	7
+NOUN PART NUM NOUN PUNCT.,	8
+NOUN PART NUM NOUN PUNCT..	13
+NOUN PART NUM NOUN VERB	8
+NOUN PART NUM PUNCT.. EOF	50
+NOUN PART PART ADJ NOUN	10
+NOUN PART PART NOUN NOUN	48
+NOUN PART PART NOUN PART	13
+NOUN PART PART NOUN PUNCT.,	23
+NOUN PART PART NOUN PUNCT..	32
+NOUN PART PART NOUN VERB	15
+NOUN PART PART NUM NOUN	11
+NOUN PART PART VERB PART	8
+NOUN PART PROPN NOUN NOUN	16
+NOUN PART PROPN NOUN PUNCT.,	10
+NOUN PART PROPN PART NOUN	20
+NOUN PART PROPN PART VERB	7
+NOUN PART PROPN PROPN VERB	11
+NOUN PART PROPN PUNCT PROPN	8
+NOUN PART PUNCT NOUN NOUN	13
+NOUN PART PUNCT NOUN PART	12
+NOUN PART PUNCT NOUN PUNCT	7
+NOUN PART PUNCT NUM NOUN	9
+NOUN PART PUNCT PART NOUN	7
+NOUN PART PUNCT PUNCT.. EOF	10
+NOUN PART PUNCT X PUNCT	7
+NOUN PART PUNCT., ADP NOUN	7
+NOUN PART PUNCT., ADV VERB	17
+NOUN PART PUNCT., AUX PROPN	10
+NOUN PART PUNCT., NOUN NOUN	9
+NOUN PART PUNCT., VERB NOUN	11
+NOUN PART PUNCT., VERB PROPN	13
+NOUN PART PUNCT., VERB VERB	8
+NOUN PART VERB NOUN NOUN	19
+NOUN PART VERB NOUN VERB	7
+NOUN PART VERB NUM NOUN	12
+NOUN PART VERB PART ADJ	7
+NOUN PART VERB PART ADV	12
+NOUN PART VERB PART NOUN	24
+NOUN PART VERB PART PART	7
+NOUN PART VERB PART PROPN	8
+NOUN PART VERB PART PUNCT.,	11
+NOUN PART VERB PART PUNCT..	17
+NOUN PART VERB PART VERB	8
+NOUN PART VERB PROPN PART	8
+NOUN PART VERB PUNCT.. EOF	16
+NOUN PART VERB VERB NOUN	13
+NOUN PART VERB VERB PROPN	9
+NOUN PART VERB VERB PUNCT.,	7
+NOUN PROPN NOUN NOUN NOUN	10
+NOUN PROPN NOUN NOUN PART	12
+NOUN PROPN NOUN NOUN PUNCT.,	11
+NOUN PROPN NOUN NOUN PUNCT..	10
+NOUN PROPN NOUN NOUN VERB	9
+NOUN PROPN NOUN PART NOUN	17
+NOUN PROPN NOUN PUNCT.. EOF	9
+NOUN PROPN NOUN VERB PART	7
+NOUN PROPN PART ADJ NOUN	7
+NOUN PROPN PART NOUN NOUN	16
+NOUN PROPN PART NOUN PUNCT..	9
+NOUN PROPN PART PART NOUN	11
+NOUN PROPN PART PUNCT.. EOF	7
+NOUN PROPN PART VERB PART	7
+NOUN PROPN PROPN ADV VERB	9
+NOUN PROPN PROPN AUX PROPN	7
+NOUN PROPN PROPN PART NOUN	11
+NOUN PROPN PROPN PUNCT PROPN	7
+NOUN PROPN PROPN PUNCT.. EOF	8
+NOUN PROPN PROPN VERB NOUN	7
+NOUN PROPN PROPN VERB PROPN	12
+NOUN PROPN PROPN VERB VERB	7
+NOUN PROPN PUNCT PROPN PUNCT	11
+NOUN PUNCT ADV VERB NOUN	7
+NOUN PUNCT CCONJ PUNCT NOUN	9
+NOUN PUNCT NOUN CCONJ NOUN	32
+NOUN PUNCT NOUN NOUN CCONJ	9
+NOUN PUNCT NOUN NOUN NOUN	41
+NOUN PUNCT NOUN NOUN PART	7
+NOUN PUNCT NOUN NOUN PUNCT	39
+NOUN PUNCT NOUN NOUN PUNCT.,	10
+NOUN PUNCT NOUN NUM NOUN	17
+NOUN PUNCT NOUN PART NOUN	11
+NOUN PUNCT NOUN PART PUNCT	15
+NOUN PUNCT NOUN PUNCT NOUN	88
+NOUN PUNCT NOUN PUNCT.. EOF	8
+NOUN PUNCT NUM NOUN NOUN	16
+NOUN PUNCT NUM NOUN NUM	8
+NOUN PUNCT NUM NOUN PUNCT	40
+NOUN PUNCT NUM NOUN PUNCT.,	10
+NOUN PUNCT PART NOUN VERB	10
+NOUN PUNCT PROPN NOUN NOUN	11
+NOUN PUNCT PROPN NOUN PART	7
+NOUN PUNCT PROPN NOUN PUNCT	16
+NOUN PUNCT PROPN PART PUNCT	11
+NOUN PUNCT PUNCT PUNCT NOUN	7
+NOUN PUNCT PUNCT X X	9
+NOUN PUNCT PUNCT., ADV VERB	8
+NOUN PUNCT PUNCT., PROPN PROPN	9
+NOUN PUNCT PUNCT., VERB VERB	8
+NOUN PUNCT VERB NOUN NOUN	12
+NOUN PUNCT VERB NOUN PART	7
+NOUN PUNCT VERB PART NOUN	7
+NOUN PUNCT X PUNCT PUNCT.,	9
+NOUN PUNCT X X PUNCT	23
+NOUN PUNCT X X X	11
+NOUN PUNCT., ADJ NUM NOUN	13
+NOUN PUNCT., ADP DET NOUN	7
+NOUN PUNCT., ADP NOUN NOUN	20
+NOUN PUNCT., ADP NOUN PART	9
+NOUN PUNCT., ADP NOUN VERB	14
+NOUN PUNCT., ADP NUM NOUN	42
+NOUN PUNCT., ADP PRON ADP	7
+NOUN PUNCT., ADP PRON VERB	12
+NOUN PUNCT., ADP PROPN NOUN	9
+NOUN PUNCT., ADP PROPN PART	11
+NOUN PUNCT., ADP PROPN PROPN	8
+NOUN PUNCT., ADP VERB NOUN	12
+NOUN PUNCT., ADV ADP NOUN	25
+NOUN PUNCT., ADV ADP NUM	16
+NOUN PUNCT., ADV ADP PROPN	9
+NOUN PUNCT., ADV ADP VERB	8
+NOUN PUNCT., ADV ADV VERB	42
+NOUN PUNCT., ADV AUX NOUN	11
+NOUN PUNCT., ADV AUX VERB	29
+NOUN PUNCT., ADV NOUN ADV	14
+NOUN PUNCT., ADV NOUN NOUN	13
+NOUN PUNCT., ADV NOUN VERB	9
+NOUN PUNCT., ADV NUM NOUN	13
+NOUN PUNCT., ADV PROPN PART	8
+NOUN PUNCT., ADV VERB ADJ	8
+NOUN PUNCT., ADV VERB ADP	17
+NOUN PUNCT., ADV VERB DET	9
+NOUN PUNCT., ADV VERB NOUN	66
+NOUN PUNCT., ADV VERB NUM	21
+NOUN PUNCT., ADV VERB PART	29
+NOUN PUNCT., ADV VERB PRON	17
+NOUN PUNCT., ADV VERB PROPN	33
+NOUN PUNCT., ADV VERB VERB	63
+NOUN PUNCT., AUX ADP NOUN	8
+NOUN PUNCT., AUX NOUN PART	7
+NOUN PUNCT., AUX NUM NOUN	16
+NOUN PUNCT., AUX PROPN NOUN	13
+NOUN PUNCT., AUX PROPN PART	7
+NOUN PUNCT., AUX VERB NOUN	10
+NOUN PUNCT., AUX VERB VERB	9
+NOUN PUNCT., DET NOUN ADP	7
+NOUN PUNCT., DET NOUN NOUN	18
+NOUN PUNCT., DET NOUN VERB	13
+NOUN PUNCT., DET NUM NOUN	11
+NOUN PUNCT., NOUN ADV ADV	7
+NOUN PUNCT., NOUN ADV AUX	12
+NOUN PUNCT., NOUN ADV VERB	52
+NOUN PUNCT., NOUN AUX NOUN	13
+NOUN PUNCT., NOUN AUX NUM	8
+NOUN PUNCT., NOUN CCONJ NOUN	10
+NOUN PUNCT., NOUN NOUN ADV	21
+NOUN PUNCT., NOUN NOUN AUX	15
+NOUN PUNCT., NOUN NOUN CCONJ	7
+NOUN PUNCT., NOUN NOUN NOUN	19
+NOUN PUNCT., NOUN NOUN NUM	31
+NOUN PUNCT., NOUN NOUN PART	12
+NOUN PUNCT., NOUN NOUN VERB	26
+NOUN PUNCT., NOUN NUM NOUN	27
+NOUN PUNCT., NOUN PART NOUN	23
+NOUN PUNCT., NOUN PART VERB	16
+NOUN PUNCT., NOUN PROPN NOUN	7
+NOUN PUNCT., NOUN PUNCT., NOUN	9
+NOUN PUNCT., NOUN VERB NOUN	28
+NOUN PUNCT., NOUN VERB NUM	14
+NOUN PUNCT., NOUN VERB PART	10
+NOUN PUNCT., NOUN VERB PROPN	15
+NOUN PUNCT., NOUN VERB VERB	16
+NOUN PUNCT., NUM NOUN ADP	35
+NOUN PUNCT., NUM NOUN NOUN	34
+NOUN PUNCT., NUM NOUN PART	10
+NOUN PUNCT., NUM NOUN VERB	35
+NOUN PUNCT., PART NOUN NUM	8
+NOUN PUNCT., PRON ADV VERB	14
+NOUN PUNCT., PRON NOUN VERB	8
+NOUN PUNCT., PRON PART NOUN	11
+NOUN PUNCT., PRON VERB PART	11
+NOUN PUNCT., PRON VERB PROPN	8
+NOUN PUNCT., PRON VERB VERB	9
+NOUN PUNCT., PROPN ADP PROPN	15
+NOUN PUNCT., PROPN ADV VERB	20
+NOUN PUNCT., PROPN NOUN ADV	10
+NOUN PUNCT., PROPN NOUN NOUN	42
+NOUN PUNCT., PROPN NOUN PART	16
+NOUN PUNCT., PROPN NOUN VERB	26
+NOUN PUNCT., PROPN NUM NOUN	7
+NOUN PUNCT., PROPN PART ADV	8
+NOUN PUNCT., PROPN PART NOUN	24
+NOUN PUNCT., PROPN PART VERB	10
+NOUN PUNCT., PROPN PROPN ADP	15
+NOUN PUNCT., PROPN PROPN ADV	16
+NOUN PUNCT., PROPN PROPN NOUN	11
+NOUN PUNCT., PROPN PROPN PART	9
+NOUN PUNCT., PROPN PROPN VERB	56
+NOUN PUNCT., PROPN PUNCT PROPN	29
+NOUN PUNCT., PROPN VERB PART	10
+NOUN PUNCT., PROPN VERB PROPN	21
+NOUN PUNCT., PROPN VERB VERB	19
+NOUN PUNCT., VERB ADJ NOUN	9
+NOUN PUNCT., VERB ADJ PART	7
+NOUN PUNCT., VERB ADP NOUN	15
+NOUN PUNCT., VERB ADP NUM	9
+NOUN PUNCT., VERB ADP PROPN	14
+NOUN PUNCT., VERB ADV VERB	9
+NOUN PUNCT., VERB NOUN NOUN	50
+NOUN PUNCT., VERB NOUN NUM	7
+NOUN PUNCT., VERB NOUN PART	21
+NOUN PUNCT., VERB NOUN PUNCT	9
+NOUN PUNCT., VERB NOUN PUNCT.,	11
+NOUN PUNCT., VERB NOUN VERB	18
+NOUN PUNCT., VERB NUM NOUN	42
+NOUN PUNCT., VERB PART NOUN	23
+NOUN PUNCT., VERB PART NUM	9
+NOUN PUNCT., VERB PART PROPN	12
+NOUN PUNCT., VERB PART VERB	11
+NOUN PUNCT., VERB PROPN NOUN	25
+NOUN PUNCT., VERB PROPN PART	48
+NOUN PUNCT., VERB PROPN PROPN	16
+NOUN PUNCT., VERB PROPN PUNCT	7
+NOUN PUNCT., VERB PROPN VERB	13
+NOUN PUNCT., VERB VERB NOUN	48
+NOUN PUNCT., VERB VERB NUM	10
+NOUN PUNCT., VERB VERB PART	16
+NOUN PUNCT., VERB VERB PROPN	52
+NOUN PUNCT., VERB VERB VERB	19
+NOUN VERB ADJ NOUN NOUN	7
+NOUN VERB ADJ NOUN PART	16
+NOUN VERB ADJ NOUN PUNCT.,	10
+NOUN VERB ADJ NOUN PUNCT..	9
+NOUN VERB ADJ PART NOUN	25
+NOUN VERB ADP NOUN NOUN	18
+NOUN VERB ADP NUM NOUN	28
+NOUN VERB ADP PROPN NOUN	19
+NOUN VERB ADP PROPN PROPN	7
+NOUN VERB ADP PUNCT., NOUN	8
+NOUN VERB ADP PUNCT., PROPN	20
+NOUN VERB ADV VERB NOUN	8
+NOUN VERB ADV VERB PUNCT..	9
+NOUN VERB DET NOUN NOUN	12
+NOUN VERB DET NOUN PART	7
+NOUN VERB NOUN ADV VERB	9
+NOUN VERB NOUN CCONJ NOUN	10
+NOUN VERB NOUN NOUN NOUN	29
+NOUN VERB NOUN NOUN PART	17
+NOUN VERB NOUN NOUN PUNCT.,	24
+NOUN VERB NOUN NOUN PUNCT..	23
+NOUN VERB NOUN NOUN VERB	16
+NOUN VERB NOUN NUM NOUN	18
+NOUN VERB NOUN PART NOUN	41
+NOUN VERB NOUN PART PUNCT.,	7
+NOUN VERB NOUN PART VERB	9
+NOUN VERB NOUN PUNCT NOUN	18
+NOUN VERB NOUN PUNCT., ADP	9
+NOUN VERB NOUN PUNCT., ADV	18
+NOUN VERB NOUN PUNCT., NOUN	17
+NOUN VERB NOUN PUNCT., PROPN	10
+NOUN VERB NOUN PUNCT., VERB	23
+NOUN VERB NOUN PUNCT.. EOF	52
+NOUN VERB NOUN VERB NOUN	11
+NOUN VERB NOUN VERB PART	19
+NOUN VERB NOUN VERB PROPN	8
+NOUN VERB NOUN VERB PUNCT.,	13
+NOUN VERB NOUN VERB PUNCT..	11
+NOUN VERB NOUN VERB VERB	11
+NOUN VERB NUM NOUN ADJ	9
+NOUN VERB NUM NOUN ADP	7
+NOUN VERB NUM NOUN NOUN	70
+NOUN VERB NUM NOUN NUM	7
+NOUN VERB NUM NOUN PART	16
+NOUN VERB NUM NOUN PUNCT.,	33
+NOUN VERB NUM NOUN PUNCT..	12
+NOUN VERB NUM NOUN VERB	20
+NOUN VERB PART ADJ NOUN	14
+NOUN VERB PART ADJ PART	15
+NOUN VERB PART ADV VERB	19
+NOUN VERB PART NOUN ADV	8
+NOUN VERB PART NOUN AUX	8
+NOUN VERB PART NOUN NOUN	48
+NOUN VERB PART NOUN PART	24
+NOUN VERB PART NOUN PUNCT	7
+NOUN VERB PART NOUN PUNCT.,	59
+NOUN VERB PART NOUN PUNCT..	39
+NOUN VERB PART NOUN VERB	22
+NOUN VERB PART NUM NOUN	53
+NOUN VERB PART PART NOUN	26
+NOUN VERB PART PROPN NOUN	19
+NOUN VERB PART PROPN PART	15
+NOUN VERB PART PROPN PROPN	10
+NOUN VERB PART PUNCT NOUN	9
+NOUN VERB PART PUNCT., NOUN	8
+NOUN VERB PART PUNCT., VERB	17
+NOUN VERB PART PUNCT.. EOF	30
+NOUN VERB PART VERB NOUN	11
+NOUN VERB PART VERB NUM	8
+NOUN VERB PART VERB PART	17
+NOUN VERB PART VERB PROPN	7
+NOUN VERB PART VERB PUNCT.,	7
+NOUN VERB PART VERB VERB	11
+NOUN VERB PRON PART NOUN	8
+NOUN VERB PROPN NOUN NOUN	28
+NOUN VERB PROPN NOUN PART	15
+NOUN VERB PROPN NOUN PUNCT.,	11
+NOUN VERB PROPN NOUN VERB	14
+NOUN VERB PROPN PART NOUN	24
+NOUN VERB PROPN PART PART	8
+NOUN VERB PROPN PART PROPN	11
+NOUN VERB PROPN PART PUNCT.,	12
+NOUN VERB PROPN PART VERB	14
+NOUN VERB PROPN PROPN NOUN	10
+NOUN VERB PROPN PROPN PART	12
+NOUN VERB PROPN PROPN VERB	16
+NOUN VERB PROPN PUNCT PROPN	11
+NOUN VERB PROPN PUNCT.. EOF	16
+NOUN VERB PROPN VERB NOUN	7
+NOUN VERB PROPN VERB PART	12
+NOUN VERB PROPN VERB PUNCT.,	9
+NOUN VERB PUNCT., ADP NOUN	10
+NOUN VERB PUNCT., ADP NUM	7
+NOUN VERB PUNCT., ADV ADP	11
+NOUN VERB PUNCT., ADV ADV	8
+NOUN VERB PUNCT., ADV NOUN	7
+NOUN VERB PUNCT., ADV VERB	23
+NOUN VERB PUNCT., NOUN ADV	11
+NOUN VERB PUNCT., NOUN NOUN	14
+NOUN VERB PUNCT., NOUN PART	9
+NOUN VERB PUNCT., NOUN VERB	10
+NOUN VERB PUNCT., NUM NOUN	16
+NOUN VERB PUNCT., PROPN NOUN	8
+NOUN VERB PUNCT., VERB NOUN	17
+NOUN VERB PUNCT., VERB PART	15
+NOUN VERB PUNCT., VERB PROPN	12
+NOUN VERB PUNCT., VERB VERB	14
+NOUN VERB VERB ADJ PART	9
+NOUN VERB VERB ADV VERB	9
+NOUN VERB VERB DET NOUN	15
+NOUN VERB VERB NOUN CCONJ	8
+NOUN VERB VERB NOUN NOUN	44
+NOUN VERB VERB NOUN PART	28
+NOUN VERB VERB NOUN PUNCT.,	18
+NOUN VERB VERB NOUN PUNCT..	16
+NOUN VERB VERB NOUN VERB	13
+NOUN VERB VERB NUM NOUN	56
+NOUN VERB VERB PART NOUN	29
+NOUN VERB VERB PART PUNCT.,	7
+NOUN VERB VERB PROPN NOUN	40
+NOUN VERB VERB PROPN PART	39
+NOUN VERB VERB PROPN PROPN	22
+NOUN VERB VERB PROPN PUNCT	7
+NOUN VERB VERB PUNCT NOUN	7
+NOUN VERB VERB PUNCT., ADV	10
+NOUN VERB VERB PUNCT., VERB	14
+NOUN VERB VERB PUNCT.. EOF	45
+NOUN VERB VERB VERB NOUN	24
+NOUN VERB VERB VERB PART	15
+NOUN VERB VERB VERB VERB	11
+NOUN VERB X PUNCT.. EOF	10
+NUM NOUN ADJ NOUN NOUN	12
+NUM NOUN ADJ NOUN PART	11
+NUM NOUN ADJ PART NOUN	35
+NUM NOUN ADJ PART VERB	9
+NUM NOUN ADP ADV VERB	10
+NUM NOUN ADP NOUN VERB	9
+NUM NOUN ADP NUM NOUN	8
+NUM NOUN ADP PART NOUN	36
+NUM NOUN ADP PROPN NOUN	11
+NUM NOUN ADP PUNCT., NOUN	18
+NUM NOUN ADP PUNCT., PRON	7
+NUM NOUN ADP PUNCT., PROPN	17
+NUM NOUN ADP PUNCT., VERB	9
+NUM NOUN ADP VERB NOUN	10
+NUM NOUN ADP VERB PROPN	7
+NUM NOUN ADP VERB VERB	10
+NUM NOUN ADV ADV VERB	7
+NUM NOUN ADV VERB NOUN	20
+NUM NOUN ADV VERB PART	10
+NUM NOUN ADV VERB PUNCT..	9
+NUM NOUN ADV VERB VERB	15
+NUM NOUN CCONJ NUM NOUN	59
+NUM NOUN NOUN ADJ PART	10
+NUM NOUN NOUN ADP PUNCT.,	14
+NUM NOUN NOUN ADP VERB	7
+NUM NOUN NOUN ADV VERB	31
+NUM NOUN NOUN CCONJ NOUN	11
+NUM NOUN NOUN CCONJ NUM	8
+NUM NOUN NOUN NOUN ADP	15
+NUM NOUN NOUN NOUN ADV	8
+NUM NOUN NOUN NOUN NOUN	47
+NUM NOUN NOUN NOUN PART	21
+NUM NOUN NOUN NOUN PUNCT.,	31
+NUM NOUN NOUN NOUN PUNCT..	19
+NUM NOUN NOUN NOUN VERB	29
+NUM NOUN NOUN NUM NOUN	11
+NUM NOUN NOUN PART NOUN	76
+NUM NOUN NOUN PART NUM	11
+NUM NOUN NOUN PART PART	13
+NUM NOUN NOUN PART PUNCT.,	11
+NUM NOUN NOUN PART PUNCT..	8
+NUM NOUN NOUN PART VERB	16
+NUM NOUN NOUN PUNCT NOUN	8
+NUM NOUN NOUN PUNCT NUM	12
+NUM NOUN NOUN PUNCT., ADP	14
+NUM NOUN NOUN PUNCT., ADV	33
+NUM NOUN NOUN PUNCT., AUX	10
+NUM NOUN NOUN PUNCT., DET	8
+NUM NOUN NOUN PUNCT., NOUN	22
+NUM NOUN NOUN PUNCT., NUM	12
+NUM NOUN NOUN PUNCT., PROPN	14
+NUM NOUN NOUN PUNCT., VERB	43
+NUM NOUN NOUN PUNCT.. EOF	98
+NUM NOUN NOUN VERB ADP	12
+NUM NOUN NOUN VERB NOUN	25
+NUM NOUN NOUN VERB NUM	7
+NUM NOUN NOUN VERB PART	20
+NUM NOUN NOUN VERB PUNCT.,	18
+NUM NOUN NOUN VERB PUNCT..	7
+NUM NOUN NOUN VERB VERB	23
+NUM NOUN NUM NOUN ADP	30
+NUM NOUN NUM NOUN ADV	11
+NUM NOUN NUM NOUN CCONJ	14
+NUM NOUN NUM NOUN NOUN	25
+NUM NOUN NUM NOUN NUM	243
+NUM NOUN NUM NOUN PART	13
+NUM NOUN NUM NOUN PROPN	32
+NUM NOUN NUM NOUN PUNCT	15
+NUM NOUN NUM NOUN PUNCT.,	215
+NUM NOUN NUM NOUN PUNCT..	8
+NUM NOUN NUM NOUN VERB	97
+NUM NOUN PART NOUN ADP	8
+NUM NOUN PART NOUN NOUN	28
+NUM NOUN PART NOUN PART	23
+NUM NOUN PART NOUN PUNCT	8
+NUM NOUN PART NOUN PUNCT.,	36
+NUM NOUN PART NOUN PUNCT..	23
+NUM NOUN PART NOUN VERB	14
+NUM NOUN PART NUM NOUN	10
+NUM NOUN PART PART NOUN	13
+NUM NOUN PART PROPN NOUN	12
+NUM NOUN PART PROPN PART	7
+NUM NOUN PART PUNCT., VERB	7
+NUM NOUN PART VERB PART	7
+NUM NOUN PROPN NOUN NOUN	42
+NUM NOUN PROPN NOUN PART	7
+NUM NOUN PROPN NOUN VERB	9
+NUM NOUN PROPN PART NOUN	11
+NUM NOUN PROPN VERB PROPN	9
+NUM NOUN PUNCT NOUN NUM	9
+NUM NOUN PUNCT NUM NOUN	56
+NUM NOUN PUNCT PART NOUN	7
+NUM NOUN PUNCT PUNCT., PROPN	13
+NUM NOUN PUNCT PUNCT.. EOF	16
+NUM NOUN PUNCT., ADJ NOUN	12
+NUM NOUN PUNCT., ADJ NUM	12
+NUM NOUN PUNCT., ADP NOUN	10
+NUM NOUN PUNCT., ADP NUM	11
+NUM NOUN PUNCT., ADP VERB	7
+NUM NOUN PUNCT., ADV ADV	7
+NUM NOUN PUNCT., ADV VERB	26
+NUM NOUN PUNCT., AUX PROPN	10
+NUM NOUN PUNCT., DET NOUN	7
+NUM NOUN PUNCT., NOUN ADP	7
+NUM NOUN PUNCT., NOUN ADV	15
+NUM NOUN PUNCT., NOUN AUX	13
+NUM NOUN PUNCT., NOUN NOUN	56
+NUM NOUN PUNCT., NOUN NUM	16
+NUM NOUN PUNCT., NOUN PART	27
+NUM NOUN PUNCT., NOUN PROPN	9
+NUM NOUN PUNCT., NOUN VERB	22
+NUM NOUN PUNCT., NUM NOUN	66
+NUM NOUN PUNCT., PART NOUN	8
+NUM NOUN PUNCT., PRON VERB	13
+NUM NOUN PUNCT., PROPN ADP	17
+NUM NOUN PUNCT., PROPN ADV	9
+NUM NOUN PUNCT., PROPN NOUN	58
+NUM NOUN PUNCT., PROPN PART	31
+NUM NOUN PUNCT., PROPN PROPN	79
+NUM NOUN PUNCT., PROPN PUNCT	18
+NUM NOUN PUNCT., PROPN VERB	41
+NUM NOUN PUNCT., VERB ADP	17
+NUM NOUN PUNCT., VERB NOUN	13
+NUM NOUN PUNCT., VERB NUM	13
+NUM NOUN PUNCT., VERB PART	19
+NUM NOUN PUNCT., VERB PROPN	20
+NUM NOUN PUNCT., VERB VERB	19
+NUM NOUN VERB ADP NOUN	8
+NUM NOUN VERB ADP PROPN	12
+NUM NOUN VERB ADP PUNCT.,	7
+NUM NOUN VERB DET NOUN	8
+NUM NOUN VERB NOUN NOUN	30
+NUM NOUN VERB NOUN PART	14
+NUM NOUN VERB NOUN PUNCT.,	12
+NUM NOUN VERB NOUN PUNCT..	7
+NUM NOUN VERB NOUN VERB	19
+NUM NOUN VERB NUM NOUN	37
+NUM NOUN VERB PART NOUN	44
+NUM NOUN VERB PART NUM	10
+NUM NOUN VERB PART PROPN	15
+NUM NOUN VERB PART PUNCT	8
+NUM NOUN VERB PART PUNCT.,	10
+NUM NOUN VERB PART VERB	14
+NUM NOUN VERB PROPN NOUN	29
+NUM NOUN VERB PROPN PART	24
+NUM NOUN VERB PROPN PROPN	12
+NUM NOUN VERB PROPN PUNCT.,	8
+NUM NOUN VERB PROPN VERB	13
+NUM NOUN VERB PUNCT., ADP	7
+NUM NOUN VERB PUNCT., ADV	10
+NUM NOUN VERB PUNCT., NOUN	11
+NUM NOUN VERB PUNCT., VERB	8
+NUM NOUN VERB PUNCT.. EOF	46
+NUM NOUN VERB VERB DET	7
+NUM NOUN VERB VERB NOUN	23
+NUM NOUN VERB VERB NUM	11
+NUM NOUN VERB VERB PART	15
+NUM NOUN VERB VERB PROPN	27
+NUM NOUN VERB VERB PUNCT.,	11
+NUM NOUN VERB VERB PUNCT..	11
+NUM NOUN VERB VERB VERB	11
+NUM PART NOUN PUNCT.. EOF	8
+PART ADJ NOUN NOUN NOUN	7
+PART ADJ NOUN NOUN PUNCT.,	8
+PART ADJ NOUN PUNCT., VERB	12
+PART ADJ NOUN PUNCT.. EOF	42
+PART ADJ NOUN VERB VERB	9
+PART ADJ PART NOUN NOUN	13
+PART ADJ PART NOUN PUNCT.,	9
+PART ADJ PART NOUN PUNCT..	15
+PART ADP NUM NOUN NUM	9
+PART ADP NUM NOUN VERB	9
+PART ADP PART NOUN NOUN	8
+PART ADV ADJ PART NOUN	11
+PART ADV VERB NOUN NOUN	7
+PART ADV VERB NUM NOUN	20
+PART ADV VERB PART NOUN	8
+PART ADV VERB VERB NOUN	11
+PART AUX PROPN NOUN NOUN	8
+PART AUX PROPN PART NOUN	9
+PART CCONJ NOUN NOUN PART	13
+PART CCONJ NOUN PART NOUN	7
+PART CCONJ PROPN PART NOUN	12
+PART CCONJ PROPN PART PART	11
+PART CCONJ VERB PART PUNCT..	8
+PART DET NOUN PUNCT.. EOF	17
+PART DET NUM NOUN NOUN	9
+PART NOUN ADJ PART NOUN	7
+PART NOUN ADP NOUN NOUN	7
+PART NOUN ADP NOUN VERB	10
+PART NOUN ADP NUM NOUN	15
+PART NOUN ADP PUNCT., ADV	11
+PART NOUN ADP PUNCT., NOUN	15
+PART NOUN ADP PUNCT., PROPN	14
+PART NOUN ADP PUNCT., VERB	10
+PART NOUN ADP PUNCT.. EOF	9
+PART NOUN ADP VERB VERB	7
+PART NOUN ADV ADJ PUNCT.,	7
+PART NOUN ADV ADV VERB	10
+PART NOUN ADV AUX VERB	20
+PART NOUN ADV VERB ADJ	7
+PART NOUN ADV VERB NOUN	21
+PART NOUN ADV VERB NUM	9
+PART NOUN ADV VERB PART	15
+PART NOUN ADV VERB PRON	7
+PART NOUN ADV VERB PUNCT.,	12
+PART NOUN ADV VERB PUNCT..	12
+PART NOUN ADV VERB VERB	35
+PART NOUN AUX NOUN PART	12
+PART NOUN AUX NOUN PUNCT.,	7
+PART NOUN AUX NUM NOUN	42
+PART NOUN AUX VERB NOUN	8
+PART NOUN AUX VERB VERB	7
+PART NOUN CCONJ NOUN ADP	8
+PART NOUN CCONJ NOUN ADV	7
+PART NOUN CCONJ NOUN NOUN	18
+PART NOUN CCONJ NOUN PART	11
+PART NOUN CCONJ NOUN PUNCT.,	21
+PART NOUN CCONJ NOUN PUNCT..	14
+PART NOUN CCONJ NOUN VERB	14
+PART NOUN CCONJ PROPN NOUN	8
+PART NOUN NOUN ADJ PUNCT.,	10
+PART NOUN NOUN ADP NOUN	15
+PART NOUN NOUN ADP PUNCT.,	15
+PART NOUN NOUN ADP VERB	12
+PART NOUN NOUN ADV ADJ	7
+PART NOUN NOUN ADV AUX	8
+PART NOUN NOUN ADV VERB	41
+PART NOUN NOUN CCONJ NOUN	25
+PART NOUN NOUN NOUN ADP	7
+PART NOUN NOUN NOUN NOUN	28
+PART NOUN NOUN NOUN PART	20
+PART NOUN NOUN NOUN PUNCT	7
+PART NOUN NOUN NOUN PUNCT.,	37
+PART NOUN NOUN NOUN PUNCT..	27
+PART NOUN NOUN NOUN VERB	19
+PART NOUN NOUN NUM NOUN	7
+PART NOUN NOUN PART NOUN	33
+PART NOUN NOUN PART NUM	8
+PART NOUN NOUN PART PUNCT.,	8
+PART NOUN NOUN PART VERB	7
+PART NOUN NOUN PUNCT NOUN	17
+PART NOUN NOUN PUNCT., ADP	19
+PART NOUN NOUN PUNCT., ADV	38
+PART NOUN NOUN PUNCT., AUX	11
+PART NOUN NOUN PUNCT., NOUN	28
+PART NOUN NOUN PUNCT., PROPN	8
+PART NOUN NOUN PUNCT., VERB	50
+PART NOUN NOUN PUNCT.. EOF	194
+PART NOUN NOUN VERB ADJ	7
+PART NOUN NOUN VERB ADP	10
+PART NOUN NOUN VERB NOUN	23
+PART NOUN NOUN VERB PART	18
+PART NOUN NOUN VERB PROPN	13
+PART NOUN NOUN VERB PUNCT.,	14
+PART NOUN NOUN VERB VERB	28
+PART NOUN NUM NOUN NOUN	15
+PART NOUN NUM NOUN PUNCT.,	50
+PART NOUN PART ADJ NOUN	8
+PART NOUN PART NOUN AUX	7
+PART NOUN PART NOUN NOUN	36
+PART NOUN PART NOUN PART	22
+PART NOUN PART NOUN PUNCT.,	31
+PART NOUN PART NOUN PUNCT..	35
+PART NOUN PART NOUN VERB	15
+PART NOUN PART NUM NOUN	17
+PART NOUN PART NUM PUNCT.,	7
+PART NOUN PART NUM PUNCT..	21
+PART NOUN PART PART NOUN	21
+PART NOUN PART PUNCT NOUN	7
+PART NOUN PART PUNCT., ADV	9
+PART NOUN PART PUNCT., NOUN	7
+PART NOUN PART PUNCT., VERB	7
+PART NOUN PART PUNCT.. EOF	37
+PART NOUN PART VERB NOUN	7
+PART NOUN PART VERB PART	15
+PART NOUN PROPN PROPN VERB	17
+PART NOUN PROPN PUNCT PROPN	10
+PART NOUN PUNCT NOUN NOUN	18
+PART NOUN PUNCT NOUN PUNCT	9
+PART NOUN PUNCT PUNCT.. EOF	16
+PART NOUN PUNCT X X	7
+PART NOUN PUNCT., ADP NOUN	14
+PART NOUN PUNCT., ADP NUM	9
+PART NOUN PUNCT., ADP PRON	17
+PART NOUN PUNCT., ADP PROPN	10
+PART NOUN PUNCT., ADP VERB	11
+PART NOUN PUNCT., ADV ADP	17
+PART NOUN PUNCT., ADV ADV	18
+PART NOUN PUNCT., ADV AUX	26
+PART NOUN PUNCT., ADV NOUN	14
+PART NOUN PUNCT., ADV PROPN	11
+PART NOUN PUNCT., ADV VERB	97
+PART NOUN PUNCT., AUX VERB	8
+PART NOUN PUNCT., DET NOUN	9
+PART NOUN PUNCT., NOUN ADV	27
+PART NOUN PUNCT., NOUN NOUN	21
+PART NOUN PUNCT., NOUN PART	8
+PART NOUN PUNCT., NOUN VERB	22
+PART NOUN PUNCT., NUM NOUN	15
+PART NOUN PUNCT., PRON VERB	13
+PART NOUN PUNCT., PROPN ADV	8
+PART NOUN PUNCT., PROPN NOUN	19
+PART NOUN PUNCT., PROPN PART	7
+PART NOUN PUNCT., PROPN PROPN	13
+PART NOUN PUNCT., VERB ADP	11
+PART NOUN PUNCT., VERB NOUN	45
+PART NOUN PUNCT., VERB NUM	9
+PART NOUN PUNCT., VERB PART	21
+PART NOUN PUNCT., VERB PRON	13
+PART NOUN PUNCT., VERB PROPN	26
+PART NOUN PUNCT., VERB VERB	64
+PART NOUN VERB ADJ PART	10
+PART NOUN VERB ADP NOUN	7
+PART NOUN VERB ADV VERB	7
+PART NOUN VERB NOUN NOUN	21
+PART NOUN VERB NOUN PART	9
+PART NOUN VERB NOUN PUNCT.,	13
+PART NOUN VERB NOUN PUNCT..	12
+PART NOUN VERB NOUN VERB	8
+PART NOUN VERB NUM NOUN	18
+PART NOUN VERB PART NOUN	19
+PART NOUN VERB PART PUNCT..	13
+PART NOUN VERB PROPN NOUN	8
+PART NOUN VERB PROPN PART	15
+PART NOUN VERB PUNCT., ADP	8
+PART NOUN VERB PUNCT., ADV	15
+PART NOUN VERB PUNCT., NOUN	9
+PART NOUN VERB PUNCT., VERB	12
+PART NOUN VERB PUNCT.. EOF	39
+PART NOUN VERB VERB NOUN	30
+PART NOUN VERB VERB NUM	10
+PART NOUN VERB VERB PART	12
+PART NOUN VERB VERB PROPN	18
+PART NOUN VERB VERB PUNCT.,	9
+PART NOUN VERB VERB VERB	20
+PART NUM NOUN ADJ NOUN	14
+PART NUM NOUN ADJ PART	9
+PART NUM NOUN ADV VERB	9
+PART NUM NOUN NOUN ADV	7
+PART NUM NOUN NOUN NOUN	40
+PART NUM NOUN NOUN PART	33
+PART NUM NOUN NOUN PUNCT	8
+PART NUM NOUN NOUN PUNCT.,	53
+PART NUM NOUN NOUN PUNCT..	38
+PART NUM NOUN NOUN VERB	10
+PART NUM NOUN NUM NOUN	16
+PART NUM NOUN PART NOUN	11
+PART NUM NOUN PROPN NOUN	10
+PART NUM NOUN PUNCT., VERB	10
+PART NUM NOUN PUNCT.. EOF	32
+PART NUM NOUN VERB PART	11
+PART PART ADJ NOUN PUNCT.,	7
+PART PART NOUN ADV VERB	8
+PART PART NOUN CCONJ NOUN	10
+PART PART NOUN NOUN ADV	8
+PART PART NOUN NOUN CCONJ	7
+PART PART NOUN NOUN NOUN	17
+PART PART NOUN NOUN PART	8
+PART PART NOUN NOUN PUNCT.,	19
+PART PART NOUN NOUN PUNCT..	20
+PART PART NOUN NOUN VERB	9
+PART PART NOUN PART NOUN	9
+PART PART NOUN PART PUNCT.,	7
+PART PART NOUN PUNCT., ADV	15
+PART PART NOUN PUNCT., NOUN	10
+PART PART NOUN PUNCT., PROPN	8
+PART PART NOUN PUNCT., VERB	17
+PART PART NOUN PUNCT.. EOF	78
+PART PART NOUN VERB VERB	7
+PART PART NUM NOUN NOUN	24
+PART PART PROPN NOUN NOUN	7
+PART PART PROPN PUNCT PROPN	7
+PART PROPN NOUN NOUN NOUN	10
+PART PROPN NOUN NOUN PART	7
+PART PROPN NOUN NOUN PUNCT.,	11
+PART PROPN NOUN NOUN PUNCT..	7
+PART PROPN NOUN PART NOUN	9
+PART PROPN NOUN PUNCT., VERB	10
+PART PROPN NOUN PUNCT.. EOF	19
+PART PROPN PART ADV VERB	12
+PART PROPN PART NOUN NOUN	18
+PART PROPN PART NOUN PART	13
+PART PROPN PART NOUN PUNCT.,	15
+PART PROPN PART NOUN PUNCT..	12
+PART PROPN PART NUM NOUN	9
+PART PROPN PART PART NOUN	12
+PART PROPN PART PART PUNCT.,	7
+PART PROPN PART PROPN PART	57
+PART PROPN PART PUNCT PROPN	9
+PART PROPN PART PUNCT., AUX	9
+PART PROPN PART PUNCT.. EOF	11
+PART PROPN PART VERB PART	19
+PART PROPN PROPN PART NOUN	10
+PART PROPN PUNCT PROPN PUNCT	14
+PART PROPN PUNCT PROPN VERB	7
+PART PUNCT NOUN CCONJ NOUN	9
+PART PUNCT NOUN NOUN PUNCT	12
+PART PUNCT NOUN PART PUNCT	14
+PART PUNCT NOUN PUNCT NOUN	9
+PART PUNCT NUM NOUN PART	7
+PART PUNCT PROPN PART CCONJ	11
+PART PUNCT PROPN PART NOUN	7
+PART PUNCT PROPN PART PUNCT	68
+PART PUNCT., ADV VERB NOUN	10
+PART PUNCT., ADV VERB VERB	20
+PART PUNCT., AUX NUM NOUN	18
+PART PUNCT., AUX PROPN NOUN	10
+PART PUNCT., AUX PROPN PART	9
+PART PUNCT., NOUN NUM NOUN	8
+PART PUNCT., PROPN NOUN NOUN	10
+PART PUNCT., VERB NOUN PART	7
+PART PUNCT., VERB PROPN NOUN	9
+PART PUNCT., VERB PROPN PART	7
+PART PUNCT., VERB VERB PROPN	11
+PART VERB NOUN NOUN NOUN	12
+PART VERB NOUN NOUN PUNCT.,	11
+PART VERB NOUN NOUN PUNCT..	11
+PART VERB NOUN PART NOUN	10
+PART VERB NOUN PUNCT.. EOF	12
+PART VERB NUM NOUN NOUN	14
+PART VERB NUM NOUN PUNCT.,	9
+PART VERB PART ADV VERB	16
+PART VERB PART DET NOUN	8
+PART VERB PART NOUN NOUN	13
+PART VERB PART NOUN PART	10
+PART VERB PART NOUN PUNCT.,	8
+PART VERB PART NOUN PUNCT..	10
+PART VERB PART NUM NOUN	25
+PART VERB PART PART NOUN	13
+PART VERB PART PROPN PART	11
+PART VERB PART PUNCT., ADV	8
+PART VERB PART PUNCT., NOUN	7
+PART VERB PART PUNCT.. EOF	40
+PART VERB PART VERB VERB	7
+PART VERB PROPN PART NOUN	18
+PART VERB VERB NOUN NOUN	13
+PART VERB VERB NOUN PUNCT.,	8
+PART VERB VERB NUM NOUN	8
+PART VERB VERB PART NOUN	10
+PART VERB VERB PROPN NOUN	10
+PART VERB VERB PROPN PART	12
+PART VERB VERB PUNCT., NOUN	9
+PRON ADV VERB PART NOUN	9
+PRON AUX NUM NOUN ADJ	7
+PRON PART NOUN PUNCT., VERB	7
+PRON PART NOUN PUNCT.. EOF	19
+PRON PART NOUN VERB VERB	10
+PRON PART NUM NOUN NOUN	7
+PRON VERB PART NUM NOUN	9
+PROPN ADP NUM NOUN NUM	10
+PROPN ADP NUM NOUN VERB	15
+PROPN ADP PROPN PART NOUN	7
+PROPN ADV VERB NOUN PART	7
+PROPN ADV VERB NUM NOUN	11
+PROPN ADV VERB PART NOUN	15
+PROPN ADV VERB PROPN PROPN	9
+PROPN ADV VERB PUNCT.. EOF	10
+PROPN ADV VERB VERB NOUN	7
+PROPN ADV VERB VERB PROPN	9
+PROPN ADV VERB VERB VERB	13
+PROPN AUX PROPN PART NOUN	15
+PROPN CCONJ PROPN NOUN NOUN	9
+PROPN CCONJ PROPN PART NOUN	10
+PROPN CCONJ PROPN PROPN VERB	7
+PROPN CCONJ PROPN PUNCT PROPN	9
+PROPN NOUN ADP NOUN NOUN	7
+PROPN NOUN ADP NUM NOUN	21
+PROPN NOUN ADV VERB NOUN	14
+PROPN NOUN ADV VERB PROPN	8
+PROPN NOUN ADV VERB VERB	14
+PROPN NOUN CCONJ PROPN NOUN	15
+PROPN NOUN NOUN ADJ NOUN	7
+PROPN NOUN NOUN ADP NUM	7
+PROPN NOUN NOUN ADV VERB	17
+PROPN NOUN NOUN NOUN ADP	7
+PROPN NOUN NOUN NOUN ADV	7
+PROPN NOUN NOUN NOUN NOUN	34
+PROPN NOUN NOUN NOUN PART	20
+PROPN NOUN NOUN NOUN PUNCT	10
+PROPN NOUN NOUN NOUN PUNCT.,	11
+PROPN NOUN NOUN NOUN PUNCT..	10
+PROPN NOUN NOUN NOUN VERB	19
+PROPN NOUN NOUN NUM NOUN	13
+PROPN NOUN NOUN PART NOUN	54
+PROPN NOUN NOUN PART PROPN	15
+PROPN NOUN NOUN PART PUNCT.,	8
+PROPN NOUN NOUN PART VERB	17
+PROPN NOUN NOUN PUNCT NOUN	9
+PROPN NOUN NOUN PUNCT., AUX	7
+PROPN NOUN NOUN PUNCT., NOUN	13
+PROPN NOUN NOUN PUNCT., VERB	13
+PROPN NOUN NOUN PUNCT.. EOF	48
+PROPN NOUN NOUN VERB ADP	7
+PROPN NOUN NOUN VERB NOUN	11
+PROPN NOUN NOUN VERB PART	25
+PROPN NOUN NOUN VERB PROPN	7
+PROPN NOUN NOUN VERB PUNCT.,	7
+PROPN NOUN NOUN VERB VERB	12
+PROPN NOUN NUM NOUN NOUN	13
+PROPN NOUN NUM NOUN PART	7
+PROPN NOUN NUM NOUN PUNCT.,	7
+PROPN NOUN PART ADJ NOUN	8
+PROPN NOUN PART NOUN ADV	11
+PROPN NOUN PART NOUN NOUN	40
+PROPN NOUN PART NOUN PART	17
+PROPN NOUN PART NOUN PUNCT.,	15
+PROPN NOUN PART NOUN PUNCT..	21
+PROPN NOUN PART NOUN VERB	16
+PROPN NOUN PART NUM NOUN	20
+PROPN NOUN PART PART NOUN	16
+PROPN NOUN PART PROPN NOUN	9
+PROPN NOUN PART PROPN PART	9
+PROPN NOUN PART PUNCT PROPN	7
+PROPN NOUN PART PUNCT.. EOF	9
+PROPN NOUN PART VERB NOUN	9
+PROPN NOUN PART VERB PART	11
+PROPN NOUN PROPN NOUN NOUN	7
+PROPN NOUN PROPN PART NOUN	10
+PROPN NOUN PUNCT PROPN NOUN	21
+PROPN NOUN PUNCT PROPN PART	9
+PROPN NOUN PUNCT PUNCT.. EOF	7
+PROPN NOUN PUNCT X X	13
+PROPN NOUN PUNCT., ADV VERB	15
+PROPN NOUN PUNCT., AUX PROPN	7
+PROPN NOUN PUNCT., NOUN VERB	9
+PROPN NOUN PUNCT., VERB NOUN	7
+PROPN NOUN PUNCT., VERB PROPN	9
+PROPN NOUN PUNCT., VERB VERB	11
+PROPN NOUN VERB ADP PUNCT.,	7
+PROPN NOUN VERB NOUN NOUN	9
+PROPN NOUN VERB NOUN PUNCT.,	7
+PROPN NOUN VERB NOUN VERB	8
+PROPN NOUN VERB NUM NOUN	16
+PROPN NOUN VERB PART NOUN	20
+PROPN NOUN VERB PART VERB	12
+PROPN NOUN VERB PROPN NOUN	9
+PROPN NOUN VERB PROPN PART	7
+PROPN NOUN VERB PROPN PROPN	9
+PROPN NOUN VERB PUNCT.. EOF	22
+PROPN NOUN VERB VERB NUM	8
+PROPN NOUN VERB VERB PROPN	13
+PROPN NUM NOUN NOUN NOUN	9
+PROPN NUM NOUN PUNCT NUM	17
+PROPN NUM NOUN VERB PART	7
+PROPN NUM NOUN VERB PROPN	8
+PROPN PART ADJ NOUN NOUN	8
+PROPN PART ADP NUM NOUN	11
+PROPN PART ADV VERB NOUN	9
+PROPN PART ADV VERB PART	8
+PROPN PART ADV VERB PROPN	8
+PROPN PART ADV VERB VERB	12
+PROPN PART AUX NUM NOUN	7
+PROPN PART AUX PROPN NOUN	7
+PROPN PART AUX PROPN PART	14
+PROPN PART AUX PROPN PROPN	7
+PROPN PART CCONJ PROPN PART	44
+PROPN PART NOUN ADP NOUN	9
+PROPN PART NOUN ADP PUNCT.,	12
+PROPN PART NOUN ADP VERB	10
+PROPN PART NOUN ADV VERB	23
+PROPN PART NOUN CCONJ NOUN	10
+PROPN PART NOUN NOUN ADJ	7
+PROPN PART NOUN NOUN NOUN	29
+PROPN PART NOUN NOUN PART	14
+PROPN PART NOUN NOUN PUNCT	7
+PROPN PART NOUN NOUN PUNCT.,	23
+PROPN PART NOUN NOUN PUNCT..	28
+PROPN PART NOUN NOUN VERB	20
+PROPN PART NOUN NUM NOUN	10
+PROPN PART NOUN PART NOUN	33
+PROPN PART NOUN PART PART	8
+PROPN PART NOUN PART PROPN	9
+PROPN PART NOUN PART VERB	13
+PROPN PART NOUN PROPN PROPN	17
+PROPN PART NOUN PUNCT., ADP	12
+PROPN PART NOUN PUNCT., ADV	23
+PROPN PART NOUN PUNCT., NOUN	12
+PROPN PART NOUN PUNCT., PROPN	13
+PROPN PART NOUN PUNCT., VERB	43
+PROPN PART NOUN PUNCT.. EOF	55
+PROPN PART NOUN VERB NOUN	7
+PROPN PART NOUN VERB PART	13
+PROPN PART NOUN VERB PROPN	18
+PROPN PART NOUN VERB PUNCT..	7
+PROPN PART NOUN VERB VERB	21
+PROPN PART NUM NOUN NOUN	23
+PROPN PART NUM NOUN PUNCT.,	10
+PROPN PART PART NOUN NOUN	28
+PROPN PART PART NOUN PART	7
+PROPN PART PART NOUN PUNCT.,	16
+PROPN PART PART NOUN PUNCT..	16
+PROPN PART PART NOUN VERB	12
+PROPN PART PART NUM NOUN	16
+PROPN PART PART PROPN NOUN	7
+PROPN PART PROPN NOUN NOUN	7
+PROPN PART PROPN PART NOUN	22
+PROPN PART PROPN PART PART	19
+PROPN PART PROPN PART PROPN	57
+PROPN PART PROPN PART PUNCT.,	18
+PROPN PART PROPN PART VERB	14
+PROPN PART PROPN PUNCT PROPN	8
+PROPN PART PUNCT PROPN PART	90
+PROPN PART PUNCT X PUNCT	9
+PROPN PART PUNCT X X	9
+PROPN PART PUNCT., AUX NUM	11
+PROPN PART PUNCT., AUX PROPN	12
+PROPN PART PUNCT., NOUN NOUN	7
+PROPN PART PUNCT., PROPN PART	8
+PROPN PART PUNCT., VERB VERB	8
+PROPN PART VERB NOUN NOUN	8
+PROPN PART VERB PART NOUN	12
+PROPN PART VERB PART NUM	19
+PROPN PART VERB PART PROPN	11
+PROPN PART VERB PART VERB	7
+PROPN PART VERB PROPN PART	12
+PROPN PART VERB PROPN PROPN	7
+PROPN PART VERB PUNCT., PROPN	8
+PROPN PART VERB PUNCT.. EOF	21
+PROPN PART VERB VERB NOUN	11
+PROPN PART VERB VERB PROPN	18
+PROPN PART VERB VERB PUNCT.,	11
+PROPN PROPN ADP NUM NOUN	15
+PROPN PROPN ADV VERB PROPN	13
+PROPN PROPN ADV VERB VERB	21
+PROPN PROPN AUX PROPN NOUN	9
+PROPN PROPN AUX PROPN PART	7
+PROPN PROPN CCONJ PROPN PROPN	20
+PROPN PROPN NOUN NOUN NOUN	10
+PROPN PROPN NOUN NOUN PART	8
+PROPN PROPN NOUN NOUN PUNCT.,	7
+PROPN PROPN NOUN PART NOUN	11
+PROPN PROPN NOUN PART NUM	7
+PROPN PROPN NOUN PROPN PART	7
+PROPN PROPN NOUN PUNCT.. EOF	14
+PROPN PROPN NOUN VERB NOUN	9
+PROPN PROPN NOUN VERB PROPN	7
+PROPN PROPN NOUN VERB VERB	7
+PROPN PROPN NUM NOUN VERB	9
+PROPN PROPN PART NOUN ADP	14
+PROPN PROPN PART NOUN NOUN	11
+PROPN PROPN PART NOUN PART	12
+PROPN PROPN PART NOUN PROPN	11
+PROPN PROPN PART NOUN PUNCT.,	25
+PROPN PROPN PART NOUN PUNCT..	8
+PROPN PROPN PART NOUN VERB	11
+PROPN PROPN PART NUM NOUN	13
+PROPN PROPN PART PROPN PART	36
+PROPN PROPN PART PUNCT PROPN	7
+PROPN PROPN PART VERB PART	11
+PROPN PROPN PUNCT NUM NOUN	7
+PROPN PROPN PUNCT PROPN PROPN	63
+PROPN PROPN PUNCT., PROPN NOUN	7
+PROPN PROPN PUNCT., PROPN PROPN	8
+PROPN PROPN VERB ADP PUNCT.,	7
+PROPN PROPN VERB NOUN NOUN	19
+PROPN PROPN VERB NOUN PUNCT.,	12
+PROPN PROPN VERB NUM NOUN	7
+PROPN PROPN VERB PART NOUN	17
+PROPN PROPN VERB PART NUM	9
+PROPN PROPN VERB PART PROPN	10
+PROPN PROPN VERB PROPN NOUN	14
+PROPN PROPN VERB PROPN PART	11
+PROPN PROPN VERB PROPN PROPN	17
+PROPN PROPN VERB PROPN PUNCT.,	10
+PROPN PROPN VERB PROPN VERB	16
+PROPN PROPN VERB PUNCT., NOUN	8
+PROPN PROPN VERB PUNCT., PROPN	12
+PROPN PROPN VERB PUNCT., VERB	7
+PROPN PROPN VERB PUNCT.. EOF	21
+PROPN PROPN VERB VERB NOUN	9
+PROPN PROPN VERB VERB PART	8
+PROPN PROPN VERB VERB PROPN	9
+PROPN PUNCT NUM NOUN PUNCT	7
+PROPN PUNCT PROPN ADP NUM	8
+PROPN PUNCT PROPN CCONJ PROPN	28
+PROPN PUNCT PROPN NOUN NOUN	19
+PROPN PUNCT PROPN NOUN PUNCT	13
+PROPN PUNCT PROPN NUM NOUN	14
+PROPN PUNCT PROPN PART NOUN	17
+PROPN PUNCT PROPN PROPN CCONJ	8
+PROPN PUNCT PROPN PROPN NOUN	13
+PROPN PUNCT PROPN PROPN PUNCT	33
+PROPN PUNCT PROPN PROPN VERB	11
+PROPN PUNCT PROPN PUNCT PART	7
+PROPN PUNCT PROPN PUNCT PROPN	86
+PROPN PUNCT PROPN PUNCT X	28
+PROPN PUNCT PROPN VERB ADP	8
+PROPN PUNCT PROPN VERB NOUN	7
+PROPN PUNCT PROPN VERB PROPN	11
+PROPN PUNCT PROPN VERB VERB	8
+PROPN PUNCT X X PUNCT	34
+PROPN PUNCT., PROPN PROPN PART	8
+PROPN PUNCT., VERB VERB PROPN	9
+PROPN VERB ADP PUNCT., PROPN	10
+PROPN VERB NOUN NOUN PUNCT.,	8
+PROPN VERB NOUN NOUN PUNCT..	8
+PROPN VERB NOUN PUNCT., PROPN	8
+PROPN VERB NOUN PUNCT., VERB	10
+PROPN VERB NOUN PUNCT.. EOF	8
+PROPN VERB NUM NOUN NOUN	10
+PROPN VERB NUM NOUN PART	7
+PROPN VERB PART DET NOUN	9
+PROPN VERB PART NOUN NOUN	18
+PROPN VERB PART NOUN PUNCT.,	10
+PROPN VERB PART NOUN PUNCT..	12
+PROPN VERB PART NOUN VERB	9
+PROPN VERB PART NUM NOUN	19
+PROPN VERB PART PROPN NOUN	9
+PROPN VERB PART PUNCT.. EOF	7
+PROPN VERB PART VERB PART	11
+PROPN VERB PROPN ADV VERB	7
+PROPN VERB PROPN NOUN ADP	7
+PROPN VERB PROPN NOUN NOUN	12
+PROPN VERB PROPN NOUN VERB	10
+PROPN VERB PROPN PART NOUN	11
+PROPN VERB PROPN PART VERB	13
+PROPN VERB PROPN PROPN VERB	11
+PROPN VERB PROPN PUNCT., VERB	7
+PROPN VERB PROPN VERB PART	7
+PROPN VERB PROPN VERB PROPN	8
+PROPN VERB PUNCT., ADV VERB	8
+PROPN VERB PUNCT., PROPN PROPN	11
+PROPN VERB VERB NOUN NOUN	8
+PROPN VERB VERB NOUN PUNCT..	7
+PROPN VERB VERB NUM NOUN	8
+PROPN VERB VERB PART NOUN	10
+PROPN VERB VERB PROPN NOUN	8
+PROPN VERB VERB PROPN PART	7
+PROPN VERB VERB PROPN PROPN	7
+PROPN VERB VERB PUNCT.. EOF	9
+PROPN VERB VERB VERB PROPN	7
+PUNCT NOUN CCONJ NOUN NOUN	15
+PUNCT NOUN CCONJ NOUN PART	9
+PUNCT NOUN NOUN CCONJ NOUN	11
+PUNCT NOUN NOUN NOUN NOUN	12
+PUNCT NOUN NOUN NOUN PART	8
+PUNCT NOUN NOUN NOUN PUNCT	7
+PUNCT NOUN NOUN NOUN PUNCT.,	7
+PUNCT NOUN NOUN NOUN PUNCT..	8
+PUNCT NOUN NOUN PUNCT NOUN	32
+PUNCT NOUN NOUN PUNCT PUNCT.,	12
+PUNCT NOUN NUM NOUN NOUN	7
+PUNCT NOUN NUM NOUN PUNCT	11
+PUNCT NOUN PART NOUN NOUN	7
+PUNCT NOUN PART NOUN PUNCT	12
+PUNCT NOUN PART PUNCT NOUN	14
+PUNCT NOUN PUNCT NOUN CCONJ	12
+PUNCT NOUN PUNCT NOUN NOUN	29
+PUNCT NOUN PUNCT NOUN PART	7
+PUNCT NOUN PUNCT NOUN PUNCT	36
+PUNCT NOUN PUNCT PUNCT.. EOF	9
+PUNCT NOUN VERB PUNCT.. EOF	8
+PUNCT NUM NOUN NOUN PUNCT	7
+PUNCT NUM NOUN NUM NOUN	13
+PUNCT NUM NOUN PART NOUN	8
+PUNCT NUM NOUN PUNCT PUNCT.,	18
+PUNCT NUM NOUN PUNCT PUNCT..	8
+PUNCT NUM NOUN PUNCT VERB	8
+PUNCT NUM NOUN PUNCT., PROPN	7
+PUNCT PART NOUN PUNCT.. EOF	14
+PUNCT PROPN ADP NUM NOUN	8
+PUNCT PROPN CCONJ PROPN NOUN	11
+PUNCT PROPN CCONJ PROPN PUNCT	8
+PUNCT PROPN NOUN NOUN NOUN	12
+PUNCT PROPN NOUN NOUN PUNCT	9
+PUNCT PROPN NOUN NOUN VERB	8
+PUNCT PROPN NOUN PART PUNCT	7
+PUNCT PROPN NOUN PUNCT PROPN	18
+PUNCT PROPN NUM NOUN PUNCT	7
+PUNCT PROPN NUM NOUN VERB	7
+PUNCT PROPN PART CCONJ PROPN	9
+PUNCT PROPN PART NOUN NOUN	12
+PUNCT PROPN PART PUNCT NOUN	7
+PUNCT PROPN PART PUNCT PROPN	69
+PUNCT PROPN PROPN NOUN NOUN	8
+PUNCT PROPN PROPN PUNCT PROPN	33
+PUNCT PROPN PROPN VERB PUNCT	8
+PUNCT PROPN PUNCT PART NOUN	7
+PUNCT PROPN PUNCT PROPN CCONJ	7
+PUNCT PROPN PUNCT PROPN NOUN	17
+PUNCT PROPN PUNCT PROPN PUNCT	45
+PUNCT PROPN PUNCT PROPN VERB	7
+PUNCT PROPN PUNCT X X	30
+PUNCT PUNCT X X PUNCT	8
+PUNCT PUNCT., VERB VERB PROPN	8
+PUNCT VERB PART NOUN NOUN	7
+PUNCT VERB VERB NUM NOUN	8
+PUNCT X PUNCT PUNCT., AUX	7
+PUNCT X PUNCT PUNCT.. EOF	13
+PUNCT X X PUNCT PUNCT.,	9
+PUNCT X X PUNCT PUNCT..	16
+PUNCT X X PUNCT VERB	13
+PUNCT X X PUNCT., X	7
+PUNCT X X X PUNCT	26
+PUNCT., ADJ NUM NOUN PUNCT.,	8
+PUNCT., ADP NOUN NOUN VERB	9
+PUNCT., ADP NOUN PART NOUN	10
+PUNCT., ADP NOUN VERB NOUN	9
+PUNCT., ADP NUM NOUN NOUN	13
+PUNCT., ADP NUM NOUN NUM	24
+PUNCT., ADP NUM NOUN VERB	29
+PUNCT., ADP PRON ADP NOUN	8
+PUNCT., ADP PRON ADV VERB	7
+PUNCT., ADP PROPN NOUN NOUN	8
+PUNCT., ADP VERB NOUN PUNCT.,	7
+PUNCT., ADV ADP NOUN ADP	7
+PUNCT., ADV ADP NOUN NOUN	15
+PUNCT., ADV ADP NOUN VERB	11
+PUNCT., ADV ADP NUM NOUN	34
+PUNCT., ADV ADP PROPN NOUN	8
+PUNCT., ADV ADP PROPN PROPN	7
+PUNCT., ADV ADV VERB NOUN	21
+PUNCT., ADV ADV VERB PART	7
+PUNCT., ADV ADV VERB PROPN	13
+PUNCT., ADV ADV VERB VERB	20
+PUNCT., ADV AUX VERB NOUN	13
+PUNCT., ADV AUX VERB VERB	8
+PUNCT., ADV NOUN ADV VERB	10
+PUNCT., ADV NUM NOUN VERB	11
+PUNCT., ADV VERB ADJ NOUN	11
+PUNCT., ADV VERB ADP NOUN	10
+PUNCT., ADV VERB ADP VERB	7
+PUNCT., ADV VERB DET NOUN	13
+PUNCT., ADV VERB NOUN NOUN	31
+PUNCT., ADV VERB NOUN PART	18
+PUNCT., ADV VERB NOUN PUNCT.,	7
+PUNCT., ADV VERB NOUN PUNCT..	12
+PUNCT., ADV VERB NOUN VERB	25
+PUNCT., ADV VERB NUM NOUN	34
+PUNCT., ADV VERB PART NOUN	17
+PUNCT., ADV VERB PART PROPN	8
+PUNCT., ADV VERB PART VERB	7
+PUNCT., ADV VERB PROPN NOUN	20
+PUNCT., ADV VERB PROPN PART	14
+PUNCT., ADV VERB PROPN PROPN	17
+PUNCT., ADV VERB PROPN VERB	9
+PUNCT., ADV VERB VERB NOUN	28
+PUNCT., ADV VERB VERB NUM	11
+PUNCT., ADV VERB VERB PART	13
+PUNCT., ADV VERB VERB PROPN	17
+PUNCT., ADV VERB VERB VERB	29
+PUNCT., AUX NUM NOUN NOUN	12
+PUNCT., AUX NUM NOUN PROPN	19
+PUNCT., AUX NUM NOUN VERB	9
+PUNCT., AUX PROPN NOUN NOUN	14
+PUNCT., AUX PROPN PART NOUN	8
+PUNCT., AUX VERB NOUN NOUN	9
+PUNCT., AUX VERB NOUN PART	8
+PUNCT., DET NOUN ADV VERB	7
+PUNCT., DET NOUN NOUN ADV	11
+PUNCT., DET NOUN NOUN VERB	11
+PUNCT., DET NUM NOUN NOUN	7
+PUNCT., NOUN ADP NUM NOUN	9
+PUNCT., NOUN ADV ADV VERB	10
+PUNCT., NOUN ADV AUX NUM	9
+PUNCT., NOUN ADV AUX VERB	9
+PUNCT., NOUN ADV VERB NOUN	14
+PUNCT., NOUN ADV VERB NUM	7
+PUNCT., NOUN ADV VERB PART	11
+PUNCT., NOUN ADV VERB PROPN	10
+PUNCT., NOUN ADV VERB VERB	21
+PUNCT., NOUN AUX NOUN NOUN	7
+PUNCT., NOUN AUX NUM NOUN	10
+PUNCT., NOUN NOUN ADV VERB	15
+PUNCT., NOUN NOUN AUX NUM	17
+PUNCT., NOUN NOUN CCONJ NOUN	12
+PUNCT., NOUN NOUN NUM NOUN	35
+PUNCT., NOUN NOUN PART NOUN	7
+PUNCT., NOUN NOUN VERB NOUN	7
+PUNCT., NOUN NOUN VERB VERB	16
+PUNCT., NOUN NUM NOUN PUNCT.,	19
+PUNCT., NOUN PART NOUN ADV	8
+PUNCT., NOUN PART NOUN AUX	7
+PUNCT., NOUN PART NOUN NOUN	8
+PUNCT., NOUN PART NOUN VERB	11
+PUNCT., NOUN PUNCT NOUN PUNCT	7
+PUNCT., NOUN VERB NOUN NOUN	7
+PUNCT., NOUN VERB NOUN NUM	10
+PUNCT., NOUN VERB NUM NOUN	20
+PUNCT., NOUN VERB PART NOUN	9
+PUNCT., NOUN VERB PROPN NOUN	9
+PUNCT., NOUN VERB PROPN PROPN	7
+PUNCT., NOUN VERB PUNCT.. EOF	8
+PUNCT., NOUN VERB VERB NOUN	10
+PUNCT., NOUN VERB VERB PROPN	9
+PUNCT., NUM NOUN ADP PART	25
+PUNCT., NUM NOUN ADV VERB	9
+PUNCT., NUM NOUN NOUN NOUN	9
+PUNCT., NUM NOUN NOUN NUM	13
+PUNCT., NUM NOUN NOUN VERB	9
+PUNCT., NUM NOUN NUM NOUN	21
+PUNCT., NUM NOUN VERB NOUN	8
+PUNCT., NUM NOUN VERB PART	12
+PUNCT., NUM NOUN VERB PROPN	11
+PUNCT., NUM NOUN VERB VERB	19
+PUNCT., PART NOUN NUM NOUN	8
+PUNCT., PRON ADV VERB NOUN	8
+PUNCT., PRON ADV VERB VERB	9
+PUNCT., PRON PART NOUN ADV	7
+PUNCT., PRON VERB VERB PROPN	7
+PUNCT., PROPN ADV VERB PART	8
+PUNCT., PROPN ADV VERB VERB	10
+PUNCT., PROPN NOUN ADV VERB	11
+PUNCT., PROPN NOUN NOUN NOUN	17
+PUNCT., PROPN NOUN NOUN PART	10
+PUNCT., PROPN NOUN NOUN PUNCT	9
+PUNCT., PROPN NOUN NOUN VERB	9
+PUNCT., PROPN NOUN PART NOUN	17
+PUNCT., PROPN NOUN VERB PART	11
+PUNCT., PROPN NOUN VERB PROPN	8
+PUNCT., PROPN NOUN VERB VERB	10
+PUNCT., PROPN PART CCONJ PROPN	9
+PUNCT., PROPN PART NOUN NOUN	7
+PUNCT., PROPN PART NOUN VERB	7
+PUNCT., PROPN PART PROPN PART	7
+PUNCT., PROPN PROPN ADP NOUN	9
+PUNCT., PROPN PROPN ADV VERB	23
+PUNCT., PROPN PROPN NUM NOUN	8
+PUNCT., PROPN PROPN PART NOUN	11
+PUNCT., PROPN PROPN VERB NOUN	25
+PUNCT., PROPN PROPN VERB PART	10
+PUNCT., PROPN PROPN VERB PROPN	28
+PUNCT., PROPN PROPN VERB PUNCT.,	7
+PUNCT., PROPN PROPN VERB VERB	15
+PUNCT., PROPN PUNCT PROPN PUNCT	12
+PUNCT., PROPN PUNCT PROPN VERB	9
+PUNCT., PROPN VERB PROPN NOUN	8
+PUNCT., PROPN VERB VERB PROPN	10
+PUNCT., PROPN VERB VERB VERB	10
+PUNCT., VERB ADJ PART NOUN	9
+PUNCT., VERB ADP NOUN NOUN	10
+PUNCT., VERB ADP NUM NOUN	11
+PUNCT., VERB ADP PROPN PART	8
+PUNCT., VERB ADV VERB NOUN	8
+PUNCT., VERB NOUN ADJ PART	7
+PUNCT., VERB NOUN CCONJ NOUN	11
+PUNCT., VERB NOUN NOUN NOUN	18
+PUNCT., VERB NOUN NOUN PART	13
+PUNCT., VERB NOUN NOUN PUNCT.,	9
+PUNCT., VERB NOUN NOUN PUNCT..	13
+PUNCT., VERB NOUN NOUN VERB	10
+PUNCT., VERB NOUN NUM NOUN	9
+PUNCT., VERB NOUN PART NOUN	23
+PUNCT., VERB NOUN PUNCT NOUN	7
+PUNCT., VERB NOUN PUNCT., VERB	8
+PUNCT., VERB NOUN PUNCT.. EOF	8
+PUNCT., VERB NOUN VERB VERB	8
+PUNCT., VERB NUM NOUN NOUN	18
+PUNCT., VERB NUM NOUN PUNCT..	7
+PUNCT., VERB NUM NOUN VERB	17
+PUNCT., VERB PART AUX PROPN	7
+PUNCT., VERB PART NOUN NOUN	10
+PUNCT., VERB PART NUM NOUN	12
+PUNCT., VERB PART PROPN NOUN	9
+PUNCT., VERB PROPN NOUN NOUN	13
+PUNCT., VERB PROPN NOUN PART	10
+PUNCT., VERB PROPN PART NOUN	16
+PUNCT., VERB PROPN PART VERB	22
+PUNCT., VERB PROPN PROPN PART	8
+PUNCT., VERB PROPN PROPN VERB	11
+PUNCT., VERB PROPN PUNCT PROPN	11
+PUNCT., VERB VERB NOUN NOUN	33
+PUNCT., VERB VERB NOUN PART	10
+PUNCT., VERB VERB NUM NOUN	21
+PUNCT., VERB VERB PART NOUN	12
+PUNCT., VERB VERB PROPN NOUN	27
+PUNCT., VERB VERB PROPN PART	33
+PUNCT., VERB VERB PROPN PROPN	14
+PUNCT., VERB VERB VERB NOUN	9
+PUNCT., VERB VERB VERB VERB	8
+VERB ADJ NOUN PART NOUN	38
+VERB ADJ NOUN PUNCT., ADV	9
+VERB ADJ NOUN PUNCT., VERB	12
+VERB ADJ NOUN PUNCT.. EOF	30
+VERB ADJ PART NOUN NOUN	22
+VERB ADJ PART NOUN PART	7
+VERB ADJ PART NOUN PUNCT.,	24
+VERB ADJ PART NOUN PUNCT..	23
+VERB ADJ PART NOUN VERB	13
+VERB ADJ PART PROPN NOUN	7
+VERB ADJ PART VERB PART	8
+VERB ADP NOUN NOUN ADP	8
+VERB ADP NOUN NOUN NOUN	7
+VERB ADP NOUN NOUN PART	8
+VERB ADP NOUN NOUN PUNCT..	7
+VERB ADP NOUN NUM NOUN	11
+VERB ADP NOUN PART NOUN	11
+VERB ADP NUM NOUN NOUN	9
+VERB ADP NUM NOUN NUM	21
+VERB ADP NUM NOUN PUNCT.,	13
+VERB ADP PROPN NOUN NOUN	11
+VERB ADP PROPN NOUN PART	9
+VERB ADP PROPN NOUN VERB	7
+VERB ADP PROPN PART NOUN	8
+VERB ADP PROPN PART PROPN	7
+VERB ADP PROPN PROPN PART	9
+VERB ADP PUNCT., PROPN NOUN	9
+VERB ADP PUNCT., PROPN PROPN	14
+VERB ADP PUNCT., PROPN VERB	10
+VERB ADV ADJ PART NOUN	18
+VERB ADV VERB NOUN NOUN	11
+VERB ADV VERB NOUN PART	7
+VERB ADV VERB PART NOUN	15
+VERB ADV VERB PUNCT.. EOF	19
+VERB ADV VERB VERB NOUN	9
+VERB CCONJ VERB NOUN NOUN	8
+VERB CCONJ VERB PUNCT.. EOF	10
+VERB DET NOUN NOUN PART	13
+VERB DET NOUN NOUN PUNCT.,	10
+VERB DET NOUN NOUN VERB	10
+VERB DET NOUN PART NOUN	22
+VERB DET NOUN PUNCT.. EOF	12
+VERB DET NOUN VERB VERB	7
+VERB DET NUM NOUN NOUN	16
+VERB DET NUM NOUN PUNCT.,	8
+VERB NOUN ADJ PART NOUN	12
+VERB NOUN ADP PART NOUN	7
+VERB NOUN ADV VERB NOUN	13
+VERB NOUN ADV VERB PART	10
+VERB NOUN ADV VERB PUNCT.,	7
+VERB NOUN ADV VERB VERB	7
+VERB NOUN CCONJ NOUN NOUN	19
+VERB NOUN CCONJ NOUN PART	14
+VERB NOUN CCONJ NOUN PUNCT..	7
+VERB NOUN NOUN ADP NOUN	9
+VERB NOUN NOUN ADV VERB	14
+VERB NOUN NOUN CCONJ NOUN	22
+VERB NOUN NOUN NOUN NOUN	19
+VERB NOUN NOUN NOUN PART	27
+VERB NOUN NOUN NOUN PUNCT	8
+VERB NOUN NOUN NOUN PUNCT.,	14
+VERB NOUN NOUN NOUN PUNCT..	22
+VERB NOUN NOUN NOUN VERB	14
+VERB NOUN NOUN NUM NOUN	11
+VERB NOUN NOUN PART NOUN	85
+VERB NOUN NOUN PART PART	12
+VERB NOUN NOUN PART PROPN	7
+VERB NOUN NOUN PART PUNCT	7
+VERB NOUN NOUN PART PUNCT.,	9
+VERB NOUN NOUN PUNCT NOUN	14
+VERB NOUN NOUN PUNCT., ADP	17
+VERB NOUN NOUN PUNCT., ADV	47
+VERB NOUN NOUN PUNCT., NOUN	15
+VERB NOUN NOUN PUNCT., NUM	7
+VERB NOUN NOUN PUNCT., VERB	24
+VERB NOUN NOUN PUNCT.. EOF	125
+VERB NOUN NOUN VERB NOUN	14
+VERB NOUN NOUN VERB PART	24
+VERB NOUN NOUN VERB PUNCT.,	10
+VERB NOUN NOUN VERB PUNCT..	12
+VERB NOUN NOUN VERB VERB	12
+VERB NOUN NUM NOUN PART	9
+VERB NOUN NUM NOUN PUNCT.,	9
+VERB NOUN NUM NOUN PUNCT..	17
+VERB NOUN PART NOUN ADP	11
+VERB NOUN PART NOUN ADV	13
+VERB NOUN PART NOUN CCONJ	13
+VERB NOUN PART NOUN NOUN	35
+VERB NOUN PART NOUN PART	15
+VERB NOUN PART NOUN PUNCT	8
+VERB NOUN PART NOUN PUNCT.,	45
+VERB NOUN PART NOUN PUNCT..	58
+VERB NOUN PART NOUN VERB	31
+VERB NOUN PART NUM NOUN	11
+VERB NOUN PART PART NOUN	29
+VERB NOUN PART PUNCT NOUN	10
+VERB NOUN PART PUNCT., VERB	9
+VERB NOUN PART PUNCT.. EOF	24
+VERB NOUN PART VERB NOUN	7
+VERB NOUN PART VERB PART	19
+VERB NOUN PUNCT NOUN CCONJ	10
+VERB NOUN PUNCT NOUN NOUN	14
+VERB NOUN PUNCT NOUN PUNCT	30
+VERB NOUN PUNCT., ADP PRON	10
+VERB NOUN PUNCT., ADV ADP	7
+VERB NOUN PUNCT., ADV ADV	9
+VERB NOUN PUNCT., ADV NOUN	8
+VERB NOUN PUNCT., ADV VERB	39
+VERB NOUN PUNCT., NOUN ADV	11
+VERB NOUN PUNCT., NOUN NOUN	7
+VERB NOUN PUNCT., NOUN VERB	11
+VERB NOUN PUNCT., NUM NOUN	7
+VERB NOUN PUNCT., PROPN PROPN	9
+VERB NOUN PUNCT., VERB NOUN	23
+VERB NOUN PUNCT., VERB PART	9
+VERB NOUN PUNCT., VERB PROPN	15
+VERB NOUN PUNCT., VERB VERB	20
+VERB NOUN VERB ADV VERB	7
+VERB NOUN VERB NOUN NOUN	10
+VERB NOUN VERB NOUN PART	12
+VERB NOUN VERB NOUN PUNCT.,	9
+VERB NOUN VERB NOUN VERB	10
+VERB NOUN VERB NUM NOUN	10
+VERB NOUN VERB PART NOUN	25
+VERB NOUN VERB PART PART	7
+VERB NOUN VERB PART PROPN	7
+VERB NOUN VERB PART PUNCT.,	10
+VERB NOUN VERB PROPN PART	11
+VERB NOUN VERB PUNCT., ADV	11
+VERB NOUN VERB PUNCT., NOUN	9
+VERB NOUN VERB PUNCT., VERB	11
+VERB NOUN VERB PUNCT.. EOF	38
+VERB NOUN VERB VERB NOUN	13
+VERB NOUN VERB VERB PART	10
+VERB NOUN VERB VERB PROPN	7
+VERB NUM CCONJ NUM NOUN	9
+VERB NUM NOUN ADJ NOUN	13
+VERB NUM NOUN ADJ PART	16
+VERB NUM NOUN ADV VERB	9
+VERB NUM NOUN NOUN ADP	10
+VERB NUM NOUN NOUN ADV	14
+VERB NUM NOUN NOUN CCONJ	9
+VERB NUM NOUN NOUN NOUN	52
+VERB NUM NOUN NOUN PART	40
+VERB NUM NOUN NOUN PUNCT	13
+VERB NUM NOUN NOUN PUNCT.,	51
+VERB NUM NOUN NOUN PUNCT..	36
+VERB NUM NOUN NOUN VERB	31
+VERB NUM NOUN NUM NOUN	24
+VERB NUM NOUN PART NOUN	46
+VERB NUM NOUN PART PUNCT.,	7
+VERB NUM NOUN PROPN NOUN	10
+VERB NUM NOUN PROPN PART	9
+VERB NUM NOUN PUNCT., ADP	10
+VERB NUM NOUN PUNCT., ADV	20
+VERB NUM NOUN PUNCT., NOUN	30
+VERB NUM NOUN PUNCT., NUM	7
+VERB NUM NOUN PUNCT., VERB	28
+VERB NUM NOUN PUNCT.. EOF	63
+VERB NUM NOUN VERB NOUN	17
+VERB NUM NOUN VERB NUM	7
+VERB NUM NOUN VERB PART	30
+VERB NUM NOUN VERB PROPN	10
+VERB NUM NOUN VERB PUNCT.,	8
+VERB NUM NOUN VERB PUNCT..	8
+VERB NUM NOUN VERB VERB	11
+VERB PART ADJ NOUN NOUN	8
+VERB PART ADJ NOUN PUNCT.,	12
+VERB PART ADJ NOUN PUNCT..	9
+VERB PART ADJ PART NOUN	31
+VERB PART ADV VERB NOUN	12
+VERB PART ADV VERB NUM	11
+VERB PART ADV VERB VERB	10
+VERB PART AUX NUM NOUN	11
+VERB PART CCONJ NOUN NOUN	7
+VERB PART CCONJ NUM NOUN	7
+VERB PART CCONJ VERB PART	10
+VERB PART DET NOUN NOUN	11
+VERB PART DET NOUN PUNCT..	15
+VERB PART NOUN ADP NOUN	7
+VERB PART NOUN ADP PUNCT.,	9
+VERB PART NOUN ADV VERB	18
+VERB PART NOUN AUX VERB	16
+VERB PART NOUN CCONJ NOUN	16
+VERB PART NOUN NOUN ADP	12
+VERB PART NOUN NOUN ADV	9
+VERB PART NOUN NOUN CCONJ	10
+VERB PART NOUN NOUN NOUN	33
+VERB PART NOUN NOUN PART	16
+VERB PART NOUN NOUN PUNCT	10
+VERB PART NOUN NOUN PUNCT.,	25
+VERB PART NOUN NOUN PUNCT..	34
+VERB PART NOUN NOUN VERB	23
+VERB PART NOUN NUM NOUN	9
+VERB PART NOUN PART NOUN	48
+VERB PART NOUN PART NUM	11
+VERB PART NOUN PART PART	9
+VERB PART NOUN PART PUNCT..	9
+VERB PART NOUN PART VERB	7
+VERB PART NOUN PUNCT NOUN	12
+VERB PART NOUN PUNCT., ADP	16
+VERB PART NOUN PUNCT., ADV	49
+VERB PART NOUN PUNCT., NOUN	17
+VERB PART NOUN PUNCT., PROPN	9
+VERB PART NOUN PUNCT., VERB	41
+VERB PART NOUN PUNCT.. EOF	143
+VERB PART NOUN VERB NOUN	18
+VERB PART NOUN VERB PART	12
+VERB PART NOUN VERB PROPN	8
+VERB PART NOUN VERB PUNCT.,	17
+VERB PART NOUN VERB VERB	20
+VERB PART NUM NOUN ADJ	13
+VERB PART NUM NOUN NOUN	84
+VERB PART NUM NOUN NUM	8
+VERB PART NUM NOUN PART	13
+VERB PART NUM NOUN PROPN	10
+VERB PART NUM NOUN PUNCT.,	15
+VERB PART NUM NOUN VERB	19
+VERB PART PART NOUN NOUN	13
+VERB PART PART NOUN PART	10
+VERB PART PART NOUN PUNCT.,	18
+VERB PART PART NOUN PUNCT..	20
+VERB PART PRON PART NOUN	11
+VERB PART PROPN NOUN NOUN	13
+VERB PART PROPN NOUN PART	12
+VERB PART PROPN NOUN PUNCT.,	9
+VERB PART PROPN NUM NOUN	7
+VERB PART PROPN PART NOUN	24
+VERB PART PROPN PART VERB	7
+VERB PART PROPN PROPN NOUN	8
+VERB PART PROPN PROPN PART	7
+VERB PART PROPN PROPN VERB	8
+VERB PART PROPN PUNCT PROPN	10
+VERB PART PROPN PUNCT.. EOF	7
+VERB PART PROPN VERB PART	9
+VERB PART PUNCT NOUN PART	7
+VERB PART PUNCT VERB PART	7
+VERB PART PUNCT., ADV VERB	21
+VERB PART PUNCT., NOUN VERB	7
+VERB PART PUNCT., VERB NOUN	7
+VERB PART PUNCT., VERB VERB	7
+VERB PART VERB NOUN NOUN	16
+VERB PART VERB NUM NOUN	21
+VERB PART VERB PART NOUN	17
+VERB PART VERB PART PUNCT..	7
+VERB PART VERB PUNCT.. EOF	14
+VERB PART VERB VERB NOUN	7
+VERB PART VERB VERB PART	9
+VERB PRON ADJ PART NOUN	7
+VERB PRON PART NOUN NOUN	9
+VERB PRON PART NOUN PUNCT.,	12
+VERB PRON PART NOUN PUNCT..	13
+VERB PRON PART NOUN VERB	11
+VERB PRON VERB PUNCT.. EOF	7
+VERB PROPN CCONJ PROPN PART	11
+VERB PROPN NOUN ADV VERB	7
+VERB PROPN NOUN CCONJ PROPN	14
+VERB PROPN NOUN NOUN NOUN	32
+VERB PROPN NOUN NOUN PART	32
+VERB PROPN NOUN NOUN PROPN	8
+VERB PROPN NOUN NOUN PUNCT.,	15
+VERB PROPN NOUN NOUN PUNCT..	12
+VERB PROPN NOUN NOUN VERB	19
+VERB PROPN NOUN NUM NOUN	12
+VERB PROPN NOUN PART NOUN	37
+VERB PROPN NOUN PART PROPN	7
+VERB PROPN NOUN PART PUNCT.,	7
+VERB PROPN NOUN PART VERB	18
+VERB PROPN NOUN PROPN PART	8
+VERB PROPN NOUN PUNCT., ADV	9
+VERB PROPN NOUN PUNCT., NOUN	10
+VERB PROPN NOUN PUNCT., VERB	13
+VERB PROPN NOUN PUNCT.. EOF	25
+VERB PROPN NOUN VERB NOUN	9
+VERB PROPN NOUN VERB PART	12
+VERB PROPN NOUN VERB PUNCT.,	8
+VERB PROPN NOUN VERB PUNCT..	7
+VERB PROPN NUM NOUN NOUN	8
+VERB PROPN PART ADJ NOUN	7
+VERB PROPN PART CCONJ PROPN	16
+VERB PROPN PART NOUN ADP	8
+VERB PROPN PART NOUN ADV	13
+VERB PROPN PART NOUN CCONJ	8
+VERB PROPN PART NOUN NOUN	38
+VERB PROPN PART NOUN PART	25
+VERB PROPN PART NOUN PUNCT.,	36
+VERB PROPN PART NOUN PUNCT..	16
+VERB PROPN PART NOUN VERB	14
+VERB PROPN PART NUM NOUN	13
+VERB PROPN PART PART NOUN	20
+VERB PROPN PART PART PROPN	9
+VERB PROPN PART PROPN NOUN	10
+VERB PROPN PART PROPN PART	23
+VERB PROPN PART PUNCT PROPN	8
+VERB PROPN PART PUNCT., NOUN	14
+VERB PROPN PART PUNCT., VERB	11
+VERB PROPN PART PUNCT.. EOF	27
+VERB PROPN PART VERB PART	14
+VERB PROPN PART VERB PROPN	9
+VERB PROPN PART VERB PUNCT..	11
+VERB PROPN PART VERB VERB	17
+VERB PROPN PROPN ADV VERB	7
+VERB PROPN PROPN NOUN NOUN	11
+VERB PROPN PROPN NOUN PART	7
+VERB PROPN PROPN NOUN VERB	8
+VERB PROPN PROPN PART NOUN	32
+VERB PROPN PROPN PART PROPN	24
+VERB PROPN PROPN PUNCT PROPN	8
+VERB PROPN PROPN PUNCT., VERB	8
+VERB PROPN PROPN PUNCT.. EOF	14
+VERB PROPN PROPN VERB NOUN	7
+VERB PROPN PROPN VERB PART	14
+VERB PROPN PROPN VERB PROPN	13
+VERB PROPN PROPN VERB PUNCT..	9
+VERB PROPN PROPN VERB VERB	8
+VERB PROPN PUNCT PROPN CCONJ	9
+VERB PROPN PUNCT PROPN NOUN	8
+VERB PROPN PUNCT PROPN PART	8
+VERB PROPN PUNCT PROPN PUNCT	22
+VERB PROPN PUNCT PROPN VERB	7
+VERB PROPN PUNCT., ADV ADP	9
+VERB PROPN PUNCT., VERB PROPN	8
+VERB PROPN PUNCT., VERB VERB	7
+VERB PROPN VERB NOUN PUNCT.,	7
+VERB PROPN VERB NUM NOUN	9
+VERB PROPN VERB PART NOUN	16
+VERB PROPN VERB PROPN NOUN	8
+VERB PROPN VERB PUNCT., VERB	7
+VERB PROPN VERB PUNCT.. EOF	15
+VERB PROPN VERB VERB PART	7
+VERB PUNCT PROPN PART PUNCT	7
+VERB PUNCT VERB PUNCT VERB	10
+VERB PUNCT., ADP NUM NOUN	18
+VERB PUNCT., ADV ADP NUM	9
+VERB PUNCT., ADV ADV VERB	20
+VERB PUNCT., ADV NUM NOUN	7
+VERB PUNCT., ADV VERB NOUN	25
+VERB PUNCT., ADV VERB PROPN	10
+VERB PUNCT., ADV VERB VERB	16
+VERB PUNCT., AUX VERB NOUN	7
+VERB PUNCT., DET NOUN NOUN	8
+VERB PUNCT., NOUN ADV VERB	9
+VERB PUNCT., NOUN NOUN NOUN	7
+VERB PUNCT., NOUN NOUN VERB	9
+VERB PUNCT., NOUN NUM NOUN	12
+VERB PUNCT., NOUN VERB VERB	10
+VERB PUNCT., NUM NOUN NOUN	11
+VERB PUNCT., NUM NOUN NUM	9
+VERB PUNCT., NUM NOUN VERB	11
+VERB PUNCT., PROPN ADV VERB	8
+VERB PUNCT., PROPN PROPN VERB	17
+VERB PUNCT., VERB NOUN NOUN	10
+VERB PUNCT., VERB NOUN PART	9
+VERB PUNCT., VERB NUM NOUN	15
+VERB PUNCT., VERB PART NOUN	7
+VERB PUNCT., VERB PROPN NOUN	9
+VERB PUNCT., VERB PROPN VERB	7
+VERB PUNCT., VERB VERB NOUN	11
+VERB PUNCT., VERB VERB PART	8
+VERB PUNCT., VERB VERB PROPN	8
+VERB PUNCT., VERB VERB VERB	8
+VERB VERB ADJ PART NOUN	14
+VERB VERB ADV ADJ PART	7
+VERB VERB ADV VERB VERB	8
+VERB VERB DET NOUN NOUN	13
+VERB VERB DET NOUN PART	9
+VERB VERB DET NUM NOUN	10
+VERB VERB NOUN ADV VERB	12
+VERB VERB NOUN CCONJ NOUN	15
+VERB VERB NOUN NOUN ADP	8
+VERB VERB NOUN NOUN CCONJ	10
+VERB VERB NOUN NOUN NOUN	21
+VERB VERB NOUN NOUN PART	50
+VERB VERB NOUN NOUN PUNCT.,	40
+VERB VERB NOUN NOUN PUNCT..	25
+VERB VERB NOUN NOUN VERB	13
+VERB VERB NOUN NUM NOUN	11
+VERB VERB NOUN PART NOUN	63
+VERB VERB NOUN PART PART	14
+VERB VERB NOUN PART PUNCT.,	11
+VERB VERB NOUN PART PUNCT..	7
+VERB VERB NOUN PART VERB	9
+VERB VERB NOUN PROPN PART	8
+VERB VERB NOUN PUNCT NOUN	17
+VERB VERB NOUN PUNCT., ADP	7
+VERB VERB NOUN PUNCT., ADV	15
+VERB VERB NOUN PUNCT., NOUN	7
+VERB VERB NOUN PUNCT., VERB	15
+VERB VERB NOUN PUNCT.. EOF	60
+VERB VERB NOUN VERB NOUN	14
+VERB VERB NOUN VERB PART	8
+VERB VERB NOUN VERB VERB	8
+VERB VERB NUM NOUN ADJ	8
+VERB VERB NUM NOUN ADP	7
+VERB VERB NUM NOUN NOUN	55
+VERB VERB NUM NOUN NUM	9
+VERB VERB NUM NOUN PART	21
+VERB VERB NUM NOUN PUNCT.,	22
+VERB VERB NUM NOUN PUNCT..	13
+VERB VERB NUM NOUN VERB	19
+VERB VERB PART ADJ NOUN	9
+VERB VERB PART NOUN NOUN	23
+VERB VERB PART NOUN PART	20
+VERB VERB PART NOUN PUNCT	8
+VERB VERB PART NOUN PUNCT.,	29
+VERB VERB PART NOUN PUNCT..	28
+VERB VERB PART NOUN VERB	13
+VERB VERB PART NUM NOUN	11
+VERB VERB PART PART NOUN	18
+VERB VERB PART PROPN NOUN	8
+VERB VERB PART PUNCT., ADV	9
+VERB VERB PART PUNCT.. EOF	16
+VERB VERB PART VERB PART	12
+VERB VERB PRON PART NOUN	14
+VERB VERB PROPN CCONJ PROPN	10
+VERB VERB PROPN NOUN NOUN	42
+VERB VERB PROPN NOUN PART	29
+VERB VERB PROPN NOUN PROPN	7
+VERB VERB PROPN NOUN PUNCT.,	15
+VERB VERB PROPN NOUN PUNCT..	10
+VERB VERB PROPN NOUN VERB	9
+VERB VERB PROPN NUM NOUN	7
+VERB VERB PROPN PART NOUN	48
+VERB VERB PROPN PART PART	24
+VERB VERB PROPN PART PROPN	25
+VERB VERB PROPN PART PUNCT.,	15
+VERB VERB PROPN PART PUNCT..	14
+VERB VERB PROPN PROPN NOUN	16
+VERB VERB PROPN PROPN PART	38
+VERB VERB PROPN PROPN VERB	7
+VERB VERB PROPN PUNCT PROPN	15
+VERB VERB PROPN PUNCT.. EOF	14
+VERB VERB PROPN VERB PART	10
+VERB VERB PUNCT NOUN PUNCT	10
+VERB VERB PUNCT., ADV VERB	22
+VERB VERB PUNCT., NOUN NUM	7
+VERB VERB PUNCT., NUM NOUN	7
+VERB VERB PUNCT., VERB VERB	12
+VERB VERB VERB NOUN NOUN	32
+VERB VERB VERB NOUN PART	29
+VERB VERB VERB NOUN PUNCT.,	9
+VERB VERB VERB NOUN PUNCT..	7
+VERB VERB VERB NOUN VERB	8
+VERB VERB VERB NUM NOUN	16
+VERB VERB VERB PART NOUN	29
+VERB VERB VERB PROPN NOUN	10
+VERB VERB VERB PROPN PART	10
+VERB VERB VERB PROPN PROPN	9
+VERB VERB VERB PUNCT.. EOF	21
+VERB VERB VERB VERB NOUN	10
+VERB VERB VERB VERB PART	15
+VERB VERB X PUNCT.. EOF	12
+X PUNCT AUX NOUN PART	7
+X PUNCT AUX NUM NOUN	8
+X X PUNCT PUNCT.. EOF	22
+X X PUNCT VERB VERB	7
+X X X PUNCT PUNCT.,	7
+X X X PUNCT PUNCT..	7
+
+[NGRAMS:6]
+633
+ADJ PART NOUN NOUN PUNCT., VERB	9
+ADJ PART NOUN NOUN PUNCT.. EOF	32
+ADP NUM NOUN CCONJ NUM NOUN	18
+ADP NUM NOUN NUM NOUN ADP	10
+ADP NUM NOUN NUM NOUN NUM	85
+ADP NUM NOUN NUM NOUN PUNCT.,	10
+ADP NUM NOUN NUM NOUN VERB	27
+ADP NUM NOUN PROPN NOUN NOUN	12
+ADP NUM NOUN VERB NUM NOUN	10
+ADP NUM NOUN VERB PUNCT.. EOF	10
+ADP PART NOUN AUX NUM NOUN	27
+ADP PROPN PROPN PUNCT PROPN PROPN	9
+ADV ADJ PART NOUN PUNCT.. EOF	21
+ADV ADP NUM NOUN NUM NOUN	25
+ADV ADV VERB NOUN PUNCT.. EOF	13
+ADV VERB NOUN NOUN PART NOUN	17
+ADV VERB NOUN NOUN PUNCT., ADV	9
+ADV VERB NOUN NOUN PUNCT.. EOF	28
+ADV VERB NOUN PART NOUN PUNCT.,	9
+ADV VERB NOUN PART NOUN PUNCT..	13
+ADV VERB NOUN PART PART NOUN	10
+ADV VERB NOUN VERB PUNCT.. EOF	16
+ADV VERB NUM NOUN PUNCT.. EOF	16
+ADV VERB PART NOUN PART NOUN	11
+ADV VERB PART NOUN PUNCT.. EOF	26
+ADV VERB PART NUM NOUN NOUN	12
+ADV VERB PROPN PART NOUN PUNCT.,	9
+ADV VERB VERB NOUN NOUN PART	13
+ADV VERB VERB NOUN PART NOUN	11
+ADV VERB VERB NOUN PUNCT.. EOF	15
+ADV VERB VERB NUM NOUN NOUN	14
+ADV VERB VERB PROPN PART NOUN	10
+ADV VERB VERB VERB NOUN NOUN	9
+ADV VERB VERB VERB NOUN PART	9
+AUX NUM NOUN ADJ PART NOUN	11
+AUX NUM NOUN PROPN NOUN NOUN	9
+AUX NUM NOUN VERB VERB PROPN	10
+AUX PROPN NOUN NOUN PART NOUN	9
+AUX PROPN NOUN NOUN PART PROPN	9
+AUX PROPN PART NOUN PUNCT., VERB	17
+AUX PROPN PROPN PART PROPN PART	12
+AUX VERB PART NOUN PUNCT.. EOF	14
+BOF ADP NUM NOUN NUM NOUN	19
+BOF ADP NUM NOUN PROPN NOUN	11
+BOF ADP NUM NOUN PUNCT., PROPN	10
+BOF DET NOUN NOUN ADV VERB	10
+BOF DET NOUN PART NOUN NUM	26
+BOF NUM NOUN NUM NOUN NUM	113
+BOF NUM NOUN NUM NOUN PUNCT.,	68
+BOF NUM NOUN PUNCT., PROPN NOUN	24
+BOF NUM NOUN PUNCT., PROPN PART	9
+BOF NUM NOUN PUNCT., PROPN PROPN	28
+BOF NUM NOUN PUNCT., PROPN VERB	20
+BOF PROPN AUX PROPN PART NOUN	11
+BOF PROPN NUM NOUN PUNCT NUM	9
+BOF PROPN PART AUX PROPN PART	12
+DET NOUN NOUN ADV VERB VERB	12
+DET NOUN PART NOUN NUM NOUN	26
+DET NUM NOUN NOUN ADV VERB	9
+NOUN ADJ PART NOUN NOUN PUNCT.,	12
+NOUN ADJ PART NOUN PUNCT.. EOF	15
+NOUN ADP NUM NOUN NUM NOUN	26
+NOUN ADP NUM NOUN VERB VERB	14
+NOUN ADP PART NOUN AUX NUM	26
+NOUN ADP PART NOUN PUNCT.. EOF	13
+NOUN ADP VERB NUM NOUN NOUN	10
+NOUN ADV ADP NUM NOUN NUM	10
+NOUN ADV ADV VERB PUNCT.. EOF	14
+NOUN ADV VERB ADJ PART NOUN	9
+NOUN ADV VERB NOUN NOUN PART	10
+NOUN ADV VERB NOUN NOUN PUNCT..	10
+NOUN ADV VERB NOUN PART NOUN	14
+NOUN ADV VERB NOUN PUNCT.. EOF	12
+NOUN ADV VERB NUM NOUN NOUN	11
+NOUN ADV VERB NUM NOUN PUNCT.,	13
+NOUN ADV VERB PART NOUN NOUN	11
+NOUN ADV VERB PART NOUN PUNCT.,	9
+NOUN ADV VERB PART NOUN PUNCT..	12
+NOUN ADV VERB PART NUM NOUN	9
+NOUN ADV VERB VERB NOUN PART	10
+NOUN ADV VERB VERB NUM NOUN	10
+NOUN ADV VERB VERB PART NOUN	9
+NOUN ADV VERB VERB PUNCT.. EOF	15
+NOUN ADV VERB VERB VERB NOUN	15
+NOUN AUX NUM NOUN PUNCT., NOUN	9
+NOUN AUX NUM NOUN PUNCT.. EOF	41
+NOUN CCONJ NOUN NOUN PART NOUN	15
+NOUN CCONJ NOUN NOUN PUNCT.. EOF	26
+NOUN CCONJ NUM NOUN NUM NOUN	10
+NOUN NOUN ADP NUM NOUN NUM	9
+NOUN NOUN ADP NUM NOUN VERB	11
+NOUN NOUN ADP PUNCT., ADV VERB	9
+NOUN NOUN ADV VERB NOUN NOUN	15
+NOUN NOUN ADV VERB PART NOUN	12
+NOUN NOUN ADV VERB PUNCT.. EOF	24
+NOUN NOUN ADV VERB VERB NOUN	11
+NOUN NOUN ADV VERB VERB VERB	12
+NOUN NOUN CCONJ NOUN NOUN NOUN	16
+NOUN NOUN CCONJ NOUN NOUN PART	13
+NOUN NOUN CCONJ NOUN NOUN PUNCT.,	10
+NOUN NOUN CCONJ NOUN NOUN PUNCT..	13
+NOUN NOUN CCONJ NOUN NOUN VERB	9
+NOUN NOUN CCONJ NOUN PART NOUN	9
+NOUN NOUN NOUN ADP NUM NOUN	9
+NOUN NOUN NOUN ADV VERB VERB	9
+NOUN NOUN NOUN CCONJ NOUN NOUN	14
+NOUN NOUN NOUN NOUN NOUN PUNCT..	11
+NOUN NOUN NOUN NOUN PART NOUN	22
+NOUN NOUN NOUN NOUN PUNCT.. EOF	28
+NOUN NOUN NOUN PART NOUN NOUN	23
+NOUN NOUN NOUN PART NOUN PUNCT.,	14
+NOUN NOUN NOUN PART NOUN PUNCT..	15
+NOUN NOUN NOUN PART NOUN VERB	12
+NOUN NOUN NOUN PART PART NOUN	13
+NOUN NOUN NOUN PUNCT NOUN NOUN	10
+NOUN NOUN NOUN PUNCT., ADV VERB	14
+NOUN NOUN NOUN PUNCT., NOUN AUX	9
+NOUN NOUN NOUN PUNCT., NOUN NOUN	13
+NOUN NOUN NOUN PUNCT., VERB NOUN	11
+NOUN NOUN NOUN PUNCT., VERB PROPN	11
+NOUN NOUN NOUN VERB PART NOUN	10
+NOUN NOUN NUM NOUN PUNCT., NOUN	20
+NOUN NOUN NUM NOUN PUNCT., NUM	9
+NOUN NOUN NUM NOUN PUNCT.. EOF	10
+NOUN NOUN PART ADJ NOUN PUNCT..	11
+NOUN NOUN PART NOUN ADV VERB	16
+NOUN NOUN PART NOUN NOUN NOUN	14
+NOUN NOUN PART NOUN NOUN PUNCT	9
+NOUN NOUN PART NOUN NOUN PUNCT.,	27
+NOUN NOUN PART NOUN NOUN PUNCT..	24
+NOUN NOUN PART NOUN NOUN VERB	17
+NOUN NOUN PART NOUN PUNCT., ADP	9
+NOUN NOUN PART NOUN PUNCT., ADV	22
+NOUN NOUN PART NOUN PUNCT., NOUN	11
+NOUN NOUN PART NOUN PUNCT., VERB	18
+NOUN NOUN PART NOUN PUNCT.. EOF	75
+NOUN NOUN PART NOUN VERB PART	11
+NOUN NOUN PART NUM NOUN NOUN	9
+NOUN NOUN PART NUM PUNCT.. EOF	19
+NOUN NOUN PART PART NOUN NOUN	10
+NOUN NOUN PART PART NOUN PUNCT.,	10
+NOUN NOUN PART PART NOUN PUNCT..	9
+NOUN NOUN PUNCT NOUN NOUN NOUN	16
+NOUN NOUN PUNCT NOUN NOUN PUNCT	17
+NOUN NOUN PUNCT NOUN PUNCT NOUN	9
+NOUN NOUN PUNCT NUM NOUN NOUN	11
+NOUN NOUN PUNCT., ADP NUM NOUN	16
+NOUN NOUN PUNCT., ADV ADP NUM	10
+NOUN NOUN PUNCT., ADV ADV VERB	16
+NOUN NOUN PUNCT., ADV AUX VERB	9
+NOUN NOUN PUNCT., ADV VERB NOUN	22
+NOUN NOUN PUNCT., ADV VERB PROPN	12
+NOUN NOUN PUNCT., ADV VERB VERB	13
+NOUN NOUN PUNCT., DET NOUN NOUN	9
+NOUN NOUN PUNCT., NOUN ADV VERB	16
+NOUN NOUN PUNCT., NOUN VERB NOUN	12
+NOUN NOUN PUNCT., NUM NOUN VERB	14
+NOUN NOUN PUNCT., VERB NOUN NOUN	12
+NOUN NOUN PUNCT., VERB NUM NOUN	16
+NOUN NOUN PUNCT., VERB PROPN PART	21
+NOUN NOUN PUNCT., VERB VERB PROPN	16
+NOUN NOUN VERB ADP NUM NOUN	13
+NOUN NOUN VERB NOUN PUNCT.. EOF	14
+NOUN NOUN VERB NUM NOUN NOUN	19
+NOUN NOUN VERB PART NOUN NOUN	17
+NOUN NOUN VERB PART NOUN PUNCT.,	15
+NOUN NOUN VERB PART NOUN PUNCT..	10
+NOUN NOUN VERB PART NUM NOUN	11
+NOUN NOUN VERB VERB NOUN NOUN	15
+NOUN NOUN VERB VERB NUM NOUN	14
+NOUN NOUN VERB VERB PROPN NOUN	12
+NOUN NOUN VERB VERB VERB NOUN	9
+NOUN NUM NOUN CCONJ NUM NOUN	16
+NOUN NUM NOUN NUM NOUN ADP	15
+NOUN NUM NOUN NUM NOUN CCONJ	9
+NOUN NUM NOUN NUM NOUN PROPN	17
+NOUN NUM NOUN NUM NOUN PUNCT	10
+NOUN NUM NOUN NUM NOUN PUNCT.,	128
+NOUN NUM NOUN NUM NOUN VERB	51
+NOUN NUM NOUN PUNCT NUM NOUN	13
+NOUN NUM NOUN PUNCT., NOUN NOUN	33
+NOUN NUM NOUN PUNCT., NOUN NUM	12
+NOUN NUM NOUN PUNCT., NOUN PART	11
+NOUN NUM NOUN PUNCT., NUM NOUN	45
+NOUN NUM NOUN PUNCT., PROPN ADP	10
+NOUN NUM NOUN PUNCT., PROPN NOUN	28
+NOUN NUM NOUN PUNCT., PROPN PART	13
+NOUN NUM NOUN PUNCT., PROPN PROPN	34
+NOUN NUM NOUN PUNCT., PROPN PUNCT	12
+NOUN NUM NOUN PUNCT., PROPN VERB	14
+NOUN NUM NOUN VERB NOUN NOUN	10
+NOUN NUM NOUN VERB PUNCT.. EOF	18
+NOUN PART ADJ NOUN PUNCT.. EOF	25
+NOUN PART NOUN ADV AUX VERB	10
+NOUN PART NOUN ADV VERB NOUN	9
+NOUN PART NOUN ADV VERB VERB	21
+NOUN PART NOUN CCONJ NOUN PUNCT.,	11
+NOUN PART NOUN NOUN ADV VERB	14
+NOUN PART NOUN NOUN NOUN NOUN	9
+NOUN PART NOUN NOUN NOUN PUNCT.,	15
+NOUN PART NOUN NOUN NOUN PUNCT..	11
+NOUN PART NOUN NOUN PART NOUN	9
+NOUN PART NOUN NOUN PUNCT., ADV	15
+NOUN PART NOUN NOUN PUNCT., NOUN	13
+NOUN PART NOUN NOUN PUNCT., VERB	19
+NOUN PART NOUN NOUN PUNCT.. EOF	66
+NOUN PART NOUN NOUN VERB VERB	12
+NOUN PART NOUN NUM NOUN PUNCT.,	32
+NOUN PART NOUN PART NOUN PART	9
+NOUN PART NOUN PART NOUN PUNCT..	10
+NOUN PART NOUN PART NUM PUNCT..	10
+NOUN PART NOUN PART PUNCT.. EOF	13
+NOUN PART NOUN PUNCT., ADV AUX	14
+NOUN PART NOUN PUNCT., ADV VERB	41
+NOUN PART NOUN PUNCT., NOUN ADV	12
+NOUN PART NOUN PUNCT., NOUN NOUN	12
+NOUN PART NOUN PUNCT., NOUN VERB	11
+NOUN PART NOUN PUNCT., VERB NOUN	15
+NOUN PART NOUN PUNCT., VERB VERB	18
+NOUN PART NOUN VERB NUM NOUN	10
+NOUN PART NOUN VERB PUNCT.. EOF	14
+NOUN PART NOUN VERB VERB NOUN	11
+NOUN PART NOUN VERB VERB VERB	10
+NOUN PART NUM NOUN NOUN NOUN	13
+NOUN PART NUM NOUN NOUN PUNCT.,	16
+NOUN PART NUM NOUN PUNCT.. EOF	13
+NOUN PART PART NOUN NOUN PUNCT.,	9
+NOUN PART PART NOUN NOUN PUNCT..	12
+NOUN PART PART NOUN PUNCT.. EOF	32
+NOUN PART VERB PART PUNCT.. EOF	17
+NOUN PROPN NOUN NOUN PUNCT.. EOF	10
+NOUN PROPN PART NOUN PUNCT.. EOF	9
+NOUN PUNCT NOUN CCONJ NOUN NOUN	14
+NOUN PUNCT NOUN NOUN PUNCT NOUN	26
+NOUN PUNCT NOUN PUNCT NOUN CCONJ	12
+NOUN PUNCT NOUN PUNCT NOUN NOUN	26
+NOUN PUNCT NOUN PUNCT NOUN PUNCT	31
+NOUN PUNCT NUM NOUN PUNCT PUNCT.,	14
+NOUN PUNCT PROPN NOUN PUNCT PROPN	9
+NOUN PUNCT X X PUNCT PUNCT..	10
+NOUN PUNCT., ADP NUM NOUN NUM	12
+NOUN PUNCT., ADP NUM NOUN VERB	15
+NOUN PUNCT., ADV ADP NUM NOUN	16
+NOUN PUNCT., ADV ADV VERB NOUN	10
+NOUN PUNCT., ADV ADV VERB VERB	10
+NOUN PUNCT., ADV VERB NOUN NOUN	18
+NOUN PUNCT., ADV VERB NOUN VERB	16
+NOUN PUNCT., ADV VERB NUM NOUN	19
+NOUN PUNCT., ADV VERB PART NOUN	10
+NOUN PUNCT., ADV VERB PROPN NOUN	12
+NOUN PUNCT., ADV VERB VERB NOUN	14
+NOUN PUNCT., ADV VERB VERB VERB	17
+NOUN PUNCT., NOUN ADV VERB NOUN	9
+NOUN PUNCT., NOUN ADV VERB VERB	11
+NOUN PUNCT., NOUN NOUN ADV VERB	11
+NOUN PUNCT., NOUN NOUN NUM NOUN	30
+NOUN PUNCT., NOUN NOUN VERB VERB	10
+NOUN PUNCT., NOUN VERB NOUN NUM	10
+NOUN PUNCT., NOUN VERB NUM NOUN	12
+NOUN PUNCT., NUM NOUN ADP PART	25
+NOUN PUNCT., NUM NOUN NOUN NUM	10
+NOUN PUNCT., PROPN NOUN ADV VERB	9
+NOUN PUNCT., PROPN NOUN NOUN NOUN	13
+NOUN PUNCT., PROPN PROPN ADV VERB	11
+NOUN PUNCT., PROPN PROPN VERB NOUN	16
+NOUN PUNCT., PROPN PROPN VERB PROPN	19
+NOUN PUNCT., VERB ADP NOUN NOUN	9
+NOUN PUNCT., VERB ADP NUM NOUN	9
+NOUN PUNCT., VERB NOUN NOUN PART	9
+NOUN PUNCT., VERB NOUN NOUN PUNCT..	9
+NOUN PUNCT., VERB NOUN PART NOUN	11
+NOUN PUNCT., VERB NUM NOUN NOUN	10
+NOUN PUNCT., VERB NUM NOUN VERB	9
+NOUN PUNCT., VERB PROPN PART NOUN	12
+NOUN PUNCT., VERB PROPN PART VERB	17
+NOUN PUNCT., VERB VERB NOUN NOUN	27
+NOUN PUNCT., VERB VERB NUM NOUN	9
+NOUN PUNCT., VERB VERB PART NOUN	9
+NOUN PUNCT., VERB VERB PROPN NOUN	16
+NOUN PUNCT., VERB VERB PROPN PART	21
+NOUN VERB ADJ NOUN PART NOUN	15
+NOUN VERB ADJ NOUN PUNCT.. EOF	9
+NOUN VERB ADJ PART NOUN PUNCT..	9
+NOUN VERB ADP NUM NOUN NUM	14
+NOUN VERB ADV VERB PUNCT.. EOF	9
+NOUN VERB NOUN NOUN NOUN PART	11
+NOUN VERB NOUN NOUN PART NOUN	9
+NOUN VERB NOUN NOUN PUNCT., ADV	9
+NOUN VERB NOUN NOUN PUNCT.. EOF	23
+NOUN VERB NOUN NUM NOUN PUNCT..	10
+NOUN VERB NOUN PART NOUN PUNCT.,	9
+NOUN VERB NOUN PART NOUN PUNCT..	10
+NOUN VERB NOUN PUNCT., ADV VERB	13
+NOUN VERB NOUN VERB PUNCT.. EOF	11
+NOUN VERB NUM NOUN NOUN NOUN	16
+NOUN VERB NUM NOUN NOUN PART	9
+NOUN VERB NUM NOUN NOUN PUNCT.,	16
+NOUN VERB NUM NOUN NOUN VERB	9
+NOUN VERB NUM NOUN PART NOUN	10
+NOUN VERB NUM NOUN PUNCT.. EOF	12
+NOUN VERB PART ADJ PART NOUN	11
+NOUN VERB PART NOUN NOUN PUNCT.,	10
+NOUN VERB PART NOUN PART NOUN	9
+NOUN VERB PART NOUN PUNCT., ADV	19
+NOUN VERB PART NOUN PUNCT., VERB	16
+NOUN VERB PART NOUN PUNCT.. EOF	39
+NOUN VERB PART NUM NOUN NOUN	21
+NOUN VERB PROPN NOUN NOUN VERB	9
+NOUN VERB VERB NOUN NOUN PART	9
+NOUN VERB VERB NOUN NOUN PUNCT.,	9
+NOUN VERB VERB NOUN NOUN PUNCT..	9
+NOUN VERB VERB NOUN PART NOUN	11
+NOUN VERB VERB NOUN PUNCT.. EOF	16
+NOUN VERB VERB NUM NOUN NOUN	16
+NOUN VERB VERB NUM NOUN PUNCT.,	10
+NOUN VERB VERB PROPN NOUN NOUN	16
+NOUN VERB VERB PROPN PART NOUN	16
+NOUN VERB VERB PROPN PROPN PART	9
+NOUN VERB VERB VERB NOUN NOUN	9
+NUM NOUN ADJ PART NOUN NOUN	14
+NUM NOUN ADP PART NOUN AUX	26
+NUM NOUN ADV VERB PUNCT.. EOF	9
+NUM NOUN CCONJ NUM NOUN NUM	9
+NUM NOUN CCONJ NUM NOUN VERB	11
+NUM NOUN NOUN ADV VERB VERB	9
+NUM NOUN NOUN NOUN NOUN NOUN	14
+NUM NOUN NOUN NOUN NOUN PUNCT.,	9
+NUM NOUN NOUN NOUN PUNCT.. EOF	19
+NUM NOUN NOUN PART NOUN NOUN	22
+NUM NOUN NOUN PART NOUN PUNCT.,	16
+NUM NOUN NOUN PART NOUN PUNCT..	9
+NUM NOUN NOUN PUNCT NUM NOUN	11
+NUM NOUN NOUN PUNCT., ADV VERB	14
+NUM NOUN NOUN PUNCT., NUM NOUN	12
+NUM NOUN NOUN PUNCT., VERB PROPN	10
+NUM NOUN NOUN PUNCT., VERB VERB	9
+NUM NOUN NUM NOUN CCONJ NUM	12
+NUM NOUN NUM NOUN NUM NOUN	242
+NUM NOUN NUM NOUN PROPN NOUN	11
+NUM NOUN NUM NOUN PUNCT., ADP	11
+NUM NOUN NUM NOUN PUNCT., NOUN	35
+NUM NOUN NUM NOUN PUNCT., NUM	9
+NUM NOUN NUM NOUN PUNCT., PROPN	114
+NUM NOUN NUM NOUN PUNCT., VERB	16
+NUM NOUN NUM NOUN VERB NOUN	19
+NUM NOUN NUM NOUN VERB PART	9
+NUM NOUN NUM NOUN VERB PROPN	14
+NUM NOUN NUM NOUN VERB PUNCT.,	12
+NUM NOUN NUM NOUN VERB PUNCT..	17
+NUM NOUN NUM NOUN VERB VERB	16
+NUM NOUN PART NOUN NOUN PUNCT..	9
+NUM NOUN PART NOUN PUNCT., ADV	13
+NUM NOUN PART NOUN PUNCT.. EOF	22
+NUM NOUN PROPN NOUN NOUN PUNCT.,	10
+NUM NOUN PUNCT NOUN NUM NOUN	9
+NUM NOUN PUNCT NUM NOUN PUNCT	31
+NUM NOUN PUNCT., ADJ NUM NOUN	12
+NUM NOUN PUNCT., ADP NUM NOUN	11
+NUM NOUN PUNCT., NOUN ADV VERB	10
+NUM NOUN PUNCT., NOUN NOUN NUM	27
+NUM NOUN PUNCT., NOUN NUM NOUN	16
+NUM NOUN PUNCT., NOUN PART VERB	10
+NUM NOUN PUNCT., NUM NOUN ADP	26
+NUM NOUN PUNCT., NUM NOUN NOUN	17
+NUM NOUN PUNCT., NUM NOUN VERB	10
+NUM NOUN PUNCT., PROPN ADP PROPN	12
+NUM NOUN PUNCT., PROPN ADV VERB	9
+NUM NOUN PUNCT., PROPN NOUN NOUN	18
+NUM NOUN PUNCT., PROPN NOUN PART	9
+NUM NOUN PUNCT., PROPN NOUN VERB	23
+NUM NOUN PUNCT., PROPN PART NOUN	10
+NUM NOUN PUNCT., PROPN PROPN ADP	12
+NUM NOUN PUNCT., PROPN PROPN ADV	9
+NUM NOUN PUNCT., PROPN PROPN VERB	40
+NUM NOUN PUNCT., PROPN PUNCT PROPN	16
+NUM NOUN PUNCT., PROPN VERB PROPN	18
+NUM NOUN PUNCT., PROPN VERB VERB	11
+NUM NOUN PUNCT., VERB NUM NOUN	11
+NUM NOUN PUNCT., VERB VERB PROPN	9
+NUM NOUN VERB NOUN PART NOUN	9
+NUM NOUN VERB NUM NOUN NOUN	9
+NUM NOUN VERB NUM NOUN PUNCT.,	12
+NUM NOUN VERB PART NOUN NOUN	10
+NUM NOUN VERB PART NOUN PUNCT.,	15
+NUM NOUN VERB PART NUM NOUN	10
+NUM NOUN VERB PROPN NOUN NOUN	11
+NUM NOUN VERB VERB NUM NOUN	11
+NUM NOUN VERB VERB PROPN PROPN	9
+NUM NOUN VERB VERB PUNCT.. EOF	11
+PART ADJ PART NOUN PUNCT.. EOF	15
+PART NOUN ADV VERB PUNCT.. EOF	12
+PART NOUN ADV VERB VERB NOUN	9
+PART NOUN AUX NUM NOUN PUNCT..	29
+PART NOUN CCONJ NOUN PUNCT.. EOF	14
+PART NOUN NOUN ADV VERB VERB	15
+PART NOUN NOUN CCONJ NOUN NOUN	12
+PART NOUN NOUN NOUN PUNCT., NOUN	10
+PART NOUN NOUN NOUN PUNCT., VERB	10
+PART NOUN NOUN NOUN PUNCT.. EOF	27
+PART NOUN NOUN PART NOUN PUNCT..	9
+PART NOUN NOUN PUNCT NOUN NOUN	9
+PART NOUN NOUN PUNCT., ADV VERB	17
+PART NOUN NOUN PUNCT., NOUN NOUN	10
+PART NOUN NOUN PUNCT., VERB NOUN	12
+PART NOUN NOUN PUNCT., VERB PROPN	9
+PART NOUN NOUN PUNCT., VERB VERB	10
+PART NOUN NOUN VERB VERB NOUN	10
+PART NOUN NUM NOUN PUNCT., NOUN	9
+PART NOUN NUM NOUN PUNCT., NUM	25
+PART NOUN PART NOUN NOUN PUNCT..	9
+PART NOUN PART NOUN PUNCT., VERB	9
+PART NOUN PART NOUN PUNCT.. EOF	35
+PART NOUN PART NUM NOUN NOUN	10
+PART NOUN PART NUM PUNCT.. EOF	21
+PART NOUN PART PART NOUN NOUN	9
+PART NOUN PUNCT., ADV ADV VERB	12
+PART NOUN PUNCT., ADV AUX VERB	13
+PART NOUN PUNCT., ADV VERB NOUN	20
+PART NOUN PUNCT., ADV VERB PROPN	9
+PART NOUN PUNCT., ADV VERB VERB	27
+PART NOUN PUNCT., NOUN ADV VERB	14
+PART NOUN PUNCT., PROPN NOUN NOUN	11
+PART NOUN PUNCT., VERB NOUN NOUN	15
+PART NOUN PUNCT., VERB PROPN PART	9
+PART NOUN PUNCT., VERB VERB NOUN	21
+PART NOUN PUNCT., VERB VERB PROPN	19
+PART NOUN VERB NOUN PUNCT.. EOF	12
+PART NOUN VERB PART PUNCT.. EOF	13
+PART NOUN VERB VERB NOUN NOUN	10
+PART NOUN VERB VERB NUM NOUN	10
+PART NUM NOUN NOUN NOUN NOUN	9
+PART NUM NOUN NOUN PART NOUN	17
+PART NUM NOUN NOUN PUNCT., VERB	18
+PART NUM NOUN NOUN PUNCT.. EOF	38
+PART PART NOUN NOUN PUNCT.. EOF	20
+PART PROPN PART NOUN PUNCT.. EOF	12
+PART PROPN PART PROPN PART PROPN	19
+PART PROPN PART PROPN PART PUNCT.,	10
+PART PROPN PART PROPN PART VERB	10
+PART PROPN PART VERB PART NUM	11
+PART PUNCT PROPN PART CCONJ PROPN	9
+PART PUNCT PROPN PART PUNCT PROPN	59
+PART VERB NOUN NOUN PUNCT.. EOF	11
+PART VERB PART NOUN PUNCT.. EOF	10
+PART VERB PART NUM NOUN NOUN	14
+PROPN ADP NUM NOUN NUM NOUN	10
+PROPN AUX PROPN PART NOUN PUNCT.,	11
+PROPN NOUN NOUN NOUN PUNCT.. EOF	10
+PROPN NOUN NOUN PART NOUN NOUN	17
+PROPN NOUN NOUN PART NOUN PUNCT..	9
+PROPN NOUN NOUN PART PROPN PART	13
+PROPN NOUN NOUN PUNCT., NOUN VERB	9
+PROPN NOUN NOUN VERB PART NOUN	10
+PROPN NOUN PART NOUN NOUN PUNCT.,	9
+PROPN NOUN PART NOUN NOUN PUNCT..	9
+PROPN NOUN PART NOUN PUNCT.. EOF	20
+PROPN NOUN PART NUM NOUN NOUN	12
+PROPN NOUN PUNCT PROPN NOUN PUNCT	10
+PROPN NOUN PUNCT X X PUNCT	9
+PROPN NUM NOUN PUNCT NUM NOUN	17
+PROPN PART AUX PROPN PART NOUN	9
+PROPN PART CCONJ PROPN PART NOUN	11
+PROPN PART CCONJ PROPN PART PART	9
+PROPN PART NOUN NOUN PUNCT.. EOF	28
+PROPN PART NOUN PART NOUN NOUN	12
+PROPN PART NOUN PUNCT., ADV VERB	13
+PROPN PART NOUN PUNCT., VERB PROPN	9
+PROPN PART NOUN PUNCT., VERB VERB	22
+PROPN PART PART NOUN PUNCT.. EOF	16
+PROPN PART PART NUM NOUN NOUN	12
+PROPN PART PROPN PART PROPN PART	48
+PROPN PART PROPN PART PUNCT., AUX	9
+PROPN PART PROPN PART VERB PART	10
+PROPN PART PUNCT PROPN PART CCONJ	11
+PROPN PART PUNCT PROPN PART PUNCT	65
+PROPN PART PUNCT., AUX NUM NOUN	11
+PROPN PART VERB PART NUM NOUN	18
+PROPN PROPN PART NOUN PROPN PROPN	10
+PROPN PROPN PART NOUN PUNCT., ADV	9
+PROPN PROPN PART PROPN PART PROPN	18
+PROPN PROPN PUNCT PROPN PROPN NOUN	12
+PROPN PROPN PUNCT PROPN PROPN PUNCT	29
+PROPN PROPN PUNCT PROPN PROPN VERB	10
+PROPN PROPN VERB PART NUM NOUN	9
+PROPN PUNCT PROPN CCONJ PROPN NOUN	9
+PROPN PUNCT PROPN PROPN PUNCT PROPN	29
+PROPN PUNCT PROPN PUNCT PROPN NOUN	12
+PROPN PUNCT PROPN PUNCT PROPN PUNCT	41
+PROPN PUNCT PROPN PUNCT X X	27
+PROPN VERB PART NOUN PUNCT.. EOF	12
+PUNCT NOUN NOUN PUNCT NOUN NOUN	17
+PUNCT NOUN PUNCT NOUN CCONJ NOUN	10
+PUNCT NOUN PUNCT NOUN PUNCT NOUN	30
+PUNCT NUM NOUN PUNCT PUNCT., PROPN	9
+PUNCT PROPN NOUN PUNCT PROPN NOUN	13
+PUNCT PROPN PART PUNCT PROPN PART	63
+PUNCT PROPN PROPN PUNCT PROPN PROPN	31
+PUNCT PROPN PUNCT PROPN PUNCT PROPN	38
+PUNCT PROPN PUNCT X X PUNCT	25
+PUNCT X X PUNCT PUNCT.. EOF	16
+PUNCT., ADP NUM NOUN NUM NOUN	22
+PUNCT., ADV ADP NUM NOUN NUM	11
+PUNCT., ADV VERB NOUN PUNCT.. EOF	12
+PUNCT., ADV VERB NUM NOUN NOUN	14
+PUNCT., ADV VERB PROPN PART NOUN	9
+PUNCT., ADV VERB VERB NUM NOUN	11
+PUNCT., ADV VERB VERB VERB NOUN	10
+PUNCT., ADV VERB VERB VERB PART	9
+PUNCT., AUX NUM NOUN PROPN NOUN	12
+PUNCT., AUX PROPN NOUN NOUN PART	9
+PUNCT., NOUN ADV VERB VERB VERB	9
+PUNCT., NOUN NOUN AUX NUM NOUN	10
+PUNCT., NOUN NOUN NUM NOUN PUNCT.,	27
+PUNCT., NOUN NUM NOUN PUNCT., NOUN	13
+PUNCT., NOUN VERB NOUN NUM NOUN	9
+PUNCT., NUM NOUN ADP PART NOUN	25
+PUNCT., PROPN PROPN ADV VERB VERB	9
+PUNCT., PROPN PROPN VERB NOUN NOUN	10
+PUNCT., PROPN PUNCT PROPN PUNCT PROPN	10
+PUNCT., VERB NOUN NOUN PART NOUN	10
+PUNCT., VERB NOUN NOUN PUNCT.. EOF	13
+PUNCT., VERB PROPN PART VERB VERB	14
+PUNCT., VERB VERB NOUN NOUN PART	11
+PUNCT., VERB VERB NOUN NOUN PUNCT.,	11
+PUNCT., VERB VERB PROPN NOUN PART	10
+PUNCT., VERB VERB PROPN PART PROPN	10
+VERB ADJ NOUN PART NOUN NOUN	10
+VERB ADJ NOUN PART NOUN PUNCT.,	13
+VERB ADJ PART NOUN NOUN PUNCT..	10
+VERB ADJ PART NOUN PUNCT.. EOF	23
+VERB ADP NUM NOUN NUM NOUN	21
+VERB DET NOUN NOUN PART NOUN	10
+VERB NOUN NOUN CCONJ NOUN NOUN	13
+VERB NOUN NOUN NOUN PART NOUN	16
+VERB NOUN NOUN NOUN PUNCT.. EOF	22
+VERB NOUN NOUN PART NOUN NOUN	17
+VERB NOUN NOUN PART NOUN PUNCT.,	17
+VERB NOUN NOUN PART NOUN PUNCT..	20
+VERB NOUN NOUN PUNCT., ADV VERB	20
+VERB NOUN NOUN VERB PART NOUN	15
+VERB NOUN NOUN VERB PUNCT.. EOF	12
+VERB NOUN NUM NOUN PUNCT.. EOF	17
+VERB NOUN PART NOUN ADV VERB	9
+VERB NOUN PART NOUN CCONJ NOUN	10
+VERB NOUN PART NOUN NOUN PUNCT.,	11
+VERB NOUN PART NOUN PUNCT., ADV	14
+VERB NOUN PART NOUN PUNCT., VERB	14
+VERB NOUN PART NOUN PUNCT.. EOF	57
+VERB NOUN PART PART NOUN NOUN	9
+VERB NOUN PUNCT NOUN PUNCT NOUN	27
+VERB NOUN PUNCT., ADV VERB NOUN	14
+VERB NOUN PUNCT., VERB VERB NOUN	9
+VERB NUM NOUN ADJ PART NOUN	12
+VERB NUM NOUN NOUN ADV VERB	9
+VERB NUM NOUN NOUN NOUN NOUN	10
+VERB NUM NOUN NOUN NOUN PUNCT.,	12
+VERB NUM NOUN NOUN PART NOUN	19
+VERB NUM NOUN NOUN PUNCT., ADV	13
+VERB NUM NOUN NOUN PUNCT., NOUN	13
+VERB NUM NOUN NOUN PUNCT., VERB	12
+VERB NUM NOUN NOUN PUNCT.. EOF	36
+VERB NUM NOUN PART NOUN NOUN	9
+VERB NUM NOUN PART NOUN PUNCT.,	13
+VERB NUM NOUN PUNCT., NOUN NOUN	9
+VERB NUM NOUN VERB PART NOUN	11
+VERB PART ADJ NOUN PUNCT.. EOF	9
+VERB PART ADJ PART NOUN PUNCT..	11
+VERB PART ADV VERB NUM NOUN	10
+VERB PART DET NOUN PUNCT.. EOF	15
+VERB PART NOUN NOUN PART NOUN	9
+VERB PART NOUN NOUN PUNCT.. EOF	34
+VERB PART NOUN PART NOUN NOUN	9
+VERB PART NOUN PART NOUN PUNCT.,	9
+VERB PART NOUN PART NOUN PUNCT..	15
+VERB PART NOUN PART PUNCT.. EOF	9
+VERB PART NOUN PUNCT., ADV VERB	26
+VERB PART NOUN PUNCT., VERB NOUN	14
+VERB PART NOUN PUNCT., VERB VERB	9
+VERB PART NUM NOUN NOUN NOUN	10
+VERB PART NUM NOUN NOUN PART	16
+VERB PART NUM NOUN NOUN PUNCT.,	19
+VERB PART NUM NOUN NOUN PUNCT..	19
+VERB PART PART NOUN PUNCT.. EOF	20
+VERB PART PUNCT., ADV VERB VERB	9
+VERB PRON PART NOUN PUNCT.. EOF	13
+VERB PROPN NOUN NOUN PART NOUN	17
+VERB PROPN NOUN NOUN PUNCT.. EOF	12
+VERB PROPN NOUN PART NOUN NOUN	12
+VERB PROPN NOUN PUNCT., ADV VERB	9
+VERB PROPN PART CCONJ PROPN PART	13
+VERB PROPN PART NOUN ADV VERB	10
+VERB PROPN PART NOUN NOUN PUNCT.,	11
+VERB PROPN PART NOUN NOUN PUNCT..	10
+VERB PROPN PART NOUN PART NOUN	10
+VERB PROPN PART NOUN PUNCT., VERB	14
+VERB PROPN PART NOUN PUNCT.. EOF	16
+VERB PROPN PART PART NOUN NOUN	9
+VERB PROPN PART PROPN PART PROPN	14
+VERB PROPN PART VERB PUNCT.. EOF	11
+VERB PROPN PART VERB VERB PUNCT.,	11
+VERB PROPN PROPN PART PROPN PART	19
+VERB PROPN PROPN VERB PUNCT.. EOF	9
+VERB PROPN PUNCT PROPN PUNCT PROPN	14
+VERB PUNCT., ADV ADP NUM NOUN	9
+VERB PUNCT., NUM NOUN NUM NOUN	9
+VERB VERB NOUN NOUN PART NOUN	26
+VERB VERB NOUN NOUN PUNCT., ADV	10
+VERB VERB NOUN NOUN PUNCT., VERB	10
+VERB VERB NOUN NOUN PUNCT.. EOF	25
+VERB VERB NOUN PART NOUN NOUN	11
+VERB VERB NOUN PART NOUN PUNCT.,	15
+VERB VERB NOUN PART NOUN PUNCT..	19
+VERB VERB NUM NOUN NOUN NOUN	12
+VERB VERB NUM NOUN NOUN PART	11
+VERB VERB NUM NOUN NOUN PUNCT..	11
+VERB VERB NUM NOUN PART NOUN	14
+VERB VERB NUM NOUN PUNCT., NOUN	10
+VERB VERB NUM NOUN PUNCT.. EOF	13
+VERB VERB PART NOUN PART NOUN	10
+VERB VERB PART NOUN PUNCT., ADV	11
+VERB VERB PART NOUN PUNCT.. EOF	28
+VERB VERB PROPN NOUN NOUN NOUN	11
+VERB VERB PROPN NOUN NOUN PART	14
+VERB VERB PROPN NOUN PART NOUN	13
+VERB VERB PROPN NOUN PUNCT.. EOF	10
+VERB VERB PROPN PART NOUN NOUN	11
+VERB VERB PROPN PART NOUN PUNCT.,	14
+VERB VERB PROPN PART PART NOUN	10
+VERB VERB PROPN PART PROPN PART	16
+VERB VERB PROPN PART PUNCT.. EOF	14
+VERB VERB PROPN PROPN PART PROPN	22
+VERB VERB VERB NOUN NOUN PART	9
+VERB VERB VERB NOUN PART NOUN	13
+
+[NGRAMS:7]
+94
+ADP NUM NOUN NUM NOUN NUM NOUN	85
+ADP PART NOUN AUX NUM NOUN PUNCT..	26
+ADV ADP NUM NOUN NUM NOUN NUM	16
+ADV VERB NOUN PART NOUN PUNCT.. EOF	13
+AUX PROPN PART NOUN PUNCT., VERB VERB	15
+BOF ADP NUM NOUN NUM NOUN NUM	13
+BOF DET NOUN PART NOUN NUM NOUN	26
+BOF NUM NOUN NUM NOUN NUM NOUN	113
+BOF NUM NOUN NUM NOUN PUNCT., PROPN	39
+BOF NUM NOUN PUNCT., PROPN PROPN VERB	19
+DET NOUN PART NOUN NUM NOUN PUNCT.,	25
+NOUN ADP NUM NOUN NUM NOUN NUM	12
+NOUN ADP PART NOUN AUX NUM NOUN	26
+NOUN ADV VERB PART NOUN PUNCT.. EOF	12
+NOUN NOUN CCONJ NOUN NOUN PUNCT.. EOF	13
+NOUN NOUN NOUN NOUN NOUN PUNCT.. EOF	11
+NOUN NOUN NOUN PART NOUN PUNCT.. EOF	15
+NOUN NOUN PART ADJ NOUN PUNCT.. EOF	11
+NOUN NOUN PART NOUN NOUN PUNCT.. EOF	24
+NOUN NOUN PART NOUN PUNCT., ADV VERB	12
+NOUN NOUN PUNCT NOUN NOUN PUNCT NOUN	14
+NOUN NUM NOUN NUM NOUN PUNCT., NOUN	25
+NOUN NUM NOUN NUM NOUN PUNCT., PROPN	68
+NOUN NUM NOUN NUM NOUN VERB PUNCT..	12
+NOUN NUM NOUN PUNCT., NOUN NOUN NUM	23
+NOUN NUM NOUN PUNCT., NOUN NUM NOUN	12
+NOUN NUM NOUN PUNCT., NUM NOUN ADP	25
+NOUN NUM NOUN PUNCT., NUM NOUN NOUN	13
+NOUN NUM NOUN PUNCT., PROPN NOUN VERB	14
+NOUN NUM NOUN PUNCT., PROPN PROPN VERB	17
+NOUN PART NOUN NOUN NOUN PUNCT.. EOF	11
+NOUN PART NOUN NUM NOUN PUNCT., NUM	25
+NOUN PART NOUN PUNCT., ADV VERB NOUN	11
+NOUN PART NOUN PUNCT., ADV VERB VERB	12
+NOUN PART PART NOUN NOUN PUNCT.. EOF	12
+NOUN PUNCT NOUN NOUN PUNCT NOUN NOUN	15
+NOUN PUNCT NOUN PUNCT NOUN PUNCT NOUN	26
+NOUN PUNCT., NOUN NOUN NUM NOUN PUNCT.,	24
+NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+NOUN PUNCT., VERB PROPN PART VERB VERB	12
+NOUN PUNCT., VERB VERB NOUN NOUN PUNCT.,	11
+NOUN VERB ADP NUM NOUN NUM NOUN	14
+NUM NOUN ADP PART NOUN AUX NUM	26
+NUM NOUN NUM NOUN CCONJ NUM NOUN	12
+NUM NOUN NUM NOUN NUM NOUN ADP	15
+NUM NOUN NUM NOUN NUM NOUN PROPN	17
+NUM NOUN NUM NOUN NUM NOUN PUNCT.,	121
+NUM NOUN NUM NOUN NUM NOUN VERB	46
+NUM NOUN NUM NOUN PUNCT., PROPN NOUN	28
+NUM NOUN NUM NOUN PUNCT., PROPN PART	13
+NUM NOUN NUM NOUN PUNCT., PROPN PROPN	32
+NUM NOUN NUM NOUN PUNCT., PROPN PUNCT	12
+NUM NOUN NUM NOUN PUNCT., PROPN VERB	14
+NUM NOUN NUM NOUN VERB PUNCT.. EOF	17
+NUM NOUN PUNCT NUM NOUN PUNCT PUNCT.,	12
+NUM NOUN PUNCT., NOUN NOUN NUM NOUN	27
+NUM NOUN PUNCT., NUM NOUN ADP PART	25
+NUM NOUN PUNCT., PROPN PROPN VERB PROPN	17
+PART NOUN AUX NUM NOUN PUNCT.. EOF	29
+PART NOUN NUM NOUN PUNCT., NUM NOUN	25
+PART NOUN PUNCT., VERB VERB NOUN NOUN	16
+PART PROPN PART PROPN PART PROPN PART	17
+PART PROPN PART VERB PART NUM NOUN	11
+PART PUNCT PROPN PART PUNCT PROPN PART	57
+PROPN NUM NOUN PUNCT NUM NOUN PUNCT	16
+PROPN PART NOUN PUNCT., VERB VERB NOUN	11
+PROPN PART PROPN PART PROPN PART PROPN	16
+PROPN PART PUNCT PROPN PART PUNCT PROPN	56
+PROPN PART VERB PART NUM NOUN NOUN	13
+PROPN PROPN PART PROPN PART PROPN PART	15
+PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN	28
+PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN	29
+PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN	37
+PROPN PUNCT PROPN PUNCT X X PUNCT	22
+PUNCT NOUN PUNCT NOUN PUNCT NOUN NOUN	12
+PUNCT PROPN PART PUNCT PROPN PART PUNCT	52
+PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT	19
+PUNCT PROPN PUNCT PROPN PUNCT PROPN PUNCT	23
+PUNCT., ADV ADP NUM NOUN NUM NOUN	11
+PUNCT., NOUN NOUN NUM NOUN PUNCT., NOUN	11
+PUNCT., NUM NOUN ADP PART NOUN AUX	25
+PUNCT., VERB PROPN PART VERB VERB PUNCT.,	11
+VERB ADP NUM NOUN NUM NOUN NUM	17
+VERB NOUN NOUN PART NOUN PUNCT.. EOF	20
+VERB NOUN PUNCT NOUN PUNCT NOUN PUNCT	13
+VERB PART ADJ PART NOUN PUNCT.. EOF	11
+VERB PART NOUN PART NOUN PUNCT.. EOF	15
+VERB PART NUM NOUN NOUN PART NOUN	13
+VERB PART NUM NOUN NOUN PUNCT.. EOF	19
+VERB PROPN PART PROPN PART PROPN PART	11
+VERB VERB NOUN PART NOUN PUNCT.. EOF	19
+VERB VERB NUM NOUN NOUN PUNCT.. EOF	11
+VERB VERB PROPN PART PROPN PART PROPN	12
+VERB VERB PROPN PROPN PART PROPN PART	17
+
+[NGRAMS:8]
+35
+ADP NUM NOUN NUM NOUN NUM NOUN PUNCT.,	15
+ADP NUM NOUN NUM NOUN NUM NOUN VERB	33
+ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	26
+ADV ADP NUM NOUN NUM NOUN NUM NOUN	16
+BOF ADP NUM NOUN NUM NOUN NUM NOUN	13
+BOF DET NOUN PART NOUN NUM NOUN PUNCT.,	25
+BOF NUM NOUN NUM NOUN NUM NOUN PUNCT.,	89
+BOF NUM NOUN NUM NOUN PUNCT., PROPN PROPN	13
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM	25
+NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	26
+NOUN NUM NOUN NUM NOUN PUNCT., PROPN NOUN	13
+NOUN NUM NOUN NUM NOUN PUNCT., PROPN PROPN	19
+NOUN NUM NOUN PUNCT., NOUN NOUN NUM NOUN	23
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN	25
+NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+NUM NOUN ADP PART NOUN AUX NUM NOUN	26
+NUM NOUN NUM NOUN NUM NOUN PUNCT., NOUN	23
+NUM NOUN NUM NOUN NUM NOUN PUNCT., PROPN	65
+NUM NOUN NUM NOUN PUNCT., PROPN NOUN VERB	14
+NUM NOUN NUM NOUN PUNCT., PROPN PROPN VERB	17
+NUM NOUN PUNCT., NOUN NOUN NUM NOUN PUNCT.,	21
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	47
+PROPN PART PROPN PART PROPN PART PROPN PART	14
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART	55
+PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN	28
+PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT	18
+PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN PUNCT	23
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	47
+PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN	18
+PUNCT PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN	21
+PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+VERB ADP NUM NOUN NUM NOUN NUM NOUN	17
+
+[NGRAMS:9]
+20
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM	25
+BOF NUM NOUN NUM NOUN NUM NOUN PUNCT., PROPN	54
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN	25
+NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	26
+NOUN NUM NOUN PUNCT., NOUN NOUN NUM NOUN PUNCT.,	19
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP	25
+NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	26
+NUM NOUN NUM NOUN NUM NOUN PUNCT., PROPN PROPN	18
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	42
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	46
+PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT	17
+PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN	18
+PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN PUNCT PROPN	21
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	46
+PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN	18
+PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+
+[NGRAMS:10]
+14
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN	25
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP	25
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART	25
+NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	26
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	42
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	41
+PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN	17
+PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN PUNCT PROPN PROPN	18
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	42
+PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	25
+
+[NGRAMS:11]
+11
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP	25
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART	25
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	25
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	39
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	41
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	38
+PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	25
+
+[NGRAMS:12]
+10
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART	25
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	25
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	35
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	38
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	38
+
+[NGRAMS:13]
+9
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN	25
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	35
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	34
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	36
+
+[NGRAMS:14]
+8
+BOF DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX	25
+DET NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM	25
+NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT.. EOF	25
+NOUN PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN	25
+PART NOUN NUM NOUN PUNCT., NUM NOUN ADP PART NOUN AUX NUM NOUN PUNCT..	25
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	33
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	34
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	33
+
+[NGRAMS:15]
+3
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	31
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	32
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	33
+
+[NGRAMS:16]
+3
+PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART	31
+PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN	30
+PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT PROPN PART PUNCT	31
+

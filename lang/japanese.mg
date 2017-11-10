@@ -1,0 +1,41656 @@
+# ----------------------------
+# -
+# - MGTAGGER resource file
+# -
+# ----------------------------
+$version=1
+$codepage=utf-8
+
+[LEX:main]
+!	131 PUNCT.! 131
+"	5 SYM 5
+#	5 SYM 5
+%	80 NOUN 79 SYM 1
+&	15 SYM 15
+'	3 SYM 3
+(株)	1 NOUN 1
+)	7 PUNCT 7
+)し	1 PUNCT_) 1
+*	10 SYM 10
++	3 SYM 2 PART 1
+,	1106 PUNCT., 1106
+-	113 PART 44 NOUN 44 SYM 25
+.	21 NOUN 11 PUNCT.. 10
+...	2 NOUN 2
+......	2 SYM 2
+/	23 NOUN 23
+0	8 NUM 8
+000	1 NUM 1
+007	1 NUM 1
+0096	1 NUM 1
+04	3 NUM 3
+05	1 NUM 1
+0500	1 NUM 1
+06	2 NUM 2
+06-07	1 NUM 1
+07	1 NUM 1
+08	1 NUM 1
+09	5 NUM 5
+1	317 NUM 317 ***
+10	95 NUM 95 ***
+10-15	1 NUM 1
+10.60	1 NUM 1
+10.8	1 NUM 1
+100	23 NUM 23
+100.0	1 NUM 1
+1000	11 NUM 11
+1006	1 NUM 1
+101	2 NUM 2
+1023	1 NUM 1
+103	3 NUM 3
+1045	1 NUM 1
+105	1 NUM 1
+1067	1 NUM 1
+107	1 NUM 1
+108	1 NUM 1
+1080	1 NUM 1
+1089	1 NUM 1
+109	1 NUM 1
+10月	36 NOUN 36
+11	40 NUM 40
+11,381	1 NUM 1
+11,430	1 NUM 1
+11.3	1 NUM 1
+11.7	1 NUM 1
+1100	3 NUM 3
+110番通報	1 VERB 1
+113	1 NUM 1
+1136	1 NUM 1
+115	1 NUM 1
+117	1 NUM 1
+1182	1 NUM 1
+1187	1 NUM 1
+119	1 NUM 1
+119番	1 VERB 1
+11月	33 NOUN 33
+12	52 NUM 52
+12.1	1 NUM 1
+12.7	1 NUM 1
+120	3 NUM 3
+1200	1 NUM 1
+1201	1 NUM 1
+121	1 NUM 1
+122	1 NUM 1
+1227	1 NUM 1
+124	1 NUM 1
+1254	1 NUM 1
+1256	1 NUM 1
+127	1 NUM 1
+1272	1 NUM 1
+1285	1 NUM 1
+12月	34 NOUN 34
+13	35 NUM 35
+130	1 NUM 1
+1308	1 NUM 1
+1356	1 NUM 1
+1359	1 NUM 1
+1364	1 NUM 1
+1381	1 NUM 1
+1384	1 NUM 1
+1390	1 NUM 1
+14	21 NUM 21
+1400	1 NUM 1
+14001	1 NUM 1
+141	3 NUM 3
+142.8	1 NUM 1
+1440	1 NUM 1
+1447	1 NUM 1
+1447-1	1 NUM 1
+1453	1 NUM 1
+1479	1 NUM 1
+1489	1 NUM 1
+15	37 NUM 37
+150	3 NUM 3
+1500	3 NUM 3
+15000	1 NUM 1
+151	1 NUM 1
+1514	1 NUM 1
+1524	1 NUM 1
+153	1 NUM 1
+1545	1 NUM 1
+155	1 NUM 1
+155.6	1 NUM 1
+1551	1 NUM 1
+1558	1 NUM 1
+156	2 NUM 2
+157	1 NUM 1
+1572	1 NUM 1
+1584	1 NUM 1
+16	26 NUM 26
+160	1 NUM 1
+1600	1 NUM 1
+1619	1 NUM 1
+1620	1 NUM 1
+1625	1 NUM 1
+1633	1 NUM 1
+1635	1 NUM 1
+164	1 NUM 1
+1643	1 NUM 1
+1644	1 NUM 1
+1645	1 NUM 1
+1658	1 NUM 1
+1660	1 NUM 1
+1678	1 NUM 1
+168	1 NUM 1
+1686	1 NUM 1
+1688	1 NUM 1
+1697	1 NUM 1
+17	18 NUM 18
+17-29	1 NUM 1
+170	2 NUM 2
+171	1 NUM 1
+1717	2 NUM 2
+1719	1 NUM 1
+172	2 NUM 2
+1722	2 NUM 2
+1736	1 NUM 1
+174	1 NUM 1
+1758	1 NUM 1
+1773	1 NUM 1
+1776	1 NUM 1
+1778	1 NUM 1
+1779	1 NUM 1
+1790	1 NUM 1
+1791	1 NUM 1
+1792	1 NUM 1
+1793	1 NUM 1
+1797	1 NUM 1
+1799	1 NUM 1
+18	25 NUM 25
+180	1 NUM 1
+1800	1 NUM 1
+1804	2 NUM 2
+1806	1 NUM 1
+1810	1 NUM 1
+1813	3 NUM 3
+1814	2 NUM 2
+1815	1 NUM 1
+182	2 NUM 2
+1824	1 NUM 1
+183	1 NUM 1
+1837	1 NUM 1
+1838	2 NUM 2
+1839	1 NUM 1
+184	1 NUM 1
+1840	1 NUM 1
+1844	1 NUM 1
+1847	1 NUM 1
+1848	1 NUM 1
+1849	1 NUM 1
+185	1 NUM 1
+1850	1 NUM 1
+1852	1 NUM 1
+186	1 NUM 1
+1860	3 NUM 3
+1861	1 NUM 1
+1865	1 NUM 1
+1866	2 NUM 2
+1867	1 NUM 1
+1868	2 NUM 2
+1875	2 NUM 2
+1876	1 NUM 1
+188	1 NUM 1
+1880	2 NUM 2
+1886	1 NUM 1
+1887	1 NUM 1
+1889	1 NUM 1
+1891	1 NUM 1
+1893	1 NUM 1
+1894	2 NUM 2
+1895	1 NUM 1
+1897	1 NUM 1
+1898	1 NUM 1
+19	22 NUM 22
+19-14	1 NUM 1
+19.1	1 NUM 1
+19.5	1 NUM 1
+19.96	1 NUM 1
+1900	1 NUM 1
+1901	1 NUM 1
+1903	3 NUM 3
+1905	1 NUM 1
+1906	2 NUM 2
+1907	3 NUM 3
+1908	2 NUM 2
+1909	1 NUM 1
+191	1 NUM 1
+1910	1 NUM 1
+1912	1 NUM 1
+1913	1 NUM 1
+1914	2 NUM 2
+1915	1 NUM 1
+1916	2 NUM 2
+1918	1 NUM 1
+1921	3 NUM 3
+1922	4 NUM 4
+1923	3 NUM 3
+1924	2 NUM 2
+1925	1 NUM 1
+1927	1 NUM 1
+1928	1 NUM 1
+1929	1 NUM 1
+1930	3 NUM 3
+1931	3 NUM 3
+1932	4 NUM 4
+1935	1 NUM 1
+1936	2 NUM 2
+1937	1 NUM 1
+1938	4 NUM 4
+1939	2 NUM 2
+194	1 NUM 1
+1940	7 NUM 7
+1941	5 NUM 5
+1942	3 NUM 3
+1944	2 NUM 2
+1945	2 NUM 2
+1946	7 NUM 7
+1947	4 NUM 4
+1948	7 NUM 7
+1948-49	1 NUM 1
+1949	2 NUM 2
+1950	3 NUM 3
+1951	3 NUM 3
+1952-53	1 NUM 1
+1953	5 NUM 5
+1954	4 NUM 4
+1955	1 NUM 1
+1956	4 NUM 4
+1957	2 NUM 2
+1958	4 NUM 4
+1959	4 NUM 4
+1960	7 NUM 7
+1961	7 NUM 7
+1962	3 NUM 3
+1963	7 NUM 7
+1964	2 NUM 2
+1965	3 NUM 3
+1966	3 NUM 3
+1967	3 NUM 3
+1968	1 NUM 1
+1969	2 NUM 2
+1970	12 NUM 12
+1972	4 NUM 4
+1973	4 NUM 4
+1974	5 NUM 5
+1975	5 NUM 5
+1976	4 NUM 4
+1977	4 NUM 4
+1978	4 NUM 4
+1979	4 NUM 4
+1980	10 NUM 10
+1981	4 NUM 4
+1982	4 NUM 4
+1983	3 NUM 3
+1984	5 NUM 5
+1985	5 NUM 5
+1986	5 NUM 5
+1987	6 NUM 6
+1988	3 NUM 3
+1989	9 NUM 9
+199	1 NUM 1
+1990	11 NUM 11
+1991	10 NUM 10
+1992	12 NUM 12
+1993	8 NUM 8
+1994	7 NUM 7
+1995	8 NUM 8
+1995-96	1 NUM 1
+1996	8 NUM 8
+1997	9 NUM 9
+1997-2010	1 NUM 1
+1998	7 NUM 7
+1999	8 NUM 8
+1999-00	1 NUM 1
+1E	1 NUM 1
+1月	50 NOUN 50
+2	279 NUM 279 ***
+20	56 NUM 56
+20,701	1 NUM 1
+20.7	1 NUM 1
+20.8	2 NUM 2
+200	11 NUM 11
+2000	20 NUM 20
+2000-01	1 NUM 1
+2001	12 NUM 12
+2001-02	1 NUM 1
+2001-2002	1 NUM 1
+2002	9 NUM 9
+2003	7 NUM 7
+2004	19 NUM 19
+2004-05	1 NUM 1
+2005	20 NUM 20
+2005-06	3 NUM 3
+2006	21 NUM 21
+2007	31 NUM 31
+2007-08	1 NUM 1
+2008	24 NUM 24
+2008-09	2 NUM 2
+2008-2009	1 NUM 1
+2009	28 NUM 28
+2009-10	1 NUM 1
+201	2 NUM 2
+2010	32 NUM 32
+2010-11	1 NUM 1
+2011	26 NUM 26
+2012	24 NUM 24
+2013	2 NUM 2
+2014	2 NUM 2
+2016	1 NUM 1
+2020	1 NUM 1
+20257/8	1 NUM 1
+203	1 NUM 1
+2044	1 NUM 1
+205	3 NUM 3
+208	1 NUM 1
+2084	1 NUM 1
+21	23 NUM 23
+2179	1 NUM 1
+22	31 NUM 31
+22,500	1 NUM 1
+22.2	1 NUM 1
+22.6	1 NUM 1
+22.92	1 NUM 1
+2200	1 NUM 1
+22380	1 NUM 1
+225	1 NUM 1
+2267	1 NUM 1
+2286	1 NUM 1
+23	13 NUM 13
+23,300	1 NUM 1
+233	1 NUM 1
+2387	1 NUM 1
+23:09	1 NUM 1
+24	33 NUM 33
+24.3	1 NUM 1
+240	1 NUM 1
+241	1 NUM 1
+245	1 NUM 1
+25	31 NUM 31
+250	4 NUM 4
+2500	1 NUM 1
+252	1 NUM 1
+2530	1 NUM 1
+255	1 NUM 1
+26	26 NUM 26
+26-31	1 NUM 1
+26.2	1 NUM 1
+26.6	1 NUM 1
+260	1 NUM 1
+261	1 NUM 1
+266	1 NUM 1
+27	16 NUM 16
+27.000	1 NUM 1
+2700	1 NUM 1
+273	1 NUM 1
+28	12 NUM 12
+280	2 NUM 2
+285	1 NUM 1
+29	11 NUM 11
+29,371	1 NUM 1
+296	1 NUM 1
+299	1 NUM 1
+2世	13 NOUN 13
+2月	32 NOUN 32
+3	238 NUM 238 ***
+30	35 NUM 35
+30,499	1 NUM 1
+300	11 NUM 11
+3000	7 NUM 7
+301	1 NUM 1
+3020	1 NUM 1
+31	16 NUM 16
+310	2 NUM 2
+3120	1 NUM 1
+315	2 NUM 2
+317	1 NUM 1
+32	3 NUM 3
+321	1 NUM 1
+323	1 NUM 1
+33	7 NUM 7
+33.1	1 NUM 1
+33.3	1 NUM 1
+33.80	1 NUM 1
+332	1 NUM 1
+34	2 NUM 2
+34.0	1 NUM 1
+35	4 NUM 4
+35.2	1 NUM 1
+350	1 NUM 1
+3500	2 NUM 2
+36	5 NUM 5
+36,698	1 NUM 1
+360	2 NUM 2
+3600	1 NUM 1
+37	5 NUM 5
+37,089	1 NUM 1
+37,585	1 NUM 1
+38	7 NUM 7
+38.4	1 NUM 1
+381-0033	1 NUM 1
+386	1 NUM 1
+39	4 NUM 4
+3929	1 NUM 1
+3986.64	1 NUM 1
+3D	3 NOUN 3
+3D映像	1 NOUN 1
+3LDK	1 NOUN 1
+3月	38 NOUN 38
+4	149 NUM 149 ***
+40	22 NUM 22
+400	3 NUM 3
+4000	3 NUM 3
+41	3 NUM 3
+41.1	1 NUM 1
+410	1 NUM 1
+413	1 NUM 1
+415	1 NUM 1
+418	1 NUM 1
+42	4 NUM 4
+4265	1 NUM 1
+43	4 NUM 4
+43.50	1 NUM 1
+431	1 NUM 1
+431-3126	1 NUM 1
+438	1 NUM 1
+44	4 NUM 4
+44,276	1 NUM 1
+441	1 NUM 1
+444	1 NUM 1
+447	1 NUM 1
+4478	1 NUM 1
+45	6 NUM 6
+450	1 NUM 1
+46	3 NUM 3
+462	1 NUM 1
+467	1 NUM 1
+47	3 NUM 3
+47.2	1 NUM 1
+48	3 NUM 3
+48.9	1 NUM 1
+480	2 NUM 2
+49	4 NUM 4
+490	1 NUM 1
+4月	40 NOUN 40
+5	97 NUM 97 ***
+50	19 NUM 19
+50.8	1 NUM 1
+500	6 NUM 6
+5000	5 NUM 5
+5042	1 NUM 1
+5043	1 NUM 1
+508	1 NUM 1
+51	1 NUM 1
+51-55-8	1 NUM 1
+52	3 NUM 3
+52,000	1 NUM 1
+5200	1 NUM 1
+527	1 NUM 1
+53	2 NUM 2
+53.0	1 NUM 1
+54	3 NUM 3
+55	4 NUM 4
+550	1 NUM 1
+552	2 NUM 2
+554	1 NUM 1
+56	5 NUM 5
+5681	1 NUM 1
+57	2 NUM 2
+58	5 NUM 5
+59.22	1 NUM 1
+5月	31 NOUN 31
+6	71 NUM 71
+60	12 NUM 12
+600	6 NUM 6
+6000	3 NUM 3
+605	1 NUM 1
+61	2 NUM 2
+617	1 NUM 1
+626	1 NUM 1
+63	3 NUM 3
+6344	1 NUM 1
+64	2 NUM 2
+640	3 NUM 3
+6400	1 NUM 1
+65	3 NUM 3
+650	1 NUM 1
+66.678	1 NUM 1
+660	1 NUM 1
+662	1 NUM 1
+6629	1 NUM 1
+67	1 NUM 1
+672	1 NUM 1
+673-0405	1 NUM 1
+68	1 NUM 1
+6800	1 NUM 1
+6814	1 NUM 1
+69	2 NUM 2
+6月	39 NOUN 39
+7	60 NUM 60
+70	11 NUM 11
+700	2 NUM 2
+708	1 NUM 1
+71	1 NUM 1
+710	1 NUM 1
+716	1 NUM 1
+72	6 NUM 6
+73	2 NUM 2
+733	1 NUM 1
+734	1 NUM 1
+74	3 NUM 3
+740	1 NUM 1
+75	4 NUM 4
+751	1 NUM 1
+755	1 NUM 1
+756	1 NUM 1
+76	1 NUM 1
+762	1 NUM 1
+765	1 NUM 1
+76e	1 NUM 1
+77	3 NUM 3
+7700	1 NUM 1
+78	1 NUM 1
+7800	1 NUM 1
+7月	38 NOUN 38
+8	50 NUM 50
+80	12 NUM 12
+800	3 NUM 3
+81	1 NUM 1
+81.69	1 NUM 1
+819	1 NUM 1
+82,000	1 NUM 1
+825	1 NUM 1
+83	2 NUM 2
+830	1 NUM 1
+84	2 NUM 2
+85	2 NUM 2
+85.7	1 NUM 1
+853	1 NUM 1
+8626	1 NUM 1
+87	1 NUM 1
+871	1 NUM 1
+88	1 NUM 1
+89	1 NUM 1
+8942	1 NUM 1
+8月	40 NOUN 40
+9	44 NUM 44
+90	7 NUM 7
+900	1 NUM 1
+92	1 NUM 1
+9218	1 NUM 1
+938	1 NUM 1
+94	3 NUM 3
+946	1 NUM 1
+95	2 NUM 2
+95/98	1 NUM 1
+950	1 NUM 1
+954	1 NUM 1
+9547.86	1 NUM 1
+97	3 NUM 3
+9700	3 NUM 3
+972	1 NUM 1
+98	5 NUM 5
+99	3 NUM 3
+99.5	1 NUM 1
+9月	43 NOUN 43
+:	13 SYM 13
+;	18 SYM 18
+=	24 NOUN 24
+?	42 PUNCT.? 42
+A.T	1 PROPN 1
+ABC	1 NOUN 1
+ABF	1 PROPN 1
+AC	2 PROPN 2
+ACC	1 PROPN 1
+ACCN	1 PROPN 1
+ACIS	1 PROPN 1
+AFC	1 PROPN 1
+AFP	1 NOUN 1
+AI	3 NOUN 3
+AKT	1 PROPN 1
+AM	1 NOUN 1
+AMD	1 PROPN 1
+AMG	1 PROPN 1
+AMX	1 PROPN 1
+AOCO	1 PROPN 1
+AP	2 PROPN 2
+APTF	1 PROPN 1
+AS	1 PROPN 1
+ASIAGIRLSEXPLOSION	1 PROPN 1
+AT	4 NOUN 3 PROPN 1
+ATC	1 PROPN 1
+ATM	2 NOUN 2
+ATO	1 PROPN 1
+AU	2 PROPN 2
+AUTO	2 PROPN 2
+AV	1 NOUN 1
+AW	1 PROPN 1
+AcounsticUK	1 PROPN 1
+An	1 PROPN 1
+Andrellis	1 PROPN 1
+Android	1 PROPN 1
+AndréFranquin	1 PROPN 1
+ArcSight	1 PROPN 1
+ArsTechnica	1 PROPN 1
+Asha	1 PROPN 1
+Aクラス	1 NOUN 1
+BBQ	1 PROPN 1
+BC	1 PROPN 1
+BGM	4 NOUN 4
+BIG	1 PROPN 1
+BILDU	1 PROPN 1
+BL	1 PROPN 1
+BMC	1 PROPN 1
+BOF	7164 BOF 7164 ***
+BOT	1 PROPN 1
+BS	3 PROPN 3
+BSD	1 PROPN 1
+BS放送	1 NOUN 1
+BUS	1 PROPN 1
+BV	1 PROPN 1
+BillofLading	1 PROPN 1
+BitKeeper	1 PROPN 1
+BlackBerryBold	2 PROPN 2
+Blink	1 PROPN 1
+BluesAttack	1 PROPN 1
+Bluetooth	1 PROPN 1
+BrianBrazil	1 PROPN 1
+BritishRailtermini	1 PROPN 1
+B型	1 NOUN 1
+B型肝炎	2 NOUN 2
+CAD	1 NOUN 1
+CAM	2 NOUN 2
+CARP	3 PROPN 3
+CAS	1 PROPN 1
+CBR	1 PROPN 1
+CD	12 NOUN 12
+CEO	5 NOUN 5
+CG	1 NOUN 1
+CIS	2 NOUN 2
+CLASSICS	1 PROPN 1
+CM	4 NOUN 4
+CMソング	2 NOUN 2
+CND	1 PROPN 1
+CO2	1 NOUN 1
+COCKANDBULLTUNES	1 PROPN 1
+CP	1 PROPN 1
+CPU	3 NOUN 3
+CR	1 NOUN 1
+CRYSTALBALL	1 PROPN 1
+CS	1 NOUN 1
+CT	1 NOUN 1
+CV	1 PROPN 1
+CardWirth	1 PROPN 1
+Ciel	1 PROPN 1
+CityofSarnia	1 PROPN 1
+ClubClass	1 PROPN 1
+Cr	1 PROPN 1
+Critical	1 PROPN 1
+C型肝炎	2 NOUN 2
+C言語	1 NOUN 1
+D.C.I	1 PROPN 1
+DARKSIDEREPORT	1 PROPN 1
+DAW	1 PROPN 1
+DC	1 PROPN 1
+DCG	1 PROPN 1
+DCブランド	1 NOUN 1
+DDT	1 NOUN 1
+DEC	1 NOUN 1
+DELAG	1 PROPN 1
+DFJEsprit	1 PROPN 1
+DI	1 PROPN 1
+DM	1 NOUN 1
+DMC	1 PROPN 1
+DNA	6 NOUN 6
+DNG	1 PROPN 1
+DOS	1 NOUN 1
+DRAGONGATERECORDS	1 PROPN 1
+DREAM	1 PROPN 1
+DS	3 PROPN 3
+DSD	1 PROPN 1
+DSRV	1 PROPN 1
+DTS	1 PROPN 1
+DUNGEON	1 PROPN 1
+DVD	5 NOUN 5
+DVP	1 PROPN 1
+DW	1 PROPN 1
+DXF	1 PROPN 1
+DY	1 PROPN 1
+Daisenguchistationeast	1 PROPN 1
+Daisenguchistationmonument	1 PROPN 1
+DeepJunior	1 PROPN 1
+DeepSjeng	1 PROPN 1
+DetailedBaselineReport	1 PROPN 1
+DirectX	1 PROPN 1
+Do	1 PROPN 1
+DoubleClickAdPlanner	1 PROPN 1
+E.T	1 PROPN 1
+EA	1 PROPN 1
+EBU	1 PROPN 1
+ECM	1 PROPN 1
+ECOWAS	1 PROPN 1
+ECW	1 PROPN 1
+EEPROM	2 NOUN 2
+EL	1 PROPN 1
+ELF	1 PROPN 1
+EMC	1 PROPN 1
+EMICLASSICS	1 PROPN 1
+EOF	7164 EOF 7164 ***
+ERC	1 PROPN 1
+ESM	1 PROPN 1
+ESPN	1 PROPN 1
+EU	1 PROPN 1
+EVO	1 PROPN 1
+EconomicCommunitiyofWestAfricanStates	1 PROPN 1
+Election	1 PROPN 1
+Engaeus	1 PROPN 1
+EnterpriseJavaBeans	1 PROPN 1
+F1	1 NOUN 1
+FA	2 NOUN 2
+FAX	2 VERB 1 NOUN 1
+FBC	1 PROPN 1
+FC	6 NOUN 6
+FCC	1 NOUN 1
+FE	1 PROPN 1
+FF	1 PROPN 1
+FM	3 NOUN 3
+FMTOWNS	1 NOUN 1
+FP	1 PROPN 1
+FPAJ	1 PROPN 1
+FR	1 NOUN 1
+FRIDAYNIGHT	1 PROPN 1
+FROMT	1 PROPN 1
+FW	1 PROPN 1
+FX	1 PROPN 1
+Facebook	1 PROPN 1
+FeelingHeart	1 PROPN 1
+Fi	4 PROPN 4
+Figurado	1 PROPN 1
+Fred	1 PROPN 1
+Fruits	1 PROPN 1
+GARO	1 PROPN 1
+GHQ	1 PROPN 1
+GI	1 PROPN 1
+GK	1 PROPN 1
+GL	2 PROPN 2
+GM	3 PROPN 3
+GMO	1 PROPN 1
+GODS	1 PROPN 1
+GOOD	4 PROPN 4
+GP	3 PROPN 3
+GPS	5 NOUN 5
+GPT	2 PROPN 2
+GPU	1 PROPN 1
+GR	1 PROPN 1
+GTCSpeed	1 PROPN 1
+GTD	1 PROPN 1
+GTSpeed	1 PROPN 1
+GalaxyTab	1 PROPN 1
+Geisberg	1 PROPN 1
+Git	1 PROPN 1
+Go	1 PROPN 1
+Good	2 PROPN 2
+GoogleAnalytics	2 PROPN 2
+Gordon	1 PROPN 1
+HA	1 NOUN 1
+HCMS	2 PROPN 2
+HD	1 PROPN 1
+HDCD	2 PROPN 2
+HDR	1 PROPN 1
+HEAT	2 PROPN 2
+HF	1 PROPN 1
+HIP	1 PROPN 1
+HLV	1 PROPN 1
+HOMOEOPATHYYES	1 PROPN 1
+HOUNDDOG	1 PROPN 1
+HP	9 PROPN 9
+HRC	1 PROPN 1
+HTML	1 NOUN 1
+HTTPProxy	1 PROPN 1
+Hannah	1 PROPN 1
+HappyTablet	1 PROPN 1
+Hatos	1 PROPN 1
+HerbertJ	1 PROPN 1
+Hinsa	1 PROPN 1
+HugoPratt	1 PROPN 1
+IBF	1 PROPN 1
+IBMPC	1 PROPN 1
+IBM社	1 PROPN 1
+IC	4 NOUN 4
+ICT	1 PROPN 1
+ID	2 NOUN 2
+II	5 PROPN 5
+IMS	2 NOUN 2
+IP	2 NOUN 2
+IPv	1 PROPN 1
+IRUHAKU	1 PROPN 1
+IS	1 PROPN 1
+ISO	2 PROPN 2
+ISS	2 PROPN 2
+ISU	1 PROPN 1
+IT	1 PROPN 1
+IT'SFRIDAY	1 PROPN 1
+IX	1 PROPN 1
+Ibanez	1 PROPN 1
+Insightful	1 PROPN 1
+InterFM	1 PROPN 1
+JA	1 PROPN 1
+JB	1 PROPN 1
+JBC	1 PROPN 1
+JBS	2 PROPN 2
+JOYX	1 PROPN 1
+JR	5 PROPN 5
+JR東日本	2 PROPN 2
+JR東海	1 PROPN 1
+JSAT	1 PROPN 1
+JSCPR	3 PROPN 3
+JamesP	1 PROPN 1
+Japan	1 PROPN 1
+Java	2 PROPN 2
+JavaEE	1 PROPN 1
+JohnBuscema	1 PROPN 1
+JuanJosé	1 PROPN 1
+Jリーグ	1 NOUN 1
+Jリーグカップ	1 NOUN 1
+K	12 NOUN 6 PROPN 6
+KBCBAND	1 PROPN 1
+KOF	1 PROPN 1
+KickStarter	1 PROPN 1
+KingsthorpeUpperSchool	1 PROPN 1
+L'Arc	1 PROPN 1
+L'OrateurduPeuple	1 PROPN 1
+L.E.D	1 PROPN 1
+LAW	1 PROPN 1
+LC	1 PROPN 1
+LGOn	1 PROPN 1
+LIP	1 PROPN 1
+LOVELIVES	1 PROPN 1
+LSI	1 NOUN 1
+LV	3 PROPN 3
+LZ	1 PROPN 1
+Labyrinth	1 PROPN 1
+Lantis	1 PROPN 1
+LasdeCaín	1 PROPN 1
+Leaf	1 PROPN 1
+LinkedIn	1 PROPN 1
+LotusLandStory	1 PROPN 1
+Lv	1 PROPN 1
+M1	2 NOUN 2
+MAMP	1 PROPN 1
+MB	1 PROPN 1
+MC	2 PROPN 2
+MDCT	1 PROPN 1
+METAFONT	1 PROPN 1
+MH	1 PROPN 1
+MHz	1 PROPN 1
+MITOLOY	1 PROPN 1
+MLB	1 PROPN 1
+MMORPG	1 PROPN 1
+MNP	1 PROPN 1
+MP	1 PROPN 1
+MR	2 PROPN 2
+MS	1 PROPN 1
+MSN	1 PROPN 1
+MT	1 PROPN 1
+MTB	1 PROPN 1
+MTV	1 PROPN 1
+MVCD	1 PROPN 1
+MacOSX	1 PROPN 1
+Macintosh	1 PROPN 1
+MacintoshII	1 PROPN 1
+Magajin	1 PROPN 1
+Mark	2 PROPN 2
+Marktplatz	1 PROPN 1
+MasterofEpic	1 PROPN 1
+Mi	1 PROPN 1
+MiG	1 PROPN 1
+MitsubishiRacing	1 PROPN 1
+MongoDB	1 PROPN 1
+MotoGP	1 PROPN 1
+MozillaJapan	1 PROPN 1
+MozillaThunderbird	1 PROPN 1
+MyGirl	1 PROPN 1
+NATO	1 PROPN 1
+NBOX	1 PROPN 1
+NEOGEO	1 PROPN 1
+NGC	1 PROPN 1
+NIGHTRANGER	1 PROPN 1
+NIS	1 PROPN 1
+NKVD	2 PROPN 2
+NON	1 PROPN 1
+NOT	1 PROPN 1
+NRF	1 PROPN 1
+NRJAPAN	1 PROPN 1
+NTTコミュニケーションズ	1 PROPN 1
+NTTコム	1 PROPN 1
+NTTドコモ	1 PROPN 1
+NY	2 PROPN 2
+News	1 PROPN 1
+NikeStadium	1 PROPN 1
+No	1 PROPN 1
+NorthamptonOldScoutsRFC	1 PROPN 1
+NoëlGallon	1 PROPN 1
+NuBus	1 PROPN 1
+OEM	1 NOUN 1
+OFDM	2 PROPN 2
+OGPU	1 PROPN 1
+OH	1 PROPN 1
+OK	1 PROPN 1
+OL	2 NOUN 2
+OMKB	1 PROPN 1
+ON	1 PROPN 1
+ORFEU	1 PROPN 1
+OSF	1 PROPN 1
+Odeo	1 PROPN 1
+Onemorething	1 PROPN 1
+OracleEBS	1 PROPN 1
+OriginalGarden	1 PROPN 1
+PA	1 PROPN 1
+PARTY	1 PROPN 1
+PC	7 NOUN 7
+PCAuthority	1 PROPN 1
+PHS	1 NOUN 1
+PI	1 NOUN 1
+PK	1 PROPN 1
+PMR	1 PROPN 1
+POP	1 PROPN 1
+PR	2 VERB 1 NOUN 1
+PS	1 PROPN 1
+PSV	1 PROPN 1
+PTC	1 PROPN 1
+PV	1 PROPN 1
+PZL	1 PROPN 1
+PaulKantner'sWoodenship	1 PROPN 1
+PaulO'Malley	1 PROPN 1
+Photoshop	1 PROPN 1
+PiTaPa	1 PROPN 1
+PlayStation	1 PROPN 1
+PopSister	1 PROPN 1
+Poulson	1 PROPN 1
+Project	1 PROPN 1
+QB	1 PROPN 1
+QFT	1 PROPN 1
+QR	2 PROPN 2
+RAW	1 PROPN 1
+RC	1 PROPN 1
+RD	1 PROPN 1
+RDR	1 PROPN 1
+RER	1 PROPN 1
+RF	1 PROPN 1
+RIKACO	1 PROPN 1
+RISC	1 NOUN 1
+RKB	1 PROPN 1
+RPF	1 PROPN 1
+RPG	1 NOUN 1
+RR	1 PROPN 1
+RSS	1 PROPN 1
+Ray	1 PROPN 1
+Rh+	1 NOUN 1
+RickDeesWeeklyTop	1 PROPN 1
+RomainGoyet	1 PROPN 1
+S&P	1 NOUN 1
+SAGEGROUP	1 PROPN 1
+SB	1 PROPN 1
+SC	1 NOUN 1
+SD	1 PROPN 1
+SDI	1 NOUN 1
+SE	1 PROPN 1
+SEIBU	1 PROPN 1
+SELECTC	1 PROPN 1
+SETI@home	1 PROPN 1
+SF	2 NOUN 2
+SG	1 PROPN 1
+SK	1 PROPN 1
+SL	2 NOUN 2
+SM	1 PROPN 1
+SMT	1 PROPN 1
+SNB	1 PROPN 1
+SOKAnet	1 PROPN 1
+SP	1 PROPN 1
+SPACEBATTLESHIP	1 PROPN 1
+SPDY	1 PROPN 1
+SPECIAL	1 PROPN 1
+SPI	1 NOUN 1
+SPORT	1 PROPN 1
+SPRING	1 PROPN 1
+SQL	1 NOUN 1
+SQLServer	1 PROPN 1
+SS	1 PROPN 1
+SSD	1 PROPN 1
+STUDIOLACHIC	1 PROPN 1
+SamuelGeisberg	1 PROPN 1
+Schwarzschild	1 PROPN 1
+ScienceFiction	1 PROPN 1
+SeaMonkeyProject	1 PROPN 1
+Seidio	1 PROPN 1
+Shady	1 PROPN 1
+Shredder	2 PROPN 2
+Siri	1 PROPN 1
+Slam	1 PROPN 1
+Socks	1 PROPN 1
+Sofinnva	1 PROPN 1
+Solaris	1 PROPN 1
+SonyRecords	1 PROPN 1
+Su	1 PROPN 1
+SuiteNovember	1 PROPN 1
+SuperAudioCD	1 PROPN 1
+SymbianOSS	1 PROPN 1
+Synergy	1 PROPN 1
+Sクラス	1 NOUN 1
+TAISYOU	1 PROPN 1
+TARGETfrontierJV	1 PROPN 1
+TASC	1 PROPN 1
+TBC	1 PROPN 1
+TBS	8 PROPN 8
+TC	1 PROPN 1
+TCP	1 PROPN 1
+TD	1 PROPN 1
+TEC	1 PROPN 1
+TF	1 PROPN 1
+TIMESLIP	1 PROPN 1
+TIPONDUO	1 PROPN 1
+TKO	1 PROPN 1
+TOKIO	1 PROPN 1
+TOKYO	2 PROPN 2
+TPP	1 PROPN 1
+TRPG	1 PROPN 1
+TV	10 NOUN 9 PROPN 1
+TVD	1 PROPN 1
+TX	1 PROPN 1
+TZ	2 PROPN 2
+TakamiyClassics	1 PROPN 1
+Tamaki	1 PROPN 1
+TechnicalDesignReport	1 PROPN 1
+TennisBorussiaBerlin	1 PROPN 1
+Teredo	2 PROPN 2
+TheCorporationoftheCityofSarnia	1 PROPN 1
+TheMagazineofFantasy	1 PROPN 1
+TheMan	1 PROPN 1
+ToHeart	1 PROPN 1
+TurboPascal	1 PROPN 1
+Twitter	1 PROPN 1
+Tシャツ	2 NOUN 2
+UFC	1 PROPN 1
+UK	1 PROPN 1
+UNIX	2 NOUN 2
+UNSCR	1 PROPN 1
+UP	3 PROPN 3
+UPS	1 PROPN 1
+UR	2 PROPN 2
+URL	4 NOUN 4
+US	1 PROPN 1
+UTC	1 PROPN 1
+UnitedMusicPublishersLtd	1 PROPN 1
+Ustream	1 PROPN 1
+VANDataLab	1 PROPN 1
+VERBAL	1 PROPN 1
+VIP	1 NOUN 1
+VL	1 PROPN 1
+VLCMediaPlayer	1 PROPN 1
+VOD	1 PROPN 1
+VS	3 PROPN 3
+VTOL	1 NOUN 1
+VolumeII	1 PROPN 1
+WAP	1 PROPN 1
+WBC	2 PROPN 2
+WEB	1 PROPN 1
+WEEKEND	2 PROPN 2
+WELJr	1 PROPN 1
+WH	1 NOUN 1
+WHITEOUT	1 PROPN 1
+WON	1 PROPN 1
+WORLDGP	1 PROPN 1
+WWF	1 PROPN 1
+WXGATFT	1 PROPN 1
+Web	6 PROPN 6
+WebSocket	1 PROPN 1
+Wi	3 PROPN 3
+Wikipedia	1 PROPN 1
+Windows	2 NOUN 2
+WindowsVista	1 PROPN 1
+WordStar	1 PROPN 1
+W杯	1 NOUN 1
+XAMPP	1 PROPN 1
+XI	1 PROPN 1
+XR	1 PROPN 1
+XX	1 PROPN 1
+Xainctes	1 PROPN 1
+Xperia	1 PROPN 1
+X線	2 NOUN 2
+X線望遠鏡	1 NOUN 1
+YFWP	1 PROPN 1
+You	1 PROPN 1
+ZDNet	1 PROPN 1
+ZEROAX	1 PROPN 1
+ZFN	1 PROPN 1
+ZO	2 PROPN 2
+ZZ	1 PROPN 1
+Zappa	1 PROPN 1
+Zeiger	1 PROPN 1
+Zeus	2 PROPN 2
+[	1 PUNCT 1
+\	1 SYM 1
+]	1 PUNCT 1
+^	10 PROPN 10
+_	25 NOUN 25
+a	1 PROPN 1
+aCHEMISTRYjoint	1 PROPN 1
+adam	1 PROPN 1
+amp	14 PROPN 14
+apbankfes	1 PROPN 1
+au	1 PROPN 1
+b	1 PROPN 1
+beyond	1 PROPN 1
+cali	1 PROPN 1
+cc	2 PROPN 2
+ch	5 PROPN 5
+chacha	1 PROPN 1
+chi	1 PROPN 1
+cm	12 PROPN 12
+cmCD	1 PROPN 1
+d	1 PROPN 1
+dB	1 PROPN 1
+e	4 PROPN 4
+en	1 PROPN 1
+eo	2 PROPN 2
+facbook	1 PROPN 1
+facebook	1 PROPN 1
+flo	1 PROPN 1
+fox	1 PROPN 1
+gamma	1 PROPN 1
+gari	1 PROPN 1
+goo	3 PROPN 3
+h	1 PROPN 1
+ha	1 PROPN 1
+http://en.wikipedia.org/wiki/Acute_intermittent_porphyria	1 PROPN 1
+i	2 PROPN 2
+iOS	1 PROPN 1
+iPad	1 PROPN 1
+iQ	1 PROPN 1
+in	1 PROPN 1
+info	1 PROPN 1
+interview	1 PROPN 1
+jpg	2 PROPN 2
+kHz	1 PROPN 1
+kawaracafe	1 PROPN 1
+kg	9 PROPN 9
+km	19 PROPN 19
+line	1 PROPN 1
+lt	2 PROPN 2
+m	22 PROPN 22
+mAh	1 PROPN 1
+mamp	1 PROPN 1
+mixi	2 PROPN 2
+mm	9 PROPN 9
+mol	1 PROPN 1
+n	1 PROPN 1
+nd	3 PROPN 3
+nine	1 PROPN 1
+onso	1 PROPN 1
+parejo	1 PROPN 1
+pocketgames	1 PROPN 1
+riceterraces	1 PROPN 1
+robots	1 PROPN 1
+rs	1 PROPN 1
+s	2 PROPN 2
+schiphol	1 PROPN 1
+shin	1 PROPN 1
+st	2 PROPN 2
+stStage	1 PROPN 1
+t	4 PROPN 4
+th	1 PROPN 1
+theBest	1 PROPN 1
+theCHEMISTRYjointalbum	1 PROPN 1
+thstyle	1 PROPN 1
+twitter	2 PROPN 2
+txt	1 PROPN 1
+voodoowedding	1 PROPN 1
+vs	1 PROPN 1
+withPK	1 PROPN 1
+workunit	1 PROPN 1
+x	2 PROPN 2
+yacc	1 PROPN 1
+yuzuru	1 PROPN 1
+|	2 SYM 2
+}	1 NOUN 1
+~	25 SYM 14 PART 11
+°	3 PROPN 3
+°C	4 NOUN 4
+×	2 NOUN 2
+ΔΣ	1 PROPN 1
+ΖΖ	1 PROPN 1
+α	1 PROPN 1
+μeV	1 PROPN 1
+μm	1 PROPN 1
+‐	1 SYM 1
+―	6 SYM 6
+“	272 PUNCT 272
+”	269 PUNCT 269
+”する	1 PUNCT_” 1
+”と	2 PUNCT 2
+”に	1 PUNCT_” 1
+※	2 SYM 2
+→	3 ADP 3
+≠	1 SYM 1
+○	2 NUM 2
+○○	3 NUM 3
+☆	2 PROPN 1 PUNCT 1
+♂	1 PROPN 1
+♪	7 PUNCT 7
+、	6208 PUNCT 6208
+、が	1 ADP_が 1
+、で	1 AUX_だ 1
+、と	9 ADP_と 9
+、という	8 ADP_という 8
+、といった	1 ADP_といった 1
+、など	1 ADP_など 1
+、の	1 PART_の 1
+、を	1 ADP_を 1
+。	6959 PUNCT 6951 NOUN 8
+々	6 PROPN 6
+《	4 PUNCT 4
+》	4 PUNCT 4
+「	710 PUNCT 704 NOUN 6
+「・・・・」	1 SYM 1
+」	702 PUNCT 702
+『	219 PUNCT 219
+』	217 SYM 216 PUNCT 1
+【	1 PUNCT 1
+】	1 NOUN 1
+〔	3 PUNCT 3
+〕	3 PUNCT 3
+〜	7 NOUN 7
+あ	1 VERB_ある 1
+あ、	1 CCONJ 1
+あい	4 NOUN 2 VERB_あう 1 AUX_あう 1
+あいにく	1 ADV 1
+あえぐ	1 VERB 1
+あえて	2 ADV 2
+あおぐ	1 VERB 1
+あおむけ	1 NOUN 1
+あおる	1 VERB 1
+あからさま	1 ADJ 1
+あがっ	1 VERB_あがる 1
+あき	1 VERB_あきる 1
+あきらめ	1 VERB_あきらめる 1
+あくまで	1 ADV 1
+あげ	6 AUX_あげる 3 VERB_あげる 3
+あげる	1 VERB 1
+あこがれ	1 NOUN 1
+あざ	1 NOUN 1
+あし	1 NOUN 1
+あしく	1 PROPN 1
+あしらっ	3 VERB_あしらう 3
+あたかも	1 ADV 1
+あたたかい	2 ADJ 2
+あたっ	1 VERB_あたる 1
+あたり	7 NOUN 7
+あたる	4 VERB 4
+あちこち	2 PRON 2
+あちら	1 PRON 1
+あっ	126 VERB_ある 105 AUX_ある 21
+あっさり	2 ADV 2
+あっという間に	2 ADV 2
+あて	2 VERB_あてる 2
+あと	15 NOUN 15
+あなた	10 PRON 10
+あの	8 ADJ 8
+あの手この手	1 NOUN 1
+あひる	1 NOUN 1
+あふれ	1 VERB_あふれる 1
+あふれる	2 VERB 2
+あぶれ	1 VERB_あぶれる 1
+あまり	28 ADV 19 VERB 5 NOUN 4
+あやかっ	1 VERB_あやかる 1
+あや子	1 PROPN 1
+あら	1 VERB_ある 1
+あらかじめ	1 ADV 1
+あらためて	1 ADV 1
+あらわ	2 VERB_あらわす 1 ADJ 1
+あらわれ	2 VERB_あらわれる 2
+あり	189 VERB_ある 160 AUX_ある 29 ***
+ありか	1 NOUN 1
+ありがたい	1 ADJ 1
+ありがとう	5 CCONJ 4 NOUN 1
+あり方	1 NOUN 1
+ある	552 VERB 457 AUX 95 ***
+あるいは	26 CCONJ 25 ADV 1
+あるまじき	2 ADJ 2
+ある程度	2 ADV 2
+あれ	16 VERB_ある 10 AUX_ある 4 PRON 2
+あわせ	3 VERB_あわせる 3
+あんまり	1 ADV 1
+い	801 AUX_いる 737 VERB_いる 64
+いい	54 ADJ 51 VERB_いう 3
+いう	119 VERB 119 ***
+いえ	8 VERB_いえる 8
+いえる	5 VERB 5
+いか	8 VERB_いく 5 NOUN 2 AUX_いく 1
+いかが	3 ADJ 3
+いかっ	1 VERB_いかる 1
+いかなる	1 ADJ 1
+いかに	2 ADV 2
+いかにも	1 ADV 1
+いかん	1 VERB 1
+いが	1 NOUN 1
+いがみ合う	1 VERB 1
+いき	15 AUX_いく 9 VERB_いきる 6
+いきなり	1 ADV 1
+いく	38 AUX 35 VERB 3
+いくつか	4 ADV 4
+いくぶん	1 NOUN 1
+いくら	4 NOUN 4
+いけ	8 AUX_いく 7 VERB_いける 1
+いける	1 VERB 1
+いこ	2 VERB_いく 1 AUX_いく 1
+いさ	1 PROPN 1
+いじくっ	1 VERB_いじくる 1
+いじめ	1 NOUN 1
+いずこ	1 NOUN 1
+いずれ	20 PRON 19 ADV 1
+いたし	6 VERB_いたす 4 AUX_する 2
+いたずら	1 ADJ 1
+いただ	7 AUX_いただく 7
+いただい	6 AUX_いただく 4 VERB_いただく 2
+いただき	16 AUX_いただく 10 VERB_いただく 5 NOUN 1
+いただく	4 AUX 2 VERB 2
+いただけ	3 VERB_いただける 2 AUX_いただく 1
+いたっ	1 VERB_いたる 1
+いため	2 VERB_いためる 2
+いたる	1 VERB 1
+いちいち	2 ADV 2
+いちご	1 NOUN 1
+いちばん	2 NOUN 2
+いっ	35 VERB_いう 20 AUX_いく 15
+いっしょ	2 NOUN 2
+いっせいに	1 ADV 1
+いっそ	1 ADV 1
+いっそう	1 ADV 1
+いったい	3 ADV 3
+いったん	1 ADV 1
+いっぱい	5 NOUN 4 ADV 1
+いつ	8 NOUN 8
+いつか	2 NOUN 2
+いつのまにか	1 ADV 1
+いつの間にか	1 ADV 1
+いつまで	2 ADV 2
+いつも	18 ADV 18
+いで	2 VERB_いでる 2
+いとま	1 NOUN 1
+いのまたむつみ	1 PROPN 1
+いぶかる	1 VERB 1
+いま	5 NOUN 5
+いまいち	2 ADJ 2
+いまだ	3 ADV 3
+いや	4 ADJ 3 CCONJ 1
+いやいや	1 ADV 1
+いやさ	1 VERB_いやす 1
+いよいよ	2 ADV 2
+いらっしゃい	1 VERB_いらっしゃる 1
+いらっしゃり	2 AUX_いらっしゃる 1 VERB_いらっしゃる 1
+いらっしゃる	1 AUX 1
+いる	1131 AUX 1089 VERB 42 ***
+いれ	2 AUX_いる 1 VERB_いれる 1
+いろいろ	7 ADV 5 ADJ 2
+いろいろと	1 ADV 1
+いろは	1 NOUN 1
+いわ	6 VERB_いう 6
+いんちき	1 NOUN 1
+う	112 AUX 112 ***
+うえ	4 NOUN 4
+うかが	1 VERB_うかがう 1
+うかがう	1 VERB 1
+うさが	1 PROPN 1
+うずらやおもちやたこ	1 PROPN 1
+うそ	1 NOUN 1
+うた	5 NOUN 5
+うたう	1 VERB 1
+うち	35 NOUN 34 ADJ 1
+うっ	1 VERB_うつ 1
+うっとしかったです	1 PROPN 1
+うどん	3 NOUN 3
+うまい	1 ADJ 1
+うまく	3 ADJ_うまい 3
+うめ	1 PROPN 1
+うる	2 AUX 2
+うるおい	1 VERB_うるおう 1
+うるさく	1 ADJ_うるさい 1
+うんざり	1 ADV 1
+え	18 AUX_*可能* 16 NOUN 2
+えい航	1 VERB 1
+えさ箱	1 NOUN 1
+えぞ	2 PROPN 2
+えて	1 ADV 1
+えみ	1 PROPN 1
+えら	1 NOUN 1
+える	17 AUX_*可能* 16 PROPN 1
+お	254 NOUN 251 PROPN 2 AUX_おく 1 ***
+おい	8 AUX_おく 3 VERB_おく 3 NOUN 2
+おいし	1 ADJ_おいしい 1
+おいしく	4 ADJ_おいしい 4
+おおきな	1 ADJ 1
+おおすみ	1 PROPN 1
+おおた	1 PROPN 1
+おおつた	2 PROPN 2
+おおよそ	1 ADV 1
+おおらか	1 ADJ 1
+おか	1 VERB_おく 1
+おかげ	7 NOUN 7
+おかしな	1 ADJ 1
+おき	5 AUX_おく 3 NOUN 1 VERB 1
+おく	3 AUX 3
+おくる	1 VERB 1
+おけ	1 AUX_おく 1
+おこない	1 VERB_おこなう 1
+おこなわ	1 VERB_おこなう 1
+おこら	1 VERB_おこる 1
+おこわ	1 NOUN 1
+おさげ	1 NOUN 1
+おしえ	1 VERB_おしえる 1
+おしとやかで	1 PROPN 1
+おしゃれ	3 ADJ 3
+おじ	1 VERB_おじる 1
+おじさん	4 NOUN 4
+おすすめ	6 NOUN 6
+おせっかい	1 ADJ 1
+おせわ	1 PROPN 1
+おせわになっているのですが	1 PROPN 1
+おそく	1 ADJ_おそい 1
+おそらく	6 ADV 6
+おそれ	1 NOUN 1
+おち	1 VERB_おちる 1
+おちぶれ	1 VERB_おちぶれる 1
+おぢばがえりひのきしんが	1 PROPN 1
+おっしゃっ	1 VERB_おっしゃる 1
+おとめ座	1 NOUN 1
+おとり	1 NOUN 1
+おなか	1 NOUN 1
+おに	2 PROPN 2
+おにいさん	1 PROPN 1
+おにぎり	2 NOUN 2
+おのずと	2 ADV 2
+おば	1 NOUN 1
+おばさん	2 NOUN 2
+おばーちゃん	1 NOUN 1
+おびき出さ	1 VERB_おびき出す 1
+おぼしき	2 PROPN 2
+おまけ	1 NOUN 1
+おまる	1 NOUN 1
+おめーら	1 PRON 1
+おも	3 ADJ 3
+おもい	2 VERB_おもう 2
+おもしろい	2 ADJ 2
+おもちゃ	1 NOUN 1
+おもっ	1 VERB_おもう 1
+おや	1 CCONJ 1
+およそ	3 PART 2 ADV 1
+および	41 CCONJ 41
+おら	20 AUX_おる 15 VERB_おる 5
+おり	164 AUX_おる 162 NOUN 1 VERB_おりる 1 ***
+おろか	1 ADJ 1
+おろし	1 VERB_おろす 1
+おサイフケータイ	1 NOUN 1
+お元気	1 ADJ 1
+お前	2 PRON 2
+お国	1 NOUN 1
+お好み焼き	1 NOUN 1
+お客さん	5 NOUN 5
+お家芸	1 NOUN 1
+お寺	2 NOUN 2
+お年寄り	2 NOUN 2
+お昼	3 NOUN 3
+お札	1 NOUN 1
+お歳暮	2 NOUN 2
+お母さん	1 NOUN 1
+お気に入り	7 NOUN 7
+お父さん	2 NOUN 2
+お知らせ	3 NOUN 3
+お腹	1 NOUN 1
+お茶	3 NOUN 2 VERB 1
+お通し	1 NOUN 1
+お金	8 NOUN 8
+か	260 PART 260 ***
+かい	1 VERB_かく 1
+かえ	3 VERB_かえる 3
+かえって	1 ADV 1
+かかっ	4 VERB_かかる 4
+かかり	3 VERB_かかる 3
+かかる	10 VERB 10
+かかわっ	1 VERB_かかわる 1
+かかわら	10 VERB_かかわる 10
+かかわる	1 VERB 1
+かき	3 VERB_かく 3
+かき分け	1 VERB_かき分ける 1
+かき回す	1 VERB 1
+かき氷	1 NOUN 1
+かく	1 VERB 1
+かぐら	1 NOUN 1
+かけ	27 VERB_かける 24 AUX_かける 3
+かけがえのない	1 ADJ 1
+かけし	1 VERB_かける 1
+かける	12 VERB 6 AUX 6
+かさ	1 AUX_*使役* 1
+かさぶた	1 NOUN 1
+かざっ	1 VERB_かざる 1
+かし	1 NOUN 1
+かす	1 NOUN 1
+かぜ	1 NOUN 1
+かた	1 NOUN 1
+かたち	1 NOUN 1
+かっちゃ	1 PROPN 1
+かつ	15 NOUN 8 CCONJ 7
+かつて	26 ADV 26
+かどうか	12 PART_か 12
+かな	3 NOUN 3
+かない	1 VERB_かなう 1
+かなり	41 NOUN 39 ADV 2
+かなわ	1 VERB_かなう 1
+かに	1 NOUN 1
+かね	2 AUX_かねる 2
+かねて	1 ADV 1
+かはひらこ	1 PROPN 1
+かぶせる	1 VERB 1
+かぶっ	2 VERB_かぶる 2
+かぶり	1 VERB_かぶる 1
+かまわ	2 VERB_かまう 2
+かみ	4 NOUN 2 VERB_かむ 2
+かむ	1 VERB 1
+かもしれ	18 AUX_かもしれる 18
+かもめ	1 NOUN 1
+かも知れ	3 AUX_かも知れる 3
+から	912 ADP 860 SCONJ 52 ***
+からこそ	1 SCONJ 1
+からま	1 VERB_からまる 1
+からめる	1 VERB 1
+から揚げ	1 NOUN 1
+かり	1 VERB_かりる 1
+かれ	4 PRON 2 VERB_かれる 2
+かれこれ	1 ADV 1
+かわいい	5 ADJ 5
+かわいく	2 ADJ_かわいい 2
+かわいらしく	1 ADJ_かわいらしい 1
+かわり	1 NOUN 1
+かわる	1 VERB 1
+かをり	1 PROPN 1
+か否か	3 PART_か 3
+か国	1 NOUN 1
+か所	1 NOUN 1
+か月	5 NOUN 5
+が	4267 ADP 3620 SCONJ 647 ***
+が、	2 CCONJ 2
+がかり	1 NOUN 1
+がさつ	1 ADJ 1
+がたい	2 AUX 2
+がたく	1 AUX_がたい 1
+がち	1 AUX_がちだ 1
+がちで	1 AUX_がちだ 1
+がちな	1 AUX_がちだ 1
+がちゃおこわ	1 PROPN 1
+がっ	1 AUX_がる 1
+がる	1 AUX 1
+がん	2 NOUN 2
+がんばる	2 VERB 2
+き	123 AUX_来る 109 VERB_来る 14 ***
+きい	1 VERB_きく 1
+きかせ	1 VERB_きかせる 1
+きちっと	1 ADV 1
+きちんと	6 ADV 6
+きっ	1 AUX_きる 1
+きっかけ	9 NOUN 9
+きっちり	1 ADV 1
+きっと	3 ADV 3
+きつい	1 ADJ 1
+きなこ	1 NOUN 1
+きょう	14 NOUN 14
+きり	1 AUX_きる 1
+きる	3 VERB 3
+きれい	8 ADJ 8
+きわめて	2 ADV 2
+ぎりぎり	1 ADV 1
+く	7 AUX_だ 4 PROPN 3
+くぐり	1 VERB_くぐる 1
+くぐる	1 VERB 1
+くした	1 PROPN 1
+くせ	3 NOUN 3
+ください	27 AUX_くださる 15 VERB_くださる 12
+くださっ	4 VERB_くださる 2 AUX_くださる 2
+くださませ	1 PROPN 1
+くださり	1 AUX_くださる 1
+くださる	3 AUX 3
+くだり	2 NOUN 2
+くっ	1 VERB_くう 1
+くっきり	1 ADV 1
+くっつけ	1 VERB_くっつける 1
+くときは	1 PROPN 1
+くなり	1 PROPN 1
+くねら	1 VERB_くねる 1
+くむ	1 VERB 1
+くめ	1 VERB_くむ 1
+くらい	22 ADP 19 NOUN 3
+くらまし	1 VERB_くらます 1
+くられるんじゃないかと	1 PROPN 1
+くり	1 NOUN 1
+くる	22 AUX_来る 21 VERB_来る 1
+くれ	40 AUX_くれる 39 VERB_くれる 1
+くれぐれ	1 ADV 1
+くれる	26 AUX 25 VERB 1
+くん	10 NOUN 10
+ぐいぐい	1 ADV 1
+ぐっと	1 ADV 1
+ぐらい	2 ADP 2
+け	25 AUX_*可能* 25
+けいこ	1 NOUN 1
+けじめ	1 NOUN 1
+けっこう	1 ADJ 1
+けど	30 SCONJ 30
+けに	1 PROPN 1
+けやき	1 NOUN 1
+ける	23 AUX_*可能* 23
+けれど	5 SCONJ 5
+けん	1 PROPN 1
+けんか	1 NOUN 1
+けん制	1 VERB 1
+げ	4 AUX_げだ 4
+げいこ	1 NOUN 1
+げく	1 PROPN 1
+げんかになったりした	1 PROPN 1
+げんなりさ	1 VERB_げんなりする 1
+こ	7 AUX_来る 5 VERB_来る 2
+こい	1 AUX_来る 1
+こう	24 ADV 24
+こうした	14 ADJ 14
+こうして	1 CCONJ 1
+こうじ	1 VERB_こうじる 1
+こえ	1 VERB_こえる 1
+こえる	1 VERB 1
+こぎつけ	1 VERB_こぎつける 1
+こぎれ	1 VERB_こぎる 1
+こけら落し	1 NOUN 1
+こげ	1 VERB_こげる 1
+ここ	76 PRON 76
+こさ	2 VERB_こす 2
+こそ	12 ADP 12
+こだわっ	1 VERB_こだわる 1
+こだわり	6 NOUN 5 VERB_こだわる 1
+こちら	32 PRON 32
+こっそり	2 ADV 2
+こっち	2 NOUN 2
+こってり	3 ADV 3
+こと	766 NOUN 764 VERB 2 ***
+ことば	1 NOUN 1
+こども	2 NOUN 2
+こども面白館	1 PROPN 1
+こなし	2 VERB_こなす 2
+こなす	2 VERB 2
+この	353 ADJ 353 ***
+このほど	1 NOUN 1
+このよう	20 ADJ 20
+この世	4 NOUN 4
+こま	1 AUX_こむ 1
+こまめ	1 ADJ 1
+こみあげ	1 VERB_こみあげる 1
+こむ	1 AUX 1
+こめ	2 VERB_こめる 2
+これ	189 PRON 189 ***
+これら	38 PRON 38
+ころ	11 NOUN 11
+ころす	1 VERB 1
+こん	2 AUX_こむ 2
+こんど	1 NOUN 1
+こんな	12 ADJ 11 ADV 1
+こんなに	1 ADV 1
+こんぶ	1 NOUN 1
+ご	33 NOUN 33
+ごく	5 ADV 5
+ござい	5 VERB_ござる 4 AUX_ございる 1
+ごし	1 PROPN 1
+ごっこ	1 NOUN 1
+ごと	21 NOUN 21
+ごはん	1 NOUN 1
+ごみ	2 NOUN 2
+ごみ箱	1 NOUN 1
+ごめんなさい	1 CCONJ 1
+ごろ	9 NOUN 9
+ごん	1 PROPN 1
+ご覧いただ	1 VERB_ご覧いただく 1
+ご覧ください	1 VERB_ご覧くださる 1
+ご覧下さい	1 VERB_ご覧下さる 1
+ご覧頂	1 VERB_ご覧頂く 1
+ご飯	4 NOUN 4
+さ	1129 AUX_する 996 VERB_する 90 PART 43 ***
+さいたま	2 PROPN 2
+さえ	8 ADP 8
+さえずり	1 NOUN 1
+さかのぼる	1 VERB 1
+さくら	1 PROPN 1
+さける	1 VERB 1
+ささげ	1 VERB_ささげる 1
+さしあたっ	1 VERB_さしあたる 1
+さすが	2 ADV 2
+させ	10 AUX_させる 10
+させる	2 AUX 2
+さぞかし	1 ADV 1
+さっき	1 ADV 1
+さっと	1 ADV 1
+さっぱり	1 ADV 1
+さつき	1 PROPN 1
+さつまいも	1 NOUN 1
+さて	2 CCONJ 2
+さておき	1 VERB_さておく 1
+さとなお	1 PROPN 1
+さながら	1 ADV 1
+さび	3 VERB_さびる 2 NOUN 1
+さほど	2 ADV 2
+さま	6 NOUN 6
+さまざま	7 ADJ 7
+さまよっ	1 VERB_さまよう 1
+さめ	1 VERB_さめる 1
+さも	1 ADV 1
+さやか	1 PROPN 1
+さら	3 NOUN 3
+さらさら	2 ADJ 2
+さらに	49 ADV 49
+さらり	1 ADV 1
+さらわ	1 VERB_さらう 1
+さりげなく	1 ADJ_さりげない 1
+さわやか	2 ADJ 2
+さん	115 NOUN 114 VERB 1 ***
+さんわ	1 PROPN 1
+ざる	1 NOUN 1
+ざるをえ	3 AUX_ざるをえる 3
+ざるを得	4 AUX_ざるを得る 4
+ざわつい	1 VERB_ざわつく 1
+し	2976 AUX_する 2198 VERB_する 742 SCONJ 36 ***
+しか	43 ADP 43
+しかし	114 CCONJ 113 ADP_しか 1 ***
+しかしながら	4 CCONJ 4
+しかた	1 NOUN 1
+しかっ	1 VERB_しかる 1
+しかも	8 CCONJ 8
+しきたり	1 NOUN 1
+しくみ	2 NOUN 2
+しげ	1 PROPN 1
+しず	1 PROPN 1
+したがって	2 CCONJ 2
+しっかり	11 ADV 11
+しっとり	1 ADV 1
+しても	1 VERB_してもる 1
+しなやか	1 ADJ 1
+しのぎ	1 NOUN 1
+しばしば	11 ADV 11
+しばらく	10 ADV 10
+しほり	1 PROPN 1
+しまい	29 AUX_しまう 25 VERB_しまう 3 NOUN 1
+しまう	38 AUX 38
+しまえ	1 AUX_しまう 1
+しまっ	28 AUX_しまう 27 VERB_しまう 1
+しみ	1 NOUN 1
+しゃきしゃき	1 ADV 1
+しゃぶしゃぶ	4 NOUN 3 VERB 1
+しゃべる	1 VERB 1
+しょっちゅう	2 ADV 2
+しら	2 NOUN 2
+しん	2 NOUN 2
+じっと	1 ADV 1
+じつにうまくいきましてね	1 PROPN 1
+じつは	1 PROPN 1
+じゃ	18 ADP 11 AUX_だ 7
+じゃあ	2 CCONJ 1 ADP 1
+じゃんけん	1 NOUN 1
+す	12 AUX_する 10 PROPN 1 VERB_する 1
+すい	1 VERB_すく 1
+すかいらーく	1 PROPN 1
+すき	1 VERB_すく 1
+すき家	1 PROPN 1
+すき焼き	1 NOUN 1
+すぎ	12 AUX_すぎる 9 VERB_すぎる 2 NOUN 1
+すぎる	6 AUX 4 VERB 2
+すく	1 VERB 1
+すぐ	31 ADJ 25 ADV 6
+すぐれ	2 VERB_すぐれる 2
+すこし	1 ADV 1
+すごい	3 ADJ 3
+すごく	11 ADJ_すごい 11
+すし	1 NOUN 1
+すすき	1 NOUN 1
+すすめ	1 VERB_すすめる 1
+すすめし	1 VERB_すすめる 1
+すったり	1 PROPN 1
+すっとばし	1 VERB_すっとばす 1
+すでに	13 ADV 13
+すなわち	6 CCONJ 6
+すね	2 NOUN 2
+すばやく	1 ADJ_すばやい 1
+すばらし	1 ADJ_すばらしい 1
+すべ	1 VERB_すべる 1
+すべて	25 NOUN 24 ADV 1
+すみれ	1 PROPN 1
+すむ	2 VERB 2
+すら	10 ADP 10
+すり替え	2 VERB_すり替える 1 NOUN 1
+する	1051 AUX 925 VERB 126 ***
+すると	2 CCONJ 2
+すれ	12 VERB_する 8 AUX_する 4
+すん	1 VERB_すむ 1
+ず	150 AUX_ない 149 PROPN 1 ***
+ずいぶん	2 ADJ 1 ADV 1
+ずっと	5 ADV 5
+ずつ	12 ADP 10 NOUN 2
+ずば抜け	1 VERB_ずば抜ける 1
+ずれ	1 NOUN 1
+せ	137 AUX_せる 134 VERB_せる 3 ***
+せい	4 NOUN 4
+せっかく	2 ADV 2
+せよ	1 VERB_する 1
+せらるべく	1 PROPN 1
+せり	1 NOUN 1
+せる	62 AUX 62
+ぜひ	9 ADV 9
+そう	31 ADV 21 AUX_そうだ 10
+そうした	1 ADJ 1
+そうそう	1 ADV 1
+そうだ	15 AUX 15
+そうだっ	1 AUX_そうだ 1
+そうで	5 AUX_そうだ 5
+そうです	14 AUX_そうだ 14
+そうな	5 AUX_そうだ 5
+そうなら	1 AUX_そうだ 1
+そうに	2 AUX_そうだ 2
+そこ	34 PRON 33 NOUN 1
+そこそこ	2 ADV 2
+そごう	1 PROPN 1
+そして	45 CCONJ 45
+そそのかさ	1 VERB_そそのかす 1
+そそのかし	1 VERB_そそのかす 1
+そちら	1 PRON 1
+そっ	1 VERB_そう 1
+その	347 ADJ 347 ***
+そのうち	3 NOUN 3
+そのもの	8 NOUN 8
+そのよう	9 ADJ 9
+その他	9 PRON 8 NOUN 1
+その後	47 NOUN 47
+その日	5 NOUN 5
+その時	1 NOUN 1
+その時点	2 NOUN 2
+そば	2 NOUN 2
+そばつゆ	1 NOUN 1
+そば屋	1 NOUN 1
+そびえる	1 VERB 1
+そぼろ	1 NOUN 1
+そもそも	3 NOUN 3
+そらあ	1 PROPN 1
+それ	120 PRON 120 ***
+それぞれ	34 ADV 20 PRON 14
+それだけに	1 CCONJ 1
+それに	6 CCONJ 6
+それら	9 PRON 9
+それ程	2 ADV 2
+そろっ	3 VERB_そろう 3
+そんな	21 ADJ 21
+そんなに	2 ADV 2
+ぞ	2 PART 2
+た	4525 AUX 4523 ***
+たい	70 AUX 69 VERB_たく 1
+たいてい	1 ADV 1
+たいです	7 AUX_たい 7
+たかっ	2 AUX_たい 2
+たかれ	1 VERB_たかる 1
+たが	1 NOUN 1
+たがっ	1 AUX_たい 1
+たく	27 AUX_たい 27
+たくさん	22 ADJ 16 NOUN 6
+たけし	1 PROPN 1
+たすかり	1 VERB_たすかる 1
+たたえ	1 VERB_たたえる 1
+たたら	1 NOUN 1
+ただ	31 CCONJ 29 NOUN 2
+ただし	28 CCONJ 28
+ただし書き	1 NOUN 1
+ただす	1 VERB 1
+たち	77 NOUN 77
+たちまち	1 ADV 1
+たっ	5 VERB_たつ 5
+たった	1 ADV 1
+たって	1 ADV 1
+たっぷり	2 ADJ 2
+たて	4 VERB_たてる 4
+たとえ	1 ADV 1
+たとえば	8 ADV 8
+たとえ話	1 NOUN 1
+たどり	2 VERB_たどる 2
+たどりつ	1 VERB_たどりつく 1
+たのし	1 VERB_たのしむ 1
+たばこ	1 NOUN 1
+たびたび	4 ADV 4
+たぶらかし	1 VERB_たぶらかす 1
+たぶん	2 ADV 2
+たべ	2 VERB_たべる 2
+たま	5 ADV 3 NOUN 2
+たまたま	4 ADV 4
+たまらない	1 ADJ 1
+たまらなく	1 ADJ_たまらない 1
+たまり	2 VERB_たまる 2
+たまわっ	1 VERB_たまわる 1
+ため	289 SCONJ 196 NOUN 93 ***
+ためらい	1 NOUN 1
+たも	1 NOUN 1
+たら	47 AUX 45 NOUN 2
+たり	73 SCONJ 71 VERB_たりる 2
+たる	1 PROPN 1
+たれ	1 VERB_たれる 1
+たん	2 NOUN 2
+だ	278 AUX 278 ***
+だいたい	1 ADV 1
+だいぶ	2 ADV 2
+だから	3 CCONJ 3
+だが	18 CCONJ 18
+だけ	113 ADP 113 ***
+だけど	1 CCONJ 1
+だこ	1 PROPN 1
+だし	5 AUX_だす 2 NOUN 2 VERB_だす 1
+だっ	160 AUX_だ 160 ***
+だの	2 ADP 2
+だまさ	2 VERB_だます 2
+だめだ	1 AUX 1
+だら	2 AUX_たら 2
+だり	2 SCONJ_たり 2
+だろ	24 AUX_だ 24
+ち	1 PROPN 1
+ちぎり	1 VERB_ちぎる 1
+ちた	1 PROPN 1
+ちっちゃなお	1 PROPN 1
+ちっと	1 ADV 1
+ちなみ	1 VERB_ちなむ 1
+ちなみに	13 CCONJ 13
+ちなん	6 VERB_ちなむ 6
+ちび	1 VERB_ちびる 1
+ちほの	1 PROPN 1
+ちゃい	8 AUX_ちゃう 8
+ちゃう	2 AUX 2
+ちゃっ	1 AUX_ちゃう 1
+ちゃん	13 NOUN 13
+ちゃんと	5 ADV 5
+ちゃんぽん	1 NOUN 1
+ちょい	2 PROPN 2
+ちょいと	1 PROPN 1
+ちょうど	2 ADV 2
+ちょこちょこ	1 ADV 1
+ちょっと	11 ADV 11
+ちらほら	1 ADV 1
+ちーやん	1 PROPN 1
+っけが	1 PROPN 1
+って	22 ADP 22
+っぱく	1 PROPN 1
+っぷりをみせている	1 PROPN 1
+っぽい	1 AUX 1
+っぽく	2 AUX_っぽい 2
+っ子	1 NOUN 1
+つ	115 NOUN 96 VERB_つく 19 ***
+つい	26 VERB_つく 20 ADV 5 NOUN 1
+ついてまわり	1 VERB_ついてまわる 1
+ついで	2 CCONJ 1 NOUN 1
+ついに	7 ADV 7
+つか	3 VERB_つく 3
+つかえる	1 VERB 1
+つかっ	1 VERB_つかう 1
+つかみ	2 VERB_つかむ 1 NOUN 1
+つき	11 VERB_つく 9 NOUN 2
+つぎつぎ	1 ADV 1
+つく	3 VERB 3
+つくさ	1 VERB_つくす 1
+つくら	1 VERB_つくる 1
+つくり	2 NOUN 2
+つくり出し	1 VERB_つくり出す 1
+つくる	4 VERB 4
+つけ	6 VERB_つく 5 NOUN 1
+つけ麺	2 NOUN 2
+つこ	1 VERB_つく 1
+つっけんどん	1 ADJ 1
+つつ	18 SCONJ 18
+つづけ	2 VERB_つづける 1 AUX_つづける 1
+つづら	1 VERB_つづる 1
+つとめ	1 VERB_つとめる 1
+つとめる	1 VERB 1
+つながり	2 NOUN 2
+つながる	3 VERB 3
+つなぎ	2 NOUN 1 VERB_つなぐ 1
+つなげ	2 VERB_つなげる 2
+つに	1 PROPN 1
+つば	1 NOUN 1
+つぶさに	1 ADV 1
+つぶし	1 NOUN 1
+つぶやき	1 NOUN 1
+つま	1 NOUN 1
+つまっ	1 VERB_つまる 1
+つまみ	1 NOUN 1
+つまらない	1 ADJ 1
+つまり	9 ADV 9
+つまん	1 VERB_つまむ 1
+つもり	4 NOUN 4
+つよい	1 ADJ 1
+つらい	1 ADJ 1
+つる	1 NOUN 1
+つれ	1 VERB_つれる 1
+つん	1 VERB_つむ 1
+づいたので	1 PROPN 1
+づかい	1 PROPN 1
+づかいは	1 PROPN 1
+づくしでどれも	1 PROPN 1
+づくり	3 NOUN 3
+づけを	1 PROPN 1
+づめることでも	1 PROPN 1
+づらい	2 AUX 2
+づらく	1 AUX_づらい 1
+づれ	1 NOUN 1
+て	4021 SCONJ 4017 ***
+てこ	1 NOUN 1
+てしまう	1 PROPN 1
+てる	2 PROPN 2
+てんとう虫	2 NOUN 2
+てんびん	1 NOUN 1
+で	2972 ADP 2419 AUX_だ 411 SCONJ_て 128 CCONJ 8 VERB_でる 6 ***
+であっ	94 AUX_だ 94 ***
+であり	93 AUX_だ 93 ***
+である	404 AUX_だ 404 ***
+であれ	8 AUX_だ 8
+であろ	5 AUX_だ 5
+でき	121 AUX_できる 63 VERB_できる 58
+できる	122 AUX 66 VERB 56
+できるだけ	1 ADV 1
+できれ	1 VERB_できる 1
+でし	89 AUX_だ 89 ***
+でした	21 AUX 21
+でしょ	38 AUX_だ 38
+です	475 AUX_だ 475 ***
+ですね	6 AUX 6
+では	42 AUX_だ 36 CCONJ 6
+でも	41 AUX_だ 29 CCONJ 12
+でる	2 VERB 2
+でん粉	1 NOUN 1
+と	3187 ADP 2729 SCONJ 458 ***
+とい	1 NOUN 1
+という	236 ADP 236 ***
+というのも	1 CCONJ 1
+といった	28 ADP 28
+とうとう	1 ADV 1
+とおり	9 NOUN 9
+とか	21 ADP 21
+とき	49 NOUN 49
+とくしま	1 PROPN 1
+とくだんどこかの	1 PROPN 1
+とくに	1 ADV 1
+とこ	5 NOUN 5
+とことん	1 ADV 1
+ところ	43 NOUN 43
+ところが	9 CCONJ 8 SCONJ 1
+ところで	1 CCONJ 1
+とし	2 NOUN 2
+とそ	5 NOUN 5
+とっ	6 VERB_とる 6
+とっても	6 ADV 6
+とてつもない	1 ADJ 1
+とても	71 ADV 68 ADP 3
+とともに	35 PART 35
+とどまっ	1 VERB_とどまる 1
+とどまり	3 VERB_とどまる 3
+とどまる	3 VERB 3
+とにかく	8 ADV 8
+とはいっても	1 CCONJ 1
+とまる	1 VERB 1
+とも	28 NOUN 26 SCONJ 1 PROPN 1
+ともかく	1 ADV 1
+ともなう	1 VERB 1
+ともに	2 ADV 2
+とら	3 VERB_とる 3
+とらえる	1 VERB 1
+とり	3 VERB_とる 3
+とりあえず	1 ADV 1
+とりつか	1 VERB_とりつく 1
+とりつけ	1 VERB_とりつける 1
+とりわけ	3 ADV 3
+とる	2 VERB 2
+とれ	5 VERB_とれる 5
+とれる	1 VERB 1
+とろ	1 VERB_とる 1
+とんでもない	2 ADJ 2
+と共に	34 PART_とともに 34
+どう	16 ADV 16
+どうか	3 ADV 3
+どうして	2 ADV 2
+どうしても	2 ADV 2
+どうしようもない	1 ADJ 1
+どうぞ	3 ADV 3
+どうにか	1 ADV 1
+どうやら	3 ADV 3
+どおり	4 NOUN 4
+どくろ	1 NOUN 1
+どこ	17 PRON 17
+どころか	2 ADP 2
+どころが	1 PROPN 1
+どちら	11 PRON 11
+どの	12 ADJ 12
+どのよう	7 ADJ 7
+ども	1 SCONJ 1
+どれ	12 PRON 12
+どん	1 NOUN 1
+どんどん	1 ADV 1
+どんな	8 ADJ 8
+どんなに	1 ADV 1
+な	785 AUX_だ 761 PART 21 VERB_なる 3 ***
+なぁ	2 PART 2
+なあ	1 PART 1
+ない	597 AUX 482 ADJ 115 ***
+ないがしろ	1 ADJ 1
+ないしは	1 CCONJ 1
+なお	47 CCONJ 35 ADV 11 PROPN 1
+なおさら	1 ADV 1
+なか	12 NOUN 12
+なかっ	121 AUX_ない 99 ADJ_ない 22 ***
+なかなか	11 ADV 11
+ながく	1 PROPN 1
+ながら	64 SCONJ 64
+なき	1 ADJ_ない 1
+なきゃ	2 AUX_ない 2
+なく	162 AUX_ない 111 ADJ_ない 51 ***
+なくなら	1 VERB_なくなる 1
+なくなり	1 VERB_なくなる 1
+なくなる	3 VERB 3
+なぐさめ	1 VERB_なぐさめる 1
+なけれ	12 AUX_ない 9 ADJ_ない 3
+なければ	12 AUX 12
+なさ	11 VERB_なす 9 ADJ_ない 1 AUX_なさる 1
+なさい	2 AUX_なさる 2
+なされ	1 AUX_なさる 1
+なし	10 VERB_なす 5 ADJ_ない 3 NOUN 2
+なじ	1 VERB_なじむ 1
+なじま	1 VERB_なじむ 1
+なじみ	1 NOUN 1
+なす	3 VERB 3
+なすりつけ	1 VERB_なすりつける 1
+なぜ	12 ADV 12
+なた	1 NOUN 1
+なだぎと	1 PROPN 1
+なだらか	1 ADJ 1
+なっ	442 VERB_なる 343 AUX_なる 99 ***
+なでしこ	2 NOUN 2
+なで下ろし	1 VERB_なで下ろす 1
+など	492 ADP 488 ADV 4 ***
+なに	2 NOUN 2
+なにか	2 ADV 2
+なので	1 CCONJ 1
+なのに	1 CCONJ 1
+なべ	1 NOUN 1
+なら	69 AUX 55 VERB_なる 14
+ならい	1 VERB_ならう 1
+ならでは	4 NOUN 4
+ならびに	1 CCONJ 1
+なり	140 VERB_なる 98 AUX_なる 35 ADP 7
+なる	223 VERB 169 AUX 54 ***
+なれ	4 VERB_なる 4
+なろ	1 VERB_なる 1
+なんか	6 NOUN 4 ADP 2
+なんだか	2 ADV 2
+なんて	3 ADP_と 2 ADV 1
+なんと	1 ADV 1
+なんとか	2 ADV 2
+なんとなく	1 ADV 1
+なんとも	1 ADV 1
+なー	2 PART 2
+に	5313 ADP 4746 AUX_だ 523 PART 30 SCONJ_て 14 ***
+にあたって	2 ADP_に当たって 2
+にあたり	2 ADP_に当たり 2
+にあたる	1 ADP 1
+において	61 PART 61
+における	37 PART 37
+にかけ	1 ADP 1
+にかけて	20 ADP 20
+にかんする	3 ADP 3
+にぎやか	1 ADJ 1
+にぎり	1 VERB_にぎる 1
+にぎわ	1 VERB_にぎわす 1
+にぎわい	1 NOUN 1
+にぎわう	1 VERB 1
+にくい	8 AUX 8
+にくく	1 AUX_にくい 1
+にしきの	1 PROPN 1
+にたいして	1 ADP_に対して 1
+につい	1 VERB_につく 1
+について	136 ADP 136 ***
+につき	1 VERB_につく 1
+につれ	3 ADP 3
+につれて	2 ADP_につれ 2
+にて	21 ADP 21
+にとって	31 PART 31
+にまつわる	3 PART 3
+にもかかわらず	2 CCONJ 2
+によって	122 ADP 122 ***
+により	90 ADP 90 ***
+による	115 ADP 115 ***
+にらみ	1 VERB_にらむ 1
+に因る	1 ADP 1
+に対し	28 ADP 28
+に対して	82 ADP 82
+に対する	34 ADP 34
+に当たって	3 ADP 3
+に当たり	1 ADP 1
+に当たる	1 ADP 1
+に従い	1 ADP 1
+に従って	1 ADP 1
+に於いて	8 PART 8
+に於ける	1 PART 1
+に関して	21 ADP 21
+に関する	21 ADP 21
+に際して	2 ADP 2
+ぬ	4 AUX_ない 4
+ぬた	2 NOUN 2
+ぬっ	1 VERB_ぬう 1
+ね	38 PART 30 NOUN 7 AUX 1
+ねえ	1 PART 1
+ねる	1 VERB 1
+の	8244 ADP 7215 PART 970 AUX_だ 59 ***
+のこす	1 VERB 1
+のぞく	2 VERB 2
+のぞけ	1 VERB_のぞく 1
+のぞみ	1 PROPN 1
+のち	3 NOUN 2 PROPN 1
+のちに	1 ADV 1
+のっ	4 VERB_のる 4
+のづたけし	1 PROPN 1
+ので	229 SCONJ 229 ***
+のど自慢	1 NOUN 1
+ののしっ	1 VERB_ののしる 1
+のび	1 VERB_のびる 1
+のぼっ	1 VERB_のぼる 1
+のぼり	1 VERB_のぼる 1
+のみ	49 ADP 49
+のよ	1 PART 1
+のり	1 NOUN 1
+のろ	2 NOUN 2
+のろけ	1 VERB_のろける 1
+のんでから	1 PROPN 1
+のんびり	1 NOUN 1
+は	4824 ADP 4824 ***
+はいえ	3 ADP_はい 3
+はいすくーる	1 NOUN 1
+はかどり	1 VERB_はかどる 1
+はがれ	1 VERB_はがれる 1
+はく製	1 NOUN 1
+はぐれ	1 VERB_はぐれる 1
+はさん	1 VERB_はさむ 1
+はし	2 ADP_は 2
+はしご	1 NOUN 1
+はじき	1 VERB_はじく 1
+はじめ	14 ADP 7 VERB_はじめる 3 NOUN 3 AUX_はじめる 1
+はず	10 NOUN 10
+はずす	1 VERB 1
+はせ	1 VERB_はせる 1
+はぜ	1 VERB_はぜる 1
+はっきり	6 ADV 6
+はっきりさ	1 VERB_はっきりする 1
+はっきりと	1 ADV 1
+はつ	1 PROPN 1
+はつい	2 PROPN 2
+はな子	1 PROPN 1
+はね	2 VERB_はねる 2
+はね返し	1 VERB_はね返す 1
+はまっ	3 VERB_はまる 3
+はみ出	1 VERB_はみ出る 1
+はめ	1 VERB_はめる 1
+はやっ	1 VERB_はやる 1
+はやて	1 NOUN 1
+はり	1 NOUN 1
+はるか	7 ADJ 5 ADV 2
+はんにゃ	1 PROPN 1
+ば	117 SCONJ 113 NOUN 4 ***
+ばかり	19 ADP 19
+ばっかで	1 PROPN 1
+ばっちり	2 ADV 2
+ばつ	1 NOUN 1
+ばら	2 NOUN 2
+ばらまい	1 VERB_ばらまく 1
+ばん	1 PROPN 1
+ばーば	1 NOUN 1
+ぱち	1 PROPN 1
+ぱんがの	1 PROPN 1
+ひいては	2 ADV 2
+ひかえ	1 VERB_ひかえる 1
+ひかえる	1 VERB 1
+ひかり	1 PROPN 1
+ひじ	1 NOUN 1
+ひたすら	2 ADV 2
+ひっぱっ	1 VERB_ひっぱる 1
+ひと	3 NOUN 3
+ひところ	1 NOUN 1
+ひとつ	18 NOUN 17 ADV 1
+ひとり	3 NOUN 3
+ひどい	4 ADJ 4
+ひどく	3 ADJ_ひどい 3
+ひねくれ	1 NOUN 1
+ひばり	1 NOUN 1
+ひひる	1 PROPN 1
+ひび割れ	2 NOUN 2
+ひむしなどと	1 PROPN 1
+ひょっこり	1 ADV 1
+ひょんなことから	1 ADV 1
+ひょんなところから	1 PROPN 1
+ひろ	2 PROPN 2
+ひろし	1 PROPN 1
+ひろみ	1 PROPN 1
+びっくり	4 VERB 4
+びており	1 PROPN 1
+びびら	1 VERB_びびる 1
+ぴったり	6 ADJ 5 ADV 1
+ふうに	1 AUX_ふうだ 1
+ふざけ	1 NOUN 1
+ふしぎ	1 ADJ 1
+ふたり	1 NOUN 1
+ふだん	1 ADV 1
+ふつう	1 NOUN 1
+ふと	1 ADV 1
+ふとした	1 ADJ 1
+ふまえ	1 VERB_ふまえる 1
+ふるえ	1 VERB_ふるえる 1
+ふるさと	1 NOUN 1
+ふるまい	1 VERB_ふるまう 1
+ふれあい	2 NOUN 2
+ふんだんに	1 ADV 1
+ぶ	3 NOUN 3
+ぶっかけ	1 VERB_ぶっかける 1
+ぶつかり	1 VERB_ぶつかる 1
+ぶつけ	1 VERB_ぶつける 1
+ぶどう	1 NOUN 1
+ぶらりと	1 ADV 1
+ぶり	26 NOUN 25 VERB_ぶる 1
+ぶんか社	1 PROPN 1
+ぷっくり	1 PROPN 1
+ぷりぷり	1 ADV 1
+へ	220 ADP 217 VERB_へる 3 ***
+へら	2 NOUN 2
+べ	3 AUX_*可能* 3
+べき	24 AUX_べし 24
+べく	11 AUX_べし 11
+べし	1 AUX 1
+べる	4 AUX_*可能* 4
+ほう	6 NOUN 6
+ほうき	1 NOUN 1
+ほか	46 NOUN 46
+ほかほか	1 ADV 1
+ほぐし	1 VERB_ほぐす 1
+ほこり	2 NOUN 1 VERB_ほこる 1
+ほころん	1 VERB_ほころぶ 1
+ほしい	2 AUX 2
+ほっこりするよね	1 PROPN 1
+ほとり	1 NOUN 1
+ほとんど	35 ADV 23 NOUN 12
+ほど	62 ADP 62
+ほのか	1 ADJ 1
+ほのめかし	1 VERB_ほのめかす 1
+ほぼ	24 ADV 23 PART 1
+ほむら	1 PROPN 1
+ほめ	1 VERB_ほめる 1
+ほら話	1 NOUN 1
+ほんと	1 ADV 1
+ほんのり	1 ADV 1
+ぼうが	1 PROPN 1
+ぼく	2 PRON 2
+ぼられ	1 VERB_ぼられる 1
+ぼりぼり	1 PROPN 1
+ぽぽ	1 PROPN 1
+ま	2 PROPN 2
+まあ	3 ADV 3
+まい	2 AUX 1 VERB_まく 1
+まいり	2 AUX_まいる 2
+まえ	2 NOUN 2
+まく	2 VERB 2
+まことに	1 ADV 1
+まさ	1 AUX_*使役* 1
+まさか	2 ADV 2
+まさに	1 ADV 1
+まし	399 AUX_ます 398 VERB_ます 1 ***
+ましょ	9 AUX_ます 9
+まじめ	1 ADJ 1
+ます	559 AUX 557 VERB 2 ***
+まず	19 ADV 19
+まずは	6 CCONJ 6
+ませ	111 AUX_ます 111 ***
+また	231 CCONJ 224 ADV 7 ***
+または	12 CCONJ 12
+まだ	18 ADV 18
+まち	1 NOUN 1
+まちづくり	2 NOUN 2
+まちまち	1 ADJ 1
+まちゃ	1 PROPN 1
+まっすー	1 PROPN 1
+まったく	4 ADV 4
+まったりすると	1 PROPN 1
+まっとう	1 ADJ 1
+まっぷたつに	1 PROPN 1
+まつげ	1 NOUN 1
+まで	266 ADP 266 ***
+まとい	1 NOUN 1
+まとまり	1 VERB_まとまる 1
+まとめ	12 VERB_まとめる 12
+まとも	2 ADJ 2
+まどか	2 PROPN 2
+まぶし	1 VERB_まぶす 1
+まほろの	1 PROPN 1
+まま	36 NOUN 36
+ままなら	1 VERB_ままなる 1
+まめ	1 ADJ 1
+まもない	1 PROPN 1
+まもなく	6 ADV 6
+まゆ	1 NOUN 1
+まり	3 NOUN 2 PROPN 1
+まるっきり	1 ADV 1
+まるで	4 ADV 4
+まれ	3 ADJ 3
+まろやか	1 ADJ 1
+まわし	1 NOUN 1
+まわっ	1 VERB_まわる 1
+まわり	3 NOUN 3
+まんが	1 NOUN 1
+まんじゅう	1 NOUN 1
+み	69 VERB_みる 35 AUX_みる 30 NOUN 4
+みえる	1 VERB 1
+みかん	1 NOUN 1
+みこし	1 NOUN 1
+みすゞ潮彩	1 PROPN 1
+みずほ銀行	1 PROPN 1
+みせ	1 AUX_みせる 1
+みそ	2 NOUN 2
+みたい	7 AUX_みたいだ 7
+みたいで	1 AUX_みたいだ 1
+みたいな	4 AUX_みたいだ 4
+みたいに	3 AUX_みたいだ 3
+みたさ	1 VERB_みたす 1
+みち	1 NOUN 1
+みつけ	1 VERB_みつける 1
+みつば	1 NOUN 1
+みとめ	1 VERB_みとめる 1
+みどり	1 PROPN 1
+みな	1 NOUN 1
+みなさ	2 VERB_みなす 2
+みなさま	1 PRON 1
+みなさん	5 PRON 5
+みなしご	1 NOUN 1
+みなす	1 VERB 1
+みや	2 PROPN 2
+みる	10 AUX 6 VERB 4
+みれ	1 AUX_みる 1
+みんな	15 ADV 9 PRON 6
+むうん	2 PROPN 2
+むかし	1 NOUN 1
+むき出し	1 VERB_むき出す 1
+むぎ	1 PROPN 1
+むくみ	2 NOUN 2
+むしろ	5 ADV 5
+むせる	1 VERB 1
+むつ	1 NOUN 1
+め	13 AUX_*可能* 12 NOUN 1
+めくり	1 VERB_めくる 1
+めぐっ	1 VERB_めぐる 1
+めぐり	2 VERB_めぐる 2
+めぐる	6 VERB 6
+めざし	2 VERB_めざす 2
+めざめ	1 VERB_めざめる 1
+めった	1 ADJ 1
+めっちゃ	1 ADV 1
+めど	1 NOUN 1
+めぶく	1 VERB 1
+める	9 AUX_*可能* 9
+めれ	1 AUX_*可能* 1
+も	1497 ADP 1497 ***
+もう	22 ADV 22
+もうすぐ	1 ADV 1
+もぎ	1 VERB_もぐ 1
+もし	2 ADV 2
+もしか	1 ADV 1
+もしくは	6 CCONJ 6
+もしも	2 ADV 2
+もた	1 VERB_もつ 1
+もたらさ	1 VERB_もたらす 1
+もたらし	7 VERB_もたらす 7
+もたらす	5 VERB 5
+もたれ	1 VERB_もたれる 1
+もち	4 ADV 3 VERB_もつ 1
+もちろん	20 ADV 20
+もっ	13 VERB_もつ 13
+もったいない	1 ADJ 1
+もっちゃん	1 PROPN 1
+もっと	12 ADV 12
+もっとも	6 ADV 4 CCONJ 2
+もっぱら	1 ADV 1
+もつ	1 VERB 1
+もつれ	1 VERB_もつれる 1
+もつ鍋	2 NOUN 2
+もて	1 VERB_もてる 1
+もてなす	1 VERB 1
+もてはやさ	1 VERB_もてはやす 1
+もと	9 NOUN 9
+もともと	4 ADV 4
+もとより	3 ADV 3
+もどる	1 VERB 1
+もの	219 NOUN 219 ***
+ものすごい	1 ADJ 1
+ものすごく	1 ADJ_ものすごい 1
+ものの	37 SCONJ 37
+もののけ姫	1 PROPN 1
+ものまね	1 NOUN 1
+もはや	4 ADV 4
+もみ	2 VERB_もむ 1 NOUN 1
+もめ	1 VERB_もめる 1
+もら	1 VERB_もらう 1
+もらい	21 AUX_もらう 20 VERB_もらう 1
+もらう	7 AUX 5 VERB 2
+もらえ	5 AUX_もらえる 5
+もらえる	5 AUX 5
+もらお	1 AUX_もらう 1
+もらさ	1 VERB_もらす 1
+もらっ	17 AUX_もらう 13 VERB_もらう 4
+もん	1 VERB_もむ 1
+ゃまする	1 PROPN 1
+ゃん	1 PROPN 1
+や	539 ADP 539 ***
+やがて	5 ADV 5
+やぎ	1 NOUN 1
+やすい	20 AUX 20
+やすく	5 AUX_やすい 5
+やせ	1 VERB_やせる 1
+やたら	2 ADJ 2
+やっ	20 VERB_やる 17 AUX_やる 3
+やっと	3 ADV 3
+やっぱ	1 ADV 1
+やっぱり	5 ADV 5
+やつ	1 NOUN 1
+やはり	7 ADV 7
+やみ	3 VERB_やむ 3
+やむなく	1 ADV 1
+やむをえない	1 ADJ 1
+やむを得ない	1 ADJ 1
+やめ	7 VERB_やめる 7
+やめる	1 VERB 1
+やや	21 ADV 20 NOUN 1
+やら	8 VERB_やる 4 ADP 4
+やられ	1 VERB_やられる 1
+やり	5 VERB_やる 5
+やり取り	4 NOUN 4
+やり方	1 NOUN 1
+やり直す	1 VERB 1
+やり返し	1 VERB_やり返す 1
+やる	7 VERB 6 AUX 1
+やる気	1 NOUN 1
+やろ	2 VERB_やる 2
+やんちゃ	1 ADJ 1
+ゅうございました	1 PROPN 1
+ゆう	2 NOUN 2
+ゆえ	1 NOUN 1
+ゆか	1 AUX_ゆく 1
+ゆかり	3 NOUN 2 PROPN 1
+ゆがみ	1 NOUN 1
+ゆき	1 NOUN 1
+ゆく	6 VERB 5 AUX 1
+ゆっくり	5 ADV 5
+ゆったり	7 ADV 7
+ゆってぃは	1 PROPN 1
+ゆめ	3 NOUN 3
+ょくる	1 PROPN 1
+よ	45 PART 45
+よい	17 ADJ 12 AUX 5
+よう	97 AUX_う 92 NOUN 5 ***
+ようだ	16 AUX 16
+ようだっ	1 AUX_ようだ 1
+ようで	9 AUX_ようだ 9
+ような	65 AUX_ようだ 65
+ように	161 AUX_ようだ 161 ***
+ようやく	3 ADV 3
+よかっ	9 ADJ_よい 7 AUX_よい 2
+よく	37 ADJ_よい 35 AUX_よい 2
+よけれ	1 ADJ_よい 1
+よこし	1 VERB_よこす 1
+よさ	1 ADJ_よい 1
+よし	3 PROPN 3
+よっ	2 VERB_よる 2
+よぶ	1 VERB 1
+よほど	1 ADV 1
+よみがえら	1 VERB_よみがえる 1
+より	108 ADP 90 VERB_よる 17 ADV 1 ***
+より一層	1 ADV 1
+よる	47 VERB 47
+よれ	10 VERB_よる 10
+よろしく	2 ADV 2
+よゐこの	1 PROPN 1
+よー	1 PART 1
+ら	63 NOUN 63
+らさ	3 AUX_*使役* 3
+らしい	14 AUX 14
+らしき	1 ADJ_らしい 1
+らしく	9 AUX_らしい 9
+らす	1 AUX_*使役* 1
+らっせ	1 PROPN 1
+られ	224 AUX_られる 224 ***
+られる	87 AUX 87 ***
+らん	1 PROPN 1
+らーめん	1 NOUN 1
+り	9 NOUN 9
+りょくですね	1 PROPN 1
+る	22 AUX_いる 21 PROPN 1
+るが	1 PROPN 1
+るための	1 PROPN 1
+ると	1 PROPN 1
+るわざ	1 PROPN 1
+れ	1279 AUX_れる 1278 ***
+れる	338 AUX 338 ***
+ろう	2 NOUN 2
+ろうそく	4 NOUN 4
+ろですが	1 PROPN 1
+わ	4 PART 4
+わいわい	2 PROPN 2
+わかっ	5 VERB_わかる 5
+わから	12 VERB_わかる 12
+わかり	7 VERB_わかる 7
+わかる	2 VERB 2
+わかれ	1 VERB_わかれる 1
+わが	1 ADJ 1
+わがまま	2 ADJ 1 NOUN 1
+わくわくし	1 VERB_わくわくする 1
+わけ	24 NOUN 24
+わざと	1 ADV 1
+わしづかみ	1 NOUN 1
+わずか	11 ADV 10 ADJ 1
+わたし	6 PRON 5 VERB_わたす 1
+わたっ	7 VERB_わたる 7
+わたり	3 VERB_わたる 3
+わて	2 NOUN 2
+わな	1 NOUN 1
+わに	1 PROPN 1
+わび	1 NOUN 1
+わりと	1 PROPN 1
+わりとすましているが	1 PROPN 1
+われ	1 VERB_われる 1
+われわれ	2 PRON 2
+わんさ	2 ADV 2
+を	4737 ADP 4737 ***
+をもとに	4 PART 4
+を元に	5 PART_をもとに 5
+を基に	3 PART_をもとに 3
+を基にして	1 PART_をもとに 1
+ん	163 AUX_ない 124 PART 38 PROPN 1 ***
+んだ	1 PROPN 1
+んやったらかかってこい	1 PROPN 1
+ア	1 PROPN 1
+アイアン	3 NOUN 3
+アイコン	3 NOUN 3
+アイシアシナリオ	1 PROPN 1
+アイス	2 NOUN 2
+アイズナー	1 PROPN 1
+アイテム	4 NOUN 4
+アイデア	3 NOUN 3
+アイディア	2 NOUN 2
+アイドル	6 NOUN 6
+アイヌ	2 NOUN 2
+アイラ	1 PROPN 1
+アイラス	1 PROPN 1
+アイランド	1 NOUN 1
+アウアー	1 PROPN 1
+アウェー	1 NOUN 1
+アウクシリア	1 PROPN 1
+アウグスティヌス	1 PROPN 1
+アウゲイアース	1 PROPN 1
+アウステン	1 PROPN 1
+アウトプット	1 NOUN 1
+アエミリアヌス	1 PROPN 1
+アカウント	1 NOUN 1
+アカデミー	1 NOUN 1
+アギス	2 PROPN 2
+アギラー	1 PROPN 1
+アクアマリン	1 NOUN 1
+アクアリウム	1 NOUN 1
+アクション	4 NOUN 4
+アクションゲーム	1 NOUN 1
+アクションピザッツ	1 PROPN 1
+アクセサリー	2 NOUN 2
+アクセス	10 NOUN 7 VERB 3
+アクセラレータ	1 NOUN 1
+アクセル	2 NOUN 2
+アクロディア	1 PROPN 1
+アクロバティック	1 ADJ 1
+アグノー	1 PROPN 1
+アグライアー	1 PROPN 1
+アグレッシブ	1 ADJ 1
+アコライト	1 PROPN 1
+アコースティック	1 NOUN 1
+アコースティックギター	1 NOUN 1
+アサヒペンタックス	1 PROPN 1
+アシオン	1 PROPN 1
+アシスタント	3 NOUN 3
+アシスト	2 NOUN 2
+アシュヴァヴァルマン	1 PROPN 1
+アジア	7 NOUN 7
+アジュディミツオー	1 PROPN 1
+アステュアゲス	1 PROPN 1
+アストリッド	1 PROPN 1
+アストロズ	1 PROPN 1
+アストンマーチン	1 PROPN 1
+アスリート	1 NOUN 1
+アズキ	1 NOUN 1
+アセンション	1 PROPN 1
+アソシエ	1 PROPN 1
+アタック	1 NOUN 1
+アダ	1 PROPN 1
+アダナ	1 PROPN 1
+アダプター	2 NOUN 2
+アダム	1 NOUN 1
+アッカド	1 PROPN 1
+アッシュ	1 NOUN 1
+アッシュール	1 PROPN 1
+アッシリア	1 PROPN 1
+アット	1 PROPN 1
+アットホーム	9 ADJ 9
+アッバース	1 PROPN 1
+アッパー	1 PROPN 1
+アップ	9 NOUN 6 VERB 3
+アップグレード	2 NOUN 1 VERB 1
+アップル	3 NOUN 3
+アップルコンピュータ	1 PROPN 1
+アップル社	1 PROPN 1
+アップロード	2 VERB 2
+アテナイ	1 PROPN 1
+アテネ	3 PROPN 3
+アディズ	1 PROPN 1
+アトキンス	1 PROPN 1
+アトホーム	1 ADJ 1
+アトランティック	1 PROPN 1
+アトリエ	1 NOUN 1
+アドバイザー	4 NOUN 4
+アドバイス	6 NOUN 5 VERB 1
+アドベンチャー	1 NOUN 1
+アドミラル	1 NOUN 1
+アドリブ	1 NOUN 1
+アドルフ	1 PROPN 1
+アナ	2 PROPN 2
+アナウンサー	7 NOUN 7
+アナハイム	1 PROPN 1
+アナハラム	1 PROPN 1
+アナログ	4 NOUN 4
+アニソン	1 PROPN 1
+アニマ	1 PROPN 1
+アニメポケットモンスターオリジナルサウンドトラックベスト	1 PROPN 1
+アニメーション	5 NOUN 5
+アニメ化	1 NOUN 1
+アネット	1 PROPN 1
+アハメド	1 PROPN 1
+アバルトプント	1 PROPN 1
+アバンギャルド	1 NOUN 1
+アバークロンビーアンドフィッチ	1 PROPN 1
+アパッチ	1 NOUN 1
+アパレル	1 NOUN 1
+アヒンサ	1 PROPN 1
+アヒンサー	1 PROPN 1
+アピール	3 VERB 3
+アフィントン	1 PROPN 1
+アフガニスタン	1 PROPN 1
+アフターケア	1 NOUN 1
+アフマド	1 PROPN 1
+アフリカ	1 PROPN 1
+アプト式鉄道	1 NOUN 1
+アプリ	1 NOUN 1
+アプローチ	1 NOUN 1
+アヘン戦争	1 NOUN 1
+アベレージ	1 NOUN 1
+アポロ	1 NOUN 1
+アマゾン	1 PROPN 1
+アマダ	1 PROPN 1
+アマチュア	2 NOUN 2
+アマチュアバンド	1 NOUN 1
+アマチュア無線	1 NOUN 1
+アマテラス	2 PROPN 2
+アミノトランスフェラーゼ	1 PROPN 1
+アミューモーネー	1 PROPN 1
+アム	2 PROPN 2
+アムールスク	1 PROPN 1
+アメノミハシラ	1 PROPN 1
+アメフト	1 NOUN 1
+アメリカ	40 PROPN 38 NOUN 2
+アメリカン	2 NOUN 2
+アメリカン航空	1 PROPN 1
+アメリカ合衆国	11 PROPN 11
+アメンボ	1 NOUN 1
+アヤカシ	1 PROPN 1
+アヤックス	1 PROPN 1
+アユ	1 NOUN 1
+アラゴアス	1 PROPN 1
+アラスカ	1 PROPN 1
+アラバマ	1 PROPN 1
+アラパホー	1 PROPN 1
+アラブ	1 NOUN 1
+アラヨーイトナ	1 PROPN 1
+アラン	2 PROPN 2
+アラーウッディーン	1 PROPN 1
+アリア	1 NOUN 1
+アリス	1 PROPN 1
+アリーナ	3 NOUN 3
+アル	1 PROPN 1
+アルグン	2 PROPN 2
+アルコニクス	1 PROPN 1
+アルコール	6 NOUN 6
+アルゴリズム	1 NOUN 1
+アルザス	1 PROPN 1
+アルジェ	1 PROPN 1
+アルストム	2 PROPN 2
+アルゼンチン	1 PROPN 1
+アルツハイマー病	1 NOUN 1
+アルティマニア	1 PROPN 1
+アルバム	24 NOUN 24
+アルバレス	1 PROPN 1
+アルバート	2 PROPN 2
+アルビノ	1 NOUN 1
+アルファナフチルアミン	1 PROPN 1
+アルファレコード	1 PROPN 1
+アルフォンソ	1 PROPN 1
+アルフレッド	1 PROPN 1
+アルブミン	1 NOUN 1
+アルプス山脈	1 PROPN 1
+アルベマール	1 PROPN 1
+アルミ	1 NOUN 1
+アルメニア	2 PROPN 2
+アレキサンダー	1 PROPN 1
+アレク	2 PROPN 2
+アレクサンダル	1 PROPN 1
+アレクサンダー	1 PROPN 1
+アレクサンデル	1 PROPN 1
+アレクサンドリア	1 PROPN 1
+アレクサンドル	1 PROPN 1
+アレフ	5 PROPN 5
+アレラーテ	1 PROPN 1
+アレルギー	2 NOUN 2
+アレルゲン	1 NOUN 1
+アレン	1 PROPN 1
+アレンジ	3 NOUN 3
+アロスト	1 PROPN 1
+アロマ	3 PROPN 3
+アロンゾ	1 PROPN 1
+アロー	1 NOUN 1
+アン	2 PROPN 2
+アンカラ	2 PROPN 2
+アンガージュ	1 PROPN 1
+アンケート	8 NOUN 8
+アンゴラ	1 NOUN 1
+アンジール	4 PROPN 4
+アンセム	1 PROPN 1
+アンセルモ	1 PROPN 1
+アンソニー	1 PROPN 1
+アンダー	1 NOUN 1
+アンチ	1 NOUN 1
+アンチョビ	1 NOUN 1
+アンティグア	1 PROPN 1
+アンティーク	1 ADJ 1
+アンテナ	3 NOUN 3
+アンディ・ウォーホル	1 PROPN 1
+アントニオ猪木	1 PROPN 1
+アンド	2 PROPN 2
+アンドゥ	1 NOUN 1
+アンドレア	1 PROPN 1
+アンドレス	1 PROPN 1
+アンドロイド	2 PROPN 2
+アンドロニコス	1 PROPN 1
+アンバラ	1 PROPN 1
+アンバランス	1 ADJ 1
+アンペア	1 NOUN 1
+アンモニア	1 NOUN 1
+アンリ	4 PROPN 4
+アンリミテッド	1 PROPN 1
+アヴァロン	1 PROPN 1
+アーキテクチャ	1 NOUN 1
+アーク	1 NOUN 1
+アーサー	2 PROPN 2
+アーザルバーイジャーン	1 PROPN 1
+アース	1 NOUN 1
+アーセナル	1 PROPN 1
+アーツ	1 NOUN 1
+アーティスト	4 NOUN 4
+アート	3 NOUN 3
+アーノルド	2 PROPN 2
+アーバン	1 PROPN 1
+アービング	1 PROPN 1
+アーマティンガー	1 PROPN 1
+アーミッシュ	2 PROPN 2
+アーム	1 NOUN 1
+アール	1 NOUN 1
+アールグレイ	1 NOUN 1
+イイ	5 PROPN 5
+イエィ	1 PROPN 1
+イエス	1 PROPN 1
+イエロニモス	1 PROPN 1
+イエロー	2 NOUN 2
+イエローコーション	1 PROPN 1
+イオン	6 NOUN 6
+イカ	2 NOUN 2
+イカサマ	1 NOUN 1
+イギリス	15 PROPN 15
+イギリス連邦	1 PROPN 1
+イクル	1 PROPN 1
+イグラ	5 PROPN 5
+イシュミール	1 PROPN 1
+イシュワルド	2 PROPN 2
+イスラエル	2 PROPN 2
+イスラム	2 NOUN 2
+イスラム世界	1 NOUN 1
+イスラム教徒	3 NOUN 3
+イスラム革命	1 PROPN 1
+イスラーム	2 PROPN 2
+イズモ	1 PROPN 1
+イセエビ	1 NOUN 1
+イタリア	12 PROPN 12
+イタリアン	2 NOUN 2
+イチ	1 PROPN 1
+イチオシ	1 PROPN 1
+イッタラ	1 PROPN 1
+イドリーシー	1 PROPN 1
+イナリワン	1 PROPN 1
+イヌ	1 NOUN 1
+イネ	1 NOUN 1
+イブ	1 PROPN 1
+イブラーヒーム	1 PROPN 1
+イベルグエン	1 PROPN 1
+イベント	21 NOUN 21
+イムプフィンゲン	1 PROPN 1
+イメージ	17 NOUN 14 VERB 3
+イメージセンサー	2 NOUN 2
+イヤス	1 PROPN 1
+イヤー	2 NOUN 2
+イラっと	1 VERB 1
+イラク	4 PROPN 4
+イラスト	8 NOUN 8
+イラスト集	1 NOUN 1
+イラン	2 PROPN 2
+イリオス	1 PROPN 1
+イルクーツク	1 PROPN 1
+イレーネ	2 PROPN 2
+イン	6 NOUN 6
+イングランド	2 PROPN 2
+イングリッシュ	3 NOUN 3
+イングリット	1 PROPN 1
+インゲン	1 PROPN 1
+インサイド	1 NOUN 1
+インストール	1 VERB 1
+インスリン	1 NOUN 1
+インセスト	1 PROPN 1
+インタビュー	3 NOUN 3
+インタフェース	1 NOUN 1
+インタラクティブ	2 ADJ 2
+インター	3 NOUN 3
+インターコンチネンタル	1 NOUN 1
+インターセプト	2 VERB 1 NOUN 1
+インターナショナル	3 NOUN 3
+インターネット	10 NOUN 10
+インターハイ	2 NOUN 2
+インターフェース	1 NOUN 1
+インターン	1 NOUN 1
+インチ	2 NOUN 2
+インテリア	3 NOUN 3
+インテル	2 PROPN 2
+インディアン	2 NOUN 2
+インディアンス	1 PROPN 1
+インディー	2 PROPN 2
+インディーズ	1 NOUN 1
+インド	14 PROPN 14
+インドアエンタメ	1 PROPN 1
+インドシナ	1 PROPN 1
+インドラ	1 PROPN 1
+インド政府	1 PROPN 1
+インド神話	1 NOUN 1
+インナーアームガトリング	1 PROPN 1
+インナーイヤヘッドホン	1 PROPN 1
+インノケンティウス	1 PROPN 1
+インバータ	2 NOUN 2
+インパクト	2 NOUN 2
+インパール	1 PROPN 1
+インフェリオーリ	1 PROPN 1
+インフェルノス	1 PROPN 1
+インフラ	4 NOUN 4
+インフラストラクチャー	2 NOUN 2
+インプット	1 NOUN 1
+インプラント	2 NOUN 2
+インベントリ	1 PROPN 1
+イーウェル	2 PROPN 2
+イース	1 PROPN 1
+イースト	1 NOUN 1
+イートイン	1 NOUN 1
+イーフチェンコ	1 PROPN 1
+イーリス	1 PROPN 1
+イー・モバイル	1 PROPN 1
+ウィキリークス	1 PROPN 1
+ウィザーズ	1 PROPN 1
+ウィスコンシン大学	1 PROPN 1
+ウィスラー	1 PROPN 1
+ウィックス	1 PROPN 1
+ウィリアム	5 PROPN 5
+ウィル	2 PROPN 2
+ウィルス	1 NOUN 1
+ウィルダネス	1 PROPN 1
+ウィルダーネス	1 PROPN 1
+ウィン	1 NOUN 1
+ウィンターカップ	1 PROPN 1
+ウィーン	2 PROPN 2
+ウィーンの森	1 PROPN 1
+ウィーン国立歌劇場	1 NOUN 1
+ウイルス	1 NOUN 1
+ウイング	1 NOUN 1
+ウェイター	1 NOUN 1
+ウェストエッグ	1 PROPN 1
+ウェストファル	1 PROPN 1
+ウェディング	1 NOUN 1
+ウェバー	1 PROPN 1
+ウェブ	12 NOUN 12
+ウェルネスリンク	1 PROPN 1
+ウエスト	3 NOUN 3
+ウエハース	1 NOUN 1
+ウォリック	1 PROPN 1
+ウォルバリンズ	1 PROPN 1
+ウォレス	1 PROPN 1
+ウォロ	1 PROPN 1
+ウォン	1 NOUN 1
+ウォー	1 PROPN 1
+ウォーカー	2 PROPN 2
+ウォーキング	1 NOUN 1
+ウォーズ	1 NOUN 1
+ウォーターズ	1 PROPN 1
+ウォール	3 PROPN 3
+ウォールストリート	1 PROPN 1
+ウォール・ストリート・ジャーナル	1 PROPN 1
+ウォーレン	1 PROPN 1
+ウオーミングアップ	1 PROPN 1
+ウクライナ	1 PROPN 1
+ウケ	1 PROPN 1
+ウサーマ	1 PROPN 1
+ウザカワ	1 PROPN 1
+ウズベク	1 PROPN 1
+ウソ	4 NOUN 4
+ウチ	1 PROPN 1
+ウネウネ	1 PROPN 1
+ウメ	1 NOUN 1
+ウラン	1 NOUN 1
+ウラン濃縮	1 NOUN 1
+ウリ	1 NOUN 1
+ウルス	1 PROPN 1
+ウルスラ	1 PROPN 1
+ウルトラ	1 NOUN 1
+ウルフ	1 PROPN 1
+ウルム	1 PROPN 1
+ウレマ	1 PROPN 1
+ウント	1 PROPN 1
+ウンモ	1 PROPN 1
+ウー	1 PROPN 1
+ウーダン	1 PROPN 1
+エア	1 NOUN 1
+エアインテーク	1 PROPN 1
+エアコン	1 NOUN 1
+エアメン	1 PROPN 1
+エアラクニッド	1 PROPN 1
+エアーウェーブ	1 PROPN 1
+エイジ	1 NOUN 1
+エイディズ	1 PROPN 1
+エイプリルフール	2 PROPN 2
+エイミー	1 PROPN 1
+エイント	1 PROPN 1
+エウフロニオス	1 PROPN 1
+エカテリンブルク	1 PROPN 1
+エキストラ	1 NOUN 1
+エクス	1 PROPN 1
+エクステンション	1 NOUN 1
+エクストリミス	1 PROPN 1
+エクセドラ	2 PROPN 2
+エクソダス	1 PROPN 1
+エクゾスカルチップ	1 PROPN 1
+エグゼクティブ	1 NOUN 1
+エコナビ	1 PROPN 1
+エコフィード	1 PROPN 1
+エジプティアカ	1 PROPN 1
+エジプト	1 PROPN 1
+エジプト軍	1 PROPN 1
+エス	1 NOUN 1
+エスカレータ	1 PROPN 1
+エスカレート	1 VERB 1
+エストバキア	1 PROPN 1
+エスビー食品	1 PROPN 1
+エスペランサ	1 PROPN 1
+エズラ	1 PROPN 1
+エセックス	1 PROPN 1
+エセン	1 PROPN 1
+エターナルセーラームーン	1 PROPN 1
+エチオピア	1 PROPN 1
+エックハルト	1 PROPN 1
+エッグ	1 NOUN 1
+エッセイ	2 NOUN 2
+エティエンヌ	1 PROPN 1
+エディ	2 PROPN 2
+エディタ	1 PROPN 1
+エディンバラ	1 PROPN 1
+エディー	1 PROPN 1
+エデンの園	1 NOUN 1
+エドガー	3 PROPN 3
+エドワルド	1 PROPN 1
+エドワード	2 PROPN 2
+エネルギッシュ	1 ADJ 1
+エネルギー	12 NOUN 12
+エネルギー政策	1 NOUN 1
+エビ	1 NOUN 1
+エビチリ	1 NOUN 1
+エピグラム	1 NOUN 1
+エピソード	3 NOUN 3
+エプソム	1 PROPN 1
+エベレスト	1 PROPN 1
+エボ	1 PROPN 1
+エボワゴン	1 PROPN 1
+エミュレータ	1 NOUN 1
+エム	1 NOUN 1
+エメラルド	1 NOUN 1
+エメンタール	1 PROPN 1
+エラスムス	1 PROPN 1
+エリア	10 NOUN 10
+エリオット	2 PROPN 2
+エリザベス	1 PROPN 1
+エリス	1 PROPN 1
+エリック	1 PROPN 1
+エリナー	1 PROPN 1
+エリート	2 NOUN 2
+エル	1 NOUN 1
+エルガー	1 PROPN 1
+エルグ	1 NOUN 1
+エルサレム	3 PROPN 3
+エルザム	1 PROPN 1
+エルナンデス	1 PROPN 1
+エルフ	3 NOUN 3
+エルボー	3 NOUN 3
+エルメロイ	1 PROPN 1
+エルンスト	1 PROPN 1
+エルンストハウゼン	1 PROPN 1
+エルヴィン	1 PROPN 1
+エレク	1 PROPN 1
+エレクトロニクス	2 NOUN 2
+エレナ	1 PROPN 1
+エレファントレコード	1 PROPN 1
+エロ	1 NOUN 1
+エロス	1 VERB 1
+エンカルタ	1 PROPN 1
+エンコーダ	1 NOUN 1
+エンコード	1 NOUN 1
+エンジェル	3 NOUN 3
+エンジン	16 NOUN 16
+エンゼルス	1 PROPN 1
+エンタ	1 PROPN 1
+エンディング	2 NOUN 2
+エントリ	1 PROPN 1
+エンド	1 NOUN 1
+エンドウマメ	1 PROPN 1
+エンマコオロギ	1 PROPN 1
+エンリカ	1 PROPN 1
+エヴァンゲリオン	1 PROPN 1
+エヴァーグリーン	1 PROPN 1
+エヴリン	1 PROPN 1
+エージェント	1 NOUN 1
+エース	4 NOUN 4
+エーダー	1 PROPN 1
+エーベルスドルフ	1 PROPN 1
+エーリヒ	2 PROPN 2
+エールフランス	1 PROPN 1
+エール・フランス	1 PROPN 1
+エーレブルー	1 PROPN 1
+オア	1 PROPN 1
+オイル	1 NOUN 1
+オウトグラフ	1 PROPN 1
+オウム	23 NOUN 23
+オクタウィアヌス	1 PROPN 1
+オクタン価	1 NOUN 1
+オクターブ	2 NOUN 2
+オクラホマシティ	1 PROPN 1
+オグリキャップ	1 PROPN 1
+オサト	1 PROPN 1
+オシャレ	6 ADJ 6
+オス	2 NOUN 2
+オステルシュタイン	1 PROPN 1
+オスマン	2 PROPN 2
+オスマン帝国	5 PROPN 5
+オズワルド	1 PROPN 1
+オセアニア	1 PROPN 1
+オタク	1 NOUN 1
+オックス	1 PROPN 1
+オックスフォード大学	1 PROPN 1
+オッペンハイマー	1 PROPN 1
+オデッセイ	1 PROPN 1
+オトムフフ	1 PROPN 1
+オナシス	1 PROPN 1
+オナニー	1 NOUN 1
+オネ	1 PROPN 1
+オハイオ州立大学	1 PROPN 1
+オバキューム	1 PROPN 1
+オバサン	2 PROPN 2
+オバマ	1 PROPN 1
+オフ	3 NOUN 3
+オフィス	2 NOUN 2
+オフコン	1 NOUN 1
+オブ	2 PROPN 2
+オブジェ	1 NOUN 1
+オブジェクト	1 NOUN 1
+オブジェクト指向	1 NOUN 1
+オプション	3 NOUN 3
+オプティコム	1 PROPN 1
+オペラ	1 NOUN 1
+オペル	1 PROPN 1
+オムニバス	1 NOUN 1
+オランダ	1 PROPN 1
+オランダ王国	1 PROPN 1
+オリエンタルランド	1 PROPN 1
+オリエンテーション	1 NOUN 1
+オリオール	1 PROPN 1
+オリコン	2 PROPN 2
+オリジナル	12 NOUN 9 ADJ 3
+オリンピック	6 NOUN 6
+オリンピックスタジアム	1 NOUN 1
+オリーブ	1 NOUN 1
+オルガニスト	2 NOUN 2
+オルタナティブ	1 ADJ 1
+オルタナティヴ	1 PROPN 1
+オルターカレッジ	1 PROPN 1
+オルティス	1 PROPN 1
+オルトロス	1 PROPN 1
+オレンジ	1 NOUN 1
+オン	1 NOUN 1
+オンデマンド	1 NOUN 1
+オンネトー	1 PROPN 1
+オンライン	2 NOUN 2
+オー	2 PROPN 2
+オーガスタ	1 PROPN 1
+オーガスタン	1 PROPN 1
+オークス	1 PROPN 1
+オークランド	1 PROPN 1
+オーケストラ	2 NOUN 2
+オーシャン	1 NOUN 1
+オージュ	1 PROPN 1
+オーストラリア	4 PROPN 4
+オーストリア	13 PROPN 13
+オーストロファシズム	1 PROPN 1
+オーダー	1 NOUN 1
+オーツ	1 NOUN 1
+オーティズ	1 PROPN 1
+オーディオ	3 NOUN 3
+オーディション	2 NOUN 2
+オートバイ	1 NOUN 1
+オートマチック	1 NOUN 1
+オートムギ	1 NOUN 1
+オーバー	1 NOUN 1
+オーバーテイク	1 PROPN 1
+オーバーハング	1 NOUN 1
+オーバーヒート	1 NOUN 1
+オーバーホール	1 NOUN 1
+オープニングアクト	1 PROPN 1
+オープニングテーマ	1 NOUN 1
+オープン	11 NOUN 5 VERB 4 ADJ 2
+オープンソース	1 NOUN 1
+オーランド	2 PROPN 2
+オール	2 NOUN 2
+オールスター	1 NOUN 1
+オールスターゲーム	1 NOUN 1
+オールバニ	1 PROPN 1
+オールラウンド	1 ADJ 1
+カイオワ族	1 NOUN 1
+カイザー	2 PROPN 2
+カイソーン	3 PROPN 3
+カイラス山	1 PROPN 1
+カイロ	1 NOUN 1
+カイロプラクティック	1 NOUN 1
+カイロン	1 PROPN 1
+カウンセラー	3 NOUN 3
+カウンタック	1 PROPN 1
+カウンター	1 NOUN 1
+カウンター席	2 NOUN 2
+カウント	1 VERB 1
+カオル	2 PROPN 2
+カキ	2 NOUN 2
+カギ	2 NOUN 2
+カクカク	1 PROPN 1
+カクテル	1 NOUN 1
+カサカサ	1 ADJ 1
+カシオ計算機	1 PROPN 1
+カシューナッツ	1 NOUN 1
+カジキ	1 NOUN 1
+カジノ	1 NOUN 1
+カスタマイズ	1 NOUN 1
+カスタム	2 NOUN 2
+カステッリ	1 PROPN 1
+カステルッチ	1 PROPN 1
+カセグレン	1 PROPN 1
+カゼイン	1 NOUN 1
+カタルーニャ	1 PROPN 1
+カターニア	1 PROPN 1
+カダイン	1 PROPN 1
+カダフィ	1 PROPN 1
+カダンパ	1 PROPN 1
+カッコ	1 NOUN 1
+カッコイイ	1 PROPN 1
+カッター	1 NOUN 1
+カッツ	2 PROPN 2
+カット	7 NOUN 6 VERB 1
+カットワーク	1 NOUN 1
+カップ	6 NOUN 6
+カップル	2 NOUN 2
+カツオ	1 NOUN 1
+カツ丼	1 NOUN 1
+カテゴリ	2 NOUN 2
+カテゴリー	2 NOUN 2
+カデンツァ	1 NOUN 1
+カトリック	6 NOUN 6
+カナダ	5 PROPN 5
+カナダ首相	1 NOUN 1
+カナヅチ	1 PROPN 1
+カナディアン	1 NOUN 1
+カナン	1 PROPN 1
+カニ	1 NOUN 1
+カニンガム	1 PROPN 1
+カネ	4 NOUN 4
+カハ	1 PROPN 1
+カバー	6 NOUN 3 VERB 3
+カビ	2 NOUN 2
+カピチニ	1 PROPN 1
+カフェ	2 NOUN 2
+カフェビーンズ	1 PROPN 1
+カフカス	1 PROPN 1
+カフカース	1 PROPN 1
+カブトムシ	1 NOUN 1
+カプセル	1 NOUN 1
+カミーユ	1 PROPN 1
+カム	2 NOUN 2
+カムデン	1 PROPN 1
+カムバック	1 VERB 1
+カメ	2 NOUN 2
+カメオ	2 NOUN 2
+カメムシ	1 NOUN 1
+カメラ	7 NOUN 7
+カメラマン	2 NOUN 2
+カラコルム	1 PROPN 1
+カラコーゾフ	1 PROPN 1
+カラス	2 NOUN 2
+カラフル	1 ADJ 1
+カラマツ	1 NOUN 1
+カラー	6 NOUN 6
+カリウム	1 NOUN 1
+カリカリ	1 VERB 1
+カリキュラム	1 NOUN 1
+カリス	1 PROPN 1
+カリッ	1 PROPN 1
+カリフォルニア	1 PROPN 1
+カルカッタ	1 PROPN 1
+カルケミシュ	1 PROPN 1
+カルチャー	2 NOUN 2
+カルツァ	1 PROPN 1
+カルティール	1 PROPN 1
+カルテット	1 NOUN 1
+カルト	52 NOUN 52
+カルフ	2 PROPN 2
+カルメン	1 PROPN 1
+カルロ	1 PROPN 1
+カルロス	1 PROPN 1
+カルヴァナ	1 PROPN 1
+カレッジ	1 NOUN 1
+カレー	8 NOUN 8
+カレーライス	1 NOUN 1
+カロヤン	1 PROPN 1
+カワ	1 PROPN 1
+カン	2 NOUN 2
+カンタン	1 NOUN 1
+カンテラ	1 NOUN 1
+カンディンスキー	1 PROPN 1
+カントリー	1 NOUN 1
+カンバ	1 PROPN 1
+カンパニー	2 NOUN 2
+カンパラ	1 PROPN 1
+カンブリア紀	1 NOUN 1
+カー	3 NOUN 3
+カージナルス	2 PROPN 2
+カーズリー	1 PROPN 1
+カーテン	1 NOUN 1
+カート	2 NOUN 2
+カートン	1 NOUN 1
+カード	12 NOUN 12
+カードゲーム	1 NOUN 1
+カービィ	1 PROPN 1
+カービィシリーズ	1 PROPN 1
+カービン	1 NOUN 1
+カーブ	2 NOUN 2
+カープ	1 NOUN 1
+カーボネロ	1 PROPN 1
+カール	9 NOUN 9
+カール・ツァイス	1 PROPN 1
+カーレル	1 PROPN 1
+カ国	4 NOUN 4
+カ所	2 NOUN 2
+カ月	11 NOUN 11
+ガイア	1 PROPN 1
+ガイド	1 NOUN 1
+ガウチョ	2 NOUN 2
+ガウン	1 NOUN 1
+ガキ	1 PROPN 1
+ガクガクブルブル	1 PROPN 1
+ガス	9 NOUN 9
+ガストラ	1 PROPN 1
+ガズィアンテプ	1 PROPN 1
+ガズナ	1 PROPN 1
+ガソリン	3 NOUN 3
+ガソリンエンジン	2 NOUN 2
+ガソリンスタンド	1 NOUN 1
+ガソリン車	1 NOUN 1
+ガッタイダー	1 PROPN 1
+ガッツ	1 NOUN 1
+ガッバーナ	1 PROPN 1
+ガボン	1 NOUN 1
+ガマニア	1 PROPN 1
+ガマン	1 PROPN 1
+ガム	1 NOUN 1
+ガラガラ	1 NOUN 1
+ガラジーニ	1 PROPN 1
+ガラス	4 NOUN 4
+ガラスープ	1 PROPN 1
+ガラパゴス	1 PROPN 1
+ガリオッポ	1 PROPN 1
+ガリレイ	1 PROPN 1
+ガルダ	1 PROPN 1
+ガルダン	1 PROPN 1
+ガルハサン	1 PROPN 1
+ガルバトロン	1 PROPN 1
+ガルバリウム	1 PROPN 1
+ガレット	1 PROPN 1
+ガレノス	1 PROPN 1
+ガン	4 NOUN 4
+ガンガン	1 ADV 1
+ガンジス川	1 PROPN 1
+ガンダム	1 PROPN 1
+ガンディア	1 PROPN 1
+ガーズニー	1 PROPN 1
+ガーター	1 NOUN 1
+ガーディアン	2 NOUN 2
+ガーデン	2 NOUN 2
+ガード	4 NOUN 3 VERB 1
+ガーネット	2 NOUN 2
+ガープス	2 PROPN 2
+ガーランド	1 NOUN 1
+ガール	1 NOUN 1
+キアノ	1 PROPN 1
+キェルケゴール	1 PROPN 1
+キサブロー	1 PROPN 1
+キジ	1 NOUN 1
+キス	1 NOUN 1
+キズ	1 NOUN 1
+キックボクシング	1 NOUN 1
+キッズスタジオ	1 PROPN 1
+キッズステーション	1 PROPN 1
+キッズルーム	1 PROPN 1
+キッチン	2 NOUN 2
+キット	1 NOUN 1
+キネマ旬報	1 PROPN 1
+キノコ	5 NOUN 5
+キハ	2 PROPN 2
+キミ	2 NOUN 2
+キム	1 PROPN 1
+キムチ	1 NOUN 1
+キャサリン	2 PROPN 2
+キャスター	1 NOUN 1
+キャスティング	1 VERB 1
+キャスト	4 NOUN 4
+キャッシュバック	1 NOUN 1
+キャッチセールス	1 NOUN 1
+キャッチー	1 PROPN 1
+キャデラック	1 PROPN 1
+キャバクラ	1 NOUN 1
+キャバレー	1 NOUN 1
+キャピタル	2 NOUN 2
+キャプテン	2 NOUN 2
+キャベツ	1 NOUN 1
+キャメル	1 PROPN 1
+キャラ	8 PROPN 8
+キャラクター	14 NOUN 14
+キャラクターグッズ	1 NOUN 1
+キャラクターショー	1 NOUN 1
+キャラクターデザイン	1 NOUN 1
+キャラハン	1 PROPN 1
+キャリア	3 NOUN 3
+キャリアウーマン	1 NOUN 1
+キャンセル	3 NOUN 3
+キャンプ	3 NOUN 2 VERB 1
+キャンベル	1 PROPN 1
+キャンペーン	9 NOUN 9
+キャンペーンモデル	1 NOUN 1
+キュアメイドカフェ	1 PROPN 1
+キュロス	1 PROPN 1
+キュロッティード	1 PROPN 1
+キュー	1 NOUN 1
+キューティ	1 PROPN 1
+キューブリック	1 PROPN 1
+キューベルワーゲン	1 PROPN 1
+キョウコ	1 PROPN 1
+キョンサンナムド	1 PROPN 1
+キョンフォン	1 PROPN 1
+キリキア	1 PROPN 1
+キリシタン	1 NOUN 1
+キリスト	1 PROPN 1
+キリスト教徒	6 NOUN 6
+キリヤ	1 PROPN 1
+キリン	1 NOUN 1
+キルバーン	1 PROPN 1
+キレイ	6 ADJ 6
+キロ	5 NOUN 5
+キロメートル	1 NOUN 1
+キロワット	2 NOUN 2
+キン	2 PROPN 2
+キング	2 NOUN 2
+キングレコード	1 PROPN 1
+キー	5 NOUN 5
+キープ	1 NOUN 1
+キーボーディスト	1 NOUN 1
+キーボード	3 NOUN 3
+キーワード	6 NOUN 6
+ギア	3 NOUN 3
+ギアナ	1 PROPN 1
+ギガ	1 NOUN 1
+ギシギシ	1 PROPN 1
+ギター	2 NOUN 2
+ギナ	1 PROPN 1
+ギブソン	2 NOUN 2
+ギプス	1 NOUN 1
+ギャグ	1 NOUN 1
+ギャッツビー	1 PROPN 1
+ギャップ	1 NOUN 1
+ギャネンドラ	1 PROPN 1
+ギャラクシー	2 NOUN 2
+ギャン	1 PROPN 1
+ギャング	2 NOUN 2
+ギャント	1 PROPN 1
+ギャンブル	1 NOUN 1
+ギヨーム	1 PROPN 1
+ギリギリ	2 PROPN 1 ADJ 1
+ギリシャ	4 PROPN 4
+ギリシャ神話	1 NOUN 1
+ギリングハム	1 PROPN 1
+ギリースーツ	1 PROPN 1
+ギル	1 PROPN 1
+ギルド	2 NOUN 2
+ギルモア	2 PROPN 2
+ギーズ	2 PROPN 2
+ク	1 PROPN 1
+クアラトレンガヌ	1 PROPN 1
+クィッグ	1 PROPN 1
+クイズ	2 NOUN 2
+クイン	1 PROPN 1
+クェゼリン	1 PROPN 1
+クォリティー	1 PROPN 1
+クオリティー	4 NOUN 4
+クジラ	1 NOUN 1
+クズネツォフ	1 PROPN 1
+クセ	2 PROPN 2
+クタイ	1 PROPN 1
+クチバシ	1 PROPN 1
+クナイ	1 PROPN 1
+クマザサ	1 NOUN 1
+クライアント	2 NOUN 2
+クライスラー	2 PROPN 2
+クライマックス	2 NOUN 2
+クライン	2 NOUN 2
+クラウダ	1 PROPN 1
+クラウド	2 NOUN 2
+クラゲ	1 NOUN 1
+クラシック	3 NOUN 3
+クラシックカー	1 NOUN 1
+クラシック音楽	1 NOUN 1
+クラス	14 NOUN 14
+クラスター	1 NOUN 1
+クラスメート	1 NOUN 1
+クラッシャー	1 NOUN 1
+クラッチ	3 NOUN 3
+クラブ	17 NOUN 17
+クラブチーム	1 NOUN 1
+クラン	1 PROPN 1
+クランク	2 NOUN 2
+クラーク	1 NOUN 1
+クリ	1 NOUN 1
+クリア	5 NOUN 3 VERB 2
+クリエイター	1 NOUN 1
+クリエイティブ	1 ADJ 1
+クリエイティブディレクター	1 PROPN 1
+クリサリス	1 PROPN 1
+クリシュナムルティ	1 PROPN 1
+クリシュナ神	1 PROPN 1
+クリス	2 PROPN 2
+クリスタル	1 NOUN 1
+クリスタルガラス	1 NOUN 1
+クリック	4 NOUN 3 VERB 1
+クリッパー	1 PROPN 1
+クリップ	2 NOUN 2
+クリニック	3 NOUN 3
+クリントン	1 PROPN 1
+クリンナップ	1 PROPN 1
+クリーチャー	1 PROPN 1
+クリーブランド	1 PROPN 1
+クリーブランド・ブラウンズ	1 NOUN 1
+クリーム	1 NOUN 1
+クリーンエネルギー	1 NOUN 1
+クルアーン	2 PROPN 2
+クルクミン	1 PROPN 1
+クルツ	1 PROPN 1
+クルーズ	1 NOUN 1
+クルーン	1 PROPN 1
+クレイグ	1 PROPN 1
+クレイジー	1 ADJ 1
+クレイン	1 NOUN 1
+クレジット	2 NOUN 2
+クレジットカード	1 NOUN 1
+クレッセント	1 PROPN 1
+クレムソン	1 PROPN 1
+クレヴクール	1 PROPN 1
+クレー	1 NOUN 1
+クレータ	1 PROPN 1
+クレーム	3 NOUN 3
+クロ	1 NOUN 1
+クロス	1 NOUN 1
+クロスオーバー	1 NOUN 1
+クロスカントリー	1 NOUN 1
+クロック	1 NOUN 1
+クロッコ	1 PROPN 1
+クロム	2 NOUN 2
+クロヴィス	1 PROPN 1
+クロー	1 PROPN 1
+クローズド	1 ADJ 1
+クローバー	1 NOUN 1
+クローン	2 NOUN 2
+クワ	1 NOUN 1
+クワガタムシ	1 NOUN 1
+クンドゥンガ	1 PROPN 1
+クーデター	2 NOUN 2
+クーポン	2 NOUN 2
+クール	1 ADJ 1
+グアテマラ	2 PROPN 2
+グアヤナ	1 PROPN 1
+グイン	2 PROPN 2
+グスタフ	1 PROPN 1
+グダニスク	1 PROPN 1
+グチ	1 PROPN 1
+グッズ	7 NOUN 7
+グネチコ	1 PROPN 1
+グラインドコア	1 PROPN 1
+グラクソ	1 PROPN 1
+グラス	1 NOUN 1
+グラズノフ	1 PROPN 1
+グラップル	1 PROPN 1
+グラティアヌス	1 PROPN 1
+グラディエーター	1 PROPN 1
+グラナダ	1 PROPN 1
+グラビア	1 NOUN 1
+グラフ	1 NOUN 1
+グラフィカル	1 ADJ 1
+グラフィック	3 NOUN 3
+グラフィックス	1 NOUN 1
+グラン	1 PROPN 1
+グランド	2 NOUN 2
+グランドスラム	1 NOUN 1
+グラード	1 PROPN 1
+グラーフ	1 PROPN 1
+グリエルモ	1 PROPN 1
+グリゴリ	1 PROPN 1
+グリッド	2 NOUN 2
+グリニッジ	1 PROPN 1
+グリャズノイ	1 PROPN 1
+グリル	2 NOUN 2
+グリーン	2 NOUN 2
+グリーンリボン	1 NOUN 1
+グルタミン酸	2 NOUN 2
+グルナード	1 PROPN 1
+グルーブゲージタイプ	1 PROPN 1
+グループ	31 NOUN 31
+グループウェア	1 NOUN 1
+グループホーム	1 NOUN 1
+グループワーク	1 NOUN 1
+グレ	2 PROPN 1 VERB_グレる 1
+グレイトコックスウェル	1 PROPN 1
+グレイハウンド	1 PROPN 1
+グレネードランチャー	3 PROPN 3
+グレムリー	1 PROPN 1
+グレース	1 PROPN 1
+グレーズ	1 NOUN 1
+グレートバレー	1 PROPN 1
+グレード	2 NOUN 2
+グレーン	1 NOUN 1
+グロス	2 NOUN 2
+グロー	1 PROPN 1
+グローバル	4 ADJ 3 NOUN 1
+グロービート	1 PROPN 1
+グーグル	1 PROPN 1
+グーフィー	1 PROPN 1
+ケ	2 PROPN 2
+ケア	7 NOUN 6 VERB 1
+ケイ	1 PROPN 1
+ケイパー	1 PROPN 1
+ケガ	4 NOUN 4
+ケット	1 NOUN 1
+ケッペル	1 PROPN 1
+ケネス	3 PROPN 3
+ケヤキ	1 NOUN 1
+ケルビン	1 NOUN 1
+ケルン	4 NOUN 3 PROPN 1
+ケレーニイ	1 PROPN 1
+ケン	3 PROPN 3
+ケンカ	2 NOUN 2
+ケンタウロス	1 PROPN 1
+ケンタッキー	1 PROPN 1
+ケンドール	1 PROPN 1
+ケンブリッジ大学	1 PROPN 1
+ケーキ	6 NOUN 6
+ケース	17 NOUN 17
+ケーブル	2 NOUN 2
+ケープタウン	1 PROPN 1
+ゲイシャ	1 NOUN 1
+ゲスト	1 NOUN 1
+ゲッターロボ	1 PROPN 1
+ゲット	1 VERB 1
+ゲラ	1 NOUN 1
+ゲルク	1 PROPN 1
+ゲルマニウム	1 NOUN 1
+ゲン	3 PROPN 3
+ゲージ	2 NOUN 2
+ゲーデル	1 PROPN 1
+ゲート	2 NOUN 2
+ゲーム	30 NOUN 30
+ゲームセンター	2 NOUN 2
+ゲーム差	1 NOUN 1
+ゲーレルス	1 PROPN 1
+コア	3 NOUN 3
+コイル	2 NOUN 2
+コイン	2 NOUN 2
+コウタ	2 PROPN 2
+コエーリョ	1 PROPN 1
+コク	2 NOUN 2
+コクド	2 PROPN 2
+コケ	1 NOUN 1
+コケティッシュ	1 ADJ 1
+コシ	1 PROPN 1
+コジィー	1 PROPN 1
+コスタ	1 PROPN 1
+コスタリカ	1 PROPN 1
+コスト	6 NOUN 6
+コスモス	1 NOUN 1
+コズミックフラクチャー	1 PROPN 1
+コズミックブレイク	1 PROPN 1
+コチャン	1 PROPN 1
+コットン	2 NOUN 2
+コッピ	1 PROPN 1
+コップ	1 NOUN 1
+コッヘル	1 NOUN 1
+コツ	1 NOUN 1
+コテコテ	1 ADJ 1
+コテハン	1 NOUN 1
+コデイン	1 NOUN 1
+コナン	2 PROPN 2
+コナー	1 PROPN 1
+コニカル	1 PROPN 1
+コネ	1 NOUN 1
+コノリー	1 PROPN 1
+コハノフスキ	2 PROPN 2
+コパ	1 PROPN 1
+コピペ	1 PROPN 1
+コピー	2 NOUN 2
+コプト	1 PROPN 1
+コマ	4 NOUN 4
+コマンチェ	2 PROPN 2
+コマンチ族	1 NOUN 1
+コマンド	2 NOUN 2
+コマーシャル	1 NOUN 1
+コミカル	1 ADJ 1
+コミック	3 NOUN 3
+コミックス	2 NOUN 2
+コミュニケーション	3 NOUN 2 VERB 1
+コミュニティー	1 NOUN 1
+コミューン	3 NOUN 3
+コムデン	1 PROPN 1
+コムネノス	1 PROPN 1
+コメディ	1 NOUN 1
+コメディアン	1 NOUN 1
+コメント	18 NOUN 13 VERB 5
+コラソン	1 PROPN 1
+コラム	1 NOUN 1
+コラーゲン	1 NOUN 1
+コラージュ	2 NOUN 2
+コリアーズ	1 PROPN 1
+コリダー	1 PROPN 1
+コリー	1 NOUN 1
+コルツ	1 PROPN 1
+コルドバ	2 PROPN 2
+コルネリャ	2 PROPN 2
+コルネーリス	1 PROPN 1
+コレクター	1 NOUN 1
+コレクターズ	1 PROPN 1
+コレラ	1 NOUN 1
+コロムビアミュージックエンタテインメント	1 PROPN 1
+コロラド	1 NOUN 1
+コロンバス	1 PROPN 1
+コロール	2 PROPN 2
+コン	2 PROPN 2
+コンクリート	2 NOUN 2
+コンクール	2 NOUN 2
+コンコルド	1 NOUN 1
+コンコース	1 NOUN 1
+コンサルタント	1 NOUN 1
+コンサルティング会社	1 NOUN 1
+コンサート	8 NOUN 8
+コンシェルジュ	1 NOUN 1
+コンスタンティヌス	1 PROPN 1
+コンスタンティノス	1 PROPN 1
+コンスタンティノポリス	1 PROPN 1
+コンスタント	1 ADJ 1
+コンセプト	5 NOUN 5
+コンソーシアム	1 NOUN 1
+コンソール	1 NOUN 1
+コンタクト	1 NOUN 1
+コンタクトレンズ	2 NOUN 2
+コンツェルン	2 NOUN 2
+コンテスト	2 NOUN 2
+コンテンポラリー	1 ADJ 1
+コント	3 NOUN 3
+コントラクトブリッジ	1 NOUN 1
+コントロール	1 NOUN 1
+コンバ	1 PROPN 1
+コンパ	2 NOUN 2
+コンパクト	4 ADJ 3 NOUN 1
+コンパス	1 NOUN 1
+コンパチブルカイザー	1 PROPN 1
+コンビ	2 NOUN 2
+コンビニエンスストア	3 NOUN 3
+コンビネーション	1 NOUN 1
+コンピュータ	6 NOUN 6
+コンプレックス	1 NOUN 1
+コンプレッサー	1 NOUN 1
+コンペティティブ	1 PROPN 1
+コンポジット	1 NOUN 1
+コーウェンス	1 PROPN 1
+コーエン	2 PROPN 2
+コーク	1 NOUN 1
+コージェネ	1 NOUN 1
+コース	19 NOUN 19
+コーチ	6 NOUN 6
+コーチン	1 NOUN 1
+コーティング	1 NOUN 1
+コーディネータ	1 PROPN 1
+コーデック	1 NOUN 1
+コート	3 NOUN 3
+コートジボワール	1 PROPN 1
+コード	9 NOUN 9
+コードネーム	1 NOUN 1
+コーヒー	5 NOUN 5
+コーラス	2 NOUN 2
+コールド	2 NOUN 2
+ゴエティア	1 PROPN 1
+ゴキブリ	1 NOUN 1
+ゴシップ	1 NOUN 1
+ゴジュラス	1 PROPN 1
+ゴジュラスギガ	1 PROPN 1
+ゴジラ	1 PROPN 1
+ゴスロリ	1 PROPN 1
+ゴセック	1 PROPN 1
+ゴッドジンライ	1 PROPN 1
+ゴテゴテ	1 PROPN 1
+ゴマ	1 NOUN 1
+ゴミ	2 NOUN 2
+ゴリラ	1 NOUN 1
+ゴルフ	3 NOUN 3
+ゴルフ場	1 NOUN 1
+ゴロ	1 NOUN 1
+ゴング	1 NOUN 1
+ゴーマン	1 PROPN 1
+ゴール	8 NOUN 8
+ゴールキーパー	1 NOUN 1
+ゴールデンウィーク	2 NOUN 2
+ゴールデンラズベリー	1 PROPN 1
+ゴールド	3 NOUN 3
+ゴールドラッシュ	1 NOUN 1
+ゴーレイヴィッチ	1 PROPN 1
+サ	1 PROPN 1
+サイ	1 NOUN 1
+サイエントロジー	4 NOUN 4
+サイクリングロード	1 NOUN 1
+サイクル	1 NOUN 1
+サイコロ	1 NOUN 1
+サイズ	5 NOUN 5
+サイト	36 NOUN 36
+サイド	2 NOUN 2
+サイドバックマテュー	1 PROPN 1
+サイバー	1 ADJ 1
+サイフォン	1 NOUN 1
+サイレント	1 NOUN 1
+サウス	3 PROPN 3
+サウスダコタ	1 PROPN 1
+サウスピ	2 PROPN 2
+サウナ	1 NOUN 1
+サウロン	1 PROPN 1
+サウンド	7 NOUN 7
+サウンドトラック	2 NOUN 2
+サウンドフォンティン	1 PROPN 1
+サカザキ	2 PROPN 2
+サガ	1 NOUN 1
+サク	2 PROPN 2
+サクソフォーン	1 PROPN 1
+サクラ	4 NOUN 4
+ササ	1 NOUN 1
+サザビー	1 PROPN 1
+サシャ	1 PROPN 1
+サタン	2 NOUN 2
+サダト	1 PROPN 1
+サッカー	12 NOUN 12
+サッカークラブ	1 NOUN 1
+サッカーリーグ	1 NOUN 1
+サックス	1 NOUN 1
+サッバーハ	1 PROPN 1
+サティアン	1 NOUN 1
+サトル	3 PROPN 3
+サニーデール	2 PROPN 2
+サハラ砂漠	1 PROPN 1
+サハリン	1 PROPN 1
+サバ	1 NOUN 1
+サバイバル	1 NOUN 1
+サバタ	1 PROPN 1
+サバンナ	1 NOUN 1
+サファヴィー	2 PROPN 2
+サブ	5 NOUN 5
+サボる	1 VERB 1
+サポート	4 NOUN 4
+サマー	2 NOUN 2
+サム	2 PROPN 2
+サムライ	1 PROPN 1
+サム・シェパード	1 PROPN 1
+サモア	1 PROPN 1
+サヤカ	1 PROPN 1
+サヨナラ	3 PROPN 3
+サラダ	4 NOUN 4
+サラダバー	1 NOUN 1
+サラブリー	1 PROPN 1
+サラメ	1 PROPN 1
+サラリーマン	2 NOUN 2
+サリ	1 PROPN 1
+サリナス	1 PROPN 1
+サリン	7 NOUN 7
+サルゲッチュ	1 PROPN 1
+サルコジ	1 PROPN 1
+サルスエラ	1 PROPN 1
+サルタン	1 NOUN 1
+サルーン	1 NOUN 1
+サレルノ	1 PROPN 1
+サロン	9 NOUN 9
+サン	5 NOUN 4 PROPN 1
+サンクトペテルブルク	1 PROPN 1
+サンゴ	1 NOUN 1
+サンスクリット	1 NOUN 1
+サンタクルス	1 PROPN 1
+サンタナ	2 PROPN 2
+サンダー	2 NOUN 2
+サンディエゴ	1 PROPN 1
+サンデー	2 NOUN 2
+サントリー	2 PROPN 2
+サンド	1 NOUN 1
+サンドラ	1 PROPN 1
+サンバル	1 PROPN 1
+サンフランシスコ	2 PROPN 2
+サンプラザ中野	1 PROPN 1
+サンプル	1 NOUN 1
+サヴェルヌ	1 PROPN 1
+サーキット	1 NOUN 1
+サークル	5 NOUN 5
+サーゴ	1 PROPN 1
+サージェント	1 PROPN 1
+サードパーティー	1 NOUN 1
+サーニア	1 PROPN 1
+サーバ	5 NOUN 5
+サーバー	3 NOUN 3
+サービス	39 NOUN 39
+サービスエリア	1 NOUN 1
+サービス料	1 NOUN 1
+サーフィン	2 NOUN 2
+サーフィング	1 PROPN 1
+サーボ	1 NOUN 1
+サール	1 PROPN 1
+サーロイ	1 PROPN 1
+ザ	5 PROPN 5
+ザイサー	1 PROPN 1
+ザウルス	2 PROPN 2
+ザクセン	1 PROPN 1
+ザコ	1 NOUN 1
+ザックス	1 PROPN 1
+ザッケローニ	1 PROPN 1
+ザッハトルテ	1 PROPN 1
+ザワザワ	1 ADV 1
+シア	1 PROPN 1
+シアター	1 NOUN 1
+シアトル	1 PROPN 1
+シアトレ	1 PROPN 1
+シェア	6 NOUN 6
+シェフ	3 NOUN 3
+シェルター	1 NOUN 1
+シェークスピア	1 PROPN 1
+シェートリヒ	1 PROPN 1
+シエラネバダ山脈	1 PROPN 1
+シカゴ	6 PROPN 6
+シグナルティン	1 PROPN 1
+シグナル伝達	1 NOUN 1
+シグマ	2 NOUN 2
+シゴーニュ	1 PROPN 1
+シスター	2 NOUN 2
+システム	30 NOUN 30
+システムズ	1 NOUN 1
+シズレク	1 PROPN 1
+シチュエーション	1 NOUN 1
+シック	1 ADJ 1
+シックス	1 NOUN 1
+シップ	1 NOUN 1
+シティ	4 NOUN 4
+シティー	1 NOUN 1
+シティーハンター	1 NOUN 1
+シドミアン	1 PROPN 1
+シナ	1 PROPN 1
+シナジー	1 NOUN 1
+シナリオ	4 NOUN 4
+シネコン	2 PROPN 2
+シネマトグラフ	1 PROPN 1
+シフト	2 VERB 1 NOUN 1
+シベリア	5 PROPN 5
+シベリン	1 PROPN 1
+シマノ	1 PROPN 1
+シミ	3 NOUN 3
+シミュレータ	1 NOUN 1
+シムラー	1 PROPN 1
+シャイアン族	1 NOUN 1
+シャイム	1 PROPN 1
+シャイングレイモン	1 PROPN 1
+シャガール	1 PROPN 1
+シャクブ	1 PROPN 1
+シャッタースピード	1 NOUN 1
+シャツ	1 NOUN 1
+シャトルバス	1 NOUN 1
+シャトーブリアン	1 PROPN 1
+シャドウ	1 PROPN 1
+シャフツベリ	1 PROPN 1
+シャボン玉	1 NOUN 1
+シャルマネセル	1 PROPN 1
+シャルロット	1 PROPN 1
+シャロン	1 PROPN 1
+シャワラッガ	1 PROPN 1
+シャワー	3 NOUN 3
+シャンゼリゼ	1 PROPN 1
+シャンティイ	1 PROPN 1
+シャンパーニュ	1 PROPN 1
+シャー	2 NOUN 2
+シャークトゥース	1 PROPN 1
+シャーシ	1 NOUN 1
+シャープ	1 NOUN 1
+シュウ	1 PROPN 1
+シュシケヴィチ	1 PROPN 1
+シュツットガルト	1 PROPN 1
+シュトックハウゼン	1 PROPN 1
+シュナイダー	1 PROPN 1
+シュパイアー	1 PROPN 1
+シュプレヒコール	1 NOUN 1
+シュペルリガ	1 PROPN 1
+シュミトハウザー	1 PROPN 1
+シュミレーター	1 PROPN 1
+シュリンプ	1 NOUN 1
+シュリーマン	1 PROPN 1
+シュレースヴィヒ	1 PROPN 1
+シュレーター	1 PROPN 1
+シュヴァイツ	1 PROPN 1
+シュヴァイツァー	1 PROPN 1
+シュヴァルツシルト	1 PROPN 1
+シュークリーム	1 NOUN 1
+シューズ	3 NOUN 3
+シューティングゲーム	1 NOUN 1
+シュート	2 NOUN 2
+シューマッハ	2 PROPN 2
+ショウ	2 NOUN 2
+ショコンクス	1 PROPN 1
+ショッキング	1 ADJ 1
+ショック	1 NOUN 1
+ショット	2 NOUN 2
+ショッパン	1 PROPN 1
+ショッピング	2 NOUN 2
+ショップ	4 NOUN 4
+ショー	2 NOUN 2
+ショーウインドー	1 NOUN 1
+ショールーム	1 NOUN 1
+ショーン	1 PROPN 1
+シリア	1 PROPN 1
+シリアス	1 ADJ 1
+シリアライズ	1 NOUN 1
+シリウス	1 PROPN 1
+シリコンバレー	1 NOUN 1
+シリンダー	3 NOUN 3
+シリーズ	35 NOUN 35
+シルエット	1 NOUN 1
+シルト	1 PROPN 1
+シルバー	2 NOUN 2
+シロアリ	1 NOUN 1
+シワーナー	1 PROPN 1
+シン	1 NOUN 1
+シンカー	1 NOUN 1
+シンガポール	1 PROPN 1
+シンク	1 NOUN 1
+シンクロ	1 NOUN 1
+シングスランク	1 PROPN 1
+シングル	13 NOUN 12 VERB 1
+シングルス	2 NOUN 2
+シングルマザー	1 NOUN 1
+シンセサイザー	1 NOUN 1
+シンデレラ	1 NOUN 1
+シンドバッド	1 PROPN 1
+シンドラーのリスト	1 PROPN 1
+シンバル	1 NOUN 1
+シンフォニック	1 ADJ 1
+シンフォニー	1 NOUN 1
+シンプソン	1 PROPN 1
+シンプル	2 ADJ 2
+シンボル	3 NOUN 3
+シンボルマーク	4 NOUN 4
+シンポジウム	1 NOUN 1
+シー	1 PROPN 1
+シーザー	1 PROPN 1
+シース	1 PROPN 1
+シーズン	42 NOUN 42
+シート	6 NOUN 6
+シートン	1 PROPN 1
+シープドッグ	1 PROPN 1
+シールド	2 NOUN 2
+シーン	11 NOUN 11
+ジェシカ	1 PROPN 1
+ジェセル	1 PROPN 1
+ジェット	1 NOUN 1
+ジェットエンジン	1 NOUN 1
+ジェネシス	3 PROPN 3
+ジェノア	1 PROPN 1
+ジェノバ	1 PROPN 1
+ジェラルトン	1 PROPN 1
+ジェルヴェ	1 PROPN 1
+ジェロ	1 PROPN 1
+ジェームズ・ブキャナン	1 PROPN 1
+ジェームズ・ワトソン	1 PROPN 1
+ジェーン	2 PROPN 2
+ジオアイ	1 PROPN 1
+ジオン	2 PROPN 2
+ジキルとハイド	1 PROPN 1
+ジギート	1 PROPN 1
+ジグゾーパズル	1 NOUN 1
+ジグマール	1 PROPN 1
+ジストニア	1 PROPN 1
+ジゼル	1 PROPN 1
+ジブリル	1 PROPN 1
+ジミー	3 PROPN 3
+ジム	1 NOUN 1
+ジャ	3 NOUN 3
+ジャイアン	1 PROPN 1
+ジャイラス	1 PROPN 1
+ジャイロ	1 NOUN 1
+ジャイロサイブレータ	1 PROPN 1
+ジャクソン	1 PROPN 1
+ジャクリーン	1 PROPN 1
+ジャスティス	1 PROPN 1
+ジャスト	2 NOUN 2
+ジャズ	5 NOUN 5
+ジャック	7 NOUN 7
+ジャドーズ	1 PROPN 1
+ジャネット・ジャクソン	1 PROPN 1
+ジャパン	3 NOUN 3
+ジャビウス	1 PROPN 1
+ジャム	1 NOUN 1
+ジャン	4 PROPN 4
+ジャンボ	1 NOUN 1
+ジャンル	9 NOUN 9
+ジャー	3 NOUN 3
+ジャージー	1 NOUN 1
+ジャーナリズム	2 NOUN 2
+ジャーナル	1 NOUN 1
+ジャーマン	2 PROPN 2
+ジャール	1 PROPN 1
+ジャーヴィス	1 PROPN 1
+ジュエリー	1 NOUN 1
+ジュニア	3 NOUN 3
+ジュネーヴ	2 PROPN 2
+ジュラ紀	1 NOUN 1
+ジュンガル	1 PROPN 1
+ジューシー	1 ADJ 1
+ジュース	2 NOUN 2
+ジュール	1 NOUN 1
+ジョイス	1 PROPN 1
+ジョイント	1 NOUN 1
+ジョセフ	3 PROPN 3
+ジョゼフ	1 PROPN 1
+ジョチ	1 PROPN 1
+ジョナ	2 PROPN 2
+ジョニー	1 PROPN 1
+ジョブ	1 NOUN 1
+ジョリエット	1 PROPN 1
+ジョルジュ	1 PROPN 1
+ジョン	11 PROPN 11
+ジョンソン	1 PROPN 1
+ジョン・レノン	1 PROPN 1
+ジョージ	2 PROPN 2
+ジン	2 NOUN 2
+ジンジャ	2 NOUN 2
+ジヴェルニー	1 PROPN 1
+ジーナ	1 PROPN 1
+スイス	2 PROPN 2
+スイッチング	1 NOUN 1
+スイング	1 NOUN 1
+スイーツ	2 NOUN 2
+スウェル	1 PROPN 1
+スウェーデン	4 PROPN 4
+スウォンジー	1 PROPN 1
+スカイ	2 NOUN 2
+スカウト	4 NOUN 3 VERB 1
+スカゲラク	1 PROPN 1
+スカッ	1 PROPN 1
+スカパー	2 PROPN 2
+スカリー	1 PROPN 1
+スカルノ	1 PROPN 1
+スキピオ	1 PROPN 1
+スキャン	1 NOUN 1
+スキル	5 NOUN 5
+スキンケア	1 NOUN 1
+スキー	2 NOUN 2
+スクウェアエディー	1 PROPN 1
+スクエア	1 NOUN 1
+スクリプト	2 NOUN 2
+スクリャービン	2 PROPN 2
+スクリュー	1 NOUN 1
+スクロール	2 NOUN 2
+スクープ	1 NOUN 1
+スクール	3 NOUN 3
+スグ	1 PROPN 1
+スケジュール	1 NOUN 1
+スケッチブック	1 NOUN 1
+スケート	4 NOUN 4
+スケール	1 NOUN 1
+スケ番	1 NOUN 1
+スコア	3 NOUN 3
+スコット	1 PROPN 1
+スコットランド	2 PROPN 2
+スコパス	1 PROPN 1
+スコークス	1 PROPN 1
+スコータイ	4 PROPN 4
+スコーレム	1 PROPN 1
+スゴイ	1 PROPN 1
+スシトナ	1 PROPN 1
+ススメ	1 PROPN 1
+スズキ	1 NOUN 1
+スタ	1 PROPN 1
+スタジアム	4 NOUN 4
+スタジオ	4 NOUN 4
+スタッフ	25 NOUN 25
+スタテンアイランド	1 PROPN 1
+スタニスワフ	1 PROPN 1
+スタンダード	1 ADJ 1
+スタンド	2 NOUN 2
+スター	7 NOUN 7
+スタースクリーム	1 PROPN 1
+スタート	10 VERB 6 NOUN 4
+スターリン	1 PROPN 1
+スターリングラード	1 PROPN 1
+スター・ウォーズ	2 PROPN 2
+スダメリカーナ	1 PROPN 1
+スチュアート	1 PROPN 1
+スチュワート	2 PROPN 2
+スチール	1 NOUN 1
+スッキリ	2 VERB 1 PROPN 1
+スッラ	1 PROPN 1
+スティング	1 NOUN 1
+スティーブ	1 PROPN 1
+スティーヴ	1 PROPN 1
+スティーヴン	2 PROPN 2
+ステイクト	1 PROPN 1
+ステイルメイト	1 PROPN 1
+ステップ	2 NOUN 2
+ステーキ	1 NOUN 1
+ステークス	1 PROPN 1
+ステーション	1 NOUN 1
+ステージ	16 NOUN 16
+ステータス	1 NOUN 1
+ステート	1 NOUN 1
+ストックオプション	1 NOUN 1
+ストップ	2 NOUN 1 VERB 1
+ストライカー	1 NOUN 1
+ストライキ	1 NOUN 1
+ストライプ	1 NOUN 1
+ストラスブール	1 PROPN 1
+ストラトクルーザー	1 PROPN 1
+ストラトス	1 PROPN 1
+ストランラー	1 PROPN 1
+ストリッパー	1 NOUN 1
+ストリップ	1 NOUN 1
+ストリート	6 NOUN 6
+ストレイチー	2 PROPN 2
+ストレンジャー	1 NOUN 1
+ストレート	5 NOUN 3 ADJ 2
+ストロンゴリ	1 PROPN 1
+ストローク	2 NOUN 2
+ストーカー	1 NOUN 1
+ストーナー	1 PROPN 1
+ストーリー	9 NOUN 9
+スナイダー	1 PROPN 1
+スナッパー	1 PROPN 1
+スニーカー	1 NOUN 1
+スネオヘアー	1 PROPN 1
+スネーク	1 NOUN 1
+スバル	2 PROPN 2
+スパ	3 PROPN 3
+スパイ	1 NOUN 1
+スパイス	1 NOUN 1
+スパッツ	1 NOUN 1
+スパニエル	2 PROPN 2
+スパー	1 NOUN 1
+スピルバーグ	1 PROPN 1
+スピン	1 NOUN 1
+スピーカー	5 NOUN 5
+スピード	3 NOUN 3
+スプリングフィールド	1 PROPN 1
+スプルス	1 PROPN 1
+スプレンディード	1 PROPN 1
+スプレー	1 NOUN 1
+スプーン	1 NOUN 1
+スベール	1 PROPN 1
+スペア	1 NOUN 1
+スペイン	9 PROPN 9
+スペクトル	1 NOUN 1
+スペシャル	3 NOUN 3
+スペリオーリ	1 PROPN 1
+スペース	5 NOUN 5
+スペースシャトル	1 NOUN 1
+スポット	3 NOUN 3
+スポルク	1 PROPN 1
+スポルティング	1 PROPN 1
+スポンサー	2 NOUN 2
+スポーツ	18 NOUN 17 VERB 1
+スポーツカー	1 NOUN 1
+スポーツクラブ	2 NOUN 2
+スポーツ中継	1 NOUN 1
+スポーツ施設	1 NOUN 1
+スポーツ紙	1 NOUN 1
+スマッシュブラザーズシリーズ	1 PROPN 1
+スマノダイドウ	1 PROPN 1
+スマホ	2 NOUN 2
+スマート	1 NOUN 1
+スマートフォン	2 NOUN 2
+スミシー	2 PROPN 2
+スミス	4 PROPN 4
+スモッグ	1 NOUN 1
+スライド	1 NOUN 1
+スラスター	1 PROPN 1
+スラッシュ	1 NOUN 1
+スラブ	1 NOUN 1
+スラヴ	1 NOUN 1
+スリック	1 PROPN 1
+スリット	1 NOUN 1
+スリッパ	1 NOUN 1
+スリップ	1 NOUN 1
+スリム	1 ADJ 1
+スリランカ	1 PROPN 1
+スリーブ	1 NOUN 1
+スル	1 PROPN 1
+スルー	1 PROPN 1
+スレッド	3 NOUN 3
+スレンダー	1 PROPN 1
+スロバキア	2 PROPN 2
+スロベニア	1 PROPN 1
+スローガン	1 NOUN 1
+スローバックス	1 PROPN 1
+スロープ	1 NOUN 1
+スワロフスキー	1 PROPN 1
+スワン	1 NOUN 1
+スー	2 PROPN 2
+スーツ	4 NOUN 4
+スーパー	6 NOUN 6
+スーパーウォッシュ	1 PROPN 1
+スーパートレジャーハント	1 PROPN 1
+スーパーフェニックス	1 PROPN 1
+スーパーボウル	5 PROPN 5
+スーパーマリオ	1 PROPN 1
+スーパーマーケット	1 NOUN 1
+スープ	11 NOUN 11
+スープレックス	3 PROPN 3
+スール	1 PROPN 1
+ズゥアト	1 PROPN 1
+ズビスコ	1 PROPN 1
+ズム	1 PROPN 1
+ズルツァー	1 PROPN 1
+ズレ	1 NOUN 1
+ズームイン	1 NOUN 1
+ズームレンズ	1 NOUN 1
+セイコーエプソン	2 PROPN 2
+セインツ	1 PROPN 1
+セオリー	1 NOUN 1
+セカ	1 PROPN 1
+セカイ	1 PROPN 1
+セガ	1 PROPN 1
+セキグチ	1 PROPN 1
+セキュアー	1 PROPN 1
+セクション	3 NOUN 3
+セクハラ	1 NOUN 1
+セコール	1 PROPN 1
+セシウム	1 NOUN 1
+セゾン	1 PROPN 1
+セダン	1 NOUN 1
+セックス	2 NOUN 2
+セッコク	1 PROPN 1
+セッション	4 NOUN 3 VERB 1
+セッティング	2 NOUN 1 VERB 1
+セット	13 NOUN 13
+セドリク	1 PROPN 1
+セバスチャン	1 PROPN 1
+セブリング	1 PROPN 1
+セブン	2 NOUN 2
+セブン-イレブン	1 PROPN 1
+セム	1 PROPN 1
+セラクルミン	1 PROPN 1
+セラソーラーコーポレーション	1 PROPN 1
+セラピスト	1 NOUN 1
+セラーズ	1 PROPN 1
+セリエ	2 PROPN 2
+セリフ	1 NOUN 1
+セル	1 NOUN 1
+セルティックス	1 PROPN 1
+セルトゥ	1 PROPN 1
+セルフ	1 NOUN 1
+セルロース	1 NOUN 1
+セレニティ	1 PROPN 1
+セレニティー	1 PROPN 1
+セレブ	1 PROPN 1
+セレブリティ	1 PROPN 1
+センサ	1 NOUN 1
+センサー	4 NOUN 4
+センス	1 NOUN 1
+センター	18 NOUN 18
+センチ	2 NOUN 2
+セント	1 NOUN 1
+セントオーガスティン	1 PROPN 1
+セントラル	1 NOUN 1
+セントルイス	2 PROPN 2
+センニチコウ	1 PROPN 1
+センバツ	1 PROPN 1
+セーヌ川	1 PROPN 1
+セーフティー	1 ADJ 1
+セーラーアニマメイツ	1 PROPN 1
+セーラームーン	1 PROPN 1
+セーラー服	1 NOUN 1
+セール	1 NOUN 1
+セールス	1 NOUN 1
+セーレン	1 PROPN 1
+セーヴル	1 PROPN 1
+ゼイラム	1 PROPN 1
+ゼウス	4 NOUN 4
+ゼッター	1 PROPN 1
+ゼットバスター	1 PROPN 1
+ゼッパ	1 PROPN 1
+ゼフォン	1 PROPN 1
+ゼリー	1 NOUN 1
+ゼルプ	1 PROPN 1
+ゼロ	8 NOUN 8
+ゼンショー	1 PROPN 1
+ソ	2 PROPN 2
+ソウル	4 PROPN 4
+ソキウス	1 PROPN 1
+ソナー	1 NOUN 1
+ソニック	2 NOUN 2
+ソニー	1 PROPN 1
+ソニー・コンピュータエンタテインメント	1 PROPN 1
+ソノ	1 PROPN 1
+ソノブイ	1 PROPN 1
+ソビエト	1 PROPN 1
+ソビエト連邦	2 PROPN 2
+ソフィア	2 PROPN 2
+ソフィー	1 PROPN 1
+ソフト	5 NOUN 3 ADJ 2
+ソフトウェア	13 NOUN 13
+ソフトバンク	6 PROPN 6
+ソブリン	1 PROPN 1
+ソマリ	1 PROPN 1
+ソマリランド	1 PROPN 1
+ソムリエ	3 NOUN 3
+ソユーズ	1 PROPN 1
+ソリューション	2 NOUN 2
+ソロ	7 NOUN 7
+ソロモン	1 PROPN 1
+ソン	2 PROPN 2
+ソング	3 NOUN 3
+ソンピル	1 PROPN 1
+ソーサ	1 PROPN 1
+ソーシャル	1 ADJ 1
+ソーシャルメディア	4 PROPN 4
+ソース	2 NOUN 2
+ソ連	7 PROPN 7
+ソ連崩壊	1 NOUN 1
+ソ連軍	1 NOUN 1
+ゾイド	4 PROPN 4
+ゾル	2 PROPN 2
+ゾルゲ事件	1 PROPN 1
+ゾーン	2 NOUN 2
+タイ	5 NOUN 5
+タイガー	1 NOUN 1
+タイガース	1 PROPN 1
+タイタス	1 PROPN 1
+タイトル	14 NOUN 14
+タイプ	8 NOUN 7 VERB 1
+タイミング	6 NOUN 6
+タイム	14 NOUN 13 PROPN 1
+タイムラグ	1 NOUN 1
+タイヤ	2 NOUN 2
+タイラー	1 PROPN 1
+タイ王国	1 PROPN 1
+タウバービショフスハイム	1 PROPN 1
+タウン	5 NOUN 5
+タウンズ	1 PROPN 1
+タオル	1 NOUN 1
+タカヒコ	1 PROPN 1
+タキシード	1 NOUN 1
+タクシー	2 NOUN 2
+タグ	1 NOUN 1
+タコ	1 NOUN 1
+タコマ	1 PROPN 1
+タコライス	1 NOUN 1
+タシュンケウィトコ	1 PROPN 1
+タスカン	2 PROPN 2
+タスキーギ	2 PROPN 2
+タス通信	1 PROPN 1
+タダ	1 PROPN 1
+タッグ	1 PROPN 1
+タッタタタッタタ	1 PROPN 1
+タッチ	4 NOUN 2 VERB 2
+タッピング	1 VERB 1
+タツノコプロ	3 PROPN 3
+タデウシュ	1 PROPN 1
+タバコ	3 NOUN 3
+タバーン	1 PROPN 1
+タフ	1 ADJ 1
+タブレット	2 NOUN 2
+タブー	1 NOUN 1
+タペストリー	1 NOUN 1
+タマゴ	1 NOUN 1
+タマネギ	1 NOUN 1
+タメ	1 PROPN 1
+タモリ	1 PROPN 1
+タラス	1 PROPN 1
+タラップ	1 NOUN 1
+タリアフェーロ	1 PROPN 1
+タルタロス	1 PROPN 1
+タレ	2 NOUN 2
+タレント	6 NOUN 6
+タロット	1 NOUN 1
+タワー	1 NOUN 1
+タンカー	1 NOUN 1
+タンク	4 NOUN 4
+タンゴ	1 NOUN 1
+タンパク	1 NOUN 1
+タンボラダ	1 PROPN 1
+ターク	1 PROPN 1
+タークス	1 PROPN 1
+ターゲット	1 NOUN 1
+タートル	1 PROPN 1
+ターニャ	1 PROPN 1
+タービン	1 NOUN 1
+ターボ	1 NOUN 1
+ターボプロップエンジン	1 NOUN 1
+ターミナル	3 NOUN 2 PROPN 1
+ターミナル駅	1 NOUN 1
+ターリバーン	1 PROPN 1
+タールヴィッツ	1 PROPN 1
+ターン	1 NOUN 1
+ターンテーブル	1 NOUN 1
+ダ	1 PROPN 1
+ダイ	1 NOUN 1
+ダイアス	1 PROPN 1
+ダイエット	1 NOUN 1
+ダイエー	1 PROPN 1
+ダイオード	1 NOUN 1
+ダイク	1 PROPN 1
+ダイクストラ	2 PROPN 2
+ダイクン	1 PROPN 1
+ダイス	1 NOUN 1
+ダイデンジンブーメラン	1 PROPN 1
+ダイナミック	2 ADJ 2
+ダイバー	1 NOUN 1
+ダイビング	1 NOUN 1
+ダイヤ	3 NOUN 3
+ダイヤモンド	3 NOUN 3
+ダイヤルイン	1 NOUN 1
+ダイヤ改正	2 NOUN 2
+ダイレクトリマッチ	1 PROPN 1
+ダウ	1 NOUN 1
+ダウン	1 NOUN 1
+ダウンロード	2 NOUN 2
+ダゲット	1 PROPN 1
+ダシ	1 PROPN 1
+ダッゲ	1 PROPN 1
+ダッシュ	4 NOUN 4
+ダッジ	1 PROPN 1
+ダッチ	1 PROPN 1
+ダッチェス	1 PROPN 1
+ダドリー	1 PROPN 1
+ダナン	1 PROPN 1
+ダニ	2 NOUN 2
+ダニルソン	1 PROPN 1
+ダバオ	2 PROPN 2
+ダブリン	2 PROPN 2
+ダブル	6 NOUN 6
+ダブルス	3 NOUN 3
+ダミー	2 NOUN 2
+ダム	9 NOUN 9
+ダムド	1 PROPN 1
+ダム湖	1 PROPN 1
+ダメ	3 ADJ 3
+ダメージ	10 NOUN 10
+ダライアス	1 PROPN 1
+ダラス	1 PROPN 1
+ダラムサラ	1 PROPN 1
+ダル	1 NOUN 1
+ダルウィッチヒル	1 PROPN 1
+ダルビッシュ	1 PROPN 1
+ダレ	1 PROPN 1
+ダン	2 PROPN 2
+ダングレスト	1 PROPN 1
+ダンサー	1 NOUN 1
+ダンス	8 NOUN 8
+ダンプ	1 NOUN 1
+ダーク	5 NOUN 4 ADJ 1
+ダークブレイン	1 PROPN 1
+ダース	1 NOUN 1
+ダーター	2 PROPN 2
+ダーティー	1 ADJ 1
+ダート	2 NOUN 2
+チェア	1 NOUN 1
+チェコ	1 PROPN 1
+チェサピーク	1 PROPN 1
+チェザーリ	1 PROPN 1
+チェジュド	1 PROPN 1
+チェス	2 NOUN 2
+チェック	6 VERB 6
+チェックイン	1 NOUN 1
+チェリー	1 NOUN 1
+チェーカー	2 PROPN 2
+チェーン	2 NOUN 2
+チエンマイ	2 PROPN 2
+チケット	5 NOUN 5
+チチハル	1 PROPN 1
+チヂミ	1 PROPN 1
+チック	1 NOUN 1
+チップス	1 NOUN 1
+チップセット	2 NOUN 2
+チビマリオ	1 PROPN 1
+チベット	6 PROPN 6
+チャシ	2 PROPN 2
+チャット	1 NOUN 1
+チャペル	1 NOUN 1
+チャミー	1 PROPN 1
+チャラ	1 PROPN 1
+チャリティー	1 NOUN 1
+チャレンジ	6 VERB 3 NOUN 3
+チャレンジャー	1 NOUN 1
+チャンゴル	1 PROPN 1
+チャンネル	4 NOUN 4
+チャンピオン	2 NOUN 2
+チャンピオンシップ	3 NOUN 3
+チャンピオンズカップ	1 PROPN 1
+チャンピオンズリーグ	5 PROPN 5
+チャーシュー	1 NOUN 1
+チャージ	1 NOUN 1
+チャーター	1 VERB 1
+チャーター便	1 NOUN 1
+チャート	4 NOUN 4
+チャーハン	4 NOUN 4
+チャーリー	2 PROPN 2
+チュニス	1 PROPN 1
+チューナ	1 NOUN 1
+チョイスル	1 PROPN 1
+チョコレート	2 NOUN 2
+チョコレートケーキ	1 NOUN 1
+チョン	2 PROPN 2
+チョーサンヤ	1 PROPN 1
+チラエフ	1 PROPN 1
+チラシ	9 NOUN 9
+チンパンジー	1 NOUN 1
+チンピラ	1 NOUN 1
+チーズ	2 NOUN 2
+チーズフォンデュ	1 NOUN 1
+チーフコーチ	1 NOUN 1
+チーム	53 NOUN 53
+チームメート	2 NOUN 2
+ツアー	7 NOUN 7
+ツイッター	2 PROPN 2
+ツイン	3 NOUN 3
+ツェッペリン	1 PROPN 1
+ツォン	1 PROPN 1
+ツナ	1 NOUN 1
+ツベルクリン	1 NOUN 1
+ツボ	1 NOUN 1
+ツヴァイブリュッケン	1 PROPN 1
+ツヴィステ	2 PROPN 2
+ツーショット	2 NOUN 2
+ツール	2 NOUN 2
+ティキ	1 PROPN 1
+ティタノマキア	1 PROPN 1
+ティターンズ	1 PROPN 1
+ティップ	1 NOUN 1
+ティップス	1 PROPN 1
+ティト	1 PROPN 1
+ティビシス	1 PROPN 1
+ティビスクス	1 PROPN 1
+ティプ	1 PROPN 1
+ティム	1 PROPN 1
+ティモシー	1 PROPN 1
+ティリアック	1 PROPN 1
+ティロリアン	1 PROPN 1
+ティン	1 PROPN 1
+ティー	1 NOUN 1
+ティーン	1 NOUN 1
+テイスト	1 NOUN 1
+テイチク	1 PROPN 1
+テインマス	1 PROPN 1
+テキサス	1 PROPN 1
+テキスト	3 NOUN 3
+テクニック	2 NOUN 2
+テグシガルパ	1 PROPN 1
+テジャス	1 PROPN 1
+テスト	5 NOUN 4 VERB 1
+テックス	1 NOUN 1
+テッサリア	1 PROPN 1
+テナルディエ	1 PROPN 1
+テニス	4 NOUN 4
+テヘラン	1 PROPN 1
+テムジン	1 PROPN 1
+テムズ川	1 PROPN 1
+テュレンヌ	3 PROPN 3
+テラス	3 NOUN 3
+テラーコン	1 PROPN 1
+テリア	1 NOUN 1
+テル	4 NOUN 4
+テレ	1 PROPN 1
+テレパシー	3 NOUN 3
+テレビ	17 NOUN 17
+テレビシリーズ	1 NOUN 1
+テレビドラマ	4 NOUN 4
+テレビ愛知	1 PROPN 1
+テレビ放送	1 NOUN 1
+テレビ朝日	2 PROPN 2
+テレビ東京	2 PROPN 2
+テレビ西日本	1 PROPN 1
+テレビ静岡	1 PROPN 1
+テロ	7 NOUN 7
+テロリズム	1 NOUN 1
+テロ対策	1 NOUN 1
+テン	2 NOUN 2
+テンション	4 NOUN 4
+テント	1 NOUN 1
+テンパイ	1 NOUN 1
+テンプテーションズ	1 PROPN 1
+テーブル	8 NOUN 8
+テーマ	8 NOUN 8
+テーマパーク	1 NOUN 1
+テーマ曲	1 NOUN 1
+デ	3 PROPN 3
+ディ	2 NOUN 2
+ディアルガ	1 PROPN 1
+ディオニューソス	1 PROPN 1
+ディオン	1 PROPN 1
+ディスク	7 NOUN 7
+ディスクロージャー	1 NOUN 1
+ディズニー	1 PROPN 1
+ディズニー・チャンネル	1 PROPN 1
+ディズレーリ	2 PROPN 2
+ディセプティコン	1 PROPN 1
+ディナ	1 PROPN 1
+ディフェンダー	3 NOUN 3
+ディベルヴィユ	1 PROPN 1
+ディミトリオス	1 PROPN 1
+ディレクター	2 NOUN 2
+ディーゼル	1 NOUN 1
+ディーン	2 PROPN 2
+ディーヴァ	3 PROPN 3
+デイ	1 NOUN 1
+デイス	1 PROPN 1
+デイブ	1 PROPN 1
+デイリー	1 NOUN 1
+デイリースポーツ	1 PROPN 1
+デイヴィス	1 PROPN 1
+デイヴィッド	4 PROPN 4
+デウス	1 NOUN 1
+デカルト	1 PROPN 1
+デコメ	1 PROPN 1
+デザイン	16 NOUN 12 VERB 4
+デザート	6 NOUN 6
+デシモーネ	1 PROPN 1
+デジタル	5 ADJ 3 NOUN 1 PROPN 1
+デジタルカメラ	2 NOUN 2
+デジタル放送	1 NOUN 1
+デジデリウス	1 PROPN 1
+デジモン	2 PROPN 2
+デスクトップ	1 NOUN 1
+デスティネーション	1 NOUN 1
+デストロン	1 PROPN 1
+デスピノワ	1 PROPN 1
+デスボイス	1 PROPN 1
+デスメタル	1 PROPN 1
+デタープル	1 PROPN 1
+デッカーハイツ	1 PROPN 1
+デッキ	2 NOUN 2
+デッラ	1 PROPN 1
+デニー	1 PROPN 1
+デバイス	1 NOUN 1
+デヒドロゲナーゼ	1 PROPN 1
+デビジョン	1 NOUN 1
+デビスカップ	1 NOUN 1
+デビュー	31 NOUN 16 VERB 15
+デビル	1 PROPN 1
+デビルイヤー	1 PROPN 1
+デボラ	1 PROPN 1
+デポル	1 PROPN 1
+デメリット	1 NOUN 1
+デモ	18 NOUN 18
+デュエット	1 NOUN 1
+デュエロ	1 PROPN 1
+デュッセルドルフ	1 PROPN 1
+デュメジル	1 PROPN 1
+デュランテ	1 PROPN 1
+デューイー	1 PROPN 1
+デュークス	1 PROPN 1
+デュース	1 PROPN 1
+デラックス	1 NOUN 1
+デリゾール	1 PROPN 1
+デル	1 PROPN 1
+デルタ	1 NOUN 1
+デンジ	1 PROPN 1
+デンジボール	1 PROPN 1
+デンジャラスプレー	1 PROPN 1
+デントナ	1 PROPN 1
+デヴィッド	1 PROPN 1
+デーゲーム	1 NOUN 1
+データ	20 NOUN 20
+データベース	2 NOUN 2
+データ通信	1 NOUN 1
+データ通信サービス	1 NOUN 1
+デート	5 ADJ 3 NOUN 2
+ト	1 PROPN 1
+トゥシナベ	1 PROPN 1
+トゥルーリ	1 PROPN 1
+トゥヴァ	1 PROPN 1
+トゥー	1 NOUN 1
+トゥール	1 NOUN 1
+トウジ	1 PROPN 1
+トゲ	2 PROPN 2
+トシ	1 PROPN 1
+トック	1 PROPN 1
+トッコ	1 PROPN 1
+トッピング	2 NOUN 2
+トップ	12 NOUN 12
+トド	1 NOUN 1
+トナー	1 NOUN 1
+トニー	2 PROPN 2
+トマ	2 PROPN 2
+トマス	1 PROPN 1
+トマト	2 NOUN 2
+トマホーク	1 NOUN 1
+トミ	1 PROPN 1
+トミー	1 PROPN 1
+トム	3 PROPN 3
+トムソン	1 PROPN 1
+トメ	1 PROPN 1
+トモ	1 PROPN 1
+トヨタ	1 PROPN 1
+トラ	1 NOUN 1
+トライアル	3 NOUN 3
+トライアングル	1 NOUN 1
+トラクト	1 PROPN 1
+トラック	3 NOUN 3
+トラディショナル	1 ADJ 1
+トラブル	8 NOUN 8
+トラヤヌス	1 PROPN 1
+トランジスタ	1 NOUN 1
+トリオ	2 NOUN 2
+トリガー	3 NOUN 3
+トリコロール	1 NOUN 1
+トリコローレ	1 PROPN 1
+トリトドンショップ	1 PROPN 1
+トリノ	1 NOUN 1
+トリプル	1 NOUN 1
+トリューニヒト	1 PROPN 1
+トルコ	3 PROPN 3
+トルコ石	1 NOUN 1
+トルシエ	1 PROPN 1
+トルソ	1 PROPN 1
+トルドー	2 PROPN 2
+トルマキオ	2 PROPN 2
+トルミーノ	1 PROPN 1
+トルーマン・ドクトリン	1 PROPN 1
+トレイン	1 NOUN 1
+トレガノン	1 PROPN 1
+トレジャーハント	1 PROPN 1
+トレッド	1 PROPN 1
+トレモント	1 PROPN 1
+トレンガヌ	1 PROPN 1
+トレヴィ	1 PROPN 1
+トレード	2 NOUN 2
+トレードマーク	1 NOUN 1
+トロステネツ	1 PROPN 1
+トロッコ	1 NOUN 1
+トロフィー	3 NOUN 3
+トロン	1 PROPN 1
+トン	3 NOUN 3
+トンカツ	1 NOUN 1
+トンガ	1 PROPN 1
+トンコンティン	1 PROPN 1
+トンティ	1 PROPN 1
+トンネル	6 NOUN 6
+トーキョー	1 PROPN 1
+トーク	8 NOUN 8
+トースト	2 NOUN 2
+トータルオフェンス	1 PROPN 1
+トーマス	1 PROPN 1
+トールキン	2 PROPN 2
+トーン	1 NOUN 1
+ド	3 PROPN 3
+ドア	6 NOUN 6
+ドイツ	21 PROPN 21
+ドイツテレコム	1 PROPN 1
+ドイツ連邦銀行	1 PROPN 1
+ドイル	1 PROPN 1
+ドゥビュシー	1 PROPN 1
+ドゥブナ	1 PROPN 1
+ドゥーナダン	1 PROPN 1
+ドキドキ	2 VERB 2
+ドクター	2 NOUN 2
+ドクターマリオ	1 PROPN 1
+ドコモ	1 PROPN 1
+ドジャース	1 PROPN 1
+ドジョウ	1 NOUN 1
+ドス	2 NOUN 2
+ドッキリ	1 PROPN 1
+ドック	1 NOUN 1
+ドッグファイト	1 PROPN 1
+ドッケン	1 PROPN 1
+ドット	1 NOUN 1
+ドップラー効果	1 NOUN 1
+ドナウ川	1 PROPN 1
+ドナルド	1 PROPN 1
+ドビー	1 PROPN 1
+ドブ	1 PROPN 1
+ドミトリー	1 PROPN 1
+ドミニク	2 PROPN 2
+ドメイン	3 NOUN 3
+ドラえもん	4 PROPN 4
+ドライ	1 NOUN 1
+ドライアイス	1 NOUN 1
+ドライバー	3 NOUN 3
+ドライフラワー	1 NOUN 1
+ドラゴン	1 NOUN 1
+ドラゴンボール	1 PROPN 1
+ドラッグ	1 NOUN 1
+ドラフト	3 NOUN 3
+ドラマ	18 NOUN 17 VERB 1
+ドラム	1 NOUN 1
+ドリル	1 NOUN 1
+ドリンク	1 NOUN 1
+ドリーネ	1 NOUN 1
+ドリーム	2 NOUN 2
+ドル	19 NOUN 19
+ドルイド	1 NOUN 1
+ドルチェ	1 PROPN 1
+ドルトムント	1 PROPN 1
+ドレウェット	1 PROPN 1
+ドレス	4 NOUN 4
+ドレッシング	1 NOUN 1
+ドロイ	1 PROPN 1
+ドロイド	1 PROPN 1
+ドロップ	2 NOUN 2
+ドロテア	1 PROPN 1
+ドロン	1 PROPN 1
+ドワイヤー	1 PROPN 1
+ドワーフ	1 PROPN 1
+ドン	2 NOUN 2
+ドンキーコング	1 PROPN 1
+ドースト	1 PROPN 1
+ドーハ	1 PROPN 1
+ドーパント	1 PROPN 1
+ドーフィン	1 PROPN 1
+ドーベン	1 PROPN 1
+ドーマー	1 PROPN 1
+ドーム	1 NOUN 1
+ドーヴァー	1 PROPN 1
+ナイス	1 NOUN 1
+ナイター	1 NOUN 1
+ナイト	3 NOUN 2 PROPN 1
+ナイトセイバーズ	1 PROPN 1
+ナイナーズ	1 PROPN 1
+ナイル	1 PROPN 1
+ナイン	1 NOUN 1
+ナウクラテー	1 PROPN 1
+ナウプリオス	1 PROPN 1
+ナガセケンコー	1 PROPN 1
+ナゴヤプリン	1 PROPN 1
+ナシ	1 NOUN 1
+ナスターゼ	1 PROPN 1
+ナセルシティ	1 PROPN 1
+ナタリー	1 PROPN 1
+ナチス	3 NOUN 3
+ナット	1 NOUN 1
+ナトリウム	1 NOUN 1
+ナナフシ	1 NOUN 1
+ナビ	2 NOUN 1 PROPN 1
+ナポレオン	3 PROPN 3
+ナマイキ	1 PROPN 1
+ナムトゥワム	2 PROPN 2
+ナムリス	1 PROPN 1
+ナヤ	1 PROPN 1
+ナラヤニ	1 PROPN 1
+ナルト	1 PROPN 1
+ナレーション	1 NOUN 1
+ナン	2 NOUN 2
+ナンシー	1 PROPN 1
+ナント	1 PROPN 1
+ナンバー	3 PART 2 NOUN 1
+ナンボ	1 PROPN 1
+ニ	1 PROPN 1
+ニアングウェ	1 PROPN 1
+ニェゴシェフスキ	1 PROPN 1
+ニカラグア	1 PROPN 1
+ニキビ	1 NOUN 1
+ニキータ	1 PROPN 1
+ニコシナチ	1 PROPN 1
+ニコニコ	2 PROPN 2
+ニコニコ動画	1 PROPN 1
+ニコライ	2 PROPN 2
+ニコラウス	1 PROPN 1
+ニザール	1 PROPN 1
+ニシアメリカフクロウ	1 PROPN 1
+ニスモフェスティバル	2 PROPN 2
+ニセマホ	1 PROPN 1
+ニックネーム	1 NOUN 1
+ニッコロ	1 PROPN 1
+ニップン	1 PROPN 1
+ニッポン放送	1 PROPN 1
+ニノイ	1 PROPN 1
+ニャース	1 PROPN 1
+ニュルンベルク	1 PROPN 1
+ニュー	2 NOUN 2
+ニューウェーヴ	1 PROPN 1
+ニューオリンズ	1 PROPN 1
+ニューカッスル	1 PROPN 1
+ニューカマー	1 NOUN 1
+ニュージーランド	2 PROPN 2
+ニュース	10 NOUN 10
+ニュースレター	1 NOUN 1
+ニューディール政策	1 NOUN 1
+ニュートン力学	1 PROPN 1
+ニュード	1 PROPN 1
+ニューポート	1 NOUN 1
+ニューヨーク	7 PROPN 7
+ニューヨーク大学	1 PROPN 1
+ニューロンドン	1 PROPN 1
+ニンテンドー	1 PROPN 1
+ニンニク	1 NOUN 1
+ニンフェンブルク	1 PROPN 1
+ニーズ	5 NOUN 5
+ヌィサ	1 PROPN 1
+ヌガール	1 PROPN 1
+ヌクフェタウ	1 PROPN 1
+ヌマンティア	1 PROPN 1
+ヌルミ	1 PROPN 1
+ヌンチャク	1 PROPN 1
+ヌーダ	1 PROPN 1
+ヌートカ	1 PROPN 1
+ヌーボー	1 NOUN 1
+ネイガウス	1 PROPN 1
+ネイチャー	2 NOUN 2
+ネイト	1 PROPN 1
+ネイル	1 NOUN 1
+ネオアトランティス	1 PROPN 1
+ネオパトラス	1 PROPN 1
+ネガティブ	2 ADJ 1 NOUN 1
+ネギ	2 NOUN 2
+ネクスト	2 PROPN 2
+ネクタイ	1 NOUN 1
+ネグレクト	1 NOUN 1
+ネコ	4 NOUN 4
+ネコミミ	1 PROPN 1
+ネズミ	1 NOUN 1
+ネタ	12 NOUN 12
+ネック	4 NOUN 4
+ネッツ	1 PROPN 1
+ネット	10 NOUN 10
+ネットワーク	5 NOUN 5
+ネブカドネザル	2 PROPN 2
+ネプトゥーヌス	1 PROPN 1
+ネモフィラ	1 PROPN 1
+ネリン	1 PROPN 1
+ネル	1 NOUN 1
+ネルソン	1 NOUN 1
+ネルヴァリスト	1 PROPN 1
+ネルヴァル	1 PROPN 1
+ネヴィ	1 PROPN 1
+ネーター	5 PROPN 5
+ネーミング	1 NOUN 1
+ネーム	3 NOUN 3
+ネール	1 NOUN 1
+ノ	1 NOUN 1
+ノイズ	6 NOUN 6
+ノスタルジック	1 ADJ 1
+ノストラダムス	1 PROPN 1
+ノズル	2 NOUN 2
+ノゼマ	1 PROPN 1
+ノックアウト	1 NOUN 1
+ノッチ	4 NOUN 4
+ノッティンガム	1 PROPN 1
+ノット	1 NOUN 1
+ノミネート	1 VERB 1
+ノラ	1 PROPN 1
+ノリ	1 NOUN 1
+ノリス	1 PROPN 1
+ノリノリ	1 ADJ 1
+ノルウェイ	1 PROPN 1
+ノルウェー	1 PROPN 1
+ノルマ	1 NOUN 1
+ノンケン	1 PROPN 1
+ノンヒョン	1 PROPN 1
+ノヴゴロド	1 PROPN 1
+ノー	3 NOUN 3
+ノーサンプトン	1 PROPN 1
+ノース	1 NOUN 1
+ノーズ	1 NOUN 1
+ノート	2 NOUN 2
+ノーヒットノーラン	1 NOUN 1
+ノービス	1 NOUN 1
+ノーフォーク	1 PROPN 1
+ノーマン	2 NOUN 2
+ハ	2 PROPN 2
+ハイ	2 NOUN 2
+ハイウェイ	1 NOUN 1
+ハイエナ	1 NOUN 1
+ハイエンド	1 NOUN 1
+ハイカラ	1 NOUN 1
+ハイダー	1 PROPN 1
+ハイチ	1 PROPN 1
+ハイテク	1 NOUN 1
+ハイド	2 PROPN 2
+ハイドラー	1 PROPN 1
+ハイドロリック	1 PROPN 1
+ハイネケン	2 PROPN 2
+ハイブリッド	2 NOUN 2
+ハイブリッド車	1 NOUN 1
+ハイヤー	1 NOUN 1
+ハイラル	1 PROPN 1
+ハイランド	1 NOUN 1
+ハイレベル	1 ADJ 1
+ハインリッヒ	1 PROPN 1
+ハインリヒ	1 PROPN 1
+ハウ	2 PROPN 2
+ハウス	5 NOUN 5
+ハウス食品	1 PROPN 1
+ハウンド	1 PROPN 1
+ハエ	1 NOUN 1
+ハガキ	1 NOUN 1
+ハギョン	1 PROPN 1
+ハゲタカ	1 NOUN 1
+ハゲワシ	1 NOUN 1
+ハサン	1 PROPN 1
+ハザード	1 NOUN 1
+ハズレ	1 PROPN 1
+ハチキレ	1 PROPN 1
+ハッカ	1 NOUN 1
+ハッキリ	1 PROPN 1
+ハッチ	2 NOUN 2
+ハットトリック	1 NOUN 1
+ハットン	1 PROPN 1
+ハッピー	1 ADJ 1
+ハドソン	1 PROPN 1
+ハニートースト	1 PROPN 1
+ハネス	1 PROPN 1
+ハノイ	1 PROPN 1
+ハブ	3 NOUN 3
+ハブリチェック	1 PROPN 1
+ハマ	1 PROPN 1
+ハマタ	1 PROPN 1
+ハマチ	1 NOUN 1
+ハマリ	1 PROPN 1
+ハマー	1 PROPN 1
+ハム	2 NOUN 2
+ハムリン	1 PROPN 1
+ハヤテ	1 PROPN 1
+ハラス	1 PROPN 1
+ハラージュ	1 PROPN 1
+ハリウッド	2 PROPN 2
+ハリー	1 PROPN 1
+ハリーハウゼン	1 PROPN 1
+ハル	3 PROPN 3
+ハルヒ	1 PROPN 1
+ハルヴァ	1 PROPN 1
+ハレム	1 NOUN 1
+ハロルド	1 PROPN 1
+ハロン	3 PROPN 3
+ハワイ	4 PROPN 4
+ハワイアン	1 NOUN 1
+ハワード	1 PROPN 1
+ハン	2 PROPN 2
+ハンガリー	2 PROPN 2
+ハンサム	1 ADJ 1
+ハンセン指数	1 NOUN 1
+ハンドブック	1 NOUN 1
+ハンバーガー	2 NOUN 2
+ハンバーグ	3 NOUN 3
+ハンフリー	1 PROPN 1
+ハンマー	1 NOUN 1
+ハンモック	1 NOUN 1
+ハー	1 PROPN 1
+ハーゲン	1 PROPN 1
+ハースト	1 PROPN 1
+ハーツクライ	1 PROPN 1
+ハート	4 NOUN 4
+ハートフル	1 NOUN 1
+ハートランド	1 NOUN 1
+ハード	4 NOUN 3 ADJ 1
+ハードウェア	2 NOUN 2
+ハードコア	1 NOUN 1
+ハードディスク	2 NOUN 2
+ハードル	1 NOUN 1
+ハーバー	1 PROPN 1
+ハーフ	4 NOUN 4
+ハーフタイムショー	1 NOUN 1
+ハープ	1 NOUN 1
+ハーベスター	1 PROPN 1
+ハーモニカ	1 NOUN 1
+ハーン	2 PROPN 2
+バイ	1 NOUN 1
+バイエルン	3 PROPN 3
+バイオテクノロジー	1 NOUN 1
+バイオリン	1 NOUN 1
+バイカル湖	1 PROPN 1
+バイク	3 NOUN 3
+バイト	2 NOUN 2
+バイナリ	2 PROPN 2
+バイパス	2 NOUN 2
+バイファム	1 PROPN 1
+バイヤー	1 NOUN 1
+バイユー	1 PROPN 1
+バウ	1 PROPN 1
+バウンド	1 VERB 1
+バカ	1 PROPN 1
+バゲージシティ	1 PROPN 1
+バシリカ	1 NOUN 1
+バス	16 NOUN 14 PROPN 2
+バスター	2 PROPN 2
+バスターソード	1 PROPN 1
+バスタード	1 PROPN 1
+バスリュート	2 NOUN 2
+バスルーム	2 NOUN 2
+バス停	1 NOUN 1
+バス路線	1 NOUN 1
+バタイスク	1 PROPN 1
+バター	1 NOUN 1
+バチェラー	1 NOUN 1
+バチカン	1 PROPN 1
+バック	5 NOUN 5
+バックステージ	1 NOUN 1
+バックドロップ	1 NOUN 1
+バックナンバー	1 NOUN 1
+バッグ	3 NOUN 3
+バッチリ	1 ADV 1
+バッテリ	1 NOUN 1
+バッテリー	2 NOUN 2
+バット	1 NOUN 1
+バッハ	2 PROPN 2
+バッファ	1 NOUN 1
+バッファロー	2 NOUN 2
+バトゥ	1 PROPN 1
+バトラーズ	1 PROPN 1
+バトル	10 NOUN 9 VERB 1
+バナジウム	1 NOUN 1
+バハムート	1 PROPN 1
+ババ	1 NOUN 1
+バビロン	1 PROPN 1
+バファローズ	1 PROPN 1
+バフラーム	1 PROPN 1
+バブル	1 NOUN 1
+バブルヴァーハナ	1 PROPN 1
+バブル崩壊	1 NOUN 1
+バベルの塔	1 NOUN 1
+バラ	2 NOUN 2
+バラエティー	2 NOUN 2
+バラバラ	1 ADJ 1
+バランサー	1 NOUN 1
+バラード	1 NOUN 1
+バリア	1 NOUN 1
+バリエーション	1 NOUN 1
+バリトン	1 NOUN 1
+バリー	2 PROPN 2
+バルイオール	1 PROPN 1
+バルカン	1 PROPN 1
+バルク	1 NOUN 1
+バルザック	1 PROPN 1
+バルセロナ	2 PROPN 2
+バルタリ	1 PROPN 1
+バルティルド	1 PROPN 1
+バルテルミ	1 PROPN 1
+バルト	3 PROPN 3
+バルトーク	1 PROPN 1
+バルト海	3 PROPN 3
+バルドル	1 PROPN 1
+バルブタイミング	1 NOUN 1
+バレル	1 NOUN 1
+バレンタイン	2 PROPN 2
+バレー	1 NOUN 1
+バロック	1 NOUN 1
+バロン	1 NOUN 1
+バロース	1 PROPN 1
+バンク	2 NOUN 2
+バンクシステム	1 NOUN 1
+バングラデシュ	1 PROPN 1
+バンコク	3 PROPN 3
+バンザイ	1 NOUN 1
+バンタム	1 PROPN 1
+バンダイ	1 PROPN 1
+バント	1 VERB 1
+バンド	9 NOUN 9
+バンドー	1 PROPN 1
+バンパー	1 NOUN 1
+バー	5 NOUN 5
+バーク	1 NOUN 1
+バークリー	1 PROPN 1
+バーグ	1 PROPN 1
+バーゲン	1 NOUN 1
+バージョン	11 NOUN 11
+バースデー	1 NOUN 1
+バーゼル	1 PROPN 1
+バーテーション	1 PROPN 1
+バーディー	1 NOUN 1
+バーデン	1 PROPN 1
+バートレー	1 NOUN 1
+バード	1 NOUN 1
+バーニアチョッパ	1 PROPN 1
+バーバー	1 NOUN 1
+バームクーヘン	1 PROPN 1
+バーロー	1 PROPN 1
+パイク	1 PROPN 1
+パイシャオン	1 PROPN 1
+パイプ	5 NOUN 5
+パイレーツ	1 PROPN 1
+パイロット	4 NOUN 4
+パウリ	1 PROPN 1
+パウロ	2 PROPN 2
+パウンド	1 PROPN 1
+パウンドケーキ	1 NOUN 1
+パオロ	1 PROPN 1
+パキスタン	1 PROPN 1
+パク	1 PROPN 1
+パクセン	1 PROPN 1
+パクティオー	1 PROPN 1
+パシフィック	1 NOUN 1
+パシャ	1 NOUN 1
+パス	5 NOUN 5
+パススルーサービス	1 PROPN 1
+パスタ	5 NOUN 5
+パズル	2 NOUN 2
+パソコン	9 NOUN 9
+パソコンゲーム	1 NOUN 1
+パソコンスクール	1 NOUN 1
+パソコン教室	1 NOUN 1
+パターン	3 NOUN 3
+パッと	1 ADV 1
+パック	2 NOUN 2
+パッケージ	3 NOUN 3
+パッチ	1 PROPN 1
+パッチワーク	1 NOUN 1
+パトリック	1 PROPN 1
+パトロール	1 NOUN 1
+パナソニック	2 PROPN 2
+パナマ	1 PROPN 1
+パナマ帽	1 NOUN 1
+パネラー	1 NOUN 1
+パネル	4 NOUN 4
+パノラマ	1 NOUN 1
+パブリッシング	1 NOUN 1
+パブロ	2 PROPN 2
+パラシュート	1 NOUN 1
+パラドックス	2 NOUN 2
+パラレル	1 ADJ 1
+パランダ	3 PROPN 3
+パリ	11 PROPN 11
+パリッ	1 PROPN 1
+パリパリ	1 VERB 1
+パルキア	1 PROPN 1
+パルコ	1 PROPN 1
+パルサ	1 PROPN 1
+パレスチナ	1 PROPN 1
+パレード	1 NOUN 1
+パロ	1 PROPN 1
+パロディ	1 NOUN 1
+パワー	5 NOUN 5
+パワーアップ	1 VERB 1
+パワースポット	2 NOUN 2
+パワーズ	1 PROPN 1
+パン	6 NOUN 6
+パンク	1 VERB 1
+パンタグラフ	1 NOUN 1
+パンダ	1 NOUN 1
+パンチ	1 NOUN 1
+パン屋	2 NOUN 2
+パヴレ	1 PROPN 1
+パヴロヴナ	1 PROPN 1
+パー	1 NOUN 1
+パーカー	1 NOUN 1
+パーキング	1 NOUN 1
+パーキンソニズム	1 PROPN 1
+パーク	4 NOUN 4
+パーサジェネレータ	1 PROPN 1
+パーシー	1 PROPN 1
+パーセンテージ	1 NOUN 1
+パーセント	1 NOUN 1
+パーソナル	1 NOUN 1
+パーツ	4 NOUN 4
+パーティー	5 NOUN 5
+パート	2 NOUN 2
+パートタイマー	1 NOUN 1
+パートナーズ	1 PROPN 1
+パーフェクトリバティー	3 PROPN 3
+パール	2 NOUN 2
+パーヴェル	2 PROPN 2
+ヒアリング	1 VERB 1
+ヒエ	1 NOUN 1
+ヒエラティック	1 PROPN 1
+ヒストリー	1 NOUN 1
+ヒット	6 NOUN 4 VERB 2
+ヒット曲	2 NOUN 2
+ヒッパー	1 PROPN 1
+ヒディンク	1 PROPN 1
+ヒト	2 NOUN 2
+ヒトラー	1 PROPN 1
+ヒドロキシプレグネノロン	1 PROPN 1
+ヒホン	1 PROPN 1
+ヒマラヤ	2 PROPN 2
+ヒメダカ	1 PROPN 1
+ヒュッケル	1 PROPN 1
+ヒューイ	1 PROPN 1
+ヒューストン	1 PROPN 1
+ヒュール	1 PROPN 1
+ヒューロン	1 PROPN 1
+ヒョジュ	1 PROPN 1
+ヒラノ	1 PROPN 1
+ヒル	2 NOUN 2
+ヒルデブラント	1 PROPN 1
+ヒロ	1 PROPN 1
+ヒロイン	9 NOUN 9
+ヒロシ	1 PROPN 1
+ヒンデミット	1 PROPN 1
+ヒント	2 NOUN 2
+ヒンドゥー	1 NOUN 1
+ヒータヒーリング	1 PROPN 1
+ヒーター	3 NOUN 3
+ヒーティング	1 NOUN 1
+ヒート	2 NOUN 2
+ヒーリー	1 PROPN 1
+ヒーロー	2 NOUN 2
+ビアリッツ	1 PROPN 1
+ビアンカ	1 PROPN 1
+ビエラ	1 PROPN 1
+ビエンビル	1 PROPN 1
+ビオトープ	1 PROPN 1
+ビギン	4 NOUN 4
+ビシュヌ	1 PROPN 1
+ビジター	1 NOUN 1
+ビジネス	6 NOUN 6
+ビジネスクラス	1 NOUN 1
+ビジネスライク	1 ADJ 1
+ビジュアル	1 PROPN 1
+ビジョン	2 NOUN 2
+ビスティノー	1 PROPN 1
+ビタミンK	1 NOUN 1
+ビックリ	1 VERB 1
+ビッグ	2 NOUN 2
+ビッグサプライズ	1 PROPN 1
+ビッグバン	2 NOUN 2
+ビット	4 NOUN 4
+ビデオ	13 NOUN 13
+ビデオシステム	1 NOUN 1
+ビュット	1 PROPN 1
+ビューティー	1 NOUN 1
+ビューロー	1 NOUN 1
+ビヨンドアール	1 PROPN 1
+ビヨンドーアール	1 PROPN 1
+ビラ	5 NOUN 5
+ビラサンテ	1 PROPN 1
+ビリー	2 PROPN 2
+ビル	6 NOUN 5 PROPN 1
+ビルボード	1 NOUN 1
+ビロードキンクロ	1 PROPN 1
+ビン	1 NOUN 1
+ビンゴ	1 NOUN 1
+ビンソン	1 PROPN 1
+ビンラディン	1 PROPN 1
+ビー	2 NOUN 2
+ビーチ	1 NOUN 1
+ビーム	3 NOUN 3
+ビール	6 NOUN 6
+ビー玉	1 NOUN 1
+ピアス	1 NOUN 1
+ピアノ	2 NOUN 2
+ピアース	1 PROPN 1
+ピエレポイント	1 PROPN 1
+ピエール	1 PROPN 1
+ピカイチ	1 ADJ 1
+ピクセル	1 NOUN 1
+ピサ	1 PROPN 1
+ピザ	4 NOUN 4
+ピタゴラス	1 PROPN 1
+ピチカート	1 PROPN 1
+ピチピチ	1 PROPN 1
+ピッタリ	2 ADJ 2
+ピッチ	3 NOUN 3
+ピュージェット	1 PROPN 1
+ピョトル	1 PROPN 1
+ピョートル	1 PROPN 1
+ピラミッド	2 NOUN 2
+ピリオド	1 NOUN 1
+ピル	1 NOUN 1
+ピルゼン	1 PROPN 1
+ピン	2 NOUN 2
+ピンク	1 NOUN 1
+ピンチ	2 NOUN 2
+ピーク	3 NOUN 3
+ピース	1 NOUN 1
+ピーチ	1 NOUN 1
+ピーリッジ	1 PROPN 1
+ピール	1 NOUN 1
+ファ	1 NOUN 1
+ファイア	1 NOUN 1
+ファイアー	1 NOUN 1
+ファイアーマリオ	1 PROPN 1
+ファイター	2 NOUN 2
+ファイターズ	1 PROPN 1
+ファイナル	3 NOUN 3
+ファイヤー	1 NOUN 1
+ファインアート	1 NOUN 1
+ファイヴ	1 NOUN 1
+ファサード	1 NOUN 1
+ファジー	1 NOUN 1
+ファックス	1 NOUN 1
+ファッション	2 NOUN 2
+ファミリー	2 NOUN 2
+ファミーユ	1 PROPN 1
+ファルケンボーグ	1 PROPN 1
+ファルコラスティコ	1 PROPN 1
+ファルマウス	2 PROPN 2
+ファン	17 NOUN 17
+ファンキーモンキーオッキー	1 PROPN 1
+ファンタジー	5 NOUN 5
+ファースト	1 NOUN 1
+ファーム	1 NOUN 1
+ファーモイ	1 PROPN 1
+フアン	3 NOUN 2 PROPN 1
+フィオ	1 PROPN 1
+フィオレンティーナ	1 PROPN 1
+フィギュア	2 NOUN 2
+フィジカルトレーニング	1 PROPN 1
+フィジビリティ	1 PROPN 1
+フィジー	1 PROPN 1
+フィッシャー	1 PROPN 1
+フィッシング	1 NOUN 1
+フィニスィー	1 PROPN 1
+フィニョン	1 PROPN 1
+フィブロイン	1 NOUN 1
+フィラデルフィア	1 PROPN 1
+フィラリ	1 PROPN 1
+フィリップ	2 PROPN 2
+フィリップス	1 PROPN 1
+フィリピン	2 PROPN 2
+フィルター	5 NOUN 5
+フィルハーモニー	1 NOUN 1
+フィルム	3 NOUN 3
+フィレモン	1 PROPN 1
+フィレンツェ	1 PROPN 1
+フィンガー	1 NOUN 1
+フィンシュハーフェン	1 PROPN 1
+フィンランド	4 PROPN 4
+フィンランド化	1 NOUN 1
+フィードバック	1 VERB 1
+フィーニス	1 PROPN 1
+フィールド	5 NOUN 5
+フェア	1 NOUN 1
+フェイス	1 NOUN 1
+フェイズ	2 NOUN 2
+フェイトーザ	1 PROPN 1
+フェザー級	1 NOUN 1
+フェス	1 PROPN 1
+フェデリーコ	1 PROPN 1
+フェニックス	2 NOUN 2
+フェニーチェ	1 PROPN 1
+フェネルバフチェ	1 PROPN 1
+フェビアン	1 PROPN 1
+フェルデンシュタイン	1 PROPN 1
+フェルナンド	1 PROPN 1
+フェンウェイ	1 PROPN 1
+フェンシング	1 NOUN 1
+フェンダー	1 NOUN 1
+フォス	1 PROPN 1
+フォト	4 NOUN 4
+フォトグラファー	1 NOUN 1
+フォルトゥナ	1 PROPN 1
+フォロワー	1 NOUN 1
+フォロー	2 VERB 2
+フォワード	1 NOUN 1
+フォン	2 NOUN 2
+フォント	5 NOUN 5
+フォーエヴァー	1 PROPN 1
+フォーク	2 NOUN 2
+フォース	1 NOUN 1
+フォースター	2 PROPN 2
+フォード	3 PROPN 3
+フォーム	3 NOUN 3
+フォーラム	7 NOUN 7
+フォーラムミカサ	1 PROPN 1
+フォーリア	1 PROPN 1
+フケ	1 NOUN 1
+フシ	1 PROPN 1
+フジ	1 NOUN 1
+フッド	1 PROPN 1
+フツ	2 PROPN 2
+フナ	1 NOUN 1
+フューチャー	2 NOUN 2
+フライ	4 NOUN 4
+フライデー	1 NOUN 1
+フラッグ	1 NOUN 1
+フラッシュメモリ	2 NOUN 2
+フラミンゴ	1 NOUN 1
+フラム	1 PROPN 1
+フラワー	6 NOUN 6
+フランク	1 PROPN 1
+フランクフルト	1 PROPN 1
+フランクリン	2 PROPN 2
+フランケンベルク	2 PROPN 2
+フランコ	1 PROPN 1
+フランシス	1 PROPN 1
+フランシスコ	2 PROPN 2
+フランジ	1 NOUN 1
+フランス	19 PROPN 18 NOUN 1
+フランス軍	4 PROPN 4
+フランス革命	1 NOUN 1
+フランソワ	1 PROPN 1
+フランチャイズ	1 NOUN 1
+フランドル	1 PROPN 1
+フリオ	1 PROPN 1
+フリッキンジャー	1 PROPN 1
+フリッツ	1 PROPN 1
+フリップ	1 NOUN 1
+フリー	8 PROPN 4 NOUN 3 ADJ 1
+フリーキック	1 NOUN 1
+フリードマン	1 PROPN 1
+フリードリヒ	1 PROPN 1
+フリーマントル	2 NOUN 2
+フリーライター	1 NOUN 1
+フル	7 NOUN 6 ADJ 1
+フルネ	1 PROPN 1
+フルネット	1 PROPN 1
+フルモデルチェンジ	1 NOUN 1
+フルーネフェルト	1 PROPN 1
+フレア	1 NOUN 1
+フレジソン	1 PROPN 1
+フレゼリク	2 PROPN 2
+フレデリックスバーグ	2 PROPN 2
+フレンキッシェ	1 PROPN 1
+フレンド	1 NOUN 1
+フレンドリー	3 PROPN 3
+フレーズ	1 NOUN 1
+フレーム	2 NOUN 2
+フロア	1 NOUN 1
+フロッピーディスク	1 NOUN 1
+フロニャルド	1 PROPN 1
+フロンティア	1 NOUN 1
+フロント	5 NOUN 5
+フロントグリル	2 NOUN 2
+フロー	1 NOUN 1
+フローチャート	1 NOUN 1
+フワッ	1 PROPN 1
+フンメル	1 PROPN 1
+フーシェ	1 PROPN 1
+フース	1 PROPN 1
+フードコート	1 NOUN 1
+ブィリーナ	1 PROPN 1
+ブエナビスタ	1 PROPN 1
+ブエノスアイレス	1 PROPN 1
+ブキャナン	1 PROPN 1
+ブザー	1 NOUN 1
+ブダペスト	1 PROPN 1
+ブック	2 NOUN 2
+ブッシュ	1 PROPN 1
+ブッシュレンジャー	1 PROPN 1
+ブッシュ政権	1 PROPN 1
+ブッセ	1 PROPN 1
+ブッダ	2 PROPN 2
+ブティック	1 NOUN 1
+ブドウ	1 NOUN 1
+ブュッフェスタイル	1 PROPN 1
+ブラガ	1 PROPN 1
+ブラザーズ	1 PROPN 1
+ブラジリアン	1 PROPN 1
+ブラジル	6 PROPN 6
+ブラス	1 NOUN 1
+ブラッキー	1 PROPN 1
+ブラック	9 NOUN 6 PROPN 3
+ブラックボックス	1 NOUN 1
+ブラッド	1 NOUN 1
+ブラマ	1 PROPN 1
+ブラモ	1 PROPN 1
+ブランコ	1 NOUN 1
+ブランシャール	1 PROPN 1
+ブランド	4 NOUN 3 PROPN 1
+ブランド名	1 NOUN 1
+ブランド米	1 NOUN 1
+ブリ	1 NOUN 1
+ブリザード	1 NOUN 1
+ブリストウ	1 PROPN 1
+ブリストル	1 PROPN 1
+ブリスベン	2 PROPN 2
+ブリッジ	4 NOUN 4
+ブリティッシュ	1 PROPN 1
+ブリテン	1 PROPN 1
+ブリュッセル	1 PROPN 1
+ブリュマト	1 PROPN 1
+ブリーダーズフューチュリティステークス	1 PROPN 1
+ブリードキングダム	1 PROPN 1
+ブル	1 NOUN 1
+ブルガリア	1 PROPN 1
+ブルジョア	1 NOUN 1
+ブルターニュ	1 NOUN 1
+ブルックリン	2 PROPN 2
+ブルノ	2 PROPN 2
+ブルボン	2 PROPN 2
+ブルー	4 NOUN 4
+ブルージェイズ	1 PROPN 1
+ブルース	1 NOUN 1
+ブルースフィア	1 PROPN 1
+ブルータス	1 PROPN 1
+ブルーフ	1 PROPN 1
+ブルームバーグ	1 PROPN 1
+ブルーライン	1 NOUN 1
+ブレイク	2 NOUN 1 VERB 1
+ブレイン	1 PROPN 1
+ブレインストーミング	1 PROPN 1
+ブレンド	1 NOUN 1
+ブレンド茶	1 NOUN 1
+ブレーカー	1 NOUN 1
+ブレーキ	7 NOUN 7
+ブレーダー	1 PROPN 1
+ブレーブス	1 PROPN 1
+ブロガー	3 NOUN 3
+ブログ	23 NOUN 23
+ブロック	6 NOUN 6
+ブロッコリー	1 NOUN 1
+ブロツキー	1 PROPN 1
+ブロフェルド	1 PROPN 1
+ブロンズ像	1 NOUN 1
+ブロー	1 VERB 1
+ブローチ	1 NOUN 1
+ブロードウェイ	1 PROPN 1
+ブローム	1 PROPN 1
+ブンデスリーガ	2 PROPN 2
+ブース	1 NOUN 1
+ブースター	1 NOUN 1
+ブーム	1 NOUN 1
+ブーレーズ	1 PROPN 1
+プ	1 PROPN 1
+プスコフ	1 PROPN 1
+プッシュ	1 NOUN 1
+プノンペン	1 PROPN 1
+プファルツ	1 PROPN 1
+プホルス	1 PROPN 1
+プライス	1 NOUN 1
+プライド	2 NOUN 2
+プライバシー	2 NOUN 2
+プライベート	4 NOUN 3 ADJ 1
+プラウ	2 PROPN 2
+プラス	1 NOUN 1
+プラズマ	3 NOUN 3
+プラセボ	2 PROPN 2
+プラチナ	1 NOUN 1
+プラッツェン	1 PROPN 1
+プラット	1 NOUN 1
+プラットフォーム	3 NOUN 3
+プラットホーム	2 NOUN 2
+プラネタリウム	1 NOUN 1
+プラモ	1 PROPN 1
+プララヤ	1 PROPN 1
+プラン	7 NOUN 7
+プランク	1 PROPN 1
+プランタジネット	1 PROPN 1
+プラント	1 NOUN 1
+プリニウス	1 PROPN 1
+プリペイド	1 ADJ 1
+プリン	1 NOUN 1
+プリンスラビッツ	1 PROPN 1
+プリンター	1 NOUN 1
+プリント	2 NOUN 2
+プリントゴッコ	1 PROPN 1
+プル	4 NOUN 4
+プルトニウム	1 NOUN 1
+プルヴァー	1 PROPN 1
+プルーセン	2 PROPN 2
+プレイ	15 NOUN 9 VERB 6
+プレイボーイ	1 NOUN 1
+プレイヤー	12 NOUN 12
+プレスリリース	2 NOUN 2
+プレゼンテーション	1 VERB 1
+プレゼント	4 NOUN 3 VERB 1
+プレミアム	1 NOUN 1
+プレヴァル	1 PROPN 1
+プレー	6 NOUN 4 VERB 2
+プレーオフ	1 NOUN 1
+プレート	1 NOUN 1
+プレートテクトニクス	1 NOUN 1
+プレーヤー	1 NOUN 1
+プロ	14 NOUN 14
+プロイセン	1 NOUN 1
+プログラミング	3 NOUN 3
+プログラム	5 NOUN 5
+プロジェクト	17 NOUN 17
+プロジェクトチーム	1 NOUN 1
+プロセス	1 NOUN 1
+プロセッサ	2 NOUN 2
+プロダクトデザイン	1 NOUN 1
+プロット	1 NOUN 1
+プロテスタント	2 NOUN 2
+プロデューサー	3 NOUN 3
+プロデュース	5 NOUN 4 VERB 1
+プロトコル	2 NOUN 2
+プロトセイバー	1 PROPN 1
+プロトン	3 NOUN 3
+プロバイダ	1 NOUN 1
+プロパガンダ	1 NOUN 1
+プロフィール	4 NOUN 4
+プロフェッサー	1 NOUN 1
+プロペラントタンク	1 PROPN 1
+プロモーション	2 NOUN 2
+プロモーションビデオ	1 NOUN 1
+プロレス団体	1 NOUN 1
+プロレタリア	1 NOUN 1
+プロローグ	1 NOUN 1
+プロ選手	1 NOUN 1
+プロ野球選手	1 NOUN 1
+プール	1 NOUN 1
+ヘア	2 NOUN 2
+ヘアーグラス	1 PROPN 1
+ヘアーサロン	1 PROPN 1
+ヘイデン	1 PROPN 1
+ヘゲモニー	1 NOUN 1
+ヘズ	1 PROPN 1
+ヘチ	1 PROPN 1
+ヘッセン	2 PROPN 2
+ヘッド	4 NOUN 4
+ヘッドコーチ	2 NOUN 2
+ヘッドライン	2 NOUN 2
+ヘディング	1 NOUN 1
+ヘビー	2 NOUN 2
+ヘビースモーカー	1 NOUN 1
+ヘフナー	1 PROPN 1
+ヘブン	1 NOUN 1
+ヘリ	1 NOUN 1
+ヘリオポリス	1 NOUN 1
+ヘリコプター	3 NOUN 3
+ヘリック	1 PROPN 1
+ヘリテッジ	1 PROPN 1
+ヘリテージ	1 PROPN 1
+ヘルシー	1 ADJ 1
+ヘルフリッチ	1 PROPN 1
+ヘルメット	1 NOUN 1
+ヘレン	4 PROPN 4
+ヘンリク	1 PROPN 1
+ヘンリー	2 NOUN 2
+ヘール	1 PROPN 1
+ヘールレン	1 PROPN 1
+ベ	1 PROPN 1
+ベア	1 NOUN 1
+ベイ	4 NOUN 4
+ベイダー	1 PROPN 1
+ベイトリール	1 PROPN 1
+ベイルート	1 PROPN 1
+ベオグラード	1 PROPN 1
+ベジタリアニズム	1 PROPN 1
+ベスト	6 NOUN 3 PART 3
+ベストウイッシュ	1 PROPN 1
+ベストセラー	2 NOUN 2
+ベストナイン	1 NOUN 1
+ベスメルトノワ	1 PROPN 1
+ベットタウン	1 PROPN 1
+ベッド	3 NOUN 3
+ベッドフォード	1 PROPN 1
+ベッドルーム	2 NOUN 2
+ベティ	1 PROPN 1
+ベテラン	1 NOUN 1
+ベトナム帰還兵	1 NOUN 1
+ベナレス	1 PROPN 1
+ベネスエラ	1 PROPN 1
+ベム	1 PROPN 1
+ベララベラ	1 PROPN 1
+ベラルド	1 PROPN 1
+ベラルーシ	1 PROPN 1
+ベランダ	2 NOUN 2
+ベリー	1 PROPN 1
+ベル	1 NOUN 1
+ベルカ	1 PROPN 1
+ベルギー	2 PROPN 2
+ベルゲン	1 PROPN 1
+ベルッチ	1 PROPN 1
+ベルディベク	1 PROPN 1
+ベルト	3 NOUN 3
+ベルナドット	1 PROPN 1
+ベルネ	1 PROPN 1
+ベルリン	4 PROPN 4
+ベルン	1 PROPN 1
+ベルヴェデーレ	1 PROPN 1
+ベレッタ	1 PROPN 1
+ベン	3 NOUN 3
+ベンジャミン	2 PROPN 2
+ベンソン	1 PROPN 1
+ベンゾイル	1 PROPN 1
+ベンダー	1 NOUN 1
+ベンチマーク	1 NOUN 1
+ベンツ	1 NOUN 1
+ベンティンク	1 PROPN 1
+ベントレー	1 PROPN 1
+ベンドラ	1 PROPN 1
+ベンボウ	1 PROPN 1
+ベンヤミン	1 PROPN 1
+ベース	8 NOUN 8
+ベースメイク	1 PROPN 1
+ベーン	1 PROPN 1
+ペア	3 NOUN 3
+ペイ	1 PROPN 1
+ペガサス	1 NOUN 1
+ペセタ	1 NOUN 1
+ペック	1 NOUN 1
+ペット	2 NOUN 2
+ペットシッター	1 NOUN 1
+ペットフード	1 NOUN 1
+ペトルス	1 PROPN 1
+ペトロビッチ	1 PROPN 1
+ペドロ	1 PROPN 1
+ペドロサ	1 PROPN 1
+ペナイン	1 PROPN 1
+ペニシリン	4 NOUN 4
+ペプチド	1 NOUN 1
+ペリー	1 NOUN 1
+ペルジネ	1 PROPN 1
+ペルリー	1 PROPN 1
+ペルー	1 PROPN 1
+ペンシルパンツ	1 PROPN 1
+ペンタプリズム	1 PROPN 1
+ペンネーム	1 NOUN 1
+ページ	6 NOUN 6
+ペース	7 NOUN 7
+ペータル	1 PROPN 1
+ホイッスル	1 NOUN 1
+ホイットマン	1 PROPN 1
+ホイール	2 NOUN 2
+ホグワーツ	1 PROPN 1
+ホコリ	1 NOUN 1
+ホステス	1 NOUN 1
+ホスト	2 NOUN 2
+ホスピタリティ	1 PROPN 1
+ホセ	1 PROPN 1
+ホタル	1 NOUN 1
+ホッと	1 ADV 1
+ホッケー	1 NOUN 1
+ホテル	18 NOUN 18
+ホノルル	1 PROPN 1
+ホバータイプ	1 PROPN 1
+ホムスタ	1 PROPN 1
+ホメオパシー	25 NOUN 25
+ホリデー	1 PROPN 1
+ホルシュタイン	1 PROPN 1
+ホルセーゼ	1 PROPN 1
+ホルダー	1 NOUN 1
+ホルヘ	1 PROPN 1
+ホルモン	2 NOUN 2
+ホワイトソックス	1 PROPN 1
+ホンジュラス	1 PROPN 1
+ホンダ	1 PROPN 1
+ホー	1 NOUN 1
+ホーエンシュタウフェン	1 PROPN 1
+ホース	3 NOUN 3
+ホーム	21 NOUN 21
+ホームオブハート	4 PROPN 4
+ホームクッキンヴィレッジヴァンガード	1 PROPN 1
+ホームステイ	1 NOUN 1
+ホームページ	12 NOUN 12
+ホーリー	4 NOUN 3 ADJ 1
+ホール	3 NOUN 3
+ホールディングス	2 PROPN 2
+ボウマン	1 PROPN 1
+ボギー	1 NOUN 1
+ボク	1 PROPN 1
+ボクサー	1 NOUN 1
+ボケ	2 NOUN 2
+ボゴロディツク	1 PROPN 1
+ボス	5 NOUN 5
+ボストン	2 PROPN 2
+ボタン	6 NOUN 6
+ボックス	3 NOUN 3
+ボッタ	1 PROPN 1
+ボッテンドルフ	1 PROPN 1
+ボットネット	1 PROPN 1
+ボディ	5 NOUN 5
+ボディー	1 NOUN 1
+ボトル	1 NOUN 1
+ボニー	1 PROPN 1
+ボノボ	1 PROPN 1
+ボフロスト	1 PROPN 1
+ボブ	2 PROPN 2
+ボブ・ホープ	1 PROPN 1
+ボムアイテム	1 PROPN 1
+ボランティア	8 NOUN 8
+ボリューム	7 NOUN 7
+ボル	1 PROPN 1
+ボルチモア	2 PROPN 2
+ボルヘス	1 PROPN 1
+ボンズ	1 PROPN 1
+ボー	1 NOUN 1
+ボーっと	1 VERB 1
+ボーイフレンド	1 NOUN 1
+ボーカル	1 NOUN 1
+ボート	1 NOUN 1
+ボード	2 NOUN 2
+ボードゲーム	1 NOUN 1
+ボーナス	3 NOUN 3
+ボール	11 NOUN 11
+ポイント	13 NOUN 13
+ポカブ	1 PROPN 1
+ポケット	1 NOUN 1
+ポケモン	1 PROPN 1
+ポケモンセンタートウホク	1 PROPN 1
+ポコタリゴ	1 PROPN 1
+ポジション	7 NOUN 7
+ポスター	1 NOUN 1
+ポスト	6 NOUN 5 PROPN 1
+ポストカード	1 NOUN 1
+ポセイドン	1 NOUN 1
+ポセイドーン	1 PROPN 1
+ポッカリ	1 ADV 1
+ポップ	4 NOUN 2 ADJ 2
+ポッポ	1 PROPN 1
+ポトロ	1 PROPN 1
+ポニーキャニオン	1 PROPN 1
+ポプコン	1 PROPN 1
+ポポル	1 PROPN 1
+ポリオ	1 PROPN 1
+ポリカーボネート	2 NOUN 2
+ポリシー	1 NOUN 1
+ポリス	1 NOUN 1
+ポリッシュ	1 PROPN 1
+ポリデント	2 PROPN 2
+ポリープ	1 NOUN 1
+ポリ袋	1 NOUN 1
+ポルト	1 PROPN 1
+ポルトガル	1 PROPN 1
+ポルノ	1 NOUN 1
+ポルフィリン	1 PROPN 1
+ポワティエ	1 PROPN 1
+ポンチ	1 NOUN 1
+ポンティック	1 PROPN 1
+ポント	1 PROPN 1
+ポンド	4 NOUN 4
+ポンメルン	1 PROPN 1
+ポン酢	1 NOUN 1
+ポート	2 NOUN 2
+ポートランド	1 NOUN 1
+ポーランド	11 PROPN 11
+ポール	4 NOUN 4
+ポールソン	1 PROPN 1
+ポール・スミス	1 PROPN 1
+マ	1 PROPN 1
+マイ	1 PROPN 1
+マイアミ	1 PROPN 1
+マイアー	1 PROPN 1
+マイカー	1 NOUN 1
+マイク	1 NOUN 1
+マイクロ	1 NOUN 1
+マイクロソフト	1 PROPN 1
+マイクロソフト株式会社	1 PROPN 1
+マイクロン	1 PROPN 1
+マイクロ波	1 NOUN 1
+マイケル	1 PROPN 1
+マイケル・スピンドラー	1 PROPN 1
+マイスナー	1 PROPN 1
+マイナス	5 NOUN 3 ADJ 1 PART 1
+マイナー	1 ADJ 1
+マイフィギュア	1 PROPN 1
+マイペース	1 NOUN 1
+マイル	1 NOUN 1
+マイルド	1 ADJ 1
+マイン	3 PROPN 3
+マインツ	1 PROPN 1
+マインド	2 NOUN 2
+マウス	2 NOUN 2
+マウソロス	1 PROPN 1
+マウリキウス	1 PROPN 1
+マウント	2 NOUN 2
+マウンド	1 NOUN 1
+マカオ	1 PROPN 1
+マカリスター	1 PROPN 1
+マカロック	1 PROPN 1
+マカロフ	1 PROPN 1
+マガキ	1 PROPN 1
+マガジン	1 NOUN 1
+マキナ	1 PROPN 1
+マキネン	1 NOUN 1
+マギステル	1 PROPN 1
+マギー	1 PROPN 1
+マク	3 NOUN 3
+マクシミアヌス	1 PROPN 1
+マクメナミン	1 PROPN 1
+マクラーレン	1 PROPN 1
+マクロ	1 NOUN 1
+マグナム	1 PROPN 1
+マグネアニマル	1 PROPN 1
+マグマ	1 NOUN 1
+マグレブ	1 PROPN 1
+マグロ	4 NOUN 4
+マサ	1 PROPN 1
+マザーボード	1 NOUN 1
+マシュツ	1 PROPN 1
+マシン	3 NOUN 3
+マシンガン	1 NOUN 1
+マジ	1 ADV 1
+マジカル	2 PROPN 2
+マジカルコンパクト	1 PROPN 1
+マジソン	1 PROPN 1
+マジノ線	1 NOUN 1
+マス	2 NOUN 2
+マスカッツメンバー	1 PROPN 1
+マスキングテープ	1 NOUN 1
+マスコフ	1 PROPN 1
+マスター	5 NOUN 5
+マスト	1 NOUN 1
+マゾヒスト	1 NOUN 1
+マタヌスカ	1 PROPN 1
+マッカルモント	1 PROPN 1
+マッカーシー	1 PROPN 1
+マッケレル	1 PROPN 1
+マッケンジー	1 PROPN 1
+マッサージ	7 NOUN 7
+マッスル	1 PROPN 1
+マッセナ	1 PROPN 1
+マッチ	4 NOUN 2 VERB 2
+マッチメイク	1 PROPN 1
+マット	2 NOUN 2
+マッドハウス	1 PROPN 1
+マッハ	2 PART 1 PROPN 1
+マップ	2 NOUN 2
+マツ	2 NOUN 2
+マツモト	1 PROPN 1
+マディソン	1 PROPN 1
+マトモ	1 PROPN 1
+マドリガーレ	1 PROPN 1
+マドリード	3 PROPN 3
+マドンナ	1 NOUN 1
+マドー	1 PROPN 1
+マナベ	1 PROPN 1
+マナー	4 NOUN 4
+マニ	1 PROPN 1
+マニアック	1 ADJ 1
+マニュアル	3 NOUN 3
+マネ	2 NOUN 2
+マネー	2 NOUN 2
+マネージャー	3 NOUN 3
+マハメド	1 PROPN 1
+マヒ	1 NOUN 1
+マフィア	2 NOUN 2
+マホニング	1 PROPN 1
+ママ	8 NOUN 8
+マヤ	1 PROPN 1
+マラソン	2 NOUN 2
+マラー	1 PROPN 1
+マラーター	1 PROPN 1
+マリア	1 NOUN 1
+マリアーノ	1 PROPN 1
+マリィ	1 PROPN 1
+マリウス	2 PROPN 2
+マリオ	2 PROPN 2
+マリオパーティ	1 PROPN 1
+マリオン	1 PROPN 1
+マリシーユ	1 PROPN 1
+マリネ	1 NOUN 1
+マリネリス	1 PROPN 1
+マリノス	1 PROPN 1
+マリメッコ	1 PROPN 1
+マリリン	1 PROPN 1
+マリン	2 NOUN 2
+マリーンズ	1 PROPN 1
+マル	1 PROPN 1
+マルキユー	1 PROPN 1
+マルク	1 NOUN 1
+マルク・シャガール	1 PROPN 1
+マルコ・ポーロ	1 PROPN 1
+マルタ	1 PROPN 1
+マルタ騎士団	1 PROPN 1
+マルチスレッディング	1 PROPN 1
+マルチプレイ	1 PROPN 1
+マルチプレイヤー	1 PROPN 1
+マルチメディア	2 NOUN 2
+マルチユーザーチャネルアクセス	1 PROPN 1
+マルティン	1 PROPN 1
+マルモリーニ	1 PROPN 1
+マレーシア政府	1 PROPN 1
+マン	7 NOUN 7
+マンガ	6 NOUN 6
+マンション	4 NOUN 4
+マンチェスター	2 PROPN 2
+マンハッタン	1 PROPN 1
+マーク	8 NOUN 5 VERB 2 PROPN 1
+マーケット	1 NOUN 1
+マーケティング	6 NOUN 6
+マーシオ	1 PROPN 1
+マーシャル・プラン	1 NOUN 1
+マーズ	1 PROPN 1
+マーチソン	1 PROPN 1
+マーテルヌス	1 PROPN 1
+マートン	1 PROPN 1
+マーヤー	1 PROPN 1
+マールス	1 PROPN 1
+マールブルク	1 PROPN 1
+ミアーズ	1 PROPN 1
+ミエ	1 PROPN 1
+ミサト	1 PROPN 1
+ミシェル	1 PROPN 1
+ミシガン大学	1 PROPN 1
+ミス	10 NOUN 9 VERB 1
+ミスコフスキ	1 PROPN 1
+ミステリ	1 NOUN 1
+ミスト	2 PROPN 2
+ミスマッチ	1 NOUN 1
+ミセル	1 PROPN 1
+ミゼット	1 PROPN 1
+ミタ	1 PROPN 1
+ミッキー	2 PROPN 2
+ミッション	3 NOUN 3
+ミッチ	1 PROPN 1
+ミッドウェー	1 PROPN 1
+ミッドガルド	1 PROPN 1
+ミッドフィールダー	1 PROPN 1
+ミッドランド	1 PROPN 1
+ミツバチ	1 NOUN 1
+ミディクロリア	1 NOUN 1
+ミトコンドリア	1 NOUN 1
+ミドル	2 NOUN 2
+ミドルパークステークス	1 PROPN 1
+ミナ	1 PROPN 1
+ミニ	4 NOUN 4
+ミニアルバム	1 NOUN 1
+ミニゲーム	5 NOUN 5
+ミニシアター	1 NOUN 1
+ミニチュア	1 NOUN 1
+ミニー	1 PROPN 1
+ミネ	1 PROPN 1
+ミネルバ	1 PROPN 1
+ミハイル	1 PROPN 1
+ミハイロフスキー	2 PROPN 2
+ミハエル	1 PROPN 1
+ミハルコフ	1 PROPN 1
+ミヤジ	1 PROPN 1
+ミュンター	1 PROPN 1
+ミュンヘン	4 PROPN 4
+ミュージカル	2 NOUN 2
+ミュージック	3 NOUN 3
+ミュージックソン	1 PROPN 1
+ミュージック・ビデオ	1 NOUN 1
+ミラノ	2 PROPN 2
+ミラー	4 NOUN 4
+ミラージュ	1 NOUN 1
+ミリ	4 NOUN 4
+ミルク	2 NOUN 2
+ミレニアムシリーズ	1 PROPN 1
+ミー	1 NOUN 1
+ミーハー	1 ADJ 1
+ムアレム	1 PROPN 1
+ムカ	1 PROPN 1
+ムガル	1 PROPN 1
+ムグンファ	1 PROPN 1
+ムサカ	1 NOUN 1
+ムザブ	1 PROPN 1
+ムジェロ	1 PROPN 1
+ムスリム	1 NOUN 1
+ムハンマド	1 PROPN 1
+ムラ	1 PROPN 1
+ムラービト	1 PROPN 1
+ムルナウ	1 PROPN 1
+ムルマンスク	1 PROPN 1
+ムワックレック	1 PROPN 1
+ムンド	1 PROPN 1
+ムー	2 PROPN 2
+メ	1 PROPN 1
+メアリー	1 PROPN 1
+メイ	2 PROPN 2
+メイト	1 NOUN 1
+メイド	2 NOUN 2
+メイヨー	1 PROPN 1
+メイン	13 NOUN 13
+メカニカルモンスター	1 PROPN 1
+メガ	1 PROPN 1
+メガネ	3 NOUN 3
+メキシコ	1 PROPN 1
+メサジェ	1 PROPN 1
+メサビ	1 PROPN 1
+メシア	2 NOUN 2
+メジャー	7 NOUN 7
+メジャーリーグ	1 NOUN 1
+メス	4 NOUN 4
+メスダボ	1 PROPN 1
+メソッド	1 NOUN 1
+メタ	2 PROPN 2
+メタル	3 NOUN 3
+メダル	1 NOUN 1
+メダロット	1 PROPN 1
+メチャ	1 PROPN 1
+メチャメチャ	1 ADJ 1
+メッコール	1 PROPN 1
+メッシュ	1 NOUN 1
+メッセージ	6 NOUN 6
+メッタ	1 PROPN 1
+メディア	13 NOUN 13
+メディアミックス	1 NOUN 1
+メディアワークス	1 PROPN 1
+メディテレーニアンハーバー	1 PROPN 1
+メトラ	1 PROPN 1
+メトロポリタン	1 NOUN 1
+メドベージェフ	1 PROPN 1
+メニュー	28 NOUN 28
+メネリク	1 PROPN 1
+メモ	3 NOUN 2 VERB 1
+メモリ	1 NOUN 1
+メリッサ	2 PROPN 2
+メリット	4 NOUN 4
+メルダーザ	1 PROPN 1
+メロディ	1 NOUN 1
+メロディアス	1 PROPN 1
+メロディー	1 NOUN 1
+メロトロン	1 PROPN 1
+メロン	1 NOUN 1
+メロンパンナ	1 PROPN 1
+メンコミ	1 PROPN 1
+メンタルヘルス	1 NOUN 1
+メンバー	31 NOUN 31
+メンフィス	1 PROPN 1
+メーカー	13 NOUN 13
+メーザー	1 PROPN 1
+メースワイ	1 PROPN 1
+メーソン	1 PROPN 1
+メーチャン	1 PROPN 1
+メーテル	1 PROPN 1
+メートル	13 NOUN 13
+メード	1 NOUN 1
+メーミィ	1 PROPN 1
+メール	10 NOUN 10
+モイヤ	1 PROPN 1
+モエール	1 PROPN 1
+モグリ	1 PROPN 1
+モサ	1 PROPN 1
+モジュール	3 NOUN 3
+モダニスト	1 PROPN 1
+モダン	1 NOUN 1
+モチベーション	1 NOUN 1
+モチーフ	4 NOUN 4
+モッポ	1 PROPN 1
+モデナ	1 PROPN 1
+モデム	1 NOUN 1
+モデル	24 NOUN 24
+モニター	3 NOUN 3
+モネ	1 PROPN 1
+モノ	3 NOUN 3
+モバゲー	1 PROPN 1
+モビルスーツ	1 PROPN 1
+モメ	1 PROPN 1
+モモ	1 NOUN 1
+モモーイ	1 PROPN 1
+モラル	4 NOUN 4
+モリル	1 PROPN 1
+モル	1 NOUN 1
+モルタル	1 NOUN 1
+モンカルム	1 PROPN 1
+モンク	1 PROPN 1
+モンゴル	1 PROPN 1
+モンスター	3 NOUN 3
+モンチッチ	1 PROPN 1
+モンツァ	1 PROPN 1
+モンテビデオ	1 PROPN 1
+モントセラト	2 PROPN 2
+モントリオール	1 PROPN 1
+モントーヤ	1 PROPN 1
+モンラッシェ	1 PROPN 1
+モーガン	1 PROPN 1
+モーション	1 NOUN 1
+モータ	1 NOUN 1
+モーター	1 NOUN 1
+モーツァルト	1 PROPN 1
+モード	16 NOUN 16
+モード学園	1 PROPN 1
+モーニントン	1 PROPN 1
+モール	3 NOUN 3
+ヤクルト	1 PROPN 1
+ヤケ	1 PROPN 1
+ヤコフ	1 PROPN 1
+ヤズド	2 PROPN 2
+ヤッターマン	1 PROPN 1
+ヤドリギ	2 NOUN 2
+ヤバイ	1 PROPN 1
+ヤフオク	1 PROPN 1
+ヤフー	1 NOUN 1
+ヤマト	3 PROPN 3
+ヤミツキ	1 PROPN 1
+ヤム	1 NOUN 1
+ヤラレチャッタ	1 PROPN 1
+ヤルノ	1 PROPN 1
+ヤン	3 PROPN 3
+ヤンアニ	1 PROPN 1
+ヤング	2 NOUN 2
+ヤンゴン	1 PROPN 1
+ヤンマーディーゼル	1 PROPN 1
+ヤーズ	1 PROPN 1
+ヤード	3 NOUN 3
+ユウ	1 PROPN 1
+ユエル	1 PROPN 1
+ユキ	1 PROPN 1
+ユグドラシル	1 PROPN 1
+ユグルタ	1 PROPN 1
+ユダヤ	1 NOUN 1
+ユトランド	1 PROPN 1
+ユナイテッド	3 PROPN 3
+ユニオン	2 NOUN 2
+ユニオンジャック	1 NOUN 1
+ユニクロ	1 PROPN 1
+ユニコーン	1 NOUN 1
+ユニチカ	1 PROPN 1
+ユニット	3 NOUN 3
+ユニバーサルスタジオ	1 PROPN 1
+ユニビ	1 PROPN 1
+ユニフォーム	1 NOUN 1
+ユニーク	3 ADJ 3
+ユパ	1 PROPN 1
+ユビキタス	1 NOUN 1
+ユベール	1 PROPN 1
+ユリアン	1 PROPN 1
+ユリウス	1 PROPN 1
+ユリシーズ	1 PROPN 1
+ユング	1 PROPN 1
+ユークトバニア	1 PROPN 1
+ユーゴスラビア連邦軍	1 PROPN 1
+ユーザー	10 NOUN 10
+ユース	2 NOUN 2
+ユースケース	1 NOUN 1
+ユーストア	1 PROPN 1
+ユーフラテス	1 PROPN 1
+ユーモア	2 NOUN 2
+ユーロ	10 NOUN 10
+ユーロビジョン	1 NOUN 1
+ヨアヒム	1 PROPN 1
+ヨウ素	1 NOUN 1
+ヨガ	1 NOUN 1
+ヨガイラ	1 PROPN 1
+ヨギナ	1 PROPN 1
+ヨコ	1 PROPN 1
+ヨシ	1 NOUN 1
+ヨッシー	1 PROPN 1
+ヨナ	1 PROPN 1
+ヨハン	2 PROPN 2
+ヨハンネス	1 PROPN 1
+ヨルダン	1 PROPN 1
+ヨンギ	1 PROPN 1
+ヨーク	1 NOUN 1
+ヨーロッパ	13 PROPN 13
+ラ	4 PROPN 4
+ライ	2 NOUN 2
+ライアン	1 PROPN 1
+ライス	1 NOUN 1
+ライター	2 NOUN 2
+ライダー	2 NOUN 2
+ライト	6 NOUN 6
+ライトアップ	1 VERB 1
+ライト級	1 NOUN 1
+ライバル	3 NOUN 3
+ライフ	2 NOUN 2
+ライブ	13 NOUN 13
+ライブドア	1 PROPN 1
+ライブハウス	1 NOUN 1
+ライブラリ	1 NOUN 1
+ライム	1 NOUN 1
+ライン	12 NOUN 12
+ラインナップ	4 NOUN 2 VERB 2
+ラインハルト	1 PROPN 1
+ラインラント	1 PROPN 1
+ライン川	1 PROPN 1
+ライヴ	2 NOUN 2
+ラウエ	1 PROPN 1
+ラウラ	1 PROPN 1
+ラウレッタ	1 PROPN 1
+ラウンジ	1 NOUN 1
+ラウンデル	1 PROPN 1
+ラウンド	2 NOUN 2
+ラエリアン	1 PROPN 1
+ラエリアンマーク	1 PROPN 1
+ラエリアンムーブメント	1 PROPN 1
+ラクダ	1 NOUN 1
+ラグズ	1 PROPN 1
+ラグナ	1 PROPN 1
+ラグー	1 NOUN 1
+ラケット	1 NOUN 1
+ラサール	1 PROPN 1
+ラジオ	10 NOUN 10
+ラジオ放送	1 NOUN 1
+ラス	2 NOUN 2
+ラスト	2 NOUN 2
+ラストシーン	1 NOUN 1
+ラスベガス	2 PROPN 2
+ラスムセン	1 PROPN 1
+ラッキー	1 ADJ 1
+ラッコ	1 NOUN 1
+ラッシュ	2 NOUN 2
+ラッセル	1 NOUN 1
+ラッパー	1 NOUN 1
+ラッフルズ・ホテル	1 PROPN 1
+ラップ	2 NOUN 2
+ラツィオ	1 PROPN 1
+ラテン	2 PROPN 2
+ラド	1 NOUN 1
+ラバー	1 NOUN 1
+ラパロ	1 PROPN 1
+ラビット	1 PROPN 1
+ラファエル	1 PROPN 1
+ラフマニノフ	1 PROPN 1
+ラブ	2 NOUN 2
+ラブホテル	3 NOUN 3
+ラプソディー	1 NOUN 1
+ラベル	3 NOUN 3
+ラマティ	1 PROPN 1
+ラミー	1 NOUN 1
+ラム	3 NOUN 3
+ラムズ	1 PROPN 1
+ラリー	4 NOUN 4
+ラルフ	1 PROPN 1
+ラン	8 NOUN 8
+ランエボ	1 PROPN 1
+ランキング	6 NOUN 6
+ランク	4 NOUN 4
+ラングドック	1 PROPN 1
+ランジェリー	1 NOUN 1
+ランダム	2 ADJ 2
+ランチ	10 NOUN 10
+ランチア	1 PROPN 1
+ランド	2 NOUN 2
+ランドセル	1 NOUN 1
+ランドローバー	1 NOUN 1
+ランビ	1 PROPN 1
+ランボルギーニ	2 PROPN 2
+ラーディン	1 PROPN 1
+ラーメタル	2 PROPN 2
+ラーメン	10 NOUN 10
+ラーン	1 PROPN 1
+リア	3 NOUN 3
+リアドロ	1 PROPN 1
+リアル	3 ADJ 3
+リウィア	1 PROPN 1
+リオ	1 PROPN 1
+リカルド	3 PROPN 3
+リガ	1 PROPN 1
+リケッチア	1 NOUN 1
+リコー	1 PROPN 1
+リサ	1 PROPN 1
+リサーチ	1 NOUN 1
+リシュリュー	1 PROPN 1
+リジ	1 PROPN 1
+リスク	6 NOUN 6
+リスク回避	1 NOUN 1
+リスティ	1 PROPN 1
+リステリア菌	1 NOUN 1
+リスト	3 NOUN 3
+リストラ	1 VERB 1
+リズム	2 NOUN 2
+リセット	2 VERB 1 NOUN 1
+リゼロッテ	1 PROPN 1
+リソーススタベーション	1 PROPN 1
+リタイア	1 NOUN 1
+リタイヤ	1 VERB 1
+リターン	2 NOUN 2
+リチャード	3 PROPN 3
+リッキー	2 PROPN 2
+リッスンジャパン	1 PROPN 1
+リッデル	1 PROPN 1
+リットン	2 PROPN 2
+リッパー	1 PROPN 1
+リッピング	1 PROPN 1
+リテラシー	1 NOUN 1
+リトルスター	1 PROPN 1
+リトルロック	1 PROPN 1
+リニア	1 NOUN 1
+リニアコライダー	1 PROPN 1
+リニューアル	3 NOUN 2 VERB 1
+リハビリ	1 NOUN 1
+リハビリテーション	1 NOUN 1
+リハーサル	2 NOUN 2
+リバイバル	2 NOUN 2
+リバティ	1 PROPN 1
+リバー	1 PROPN 1
+リバースハーン	1 PROPN 1
+リヒター	1 PROPN 1
+リビング	1 NOUN 1
+リピート	2 NOUN 2
+リフ	2 NOUN 2
+リフォーム	2 NOUN 2
+リフト	1 NOUN 1
+リフレ	1 PROPN 1
+リフレッシュ	3 VERB 3
+リベロ	1 NOUN 1
+リボルバー	2 PROPN 2
+リボン	2 NOUN 2
+リポート	1 VERB 1
+リマスター	1 PROPN 1
+リミックス	1 NOUN 1
+リム	1 NOUN 1
+リメイク	2 NOUN 2
+リモコン	2 NOUN 2
+リヤウィング	1 PROPN 1
+リヤフラッシャー	1 PROPN 1
+リュサンドロス	2 PROPN 2
+リュート	2 NOUN 2
+リューマチ	2 NOUN 2
+リヨン	2 PROPN 2
+リラクゼーション	2 NOUN 2
+リラックス	8 VERB 8
+リリアン	1 PROPN 1
+リリース	17 NOUN 9 VERB 8
+リリーフ	1 NOUN 1
+リレーショナルデータベース	1 NOUN 1
+リンク	12 NOUN 8 VERB 4
+リング	5 NOUN 5
+リングア	1 PROPN 1
+リンゴ	1 NOUN 1
+リンド	1 PROPN 1
+リンパ	1 NOUN 1
+リンブルフ	1 PROPN 1
+リヴァイアサン	1 PROPN 1
+リヴァイアス	1 PROPN 1
+リヴァプール	2 PROPN 2
+リヴォニア	1 PROPN 1
+リー	2 PROPN 2
+リーガ	1 PROPN 1
+リーク	1 VERB 1
+リーグ	18 NOUN 18
+リース	1 NOUN 1
+リーズナブル	5 ADJ 5
+リーゼント	1 NOUN 1
+リーダー	9 NOUN 9
+リード	5 NOUN 4 VERB 1
+リードボーカル	1 NOUN 1
+リーフ	1 PROPN 1
+リーフレット	1 NOUN 1
+リーブル	2 NOUN 2
+リーベル	1 PROPN 1
+リーベルマン	1 PROPN 1
+リール	4 NOUN 4
+ル	1 PROPN 1
+ルアー	1 NOUN 1
+ルイ	2 PROPN 2
+ルイジアナ州立大学	1 PROPN 1
+ルイス	1 PROPN 1
+ルイトポルト	1 PROPN 1
+ルイ・ヴィトン	2 PROPN 2
+ルウム	1 PROPN 1
+ルカ	2 PROPN 2
+ルガイン	1 PROPN 1
+ルクレール	1 PROPN 1
+ルシファー	1 PROPN 1
+ルシンダ	1 PROPN 1
+ルックス	1 NOUN 1
+ルッジェーロ	2 PROPN 2
+ルッツ	1 PROPN 1
+ルドヴィーコ	1 PROPN 1
+ルナシティ	1 PROPN 1
+ルネ	1 PROPN 1
+ルネ・ド	1 PROPN 1
+ルパン	1 PROPN 1
+ルピ	1 PROPN 1
+ルピカ	3 PROPN 3
+ルフィ	1 PROPN 1
+ルフェーヴル	1 PROPN 1
+ルフトハンザ	1 PROPN 1
+ルフトハンザ航空	1 PROPN 1
+ルブルク	1 PROPN 1
+ルリス	1 PROPN 1
+ルンペン	1 NOUN 1
+ル・マン	1 PROPN 1
+ルー	1 NOUN 1
+ルーカス	1 PROPN 1
+ルーキー	4 NOUN 4
+ルージュ	1 NOUN 1
+ルーツ	3 NOUN 3
+ルーテル	1 PROPN 1
+ルーデンドルフ	2 PROPN 2
+ルート	12 NOUN 8 PROPN 4
+ループ	2 NOUN 2
+ルーム	2 NOUN 2
+ルーラー	1 NOUN 1
+ルール	5 NOUN 5
+ルーレット	1 NOUN 1
+ルーンミサイル	1 PROPN 1
+レ	1 PROPN 1
+レア	1 NOUN 1
+レアル	3 NOUN 3
+レイ	6 NOUN 6
+レイアウト	1 NOUN 1
+レイキバット	1 PROPN 1
+レイク	1 NOUN 1
+レイチェル	1 PROPN 1
+レイナー	1 PROPN 1
+レイヤー	1 NOUN 1
+レインボー	1 NOUN 1
+レインボーブリッジ	1 NOUN 1
+レイール	1 PROPN 1
+レオン	1 PROPN 1
+レギュラスミサイル	1 PROPN 1
+レギュラー	7 NOUN 7
+レグ	1 PROPN 1
+レコーダー	3 NOUN 3
+レコーディング	1 VERB 1
+レコード	2 NOUN 2
+レコード会社	1 NOUN 1
+レザー	1 NOUN 1
+レシプロエンジン	1 PROPN 1
+レシーブ	1 NOUN 1
+レジナルド	1 PROPN 1
+レスティトゥタ	1 PROPN 1
+レスト	1 NOUN 1
+レストラン	5 NOUN 5
+レスラー	3 NOUN 3
+レゾリュート	1 PROPN 1
+レタス	2 NOUN 2
+レックス	1 PROPN 1
+レッグ	1 NOUN 1
+レッスン	6 NOUN 6
+レッド	5 NOUN 5
+レッドウィングス	1 PROPN 1
+レッドスキンズ	1 PROPN 1
+レッドソックス	3 PROPN 3
+レッドデータブック	1 NOUN 1
+レッド川	1 PROPN 1
+レティー	1 PROPN 1
+レディ	1 NOUN 1
+レディス	1 NOUN 1
+レナ	1 PROPN 1
+レナ川	1 PROPN 1
+レバニラ	1 PROPN 1
+レバー	1 NOUN 1
+レパートリー	1 NOUN 1
+レビュー	1 NOUN 1
+レフェリー	2 NOUN 2
+レプタリアン	1 PROPN 1
+レプリカント	1 PROPN 1
+レベル	12 NOUN 12
+レベロ	1 PROPN 1
+レポ	1 NOUN 1
+レポート	2 NOUN 2
+レメディー	1 PROPN 1
+レモン	1 NOUN 1
+レリーフ	1 NOUN 1
+レルフ	1 PROPN 1
+レンコン	1 NOUN 1
+レンジ	3 NOUN 3
+レンジャーズ	2 PROPN 2
+レンジローバー	1 PROPN 1
+レンズ	3 NOUN 3
+レンズメーカー	1 NOUN 1
+レンゾロト	1 PROPN 1
+レンタル	4 NOUN 4
+レンダリング	1 VERB 1
+レンヌ	1 PROPN 1
+レンネンカンプ	1 PROPN 1
+レヴィン	1 PROPN 1
+レーザー	2 NOUN 2
+レーシック	1 PROPN 1
+レーシングカー	2 NOUN 2
+レーシングドライバー	1 NOUN 1
+レース	18 NOUN 18
+レーダー	3 NOUN 3
+レート	1 NOUN 1
+レーベル	7 NOUN 7
+レーベンズ	1 PROPN 1
+レール	1 NOUN 1
+レーヴェンハイム	1 PROPN 1
+ロイター	1 PROPN 1
+ロイヤルティー	1 NOUN 1
+ロウズ	1 PROPN 1
+ロキ	1 PROPN 1
+ロギー	1 PROPN 1
+ログ	2 NOUN 2
+ログイン	1 NOUN 1
+ロケ	2 NOUN 2
+ロケット	5 NOUN 5
+ロケーション	2 NOUN 2
+ロゴ	3 NOUN 3
+ロゴマーク	1 NOUN 1
+ロサンゼルス	1 PROPN 1
+ロサンゼルス・レイカーズ	1 PROPN 1
+ロシア	15 PROPN 15
+ロシア政府	1 PROPN 1
+ロシア極東	1 PROPN 1
+ロシア皇帝	1 NOUN 1
+ロシア軍	1 PROPN 1
+ロジャー	3 PROPN 3
+ロス	1 NOUN 1
+ロチェスター	1 PROPN 1
+ロッキング	2 NOUN 2
+ロック	9 NOUN 9
+ロッシ	1 PROPN 1
+ロッソ	1 PROPN 1
+ロッソウ	1 PROPN 1
+ロッテ	2 PROPN 2
+ロッテリア	1 PROPN 1
+ロッド	1 NOUN 1
+ロディニア	1 PROPN 1
+ロバート	1 PROPN 1
+ロビー	4 NOUN 4
+ロベスピエール	1 PROPN 1
+ロベール	1 PROPN 1
+ロボ	3 NOUN 3
+ロボット	3 NOUN 3
+ロマネスク	1 NOUN 1
+ロマンチック	1 ADJ 1
+ロマン派	1 PROPN 1
+ロミュラス	2 PROPN 2
+ロモ	1 PROPN 1
+ロリアン	2 PROPN 2
+ロリス	1 NOUN 1
+ロリータ	1 PROPN 1
+ロレンソ	1 PROPN 1
+ロレーヌ	1 PROPN 1
+ロロブリジーダ	1 PROPN 1
+ロン	1 PROPN 1
+ロンドン	10 PROPN 10
+ロンドン市場	1 NOUN 1
+ロンリーガールフィフティーン	1 PROPN 1
+ロー	2 NOUN 2
+ローカル	5 NOUN 4 ADJ 1
+ローズヴェルト	1 PROPN 1
+ローゼンクロイツ	2 PROPN 2
+ローゼンプラザホテル	1 PROPN 1
+ローソン	1 PROPN 1
+ロータリー	1 NOUN 1
+ローテーション	1 NOUN 1
+ロート製薬	1 PROPN 1
+ロード	4 NOUN 4
+ロードレース	1 NOUN 1
+ローパス	1 NOUN 1
+ローマ	5 NOUN 5
+ローマ教皇	1 NOUN 1
+ローヤルゼリー	1 NOUN 1
+ローランド	2 NOUN 2
+ローラー	2 NOUN 2
+ロール	2 NOUN 2
+ローレンス	1 PROPN 1
+ローレンツ	1 PROPN 1
+ローン	3 NOUN 3
+ローヴェレ	1 PROPN 1
+ワイド	3 NOUN 3
+ワイパー	1 NOUN 1
+ワイヤード	1 PROPN 1
+ワイルド	1 PROPN 1
+ワイワイ	2 ADV 2
+ワイワイカード	1 PROPN 1
+ワイン	10 NOUN 10
+ワオ・コーポレーション	1 PROPN 1
+ワキ	1 NOUN 1
+ワクチン	1 NOUN 1
+ワケ	1 PROPN 1
+ワザ	1 NOUN 1
+ワシントン	3 PROPN 3
+ワックス	1 NOUN 1
+ワトフォード	1 PROPN 1
+ワルズ	1 PROPN 1
+ワン	2 NOUN 2
+ワンコリアコプサッカー	1 PROPN 1
+ワンズワース	1 PROPN 1
+ワンセグ	1 NOUN 1
+ワンダーランド	1 PROPN 1
+ワーク	1 NOUN 1
+ワークス	1 NOUN 1
+ワークステーション	1 NOUN 1
+ワークフロー	1 NOUN 1
+ワールド	3 NOUN 3
+ワールドカップ	3 NOUN 3
+ワールドヒーローズ	1 PROPN 1
+ヲタク	1 PROPN 1
+ヲホド	1 PROPN 1
+ンジェル	1 PROPN 1
+ヴァイオリン	3 NOUN 3
+ヴァイスマイン	1 PROPN 1
+ヴァイモデル	1 PROPN 1
+ヴァリオ	1 PROPN 1
+ヴァルダルノ	1 PROPN 1
+ヴァルナ	1 PROPN 1
+ヴァン	2 PROPN 2
+ヴァンダ	1 PROPN 1
+ヴァンプ	1 PROPN 1
+ヴァーレ	1 PROPN 1
+ヴィエンチャン	1 PROPN 1
+ヴィサンブール	1 PROPN 1
+ヴィジュアル	1 NOUN 1
+ヴィジョン	1 NOUN 1
+ヴィックリー	1 PROPN 1
+ヴィッツレーベン	1 PROPN 1
+ヴィデオ	2 NOUN 2
+ヴィルヘルム	4 PROPN 4
+ヴィレッジ	1 PROPN 1
+ヴィンチ	1 PROPN 1
+ヴィー	1 PROPN 1
+ヴィーゼンタール	1 PROPN 1
+ヴィータウタス	1 PROPN 1
+ヴェネツィア	2 PROPN 2
+ヴェルサイユ	1 PROPN 1
+ヴェルヌ	1 PROPN 1
+ヴェローナ	1 PROPN 1
+ヴェンティミリア	1 PROPN 1
+ヴォイド	1 PROPN 1
+ヴォリューム	1 NOUN 1
+ヴォルペ	1 PROPN 1
+ヴォーカル	1 NOUN 1
+ヴッパータール	1 PROPN 1
+ヴュルテンベルク	1 PROPN 1
+ヴント	1 PROPN 1
+ヵ月	1 NOUN 1
+ヶ	5 PROPN 5
+ヶ国	3 NOUN 3
+ヶ所	4 NOUN 4
+ヶ月	13 NOUN 13
+・	847 SYM 847
+ー	4 SYM 4
+一	164 NUM 140 NOUN 24 ***
+一に	1 ADV 1
+一丁目	1 PROPN 1
+一世	1 NOUN 1
+一人	13 ADV 7 PROPN 6
+一人ひとり	1 NOUN 1
+一人歩き	1 NOUN 1
+一人相撲	1 NOUN 1
+一人芝居	1 NOUN 1
+一介	1 NOUN 1
+一伍	1 NUM 1
+一体	3 NOUN 2 ADV 1
+一元	1 NOUN 1
+一円	1 NOUN 1
+一切	12 NOUN 11 ADV 1
+一刻	1 NOUN 1
+一同	1 NOUN 1
+一味	1 NOUN 1
+一品	2 NOUN 2
+一員	3 NOUN 3
+一喜一憂	1 VERB 1
+一因	3 NOUN 3
+一堂	1 NOUN 1
+一場	1 PROPN 1
+一塁	2 NOUN 2
+一変	1 VERB 1
+一夜	2 NOUN 2
+一大	2 NOUN 2
+一定	13 NOUN 13
+一対一	1 NOUN 1
+一巡	1 VERB 1
+一帯	1 NOUN 1
+一年	1 PROPN 1
+一年草	1 NOUN 1
+一度	14 ADV 12 NOUN 2
+一式	2 NOUN 2
+一応	3 ADV 2 NOUN 1
+一括	1 NOUN 1
+一挙	1 NOUN 1
+一揆	2 NOUN 2
+一撃	3 NOUN 3
+一文	1 NOUN 1
+一斉	1 NOUN 1
+一方	51 NOUN 30 CCONJ 21
+一方的	2 ADJ 2
+一族	5 NOUN 5
+一旦	2 ADV 2
+一時	14 NOUN 14
+一時保育	1 NOUN 1
+一時期	4 NOUN 4
+一時的	5 ADJ 5
+一朗	1 PROPN 1
+一本釣り	1 NOUN 1
+一極支配	1 NOUN 1
+一樹	1 PROPN 1
+一橋大学	1 PROPN 1
+一機	1 PROPN 1
+一次	1 PROPN 1
+一気	5 NOUN 5
+一点	1 NOUN 1
+一環	1 NOUN 1
+一生	3 NOUN 3
+一生懸命	1 ADJ 1
+一番	26 NOUN 26
+一発	1 NOUN 1
+一目瞭然	1 ADJ 1
+一目置か	1 VERB_一目置く 1
+一瞬	1 NOUN 1
+一矢	1 NOUN 1
+一章	1 PROPN 1
+一端	2 NOUN 2
+一緒	12 NOUN 12
+一線	3 NOUN 3
+一致	6 VERB 5 NOUN 1
+一般	23 NOUN 23
+一般会計	1 NOUN 1
+一般化	1 VERB 1
+一般常識	1 NOUN 1
+一般的	14 ADJ 14
+一般論	1 NOUN 1
+一色	1 PROPN 1
+一見	3 VERB 2 ADV 1
+一覧	2 NOUN 2
+一角	1 NOUN 1
+一言	1 NOUN 1
+一貫	3 VERB 2 NOUN 1
+一躍	1 ADV 1
+一転	4 VERB 3 NOUN 1
+一輝	1 PROPN 1
+一辺倒	1 NOUN 1
+一連	6 NOUN 6
+一郎	5 PROPN 5
+一部	39 NOUN 38 ADV 1
+一門	2 NOUN 2
+一隅	1 NOUN 1
+一面	1 NOUN 1
+一馬	1 PROPN 1
+一高	1 PROPN 1
+一鶴	1 PROPN 1
+丁	1 NOUN 1
+丁寧	24 ADJ 24
+丁度	4 ADV 4
+丁目	7 NOUN 7
+七	2 NUM 2
+七十	1 NUM 1
+七千二百二十八億	1 NUM 1
+七尾	1 PROPN 1
+万	72 NUM 50 ADV 14 NOUN 7 PROPN 1
+万人	8 NOUN 8
+万年氷	1 NOUN 1
+万物	1 NOUN 1
+万能	1 NOUN 1
+万葉集	2 PROPN 2
+万里	1 NOUN 1
+万里の長城	1 NOUN 1
+丈	1 NOUN 1
+三	36 NUM 26 NOUN 10
+三の丸	1 NOUN 1
+三ヶ日	1 PROPN 1
+三世	1 NOUN 1
+三十五	1 NUM 1
+三原	3 PROPN 3
+三司	1 PROPN 1
+三善	1 PROPN 1
+三国志	1 PROPN 1
+三國	1 PROPN 1
+三國志	1 PROPN 1
+三塁	3 NOUN 3
+三塁手	1 NOUN 1
+三姉妹	1 NOUN 1
+三岳	1 PROPN 1
+三峰	1 PROPN 1
+三島	1 PROPN 1
+三崎	1 PROPN 1
+三振	4 NOUN 4
+三方	1 PROPN 1
+三日月	1 NOUN 1
+三明	2 PROPN 2
+三木	2 PROPN 2
+三条	1 PROPN 1
+三毛猫	1 NOUN 1
+三河湾	1 PROPN 1
+三浦	1 PROPN 1
+三田線	1 PROPN 1
+三男	2 PROPN 2
+三百	1 NUM 1
+三筆	1 NOUN 1
+三菱	2 PROPN 2
+三角形	1 NOUN 1
+三越	1 PROPN 1
+三郎	3 PROPN 3
+三部	1 NOUN 1
+三部作	2 NOUN 2
+三重	1 NOUN 1
+三重奏	1 NOUN 1
+三鈴	1 PROPN 1
+三陸沖	1 PROPN 1
+三雲	1 PROPN 1
+上	84 NOUN 84 ***
+上々	1 NOUN 1
+上がっ	7 VERB_上がる 7
+上がら	1 VERB_上がる 1
+上がり	6 VERB_上がる 4 NOUN 2
+上がる	7 VERB 7
+上げ	7 VERB_上げる 6 NOUN 1
+上げる	1 VERB 1
+上げ幅	1 NOUN 1
+上っ	1 VERB_上る 1
+上り	4 VERB_上る 2 NOUN 2
+上る	4 VERB 4
+上下	3 NOUN 2 VERB 1
+上下水道	1 NOUN 1
+上九一色村	1 PROPN 1
+上京	3 VERB 3
+上位	5 NOUN 5
+上値	1 NOUN 1
+上北山村	1 PROPN 1
+上半身	1 NOUN 1
+上司	3 NOUN 3
+上向き	1 VERB_上向く 1
+上告	1 VERB 1
+上品	1 ADJ 1
+上回っ	5 VERB_上回る 5
+上回り	2 VERB_上回る 2
+上回る	2 VERB 2
+上坂	1 PROPN 1
+上層	2 NOUN 2
+上履き	1 NOUN 1
+上手	3 ADJ 2 NOUN 1
+上手い	2 ADJ 2
+上手く	2 ADJ_上手い 2
+上方	1 NOUN 1
+上旬	5 NOUN 5
+上昇	14 VERB 8 NOUN 6
+上映	6 VERB 4 NOUN 2
+上智大学	2 PROPN 2
+上杉	1 PROPN 1
+上水道	1 NOUN 1
+上流	3 NOUN 3
+上流階級	1 NOUN 1
+上海	4 PROPN 4
+上演	6 VERB 4 NOUN 2
+上田	2 NOUN 2
+上皮	1 NOUN 1
+上祐	2 PROPN 2
+上科	1 NOUN 1
+上空	1 NOUN 1
+上級	3 NOUN 3
+上薬	1 NOUN 1
+上記	7 NOUN 7
+上質	1 ADJ 1
+上述	2 NOUN 2
+上部	3 NOUN 3
+上野	1 PROPN 1
+上限	3 NOUN 3
+上院	2 NOUN 2
+上陸	3 VERB 3
+上陸用舟艇	1 NOUN 1
+上階	1 NOUN 1
+上面	1 NOUN 1
+上顎	1 NOUN 1
+下	47 NOUN 47
+下がっ	1 VERB_下がる 1
+下がり	1 VERB_下がる 1
+下がる	1 VERB 1
+下げ	6 VERB_下げる 6
+下さ	1 VERB_下さる 1
+下さい	4 AUX_下さる 3 VERB_下さる 1
+下さり	1 AUX_下さる 1
+下し	1 VERB_下す 1
+下っ	2 VERB_下る 2
+下り	2 VERB_下りる 1 NOUN 1
+下りる	1 VERB 1
+下ろす	1 VERB 1
+下付	1 NOUN 1
+下位	2 NOUN 2
+下側	1 NOUN 1
+下向	1 VERB 1
+下回っ	1 VERB_下回る 1
+下戸	1 NOUN 1
+下支え	1 NOUN 1
+下旬	3 NOUN 3
+下校	1 VERB 1
+下流	1 NOUN 1
+下着	1 NOUN 1
+下等	1 NOUN 1
+下級	1 NOUN 1
+下絵	1 NOUN 1
+下総	2 PROPN 2
+下落	3 VERB 2 NOUN 1
+下見	2 NOUN 2
+下記	5 NOUN 5
+下賜	2 VERB 1 NOUN 1
+下車	1 NOUN 1
+下部	2 NOUN 2
+下関駅	1 PROPN 1
+下降	1 NOUN 1
+下院	5 NOUN 5
+下面	1 NOUN 1
+下顎	2 NOUN 2
+下駄	1 NOUN 1
+不	8 NOUN 8
+不二夫	1 PROPN 1
+不二家	1 PROPN 1
+不仲	1 NOUN 1
+不便	4 ADJ 3 NOUN 1
+不信	1 NOUN 1
+不倫	1 NOUN 1
+不健全	1 ADJ 1
+不全	1 NOUN 1
+不公平	1 ADJ 1
+不利	1 ADJ 1
+不利益	1 ADJ 1
+不動	1 NOUN 1
+不動産屋	1 NOUN 1
+不十分	1 ADJ 1
+不可	1 ADJ 1
+不可欠	2 ADJ 2
+不可能	7 ADJ 7
+不可解	2 ADJ 2
+不味く	1 ADJ_不味い 1
+不在	2 NOUN 2
+不変	1 ADJ 1
+不安	7 ADJ 4 NOUN 3
+不安定	3 ADJ 3
+不完全	3 ADJ 3
+不定期	2 ADJ 2
+不審	2 ADJ 2
+不屈	1 ADJ 1
+不幸	1 NOUN 1
+不当	1 ADJ 1
+不快	1 ADJ 1
+不思議	6 ADJ 6
+不意	1 NOUN 1
+不戦敗	1 NOUN 1
+不振	1 ADJ 1
+不換紙幣	1 NOUN 1
+不敬	1 ADJ 1
+不明	19 ADJ 17 NOUN 2
+不時着	1 NOUN 1
+不服	1 ADJ 1
+不本意	1 ADJ 1
+不正	3 NOUN 2 ADJ 1
+不死鳥	1 NOUN 1
+不況	2 NOUN 2
+不満	2 NOUN 2
+不潔	1 ADJ 1
+不眠症	1 NOUN 1
+不確か	2 ADJ 2
+不老	1 NOUN 1
+不老不死	1 NOUN 1
+不能	2 ADJ 2
+不自然	1 NOUN 1
+不自由	2 ADJ 2
+不興	1 NOUN 1
+不良	4 NOUN 4
+不行き届き	1 ADJ 1
+不要	5 ADJ 5
+不規則	2 ADJ 2
+不評	2 ADJ 1 NOUN 1
+不誠実	1 ADJ 1
+不調	1 NOUN 1
+不謹慎	1 ADJ 1
+不起訴	1 NOUN 1
+不足	5 VERB 3 NOUN 2
+不透明	1 ADJ 1
+不運	1 ADJ 1
+与	1 PROPN 1
+与え	21 VERB_与える 20 NOUN 1
+与える	13 VERB 13
+与党	1 NOUN 1
+与圧	1 NOUN 1
+与野党	1 NOUN 1
+且つ	2 CCONJ_かつ 2
+世	37 NOUN 37
+世代	6 NOUN 6
+世凱	1 PROPN 1
+世子	1 NOUN 1
+世帯	5 NOUN 5
+世田谷区	1 PROPN 1
+世界	47 NOUN 47
+世界一	2 NOUN 2
+世界初	3 NOUN 3
+世界日報	1 PROPN 1
+世界最大	2 NOUN 2
+世界的	4 ADJ 4
+世界経済	2 NOUN 2
+世界観	2 NOUN 2
+世相	1 NOUN 1
+世紀	27 NOUN 27
+世襲	1 NOUN 1
+世話	19 NOUN 18 VERB 1
+世間	5 NOUN 5
+丘	6 PROPN 3 NOUN 3
+丘陵	1 NOUN 1
+丞	1 PROPN 1
+丞相	1 NOUN 1
+両	19 NOUN 19
+両側	3 NOUN 3
+両党	1 NOUN 1
+両国	2 NOUN 2
+両方	6 NOUN 6
+両生	1 NOUN 1
+両社	2 NOUN 2
+両立	3 VERB 3
+両者	6 NOUN 6
+両親	12 NOUN 12
+両論	1 NOUN 1
+両面	1 NOUN 1
+並	2 NOUN 2
+並び	2 NOUN 1 VERB_並ぶ 1
+並ぶ	4 VERB 4
+並べ	2 VERB_並べる 2
+並み	5 NOUN 5
+並ん	15 VERB_並ぶ 15
+並列	5 NOUN 5
+並大抵	1 ADJ 1
+並行	1 VERB 1
+中	193 NOUN 190 PROPN 3 ***
+中でも	4 ADV 4
+中ノ口川	1 PROPN 1
+中世	4 NOUN 4
+中井	1 PROPN 1
+中京	2 PROPN 2
+中京工業地帯	1 PROPN 1
+中傷	2 NOUN 2
+中前	1 PROPN 1
+中区	1 PROPN 1
+中古車	1 NOUN 1
+中和	2 NOUN 2
+中国	37 PROPN 37
+中国本土	1 NOUN 1
+中国海軍	1 PROPN 1
+中央	23 NOUN 23
+中央値	1 NOUN 1
+中央大	1 PROPN 1
+中央政府	1 NOUN 1
+中央環状線	1 PROPN 1
+中央省庁	2 NOUN 2
+中学	6 NOUN 6
+中小	2 NOUN 2
+中小企業	1 NOUN 1
+中山	1 PROPN 1
+中島	3 PROPN 3
+中川	3 PROPN 3
+中州	1 NOUN 1
+中庭	1 NOUN 1
+中心	59 NOUN 59
+中心的	1 ADJ 1
+中断	5 VERB 4 NOUN 1
+中日	6 NOUN 6
+中旬	2 NOUN 2
+中曽根派	1 PROPN 1
+中期	2 NOUN 2
+中本	1 PROPN 1
+中村	3 PROPN 3
+中村歌右衛門	1 PROPN 1
+中東	3 NOUN 3
+中松	1 PROPN 1
+中林	1 PROPN 1
+中枢	3 NOUN 3
+中核	1 NOUN 1
+中止	7 VERB 4 NOUN 3
+中段	1 NOUN 1
+中渡橋	1 PROPN 1
+中澤	1 PROPN 1
+中盤	4 NOUN 4
+中程	1 NOUN 1
+中空	1 NOUN 1
+中細	1 NOUN 1
+中絶	1 VERB 1
+中継	5 NOUN 5
+中線	2 NOUN 2
+中編	1 NOUN 1
+中華	1 NOUN 1
+中華民国	1 PROPN 1
+中身	3 NOUN 3
+中退	1 NOUN 1
+中部	3 NOUN 3
+中野	3 PROPN 3
+中野区	1 PROPN 1
+中間	7 NOUN 7
+中間報告	1 NOUN 1
+中間期	1 NOUN 1
+中高	2 NOUN 2
+串	3 NOUN 3
+串田	1 PROPN 1
+丸	10 NOUN 9 PART 1
+丸の内	1 PROPN 1
+丸井	1 PROPN 1
+丸山	1 PROPN 1
+丸洗い	1 VERB 1
+丸見え	1 NOUN 1
+丹	1 PROPN 1
+丹波	1 PROPN 1
+丹精	1 NOUN 1
+丹陽	1 PROPN 1
+主	23 ADJ 20 NOUN 3
+主として	2 ADV 2
+主に	20 ADV 20
+主人	6 NOUN 6
+主人公	17 NOUN 17
+主体	5 NOUN 5
+主催	16 NOUN 10 VERB 6
+主力	6 NOUN 6
+主君	2 NOUN 2
+主婦	3 NOUN 3
+主宰	1 VERB 1
+主導	4 VERB 2 NOUN 2
+主張	17 VERB 9 NOUN 8
+主役	2 NOUN 2
+主戦	2 NOUN 2
+主教	1 NOUN 1
+主査	1 NOUN 1
+主楽想	1 NOUN 1
+主権	2 NOUN 2
+主流	1 NOUN 1
+主演	7 NOUN 6 VERB 1
+主筆	4 NOUN 4
+主義	4 NOUN 4
+主翼	1 NOUN 1
+主要	13 ADJ 7 NOUN 6
+主要地方道	1 NOUN 1
+主要産業	1 NOUN 1
+主観	1 NOUN 1
+主計	1 NOUN 1
+主軸	1 NOUN 1
+主題	2 NOUN 2
+主題歌	3 NOUN 3
+丼	1 NOUN 1
+乃	1 PROPN 1
+久	1 PROPN 1
+久々	1 ADJ 1
+久しい	1 ADJ 1
+久しぶり	3 ADJ 3
+久保	1 PROPN 1
+久子	1 PROPN 1
+久尾	1 PROPN 1
+久本	1 PROPN 1
+久松	1 PROPN 1
+久留米	1 PROPN 1
+久美子	1 PROPN 1
+久義	1 PROPN 1
+久良	1 PROPN 1
+久野	1 PROPN 1
+之	2 PROPN 2
+之介	1 PROPN 1
+之助	2 PROPN 2
+乏しい	1 ADJ 1
+乏しく	1 ADJ_乏しい 1
+乗	1 NOUN 1
+乗じ	1 VERB_乗じる 1
+乗っ	5 VERB_乗る 5
+乗り	4 NOUN 3 VERB_乗る 1
+乗り入れ	2 VERB_乗り入れる 2
+乗り出し	1 VERB_乗り出す 1
+乗り切る	1 VERB 1
+乗り場	1 NOUN 1
+乗り換え	2 NOUN 1 VERB_乗り換える 1
+乗り継ぎ	2 NOUN 2
+乗り越え	2 VERB_乗り越える 2
+乗り越える	1 VERB 1
+乗り込み	1 VERB_乗り込む 1
+乗る	1 VERB 1
+乗務	2 VERB 2
+乗合	1 NOUN 1
+乗員	3 NOUN 3
+乗客	3 NOUN 3
+乗換駅	1 NOUN 1
+乗機	1 NOUN 1
+乗艦	1 NOUN 1
+乗車	4 NOUN 3 VERB 1
+乗馬	2 NOUN 2
+乙	1 NOUN 1
+乙女	2 NOUN 2
+乙姫	1 NOUN 1
+九	3 NUM 3
+九六	1 NUM 1
+九州	7 PROPN 7
+九州大学	1 PROPN 1
+九郎	2 PROPN 2
+乞	1 PROPN 1
+也	2 PROPN 2
+乱	2 NOUN 2
+乱さ	1 VERB_乱す 1
+乱れ	3 NOUN 2 VERB_乱れる 1
+乱婚	2 NOUN 2
+乱戦	1 NOUN 1
+乱暴	1 ADJ 1
+乱波	1 NOUN 1
+乱流	1 NOUN 1
+乱立	1 VERB 1
+乱調	1 NOUN 1
+乱闘	2 NOUN 2
+乳児	1 NOUN 1
+乳液	1 NOUN 1
+乾	2 NOUN 2
+乾式	1 NOUN 1
+乾燥	3 NOUN 2 VERB 1
+乾電池	1 NOUN 1
+亀	1 PROPN 1
+亀井	2 PROPN 2
+亀山	1 PROPN 1
+亀川	1 PROPN 1
+亀田	2 PROPN 2
+了円	1 PROPN 1
+了承	5 VERB 4 NOUN 1
+了解	1 NOUN 1
+予め	1 ADV 1
+予備	2 NOUN 2
+予告	3 NOUN 2 VERB 1
+予告編	2 NOUN 2
+予定	42 NOUN 35 VERB 7
+予想	15 VERB 9 NOUN 6
+予想外	2 ADJ 2
+予期	2 NOUN 2
+予測	3 NOUN 3
+予算	8 NOUN 8
+予約	8 NOUN 4 VERB 4
+予納	1 VERB 1
+予見	1 NOUN 1
+予言	3 VERB 2 NOUN 1
+予選	6 NOUN 6
+予防	1 NOUN 1
+争	1 VERB_争う 1
+争い	11 NOUN 7 VERB_争う 4
+争う	5 VERB 5
+争っ	1 VERB_争う 1
+事	72 NOUN 72
+事件	44 NOUN 44
+事例	4 NOUN 4
+事前	6 NOUN 6
+事務	1 NOUN 1
+事務所	15 NOUN 15
+事実	20 NOUN 13 ADV 7
+事実上	7 ADV 7
+事実認定	1 NOUN 1
+事後	1 NOUN 1
+事情	11 NOUN 11
+事情聴取	1 NOUN 1
+事態	10 NOUN 10
+事故	18 NOUN 18
+事故死	2 VERB 1 NOUN 1
+事案	1 NOUN 1
+事業	26 NOUN 26
+事業所	2 NOUN 2
+事由	1 NOUN 1
+事象	2 NOUN 2
+事項	2 NOUN 2
+二	87 NUM 78 NOUN 9
+二の腕	1 NOUN 1
+二の舞い	1 NOUN 1
+二万五千	1 NUM 1
+二世	7 NOUN 7
+二人称	1 NOUN 1
+二元的	1 ADJ 1
+二十七	1 NUM 1
+二千	1 NUM 1
+二塁	3 NOUN 3
+二塁打	1 NOUN 1
+二男	1 PROPN 1
+二輪	1 NOUN 1
+二輪車	1 NOUN 1
+二量体	1 NOUN 1
+云	3 VERB_云う 2 PROPN 1
+云う	2 VERB 2
+互い	3 NOUN 3
+互いに	5 ADV 5
+互い違い	1 NOUN 1
+互換	1 NOUN 1
+五	9 NUM 9
+五作	1 PROPN 1
+五原	1 PROPN 1
+五所平之助	1 PROPN 1
+五条	1 PROPN 1
+五百	1 NUM 1
+五輪	2 NOUN 2
+井	1 NOUN 1
+井ノ頭	1 PROPN 1
+井上	3 PROPN 3
+井伊	1 PROPN 1
+井口	4 PROPN 4
+井川	1 PROPN 1
+井戸	1 NOUN 1
+井戸水	1 NOUN 1
+亘っ	2 VERB_亘る 2
+亘る	2 VERB 2
+亜理沙	2 PROPN 2
+亜硝酸塩	1 NOUN 1
+亜衣	1 PROPN 1
+亜麻	1 NOUN 1
+亡き	1 ADJ 1
+亡くし	1 VERB_亡くす 1
+亡くなら	1 VERB_亡くなる 1
+亡くなり	1 VERB_亡くなる 1
+亡くなる	1 VERB 1
+亡命	1 VERB 1
+亡国	1 NOUN 1
+交	2 NOUN 2
+交じり	1 NOUN 1
+交わし	1 VERB_交わす 1
+交わす	2 VERB 2
+交わり	1 NOUN 1
+交互	2 ADJ 2
+交付	1 VERB 1
+交代	7 NOUN 4 VERB 3
+交友	2 NOUN 2
+交差	2 VERB 1 NOUN 1
+交差点	1 NOUN 1
+交戦	3 NOUN 2 VERB 1
+交換	10 NOUN 9 VERB 1
+交易	3 NOUN 3
+交流	11 NOUN 11
+交渉	6 VERB 3 NOUN 3
+交点	1 NOUN 1
+交通	8 NOUN 8
+交通事故	1 NOUN 1
+交錯	1 VERB 1
+交際	3 VERB 2 NOUN 1
+交雑	1 NOUN 1
+交響曲	1 NOUN 1
+交響楽団	2 NOUN 2
+交響詩	1 NOUN 1
+亨進	1 PROPN 1
+享年	2 NOUN 2
+京	4 NOUN 3 PROPN 1
+京一	1 PROPN 1
+京大	1 PROPN 1
+京橋	2 PROPN 2
+京浜	1 PROPN 1
+京浜急行電鉄	1 PROPN 1
+京王	3 PROPN 3
+京町	1 PROPN 1
+京都	9 PROPN 9
+京都大学	2 PROPN 2
+京都市立芸術大学	1 PROPN 1
+京都府	2 PROPN 2
+京都府警	1 PROPN 1
+亮	3 PROPN 3
+人	340 NOUN 340 ***
+人々	24 NOUN 24
+人たち	11 NOUN 11
+人事	1 NOUN 1
+人件費	1 NOUN 1
+人別帳	1 NOUN 1
+人口	13 NOUN 12 PART 1
+人口増加	1 NOUN 1
+人口密度	1 NOUN 1
+人口統計	2 NOUN 2
+人員	4 NOUN 4
+人員削減	1 NOUN 1
+人工	2 NOUN 2
+人当たり	1 NOUN 1
+人形	4 NOUN 4
+人形劇	1 NOUN 1
+人影	1 NOUN 1
+人情	1 NOUN 1
+人懐っこい	1 ADJ 1
+人数	3 NOUN 3
+人材	2 NOUN 2
+人柄	3 NOUN 3
+人格	2 NOUN 2
+人権	7 NOUN 7
+人権侵害	1 NOUN 1
+人殺し	1 NOUN 1
+人民	1 NOUN 1
+人気	45 NOUN 45
+人為的	2 ADJ 2
+人物	31 NOUN 31
+人生	9 NOUN 9
+人的	2 ADJ 2
+人目	1 NOUN 1
+人称代名詞	1 NOUN 1
+人種	2 NOUN 2
+人脈	2 NOUN 2
+人語	1 NOUN 1
+人質	1 NOUN 1
+人道的	1 ADJ 1
+人達	1 NOUN 1
+人間	18 NOUN 18
+人間国宝	2 NOUN 2
+人類	10 NOUN 10
+人類学	1 NOUN 1
+仁	4 PROPN 3 NOUN 1
+仁和寺	1 PROPN 1
+仁川	1 PROPN 1
+今	37 NOUN 34 ADV 3
+今に	1 ADV 1
+今は	4 ADV 4
+今まで	7 ADV 7
+今や	2 ADV 2
+今回	35 NOUN 35
+今季	3 NOUN 3
+今川	1 PROPN 1
+今年	26 NOUN 26
+今年度	1 NOUN 1
+今度	6 NOUN 6
+今後	34 NOUN 34
+今日	13 NOUN 13
+今春	1 NOUN 1
+今更	1 ADV 1
+今月	5 NOUN 5
+今期	2 NOUN 2
+今田	1 PROPN 1
+今里	1 PROPN 1
+介し	1 VERB_介する 1
+介する	1 VERB 1
+介入	2 VERB 2
+介添え	1 NOUN 1
+介護	7 NOUN 7
+仏	6 PROPN 5 NOUN 1
+仏像	2 NOUN 2
+仏具	2 NOUN 2
+仏堂	2 NOUN 2
+仏教	6 NOUN 6
+仏題	1 NOUN 1
+仔猫	1 NOUN 1
+仕え	1 VERB_仕える 1
+仕える	1 VERB 1
+仕上	1 NOUN 1
+仕上がり	6 NOUN 4 VERB_仕上がる 2
+仕上がる	1 VERB 1
+仕上げ	2 NOUN 1 VERB_仕上げる 1
+仕上げる	1 VERB 1
+仕事	29 NOUN 28 VERB 1
+仕事場	1 NOUN 1
+仕入れ	2 VERB_仕入れる 1 NOUN 1
+仕切る	1 VERB 1
+仕打ち	1 NOUN 1
+仕掛け	1 VERB_仕掛ける 1
+仕方がない	1 ADJ 1
+仕様	6 NOUN 6
+仕立て	1 NOUN 1
+仕組み	3 NOUN 3
+仕組ん	1 VERB_仕組む 1
+仕舞わ	1 VERB_仕舞う 1
+仕込み	1 NOUN 1
+他	50 NOUN 50
+他の	43 ADJ 43
+他人	8 NOUN 8
+他国	3 NOUN 3
+他山の石	1 NOUN 1
+他店	1 NOUN 1
+他所	2 PRON 2
+他方	1 NOUN 1
+他界	1 VERB 1
+他社	5 NOUN 5
+付	4 NOUN 4
+付い	5 VERB_付く 5
+付き	11 NOUN 9 VERB_付く 2
+付き合う	1 VERB 1
+付き合っ	1 VERB_付き合う 1
+付き添い	1 NOUN 1
+付き添っ	1 VERB_付き添う 1
+付く	2 VERB 2
+付け	23 VERB_付ける 14 NOUN 9
+付け加え	1 VERB_付け加える 1
+付さ	1 VERB_付する 1
+付加	4 VERB 4
+付加価値	1 NOUN 1
+付合せ	1 NOUN 1
+付属	4 VERB 2 NOUN 2
+付帯	1 NOUN 1
+付柱	1 NOUN 1
+付着	1 NOUN 1
+付近	15 NOUN 15
+付随	1 NOUN 1
+仙	1 PROPN 1
+仙台	10 PROPN 10
+代	34 NOUN 34
+代々	1 NOUN 1
+代々木競技場	1 PROPN 1
+代わっ	3 VERB_代わる 3
+代わり	8 VERB_代わる 8
+代わる	1 VERB 1
+代償	1 NOUN 1
+代名詞	2 NOUN 2
+代役	1 NOUN 1
+代打	1 NOUN 1
+代替	3 NOUN 3
+代父	1 NOUN 1
+代物	1 NOUN 1
+代理	5 NOUN 5
+代用	1 VERB 1
+代行	2 NOUN 1 VERB 1
+代表	35 NOUN 31 VERB 4
+代表的	2 ADJ 2
+代謝	3 NOUN 3
+代走	1 NOUN 1
+代車	1 NOUN 1
+代金	2 NOUN 2
+代金引換	1 NOUN 1
+令	1 NOUN 1
+以	4 NOUN 4
+以上	55 NOUN 55
+以下	50 NOUN 50
+以内	2 NOUN 2
+以前	37 NOUN 37
+以外	38 NOUN 38
+以後	12 NOUN 12
+以来	12 NOUN 12
+以西	1 NOUN 1
+以降	50 NOUN 50
+仮	8 NOUN 8
+仮に	1 ADV 1
+仮名	1 NOUN 1
+仮定	1 NOUN 1
+仮想	1 NOUN 1
+仮死状態	1 NOUN 1
+仮称	1 NOUN 1
+仮設	1 NOUN 1
+仮説	2 NOUN 2
+仮面ライダー	3 PROPN 3
+仰い	2 VERB_仰ぐ 2
+仰ぐ	1 VERB 1
+仰げ	1 VERB_仰ぐ 1
+仰木	2 PROPN 2
+仰角	1 NOUN 1
+仲	4 NOUN 2 PROPN 2
+仲井真	2 PROPN 2
+仲介	2 NOUN 2
+仲良く	1 ADV 1
+仲間	9 NOUN 9
+件	27 NOUN 27
+件数	2 NOUN 2
+任	3 NOUN 3
+任さ	2 VERB_任す 2
+任じ	1 VERB_任じる 1
+任せ	3 VERB_任せる 3
+任せし	1 VERB_任せる 1
+任せる	1 VERB 1
+任務	11 NOUN 11
+任命	5 VERB 3 NOUN 2
+任官	1 VERB 1
+任意	3 NOUN 2 ADJ 1
+任期	2 NOUN 2
+企む	1 VERB 1
+企図	1 VERB 1
+企業	28 NOUN 28
+企業会計	1 NOUN 1
+企業価値	1 NOUN 1
+企業名	1 NOUN 1
+企業城下町	1 NOUN 1
+企業秘密	1 NOUN 1
+企業買収	1 NOUN 1
+企画	21 NOUN 19 VERB 2
+伊	1 PROPN 1
+伊丹空港	1 PROPN 1
+伊予	1 PROPN 1
+伊勢	1 PROPN 1
+伊勢丹	1 PROPN 1
+伊勢湾	1 PROPN 1
+伊呂波	1 NOUN 1
+伊崎	1 PROPN 1
+伊波	2 PROPN 2
+伊藤	6 PROPN 6
+伊豆	3 PROPN 3
+伊賀	1 PROPN 1
+伊達	1 PROPN 1
+伊達政宗	1 PROPN 1
+伏	1 PROPN 1
+伏せ	1 VERB_伏せる 1
+伏兵	1 NOUN 1
+伏字	1 NOUN 1
+伏線	1 NOUN 1
+伏見	1 PROPN 1
+休ま	1 VERB_休む 1
+休み	1 VERB_休む 1
+休みし	1 VERB_休む 1
+休む	1 VERB 1
+休ん	1 VERB_休む 1
+休刊	1 VERB 1
+休戦協定	1 NOUN 1
+休日	4 NOUN 4
+休業	2 VERB 1 NOUN 1
+休止	3 NOUN 3
+休眠	1 NOUN 1
+休養	3 NOUN 2 VERB 1
+会	69 NOUN 69
+会い	2 VERB_会う 2
+会っ	3 VERB_会う 3
+会則	1 NOUN 1
+会合	3 NOUN 2 VERB 1
+会員	10 NOUN 10
+会員制	1 NOUN 1
+会場	16 NOUN 16
+会戦	1 NOUN 1
+会期	1 NOUN 1
+会津若松	1 PROPN 1
+会派	1 NOUN 1
+会社	34 NOUN 34
+会見	5 NOUN 3 PROPN 1 VERB 1
+会計	2 NOUN 2
+会計士	1 NOUN 1
+会話	6 NOUN 6
+会談	2 NOUN 1 VERB 1
+会議	8 NOUN 8
+会議室	1 NOUN 1
+会費	2 NOUN 2
+会長	16 NOUN 16
+会館	1 NOUN 1
+伝	2 NOUN 2
+伝い	1 NOUN 1
+伝え	21 VERB_伝える 21
+伝えし	2 VERB_伝える 2
+伝えする	1 VERB_伝える 1
+伝える	7 VERB 7
+伝わっ	1 VERB_伝わる 1
+伝わる	3 VERB 3
+伝承	5 NOUN 4 VERB 1
+伝染病	1 NOUN 1
+伝統	5 NOUN 5
+伝統的	4 ADJ 4
+伝記	4 NOUN 4
+伝説	8 NOUN 8
+伝送	2 VERB 2
+伝道	2 NOUN 2
+伝達	3 NOUN 2 VERB 1
+伯	3 PROPN 3
+伯爵	4 NOUN 4
+伯耆	1 PROPN 1
+伴	3 PROPN 3
+伴い	13 VERB_伴う 13
+伴う	5 VERB 5
+伴っ	4 VERB_伴う 4
+伴わ	1 VERB_伴う 1
+伴奏	1 NOUN 1
+伸ばし	1 VERB_伸ばす 1
+伸び	3 VERB_伸びる 3
+伸びる	1 VERB 1
+伸び悩ん	1 VERB_伸び悩む 1
+伸二	1 PROPN 1
+伸張	1 VERB 1
+伸長	1 NOUN 1
+伺	2 VERB_伺う 2
+伺い	2 VERB_伺う 2
+伺う	1 VERB 1
+似	10 VERB_似る 9 NOUN 1
+似通っ	1 VERB_似通う 1
+伽藍	1 NOUN 1
+佃煮	1 NOUN 1
+但し	3 CCONJ 3
+但馬	1 PROPN 1
+位	46 NOUN 46
+位相	1 NOUN 1
+位置	22 VERB 16 NOUN 6
+位置づけ	2 VERB_位置づける 2
+位階	1 NOUN 1
+低	4 NOUN 4
+低い	12 ADJ 12
+低く	1 ADJ_低い 1
+低コスト	2 ADJ 2
+低下	13 VERB 8 NOUN 5
+低価格	3 ADJ 3
+低層	1 NOUN 1
+低木	1 NOUN 1
+低減	6 NOUN 5 VERB 1
+低温	1 NOUN 1
+低級	1 ADJ 1
+低翼	2 NOUN 2
+低迷	4 NOUN 3 VERB 1
+低速	2 NOUN 2
+低音	2 NOUN 2
+住	2 NOUN 1 VERB_住む 1
+住まい	3 NOUN 3
+住み	1 VERB_住む 1
+住む	6 VERB 6
+住ん	9 VERB_住む 9
+住人	4 NOUN 4
+住友	1 PROPN 1
+住宅	3 NOUN 3
+住居	4 NOUN 4
+住所	3 NOUN 3
+住民	22 NOUN 22
+住民票	1 NOUN 1
+住職	3 NOUN 3
+住設	1 PROPN 1
+住銀	1 PROPN 1
+佐	2 PROPN 2
+佐々	1 PROPN 1
+佐世保	1 PROPN 1
+佐久間	1 PROPN 1
+佐伯区	1 PROPN 1
+佐助	1 PROPN 1
+佐田	1 PROPN 1
+佐竹	1 PROPN 1
+佐藤	6 PROPN 6
+佐野	1 PROPN 1
+体	36 NOUN 36
+体内	4 NOUN 4
+体制	8 NOUN 8
+体力	1 NOUN 1
+体型	2 NOUN 2
+体当たり	1 NOUN 1
+体形	1 NOUN 1
+体操	1 NOUN 1
+体格	2 NOUN 2
+体現	2 VERB 2
+体系	4 NOUN 4
+体育	3 NOUN 3
+体育祭	2 NOUN 2
+体調	1 NOUN 1
+体質	3 NOUN 3
+体躯	1 NOUN 1
+体重	4 NOUN 4
+体長	1 NOUN 1
+体験	16 NOUN 11 VERB 5
+何	38 NUM 24 ADV 7 NOUN 7
+何か	1 ADV 1
+何で	1 ADV 1
+何でも	2 ADV 2
+何と	4 ADV 4
+何とか	1 ADV 1
+何とも	2 ADV 2
+何も	4 ADV 4
+何やら	1 ADV 1
+何より	4 ADV 4
+何ら	4 ADV 4
+何事	3 NOUN 3
+何人	1 NOUN 1
+何故	1 ADV 1
+何時	1 NOUN 1
+何者	1 NOUN 1
+余	2 NOUN 2
+余し	1 VERB_余す 1
+余っ	1 VERB_余る 1
+余り	2 NOUN 2
+余りに	1 ADV 1
+余儀なく	2 ADJ_余儀ない 2
+余剰	2 NOUN 1 ADJ 1
+余波	1 NOUN 1
+余白	1 NOUN 1
+余綾	1 PROPN 1
+余談	1 NOUN 1
+作	45 NOUN 44 VERB_作る 1
+作っ	14 VERB_作る 14
+作ら	10 VERB_作る 10
+作り	10 VERB_作る 5 NOUN 5
+作り上げ	2 VERB_作り上げる 2
+作り上げる	1 VERB 1
+作る	11 VERB 11
+作ろ	1 VERB_作る 1
+作並	1 PROPN 1
+作中	4 NOUN 4
+作出	2 VERB 2
+作劇	1 NOUN 1
+作動	1 VERB 1
+作品	53 NOUN 53
+作家	6 NOUN 6
+作成	11 VERB 8 NOUN 3
+作戦	10 NOUN 10
+作曲	3 NOUN 2 VERB 1
+作業	8 NOUN 8
+作業着	1 NOUN 1
+作用	7 NOUN 6 VERB 1
+作用点	1 NOUN 1
+作用素	1 NOUN 1
+作画	2 NOUN 2
+作者	4 NOUN 4
+作詞	1 NOUN 1
+作風	3 NOUN 3
+佩用	1 VERB 1
+佳彦	3 PROPN 3
+併せ	1 VERB_併せる 1
+併合	2 VERB 2
+併呑	1 VERB 1
+併売	1 NOUN 1
+併用	1 NOUN 1
+併記	1 VERB 1
+併設	1 NOUN 1
+使	1 NOUN 1
+使い	12 VERB_使う 8 NOUN 4
+使い切る	1 VERB 1
+使い勝手	1 NOUN 1
+使い古さ	1 VERB_使い古す 1
+使い手	1 NOUN 1
+使う	24 VERB 24
+使え	7 VERB_使う 7
+使える	8 VERB 8
+使っ	43 VERB_使う 43
+使わ	25 VERB_使う 25
+使役	2 VERB 2
+使徒	2 NOUN 2
+使用	95 VERB 72 NOUN 23
+使節	1 NOUN 1
+使者	1 NOUN 1
+例	11 NOUN 11
+例えば	10 ADV 10
+例の	1 ADJ 1
+例外	6 NOUN 6
+例年	3 NOUN 3
+侍	1 NOUN 1
+侍女	2 NOUN 2
+侍所	1 NOUN 1
+侍郎	1 NOUN 1
+供	1 NOUN 1
+供与	3 NOUN 2 VERB 1
+供用	1 NOUN 1
+供給	8 NOUN 5 VERB 3
+供述	3 NOUN 2 VERB 1
+供養	1 VERB 1
+依	1 PROPN 1
+依れ	1 VERB_依る 1
+依存	2 VERB 1 NOUN 1
+依然として	4 ADV 4
+依頼	9 NOUN 5 VERB 4
+価値	9 NOUN 9
+価格	21 NOUN 21
+価格破壊	1 NOUN 1
+侯	4 NOUN 4
+侵し	1 VERB_侵す 1
+侵入	5 VERB 3 NOUN 2
+侵害	1 VERB 1
+侵攻	5 NOUN 3 VERB 2
+侵略	3 VERB 2 NOUN 1
+侵襲	1 NOUN 1
+便	4 NOUN 4
+便利	13 ADJ 13
+便器	1 NOUN 1
+便宜上	1 ADV 1
+係	3 NOUN 3
+係争	1 VERB 1
+係船	1 NOUN 1
+係長	1 NOUN 1
+促し	1 VERB_促す 1
+促す	2 VERB 2
+促進	3 NOUN 3
+俊	1 PROPN 1
+俊介	1 PROPN 1
+俊彦	2 PROPN 2
+俗に	1 ADV 1
+俗語	1 NOUN 1
+保	2 PROPN 2
+保た	1 VERB_保つ 1
+保っ	2 VERB_保つ 2
+保つ	3 VERB 3
+保健	6 NOUN 6
+保健室	2 NOUN 2
+保全	1 NOUN 1
+保夫	1 PROPN 1
+保存	10 VERB 6 NOUN 4
+保守	2 NOUN 2
+保守党	1 NOUN 1
+保守派	1 NOUN 1
+保安	2 NOUN 2
+保有	8 VERB 8
+保留	1 VERB 1
+保管	3 VERB 3
+保育	1 NOUN 1
+保育園	1 NOUN 1
+保育所	1 NOUN 1
+保証	4 VERB 2 NOUN 2
+保護	8 NOUN 4 VERB 4
+保護区	3 NOUN 3
+保釈	1 NOUN 1
+保険	5 NOUN 5
+保険診療	1 NOUN 1
+保障	3 NOUN 2 VERB 1
+信	3 PROPN 2 NOUN 1
+信じ	3 VERB_信じる 3
+信じる	1 VERB 1
+信之	1 PROPN 1
+信介	1 PROPN 1
+信仰	14 NOUN 12 VERB 2
+信任	2 NOUN 2
+信号	6 NOUN 6
+信奉	3 NOUN 2 VERB 1
+信徒	1 NOUN 1
+信念	1 NOUN 1
+信愛	1 NOUN 1
+信教	2 NOUN 2
+信濃	1 PROPN 1
+信濃川	1 PROPN 1
+信用	5 VERB 3 NOUN 2
+信義	2 NOUN 1 PROPN 1
+信者	74 NOUN 74
+信越本線	1 PROPN 1
+信長	3 PROPN 3
+信頼	10 NOUN 6 VERB 4
+修める	1 VERB 1
+修復	4 NOUN 3 VERB 1
+修業	1 NOUN 1
+修正	4 NOUN 2 VERB 2
+修治	1 PROPN 1
+修理	5 NOUN 3 VERB 2
+修練	1 VERB 1
+修繕	2 NOUN 2
+修行	5 NOUN 5
+修道	1 NOUN 1
+修道士	1 NOUN 1
+修道院	2 NOUN 2
+修養	1 NOUN 1
+修験	1 NOUN 1
+俳優	5 NOUN 5
+俳句	1 NOUN 1
+俳名	1 NOUN 1
+俺	2 PRON 2
+倉庫	3 NOUN 3
+倉渕	1 PROPN 1
+倉石	1 PROPN 1
+個	13 NOUN 13
+個々	3 NOUN 3
+個人	23 NOUN 23
+個人情報	1 NOUN 1
+個人攻撃	1 NOUN 1
+個人消費	1 NOUN 1
+個人的	14 ADJ 14
+個人経営	2 NOUN 2
+個体	3 NOUN 3
+個別	4 NOUN 3 ADJ 1
+個別指導	1 NOUN 1
+個室	8 NOUN 8
+個展	1 NOUN 1
+個性	3 NOUN 3
+個性的	3 ADJ 3
+倍	14 NOUN 14
+倒	1 VERB_倒す 1
+倒さ	5 VERB_倒す 5
+倒し	7 VERB_倒す 7
+倒す	3 VERB 3
+倒せ	1 VERB_倒す 1
+倒そ	1 VERB_倒す 1
+倒れ	8 VERB_倒れる 8
+倒れる	1 VERB 1
+倒壊	1 NOUN 1
+倒産	2 NOUN 1 VERB 1
+候補	7 NOUN 7
+借り	4 NOUN 2 VERB_借りる 2
+借りる	1 VERB 1
+借り入れ	1 NOUN 1
+借り手	1 NOUN 1
+借り換える	1 VERB 1
+値	5 NOUN 5
+値する	1 VERB 1
+値上げ	4 VERB 3 NOUN 1
+値下がり	2 NOUN 2
+値下げ	1 NOUN 1
+値幅	1 NOUN 1
+値打ち	1 NOUN 1
+値段	22 NOUN 22
+倫理	2 NOUN 2
+倹約	1 VERB 1
+偉い	1 ADJ 1
+偉人	1 NOUN 1
+偉大	1 ADJ 1
+偏	3 NOUN 3
+偏っ	1 VERB_偏る 1
+偏向	1 NOUN 1
+偏見	1 NOUN 1
+停戦	1 NOUN 1
+停止	18 VERB 11 NOUN 7
+停泊	1 NOUN 1
+停波	1 NOUN 1
+停滞	1 NOUN 1
+停留所	3 NOUN 3
+停車	5 VERB 3 NOUN 2
+健在	1 VERB 1
+健常	1 ADJ 1
+健康	16 ADJ 9 NOUN 7
+健闘	1 VERB 1
+側	69 NOUN 69
+側壁	1 NOUN 1
+側室	1 NOUN 1
+側近	2 NOUN 2
+側面	7 NOUN 7
+偵察	3 NOUN 2 VERB 1
+偶数	1 NOUN 1
+偶然	3 ADV 2 NOUN 1
+偶発	2 NOUN 2
+偶発的	1 ADJ 1
+偽	1 NOUN 1
+偽っ	1 VERB_偽る 1
+偽り	3 NOUN 2 VERB_偽る 1
+偽名	1 NOUN 1
+偽書	2 NOUN 2
+偽物	1 NOUN 1
+偽装	8 NOUN 8
+傀儡	1 NOUN 1
+傍	1 NOUN 1
+傍ら	6 NOUN 6
+傍聴	5 NOUN 4 VERB 1
+傍観	1 NOUN 1
+傑作	1 NOUN 1
+傘	1 NOUN 1
+傘下	3 NOUN 3
+備え	10 VERB_備える 9 NOUN 1
+備える	2 VERB 2
+備え付け	1 VERB_備え付ける 1
+備わっ	2 VERB_備わる 2
+備中	1 PROPN 1
+備品	2 NOUN 2
+備長炭	1 PROPN 1
+催さ	2 VERB_催す 2
+催促	1 VERB 1
+催告	1 NOUN 1
+傭兵	2 NOUN 2
+傲慢	1 NOUN 1
+傳法大阿闍梨	1 PROPN 1
+債	2 NOUN 2
+債務	4 NOUN 4
+債権	1 NOUN 1
+傷	5 NOUN 5
+傷つい	1 VERB_傷つく 1
+傷み	1 NOUN 1
+傷め	1 VERB_傷める 1
+傷害	1 NOUN 1
+傷跡	1 NOUN 1
+傾い	1 VERB_傾く 1
+傾向	15 NOUN 15
+傾斜	1 VERB 1
+僅か	4 ADJ 3 ADV 1
+僅差	1 NOUN 1
+働い	6 VERB_働く 6
+働か	3 VERB_働く 3
+働き	9 NOUN 6 VERB_働く 3
+働く	5 VERB 5
+像	5 NOUN 5
+僕	7 PRON 6 NOUN 1
+僧	1 NOUN 1
+僧侶	4 NOUN 4
+僴	1 PROPN 1
+儀	1 PROPN 1
+儀式	7 NOUN 7
+儀礼的	1 ADJ 1
+億	38 NUM 27 NOUN 11
+億万	1 NOUN 1
+儒教	1 NOUN 1
+償還	1 NOUN 1
+優	3 NOUN 2 PROPN 1
+優しい	7 ADJ 7
+優しく	1 ADJ_優しい 1
+優れ	10 VERB_優れる 10
+優れる	1 VERB 1
+優位	2 ADJ 1 NOUN 1
+優先	5 NOUN 3 VERB 2
+優勝	42 NOUN 29 VERB 13
+優勢	1 NOUN 1
+優柔不断	2 ADJ 2
+優秀	6 ADJ 5 NOUN 1
+優等	1 NOUN 1
+優越	2 NOUN 2
+優遇	4 VERB 2 NOUN 2
+優里弥	1 PROPN 1
+元	48 ADJ 27 NOUN 20 PROPN 1
+元々	6 NOUN 4 ADV 2
+元吉	1 PROPN 1
+元夫	1 PROPN 1
+元年	1 NOUN 1
+元来	1 NOUN 1
+元柳斎	1 PROPN 1
+元気	4 NOUN 3 ADJ 1
+元町	2 PROPN 2
+元顕恭	2 PROPN 2
+元首	1 NOUN 1
+兄	13 NOUN 13
+兄妹	1 NOUN 1
+兄弟	10 NOUN 10
+充	1 PROPN 1
+充て	1 VERB_充てる 1
+充分	3 ADJ 3
+充実	4 VERB 3 NOUN 1
+充当	1 VERB 1
+充電	2 NOUN 1 VERB 1
+兆	9 NOUN 5 NUM 4
+先	21 NOUN 20 ADV 1
+先に	5 ADV 5
+先代	1 NOUN 1
+先例	1 NOUN 1
+先入観	1 NOUN 1
+先制	6 NOUN 4 VERB 2
+先取り	1 VERB 1
+先回り	1 NOUN 1
+先導	1 NOUN 1
+先手	1 NOUN 1
+先方	1 NOUN 1
+先日	6 NOUN 6
+先月	7 NOUN 7
+先物	1 NOUN 1
+先物相場	2 NOUN 2
+先王	2 NOUN 2
+先生	32 NOUN 32
+先番	1 NOUN 1
+先発	3 VERB 2 NOUN 1
+先発投手	1 NOUN 1
+先祖	2 NOUN 2
+先祖供養	1 NOUN 1
+先端	7 NOUN 7
+先行	5 NOUN 5
+先行き	2 NOUN 2
+先読み	2 VERB 2
+先輩	9 NOUN 9
+先送り	1 VERB 1
+先週	2 NOUN 2
+先進国	2 NOUN 2
+先進的	1 ADJ 1
+先駆	1 NOUN 1
+先高	1 NOUN 1
+光	14 NOUN 13 PROPN 1
+光り輝く	1 VERB 1
+光ファイバー	1 NOUN 1
+光岳	1 PROPN 1
+光常	1 PROPN 1
+光年	1 NOUN 1
+光広	1 PROPN 1
+光景	2 NOUN 2
+光栄	1 ADJ 1
+光永	1 PROPN 1
+光線	2 NOUN 2
+克子	1 PROPN 1
+克弥	1 PROPN 1
+克服	1 VERB 1
+免状	1 NOUN 1
+免疫	2 NOUN 2
+免疫学	1 NOUN 1
+免疫抑制剤	2 NOUN 2
+免許	5 NOUN 5
+免除	3 VERB 2 NOUN 1
+児	3 NOUN 3
+児童	6 NOUN 6
+児童相談所	1 NOUN 1
+児童虐待	1 NOUN 1
+党	16 NOUN 16
+党内	3 NOUN 3
+党員	4 NOUN 4
+党派	3 NOUN 3
+党規	1 NOUN 1
+党費	1 NOUN 1
+党首	2 NOUN 2
+入	4 NOUN 4
+入っ	33 VERB_入る 33
+入ってい	2 VERB_入っている 2
+入っている	4 VERB 4
+入ら	3 VERB_入る 3
+入り	29 VERB 23 NOUN 6
+入り口	5 NOUN 5
+入り方	1 NOUN 1
+入り浸っ	1 VERB_入り浸る 1
+入る	15 VERB 15
+入れ	19 VERB_入れる 19
+入れる	8 VERB 8
+入れ替え	2 VERB 2
+入れ替える	1 VERB 1
+入れ歯	2 NOUN 2
+入ろ	1 VERB_入る 1
+入会	1 NOUN 1
+入信	5 VERB 4 NOUN 1
+入党	1 NOUN 1
+入出力	2 NOUN 2
+入力	3 VERB 3
+入口	3 NOUN 3
+入団	5 VERB 5
+入城	1 NOUN 1
+入場	7 NOUN 5 VERB 2
+入場料	1 NOUN 1
+入居	2 VERB 2
+入念	1 ADJ 1
+入手	4 VERB 3 NOUN 1
+入朝	1 NOUN 1
+入植	2 NOUN 1 VERB 1
+入浴	1 NOUN 1
+入港	1 VERB 1
+入社	10 VERB 8 NOUN 2
+入籍	1 VERB 1
+入試	1 NOUN 1
+入谷	1 PROPN 1
+入賞	3 VERB 2 NOUN 1
+入部	1 VERB 1
+入門	2 NOUN 1 VERB 1
+入間川	2 PROPN 2
+入院	4 VERB 3 NOUN 1
+入隊	1 NOUN 1
+入館	2 NOUN 1 VERB 1
+內	1 PROPN 1
+全	34 NOUN 34
+全く	22 ADV 22
+全て	28 ADV 16 NOUN 12
+全世界的	1 ADJ 1
+全久院	1 PROPN 1
+全但バス	1 PROPN 1
+全体	28 NOUN 26 ADV 2
+全体的	2 ADJ 2
+全力	1 NOUN 1
+全勝	1 NOUN 1
+全員	11 NOUN 11
+全国	25 NOUN 25
+全国区	1 NOUN 1
+全国的	3 ADJ 3
+全土	3 NOUN 3
+全域	1 NOUN 1
+全市	1 NOUN 1
+全廃	1 NOUN 1
+全日	1 NOUN 1
+全日本	2 PROPN 2
+全曲	1 NOUN 1
+全校	1 NOUN 1
+全権	1 NOUN 1
+全治	1 NOUN 1
+全滅	1 NOUN 1
+全然	3 ADV 3
+全盛期	2 NOUN 2
+全米	4 PROPN 4
+全米オープン	2 NOUN 2
+全羅	1 PROPN 1
+全般	7 NOUN 7
+全貌	1 NOUN 1
+全身	6 NOUN 6
+全軍	1 NOUN 1
+全通	1 VERB 1
+全部	5 NOUN 5
+全長	5 PART 4 NOUN 1
+全集	2 NOUN 2
+全面	4 NOUN 4
+全面的	2 ADJ 2
+全額	3 NOUN 3
+八	9 NUM 5 NOUN 4
+八千代台	1 PROPN 1
+八幡	1 PROPN 1
+八幡西区	1 PROPN 1
+八戸	1 PROPN 1
+八景	1 NOUN 1
+八重	1 NOUN 1
+八重洲	1 PROPN 1
+八高線	1 PROPN 1
+公	10 NOUN 10
+公企業	1 NOUN 1
+公使	1 NOUN 1
+公債	1 NOUN 1
+公儀	1 NOUN 1
+公共	3 NOUN 3
+公共事業	1 NOUN 1
+公共投資	1 NOUN 1
+公共施設	1 NOUN 1
+公募	1 VERB 1
+公国	4 NOUN 4
+公園	15 NOUN 15
+公妃	1 NOUN 1
+公布	2 VERB 2
+公平	1 ADJ 1
+公式	14 NOUN 7 ADJ 7
+公教育	1 NOUN 1
+公明	1 ADJ 1
+公有	1 NOUN 1
+公正	3 ADJ 2 NOUN 1
+公演	2 NOUN 2
+公爵	2 NOUN 2
+公爵領	2 NOUN 2
+公的	3 ADJ 3
+公私	1 NOUN 1
+公立	3 NOUN 3
+公職追放	2 NOUN 2
+公職選挙法	1 NOUN 1
+公表	7 VERB 4 NOUN 3
+公認	5 NOUN 5
+公認会計士	1 NOUN 1
+公転	1 NOUN 1
+公道	2 NOUN 2
+公金	1 NOUN 1
+公開	25 VERB 17 NOUN 8
+公開質問状	1 NOUN 1
+六	7 NUM 6 NOUN 1
+六合	1 PROPN 1
+六曜	1 NOUN 1
+六花	1 NOUN 1
+共	7 NOUN 7
+共々	1 ADV 1
+共に	9 ADV 9
+共同	5 NOUN 5
+共同所有	1 NOUN 1
+共同生活	1 NOUN 1
+共同研究	1 NOUN 1
+共同通信	1 PROPN 1
+共和	1 NOUN 1
+共和国	6 NOUN 6
+共存	1 VERB 1
+共振	2 NOUN 2
+共有	7 VERB 5 NOUN 2
+共演	6 VERB 3 NOUN 3
+共生	1 VERB 1
+共産	1 NOUN 1
+共産主義	1 NOUN 1
+共用	1 VERB 1
+共管	1 NOUN 1
+共謀	1 VERB 1
+共通	4 VERB 2 ADJ 1 NOUN 1
+共食い	1 NOUN 1
+共鳴	1 VERB 1
+兵	11 NOUN 11
+兵事	2 NOUN 2
+兵員	1 NOUN 1
+兵営	1 NOUN 1
+兵器	7 NOUN 7
+兵士	11 NOUN 11
+兵庫	1 PROPN 1
+兵役	1 NOUN 1
+兵法	1 NOUN 1
+兵火	1 NOUN 1
+兵糧	1 NOUN 1
+兵糧攻め	1 NOUN 1
+兵衛	1 PROPN 1
+具	1 NOUN 1
+具体的	13 ADJ 13
+具合	2 NOUN 2
+具材	3 NOUN 3
+具足	2 VERB 2
+典	3 PROPN 3
+典型	1 NOUN 1
+典型的	2 ADJ 2
+兼	8 NOUN 8
+兼ね	1 VERB_兼ねる 1
+兼ねる	1 VERB 1
+兼任	3 VERB 3
+兼務	1 VERB 1
+兼森	1 PROPN 1
+内	90 NOUN 90 ***
+内モンゴル	1 PROPN 1
+内乱	1 NOUN 1
+内側	3 NOUN 3
+内壁	1 NOUN 1
+内外	3 NOUN 3
+内容	32 NOUN 32
+内心	1 NOUN 1
+内戦	1 NOUN 1
+内政干渉	1 NOUN 1
+内海	2 PROPN 2
+内済	2 NOUN 2
+内的	2 ADJ 2
+内科	2 NOUN 2
+内紛	1 NOUN 1
+内緒	1 NOUN 1
+内腔	1 NOUN 1
+内臓	1 NOUN 1
+内蔵	1 NOUN 1
+内藤	1 PROPN 1
+内装	1 NOUN 1
+内部	14 NOUN 14
+内部統制	1 NOUN 1
+内閣	7 NOUN 5 PROPN 2
+内閣府	3 PROPN 3
+内閣総理大臣	1 NOUN 1
+内陣	1 NOUN 1
+内陸	2 NOUN 2
+内需	2 NOUN 2
+内面	1 NOUN 1
+円	106 NOUN 106 ***
+円仁	1 PROPN 1
+円墳	1 NOUN 1
+円安	2 NOUN 2
+円満	2 ADJ 1 NOUN 1
+円滑	1 ADJ 1
+円珍	1 PROPN 1
+円盤	1 NOUN 1
+円盤投げ	1 NOUN 1
+円相場	1 NOUN 1
+円筒	2 NOUN 2
+円錐	1 NOUN 1
+円高	1 NOUN 1
+冊	6 NOUN 6
+冊子	3 NOUN 3
+再	28 NOUN 28
+再び	16 ADV 16
+再三	1 ADV 1
+再会	6 VERB 4 NOUN 2
+再婚	2 NOUN 2
+再度	4 ADV 4
+再建	3 NOUN 3
+再放送	2 NOUN 2
+再演	2 NOUN 2
+再燃	1 NOUN 1
+再現	4 NOUN 2 VERB 2
+再生	7 NOUN 4 VERB 3
+再発	2 NOUN 2
+再編	1 NOUN 1
+再訪	1 VERB 1
+再選	1 VERB 1
+再選挙	1 NOUN 1
+再開	1 VERB 1
+冒険	1 VERB 1
+冒頭	4 NOUN 4
+写し出し	1 VERB_写し出す 1
+写っ	2 VERB_写る 2
+写像	1 NOUN 1
+写本	1 NOUN 1
+写植	1 NOUN 1
+写真	26 NOUN 26
+写真撮影	2 NOUN 1 VERB 1
+写真集	2 NOUN 2
+冠	3 NOUN 3
+冠し	4 VERB_冠する 4
+冠婚葬祭	1 NOUN 1
+冠山	1 PROPN 1
+冥	1 PROPN 1
+冬	8 NOUN 8
+冬場	2 NOUN 2
+冬季	3 NOUN 3
+冬服	1 NOUN 1
+冬鳥	1 NOUN 1
+冷え込ん	1 VERB_冷え込む 1
+冷たい	2 ADJ 2
+冷め	1 VERB_冷める 1
+冷やかし	1 VERB_冷やかす 1
+冷やす	1 VERB 1
+冷ややか	1 ADJ 1
+冷凍	1 NOUN 1
+冷徹	1 ADJ 1
+冷戦	1 NOUN 1
+冷房	3 NOUN 3
+冷房装置	1 NOUN 1
+冷暖房	1 NOUN 1
+冷遇	1 VERB 1
+冷静	1 ADJ 1
+冷風	1 NOUN 1
+凄く	2 ADJ_凄い 2
+凄まじい	1 ADJ 1
+凄惨	2 ADJ 2
+凌ぐ	1 VERB 1
+凌統	1 PROPN 1
+凌辱	2 NOUN 2
+凍りつい	1 VERB_凍りつく 1
+凍結	6 VERB 4 NOUN 2
+凍結乾燥	1 VERB 1
+凝っ	2 VERB_凝る 2
+凝らし	3 VERB_凝らす 3
+凝り	3 VERB_凝る 2 NOUN 1
+処	2 PROPN 2
+処分	5 NOUN 4 VERB 1
+処刑	7 VERB 4 NOUN 3
+処方	1 VERB 1
+処理	9 NOUN 6 VERB 3
+処置	1 NOUN 1
+処罰	1 NOUN 1
+凪子	1 PROPN 1
+凶暴	1 ADJ 1
+凸版印刷	1 NOUN 1
+凹凸	1 NOUN 1
+出	50 VERB_出る 49 NOUN 1
+出さ	10 VERB_出す 8 AUX_出す 2
+出し	32 VERB_出す 20 AUX_出す 10 NOUN 2
+出し切っ	1 VERB_出し切る 1
+出し抜か	1 VERB_出し抜く 1
+出す	9 AUX 5 VERB 4
+出る	11 VERB 11
+出れ	1 VERB_出る 1
+出世	2 NOUN 1 VERB 1
+出会い	4 NOUN 2 VERB_出会う 2
+出会っ	6 VERB_出会う 6
+出入	2 NOUN 2
+出入り	1 VERB 1
+出入り口	1 NOUN 1
+出典	1 NOUN 1
+出前	1 NOUN 1
+出力	2 NOUN 1 VERB 1
+出勤	2 NOUN 2
+出口	4 NOUN 4
+出向	2 NOUN 2
+出品	3 VERB 3
+出土	1 VERB 1
+出場	26 NOUN 14 VERB 12
+出塁	1 VERB 1
+出家	2 NOUN 2
+出席	3 VERB 3
+出席簿	1 NOUN 1
+出店	7 VERB 4 NOUN 3
+出所	3 NOUN 2 VERB 1
+出来	33 VERB_出来る 18 AUX_出来る 13 NOUN 2
+出来る	18 VERB 13 AUX 5
+出汁	3 NOUN 3
+出没	2 NOUN 1 VERB 1
+出演	30 VERB 16 NOUN 14
+出火	2 NOUN 1 VERB 1
+出版	21 NOUN 12 VERB 9
+出版社	2 NOUN 2
+出物	1 NOUN 1
+出現	10 VERB 7 NOUN 3
+出産	2 NOUN 1 VERB 1
+出番	2 NOUN 2
+出発	7 NOUN 4 VERB 3
+出社	1 NOUN 1
+出航	2 VERB 2
+出荷	1 VERB 1
+出血	1 NOUN 1
+出資	1 VERB 1
+出走	3 NOUN 3
+出身	42 NOUN 42
+出迎え	2 VERB_出迎える 1 NOUN 1
+出遅れ	1 NOUN 1
+出陣	2 VERB 2
+出雲	1 PROPN 1
+出馬	4 NOUN 3 VERB 1
+函館本線	1 PROPN 1
+刀	1 NOUN 1
+刀剣	1 NOUN 1
+刀緒	1 NOUN 1
+刀身	2 NOUN 2
+刃	2 NOUN 2
+刃向かう	1 VERB 1
+刃物	1 NOUN 1
+分	63 NOUN 63
+分かち	1 VERB_分かつ 1
+分かっ	6 VERB_分かる 6
+分から	6 VERB_分かる 6
+分かり	7 VERB_分かる 6 NOUN 1
+分かり易い	1 ADJ 1
+分かり易く	1 ADJ_分かり易い 1
+分かる	3 VERB 3
+分かれ	6 VERB_分かれる 6
+分かれる	1 VERB 1
+分け	9 VERB_分ける 8 NOUN 1
+分ける	1 VERB 1
+分け与え	1 VERB_分け与える 1
+分け隔て	1 NOUN 1
+分の	3 PART 3
+分乗	1 VERB 1
+分割	3 NOUN 3
+分厚い	1 ADJ 1
+分子	2 NOUN 2
+分家	1 NOUN 1
+分岐	3 VERB 3
+分岐点	1 NOUN 1
+分布	8 VERB 7 NOUN 1
+分散	3 NOUN 2 VERB 1
+分断	3 VERB 2 NOUN 1
+分析	6 VERB 4 NOUN 2
+分極	2 NOUN 2
+分節	1 VERB 1
+分裂	7 NOUN 4 VERB 3
+分解	1 NOUN 1
+分解能	3 NOUN 3
+分身	1 VERB 1
+分野	10 NOUN 10
+分量	1 NOUN 1
+分離	7 VERB 5 NOUN 2
+分類	9 VERB 6 NOUN 3
+切っ	10 VERB_切る 6 AUX_切る 4
+切っ掛け	1 NOUN 1
+切ら	2 VERB_切る 2
+切り	2 AUX_切る 1 VERB_切る 1
+切り上げ	1 VERB_切り上げる 1
+切り出し	1 VERB_切り出す 1
+切り取ら	1 VERB_切り取る 1
+切り抜き	1 NOUN 1
+切り抜け	2 VERB_切り抜ける 2
+切り替え	4 VERB_切り替える 4
+切り替える	1 VERB 1
+切り札	1 NOUN 1
+切り欠き	1 NOUN 1
+切り離し	1 VERB_切り離す 1
+切り離す	1 VERB 1
+切る	1 VERB 1
+切れ	5 VERB_切れる 3 NOUN 2
+切れ味	1 NOUN 1
+切断	6 VERB 5 NOUN 1
+切開	1 VERB 1
+刈り取っ	1 VERB_刈り取る 1
+刈る	1 VERB 1
+刊行	8 VERB 6 NOUN 2
+刑事	4 NOUN 4
+刑事告訴	1 NOUN 1
+刑務所	2 PROPN 1 NOUN 1
+刑場	1 NOUN 1
+刑死	1 NOUN 1
+刑法	1 NOUN 1
+列	6 NOUN 6
+列し	1 VERB_列する 1
+列島	1 NOUN 1
+列席	1 VERB 1
+列挙	2 VERB 2
+列車	12 NOUN 12
+初	48 NOUN 40 ADJ 8
+初め	5 NOUN 5
+初めて	32 ADV 32
+初代	13 NOUN 13
+初公判	1 NOUN 1
+初出	1 NOUN 1
+初回	4 NOUN 4
+初年	4 NOUN 4
+初心	4 NOUN 4
+初戦	2 NOUN 2
+初日	2 NOUN 2
+初旬	2 NOUN 2
+初期	11 NOUN 11
+初演	6 NOUN 5 VERB 1
+初等	1 NOUN 1
+初診	1 NOUN 1
+初頭	7 NOUN 7
+判っ	2 VERB_判る 2
+判ら	2 VERB_判る 2
+判る	1 VERB 1
+判事	1 NOUN 1
+判例集	1 NOUN 1
+判別	1 NOUN 1
+判定	3 NOUN 2 VERB 1
+判断	15 NOUN 10 VERB 5
+判明	7 VERB 6 NOUN 1
+判決	9 NOUN 9
+別	39 ADJ 26 NOUN 13
+別々	1 ADJ 1
+別に	2 ADV 2
+別れ	1 NOUN 1
+別人	2 NOUN 2
+別個	1 ADJ 1
+別冊	1 NOUN 1
+別名	2 NOUN 2
+別当	1 NOUN 1
+別腹	1 NOUN 1
+別表	1 NOUN 1
+別途	3 ADV 3
+利	1 PROPN 1
+利か	2 VERB_利く 2
+利き腕	1 NOUN 1
+利く	1 VERB 1
+利一	1 PROPN 1
+利上げ	2 NOUN 2
+利付金融債	1 NOUN 1
+利休	1 PROPN 1
+利便	1 NOUN 1
+利器	1 NOUN 1
+利害	3 NOUN 3
+利尻	1 PROPN 1
+利広	2 PROPN 2
+利得	1 NOUN 1
+利根川水系	1 NOUN 1
+利水	2 NOUN 2
+利点	2 NOUN 2
+利用	77 VERB 65 NOUN 12
+利益	8 NOUN 7 VERB 1
+利秋	1 PROPN 1
+到来	1 NOUN 1
+到着	10 VERB 8 NOUN 2
+到達	5 VERB 3 NOUN 2
+制	9 NOUN 9
+制し	3 VERB_制する 3
+制作	23 NOUN 16 VERB 7
+制動	2 NOUN 2
+制圧	3 NOUN 3
+制定	3 VERB 2 NOUN 1
+制度	15 NOUN 15
+制御	12 NOUN 10 VERB 2
+制服	3 NOUN 3
+制球	1 NOUN 1
+制約	4 NOUN 4
+制裁	2 NOUN 2
+制覇	1 NOUN 1
+制限	7 NOUN 5 VERB 2
+刷り込み	1 VERB_刷り込む 1
+刷新	3 NOUN 3
+券	4 NOUN 4
+刺々しく	1 ADJ_刺々しい 1
+刺さっ	1 VERB_刺さる 1
+刺し	2 NOUN 1 VERB_刺す 1
+刺し殺す	1 VERB 1
+刺史	1 NOUN 1
+刺客	3 NOUN 3
+刺激	1 NOUN 1
+刺激的	1 ADJ 1
+刺身	2 NOUN 2
+刻ま	1 VERB_刻む 1
+刻み	2 VERB_刻む 2
+刻む	1 VERB 1
+刻印	1 VERB 1
+則	1 NOUN 1
+則っ	1 VERB_則る 1
+削っ	2 VERB_削る 2
+削ら	1 VERB_削る 1
+削減	3 NOUN 2 VERB 1
+削除	7 VERB 6 NOUN 1
+前	106 NOUN 106 ***
+前々	2 NOUN 2
+前もって	2 ADV 2
+前任	1 NOUN 1
+前例	1 NOUN 1
+前便	1 NOUN 1
+前倒し	1 VERB 1
+前借り	1 VERB 1
+前出	2 NOUN 2
+前半	3 NOUN 3
+前原	1 PROPN 1
+前向き	2 NOUN 2
+前回	5 NOUN 5
+前夜	1 NOUN 1
+前島	1 PROPN 1
+前年	10 NOUN 10
+前座	2 NOUN 2
+前後	11 NOUN 10 VERB 1
+前提	6 NOUN 6
+前方	2 NOUN 1 ADV 1
+前日	2 NOUN 2
+前月	1 NOUN 1
+前期	2 NOUN 2
+前浜	1 NOUN 1
+前漢	1 PROPN 1
+前田	1 PROPN 1
+前立腺癌	1 NOUN 1
+前線	3 NOUN 3
+前者	3 NOUN 3
+前脚	1 NOUN 1
+前菜	1 NOUN 1
+前足	1 NOUN 1
+前輪	1 NOUN 1
+前述	7 NOUN 7
+前途	1 NOUN 1
+前週	1 NOUN 1
+前進	3 VERB 2 NOUN 1
+前部	1 NOUN 1
+前面	2 NOUN 2
+前頭骨	1 NOUN 1
+前駆	1 NOUN 1
+前髪	1 NOUN 1
+剛	1 NOUN 1
+剛体	1 NOUN 1
+剣	10 NOUN 10
+剣士	3 NOUN 3
+剣客	1 NOUN 1
+剤	2 NOUN 2
+剥がさ	1 VERB_剥がす 1
+副	4 NOUN 4
+副島	1 PROPN 1
+副操縦士	1 NOUN 1
+副本	1 NOUN 1
+副業	1 NOUN 1
+副次的	1 ADJ 1
+割	12 NOUN 12
+割い	1 VERB_割く 1
+割か	1 VERB_割く 1
+割に	1 ADV 1
+割り	2 NOUN 2
+割り出し	1 VERB_割り出す 1
+割り当て	1 VERB_割り当てる 1
+割り当てる	1 VERB 1
+割り振ら	1 VERB_割り振る 1
+割合	3 NOUN 3
+割安	1 ADJ 1
+割引手形	1 NOUN 1
+割拠	2 VERB 1 NOUN 1
+割烹	1 NOUN 1
+割高	1 ADJ 1
+創ら	1 VERB_創る 1
+創世	3 NOUN 3
+創作	1 NOUN 1
+創価	2 PROPN 2
+創価学会	12 PROPN 12
+創出	2 VERB 2
+創刊	8 VERB 4 NOUN 4
+創始	1 NOUN 1
+創建	1 VERB 1
+創業	3 NOUN 3
+創痍	1 NOUN 1
+創立	3 NOUN 2 VERB 1
+創設	11 VERB 8 NOUN 3
+創造	5 NOUN 5
+劇	1 NOUN 1
+劇中	1 NOUN 1
+劇団	4 NOUN 4
+劇団東俳	1 PROPN 1
+劇場	7 NOUN 7
+劇場版	2 NOUN 2
+劇薬	1 NOUN 1
+劉	2 PROPN 2
+劉備	2 PROPN 2
+劉邦	1 PROPN 1
+劉鳳	2 PROPN 2
+力	50 NOUN 50
+力弥	1 PROPN 1
+力強い	1 ADJ 1
+力強く	1 ADJ_力強い 1
+力持ち	1 NOUN 1
+力点	2 NOUN 2
+功労	1 NOUN 1
+功績	4 NOUN 4
+加	1 NOUN 1
+加え	16 VERB_加える 16
+加わっ	4 VERB_加わる 4
+加わる	2 VERB 2
+加われ	1 VERB_加わる 1
+加佐登	1 PROPN 1
+加入	8 VERB 5 NOUN 3
+加味	1 VERB 1
+加増	1 NOUN 1
+加奈	1 PROPN 1
+加工	1 VERB 1
+加担	1 NOUN 1
+加治木	1 PROPN 1
+加点	3 VERB 2 NOUN 1
+加熱	2 NOUN 1 VERB 1
+加盟	4 VERB 3 NOUN 1
+加算	1 VERB 1
+加算税	1 NOUN 1
+加藤	4 PROPN 4
+加賀	1 PROPN 1
+加賀美	1 PROPN 1
+加速	6 VERB 5 NOUN 1
+劣ら	1 VERB_劣る 1
+劣り	1 VERB_劣る 1
+劣化	1 VERB 1
+劣悪	1 ADJ 1
+助	3 NOUN 3
+助かっ	2 VERB_助かる 2
+助かり	7 VERB_助かる 7
+助け	5 VERB_助ける 3 NOUN 2
+助ける	2 VERB 2
+助役	1 NOUN 1
+助成	3 NOUN 3
+助手	2 NOUN 2
+助産	6 NOUN 6
+助言	2 NOUN 2
+助走	1 VERB 1
+努め	1 VERB_努める 1
+努める	1 VERB 1
+努力	7 NOUN 5 VERB 2
+励まし	1 VERB_励ます 1
+励まそ	1 VERB_励ます 1
+励ん	1 VERB_励む 1
+労働	6 NOUN 5 VERB 1
+効い	3 VERB_効く 3
+効く	3 VERB 3
+効力	3 NOUN 3
+効果	23 NOUN 23
+効果的	1 ADJ 1
+効率	3 NOUN 3
+効率的	2 ADJ 2
+勃発	1 VERB 1
+勃興	1 VERB 1
+勅書	1 NOUN 1
+勇	1 PROPN 1
+勇二	1 PROPN 1
+勇太	2 PROPN 2
+勇戦	1 VERB 1
+勇敢	1 ADJ 1
+勇気	2 NOUN 2
+勉強	8 NOUN 5 VERB 3
+動	2 NOUN 2
+動い	2 VERB_動く 2
+動か	1 VERB_動かす 1
+動かし	1 VERB_動かす 1
+動かす	1 VERB 1
+動き	12 NOUN 11 VERB_動く 1
+動き出し	1 VERB_動き出す 1
+動き回る	1 VERB 1
+動く	4 VERB 4
+動乱	1 NOUN 1
+動作	6 NOUN 5 VERB 1
+動力	4 NOUN 4
+動力源	1 NOUN 1
+動向	2 NOUN 2
+動員	4 NOUN 2 VERB 2
+動弁	1 NOUN 1
+動揺	3 NOUN 2 VERB 1
+動機	1 NOUN 1
+動物	12 NOUN 12
+動画	2 NOUN 2
+動輪	1 NOUN 1
+勘助	1 PROPN 1
+勘違い	2 NOUN 1 VERB 1
+務	1 PROPN 1
+務め	27 VERB_務める 27
+務める	12 VERB 12
+勝	23 NOUN 22 VERB_勝つ 1
+勝た	1 VERB_勝つ 1
+勝ち	10 NOUN 6 VERB 4
+勝ち抜き	1 VERB_勝ち抜く 1
+勝ち星	2 NOUN 2
+勝ち進み	1 VERB_勝ち進む 1
+勝ち進ん	1 VERB_勝ち進む 1
+勝っ	3 VERB_勝つ 3
+勝利	15 NOUN 9 VERB 5 PROPN 1
+勝家	1 PROPN 1
+勝崎	1 PROPN 1
+勝平	3 PROPN 3
+勝手	6 ADJ 6
+勝敗	2 NOUN 2
+勝治	1 PROPN 1
+勝海舟	1 PROPN 1
+勝率	3 NOUN 3
+勝者	2 NOUN 2
+勝訴	2 NOUN 2
+勝負	11 NOUN 11
+募っ	1 VERB_募る 1
+募り	1 VERB_募る 1
+募金	1 NOUN 1
+募集	6 NOUN 4 VERB 2
+募集停止	2 NOUN 2
+勢	7 NOUN 7
+勢い	3 NOUN 3
+勢力	7 NOUN 7
+勢多郡	1 PROPN 1
+勤め	5 VERB_勤める 5
+勤める	2 VERB 2
+勤め先	1 NOUN 1
+勤労	3 NOUN 3
+勤務	10 VERB 7 NOUN 3
+勤務評定	1 NOUN 1
+勧め	7 VERB_勧める 6 NOUN 1
+勧めし	1 VERB_勧める 1
+勧める	2 VERB 2
+勧告	1 NOUN 1
+勧誘	31 NOUN 25 VERB 6
+勲一等	1 NOUN 1
+勲章	2 NOUN 2
+勾配	2 NOUN 2
+匂い	3 NOUN 3
+包ま	1 VERB_包む 1
+包丁	1 NOUN 1
+包含	1 VERB 1
+包囲	4 VERB 3 NOUN 1
+包帯	1 NOUN 1
+包装紙	1 NOUN 1
+匈奴	1 NOUN 1
+匍匐	1 VERB 1
+化	55 NOUN 41 VERB 12 AUX 2
+化け	1 VERB 1
+化し	5 VERB_化する 5
+化学	1 NOUN 1
+化学合成	3 NOUN 2 VERB 1
+化石	1 NOUN 1
+化粧	1 VERB 1
+化粧室	1 NOUN 1
+化粧板	1 NOUN 1
+北	22 NOUN 19 PROPN 3
+北アイルランド	1 PROPN 1
+北アフリカ	1 PROPN 1
+北アメリカ	1 PROPN 1
+北アルプス	1 PROPN 1
+北上	1 VERB 1
+北京	2 PROPN 2
+北北西	1 NOUN 1
+北國銀行	1 PROPN 1
+北埼玉郡	1 PROPN 1
+北大	1 PROPN 1
+北岡	1 PROPN 1
+北岸	1 NOUN 1
+北方	1 NOUN 1
+北朝鮮	6 PROPN 6
+北朝鮮軍	1 PROPN 1
+北条	2 PROPN 2
+北東	4 NOUN 4
+北林	3 PROPN 3
+北極海	2 NOUN 2
+北欧	1 PROPN 1
+北海道大学	3 PROPN 3
+北海道新聞社	2 PROPN 2
+北海道農民連盟	1 PROPN 1
+北端	1 NOUN 1
+北群馬郡	1 PROPN 1
+北西	4 NOUN 4
+北見	2 PROPN 2
+北谷	1 PROPN 1
+北進	1 VERB 1
+北部	7 NOUN 4 PROPN 3
+北関東	1 PROPN 1
+北魏	1 PROPN 1
+匠	1 NOUN 1
+匹	5 NOUN 5
+区	15 NOUN 15
+区内	1 NOUN 1
+区分	6 VERB 3 NOUN 3
+区切ら	1 VERB_区切る 1
+区域	4 NOUN 4
+区議	11 NOUN 11
+区間	14 NOUN 14
+医	3 NOUN 3
+医大	1 NOUN 1
+医学	6 NOUN 6
+医学部	6 NOUN 6
+医師	11 NOUN 11
+医師免許	1 NOUN 1
+医療	27 NOUN 27
+医療費	1 NOUN 1
+医科大学	1 NOUN 1
+医科学	1 NOUN 1
+医者	4 NOUN 4
+医薬	1 NOUN 1
+医院	1 NOUN 1
+匿う	1 VERB 1
+匿わ	1 VERB_匿う 1
+十	10 NUM 10
+十万	1 NUM 1
+十二	3 NUM 3
+十五	1 NUM 1
+十六	1 NUM 1
+十分	14 ADJ 11 ADV 2 NOUN 1
+十和	1 PROPN 1
+十和田湖	1 PROPN 1
+十字	2 NOUN 2
+十字軍	3 NOUN 3
+十平衛	1 PROPN 1
+十年	1 NOUN 1
+十津川村	1 PROPN 1
+十郎	1 PROPN 1
+千	3 NUM 3
+千万	3 NUM 3
+千代田区	1 PROPN 1
+千年	1 NOUN 1
+千日手	1 NOUN 1
+千田	1 PROPN 1
+千秋公園	1 PROPN 1
+千葉	2 PROPN 2
+千葉正	1 PROPN 1
+午	1 NOUN 1
+午前	8 NOUN 8
+午後	22 NOUN 22
+半	4 NOUN 4
+半世紀	1 NOUN 1
+半分	5 NOUN 5
+半島	1 NOUN 1
+半年	4 NOUN 4
+半径	2 NOUN 2
+半日	1 NOUN 1
+半月	1 NOUN 1
+半期	1 NOUN 1
+半熟	1 NOUN 1
+半田	1 NOUN 1
+半蔵	1 PROPN 1
+半面	1 NOUN 1
+半額	3 NOUN 3
+卍	1 NOUN 1
+卑	2 PROPN 2
+卒	1 NOUN 1
+卒業	22 VERB 14 NOUN 8
+協	2 NOUN 2
+協会	57 NOUN 57
+協力	19 VERB 10 NOUN 9
+協奏曲	1 NOUN 1
+協定	5 NOUN 5
+協議	13 NOUN 8 VERB 5
+協進聯盟	1 PROPN 1
+南	17 PROPN 17
+南アフリカ	1 PROPN 1
+南京	2 PROPN 2
+南側	2 NOUN 2
+南北	4 NOUN 4
+南北戦争	1 NOUN 1
+南北線	2 PROPN 2
+南口	1 NOUN 1
+南国	2 NOUN 2
+南埼玉郡	1 PROPN 1
+南安	1 PROPN 1
+南岸	1 NOUN 1
+南方	2 NOUN 2
+南極大陸	3 PROPN 3
+南端	1 NOUN 1
+南米	1 NOUN 1
+南緯	1 PART 1
+南西	1 NOUN 1
+南部	12 NOUN 12
+南野	1 PROPN 1
+単	2 NOUN 2
+単に	3 ADV 3
+単位	6 NOUN 6
+単体	1 NOUN 1
+単価	2 NOUN 2
+単式	3 NOUN 3
+単板	1 NOUN 1
+単独	4 NOUN 4
+単純	4 ADJ 4
+単行本	5 NOUN 5
+単装	2 NOUN 2
+単語	2 NOUN 2
+博	1 NOUN 1
+博し	5 VERB_博す 5
+博史	1 PROPN 1
+博報堂	1 PROPN 1
+博士	6 NOUN 5 PROPN 1
+博多	2 PROPN 2
+博多湾	1 PROPN 1
+博文	1 PROPN 1
+占い	4 NOUN 4
+占い師	1 NOUN 1
+占う	1 VERB 1
+占め	3 VERB_占める 3
+占める	4 VERB 4
+占拠	2 VERB 2
+占領	6 NOUN 4 VERB 2
+占領軍	1 NOUN 1
+印	2 NOUN 2
+印刷	2 NOUN 2
+印刷会社	1 NOUN 1
+印刷局	1 PROPN 1
+印象	5 NOUN 5
+印象的	5 ADJ 5
+印鑑	2 NOUN 2
+危うく	1 ADJ_危うい 1
+危な	1 ADJ_危ない 1
+危ない	2 ADJ 2
+危ぶま	1 VERB_危ぶむ 1
+危害	1 NOUN 1
+危惧	1 NOUN 1
+危機	5 NOUN 5
+危険	7 ADJ 5 NOUN 2
+即	1 CCONJ 1
+即し	1 VERB_即する 1
+即ち	1 CCONJ_すなわち 1
+即位	2 VERB 2
+即刻	1 NOUN 1
+即売	1 NOUN 1
+即時	1 NOUN 1
+即死	1 VERB 1
+即決	1 NOUN 1
+却	1 PROPN 1
+却下	1 VERB 1
+卵	4 NOUN 4
+卵とじ	1 NOUN 1
+卵子	1 NOUN 1
+卿	4 NOUN 4
+厄介	1 ADJ 1
+厚い	2 ADJ 2
+厚み	2 NOUN 2
+厚狭駅	1 PROPN 1
+厚生	2 NOUN 2
+原	4 NOUN 2 PROPN 2
+原作	8 NOUN 8
+原則	3 NOUN 3
+原則的	2 ADJ 2
+原動	1 NOUN 1
+原告	2 NOUN 2
+原因	15 NOUN 15
+原型	1 NOUN 1
+原子	1 NOUN 1
+原子力	2 NOUN 2
+原子炉	2 NOUN 2
+原文	1 NOUN 1
+原料	2 NOUN 2
+原本	1 NOUN 1
+原案	1 NOUN 1
+原油	1 NOUN 1
+原潜	1 NOUN 1
+原点	1 NOUN 1
+原理	4 NOUN 4
+原画	2 NOUN 2
+原発	9 NOUN 9
+原発事故	2 NOUN 2
+原稿用紙	1 NOUN 1
+原野	1 NOUN 1
+原題	1 NOUN 1
+厭わ	2 VERB_厭う 2
+厭世	1 NOUN 1
+厳しい	12 ADJ 12
+厳しく	2 ADJ_厳しい 2
+厳つい	1 ADJ 1
+厳に	1 ADV 1
+厳密	2 ADJ 2
+厳格	1 ADJ 1
+厳選	2 NOUN 1 VERB 1
+去っ	6 VERB_去る 6
+去り	1 VERB_去る 1
+去る	1 VERB 1
+去年	2 NOUN 2
+参っ	1 VERB_参る 1
+参り	1 AUX_参る 1
+参与	2 NOUN 2
+参入	2 NOUN 2
+参列	2 NOUN 1 VERB 1
+参加	67 VERB 37 NOUN 30
+参戦	5 NOUN 3 VERB 2
+参照	14 VERB 8 NOUN 6
+参画	1 NOUN 1
+参考	6 NOUN 6
+参考書	1 NOUN 1
+参議院	2 PROPN 2
+参道	1 NOUN 1
+参院	2 NOUN 2
+参院本会議	1 PROPN 1
+又は	1 CCONJ_または 1
+又丸	2 PROPN 2
+及ば	3 VERB_及ぶ 3
+及び	16 CCONJ_および 14 VERB_及ぶ 2
+及び腰	1 ADJ 1
+及ぶ	4 VERB 4
+及ぼし	1 VERB_及ぼす 1
+及ぼす	3 VERB 3
+及ん	5 VERB_及ぶ 5
+友	4 NOUN 4
+友だち	1 NOUN 1
+友人	18 NOUN 18
+友好	2 NOUN 2
+友幸	1 PROPN 1
+友情	1 NOUN 1
+友愛	1 NOUN 1
+友謙	1 PROPN 1
+友達	15 NOUN 15
+双	3 NOUN 3
+双子	2 NOUN 2
+双方	10 NOUN 10
+双葉社	1 PROPN 1
+反	12 NOUN 12
+反し	4 VERB_反す 4
+反する	1 VERB 1
+反り	1 NOUN 1
+反乱	4 NOUN 4
+反則	2 NOUN 2
+反動	3 NOUN 3
+反対	23 VERB 10 NOUN 9 ADJ 4
+反対意見	1 NOUN 1
+反射	2 NOUN 2
+反射的	1 ADJ 1
+反応	5 NOUN 4 VERB 1
+反感	2 NOUN 2
+反抗	3 VERB 2 NOUN 1
+反撃	3 NOUN 3
+反攻	1 NOUN 1
+反映	7 VERB 6 NOUN 1
+反比例	1 NOUN 1
+反発	7 NOUN 5 VERB 2
+反省	2 VERB 2
+反社会的	3 ADJ 2 NOUN 1
+反落	1 VERB 1
+反論	2 VERB 1 NOUN 1
+反転	2 NOUN 1 VERB 1
+反響	1 NOUN 1
+収まら	1 VERB_収まる 1
+収め	5 VERB_収める 5
+収める	1 VERB 1
+収入	11 NOUN 11
+収容	4 NOUN 3 VERB 1
+収容所	1 NOUN 1
+収束	1 VERB 1
+収益	1 NOUN 1
+収穫	1 VERB 1
+収納	5 VERB 5
+収賄	1 NOUN 1
+収録	18 VERB 12 NOUN 6
+収集	6 NOUN 4 VERB 2
+叔功	1 PROPN 1
+叔父	3 NOUN 3
+取	4 VERB_取る 2 PROPN 2
+取っ	15 VERB_取る 15
+取ら	1 VERB_取る 1
+取り	11 VERB_取る 10 NOUN 1
+取りかかっ	1 VERB_取りかかる 1
+取りやめ	2 VERB_取りやめる 2
+取りやめる	2 VERB 2
+取り上げ	5 VERB_取り上げる 5
+取り下げ	1 NOUN 1
+取り仕切っ	1 VERB_取り仕切る 1
+取り付か	1 VERB_取り付く 1
+取り付け	5 VERB_取り付ける 4 NOUN 1
+取り入れ	11 VERB_取り入れる 11
+取り入れる	1 VERB 1
+取り壊さ	1 VERB_取り壊す 1
+取り寄せ	1 VERB_取り寄せる 1
+取り巻く	3 VERB 3
+取り戻し	2 VERB_取り戻す 2
+取り戻す	3 VERB 3
+取り戻そ	1 VERB_取り戻す 1
+取り扱っ	1 VERB_取り扱う 1
+取り掛かっ	1 VERB_取り掛かる 1
+取り次い	1 VERB_取り次ぐ 1
+取り次ぎ	2 NOUN 2
+取り止め	1 NOUN 1
+取り消さ	3 VERB_取り消す 3
+取り消し	1 NOUN 1
+取り組	1 VERB_取り組む 1
+取り組み	4 NOUN 2 VERB_取り組む 2
+取り組ん	4 VERB_取り組む 4
+取り締まり	1 NOUN 1
+取り込み	2 NOUN 2
+取り込ん	2 VERB_取り込む 2
+取り返し	1 NOUN 1
+取り除い	1 VERB_取り除く 1
+取り除く	4 VERB 4
+取る	1 VERB 1
+取れ	5 VERB_取れる 5
+取ろ	1 VERB_取る 1
+取引	5 NOUN 5
+取得	8 VERB 5 NOUN 3
+取材	30 NOUN 26 VERB 4
+取消	3 NOUN 3
+取立て	1 VERB_取立てる 1
+取調べ	1 NOUN 1
+受け	91 VERB_受ける 91 ***
+受ける	23 VERB 23
+受け付け	2 VERB_受け付ける 2
+受け入れ	6 VERB_受け入れる 4 NOUN 2
+受け取っ	3 VERB_受け取る 3
+受け取り	1 VERB_受け取る 1
+受け取る	1 VERB 1
+受け容れ	1 VERB_受け容れる 1
+受け持っ	1 VERB_受け持つ 1
+受け流し	1 VERB_受け流す 1
+受け継い	1 VERB_受け継ぐ 1
+受け継が	3 VERB_受け継ぐ 3
+受け継ぎ	1 VERB_受け継ぐ 1
+受け継ぐ	1 VERB 1
+受付	9 NOUN 9
+受傷	1 VERB 1
+受動的	1 ADJ 1
+受容	2 NOUN 2
+受注	5 NOUN 4 VERB 1
+受理	3 VERB 2 NOUN 1
+受益	1 NOUN 1
+受章	1 NOUN 1
+受精	1 NOUN 1
+受診	1 VERB 1
+受諾	1 NOUN 1
+受講	3 VERB 3
+受賞	10 VERB 7 NOUN 3
+受領	2 VERB 1 NOUN 1
+受験	4 NOUN 3 VERB 1
+叙	1 PROPN 1
+叙任	1 VERB 1
+叙爵	2 VERB 1 NOUN 1
+叙述	1 VERB 1
+叛	1 PROPN 1
+口	19 NOUN 19
+口コミ	2 NOUN 1 VERB 1
+口前	1 NOUN 1
+口実	1 NOUN 1
+口座	4 NOUN 4
+口当たり	1 NOUN 1
+口径	3 NOUN 3
+口数	1 NOUN 1
+口癖	1 NOUN 1
+口答え	1 VERB 1
+口紅	1 NOUN 1
+口蓋	1 NOUN 1
+口裏	1 NOUN 1
+口語	1 NOUN 1
+口調	1 NOUN 1
+口論	1 NOUN 1
+口走っ	1 VERB_口走る 1
+口走る	1 VERB 1
+口蹄疫	1 NOUN 1
+古	6 NOUN 6
+古い	5 ADJ 5
+古く	4 ADV 4
+古今	3 NOUN 3
+古代	6 NOUN 6
+古代エジプト	2 NOUN 2
+古代ローマ	1 PROPN 1
+古代中国	1 PROPN 1
+古典主義	1 NOUN 1
+古屋	1 NOUN 1
+古巣	2 NOUN 2
+古文書	1 NOUN 1
+古本	1 NOUN 1
+古来	1 NOUN 1
+古河	1 PROPN 1
+古流	1 NOUN 1
+古臭く	1 ADJ_古臭い 1
+古賀	1 PROPN 1
+古野	1 PROPN 1
+叩い	1 VERB_叩く 1
+叩か	1 VERB_叩く 1
+叩き	1 VERB_叩く 1
+叩き込ん	1 VERB_叩き込む 1
+只	2 ADJ 1 NOUN 1
+叫ば	1 VERB_叫ぶ 1
+叫び	1 VERB_叫ぶ 1
+召し上げ	1 VERB_召し上げる 1
+召喚	2 VERB 1 NOUN 1
+召集	3 VERB 3
+可	1 NOUN 1
+可哀想	1 ADJ 1
+可愛がら	1 VERB_可愛がる 1
+可換	1 NOUN 1
+可決	3 VERB 3
+可能	62 ADJ 61 NOUN 1
+台	22 NOUN 22
+台北	1 PROPN 1
+台場	1 NOUN 1
+台数	2 NOUN 2
+台湾	20 PROPN 20
+台状	1 NOUN 1
+台詞	2 NOUN 2
+台車	3 NOUN 3
+台風	1 NOUN 1
+叱咤	1 NOUN 1
+史	6 NOUN 6
+史上	7 NOUN 7
+史実	1 NOUN 1
+史料	1 NOUN 1
+史跡	2 NOUN 2
+右	8 NOUN 8
+右下	1 NOUN 1
+右太衛門	1 PROPN 1
+右岸	1 NOUN 1
+右手	2 NOUN 2
+右投	1 NOUN 1
+右派	2 NOUN 2
+右翼	2 NOUN 2
+右翼手	1 NOUN 1
+右腕	1 NOUN 1
+右舷	1 NOUN 1
+右隣	1 NOUN 1
+叶	1 VERB_叶う 1
+号	45 NOUN 45
+号さ	1 VERB_号する 1
+号令	1 NOUN 1
+号外	2 NOUN 2
+号車	1 NOUN 1
+司	1 NOUN 1
+司る	1 VERB 1
+司令塔	2 NOUN 2
+司令部	3 NOUN 3
+司会	3 NOUN 3
+司教	6 NOUN 6
+司教区	2 NOUN 2
+司法	3 NOUN 3
+司法書士	1 NOUN 1
+司祭	3 NOUN 3
+司馬	1 PROPN 1
+各	37 NOUN 33 PROPN 4
+各人	2 NOUN 2
+各国	3 NOUN 3
+各地	17 NOUN 17
+各巻	1 NOUN 1
+各界	1 NOUN 1
+各社	3 NOUN 3
+各種	8 NOUN 8
+合	3 NOUN 3
+合い	3 AUX_合う 3
+合う	8 AUX 6 VERB 2
+合し	1 VERB_合する 1
+合せ	1 VERB_合せる 1
+合っ	5 VERB_合う 3 AUX_合う 2
+合わ	3 VERB_合う 2 AUX_合う 1
+合わせ	16 VERB_合わせる 16
+合わせる	1 VERB 1
+合体	4 VERB 3 NOUN 1
+合併	8 NOUN 5 VERB 3
+合同	3 NOUN 1 VERB 1 ADJ 1
+合唱団	1 NOUN 1
+合図	1 NOUN 1
+合奏	1 NOUN 1
+合宿	2 NOUN 2
+合意	2 NOUN 2
+合意形成	1 NOUN 1
+合成	5 VERB 4 NOUN 1
+合戦	2 NOUN 2
+合格	8 VERB 6 NOUN 2
+合流	6 VERB 6
+合理化	2 NOUN 2
+合衆国	1 PROPN 1
+合計	5 NOUN 5
+合議	1 NOUN 1
+合議制	1 NOUN 1
+合間	1 NOUN 1
+吉	3 NOUN 3
+吉井	1 PROPN 1
+吉住	2 PROPN 2
+吉原	1 PROPN 1
+吉岡	3 PROPN 3
+吉川	1 PROPN 1
+吉本新喜劇	1 PROPN 1
+吉本興業	1 PROPN 1
+吉松	1 PROPN 1
+吉江	1 PROPN 1
+吉田	4 PROPN 4
+吉田六左エ門	1 PROPN 1
+吉良	1 PROPN 1
+吉見	1 PROPN 1
+吉野	1 PROPN 1
+同	101 ADJ 73 NOUN 19 PART 9
+同じ	53 ADJ 52 VERB_同じる 1
+同じく	5 CCONJ 4 ADJ_同じい 1
+同人	4 NOUN 4
+同僚	3 NOUN 3
+同党	4 NOUN 4
+同化	1 NOUN 1
+同区	1 NOUN 1
+同名	1 NOUN 1
+同地	1 NOUN 1
+同士	11 NOUN 11
+同士討ち	1 NOUN 1
+同姓	1 NOUN 1
+同学	1 NOUN 1
+同封	1 VERB 1
+同居	3 VERB 3
+同市	4 NOUN 4
+同席	1 VERB 1
+同年	3 NOUN 3
+同心円	1 NOUN 1
+同志	2 NOUN 2
+同情	1 NOUN 1
+同意	4 NOUN 2 VERB 2
+同感	2 NOUN 2
+同族	2 NOUN 2
+同日	9 NOUN 9
+同時	27 NOUN 27
+同期	7 NOUN 6 VERB 1
+同校	3 NOUN 3
+同梱	1 NOUN 1
+同棲	1 VERB 1
+同業	1 NOUN 1
+同様	26 ADJ 20 NOUN 6
+同氏	2 NOUN 2
+同点	1 NOUN 1
+同盟	4 NOUN 4
+同県	2 NOUN 2
+同社	26 NOUN 26
+同種	2 NOUN 2
+同署	1 NOUN 1
+同義	1 NOUN 1
+同胞	1 NOUN 1
+同行	4 VERB 2 NOUN 2
+同軸ケーブル	2 NOUN 2
+同郷	3 NOUN 3
+名	61 NOUN 61
+名づけ	4 VERB_名づける 4
+名乗っ	3 VERB_名乗る 3
+名乗り	4 NOUN 4
+名乗り出	1 VERB_名乗り出る 1
+名乗る	6 VERB 6
+名人	2 NOUN 2
+名付け	3 VERB_名付ける 2 NOUN 1
+名刺	2 NOUN 2
+名前	30 NOUN 30
+名勝	1 NOUN 1
+名医	1 NOUN 1
+名古屋	6 PROPN 6
+名古屋地裁	1 PROPN 1
+名古屋駅	1 PROPN 1
+名古屋高裁	1 PROPN 1
+名声	1 NOUN 1
+名字	1 NOUN 1
+名実	1 NOUN 1
+名将	1 NOUN 1
+名店	1 NOUN 1
+名所	1 NOUN 1
+名指し	1 NOUN 1
+名探偵	1 NOUN 1
+名様	1 NOUN 1
+名残	1 NOUN 1
+名残り	1 NOUN 1
+名瀬	1 PROPN 1
+名物	1 NOUN 1
+名画座	1 NOUN 1
+名目	1 NOUN 1
+名称	17 NOUN 17
+名義	6 NOUN 6
+名詞	2 NOUN 2
+名誉	2 NOUN 2
+名誉市民	2 NOUN 2
+名誉棄損	2 NOUN 2
+名誉町民	1 NOUN 1
+名誉総裁	1 NOUN 1
+名車	1 NOUN 1
+名鉄バス	1 PROPN 1
+名鉄百貨店	1 PROPN 1
+名門	1 NOUN 1
+名高い	1 ADJ 1
+吐き気	1 NOUN 1
+吐露	1 VERB 1
+向	5 NOUN 5
+向い	3 VERB_向く 3
+向か	2 VERB_向く 2
+向かい	5 VERB_向かう 3 NOUN 2
+向かい側	1 NOUN 1
+向かう	14 VERB 14
+向かっ	9 VERB_向かう 9
+向き	6 NOUN 6
+向き合う	1 VERB 1
+向く	1 VERB 1
+向け	41 VERB_向ける 22 NOUN 19
+向ける	1 VERB 1
+向っ	1 VERB_向う 1
+向上	14 NOUN 12 VERB 2
+君	13 NOUN 8 PRON 5
+君主	2 NOUN 2
+君原	1 PROPN 1
+君臨	1 VERB 1
+吟	1 NOUN 1
+否定	12 VERB 10 NOUN 2
+否定的	1 ADJ 1
+否認	1 VERB 1
+含ま	1 VERB_含む 1
+含まれ	4 VERB_含まれる 4
+含まれる	8 VERB 8
+含み	2 VERB_含む 2
+含む	15 VERB 15
+含め	23 VERB_含める 23
+含める	2 VERB 2
+含有	2 NOUN 2
+吸い上げ	1 VERB_吸い上げる 1
+吸い口	1 NOUN 1
+吸い込み	1 NOUN 1
+吸っ	1 VERB_吸う 1
+吸わ	1 VERB_吸う 1
+吸入	1 NOUN 1
+吸収	3 VERB 2 NOUN 1
+吸引	1 VERB 1
+吸気	3 NOUN 3
+吸血鬼	1 NOUN 1
+吹い	1 VERB_吹く 1
+吹き	1 VERB_吹く 1
+吹きつけ	1 VERB_吹きつける 1
+吹き飛ばし	1 VERB_吹き飛ばす 1
+吹く	1 VERB 1
+吻	1 PROPN 1
+吻合	2 VERB 1 NOUN 1
+吾妻	1 PROPN 1
+呆れ	2 VERB_呆れる 2
+呆れる	1 VERB 1
+呉	4 PROPN 4
+呉市	1 PROPN 1
+告げ	8 VERB_告げる 8
+告げる	3 VERB 3
+告発	3 NOUN 2 VERB 1
+告白	2 VERB 1 NOUN 1
+告知	2 VERB 2
+告示	1 VERB 1
+告訴状	2 NOUN 2
+呑む	1 VERB 1
+呟く	1 VERB 1
+周	7 NOUN 5 PROPN 2
+周り	8 NOUN 8
+周作	1 PROPN 1
+周回	1 VERB 1
+周囲	10 NOUN 10
+周年	5 NOUN 5
+周波数	2 NOUN 2
+周波数帯	1 NOUN 1
+周知	2 VERB 1 NOUN 1
+周辺	19 NOUN 19
+呪	1 NOUN 1
+呪い	5 NOUN 4 VERB_呪う 1
+呪文	1 NOUN 1
+呪縛	1 NOUN 1
+味	30 NOUN 30
+味い	1 NOUN 1
+味わ	2 VERB_味わう 2
+味わい	3 NOUN 3
+味わっ	2 VERB_味わう 2
+味噌	1 NOUN 1
+味方	5 NOUN 5
+呼	1 VERB_呼ぶ 1
+呼ば	47 VERB_呼ぶ 47
+呼び	5 VERB_呼ぶ 5
+呼びかけ	2 VERB_呼びかける 2
+呼びし	1 VERB_呼ぶ 1
+呼び出し	1 NOUN 1
+呼び寄せ	1 VERB_呼び寄せる 1
+呼び寄せる	1 VERB 1
+呼び戻さ	1 VERB_呼び戻す 1
+呼び戻す	1 VERB 1
+呼び込み	1 NOUN 1
+呼ぶ	16 VERB 16
+呼ん	13 VERB_呼ぶ 13
+呼吸	1 NOUN 1
+呼吸不全	1 NOUN 1
+呼応	1 VERB 1
+呼気	1 NOUN 1
+呼称	10 NOUN 5 VERB 5
+命	11 NOUN 11
+命じ	2 VERB_命じる 2
+命中	3 VERB 3
+命令	6 NOUN 4 VERB 2
+命名	6 VERB 4 NOUN 2
+命日	1 NOUN 1
+命運	1 NOUN 1
+咀嚼	1 NOUN 1
+和	3 NOUN 3
+和ま	1 VERB_和む 1
+和也	1 PROPN 1
+和人	3 NOUN 3
+和光	1 PROPN 1
+和博	1 PROPN 1
+和合	1 NOUN 1
+和名	2 NOUN 2
+和室	1 NOUN 1
+和平	3 NOUN 3
+和服	1 NOUN 1
+和歌	1 NOUN 1
+和歌子	1 PROPN 1
+和歌山	2 PROPN 2
+和歌山駅	2 PROPN 2
+和紙	1 NOUN 1
+和術	1 NOUN 1
+和解	7 NOUN 6 VERB 1
+和訳	1 NOUN 1
+和議	1 NOUN 1
+和音	1 NOUN 1
+和風	2 NOUN 2
+和食	3 NOUN 3
+咎め	1 NOUN 1
+咬合	1 NOUN 1
+咲	3 PROPN 3
+咳	1 NOUN 1
+哀しく	1 ADJ_哀しい 1
+哀れみ	1 NOUN 1
+品	15 NOUN 15
+品々	1 NOUN 1
+品物	1 NOUN 1
+品質	3 NOUN 3
+員	24 NOUN 24
+員外	1 NOUN 1
+哨戒	3 NOUN 3
+哲也	2 PROPN 2
+哲学	2 NOUN 2
+哲学博士	1 NOUN 1
+哲弥	1 PROPN 1
+唆し	1 VERB_唆す 1
+唇	1 NOUN 1
+唐	2 NOUN 2
+唐津	4 PROPN 4
+唖然とさ	1 VERB_唖然とする 1
+唯	2 ADV 2
+唯一	19 NOUN 19
+唱え	1 VERB_唱える 1
+唱える	1 VERB 1
+商	3 NOUN 3
+商い	1 NOUN 1
+商事	1 NOUN 1
+商人	4 NOUN 4
+商品	18 NOUN 18
+商品券	1 NOUN 1
+商売	1 NOUN 1
+商工会議所	1 NOUN 1
+商店	5 NOUN 5
+商戦	1 NOUN 1
+商才	1 NOUN 1
+商業施設	2 NOUN 2
+商業的	2 ADJ 2
+商標	1 NOUN 1
+商用	2 NOUN 2
+商社	1 NOUN 1
+問	1 NOUN 1
+問い	3 VERB_問う 2 NOUN 1
+問い合わせ	3 NOUN 2 VERB_問い合わせる 1
+問い詰め	2 VERB_問い詰める 2
+問い質し	1 VERB_問い質す 1
+問わ	9 VERB_問う 9
+問屋	1 NOUN 1
+問答	1 NOUN 1
+問題	77 NOUN 73 VERB 4
+問題ない	1 ADJ 1
+啓	1 PROPN 1
+啓文	1 PROPN 1
+啓発	1 NOUN 1
+啓蒙	1 VERB 1
+喀痰	1 NOUN 1
+善郎	2 PROPN 2
+喉	1 NOUN 1
+喋ら	1 VERB_喋る 1
+喋る	2 VERB 2
+喘ぐ	1 VERB 1
+喘息	4 NOUN 4
+喜ば	3 VERB_喜ぶ 3
+喜び	4 NOUN 4
+喜ぶ	1 VERB 1
+喜ん	7 VERB_喜ぶ 7
+喜劇	4 NOUN 4
+喜助	1 PROPN 1
+喜多	1 PROPN 1
+喜朗	1 PROPN 1
+喧伝	1 VERB 1
+喧嘩	3 NOUN 2 VERB 1
+喧騒	1 NOUN 1
+喪失	1 VERB 1
+喫し	2 VERB_喫する 2
+喫する	2 VERB 2
+喫水	1 NOUN 1
+喫茶	1 NOUN 1
+喰らい	1 VERB_喰らう 1
+喰らっ	3 VERB_喰らう 3
+営み	1 NOUN 1
+営ん	1 VERB_営む 1
+営利	3 NOUN 3
+営業	12 NOUN 9 VERB 3
+営業所	5 NOUN 5
+営業職	1 NOUN 1
+嘘	5 NOUN 5
+嘲笑	2 VERB 2
+噂	4 NOUN 4
+噛む	1 VERB 1
+器	3 NOUN 3
+器具	2 NOUN 2
+器用	2 ADJ 2
+噴出	2 VERB 2
+噴射	3 VERB 2 NOUN 1
+噴霧	1 NOUN 1
+噺家	1 NOUN 1
+嚢	2 NOUN 2
+嚮導	1 NOUN 1
+囁か	1 VERB_囁く 1
+囚人	2 NOUN 2
+四	13 NUM 10 NOUN 3
+四国	2 PROPN 2
+四夫	1 PROPN 1
+四季	2 NOUN 2
+四方	1 NOUN 1
+四球	2 NOUN 2
+四肢	1 NOUN 1
+四角い	1 ADJ 1
+四陸	1 NUM 1
+四面楚歌	1 NOUN 1
+四駆	1 NOUN 1
+回	82 NOUN 82
+回し	3 VERB_回す 3
+回っ	1 VERB_回る 1
+回ら	1 AUX_回る 1
+回り	4 NOUN 2 AUX_回る 1 VERB_回る 1
+回り込ん	1 VERB_回り込む 1
+回る	4 AUX 3 VERB 1
+回ろ	1 VERB_回る 1
+回帰	1 NOUN 1
+回廊	2 NOUN 2
+回復	7 VERB 6 NOUN 1
+回想	1 NOUN 1
+回戦	4 NOUN 4
+回折	1 NOUN 1
+回数	4 NOUN 4
+回数券	1 NOUN 1
+回族	1 NOUN 1
+回生	1 NOUN 1
+回答	5 VERB 4 NOUN 1
+回線	2 NOUN 2
+回航	1 VERB 1
+回路	2 NOUN 2
+回転	5 NOUN 4 VERB 1
+回避	4 VERB 3 NOUN 1
+回顧	1 VERB 1
+回顧録	1 NOUN 1
+因ん	1 VERB_因む 1
+因子	1 NOUN 1
+因果関係	1 NOUN 1
+因習的	1 ADJ 1
+団	23 NOUN 23
+団体	47 NOUN 47
+団地	3 NOUN 3
+団扇	1 NOUN 1
+団結	2 NOUN 1 VERB 1
+団長	1 NOUN 1
+囮	2 NOUN 2
+困っ	1 VERB_困る 1
+困り	1 VERB_困る 1
+困る	2 VERB 2
+困窮	1 VERB 1
+困難	3 ADJ 2 NOUN 1
+囲	1 PROPN 1
+囲ま	6 VERB_囲む 6
+囲み	1 NOUN 1
+囲碁	1 NOUN 1
+図	5 NOUN 5
+図っ	8 VERB_図る 8
+図らずも	2 ADV 2
+図り	1 VERB_図る 1
+図る	9 VERB 9
+図書	2 NOUN 2
+図柄	1 NOUN 1
+図解	1 NOUN 1
+図面	1 NOUN 1
+固	1 PROPN 1
+固い	1 ADJ 1
+固まら	1 VERB_固まる 1
+固め	3 VERB_固める 3
+固定	6 NOUN 3 VERB 3
+固定資産税	1 NOUN 1
+固有	4 NOUN 3 ADJ 1
+固有名詞	1 NOUN 1
+固有種	1 NOUN 1
+国	34 NOUN 34
+国主	1 NOUN 1
+国会	2 NOUN 2
+国会議事堂	1 NOUN 1
+国公立大学	1 NOUN 1
+国内	31 NOUN 31
+国分	1 PROPN 1
+国分寺	1 NOUN 1
+国別	1 NOUN 1
+国力	1 NOUN 1
+国務省	1 NOUN 1
+国史	1 NOUN 1
+国営	1 NOUN 1
+国境	7 NOUN 7
+国外	1 NOUN 1
+国家	7 NOUN 7
+国家プロジェクト	1 NOUN 1
+国家元首	1 NOUN 1
+国家的	1 ADJ 1
+国家社会主義	1 NOUN 1
+国政	1 NOUN 1
+国東	1 PROPN 1
+国権	3 NOUN 3
+国歌	1 NOUN 1
+国民	9 NOUN 9
+国民栄誉賞	2 NOUN 2
+国王	3 NOUN 3
+国産	2 NOUN 2
+国立	8 NOUN 8
+国籍	1 NOUN 1
+国花	1 NOUN 1
+国語	2 NOUN 2
+国貞	1 PROPN 1
+国費	1 NOUN 1
+国軍	1 NOUN 1
+国連	3 PROPN 3
+国連大使	1 NOUN 1
+国連軍	1 PROPN 1
+国道	15 NOUN 15
+国鉄	4 PROPN 4
+国防	1 NOUN 1
+国際	10 NOUN 10
+国際的	1 ADJ 1
+国際部	1 PROPN 1
+國	1 PROPN 1
+國士	1 PROPN 1
+國學院大學	1 PROPN 1
+圏	8 NOUN 8
+圏内	1 NOUN 1
+園	1 PROPN 1
+園内	3 NOUN 3
+園田	1 PROPN 1
+園長	1 NOUN 1
+土	6 NOUN 6
+土井	2 PROPN 2
+土佐	1 PROPN 1
+土器	2 NOUN 2
+土地	8 NOUN 8
+土壌	3 NOUN 3
+土家	1 PROPN 1
+土岐	1 PROPN 1
+土師	1 PROPN 1
+土持	2 PROPN 2
+土方	1 PROPN 1
+土星	1 NOUN 1
+土曜	2 NOUN 2
+土曜日	4 NOUN 4
+土木	2 NOUN 2
+土橋	1 PROPN 1
+土産	1 NOUN 1
+土着	2 NOUN 2
+土肥	1 PROPN 1
+土足	1 NOUN 1
+土鬼	1 NOUN 1
+圧	2 NOUN 2
+圧倒	3 VERB 3
+圧倒的	8 ADJ 8
+圧力	6 NOUN 6
+圧勝	1 NOUN 1
+圧政	1 NOUN 1
+圧縮	6 NOUN 5 VERB 1
+圧縮空気	1 NOUN 1
+圧迫	2 NOUN 1 VERB 1
+在	1 NOUN 1
+在り	2 VERB_在る 2
+在る	1 VERB 1
+在任	1 NOUN 1
+在位	1 NOUN 1
+在住	3 NOUN 2 VERB 1
+在外	1 NOUN 1
+在学	1 NOUN 1
+在庫	1 NOUN 1
+在日	1 NOUN 1
+在日米軍	1 PROPN 1
+在来	1 NOUN 1
+在籍	9 VERB 8 NOUN 1
+圭	1 PROPN 1
+地	24 NOUN 24
+地デジ	3 NOUN 3
+地上	13 NOUN 13
+地上デジタル放送	2 NOUN 2
+地下	9 NOUN 9
+地下室	1 NOUN 1
+地下鉄	8 NOUN 8
+地下駅	1 PROPN 1
+地中海	1 PROPN 1
+地主	1 NOUN 1
+地位	9 NOUN 9
+地価	1 NOUN 1
+地価税	1 NOUN 1
+地元	30 NOUN 30
+地割れ	1 NOUN 1
+地区	29 NOUN 29
+地名	2 NOUN 2
+地味	1 ADJ 1
+地図	2 NOUN 2
+地域	53 NOUN 53
+地学	1 NOUN 1
+地層	1 NOUN 1
+地帯	4 NOUN 4
+地形	2 NOUN 2
+地方	25 NOUN 25
+地方公共団体	1 NOUN 1
+地方競馬	1 NOUN 1
+地方紙	2 NOUN 2
+地方自治体	1 NOUN 1
+地方裁判所	1 PROPN 1
+地検	1 NOUN 1
+地殻	1 NOUN 1
+地点	2 NOUN 2
+地獄	4 NOUN 4
+地球	12 NOUN 12
+地球科学	1 NOUN 1
+地理学	1 NOUN 1
+地盤	2 NOUN 2
+地表	1 NOUN 1
+地道	1 ADJ 1
+地雷	2 NOUN 2
+地震	12 NOUN 12
+地面	5 NOUN 5
+地鶏	3 NOUN 3
+址	1 PROPN 1
+坂	1 PROPN 1
+坂上田村麻呂	1 PROPN 1
+坂井	1 PROPN 1
+坂出	1 PROPN 1
+坂本	5 PROPN 5
+坂東	2 PROPN 2
+坂田	1 PROPN 1
+坂越浦	1 PROPN 1
+坂道	1 NOUN 1
+坂野	1 PROPN 1
+均一	4 NOUN 2 ADJ 2
+均等	1 ADJ 1
+坊	1 NOUN 1
+坊主	1 NOUN 1
+垂直	1 NOUN 1
+型	66 NOUN 66
+垣間見	3 VERB_垣間見る 3
+埋まっ	2 VERB_埋まる 2
+埋め	7 VERB_埋める 7
+埋め立て	1 VERB_埋め立てる 1
+埋没	1 NOUN 1
+埋葬	1 VERB 1
+城	20 NOUN 20
+城内	1 NOUN 1
+城南	1 NOUN 1
+城壁	1 NOUN 1
+城所	1 PROPN 1
+城聖	1 PROPN 1
+城郭	1 NOUN 1
+埔	1 PROPN 1
+域	6 NOUN 6
+埠頭	1 NOUN 1
+埴輪	1 NOUN 1
+執っ	3 VERB_執る 3
+執ら	1 VERB_執る 1
+執り	1 VERB_執る 1
+執る	2 VERB 2
+執念深く	1 ADJ_執念深い 1
+執政	1 NOUN 1
+執筆	10 VERB 6 NOUN 4
+執行	3 NOUN 2 VERB 1
+執行猶予	2 NOUN 2
+執行部	2 NOUN 2
+培っ	1 VERB_培う 1
+培養	3 NOUN 3
+基	5 NOUN 5
+基づい	8 VERB_基づく 8
+基づき	5 VERB_基づく 5
+基づく	5 VERB 5
+基味	1 NOUN 1
+基地	1 NOUN 1
+基底	1 NOUN 1
+基弘	1 PROPN 1
+基本	9 NOUN 9
+基本的	15 ADJ 15
+基準	9 NOUN 9
+基督	1 NOUN 1
+基督教団	1 PROPN 1
+基礎	4 NOUN 4
+基調	2 NOUN 2
+基隆	2 PROPN 2
+埼京線	2 PROPN 2
+堀	3 PROPN 2 NOUN 1
+堀内	1 PROPN 1
+堀川	1 PROPN 1
+堀本	1 PROPN 1
+堀河	1 PROPN 1
+堂	3 NOUN 3
+堂々と	1 ADV 1
+堂垣内尚弘	1 PROPN 1
+堅い	1 ADJ 1
+堅田	1 PROPN 1
+堅調	1 ADJ 1
+堆積	1 NOUN 1
+堕ちる	1 VERB 1
+堡	1 PROPN 1
+堤	3 NOUN 3
+堪え	1 VERB_堪える 1
+堪ら	1 VERB_堪る 1
+堪能	1 VERB 1
+堰	1 NOUN 1
+報	1 NOUN 1
+報い	1 VERB_報いる 1
+報じ	10 VERB_報じる 10
+報せ	1 VERB_報せる 1
+報告	20 VERB 11 NOUN 9
+報告書	6 NOUN 6
+報復	2 NOUN 2
+報道	16 NOUN 12 VERB 4
+報酬	1 NOUN 1
+場	18 NOUN 18
+場内	4 NOUN 4
+場合	84 NOUN 84 ***
+場所	48 NOUN 48
+場面	9 NOUN 9
+堺	2 PROPN 2
+堺市	3 PROPN 3
+塗り	1 VERB_塗る 1
+塗料	2 NOUN 2
+塗膜	1 NOUN 1
+塗装	2 NOUN 2
+塚	1 NOUN 1
+塞がれ	1 VERB_塞がる 1
+塞ぐ	1 VERB 1
+塩	4 NOUN 4
+塩分	1 NOUN 1
+塩化	1 NOUN 1
+塩月	1 PROPN 1
+塩水	1 NOUN 1
+塵	2 NOUN 2
+塹	1 PROPN 1
+塾	5 NOUN 5
+境	3 PROPN 3
+境内	3 NOUN 3
+境界	4 NOUN 4
+墓	6 NOUN 6
+墓地	3 NOUN 3
+墓場	1 NOUN 1
+墓碑銘	1 NOUN 1
+増	5 NOUN 5
+増え	12 VERB_増える 12
+増える	4 VERB 4
+増し	4 VERB_増す 4
+増やし	3 VERB_増やす 3
+増やす	3 VERB 3
+増やせ	1 VERB_増やす 1
+増やそ	1 VERB_増やす 1
+増刊	2 NOUN 2
+増加	16 VERB 11 NOUN 5
+増員	1 VERB 1
+増大	3 NOUN 2 VERB 1
+増幅	1 NOUN 1
+増強	1 NOUN 1
+増援	1 NOUN 1
+増改築	1 NOUN 1
+増殖	2 VERB 1 NOUN 1
+増水	1 NOUN 1
+増発	1 NOUN 1
+増益	1 NOUN 1
+増配	1 NOUN 1
+墜落	1 VERB 1
+墨付き	1 NOUN 1
+墳	1 PROPN 1
+墳丘	1 NOUN 1
+墳墓	1 NOUN 1
+壁	9 NOUN 9
+壁掛け	1 NOUN 1
+壁画	1 NOUN 1
+壁絵	1 NOUN 1
+壇	1 NOUN 1
+壇上	1 NOUN 1
+壊れ	3 VERB_壊れる 3
+壊死	1 NOUN 1
+壊滅	2 VERB 2
+士	8 NOUN 8
+士官	4 NOUN 4
+士燮	1 PROPN 1
+壮	1 PROPN 1
+壮婦	3 NOUN 3
+壮年	3 NOUN 3
+声	21 NOUN 21
+声優	3 NOUN 3
+声帯	1 NOUN 1
+声明	5 NOUN 5
+声楽	1 NOUN 1
+壱岐	1 PROPN 1
+売っ	1 VERB_売る 1
+売ら	3 VERB_売る 3
+売り	5 NOUN 4 VERB_売る 1
+売り上げ	6 NOUN 5 VERB_売り上げる 1
+売り出さ	2 VERB_売り出す 2
+売れ行き	2 NOUN 2
+売上	5 NOUN 5
+売却	5 VERB 3 NOUN 2
+売品	1 NOUN 1
+売場	1 NOUN 1
+売春	3 NOUN 3
+売買	4 NOUN 4
+壺	1 NOUN 1
+変	3 ADJ 2 NOUN 1
+変え	9 VERB_変える 9
+変える	2 VERB 2
+変る	1 VERB 1
+変わっ	15 VERB_変わる 15
+変わら	6 VERB_変わる 6
+変わり	6 VERB_変わる 5 NOUN 1
+変わり種	1 NOUN 1
+変わる	7 VERB 7
+変化	17 VERB 10 NOUN 7
+変奏	1 NOUN 1
+変形	3 NOUN 3
+変態	2 NOUN 2
+変換	2 NOUN 2
+変数	2 NOUN 2
+変更	33 VERB 20 NOUN 13
+変死	1 NOUN 1
+変異	2 NOUN 2
+変種	1 NOUN 1
+変装	1 VERB 1
+変調	2 NOUN 2
+変身	8 VERB 6 NOUN 2
+変遷	2 NOUN 2
+変電設備	1 NOUN 1
+変革	1 NOUN 1
+夏	24 NOUN 24
+夏休み	2 NOUN 2
+夏場	1 NOUN 1
+夏季	2 NOUN 2
+夏期	2 NOUN 2
+夏美	1 PROPN 1
+夕刻	1 NOUN 1
+夕子	1 PROPN 1
+夕方	6 NOUN 6
+夕日	1 NOUN 1
+夕食	3 NOUN 3
+外	23 NOUN 22 VERB_外す 1
+外し	3 VERB_外す 3
+外れ	2 VERB_外れる 2
+外れる	1 VERB 1
+外交	1 NOUN 1
+外交関係	1 NOUN 1
+外伝	2 NOUN 2
+外側	4 NOUN 4
+外出	3 NOUN 2 VERB 1
+外務	1 NOUN 1
+外国	1 NOUN 1
+外国人登録証	1 NOUN 1
+外壁	2 NOUN 2
+外孫	1 NOUN 1
+外敵	1 NOUN 1
+外来	3 NOUN 3
+外構	1 NOUN 1
+外気	1 NOUN 1
+外洋	1 NOUN 1
+外的	1 ADJ 1
+外相	3 NOUN 3
+外聞	1 NOUN 1
+外見	2 NOUN 2
+外観	2 NOUN 2
+外輪	2 NOUN 2
+外部	6 NOUN 6
+多	4 NOUN 2 ADJ_多い 2
+多々良	1 PROPN 1
+多い	74 ADJ 74
+多かっ	10 ADJ_多い 10
+多く	97 NOUN 55 ADJ_多い 42
+多め	3 ADJ 3
+多分	2 ADV 2
+多大	1 NOUN 1
+多岐	6 NOUN 6
+多彩	3 ADJ 3
+多情	1 ADJ 1
+多数	20 NOUN 20
+多数決	2 NOUN 2
+多数派	2 NOUN 2
+多様	5 ADJ 4 NOUN 1
+多用	2 VERB 2
+多発	3 NOUN 3
+多紀	1 PROPN 1
+多角的	1 ADJ 1
+多難	1 ADJ 1
+多額	3 ADJ 3
+夜	21 NOUN 19 PART 2
+夜中	1 NOUN 1
+夜叉	1 NOUN 1
+夜明け	2 NOUN 2
+夜空	1 NOUN 1
+夜行	1 NOUN 1
+夜行列車	1 NOUN 1
+夜襲	1 NOUN 1
+夜話	1 NOUN 1
+夜遅く	1 ADJ_夜遅い 1
+夜長	1 NOUN 1
+夜間	2 NOUN 2
+夢	9 NOUN 9
+夢中	1 ADJ 1
+夢現	1 NOUN 1
+大	70 NOUN 70
+大々的	2 ADJ 2
+大いなる	1 ADJ 1
+大いに	4 ADV 4
+大き	1 ADJ_大きい 1
+大きい	7 ADJ 7
+大きく	30 ADJ_大きい 30
+大きさ	4 NOUN 4
+大きな	37 ADJ 37
+大きめ	2 NOUN 2
+大まか	1 ADJ 1
+大丈夫	1 ADJ 1
+大久保	2 PROPN 2
+大事	7 ADJ 7
+大人	14 NOUN 11 VERB 3
+大会	48 NOUN 48
+大会社	1 NOUN 1
+大住	1 PROPN 1
+大佐	2 NOUN 1 PROPN 1
+大使	4 NOUN 4
+大倉	2 PROPN 2
+大元	2 PROPN 2
+大光	1 PROPN 1
+大全	2 NOUN 2
+大分	5 PROPN 4 ADV 1
+大切	7 ADJ 7
+大別	2 VERB 2
+大勝	2 NOUN 1 VERB 1
+大勢	3 NOUN 3
+大半	6 NOUN 6
+大同	2 NOUN 2
+大名	2 NOUN 2
+大和	2 NOUN 2
+大和言葉	1 NOUN 1
+大地	1 NOUN 1
+大地震	1 NOUN 1
+大坂	3 PROPN 3
+大型	11 NOUN 8 ADJ 3
+大塚	2 PROPN 2
+大変	10 ADV 6 ADJ 3 NOUN 1
+大多数	1 NOUN 1
+大天使	1 NOUN 1
+大夫	1 NOUN 1
+大好き	7 ADJ 7
+大字	1 NOUN 1
+大学	34 NOUN 34
+大学入試	1 NOUN 1
+大学院	6 NOUN 6
+大安寺	1 PROPN 1
+大宮	3 PROPN 3
+大家	2 NOUN 1 PROPN 1
+大富豪	1 NOUN 1
+大将	4 NOUN 4
+大小	2 NOUN 2
+大山	3 NOUN 2 PROPN 1
+大島	2 PROPN 2
+大川	4 NOUN 4
+大川隆法	4 PROPN 4
+大幅	10 ADJ 9 NOUN 1
+大当たり	3 NOUN 3
+大成	2 PROPN 1 NOUN 1
+大戦	2 NOUN 2
+大手	4 NOUN 4
+大日本印刷	1 PROPN 1
+大映	1 PROPN 1
+大東洋	2 NOUN 2
+大根	1 NOUN 1
+大根おろし	1 NOUN 1
+大森	1 PROPN 1
+大橋	1 PROPN 1
+大正	1 NOUN 1
+大正大学	1 PROPN 1
+大武	1 PROPN 1
+大気	4 NOUN 4
+大水	1 NOUN 1
+大汗	1 NOUN 1
+大江	4 PROPN 4
+大津	1 PROPN 1
+大浴場	1 NOUN 1
+大王	3 PROPN 2 NOUN 1
+大田区	1 PROPN 1
+大病院	1 NOUN 1
+大盛り	1 NOUN 1
+大盤振る舞い	1 VERB 1
+大目	1 NOUN 1
+大石	1 PROPN 1
+大破	2 VERB 2
+大社	1 NOUN 1
+大祝	1 PROPN 1
+大神	1 PROPN 1
+大祭	2 NOUN 2
+大粒	1 NOUN 1
+大紋	1 NOUN 1
+大統領	8 NOUN 8
+大統領選挙	1 NOUN 1
+大老	1 NOUN 1
+大聖堂	1 NOUN 1
+大脳	1 NOUN 1
+大臣	5 NOUN 5
+大興	1 PROPN 1
+大英帝国	1 PROPN 1
+大荒れ	1 NOUN 1
+大蔵	1 NOUN 1
+大蔵省	1 NOUN 1
+大衆	1 NOUN 1
+大西洋	2 PROPN 2
+大規模	8 ADJ 8
+大詰め	1 NOUN 1
+大谷	1 PROPN 1
+大豆	1 NOUN 1
+大豊	1 PROPN 1
+大賞	4 NOUN 4
+大軍	1 NOUN 1
+大輔	1 PROPN 1
+大迫	1 PROPN 1
+大通	1 NOUN 1
+大通り	1 NOUN 1
+大連	1 PROPN 1
+大都市	1 NOUN 1
+大量	6 NOUN 4 ADJ 2
+大量殺戮	1 NOUN 1
+大金	1 NOUN 1
+大関	1 NOUN 1
+大阪	14 PROPN 14
+大阪大学	1 PROPN 1
+大阪工業大学	1 PROPN 1
+大阪府	4 PROPN 4
+大阪弁	1 NOUN 1
+大阪駅	2 PROPN 2
+大陸	3 NOUN 3
+大隊	2 NOUN 2
+大雑把	2 ADJ 2
+大雨	2 NOUN 2
+大韓民国	1 PROPN 1
+大鵬	1 PROPN 1
+大麻	1 NOUN 1
+天	10 NOUN 10
+天と地	1 PROPN 1
+天の川	1 NOUN 1
+天ぷら	2 NOUN 2
+天下り	1 VERB_天下る 1
+天井	5 NOUN 5
+天使	2 NOUN 2
+天候	1 NOUN 1
+天国	1 NOUN 1
+天地	1 NOUN 1
+天変地異	1 NOUN 1
+天平	1 PROPN 1
+天才	4 NOUN 4
+天敵	1 NOUN 1
+天文台	1 NOUN 1
+天文学	1 NOUN 1
+天橋	1 PROPN 1
+天気	3 NOUN 3
+天気予報	1 NOUN 1
+天気図	1 NOUN 1
+天津	1 ADJ 1
+天満	2 PROPN 2
+天然	5 NOUN 5
+天然資源	1 NOUN 1
+天狗	3 NOUN 3
+天界	1 NOUN 1
+天皇	4 NOUN 4
+天皇制	2 NOUN 2
+天皇杯	1 NOUN 1
+天秤	2 NOUN 2
+天蓋	2 NOUN 2
+太	5 PROPN 5
+太い	2 ADJ 2
+太地	1 PROPN 1
+太子	1 NOUN 1
+太字	1 NOUN 1
+太平洋	3 PROPN 3
+太平洋側	3 PROPN 3
+太平洋岸	1 PROPN 1
+太平洋戦争	2 NOUN 2
+太成	1 PROPN 1
+太田	1 PROPN 1
+太郎	5 PROPN 5
+太陽	6 NOUN 6
+太陽光発電	1 NOUN 1
+太陽系	1 NOUN 1
+太陽風	1 NOUN 1
+太鼓	2 NOUN 2
+夫	10 NOUN 10
+夫人	4 NOUN 4
+夫妻	2 NOUN 2
+夫婦	9 NOUN 9
+夫婦喧嘩	1 NOUN 1
+夭折	2 VERB 2
+失	1 NOUN 1
+失い	3 VERB_失う 3
+失っ	6 VERB_失う 6
+失わ	3 VERB_失う 3
+失墜	2 VERB 1 NOUN 1
+失敗	15 VERB 10 NOUN 5
+失格	2 VERB 1 NOUN 1
+失業	1 VERB 1
+失点	6 NOUN 5 VERB 1
+失礼	1 ADJ 1
+失策	2 NOUN 2
+失職	1 NOUN 1
+失脚	2 VERB 2
+奄美	1 PROPN 1
+奇	1 NOUN 1
+奇妙	2 NOUN 1 ADJ 1
+奇数	2 NOUN 2
+奇跡	1 NOUN 1
+奇跡的	1 ADJ 1
+奇麗	1 ADJ 1
+奈々	1 PROPN 1
+奈優里	1 PROPN 1
+奈穂美	1 PROPN 1
+奈緒子	1 PROPN 1
+奈良時代	1 PROPN 1
+奈良県警	1 PROPN 1
+奈落	2 NOUN 2
+奉仕	4 NOUN 4
+奉天	1 PROPN 1
+奉納	1 NOUN 1
+奏功	1 VERB 1
+奏法	3 NOUN 3
+奏者	1 NOUN 1
+契り	1 NOUN 1
+契機	5 NOUN 5
+契約	32 NOUN 23 VERB 9
+奔走	1 VERB 1
+奥	6 NOUN 6
+奥さん	1 NOUN 1
+奥入瀬	1 PROPN 1
+奥様	1 NOUN 1
+奥歯	1 NOUN 1
+奪	1 VERB_奪う 1
+奪い	1 VERB_奪う 1
+奪い取り	4 VERB_奪い取る 4
+奪い取る	1 VERB 1
+奪う	2 VERB 2
+奪っ	2 VERB_奪う 2
+奪わ	6 VERB_奪う 6
+奪三振	1 NOUN 1
+奪回	2 VERB 2
+奪還	2 NOUN 1 VERB 1
+女	20 NOUN 20
+女の子	7 NOUN 7
+女優	4 NOUN 4
+女史	1 NOUN 1
+女好き	1 NOUN 1
+女子	5 NOUN 5
+女子プロ	1 NOUN 1
+女将	2 NOUN 2
+女性	71 NOUN 71
+女流	1 NOUN 1
+女王	2 NOUN 2
+女神	3 NOUN 3
+奴	1 PRON 1
+奴隷	4 NOUN 4
+奴隷制度	3 NOUN 3
+好	3 NOUN 3
+好々爺	1 NOUN 1
+好き	27 ADJ 15 NOUN 12
+好ま	3 VERB_好む 3
+好み	7 NOUN 5 VERB_好む 2
+好む	2 VERB 2
+好ん	3 VERB_好む 3
+好奇心	2 NOUN 2
+好悪	1 NOUN 1
+好意	1 NOUN 1
+好意的	1 ADJ 1
+好感	3 NOUN 3
+好戦的	1 ADJ 1
+好物	1 NOUN 1
+好評	6 ADJ 3 NOUN 3
+好調	1 ADJ 1
+好走	1 VERB 1
+好転	1 NOUN 1
+如	2 PROPN 2
+妃	1 NOUN 1
+妊娠	3 NOUN 2 VERB 1
+妊婦	1 NOUN 1
+妖怪	1 NOUN 1
+妖精	2 NOUN 2
+妖艶	1 ADJ 1
+妖術	2 NOUN 2
+妥協	2 VERB 1 NOUN 1
+妨害	5 VERB 3 NOUN 2
+妬み	1 NOUN 1
+妹	3 NOUN 3
+妻	11 NOUN 11
+妻子	1 NOUN 1
+妾	1 NOUN 1
+姉	7 NOUN 7
+姉さん	1 NOUN 1
+姉妹	2 NOUN 2
+姉妹都市	1 NOUN 1
+始まっ	7 VERB_始まる 7
+始まり	5 VERB_始まる 4 NOUN 1
+始まる	6 VERB 6
+始め	35 VERB_始める 17 AUX_始める 17 NOUN 1
+始める	10 VERB 6 AUX 4
+始動	3 VERB 2 NOUN 1
+始末	3 NOUN 3
+始発	2 NOUN 2
+始祖	1 NOUN 1
+始終	1 ADV 1
+姓	3 NOUN 3
+姓名	1 NOUN 1
+委	2 NOUN 2
+委ね	2 VERB_委ねる 2
+委ねる	3 VERB 3
+委任	1 NOUN 1
+委員	5 NOUN 5
+委嘱	1 VERB 1
+委託	2 NOUN 1 VERB 1
+姫	3 NOUN 3
+姫路	1 PROPN 1
+姿	32 NOUN 32
+姿勢	9 NOUN 9
+姿形	1 NOUN 1
+威	1 NOUN 1
+威信	1 NOUN 1
+威光	1 NOUN 1
+威力	3 NOUN 3
+威厳	1 NOUN 1
+威圧	1 NOUN 1
+娘	19 NOUN 19
+娘婿	1 NOUN 1
+娘役	1 NOUN 1
+婚姻	1 NOUN 1
+婚活	1 NOUN 1
+婚約	1 NOUN 1
+婦人	3 NOUN 3
+媚びへつらう	1 VERB 1
+嫁	1 NOUN 1
+嫁ぎ	1 VERB_嫁ぐ 1
+嫉妬	1 NOUN 1
+嫌	6 ADJ 6
+嫌い	3 NOUN 2 ADJ 1
+嫌がっ	1 VERB_嫌がる 1
+嫌がる	1 VERB 1
+嫌わ	1 VERB_嫌う 1
+嫡流	1 NOUN 1
+嬉し	2 ADJ_嬉しい 2
+嬉しい	5 ADJ 5
+嬉しく	1 ADJ_嬉しい 1
+嬢	2 NOUN 2
+嬰	1 NOUN 1
+子	34 NOUN 34
+子ども	11 NOUN 11
+子ども手当	2 NOUN 2
+子供	39 NOUN 39
+子孫	4 NOUN 4
+子守唄	1 NOUN 1
+子持村	1 PROPN 1
+子猫	1 NOUN 1
+子育て	3 NOUN 3
+孔	1 NOUN 1
+字	12 NOUN 12
+字面	1 NOUN 1
+存	1 NOUN 1
+存分	1 NOUN 1
+存命	3 VERB 2 NOUN 1
+存在	50 VERB 32 NOUN 18
+存廃	1 NOUN 1
+存知	1 NOUN 1
+存続	6 VERB 4 NOUN 2
+孝	1 PROPN 1
+孝之	1 PROPN 1
+孝博	1 PROPN 1
+孝子	1 PROPN 1
+孝弘	1 PROPN 1
+季	1 NOUN 1
+季節	3 NOUN 3
+季範	1 PROPN 1
+季語	1 NOUN 1
+孤児	1 NOUN 1
+孤独	2 NOUN 2
+孤立	1 VERB 1
+学	11 NOUN 10 VERB_学ぶ 1
+学ば	1 VERB_学ぶ 1
+学び	4 VERB_学ぶ 3 NOUN 1
+学ん	3 VERB_学ぶ 3
+学会	4 NOUN 4
+学位	1 NOUN 1
+学内	2 NOUN 2
+学力	2 NOUN 2
+学力テスト	1 NOUN 1
+学区	4 NOUN 4
+学問	1 NOUN 1
+学園	21 NOUN 21
+学園祭	1 NOUN 1
+学園都市	1 NOUN 1
+学寮	1 NOUN 1
+学年	2 NOUN 2
+学徒動員	1 VERB 1
+学校	24 NOUN 24
+学校教育	1 NOUN 1
+学派	1 NOUN 1
+学生	15 NOUN 15
+学生服	2 NOUN 2
+学科	9 NOUN 9
+学級	2 NOUN 2
+学習	3 NOUN 3
+学習塾	1 NOUN 1
+学者	1 NOUN 1
+学術	4 NOUN 4
+学部	4 NOUN 4
+学長	1 NOUN 1
+学院	2 NOUN 2
+学際的	1 ADJ 1
+孫	9 NOUN 8 PROPN 1
+孫峻	1 PROPN 1
+孫文	1 PROPN 1
+孫権	1 PROPN 1
+孫次	1 PROPN 1
+宅	2 NOUN 2
+宅地	1 NOUN 1
+宅配便	1 NOUN 1
+宇井	1 PROPN 1
+宇佐美	4 PROPN 4
+宇宙	9 NOUN 9
+宇宙産業	1 NOUN 1
+宇宙科学	1 NOUN 1
+宇治	2 PROPN 2
+宇治川	1 PROPN 1
+宇都宮	1 PROPN 1
+守	3 PROPN 2 NOUN 1
+守っ	1 VERB_守る 1
+守ら	2 VERB_守る 2
+守り	3 VERB_守る 2 NOUN 1
+守る	8 VERB 8
+守ろ	2 VERB_守る 2
+守備	5 NOUN 5
+守姫	1 PROPN 1
+守秘義務	1 NOUN 1
+守護	3 NOUN 3
+守護神	3 NOUN 3
+守谷	4 PROPN 4
+安	5 ADJ_安い 2 NOUN 2 PROPN 1
+安い	11 ADJ 11
+安かっ	2 ADJ_安い 2
+安く	4 ADJ_安い 4
+安佐北区	1 PROPN 1
+安佐南区	1 PROPN 1
+安価	2 ADJ 2
+安倍	1 PROPN 1
+安値	1 NOUN 1
+安全	14 NOUN 9 ADJ 5
+安全保障理事会	1 PROPN 1
+安国	1 PROPN 1
+安土	1 PROPN 1
+安売り	1 VERB 1
+安定	4 NOUN 2 VERB 2
+安山岩	1 NOUN 1
+安心	26 VERB 19 ADJ 4 NOUN 3
+安打	3 NOUN 3
+安曇野	1 PROPN 1
+安楽	2 ADJ 1 NOUN 1
+安永	1 PROPN 1
+安田	3 PROPN 3
+安置	2 VERB 2
+安藤	1 PROPN 1
+安蘇郡	1 PROPN 1
+宋	2 PROPN 2
+完了	2 NOUN 1 VERB 1
+完全	27 ADJ 19 NOUN 8
+完勝	1 VERB 1
+完封	2 NOUN 1 VERB 1
+完成	13 VERB 9 NOUN 4
+完治	2 VERB 2
+完璧	2 ADJ 2
+完結	3 NOUN 2 VERB 1
+宍喰	1 PROPN 1
+宏	1 PROPN 1
+宏史	1 PROPN 1
+宏志	1 PROPN 1
+宗	4 NOUN 3 PROPN 1
+宗仁	1 PROPN 1
+宗教	22 NOUN 22
+宗教団体	9 NOUN 9
+宗教的	2 ADJ 2
+宗桂寺	1 PROPN 1
+宗碩	1 PROPN 1
+宗谷	1 PROPN 1
+宗長	1 PROPN 1
+官	10 NOUN 10
+官位	2 NOUN 2
+官吏	1 NOUN 1
+官営	1 NOUN 1
+官報	1 NOUN 1
+官庁	2 NOUN 2
+官給	1 NOUN 1
+官職	2 NOUN 2
+宙	2 NOUN 2
+宙太	1 PROPN 1
+定	5 NOUN 5
+定まっ	1 VERB_定まる 1
+定め	11 VERB_定める 10 NOUN 1
+定めない	1 ADJ 1
+定める	1 VERB 1
+定住	2 NOUN 1 VERB 1
+定価	1 NOUN 1
+定員	6 NOUN 6
+定宿	1 NOUN 1
+定数	3 NOUN 3
+定期	2 NOUN 2
+定期的	6 ADJ 6
+定理	6 NOUN 6
+定番	3 NOUN 3
+定着	3 VERB 3
+定経	1 PROPN 1
+定義	5 NOUN 4 VERB 1
+定説	1 NOUN 1
+定食	5 NOUN 5
+宛	2 NOUN 2
+宛て	3 NOUN 3
+宜しく	2 ADV 2
+宝	3 NOUN 3
+宝くじ	1 NOUN 1
+宝塚記念	1 PROPN 1
+宝島	1 PROPN 1
+宝慶寺	1 PROPN 1
+宝石	1 NOUN 1
+実	4 NOUN 3 PROPN 1
+実に	2 ADV 2
+実は	17 ADV 10 CCONJ 7
+実写	1 NOUN 1
+実力	9 NOUN 9
+実効	1 NOUN 1
+実務	3 NOUN 3
+実包	2 NOUN 2
+実名	2 NOUN 2
+実在	3 VERB 2 NOUN 1
+実存主義	1 NOUN 1
+実家	4 NOUN 4
+実平	1 PROPN 1
+実弟	1 NOUN 1
+実情	1 NOUN 1
+実態	5 NOUN 5
+実戦	4 NOUN 4
+実技	1 NOUN 1
+実施	29 VERB 19 NOUN 10
+実権	1 NOUN 1
+実母	1 NOUN 1
+実物	1 NOUN 1
+実現	12 VERB 9 NOUN 3
+実生	1 NOUN 1
+実用	2 NOUN 2
+実用化	1 NOUN 1
+実績	4 NOUN 4
+実習	2 NOUN 2
+実行	14 VERB 11 NOUN 3
+実装	2 NOUN 1 VERB 1
+実証	1 VERB 1
+実質	2 NOUN 2
+実質的	3 ADJ 3
+実践	4 NOUN 3 VERB 1
+実践的	1 ADJ 1
+実際	27 NOUN 25 ADV 2
+実験	8 NOUN 8
+客	21 NOUN 21
+客室	1 NOUN 1
+客層	3 NOUN 3
+客席	2 NOUN 2
+客数	1 NOUN 1
+客演	2 NOUN 2
+客船	1 NOUN 1
+客車	1 NOUN 1
+客間	1 NOUN 1
+宣	1 PROPN 1
+宣伝	7 NOUN 6 VERB 1
+宣戦布告	1 VERB 1
+宣教師	1 NOUN 1
+宣言	2 NOUN 1 VERB 1
+室	13 NOUN 13
+室内	2 NOUN 2
+室温	2 NOUN 2
+室蘭	1 PROPN 1
+室長	3 NOUN 3
+宥め	1 NOUN 1
+宥和	1 NOUN 1
+宮	6 PROPN 6
+宮城	2 PROPN 1 NOUN 1
+宮崎	3 PROPN 3
+宮座	1 NOUN 1
+宮廷	2 NOUN 2
+宮本	1 PROPN 1
+宮殿	4 NOUN 4
+宮田	1 PROPN 1
+宮脇	1 PROPN 1
+宰相	1 NOUN 1
+害	1 NOUN 1
+害し	1 VERB_害する 1
+宴会	4 NOUN 4
+家	44 NOUN 44
+家元	1 NOUN 1
+家光	1 PROPN 1
+家具	1 NOUN 1
+家内	1 NOUN 1
+家出	2 VERB 2
+家宅捜索	2 NOUN 1 VERB 1
+家庭	14 NOUN 14
+家庭教師	1 NOUN 1
+家政学	1 NOUN 1
+家斉	1 PROPN 1
+家族	34 NOUN 34
+家畜	1 NOUN 1
+家督	4 NOUN 4
+家系	3 NOUN 3
+家系図	2 NOUN 2
+家綱	1 PROPN 1
+家老	5 NOUN 5
+家臣	1 NOUN 1
+家計	1 NOUN 1
+家電	1 NOUN 1
+容	1 PROPN 1
+容器	1 NOUN 1
+容姿	4 NOUN 4
+容易	4 ADJ 4
+容疑	5 NOUN 5
+容積	2 NOUN 2
+容認	1 VERB 1
+容貌	1 NOUN 1
+容量	3 NOUN 3
+宿	6 NOUN 6
+宿り	1 VERB_宿る 1
+宿る	2 VERB 2
+宿命	1 NOUN 1
+宿泊	5 VERB 3 NOUN 2
+宿駅	1 NOUN 1
+寄せ	9 VERB_寄せる 8 NOUN 1
+寄せ付け	1 VERB_寄せ付ける 1
+寄っ	2 VERB_寄る 2
+寄り	3 NOUN 3
+寄り付き	1 NOUN 1
+寄り切っ	1 VERB_寄り切る 1
+寄る	1 VERB 1
+寄与	3 VERB 3
+寄付	7 NOUN 4 VERB 3
+寄宿舎	1 NOUN 1
+寄生	1 VERB 1
+密か	2 ADJ 2
+密度	1 NOUN 1
+密接	2 VERB 1 ADJ 1
+密教	2 NOUN 2
+密着	1 VERB 1
+密約	2 NOUN 2
+密輸	1 NOUN 1
+密閉	1 NOUN 1
+密集	2 VERB 2
+富	1 PROPN 1
+富む	1 VERB 1
+富ん	2 VERB_富む 2
+富士	2 NOUN 1 PROPN 1
+富士ゼロックス	1 PROPN 1
+富士夫	1 PROPN 1
+富士宮	1 PROPN 1
+富士重工業	2 PROPN 2
+富山	4 PROPN 4
+富永	1 PROPN 1
+富美子	1 PROPN 1
+富豪	1 NOUN 1
+寒い	1 ADJ 1
+寒さ	1 NOUN 1
+寒冷	1 ADJ 1
+寒帯	1 NOUN 1
+寒空	1 NOUN 1
+寒緑	1 PROPN 1
+寛	1 PROPN 1
+寛之	1 PROPN 1
+寛大	1 ADJ 1
+寛文	2 NOUN 2
+寛永	1 PROPN 1
+寝	1 VERB_寝る 1
+寝る	1 VERB 1
+寝室	1 NOUN 1
+寝起き	1 NOUN 1
+寡黙	3 ADJ 3
+審	8 NOUN 8
+審判	3 NOUN 3
+審査	10 NOUN 10
+審査請求	1 NOUN 1
+審査部	2 PROPN 2
+審美	2 NOUN 2
+審議	4 VERB 2 NOUN 2
+寮	3 NOUN 3
+寵愛	3 VERB 3
+寵臣	1 NOUN 1
+寸前	3 NOUN 3
+寸法	2 NOUN 2
+寺	14 NOUN 14
+寺子屋	1 NOUN 1
+寺田	1 PROPN 1
+寺社	1 NOUN 1
+寺院	2 NOUN 2
+対	19 NOUN 15 PART 4
+対し	1 VERB_対する 1
+対人	1 NOUN 1
+対処	3 NOUN 2 VERB 1
+対外的	1 ADJ 1
+対局	1 NOUN 1
+対岸	1 NOUN 1
+対峙	1 VERB 1
+対応	58 NOUN 36 VERB 22
+対戦	15 NOUN 11 VERB 4
+対抗	1 VERB 1
+対極	3 NOUN 2 VERB 1
+対比	1 VERB 1
+対決	6 NOUN 5 VERB 1
+対称	1 NOUN 1
+対立	8 VERB 5 NOUN 3
+対策	20 NOUN 20
+対米	1 NOUN 1
+対話	2 NOUN 2
+対談	2 VERB 1 NOUN 1
+対論	2 NOUN 2
+対象	25 NOUN 25
+対象年齢	1 NOUN 1
+対面	2 NOUN 1 VERB 1
+対馬	1 PROPN 1
+寿	1 NOUN 1
+寿司	3 NOUN 3
+寿司屋	1 NOUN 1
+寿命	3 NOUN 3
+寿夫	1 PROPN 1
+封	1 NOUN 1
+封じ	4 VERB_封じる 4
+封じ込め	1 VERB_封じ込める 1
+封じ込める	1 VERB 1
+封入	2 NOUN 2
+封印	3 VERB 2 NOUN 1
+封建的	1 ADJ 1
+封殺	1 NOUN 1
+封筒	1 NOUN 1
+封鎖	2 VERB 1 NOUN 1
+専属	4 NOUN 4
+専念	1 VERB 1
+専攻	1 NOUN 1
+専用	16 NOUN 16
+専用線	1 NOUN 1
+専行	1 NOUN 1
+専門	12 NOUN 12
+専門教育	1 NOUN 1
+専門的	1 ADJ 1
+専門職	1 NOUN 1
+射手	1 NOUN 1
+射手座	1 NOUN 1
+射撃	5 NOUN 5
+射殺	3 VERB 3
+射程	4 NOUN 4
+射角	1 NOUN 1
+将	4 NOUN 2 PROPN 1 ADV 1
+将来	1 NOUN 1
+将校	1 NOUN 1
+将棋	2 NOUN 2
+将軍	11 NOUN 11
+尊	2 NOUN 1 VERB 1
+尊び	1 VERB_尊ぶ 1
+尊敬	1 VERB 1
+尊皇	1 NOUN 1
+尊重	2 VERB 2
+尋	1 NOUN 1
+尋ね	1 VERB_尋ねる 1
+尋問	3 NOUN 3
+尋常	1 ADJ 1
+導	1 VERB_導く 1
+導い	1 VERB_導く 1
+導き	2 NOUN 2
+導体	2 NOUN 2
+導入	16 VERB 9 NOUN 7
+小	13 NOUN 13
+小さい	11 ADJ 11
+小さく	7 ADJ_小さい 7
+小さな	10 ADJ 10
+小エビ	2 NOUN 2
+小久保	2 PROPN 2
+小作	1 NOUN 1
+小倉駅	1 PROPN 1
+小児	2 NOUN 2
+小分け	1 VERB 1
+小唄	1 NOUN 1
+小回り	1 NOUN 1
+小團次	1 PROPN 1
+小型	5 NOUN 3 ADJ 2
+小型化	1 VERB 1
+小型車	1 NOUN 1
+小売り	1 NOUN 1
+小売業	1 NOUN 1
+小姓	1 NOUN 1
+小学	4 NOUN 4
+小安峡	1 PROPN 1
+小屋	2 NOUN 2
+小山	1 PROPN 1
+小川	3 NOUN 3
+小幅	1 ADJ 1
+小平	2 PROPN 2
+小径	1 NOUN 1
+小惑星	1 NOUN 1
+小木	1 PROPN 1
+小松	2 PROPN 2
+小林	3 PROPN 3
+小林正	1 PROPN 1
+小柄	5 ADJ 5
+小森	1 PROPN 1
+小汀	1 PROPN 1
+小池	1 PROPN 1
+小沢	2 PROPN 2
+小沢鋭仁	1 PROPN 1
+小泉	1 PROPN 1
+小浜	1 PROPN 1
+小物	1 NOUN 1
+小犬	1 NOUN 1
+小田	1 PROPN 1
+小籠包	1 NOUN 1
+小糸	2 PROPN 2
+小船	1 PROPN 1
+小葉	1 NOUN 1
+小規模	3 ADJ 3
+小角	2 PROPN 2
+小説	9 NOUN 9
+小選挙区比例代表並立制	1 NOUN 1
+小野	2 PROPN 2
+小野上村	1 PROPN 1
+小野寺	1 PROPN 1
+小銃	1 NOUN 1
+小銭	1 NOUN 1
+小鎮	1 NOUN 1
+小雪	1 NOUN 1
+小鳥	1 NOUN 1
+少	4 NOUN 3 PROPN 1
+少々	2 ADV 1 NOUN 1
+少し	25 ADV 25
+少な	2 ADJ_少ない 2
+少ない	20 ADJ 20
+少なく	9 ADJ_少ない 9
+少なくとも	4 ADV 4
+少佐	1 NOUN 1
+少女	15 NOUN 15
+少将	3 NOUN 3
+少尉	1 NOUN 1
+少年	9 NOUN 9
+少年マガジン	1 PROPN 1
+少年事件	1 NOUN 1
+少数	4 NOUN 4
+少数民族	2 NOUN 2
+少量	1 NOUN 1
+尖兵	1 NOUN 1
+尖塔	2 NOUN 2
+尚	5 ADV 4 PROPN 1
+就	1 VERB_就く 1
+就い	3 VERB_就く 3
+就か	1 VERB_就く 1
+就き	1 VERB_就く 1
+就く	1 VERB 1
+就任	17 VERB 16 NOUN 1
+就寝	1 NOUN 1
+就役	1 NOUN 1
+就盈	1 PROPN 1
+就職	7 NOUN 5 VERB 2
+就航	2 VERB 1 NOUN 1
+尸魂界	1 NOUN 1
+尹	2 PROPN 2
+尻尾	4 NOUN 4
+尼	1 NOUN 1
+尽	2 NOUN 2
+尽き	1 VERB_尽きる 1
+尽くし	1 VERB_尽くす 1
+尽くす	2 AUX 1 VERB 1
+尽力	5 VERB 3 NOUN 2
+尾	2 NOUN 2
+尾形	1 PROPN 1
+尾翼	1 NOUN 1
+尾道	3 PROPN 3
+尾野	1 PROPN 1
+尿	5 NOUN 5
+局	19 NOUN 19
+局長	2 NOUN 2
+局面	4 NOUN 4
+居	3 VERB_居る 2 NOUN 1
+居る	4 VERB 4
+居候	1 VERB 1
+居城	1 NOUN 1
+居座っ	1 VERB_居座る 1
+居眠り	1 NOUN 1
+居酒屋	14 NOUN 14
+居間	1 NOUN 1
+屈	1 PROPN 1
+屈指	3 NOUN 3
+屈辱	1 NOUN 1
+届	2 NOUN 2
+届い	1 VERB_届く 1
+届き	2 VERB_届く 2
+届く	1 VERB 1
+届け	5 VERB_届ける 3 NOUN 2
+届け出	1 VERB_届け出る 1
+届出	1 NOUN 1
+屋	24 NOUN 24
+屋上	2 NOUN 2
+屋代	1 PROPN 1
+屋台	3 NOUN 3
+屋号	1 NOUN 1
+屋外	4 NOUN 4
+屋敷	3 NOUN 3
+屋根	5 NOUN 5
+展	2 NOUN 2
+展望	2 NOUN 2
+展示	10 NOUN 8 VERB 2
+展開	30 VERB 22 NOUN 8
+属	6 NOUN 6
+属し	5 VERB_属する 5
+属す	1 VERB_属する 1
+属する	3 VERB 3
+属性	8 NOUN 8
+層	10 NOUN 10
+層流	3 NOUN 3
+履い	2 VERB_履く 2
+履帯	1 NOUN 1
+山	26 NOUN 26
+山々	1 NOUN 1
+山あい	1 NOUN 1
+山下	2 PROPN 2
+山口	2 PROPN 2
+山城	1 PROPN 1
+山城屋	1 PROPN 1
+山家	2 NOUN 2
+山寺	2 NOUN 2
+山岡	1 PROPN 1
+山岳	1 NOUN 1
+山岳信仰	1 NOUN 1
+山崎	4 PROPN 4
+山川	1 PROPN 1
+山形	1 PROPN 1
+山手線	1 PROPN 1
+山本	2 PROPN 2
+山本五十六	1 PROPN 1
+山桜	1 NOUN 1
+山梨	1 PROPN 1
+山王	1 PROPN 1
+山田	9 PROPN 9
+山神	2 NOUN 2
+山積み	1 VERB 1
+山篭り	1 NOUN 1
+山脈	3 NOUN 3
+山菜	1 NOUN 1
+山袴	1 NOUN 1
+山車	2 NOUN 2
+山間	1 NOUN 1
+山間部	1 NOUN 1
+山陰本線	1 PROPN 1
+山陽新幹線	1 PROPN 1
+山陽本線	2 PROPN 2
+山頂	2 NOUN 2
+山麓	1 NOUN 1
+岐阜	3 PROPN 3
+岡	1 PROPN 1
+岡山大学	1 PROPN 1
+岡島	1 PROPN 1
+岡本	2 PROPN 2
+岡田	3 PROPN 3
+岡部	1 PROPN 1
+岦斎	1 PROPN 1
+岩	1 PROPN 1
+岩井	2 PROPN 2
+岩城	1 PROPN 1
+岩本	1 PROPN 1
+岩村	1 PROPN 1
+岩波	1 PROPN 1
+岩瀬	1 PROPN 1
+岩盤	1 NOUN 1
+岩石	1 NOUN 1
+岩礁	1 NOUN 1
+岩見沢	1 PROPN 1
+岳	2 NOUN 2
+岸	4 PROPN 3 NOUN 1
+岸壁	1 NOUN 1
+岸田	1 PROPN 1
+峠	7 PROPN 4 NOUN 3
+峡	1 PROPN 1
+峡谷	2 NOUN 2
+峯	1 PROPN 1
+峰	1 PROPN 1
+峰之岩	1 PROPN 1
+峰山	1 PROPN 1
+島	14 NOUN 14
+島内	1 PROPN 1
+島根原発	1 PROPN 1
+島田	1 NOUN 1
+崇	1 PROPN 1
+崇拝	1 VERB 1
+崇禎帝	1 PROPN 1
+崖っぷち	1 NOUN 1
+崙庄	1 PROPN 1
+崩さ	1 VERB_崩す 1
+崩し	1 NOUN 1
+崩す	2 VERB 2
+崩れ	2 VERB_崩れる 2
+崩壊	6 NOUN 5 VERB 1
+嶋	1 PROPN 1
+嶋村	2 PROPN 2
+巌	1 PROPN 1
+川	15 NOUN 15
+川上	2 PROPN 2
+川下り	1 NOUN 1
+川内村	1 PROPN 1
+川口	3 NOUN 2 PROPN 1
+川島	1 PROPN 1
+川嶋	1 PROPN 1
+川村	1 PROPN 1
+川橋	1 PROPN 1
+川沿い	2 NOUN 2
+川澄	1 PROPN 1
+川瀬	1 PROPN 1
+川田	1 PROPN 1
+州	23 NOUN 23
+州都	4 NOUN 4
+巡	3 NOUN 3
+巡っ	3 VERB_巡る 3
+巡り	3 NOUN 2 VERB_巡る 1
+巡り会	1 VERB_巡り会う 1
+巡り合	1 VERB_巡り合う 1
+巡る	3 VERB 3
+巡回	1 VERB 1
+巡業	1 VERB 1
+巡航	1 NOUN 1
+巣穴	1 NOUN 1
+巣立ち	1 NOUN 1
+工	1 NOUN 1
+工事	10 NOUN 10
+工作	2 NOUN 2
+工兵	2 NOUN 2
+工具	3 NOUN 3
+工場	13 NOUN 13
+工夫	6 NOUN 3 VERB 3
+工学	1 NOUN 1
+工学博士	1 NOUN 1
+工学部	1 NOUN 1
+工業	2 NOUN 2
+工法	1 NOUN 1
+工程	3 NOUN 3
+工藤	2 PROPN 2
+左	16 NOUN 16
+左京亮	1 NOUN 1
+左側	4 NOUN 4
+左前	1 NOUN 1
+左右	8 NOUN 8
+左団扇	1 NOUN 1
+左岸	1 NOUN 1
+左手	1 NOUN 1
+左翼	3 NOUN 3
+左腕	3 NOUN 3
+左記	1 NOUN 1
+左遷	1 NOUN 1
+巧	1 PROPN 1
+巧み	1 ADJ 1
+巧妙	1 ADJ 1
+巨	1 PROPN 1
+巨人	5 NOUN 5
+巨人の星	1 PROPN 1
+巨人戦	1 PROPN 1
+巨人軍	2 PROPN 2
+巨匠	1 NOUN 1
+巨大	13 ADJ 8 NOUN 5
+巨漢	1 NOUN 1
+巨額	2 NOUN 2
+差	17 NOUN 17
+差し	2 NOUN 1 VERB_差す 1
+差し入れ	1 NOUN 1
+差し切っ	1 VERB_差し切る 1
+差し向け	1 VERB_差し向ける 1
+差し替え	2 NOUN 1 VERB_差し替える 1
+差異	3 NOUN 3
+己	1 NOUN 1
+巳	3 NOUN 3
+巻	12 NOUN 12
+巻き返す	1 VERB 1
+巻末	1 NOUN 1
+巻物	2 NOUN 2
+市	32 NOUN 32
+市内	9 NOUN 9
+市区	1 NOUN 1
+市場	21 NOUN 21
+市川	2 PROPN 2
+市役所	1 NOUN 1
+市政	2 NOUN 2
+市文	1 PROPN 1
+市民	13 NOUN 13
+市町村	1 NOUN 1
+市立	1 NOUN 1
+市街	2 NOUN 2
+市議	4 NOUN 4
+市販	3 NOUN 3
+市道	1 NOUN 1
+市長	19 NOUN 19
+布	2 NOUN 2
+布佐	1 PROPN 1
+布告	1 VERB 1
+布教	2 NOUN 2
+布施	1 NOUN 1
+帆柱	1 NOUN 1
+希	1 ADJ 1
+希望	18 NOUN 10 VERB 8
+希薄	1 ADJ 1
+帝	7 NOUN 7
+帝京	1 NOUN 1
+帝位	1 NOUN 1
+帝国	9 NOUN 9
+帝国主義	1 NOUN 1
+帝国大学	2 NOUN 2
+帝室	1 NOUN 1
+師	12 NOUN 12
+師事	4 NOUN 2 VERB 2
+師匠	2 NOUN 2
+師団	5 NOUN 5
+師範	1 NOUN 1
+席	15 NOUN 15
+帯	5 NOUN 5
+帯び	2 VERB_帯びる 2
+帯刀	1 NOUN 1
+帯広	1 PROPN 1
+帯電	1 NOUN 1
+帰っ	4 VERB_帰る 4
+帰ら	2 VERB_帰る 2
+帰り	10 NOUN 8 VERB_帰る 2
+帰る	1 VERB 1
+帰住	1 NOUN 1
+帰化	1 VERB 1
+帰国	5 VERB 3 NOUN 2
+帰宅	3 NOUN 2 VERB 1
+帰属	4 VERB 3 NOUN 1
+帰投	2 VERB 2
+帰路	1 NOUN 1
+帰還	4 VERB 2 NOUN 2
+帰郷	2 NOUN 1 VERB 1
+帰順	1 VERB 1
+帳	2 NOUN 2
+常	3 NOUN 3
+常に	11 ADV 11
+常世	2 NOUN 2
+常任	1 VERB 1
+常信	1 PROPN 1
+常時	3 NOUN 3
+常用	1 NOUN 1
+常設	2 NOUN 2
+常識的	1 ADJ 1
+常高院	1 PROPN 1
+帽子	5 NOUN 5
+幅	4 NOUN 4
+幅員	1 NOUN 1
+幅広い	4 ADJ 4
+幅広く	2 ADJ_幅広い 2
+幌筵	1 PROPN 1
+幕府	2 NOUN 2
+幡生	2 PROPN 2
+幣	2 NOUN 2
+干し	2 VERB_干す 1 NOUN 1
+干渉	1 NOUN 1
+干潟	2 NOUN 2
+干物	1 NOUN 1
+平	1 ADJ 1
+平たい	1 ADJ 1
+平井	1 PROPN 1
+平凡	1 ADJ 1
+平南	1 PROPN 1
+平原	1 PROPN 1
+平和	9 NOUN 6 ADJ 3
+平和大通り	1 PROPN 1
+平地	1 NOUN 1
+平均	15 NOUN 15
+平均的	4 ADJ 4
+平安堂	2 PROPN 2
+平屋建て	1 NOUN 1
+平常	1 ADV 1
+平年	2 NOUN 2
+平成	5 PART 5
+平方メートル	2 NOUN 2
+平日	1 NOUN 1
+平気	1 ADJ 1
+平準化	1 NOUN 1
+平潟	1 PROPN 1
+平熱	1 NOUN 1
+平等	1 ADJ 1
+平行	4 VERB 2 ADJ 2
+平衡	2 NOUN 2
+平野	1 NOUN 1
+平面	1 NOUN 1
+平面交差	1 NOUN 1
+年	888 NOUN 852 PART 36 ***
+年下	1 NOUN 1
+年代	38 NOUN 38
+年俸	1 NOUN 1
+年内	2 NOUN 2
+年初	1 NOUN 1
+年収	1 NOUN 1
+年度	18 NOUN 18
+年末	5 NOUN 5
+年末年始	1 NOUN 1
+年次	1 NOUN 1
+年生	22 NOUN 22
+年老い	1 VERB_年老いる 1
+年譜	1 NOUN 1
+年貢	1 NOUN 1
+年賀状	1 NOUN 1
+年金	1 NOUN 1
+年間	31 NOUN 31
+年頃	1 NOUN 1
+年齢	4 NOUN 4
+幸	1 ADV 1
+幸い	1 ADJ 1
+幸せ	6 ADJ 3 NOUN 3
+幸子	1 PROPN 1
+幸村	1 PROPN 1
+幸男	1 PROPN 1
+幸福	32 NOUN 32
+幸輔	1 PROPN 1
+幸運	4 NOUN 4
+幸雄	1 PROPN 1
+幹事	1 NOUN 1
+幹線	3 NOUN 3
+幹部	13 NOUN 13
+幻	1 NOUN 1
+幻影	1 NOUN 1
+幻想	2 NOUN 2
+幻想的	2 ADJ 2
+幼	1 NOUN 1
+幼い	5 ADJ 5
+幼なじみ	1 NOUN 1
+幼児	4 NOUN 4
+幼名	1 NOUN 1
+幼少	2 NOUN 2
+幼時	1 NOUN 1
+幼童	1 NOUN 1
+幼虫	1 NOUN 1
+幽	1 PROPN 1
+幽閉	1 VERB 1
+幽霊	1 NOUN 1
+幾	3 NUM 3
+幾つ	2 NOUN 2
+幾何学的	1 ADJ 1
+幾分	1 NOUN 1
+幾多	1 NOUN 1
+庁	5 NOUN 5
+庁舎	1 NOUN 1
+広	4 NOUN 2 ADJ_広い 2
+広々とし	1 VERB_広々とする 1
+広い	5 ADJ 5
+広かっ	1 ADJ_広い 1
+広がっ	7 VERB_広がる 7
+広がり	3 VERB_広がる 2 NOUN 1
+広がる	4 VERB 4
+広く	19 ADJ_広い 19
+広げ	5 VERB_広げる 5
+広げる	2 VERB 2
+広まっ	4 VERB_広まる 4
+広まり	1 VERB_広まる 1
+広まる	1 VERB 1
+広め	2 VERB_広める 2
+広める	1 VERB 1
+広利	1 PROPN 1
+広告	16 NOUN 15 VERB 1
+広喜	1 PROPN 1
+広域	3 ADJ 2 NOUN 1
+広報	9 NOUN 9
+広場	4 NOUN 4
+広大	1 ADJ 1
+広宣	2 PROPN 2
+広島	4 PROPN 4
+広島電鉄	1 PROPN 1
+広州	3 PROPN 3
+広汎	1 ADJ 1
+広瀬	2 PROPN 2
+広範囲	6 ADJ 6
+広義	1 NOUN 1
+広葉樹	1 NOUN 1
+広西	1 PROPN 1
+庄	3 PROPN 3
+庄内	3 PROPN 3
+庄市	1 PROPN 1
+庇	1 NOUN 1
+庇っ	3 VERB_庇う 3
+庇護	1 NOUN 1
+床	3 NOUN 3
+床板	1 NOUN 1
+序	1 NOUN 1
+序列	1 NOUN 1
+序奏	1 NOUN 1
+序盤	3 NOUN 3
+底	5 NOUN 5
+底値	1 NOUN 1
+底板	1 NOUN 1
+底辺	1 NOUN 1
+店	142 NOUN 142 ***
+店主	6 NOUN 6
+店内	16 NOUN 16
+店員	12 NOUN 12
+店構え	1 NOUN 1
+店舗	24 NOUN 24
+店長	8 NOUN 8
+店頭	1 NOUN 1
+府	2 NOUN 2
+府中	2 PROPN 2
+府県	1 NOUN 1
+度	72 NOUN 72
+度々	3 ADV 3
+度肝	1 NOUN 1
+度重なる	1 VERB 1
+度量	1 NOUN 1
+座	9 NOUN 9
+座っ	4 VERB_座る 4
+座り	3 VERB_座る 3
+座り込み	1 NOUN 1
+座る	1 VERB 1
+座席	1 NOUN 1
+座敷	1 NOUN 1
+座礁	1 VERB 1
+座禅	1 NOUN 1
+座組み	1 NOUN 1
+座視	1 VERB 1
+庫	2 NOUN 2
+庫内	1 NOUN 1
+庭	3 NOUN 3
+庭園	3 NOUN 3
+庭山	2 PROPN 2
+庵	2 NOUN 2
+庶民	1 NOUN 1
+庶民的	1 ADJ 1
+康	2 PROPN 2
+康雄	2 PROPN 2
+廃し	2 VERB_廃する 2
+廃位	1 VERB 1
+廃坑	1 NOUN 1
+廃墟	1 NOUN 1
+廃業	1 NOUN 1
+廃止	14 VERB 11 NOUN 3
+廃炉	1 NOUN 1
+廃社	1 NOUN 1
+廃車	5 NOUN 3 VERB 2
+廉価版	1 NOUN 1
+廊下	1 NOUN 1
+延び	2 VERB_延びる 2
+延びる	1 VERB 1
+延べ	1 PART 1
+延世大学	1 PROPN 1
+延伸	3 NOUN 3
+延命	1 NOUN 1
+延喜式	1 PROPN 1
+延寿	1 PROPN 1
+延期	4 VERB 4
+延長	8 NOUN 6 VERB 2
+建	2 NOUN 2
+建て	7 VERB_建てる 4 NOUN 3
+建て替え	1 NOUN 1
+建前	1 NOUN 1
+建屋	4 NOUN 4
+建物	14 NOUN 14
+建立	1 VERB 1
+建築	11 NOUN 10 VERB 1
+建築学	1 NOUN 1
+建築確認	1 NOUN 1
+建艦	1 NOUN 1
+建設	32 NOUN 19 VERB 13
+建設業	2 NOUN 2
+建設省	1 NOUN 1
+建造	4 NOUN 2 VERB 2
+建造物侵入	1 NOUN 1
+廻	1 PROPN 1
+廻っ	1 VERB_廻る 1
+廻り	1 VERB_廻る 1
+弁	3 NOUN 3
+弁じ	1 VERB_弁じる 1
+弁当	1 NOUN 1
+弁明	1 VERB 1
+弁済	2 NOUN 2
+弁理士	1 NOUN 1
+弁護士	12 NOUN 12
+弊	1 NOUN 1
+弊社	1 NOUN 1
+式	39 NOUN 39
+式典	3 NOUN 3
+弓	1 NOUN 1
+弓なり	1 NOUN 1
+引い	5 VERB_引く 5
+引か	1 VERB_引く 1
+引き	5 VERB_引く 4 NOUN 1
+引きこもり	1 NOUN 1
+引きずら	1 VERB_引きずる 1
+引き上げ	4 VERB_引き上げる 3 NOUN 1
+引き下げ	1 NOUN 1
+引き出し	2 VERB_引き出す 1 NOUN 1
+引き分け	3 NOUN 3
+引き取ら	2 VERB_引き取る 2
+引き取る	1 VERB 1
+引き受け	1 VERB_引き受ける 1
+引き寄せ	2 VERB_引き寄せる 2
+引き抜か	1 VERB_引き抜く 1
+引き抜く	2 VERB 2
+引き渡さ	3 VERB_引き渡す 3
+引き立て	2 VERB_引き立てる 2
+引き継い	2 VERB_引き継ぐ 2
+引き継が	2 VERB_引き継ぐ 2
+引き継ぎ	1 NOUN 1
+引き続い	1 VERB_引き続く 1
+引き続き	4 ADV 3 VERB_引き続く 1
+引き締め	1 VERB_引き締める 1
+引き起こし	1 VERB_引き起こす 1
+引き起こす	3 VERB 3
+引き込ん	1 VERB_引き込む 1
+引き返し	1 VERB_引き返す 1
+引き連れ	1 VERB_引き連れる 1
+引き離さ	1 VERB_引き離す 1
+引く	2 VERB 2
+引け	1 NOUN 1
+引っ張り	1 VERB_引っ張る 1
+引っ越し	1 VERB_引っ越す 1
+引っ越す	3 VERB 3
+引力	1 NOUN 1
+引用	1 NOUN 1
+引責	1 NOUN 1
+引越	3 VERB 2 NOUN 1
+引退	6 VERB 4 NOUN 2
+弘子	1 PROPN 1
+弘樹	1 PROPN 1
+弟	7 NOUN 7
+弟子	6 NOUN 6
+弥栄子	1 PROPN 1
+弥生時代	1 PROPN 1
+弦	4 NOUN 4
+弱い	4 ADJ 4
+弱く	1 ADJ_弱い 1
+弱まり	1 VERB_弱まる 1
+弱め	1 VERB_弱める 1
+弱含み	1 NOUN 1
+弱点	4 NOUN 4
+張	2 PROPN 2
+張っ	4 VERB_張る 4
+張ら	1 VERB_張る 1
+張り付く	2 VERB 2
+張本	2 NOUN 2
+強	9 NOUN 6 ADJ_強い 3
+強い	11 ADJ 9 VERB_強いる 2
+強かっ	1 ADJ_強い 1
+強く	12 ADJ_強い 12
+強まっ	2 VERB_強まる 2
+強まり	1 VERB_強まる 1
+強め	2 VERB_強める 2
+強制	1 NOUN 1
+強制収容所	1 NOUN 1
+強制的	5 ADJ 5
+強力	7 ADJ 7
+強化	18 VERB 10 NOUN 8
+強大	1 NOUN 1
+強奪	1 NOUN 1
+強度	2 NOUN 2
+強引	4 ADJ 4
+強打	1 VERB 1
+強盗	1 NOUN 1
+強者	1 NOUN 1
+強肩	1 NOUN 1
+強調	3 VERB 3
+強豪	3 NOUN 3
+強電	1 NOUN 1
+強靭	1 ADJ 1
+強風	2 NOUN 2
+弾	11 NOUN 11
+弾き	2 NOUN 2
+弾み	1 NOUN 1
+弾丸	2 NOUN 2
+弾劾	1 VERB 1
+弾圧	2 NOUN 1 VERB 1
+弾性	2 NOUN 2
+弾性体	1 NOUN 1
+弾道	1 NOUN 1
+弾頭	1 NOUN 1
+彌助	1 PROPN 1
+当	17 NOUN 17
+当たら	1 VERB_当たる 1
+当たり	2 NOUN 2
+当たり前	2 ADJ 1 NOUN 1
+当たる	4 VERB 3 ADJ 1
+当て	3 VERB_当てる 2 NOUN 1
+当てはまる	1 VERB 1
+当てる	1 VERB 1
+当主	2 NOUN 2
+当初	29 NOUN 29
+当地	1 NOUN 1
+当局	1 NOUN 1
+当日	8 NOUN 8
+当時	51 NOUN 51
+当期	1 NOUN 1
+当然	4 ADJ 2 ADV 1 NOUN 1
+当社	3 NOUN 3
+当該	5 ADJ 5
+当選	12 VERB 7 NOUN 5
+当面	5 NOUN 4 VERB 1
+彗星	3 NOUN 3
+形	43 NOUN 43
+形式	14 NOUN 14
+形式的	1 ADJ 1
+形態	7 NOUN 7
+形成	15 VERB 12 NOUN 3
+形状	2 NOUN 2
+形見	1 NOUN 1
+形質	1 NOUN 1
+彦	1 PROPN 1
+彦穆	1 PROPN 1
+彩	1 PROPN 1
+彩色	1 NOUN 1
+彩雲	1 NOUN 1
+影	3 NOUN 3
+影山	1 PROPN 1
+影絵	1 NOUN 1
+影響	38 NOUN 36 VERB 2
+彷彿	1 NOUN 1
+役	26 NOUN 26
+役さ	1 VERB_役する 1
+役に立つ	1 VERB 1
+役人	1 NOUN 1
+役割	9 NOUN 9
+役員	1 NOUN 1
+役回り	1 NOUN 1
+役所	1 NOUN 1
+役柄	1 NOUN 1
+役目	2 NOUN 2
+役職	1 NOUN 1
+彼	66 PRON 66
+彼ら	22 PRON 22
+彼女	26 PRON 26
+彼方	1 PRON 1
+彼此	1 ADV 1
+彼氏	1 NOUN 1
+往々	1 ADV 1
+往年	2 NOUN 2
+往復	3 NOUN 2 VERB 1
+往来	1 NOUN 1
+征服	5 VERB 3 NOUN 2
+径	3 NOUN 3
+待た	2 VERB_待つ 2
+待ち	1 VERB_待つ 1
+待ち伏せ	1 VERB 1
+待ち合わせ	1 NOUN 1
+待ち望ん	1 VERB_待ち望む 1
+待っ	5 VERB_待つ 5
+待つ	3 VERB 3
+待合	1 NOUN 1
+待合所	1 NOUN 1
+待機	1 VERB 1
+律	2 NOUN 2
+後	233 NOUN 233 ***
+後ろ	4 NOUN 4
+後ろ向き	1 VERB_後ろ向く 1
+後世	1 NOUN 1
+後事	1 NOUN 1
+後任	3 NOUN 3
+後半	13 NOUN 13
+後唐	1 PROPN 1
+後官	1 NOUN 1
+後宮	1 NOUN 1
+後悔	2 NOUN 1 VERB 1
+後援	1 NOUN 1
+後方	4 NOUN 4
+後期	2 NOUN 2
+後段	1 NOUN 1
+後発	1 NOUN 1
+後継	9 NOUN 9
+後続	2 NOUN 2
+後者	1 NOUN 1
+後藤	4 PROPN 4
+後輩	3 NOUN 3
+後輪	1 NOUN 1
+後述	4 NOUN 3 VERB 1
+後退	3 VERB 2 NOUN 1
+後退翼	1 NOUN 1
+後遺症	1 NOUN 1
+後部	5 NOUN 5
+徐々	1 NOUN 1
+徐々に	5 ADV 5
+徒歩	6 NOUN 6
+従	2 NOUN 2
+従う	2 VERB 2
+従え	3 VERB_従える 3
+従っ	1 VERB_従う 1
+従わ	1 VERB_従う 1
+従事	8 VERB 6 NOUN 2
+従五位下	2 NOUN 2
+従兄弟	1 NOUN 1
+従来	14 NOUN 14
+従者	1 NOUN 1
+従軍	1 VERB 1
+従順	1 ADJ 1
+得	36 VERB_得る 33 NOUN 2 AUX_得る 1
+得る	12 VERB 10 AUX 2
+得れ	1 VERB_得る 1
+得意	12 ADJ 8 NOUN 4
+得点	22 NOUN 22
+得票	3 NOUN 3
+得難い	1 ADJ 1
+御	6 NOUN 6
+御伽話	1 NOUN 1
+御坂	1 PROPN 1
+御殿	1 NOUN 1
+御用	1 NOUN 1
+御用達	1 NOUN 1
+御者	1 NOUN 1
+復	1 PROPN 1
+復元	1 NOUN 1
+復刻版	1 NOUN 1
+復号	1 NOUN 1
+復員	1 NOUN 1
+復唱	1 VERB 1
+復帰	13 VERB 11 NOUN 2
+復旧	3 NOUN 2 VERB 1
+復活	12 VERB 7 NOUN 5
+復興	6 NOUN 6
+復調	1 VERB 1
+復讐	4 NOUN 3 VERB 1
+循環	6 NOUN 6
+微	2 PROPN 1 NOUN 1
+微分	1 NOUN 1
+微塵も	1 ADV 1
+微妙	1 ADJ 1
+徳	5 PROPN 5
+徳島	1 PROPN 1
+徳川	2 PROPN 2
+徳川家康	1 PROPN 1
+徳性	1 NOUN 1
+徳永	1 PROPN 1
+徳田秋声	1 PROPN 1
+徴兵	1 NOUN 1
+徴収	1 VERB 1
+徴発	2 NOUN 1 VERB 1
+徹	1 PROPN 1
+徹底	2 NOUN 1 VERB 1
+徹底的	2 ADJ 2
+心	35 NOUN 35
+心から	2 ADV 2
+心当たり	1 NOUN 1
+心情	1 NOUN 1
+心情的	1 ADJ 1
+心理	3 NOUN 3
+心療	1 NOUN 1
+心筋梗塞	1 NOUN 1
+心臓	2 NOUN 2
+心臓停止	1 NOUN 1
+心臓病	1 NOUN 1
+心臓発作	1 NOUN 1
+心術	1 NOUN 1
+心身	5 NOUN 5
+心配	6 ADJ 3 NOUN 2 VERB 1
+必ず	8 ADV 8
+必ずしも	6 ADV 6
+必死	2 ADJ 1 NOUN 1
+必殺	2 ADJ 2
+必殺技	4 NOUN 4
+必要	72 ADJ 47 NOUN 25
+必須	3 NOUN 3
+忍具	1 NOUN 1
+忍法	2 NOUN 2
+忍者	1 NOUN 1
+忍耐	1 VERB 1
+志	1 NOUN 1
+志し	1 VERB_志す 1
+志望	4 NOUN 4
+志田	1 PROPN 1
+志穂	1 PROPN 1
+志郎	1 PROPN 1
+志願	6 VERB 5 NOUN 1
+忘れ	5 VERB_忘れる 5
+忘れ去ら	1 VERB_忘れ去る 1
+忙しい	2 ADJ 2
+忙しく	2 ADJ_忙しい 2
+応	1 VERB 1
+応え	3 VERB_応える 3
+応える	1 VERB 1
+応じ	8 VERB_応じる 8
+応じる	1 VERB 1
+応募	8 NOUN 4 VERB 4
+応対	3 VERB 2 NOUN 1
+応急処置	1 NOUN 1
+応戦	1 VERB 1
+応援	8 VERB 5 NOUN 3
+応援団	1 NOUN 1
+応援歌	1 NOUN 1
+応用	2 VERB 1 NOUN 1
+応神	1 PROPN 1
+応答	1 VERB 1
+忠	1 NOUN 1
+忠告	1 NOUN 1
+忠実	1 ADJ 1
+忠洋	1 PROPN 1
+忠臣蔵	1 PROPN 1
+快く	1 ADJ_快い 1
+快活	2 ADJ 2
+快調	1 ADJ 1
+快速	2 NOUN 2
+快適	8 ADJ 8
+念術	1 NOUN 1
+念頭	1 NOUN 1
+怒っ	1 VERB_怒る 1
+怒ら	1 VERB_怒る 1
+怒り	2 NOUN 2
+怒る	1 VERB 1
+怖	1 PROPN 1
+怖い	2 ADJ 2
+怖がり	1 VERB_怖がる 1
+思	5 VERB_思う 4 PROPN 1
+思い	100 VERB_思う 90 NOUN 10 ***
+思いあたる	1 VERB 1
+思いがけない	1 ADJ 1
+思いとどまる	1 VERB 1
+思い入れ	1 NOUN 1
+思い出	1 NOUN 1
+思い出し	2 VERB_思い出す 2
+思い切っ	1 VERB_思い切る 1
+思い切り	1 ADV 1
+思い浮かば	1 VERB_思い浮かぶ 1
+思う	15 VERB 15
+思え	3 VERB_思える 3
+思える	1 VERB 1
+思しき	1 ADJ_思しい 1
+思っ	36 VERB_思う 36
+思わ	30 VERB_思う 30
+思わず	6 ADV 6
+思惑	1 NOUN 1
+思想	7 NOUN 7
+思案	1 NOUN 1
+思索	1 NOUN 1
+思考	2 NOUN 2
+急	7 ADJ 4 NOUN 3
+急きょ	1 ADV 1
+急務	1 NOUN 1
+急増	1 NOUN 1
+急流	1 NOUN 1
+急激	2 ADJ 2
+急落	2 VERB 1 NOUN 1
+急行	1 NOUN 1
+急行列車	1 NOUN 1
+急襲	1 VERB 1
+急速	4 ADJ 4
+急遽	4 ADV 4
+性	56 NOUN 56
+性交	1 VERB 1
+性格	22 NOUN 22
+性格俳優	1 NOUN 1
+性犯罪	1 NOUN 1
+性的	2 ADJ 2
+性的虐待	1 NOUN 1
+性能	9 NOUN 9
+性質	5 NOUN 5
+性道徳	1 NOUN 1
+怨念	1 NOUN 1
+怪	1 NOUN 1
+怪人	1 NOUN 1
+怪我	1 NOUN 1
+怪死	1 NOUN 1
+怪獣	2 NOUN 2
+怪異	1 NOUN 1
+怪談	2 NOUN 2
+怯	1 PROPN 1
+恋	3 NOUN 3
+恋する	1 VERB 1
+恋人	2 NOUN 2
+恋人同士	1 NOUN 1
+恋仲	1 NOUN 1
+恋愛	3 NOUN 2 VERB 1
+恋愛結婚	1 NOUN 1
+恐い	1 ADJ 1
+恐らく	1 ADV 1
+恐れ	5 NOUN 3 VERB_恐れる 2
+恐れる	1 VERB 1
+恐れ入っ	1 VERB_恐れ入る 1
+恐ろしく	1 ADJ_恐ろしい 1
+恐喝	1 NOUN 1
+恐怖	5 NOUN 5
+恐怖感	1 NOUN 1
+恐怖政治	1 NOUN 1
+恒	1 PROPN 1
+恒久的	1 ADJ 1
+恒例	1 NOUN 1
+恒平	1 PROPN 1
+恒星	4 NOUN 4
+恒雄	2 PROPN 2
+恣意	1 NOUN 1
+恥ずかし	1 NOUN 1
+恨ま	1 VERB_恨む 1
+恨み言	1 NOUN 1
+恩人	1 NOUN 1
+恩恵	1 NOUN 1
+恩返し	1 NOUN 1
+恭介	1 PROPN 1
+息	2 NOUN 2
+息子	16 NOUN 16
+恰幅	1 NOUN 1
+恵	1 PROPN 1
+恵まれ	7 VERB_恵まれる 7
+恵まれる	1 VERB 1
+恵比寿	3 NOUN 3
+恵美	2 PROPN 2
+悌三	1 PROPN 1
+悔し	2 ADJ_悔しい 2
+悔しい	2 ADJ 2
+悟	1 PROPN 1
+悟郎	1 PROPN 1
+悠	1 PROPN 1
+患い	1 VERB_患う 1
+患っ	1 VERB_患う 1
+患者	13 NOUN 13
+悦朗	1 PROPN 1
+悩ま	2 VERB_悩む 2
+悩まさ	2 VERB_悩ます 2
+悩み	9 NOUN 6 VERB_悩む 3
+悩ん	1 VERB_悩む 1
+悪	9 NOUN 7 ADJ_悪い 2
+悪い	9 ADJ 9
+悪かっ	2 ADJ_悪い 2
+悪く	7 ADJ_悪い 7
+悪びれ	1 VERB_悪びれる 1
+悪化	5 VERB 3 NOUN 2
+悪名高い	1 ADJ 1
+悪女	1 NOUN 1
+悪性	1 NOUN 1
+悪気	1 NOUN 1
+悪用	1 VERB 1
+悪者	1 NOUN 1
+悪臭	1 NOUN 1
+悪行	1 NOUN 1
+悪評	1 NOUN 1
+悪質	7 ADJ 7
+悪魔	2 NOUN 2
+悲しい	1 ADJ 1
+悲しみ	1 VERB_悲しむ 1
+悲傷	1 NOUN 1
+悲惨	1 ADJ 1
+悲願	1 NOUN 1
+悲鳴	1 NOUN 1
+悼み	1 VERB_悼む 1
+情	2 NOUN 2
+情勢	1 NOUN 1
+情報	50 NOUN 50
+情報サービス	1 NOUN 1
+情報交換	1 NOUN 1
+情報化	2 NOUN 2
+情報技術	1 NOUN 1
+情報開示	1 NOUN 1
+情婦	1 NOUN 1
+情感	1 NOUN 1
+情熱	3 NOUN 3
+情緒	1 NOUN 1
+惇	1 PROPN 1
+惑わす	1 VERB 1
+惑星	4 NOUN 4
+惚れ	2 VERB 2
+惚れ薬	1 NOUN 1
+惜し	1 ADJ_惜しい 1
+惜しく	1 ADJ_惜しい 1
+惠介	1 PROPN 1
+惧れ	2 NOUN 2
+惨状	1 NOUN 1
+想	1 NOUN 1
+想い	3 NOUN 2 VERB_想う 1
+想像	6 VERB 3 NOUN 3
+想定	5 VERB 4 NOUN 1
+想起	1 VERB 1
+惹か	2 VERB_惹く 2
+惹きつけ	1 VERB_惹きつける 1
+意	5 NOUN 5
+意向	5 NOUN 5
+意味	35 NOUN 26 VERB 9
+意図	2 NOUN 2
+意図的	1 ADJ 1
+意外	4 ADJ 4
+意志	1 NOUN 1
+意思	8 NOUN 8
+意思決定	1 VERB 1
+意欲	3 NOUN 3
+意気	2 NOUN 2
+意義	2 NOUN 2
+意義付け	1 VERB_意義付ける 1
+意見	13 NOUN 13
+意識	9 NOUN 8 VERB 1
+愚か	1 ADJ 1
+愛	4 NOUN 4
+愛さ	1 VERB_愛す 1
+愛し	3 VERB_愛す 3
+愛する	6 VERB 6
+愛情	2 NOUN 2
+愛着	1 NOUN 1
+愛知	2 PROPN 2
+愛称	6 NOUN 6
+愛羅	1 PROPN 1
+愛車	1 NOUN 1
+愛香	1 PROPN 1
+感	25 NOUN 25
+感じ	66 NOUN 40 VERB_感じる 26
+感じる	11 VERB 11
+感作	1 NOUN 1
+感動	6 VERB 4 NOUN 2
+感度	3 NOUN 3
+感得	1 VERB 1
+感心	1 VERB 1
+感性	3 NOUN 3
+感情	5 NOUN 5
+感情的	2 ADJ 2
+感想	2 NOUN 2
+感慨	1 NOUN 1
+感染	3 NOUN 3
+感染症	1 NOUN 1
+感激	1 VERB 1
+感覚	8 NOUN 8
+感謝	3 VERB 2 NOUN 1
+感銘	2 NOUN 2
+慈眼	1 NOUN 1
+態度	15 NOUN 15
+慌しく	1 ADJ_慌しい 1
+慌て	2 VERB_慌てる 2
+慎一	1 PROPN 1
+慎治	1 PROPN 1
+慕う	1 VERB 1
+慢性肝炎	2 NOUN 2
+慣れ	2 VERB_慣れる 2
+慣れる	1 VERB 1
+慣用句	1 NOUN 1
+慣習	3 NOUN 3
+慣行	1 NOUN 1
+慧	1 PROPN 1
+慰霊碑	1 NOUN 1
+慶	1 PROPN 1
+慶太	1 PROPN 1
+慶州	1 PROPN 1
+慶應義塾大学	1 PROPN 1
+慶松	1 PROPN 1
+憂慮	1 VERB 1
+憎ん	1 VERB_憎む 1
+憎悪	2 NOUN 2
+憑い	1 VERB_憑く 1
+憤り	2 NOUN 2
+憤怒	1 NOUN 1
+憧れ	3 VERB_憧れる 2 NOUN 1
+憩	2 NOUN 1 VERB_憩う 1
+憮然とし	1 VERB_憮然とする 1
+憲	1 PROPN 1
+憲伸	2 PROPN 2
+憲法	9 NOUN 9
+憲法改正	1 NOUN 1
+憲章	2 NOUN 2
+懇願	2 VERB 2
+懐	2 NOUN 2
+懐中電灯	2 NOUN 2
+懐疑的	1 ADJ 1
+懲戒	2 NOUN 2
+懸念	6 VERB 3 NOUN 3
+懸賞	1 NOUN 1
+懺悔	2 NOUN 1 VERB 1
+戊戌	1 NOUN 1
+成	3 NOUN 3
+成す	2 VERB 2
+成り済まし	1 VERB_成り済ます 1
+成り立っ	1 VERB_成り立つ 1
+成る	1 VERB 1
+成人	5 NOUN 4 VERB 1
+成分	3 NOUN 3
+成功	18 VERB 13 NOUN 5
+成和	1 PROPN 1
+成員	1 NOUN 1
+成層	1 NOUN 1
+成年	1 NOUN 1
+成敗	1 VERB 1
+成木	2 NOUN 2
+成果	3 NOUN 3
+成樹	1 PROPN 1
+成瀬	1 PROPN 1
+成熟	2 VERB 2
+成田	1 PROPN 1
+成田線	1 PROPN 1
+成立	11 VERB 9 NOUN 2
+成績	7 NOUN 7
+成虫	2 NOUN 2
+成蹊	1 PROPN 1
+成蹊大学	1 PROPN 1
+成長	12 NOUN 8 VERB 4
+我	3 NOUN 3
+我々	8 PRON 8
+我が	1 ADJ 1
+我が国	1 NOUN 1
+我慢	1 NOUN 1
+戒厳令	1 NOUN 1
+戒律	1 NOUN 1
+或いは	1 CCONJ_あるいは 1
+戦	45 NOUN 45
+戦い	18 NOUN 17 VERB_戦う 1
+戦う	4 VERB 4
+戦っ	4 VERB_戦う 4
+戦中	2 NOUN 2
+戦乱	1 NOUN 1
+戦争	12 NOUN 12
+戦争終結	1 NOUN 1
+戦争責任	1 NOUN 1
+戦前	2 NOUN 2
+戦力	4 NOUN 4
+戦国	1 NOUN 1
+戦国武将	1 NOUN 1
+戦域	1 NOUN 1
+戦場	2 NOUN 2
+戦士	5 NOUN 5
+戦役	1 NOUN 1
+戦後	12 NOUN 12
+戦意	1 NOUN 1
+戦斧	1 NOUN 1
+戦時	4 NOUN 4
+戦果	2 NOUN 2
+戦死	2 VERB 2
+戦況	2 NOUN 2
+戦法	1 NOUN 1
+戦略	5 NOUN 5
+戦略的	1 ADJ 1
+戦線	3 NOUN 3
+戦艦	2 NOUN 2
+戦術	2 NOUN 2
+戦記	1 NOUN 1
+戦車	2 NOUN 2
+戦間期	1 NOUN 1
+戦闘	17 NOUN 15 VERB 2
+戦隊	1 NOUN 1
+戯曲	1 NOUN 1
+戴	3 PROPN 3
+戸	5 NOUN 5
+戸別	1 NOUN 1
+戸塚区	1 PROPN 1
+戸惑う	1 VERB 1
+戸沢	1 PROPN 1
+戸田	4 PROPN 4
+戸苅	1 PROPN 1
+戸越銀座	1 PROPN 1
+戻さ	1 VERB_戻す 1
+戻し	1 VERB_戻す 1
+戻す	2 VERB 2
+戻っ	6 VERB_戻る 6
+戻り	2 VERB_戻る 2
+戻る	3 VERB 3
+房	7 NOUN 7
+房号	1 NOUN 1
+房子	1 PROPN 1
+所	16 NOUN 16
+所在	3 VERB 3
+所定	2 NOUN 2
+所属	46 VERB 26 NOUN 20
+所得	2 NOUN 2
+所持	2 VERB 2
+所有	11 VERB 8 NOUN 3
+所為	1 NOUN 1
+所蔵	1 VERB 1
+所見	2 NOUN 2
+所轄	1 NOUN 1
+所長	3 NOUN 3
+所領	1 NOUN 1
+扇型	1 NOUN 1
+扉	7 NOUN 7
+手	49 NOUN 49
+手がけ	5 VERB_手がける 5
+手ごろ	2 ADJ 2
+手すり	1 NOUN 1
+手に入れ	5 VERB_手に入れる 5
+手に入れる	1 VERB 1
+手ほどき	1 NOUN 1
+手下	2 NOUN 2
+手付	1 NOUN 1
+手伝い	1 NOUN 1
+手伝う	2 VERB 2
+手伝っ	1 VERB_手伝う 1
+手作り	5 NOUN 5
+手先	1 NOUN 1
+手入れ	2 NOUN 2
+手前	2 PRON 2
+手口	5 NOUN 5
+手帳	1 NOUN 1
+手当	1 NOUN 1
+手当て	2 NOUN 2
+手応え	1 NOUN 1
+手慣れ	1 VERB_手慣れる 1
+手打ち	1 NOUN 1
+手掛け	1 VERB_手掛ける 1
+手提げ	1 NOUN 1
+手書き	1 NOUN 1
+手本	2 NOUN 2
+手柄	1 NOUN 1
+手段	12 NOUN 12
+手法	6 NOUN 6
+手渡	3 VERB 3
+手相	2 NOUN 2
+手紙	3 NOUN 3
+手続き	3 NOUN 3
+手綱	1 NOUN 1
+手羽	1 NOUN 1
+手薄	1 ADJ 1
+手術	17 NOUN 16 VERB 1
+手袋	1 NOUN 1
+手裏剣	1 NOUN 1
+手触り	1 NOUN 1
+手記	4 NOUN 4
+手軽	1 ADJ 1
+手配	2 NOUN 2
+手頃	4 NOUN 3 ADJ 1
+手首	2 NOUN 2
+才能	4 NOUN 4
+打	9 NOUN 8 VERB_打つ 1
+打ち上げ	3 VERB_打ち上げる 2 NOUN 1
+打ち出し	1 VERB_打ち出す 1
+打ち切り	1 NOUN 1
+打ち合っ	1 VERB_打ち合う 1
+打ち合わせ	1 NOUN 1
+打ち立て	1 VERB_打ち立てる 1
+打っ	4 VERB_打つ 4
+打つ	1 VERB 1
+打倒	2 VERB 1 NOUN 1
+打払令	1 PROPN 1
+打撃	1 NOUN 1
+打率	3 NOUN 3
+打球	4 NOUN 4
+打線	2 NOUN 2
+打者	3 NOUN 3
+打順	1 NOUN 1
+払い	1 VERB_払う 1
+払い戻し	1 NOUN 1
+払い込み	1 NOUN 1
+払う	2 VERB 2
+払え	1 VERB_払う 1
+払っ	2 VERB_払う 2
+扱	1 VERB_扱う 1
+扱い	6 VERB 5 NOUN 1
+扱う	6 VERB 6
+扱っ	4 VERB_扱う 4
+扱わ	2 VERB_扱う 2
+扶養	1 NOUN 1
+批准	1 VERB 1
+批判	17 VERB 12 NOUN 5
+批判的	1 ADJ 1
+批評	1 NOUN 1
+承り	1 VERB_承る 1
+承認	8 VERB 7 NOUN 1
+技	13 NOUN 13
+技官	1 NOUN 1
+技工	1 NOUN 1
+技巧	1 NOUN 1
+技師	1 NOUN 1
+技法	2 NOUN 2
+技能	1 NOUN 1
+技術	31 NOUN 31
+技術的	2 ADJ 2
+技量	1 NOUN 1
+抄	2 NOUN 2
+抉り	1 VERB_抉る 1
+把握	4 VERB 4
+抑え	3 VERB_抑える 3
+抑える	3 VERB 3
+抑制	4 VERB 3 NOUN 1
+抑圧	1 NOUN 1
+抔	1 PROPN 1
+投	4 NOUN 4
+投げ	8 VERB_投げる 6 NOUN 2
+投げる	1 VERB 1
+投下	3 VERB 2 NOUN 1
+投与	1 NOUN 1
+投入	5 VERB 5
+投手	8 NOUN 8
+投機	1 NOUN 1
+投獄	1 NOUN 1
+投球	2 NOUN 2
+投票	4 NOUN 4
+投稿	9 VERB 6 NOUN 3
+投資	6 NOUN 6
+投資銀行	1 NOUN 1
+投降	2 VERB 2
+抗争	4 NOUN 4
+抗戦	1 NOUN 1
+抗議	23 NOUN 21 VERB 2
+折り	1 VERB 1
+折り込み	1 NOUN 1
+折り返し	1 ADV 1
+折笠	1 PROPN 1
+折箱	1 NOUN 1
+折衝	1 NOUN 1
+折込	1 NOUN 1
+抜い	2 VERB_抜く 2
+抜か	2 VERB_抜かる 2
+抜く	1 VERB 1
+抜け	4 VERB_抜ける 4
+抜ける	1 VERB 1
+抜刀	1 NOUN 1
+抜本的	2 ADJ 2
+抜群	3 NOUN 3
+披露	6 VERB 5 NOUN 1
+抱い	3 VERB_抱く 3
+抱え	5 VERB_抱える 5
+抱える	4 VERB 4
+抱か	4 VERB_抱く 4
+抱き	1 VERB_抱く 1
+抱き締め	1 VERB_抱き締める 1
+抱く	2 VERB 2
+抵当	1 NOUN 1
+抵抗	5 NOUN 4 VERB 1
+抹殺	2 VERB 2
+抹消	1 VERB 1
+押さ	1 VERB_押す 1
+押さえ	1 VERB_押さえる 1
+押し	4 VERB_押す 2 NOUN 2
+押しつぶさ	1 VERB_押しつぶす 1
+押し上げ	2 VERB_押し上げる 2
+押し上げる	1 VERB 1
+押し付け	1 VERB_押し付ける 1
+押し付けがましく	1 ADJ_押し付けがましい 1
+押し切っ	1 VERB_押し切る 1
+押し切ら	1 VERB_押し切る 1
+押し寄せ	1 VERB_押し寄せる 1
+押し寄せる	1 VERB 1
+押し込め	1 VERB_押し込める 1
+押す	3 VERB 3
+押収	1 VERB 1
+押部谷	1 PROPN 1
+抽出	1 VERB 1
+抽象的	1 ADJ 1
+抽選	1 NOUN 1
+担	1 PROPN 1
+担い	2 VERB_担う 2
+担い手	1 NOUN 1
+担う	3 VERB 3
+担っ	2 VERB_担う 2
+担わ	1 VERB_担う 1
+担任	2 VERB 1 NOUN 1
+担任教師	1 NOUN 1
+担保	1 NOUN 1
+担当	49 VERB 29 NOUN 20
+拉致	7 NOUN 6 VERB 1
+拍子	1 NOUN 1
+拍手	4 NOUN 4
+拒ん	1 VERB_拒む 1
+拒否	13 VERB 10 NOUN 3
+拒絶	1 VERB 1
+拓	2 PROPN 2
+拓也	1 PROPN 1
+拓殖	1 NOUN 1
+拘ら	1 VERB_拘る 1
+拘束	3 VERB 3
+拘束力	1 NOUN 1
+拘留	1 NOUN 1
+拙	1 ADJ 1
+招い	5 VERB_招く 5
+招き	1 VERB_招く 1
+招待	2 VERB 2
+招聘	3 VERB 2 NOUN 1
+招集	2 VERB 2
+拝借	1 VERB 1
+拝殿	1 NOUN 1
+拝観	1 NOUN 1
+拠っ	1 VERB_拠る 1
+拠る	1 VERB 1
+拠れ	1 VERB_拠る 1
+拠出	1 VERB 1
+拠点	4 NOUN 4
+拡がる	1 VERB 1
+拡充	3 VERB 2 NOUN 1
+拡大	22 NOUN 11 VERB 11
+拡張	6 NOUN 4 VERB 2
+拭い	1 VERB_拭く 1
+拭う	1 VERB 1
+拭く	1 VERB 1
+拭っ	1 VERB_拭う 1
+拳	3 NOUN 3
+拳児	1 PROPN 1
+拳法	1 NOUN 1
+拳銃	1 NOUN 1
+拷問	1 NOUN 1
+拾い	3 NOUN 3
+持た	5 VERB_持つ 5
+持たさ	1 VERB_持たす 1
+持たせ	2 VERB_持たせる 2
+持ち	18 VERB_持つ 10 NOUN 8
+持ちこたえる	1 VERB 1
+持ち上げる	1 VERB 1
+持ち出し	1 VERB_持ち出す 1
+持ち前	1 NOUN 1
+持ち去ら	1 VERB_持ち去る 1
+持ち帰っ	1 VERB_持ち帰る 1
+持ち帰り	1 VERB_持ち帰る 1
+持ち掛け	1 VERB_持ち掛ける 1
+持ち歩い	1 VERB_持ち歩く 1
+持ち歩き	1 VERB_持ち歩く 1
+持ち歩く	1 VERB 1
+持ち越し	1 NOUN 1
+持ち込も	1 VERB_持ち込む 1
+持ち込ん	1 VERB_持ち込む 1
+持ち逃げ	1 VERB 1
+持っ	41 VERB_持つ 41
+持ってい	1 VERB_持っていく 1
+持って行く	1 VERB 1
+持つ	53 VERB 53
+持て	1 VERB_持てる 1
+持てる	2 VERB 2
+持と	1 VERB_持つ 1
+持分	1 NOUN 1
+持参	2 VERB 2
+持病	2 NOUN 2
+持続	2 VERB 1 NOUN 1
+指	2 NOUN 2
+指さし	1 VERB_指さす 1
+指し	2 VERB_指す 2
+指す	3 VERB 3
+指令	2 NOUN 2
+指南	1 NOUN 1
+指名	9 VERB 7 NOUN 2
+指定	25 VERB 14 NOUN 11
+指定席	1 NOUN 1
+指導	12 NOUN 10 VERB 2
+指揮	11 NOUN 7 VERB 4
+指摘	25 VERB 23 NOUN 2
+指数	5 NOUN 5
+指標	2 NOUN 2
+指示	8 NOUN 6 VERB 2
+指紋	2 NOUN 2
+指輪	2 NOUN 2
+指針	3 NOUN 3
+按	1 PROPN 1
+挑む	1 VERB 1
+挑ん	1 VERB_挑む 1
+挑戦	6 VERB 4 NOUN 2
+挑発	2 VERB 2
+挙	1 NOUN 1
+挙がっ	4 VERB_挙がる 4
+挙げ	16 VERB_挙げる 16
+挙げて	1 ADV 1
+挙げる	5 VERB 5
+挙げ句	1 NOUN 1
+挙句	1 NOUN 1
+挙式	2 NOUN 2
+挟まっ	1 VERB_挟まる 1
+挟み	1 VERB_挟む 1
+挟む	1 VERB 1
+挟撃	1 NOUN 1
+挨拶	3 NOUN 3
+振	1 VERB_振る 1
+振っ	2 VERB_振る 2
+振ら	1 VERB_振る 1
+振り	5 VERB_振る 3 NOUN 2
+振り付け	1 NOUN 1
+振り回す	1 VERB 1
+振り込み	1 NOUN 1
+振り返り	2 VERB_振り返る 2
+振る	1 VERB 1
+振る舞い	1 VERB_振る舞う 1
+振動	1 VERB 1
+振幅	1 NOUN 1
+振替	1 NOUN 1
+振興	3 NOUN 3
+振興局	1 PROPN 1
+挿入	2 VERB 2
+挿絵	2 NOUN 2
+捉え	4 VERB_捉える 4
+捉える	1 VERB 1
+捏造	3 NOUN 2 VERB 1
+捕	1 NOUN 1
+捕え	1 VERB_捕える 1
+捕まえる	1 VERB 1
+捕らえ	3 VERB_捕らえる 3
+捕らわれ	1 VERB_捕らわれる 1
+捕吏	2 NOUN 2
+捕獲	4 NOUN 3 VERB 1
+捕虜	5 NOUN 5
+捕虜収容所	1 NOUN 1
+捜し	1 VERB_捜す 1
+捜す	1 VERB 1
+捜査	11 NOUN 9 VERB 2
+捜査本部	1 NOUN 1
+捜索	3 NOUN 3
+捧げる	1 VERB 1
+捨て	4 VERB_捨てる 4
+据え	2 VERB_据える 2
+捺染	2 VERB 2
+捻出	1 VERB 1
+掃	1 PROPN 1
+掃除	6 NOUN 5 VERB 1
+授	1 PROPN 1
+授かっ	1 VERB_授かる 1
+授かり	1 VERB_授かる 1
+授かろ	1 VERB_授かる 1
+授ける	1 VERB 1
+授与	2 VERB 1 NOUN 1
+授業	11 NOUN 10 VERB 1
+授業料	1 NOUN 1
+授賞	2 NOUN 2
+掌握	2 VERB 2
+排気	1 NOUN 1
+排水	2 NOUN 2
+排除	5 VERB 5
+掘り	1 VERB_掘る 1
+掘り下げ	1 VERB_掘り下げる 1
+掛かっ	2 VERB_掛かる 2
+掛け	10 VERB_掛ける 10
+掛ける	5 VERB 5
+掛け合わせ	1 VERB_掛け合わせる 1
+掛け声	1 NOUN 1
+掛け軸	1 NOUN 1
+掛布	1 PROPN 1
+掛蕎麦	1 NOUN 1
+採	3 VERB_採る 3
+採ら	1 VERB_採る 1
+採り	1 VERB_採る 1
+採る	3 VERB 3
+採択	1 VERB 1
+採決	2 VERB 1 NOUN 1
+採点	1 VERB 1
+採用	24 VERB 19 NOUN 5
+採血	1 NOUN 1
+探し	15 VERB_探す 12 NOUN 3
+探す	1 VERB 1
+探せ	1 VERB_探す 1
+探っ	1 VERB_探る 1
+探り	2 VERB_探る 2
+探偵	3 NOUN 3
+探査	1 NOUN 1
+探知	3 NOUN 3
+探究	2 VERB 2
+探索	1 NOUN 1
+探訪	1 VERB 1
+接ぎ	1 VERB_接ぐ 1
+接さ	1 VERB_接する 1
+接し	3 VERB_接する 3
+接する	1 VERB 1
+接収	1 VERB 1
+接合	1 VERB 1
+接客	14 NOUN 12 VERB 2
+接待	2 NOUN 2
+接戦	1 NOUN 1
+接続	9 VERB 5 NOUN 4
+接触	9 NOUN 5 VERB 4
+接近	3 NOUN 2 VERB 1
+控え	3 VERB_控える 3
+控える	2 VERB 2
+推	1 PROPN 1
+推し	1 VERB_推す 1
+推す	1 VERB 1
+推力	2 NOUN 2
+推奨	1 VERB 1
+推定	3 VERB 2 NOUN 1
+推測	2 VERB 2
+推理	1 NOUN 1
+推移	4 NOUN 2 VERB 2
+推薦	2 VERB 1 NOUN 1
+推進	9 VERB 5 NOUN 4
+措置	9 NOUN 9
+掬う	1 VERB 1
+掲げ	3 VERB_掲げる 3
+掲示	1 NOUN 1
+掲示板	2 NOUN 2
+掲載	27 VERB 24 NOUN 3
+掴み	1 VERB_掴む 1
+揃え	3 VERB_揃える 3
+揃っ	2 VERB_揃う 2
+描い	5 VERB_描く 5
+描か	9 VERB_描く 9
+描き	1 VERB_描く 1
+描く	4 VERB 4
+描写	5 VERB 4 NOUN 1
+提	2 PROPN 2
+提供	27 VERB 20 NOUN 7
+提出	11 VERB 10 NOUN 1
+提唱	6 VERB 5 NOUN 1
+提携	4 NOUN 3 VERB 1
+提案	14 VERB 11 NOUN 3
+提灯	2 NOUN 2
+提示	3 VERB 3
+提言	2 NOUN 2
+提訴	3 VERB 2 NOUN 1
+提起	3 VERB 2 NOUN 1
+揖斐	1 PROPN 1
+揖斐川	1 PROPN 1
+揚げ	2 NOUN 2
+揚州	2 PROPN 2
+揚羽	1 NOUN 1
+換え	1 NOUN 1
+換算	1 VERB 1
+換金	1 VERB 1
+握	1 VERB_握る 1
+握り	1 NOUN 1
+握る	4 VERB 4
+援助	3 NOUN 2 VERB 1
+援用	1 VERB 1
+援護	1 VERB 1
+援軍	1 NOUN 1
+揺さぶら	1 VERB_揺さぶる 1
+揺さぶり	1 NOUN 1
+揺らめき	1 VERB_揺らめく 1
+揺れ	1 VERB_揺れる 1
+揺れる	1 VERB 1
+損	2 NOUN 2
+損なっ	1 VERB_損なう 1
+損ねる	1 VERB 1
+損傷	1 NOUN 1
+損壊	2 NOUN 2
+損失	5 NOUN 5
+損害	2 NOUN 2
+損害賠償	6 NOUN 6
+損害賠償請求	1 NOUN 1
+搬送	1 VERB 1
+搭乗	1 NOUN 1
+搭載	31 VERB 28 NOUN 3
+携わっ	3 VERB_携わる 3
+携わる	1 VERB 1
+携帯	2 VERB 1 NOUN 1
+携帯端末	1 NOUN 1
+携帯電話	8 NOUN 8
+携行	1 NOUN 1
+搾取	1 VERB 1
+摂取	1 NOUN 1
+摂政	1 NOUN 1
+摂理	7 NOUN 7
+摘ん	1 VERB_摘む 1
+摘出	1 NOUN 1
+摘発	5 VERB 4 NOUN 1
+摩	1 PROPN 1
+摩擦力	1 NOUN 1
+撃	2 PROPN 2
+撃た	3 VERB_撃つ 3
+撃ち	2 VERB_撃つ 2
+撃墜	2 NOUN 1 VERB 1
+撃破	3 VERB 2 NOUN 1
+撃退	1 NOUN 1
+撒か	1 VERB_撒く 1
+撒く	2 VERB 2
+撤去	3 VERB 3
+撤回	1 VERB 1
+撤退	3 VERB 2 NOUN 1
+播磨	1 PROPN 1
+撮	1 VERB_撮る 1
+撮ら	2 VERB_撮る 2
+撮り	4 VERB_撮る 4
+撮影	23 VERB 13 NOUN 10
+撲滅	1 NOUN 1
+撹乱	1 NOUN 1
+擁し	1 VERB_擁する 1
+擁する	2 VERB 2
+擁立	5 VERB 4 NOUN 1
+擁護	4 NOUN 3 VERB 1
+操	1 NOUN 1
+操っ	1 VERB_操る 1
+操り	1 VERB_操る 1
+操る	1 VERB 1
+操作	22 NOUN 15 VERB 7
+操業	1 NOUN 1
+操縦	2 NOUN 1 VERB 1
+操縦士	1 NOUN 1
+擬	1 PROPN 1
+擬人化	2 NOUN 1 VERB 1
+擬似	3 NOUN 3
+擬制	1 NOUN 1
+攘夷	1 NOUN 1
+攝	1 PROPN 1
+支	1 NOUN 1
+支え	3 VERB_支える 3
+支える	3 VERB 3
+支出	3 NOUN 3
+支局	1 NOUN 1
+支店	2 NOUN 2
+支所	1 NOUN 1
+支払い	6 NOUN 5 VERB_支払う 1
+支払う	1 VERB 1
+支払っ	1 VERB_支払う 1
+支払わ	1 VERB_支払う 1
+支持	14 NOUN 7 VERB 7
+支援	34 NOUN 21 VERB 13
+支柱	1 NOUN 1
+支流	2 NOUN 2
+支点	2 NOUN 2
+支社	1 NOUN 1
+支給	3 VERB 2 NOUN 1
+支部	5 NOUN 5
+支配	6 NOUN 5 VERB 1
+支配的	1 ADJ 1
+支隊	1 NOUN 1
+改	1 NOUN 1
+改め	3 VERB_改める 3
+改めて	5 ADV 5
+改修	2 NOUN 2
+改善	11 NOUN 9 VERB 2
+改宗	2 VERB 2
+改定	1 NOUN 1
+改心	1 VERB 1
+改憲	1 NOUN 1
+改札	2 NOUN 2
+改札口	1 NOUN 1
+改正	1 NOUN 1
+改称	2 VERB 2
+改築	1 NOUN 1
+改組	2 NOUN 2
+改編	4 NOUN 3 VERB 1
+改良	5 VERB 3 NOUN 2
+改装	2 VERB 1 NOUN 1
+改訂	1 NOUN 1
+改造	4 VERB 2 NOUN 2
+改革	7 NOUN 7
+改題	1 VERB 1
+攻	2 PROPN 2
+攻め	4 VERB_攻める 3 NOUN 1
+攻勢	1 NOUN 1
+攻撃	37 NOUN 25 VERB 12
+攻撃的	1 ADJ 1
+攻略	1 VERB 1
+攻防	4 NOUN 4
+放	1 PROPN 1
+放ち	2 VERB_放つ 2
+放っ	7 VERB_放つ 7
+放つ	2 VERB 2
+放出	3 VERB 3
+放射	1 NOUN 1
+放射性物質	2 NOUN 2
+放射能	1 NOUN 1
+放尿	1 NOUN 1
+放映	4 VERB 4
+放棄	1 NOUN 1
+放火	1 NOUN 1
+放物線	2 NOUN 2
+放球	1 VERB 1
+放置	3 VERB 3
+放送	45 NOUN 27 VERB 18
+放送開始	2 NOUN 2
+放逐	1 NOUN 1
+放電	2 NOUN 2
+放題	4 NOUN 4
+政	5 NOUN 5
+政一	1 PROPN 1
+政光	1 PROPN 1
+政党	5 NOUN 5
+政務	3 NOUN 3
+政博	1 PROPN 1
+政府	22 NOUN 22
+政府首脳	1 NOUN 1
+政教分離	1 NOUN 1
+政明	1 PROPN 1
+政権	19 NOUN 19
+政治	6 NOUN 6
+政治団体	1 NOUN 1
+政治的	4 ADJ 4
+政界	3 NOUN 3
+政策	8 NOUN 8
+故に	3 CCONJ 3
+故事	1 NOUN 1
+故意	1 NOUN 1
+故郷	10 NOUN 10
+故障	5 NOUN 3 VERB 2
+敏生	1 PROPN 1
+救う	2 VERB 2
+救っ	2 VERB_救う 2
+救わ	1 VERB_救う 1
+救出	4 VERB 3 NOUN 1
+救助	1 VERB 1
+救命	1 NOUN 1
+救命胴衣	1 NOUN 1
+救急	4 NOUN 4
+救急車	2 NOUN 2
+救援	2 NOUN 1 VERB 1
+救援投手	1 NOUN 1
+救済	3 NOUN 3
+敗	14 NOUN 14
+敗れ	9 VERB_敗れる 9
+敗れ去る	1 VERB 1
+敗北	6 NOUN 4 VERB 2
+敗因	1 NOUN 1
+敗戦	2 NOUN 2
+敗者	2 NOUN 2
+敗者復活	1 NOUN 1
+敗訴	3 VERB 2 NOUN 1
+敗退	2 VERB 2
+教	16 NOUN 16
+教え	18 VERB_教える 16 NOUN 2
+教える	7 VERB 7
+教わっ	1 VERB_教わる 1
+教わる	2 VERB 2
+教会	27 NOUN 27
+教会堂	1 NOUN 1
+教典	1 NOUN 1
+教務	1 NOUN 1
+教化	2 NOUN 2
+教区	3 NOUN 3
+教員	2 NOUN 2
+教団	11 NOUN 11
+教室	4 NOUN 4
+教師	9 NOUN 9
+教徒	1 NOUN 1
+教授	14 NOUN 14
+教派	1 NOUN 1
+教理	1 NOUN 1
+教皇	5 NOUN 5
+教盛	1 PROPN 1
+教祖	3 NOUN 3
+教科	1 NOUN 1
+教科書	1 NOUN 1
+教義	4 NOUN 4
+教習所	1 NOUN 1
+教職	2 NOUN 2
+教育	21 NOUN 21
+教育大学	1 NOUN 1
+教育実習	1 NOUN 1
+教育改革	1 NOUN 1
+教訓	3 NOUN 3
+教諭	3 NOUN 3
+教養	2 NOUN 2
+敢行	1 VERB 1
+散	2 PROPN 2
+散々	3 ADJ 2 ADV 1
+散っ	1 VERB_散る 1
+散らばっ	1 VERB_散らばる 1
+散乱	2 NOUN 1 VERB 1
+散文	1 NOUN 1
+散歩	2 NOUN 2
+散策	2 VERB 1 NOUN 1
+散見	2 VERB 2
+敦煌	1 PROPN 1
+敦賀	1 PROPN 1
+敬	5 PROPN 5
+敬愛	1 VERB 1
+敬虔	1 ADJ 1
+敬語	1 NOUN 1
+数	84 NOUN 62 NUM 22
+数え	3 VERB_数える 3
+数える	1 VERB 1
+数値	7 NOUN 7
+数千	2 NOUN 2
+数多く	4 ADJ_数多い 4
+数字	3 NOUN 3
+数学	3 NOUN 3
+数直線	1 NOUN 1
+整え	3 VERB_整える 3
+整える	1 VERB 1
+整っ	3 VERB_整う 3
+整体	8 NOUN 8
+整備	11 VERB 6 NOUN 5
+整合	1 NOUN 1
+整形	2 NOUN 1 VERB 1
+整数	2 NOUN 2
+整理	3 VERB 2 NOUN 1
+整理券	1 NOUN 1
+整骨	1 NOUN 1
+敵	26 NOUN 26
+敵兵	1 NOUN 1
+敵国	1 NOUN 1
+敵対	1 VERB 1
+敵役	1 NOUN 1
+敵意	1 NOUN 1
+敵艦	1 NOUN 1
+敵視	1 VERB 1
+敵討ち	1 NOUN 1
+敷か	1 VERB_敷く 1
+敷き詰める	1 VERB 1
+敷く	1 VERB 1
+敷地	4 NOUN 4
+敷設	1 NOUN 1
+文	19 PROPN 10 NOUN 9
+文三	1 PROPN 1
+文中	1 NOUN 1
+文具	1 NOUN 1
+文化	15 NOUN 15
+文化センター	2 NOUN 2
+文句	2 NOUN 2
+文壇	1 NOUN 1
+文字	12 NOUN 12
+文学	2 NOUN 2
+文学賞	1 NOUN 1
+文官	1 NOUN 1
+文帝	1 PROPN 1
+文庫	2 NOUN 2
+文庫本	2 NOUN 2
+文房具	1 NOUN 1
+文明	8 NOUN 7 PROPN 1
+文書	6 NOUN 6
+文武	1 NOUN 1
+文殊菩薩	1 NOUN 1
+文治	1 PROPN 1
+文献	2 NOUN 2
+文理	1 PROPN 1
+文章	5 NOUN 5
+文系	1 NOUN 1
+文脈	2 NOUN 2
+文芸春秋	1 PROPN 1
+文部	1 NOUN 1
+文部大臣賞	1 NOUN 1
+文面	2 NOUN 2
+斉	1 PROPN 1
+斉藤	3 PROPN 3
+斎宮	1 NOUN 1
+斎藤	2 PROPN 2
+斑	5 NOUN 5
+斑点	1 NOUN 1
+料	5 NOUN 5
+料理	37 NOUN 35 VERB 2
+料理屋	2 NOUN 2
+料紙	1 NOUN 1
+料金	11 NOUN 11
+料金所	1 NOUN 1
+斜体	1 NOUN 1
+斜面	2 NOUN 2
+斥力	1 NOUN 1
+斧	1 NOUN 1
+斬	2 PROPN 2
+斬り	2 VERB_斬る 2
+斬る	1 VERB 1
+斬新	2 ADJ 2
+断た	2 VERB_断つ 2
+断ち切ろ	1 VERB_断ち切る 1
+断ら	5 VERB_断る 5
+断り	2 VERB_断る 2
+断りし	1 VERB_断る 1
+断固	1 NOUN 1
+断定	3 VERB 3
+断崖	1 NOUN 1
+断念	3 VERB 3
+断絶	1 VERB 1
+断続	1 NOUN 1
+断行	1 VERB 1
+断食	1 NOUN 1
+新	43 NOUN 43
+新しい	29 ADJ 29
+新しく	1 ADJ_新しい 1
+新た	21 ADJ 21
+新一	1 PROPN 1
+新下関駅	2 PROPN 2
+新世紀	1 NOUN 1
+新井	4 PROPN 4
+新人	9 NOUN 9
+新作	1 NOUN 1
+新兵	1 NOUN 1
+新卒	1 NOUN 1
+新原	1 PROPN 1
+新吾	1 PROPN 1
+新品	2 NOUN 2
+新型	1 NOUN 1
+新垣	1 PROPN 1
+新婚旅行	1 NOUN 1
+新婦	1 NOUN 1
+新宮	2 NOUN 2
+新宿	5 PROPN 5
+新宿区	2 PROPN 2
+新宿駅	4 PROPN 4
+新左翼	1 NOUN 1
+新年度	2 NOUN 2
+新幹線	6 NOUN 6
+新憲法	1 PROPN 1
+新政	1 NOUN 1
+新日本製鐵	1 PROPN 1
+新星	1 NOUN 1
+新春	1 NOUN 1
+新橋	1 PROPN 1
+新潟	1 PROPN 1
+新潟大	1 PROPN 1
+新潮社	2 PROPN 2
+新生児	1 NOUN 1
+新種	1 NOUN 1
+新築	1 NOUN 1
+新編	1 NOUN 1
+新羅	1 PROPN 1
+新聞	21 NOUN 21
+新聞社	3 NOUN 3
+新興	2 NOUN 2
+新興国	2 NOUN 2
+新華社通信	1 PROPN 1
+新規	3 ADJ 2 NOUN 1
+新規契約	1 NOUN 1
+新記録	1 NOUN 1
+新設	4 VERB 3 NOUN 1
+新車	2 NOUN 2
+新選	2 NOUN 2
+新郎	1 NOUN 1
+新香	1 NOUN 1
+新馬	1 NOUN 1
+新駅	1 PROPN 1
+新鮮	7 ADJ 7
+方	98 NOUN 98 ***
+方々	4 NOUN 4
+方位	1 NOUN 1
+方向	13 NOUN 13
+方式	12 NOUN 12
+方法	28 NOUN 28
+方法論	1 NOUN 1
+方策	1 NOUN 1
+方角	2 NOUN 2
+方言	1 NOUN 1
+方針	12 NOUN 12
+方面	16 NOUN 16
+於呂倶羅山	1 PROPN 1
+施	1 PROPN 1
+施さ	1 VERB_施す 1
+施し	2 VERB_施す 2
+施す	1 VERB 1
+施政方針演説	1 NOUN 1
+施療	1 NOUN 1
+施行	3 VERB 3
+施術	5 NOUN 4 VERB 1
+施設	30 NOUN 30
+旅	5 NOUN 3 VERB 2
+旅人	4 NOUN 4
+旅団	5 NOUN 5
+旅客	2 NOUN 2
+旅客輸送	2 NOUN 2
+旅行	5 NOUN 4 VERB 1
+旅館	2 NOUN 2
+旅鳥	1 NOUN 1
+族	11 NOUN 11
+旗	6 NOUN 6
+旗印	1 NOUN 1
+旗本	1 NOUN 1
+旗艦	2 NOUN 2
+既に	6 ADV 6
+既出	1 NOUN 1
+既定	1 NOUN 1
+既知	1 NOUN 1
+既述	1 NOUN 1
+日	460 NOUN 456 PROPN 4 ***
+日々	6 NOUN 6
+日ごろ	1 ADV 1
+日下	1 PROPN 1
+日中	4 NOUN 4
+日付	5 NOUN 5
+日光	1 NOUN 1
+日共	3 NOUN 3
+日刊	9 NOUN 9
+日向	2 NOUN 2
+日夜	1 ADV 1
+日差し	1 NOUN 1
+日帰り	3 NOUN 3
+日常	3 NOUN 3
+日常生活	1 NOUN 1
+日常的	1 ADJ 1
+日弁連	2 PROPN 2
+日成	1 PROPN 1
+日時	3 NOUN 3
+日暮里	1 PROPN 1
+日曜	1 NOUN 1
+日曜日	1 NOUN 1
+日本	114 PROPN 114 ***
+日本IBM	1 PROPN 1
+日本アニメーション	1 PROPN 1
+日本スポーツ出版社	1 PROPN 1
+日本テレビ系列	1 PROPN 1
+日本ビクター	1 PROPN 1
+日本一	1 NOUN 1
+日本丸	1 PROPN 1
+日本代表	3 NOUN 3
+日本兵	1 NOUN 1
+日本刀	1 NOUN 1
+日本初	1 NOUN 1
+日本史	1 NOUN 1
+日本国	3 PROPN 3
+日本大学	1 PROPN 1
+日本学術会議	1 PROPN 1
+日本文化	1 NOUN 1
+日本海	4 PROPN 4
+日本海側	1 PROPN 1
+日本軍	1 PROPN 1
+日本酒	2 NOUN 2
+日比谷	1 PROPN 1
+日比谷公園	1 PROPN 1
+日比野	1 PROPN 1
+日清戦争	1 PROPN 1
+日焼け	2 NOUN 2
+日独	1 PROPN 1
+日産自動車	2 PROPN 2
+日程	1 NOUN 1
+日米	2 PROPN 1 NOUN 1
+日米安全保障条約	1 PROPN 1
+日系	2 NOUN 2
+日経パソコン	1 PROPN 1
+日経平均株価	2 PROPN 2
+日記	3 NOUN 3
+日赤	1 PROPN 1
+日銀	1 PROPN 1
+日頃	1 ADV 1
+日馬富士	1 PROPN 1
+旧	19 NOUN 19
+旧制	1 NOUN 1
+旧来	1 NOUN 1
+旧約聖書	1 NOUN 1
+旧道	2 NOUN 2
+旨	8 NOUN 6 ADJ_旨い 2
+旨い	3 ADJ 3
+旨く	1 ADJ_旨い 1
+早々	1 NOUN 1
+早い	2 ADJ 2
+早く	10 ADJ_早い 10
+早くから	2 ADV 2
+早め	2 NOUN 2
+早口言葉	1 NOUN 1
+早朝	5 NOUN 5
+早期	5 NOUN 5
+早速	1 ADV 1
+早那	1 PROPN 1
+早野	1 PROPN 1
+旬	3 NOUN 3
+旭化成	1 PROPN 1
+旭川	2 PROPN 2
+旭川駅	2 PROPN 2
+旭日	1 NOUN 1
+旭町	1 PROPN 1
+旺盛	2 ADJ 2
+昆	1 PROPN 1
+昆布	1 NOUN 1
+昆虫	4 NOUN 4
+昆虫類	1 NOUN 1
+昇格	7 VERB 4 NOUN 3
+昇竜	1 NOUN 1
+昇級	1 NOUN 1
+昇進	3 VERB 2 NOUN 1
+昌	1 PROPN 1
+昌平	1 PROPN 1
+昌邦	1 PROPN 1
+明	4 NOUN 3 PROPN 1
+明かさ	2 VERB_明かす 2
+明かし	8 VERB_明かす 8
+明かす	1 VERB 1
+明け	2 VERB_明ける 2
+明け渡し	1 VERB_明け渡す 1
+明らか	23 ADJ 23
+明る	3 ADJ_明るい 3
+明るい	4 ADJ 4
+明るく	6 ADJ_明るい 6
+明大	1 PROPN 1
+明媚	1 ADJ 1
+明日	2 NOUN 2
+明日香	1 PROPN 1
+明暗	1 NOUN 1
+明朗	1 NOUN 1
+明朝	1 NOUN 1
+明治	6 NOUN 6
+明治大学	1 PROPN 1
+明治維新	1 PROPN 1
+明白	3 ADJ 3
+明瞭	2 ADJ 2
+明石	2 PROPN 2
+明石家さんま	1 PROPN 1
+明確	5 ADJ 4 NOUN 1
+明示	1 NOUN 1
+明菜	1 PROPN 1
+明言	1 VERB 1
+明記	3 VERB 3
+明貴	1 PROPN 1
+易い	1 AUX 1
+易く	1 AUX_易い 1
+易しい	1 ADJ 1
+昔	3 NOUN 3
+昔ながら	2 ADV 2
+星	12 NOUN 8 PROPN 4
+星座	3 NOUN 3
+星野	2 PROPN 2
+星雲社	1 PROPN 1
+映	1 VERB_映す 1
+映さ	1 VERB_映す 1
+映っ	1 VERB_映る 1
+映る	1 VERB 1
+映像	14 NOUN 14
+映画	18 NOUN 18
+映画化	2 NOUN 2
+映画祭	2 NOUN 2
+春	10 NOUN 10
+春場所	1 NOUN 1
+春季	1 NOUN 1
+春日	1 PROPN 1
+春日井	1 PROPN 1
+春秋	2 NOUN 2
+春秋社	2 PROPN 2
+春香	3 PROPN 3
+昨	2 NOUN 2
+昨今	1 NOUN 1
+昨季	1 NOUN 1
+昨年	20 NOUN 20
+昨年来	1 NOUN 1
+昨日	5 NOUN 5
+昭和	8 PART 6 NOUN 2
+昭和四日市石油	1 PROPN 1
+昭和薬科大学	1 PROPN 1
+昭夫	1 PROPN 1
+昭徳	1 PROPN 1
+昭男	1 PROPN 1
+是非	9 ADV 6 NOUN 3
+昼	2 NOUN 2
+昼ごはん	1 NOUN 1
+昼夜	1 NOUN 1
+昼時	1 NOUN 1
+昼過ぎ	1 NOUN 1
+昼間	3 NOUN 3
+時	151 NOUN 151 ***
+時々	3 ADV 3
+時に	4 ADV 4
+時之丞	1 PROPN 1
+時代	53 NOUN 53
+時代劇	2 NOUN 2
+時任	1 PROPN 1
+時刻	7 NOUN 7
+時勢	2 NOUN 2
+時半	3 NOUN 3
+時折	5 NOUN 5
+時期	14 NOUN 14
+時流	1 NOUN 1
+時点	19 NOUN 19
+時珍	1 PROPN 1
+時空	2 NOUN 2
+時縄	1 NOUN 1
+時計	1 NOUN 1
+時貞	1 PROPN 1
+時速	2 NOUN 2
+時間	60 NOUN 60
+時間制限	1 NOUN 1
+時間割	1 NOUN 1
+時間帯	8 NOUN 8
+晋	1 PROPN 1
+晋三	1 PROPN 1
+晒し	1 VERB_晒す 1
+晩	3 NOUN 3
+晩年	3 NOUN 3
+普及	14 NOUN 7 VERB 7
+普天間	1 PROPN 1
+普段	13 NOUN 10 ADV 3
+普通	21 ADJ 13 NOUN 8
+景	2 NOUN 2
+景公	1 PROPN 1
+景時	1 PROPN 1
+景気	2 NOUN 2
+景色	2 NOUN 2
+景観	4 NOUN 4
+晴れ	1 VERB_晴れる 1
+晴れる	1 VERB 1
+晴久	1 PROPN 1
+晴彦	1 PROPN 1
+晴明	1 PROPN 1
+晶司	1 PROPN 1
+智	2 PROPN 2
+智久	1 PROPN 1
+智子	1 PROPN 1
+暁	1 PROPN 1
+暁美	1 PROPN 1
+暇	2 NOUN 2
+暐	1 PROPN 1
+暑さ	1 NOUN 1
+暖かい	1 ADJ 1
+暖地	1 NOUN 1
+暖帯	1 NOUN 1
+暖房	2 NOUN 2
+暗	2 NOUN 2
+暗い	3 ADJ 3
+暗がり	1 NOUN 1
+暗槓	1 NOUN 1
+暗殺	4 NOUN 2 VERB 2
+暗殺未遂	1 NOUN 1
+暗闇	1 NOUN 1
+暗黙	1 NOUN 1
+暦	1 NOUN 1
+暫定	2 NOUN 2
+暮らし	5 VERB_暮らす 5
+暮らす	7 VERB 7
+暮れ	1 VERB_暮れる 1
+暴	1 PROPN 1
+暴か	1 VERB_暴く 1
+暴く	1 VERB 1
+暴こ	1 VERB_暴く 1
+暴れ	1 VERB_暴れる 1
+暴力	3 NOUN 3
+暴力団	1 NOUN 1
+暴挙	1 NOUN 1
+暴行	3 NOUN 3
+暴言	1 NOUN 1
+暴走	3 NOUN 2 VERB 1
+暴走族	1 NOUN 1
+暴露	1 NOUN 1
+暴風	1 NOUN 1
+曜日	3 NOUN 3
+曰く	3 NOUN 3
+曲	29 NOUN 29
+曲げ	1 VERB_曲げる 1
+曲目	1 NOUN 1
+曲線	1 NOUN 1
+曲芸	1 NOUN 1
+曲解	1 VERB 1
+曳き	1 VERB_曳く 1
+更なる	4 ADJ 4
+更に	16 ADV 16
+更地	1 NOUN 1
+更新	10 VERB 6 NOUN 4
+更生	1 NOUN 1
+更迭	1 NOUN 1
+書	24 NOUN 24
+書い	17 VERB_書く 17
+書か	19 VERB_書く 19
+書きとめ	1 VERB_書きとめる 1
+書き入れる	1 VERB 1
+書き初め	1 NOUN 1
+書き加え	1 VERB_書き加える 1
+書き換え	2 NOUN 1 VERB_書き換える 1
+書き直し	1 NOUN 1
+書き込み	3 VERB 2 NOUN 1
+書き込ん	1 VERB_書き込む 1
+書く	7 VERB 7
+書体	1 NOUN 1
+書店	7 NOUN 7
+書房	2 NOUN 2
+書物	1 NOUN 1
+書生	1 NOUN 1
+書簡	1 NOUN 1
+書籍	7 NOUN 7
+書記	2 NOUN 2
+書院	1 NOUN 1
+書類	4 NOUN 4
+書類送検	2 VERB 1 NOUN 1
+曹	4 PROPN 4
+曹操	1 PROPN 1
+曾孫	3 NOUN 3
+替え	3 NOUN 2 VERB_替える 1
+替わる	1 VERB 1
+最	14 NOUN 13 PROPN 1
+最も	20 ADV 20
+最上	2 NOUN 2
+最下	1 NOUN 1
+最中	8 NOUN 8
+最低	6 NOUN 5 PART 1
+最低気温	1 NOUN 1
+最初	34 NOUN 34
+最古	2 NOUN 2
+最多	10 NOUN 9 PART 1
+最大	28 NOUN 27 PART 1
+最寄	1 NOUN 1
+最寄り	1 NOUN 1
+最小	2 NOUN 2
+最後	33 NOUN 33
+最後通牒	1 NOUN 1
+最悪	3 ADJ 3
+最新	3 NOUN 3
+最期	1 NOUN 1
+最短	3 NOUN 3
+最終	11 NOUN 11
+最終的	14 ADJ 14
+最近	15 NOUN 15
+最速	1 ADJ 1
+最適	2 ADJ 2
+最適化	2 NOUN 1 VERB 1
+最長	1 NOUN 1
+最高	22 NOUN 21 PART 1
+最高会議	1 NOUN 1
+最高気温	2 NOUN 2
+最高潮	1 NOUN 1
+最高裁	1 NOUN 1
+最高裁判所	1 PROPN 1
+最高速度	1 NOUN 1
+最高顧問	1 NOUN 1
+會	3 PROPN 3
+月	39 NOUN 39
+月刊	2 NOUN 2
+月号	3 NOUN 3
+月報	1 NOUN 1
+月姫	1 PROPN 1
+月島	1 PROPN 1
+月明かり	1 NOUN 1
+月曜日	2 NOUN 2
+月期	6 NOUN 6
+月渓	1 PROPN 1
+月長石	1 NOUN 1
+月面	1 NOUN 1
+月面着陸	1 NOUN 1
+月額	1 NOUN 1
+有	5 NOUN 5
+有し	2 VERB_有する 2
+有す	1 VERB_有する 1
+有する	9 VERB 9
+有り難い	1 ADJ 1
+有る	2 VERB 2
+有利	5 ADJ 5
+有力	2 ADJ 2
+有効	11 ADJ 7 NOUN 4
+有名	21 ADJ 21
+有害	2 ADJ 2
+有性生殖	1 NOUN 1
+有数	1 NOUN 1
+有料老人ホーム	1 NOUN 1
+有機	2 NOUN 2
+有無	2 NOUN 2
+有珠	1 PROPN 1
+有用	2 NOUN 1 ADJ 1
+有田	1 PROPN 1
+有界	1 NOUN 1
+有益	1 ADJ 1
+有罪	1 NOUN 1
+有野	1 PROPN 1
+有限会社	1 NOUN 1
+有馬	1 PROPN 1
+服	5 NOUN 5
+服属	1 VERB 1
+服役	1 VERB 1
+服用	3 VERB 3
+服装	3 NOUN 3
+朔	1 PROPN 1
+朗	1 PROPN 1
+朗読	1 NOUN 1
+望	1 VERB_望む 1
+望み	1 VERB_望む 1
+望む	2 VERB 2
+朝	24 NOUN 23 PROPN 1
+朝刊	2 NOUN 2
+朝子	2 PROPN 2
+朝廷	2 NOUN 2
+朝日	3 NOUN 3
+朝日放送	1 PROPN 1
+朝霧	1 NOUN 1
+朝食	3 NOUN 3
+朝鮮	1 NOUN 1
+期	26 NOUN 26
+期待	18 VERB 12 NOUN 6
+期日	1 NOUN 1
+期末	1 NOUN 1
+期間	20 NOUN 20
+期限	4 NOUN 4
+朧	2 NOUN 2
+木	8 NOUN 8
+木の実	1 NOUN 1
+木下	1 PROPN 1
+木場	1 PROPN 1
+木山	1 PROPN 1
+木暮	1 PROPN 1
+木曜日	2 NOUN 2
+木村	2 PROPN 2
+木棺	1 NOUN 1
+木津川	1 PROPN 1
+木田	1 PROPN 1
+木目	1 NOUN 1
+木製	2 NOUN 2
+木谷	1 PROPN 1
+木造	1 NOUN 1
+未	5 NOUN 5
+未だ	2 ADV 2
+未収	1 NOUN 1
+未婚	2 NOUN 2
+未定	1 ADJ 1
+未成	1 ADJ 1
+未明	2 NOUN 2
+未来	8 NOUN 8
+未満	4 NOUN 4
+未知	1 NOUN 1
+未知数	1 ADJ 1
+未解決	1 ADJ 1
+末	22 NOUN 22
+末利	1 PROPN 1
+末喜	1 PROPN 1
+末尾	2 NOUN 2
+末日	1 NOUN 1
+末次	1 PROPN 1
+末端	1 NOUN 1
+末裔	2 NOUN 2
+本	72 NOUN 72
+本丸	1 NOUN 1
+本人	15 NOUN 15
+本件	2 NOUN 2
+本会議	2 NOUN 2
+本体	2 NOUN 2
+本務	1 NOUN 1
+本名	4 NOUN 3 PROPN 1
+本国	1 NOUN 1
+本土	1 NOUN 1
+本場	2 NOUN 2
+本塁打	7 NOUN 7
+本姓	1 NOUN 1
+本尊	2 NOUN 2
+本局	1 NOUN 1
+本屋	1 NOUN 1
+本州	1 PROPN 1
+本店	1 NOUN 1
+本当	2 NOUN 2
+本当に	17 ADV 17
+本当は	1 ADV 1
+本数	6 NOUN 6
+本文	2 NOUN 2
+本日	6 NOUN 6
+本書	4 NOUN 4
+本来	13 NOUN 12 ADJ 1
+本格	3 NOUN 3
+本格化	1 VERB 1
+本格的	6 ADJ 6
+本殿	1 NOUN 1
+本気	3 ADJ 3
+本物	1 NOUN 1
+本番	5 NOUN 5
+本社	7 NOUN 7
+本科	1 NOUN 1
+本稿	1 NOUN 1
+本紙	18 NOUN 18
+本線	4 NOUN 4
+本編	4 NOUN 4
+本腰	1 NOUN 1
+本舗	2 NOUN 2
+本草	1 NOUN 1
+本貫	1 NOUN 1
+本質的	1 ADJ 1
+本選	1 NOUN 1
+本部	13 NOUN 11 PROPN 2
+本郷	2 PROPN 2
+本間	1 PROPN 1
+本項	2 NOUN 2
+本願	2 NOUN 2
+札	1 NOUN 1
+札付き	2 NOUN 2
+札幌	2 PROPN 2
+朱友珪	1 PROPN 1
+机	1 NOUN 1
+杉並区	2 PROPN 2
+杉山	1 PROPN 1
+杉本	2 PROPN 2
+杉谷	1 PROPN 1
+李	8 PROPN 5 NOUN 3
+李煜	1 PROPN 1
+李箱	1 PROPN 1
+杏	1 NOUN 1
+材	4 NOUN 4
+材料	5 NOUN 5
+村	17 NOUN 17
+村山	1 PROPN 1
+村山貯水池前	1 PROPN 1
+村役場	1 NOUN 1
+村松	1 PROPN 1
+村民	1 NOUN 1
+村落	1 NOUN 1
+杖	1 NOUN 1
+杜	1 PROPN 1
+条	4 NOUN 4
+条件	12 NOUN 12
+条例	5 NOUN 5
+条約	4 NOUN 4
+条虫	1 NOUN 1
+来	33 VERB_来る 27 AUX_来る 4 NOUN 2
+来し	1 VERB_来す 1
+来る	16 VERB 13 AUX 3
+来場	5 VERB 4 NOUN 1
+来夏	1 NOUN 1
+来季	2 NOUN 2
+来客	1 NOUN 1
+来年	2 NOUN 2
+来店	6 VERB 3 NOUN 3
+来日	1 NOUN 1
+来春	1 NOUN 1
+来月	1 NOUN 1
+来襲	1 NOUN 1
+来訪	1 NOUN 1
+来週	1 NOUN 1
+来館	1 NOUN 1
+杯	7 NOUN 7
+東	17 PROPN 17
+東シベリア	1 PROPN 1
+東レ	1 PROPN 1
+東京	43 PROPN 43
+東京オリンピック	1 PROPN 1
+東京コレクション	1 PROPN 1
+東京スポーツ	1 PROPN 1
+東京センター	1 PROPN 1
+東京タワー	1 PROPN 1
+東京ドーム	1 PROPN 1
+東京国際空港	1 PROPN 1
+東京地裁	1 PROPN 1
+東京大学	4 PROPN 4
+東京女子医大	1 PROPN 1
+東京工業大学	1 PROPN 1
+東京都	11 PROPN 11
+東京都庁	1 PROPN 1
+東京都立大学	1 PROPN 1
+東京電力	2 PROPN 2
+東京高裁	1 PROPN 1
+東作	1 PROPN 1
+東側	2 NOUN 2
+東北	7 NOUN 6 PROPN 1
+東北新幹線	1 PROPN 1
+東北本線	1 PROPN 1
+東北福祉大	1 PROPN 1
+東北福祉大学	1 PROPN 1
+東南	2 NOUN 2
+東南アジア	1 PROPN 1
+東和	2 PROPN 2
+東大	2 PROPN 2
+東宮	1 NOUN 1
+東岸	1 NOUN 1
+東島	2 PROPN 2
+東方	4 NOUN 4
+東日本	1 NOUN 1
+東日本大震災	9 PROPN 9
+東映	2 PROPN 2
+東村山駅	1 PROPN 1
+東武東上線	1 PROPN 1
+東洋	1 NOUN 1
+東浦和	1 PROPN 1
+東海	3 PROPN 3
+東海大学	2 PROPN 2
+東独	1 PROPN 1
+東芝	1 PROPN 1
+東芝EMI	1 PROPN 1
+東西	6 NOUN 6
+東西南北	1 NOUN 1
+東西線	1 PROPN 1
+東証1部	2 PROPN 2
+東進	1 VERB 1
+東部	9 NOUN 5 PROPN 4
+東電	1 PROPN 1
+松	4 NOUN 4
+松ぼっくり	1 NOUN 1
+松下	1 PROPN 1
+松井	1 PROPN 1
+松坂	2 PROPN 2
+松尾	2 PROPN 2
+松崎	1 PROPN 1
+松嶋	1 PROPN 1
+松平	1 PROPN 1
+松明	1 NOUN 1
+松村	1 PROPN 1
+松江	2 PROPN 2
+松浦	1 PROPN 1
+松濤	1 PROPN 1
+松田	5 PROPN 5
+松竹	2 PROPN 2
+松竹梅	1 NOUN 1
+板	3 NOUN 3
+板ガラス	1 NOUN 1
+板橋	1 PROPN 1
+板金	1 NOUN 1
+林	8 NOUN 6 PROPN 2
+林道	1 NOUN 1
+枚	15 NOUN 15
+果た	1 VERB_果たす 1
+果たさ	1 VERB_果たす 1
+果たし	13 VERB_果たす 13
+果たして	1 ADV 1
+果たす	7 VERB 7
+果て	2 VERB_果てる 2
+果ては	2 ADV 2
+果実	5 NOUN 5
+果敢	3 ADJ 3
+果物	1 NOUN 1
+果肉	1 NOUN 1
+枝野	2 PROPN 2
+枠	13 NOUN 13
+枠組み	3 NOUN 3
+枢機卿	2 NOUN 2
+枢軸国	1 NOUN 1
+枯れ	1 VERB_枯れる 1
+枯れ草	1 NOUN 1
+架かる	1 VERB 1
+架替	1 NOUN 1
+架空	2 NOUN 1 ADJ 1
+架線	1 NOUN 1
+柄	2 NOUN 2
+柄頭	1 NOUN 1
+柊	2 NOUN 2
+柏	2 PROPN 2
+柏原	1 PROPN 1
+染	1 NOUN 1
+染まっ	1 VERB_染まる 1
+染め	2 VERB_染める 2
+柔らか	1 ADJ 1
+柔らかい	1 ADJ 1
+柔らかく	2 ADJ_柔らかい 2
+柔和	2 ADJ 2
+柔術	3 NOUN 3
+柔軟	1 NOUN 1
+柔道	2 NOUN 2
+柘植	1 PROPN 1
+柱	8 NOUN 8
+柳川	1 PROPN 1
+柳生	2 PROPN 2
+柴	2 NOUN 2
+柴犬	2 NOUN 2
+柴舟	1 NOUN 1
+柵	1 NOUN 1
+査定	1 NOUN 1
+栄え	1 VERB_栄える 1
+栄光	1 NOUN 1
+栄冠	1 NOUN 1
+栄町	1 PROPN 1
+栄益	1 PROPN 1
+栄誉	1 NOUN 1
+栄養	1 NOUN 1
+栗原	1 PROPN 1
+校	11 NOUN 11
+校区	1 NOUN 1
+校名	2 NOUN 2
+校舎	2 NOUN 2
+校長	3 NOUN 3
+株	7 NOUN 7
+株価	5 NOUN 5
+株取引	1 NOUN 1
+株安	1 NOUN 1
+株式	4 NOUN 4
+株式会社	14 NOUN 14
+株式取引所	1 NOUN 1
+株式市場	3 NOUN 3
+核	7 NOUN 7
+核爆弾	2 NOUN 2
+根	2 NOUN 2
+根ざし	1 VERB_根ざす 1
+根付い	2 VERB_根付く 2
+根元	1 NOUN 1
+根底	1 NOUN 1
+根強く	1 ADJ_根強い 1
+根拠	7 NOUN 7
+根本	3 NOUN 3
+根本的	1 ADJ 1
+根気	1 NOUN 1
+根源	1 NOUN 1
+根絶	1 NOUN 1
+根茎	1 NOUN 1
+格	3 NOUN 3
+格好	2 NOUN 2
+格子	1 NOUN 1
+格安	1 NOUN 1
+格差	1 NOUN 1
+格納	2 NOUN 1 VERB 1
+格闘	2 NOUN 2
+格闘技	1 NOUN 1
+栽培	3 VERB 2 NOUN 1
+桁	3 NOUN 3
+桂	3 PROPN 3
+桂南光	1 PROPN 1
+桂子	2 PROPN 2
+桂文珍	1 PROPN 1
+桂木	1 PROPN 1
+桂雀々	1 PROPN 1
+桃園	1 PROPN 1
+桃谷	1 PROPN 1
+案	10 NOUN 10
+案じ	1 VERB_案じる 1
+案内	4 NOUN 3 VERB 1
+案内標識	1 NOUN 1
+桐	1 NOUN 1
+桐朋学園大学	1 PROPN 1
+桐蔭学園	1 PROPN 1
+桐野	1 PROPN 1
+桑原	1 PROPN 1
+桑名	1 PROPN 1
+桑田	2 PROPN 1 NOUN 1
+桜	4 PROPN 4
+桜井	1 PROPN 1
+桜川	3 PROPN 3
+桜田	1 PROPN 1
+桜花	1 NOUN 1
+桟橋	1 NOUN 1
+梃子	1 NOUN 1
+梅	1 NOUN 1
+梅沢	1 PROPN 1
+梅雨時	1 NOUN 1
+梨花	1 PROPN 1
+梶原	1 PROPN 1
+棄て	1 VERB_棄てる 1
+棄却	2 VERB 2
+棋	1 PROPN 1
+棋士	1 NOUN 1
+棋院	1 NOUN 1
+棍	1 PROPN 1
+棒	6 NOUN 6
+棒棒鶏	1 NOUN 1
+棘	1 NOUN 1
+棚	1 NOUN 1
+棟	1 NOUN 1
+棟木	1 NOUN 1
+森	6 PROPN 6
+森吉	1 PROPN 1
+森本	1 PROPN 1
+森林	2 NOUN 2
+森林地帯	1 NOUN 1
+森永製菓	1 PROPN 1
+森田	1 PROPN 1
+森町	1 PROPN 1
+棲ん	1 VERB_棲む 1
+椅子	1 NOUN 1
+植	1 PROPN 1
+植木	1 NOUN 1
+植村	1 PROPN 1
+植栽	1 NOUN 1
+植樹	1 NOUN 1
+植民地支配	1 NOUN 1
+植物	8 NOUN 8
+植田	1 PROPN 1
+椎茸	1 NOUN 1
+検	1 PROPN 1
+検出	2 NOUN 1 VERB 1
+検定試験	1 NOUN 1
+検察	3 NOUN 3
+検挙	3 VERB 3
+検査	20 NOUN 20
+検知	3 VERB 3
+検索	17 NOUN 10 VERB 7
+検討	11 VERB 6 NOUN 5
+検診	1 NOUN 1
+検証	5 VERB 3 NOUN 2
+楊	1 PROPN 1
+楊太	1 PROPN 1
+楕円	2 NOUN 2
+楠木	1 PROPN 1
+業	8 NOUN 8
+業務	13 NOUN 13
+業務上過失致死傷	1 NOUN 1
+業務妨害	1 NOUN 1
+業務提携	1 NOUN 1
+業界	4 NOUN 4
+業界団体	1 NOUN 1
+業績	4 NOUN 4
+業者	9 NOUN 9
+楯	2 NOUN 2
+極	2 NOUN 1 ADV 1
+極み	1 NOUN 1
+極めて	7 ADV 7
+極度	3 NOUN 3
+極彩色	1 NOUN 1
+極東	2 PROPN 2
+極端	1 ADJ 1
+極限	1 VERB 1
+楽	3 ADJ 3
+楽し	12 VERB_楽しむ 11 ADJ_楽しい 1
+楽しい	6 ADJ 6
+楽しく	4 ADJ_楽しい 4
+楽しみ	11 VERB_楽しむ 6 NOUN 5
+楽しん	4 VERB_楽しむ 4
+楽にな	1 VERB_楽になる 1
+楽になり	2 VERB_楽になる 2
+楽器	5 NOUN 5
+楽団	1 NOUN 1
+楽曲	7 NOUN 7
+楽珍	1 NOUN 1
+楽章	4 NOUN 4
+概ね	1 ADV 1
+概念	2 NOUN 2
+概要	2 NOUN 2
+榊原	1 PROPN 1
+榎	1 PROPN 1
+榎本	1 PROPN 1
+榎田	2 PROPN 2
+構え	1 VERB_構える 1
+構わ	1 VERB_構う 1
+構内	2 NOUN 2
+構想	4 NOUN 4
+構成	28 NOUN 14 VERB 14
+構成要素	1 NOUN 1
+構築	7 VERB 4 NOUN 3
+構造	18 NOUN 18
+構造改革	1 NOUN 1
+構造的	1 ADJ 1
+構音	1 NOUN 1
+槌	1 NOUN 1
+槍	1 NOUN 1
+槍投げ	1 NOUN 1
+様	8 NOUN 8
+様々	24 ADJ 24
+様な	2 AUX_ようだ 2
+様に	3 AUX_ようだ 3
+様子	10 NOUN 10
+様式	3 NOUN 3
+様相	2 NOUN 2
+槙原	1 PROPN 1
+槙谷	1 PROPN 1
+樋口	1 PROPN 1
+標	1 PROPN 1
+標榜	2 VERB 2
+標準	4 NOUN 4
+標準化	2 NOUN 1 VERB 1
+標準時	1 NOUN 1
+標準軌	1 NOUN 1
+標的	1 NOUN 1
+標記	2 NOUN 1 VERB 1
+樟樹	1 PROPN 1
+模し	1 VERB_模す 1
+模っ	1 VERB_模る 1
+模倣	2 VERB 2
+模型	2 NOUN 2
+模様	3 NOUN 3
+模索	2 VERB 2
+権	4 NOUN 4
+権利	6 NOUN 6
+権力	8 NOUN 8
+権威	5 NOUN 5
+権威主義体制	1 NOUN 1
+権守	2 PROPN 2
+権現	2 NOUN 2
+権益	1 NOUN 1
+権限	3 NOUN 3
+横	4 NOUN 4
+横ばい	1 NOUN 1
+横光	1 PROPN 1
+横山	3 PROPN 3
+横断	1 NOUN 1
+横断幕	2 NOUN 2
+横浜	3 PROPN 3
+横浜スタジアム	1 PROPN 1
+横浜ベイスターズ	1 PROPN 1
+横田	1 PROPN 1
+横田基地	1 PROPN 1
+横綱	3 NOUN 3
+横越	1 PROPN 1
+樫藤	1 PROPN 1
+樹	2 PROPN 2
+樹上	1 NOUN 1
+樽詰め	1 VERB 1
+橋	8 NOUN 8
+橋下	1 PROPN 1
+橋本	2 PROPN 2
+橋梁	1 NOUN 1
+橋渡し	2 NOUN 2
+橋爪	5 PROPN 5
+橋頭堡	1 NOUN 1
+橘	2 PROPN 2
+機	40 NOUN 40
+機会	19 NOUN 19
+機体	12 NOUN 12
+機動	1 NOUN 1
+機器	8 NOUN 8
+機嫌	1 NOUN 1
+機材	1 NOUN 1
+機械	8 NOUN 8
+機械化	3 NOUN 3
+機械的	1 ADJ 1
+機構	11 NOUN 11
+機甲	1 NOUN 1
+機種	7 NOUN 7
+機能	37 NOUN 37
+機軸	1 NOUN 1
+機運	2 NOUN 2
+機銃	1 NOUN 1
+機長	1 NOUN 1
+機関	8 NOUN 8
+機関車	2 NOUN 2
+檀家	1 NOUN 1
+檣	1 PROPN 1
+櫓	1 NOUN 1
+欠い	2 VERB_欠く 2
+欠かさ	1 VERB_欠かす 1
+欠乏	1 NOUN 1
+欠席	1 NOUN 1
+欠損	1 VERB 1
+欠点	3 NOUN 3
+欠番	1 NOUN 1
+欠落	4 VERB 3 NOUN 1
+欠陥住宅	1 NOUN 1
+次	42 NOUN 42
+次々	2 ADV 2
+次々と	6 ADV 6
+次い	1 VERB_次ぐ 1
+次いで	4 CCONJ 2 ADV 2
+次ぐ	2 VERB 2
+次に	2 ADV 2
+次代	2 NOUN 2
+次元	3 NOUN 3
+次回	3 NOUN 3
+次女	2 NOUN 2
+次官	1 NOUN 1
+次期	1 NOUN 1
+次男	4 NOUN 4
+次第	5 NOUN 5
+次第に	2 ADV 2
+欣子	1 PROPN 1
+欧	5 PROPN 5
+欧州	6 PROPN 5 NOUN 1
+欧州原子力共同体	1 PROPN 1
+欧州石炭鉄鋼共同体	1 PROPN 1
+欧州諸国	1 PROPN 1
+欧文	1 NOUN 1
+欲	2 NOUN 2
+欲しい	5 AUX 4 ADJ 1
+欲しく	1 ADJ_欲しい 1
+歌	10 NOUN 10
+歌い	2 VERB_歌う 2
+歌う	7 VERB 7
+歌っ	1 VERB_歌う 1
+歌わ	1 VERB_歌う 1
+歌人	1 NOUN 1
+歌劇	1 NOUN 1
+歌唱	3 NOUN 2 VERB 1
+歌声	2 NOUN 2
+歌手	3 NOUN 3
+歌舞伎	2 NOUN 2
+歌詞	4 NOUN 4
+歌謡	3 NOUN 3
+歓喜	1 NOUN 1
+歓声	1 NOUN 1
+歓迎	3 VERB 2 NOUN 1
+止	1 NOUN 1
+止まり	1 VERB_止まる 1
+止まる	1 VERB 1
+止め	2 VERB_止める 2
+止める	5 VERB 5
+正	9 NOUN 7 PROPN 2
+正しい	4 ADJ 4
+正しく	5 ADV 4 ADJ_正しい 1
+正三	1 PROPN 1
+正之	1 PROPN 1
+正体	7 NOUN 7
+正信	1 PROPN 1
+正則	1 ADJ 1
+正午	4 NOUN 4
+正友	1 PROPN 1
+正反対	1 ADJ 1
+正和	1 PROPN 1
+正室	2 NOUN 2
+正常	1 ADJ 1
+正平	1 PROPN 1
+正式	10 ADJ 9 NOUN 1
+正式名称	2 NOUN 2
+正当	2 ADJ 2
+正教	1 NOUN 1
+正方形	1 NOUN 1
+正月	1 NOUN 1
+正樹	3 PROPN 3
+正直	5 ADJ 3 NOUN 2
+正真正銘	1 ADJ 1
+正確	5 ADJ 3 NOUN 2
+正経	1 PROPN 1
+正義	4 NOUN 4
+正規	3 NOUN 1 PROPN 1 ADJ 1
+正論	1 NOUN 1
+正門	2 NOUN 2
+正面	4 NOUN 4
+武	5 NOUN 4 PROPN 1
+武勇	1 NOUN 1
+武器	9 NOUN 9
+武夫	1 PROPN 1
+武威	1 NOUN 1
+武家	1 NOUN 1
+武将	1 NOUN 1
+武山	1 PROPN 1
+武幻	1 PROPN 1
+武珍	1 PROPN 1
+武田	2 PROPN 2
+武田信玄	1 PROPN 1
+武臣	2 NOUN 2
+武蔵	2 PROPN 2
+武藤	1 PROPN 1
+武術	2 NOUN 2
+武装	6 NOUN 6
+武装勢力	1 NOUN 1
+武装解除	1 NOUN 1
+武門	1 NOUN 1
+歩	5 NOUN 5
+歩い	4 VERB_歩く 4
+歩か	1 VERB_歩く 1
+歩き	2 VERB_歩く 2
+歩き回ら	1 VERB_歩き回る 1
+歩く	2 VERB 2
+歩兵	4 NOUN 4
+歩道	2 NOUN 2
+歩道橋	1 NOUN 1
+歪ま	1 VERB_歪む 1
+歪み	1 NOUN 1
+歯	2 NOUN 2
+歯並び	1 NOUN 1
+歯科	4 NOUN 4
+歯科医院	1 NOUN 1
+歯茎	1 NOUN 1
+歳	49 NOUN 49
+歳出	1 NOUN 1
+歴代	4 NOUN 4
+歴任	4 VERB 4
+歴史	16 NOUN 16
+歴史公園	1 NOUN 1
+歴史小説	1 NOUN 1
+歴史的	4 ADJ 4
+死	12 NOUN 12
+死に	4 VERB_死ぬ 4
+死に物狂い	1 NOUN 1
+死に際	1 VERB 1
+死ぬ	3 VERB 3
+死ん	3 VERB_死ぬ 3
+死亡	28 VERB 18 NOUN 10
+死体	1 NOUN 1
+死刑	2 NOUN 2
+死刑囚	1 NOUN 1
+死去	21 VERB 18 NOUN 3
+死因	1 NOUN 1
+死後	2 NOUN 2
+死滅	1 VERB 1
+死球	1 NOUN 1
+死産	1 NOUN 1
+死神	3 NOUN 3
+死者	4 NOUN 4
+死肉	1 NOUN 1
+死闘	1 NOUN 1
+死霊	1 NOUN 1
+殆ど	6 ADV 5 NOUN 1
+残	1 VERB_残す 1
+残さ	8 VERB_残す 8
+残し	15 VERB_残す 15
+残っ	6 VERB_残る 6
+残らず	1 ADV 1
+残り	6 NOUN 3 VERB_残る 2 PART 1
+残る	6 VERB 6
+残存	2 VERB 2
+残忍	2 ADJ 2
+残念	11 ADJ 10 NOUN 1
+残高	1 NOUN 1
+殲滅	2 NOUN 2
+殴っ	1 VERB_殴る 1
+殴ら	3 VERB_殴る 3
+殴り	1 VERB_殴る 1
+殴り込み	1 NOUN 1
+段	7 NOUN 7
+段々	1 NOUN 1
+段差	1 NOUN 1
+段階	7 NOUN 7
+殷	2 PROPN 2
+殺さ	4 VERB_殺す 4
+殺し	5 VERB_殺す 4 NOUN 1
+殺す	2 VERB 2
+殺人	2 NOUN 2
+殺人事件	2 NOUN 2
+殺人未遂	1 NOUN 1
+殺人鬼	1 NOUN 1
+殺到	2 VERB 2
+殺害	8 VERB 5 NOUN 3
+殻	1 NOUN 1
+殼	1 PROPN 1
+殿	2 NOUN 2
+殿堂	1 NOUN 1
+毅然	1 NOUN 1
+母	14 NOUN 14
+母体	2 NOUN 2
+母方	2 NOUN 2
+母港	1 NOUN 1
+母艦	2 NOUN 2
+母親	9 NOUN 9
+母音	1 NOUN 1
+毎	8 NOUN 8
+毎回	9 NOUN 9
+毎年	9 NOUN 9
+毎日	8 NOUN 8
+毎日放送	1 PROPN 1
+毎日映画コンクール	1 PROPN 1
+毎晩	1 NOUN 1
+毎月	1 NOUN 1
+毎朝	1 NOUN 1
+毎週	2 NOUN 2
+毒	3 NOUN 3
+毒性	2 NOUN 2
+毒薬	1 NOUN 1
+比	4 NOUN 4
+比べ	19 VERB_比べる 18 NOUN 1
+比べる	8 VERB 8
+比べれ	1 VERB_比べる 1
+比例	2 NOUN 1 VERB 1
+比例区	1 NOUN 1
+比定	1 VERB 1
+比島	1 PROPN 1
+比布	2 PROPN 2
+比率	3 NOUN 3
+比較	7 VERB 6 NOUN 1
+比較的	6 ADV 6
+毘沙門天	1 NOUN 1
+毛	6 NOUN 5 PROPN 1
+毛先	1 NOUN 1
+毛利	1 PROPN 1
+毛衣	1 NOUN 1
+氏	130 NOUN 130 ***
+氏名	2 NOUN 2
+氏子	1 NOUN 1
+氏康	1 PROPN 1
+氏照	1 PROPN 1
+氏直	2 PROPN 2
+氏規	1 PROPN 1
+氏邦	1 PROPN 1
+民	7 NOUN 7
+民主	4 NOUN 4
+民主主義	2 NOUN 2
+民主制度	1 NOUN 1
+民事裁判	2 NOUN 2
+民事訴訟	3 NOUN 3
+民俗	2 NOUN 2
+民兵	3 NOUN 3
+民営化	2 NOUN 2
+民家	1 NOUN 1
+民宿	1 NOUN 1
+民放	4 NOUN 4
+民族	4 NOUN 4
+民族主義	1 NOUN 1
+民族的	1 ADJ 1
+民族音楽	1 NOUN 1
+民衆	3 NOUN 3
+民話	1 NOUN 1
+民謡	1 NOUN 1
+民間	10 NOUN 10
+気	35 NOUN 35
+気さく	3 ADJ 3
+気づ	1 VERB_気づく 1
+気づい	2 VERB_気づく 2
+気づか	1 VERB_気づく 1
+気づき	1 VERB_気づく 1
+気に入っ	5 VERB_気に入る 5
+気に入り	1 VERB_気に入る 1
+気付か	1 VERB_気付く 1
+気付き	1 VERB_気付く 1
+気仙沼	1 PROPN 1
+気体	1 NOUN 1
+気候	3 NOUN 3
+気分	7 NOUN 7
+気功	3 NOUN 3
+気動車	3 NOUN 3
+気味	1 NOUN 1
+気品	3 NOUN 3
+気孔	2 NOUN 2
+気弱	1 ADJ 1
+気弾	1 NOUN 1
+気性	1 NOUN 1
+気持	2 NOUN 2
+気持ち	10 NOUN 10
+気持ちよく	1 ADJ_気持ちよい 1
+気楽	1 ADJ 1
+気温	2 NOUN 2
+気球	1 NOUN 1
+気管支炎	1 NOUN 1
+気象	3 NOUN 3
+気象台	1 NOUN 1
+気象庁	2 PROPN 2
+気質	1 NOUN 1
+気軽	7 ADJ 6 NOUN 1
+気遣い	1 NOUN 1
+気配	2 NOUN 2
+気配り	3 NOUN 3
+氣雷砲	1 NOUN 1
+水	15 NOUN 15
+水上	2 NOUN 2
+水中	2 NOUN 2
+水位	1 NOUN 1
+水俣病	1 NOUN 1
+水兵	1 NOUN 1
+水分	3 NOUN 3
+水原	1 PROPN 1
+水域	2 NOUN 2
+水平尾翼	1 NOUN 1
+水廻り	1 NOUN 1
+水戸	2 PROPN 2
+水揚げ	1 NOUN 1
+水曜日	1 NOUN 1
+水槽	3 NOUN 3
+水泳	2 NOUN 2
+水洗	1 NOUN 1
+水深	2 NOUN 2
+水温	1 NOUN 1
+水源	1 NOUN 1
+水準	7 NOUN 7
+水溶液	1 NOUN 1
+水滴	1 NOUN 1
+水田	3 NOUN 3
+水疱	1 NOUN 1
+水着	2 NOUN 2
+水系	1 NOUN 1
+水素	1 NOUN 1
+水谷	1 PROPN 1
+水車	1 NOUN 1
+水辺	1 NOUN 1
+水道	1 NOUN 1
+水道管	1 NOUN 1
+水郷	2 NOUN 2
+水野	1 PROPN 1
+水量	2 NOUN 2
+水面	4 NOUN 4
+氷	3 NOUN 3
+氷晶	1 NOUN 1
+氷河	1 NOUN 1
+氷河期	1 NOUN 1
+氷点	1 NOUN 1
+氷結	1 NOUN 1
+永	2 PROPN 2
+永久	1 NOUN 1
+永久追放	1 NOUN 1
+永山	1 PROPN 1
+永川	1 PROPN 1
+永眠	1 VERB 1
+永続	1 NOUN 1
+永遠	3 NOUN 3
+汁	1 NOUN 1
+求め	28 VERB_求める 28
+求める	8 VERB 8
+求人	1 NOUN 1
+求職	1 NOUN 1
+汎用	2 NOUN 2
+汗	2 NOUN 2
+汚い	2 ADJ 2
+汚れ	2 VERB_汚れる 1 NOUN 1
+汚名	1 NOUN 1
+汚物	2 NOUN 2
+江利子	1 PROPN 1
+江南	1 PROPN 1
+江南区	1 PROPN 1
+江川	1 PROPN 1
+江州	1 PROPN 1
+江戸	4 PROPN 4
+江戸城	1 PROPN 1
+江戸川	1 PROPN 1
+江戸幕府	1 PROPN 1
+江戸時代	5 PROPN 5
+池	2 NOUN 2
+池上	2 PROPN 2
+池田	5 PROPN 5
+池袋	6 PROPN 6
+池袋駅	1 PROPN 1
+汲ん	1 VERB_汲む 1
+決して	4 ADV 4
+決まっ	2 VERB_決まる 2
+決まら	1 VERB_決まる 1
+決まり	1 NOUN 1
+決まる	3 VERB 3
+決め	20 VERB_決める 20
+決める	6 VERB 6
+決勝	14 NOUN 14
+決定	28 VERB 19 NOUN 9
+決定的	4 ADJ 4
+決意	4 VERB 4
+決戦	1 NOUN 1
+決断	3 NOUN 2 VERB 1
+決済	3 NOUN 2 VERB 1
+決算	4 NOUN 4
+決算期	1 NOUN 1
+決裁	1 NOUN 1
+決議	5 NOUN 4 VERB 1
+決起	1 NOUN 1
+決闘	1 NOUN 1
+汽水	1 NOUN 1
+汽船	1 NOUN 1
+沈ま	1 VERB_沈む 1
+沈めろ	1 VERB_沈める 1
+沈ん	1 VERB_沈む 1
+沈没	1 NOUN 1
+沈痛	1 ADJ 1
+沈降	1 VERB 1
+沈静化	1 VERB 1
+沖	5 NOUN 5
+沖田	4 PROPN 4
+沖縄	3 PROPN 3
+沖縄県警	1 PROPN 1
+沖縄総合事務局	1 PROPN 1
+沖縄開発庁	1 PROPN 1
+沖電気	1 PROPN 1
+沙汰	2 NOUN 2
+没	2 NOUN 2
+没し	1 VERB_没する 1
+没入	1 NOUN 1
+没収	5 VERB 4 NOUN 1
+没後	5 NOUN 5
+没落	2 NOUN 2
+沢井	2 PROPN 2
+沢山	5 NOUN 3 ADJ 2
+沢東	1 PROPN 1
+沱	1 PROPN 1
+河	2 NOUN 2
+河原木	1 PROPN 1
+河口	1 NOUN 1
+河川	2 NOUN 2
+河村	1 PROPN 1
+河畔	3 NOUN 3
+河野	2 PROPN 2
+沸か	1 VERB_沸く 1
+沸く	1 VERB 1
+油	2 NOUN 2
+油商	1 NOUN 1
+油絵	1 NOUN 1
+治	2 VERB_治す 2
+治し	2 VERB_治す 2
+治っ	1 VERB_治る 1
+治まり	1 VERB_治まる 1
+治ら	1 VERB_治る 1
+治世	1 NOUN 1
+治安	2 NOUN 2
+治安維持	3 NOUN 3
+治水	4 NOUN 4
+治療	21 NOUN 20 VERB 1
+治療費	2 NOUN 2
+沼	1 NOUN 1
+沼津	1 PROPN 1
+沿い	4 NOUN 3 VERB_沿う 1
+沿う	1 VERB 1
+沿っ	5 VERB_沿う 5
+沿海州	1 NOUN 1
+沿線	2 NOUN 2
+沿革	2 NOUN 2
+泉	2 PROPN 2
+泉谷	2 PROPN 2
+泉質	2 NOUN 2
+泊	2 NOUN 2
+泊まっ	3 VERB_泊まる 3
+泊まり	2 VERB_泊まる 2
+泊まる	1 VERB 1
+法	27 NOUN 27
+法主	1 NOUN 1
+法人	2 NOUN 2
+法人格	1 NOUN 1
+法令	3 NOUN 3
+法典	1 NOUN 1
+法則	1 NOUN 1
+法務	1 NOUN 1
+法名	1 NOUN 1
+法学	3 NOUN 3
+法学博士	1 NOUN 1
+法学部	3 NOUN 3
+法定	1 NOUN 1
+法廷	2 NOUN 2
+法律	7 NOUN 7
+法律学	2 NOUN 2
+法律行為	1 NOUN 1
+法律関係	1 NOUN 1
+法案	6 NOUN 6
+法的	3 ADJ 3
+法益	2 NOUN 2
+法要	1 NOUN 1
+波	6 NOUN 6
+波動	1 NOUN 1
+波及	2 VERB 2
+波多野	1 PROPN 1
+波形	2 NOUN 2
+波長	4 NOUN 4
+泣か	1 VERB_泣く 1
+泣き	1 VERB_泣く 1
+泣く	1 VERB 1
+泥	1 NOUN 1
+泥棒	1 NOUN 1
+注い	1 VERB_注ぐ 1
+注入	1 VERB 1
+注射	2 NOUN 2
+注意	17 NOUN 11 VERB 6
+注意深く	1 ADJ_注意深い 1
+注文	11 VERB 9 NOUN 2
+注目	11 VERB 6 NOUN 5
+泰三	1 PROPN 1
+泳ぐ	1 VERB 1
+洋	2 NOUN 2
+洋品	1 NOUN 1
+洋平	1 PROPN 1
+洋服	2 NOUN 2
+洋風建築	1 NOUN 1
+洒落	4 NOUN 4
+洒落た	1 ADJ 1
+洗い	1 NOUN 1
+洗剤	1 NOUN 1
+洗浄	1 NOUN 1
+洗浄剤	1 NOUN 1
+洗礼	3 NOUN 3
+洗練	2 NOUN 1 VERB 1
+洗足	1 NOUN 1
+洛陽	1 NOUN 1
+洞	2 PROPN 1 NOUN 1
+洞窟	1 NOUN 1
+津	1 PROPN 1
+津幡	1 PROPN 1
+津波	4 NOUN 4
+津田	1 PROPN 1
+津軽	1 PROPN 1
+津軽三味線	1 PROPN 1
+洪水	2 NOUN 2
+活かさ	1 VERB_活かす 1
+活かし	2 VERB_活かす 2
+活かす	1 VERB 1
+活動	73 NOUN 62 VERB 11
+活性化	3 NOUN 2 VERB 1
+活火山	3 NOUN 3
+活用	15 VERB 10 NOUN 5
+活発	1 ADJ 1
+活躍	22 VERB 14 NOUN 8
+派	21 NOUN 21
+派手	4 ADJ 4
+派生	3 VERB 2 NOUN 1
+派遣	10 VERB 7 NOUN 3
+派閥	1 NOUN 1
+流	6 NOUN 6
+流さ	1 VERB_流す 1
+流し	3 VERB_流す 2 NOUN 1
+流し台	1 NOUN 1
+流し目	1 NOUN 1
+流す	1 VERB 1
+流れ	24 VERB_流れる 14 NOUN 10
+流れる	2 VERB 2
+流れ出る	1 VERB 1
+流儀	1 NOUN 1
+流入	1 VERB 1
+流出	1 VERB 1
+流域	3 NOUN 3
+流布	2 NOUN 2
+流星	1 NOUN 1
+流木	1 NOUN 1
+流氷	1 NOUN 1
+流派	1 NOUN 1
+流産	1 NOUN 1
+流行	9 NOUN 7 VERB 2
+流路	1 NOUN 1
+流通	2 VERB 1 NOUN 1
+浄	5 PROPN 5
+浄土	1 NOUN 1
+浄土真宗	1 NOUN 1
+浄瑠璃	2 NOUN 2
+浅い	3 ADJ 3
+浅井	1 PROPN 1
+浅利	1 PROPN 1
+浅神	1 PROPN 1
+浅間山	1 PROPN 1
+浜	2 PROPN 1 NOUN 1
+浜岡原発	1 PROPN 1
+浜松大学	1 PROPN 1
+浜焼き	1 NOUN 1
+浜田	2 PROPN 2
+浦	2 NOUN 2
+浦和競馬場	1 PROPN 1
+浩	1 PROPN 1
+浩子	1 PROPN 1
+浪人	4 NOUN 3 VERB 1
+浪漫	1 NOUN 1
+浮い	1 VERB_浮く 1
+浮かす	1 VERB 1
+浮かび上がる	1 VERB 1
+浮かぶ	1 VERB 1
+浮かべ	1 VERB_浮かべる 1
+浮かん	1 VERB_浮かぶ 1
+浮き彫り	1 NOUN 1
+浮上	3 VERB 2 NOUN 1
+浮力	1 NOUN 1
+浮標	1 NOUN 1
+浮気	1 VERB 1
+浴	2 NOUN 2
+浴び	1 VERB_浴びる 1
+浴びる	1 VERB 1
+浴場	1 NOUN 1
+海	19 NOUN 19
+海上	2 NOUN 2
+海上保安庁	1 PROPN 1
+海上保安部	1 PROPN 1
+海域	2 NOUN 2
+海外	13 NOUN 13
+海岸	4 NOUN 4
+海岸線	1 NOUN 1
+海峡	2 NOUN 2
+海底	4 NOUN 4
+海戦	2 NOUN 2
+海抜	1 NOUN 1
+海援隊	1 PROPN 1
+海水	4 NOUN 4
+海氷	1 NOUN 1
+海洋	2 NOUN 2
+海洋法	1 NOUN 1
+海王丸	1 PROPN 1
+海自	1 PROPN 1
+海賊	2 NOUN 2
+海軍	11 NOUN 11
+海軍中将	1 NOUN 1
+海軍工廠	1 NOUN 1
+海里	1 NOUN 1
+海防	1 NOUN 1
+海面	1 NOUN 1
+海鮮	3 NOUN 3
+浸水	1 VERB 1
+浸潤	1 NOUN 1
+浸透	2 VERB 1 NOUN 1
+消え	5 VERB_消える 5
+消える	1 VERB 1
+消え行く	1 VERB 1
+消し	3 VERB_消す 3
+消し飛ぶ	1 VERB 1
+消す	1 VERB 1
+消化	1 VERB 1
+消化管	1 NOUN 1
+消失	1 NOUN 1
+消極的	1 ADJ 1
+消滅	7 VERB 5 NOUN 2
+消灯	1 VERB 1
+消耗	1 VERB 1
+消臭	1 NOUN 1
+消臭剤	1 NOUN 1
+消費	5 NOUN 3 VERB 2
+消費者金融	1 NOUN 1
+消防	1 NOUN 1
+消防署	3 NOUN 3
+消防車	1 NOUN 1
+涙	1 NOUN 1
+涙ぐん	1 VERB_涙ぐむ 1
+涙骨	1 NOUN 1
+涯	1 PROPN 1
+液	1 NOUN 1
+液体	1 NOUN 1
+液晶	1 NOUN 1
+液晶テレビ	1 NOUN 1
+液晶ディスプレイ	1 NOUN 1
+液晶画面	1 NOUN 1
+涼しい	1 ADJ 1
+涼子	2 PROPN 2
+涼宮	1 PROPN 1
+淡	2 PROPN 2
+淡路	2 PROPN 2
+深	1 ADJ_深い 1
+深い	7 ADJ 7
+深かっ	1 ADJ_深い 1
+深く	4 ADJ_深い 4
+深まる	1 VERB 1
+深め	2 VERB_深める 2
+深める	3 VERB 3
+深セン	2 PROPN 2
+深刻	1 ADJ 1
+深化	1 VERB 1
+深夜	7 NOUN 7
+深川	1 PROPN 1
+深田	1 PROPN 1
+深見	1 PROPN 1
+淳一	1 PROPN 1
+混ぜ	4 VERB_混ぜる 4
+混み合う	1 VERB 1
+混ん	4 VERB_混む 4
+混乱	7 NOUN 5 VERB 2
+混入	2 VERB 2
+混合	1 VERB 1
+混同	2 VERB 1 NOUN 1
+混在	1 VERB 1
+混迷	1 VERB 1
+混雑	1 VERB 1
+添え	1 VERB_添える 1
+添加	2 VERB 1 NOUN 1
+清	7 PROPN 7
+清らか	2 ADJ 2
+清原	1 PROPN 1
+清川	1 PROPN 1
+清掃	1 VERB 1
+清掃車	1 NOUN 1
+清水	2 NOUN 2
+清水建設	2 PROPN 2
+清治	2 PROPN 2
+清浄	1 NOUN 1
+清潔	4 ADJ 3 NOUN 1
+済	1 NOUN 1
+済ませ	1 VERB_済ませる 1
+済み	5 NOUN 3 VERB_済む 1 AUX 1
+済む	2 VERB 2
+渋々	1 ADV 1
+渋い	1 ADJ 1
+渋っ	2 VERB_渋る 2
+渋木	1 PROPN 1
+渋滞	2 NOUN 1 VERB 1
+渋谷	6 PROPN 6
+渋谷駅	5 PROPN 5
+渓流	1 NOUN 1
+渓谷	1 NOUN 1
+渚	1 NOUN 1
+減	7 NOUN 7
+減っ	4 VERB_減る 4
+減らし	2 VERB_減らす 2
+減らす	1 VERB 1
+減る	3 VERB 3
+減少	15 VERB 9 NOUN 6
+減点	1 VERB 1
+減税	1 VERB 1
+減速	2 NOUN 1 VERB 1
+減量	1 NOUN 1
+渡	1 NOUN 1
+渡さ	2 VERB_渡す 2
+渡し	5 VERB_渡す 5
+渡しし	1 VERB_渡す 1
+渡す	1 VERB 1
+渡っ	5 VERB_渡る 5
+渡り	8 NOUN 6 VERB_渡る 2
+渡る	6 VERB 6
+渡御	1 NOUN 1
+渡月橋	1 PROPN 1
+渡河	1 VERB 1
+渡瀬	1 PROPN 1
+渡米	1 VERB 1
+渡辺	4 PROPN 4
+渡邉	1 PROPN 1
+渡部	1 PROPN 1
+渦	1 NOUN 1
+渦中	1 NOUN 1
+渦巻	1 NOUN 1
+渦巻く	1 VERB 1
+温か	1 ADJ_温かい 1
+温かい	1 ADJ 1
+温ったかい	1 ADJ 1
+温め	1 VERB_温める 1
+温帯	1 NOUN 1
+温度	3 NOUN 3
+温暖	1 ADJ 1
+温水	2 NOUN 2
+温泉	7 NOUN 6 PROPN 1
+測定	10 NOUN 6 VERB 4
+港	9 NOUN 6 PROPN 3
+港区	1 PROPN 1
+港湾施設	1 NOUN 1
+湊	2 PROPN 2
+湖	6 NOUN 6
+湖北	1 PROPN 1
+湖畔	2 NOUN 2
+湯	1 NOUN 1
+湯呑	1 NOUN 1
+湯本	1 PROPN 1
+湾	3 NOUN 3
+湿っ	1 VERB_湿る 1
+湿地	1 NOUN 1
+満	3 NOUN 2 PROPN 1
+満た	2 VERB_満つ 2
+満たす	3 VERB 3
+満ち	2 VERB_満ちる 2
+満了	1 NOUN 1
+満員	2 NOUN 2
+満喫	1 VERB 1
+満州	2 PROPN 2
+満杯	1 NOUN 1
+満点	1 NOUN 1
+満貫	2 NOUN 2
+満足	28 VERB 15 NOUN 10 ADJ 3
+満足げ	1 ADJ 1
+満身	1 NOUN 1
+満載	2 NOUN 1 VERB 1
+満開	1 NOUN 1
+源	5 NOUN 5
+源泉	1 NOUN 1
+準	9 NOUN 9
+準々決勝	2 NOUN 2
+準じ	1 VERB_準じる 1
+準備	11 NOUN 9 VERB 2
+準決勝	5 NOUN 5
+溜まっ	1 VERB_溜まる 1
+溝	1 NOUN 1
+溢れ	5 VERB_溢れる 5
+溶かさ	1 VERB_溶かす 1
+溶媒	4 NOUN 4
+溶岩	1 NOUN 1
+滅ぼさ	1 VERB_滅ぼす 1
+滅ん	1 VERB_滅ぶ 1
+滅亡	6 VERB 3 NOUN 3
+滋賀	1 PROPN 1
+滌	1 PROPN 1
+滑らかさ	1 NOUN 1
+滑走	1 NOUN 1
+滝	5 NOUN 5
+滝織	1 PROPN 1
+滝部	1 PROPN 1
+滞っ	1 VERB_滞る 1
+滞在	7 VERB 4 NOUN 3
+滹	1 PROPN 1
+漁る	1 VERB 1
+漁場	1 NOUN 1
+漁師	2 NOUN 2
+漁業	2 NOUN 2
+漁船	1 NOUN 1
+漂う	3 VERB 3
+漂っ	1 VERB_漂う 1
+漂泊	1 NOUN 1
+漂流	4 NOUN 3 VERB 1
+漂着	1 VERB 1
+漆喰	1 NOUN 1
+漆黒	1 NOUN 1
+漏	1 NOUN 1
+漏れ	1 NOUN 1
+漏洩	1 NOUN 1
+演	5 PROPN 5
+演じ	5 VERB_演じる 5
+演じる	1 VERB 1
+演出	7 VERB 4 NOUN 3
+演奏	9 NOUN 5 VERB 4
+演技	3 NOUN 3
+演歌歌手	1 NOUN 1
+演習	1 NOUN 1
+演習場	2 NOUN 2
+演説	6 NOUN 6
+漕ぎ付け	1 VERB_漕ぎ付ける 1
+漠然	1 NOUN 1
+漢	5 NOUN 5
+漢字	1 NOUN 1
+漫画	8 NOUN 8
+漸く	1 ADV 1
+漸増	1 NOUN 1
+漸近的に	1 ADJ_漸近的だ 1
+潔癖	1 NOUN 1
+潜	3 NOUN 3
+潜っ	1 VERB_潜る 1
+潜む	1 VERB 1
+潜伏	1 VERB 1
+潜入	2 VERB 2
+潜在的	1 ADJ 1
+潟	1 NOUN 1
+潤い	1 NOUN 1
+潰さ	3 VERB_潰す 3
+潰し	1 VERB_潰す 1
+潰す	1 VERB 1
+潰れ	2 VERB_潰れる 2
+澤田	1 PROPN 1
+激しい	5 ADJ 5
+激しく	4 ADJ_激しい 4
+激励	2 VERB 2
+激化	2 VERB 1 NOUN 1
+激戦	2 NOUN 2
+激痛	1 NOUN 1
+激突	1 VERB 1
+濃	1 PROPN 1
+濃い	4 ADJ 4
+濃く	2 ADJ_濃い 2
+濃厚	3 ADJ 3
+濃縮	1 NOUN 1
+濃茶	1 NOUN 1
+濡れ	2 VERB_濡れる 2
+濱口	1 PROPN 1
+濾過	1 NOUN 1
+瀑	1 PROPN 1
+瀕死	1 NOUN 1
+瀬島	1 PROPN 1
+瀬川	1 PROPN 1
+瀬戸内海	2 PROPN 2
+灌	1 PROPN 1
+灘尾	1 PROPN 1
+火	6 NOUN 6
+火の粉	1 NOUN 1
+火力発電	1 NOUN 1
+火器	1 NOUN 1
+火山	4 NOUN 4
+火星	3 NOUN 3
+火球	1 NOUN 1
+火砲	1 NOUN 1
+灯	1 NOUN 1
+灯体	1 NOUN 1
+灯油	1 NOUN 1
+灯火	1 NOUN 1
+灯籠	1 NOUN 1
+灰	1 NOUN 1
+灰色	1 NOUN 1
+灼	1 PROPN 1
+災害	4 NOUN 4
+炉	2 NOUN 2
+炎	2 NOUN 2
+炎症	1 NOUN 1
+炒め	2 VERB_炒める 2
+炒飯	1 NOUN 1
+炭	1 NOUN 1
+炭火	2 NOUN 2
+炭鉱	2 NOUN 2
+点	54 NOUN 54
+点在	2 VERB 2
+点差	3 NOUN 3
+点数	2 NOUN 2
+点検	1 NOUN 1
+点灯	1 VERB 1
+為	24 NOUN 24
+烈火	1 NOUN 1
+烈風	1 NOUN 1
+烏	2 NOUN 2
+烏巣	1 PROPN 1
+無	6 NOUN 6
+無い	23 ADJ 23
+無かっ	7 ADJ_無い 7
+無く	9 ADJ_無い 9
+無くなら	1 VERB_無くなる 1
+無くなり	2 VERB_無くなる 2
+無事	2 NOUN 1 ADJ 1
+無人	2 NOUN 2
+無人駅	1 NOUN 1
+無作為	2 ADJ 2
+無償	1 NOUN 1
+無制限	1 ADJ 1
+無力	1 ADJ 1
+無効	4 NOUN 2 ADJ 2
+無口	1 ADJ 1
+無名	1 ADJ 1
+無害	1 ADJ 1
+無差別	1 ADJ 1
+無情	1 ADJ 1
+無意識	1 NOUN 1
+無数	1 NOUN 1
+無料	12 NOUN 12
+無断	1 NOUN 1
+無期	1 NOUN 1
+無死	1 NOUN 1
+無理	3 ADJ 2 NOUN 1
+無理やり	3 ADV 3
+無理矢理	1 ADV 1
+無知	1 ADJ 1
+無線	1 NOUN 1
+無罪	2 NOUN 2
+無職	2 NOUN 2
+無茶	1 NOUN 1
+無視	1 VERB 1
+無邪気	2 ADJ 2
+無関係	1 ADJ 1
+無関心	1 ADJ 1
+無防備	1 ADJ 1
+無限	1 NOUN 1
+無駄	2 ADJ 1 NOUN 1
+無駄話	1 NOUN 1
+焦げ付か	1 VERB_焦げ付く 1
+焦点	1 NOUN 1
+焦茶	1 NOUN 1
+焼	1 NOUN 1
+焼い	4 VERB_焼く 4
+焼か	2 VERB_焼く 2
+焼き	5 NOUN 3 VERB_焼く 2
+焼き肉	1 NOUN 1
+焼き鳥	1 NOUN 1
+焼く	1 VERB 1
+焼却	2 NOUN 2
+焼失	2 VERB 1 NOUN 1
+焼夷弾	1 NOUN 1
+焼肉	6 NOUN 6
+焼酎	5 NOUN 5
+煎餅	2 NOUN 2
+煙突	3 NOUN 3
+煙草	2 NOUN 2
+照	1 NOUN 1
+照らさ	1 VERB_照らす 1
+照れ	1 VERB_照れる 1
+照明	9 NOUN 9
+照準	1 NOUN 1
+照雲	1 PROPN 1
+煩わし	1 ADJ_煩わしい 1
+煩悶	1 NOUN 1
+煮やし	1 VERB_煮やす 1
+煮付け	1 NOUN 1
+煽っ	1 VERB_煽る 1
+煽ら	1 VERB_煽る 1
+熊	2 NOUN 2
+熊希齢	1 PROPN 1
+熊本	4 PROPN 4
+熊谷	1 PROPN 1
+熟成	1 NOUN 1
+熟練	3 NOUN 2 VERB 1
+熱	7 NOUN 7
+熱々	1 ADJ 1
+熱い	1 ADJ 1
+熱く	1 ADJ_熱い 1
+熱帯	1 NOUN 1
+熱帯林	1 NOUN 1
+熱心	2 ADJ 2
+熱意	1 NOUN 1
+熱愛	1 NOUN 1
+熱湯	1 NOUN 1
+熱血	1 NOUN 1
+熱風	1 NOUN 1
+熾	2 NOUN 2
+燃え	1 VERB_燃える 1
+燃える	1 VERB 1
+燃え上がり	1 VERB_燃え上がる 1
+燃え尽き	1 VERB_燃え尽きる 1
+燃え盛る	1 VERB 1
+燃やし	1 VERB_燃やす 1
+燃島貝層	1 NOUN 1
+燃料	1 NOUN 1
+燃焼	2 NOUN 2
+燃費	2 NOUN 2
+燈籠	1 NOUN 1
+燐	1 NOUN 1
+燕青	1 PROPN 1
+燭	1 NOUN 1
+爆弾	2 NOUN 2
+爆撃	2 NOUN 2
+爆発	4 VERB 2 NOUN 2
+爆発的	1 ADJ 1
+爆破	1 NOUN 1
+爆笑	1 NOUN 1
+爆薬	1 NOUN 1
+爪	1 NOUN 1
+爪痕	1 NOUN 1
+爵位	1 NOUN 1
+父	14 NOUN 14
+父母	1 NOUN 1
+父親	9 NOUN 9
+爽	1 PROPN 1
+爽やか	1 ADJ 1
+爾汝	1 PROPN 1
+片	4 NOUN 4
+片づけ	1 VERB_片づける 1
+片側	2 NOUN 2
+片岡	1 PROPN 1
+片岡千恵蔵	1 PROPN 1
+片腕	1 NOUN 1
+版	38 NOUN 38
+版権	1 NOUN 1
+版画	1 NOUN 1
+牌	3 NOUN 3
+牙	4 NOUN 4
+牛	4 NOUN 4
+牛丼	1 NOUN 1
+牛肉	2 NOUN 2
+牝鹿	1 NOUN 1
+牟田	1 PROPN 1
+牡丹	1 NOUN 1
+牡蠣	2 NOUN 2
+牢獄	1 NOUN 1
+牧	2 PROPN 2
+牧師	3 NOUN 3
+牧草	1 NOUN 1
+物	18 NOUN 18
+物まね	3 NOUN 3
+物事	3 NOUN 3
+物件	7 NOUN 7
+物体	1 NOUN 1
+物心	1 NOUN 1
+物流	1 NOUN 1
+物理	1 NOUN 1
+物理化学	1 NOUN 1
+物理学	1 NOUN 1
+物理的	1 ADJ 1
+物知り	1 NOUN 1
+物納	1 NOUN 1
+物腰	1 NOUN 1
+物色	1 NOUN 1
+物語	14 NOUN 14
+物語っ	1 VERB_物語る 1
+物語る	2 VERB 2
+物資	2 NOUN 2
+物質	8 NOUN 8
+物足りな	1 ADJ_物足りない 1
+物部	1 PROPN 1
+物静か	1 ADJ 1
+特	1 PROPN 1
+特に	38 ADV 38
+特例	1 NOUN 1
+特典	4 NOUN 4
+特別	15 ADJ 8 NOUN 7
+特別会計	1 NOUN 1
+特化	2 VERB 2
+特区	1 NOUN 1
+特命	1 NOUN 1
+特売	1 NOUN 1
+特定	15 NOUN 8 VERB 4 ADJ 3
+特徴	27 NOUN 27
+特急	7 NOUN 7
+特性	4 NOUN 4
+特技	2 NOUN 2
+特捜部	1 NOUN 1
+特撮	2 NOUN 2
+特攻	5 NOUN 4 VERB 1
+特有	4 NOUN 2 ADJ 2
+特権	1 NOUN 1
+特殊	10 ADJ 7 NOUN 3
+特殊技術	1 NOUN 1
+特牛	1 PROPN 1
+特番	3 NOUN 3
+特異	1 NOUN 1
+特筆	2 VERB 2
+特級	1 NOUN 1
+特色	1 NOUN 1
+特製	3 NOUN 3
+特訓	1 NOUN 1
+特設	1 NOUN 1
+特許	2 NOUN 2
+特集	5 NOUN 5
+特養ホーム	2 NOUN 2
+牽引	1 VERB 1
+犂	1 PROPN 1
+犠牲	2 NOUN 2
+犬	20 NOUN 20
+犬猿の仲	1 NOUN 1
+犯	4 NOUN 4
+犯さ	1 VERB_犯す 1
+犯し	1 VERB_犯す 1
+犯す	1 VERB 1
+犯人	4 NOUN 4
+犯罪	11 NOUN 11
+犯罪組織	1 NOUN 1
+犯行	3 NOUN 3
+状	11 NOUN 11
+状態	47 NOUN 47
+状況	27 NOUN 27
+狂乱	1 NOUN 1
+狂気	1 NOUN 1
+狐	1 NOUN 1
+狙い	10 NOUN 8 VERB_狙う 2
+狙う	3 VERB 3
+狙っ	6 VERB_狙う 6
+狙わ	2 VERB_狙う 2
+狙撃	2 NOUN 2
+狡猾	1 ADJ 1
+狩猟	1 NOUN 1
+狩野	1 PROPN 1
+独	3 PROPN 3
+独り言	1 NOUN 1
+独占	4 VERB 4
+独奏	1 NOUN 1
+独断	1 NOUN 1
+独特	4 NOUN 2 ADJ 2
+独立	15 NOUN 5 ADJ 5 VERB 5
+独自	11 ADJ 9 NOUN 2
+独身	4 NOUN 4
+狭い	2 ADJ 2
+狭く	2 ADJ_狭い 2
+狭義	2 NOUN 2
+狭苦しく	1 ADJ_狭苦しい 1
+狼	5 PROPN 5
+猛	3 PROPN 3
+猛勉	1 NOUN 1
+猛暑	1 NOUN 1
+猛然と	2 ADV 2
+猟場	1 NOUN 1
+猟師	1 NOUN 1
+猟犬	3 NOUN 3
+猟銃	1 NOUN 1
+猪俣	1 PROPN 1
+猪苗代湖	1 PROPN 1
+猫	4 NOUN 4
+猫舌	1 NOUN 1
+献金	7 NOUN 5 VERB 2
+獄中	1 NOUN 1
+獅子	3 NOUN 3
+獅山	1 PROPN 1
+獣	4 NOUN 4
+獲得	24 VERB 20 NOUN 4
+玄	3 PROPN 3
+玄宗	1 PROPN 1
+玄武岩	1 NOUN 1
+玄関	4 NOUN 4
+率	13 NOUN 13
+率い	7 VERB_率いる 7
+率いる	9 VERB 9
+玉	2 NOUN 2
+玉ねぎ	1 NOUN 1
+玉川	1 PROPN 1
+玉津	1 PROPN 1
+玉置	1 PROPN 1
+王	27 NOUN 24 PROPN 3
+王位	2 NOUN 2
+王位継承	2 NOUN 2
+王国	8 NOUN 8
+王子	8 NOUN 8
+王子製紙	1 PROPN 1
+王宮	2 NOUN 2
+王家	2 NOUN 2
+王将	5 NOUN 5
+王座	15 NOUN 15
+王政復古	1 NOUN 1
+王族	1 NOUN 1
+王朝	3 NOUN 3
+王様	2 NOUN 2
+王権	2 NOUN 2
+王者	12 NOUN 12
+王都	1 NOUN 1
+玻璃	1 NOUN 1
+珈琲	2 NOUN 2
+珊瑚礁	1 NOUN 1
+珍	1 NOUN 1
+珍しい	5 ADJ 5
+珍しく	2 ADJ_珍しい 2
+珠洲	1 PROPN 1
+班	2 NOUN 2
+班長	1 NOUN 1
+現	10 NOUN 10
+現し	1 VERB_現す 1
+現に	1 ADV 1
+現れ	14 VERB_現れる 14
+現れる	7 VERB 7
+現世	1 NOUN 1
+現代	13 NOUN 13
+現代音楽	1 NOUN 1
+現在	103 NOUN 103 ***
+現地	3 NOUN 3
+現場	15 NOUN 15
+現存	2 NOUN 1 VERB 1
+現実	11 NOUN 11
+現役	8 NOUN 8
+現役引退	2 NOUN 2
+現時	2 NOUN 2
+現物	1 NOUN 1
+現状	2 NOUN 2
+現職	3 NOUN 3
+現行	2 NOUN 2
+現行犯逮捕	1 VERB 1
+現象	4 NOUN 4
+現道	1 NOUN 1
+現金	4 NOUN 4
+球	6 NOUN 6
+球体	1 NOUN 1
+球団	4 NOUN 4
+球場	2 NOUN 2
+球技	1 NOUN 1
+球界	3 NOUN 3
+球速	1 NOUN 1
+理不尽	1 ADJ 1
+理事	4 NOUN 4
+理屈	3 NOUN 3
+理性的	1 ADJ 1
+理恵子	1 PROPN 1
+理想	1 NOUN 1
+理想主義	1 NOUN 1
+理由	28 NOUN 28
+理由なく	1 ADJ_理由ない 1
+理研	1 PROPN 1
+理科	1 NOUN 1
+理科系	1 NOUN 1
+理解	12 NOUN 7 VERB 5
+理論	12 NOUN 12
+理論的	2 ADJ 2
+琉球	2 NOUN 2
+琴似	1 PROPN 1
+琴音	1 PROPN 1
+琵琶湖	2 PROPN 2
+瑛	1 PROPN 1
+瑞宝章	1 NOUN 1
+瑠	1 PROPN 1
+瑠璃子	1 PROPN 1
+環	6 PROPN 6
+環境	16 NOUN 16
+環境保護	1 NOUN 1
+環境科学	1 NOUN 1
+環状	1 NOUN 1
+環礁	2 NOUN 2
+瓜生	1 PROPN 1
+瓦	1 NOUN 1
+瓦礫	1 NOUN 1
+瓶	1 NOUN 1
+甍	1 NOUN 1
+甘	2 PROPN 1 ADJ_甘い 1
+甘い	2 ADJ 2
+甘く	1 ADJ_甘い 1
+甘やかし	1 NOUN 1
+甘口	1 ADJ 1
+甘寧	1 PROPN 1
+甘木	2 PROPN 2
+甚大	1 ADJ 1
+生	16 NOUN 16
+生い立ち	2 NOUN 2
+生い茂る	1 VERB 1
+生え	4 VERB_生える 4
+生かし	3 VERB_生かす 3
+生かす	1 VERB 1
+生き	9 VERB_生きる 8 NOUN 1
+生きる	5 VERB 5
+生き延び	1 VERB_生き延びる 1
+生き残り	1 NOUN 1
+生じ	8 VERB_生じる 8
+生じる	5 VERB 5
+生ずる	1 VERB 1
+生まれ	26 VERB_生まれる 15 NOUN 11
+生まれる	5 VERB 5
+生み出し	3 VERB_生み出す 3
+生む	1 VERB 1
+生れ	1 VERB_生れる 1
+生ん	1 VERB_生む 1
+生中継	1 VERB 1
+生体	1 NOUN 1
+生半可	1 ADJ 1
+生協	1 NOUN 1
+生合成	2 NOUN 2
+生命	6 NOUN 6
+生命保険会社	1 NOUN 1
+生命科学	1 NOUN 1
+生地	2 NOUN 2
+生存	2 NOUN 1 VERB 1
+生島	1 PROPN 1
+生年月日	1 NOUN 1
+生後	1 NOUN 1
+生徒	16 NOUN 16
+生息	3 VERB 3
+生態学	3 NOUN 3
+生態系	2 NOUN 2
+生憎	1 ADV 1
+生成	3 VERB 2 NOUN 1
+生成文法	1 NOUN 1
+生放送	2 NOUN 2
+生検	1 NOUN 1
+生業	1 NOUN 1
+生死	2 NOUN 2
+生殖	1 NOUN 1
+生殺与奪	1 NOUN 1
+生活	29 NOUN 24 VERB 5
+生活保護	2 NOUN 2
+生活環境	2 NOUN 2
+生活費	1 NOUN 1
+生涯	5 NOUN 5
+生演奏	2 NOUN 2
+生瀬	1 PROPN 1
+生物	6 NOUN 6
+生産	17 NOUN 11 VERB 6
+生産手段	1 NOUN 1
+生産技術	1 NOUN 1
+生田	1 PROPN 1
+生真面目	1 ADJ 1
+生育	1 NOUN 1
+生臭い	1 ADJ 1
+生臭く	1 ADJ_生臭い 1
+生花	1 NOUN 1
+生菓子	1 NOUN 1
+生計	1 NOUN 1
+生誕	1 NOUN 1
+生贄	1 NOUN 1
+生身	1 NOUN 1
+生還	1 VERB 1
+産	5 NOUN 5
+産む	1 VERB 1
+産ん	1 VERB_産む 1
+産卵	2 NOUN 1 VERB 1
+産品	1 NOUN 1
+産地	4 NOUN 4
+産廃	1 NOUN 1
+産所	1 NOUN 1
+産業	14 NOUN 14
+産経	1 PROPN 1
+甥	4 NOUN 4
+用	50 NOUN 50
+用い	34 VERB_用いる 34
+用いる	8 VERB 8
+用事	1 NOUN 1
+用件	3 NOUN 3
+用具	1 NOUN 1
+用品	1 NOUN 1
+用心	1 NOUN 1
+用意	11 VERB 10 NOUN 1
+用紙	7 NOUN 7
+用語	2 NOUN 2
+用途	7 NOUN 7
+甪	1 PROPN 1
+田	3 NOUN 3
+田中	6 PROPN 6
+田井	1 PROPN 1
+田北	1 PROPN 1
+田口	1 PROPN 1
+田和	1 PROPN 1
+田地	1 NOUN 1
+田村	1 PROPN 1
+田舎	4 NOUN 4
+田辺	1 PROPN 1
+田酒	1 PROPN 1
+田鶴子	1 PROPN 1
+由	1 NOUN 1
+由伸	1 PROPN 1
+由来	9 NOUN 5 VERB 4
+由貴	1 PROPN 1
+由飛	1 PROPN 1
+甲	1 NOUN 1
+甲南	1 PROPN 1
+甲子園	1 PROPN 1
+甲子園球場	1 NOUN 1
+甲斐	1 NOUN 1
+甲板	1 NOUN 1
+申し	1 VERB_申す 1
+申し上げ	4 VERB_申し上げる 4
+申し入れ	3 VERB_申し入れる 2 NOUN 1
+申し合わせ	1 VERB_申し合わせる 1
+申し添え	1 VERB_申し添える 1
+申し立て	3 NOUN 3
+申し訳	1 NOUN 1
+申し訳ない	1 ADJ 1
+申し込み	1 VERB_申し込む 1
+申入	1 NOUN 1
+申告	2 NOUN 2
+申立	1 NOUN 1
+申請	6 NOUN 4 VERB 2
+申込	1 NOUN 1
+申込み	1 VERB_申込む 1
+男	18 NOUN 18
+男の子	4 NOUN 4
+男女	4 NOUN 4
+男子	10 NOUN 10
+男役	1 NOUN 1
+男性	36 NOUN 36
+男爵	2 NOUN 2
+町	32 NOUN 32
+町中	3 NOUN 3
+町名	3 NOUN 3
+町役場	1 NOUN 1
+町村	2 NOUN 2
+町長	1 NOUN 1
+画	3 NOUN 3
+画す	2 VERB_画する 2
+画像	10 NOUN 10
+画家	3 NOUN 3
+画期的	1 ADJ 1
+画質	1 NOUN 1
+画面	8 NOUN 8
+界	12 NOUN 12
+畑作	1 NOUN 1
+留まっ	4 VERB_留まる 4
+留まら	1 VERB_留まる 1
+留まる	3 VERB 3
+留保	1 VERB 1
+留学	2 VERB 1 NOUN 1
+留守	3 NOUN 3
+留置	2 NOUN 2
+留萌	2 PROPN 2
+留鳥	1 NOUN 1
+略	1 VERB 1
+略す	1 VERB 1
+略奪	1 VERB 1
+略式	1 ADJ 1
+略称	8 NOUN 8
+番	40 NOUN 39 VERB 1
+番台	1 NOUN 1
+番号	6 NOUN 6
+番地	1 NOUN 1
+番手	2 NOUN 2
+番組	26 NOUN 26
+異	3 NOUN 3
+異なっ	4 VERB_異なる 4
+異なり	10 VERB_異なる 10
+異なる	15 VERB 15
+異例	2 NOUN 2
+異動	3 NOUN 3
+異名	1 NOUN 1
+異国	2 NOUN 2
+異常	5 NOUN 3 ADJ 2
+異教徒	1 NOUN 1
+異様	2 ADJ 1 NOUN 1
+異種	2 NOUN 2
+異色	1 ADJ 1
+異論	2 NOUN 2
+異議	1 NOUN 1
+疎かっ	1 ADJ_疎い 1
+疎く	1 ADJ_疎い 1
+疎ま	2 VERB_疎む 2
+疎通	1 NOUN 1
+疎開	2 NOUN 2
+疑い	5 NOUN 4 VERB_疑う 1
+疑っ	2 VERB_疑う 2
+疑わ	1 VERB_疑う 1
+疑似	1 NOUN 1
+疑問	5 NOUN 3 ADJ 2
+疑問視	1 VERB 1
+疑惑	5 NOUN 5
+疲れ	6 VERB_疲れる 4 NOUN 2
+疲れ果て	1 VERB_疲れ果てる 1
+疲労	3 NOUN 3
+疲弊	1 NOUN 1
+疹	1 PROPN 1
+疾患	1 NOUN 1
+疾風	1 NOUN 1
+病	5 NOUN 5
+病み	1 VERB_病む 1
+病原菌	1 NOUN 1
+病変	2 NOUN 2
+病気	9 NOUN 9
+病状	1 NOUN 1
+病理	2 NOUN 2
+病院	24 NOUN 24
+症	4 NOUN 4
+症状	6 NOUN 6
+痕	2 NOUN 2
+痕跡	3 NOUN 3
+痛い	1 ADJ 1
+痛かっ	1 ADJ_痛い 1
+痛く	3 ADJ_痛い 2 ADV 1
+痛み	6 NOUN 6
+痛め	4 VERB_痛める 4
+痛ん	1 VERB_痛む 1
+痛手	1 NOUN 1
+痛烈	1 ADJ 1
+痩せ	2 VERB_痩せる 2
+痩せこけ	1 VERB_痩せこける 1
+痴呆	1 NOUN 1
+療法	2 NOUN 2
+癒え	1 VERB_癒える 1
+癒さ	4 VERB_癒す 4
+癒し	1 VERB_癒す 1
+癒す	1 VERB 1
+癒やし	1 VERB_癒やす 1
+癖	1 NOUN 1
+発	10 NOUN 10
+発し	2 VERB_発する 2
+発する	1 VERB 1
+発令	2 VERB 1 NOUN 1
+発信	7 NOUN 4 VERB 3
+発光ダイオード	1 NOUN 1
+発動	4 VERB 3 NOUN 1
+発句	1 NOUN 1
+発売	42 VERB 29 NOUN 13
+発射	6 NOUN 3 VERB 3
+発展	17 NOUN 10 VERB 7
+発布	2 VERB 2
+発掘	1 VERB 1
+発揮	11 VERB 11
+発散	2 VERB 2
+発明	1 VERB 1
+発毛	1 NOUN 1
+発泡スチロール	1 NOUN 1
+発注	2 VERB 1 NOUN 1
+発生	28 VERB 23 NOUN 5
+発着	5 NOUN 4 VERB 1
+発端	1 NOUN 1
+発育	1 VERB 1
+発行	19 NOUN 12 VERB 7
+発表	57 VERB 45 NOUN 12
+発見	14 VERB 11 NOUN 3
+発覚	4 NOUN 2 VERB 2
+発言	10 NOUN 7 VERB 3
+発話	1 NOUN 1
+発足	9 NOUN 6 VERB 3
+発車	5 NOUN 3 VERB 2
+発送	1 NOUN 1
+発進	3 VERB 2 NOUN 1
+発達	5 NOUN 3 VERB 2
+発電	4 NOUN 3 VERB 1
+発電設備	1 NOUN 1
+発音	1 NOUN 1
+登っ	2 VERB_登る 2
+登場	60 VERB 48 NOUN 12
+登壇	1 VERB 1
+登山	3 NOUN 3
+登山道	1 NOUN 1
+登板	6 NOUN 6
+登用	1 NOUN 1
+登美	1 PROPN 1
+登美子	1 PROPN 1
+登記	1 NOUN 1
+登録	11 NOUN 8 VERB 3
+白	9 NOUN 8 PROPN 1
+白い	4 ADJ 4
+白き	1 ADJ_白い 1
+白ワイン	2 NOUN 2
+白人	2 NOUN 2
+白内障	1 NOUN 1
+白夜	1 NOUN 1
+白川	2 PROPN 2
+白族	1 NOUN 1
+白板	1 NOUN 1
+白熱	1 NOUN 1
+白玉	1 NOUN 1
+白目	1 NOUN 1
+白石	1 PROPN 1
+白色	1 NOUN 1
+白身	1 NOUN 1
+白銀	1 NOUN 1
+白馬	1 NOUN 1
+白骨	1 NOUN 1
+白骨化	1 VERB 1
+白鯨	1 NOUN 1
+白鳥	2 NOUN 2
+白鵬	3 PROPN 3
+白黒	1 NOUN 1
+百	9 NUM 8 NOUN 1
+百合子	1 PROPN 1
+百子	1 PROPN 1
+的	16 ADJ_的だ 14 NOUN 2
+的で	7 ADJ_的だ 7
+的な	24 ADJ_的だ 24
+的に	16 ADJ_的だ 16
+的中	1 VERB 1
+的確	3 ADJ 3
+皆	6 PRON 4 NOUN 2
+皆さま	1 PRON 1
+皆さん	8 PRON 8
+皆様	3 PRON 3
+皆無	2 NOUN 2
+皇位	1 NOUN 1
+皇太子	1 NOUN 1
+皇子	2 NOUN 2
+皇室	2 NOUN 2
+皇帝	14 NOUN 14
+皓	2 PROPN 2
+皮	3 NOUN 3
+皮切り	1 NOUN 1
+皮肉	4 ADJ 3 NOUN 1
+皮肉っ	1 VERB_皮肉る 1
+皮膚	1 NOUN 1
+皺寄せ	1 NOUN 1
+皿	2 NOUN 2
+盆	1 NOUN 1
+盆地	2 NOUN 2
+益田	1 PROPN 1
+盗み見	1 VERB 1
+盗む	1 VERB 1
+盗塁	1 NOUN 1
+盗撮	2 VERB 2
+盗賊	1 NOUN 1
+盛	1 NOUN 1
+盛り	2 NOUN 2
+盛り付け	1 VERB_盛り付ける 1
+盛ん	4 ADJ 4
+盛岡	4 PROPN 4
+盛期	1 NOUN 1
+盛況	1 NOUN 1
+監	1 PROPN 1
+監査	1 NOUN 1
+監理	1 NOUN 1
+監督	31 NOUN 30 VERB 1
+監禁	6 NOUN 4 VERB 2
+監視	1 NOUN 1
+監訳	1 NOUN 1
+盤	5 NOUN 5
+目	123 NOUN 123 ***
+目の当たりにし	1 VERB_目の当たりにする 1
+目元	1 NOUN 1
+目先	1 NOUN 1
+目安	3 NOUN 3
+目当て	2 NOUN 2
+目抜き通り	1 NOUN 1
+目指し	14 VERB_目指す 14
+目指す	10 VERB 10
+目撃	3 VERB 3
+目標	5 NOUN 5
+目玉	1 NOUN 1
+目的	27 NOUN 27
+目立ち	1 VERB_目立つ 1
+目立っ	4 VERB_目立つ 4
+目覚め	1 NOUN 1
+目詰まり	1 NOUN 1
+目録	2 NOUN 2
+目隠し	1 NOUN 1
+目黒	2 PROPN 2
+盲目	1 NOUN 1
+直	7 ADV 5 NOUN 2
+直ぐ	1 ADV 1
+直さ	2 AUX_直す 2
+直し	7 AUX_直す 4 NOUN 2 VERB_直す 1
+直す	2 AUX 2
+直ちに	2 ADV 2
+直ら	1 VERB_直る 1
+直る	1 VERB 1
+直下	1 NOUN 1
+直列	2 NOUN 2
+直前	5 NOUN 5
+直営	1 NOUN 1
+直垂	1 NOUN 1
+直売	1 NOUN 1
+直径	3 PART 3
+直後	13 NOUN 13
+直志	1 PROPN 1
+直感的	1 ADJ 1
+直接	13 ADV 10 NOUN 3
+直樹	1 PROPN 1
+直球	1 NOUN 1
+直系	2 NOUN 2
+直結	2 VERB 2
+直線	2 NOUN 2
+直美	1 PROPN 1
+直行	1 VERB 1
+直言	1 NOUN 1
+直訴	1 VERB 1
+直送	1 NOUN 1
+直通	1 PROPN 1
+直通運転	1 VERB 1
+直面	1 VERB 1
+相	8 NOUN 8
+相まっ	2 VERB_相まつ 2
+相互	4 NOUN 4
+相俟っ	1 VERB_相俟つ 1
+相場	5 NOUN 5
+相対	3 NOUN 3
+相対的	1 ADJ 1
+相当	16 VERB 8 NOUN 5 ADJ 2 ADV 1
+相応	1 NOUN 1
+相思	3 NOUN 3
+相性	4 NOUN 4
+相愛	3 NOUN 3
+相手	34 NOUN 34
+相手方	2 NOUN 2
+相棒	2 NOUN 2
+相次い	6 VERB_相次ぐ 6
+相次ぐ	1 VERB 1
+相殺	1 NOUN 1
+相続	5 NOUN 3 VERB 2
+相補	1 NOUN 1
+相談	12 NOUN 7 VERB 5
+相違	1 NOUN 1
+相関	2 NOUN 1 VERB 1
+相龍	1 PROPN 1
+盾	3 NOUN 3
+省	6 NOUN 6
+省き	1 VERB_省く 1
+省略	2 VERB 1 NOUN 1
+眉	1 NOUN 1
+眉毛	1 NOUN 1
+看取っ	1 VERB_看取る 1
+看守	1 NOUN 1
+看板	4 NOUN 4
+看護	2 NOUN 2
+看護師	2 NOUN 2
+看過	1 VERB 1
+県	26 NOUN 26
+県内	4 NOUN 4
+県政	1 NOUN 1
+県民	1 NOUN 1
+県立	2 NOUN 2
+県警	7 NOUN 7
+県議	1 NOUN 1
+県連	3 NOUN 3
+県道	3 NOUN 3
+真	9 NOUN 8 PROPN 1
+真っ	2 NOUN 2
+真っ盛り	1 NOUN 1
+真っ黒	1 NOUN 1
+真に	2 ADV 2
+真の	5 ADJ 5
+真下	1 NOUN 1
+真似	2 VERB_真似る 2
+真価	1 NOUN 1
+真剣	5 ADJ 5
+真千子	1 PROPN 1
+真名	1 NOUN 1
+真名子	2 PROPN 2
+真実	5 NOUN 3 ADJ 2
+真岡	1 PROPN 1
+真意	1 NOUN 1
+真摯	2 ADJ 2
+真横	1 NOUN 1
+真澄	1 PROPN 1
+真珠湾	2 PROPN 2
+真珠湾攻撃	2 NOUN 2
+真理	10 NOUN 10
+真琴	3 PROPN 3
+真田	1 NOUN 1
+真相	1 NOUN 1
+真部	1 PROPN 1
+真野	1 PROPN 1
+真駒内	1 PROPN 1
+眠	2 VERB_眠る 2
+眠く	1 ADJ_眠い 1
+眠り	4 VERB_眠る 3 NOUN 1
+眠る	2 VERB 2
+眺め	2 VERB_眺める 2
+眺める	1 VERB 1
+眺望	1 NOUN 1
+眼	4 NOUN 4
+眼下	1 NOUN 1
+眼帯	1 NOUN 1
+眼球	2 NOUN 2
+眼科	1 NOUN 1
+眼窩	3 NOUN 3
+眼鏡	6 NOUN 6
+眼鏡っ娘	1 NOUN 1
+着	16 NOUN 14 VERB_着る 2
+着い	3 VERB_着く 3
+着か	1 VERB_着く 1
+着く	1 VERB 1
+着け	1 VERB_着ける 1
+着こなし	1 NOUN 1
+着せ	1 VERB_着せる 1
+着付け	1 NOUN 1
+着任	1 VERB 1
+着信	1 NOUN 1
+着実	1 ADJ 1
+着工	4 NOUN 2 VERB 2
+着想	1 NOUN 1
+着手	4 VERB 3 NOUN 1
+着用	2 VERB 2
+着目	1 VERB 1
+着脱可能	1 ADJ 1
+着色料	1 NOUN 1
+睡眠	2 NOUN 2
+睡眠薬	1 NOUN 1
+睨まれ	1 VERB_睨まれる 1
+瞬	1 PROPN 1
+瞬間	4 NOUN 4
+瞳	3 PROPN 3
+矛盾	2 NOUN 2
+矢	2 NOUN 2
+矢代	2 PROPN 2
+矢印	2 NOUN 2
+矢口	1 PROPN 1
+矢追	1 PROPN 1
+矢部	1 PROPN 1
+矢野	1 PROPN 1
+知	1 NOUN 1
+知っ	12 VERB_知る 12
+知ったかぶり	1 NOUN 1
+知ら	41 VERB_知る 41
+知らさ	1 VERB_知らす 1
+知らず知らず	1 ADV 1
+知らせ	3 VERB_知らせる 2 NOUN 1
+知らせる	1 VERB 1
+知り	6 VERB_知る 6
+知り合っ	1 VERB_知り合う 1
+知る	9 VERB 9
+知れ	1 VERB_知れる 1
+知れ渡っ	1 VERB_知れ渡る 1
+知事	10 NOUN 10
+知人	3 NOUN 3
+知力	1 NOUN 1
+知名度	2 NOUN 2
+知恵	4 NOUN 4
+知美	1 PROPN 1
+知育	1 NOUN 1
+知識	3 NOUN 3
+短	8 NOUN 8
+短い	8 ADJ 8
+短く	2 ADJ_短い 2
+短め	2 ADJ 2
+短パン	1 NOUN 1
+短期	3 NOUN 3
+短期大学	2 NOUN 2
+短編	2 NOUN 2
+短縮	1 VERB 1
+短距離走	1 NOUN 1
+矯正	2 NOUN 1 VERB 1
+石	11 NOUN 11
+石井	2 PROPN 2
+石化	1 VERB 1
+石北線	1 PROPN 1
+石原	2 PROPN 2
+石器	2 NOUN 2
+石室	1 NOUN 1
+石川	2 PROPN 2
+石材	1 NOUN 1
+石油	2 NOUN 2
+石油化学	1 NOUN 1
+石灰岩	1 NOUN 1
+石炭	1 NOUN 1
+石田	3 PROPN 3
+石田一	1 PROPN 1
+石畳	1 NOUN 1
+石碑	2 NOUN 2
+石膏	1 NOUN 1
+石英	1 NOUN 1
+石鏃	1 NOUN 1
+砂	1 NOUN 1
+砂糖	1 NOUN 1
+研	1 NOUN 1
+研修	5 NOUN 4 VERB 1
+研究	34 NOUN 24 VERB 10
+研究室	1 NOUN 1
+研究所	4 NOUN 4
+砦	10 NOUN 10
+砲	7 NOUN 7
+砲丸	1 NOUN 1
+砲台	1 NOUN 1
+砲塔	5 NOUN 5
+砲弾	1 NOUN 1
+砲撃	3 VERB 2 NOUN 1
+砲術	2 NOUN 2
+砲身	1 NOUN 1
+破	1 NOUN 1
+破っ	4 VERB_破る 4
+破り	2 NOUN 1 VERB_破る 1
+破る	1 VERB 1
+破壊	8 VERB 5 NOUN 3
+破局	1 VERB 1
+破損	1 VERB 1
+破棄	1 VERB 1
+破滅	1 NOUN 1
+破産	2 NOUN 2
+破綻	1 NOUN 1
+破裂	1 VERB 1
+破面	1 NOUN 1
+硝酸	1 NOUN 1
+硝酸アンモニウム	1 NOUN 1
+硫酸	2 NOUN 2
+硫黄	1 NOUN 1
+硬化	1 VERB 1
+硬度	1 NOUN 1
+硬式	1 NOUN 1
+碇	1 PROPN 1
+碑	1 NOUN 1
+碑文	2 NOUN 2
+碑石	1 NOUN 1
+確か	11 ADJ 10 ADV 1
+確かめ	1 VERB_確かめる 1
+確保	11 VERB 10 NOUN 1
+確信	3 VERB 3
+確固たる	1 ADJ 1
+確執	1 NOUN 1
+確定	5 VERB 5
+確実	2 ADJ 2
+確率	3 NOUN 3
+確立	6 VERB 6
+確約	1 VERB 1
+確証	2 NOUN 2
+確認	28 VERB 26 NOUN 2
+磁	1 PROPN 1
+磁器	1 NOUN 1
+磁場	1 NOUN 1
+磁気浮上	1 NOUN 1
+磁石	2 NOUN 2
+磐	1 PROPN 1
+磐田	2 PROPN 2
+磐石	1 NOUN 1
+磔	1 NOUN 1
+磨き	1 NOUN 1
+磨く	1 VERB 1
+磯部	3 PROPN 3
+示さ	4 VERB_示す 4
+示し	18 VERB_示す 18
+示す	12 VERB 12
+示唆	3 VERB 3
+示現	4 NOUN 4
+礼	4 NOUN 4
+礼拝堂	1 NOUN 1
+社	40 NOUN 40
+社会	29 NOUN 29
+社会保険労務士	1 NOUN 1
+社会学	2 NOUN 2
+社会局	1 PROPN 1
+社会民主主義	1 NOUN 1
+社会現象	1 NOUN 1
+社会的	2 ADJ 2
+社会的影響	1 NOUN 1
+社会科学	1 NOUN 1
+社会貢献	1 NOUN 1
+社内	2 NOUN 2
+社内外	1 NOUN 1
+社協	2 NOUN 2
+社友	1 NOUN 1
+社名	2 NOUN 2
+社員	1 NOUN 1
+社員証	1 NOUN 1
+社外	1 NOUN 1
+社宝	1 NOUN 1
+社格	1 NOUN 1
+社殿	3 NOUN 3
+社章	1 NOUN 1
+社長	12 NOUN 12
+社領	2 NOUN 2
+祀ら	1 VERB_祀る 1
+祀る	1 VERB 1
+祈っ	1 VERB_祈る 1
+祈り	3 NOUN 3
+祈る	1 VERB 1
+祈祷	1 NOUN 1
+祐	3 PROPN 3
+祐介	1 PROPN 1
+祖	2 NOUN 2
+祖母	3 NOUN 3
+祖父	5 NOUN 5
+祝い	2 NOUN 2
+祝っ	1 VERB_祝う 1
+祝福	4 NOUN 4
+祝辞	1 NOUN 1
+神	21 NOUN 19 PROPN 2
+神事	1 NOUN 1
+神代	1 PROPN 1
+神凪	1 PROPN 1
+神出鬼没	1 NOUN 1
+神域	1 NOUN 1
+神学	1 NOUN 1
+神宮	1 NOUN 1
+神宮寺	1 PROPN 1
+神宮球場	1 PROPN 1
+神山	4 PROPN 4
+神崎	1 PROPN 1
+神戸	5 PROPN 5
+神林	1 PROPN 1
+神楽	1 NOUN 1
+神様	3 NOUN 3
+神殿	2 NOUN 2
+神無月	1 NOUN 1
+神父	1 NOUN 1
+神田	1 PROPN 1
+神田川	1 PROPN 1
+神社	13 NOUN 13
+神社本庁	2 PROPN 2
+神秘的	2 ADJ 2
+神符	1 NOUN 1
+神経	2 NOUN 2
+神経ガス	1 NOUN 1
+神経節	1 NOUN 1
+神経細胞	1 NOUN 1
+神聖	3 ADJ 3
+神聖ローマ帝国	2 PROPN 2
+神話	3 NOUN 3
+神貫	1 NOUN 1
+神輿	1 NOUN 1
+神霊	1 NOUN 1
+神鳥	1 PROPN 1
+祥伝社	1 PROPN 1
+票	9 NOUN 9
+票差	1 NOUN 1
+票数	1 NOUN 1
+祭	4 NOUN 4
+祭り	5 NOUN 5
+祭典	1 NOUN 1
+祭祀	1 NOUN 1
+祭神	2 NOUN 2
+禁	1 NOUN 1
+禁じる	1 VERB 1
+禁断	2 NOUN 2
+禁止	8 NOUN 5 VERB 3
+禁煙	2 NOUN 2
+禁輸	1 NOUN 1
+禎一	1 PROPN 1
+福	4 NOUN 4
+福井	1 PROPN 1
+福井放送	1 PROPN 1
+福助	1 PROPN 1
+福原	2 PROPN 2
+福岡	3 PROPN 3
+福岡ソフトバンクホークス	2 PROPN 2
+福島	1 PROPN 1
+福島第一原発	1 PROPN 1
+福田恒存	1 PROPN 1
+福留	1 PROPN 1
+福祉	7 NOUN 7
+福音	1 NOUN 1
+秀	1 NOUN 1
+秀一	1 PROPN 1
+秀吉	4 PROPN 4
+秀忠	1 PROPN 1
+秀明	1 PROPN 1
+秀逸	1 ADJ 1
+秀麗	1 NOUN 1
+私	68 PRON 64 NOUN 4
+私たち	7 PRON 7
+私利	1 NOUN 1
+私学	1 NOUN 1
+私欲	2 NOUN 2
+私生活	1 NOUN 1
+私的	1 ADJ 1
+私立	3 NOUN 3
+私立探偵	1 NOUN 1
+私語	1 VERB 1
+秋	13 NOUN 13
+秋保	1 PROPN 1
+秋季	1 NOUN 1
+秋山	2 PROPN 2
+秋田	1 PROPN 1
+秋葉	2 PROPN 2
+科	12 NOUN 12
+科学	37 NOUN 37
+科学技術	2 NOUN 2
+科学技術庁	1 NOUN 1
+科学的	4 ADJ 4
+科挙	1 NOUN 1
+科料	1 NOUN 1
+科目	2 NOUN 2
+秒	15 NOUN 15
+秘伝	1 NOUN 1
+秘匿	1 VERB 1
+秘宝	1 NOUN 1
+秘密	6 NOUN 5 ADJ 1
+秘書	3 NOUN 3
+秘術	2 NOUN 2
+租税	1 NOUN 1
+秦	1 PROPN 1
+秦河勝	2 PROPN 2
+称	1 NOUN 1
+称える	1 VERB 1
+称さ	4 VERB_称する 4
+称し	10 VERB_称する 10
+称する	2 VERB 2
+称号	6 NOUN 6
+称讃	1 VERB 1
+移	1 PROPN 1
+移さ	2 VERB_移す 2
+移し	2 VERB_移す 2
+移す	1 VERB 1
+移そ	1 VERB_移す 1
+移っ	1 VERB_移る 1
+移り	3 VERB_移る 3
+移る	2 VERB 2
+移住	1 VERB 1
+移動	24 NOUN 14 VERB 10
+移植	5 NOUN 4 VERB 1
+移民	1 NOUN 1
+移築	2 VERB 2
+移籍	13 VERB 10 NOUN 3
+移行	7 VERB 5 NOUN 2
+移設	2 VERB 1 NOUN 1
+移転	10 VERB 5 NOUN 5
+移送	1 NOUN 1
+稀	1 NOUN 1
+程	10 ADP_ほど 7 NOUN 3
+程度	27 NOUN 27
+税	2 NOUN 2
+税制	2 NOUN 2
+税込み	1 NOUN 1
+稔	1 PROPN 1
+稜	1 NOUN 1
+稜線	2 NOUN 2
+種	32 NOUN 32
+種々	1 NOUN 1
+種子	3 NOUN 3
+種族	2 NOUN 2
+種明かし	1 NOUN 1
+種牡馬	1 NOUN 1
+種田	1 PROPN 1
+種目	2 NOUN 2
+種類	24 NOUN 24
+稲	1 NOUN 1
+稲作	1 NOUN 1
+稲尾	1 PROPN 1
+稲村	1 PROPN 1
+稲荷	1 NOUN 1
+稲荷神社	1 PROPN 1
+稲葉	1 PROPN 1
+稼ぎ	1 VERB_稼ぐ 1
+稼働	5 NOUN 3 VERB 2
+稼動	1 VERB 1
+稿	1 NOUN 1
+穀	1 NOUN 1
+穆侯	1 PROPN 1
+積	1 PROPN 1
+積ま	1 VERB_積む 1
+積み	1 VERB_積む 1
+積み上げ	1 VERB_積み上げる 1
+積み重ね	1 VERB_積み重ねる 1
+積ん	4 VERB_積む 4
+積極	1 NOUN 1
+積極的	13 ADJ 13
+積雪	1 NOUN 1
+穏やか	1 ADJ 1
+穏健	1 ADJ 1
+穏健派	1 NOUN 1
+穴	6 NOUN 6
+空	2 NOUN 2
+空い	2 VERB_空く 2
+空中	5 NOUN 5
+空席	2 NOUN 2
+空手	1 NOUN 1
+空母	1 NOUN 1
+空気	5 NOUN 5
+空洞	3 NOUN 3
+空海	1 PROPN 1
+空港	2 NOUN 2
+空爆	1 VERB 1
+空白	2 NOUN 2
+空砲	1 NOUN 1
+空襲	3 NOUN 3
+空調	1 NOUN 1
+空論	2 NOUN 2
+空軍	4 NOUN 4
+空軍力	1 NOUN 1
+空転	1 VERB 1
+空間	5 NOUN 5
+突	3 NOUN 3
+突い	1 VERB_突く 1
+突か	1 VERB_突く 1
+突き	1 NOUN 1
+突き刺し	1 VERB_突き刺す 1
+突入	4 VERB 4
+突出	1 VERB_突出る 1
+突如	3 ADV 3
+突撃	1 NOUN 1
+突然	4 ADJ 2 ADV 2
+突然変異	1 NOUN 1
+突然死	1 NOUN 1
+突発	1 NOUN 1
+突破	6 VERB 5 NOUN 1
+突起	1 NOUN 1
+窃盗	2 NOUN 2
+窓	6 NOUN 6
+窓口	1 NOUN 1
+窟	1 NOUN 1
+窮地	3 NOUN 3
+窮状	1 NOUN 1
+窯	1 NOUN 1
+窺	1 VERB_窺う 1
+窺い	1 VERB_窺う 1
+立	10 NOUN 10
+立た	1 VERB_立つ 1
+立ち	2 VERB_立つ 2
+立ち上がら	1 VERB_立ち上がる 1
+立ち上げ	5 VERB_立ち上げる 4 NOUN 1
+立ち上げる	1 VERB 1
+立ち並び	1 VERB_立ち並ぶ 1
+立ち並ん	1 VERB_立ち並ぶ 1
+立ち会い	1 VERB_立ち会う 1
+立ち会っ	1 VERB_立ち会う 1
+立ち入り	1 NOUN 1
+立ち寄	2 VERB_立ち寄る 2
+立ち寄っ	3 VERB_立ち寄る 3
+立ち寄る	2 VERB 2
+立ち見	1 NOUN 1
+立ち遅れ	1 NOUN 1
+立ち食い	1 NOUN 1
+立っ	4 VERB_立つ 4
+立つ	1 VERB 1
+立て	4 VERB_立つ 4
+立てる	1 VERB 1
+立て坑	1 NOUN 1
+立て直し	2 NOUN 2
+立件	1 PROPN 1
+立体的	1 ADJ 1
+立候補	9 NOUN 5 VERB 4
+立地	7 NOUN 4 VERB 3
+立場	10 NOUN 10
+立川	2 PROPN 2
+立役	1 NOUN 1
+立方	2 NOUN 2
+立杭	1 PROPN 1
+立案	1 NOUN 1
+立派	1 ADJ 1
+立花	2 NOUN 2
+立証	1 VERB 1
+立身出世	1 VERB 1
+竜	3 NOUN 3
+竜宮	1 NOUN 1
+竜飛	1 PROPN 1
+竜騎兵	1 NOUN 1
+章	3 NOUN 3
+章大	1 PROPN 1
+竣工	1 NOUN 1
+端	7 NOUN 7
+端末	5 NOUN 5
+競う	3 VERB 3
+競り	1 VERB_競る 1
+競り落とさ	1 VERB_競り落とす 1
+競争	4 NOUN 4
+競合	3 NOUN 3
+競技	7 NOUN 6 VERB 1
+競艇	1 NOUN 1
+競走	4 NOUN 4
+競輪	2 NOUN 2
+競輪場	3 NOUN 3
+競馬	2 NOUN 2
+競馬ファン	1 NOUN 1
+競馬場	3 NOUN 3
+竹	1 NOUN 1
+竹ノ塚	1 PROPN 1
+竹下	4 PROPN 4
+竹中	1 PROPN 1
+竹之助	1 PROPN 1
+竹島	2 PROPN 2
+竹本	1 PROPN 1
+竹香	1 PROPN 1
+竿	3 NOUN 3
+笑い	2 NOUN 2
+笑っ	2 VERB_笑う 2
+笑わ	1 VERB_笑う 1
+笑わせ	2 VERB_笑わせる 2
+笑福亭	1 PROPN 1
+笑顔	6 NOUN 6
+笛	1 NOUN 1
+笠間	1 PROPN 1
+符	1 NOUN 1
+符号	1 NOUN 1
+符号化	3 NOUN 2 VERB 1
+第	168 PART 168 ***
+第三帝国	1 NOUN 1
+第二新卒	1 NOUN 1
+第四	1 NOUN 1
+笹	2 PROPN 1 NOUN 1
+笹塚駅	1 PROPN 1
+筆	1 NOUN 1
+筆まめ	1 NOUN 1
+筆写	1 VERB 1
+筆者	1 NOUN 1
+筆順	1 NOUN 1
+筆頭	1 NOUN 1
+筈	1 NOUN 1
+等	47 NOUN 41 ADP_など 6
+等々	1 NOUN 1
+等しい	3 ADJ 3
+等しく	1 ADJ_等しい 1
+等級	1 NOUN 1
+筋	5 NOUN 5
+筋力	1 NOUN 1
+筋違い	1 NOUN 1
+筑波	1 PROPN 1
+筑紫	1 PROPN 1
+筒井	1 PROPN 1
+答え	8 VERB_答える 8
+答える	2 VERB 2
+答申	2 VERB 1 NOUN 1
+策	6 NOUN 6
+策定	6 NOUN 3 VERB 3
+策略	1 NOUN 1
+箇所	7 NOUN 7
+箒	2 NOUN 2
+箕岡通	1 PROPN 1
+算数	1 NOUN 1
+算術	1 NOUN 1
+管	1 NOUN 1
+管内	1 NOUN 1
+管制	1 NOUN 1
+管区	1 NOUN 1
+管弦楽団	1 NOUN 1
+管理	18 NOUN 14 VERB 4
+管理栄養士	1 NOUN 1
+管轄	2 NOUN 2
+箱	6 NOUN 6
+箱根	4 PROPN 4
+箸	2 NOUN 2
+節	2 NOUN 2
+節約	6 NOUN 4 VERB 2
+節電	1 VERB 1
+範囲	3 NOUN 3
+範忠	1 PROPN 1
+範疇	1 NOUN 1
+篆刻	1 NOUN 1
+篇	3 NOUN 3
+築	2 PART 1 PROPN 1
+築い	2 VERB_築く 2
+築か	2 VERB_築く 2
+築き	1 VERB_築く 1
+築き上げ	3 VERB_築き上げる 3
+築く	2 VERB 2
+築こ	1 VERB_築く 1
+築地	1 NOUN 1
+篠崎	1 PROPN 1
+篩	1 NOUN 1
+篩骨	1 NOUN 1
+篭	1 NOUN 1
+篭城	1 NOUN 1
+簡単	12 ADJ 10 NOUN 2
+簡易	2 ADJ 2
+簡潔	1 ADJ 1
+簡素	1 ADJ 1
+簿	3 NOUN 3
+簿外	1 PROPN 1
+籌寧	1 PROPN 1
+籠	1 PROPN 1
+米	23 NOUN 16 PROPN 7
+米づくり	1 NOUN 1
+米国	8 PROPN 8
+米国政府	1 NOUN 1
+米子	2 PROPN 2
+米本	1 PROPN 1
+米澤	1 PROPN 1
+米田	1 PROPN 1
+米粉	1 NOUN 1
+米軍	2 PROPN 2
+籾	2 NOUN 2
+粉	1 NOUN 1
+粋	1 ADJ 1
+粒子	1 NOUN 1
+粗野	1 ADJ 1
+粘着	1 NOUN 1
+粘膜	1 NOUN 1
+粛清	1 VERB 1
+粟	1 NOUN 1
+精一	1 PROPN 1
+精力的	1 ADJ 1
+精子	1 NOUN 1
+精密	2 NOUN 1 ADJ 1
+精度	3 NOUN 3
+精査	1 VERB 1
+精油	1 NOUN 1
+精神	10 NOUN 10
+精神病	1 NOUN 1
+精神的	6 ADJ 6
+精算	1 NOUN 1
+精舎	1 NOUN 1
+精通	2 VERB 2
+糖	2 NOUN 2
+糖尿病	3 NOUN 3
+糸	3 NOUN 3
+糸井	1 PROPN 1
+糸口	2 NOUN 2
+系	43 NOUN 43
+系列	3 NOUN 3
+系図	1 NOUN 1
+系統	4 NOUN 4
+系譜	1 NOUN 1
+糾弾	2 NOUN 1 VERB 1
+紀の川	2 PROPN 2
+紀伊	1 PROPN 1
+紀元前	4 PART 4
+紀子	1 PROPN 1
+紀州	1 PROPN 1
+紀藤	3 PROPN 3
+紀行	1 NOUN 1
+紀香	1 PROPN 1
+約	90 PART 88 ADV 2 ***
+約束	3 NOUN 2 VERB 1
+紅	2 NOUN 2
+紅い	2 ADJ 2
+紅客	1 PROPN 1
+紅花	1 NOUN 1
+紅茶	1 NOUN 1
+紅葉	1 NOUN 1
+紅蓮	1 NOUN 1
+紇	2 PROPN 2
+紋	1 NOUN 1
+紋別	1 PROPN 1
+紋章	1 NOUN 1
+納まる	1 VERB 1
+納め	1 VERB_納める 1
+納付	1 NOUN 1
+納入	1 VERB 1
+納得	3 VERB 2 NOUN 1
+納期	1 NOUN 1
+納豆	1 NOUN 1
+納車	1 VERB 1
+紐付き	1 NOUN 1
+紐状	1 NOUN 1
+純	3 NOUN 2 PROPN 1
+純一	1 PROPN 1
+純利益	2 NOUN 2
+純子	1 PROPN 1
+純朴	1 ADJ 1
+純正	1 ADJ 1
+純潔	1 NOUN 1
+純粋	1 ADJ 1
+紙	13 NOUN 13
+紙すき	1 NOUN 1
+紙幣	1 NOUN 1
+紙面	3 NOUN 3
+級	22 NOUN 22
+級友	1 NOUN 1
+紛れ	1 VERB_紛れる 1
+紛れ込み	1 VERB_紛れ込む 1
+紛糾	1 VERB 1
+素	3 NOUN 3
+素人	3 NOUN 3
+素敵	2 ADJ 2
+素早	1 ADJ_素早い 1
+素早い	1 ADJ 1
+素材	7 NOUN 7
+素点	1 NOUN 1
+素襖	1 NOUN 1
+素顔	2 NOUN 2
+紡	1 PROPN 1
+索敵	2 NOUN 2
+紫	2 NOUN 2
+紫煙	1 NOUN 1
+紫綬褒章	1 NOUN 1
+累代	1 NOUN 1
+細	1 PROPN 1
+細い	1 ADJ 1
+細かい	2 ADJ 2
+細かく	4 ADJ_細かい 4
+細く	1 ADJ_細い 1
+細め	1 VERB_細める 1
+細やか	1 ADJ 1
+細分化	1 VERB 1
+細心	1 NOUN 1
+細管	1 NOUN 1
+細胞	7 NOUN 7
+細胞質	1 NOUN 1
+細菌学	1 NOUN 1
+細部	2 NOUN 2
+紹介	33 VERB 30 NOUN 3
+紹子	1 PROPN 1
+紺野	1 PROPN 1
+終	1 NOUN 1
+終え	8 VERB_終える 8
+終わっ	8 VERB_終わる 8
+終わり	4 NOUN 4
+終わる	1 VERB 1
+終了	28 VERB 19 NOUN 9
+終始	1 NOUN 1
+終息	1 VERB 1
+終戦	4 NOUN 4
+終日	1 NOUN 1
+終止符	1 NOUN 1
+終点	1 NOUN 1
+終焉	2 VERB 1 NOUN 1
+終発	1 NOUN 1
+終盤	7 NOUN 7
+終着	1 NOUN 1
+終着駅	2 NOUN 2
+終章	1 NOUN 1
+終端	1 NOUN 1
+組	29 NOUN 28 VERB_組む 1
+組ま	1 VERB_組む 1
+組み	4 NOUN 3 VERB_組む 1
+組み合わせ	8 VERB_組み合わせる 5 NOUN 3
+組み立て	2 VERB_組み立てる 2
+組む	1 VERB 1
+組ん	3 VERB_組む 3
+組合	3 NOUN 3
+組員	1 NOUN 1
+組成	3 NOUN 2 VERB 1
+組織	26 NOUN 22 VERB 4
+組織再編	1 NOUN 1
+組織構造	1 NOUN 1
+組織的	5 ADJ 5
+組長	2 NOUN 2
+組頭	1 NOUN 1
+絆	2 NOUN 2
+経	14 VERB_経る 14
+経っ	3 VERB_経つ 3
+経つ	1 VERB 1
+経口	1 NOUN 1
+経営	18 NOUN 10 VERB 8
+経営学	1 NOUN 1
+経堂	1 NOUN 1
+経学	1 NOUN 1
+経年	1 NOUN 1
+経歴	3 NOUN 3
+経済	11 NOUN 11
+経済企画庁	1 PROPN 1
+経済共同体	1 NOUN 1
+経済協力機構	1 PROPN 1
+経済学	2 NOUN 2
+経済学部	1 NOUN 1
+経済政策	2 NOUN 2
+経済界	1 NOUN 1
+経済発展	3 NOUN 3
+経済的	2 ADJ 2
+経済研究所	1 PROPN 1
+経由	8 NOUN 4 VERB 4
+経盛	1 PROPN 1
+経穴	1 NOUN 1
+経緯	5 NOUN 5
+経費	2 NOUN 2
+経路	4 NOUN 4
+経過	6 VERB 4 NOUN 2
+経験	23 NOUN 16 VERB 7
+結	3 NOUN 2 VERB_結ぶ 1
+結ば	2 VERB_結ぶ 2
+結び	3 VERB_結ぶ 3
+結びつき	1 VERB_結びつく 1
+結び付け	1 VERB_結び付ける 1
+結ぶ	8 VERB 8
+結ん	4 VERB_結ぶ 4
+結合	1 VERB 1
+結城	1 PROPN 1
+結婚	17 VERB 11 NOUN 6
+結局	16 NOUN 16
+結成	10 VERB 10
+結晶学	1 NOUN 1
+結晶構造	1 NOUN 1
+結末	2 NOUN 2
+結果	42 NOUN 42
+結果的	5 ADJ 5
+結果責任	1 NOUN 1
+結核	5 NOUN 5
+結構	6 ADV 5 ADJ 1
+結社	1 NOUN 1
+結節	1 NOUN 1
+結論	2 NOUN 2
+結集	2 VERB 1 NOUN 1
+絞っ	1 VERB_絞る 1
+絞り	2 VERB_絞る 1 NOUN 1
+絞首刑	2 NOUN 2
+絡み	1 NOUN 1
+絡む	1 VERB 1
+給仕	2 NOUN 2
+給付	2 NOUN 2
+給料	1 NOUN 1
+給油	3 NOUN 2 VERB 1
+給電	1 NOUN 1
+統	1 PROPN 1
+統一	53 NOUN 50 VERB 3
+統一教会	10 PROPN 10
+統制	4 NOUN 4
+統合	11 NOUN 8 VERB 3
+統幕	1 NOUN 1
+統括	2 VERB 2
+統治	3 VERB 2 NOUN 1
+統計	4 NOUN 4
+統計的	2 ADJ 2
+絵	7 NOUN 7
+絵図	1 NOUN 1
+絵画	5 NOUN 5
+絶え	2 VERB_絶える 2
+絶っ	1 VERB_絶つ 1
+絶やさ	1 VERB_絶やす 1
+絶体絶命	1 ADJ 1
+絶品	6 NOUN 6
+絶妙	1 ADJ 1
+絶対	11 ADV 10 VERB 1
+絶望	4 NOUN 4
+絶滅	2 NOUN 1 VERB 1
+絶縁	1 NOUN 1
+絶賛	1 VERB 1
+絶頂	2 NOUN 2
+絹代	1 PROPN 1
+継	1 NOUN 1
+継い	2 VERB_継ぐ 2
+継が	1 VERB_継ぐ 1
+継承	3 VERB 2 NOUN 1
+継続	6 NOUN 3 VERB 3
+継続審議	1 NOUN 1
+継続的	2 ADJ 2
+続い	22 VERB_続く 22
+続か	2 VERB_続く 2
+続き	8 VERB_続く 7 NOUN 1
+続く	7 VERB 7
+続け	33 AUX_続ける 21 VERB_続ける 12
+続ける	8 AUX 5 VERB 3
+続投	2 NOUN 2
+続日本紀	1 NOUN 1
+続編	1 NOUN 1
+続落	2 VERB 1 NOUN 1
+続行	1 VERB 1
+綬	2 PROPN 2
+維持	8 VERB 7 NOUN 1
+綱	1 NOUN 1
+綱吉	1 PROPN 1
+網	3 NOUN 3
+網目	1 NOUN 1
+網走	2 PROPN 2
+綴喜郡	1 PROPN 1
+綺麗	8 ADJ 8
+綿	1 NOUN 1
+綿紡	1 NOUN 1
+緊張	5 VERB 5
+緊急	7 NOUN 6 ADJ 1
+緊急安全性情報	1 NOUN 1
+緊急車両	1 NOUN 1
+緊縛	1 NOUN 1
+緊縮	1 NOUN 1
+総	15 NOUN 15
+総じて	1 ADV 1
+総会	4 NOUN 4
+総力	1 NOUN 1
+総務	2 NOUN 2
+総務部	1 NOUN 1
+総勢	1 NOUN 1
+総司	1 PROPN 1
+総司令部	1 NOUN 1
+総合	7 NOUN 6 VERB 1
+総合病院	1 NOUN 1
+総合的	1 ADJ 1
+総崩れ	1 NOUN 1
+総帥	1 NOUN 1
+総当たり	1 NOUN 1
+総書記	3 NOUN 3
+総理	1 NOUN 1
+総理大臣	2 NOUN 2
+総監督	3 NOUN 3
+総督	4 NOUN 4
+総督府	3 NOUN 3
+総称	1 VERB 1
+総統	1 NOUN 1
+総統選挙	1 NOUN 1
+総裁	11 NOUN 11
+総計	1 PART 1
+総選挙	1 NOUN 1
+総長	1 NOUN 1
+総額	6 NOUN 6
+緑	9 PROPN 9
+緑地	1 NOUN 1
+緑地帯	1 NOUN 1
+緑青	1 NOUN 1
+緑風	1 NOUN 1
+緒	1 NOUN 1
+線	57 NOUN 57
+線形	1 NOUN 1
+線路	3 NOUN 3
+締まり	1 VERB_締まる 1
+締め	2 VERB_締める 2
+締めくくっ	1 VERB_締めくくる 1
+締めくくり	1 NOUN 1
+締めくくる	1 VERB 1
+締め付け	2 VERB_締め付ける 1 NOUN 1
+締め切り	1 NOUN 1
+締め括ら	1 VERB_締め括る 1
+締切	2 NOUN 2
+締結	2 VERB 2
+編	8 NOUN 8
+編入	4 NOUN 4
+編成	8 VERB 5 NOUN 3
+編曲	2 NOUN 2
+編物	1 NOUN 1
+編纂	2 VERB 1 NOUN 1
+編隊	1 NOUN 1
+編集	9 NOUN 8 VERB 1
+緩	1 PROPN 1
+緩い	1 ADJ 1
+緩やか	3 ADJ 3
+緩和	3 NOUN 3
+練る	1 VERB 1
+練習	8 NOUN 7 VERB 1
+練馬区	1 PROPN 1
+縁	4 NOUN 4
+縁の下	1 NOUN 1
+縁取り	1 NOUN 1
+縁日	1 NOUN 1
+縁石	1 NOUN 1
+縄	1 NOUN 1
+縕	2 PROPN 2
+縛ら	2 VERB_縛る 2
+縞	1 NOUN 1
+縦断	2 NOUN 1 VERB 1
+縦貫	1 NOUN 1
+縦走	1 VERB 1
+縦長	1 ADJ 1
+縫い合わせ	1 VERB_縫い合わせる 1
+縮小	5 VERB 4 NOUN 1
+縮毛	1 NOUN 1
+績	1 NOUN 1
+繁	1 PROPN 1
+繁忙	1 ADJ 1
+繁殖	1 VERB 1
+繊細	1 ADJ 1
+繊維	1 NOUN 1
+繋い	1 VERB_繋ぐ 1
+繋がっ	1 VERB_繋がる 1
+繋がり	2 VERB_繋がる 2
+繋がる	1 VERB 1
+繋げる	1 VERB 1
+繙き	1 VERB_繙く 1
+繰り出し	1 VERB_繰り出す 1
+繰り広げ	3 VERB_繰り広げる 3
+繰り広げる	2 VERB 2
+繰り返し	3 VERB_繰り返す 2 ADV 1
+繰り返す	2 VERB 2
+繰越	1 NOUN 1
+纏め	1 VERB_纏める 1
+纏足	1 NOUN 1
+罪	7 NOUN 7
+罪悪感	2 NOUN 2
+罪状	1 NOUN 1
+置	2 PROPN 2
+置い	12 VERB_置く 12
+置か	3 VERB_置く 3
+置き	2 VERB_置く 2
+置き場	2 NOUN 2
+置き換え	2 VERB_置き換える 2
+置く	11 VERB 11
+置け	1 VERB_置く 1
+置換	2 NOUN 1 VERB 1
+置賜	1 NOUN 1
+罰	1 NOUN 1
+罰金	2 NOUN 2
+署	6 NOUN 6
+署名	5 NOUN 4 VERB 1
+署員	2 NOUN 2
+署長	2 NOUN 2
+罵り	1 NOUN 1
+罵倒	1 NOUN 1
+罹っ	1 VERB_罹る 1
+罹り	1 VERB_罹る 1
+罹患	1 VERB 1
+羅	1 PROPN 1
+羅列	1 VERB 1
+羅刹	1 PROPN 1
+羊	1 NOUN 1
+羊羹	1 NOUN 1
+美	4 NOUN 4
+美しい	5 ADJ 5
+美しく	1 ADJ_美しい 1
+美しさ	1 NOUN 1
+美化	1 NOUN 1
+美味	3 VERB 2 NOUN 1
+美味い	1 ADJ 1
+美味し	2 ADJ_美味しい 2
+美味しく	12 ADJ_美味しい 12
+美味しんぼ	1 PROPN 1
+美夏	1 PROPN 1
+美女	1 NOUN 1
+美姫	1 NOUN 1
+美学	1 NOUN 1
+美容	2 NOUN 2
+美容室	19 NOUN 19
+美容師	1 NOUN 1
+美容院	1 NOUN 1
+美少女	3 NOUN 3
+美徳	1 NOUN 1
+美樹	1 PROPN 1
+美沙	1 PROPN 1
+美男	1 NOUN 1
+美登利	1 PROPN 1
+美羽	1 PROPN 1
+美能	1 PROPN 1
+美観	1 NOUN 1
+美貌	2 NOUN 2
+美貴子	1 PROPN 1
+美里	1 PROPN 1
+群	10 NOUN 10
+群れ	1 NOUN 1
+群生	1 NOUN 1
+群集	1 NOUN 1
+群馬	1 PROPN 1
+羨	1 PROPN 1
+義	1 NOUN 1
+義兄	2 NOUN 2
+義兼	1 PROPN 1
+義則	2 PROPN 2
+義勇	2 NOUN 2
+義務	4 NOUN 4
+義務付け	5 VERB_義務付ける 5
+義和	1 PROPN 1
+義定	1 PROPN 1
+義康	1 PROPN 1
+義成	1 PROPN 1
+義房	1 PROPN 1
+義教	1 PROPN 1
+義明	1 PROPN 1
+義時	2 PROPN 2
+義樹	1 PROPN 1
+義歯	1 NOUN 1
+義父	2 NOUN 2
+羽	2 NOUN 2
+羽山	1 PROPN 1
+羽柴	3 PROPN 3
+羽根	1 NOUN 1
+羽毛	3 NOUN 3
+羽毛布団	1 NOUN 1
+羽状	1 NOUN 1
+羽田空港	1 PROPN 1
+羽織り	1 VERB_羽織る 1
+羽鳥	1 PROPN 1
+翁面	1 NOUN 1
+翌	16 PART 14 NOUN 2
+翌年	14 NOUN 14
+翌日	6 NOUN 6
+翌春	1 NOUN 1
+翌朝	1 NOUN 1
+習っ	3 VERB_習う 3
+習俗	1 NOUN 1
+習字	1 NOUN 1
+習慣	2 NOUN 2
+翔	4 PROPN 4
+翻案	1 NOUN 1
+翻訳	5 NOUN 4 VERB 1
+翼	5 NOUN 5
+老	2 PROPN 1 NOUN 1
+老い	1 VERB_老いる 1
+老人	2 NOUN 2
+老人ホーム	1 NOUN 1
+老公	1 NOUN 1
+老舗	1 NOUN 1
+考	1 NOUN 1
+考え	57 VERB_考える 50 NOUN 7
+考える	10 VERB 10
+考えれ	2 VERB_考える 2
+考え抜か	1 VERB_考え抜く 1
+考慮	3 VERB 3
+考案	3 VERB 3
+者	195 NOUN 195 ***
+耐え	1 VERB_耐える 1
+耐久	1 NOUN 1
+耐震	2 NOUN 1 VERB 1
+耕世	1 PROPN 1
+耕司	1 PROPN 1
+耕輔	1 PROPN 1
+耳	4 NOUN 4
+耳たぶ	1 NOUN 1
+聖	7 NOUN 6 PROPN 1
+聖人	3 NOUN 3
+聖地	3 NOUN 3
+聖域	1 NOUN 1
+聖堂	1 NOUN 1
+聖書	2 NOUN 2
+聖母	1 NOUN 1
+聖石	1 NOUN 1
+聞	3 VERB_聞く 2 PROPN 1
+聞い	24 VERB_聞く 24
+聞か	1 VERB_聞く 1
+聞かさ	1 VERB_聞かす 1
+聞かせ	1 VERB_聞かせる 1
+聞き	4 VERB_聞く 4
+聞き出し	1 VERB_聞き出す 1
+聞き取	1 VERB_聞き取る 1
+聞き込み	1 NOUN 1
+聞く	2 VERB 2
+聞こえ	3 VERB_聞こえる 3
+聞こえる	1 VERB 1
+聯合	1 PROPN 1
+聰	1 PROPN 1
+聴	2 PROPN 2
+聴い	3 VERB_聴く 3
+聴き	2 VERB_聴く 2
+聴き入っ	1 VERB_聴き入る 1
+聴く	2 VERB 2
+聴衆	2 NOUN 2
+聴覚障害	1 NOUN 1
+職	9 NOUN 9
+職人	5 NOUN 5
+職務	2 NOUN 2
+職務質問	1 VERB 1
+職名	1 NOUN 1
+職員	11 NOUN 11
+職業	1 NOUN 1
+職業訓練	1 NOUN 1
+肉	9 NOUN 9
+肉体	3 NOUN 3
+肉体労働	1 NOUN 1
+肉体的	1 ADJ 1
+肉屋	1 NOUN 1
+肉腫	1 NOUN 1
+肉食	1 NOUN 1
+肌	9 NOUN 9
+肌着	1 NOUN 1
+肌触り	1 NOUN 1
+肖像	1 NOUN 1
+肝心	1 ADJ 1
+肝臓	1 NOUN 1
+肝臓ガン	1 NOUN 1
+股関節	1 NOUN 1
+肢	1 NOUN 1
+肢体	1 NOUN 1
+肥後	1 PROPN 1
+肥満	2 NOUN 2
+肥育	1 NOUN 1
+肩	3 NOUN 3
+肩こり	1 NOUN 1
+肩章	1 NOUN 1
+肯定	1 NOUN 1
+育ち	2 VERB_育つ 2
+育っ	1 VERB_育つ 1
+育て	8 VERB_育てる 8
+育てる	4 VERB 4
+育成	2 NOUN 2
+肺	4 NOUN 4
+胃	1 NOUN 1
+胃液	1 NOUN 1
+胃癌	1 NOUN 1
+胆嚢	1 NOUN 1
+背中	6 NOUN 6
+背後	3 NOUN 3
+背景	14 NOUN 14
+背負っ	1 VERB_背負う 1
+背面	2 NOUN 2
+胤成	1 PROPN 1
+胤通	1 PROPN 1
+胤長	1 PROPN 1
+胸	9 NOUN 9
+胸射	1 NOUN 1
+胸髄	1 NOUN 1
+能	3 NOUN 3
+能力	22 NOUN 22
+能率	1 NOUN 1
+能登	3 PROPN 3
+脂皮	1 NOUN 1
+脂肪	1 NOUN 1
+脂肪酸	1 NOUN 1
+脅かし	1 VERB_脅かす 1
+脅かす	1 VERB 1
+脅かそ	1 VERB_脅かす 1
+脅威	1 NOUN 1
+脇	4 PROPN 4
+脚	2 NOUN 2
+脚本	5 NOUN 5
+脚色	1 VERB 1
+脩	1 PROPN 1
+脱	2 NOUN 2
+脱ぎ	1 VERB_脱ぐ 1
+脱し	1 VERB_脱する 1
+脱会	15 NOUN 10 VERB 5
+脱出	4 VERB 2 NOUN 2
+脱却	2 VERB 2
+脱線	1 NOUN 1
+脱脂	1 VERB 1
+脱落	2 NOUN 1 VERB 1
+脱走	4 NOUN 3 VERB 1
+脱退	3 VERB 2 NOUN 1
+脳	3 NOUN 3
+腎	2 NOUN 2
+腎不全	1 NOUN 1
+腎炎	1 NOUN 1
+腎移植	1 NOUN 1
+腎臓	1 NOUN 1
+腔	1 NOUN 1
+腕	10 NOUN 10
+腕前	1 NOUN 1
+腫れる	1 VERB 1
+腰	3 NOUN 3
+腰元	1 NOUN 1
+腰痛	2 NOUN 2
+腹	2 NOUN 2
+腹立つ	1 VERB 1
+腹腔鏡	1 NOUN 1
+腹話術師	1 NOUN 1
+腹部	2 NOUN 2
+腹鰭	1 NOUN 1
+膜	5 NOUN 5
+膝	2 NOUN 2
+膨らん	1 VERB_膨らむ 1
+膨大	2 ADJ 2
+膨張	1 NOUN 1
+膵臓	1 NOUN 1
+臀部	1 NOUN 1
+臓器	1 NOUN 1
+臥龍崗	1 PROPN 1
+臨	1 VERB_臨む 1
+臨む	1 VERB 1
+臨床	1 NOUN 1
+臨床研究	2 NOUN 2
+臨床試験	1 NOUN 1
+臨時	2 NOUN 2
+臨終	1 NOUN 1
+自	1 NOUN 1
+自ら	29 NOUN 29
+自主	2 NOUN 2
+自主的	3 ADJ 3
+自体	8 NOUN 8
+自作	3 NOUN 2 VERB 1
+自信	5 NOUN 5
+自刃	2 VERB 2
+自分	64 NOUN 64
+自前	1 NOUN 1
+自力	1 NOUN 1
+自動	4 NOUN 4
+自動化	1 VERB 1
+自動的	3 ADJ 3
+自動車	9 NOUN 9
+自動車道	1 NOUN 1
+自動運転	1 NOUN 1
+自営	1 NOUN 1
+自国	2 NOUN 2
+自在	2 ADJ 2
+自宅	10 NOUN 10
+自家	2 NOUN 2
+自己	7 NOUN 7
+自己主張	1 VERB 1
+自律的	1 ADJ 1
+自慢	2 NOUN 2
+自我	3 NOUN 3
+自機	2 NOUN 2
+自殺	3 NOUN 2 VERB 1
+自沈	1 NOUN 1
+自治	2 NOUN 2
+自治体	12 NOUN 12
+自治区	1 NOUN 1
+自然	8 NOUN 5 ADJ 3
+自然公園	1 NOUN 1
+自然数	2 NOUN 2
+自然災害	1 NOUN 1
+自然石	1 NOUN 1
+自然科学	1 NOUN 1
+自由	14 NOUN 9 ADJ 5
+自由が丘	2 PROPN 2
+自由主義	1 NOUN 1
+自発的	1 ADJ 1
+自社	4 NOUN 4
+自称	4 NOUN 4
+自立	2 VERB 2
+自筆	2 NOUN 2
+自給自足	1 NOUN 1
+自衛	2 NOUN 1 VERB 1
+自覚	2 NOUN 1 VERB 1
+自責	2 NOUN 2
+自身	24 NOUN 24
+自転	2 NOUN 2
+自転車	13 NOUN 13
+自転車道	1 NOUN 1
+自邸	1 NOUN 1
+自重	2 NOUN 2
+臭	2 NOUN 2
+臭い	1 NOUN 1
+臭く	1 ADJ_臭い 1
+至っ	8 VERB_至る 8
+至って	1 ADV 1
+至ら	6 VERB_至る 6
+至り	1 VERB_至る 1
+至る	13 VERB 13
+至る所	2 NOUN 2
+至上	1 NOUN 1
+至極	1 ADV 1
+至近	1 NOUN 1
+致し	4 VERB_致す 4
+致命傷	1 NOUN 1
+致命的	2 ADJ 2
+臼井	1 PROPN 1
+臼杵	1 PROPN 1
+興	3 PROPN 2 NOUN 1
+興じる	1 VERB 1
+興味	5 NOUN 5
+興奮	2 NOUN 1 VERB 1
+興行	3 NOUN 3
+舌	3 NOUN 3
+舗装	1 VERB 1
+舘	1 PROPN 1
+舞	1 NOUN 1
+舞う	2 VERB 2
+舞台	20 NOUN 20
+舞台芸術	2 NOUN 2
+舞姫	1 NOUN 1
+舞踏	1 NOUN 1
+舟	2 NOUN 2
+航	2 PROPN 2
+航海	1 NOUN 1
+航空	12 NOUN 12
+航空会社	2 NOUN 2
+航空券	2 NOUN 2
+航空法	1 NOUN 1
+航空郵便	1 NOUN 1
+航行	1 VERB 1
+舷側	1 NOUN 1
+船	11 NOUN 11
+船体	4 NOUN 4
+船員	1 NOUN 1
+船江	1 PROPN 1
+船舶	1 NOUN 1
+艇	1 NOUN 1
+艦	15 NOUN 15
+艦砲	1 NOUN 1
+艦船	1 NOUN 1
+艦艇	1 NOUN 1
+艦長	2 NOUN 2
+艦隊	16 NOUN 16
+良	7 NOUN 4 PROPN 2 ADJ_良い 1
+良い	36 ADJ 30 AUX 6
+良かっ	10 ADJ_良い 8 AUX_良い 2
+良く	13 ADJ_良い 12 AUX_良い 1
+良さ	4 NOUN 3 ADJ_良い 1
+良好	3 ADJ 2 NOUN 1
+良子	1 PROPN 1
+良寛	1 PROPN 1
+良心	1 NOUN 1
+良心的	3 ADJ 3
+良書	1 NOUN 1
+良点	2 NOUN 2
+色	25 NOUN 25
+色々	2 ADJ 2
+色々と	4 ADV 4
+色使い	1 NOUN 1
+色分け	1 VERB 1
+色合い	3 NOUN 3
+色彩	2 NOUN 2
+色気	2 NOUN 2
+色調	1 NOUN 1
+艶靡	1 NOUN 1
+芋	2 NOUN 2
+芋窪	2 PROPN 2
+芒	1 NOUN 1
+芝	2 NOUN 2
+芯	3 NOUN 3
+花	10 NOUN 10
+花屋	1 NOUN 1
+花村	1 PROPN 1
+花柄	1 NOUN 1
+花柳	1 NOUN 1
+花菜	1 PROPN 1
+花道	1 NOUN 1
+芳	1 PROPN 1
+芳っちゃん	1 PROPN 1
+芳市	1 PROPN 1
+芳澤	1 PROPN 1
+芸人	2 NOUN 2
+芸名	1 NOUN 1
+芸能	3 NOUN 3
+芸能界	3 NOUN 3
+芸術	5 NOUN 5
+芸術的	1 ADJ 1
+芸術祭	1 NOUN 1
+芽留	1 PROPN 1
+苗木	1 NOUN 1
+若	2 NOUN 1 ADJ_若い 1
+若い	6 ADJ 6
+若く	3 ADJ_若い 3
+若干	11 NOUN 11
+若年	1 NOUN 1
+若手	2 NOUN 2
+若杉	1 PROPN 1
+若狭	1 PROPN 1
+若者	5 NOUN 5
+若駒	1 NOUN 1
+苦	1 NOUN 1
+苦しく	1 ADJ_苦しい 1
+苦しめ	2 VERB_苦しめる 2
+苦しん	3 VERB_苦しむ 3
+苦労	1 NOUN 1
+苦味	1 NOUN 1
+苦情	1 NOUN 1
+苦戦	2 NOUN 1 VERB 1
+苦手	5 ADJ 5
+苦痛	2 ADJ 2
+苦笑	1 NOUN 1
+苦闘	1 NOUN 1
+苫小牧港	1 PROPN 1
+苫米地	1 PROPN 1
+英	5 PROPN 5
+英人	1 PROPN 1
+英国	6 PROPN 6
+英国政府	1 PROPN 1
+英政府	1 PROPN 1
+英文学	1 NOUN 1
+英訳	1 NOUN 1
+英語	14 NOUN 14
+英軍	1 PROPN 1
+英雄	6 NOUN 5 PROPN 1
+茂み	1 NOUN 1
+茂明	1 PROPN 1
+茂美	1 PROPN 1
+茎	1 NOUN 1
+茨城	1 PROPN 1
+茶	1 NOUN 1
+茶事	2 NOUN 2
+茶葉	2 NOUN 2
+茶道	1 NOUN 1
+草	1 NOUN 1
+草の根	2 NOUN 2
+草原	2 NOUN 2
+草堂	1 NOUN 1
+草履	1 NOUN 1
+草木	1 NOUN 1
+草本	1 NOUN 1
+草案	1 NOUN 1
+草紙	1 NOUN 1
+荒らす	1 VERB 1
+荒れ	3 VERB_荒れる 3
+荒尾	1 PROPN 1
+荒川	3 PROPN 3
+荒廃	2 NOUN 2
+荒技	1 NOUN 1
+荒神	1 NOUN 1
+荘	1 PROPN 1
+荷	1 NOUN 1
+荷受	1 NOUN 1
+荷物	1 NOUN 1
+荻窪	2 PROPN 2
+荻葉	1 PROPN 1
+荻野	1 PROPN 1
+莉奈	1 PROPN 1
+莫大	2 ADJ 2
+菅	2 NOUN 2
+菅内	1 PROPN 1
+菅平	1 PROPN 1
+菅田	1 PROPN 1
+菅谷	1 PROPN 1
+菅野	1 PROPN 1
+菊地	2 PROPN 2
+菊子	1 PROPN 1
+菊正	1 PROPN 1
+菊水	1 PROPN 1
+菊池	2 PROPN 2
+菌	1 NOUN 1
+菓子	8 NOUN 8
+菜々子	1 PROPN 1
+華	3 PROPN 3
+華やか	1 ADJ 1
+華中	1 PROPN 1
+華人	1 NOUN 1
+華麗	1 ADJ 1
+菰野	1 PROPN 1
+菱	1 NOUN 1
+萌	1 VERB_萌る 1
+萌え	1 VERB_萌える 1
+萎縮	1 NOUN 1
+落ち	5 VERB_落ちる 3 NOUN 2
+落ちる	1 VERB 1
+落ち着	1 VERB_落ち着く 1
+落ち着い	7 VERB_落ち着く 7
+落ち着か	1 VERB_落ち着く 1
+落ち着き	3 VERB_落ち着く 2 NOUN 1
+落ち込み	2 NOUN 2
+落ち込ん	1 VERB_落ち込む 1
+落と	1 VERB_落とす 1
+落とし	4 VERB_落とす 4
+落とし穴	1 NOUN 1
+落とせ	1 VERB_落とす 1
+落下	1 VERB 1
+落書	1 NOUN 1
+落第	1 NOUN 1
+落葉	1 NOUN 1
+落語	2 NOUN 2
+落選	1 VERB 1
+葉	5 NOUN 3 PROPN 2
+葉山	1 PROPN 1
+葉巻	1 NOUN 1
+著	1 NOUN 1
+著しい	1 ADJ 1
+著しく	4 ADJ_著しい 4
+著作	4 NOUN 4
+著書	7 NOUN 7
+著聞	2 NOUN 2
+葛	2 NOUN 2
+葛城	1 PROPN 1
+葦	1 NOUN 1
+葬	1 PROPN 1
+葬ら	2 VERB_葬る 2
+葬り	1 VERB_葬る 1
+葬る	2 VERB 2
+葬儀	6 NOUN 6
+葬儀屋	1 NOUN 1
+葬式	1 NOUN 1
+葬送行進曲	1 NOUN 1
+葺	1 PROPN 1
+蒜山	1 PROPN 1
+蒲島	1 PROPN 1
+蒲田	1 PROPN 1
+蒸散	1 VERB 1
+蒸着	1 NOUN 1
+蒼き	1 ADJ_蒼い 1
+蓄え	1 VERB_蓄える 1
+蓄圧	1 NOUN 1
+蓄熱槽	1 NOUN 1
+蓄積	1 VERB 1
+蓄電池	1 NOUN 1
+蓉子	1 PROPN 1
+蓋	2 NOUN 2
+蓮	1 NOUN 1
+蓮司	1 PROPN 1
+蔑視	1 VERB 1
+蔵	2 NOUN 2
+蔵原	3 PROPN 3
+蔵書	2 NOUN 2
+蔵造り	2 NOUN 2
+蕎麦	7 NOUN 7
+薄	6 NOUN 4 ADJ_薄い 2
+薄い	4 ADJ 4
+薄れ	1 VERB_薄れる 1
+薄商い	1 NOUN 1
+薄型	1 NOUN 1
+薄汚い	1 ADJ 1
+薄焼き	1 NOUN 1
+薄茶	2 NOUN 2
+薔薇	1 NOUN 1
+薙	1 PROPN 1
+薛	1 PROPN 1
+薦め	4 VERB_薦める 4
+薦めし	1 VERB_薦める 1
+薩摩	5 PROPN 5
+薪炭	1 NOUN 1
+薬	10 NOUN 10
+薬事法	1 NOUN 1
+薬剤師	1 NOUN 1
+薬効	1 NOUN 1
+薬学	4 NOUN 4
+薬局	1 NOUN 1
+薬屋	1 NOUN 1
+薬師	1 NOUN 1
+薬師如来	1 NOUN 1
+薬物	2 NOUN 2
+薬物中毒	1 NOUN 1
+薬草	3 NOUN 3
+藁	1 NOUN 1
+藍染	2 NOUN 2
+藝	4 PROPN 4
+藝術	1 NOUN 1
+藤倉	10 PROPN 10
+藤原	1 PROPN 1
+藤吉	1 PROPN 1
+藤子	1 PROPN 1
+藤山	1 PROPN 1
+藤本	2 PROPN 2
+藤田	3 PROPN 3
+藩	12 NOUN 12
+藩主	4 NOUN 4
+藩士	3 NOUN 3
+藩邸	3 NOUN 3
+蘇っ	2 VERB_蘇る 2
+蘇ら	1 VERB_蘇る 1
+蘇州	1 PROPN 1
+蘇芳	1 NOUN 1
+蘭	2 NOUN 2
+虎	1 NOUN 1
+虎の子	1 NOUN 1
+虐待	4 NOUN 4
+虐殺	1 NOUN 1
+虚空	1 NOUN 1
+虚血	1 NOUN 1
+虚論	1 NOUN 1
+虫	3 NOUN 3
+虹	1 NOUN 1
+蚵	1 PROPN 1
+蛇	1 NOUN 1
+蛋白	1 NOUN 1
+蛋白質	1 NOUN 1
+蛍光	1 NOUN 1
+蛯名	1 PROPN 1
+蛾	1 NOUN 1
+蜀	1 PROPN 1
+蜂蜜	1 NOUN 1
+蜘蛛の糸	1 PROPN 1
+蜜月	1 NOUN 1
+蜻蛉	1 NOUN 1
+蝕	1 NOUN 1
+蝕ま	1 VERB_蝕む 1
+蝶	1 NOUN 1
+蝶形骨	1 NOUN 1
+融合	3 VERB 3
+融資	3 NOUN 3
+螺旋	2 NOUN 2
+螺鈿	1 NOUN 1
+血	5 NOUN 5
+血中	1 NOUN 1
+血圧計	2 NOUN 2
+血族	2 NOUN 2
+血液	5 NOUN 5
+血痕	1 NOUN 1
+血管	1 NOUN 1
+血統	2 NOUN 2
+血縁関係	1 NOUN 1
+衆	4 NOUN 4
+衆参	1 NOUN 1
+衆議院	5 PROPN 5
+衆院	1 NOUN 1
+行	11 VERB_行う 5 NOUN 5 AUX_行く 1
+行い	13 VERB_行う 12 NOUN 1
+行う	45 VERB 45
+行か	5 VERB_行く 4 AUX_行く 1
+行き	30 VERB_行く 24 AUX_行く 5 NOUN 1
+行きつけ	2 ADJ 2
+行き届い	1 VERB_行き届く 1
+行き届き	1 VERB_行き届く 1
+行き帰り	1 NOUN 1
+行き来	2 VERB 2
+行き着き	1 VERB_行き着く 1
+行き詰まり	1 VERB_行き詰まる 1
+行く	26 VERB 22 AUX 4
+行け	11 VERB_行ける 10 AUX_行く 1
+行ける	2 VERB 2
+行こ	4 VERB_行く 4
+行っ	102 VERB_行く 93 AUX_行く 9 ***
+行ない	1 VERB_行なう 1
+行なう	2 VERB 2
+行なっ	4 VERB_行なう 4
+行なわ	5 VERB_行なう 5
+行わ	80 VERB_行う 80
+行事	5 NOUN 5
+行列	8 NOUN 7 VERB 1
+行動	29 NOUN 23 VERB 6
+行政	11 NOUN 11
+行為	16 NOUN 16
+行状	1 NOUN 1
+行程	3 NOUN 3
+行軍	1 NOUN 1
+行進	1 NOUN 1
+術	5 NOUN 5
+術後	1 NOUN 1
+術者	1 NOUN 1
+街	12 NOUN 12
+街並み	1 NOUN 1
+街宣	3 NOUN 3
+街頭	1 NOUN 1
+衛星	1 NOUN 1
+衛生	3 NOUN 3
+衝動	1 NOUN 1
+衝動的	1 ADJ 1
+衝撃	3 NOUN 3
+衝撃波	1 NOUN 1
+衝突	6 NOUN 3 VERB 3
+衣	2 NOUN 2
+衣料	1 NOUN 1
+衣服	1 NOUN 1
+衣笠	1 PROPN 1
+衣裳	1 NOUN 1
+表	5 NOUN 5
+表し	1 VERB_表す 1
+表す	2 VERB 2
+表れ	3 VERB_表れる 2 NOUN 1
+表側	1 NOUN 1
+表向き	1 NOUN 1
+表情	9 NOUN 9
+表敬	1 NOUN 1
+表明	17 VERB 13 NOUN 4
+表現	16 NOUN 10 VERB 6
+表皮	1 NOUN 1
+表示	17 VERB 12 NOUN 5
+表紙	4 NOUN 4
+表裏	1 NOUN 1
+表記	11 NOUN 8 VERB 3
+表門	2 NOUN 2
+表面	7 NOUN 7
+表面化	1 VERB 1
+表面的	2 ADJ 2
+衫	1 PROPN 1
+衰える	1 VERB 1
+衰弱	1 VERB 1
+衰滅	1 VERB 1
+衰退	3 NOUN 2 VERB 1
+袁	1 PROPN 1
+袁紹	1 PROPN 1
+袈裟	1 NOUN 1
+袋	3 NOUN 3
+袋井	1 PROPN 1
+袋叩き	1 NOUN 1
+袋田	1 PROPN 1
+袖	1 NOUN 1
+被せ	1 VERB_被せる 1
+被ばく	1 NOUN 1
+被り	1 VERB_被る 1
+被わ	1 VERB_被う 1
+被告	8 NOUN 8
+被害	28 NOUN 28
+被害届	1 NOUN 1
+被弾	1 VERB 1
+被曝	1 NOUN 1
+被災	5 NOUN 3 VERB 2
+被爆	1 NOUN 1
+被膜	1 NOUN 1
+袴	2 NOUN 2
+裁判	8 NOUN 7 VERB 1
+裁判所	2 NOUN 2
+裁断	1 NOUN 1
+裂	2 PROPN 2
+装	1 NOUN 1
+装い	3 NOUN 2 VERB_装う 1
+装う	1 VERB 1
+装っ	1 VERB_装う 1
+装丁	1 NOUN 1
+装備	12 VERB 6 NOUN 6
+装束	1 NOUN 1
+装甲	5 NOUN 5
+装甲車	1 NOUN 1
+装着	4 NOUN 3 VERB 1
+装置	12 NOUN 12
+装飾	6 NOUN 6
+装飾的	1 ADJ 1
+裏	8 NOUN 8
+裏側	2 NOUN 2
+裏切っ	2 VERB_裏切る 2
+裏切ら	1 VERB_裏切る 1
+裏切り	2 NOUN 2
+裏千家	1 PROPN 1
+裏手	2 NOUN 2
+裏面	1 NOUN 1
+裕	2 PROPN 2
+裕人	1 PROPN 1
+裕福	1 ADJ 1
+補	2 NOUN 2
+補てん	1 NOUN 1
+補佐	4 NOUN 3 VERB 1
+補修	1 NOUN 1
+補償	3 NOUN 2 VERB 1
+補充	1 NOUN 1
+補助	4 NOUN 4
+補助的	1 ADJ 1
+補完	1 NOUN 1
+補強	3 VERB 2 NOUN 1
+補欠	1 NOUN 1
+補欠選挙	3 NOUN 3
+補正	2 NOUN 2
+補給	2 NOUN 2
+補習	1 NOUN 1
+補選	1 NOUN 1
+補間	1 NOUN 1
+裴儁	1 PROPN 1
+製	15 NOUN 15
+製作	12 VERB 10 NOUN 2
+製品	15 NOUN 15
+製材	1 NOUN 1
+製材所	1 NOUN 1
+製油所	1 NOUN 1
+製法	2 NOUN 2
+製糖	1 NOUN 1
+製紙	1 NOUN 1
+製造	20 NOUN 12 VERB 8
+製造コスト	1 NOUN 1
+製造会社	1 NOUN 1
+製造業	3 NOUN 3
+製鉄	2 NOUN 2
+製鋼	2 NOUN 2
+製陶	1 NOUN 1
+複	1 NOUN 1
+複合	1 VERB 1
+複数	21 NOUN 21
+複眼	1 NOUN 1
+複線	1 NOUN 1
+複葉	2 NOUN 2
+複雑	8 ADJ 8
+褐色	2 NOUN 2
+褒め	1 VERB_褒める 1
+襲いかかる	1 VERB 1
+襲っ	2 VERB_襲う 2
+襲わ	3 VERB_襲う 3
+襲名	1 NOUN 1
+襲撃	5 VERB 3 NOUN 2
+襲来	1 NOUN 1
+西	21 NOUN 21
+西アジア	1 PROPN 1
+西アフリカ	4 PROPN 4
+西オーストラリア	1 PROPN 1
+西ベンガル	1 PROPN 1
+西中	1 PROPN 1
+西丸	1 PROPN 1
+西側	6 NOUN 6
+西側先進国	1 PROPN 1
+西光寺	1 PROPN 1
+西北西	1 NOUN 1
+西区	2 PROPN 2
+西原	1 PROPN 1
+西友	1 PROPN 1
+西口	1 NOUN 1
+西夏	3 PROPN 3
+西大寺	1 PROPN 1
+西宮	1 PROPN 1
+西川	1 PROPN 1
+西方	2 NOUN 2
+西日本	9 PROPN 9
+西日本放送	1 PROPN 1
+西暦	2 NOUN 2
+西本	1 PROPN 1
+西村	1 PROPN 1
+西欧	1 NOUN 1
+西武	4 PROPN 4
+西武バス	1 PROPN 1
+西武百貨店	1 PROPN 1
+西洋	2 NOUN 2
+西澤	1 PROPN 1
+西臼杵郡	1 PROPN 1
+西進	1 VERB 1
+西部	5 NOUN 5
+西鉄	1 PROPN 1
+要	2 NOUN 2
+要する	1 VERB 1
+要件	1 NOUN 1
+要員	1 NOUN 1
+要因	9 NOUN 9
+要塞	2 NOUN 2
+要望	8 VERB 4 NOUN 4
+要求	11 VERB 8 NOUN 3
+要点	1 NOUN 1
+要約	1 VERB 1
+要素	14 NOUN 14
+要請	11 VERB 9 NOUN 2
+覆	1 VERB_覆す 1
+覆い	1 NOUN 1
+覆う	1 VERB 1
+覆っ	2 VERB_覆う 2
+覆わ	2 VERB_覆う 2
+覇権	4 NOUN 4
+見	90 VERB_見る 88 NOUN 2 ***
+見いだし	1 VERB_見いだす 1
+見いだす	1 VERB 1
+見え	15 VERB_見える 15
+見える	10 VERB 10
+見せ	17 VERB_見せる 17
+見せつけ	2 VERB_見せつける 2
+見せる	6 VERB 6
+見せ所	2 NOUN 2
+見た目	7 NOUN 7
+見つかっ	10 VERB_見つかる 10
+見つから	1 VERB_見つかる 1
+見つかり	1 VERB_見つかる 1
+見つけ	4 VERB_見つける 4
+見て取	1 VERB_見て取る 1
+見とがめ	1 VERB_見とがめる 1
+見に行き	1 VERB_見に行く 1
+見る	16 VERB 16
+見れ	2 VERB_見る 2
+見上げ	1 VERB_見上げる 1
+見事	2 ADJ 2
+見出し	1 NOUN 1
+見切り	1 NOUN 1
+見受け	2 VERB_見受ける 2
+見学	1 NOUN 1
+見守っ	1 VERB_見守る 1
+見守る	1 VERB 1
+見当たら	1 VERB_見当たる 1
+見当たり	1 VERB_見当たる 1
+見抜か	1 VERB_見抜く 1
+見抜き	2 VERB_見抜く 2
+見捨て	1 VERB_見捨てる 1
+見据え	1 VERB_見据える 1
+見方	6 NOUN 6
+見極め	2 VERB_見極める 2
+見渡す	1 VERB 1
+見直し	3 NOUN 3
+見知り	1 NOUN 1
+見積もり	5 NOUN 5
+見習い	2 NOUN 1 VERB_見習う 1
+見聞	1 NOUN 1
+見聞き	1 VERB 1
+見舞い	1 NOUN 1
+見舞う	1 VERB 1
+見舞わ	1 VERB_見舞う 1
+見解	4 NOUN 4
+見誤っ	1 VERB_見誤る 1
+見込み	6 NOUN 6
+見返り	1 NOUN 1
+見送っ	1 VERB_見送る 1
+見送り	1 NOUN 1
+見送る	2 VERB 2
+見逃し	1 VERB_見逃す 1
+見通し	9 NOUN 9
+見頃	1 NOUN 1
+規制	5 NOUN 4 VERB 1
+規定	8 VERB 4 NOUN 4
+規律	2 NOUN 2
+規格	6 NOUN 6
+規模	12 NOUN 10 ADJ 2
+規程	1 NOUN 1
+規範	1 NOUN 1
+規約	2 NOUN 2
+視	9 VERB 6 NOUN 3
+視察	3 VERB 2 NOUN 1
+視点	3 NOUN 3
+視界	1 NOUN 1
+視神経	1 NOUN 1
+視線	2 NOUN 2
+視聴	1 NOUN 1
+視覚	3 NOUN 3
+視認	1 VERB 1
+視野	3 NOUN 3
+覗き	1 NOUN 1
+覚	1 PROPN 1
+覚え	6 VERB_覚える 5 NOUN 1
+覚える	3 VERB 3
+覚せい剤	1 NOUN 1
+覚悟	1 NOUN 1
+覚醒	2 NOUN 1 VERB 1
+覚醒剤	1 NOUN 1
+親	12 NOUN 12
+親しい	1 ADJ 1
+親しげ	1 ADJ 1
+親しま	4 VERB_親しむ 4
+親しみ	2 VERB_親しむ 1 NOUN 1
+親交	1 NOUN 1
+親元	1 NOUN 1
+親切	18 ADJ 16 NOUN 2
+親友	1 NOUN 1
+親告罪	1 NOUN 1
+親善	1 NOUN 1
+親子	8 NOUN 7 PROPN 1
+親孝行	1 NOUN 1
+親密さ	1 NOUN 1
+親局	1 NOUN 1
+親戚	1 NOUN 1
+親方	2 NOUN 2
+親族	4 NOUN 4
+親木	1 NOUN 1
+親爺	1 NOUN 1
+親睦	1 NOUN 1
+親裁	1 NOUN 1
+親身	2 ADJ 2
+親露	1 NOUN 1
+親類	1 NOUN 1
+親鸞	3 PROPN 3
+観	4 VERB_観る 2 NOUN 2
+観る	1 VERB 1
+観光	5 NOUN 5
+観光客	6 NOUN 6
+観光旅行	1 NOUN 1
+観客	3 NOUN 3
+観察	2 VERB 1 NOUN 1
+観念	1 NOUN 1
+観戦	1 VERB 1
+観測	7 VERB 4 NOUN 3
+観点	5 NOUN 5
+觀	1 PROPN 1
+角	4 NOUN 4
+角島	1 PROPN 1
+角川	1 PROPN 1
+角川書店	1 PROPN 1
+角度	1 NOUN 1
+角松	1 PROPN 1
+角煮	1 NOUN 1
+角田	1 PROPN 1
+角道	1 PROPN 1
+解	3 NOUN 3
+解い	1 VERB_解く 1
+解き明かす	1 VERB 1
+解く	1 VERB 1
+解任	2 VERB 2
+解体	4 VERB 3 NOUN 1
+解像度	1 NOUN 1
+解剖	2 NOUN 2
+解放	5 VERB 3 NOUN 2
+解散	5 NOUN 4 VERB 1
+解明	4 NOUN 3 VERB 1
+解析	5 NOUN 5
+解決	15 VERB 10 NOUN 5
+解消	2 NOUN 1 VERB 1
+解禁	1 VERB 1
+解脱	1 NOUN 1
+解説	9 NOUN 5 VERB 4
+解説書	1 NOUN 1
+解読	1 VERB 1
+解釈	5 VERB 3 NOUN 2
+解除	2 VERB 2
+解雇	2 NOUN 2
+解離	1 NOUN 1
+触ら	1 VERB_触る 1
+触れ	9 VERB_触れる 9
+触れる	2 VERB 2
+触れ込み	1 NOUN 1
+触発	2 VERB 2
+触覚	1 NOUN 1
+触雷	1 NOUN 1
+言	2 NOUN 2
+言い	9 VERB_言う 9
+言い争い	1 NOUN 1
+言い値	1 NOUN 1
+言い換えれ	1 VERB_言い換える 1
+言い放っ	1 VERB_言い放つ 1
+言い残し	1 VERB_言い残す 1
+言い渡し	2 VERB_言い渡す 2
+言い立て	1 VERB_言い立てる 1
+言い訳	1 NOUN 1
+言う	33 VERB 33
+言え	9 VERB_言う 9
+言える	14 VERB 14
+言っ	22 VERB_言う 22
+言わ	34 VERB_言う 34
+言わば	1 ADV 1
+言上	1 NOUN 1
+言動	1 NOUN 1
+言及	6 VERB 5 NOUN 1
+言葉	22 NOUN 22
+言葉遣い	1 NOUN 1
+言語	10 NOUN 10
+言語学	4 NOUN 4
+言論	2 NOUN 2
+計	14 PART 9 NOUN 5
+計る	1 VERB 1
+計上	3 VERB 3
+計数	1 VERB 1
+計測	2 VERB 1 NOUN 1
+計画	35 NOUN 31 VERB 4
+計画的	1 ADJ 1
+計算	4 VERB 2 NOUN 2
+訊い	2 VERB_訊く 2
+討ち	1 NOUN 1
+討つ	1 VERB 1
+討伐	1 NOUN 1
+討論	1 NOUN 1
+討議	1 NOUN 1
+訓練	9 NOUN 9
+託さ	1 VERB_託す 1
+託し	1 VERB_託す 1
+記	3 NOUN 3
+記さ	6 VERB_記す 6
+記し	4 VERB_記す 4
+記す	1 VERB 1
+記事	33 NOUN 33
+記入	4 VERB 3 NOUN 1
+記念	18 NOUN 15 VERB 3
+記念写真	1 NOUN 1
+記念日	2 NOUN 2
+記憶	9 NOUN 7 VERB 2
+記憶装置	1 NOUN 1
+記章	1 NOUN 1
+記者	38 NOUN 38
+記者クラブ	2 NOUN 2
+記者会見	10 NOUN 10
+記載	5 VERB 5
+記述	7 NOUN 7
+記録	42 VERB 23 NOUN 19
+記録装置	1 NOUN 1
+訪ね	2 VERB_訪ねる 2
+訪ねる	1 VERB 1
+訪れ	22 VERB_訪れる 21 NOUN 1
+訪れる	6 VERB 6
+訪問	13 VERB 8 NOUN 5
+訪米	1 NOUN 1
+設け	11 VERB_設ける 10 NOUN 1
+設ける	1 VERB 1
+設備	8 NOUN 8
+設備投資	1 NOUN 1
+設問	1 NOUN 1
+設営	1 NOUN 1
+設定	26 NOUN 17 VERB 9
+設立	24 VERB 18 NOUN 6
+設置	23 VERB 17 NOUN 6
+設計	16 NOUN 11 VERB 5
+許さ	8 VERB_許す 8
+許し	1 VERB_許す 1
+許可	6 NOUN 4 VERB 2
+許諾	1 VERB 1
+訳	5 NOUN 4 VERB 1
+訳注	1 VERB 1
+訴え	11 VERB_訴える 8 NOUN 3
+訴える	1 VERB 1
+訴状	1 NOUN 1
+訴訟	6 NOUN 6
+診	2 VERB_診る 2
+診察	11 NOUN 10 VERB 1
+診断	6 VERB 4 NOUN 2
+診療	2 NOUN 2
+診療所	1 NOUN 1
+証	2 NOUN 2
+証人喚問	1 NOUN 1
+証券	3 NOUN 3
+証券取引所	1 NOUN 1
+証拠	1 NOUN 1
+証拠保全	1 NOUN 1
+証明	3 VERB 2 NOUN 1
+証書貸付	1 NOUN 1
+証言	5 NOUN 4 VERB 1
+詐取	1 VERB 1
+詐欺	3 NOUN 3
+詐欺商法	2 NOUN 2
+詐欺師	1 NOUN 1
+詐欺罪	1 NOUN 1
+詐称	1 VERB 1
+詔	1 NOUN 1
+評	6 VERB 5 NOUN 1
+評価	27 NOUN 15 VERB 12
+評判	2 NOUN 2
+詞	1 NOUN 1
+詠	1 PROPN 1
+詠ま	2 VERB_詠む 2
+試し	2 NOUN 1 VERB_試す 1
+試み	5 NOUN 3 VERB_試みる 2
+試みる	1 VERB 1
+試みれ	1 VERB_試みる 1
+試乗	1 NOUN 1
+試作	1 VERB 1
+試合	37 NOUN 37
+試算	1 NOUN 1
+試聴	1 VERB 1
+試製	1 NOUN 1
+試読	1 NOUN 1
+試験	13 NOUN 13
+試験的	1 ADJ 1
+詩	3 NOUN 3
+詩人	3 NOUN 3
+詩仙	1 NOUN 1
+詩文	1 NOUN 1
+詩集	1 NOUN 1
+詫び	2 NOUN 2
+詭弁	2 NOUN 2
+詰	1 NOUN 1
+詰め	1 VERB_詰める 1
+話	51 NOUN 51
+話さ	1 VERB_話す 1
+話し	9 VERB_話す 9
+話しかけ	2 VERB_話しかける 2
+話し合う	1 VERB 1
+話す	6 VERB 6
+話せる	1 VERB 1
+話題	14 NOUN 14
+該当	3 VERB 3
+詳しい	6 ADJ 6
+詳しく	3 ADJ_詳しい 3
+詳細	5 NOUN 5
+誇っ	3 VERB_誇る 3
+誇り	3 NOUN 2 VERB_誇る 1
+誇る	6 VERB 6
+誇示	2 VERB 1 NOUN 1
+誌	9 NOUN 9
+誌面	2 NOUN 2
+認め	24 VERB_認める 24
+認める	8 VERB 8
+認可	2 NOUN 2
+認定	8 VERB 6 NOUN 2
+認知	2 VERB 1 NOUN 1
+認証	1 NOUN 1
+認識	9 VERB 5 NOUN 4
+誓い	1 VERB_誓う 1
+誕生	7 VERB 5 NOUN 2
+誕生日	3 NOUN 3
+誘	2 NOUN 2
+誘う	1 VERB 1
+誘っ	3 VERB_誘う 3
+誘わ	2 VERB_誘う 2
+誘導	5 NOUN 3 VERB 2
+誘拐	1 VERB 1
+誘致	1 NOUN 1
+誘電体	1 NOUN 1
+語	10 NOUN 9 VERB_語る 1
+語っ	15 VERB_語る 15
+語ら	6 VERB_語る 6
+語り	9 VERB_語る 8 NOUN 1
+語りかけ	1 VERB_語りかける 1
+語り合っ	1 VERB_語り合う 1
+語り継い	1 VERB_語り継ぐ 1
+語り継ぎ	1 VERB_語り継ぐ 1
+語る	6 VERB 6
+語呂合わせ	1 NOUN 1
+語学	1 NOUN 1
+語尾	1 NOUN 1
+語彙	2 NOUN 2
+語族	1 NOUN 1
+語録	1 NOUN 1
+誠に	1 ADV 1
+誠司	1 PROPN 1
+誠実	2 ADJ 1 NOUN 1
+誠意	1 NOUN 1
+誤ら	1 VERB_誤る 1
+誤り	2 NOUN 2
+誤差	1 NOUN 1
+誤解	2 VERB 1 NOUN 1
+誤認	1 VERB 1
+誤魔化し	1 VERB_誤魔化す 1
+誨	1 PROPN 1
+説	9 NOUN 9
+説き	1 VERB_説く 1
+説得	6 VERB 4 NOUN 2
+説明	47 VERB 26 NOUN 21
+読み	4 VERB_読む 2 NOUN 2
+読みと	1 VERB_読みとる 1
+読み上げ	3 VERB_読み上げる 3
+読み上げる	1 VERB 1
+読み切り	1 NOUN 1
+読み取る	2 VERB 2
+読む	5 VERB 5
+読める	1 VERB 1
+読ん	2 VERB_読む 2
+読売	1 NOUN 1
+読書	2 VERB 1 NOUN 1
+読経	1 NOUN 1
+読者	7 NOUN 7
+誰	13 PRON 13
+誰彼	1 NOUN 1
+課	6 NOUN 6
+課さ	1 VERB_課す 1
+課程	2 NOUN 2
+課金	1 VERB 1
+課長	3 NOUN 3
+課題	12 NOUN 12
+誹謗	1 NOUN 1
+調	3 NOUN 3
+調べ	7 VERB_調べる 5 NOUN 2
+調べる	3 VERB 3
+調停	2 NOUN 2
+調印	3 VERB 2 NOUN 1
+調味料	3 NOUN 3
+調和	3 NOUN 3
+調子	1 NOUN 1
+調整	7 VERB 6 NOUN 1
+調査	22 NOUN 19 VERB 3
+調理	3 NOUN 2 VERB 1
+調理台	1 NOUN 1
+調理法	1 NOUN 1
+調節	4 NOUN 3 VERB 1
+調達	3 NOUN 3
+談	3 NOUN 3
+談笑	1 VERB 1
+請け負い	1 VERB 1
+請求	6 NOUN 4 VERB 2
+請求書	1 NOUN 1
+請願	1 NOUN 1
+諏訪湖	1 PROPN 1
+論	10 NOUN 10
+論じ	4 VERB_論じる 4
+論じる	1 VERB 1
+論戦	1 NOUN 1
+論文	1 NOUN 1
+論点	3 NOUN 3
+論理	3 NOUN 3
+論者	1 NOUN 1
+論議	1 NOUN 1
+諦め	2 VERB_諦める 2
+諧謔	1 NOUN 1
+諫	1 PROPN 1
+諮問	1 VERB 1
+諱	2 NOUN 2
+諸	12 NOUN 12
+諸々	1 NOUN 1
+諸国	6 NOUN 6
+諸島	1 NOUN 1
+諸王	2 NOUN 2
+諸葛恪	1 PROPN 1
+諸説	1 NOUN 1
+謀略	2 NOUN 2
+謂れ	1 NOUN 1
+謎	9 NOUN 9
+謙信	1 PROPN 1
+謙虚	1 ADJ 1
+講	2 NOUN 2
+講和条約	1 NOUN 1
+講師	4 NOUN 4
+講座	4 NOUN 4
+講演	1 NOUN 1
+講義	3 NOUN 3
+講習	4 NOUN 3 VERB 1
+講談社	2 PROPN 2
+講論	1 NOUN 1
+謝意	1 NOUN 1
+謝罪	8 VERB 5 NOUN 3
+謝罪広告	1 NOUN 1
+謡曲	1 NOUN 1
+謳い	1 VERB_謳う 1
+謳っ	1 VERB_謳う 1
+謹慎	1 NOUN 1
+譜	1 NOUN 1
+警備	2 NOUN 2
+警告	5 VERB 3 NOUN 2
+警報	1 NOUN 1
+警察	18 NOUN 18
+警察庁	4 PROPN 4
+警察署	1 NOUN 1
+警戒	3 NOUN 2 VERB 1
+警笛	1 NOUN 1
+警視	1 NOUN 1
+警視庁	2 NOUN 2
+警視総監	1 NOUN 1
+警部	1 NOUN 1
+警鐘	1 NOUN 1
+議事	1 NOUN 1
+議会	11 NOUN 11
+議員	19 NOUN 19
+議席	5 NOUN 5
+議決	1 VERB 1
+議論	11 NOUN 6 VERB 5
+議長	3 NOUN 3
+譲っ	1 VERB_譲る 1
+譲ら	2 VERB_譲る 2
+譲り受け	1 VERB_譲り受ける 1
+譲る	2 VERB 2
+譲受	1 VERB 1
+譲歩	2 NOUN 2
+譲渡	1 VERB 1
+護	1 PROPN 1
+護符	1 NOUN 1
+護送	1 VERB 1
+讃え	1 VERB_讃える 1
+讃岐	3 PROPN 3
+讒言	1 NOUN 1
+谷	3 NOUN 3
+谷垣	1 PROPN 1
+谷川	3 PROPN 3
+谷田部	1 PROPN 1
+豆	4 NOUN 4
+豆乳	1 NOUN 1
+豆類	1 NOUN 1
+豊	3 PROPN 3
+豊か	2 ADJ 2
+豊一	1 PROPN 1
+豊富	11 ADJ 11
+豊山	1 PROPN 1
+豊臣	4 PROPN 4
+豚	3 NOUN 3
+豚汁	1 NOUN 1
+豚肉	3 NOUN 3
+豚舎	1 NOUN 1
+豚足	1 NOUN 1
+豚骨	1 NOUN 1
+象	3 NOUN 3
+象徴	5 VERB 3 NOUN 2
+豪	1 PROPN 1
+豪ドル	3 NOUN 3
+豪商	1 NOUN 1
+豪州	1 PROPN 1
+豪徳寺	1 PROPN 1
+豪快	1 ADJ 1
+豪華	4 ADJ 4
+豪雨	1 NOUN 1
+豪雪地帯	1 NOUN 1
+豹	1 NOUN 1
+貝塚	1 NOUN 1
+貝殻	1 NOUN 1
+貞子	1 PROPN 1
+貞明	1 PROPN 1
+貞治	1 PROPN 1
+貞観	1 NOUN 1
+負	2 NOUN 2
+負う	5 VERB 5
+負け	12 NOUN 6 VERB_負ける 6
+負けず嫌い	1 ADJ 1
+負ける	1 VERB 1
+負け越し	2 VERB_負け越す 2
+負っ	2 VERB_負う 2
+負わ	2 VERB_負う 2
+負傷	5 VERB 5
+負担	11 NOUN 10 VERB 1
+財	1 NOUN 1
+財務相	1 NOUN 1
+財団	8 NOUN 8
+財布	3 NOUN 3
+財政	11 NOUN 11
+財源	2 NOUN 2
+財産	4 NOUN 4
+財界	1 NOUN 1
+貢	2 NOUN 2
+貢献	12 VERB 11 NOUN 1
+貧しい	2 ADJ 2
+貨幣	1 NOUN 1
+貨物	1 NOUN 1
+貨物輸送	1 NOUN 1
+販売	35 NOUN 20 VERB 15
+販売促進	1 NOUN 1
+貫	1 NOUN 1
+貫い	1 VERB_貫く 1
+貫か	1 VERB_貫く 1
+貫き	1 VERB_貫く 1
+貫く	1 VERB 1
+貫禄	1 NOUN 1
+貫通	5 VERB 3 NOUN 2
+貫録	1 NOUN 1
+責任	19 NOUN 19
+貮師	1 PROPN 1
+貯め	1 VERB_貯める 1
+貯水池	2 NOUN 2
+貯蓄	1 NOUN 1
+貯蔵	2 VERB 1 NOUN 1
+貰	3 VERB_貰う 3
+貰い	1 VERB_貰う 1
+貰っ	1 VERB_貰う 1
+貴	10 NOUN 7 PROPN 3
+貴大	1 PROPN 1
+貴妃	1 PROPN 1
+貴族	5 NOUN 5
+貴様	1 NOUN 1
+貴重	3 ADJ 3
+貴金属	1 NOUN 1
+貶める	1 VERB 1
+買い	8 VERB_買う 8
+買い上げ	1 NOUN 1
+買い出し	1 NOUN 1
+買い取っ	1 VERB_買い取る 1
+買い戻し	1 NOUN 1
+買い物袋	1 NOUN 1
+買う	5 VERB 5
+買え	1 VERB_買う 1
+買っ	10 VERB_買う 10
+買収	4 NOUN 3 VERB 1
+買取	1 NOUN 1
+貸し	2 VERB_貸す 2
+貸し付け	2 VERB_貸し付ける 1 NOUN 1
+貸し出し	1 NOUN 1
+貸事務所	1 NOUN 1
+貸出	3 NOUN 3
+貸切っ	1 VERB_貸切る 1
+費	5 NOUN 5
+費やし	4 VERB_費やす 4
+費やす	2 VERB 2
+費用	9 NOUN 9
+貼っ	3 VERB_貼る 3
+貼ら	1 VERB_貼る 1
+貼り付け	1 VERB_貼り付ける 1
+貼紙	1 NOUN 1
+貿易	3 NOUN 3
+貿易収支	1 NOUN 1
+賀正	1 NOUN 1
+賀陽	1 PROPN 1
+賃料	1 NOUN 1
+賃貸	1 NOUN 1
+賃貸マンション	1 NOUN 1
+賃貸住宅	1 NOUN 1
+賃金	2 NOUN 2
+賄う	1 VERB 1
+賄っ	1 VERB_賄う 1
+賄賂	1 NOUN 1
+資	1 NOUN 1
+資料	14 NOUN 14
+資料集	1 NOUN 1
+資本	3 NOUN 3
+資本主義	2 NOUN 2
+資材	3 NOUN 3
+資格	5 NOUN 5
+資源	4 NOUN 4
+資生堂	1 PROPN 1
+資産	3 NOUN 3
+資質	1 NOUN 1
+資金	11 NOUN 11
+資金洗浄	1 NOUN 1
+賛同	2 NOUN 1 VERB 1
+賛成	3 VERB 3
+賜っ	1 VERB_賜う 1
+賞	22 NOUN 22
+賞味期限	1 NOUN 1
+賞賛	1 VERB 1
+賞金	9 NOUN 9
+賠償	2 NOUN 2
+賢	1 PROPN 1
+賢明	2 ADJ 2
+賢治	1 PROPN 1
+賤	1 PROPN 1
+質	4 NOUN 4
+質問	14 NOUN 12 VERB 2
+質的	1 ADJ 1
+質量	2 NOUN 2
+賭け	4 VERB_賭ける 3 NOUN 1
+賭博	1 NOUN 1
+購入	29 VERB 19 NOUN 10
+購読	1 VERB 1
+贅沢	2 NOUN 2
+贈っ	3 VERB_贈る 3
+贈ら	1 VERB_贈る 1
+贈る	3 VERB 3
+赤	10 NOUN 10
+赤い	6 ADJ 6
+赤く	2 ADJ_赤い 2
+赤ちゃん	1 NOUN 1
+赤ん坊	2 NOUN 2
+赤ワイン	1 NOUN 1
+赤倉	1 PROPN 1
+赤味噌	1 NOUN 1
+赤城村	1 PROPN 1
+赤塚	2 PROPN 2
+赤外線	1 NOUN 1
+赤字	4 NOUN 4
+赤旗	1 NOUN 1
+赤松	1 NOUN 1
+赤沢	1 PROPN 1
+赤羽	1 PROPN 1
+赤色	1 NOUN 1
+赤軍	1 NOUN 1
+赤道	1 NOUN 1
+赦	1 PROPN 1
+赫	2 PROPN 2
+赫連定	1 PROPN 1
+走	8 NOUN 6 VERB 2
+走っ	2 VERB_走る 2
+走ら	3 VERB_走る 3
+走り	4 NOUN 2 VERB_走る 2
+走り幅跳び	1 NOUN 1
+走る	8 VERB 8
+走幅跳	1 NOUN 1
+走破	1 NOUN 1
+走行	9 NOUN 6 VERB 3
+赴い	1 VERB_赴く 1
+赴き	1 VERB_赴く 1
+赴く	2 VERB 2
+赴任	2 VERB 2
+起	1 PROPN 1
+起き	8 VERB_起きる 8
+起こし	17 VERB_起こす 16 NOUN 1
+起こす	1 VERB 1
+起こっ	9 VERB_起こる 9
+起こら	1 VERB_起こる 1
+起こり	5 VERB_起こる 5
+起こる	8 VERB 8
+起動	2 VERB 2
+起始	1 VERB 1
+起源	2 NOUN 2
+起点	1 NOUN 1
+起用	4 VERB 3 NOUN 1
+起終点	1 NOUN 1
+起訴	1 VERB 1
+起訴状	1 NOUN 1
+超	16 NOUN 16
+超え	11 VERB_超える 11
+超える	7 VERB 7
+超新星	1 NOUN 1
+超絶	2 NOUN 2
+超能力	4 NOUN 4
+超過	2 NOUN 2
+超音速	1 NOUN 1
+越	1 PROPN 1
+越える	4 VERB 4
+越し	5 VERB_越す 3 NOUN 2
+越す	1 VERB 1
+越冬	1 NOUN 1
+越後	2 PROPN 2
+趙	3 PROPN 3
+趙王	1 PROPN 1
+趣	2 NOUN 2
+趣向	1 NOUN 1
+趣味	6 NOUN 6
+趣旨	5 NOUN 5
+足	19 NOUN 19
+足し	2 VERB_足す 2
+足し算	1 NOUN 1
+足らず	1 NOUN 1
+足り	3 VERB_足りる 3
+足りる	1 VERB 1
+足る	1 VERB 1
+足並み	1 NOUN 1
+足元	1 NOUN 1
+足利	2 PROPN 2
+足利尊氏	1 PROPN 1
+足場	2 NOUN 2
+足湯	1 NOUN 1
+足立	4 PROPN 4
+足立区	2 PROPN 2
+足跡	1 NOUN 1
+跋扈	2 VERB 2
+跋那山	1 PROPN 1
+距離	10 NOUN 10
+跡	6 NOUN 6
+跡地	2 NOUN 2
+跨ぐ	1 VERB 1
+路	5 NOUN 5
+路上	1 NOUN 1
+路地	1 NOUN 1
+路線	12 NOUN 12
+路線バス	3 NOUN 3
+路肩	1 NOUN 1
+跳梁	1 NOUN 1
+跳躍	1 VERB 1
+踊っ	2 VERB_踊る 2
+踊り	3 NOUN 3
+踊り場	1 NOUN 1
+踊る	2 VERB 2
+踏ま	1 VERB_踏む 1
+踏まえ	1 VERB_踏まえる 1
+踏まえる	2 VERB 2
+踏ん	1 VERB_踏む 1
+踏切	1 NOUN 1
+踏襲	2 VERB 2
+蹴り	1 VERB_蹴る 1
+躍起	2 ADJ 2
+躍進	1 NOUN 1
+躓く	1 VERB 1
+身	12 NOUN 12
+身ごもっ	1 VERB_身ごもる 1
+身なり	1 NOUN 1
+身の回り	1 NOUN 1
+身の程	1 NOUN 1
+身体	7 NOUN 7
+身体的	1 ADJ 1
+身元	1 NOUN 1
+身分	1 NOUN 1
+身動き	1 NOUN 1
+身軽	1 ADJ 1
+身近	1 ADJ 1
+身長	9 NOUN 9
+車	37 NOUN 37
+車いす	2 NOUN 2
+車両	18 NOUN 18
+車体	8 NOUN 8
+車内	3 NOUN 3
+車種	1 NOUN 1
+車線	1 NOUN 1
+車載	1 NOUN 1
+車輌	1 NOUN 1
+車輪	4 NOUN 4
+軌	1 PROPN 1
+軌跡	1 NOUN 1
+軌道	4 NOUN 4
+軌間	2 NOUN 2
+軍	50 NOUN 50
+軍事	8 NOUN 8
+軍事力	1 NOUN 1
+軍事的	1 ADJ 1
+軍事裁判	1 NOUN 1
+軍事費	1 NOUN 1
+軍人	1 NOUN 1
+軍備	1 NOUN 1
+軍刀	2 NOUN 2
+軍医	1 NOUN 1
+軍団	6 NOUN 6
+軍国	1 NOUN 1
+軍用	1 NOUN 1
+軍略	1 NOUN 1
+軍管区	1 NOUN 1
+軍艦	1 NOUN 1
+軍隊	4 NOUN 4
+軒並み	1 NOUN 1
+軟骨	1 NOUN 1
+転	1 VERB 1
+転々	2 ADV 2
+転がし	1 VERB_転がす 1
+転がす	1 VERB 1
+転じ	3 VERB_転じる 3
+転倒	1 VERB 1
+転入	4 NOUN 4
+転入届	1 NOUN 1
+転出	1 VERB 1
+転向	1 VERB 1
+転売	1 NOUN 1
+転居	1 VERB 1
+転戦	1 VERB 1
+転換	11 NOUN 8 VERB 3
+転炉	1 NOUN 1
+転用	3 VERB 2 NOUN 1
+転移	1 NOUN 1
+転落	2 VERB 2
+転身	1 VERB 1
+転送	4 VERB 3 NOUN 1
+軸	3 NOUN 3
+軸受け	2 NOUN 2
+軸部	1 NOUN 1
+軽	2 NOUN 2
+軽々	1 ADV 1
+軽い	4 ADJ 4
+軽く	1 ADJ_軽い 1
+軽んじ	1 VERB_軽んじる 1
+軽乗用車	1 NOUN 1
+軽傷	2 NOUN 2
+軽度	1 NOUN 1
+軽快	2 NOUN 2
+軽油	1 NOUN 1
+軽減	2 NOUN 1 VERB 1
+軽自動車	3 NOUN 3
+軽視	2 VERB 2
+軽量	2 ADJ 2
+較差	1 NOUN 1
+載	1 PROPN 1
+載せ	2 VERB_載せる 2
+載せる	1 VERB 1
+載っ	3 VERB_載る 3
+輔	1 PROPN 1
+輝	1 VERB_輝く 1
+輝い	1 VERB_輝く 1
+輩出	4 VERB 4
+輪	5 NOUN 5
+輪番	1 NOUN 1
+輸入	6 NOUN 5 VERB 1
+輸出	5 NOUN 4 VERB 1
+輸出入	1 NOUN 1
+輸血	1 NOUN 1
+輸送	6 NOUN 6
+輿	1 NOUN 1
+輿入れ	1 NOUN 1
+辛	3 ADJ_辛い 2 PROPN 1
+辛い	2 ADJ 2
+辛うじて	2 ADV 2
+辛かっ	1 ADJ_辛い 1
+辛亥革命	1 PROPN 1
+辞し	2 VERB_辞す 2
+辞め	1 VERB_辞める 1
+辞める	1 VERB 1
+辞任	13 NOUN 7 VERB 6
+辞職	2 VERB 2
+辞退	4 VERB 4
+辰	2 NOUN 1 PROPN 1
+辰木桂	1 PROPN 1
+農	1 NOUN 1
+農作	1 NOUN 1
+農園	1 NOUN 1
+農地	2 NOUN 2
+農場	2 NOUN 2
+農夫	3 NOUN 3
+農奴制	1 NOUN 1
+農学	2 NOUN 2
+農家	4 NOUN 4
+農村	1 NOUN 1
+農業	8 NOUN 8
+農業関連産業	1 NOUN 1
+農民	6 NOUN 6
+農牧	1 NOUN 1
+農耕	1 NOUN 1
+辺	2 NOUN 2
+辺り	1 NOUN 1
+辺境	1 NOUN 1
+辺鄙	1 ADJ 1
+辺野古	1 PROPN 1
+辻堂	1 NOUN 1
+込	2 NOUN 1 AUX_込む 1
+込ま	3 AUX_込む 3
+込み	2 NOUN 1 AUX_込む 1
+込む	3 AUX 3
+込め	1 VERB_込める 1
+込も	1 AUX_込む 1
+込ん	3 AUX_込む 3
+辿り	2 VERB_辿る 2
+辿り着く	1 VERB 1
+迂闊	1 ADJ 1
+迄	1 ADP_まで 1
+迅	1 PROPN 1
+迅速	3 ADJ 3
+迎え	10 VERB_迎える 9 NOUN 1
+迎える	3 VERB 3
+迎え入れる	1 VERB 1
+迎撃	1 NOUN 1
+近	3 NOUN 2 PROPN 1
+近い	16 ADJ 16
+近かっ	3 ADJ_近い 3
+近く	30 NOUN 22 ADV 8
+近づい	3 VERB_近づく 3
+近づく	2 VERB 2
+近世	1 NOUN 1
+近付い	1 VERB_近付く 1
+近付く	1 VERB 1
+近代	7 NOUN 7
+近代化	1 NOUN 1
+近代的	4 ADJ 4
+近似	1 NOUN 1
+近傍	1 NOUN 1
+近年	15 NOUN 15
+近所	2 NOUN 2
+近接	4 NOUN 2 VERB 2
+近日	1 NOUN 1
+近未来	1 NOUN 1
+近江	1 PROPN 1
+近海	1 NOUN 1
+近畿	2 PROPN 2
+近畿大学	1 PROPN 1
+近著	1 NOUN 1
+近藤	1 PROPN 1
+近親	1 NOUN 1
+近辺	1 NOUN 1
+近郊	8 NOUN 8
+近鉄	6 PROPN 6
+近鉄モータース	1 PROPN 1
+近隣	3 NOUN 3
+返さ	1 VERB_返す 1
+返し	3 VERB_返す 3
+返す	1 VERB 1
+返せ	1 VERB_返す 1
+返そ	1 VERB_返す 1
+返っ	1 VERB_返る 1
+返り咲き	1 NOUN 1
+返り討ち	1 NOUN 1
+返上	3 VERB 2 NOUN 1
+返事	1 NOUN 1
+返信	2 NOUN 2
+返却	1 VERB 1
+返書	1 NOUN 1
+返礼	1 NOUN 1
+返答	5 NOUN 5
+返還	2 NOUN 1 VERB 1
+返金	1 NOUN 1
+迫っ	1 VERB_迫る 1
+迫ら	1 VERB_迫る 1
+迫り	1 VERB_迫る 1
+迫る	1 VERB 1
+迫力	1 NOUN 1
+述べ	21 VERB_述べる 21
+述べる	2 VERB 2
+述懐	1 VERB 1
+迷う	3 VERB 3
+迷わ	2 VERB_迷う 2
+迷惑	4 NOUN 3 ADJ 1
+追	1 NOUN 1
+追い	1 VERB_追う 1
+追いつい	1 VERB_追いつく 1
+追いつか	1 VERB_追いつく 1
+追いやら	1 VERB_追いやる 1
+追いやる	1 VERB 1
+追い出さ	1 VERB_追い出す 1
+追い求める	1 VERB 1
+追い詰め	1 VERB_追い詰める 1
+追い込み	1 VERB_追い込む 1
+追い込も	1 VERB_追い込む 1
+追う	2 VERB 2
+追っ	3 VERB_追う 3
+追わ	2 VERB_追う 2
+追加	12 VERB 8 NOUN 4
+追及	1 VERB 1
+追従	1 VERB 1
+追徴課税	1 VERB 1
+追撃	1 NOUN 1
+追放	2 VERB 2
+追求	3 VERB 3
+追突	1 VERB 1
+追贈	1 VERB 1
+退ける	1 VERB 1
+退任	3 VERB 3
+退位	1 VERB 1
+退化	1 VERB 1
+退却	2 NOUN 2
+退去	1 NOUN 1
+退団	5 VERB 3 NOUN 2
+退学	1 NOUN 1
+退官	2 NOUN 1 VERB 1
+退役	2 VERB 2
+退治	1 NOUN 1
+退社	2 NOUN 1 VERB 1
+退職	1 VERB 1
+退避	1 VERB 1
+退部	1 VERB 1
+退陣	2 NOUN 2
+送	1 VERB_送る 1
+送っ	8 VERB_送る 8
+送ら	4 VERB_送る 4
+送り	3 VERB_送る 3
+送り火	1 NOUN 1
+送り込み	1 VERB_送り込む 1
+送り迎え	1 NOUN 1
+送る	2 VERB 2
+送付	2 VERB 2
+送信	3 VERB 3
+送球	1 VERB 1
+送迎	1 NOUN 1
+送迎バス	2 NOUN 2
+送金	1 VERB 1
+送電線	1 NOUN 1
+逃がし	2 VERB_逃がす 2
+逃がす	1 VERB 1
+逃げ	8 VERB_逃げる 7 NOUN 1
+逃し	4 VERB_逃す 4
+逃す	1 VERB 1
+逃れ	1 VERB_逃れる 1
+逃れる	1 VERB 1
+逃亡	1 VERB 1
+逆	10 ADJ 9 NOUN 1
+逆手	2 NOUN 2
+逆襲	1 NOUN 1
+逆転	4 NOUN 3 VERB 1
+透	3 PROPN 3
+透き通っ	1 VERB_透き通る 1
+透け	1 VERB_透ける 1
+透明	1 ADJ 1
+透析	1 NOUN 1
+透過	1 NOUN 1
+途上	1 NOUN 1
+途中	19 NOUN 19
+途切れ	2 VERB_途切れる 2
+途端	1 NOUN 1
+逗子	2 PROPN 2
+通	6 ADJ 3 PROPN 1 VERB_通う 1 NOUN 1
+通い	5 VERB_通う 3 NOUN 2
+通う	5 VERB 5
+通え	1 VERB_通う 1
+通お	2 VERB_通う 2
+通し	7 VERB_通す 6 NOUN 1
+通じ	16 VERB_通じる 16
+通じる	1 VERB 1
+通す	2 VERB 2
+通っ	21 VERB_通う 21
+通ら	1 VERB_通る 1
+通り	39 NOUN 38 VERB_通る 1
+通りがかり	1 NOUN 1
+通り越し	1 VERB_通り越す 1
+通り過ぎる	1 VERB 1
+通る	7 VERB 7
+通わ	2 VERB_通う 2
+通例	1 ADV 1
+通信	12 NOUN 11 VERB 1
+通信社	1 NOUN 1
+通信販売	1 NOUN 1
+通分	1 NOUN 1
+通勤	1 NOUN 1
+通告	2 VERB 2
+通報	2 VERB 1 NOUN 1
+通天閣	1 NOUN 1
+通常	36 NOUN 36
+通年	1 NOUN 1
+通用	1 NOUN 1
+通知	1 NOUN 1
+通称	6 NOUN 6
+通算	8 NOUN 8
+通行	7 NOUN 4 VERB 3
+通訳	1 NOUN 1
+通貨	3 NOUN 3
+通貨単位	1 NOUN 1
+通販	2 NOUN 2
+通過	8 VERB 8
+通院	1 VERB 1
+通風	1 NOUN 1
+速	5 NOUN 5
+速い	1 ADJ 1
+速く	1 ADJ_速い 1
+速さ	1 NOUN 1
+速やか	5 ADJ 5
+速力	1 NOUN 1
+速報	2 VERB 1 NOUN 1
+速射砲	1 NOUN 1
+速度	4 NOUN 4
+速球	3 NOUN 3
+造	2 NOUN 2
+造る	1 VERB 1
+造兵廠	1 NOUN 1
+造形	2 NOUN 2
+造船所	4 NOUN 4
+造語	1 NOUN 1
+連	1 NOUN 1
+連なっ	1 VERB_連なる 1
+連ね	1 VERB_連ねる 1
+連れ	18 VERB_連れる 10 NOUN 8
+連れ添っ	1 VERB_連れ添う 1
+連中	2 NOUN 2
+連作	1 NOUN 1
+連写	1 NOUN 1
+連動	4 VERB 2 NOUN 2
+連勝	4 NOUN 4
+連合	7 NOUN 7
+連合国	2 NOUN 2
+連合軍	3 NOUN 3
+連呼	1 VERB 1
+連射	1 PROPN 1
+連山	1 NOUN 1
+連想	2 VERB 1 NOUN 1
+連戦	2 NOUN 2
+連打	2 VERB 2
+連携	9 NOUN 5 VERB 4
+連敗	1 VERB 1
+連日	1 NOUN 1
+連歌	1 NOUN 1
+連発	3 VERB 2 NOUN 1
+連盟	7 NOUN 7
+連立	1 VERB 1
+連結決算	1 NOUN 1
+連絡	19 NOUN 11 VERB 8
+連続	23 NOUN 19 ADJ 2 VERB 2
+連続ドラマ	1 NOUN 1
+連行	1 VERB 1
+連装	1 NOUN 1
+連覇	3 NOUN 2 VERB 1
+連載	7 NOUN 5 VERB 2
+連邦	1 NOUN 1
+連邦政府	1 NOUN 1
+連邦軍	1 NOUN 1
+連隊	1 NOUN 1
+逮捕	11 VERB 8 NOUN 3
+週	11 NOUN 11
+週刊	3 NOUN 3
+週刊文春	2 PROPN 2
+週刊新潮	1 PROPN 1
+週刊朝日	2 PROPN 2
+週明け	1 NOUN 1
+週末	5 NOUN 5
+週間	14 NOUN 14
+進	1 NOUN 1
+進ま	3 VERB_進む 3
+進み	4 VERB_進む 3 NOUN 1
+進む	8 VERB 8
+進め	13 VERB_進める 13
+進める	4 VERB 4
+進ん	14 VERB_進む 14
+進入	4 VERB 3 NOUN 1
+進出	11 VERB 6 NOUN 5
+進化	3 NOUN 2 VERB 1
+進化論	1 NOUN 1
+進士	1 PROPN 1
+進学	6 VERB 5 NOUN 1
+進展	3 VERB 2 NOUN 1
+進撃	1 VERB 1
+進歩	1 NOUN 1
+進行	6 NOUN 4 VERB 2
+進言	2 VERB 2
+進路	3 NOUN 3
+進軍	1 VERB 1
+進駐	1 VERB 1
+進駐軍	1 NOUN 1
+逸らす	1 VERB 1
+逸脱	1 VERB 1
+逸見	1 PROPN 1
+逼迫	1 VERB 1
+遂げ	5 VERB_遂げる 5
+遅い	3 ADJ 3
+遅く	5 ADJ_遅い 5
+遅らせ	1 VERB_遅らせる 1
+遅れ	6 NOUN 3 VERB_遅れる 3
+遅れる	1 VERB 1
+遅延	2 NOUN 1 VERB 1
+遊	3 NOUN 3
+遊び	4 VERB_遊ぶ 2 NOUN 2
+遊ん	1 VERB_遊ぶ 1
+遊具	1 NOUN 1
+遊女	1 NOUN 1
+遊戯	2 NOUN 2
+遊栄子	1 PROPN 1
+遊牧民	1 NOUN 1
+運	2 NOUN 2
+運ば	2 VERB_運ぶ 2
+運び	1 VERB_運ぶ 1
+運ぶ	3 VERB 3
+運ん	5 VERB_運ぶ 5
+運動	8 NOUN 8
+運動公園	1 NOUN 1
+運動神経	1 NOUN 1
+運命	1 NOUN 1
+運営	19 NOUN 10 VERB 9
+運営会社	1 NOUN 1
+運営費	1 NOUN 1
+運搬	2 NOUN 2
+運河	1 NOUN 1
+運用	15 NOUN 9 VERB 6
+運航	3 VERB 3
+運行	12 VERB 9 NOUN 3
+運賃	2 NOUN 2
+運転	15 NOUN 9 VERB 6
+運転台	1 NOUN 1
+運転士	1 NOUN 1
+運転所	1 NOUN 1
+運転手	2 NOUN 2
+運輸	2 NOUN 2
+運輸大臣	1 NOUN 1
+運送	2 NOUN 2
+運送会社	1 NOUN 1
+遍	1 NOUN 1
+遍歴	1 NOUN 1
+過	2 NOUN 2
+過ぎ	5 AUX_過ぎる 4 VERB_過ぎる 1
+過ぎる	1 VERB 1
+過ぎ去っ	1 VERB_過ぎ去る 1
+過ご	1 VERB_過ごす 1
+過ごさ	1 VERB_過ごす 1
+過ごし	2 VERB_過ごす 2
+過ごす	4 VERB 4
+過剰	1 ADJ 1
+過労死	1 NOUN 1
+過半数	1 NOUN 1
+過去	24 NOUN 24
+過失	1 NOUN 1
+過密化	1 VERB 1
+過激	1 ADJ 1
+過疎	1 NOUN 1
+過疎化	1 NOUN 1
+過程	2 NOUN 2
+過言	1 NOUN 1
+過酷	1 ADJ 1
+過飽和	1 NOUN 1
+道	21 NOUN 21
+道元	2 PROPN 2
+道具	9 NOUN 9
+道場	1 NOUN 1
+道明寺	1 NOUN 1
+道路	6 NOUN 6
+道路交通法	1 NOUN 1
+道銀	1 PROPN 1
+達	19 NOUN 16 PROPN 3
+達し	13 VERB_達する 13
+達する	2 VERB 2
+達也	1 PROPN 1
+達人	1 NOUN 1
+達川	1 PROPN 1
+達成	14 VERB 11 NOUN 3
+違い	12 NOUN 10 VERB_違う 2
+違う	16 VERB 16
+違っ	7 VERB_違う 7
+違反	4 NOUN 4
+違和	1 NOUN 1
+違法	6 ADJ 4 NOUN 2
+遠	3 NOUN 2 PROPN 1
+遠い	1 ADJ 1
+遠からず	1 ADV 1
+遠く	8 ADJ_遠い 4 NOUN 4
+遠ざかっ	1 VERB_遠ざかる 1
+遠山	1 NOUN 1
+遠山郷	1 PROPN 1
+遠征	6 NOUN 5 VERB 1
+遠慮	1 VERB 1
+遠投	1 NOUN 1
+遠藤	2 PROPN 2
+遠野	2 PROPN 2
+遠隔操作	1 NOUN 1
+遡上	2 NOUN 2
+遣わし	1 VERB_遣わす 1
+遥	1 PROPN 1
+適し	1 VERB_適する 1
+適切	7 ADJ 7
+適合	2 VERB 2
+適度	1 ADJ 1
+適応	1 VERB 1
+適時	1 NOUN 1
+適正	1 ADJ 1
+適用	5 NOUN 3 VERB 2
+遭い	3 VERB_遭う 3
+遭う	1 VERB 1
+遭っ	1 VERB_遭う 1
+遭わ	1 VERB_遭う 1
+遭遇	4 VERB 4
+遮る	1 VERB 1
+遮断	1 VERB 1
+遵守	1 VERB 1
+遷	1 PROPN 1
+選	19 NOUN 16 VERB_選ぶ 3
+選ば	6 VERB_選ぶ 6
+選び	4 VERB_選ぶ 3 NOUN 1
+選ぶ	7 VERB 7
+選べ	1 VERB_選ぶ 1
+選ん	7 VERB_選ぶ 7
+選任	1 VERB 1
+選出	7 VERB 6 NOUN 1
+選別	1 VERB 1
+選定	4 VERB 4
+選対	1 NOUN 1
+選手	16 NOUN 16
+選抜	4 NOUN 3 VERB 1
+選択	8 NOUN 5 VERB 3
+選択的	1 ADJ 1
+選挙	20 NOUN 20
+選挙カー	1 NOUN 1
+選挙区	1 NOUN 1
+選挙違反	2 NOUN 2
+選曲	1 VERB 1
+選考	2 NOUN 2
+選者	1 NOUN 1
+遺	2 PROPN 2
+遺し	1 VERB_遺す 1
+遺伝子	4 NOUN 4
+遺体	5 NOUN 5
+遺品	1 NOUN 1
+遺愛	1 NOUN 1
+遺憾	1 NOUN 1
+遺族	2 NOUN 2
+遺書	1 NOUN 1
+遺構	3 NOUN 3
+遺物	2 NOUN 2
+遺産	1 NOUN 1
+遺跡	7 NOUN 7
+遼	1 PROPN 1
+遼寧	1 PROPN 1
+避	1 PROPN 1
+避け	7 VERB_避ける 7
+避ける	1 VERB 1
+避難	5 NOUN 4 VERB 1
+避難勧告	1 NOUN 1
+避難場所	1 NOUN 1
+避難民	1 NOUN 1
+邁進	2 NOUN 1 VERB 1
+還	1 PROPN 1
+還暦	1 NOUN 1
+邑	1 PROPN 1
+那賀郡	1 PROPN 1
+那須	2 PROPN 2
+邪悪	1 NOUN 1
+邪気	1 NOUN 1
+邪険	1 NOUN 1
+邪魔	5 NOUN 3 VERB 1 ADJ 1
+邸	1 NOUN 1
+邸宅	1 NOUN 1
+郁	1 PROPN 1
+郊外	4 NOUN 4
+郎	2 PROPN 2
+郡	22 NOUN 22
+郡上	1 PROPN 1
+郡区	2 NOUN 2
+部	74 NOUN 74
+部下	4 NOUN 4
+部会	1 NOUN 1
+部分	21 NOUN 21
+部品	7 NOUN 7
+部員	1 NOUN 1
+部外	1 NOUN 1
+部局	2 NOUN 2
+部屋	13 NOUN 13
+部屋探し	1 NOUN 1
+部数	1 NOUN 1
+部活	2 NOUN 2
+部署	3 NOUN 3
+部長	5 NOUN 5
+部門	5 NOUN 5
+部隊	9 NOUN 9
+部類	2 NOUN 2
+郭	1 NOUN 1
+郷	2 NOUN 1 PROPN 1
+郷土	1 NOUN 1
+都	2 NOUN 2
+都会	1 NOUN 1
+都内	10 NOUN 10
+都合	2 NOUN 2
+都営	1 NOUN 1
+都営バス	1 NOUN 1
+都城	1 PROPN 1
+都市	14 NOUN 14
+都市ガス	3 NOUN 3
+都市計画税	1 NOUN 1
+都市部	2 NOUN 2
+都度	1 NOUN 1
+都心	2 NOUN 2
+都立病院	1 NOUN 1
+鄭	1 PROPN 1
+配	1 VERB_配る 1
+配し	2 VERB_配する 2
+配ら	1 VERB_配る 1
+配り	2 VERB_配る 2
+配る	1 VERB 1
+配下	2 NOUN 2
+配信	6 VERB 4 NOUN 2
+配備	4 VERB 2 NOUN 2
+配分	1 NOUN 1
+配列	2 VERB 1 NOUN 1
+配属	5 VERB 5
+配布	12 VERB 8 NOUN 4
+配当	1 NOUN 1
+配慮	2 NOUN 2
+配流	1 NOUN 1
+配石	1 NOUN 1
+配給	1 NOUN 1
+配置	22 VERB 16 NOUN 6
+配色	1 NOUN 1
+配送	1 NOUN 1
+配達	1 NOUN 1
+酒	11 NOUN 11
+酒屋	2 NOUN 2
+酒気帯び	1 NOUN 1
+酒気帯び運転	1 NOUN 1
+酒造	1 NOUN 1
+酔い潰れる	1 VERB 1
+酔っ	1 VERB_酔う 1
+酢酸	1 NOUN 1
+酪	1 PROPN 1
+酵母	2 NOUN 2
+酵素	5 NOUN 5
+酷い	3 ADJ 3
+酷く	1 ADJ_酷い 1
+酷似	1 VERB 1
+酷使	2 NOUN 2
+酸化	4 VERB 2 NOUN 2
+酸化剤	1 NOUN 1
+酸味	1 NOUN 1
+酸性	2 NOUN 2
+酸素	3 NOUN 3
+醗酵	3 NOUN 2 VERB 1
+醤油	2 NOUN 2
+醸し出し	1 VERB_醸し出す 1
+醸成	1 VERB 1
+醸造	1 NOUN 1
+釈放	1 VERB 1
+釈明	2 VERB 1 NOUN 1
+里	5 NOUN 5
+里沙	1 PROPN 1
+里香	1 PROPN 1
+重	12 NOUN 11 PROPN 1
+重々しく	1 ADJ_重々しい 1
+重い	3 ADJ 3
+重き	1 NOUN 1
+重く	1 ADJ_重い 1
+重さ	1 NOUN 1
+重なり	1 NOUN 1
+重なり合わ	1 VERB_重なり合う 1
+重ね	6 VERB_重ねる 5 NOUN 1
+重ねる	2 VERB 2
+重み	2 NOUN 2
+重んじ	1 VERB_重んじる 1
+重光	2 PROPN 2
+重力	3 NOUN 3
+重力ダム	1 NOUN 1
+重力波	1 NOUN 1
+重加算税	1 NOUN 1
+重大	2 ADJ 2
+重威	1 PROPN 1
+重宝	2 VERB 2
+重成	1 PROPN 1
+重油	1 NOUN 1
+重点	2 NOUN 2
+重篤	2 ADJ 2
+重要	17 ADJ 16 NOUN 1
+重視	3 VERB 3
+重量	7 NOUN 7
+野	4 NOUN 4
+野々村	1 PROPN 1
+野党	1 NOUN 1
+野外	2 NOUN 2
+野戦	1 NOUN 1
+野望	1 NOUN 1
+野球	3 NOUN 3
+野球教室	1 NOUN 1
+野球部	1 NOUN 1
+野生	1 NOUN 1
+野生的	1 ADJ 1
+野田	5 PROPN 5
+野菜	10 NOUN 10
+野袴	1 NOUN 1
+野辺山	1 PROPN 1
+量	10 NOUN 10
+量子力学	1 NOUN 1
+量子化	1 NOUN 1
+量産	1 NOUN 1
+金	25 NOUN 20 PART 3 PROPN 2
+金井	1 PROPN 1
+金八	1 PROPN 1
+金具	2 NOUN 2
+金利	1 NOUN 1
+金剛	2 NOUN 2
+金剛山	1 PROPN 1
+金力	1 NOUN 1
+金印	1 NOUN 1
+金品	2 NOUN 2
+金城	4 PROPN 4
+金塊	1 NOUN 1
+金妍兒	1 PROPN 1
+金属	3 NOUN 3
+金持ち	3 NOUN 3
+金曜	2 NOUN 2
+金曜日	2 NOUN 2
+金本位制	1 NOUN 1
+金正日	2 PROPN 2
+金沢	7 PROPN 7
+金沢大学	1 PROPN 1
+金沢駅	1 PROPN 1
+金浦	1 PROPN 1
+金田一	1 PROPN 1
+金納	1 NOUN 1
+金色	3 NOUN 3
+金華豚	1 NOUN 1
+金蔵	1 NOUN 1
+金融	4 NOUN 4
+金融サービス	1 NOUN 1
+金鉱	2 NOUN 2
+金額	7 NOUN 7
+金髪	1 NOUN 1
+金魚	5 NOUN 5
+釘	1 NOUN 1
+釜山	4 PROPN 4
+釜飯	1 NOUN 1
+針葉樹	2 NOUN 2
+釣	1 NOUN 1
+釣っ	2 VERB_釣る 2
+釣り	5 NOUN 5
+釣る	1 VERB 1
+釣鐘	1 NOUN 1
+鈍ら	2 VERB_鈍る 2
+鈴木	6 PROPN 6
+鈴鹿	1 PROPN 1
+鉄	2 NOUN 2
+鉄人	1 NOUN 1
+鉄球	1 NOUN 1
+鉄筋	1 NOUN 1
+鉄裁	1 NOUN 1
+鉄道	18 NOUN 18
+鉄道ファン	1 NOUN 1
+鉄鉱石	1 NOUN 1
+鉄鋼	2 NOUN 2
+鉄鐸	1 NOUN 1
+鉛	3 NOUN 3
+鉛筆	1 NOUN 1
+鉤	1 NOUN 1
+鉱山	1 NOUN 1
+鉱床	2 NOUN 2
+鉱業	1 NOUN 1
+鉱物	1 NOUN 1
+鉱物学	1 NOUN 1
+鉱石	1 NOUN 1
+鉱脈	2 NOUN 2
+銀	3 NOUN 3
+銀座	1 NOUN 1
+銀河	8 NOUN 8
+銀色	2 NOUN 2
+銀行	3 NOUN 3
+銀行口座	1 NOUN 1
+銃	8 NOUN 8
+銃口	1 NOUN 1
+銃器	1 NOUN 1
+銃座	1 NOUN 1
+銘打っ	1 VERB_銘打つ 1
+銘柄	3 NOUN 3
+銘茶	1 NOUN 1
+銘酒	1 NOUN 1
+銭	4 NOUN 4
+銭湯	1 NOUN 1
+鋤	1 NOUN 1
+鋭い	1 ADJ 1
+鋭一	1 PROPN 1
+鋭郎	1 PROPN 1
+鋳造	1 VERB 1
+鋼材	1 NOUN 1
+鋼板	1 NOUN 1
+錐体	1 NOUN 1
+錠	1 NOUN 1
+錠剤	2 NOUN 2
+錦	1 NOUN 1
+錦江	1 PROPN 1
+錬磨	1 NOUN 1
+錬金術	1 NOUN 1
+録	1 NOUN 1
+録画	1 VERB 1
+録音	5 NOUN 3 VERB 2
+鍋	8 NOUN 8
+鍛え	4 VERB_鍛える 4
+鍛冶	2 NOUN 2
+鍛冶屋	1 NOUN 1
+鍵	2 NOUN 2
+鍼灸	2 NOUN 2
+鍾乳洞	1 NOUN 1
+鍾路区	1 PROPN 1
+鎌	2 NOUN 2
+鎌倉時代	1 PROPN 1
+鎌切	1 NOUN 1
+鎖	2 NOUN 2
+鎖骨	1 NOUN 1
+鎧	4 NOUN 4
+鎮	1 PROPN 1
+鎮圧	3 NOUN 2 VERB 1
+鎮座	1 VERB 1
+鎮魂	1 NOUN 1
+鏡	2 PROPN 2
+鏡面	1 NOUN 1
+鏢	1 PROPN 1
+鐘	1 NOUN 1
+鑑	2 NOUN 2
+鑑賞	1 VERB 1
+長	32 NOUN 32
+長い	11 ADJ 11
+長き	2 ADJ_長い 2
+長く	2 ADJ_長い 2
+長け	1 VERB_長ける 1
+長ける	1 VERB 1
+長さ	6 NOUN 6
+長らく	2 ADV 2
+長久保	1 PROPN 1
+長剣	1 NOUN 1
+長大	1 ADJ 1
+長女	3 NOUN 3
+長妻	1 PROPN 1
+長子	1 NOUN 1
+長安	1 PROPN 1
+長官	2 NOUN 2
+長尾	1 PROPN 1
+長居	2 NOUN 2
+長崎本線	2 PROPN 2
+長州	2 PROPN 2
+長年	6 NOUN 6
+長府	1 PROPN 1
+長政	1 PROPN 1
+長期	4 NOUN 4
+長期的	1 ADJ 1
+長生き	1 VERB 1
+長男	7 NOUN 7
+長短	2 NOUN 2
+長編	1 NOUN 1
+長者	1 NOUN 1
+長調	1 NOUN 1
+長谷川	6 PROPN 6
+長足	1 NOUN 1
+長距離	2 NOUN 2
+長距離バス	1 NOUN 1
+長身	1 NOUN 1
+長重	1 PROPN 1
+長野	3 PROPN 3
+長野電鉄	1 PROPN 1
+長髪	1 NOUN 1
+門	4 NOUN 4
+門下	1 NOUN 1
+門之浜	1 PROPN 1
+門司	1 PROPN 1
+門脇	2 PROPN 2
+閉ざさ	1 VERB_閉ざす 1
+閉ざし	1 VERB_閉ざす 1
+閉じ	1 VERB_閉じる 1
+閉じる	1 VERB 1
+閉じ込める	1 VERB 1
+閉まっ	1 VERB_閉まる 1
+閉めろ	1 VERB_閉める 1
+閉会	1 VERB 1
+閉塞	1 NOUN 1
+閉店	3 VERB 2 NOUN 1
+閉鎖	5 VERB 3 NOUN 2
+閉鎖的	1 ADJ 1
+開	1 NOUN 1
+開い	12 VERB_開く 12
+開か	5 VERB_開く 5
+開き	1 VERB_開く 1
+開く	3 VERB 3
+開け	3 VERB_開ける 3
+開ける	2 VERB 2
+開会	1 NOUN 1
+開催	39 VERB 27 NOUN 12
+開場	1 NOUN 1
+開始	35 VERB 20 NOUN 15
+開局	2 NOUN 1 VERB 1
+開山	1 NOUN 1
+開幕	3 NOUN 2 VERB 1
+開店	5 NOUN 4 VERB 1
+開成	1 PROPN 1
+開戦	1 NOUN 1
+開放	6 VERB 4 NOUN 2
+開校	3 VERB 3
+開業	11 NOUN 8 VERB 3
+開発	37 NOUN 19 VERB 18
+開示	2 NOUN 2
+開祖	1 NOUN 1
+開票	1 NOUN 1
+開設	7 VERB 5 NOUN 2
+開通	2 VERB 2
+開運	1 NOUN 1
+開閉	1 VERB 1
+開館	2 NOUN 2
+閑居	1 NOUN 1
+間	93 NOUN 93 ***
+間に合わ	1 VERB_間に合う 1
+間中	1 PROPN 1
+間取り	1 NOUN 1
+間合い	1 NOUN 1
+間尺	2 NOUN 2
+間抜け	1 NOUN 1
+間接	1 NOUN 1
+間断	1 NOUN 1
+間柄	1 NOUN 1
+間近	1 ADJ 1
+間違い	1 NOUN 1
+間違いなし	1 ADJ_間違いない 1
+間違え	4 VERB_間違える 3 NOUN 1
+間違っ	1 VERB_間違う 1
+間隔	2 NOUN 2
+間際	2 NOUN 2
+間食	1 NOUN 1
+関	1 PROPN 1
+関し	1 VERB_関する 1
+関わっ	6 VERB_関わる 6
+関わら	2 VERB_関わる 2
+関わり	3 VERB_関わる 3
+関わる	2 VERB 2
+関与	3 VERB 2 NOUN 1
+関係	81 NOUN 76 VERB 5
+関内	3 PROPN 3
+関口	2 PROPN 2
+関心	5 NOUN 5
+関東	9 PROPN 9
+関根	1 PROPN 1
+関知	1 VERB 1
+関羽	1 PROPN 1
+関脇	1 NOUN 1
+関西	10 PROPN 10
+関西大学	1 PROPN 1
+関連	26 NOUN 21 VERB 5
+関連付け	1 VERB_関連付ける 1
+関連会社	3 NOUN 3
+関門海峡	1 PROPN 1
+関門航路	1 PROPN 1
+関電	1 PROPN 1
+閣	1 NOUN 1
+閣僚	4 NOUN 4
+閲覧	3 VERB 2 NOUN 1
+閻魔	1 NOUN 1
+闇	3 NOUN 3
+闘	1 PROPN 1
+闘い	2 NOUN 2
+闘っ	1 VERB_闘う 1
+闘士	1 NOUN 1
+闘犬	1 NOUN 1
+闘病	2 NOUN 2
+阪	1 PROPN 1
+阪大	1 PROPN 1
+阪田	1 PROPN 1
+阪神	3 PROPN 3
+阪神淡路大震災	1 PROPN 1
+阮	1 PROPN 1
+防	1 VERB_防ぐ 1
+防い	1 VERB_防ぐ 1
+防ぐ	9 VERB 9
+防御	7 NOUN 6 VERB 1
+防止	1 NOUN 1
+防水	1 NOUN 1
+防波堤	1 NOUN 1
+防災	2 NOUN 2
+防犯	4 NOUN 4
+防犯カメラ	2 NOUN 2
+防犯ビデオ	1 NOUN 1
+防疫	2 NOUN 2
+防衛	7 NOUN 7
+防衛軍	1 NOUN 1
+防護	1 NOUN 1
+防護服	1 NOUN 1
+阻ま	1 VERB_阻む 1
+阻む	2 VERB 2
+阻害	2 VERB 1 NOUN 1
+阻止	1 NOUN 1
+阿久	1 PROPN 1
+阿仁	1 PROPN 1
+阿寒	1 PROPN 1
+阿弥陀	1 NOUN 1
+阿波	1 PROPN 1
+阿羅多	1 PROPN 1
+阿蘭陀	1 PROPN 1
+阿部	2 PROPN 2
+阿闍梨	1 NOUN 1
+附属	2 NOUN 2
+降	1 NOUN 1
+降っ	2 VERB_降る 2
+降り	4 VERB_降りる 4
+降り注ぎ	1 VERB_降り注ぐ 1
+降下	3 NOUN 3
+降伏	8 VERB 5 NOUN 3
+降板	2 VERB 2
+降格	2 VERB 2
+降水	1 NOUN 1
+降級	2 NOUN 2
+降臨	2 VERB 2
+降雨	2 NOUN 2
+限	5 NOUN 5
+限っ	4 VERB_限る 4
+限ら	4 VERB_限る 4
+限り	15 NOUN 5 SCONJ_かぎり 5 VERB_限る 5
+限定	7 NOUN 5 VERB 2
+限定的	2 ADJ 2
+限度	1 NOUN 1
+限界	4 NOUN 4
+陛下	1 NOUN 1
+院	23 NOUN 23
+院内	1 NOUN 1
+院長	7 NOUN 7
+陣	5 NOUN 5
+陣内	1 PROPN 1
+陣取る	1 VERB 1
+陣営	1 NOUN 1
+陣地	2 NOUN 2
+陣屋	2 NOUN 2
+除い	1 VERB_除く 1
+除き	4 VERB_除く 4
+除け	1 VERB_除く 1
+除し	1 VERB_除する 1
+除去	1 NOUN 1
+除染	5 NOUN 5
+除痛	1 NOUN 1
+除籍	1 VERB 1
+除雪	1 NOUN 1
+陥っ	3 VERB_陥る 3
+陥り	1 VERB_陥る 1
+陥れ	1 VERB_陥れる 1
+陥れる	1 VERB 1
+陥没	2 NOUN 1 VERB 1
+陪席	1 NOUN 1
+陰	3 NOUN 3
+陰口	1 NOUN 1
+陰湿	1 ADJ 1
+陰謀	2 NOUN 2
+陳腐	1 ADJ 1
+陳謝	2 VERB 2
+陵	2 NOUN 2
+陵墓	1 NOUN 1
+陶器	1 NOUN 1
+陸	3 NUM 3
+陸上	1 NOUN 1
+陸上選手	1 NOUN 1
+陸海軍	1 NOUN 1
+陸田	1 NOUN 1
+陸続き	1 NOUN 1
+陸軍	11 NOUN 11
+陸軍中将	1 NOUN 1
+陽	4 NOUN 4
+陽一	1 PROPN 1
+陽子	1 NOUN 1
+陽性	1 ADJ 1
+陽菜	1 PROPN 1
+隅	1 NOUN 1
+隆	2 PROPN 2
+隆信	3 PROPN 3
+隆彦	1 PROPN 1
+隆法	3 PROPN 3
+隆盛	1 VERB 1
+隆起	2 VERB 2
+隈	1 NOUN 1
+隊	11 NOUN 11
+隊員	3 NOUN 3
+隊長	2 NOUN 2
+隋朝	1 PROPN 1
+階	26 NOUN 26
+階層的	1 ADJ 1
+階段	7 NOUN 7
+階級	5 NOUN 5
+随一	1 NOUN 1
+随分	1 ADJ 1
+随所	1 NOUN 1
+隔て	1 VERB_隔てる 1
+隔年	2 NOUN 2
+隔月	1 NOUN 1
+隕石	1 NOUN 1
+隙	3 NOUN 3
+隙間	1 NOUN 1
+際	68 NOUN 68
+際立っ	1 VERB_際立つ 1
+障子	1 NOUN 1
+障害	4 NOUN 3 VERB 1
+障碍	1 NOUN 1
+隠	1 VERB_隠す 1
+隠し	3 VERB_隠す 2 NOUN 1
+隠す	3 VERB 3
+隠れ	3 VERB_隠れる 2 NOUN 1
+隠密	1 NOUN 1
+隠居	2 NOUN 2
+隠蔽	1 NOUN 1
+隠遁	1 NOUN 1
+隣	6 NOUN 6
+隣り	1 VERB_隣る 1
+隣接	6 VERB 5 NOUN 1
+隧道	1 NOUN 1
+隱	1 PROPN 1
+隻	4 NOUN 4
+隼	1 NOUN 1
+雁屋	1 PROPN 1
+雄	2 PROPN 1 NOUN 1
+雄三	3 PROPN 3
+雄弁	1 ADJ 1
+雅也	1 PROPN 1
+雅美	1 PROPN 1
+集	11 NOUN 11
+集まっ	8 VERB_集まる 8
+集まら	1 VERB_集まる 1
+集まり	3 VERB_集まる 3
+集まる	2 VERB 2
+集め	18 VERB_集める 17 NOUN 1
+集める	6 VERB 6
+集中	7 VERB 6 NOUN 1
+集中的	1 ADJ 1
+集会	6 NOUN 6
+集合	4 NOUN 4
+集合住宅	1 NOUN 1
+集合体	2 NOUN 2
+集団	15 NOUN 15
+集団安全保障	1 NOUN 1
+集大成	1 NOUN 1
+集客	1 NOUN 1
+集成材	1 NOUN 1
+集注	1 NOUN 1
+集積	1 VERB 1
+集約	1 VERB 1
+集結	1 VERB 1
+集落	2 NOUN 2
+集計	6 NOUN 3 VERB 3
+集配	2 NOUN 2
+集電	2 NOUN 2
+雇う	2 VERB 2
+雇わ	3 VERB_雇う 3
+雇用	5 NOUN 4 VERB 1
+雇用契約書	1 NOUN 1
+雌	1 NOUN 1
+雑種	1 NOUN 1
+雑誌	7 NOUN 7
+雑貨	4 NOUN 4
+雑音	1 NOUN 1
+雑食	1 NOUN 1
+離	1 VERB_離す 1
+離れ	15 VERB_離れる 15
+離れる	1 VERB 1
+離党	3 NOUN 3
+離婚	9 NOUN 5 VERB 4
+離宮	1 NOUN 1
+離席	1 NOUN 1
+離脱	7 NOUN 5 VERB 2
+離陸	1 VERB 1
+難	5 NOUN 5
+難い	1 AUX 1
+難しい	5 ADJ 5
+難所	1 NOUN 1
+難易度	2 NOUN 2
+難曲	1 NOUN 1
+難民	4 NOUN 4
+難点	1 NOUN 1
+難病	1 NOUN 1
+難聴	1 NOUN 1
+難航	1 NOUN 1
+難色	1 NOUN 1
+難題	1 NOUN 1
+雨	6 NOUN 6
+雨宮	1 PROPN 1
+雨覆	1 NOUN 1
+雪	5 NOUN 5
+雪入	2 PROPN 2
+雪印	1 PROPN 1
+雪解け	1 NOUN 1
+雫	1 NOUN 1
+雰囲気	41 NOUN 41
+雲	3 NOUN 3
+雲慶	1 PROPN 1
+零	1 NOUN 1
+雷	2 NOUN 2
+電	1 NOUN 1
+電信	1 NOUN 1
+電信柱	1 NOUN 1
+電力	10 NOUN 10
+電力ネットワーク	1 NOUN 1
+電力会社	1 NOUN 1
+電力需要	1 NOUN 1
+電動	1 NOUN 1
+電動工具	1 NOUN 1
+電動車	1 NOUN 1
+電化	3 PROPN 2 NOUN 1
+電卓	3 NOUN 3
+電圧	1 NOUN 1
+電子	4 NOUN 4
+電子マネー	1 NOUN 1
+電子メール	1 NOUN 1
+電撃	5 NOUN 5
+電柱	1 NOUN 1
+電気	6 NOUN 6
+電気的	1 ADJ 1
+電気通信事業	1 NOUN 1
+電池	3 NOUN 3
+電波	6 NOUN 6
+電流	2 NOUN 2
+電源	3 NOUN 3
+電球	2 NOUN 2
+電磁気	2 NOUN 2
+電線	1 NOUN 1
+電荷	4 NOUN 4
+電装	1 NOUN 1
+電話	27 NOUN 23 VERB 4
+電車	8 NOUN 8
+電通映画社	1 PROPN 1
+電鉄	1 NOUN 1
+需要	8 NOUN 8
+震える	1 VERB 1
+震度	1 NOUN 1
+震災	4 NOUN 4
+霊	18 NOUN 18
+霊力	1 NOUN 1
+霊圧	1 NOUN 1
+霊廟	2 NOUN 2
+霊感	1 NOUN 1
+霊感商法	12 NOUN 12
+霊芝	10 NOUN 10
+霊言	16 NOUN 16
+霞	1 PROPN 1
+霞が関	2 PROPN 2
+霧島	1 PROPN 1
+霧隠	1 NOUN 1
+露	2 ADV 1 PROPN 1
+露出狂	1 NOUN 1
+露呈	1 VERB 1
+露天掘り	2 NOUN 2
+露天風呂	2 NOUN 2
+露骨	1 ADJ 1
+青	5 NOUN 5
+青い	1 ADJ 1
+青ネギ	1 NOUN 1
+青地	1 NOUN 1
+青少年	3 NOUN 3
+青島	1 PROPN 1
+青年	9 NOUN 9
+青春	1 NOUN 1
+青木	5 PROPN 5
+青梅	1 NOUN 1
+青森	4 PROPN 4
+青森放送	2 PROPN 2
+青色	1 NOUN 1
+青葉	1 NOUN 1
+靖	1 PROPN 1
+静か	6 ADJ 5 NOUN 1
+静まり返っ	1 VERB_静まり返る 1
+静岡	1 PROPN 1
+静止	1 VERB 1
+静脈	1 NOUN 1
+静電	2 NOUN 2
+静香	2 PROPN 2
+非	16 NOUN 16
+非公式	1 ADJ 1
+非営利団体	1 NOUN 1
+非常	34 ADJ 31 NOUN 3
+非常食	1 NOUN 1
+非武装	1 NOUN 1
+非自民	1 NOUN 1
+非難	4 VERB 2 NOUN 2
+面	36 NOUN 36
+面々	1 NOUN 1
+面し	3 VERB_面する 3
+面上	1 NOUN 1
+面会	2 VERB 1 NOUN 1
+面倒	4 ADJ 2 NOUN 2
+面影	2 NOUN 2
+面接	1 NOUN 1
+面白	1 ADJ_面白い 1
+面白い	9 ADJ 9
+面白く	1 ADJ_面白い 1
+面積	7 NOUN 7
+面談	1 VERB 1
+面食い	1 NOUN 1
+革	1 NOUN 1
+革命	3 NOUN 3
+革新	2 NOUN 2
+靭性	1 NOUN 1
+靴	1 NOUN 1
+靴下	1 NOUN 1
+靴屋	1 NOUN 1
+鞄	1 NOUN 1
+鞍	1 NOUN 1
+鞠	2 PROPN 2
+鞭	1 NOUN 1
+鞭毛	1 NOUN 1
+韓	1 PROPN 1
+韓国	17 PROPN 17
+韓国政府	2 PROPN 2
+韓流	2 NOUN 2
+音	11 NOUN 11
+音域	1 NOUN 1
+音声	3 NOUN 3
+音楽	28 NOUN 28
+音楽出版社	1 PROPN 1
+音楽堂	1 NOUN 1
+音楽学	1 NOUN 1
+音楽監督	1 NOUN 1
+音質	1 NOUN 1
+音量	3 NOUN 3
+音階	1 NOUN 1
+響い	1 VERB_響く 1
+響き	2 VERB_響く 1 NOUN 1
+頁	2 NOUN 2
+頂	5 AUX_頂く 3 NOUN 1 VERB_頂く 1
+頂い	4 AUX_頂く 3 VERB_頂く 1
+頂き	10 AUX_頂く 5 VERB_頂く 4 NOUN 1
+頂く	2 AUX 2
+頂上	3 NOUN 3
+頂点	1 NOUN 1
+頃	39 NOUN 39
+項	4 NOUN 4
+項目	2 NOUN 2
+順	6 NOUN 5 PROPN 1
+順に	1 ADV 1
+順一	1 PROPN 1
+順位	6 NOUN 6
+順序	3 NOUN 3
+順次	4 ADV 4
+順番	2 NOUN 2
+順調	2 ADJ 2
+須	3 PROPN 3
+須川	1 PROPN 1
+預け	3 VERB_預ける 3
+預言	1 NOUN 1
+預金	1 NOUN 1
+頑な	1 ADJ 1
+頑丈	1 ADJ 1
+頑固	1 ADJ 1
+頑張っ	4 VERB_頑張る 4
+頑張ら	1 VERB_頑張る 1
+頑張る	1 VERB 1
+頑張ろ	1 VERB_頑張る 1
+頒布	1 VERB 1
+頓挫	1 VERB 1
+領	5 NOUN 5
+領主	1 NOUN 1
+領内	1 NOUN 1
+領土	1 NOUN 1
+領地	1 NOUN 1
+領域	5 NOUN 5
+領民	1 NOUN 1
+領海	2 NOUN 2
+頬	1 NOUN 1
+頬骨	1 NOUN 1
+頭	15 NOUN 15
+頭上	1 NOUN 1
+頭痛	2 NOUN 2
+頭皮	1 NOUN 1
+頭突き	1 VERB 1
+頭胸部	1 NOUN 1
+頭葉	1 NOUN 1
+頭蓋	1 NOUN 1
+頭角	1 NOUN 1
+頭部	1 NOUN 1
+頭髪	1 NOUN 1
+頻度	4 NOUN 4
+頻繁	3 ADJ 3
+頼	1 VERB_頼む 1
+頼ま	4 VERB_頼む 4
+頼み	6 VERB_頼む 6
+頼む	2 VERB 2
+頼る	2 VERB 2
+頼ろ	1 VERB_頼る 1
+頼ん	4 VERB_頼む 4
+頼朝	1 PROPN 1
+題し	3 VERB_題する 3
+題名	1 NOUN 1
+題材	1 NOUN 1
+額	12 NOUN 12
+顎骨	1 NOUN 1
+顔	19 NOUN 16 VERB 3
+顔つき	1 NOUN 1
+顔ぶれ	1 NOUN 1
+顔射	1 NOUN 1
+顔立ち	2 NOUN 2
+顔見知り	1 VERB 1
+顔触れ	1 NOUN 1
+顕彰	2 NOUN 1 VERB 1
+顕昭	1 PROPN 1
+顕著	5 ADJ 5
+願い	9 NOUN 7 VERB_願う 2
+願いし	10 VERB_願う 10
+願う	1 VERB 1
+願慶	1 PROPN 1
+願望	1 NOUN 1
+類	11 NOUN 11
+類似	1 NOUN 1
+類型論	1 NOUN 1
+類聚	1 NOUN 1
+顧客	5 NOUN 5
+風	12 NOUN 12
+風に	1 AUX_ふうだ 1
+風上	1 NOUN 1
+風体	1 NOUN 1
+風俗	2 NOUN 2
+風光	1 NOUN 1
+風化	1 VERB 1
+風呂	2 NOUN 2
+風味	1 NOUN 1
+風土	1 NOUN 1
+風土記	1 NOUN 1
+風圧	1 NOUN 1
+風景	3 NOUN 3
+風潮	2 NOUN 2
+風習	1 NOUN 1
+風見	1 NOUN 1
+風評	1 NOUN 1
+風車	1 NOUN 1
+風邪	2 NOUN 2
+飛	3 NOUN 2 VERB_飛ぶ 1
+飛ばさ	1 VERB_飛ばす 1
+飛ばし	1 NOUN 1
+飛ばす	2 VERB 2
+飛び入り	1 NOUN 1
+飛び出し	2 VERB_飛び出す 2
+飛び込み	1 VERB 1
+飛び込ん	1 VERB_飛び込む 1
+飛び道具	1 NOUN 1
+飛び降り	3 VERB_飛び降りる 3
+飛ぶ	1 VERB 1
+飛ん	4 VERB_飛ぶ 4
+飛来	2 VERB 2
+飛行	6 NOUN 5 VERB 1
+飛行場	2 NOUN 2
+飛行士	1 NOUN 1
+飛行甲板	2 NOUN 2
+飛躍	1 NOUN 1
+飛車	2 NOUN 2
+飛龍	1 NOUN 1
+食	6 NOUN 6
+食える	1 VERB 1
+食す	1 VERB_食する 1
+食せ	1 VERB_食せる 1
+食っ	2 VERB_食う 2
+食べ	46 VERB_食べる 46
+食べる	8 VERB 8
+食パン	1 NOUN 1
+食事	13 NOUN 11 VERB 2
+食品	11 NOUN 11
+食器	3 NOUN 3
+食堂	3 NOUN 3
+食堂車	1 NOUN 1
+食性	2 NOUN 2
+食感	2 NOUN 2
+食料	2 NOUN 2
+食材	4 NOUN 4
+食生活	2 NOUN 2
+食糧	1 NOUN 1
+食肉	1 NOUN 1
+食肉処理場	1 NOUN 1
+飯田	3 PROPN 3
+飯能	2 PROPN 2
+飲	3 VERB_飲む 3
+飲ま	2 VERB_飲む 2
+飲み	7 VERB_飲む 4 NOUN 3
+飲み屋	1 NOUN 1
+飲む	4 VERB 4
+飲ん	4 VERB_飲む 4
+飲料	1 NOUN 1
+飲酒	1 NOUN 1
+飲酒運転	1 NOUN 1
+飲食	1 NOUN 1
+飼い犬	2 NOUN 2
+飼っ	1 VERB_飼う 1
+飼料	1 NOUN 1
+飼育	6 VERB 5 NOUN 1
+飽き	1 VERB_飽きる 1
+飾っ	5 VERB_飾る 5
+飾ら	2 VERB_飾る 2
+飾る	2 VERB 2
+餃子	4 NOUN 4
+餅	1 NOUN 1
+養わ	1 VERB_養う 1
+養女	1 NOUN 1
+養子	1 NOUN 1
+養成	2 NOUN 2
+養老	1 PROPN 1
+養育	1 NOUN 1
+養護教諭	1 NOUN 1
+養鶏	1 NOUN 1
+餌場	1 NOUN 1
+餓	1 PROPN 1
+餡	1 NOUN 1
+館	12 NOUN 11 PROPN 1
+館内	2 PROPN 2
+饅頭	2 NOUN 2
+饒	1 PROPN 1
+饗	1 PROPN 1
+首	9 NOUN 9
+首位	4 NOUN 4
+首席	2 NOUN 2
+首座	1 NOUN 1
+首相	13 NOUN 13
+首脳	3 NOUN 3
+首脳会議	1 NOUN 1
+首都	6 NOUN 6
+首都高速	1 NOUN 1
+首里	1 PROPN 1
+首長	2 NOUN 2
+首領	2 NOUN 2
+首飾り	1 NOUN 1
+香	4 PROPN 4
+香り	5 NOUN 5
+香取	1 PROPN 1
+香川	1 PROPN 1
+香港	11 PROPN 11
+香澄	1 PROPN 1
+香織	1 PROPN 1
+馬	15 NOUN 15
+馬主	1 NOUN 1
+馬力	3 NOUN 3
+馬印	1 NOUN 1
+馬場	6 NOUN 6
+馬小屋	1 NOUN 1
+馬肉	1 NOUN 1
+馬英九	1 PROPN 1
+馬術	1 NOUN 1
+馬身	2 NOUN 2
+馬車	3 NOUN 3
+馬鹿	1 NOUN 1
+馳せ	1 VERB_馳せる 1
+馳せる	1 VERB 1
+馴染	1 NOUN 1
+駅	77 NOUN 77
+駅前	4 NOUN 4
+駅名	1 NOUN 1
+駅弁	2 NOUN 2
+駅構内	2 NOUN 2
+駅舎	2 NOUN 2
+駅長	2 NOUN 2
+駆けつけ	3 VERB_駆けつける 3
+駆け回る	1 VERB 1
+駆け寄っ	1 VERB_駆け寄る 1
+駆け抜け	1 VERB_駆け抜ける 1
+駆け抜けろ	1 VERB_駆け抜ける 1
+駆け落ち	1 VERB 1
+駆け込み需要	2 NOUN 2
+駆使	1 VERB 1
+駆動	4 NOUN 4
+駆除	2 NOUN 2
+駐	3 NOUN 3
+駐在	2 NOUN 2
+駐屯	2 VERB 2
+駐車	1 VERB 1
+駐車場	10 NOUN 10
+駒	1 NOUN 1
+駿府	2 PROPN 2
+騎	2 NOUN 2
+騎乗	3 VERB 2 NOUN 1
+騎兵	1 NOUN 1
+騎士	7 NOUN 7
+騎手	2 NOUN 2
+騒がせ	1 VERB_騒がせる 1
+騒動	4 NOUN 4
+騙	1 PROPN 1
+騙し	4 VERB_騙す 4
+騰落	1 NOUN 1
+驚い	6 VERB_驚く 6
+驚き	1 NOUN 1
+驚く	2 VERB 2
+驚嘆	3 VERB 3
+驚異的	1 ADJ 1
+骨	5 NOUN 5
+骨折	1 NOUN 1
+骨格	1 NOUN 1
+骸炭	1 NOUN 1
+高	17 NOUN 17
+高い	40 ADJ 40
+高かっ	4 ADJ_高い 4
+高く	13 ADJ_高い 13
+高さ	5 NOUN 3 PART 2
+高まっ	4 VERB_高まる 4
+高まり	1 NOUN 1
+高め	5 VERB_高める 4 ADJ 1
+高める	3 VERB 3
+高位	2 NOUN 2
+高価	2 ADJ 1 NOUN 1
+高値	2 NOUN 2
+高円宮	1 PROPN 1
+高分子	2 NOUN 2
+高原	2 NOUN 1 PROPN 1
+高台	1 NOUN 1
+高品質	1 ADJ 1
+高圧的	1 ADJ 1
+高地	2 NOUN 1 PROPN 1
+高姓	1 NOUN 1
+高学歴	1 NOUN 1
+高密度	1 ADJ 1
+高層	1 NOUN 1
+高層建築	1 NOUN 1
+高山	4 NOUN 3 PROPN 1
+高崎線	1 PROPN 1
+高嶺	1 NOUN 1
+高度	5 NOUN 3 ADJ 2
+高弟	1 NOUN 1
+高性能	3 ADJ 3
+高所	1 NOUN 1
+高木	3 PROPN 3
+高松	2 PROPN 2
+高松高裁	1 PROPN 1
+高架鉄道	1 NOUN 1
+高架駅	1 PROPN 1
+高校	21 NOUN 21
+高校受験	1 NOUN 1
+高橋	7 PROPN 7
+高機能	2 ADJ 2
+高波	1 NOUN 1
+高浜	1 PROPN 1
+高潮	2 NOUN 2
+高点	1 NOUN 1
+高率	1 ADJ 1
+高田	2 PROPN 2
+高田馬場	2 PROPN 2
+高祖	1 NOUN 1
+高空	1 NOUN 1
+高等	4 ADJ 2 NOUN 2
+高等裁判所	1 NOUN 1
+高精度	1 NOUN 1
+高級	5 NOUN 4 ADJ 1
+高級クラブ	1 NOUN 1
+高裁	1 NOUN 1
+高見沢	3 PROPN 3
+高貴	2 ADJ 2
+高跳び	1 VERB 1
+高速	8 NOUN 5 ADJ 3
+高野山	2 PROPN 2
+高鍋	1 PROPN 1
+高陽	1 PROPN 1
+高雄	1 PROPN 1
+高電圧	1 NOUN 1
+高須	2 PROPN 2
+高額	7 ADJ 5 NOUN 2
+高額療養費	1 NOUN 1
+高騰	2 NOUN 1 VERB 1
+高麗	1 PROPN 1
+高齢	3 NOUN 3
+高齢化	1 NOUN 1
+髪	10 NOUN 10
+髪の毛	1 NOUN 1
+髪型	4 NOUN 4
+髪形	1 NOUN 1
+髪質	1 NOUN 1
+髭	2 NOUN 2
+鬼	10 NOUN 10
+魁偉	1 ADJ 1
+魁皇	2 PROPN 2
+魂	5 NOUN 5
+魅	1 PROPN 1
+魅力	9 NOUN 9
+魅力的	1 ADJ 1
+魏	3 PROPN 3
+魔	4 NOUN 4
+魔人	1 NOUN 1
+魔力	2 NOUN 2
+魔女	2 NOUN 2
+魔族	1 NOUN 1
+魔法	11 NOUN 11
+魔法使い	3 NOUN 3
+魔物	3 NOUN 3
+魔界	2 NOUN 2
+魔神	1 NOUN 1
+魔術	2 NOUN 2
+魔術師	1 NOUN 1
+魔道	1 NOUN 1
+魚	12 NOUN 12
+魚介	1 NOUN 1
+魚介類	3 NOUN 3
+魚道	4 NOUN 4
+魚雷	6 NOUN 6
+魯参	1 PROPN 1
+鮨	1 NOUN 1
+鮭	1 NOUN 1
+鮮明	2 ADJ 1 NOUN 1
+鯖折り	1 NOUN 1
+鰻重	1 NOUN 1
+鳥	7 NOUN 7
+鳥九	1 PROPN 1
+鳥取	2 PROPN 2
+鳥居	1 NOUN 1
+鳥獣	1 NOUN 1
+鳥羽	1 PROPN 1
+鳩山	3 PROPN 3
+鳩時計	1 NOUN 1
+鳳凰	1 NOUN 1
+鳳翔	1 PROPN 1
+鳴らす	1 VERB 1
+鳴り響く	2 VERB 2
+鳴動	1 VERB 1
+鳴海	1 PROPN 1
+鴎外	1 PROPN 1
+鴨宮	1 PROPN 1
+鴻巣	1 PROPN 1
+鵜飼	1 PROPN 1
+鶏	4 NOUN 4
+鶴	1 PROPN 1
+鶴瓶	1 PROPN 1
+鷲	1 NOUN 1
+鷹	1 NOUN 1
+鷹揚	1 ADJ 1
+鷹栖	1 PROPN 1
+鹿	1 NOUN 1
+鹿之介	1 PROPN 1
+鹿児島女子短期大学	1 PROPN 1
+鹿児島本線	1 PROPN 1
+鹿島	1 PROPN 1
+鹿鳴館	1 PROPN 1
+麒麟	1 NOUN 1
+麓	1 PROPN 1
+麗	1 ADJ 1
+麗花	1 PROPN 1
+麦	1 NOUN 1
+麺	9 NOUN 9
+麻原	2 PROPN 2
+麻希	1 PROPN 1
+麻理子	1 PROPN 1
+麻生	1 PROPN 1
+麻疹	2 NOUN 2
+麻痺	1 VERB 1
+麻秋	1 PROPN 1
+麻酔	1 NOUN 1
+麻雀	1 NOUN 1
+麾下	1 NOUN 1
+麿赤児	1 PROPN 1
+黄	5 NOUN 4 PROPN 1
+黄海	1 PROPN 1
+黄色	3 NOUN 3
+黄色い	1 ADJ 1
+黄身	1 NOUN 1
+黄金	4 NOUN 4
+黄門	2 PROPN 2
+黎明期	1 NOUN 1
+黒	9 NOUN 8 ADJ_黒い 1
+黒い	1 ADJ 1
+黒人	1 NOUN 1
+黒姫	2 PROPN 2
+黒字	1 NOUN 1
+黒帯	1 NOUN 1
+黒幕	2 NOUN 2
+黒沢	3 PROPN 3
+黒海	1 PROPN 1
+黒色	1 NOUN 1
+黒豆	1 NOUN 1
+黒髪	1 NOUN 1
+黒鷲旗	1 PROPN 1
+黒龍	1 NOUN 1
+黙	1 PROPN 1
+黙っ	2 VERB_黙る 2
+黙宗	1 PROPN 1
+黙秘	1 VERB 1
+鼻	2 NOUN 2
+鼻緒	1 NOUN 1
+齢	2 NOUN 1 PART 1
+齧っ	1 VERB_齧る 1
+龍	5 PROPN 3 NOUN 2
+龍造	1 PROPN 1
+龍馬	3 PROPN 3
+龕	1 PROPN 1
+
+[LEX:colls]
+10:NUM 年:NOUN	7 NOUN 7
+10:NUM 日:NOUN	11 NOUN 11
+10:NUM 時:NOUN	8 NOUN 8
+1:NUM つ:NOUN	13 NOUN 13
+1:NUM 人:NOUN	10 NOUN 10
+1:NUM 年:NOUN	14 NOUN 14
+1:NUM 日:NOUN	28 NOUN 28
+2:NUM つ:NOUN	13 NOUN 13
+2:NUM 人:NOUN	26 NOUN 26
+2:NUM 年:NOUN	14 NOUN 14
+2:NUM 日:NOUN	12 NOUN 12
+3:NUM つ:NOUN	9 NOUN 9
+3:NUM 人:NOUN	16 NOUN 16
+3:NUM 年:NOUN	14 NOUN 14
+3:NUM 日:NOUN	14 NOUN 14
+3:NUM 時:NOUN	6 NOUN 6
+4:NUM つ:NOUN	7 NOUN 7
+4:NUM 人:NOUN	11 NOUN 11
+4:NUM 年:NOUN	12 NOUN 12
+4:NUM 日:NOUN	15 NOUN 15
+5:NUM 年:NOUN	6 NOUN 6
+5:NUM 日:NOUN	14 NOUN 14
+あり:AUX ませ:AUX	15 AUX 15
+あり:VERB まし:AUX	10 AUX 10
+あり:VERB ます:AUX	49 AUX 49
+あり:VERB ませ:AUX	21 AUX 21
+ある:AUX が:SCONJ	16 SCONJ 16
+ある:VERB が:SCONJ	19 SCONJ 19
+ある:VERB こと:NOUN	13 NOUN 13
+ある:VERB と:ADP	17 ADP 17
+ある:VERB の:PART	8 PART 8
+ある:VERB ので:SCONJ	14 SCONJ 14
+いう:VERB の:PART	14 PART 14
+いる:AUX が:SCONJ	45 SCONJ 45
+いる:AUX こと:NOUN	37 NOUN 37
+いる:AUX ため:SCONJ	10 SCONJ 10
+いる:AUX と:ADP	28 ADP 28
+いる:AUX と:SCONJ	13 SCONJ 13
+いる:AUX の:PART	32 PART 32
+いる:AUX ので:SCONJ	15 SCONJ 15
+いる:AUX もの:NOUN	11 NOUN 11
+いる:AUX よう:AUX	8 AUX 8
+いる:AUX 人:NOUN	8 NOUN 8
+いる:AUX 場合:NOUN	9 NOUN 9
+う:AUX か:PART	28 PART 28
+う:AUX と:ADP	9 ADP 9
+う:AUX と:SCONJ	21 SCONJ 21
+う:AUX という:ADP	6 ADP 6
+お:NOUN 店:NOUN	78 NOUN 78
+おり:AUX ます:AUX	10 AUX 10
+か:PART が:ADP	8 ADP 8
+か:PART と:ADP	25 ADP 25
+か:PART な:PART	12 PART 12
+か:PART の:ADP	9 ADP 9
+か:PART は:ADP	9 ADP 9
+か:PART も:ADP	11 ADP 11
+か:PART を:ADP	13 ADP 13
+から:ADP 2:NUM	7 NUM 7
+から:ADP の:PART	71 PART 71
+から:ADP は:ADP	49 ADP 49
+から:ADP も:ADP	18 ADP 18
+が:ADP 2:NUM	15 NUM 15
+が:ADP 4:NUM	6 NUM 6
+が:ADP あり:VERB	84 VERB 84
+が:ADP ある:VERB	166 VERB 166
+が:ADP いる:VERB	18 VERB 18
+が:ADP お:NOUN	7 NOUN 7
+が:ADP この:ADJ	9 ADJ 9
+が:ADP し:VERB	9 VERB 9
+が:ADP その:ADJ	10 ADJ 10
+が:ADP ない:ADJ	25 ADJ 25
+が:ADP なかっ:ADJ	7 ADJ 7
+が:ADP なく:ADJ	7 ADJ 7
+が:ADP 見:VERB	12 VERB 12
+き:AUX た:AUX	63 AUX 63
+き:AUX て:SCONJ	13 SCONJ 13
+き:AUX まし:AUX	24 AUX 24
+こと:NOUN から:ADP	38 ADP 38
+こと:NOUN が:ADP	189 ADP 189
+こと:NOUN で:ADP	57 ADP 57
+こと:NOUN です:AUX	16 AUX 16
+こと:NOUN と:ADP	21 ADP 21
+こと:NOUN など:ADP	9 ADP 9
+こと:NOUN に:ADP	84 ADP 84
+こと:NOUN により:ADP	12 ADP 12
+こと:NOUN の:ADP	11 ADP 11
+こと:NOUN は:ADP	65 ADP 65
+こと:NOUN も:ADP	63 ADP 63
+こと:NOUN を:ADP	110 ADP 110
+この:ADJ こと:NOUN	9 NOUN 9
+この:ADJ ため:NOUN	12 NOUN 12
+この:ADJ 日:NOUN	11 NOUN 11
+これ:PRON から:ADP	15 ADP 15
+これ:PRON が:ADP	25 ADP 25
+これ:PRON に:ADP	14 ADP 14
+これ:PRON により:ADP	8 ADP 8
+これ:PRON は:ADP	41 ADP 41
+これ:PRON まで:ADP	18 ADP 18
+これ:PRON を:ADP	22 ADP 22
+さ:AUX せ:AUX	65 AUX 65
+さ:AUX れ:AUX	742 AUX 742
+さ:AUX れる:AUX	151 AUX 151
+さ:PART が:ADP	9 ADP 9
+さ:PART を:ADP	12 ADP 12
+さ:VERB せ:AUX	7 AUX 7
+さ:VERB れ:AUX	52 AUX 52
+さ:VERB れる:AUX	26 AUX 26
+さん:NOUN が:ADP	18 ADP 18
+さん:NOUN です:AUX	8 AUX 8
+さん:NOUN に:ADP	11 ADP 11
+さん:NOUN の:ADP	18 ADP 18
+さん:NOUN は:ADP	7 ADP 7
+し:AUX た:AUX	816 AUX 816
+し:AUX て:SCONJ	766 SCONJ 766
+し:AUX ない:AUX	33 AUX 33
+し:AUX まし:AUX	60 AUX 60
+し:AUX ます:AUX	22 AUX 22
+し:AUX よう:AUX	16 AUX 16
+し:VERB た:AUX	100 AUX 100
+し:VERB て:SCONJ	564 SCONJ 564
+し:VERB ない:AUX	13 AUX 13
+し:VERB まし:AUX	8 AUX 8
+する:AUX が:SCONJ	12 SCONJ 12
+する:AUX こと:NOUN	116 NOUN 116
+する:AUX ため:SCONJ	33 SCONJ 33
+する:AUX と:ADP	10 ADP 10
+する:AUX と:SCONJ	43 SCONJ 43
+する:AUX という:ADP	9 ADP 9
+する:AUX など:ADP	16 ADP 16
+する:AUX に:ADP	6 ADP 6
+する:AUX の:PART	33 PART 33
+する:AUX もの:NOUN	16 NOUN 16
+する:AUX ように:AUX	12 AUX 12
+する:AUX 人:NOUN	7 NOUN 7
+する:AUX 者:NOUN	7 NOUN 7
+する:VERB こと:NOUN	13 NOUN 13
+ず:AUX に:SCONJ	14 SCONJ 14
+せ:AUX ず:AUX	17 AUX 17
+せ:AUX た:AUX	33 AUX 33
+せ:AUX て:SCONJ	44 SCONJ 44
+せ:AUX ない:AUX	6 AUX 6
+その:ADJ ため:NOUN	21 NOUN 21
+その:ADJ 中:NOUN	8 NOUN 8
+その:ADJ 後:NOUN	34 NOUN 34
+それ:PRON が:ADP	11 ADP 11
+それ:PRON で:ADP	16 ADP 16
+それ:PRON に:ADP	8 ADP 8
+それ:PRON は:ADP	12 ADP 12
+それ:PRON まで:ADP	11 ADP 11
+それ:PRON を:ADP	28 ADP 28
+た:AUX 2:NUM	5 NUM 5
+た:AUX 3:NUM	7 NUM 7
+た:AUX か:PART	6 PART 6
+た:AUX から:SCONJ	13 SCONJ 13
+た:AUX が:SCONJ	258 SCONJ 258
+た:AUX こと:NOUN	140 NOUN 140
+た:AUX この:ADJ	7 ADJ 7
+た:AUX ため:SCONJ	46 SCONJ 46
+た:AUX だけ:ADP	13 ADP 13
+た:AUX です:AUX	30 AUX 30
+た:AUX と:ADP	80 ADP 80
+た:AUX と:SCONJ	67 SCONJ 67
+た:AUX という:ADP	24 ADP 24
+た:AUX の:PART	104 PART 104
+た:AUX ので:SCONJ	53 SCONJ 53
+た:AUX もの:NOUN	53 NOUN 53
+た:AUX よう:AUX	6 AUX 6
+た:AUX ように:AUX	9 AUX 9
+た:AUX ん:PART	10 PART 10
+た:AUX 上:NOUN	12 NOUN 12
+た:AUX 人:NOUN	11 NOUN 11
+た:AUX 場合:NOUN	23 NOUN 23
+た:AUX 後:NOUN	33 NOUN 33
+た:AUX 方:NOUN	13 NOUN 13
+た:AUX 時:NOUN	12 NOUN 12
+た:AUX 第:PART	6 PART 6
+ため:NOUN に:ADP	26 ADP 26
+ため:NOUN の:ADP	9 ADP 9
+ため:SCONJ に:ADP	49 ADP 49
+ため:SCONJ の:ADP	21 ADP 21
+だ:AUX から:SCONJ	13 SCONJ 13
+だ:AUX が:SCONJ	35 SCONJ 35
+だ:AUX と:ADP	41 ADP 41
+だ:AUX と:SCONJ	27 SCONJ 27
+だけ:ADP が:ADP	7 ADP 7
+だけ:ADP で:ADP	28 ADP 28
+だけ:ADP で:AUX	17 AUX 17
+だけ:ADP に:ADP	8 ADP 8
+だけ:ADP の:ADP	7 ADP 7
+だけ:ADP は:ADP	9 ADP 9
+だっ:AUX た:AUX	153 AUX 153
+つ:NOUN に:ADP	10 ADP 10
+つ:NOUN の:ADP	44 ADP 44
+て:SCONJ 2:NUM	7 NUM 7
+て:SCONJ いる:AUX	1057 AUX 1057
+て:SCONJ おり:AUX	156 AUX 156
+て:SCONJ から:ADP	25 ADP 25
+て:SCONJ き:AUX	103 AUX 103
+て:SCONJ その:ADJ	9 ADJ 9
+て:SCONJ の:PART	28 PART 28
+て:SCONJ は:ADP	69 ADP 69
+て:SCONJ まし:AUX	10 AUX 10
+て:SCONJ ます:AUX	11 AUX 11
+て:SCONJ も:ADP	87 ADP 87
+て:SCONJ 行っ:AUX	9 AUX 9
+で:ADP 1:NUM	10 NUM 10
+で:ADP 2:NUM	11 NUM 11
+で:ADP 3:NUM	9 NUM 9
+で:ADP の:PART	116 PART 116
+で:ADP は:ADP	396 ADP 396
+で:ADP も:ADP	128 ADP 128
+で:AUX あり:AUX	13 AUX 13
+で:AUX ある:AUX	52 AUX 52
+で:AUX ない:AUX	10 AUX 10
+で:AUX なく:AUX	16 AUX 16
+で:AUX は:ADP	139 ADP 139
+で:AUX も:ADP	35 ADP 35
+で:SCONJ いる:AUX	29 AUX 29
+であっ:AUX た:AUX	91 AUX 91
+である:AUX が:SCONJ	19 SCONJ 19
+である:AUX こと:NOUN	19 NOUN 19
+である:AUX と:ADP	11 ADP 11
+である:AUX と:SCONJ	14 SCONJ 14
+でし:AUX た:AUX	89 AUX 89
+です:AUX か:PART	9 PART 9
+です:AUX が:SCONJ	81 SCONJ 81
+と:ADP 3:NUM	5 NUM 5
+と:ADP いう:VERB	109 VERB 109
+と:ADP さ:AUX	6 AUX 6
+と:ADP さ:VERB	28 VERB 28
+と:ADP し:VERB	444 VERB 444
+と:ADP する:VERB	33 VERB 33
+と:ADP その:ADJ	9 ADJ 9
+と:ADP なっ:AUX	8 AUX 8
+と:ADP なっ:VERB	185 VERB 185
+と:ADP なる:VERB	83 VERB 83
+と:ADP の:PART	159 PART 159
+と:ADP は:ADP	91 ADP 91
+と:ADP も:ADP	40 ADP 40
+と:ADP 思い:VERB	81 VERB 81
+と:ADP 見:VERB	7 VERB 7
+と:SCONJ さ:VERB	24 VERB 24
+と:SCONJ し:VERB	46 VERB 46
+と:SCONJ する:VERB	14 VERB 14
+という:ADP こと:NOUN	28 NOUN 28
+な:AUX お:NOUN	11 NOUN 11
+な:AUX こと:NOUN	9 NOUN 9
+な:AUX の:PART	50 PART 50
+な:AUX ので:SCONJ	44 SCONJ 44
+な:AUX もの:NOUN	20 NOUN 20
+な:AUX ん:PART	10 PART 10
+ない:ADJ と:ADP	9 ADP 9
+ない:AUX か:PART	15 PART 15
+ない:AUX が:SCONJ	19 SCONJ 19
+ない:AUX こと:NOUN	15 NOUN 15
+ない:AUX と:ADP	12 ADP 12
+ない:AUX と:SCONJ	14 SCONJ 14
+ない:AUX という:ADP	12 ADP 12
+ない:AUX の:PART	20 PART 20
+ない:AUX ので:SCONJ	16 SCONJ 16
+ない:AUX ように:AUX	9 AUX 9
+なかっ:ADJ た:AUX	22 AUX 22
+なかっ:AUX た:AUX	96 AUX 96
+なく:AUX て:SCONJ	17 SCONJ 17
+なく:AUX なっ:AUX	13 AUX 13
+なく:AUX なる:AUX	7 AUX 7
+なっ:AUX た:AUX	58 AUX 58
+なっ:AUX て:SCONJ	39 SCONJ 39
+なっ:VERB た:AUX	174 AUX 174
+なっ:VERB て:SCONJ	166 SCONJ 166
+など:ADP から:ADP	13 ADP 13
+など:ADP が:ADP	37 ADP 37
+など:ADP し:VERB	10 VERB 10
+など:ADP で:ADP	34 ADP 34
+など:ADP と:ADP	27 ADP 27
+など:ADP に:ADP	31 ADP 31
+など:ADP の:ADP	101 ADP 101
+など:ADP は:ADP	7 ADP 7
+など:ADP も:ADP	16 ADP 16
+など:ADP を:ADP	55 ADP 55
+に:ADP 1:NUM	12 NUM 12
+に:ADP 2:NUM	6 NUM 6
+に:ADP 3:NUM	10 NUM 10
+に:ADP あり:VERB	11 VERB 11
+に:ADP ある:VERB	97 VERB 97
+に:ADP お:NOUN	14 NOUN 14
+に:ADP この:ADJ	8 ADJ 8
+に:ADP さ:VERB	12 VERB 12
+に:ADP し:VERB	65 VERB 65
+に:ADP する:VERB	15 VERB 15
+に:ADP その:ADJ	8 ADJ 8
+に:ADP なっ:VERB	141 VERB 141
+に:ADP なる:VERB	68 VERB 68
+に:ADP は:ADP	494 ADP 494
+に:ADP まで:ADP	8 ADP 8
+に:ADP も:ADP	154 ADP 154
+に:ADP 一:NUM	6 NUM 6
+に:ADP 第:PART	11 PART 11
+に:ADP 行っ:VERB	18 VERB 18
+に:ADP 見:VERB	5 VERB 5
+に:AUX し:AUX	18 AUX 18
+に:AUX する:AUX	9 AUX 9
+に:AUX なっ:AUX	20 AUX 20
+に:AUX なる:AUX	9 AUX 9
+に:AUX は:ADP	28 ADP 28
+に:AUX も:ADP	8 ADP 8
+について:ADP の:PART	13 PART 13
+について:ADP は:ADP	42 ADP 42
+について:ADP も:ADP	11 ADP 11
+によって:ADP は:ADP	12 ADP 12
+の:ADP 1:NUM	23 NUM 23
+の:ADP 2:NUM	25 NUM 25
+の:ADP 3:NUM	18 NUM 18
+の:ADP 4:NUM	16 NUM 16
+の:ADP 5:NUM	6 NUM 6
+の:ADP ある:VERB	22 VERB 22
+の:ADP お:NOUN	31 NOUN 31
+の:ADP こと:NOUN	30 NOUN 30
+の:ADP ため:NOUN	58 NOUN 58
+の:ADP ない:ADJ	9 ADJ 9
+の:ADP もの:NOUN	21 NOUN 21
+の:ADP よう:AUX	6 AUX 6
+の:ADP ように:AUX	36 AUX 36
+の:ADP 一:NUM	31 NUM 31
+の:ADP 上:NOUN	9 NOUN 9
+の:ADP 中:NOUN	68 NOUN 68
+の:ADP 人:NOUN	25 NOUN 25
+の:ADP 前:NOUN	12 NOUN 12
+の:ADP 場合:NOUN	19 NOUN 19
+の:ADP 店:NOUN	7 NOUN 7
+の:ADP 後:NOUN	11 NOUN 11
+の:ADP 方:NOUN	24 NOUN 24
+の:ADP 日:NOUN	6 NOUN 6
+の:ADP 日本:PROPN	7 PROPN 7
+の:ADP 時:NOUN	14 NOUN 14
+の:ADP 第:PART	18 PART 18
+の:ADP 約:PART	9 PART 9
+の:ADP 間:NOUN	30 NOUN 30
+の:PART か:PART	40 PART 40
+の:PART が:ADP	71 ADP 71
+の:PART こと:NOUN	12 NOUN 12
+の:PART だ:AUX	19 AUX 19
+の:PART で:AUX	10 AUX 10
+の:PART です:AUX	54 AUX 54
+の:PART と:ADP	8 ADP 8
+の:PART に:ADP	45 ADP 45
+の:PART は:ADP	106 ADP 106
+の:PART も:ADP	14 ADP 14
+の:PART を:ADP	18 ADP 18
+の:PART 間:NOUN	10 NOUN 10
+ので:SCONJ ある:VERB	10 VERB 10
+は:ADP 10:NUM	7 NUM 7
+は:ADP 1:NUM	20 NUM 20
+は:ADP 2:NUM	17 NUM 17
+は:ADP 3:NUM	25 NUM 25
+は:ADP 4:NUM	10 NUM 10
+は:ADP あり:AUX	15 AUX 15
+は:ADP あり:VERB	7 VERB 7
+は:ADP ある:AUX	7 AUX 7
+は:ADP ある:VERB	8 VERB 8
+は:ADP お:NOUN	7 NOUN 7
+は:ADP この:ADJ	25 ADJ 25
+は:ADP これ:PRON	12 PRON 12
+は:ADP し:VERB	12 VERB 12
+は:ADP その:ADJ	23 ADJ 23
+は:ADP ない:ADJ	32 ADJ 32
+は:ADP ない:AUX	68 AUX 68
+は:ADP なく:ADJ	7 ADJ 7
+は:ADP なく:AUX	42 AUX 42
+は:ADP 一:NUM	6 NUM 6
+は:ADP 日本:PROPN	11 PROPN 11
+は:ADP 現在:NOUN	9 NOUN 9
+は:ADP 第:PART	8 PART 8
+は:ADP 約:PART	15 PART 15
+へ:ADP と:ADP	22 ADP 22
+へ:ADP の:PART	100 PART 100
+まし:AUX た:AUX	397 AUX 397
+ます:AUX が:SCONJ	31 SCONJ 31
+ます:AUX ので:SCONJ	9 SCONJ 9
+ませ:AUX ん:AUX	111 AUX 111
+まで:ADP に:ADP	33 ADP 33
+まで:ADP の:ADP	23 ADP 23
+まで:ADP は:ADP	20 ADP 20
+まで:ADP も:ADP	6 ADP 6
+も:ADP あり:VERB	32 VERB 32
+も:ADP ある:AUX	21 AUX 21
+も:ADP ある:VERB	84 VERB 84
+も:ADP いる:VERB	10 VERB 10
+も:ADP し:VERB	10 VERB 10
+も:ADP ない:ADJ	15 ADJ 15
+も:ADP なく:ADJ	11 ADJ 11
+も:ADP なっ:VERB	11 VERB 11
+もの:NOUN が:ADP	30 ADP 30
+もの:NOUN だ:AUX	9 AUX 9
+もの:NOUN だっ:AUX	9 AUX 9
+もの:NOUN で:AUX	20 AUX 20
+もの:NOUN である:AUX	26 AUX 26
+もの:NOUN です:AUX	11 AUX 11
+もの:NOUN と:ADP	25 ADP 25
+もの:NOUN に:ADP	7 ADP 7
+もの:NOUN は:ADP	8 ADP 8
+もの:NOUN も:ADP	7 ADP 7
+もの:NOUN を:ADP	12 ADP 12
+よう:AUX です:AUX	21 AUX 21
+よう:AUX と:ADP	7 ADP 7
+よう:AUX と:SCONJ	31 SCONJ 31
+ように:AUX なっ:AUX	36 AUX 36
+ように:AUX なる:AUX	18 AUX 18
+より:ADP も:ADP	22 ADP 22
+られ:AUX ず:AUX	8 AUX 8
+られ:AUX た:AUX	82 AUX 82
+られ:AUX て:SCONJ	68 SCONJ 68
+られ:AUX ない:AUX	16 AUX 16
+れ:AUX た:AUX	495 AUX 495
+れ:AUX て:SCONJ	503 SCONJ 503
+れ:AUX ない:AUX	12 AUX 12
+れ:AUX なかっ:AUX	7 AUX 7
+れ:AUX まし:AUX	21 AUX 21
+れ:AUX ます:AUX	13 AUX 13
+れる:AUX が:SCONJ	10 SCONJ 10
+れる:AUX こと:NOUN	27 NOUN 27
+れる:AUX と:SCONJ	9 SCONJ 9
+れる:AUX の:PART	11 PART 11
+れる:AUX ように:AUX	14 AUX 14
+を:ADP 1:NUM	7 NUM 7
+を:ADP お:NOUN	15 NOUN 15
+を:ADP さ:VERB	7 VERB 7
+を:ADP し:VERB	77 VERB 77
+を:ADP する:VERB	34 VERB 34
+を:ADP つ:VERB	12 VERB 12
+を:ADP 受け:VERB	74 VERB 74
+を:ADP 行っ:VERB	42 VERB 42
+を:ADP 見:VERB	29 VERB 29
+ん:AUX が:SCONJ	11 SCONJ 11
+ん:PART だ:AUX	8 AUX 8
+ん:PART です:AUX	18 AUX 18
+一:NUM つ:NOUN	30 NOUN 30
+一:NUM 人:NOUN	17 NOUN 17
+上:NOUN で:ADP	18 ADP 18
+上:NOUN に:ADP	13 ADP 13
+上:NOUN の:ADP	22 ADP 22
+中:NOUN で:ADP	40 ADP 40
+中:NOUN に:ADP	52 ADP 52
+中:NOUN の:ADP	22 ADP 22
+中:NOUN は:ADP	7 ADP 7
+人:NOUN が:ADP	61 ADP 61
+人:NOUN だけ:ADP	7 ADP 7
+人:NOUN で:ADP	16 ADP 16
+人:NOUN と:ADP	12 ADP 12
+人:NOUN に:ADP	20 ADP 20
+人:NOUN の:ADP	58 ADP 58
+人:NOUN は:ADP	38 ADP 38
+人:NOUN も:ADP	8 ADP 8
+人:NOUN を:ADP	19 ADP 19
+内:NOUN で:ADP	20 ADP 20
+内:NOUN に:ADP	21 ADP 21
+内:NOUN の:ADP	22 ADP 22
+円:NOUN で:ADP	7 ADP 7
+円:NOUN の:ADP	12 ADP 12
+円:NOUN を:ADP	12 ADP 12
+前:NOUN から:ADP	8 ADP 8
+前:NOUN で:ADP	6 ADP 6
+前:NOUN に:ADP	41 ADP 41
+前:NOUN の:ADP	18 ADP 18
+受け:VERB た:AUX	30 AUX 30
+受け:VERB て:SCONJ	26 SCONJ 26
+場合:NOUN は:ADP	18 ADP 18
+場合:NOUN も:ADP	13 ADP 13
+年:NOUN から:ADP	43 ADP 43
+年:NOUN に:ADP	198 ADP 198
+年:NOUN の:ADP	67 ADP 67
+年:NOUN は:ADP	6 ADP 6
+年:NOUN まで:ADP	23 ADP 23
+年:NOUN を:ADP	7 ADP 7
+年:NOUN 前:NOUN	14 NOUN 14
+年:NOUN 後:NOUN	8 NOUN 8
+年:PART 3:NUM	7 NUM 7
+店:NOUN が:ADP	9 ADP 9
+店:NOUN で:ADP	5 ADP 5
+店:NOUN です:AUX	27 AUX 27
+店:NOUN に:ADP	9 ADP 9
+店:NOUN の:ADP	18 ADP 18
+店:NOUN は:ADP	11 ADP 11
+店:NOUN を:ADP	9 ADP 9
+後:NOUN に:ADP	62 ADP 62
+後:NOUN の:ADP	31 ADP 31
+後:NOUN は:ADP	34 ADP 34
+後:NOUN も:ADP	17 ADP 17
+思い:VERB ます:AUX	83 AUX 83
+方:NOUN が:ADP	27 ADP 27
+方:NOUN に:ADP	8 ADP 8
+方:NOUN の:ADP	7 ADP 7
+方:NOUN は:ADP	14 ADP 14
+方:NOUN を:ADP	6 ADP 6
+日:NOUN から:ADP	19 ADP 19
+日:NOUN が:ADP	6 ADP 6
+日:NOUN に:ADP	130 ADP 130
+日:NOUN の:ADP	40 ADP 40
+日:NOUN は:ADP	14 ADP 14
+日:NOUN まで:ADP	15 ADP 15
+日:NOUN を:ADP	6 ADP 6
+日:NOUN 目:NOUN	12 NOUN 12
+日本:PROPN で:ADP	16 ADP 16
+日本:PROPN の:ADP	22 ADP 22
+時:NOUN に:ADP	47 ADP 47
+時:NOUN の:ADP	12 ADP 12
+時:NOUN は:ADP	18 ADP 18
+時:NOUN まで:ADP	9 ADP 9
+氏:NOUN が:ADP	14 ADP 14
+氏:NOUN と:ADP	8 ADP 8
+氏:NOUN の:ADP	34 ADP 34
+氏:NOUN は:ADP	35 ADP 35
+氏:NOUN を:ADP	6 ADP 6
+現在:NOUN で:ADP	11 ADP 11
+現在:NOUN の:ADP	19 ADP 19
+現在:NOUN は:ADP	30 ADP 30
+目:NOUN が:ADP	9 ADP 9
+目:NOUN で:ADP	6 ADP 6
+目:NOUN と:ADP	7 ADP 7
+目:NOUN に:ADP	17 ADP 17
+目:NOUN の:ADP	42 ADP 42
+目:NOUN を:ADP	15 ADP 15
+第:PART 1:NUM	22 NUM 22
+第:PART 2:NUM	18 NUM 18
+第:PART 3:NUM	10 NUM 10
+第:PART 4:NUM	10 NUM 10
+第:PART 一:NUM	11 NUM 11
+約:PART 1:NUM	11 NUM 11
+約:PART 5:NUM	5 NUM 5
+者:NOUN が:ADP	25 ADP 25
+者:NOUN と:ADP	10 ADP 10
+者:NOUN に:ADP	21 ADP 21
+者:NOUN の:ADP	28 ADP 28
+者:NOUN は:ADP	23 ADP 23
+者:NOUN も:ADP	7 ADP 7
+者:NOUN を:ADP	12 ADP 12
+行っ:VERB た:AUX	29 AUX 29
+行っ:VERB て:SCONJ	63 SCONJ 63
+見:VERB た:AUX	8 AUX 8
+見:VERB て:SCONJ	25 SCONJ 25
+見:VERB られ:AUX	15 AUX 15
+見:VERB られる:AUX	13 AUX 13
+間:NOUN で:ADP	17 ADP 17
+間:NOUN に:ADP	20 ADP 20
+間:NOUN の:ADP	21 ADP 21
+
+[LEX:unknown]
+A	24 PROPN 24
+A*	222 PROPN 147 NOUN 73 VERB 2
+A*A	24 PROPN 24
+A*D	15 PROPN 10 NOUN 5
+A*E	5 PROPN 5
+A*H	7 PROPN 7
+A*I	6 PROPN 6
+A*K	8 PROPN 8
+A*M	12 NOUN 10 PROPN 2
+A*O	11 PROPN 6 NOUN 5
+A*S	15 NOUN 9 PROPN 6
+A*i	5 PROPN 5
+Aa*	48 PROPN 38 NOUN 10
+Aa*e	8 PROPN 8
+Aa*s	6 PROPN 4 NOUN 2
+Aa*x	7 PROPN 7
+_	46 SYM 19 PUNCT 15 PROPN 4 ADP 3 NUM 2 NOUN 2 PART 1
+_*	13 NOUN 6 NUM 3 PUNCT 2 SYM 2
+_*.	4 NOUN 2 SYM 2
+a	1421 NOUN 1001 PROPN 316 VERB 39 ADJ 16 NUM 14 AUX 12 ADV 9 PART 8 SYM 4 PRON 2
+a*	15587 NOUN 8969 VERB 3154 PROPN 1889 ADJ 915 ADV 365 AUX 146 PART 49 CCONJ 34 ADP 31 PRON 22
+a*い	170 ADJ 91 NOUN 31 VERB 21 AUX 15 PROPN 6 ADV 4 ADP 2
+a*いう	8 ADJ 8
+a*いです	12 ADJ 12
+a*う	16 ADJ 8 VERB 4 ADV 2 AUX 2
+a*え	36 VERB 24 NOUN 6 ADP 3 AUX 3
+a*える	7 AUX 5 VERB 2
+a*か	38 ADV 15 ADJ 14 PART 3 PROPN 2 ADP 2 NOUN 2
+a*かっ	11 ADJ 11
+a*かの	8 ADJ 8
+a*が	10 VERB 5 ADJ 3 ADV 2
+a*がっ	5 VERB 5
+a*がら	6 CCONJ 4 ADV 2
+a*き	29 NOUN 12 VERB 10 ADV 3 ADJ 2 PROPN 2
+a*ぎ	6 NOUN 5 VERB 1
+a*く	114 ADJ 54 VERB 24 ADV 19 AUX 9 NOUN 4 CCONJ 4
+a*くり	11 ADV 5 VERB 4 NOUN 2
+a*け	66 VERB 46 NOUN 13 ADV 3 ADJ 2 AUX 2
+a*ける	6 VERB 6
+a*げ	44 VERB 37 NOUN 7
+a*こ	4 NOUN 2 ADV 2
+a*さ	22 VERB 16 NOUN 4 ADV 2
+a*さん	13 NOUN 8 PRON 5
+a*ざ	5 ADV 5
+a*し	63 VERB 52 NOUN 8 ADJ 2 ADV 1
+a*しい	23 ADJ 23
+a*しく	6 ADJ 4 ADV 2
+a*して	10 ADV 8 ADP 2
+a*す	66 VERB 39 ADJ 24 NOUN 2 AUX 1
+a*せ	18 VERB 12 NOUN 6
+a*たま	6 ADV 4 PROPN 2
+a*ち	18 NOUN 12 PRON 2 ADV 2 ADJ 2
+a*っ	145 VERB 119 ADJ 22 AUX 4
+a*って	9 ADP 5 ADV 2 CCONJ 2
+a*つ	8 NOUN 8
+a*つけ	7 VERB 5 ADJ 2
+a*て	53 ADV 26 ADP 11 NOUN 10 VERB 4 CCONJ 2
+a*で	17 ADV 8 AUX 5 CCONJ 3 NOUN 1
+a*です	24 ADJ 24
+a*と	30 ADV 28 CCONJ 2
+a*ど	9 SCONJ 5 ADV 4
+a*な	14 AUX 9 ADJ 5
+a*なっ	7 VERB 7
+a*に	43 ADV 26 PART 12 AUX 5
+a*の	12 ADJ 12
+a*は	8 ADV 4 NOUN 4
+a*ぶ	6 NOUN 3 ADV 2 VERB 1
+a*ま	23 VERB 15 ADV 4 PROPN 2 ADJ 1 NOUN 1
+a*み	29 NOUN 21 VERB 8
+a*む	8 VERB 8
+a*め	12 VERB 10 NOUN 2
+a*も	25 ADV 18 NOUN 5 ADJ 2
+a*ゆる	7 ADJ 7
+a*ら	32 ADV 11 CCONJ 7 NOUN 6 VERB 4 ADJ 4
+a*らしい	6 ADJ 6
+a*り	167 NOUN 70 VERB 57 ADV 29 ADJ 5 AUX 3 ADP 2 PROPN 1
+a*りし	5 VERB 5
+a*る	228 VERB 200 ADJ 12 AUX 10 PART 3 ADP 3
+a*れ	39 VERB 22 NOUN 6 ADJ 3 AUX 3 ADP 3 PRON 2
+a*ろ	12 AUX 5 ADV 5 ADJ 2
+a*わ	9 VERB 8 ADJ 1
+a*わざ	5 ADV 5
+a*わり	5 NOUN 5
+a*ん	41 VERB 13 NOUN 13 PROPN 6 PRON 5 ADV 3 ADJ 1
+a*んな	5 ADJ 5
+a*ア	78 PROPN 39 NOUN 37 VERB 2
+a*アップ	6 NOUN 6
+a*アル	9 NOUN 8 VERB 1
+a*アン	11 NOUN 9 PROPN 2
+a*ア州	6 PROPN 6
+a*ィ	34 NOUN 26 PROPN 8
+a*ィア	14 PROPN 8 NOUN 6
+a*ィー	21 NOUN 14 PROPN 7
+a*イ	24 PROPN 12 NOUN 10 ADV 2
+a*イト	6 NOUN 6
+a*イム	7 NOUN 7
+a*イル	11 NOUN 11
+a*イン	13 NOUN 11 PROPN 2
+a*ウン	7 NOUN 7
+a*ウンド	7 NOUN 7
+a*ェル	7 PROPN 4 NOUN 3
+a*エ	5 NOUN 3 PROPN 2
+a*オ	23 NOUN 17 PROPN 6
+a*オン	7 NOUN 4 PROPN 3
+a*カ	9 PROPN 7 NOUN 2
+a*カル	9 NOUN 6 PROPN 2 ADJ 1
+a*カー	6 PROPN 4 NOUN 2
+a*ガー	11 NOUN 8 PROPN 3
+a*キ	8 PROPN 4 NOUN 2 VERB 2
+a*キー	10 PROPN 6 NOUN 4
+a*ク	108 NOUN 84 PROPN 17 ADJ 5 VERB 2
+a*クション	9 NOUN 9
+a*クス	23 NOUN 15 PROPN 8
+a*クト	6 NOUN 3 ADJ 3
+a*グ	67 NOUN 64 PROPN 2 VERB 1
+a*ケ	5 PROPN 5
+a*コ	17 PROPN 9 NOUN 8
+a*コミ	7 NOUN 7
+a*コン	9 NOUN 5 PROPN 4
+a*サ	4 NOUN 2 PROPN 2
+a*サー	13 NOUN 11 PROPN 2
+a*ザ	15 NOUN 15
+a*ザー	8 NOUN 6 PROPN 2
+a*シア	6 PROPN 6
+a*シュ	14 NOUN 9 VERB 3 PROPN 2
+a*ション	63 NOUN 61 VERB 2
+a*シー	11 NOUN 9 PROPN 2
+a*ジ	20 NOUN 18 PROPN 2
+a*ス	187 NOUN 135 PROPN 49 ADJ 1 PART 1 VERB 1
+a*スター	7 PROPN 4 NOUN 3
+a*スト	38 NOUN 34 PROPN 2 ADJ 2
+a*ズ	41 NOUN 24 PROPN 17
+a*セプト	7 NOUN 6 VERB 1
+a*ソン	6 NOUN 4 PROPN 2
+a*タ	9 NOUN 7 PROPN 2
+a*タイム	7 NOUN 7
+a*タル	13 NOUN 7 PROPN 3 ADJ 3
+a*ター	66 NOUN 51 PROPN 15
+a*ダ	16 PROPN 10 NOUN 6
+a*ダル	7 NOUN 7
+a*ダー	19 NOUN 16 PROPN 3
+a*チ	30 NOUN 26 VERB 4
+a*チャー	11 NOUN 8 PROPN 3
+a*ック	32 NOUN 27 ADJ 2 PROPN 2 VERB 1
+a*ックス	14 NOUN 8 PROPN 6
+a*ッシュ	8 VERB 3 NOUN 3 PROPN 2
+a*ット	47 NOUN 44 PROPN 2 VERB 1
+a*ッド	18 NOUN 9 PROPN 9
+a*ップ	30 NOUN 25 VERB 3 PROPN 2
+a*ツ	26 NOUN 22 PROPN 4
+a*ティ	17 NOUN 17
+a*ティー	14 NOUN 11 PROPN 3
+a*デ	5 PROPN 5
+a*ディ	6 PROPN 6
+a*ディア	8 NOUN 4 PROPN 4
+a*デン	6 PROPN 4 NOUN 2
+a*ト	288 NOUN 247 PROPN 25 ADJ 10 VERB 6
+a*トン	14 PROPN 9 NOUN 5
+a*ド	172 NOUN 112 PROPN 54 VERB 5 ADJ 1
+a*ナ	12 PROPN 6 NOUN 6
+a*ナス	8 NOUN 6 ADJ 1 PART 1
+a*ナル	9 NOUN 8 PROPN 1
+a*ナー	10 NOUN 10
+a*ニック	7 NOUN 5 PROPN 2
+a*ニング	16 NOUN 16
+a*ヌ	5 PROPN 3 NOUN 2
+a*ネ	8 PROPN 5 NOUN 3
+a*ノ	6 PROPN 4 NOUN 2
+a*ハ	6 PROPN 5 PART 1
+a*バ	7 NOUN 5 PROPN 2
+a*バル	11 NOUN 6 ADJ 3 PROPN 2
+a*バー	13 NOUN 9 PROPN 2 PART 2
+a*パクト	6 NOUN 3 ADJ 3
+a*ビ	10 PROPN 6 NOUN 4
+a*ビア	8 PROPN 8
+a*ビー	6 NOUN 6
+a*ピー	5 NOUN 5
+a*フ	26 NOUN 19 PROPN 7
+a*ブ	12 NOUN 9 ADJ 3
+a*ブル	11 NOUN 6 ADJ 5
+a*プ	43 NOUN 35 VERB 4 PROPN 2 ADJ 2
+a*プト	11 NOUN 10 VERB 1
+a*プリ	5 NOUN 5
+a*プル	7 NOUN 5 ADJ 2
+a*ボール	6 NOUN 6
+a*マ	12 NOUN 9 PROPN 3
+a*マン	10 NOUN 6 PROPN 4
+a*マンス	6 NOUN 6
+a*ミ	9 NOUN 8 VERB 1
+a*ム	79 NOUN 64 PROPN 13 ADJ 2
+a*ムズ	5 PROPN 5
+a*メ	8 NOUN 8
+a*メント	7 NOUN 7
+a*モア	6 PROPN 4 NOUN 2
+a*ャ	8 PROPN 6 NOUN 2
+a*ャー	17 NOUN 11 PROPN 6
+a*ヤ	7 NOUN 5 PROPN 2
+a*ュ	16 NOUN 11 VERB 3 PROPN 2
+a*ョン	65 NOUN 63 VERB 2
+a*ラ	36 PROPN 22 NOUN 14
+a*ラス	6 PROPN 4 NOUN 2
+a*ランド	14 PROPN 12 NOUN 2
+a*ラー	19 NOUN 17 PROPN 2
+a*リ	23 PROPN 10 NOUN 9 ADJ 3 VERB 1
+a*リア	15 PROPN 9 NOUN 6
+a*リスト	10 NOUN 10
+a*リン	22 PROPN 12 NOUN 10
+a*リング	10 NOUN 10
+a*リー	25 NOUN 15 PROPN 9 ADJ 1
+a*ル	253 NOUN 179 PROPN 53 ADJ 17 VERB 4
+a*ルス	9 NOUN 5 PROPN 4
+a*ルズ	6 PROPN 6
+a*ルト	8 NOUN 8
+a*ルド	17 NOUN 10 PROPN 7
+a*ルム	7 PROPN 4 NOUN 3
+a*レ	12 NOUN 12
+a*レス	12 NOUN 12
+a*レビ	6 PROPN 6
+a*レーション	9 NOUN 9
+a*レート	7 NOUN 5 ADJ 2
+a*ロ	13 PROPN 9 NOUN 4
+a*ロン	6 NOUN 6
+a*ロー	8 NOUN 6 VERB 2
+a*ン	339 NOUN 207 PROPN 130 VERB 2
+a*ング	41 NOUN 40 VERB 1
+a*ンス	18 NOUN 18
+a*ンツ	9 NOUN 9
+a*ント	36 NOUN 33 PROPN 2 VERB 1
+a*ンド	38 NOUN 25 PROPN 13
+a*ヴ	4 NOUN 2 PROPN 2
+a*ー	349 NOUN 264 PROPN 80 PART 2 VERB 2 ADJ 1
+a*ーク	18 NOUN 15 ADJ 3
+a*ーション	25 NOUN 24 VERB 1
+a*ース	16 NOUN 15 VERB 1
+a*ーズ	7 PROPN 4 NOUN 3
+a*ーター	8 NOUN 8
+a*ート	49 NOUN 38 PROPN 8 ADJ 3
+a*ード	32 NOUN 18 PROPN 11 VERB 3
+a*ーム	30 NOUN 28 PROPN 2
+a*ーラ	6 PROPN 6
+a*ーラー	7 NOUN 7
+a*ール	40 NOUN 22 PROPN 15 VERB 3
+a*ーン	25 NOUN 14 PROPN 11
+a*上げ	31 VERB 28 NOUN 3
+a*中	7 NOUN 7
+a*主	8 NOUN 8
+a*事	6 NOUN 6
+a*人	42 NOUN 42
+a*付け	16 VERB 13 NOUN 3
+a*代	11 NOUN 11
+a*会	41 NOUN 41
+a*伝	5 NOUN 5
+a*党	10 PROPN 10
+a*入れ	10 VERB 9 NOUN 1
+a*出し	9 VERB 8 NOUN 1
+a*出す	6 VERB 6
+a*分	4 NOUN 4
+a*列	4 NOUN 4
+a*前	6 PART 4 ADJ 1 NOUN 1
+a*力	10 NOUN 8 PROPN 2
+a*動	6 NOUN 6
+a*動車	5 NOUN 3 PROPN 2
+a*勝	9 NOUN 7 PROPN 2
+a*化	23 NOUN 18 VERB 5
+a*区	11 PROPN 6 NOUN 5
+a*医	6 NOUN 6
+a*原	4 PROPN 4
+a*取り	8 VERB 4 NOUN 4
+a*号	10 NOUN 10
+a*合	5 NOUN 5
+a*合い	5 NOUN 5
+a*味	4 ADJ 4
+a*和国	6 PROPN 6
+a*品	9 NOUN 9
+a*員	22 NOUN 22
+a*器	6 NOUN 6
+a*回	5 NOUN 5
+a*国	17 PROPN 11 NOUN 6
+a*圏	5 NOUN 5
+a*地	27 NOUN 27
+a*型	5 NOUN 5
+a*域	4 NOUN 4
+a*場	19 NOUN 17 PROPN 2
+a*大学	17 PROPN 13 NOUN 4
+a*婦	4 NOUN 4
+a*子	12 NOUN 10 PROPN 2
+a*字	6 NOUN 6
+a*学	30 NOUN 17 PROPN 13
+a*学校	5 NOUN 5
+a*官	10 NOUN 10
+a*家	31 NOUN 31
+a*局	16 NOUN 16
+a*山	7 PROPN 4 NOUN 3
+a*島	5 PROPN 5
+a*州	17 PROPN 17
+a*市	35 PROPN 35
+a*庁	12 PROPN 8 NOUN 4
+a*店	8 NOUN 8
+a*府	14 PROPN 11 NOUN 3
+a*度	11 NOUN 9 ADV 2
+a*式	6 NOUN 6
+a*役	5 NOUN 5
+a*性	10 NOUN 10
+a*成	5 NOUN 4 VERB 1
+a*戦	9 NOUN 9
+a*所	26 NOUN 25 PROPN 1
+a*授	6 NOUN 6
+a*換え	6 VERB 4 NOUN 2
+a*教	9 NOUN 9
+a*教授	6 NOUN 6
+a*新聞	11 PROPN 11
+a*日	26 NOUN 20 PROPN 6
+a*時代	9 NOUN 9
+a*替え	10 VERB 8 NOUN 2
+a*期	8 NOUN 6 ADJ 2
+a*本	9 NOUN 7 PROPN 2
+a*査	6 NOUN 6
+a*校	8 NOUN 8
+a*業	7 NOUN 5 PROPN 2
+a*様	5 NOUN 5
+a*権	13 NOUN 13
+a*機	22 NOUN 22
+a*機関	8 NOUN 8
+a*法	11 NOUN 7 PROPN 4
+a*法人	6 NOUN 6
+a*洋	7 PROPN 5 NOUN 2
+a*活動	6 NOUN 6
+a*海	11 PROPN 9 NOUN 2
+a*港	5 NOUN 5
+a*澤	4 PROPN 4
+a*災	4 NOUN 4
+a*物	22 NOUN 22
+a*率	6 NOUN 6
+a*王	4 NOUN 4
+a*球	6 NOUN 6
+a*理	6 NOUN 6
+a*生	19 NOUN 19
+a*産	5 NOUN 5
+a*用	4 NOUN 4
+a*田	4 PROPN 4
+a*町	13 PROPN 13
+a*画	7 NOUN 7
+a*番号	5 NOUN 5
+a*番組	6 NOUN 6
+a*療法	5 NOUN 5
+a*発	5 NOUN 5
+a*的	123 ADJ 122 NOUN 1
+a*省	9 PROPN 9
+a*県	66 PROPN 66
+a*社	18 NOUN 10 PROPN 8
+a*社会	6 NOUN 6
+a*科	10 NOUN 10
+a*立て	7 VERB 4 NOUN 3
+a*組	8 NOUN 8
+a*線	10 PROPN 8 NOUN 2
+a*者	52 NOUN 52
+a*聞	11 PROPN 11
+a*能	8 ADJ 5 NOUN 3
+a*船	5 NOUN 5
+a*艦	6 NOUN 6
+a*街	8 NOUN 8
+a*誌	5 NOUN 5
+a*語	8 NOUN 8
+a*調査	6 NOUN 6
+a*財	4 NOUN 4
+a*路	7 NOUN 7
+a*車	12 NOUN 10 PROPN 2
+a*軍	12 NOUN 6 PROPN 6
+a*込ま	11 VERB 11
+a*込み	7 NOUN 5 VERB 2
+a*送	10 NOUN 8 PROPN 2
+a*道	4 PROPN 4
+a*選	5 NOUN 5
+a*郎	4 PROPN 4
+a*部	14 NOUN 10 PROPN 4
+a*野球	6 NOUN 6
+a*量	4 NOUN 4
+a*金	11 NOUN 11
+a*長	9 NOUN 9
+a*間	9 NOUN 9
+a*関	10 NOUN 8 PROPN 2
+a*院	9 PROPN 7 NOUN 2
+a*険	5 NOUN 5
+a*隊	9 NOUN 9
+a*題	7 NOUN 7
+a*館	13 NOUN 13
+a*駅	19 PROPN 17 NOUN 2
+a*高	5 NOUN 5
+d*	875 NUM 872 NOUN 3
+d*5	7 NUM 7
+d*6	7 NUM 7
+d_*	39 NUM 39
+
+[LEX:dependencies]
+ADJ	538 root 538
+ADJ>ADJ	225 acl 206 amod 11 det 6 csubj 2
+ADJ>ADV	8 acl 4 amod 3 det 1
+ADJ>NOUN	2496 acl 1276 det 691 amod 517 csubj 12
+ADJ>NUM	46 amod 25 det 10 acl 10 csubj 1
+ADJ>PRON	8 acl 5 amod 2 det 1
+ADJ>PROPN	66 acl 45 amod 11 det 9 csubj 1
+ADJ>VERB	1160 acl 1152 csubj 4 amod 3
+ADP<ADJ	384 case 384
+ADP<ADV	76 case 76
+ADP<NOUN	26618 case 26101 cc 451 fixed 66
+ADP<NUM	1878 case 1873 cc 5
+ADP<PRON	899 case 897 cc 2
+ADP<PROPN	3802 case 3718 cc 84
+ADP<VERB	2027 case 2024 cc 3
+ADP>VERB	12 dep 12
+ADV	17 root 17
+ADV>ADJ	255 advmod 252 acl 3
+ADV>ADV	15 advmod 15
+ADV>NOUN	201 advmod 198 acl 2 csubj 1
+ADV>NUM	35 advmod 35
+ADV>PROPN	15 advmod 15
+ADV>VERB	1088 advmod 1074 acl 14
+AUX<ADJ	2265 aux 2077 cop 96 fixed 92
+AUX<ADV	52 cop 38 aux 14
+AUX<NOUN	1926 cop 1342 aux 544 fixed 40
+AUX<NUM	110 cop 80 aux 29 fixed 1
+AUX<PRON	22 cop 14 aux 7 fixed 1
+AUX<PROPN	131 cop 88 aux 43
+AUX<VERB	16141 aux 15880 cop 226 fixed 35
+CCONJ>ADJ	59 advmod 59
+CCONJ>NOUN	155 advmod 155
+CCONJ>PROPN	28 advmod 28
+CCONJ>VERB	502 advmod 502
+NOUN	1457 root 1457
+NOUN<ADJ	50 aux 50
+NOUN<NOUN	54 aux 54
+NOUN<NUM	2469 mark 2467
+NOUN<PRON	17 fixed 14 aux 3
+NOUN<VERB	601 aux 601
+NOUN>ADJ	1695 nsubj 741 obl 621 iobj 144 compound 134 obj 44 amod 9 nmod 2
+NOUN>ADV	37 nmod 20 nsubj 14 obl 3
+NOUN>CCONJ	11 nmod 11
+NOUN>NOUN	18528 compound 8937 nmod 7576 amod 979 obl 525 nsubj 352 acl 122 iobj 32
+NOUN>NUM	1140 nmod 566 compound 494 nsubj 37 obl 23 amod 14 acl 3 iobj 3
+NOUN>PRON	42 nmod 35 acl 3 nsubj 3 obl 1
+NOUN>PROPN	1333 nmod 786 compound 417 acl 49 amod 36 nsubj 24 obl 21
+NOUN>VERB	17075 obl 5489 nsubj 4301 obj 3966 iobj 3220 amod 79 compound 20
+NUM	133 root 133
+NUM>ADJ	35 nummod 32 acl 3
+NUM>ADV	20 nummod 20
+NUM>NOUN	1808 nummod 1798 acl 10
+NUM>NUM	368 nummod 364 acl 4
+NUM>PROPN	196 nummod 196
+NUM>VERB	1354 nummod 1328 acl 26
+PART<ADJ	176 mark 129 aux 40 case 7
+PART<ADV	80 case 70 mark 10
+PART<NOUN	620 case 480 mark 140
+PART<NUM	27 mark 14 case 13
+PART<PRON	31 mark 18 case 13
+PART<PROPN	153 case 141 mark 12
+PART<VERB	601 mark 529 case 72
+PART>NOUN	121 amod 120 dep 1
+PART>NUM	313 amod 313
+PRON	9 root 9
+PRON>ADJ	48 nsubj 24 obl 19 iobj 5
+PRON>NOUN	260 nmod 190 nsubj 47 obl 20 obj 1 acl 1 iobj 1
+PRON>NUM	10 nmod 9 nsubj 1
+PRON>VERB	521 obl 192 nsubj 167 iobj 84 obj 78
+PROPN	141 root 141
+PROPN>ADJ	93 obl 52 nsubj 26 compound 8 iobj 5 obj 2
+PROPN>ADV	9 nmod 7 nsubj 2
+PROPN>NOUN	4108 compound 2453 nmod 1513 obl 76 nsubj 53 acl 12
+PROPN>NUM	264 compound 174 nmod 80 obl 5 nsubj 5
+PROPN>PROPN	1279 nmod 691 compound 559 obl 22 nsubj 5 acl 2
+PROPN>VERB	2106 nsubj 730 obl 664 iobj 421 obj 291
+PUNCT	8 root 8
+PUNCT.!<ADJ	27 compound 27
+PUNCT.!<NOUN	37 compound 37
+PUNCT.!<VERB	56 compound 56
+PUNCT.,<ADJ	46 punct 46
+PUNCT.,<ADV	38 punct 38
+PUNCT.,<CCONJ	45 punct 45
+PUNCT.,<NOUN	493 punct 493
+PUNCT.,<NUM	34 punct 34
+PUNCT.,<PRON	18 punct 18
+PUNCT.,<PROPN	32 punct 32
+PUNCT.,<VERB	399 punct 399
+PUNCT.?<VERB	22 compound 22
+PUNCT<ADJ	848 punct 826 compound 22
+PUNCT<ADV	88 punct 88
+PUNCT<CCONJ	280 punct 280
+PUNCT<NOUN	4282 punct 3893 compound 389
+PUNCT<NUM	462 punct 440 compound 22
+PUNCT<PRON	51 punct 49 compound 2
+PUNCT<PROPN	712 punct 554 compound 158
+PUNCT<VERB	7401 punct 7301 compound 100
+PUNCT>ADJ	45 punct 45
+PUNCT>ADP	11 punct 11
+PUNCT>ADV	21 punct 21
+PUNCT>NOUN	730 punct 729 dep 1
+PUNCT>NUM	54 punct 53 nmod 1
+PUNCT>PRON	20 punct 20
+PUNCT>PROPN	292 punct 292
+PUNCT>VERB	50 punct 50
+SCONJ<ADJ	315 mark 315
+SCONJ<ADV	9 mark 9
+SCONJ<NOUN	235 mark 235
+SCONJ<NUM	10 mark 10
+SCONJ<PROPN	16 mark 16
+SCONJ<VERB	5536 mark 5536
+SYM<ADJ	12 compound 11 punct 1
+SYM<NOUN	502 compound 501 punct 1
+SYM<NUM	47 compound 47
+SYM<PROPN	549 compound 549
+SYM<VERB	15 compound 13 punct 2
+SYM>NOUN	43 compound 37 nmod 5 punct 1
+SYM>NUM	7 nmod 5 compound 2
+VERB	4859 root 4859
+VERB<NOUN	50 fixed 50
+VERB>ADJ	543 acl 507 csubj 30 amod 6
+VERB>ADV	19 acl 14 csubj 5
+VERB>NOUN	4057 acl 3879 amod 105 csubj 73
+VERB>NUM	91 acl 79 csubj 11 amod 1
+VERB>PRON	16 acl 14 csubj 2
+VERB>PROPN	313 acl 306 csubj 6 amod 1
+VERB>VERB	5245 acl 5182 csubj 38 amod 25
+
+[INWARDS:1]
+4243
+ADJ:この	353
+ADJ:この ADJ	5
+ADJ:この ADJ AUX	3
+ADJ:この NOUN	326
+ADJ:この NOUN ADP	246
+ADJ:この NOUN ADP ADP	23
+ADJ:この NOUN ADP ADV	9
+ADJ:この NOUN ADP NOUN	87
+ADJ:この NOUN ADP NUM	13
+ADJ:この NOUN ADP PROPN	24
+ADJ:この NOUN ADP PUNCT	19
+ADJ:この NOUN ADP PUNCT.,	3
+ADJ:この NOUN NOUN ADP	31
+ADJ:この NOUN NOUN NOUN	3
+ADJ:この NOUN NUM	3
+ADJ:この NOUN NUM NOUN	3
+ADJ:この NOUN PROPN	6
+ADJ:この NOUN PROPN NOUN	3
+ADJ:この NOUN PUNCT NOUN	8
+ADJ:この NOUN PUNCT PROPN	6
+ADJ:この NUM	4
+ADJ:この NUM NOUN	4
+ADJ:この NUM NOUN ADP	4
+ADJ:この PROPN	11
+ADJ:この PROPN NOUN	4
+ADJ:この PROPN NOUN ADP	3
+ADJ:その	347
+ADJ:その ADJ	7
+ADJ:その ADJ NOUN	4
+ADJ:その ADJ NOUN ADP	4
+ADJ:その NOUN	327
+ADJ:その NOUN ADP	241
+ADJ:その NOUN ADP ADJ	26
+ADJ:その NOUN ADP ADV	5
+ADJ:その NOUN ADP NOUN	81
+ADJ:その NOUN ADP NUM	11
+ADJ:その NOUN ADP PROPN	18
+ADJ:その NOUN ADP PUNCT	15
+ADJ:その NOUN ADP PUNCT.,	3
+ADJ:その NOUN AUX PUNCT	3
+ADJ:その NOUN NOUN ADP	33
+ADJ:その NOUN NOUN NOUN	3
+ADJ:その NOUN PART	5
+ADJ:その NOUN PROPN	4
+ADJ:その NOUN PROPN ADP	3
+ADJ:その NOUN PUNCT	27
+ADJ:その NOUN PUNCT NOUN	17
+ADJ:その NOUN PUNCT PROPN	7
+ADJ:その NOUN VERB	6
+ADJ:その NOUN VERB AUX	5
+ADJ:その NUM	3
+ADJ:その NUM NOUN	3
+ADJ:ない	115
+ADJ:ない ADP	13
+ADJ:ない ADP ADP	3
+ADJ:ない ADP VERB	8
+ADJ:ない ADP VERB PUNCT	3
+ADJ:ない AUX AUX	4
+ADJ:ない AUX AUX PUNCT	3
+ADJ:ない NOUN ADP	17
+ADJ:ない NOUN ADP VERB	9
+ADJ:ない NOUN NOUN	4
+ADJ:ない PART	6
+ADJ:ない PUNCT	41
+ADJ:ない PUNCT ADP	6
+ADJ:ない SCONJ	17
+ADJ:ない SCONJ NOUN	4
+ADJ:ない SCONJ NOUN ADP	3
+ADJ:ない SCONJ VERB	4
+ADJ:ない SCONJ VERB AUX	3
+ADP:から	860
+ADP:から ADJ AUX	21
+ADP:から ADJ AUX NOUN	10
+ADP:から ADJ AUX SCONJ	3
+ADP:から ADJ NOUN	8
+ADP:から ADJ NOUN ADP	8
+ADP:から ADJ SCONJ	4
+ADP:から ADP	74
+ADP:から ADP ADJ AUX	4
+ADP:から ADP ADV	10
+ADP:から ADP ADV NOUN	5
+ADP:から ADP NOUN	28
+ADP:から ADP NOUN NOUN	8
+ADP:から ADP PROPN	11
+ADP:から ADP PROPN ADP	7
+ADP:から ADP PUNCT NOUN	5
+ADP:から ADP PUNCT PROPN	3
+ADP:から ADP VERB AUX	5
+ADP:から ADV	19
+ADP:から ADV NOUN ADP	3
+ADP:から ADV NUM	3
+ADP:から ADV NUM NOUN	3
+ADP:から ADV VERB	7
+ADP:から ADV VERB AUX	5
+ADP:から AUX AUX	3
+ADP:から AUX AUX PUNCT	3
+ADP:から NOUN ADP	144
+ADP:から NOUN ADP ADP	8
+ADP:から NOUN ADP NUM	4
+ADP:から NOUN ADP PART	3
+ADP:から NOUN ADP PROPN	7
+ADP:から NOUN ADP VERB	77
+ADP:から NOUN NOUN	54
+ADP:から NOUN NOUN ADP	44
+ADP:から NOUN NUM	7
+ADP:から NOUN NUM NOUN	7
+ADP:から NOUN PUNCT	4
+ADP:から NOUN SYM	3
+ADP:から NOUN VERB	6
+ADP:から NUM	72
+ADP:から NUM NOUN	63
+ADP:から NUM NOUN ADP	40
+ADP:から NUM NOUN VERB	4
+ADP:から NUM NUM	3
+ADP:から NUM NUM NOUN	3
+ADP:から NUM PROPN	4
+ADP:から NUM PROPN ADP	3
+ADP:から PART	77
+ADP:から PART ADJ	3
+ADP:から PART NOUN	61
+ADP:から PART NOUN AUX	5
+ADP:から PART NOUN NOUN	17
+ADP:から PART NUM NOUN	7
+ADP:から PART PROPN	6
+ADP:から PART PROPN NOUN	5
+ADP:から PROPN	67
+ADP:から PROPN ADP	33
+ADP:から PROPN ADP PROPN	4
+ADP:から PROPN ADP VERB	12
+ADP:から PROPN NOUN ADP	13
+ADP:から PROPN NOUN NOUN	5
+ADP:から PROPN PROPN ADP	5
+ADP:から PROPN SYM PROPN	3
+ADP:から PUNCT	90
+ADP:から PUNCT ADV	7
+ADP:から PUNCT ADV NOUN	3
+ADP:から PUNCT NOUN ADP	25
+ADP:から PUNCT NOUN NOUN	11
+ADP:から PUNCT NOUN PUNCT	4
+ADP:から PUNCT NUM NOUN	3
+ADP:から PUNCT PROPN	21
+ADP:から PUNCT PROPN ADP	10
+ADP:から PUNCT PROPN PUNCT	4
+ADP:から PUNCT., NOUN	4
+ADP:から PUNCT., NOUN ADP	3
+ADP:から VERB AUX	115
+ADP:から VERB AUX AUX	52
+ADP:から VERB AUX NOUN	24
+ADP:から VERB NOUN	18
+ADP:から VERB NOUN NOUN	3
+ADP:から VERB PUNCT	17
+ADP:から VERB PUNCT NOUN	4
+ADP:から VERB SCONJ	29
+ADP:から VERB SCONJ AUX	13
+ADP:が	3620
+ADP:が ADJ	611
+ADP:が ADJ ADP	38
+ADP:が ADJ ADP ADP	5
+ADP:が ADJ ADP AUX	14
+ADP:が ADJ AUX ADJ	6
+ADP:が ADJ AUX ADP	4
+ADP:が ADJ AUX ADV	3
+ADP:が ADJ AUX AUX	69
+ADP:が ADJ AUX NOUN	46
+ADP:が ADJ AUX PART	10
+ADP:が ADJ AUX PUNCT	40
+ADP:が ADJ AUX SCONJ	26
+ADP:が ADJ AUX VERB	49
+ADP:が ADJ NOUN ADP	59
+ADP:が ADJ NOUN AUX	12
+ADP:が ADJ NOUN NOUN	9
+ADP:が ADJ PART ADP	10
+ADP:が ADJ PART AUX	5
+ADP:が ADJ PUNCT	115
+ADP:が ADJ PUNCT ADJ	8
+ADP:が ADJ PUNCT NOUN	19
+ADP:が ADJ SCONJ	54
+ADP:が ADJ SCONJ ADJ	6
+ADP:が ADJ SCONJ ADP	6
+ADP:が ADJ SCONJ VERB	15
+ADP:が ADJ VERB AUX	19
+ADP:が ADJ VERB SCONJ	6
+ADP:が ADV	89
+ADP:が ADV ADJ	20
+ADP:が ADV ADJ AUX	10
+ADP:が ADV ADJ PUNCT	4
+ADP:が ADV AUX	8
+ADP:が ADV AUX PUNCT	4
+ADP:が ADV NOUN ADP	8
+ADP:が ADV NOUN NOUN	3
+ADP:が ADV PART	8
+ADP:が ADV PART VERB	5
+ADP:が ADV PROPN ADP	3
+ADP:が ADV VERB	30
+ADP:が ADV VERB PUNCT	3
+ADP:が ADV VERB SCONJ	10
+ADP:が NOUN ADJ	20
+ADP:が NOUN ADJ PUNCT	3
+ADP:が NOUN ADP	408
+ADP:が NOUN ADP NUM	10
+ADP:が NOUN ADP VERB	230
+ADP:が NOUN AUX	42
+ADP:が NOUN AUX NOUN	4
+ADP:が NOUN AUX PART	4
+ADP:が NOUN AUX SCONJ	7
+ADP:が NOUN NOUN	162
+ADP:が NOUN NOUN ADP	113
+ADP:が NOUN NOUN AUX	7
+ADP:が NOUN NOUN SYM	3
+ADP:が NOUN NOUN VERB	3
+ADP:が NOUN NUM	8
+ADP:が NOUN NUM NOUN	8
+ADP:が NOUN PROPN	10
+ADP:が NOUN PROPN NOUN	4
+ADP:が NOUN PUNCT	23
+ADP:が NOUN PUNCT ADP	4
+ADP:が NOUN SYM	3
+ADP:が NOUN SYM VERB	3
+ADP:が NOUN VERB	29
+ADP:が NOUN VERB NOUN	5
+ADP:が NOUN VERB PUNCT	3
+ADP:が NUM	104
+ADP:が NUM NOUN	97
+ADP:が NUM NOUN NUM	6
+ADP:が NUM NOUN PUNCT	12
+ADP:が NUM NOUN VERB	8
+ADP:が NUM PROPN	6
+ADP:が NUM PROPN ADP	5
+ADP:が PART NUM	8
+ADP:が PART NUM NOUN	7
+ADP:が PRON	19
+ADP:が PRON ADP NOUN	5
+ADP:が PRON ADP VERB	7
+ADP:が PROPN ADP	63
+ADP:が PROPN ADP ADJ	4
+ADP:が PROPN ADP VERB	28
+ADP:が PROPN AUX	5
+ADP:が PROPN AUX PUNCT	3
+ADP:が PROPN NOUN	32
+ADP:が PROPN NOUN AUX	3
+ADP:が PROPN NOUN PROPN	4
+ADP:が PROPN PROPN	13
+ADP:が PROPN PROPN ADP	7
+ADP:が PROPN PUNCT	5
+ADP:が PROPN SYM	7
+ADP:が PROPN SYM PROPN	6
+ADP:が PROPN VERB	3
+ADP:が PUNCT ADJ	13
+ADP:が PUNCT NOUN	43
+ADP:が PUNCT NOUN PUNCT	5
+ADP:が PUNCT NOUN VERB	4
+ADP:が PUNCT NUM	5
+ADP:が PUNCT NUM NOUN	5
+ADP:が PUNCT PRON	3
+ADP:が PUNCT PROPN	21
+ADP:が PUNCT PROPN PROPN	4
+ADP:が PUNCT PROPN SYM	3
+ADP:が PUNCT VERB	4
+ADP:が PUNCT VERB AUX	3
+ADP:が PUNCT., ADJ	4
+ADP:が PUNCT., ADJ NOUN	4
+ADP:が PUNCT., NOUN	7
+ADP:が PUNCT., NOUN ADP	6
+ADP:が PUNCT., PRON	4
+ADP:が PUNCT., PUNCT	5
+ADP:が PUNCT., PUNCT NOUN	4
+ADP:が VERB	1820
+ADP:が VERB ADP	40
+ADP:が VERB ADP PUNCT	3
+ADP:が VERB ADP VERB	19
+ADP:が VERB AUX	1115
+ADP:が VERB AUX AUX	505
+ADP:が VERB AUX NUM	5
+ADP:が VERB AUX PART	22
+ADP:が VERB AUX PUNCT.!	3
+ADP:が VERB AUX PUNCT.,	10
+ADP:が VERB NOUN ADP	63
+ADP:が VERB NOUN AUX	8
+ADP:が VERB NOUN NOUN	9
+ADP:が VERB NOUN PUNCT	13
+ADP:が VERB PART	20
+ADP:が VERB PART AUX	6
+ADP:が VERB PART PART	5
+ADP:が VERB PROPN	13
+ADP:が VERB PUNCT	271
+ADP:が VERB PUNCT ADP	4
+ADP:が VERB PUNCT., NOUN	6
+ADP:が VERB SCONJ ADJ	7
+ADP:が VERB SCONJ ADP	13
+ADP:が VERB SCONJ ADV	3
+ADP:が VERB SCONJ AUX	135
+ADP:が VERB SCONJ NOUN	13
+ADP:が VERB SCONJ PUNCT	33
+ADP:が VERB SCONJ PUNCT.,	6
+ADP:が VERB SCONJ VERB	22
+ADP:が VERB VERB	17
+ADP:が VERB VERB AUX	11
+ADP:だけ	113
+ADP:だけ ADP	62
+ADP:だけ ADP ADP	8
+ADP:だけ ADP NOUN ADP	15
+ADP:だけ ADP PUNCT NOUN	3
+ADP:だけ ADP PUNCT.,	3
+ADP:だけ ADP VERB	22
+ADP:だけ ADP VERB AUX	17
+ADP:だけ ADP VERB PUNCT	3
+ADP:だけ AUX	27
+ADP:だけ AUX ADP	8
+ADP:だけ AUX ADP AUX	8
+ADP:だけ AUX AUX	14
+ADP:だけ AUX AUX PUNCT	9
+ADP:だけ NOUN ADP	5
+ADP:だけ NOUN ADP VERB	3
+ADP:だけ VERB AUX	4
+ADP:だけ VERB SCONJ	3
+ADP:で	2419
+ADP:で ADJ AUX	41
+ADP:で ADJ AUX NOUN	18
+ADP:で ADJ NOUN	27
+ADP:で ADJ NOUN ADP	25
+ADP:で ADJ PUNCT	3
+ADP:で ADJ VERB	3
+ADP:で ADJ VERB AUX	3
+ADP:で ADP	531
+ADP:で ADP ADJ	41
+ADP:で ADP ADJ AUX	23
+ADP:で ADP ADV	22
+ADP:で ADP ADV ADJ	6
+ADP:で ADP ADV PUNCT	3
+ADP:で ADP NOUN	178
+ADP:で ADP NOUN ADJ	8
+ADP:で ADP NOUN NOUN	50
+ADP:で ADP NOUN NUM	6
+ADP:で ADP NOUN PROPN	3
+ADP:で ADP NUM	25
+ADP:で ADP NUM NOUN	25
+ADP:で ADP PRON	6
+ADP:で ADP PRON ADP	6
+ADP:で ADP PROPN	41
+ADP:で ADP PROPN NOUN	17
+ADP:で ADP PUNCT	123
+ADP:で ADP PUNCT NOUN	71
+ADP:で ADP PUNCT PROPN	28
+ADP:で ADP PUNCT.,	27
+ADP:で ADP PUNCT., ADJ	3
+ADP:で ADP PUNCT., NOUN	15
+ADP:で ADP VERB AUX	54
+ADP:で ADP VERB NOUN	3
+ADP:で ADP VERB SCONJ	5
+ADP:で ADV	53
+ADP:で ADV ADP	4
+ADP:で ADV ADP VERB	4
+ADP:で ADV NOUN	17
+ADP:で ADV NOUN NOUN	4
+ADP:で ADV NUM	3
+ADP:で ADV NUM NOUN	3
+ADP:で ADV PART	3
+ADP:で ADV PART NOUN	3
+ADP:で ADV VERB AUX	6
+ADP:で ADV VERB NOUN	3
+ADP:で ADV VERB SCONJ	7
+ADP:で NOUN ADJ	7
+ADP:で NOUN ADJ NOUN	3
+ADP:で NOUN ADP	322
+ADP:で NOUN ADP NUM	8
+ADP:で NOUN ADP VERB	204
+ADP:で NOUN AUX	3
+ADP:で NOUN NOUN	148
+ADP:で NOUN NOUN AUX	7
+ADP:で NOUN NOUN NOUN	28
+ADP:で NOUN NOUN NUM	4
+ADP:で NOUN NOUN PUNCT	10
+ADP:で NOUN NUM	11
+ADP:で NOUN PROPN	6
+ADP:で NOUN PROPN ADP	3
+ADP:で NOUN PUNCT	21
+ADP:で NOUN SYM	4
+ADP:で NOUN SYM NOUN	3
+ADP:で NOUN VERB	24
+ADP:で NOUN VERB SCONJ	4
+ADP:で NUM	81
+ADP:で NUM NOUN ADP	32
+ADP:で NUM NOUN AUX	3
+ADP:で NUM NOUN NOUN	20
+ADP:で NUM NOUN PUNCT	6
+ADP:で NUM NOUN VERB	4
+ADP:で NUM NUM	5
+ADP:で NUM NUM NOUN	5
+ADP:で NUM PROPN	5
+ADP:で NUM PROPN NOUN	3
+ADP:で PART	136
+ADP:で PART ADJ	4
+ADP:で PART ADJ NOUN	3
+ADP:で PART NOUN	98
+ADP:で PART NOUN NOUN	29
+ADP:で PART NUM ADP	3
+ADP:で PART NUM NOUN	11
+ADP:で PART NUM NUM	3
+ADP:で PART PROPN	8
+ADP:で PART PROPN ADP	3
+ADP:で PRON	11
+ADP:で PRON ADP	11
+ADP:で PRON ADP VERB	8
+ADP:で PROPN ADP	54
+ADP:で PROPN ADP VERB	28
+ADP:で PROPN NOUN	28
+ADP:で PROPN NOUN ADP	21
+ADP:で PROPN PROPN	8
+ADP:で PROPN PROPN NOUN	5
+ADP:で PROPN SYM	5
+ADP:で PROPN SYM PROPN	5
+ADP:で PUNCT	258
+ADP:で PUNCT ADJ AUX	5
+ADP:で PUNCT ADJ NOUN	10
+ADP:で PUNCT ADV	12
+ADP:で PUNCT NOUN	149
+ADP:で PUNCT NOUN ADP	80
+ADP:で PUNCT NOUN NUM	3
+ADP:で PUNCT NOUN SYM	4
+ADP:で PUNCT NUM	14
+ADP:で PUNCT PRON ADP	4
+ADP:で PUNCT PROPN ADP	14
+ADP:で PUNCT PROPN NOUN	10
+ADP:で PUNCT PROPN PROPN	3
+ADP:で PUNCT PROPN PUNCT	4
+ADP:で PUNCT PUNCT	6
+ADP:で PUNCT PUNCT PROPN	3
+ADP:で PUNCT VERB	13
+ADP:で PUNCT VERB SCONJ	5
+ADP:で PUNCT.,	35
+ADP:で PUNCT., ADJ	7
+ADP:で PUNCT., ADJ AUX	3
+ADP:で PUNCT., NOUN ADP	11
+ADP:で PUNCT., NOUN NOUN	4
+ADP:で PUNCT., PROPN	5
+ADP:で PUNCT., PROPN NOUN	3
+ADP:で VERB ADP	12
+ADP:で VERB ADP ADP	3
+ADP:で VERB ADP VERB	5
+ADP:で VERB AUX	420
+ADP:で VERB AUX AUX	201
+ADP:で VERB AUX PROPN	9
+ADP:で VERB AUX PUNCT.,	4
+ADP:で VERB NOUN	24
+ADP:で VERB PUNCT	51
+ADP:で VERB SCONJ	59
+ADP:で VERB SCONJ AUX	38
+ADP:で VERB VERB	5
+ADP:と	2729
+ADP:と ADJ ADJ	3
+ADP:と ADJ ADP	3
+ADP:と ADJ AUX	36
+ADP:と ADJ AUX ADJ	3
+ADP:と ADJ AUX NOUN	19
+ADP:と ADJ AUX PUNCT	5
+ADP:と ADJ NOUN	38
+ADP:と ADJ NOUN AUX	5
+ADP:と ADJ NOUN NOUN	5
+ADP:と ADJ PROPN	3
+ADP:と ADJ PUNCT	3
+ADP:と ADJ SCONJ	3
+ADP:と ADJ VERB	3
+ADP:と ADJ VERB AUX	3
+ADP:と ADP ADJ	6
+ADP:と ADP ADV	5
+ADP:と ADP ADV VERB	3
+ADP:と ADP NOUN	26
+ADP:と ADP NOUN ADP	16
+ADP:と ADP NUM	5
+ADP:と ADP NUM PROPN	4
+ADP:と ADP PUNCT	21
+ADP:と ADP PUNCT NOUN	12
+ADP:と ADP PUNCT.,	3
+ADP:と ADP VERB	75
+ADP:と ADP VERB NOUN	7
+ADP:と ADP VERB PUNCT	13
+ADP:と ADP VERB SCONJ	13
+ADP:と ADV ADJ	4
+ADP:と ADV ADJ NOUN	3
+ADP:と ADV ADV	3
+ADP:と ADV NOUN	5
+ADP:と ADV NOUN ADP	3
+ADP:と AUX AUX	13
+ADP:と AUX AUX PUNCT	8
+ADP:と AUX PUNCT	6
+ADP:と AUX SCONJ	6
+ADP:と AUX SCONJ AUX	4
+ADP:と NOUN ADJ	4
+ADP:と NOUN ADJ NOUN	3
+ADP:と NOUN ADP	272
+ADP:と NOUN ADP ADJ	22
+ADP:と NOUN ADP ADV	8
+ADP:と NOUN ADP NOUN	84
+ADP:と NOUN ADP PART	8
+ADP:と NOUN ADP PROPN	14
+ADP:と NOUN AUX	4
+ADP:と NOUN NOUN	109
+ADP:と NOUN NOUN ADP	75
+ADP:と NOUN NOUN NOUN	21
+ADP:と NOUN NUM	5
+ADP:と NOUN NUM NOUN	5
+ADP:と NOUN PUNCT	19
+ADP:と NOUN PUNCT ADP	3
+ADP:と NOUN PUNCT PROPN	3
+ADP:と NOUN SYM	8
+ADP:と NUM NOUN	27
+ADP:と NUM NOUN ADP	16
+ADP:と NUM NOUN NOUN	9
+ADP:と PART	162
+ADP:と PART NOUN	147
+ADP:と PART NOUN ADP	105
+ADP:と PART NOUN AUX	7
+ADP:と PART NOUN PUNCT	13
+ADP:と PART NUM NOUN	7
+ADP:と PROPN ADP	66
+ADP:と PROPN ADP ADJ	4
+ADP:と PROPN ADP ADP	3
+ADP:と PROPN ADP NOUN	28
+ADP:と PROPN NOUN	37
+ADP:と PROPN NOUN ADP	23
+ADP:と PROPN NOUN NOUN	12
+ADP:と PROPN NUM	3
+ADP:と PROPN PROPN	9
+ADP:と PROPN PROPN ADP	5
+ADP:と PROPN SYM	12
+ADP:と PUNCT ADJ	5
+ADP:と PUNCT ADJ NOUN	3
+ADP:と PUNCT ADV	3
+ADP:と PUNCT NOUN	30
+ADP:と PUNCT NOUN PUNCT	4
+ADP:と PUNCT PROPN	5
+ADP:と PUNCT PROPN NOUN	3
+ADP:と PUNCT VERB	5
+ADP:と PUNCT VERB AUX	3
+ADP:と PUNCT., NOUN	5
+ADP:と VERB	1631
+ADP:と VERB ADJ AUX	3
+ADP:と VERB ADP ADP	6
+ADP:と VERB ADP VERB	4
+ADP:と VERB AUX ADJ	4
+ADP:と VERB AUX ADP	11
+ADP:と VERB AUX AUX	125
+ADP:と VERB AUX NOUN	76
+ADP:と VERB AUX NUM	3
+ADP:と VERB AUX PART	10
+ADP:と VERB AUX PROPN	12
+ADP:と VERB AUX PUNCT	262
+ADP:と VERB AUX PUNCT.!	4
+ADP:と VERB AUX PUNCT.,	3
+ADP:と VERB AUX SCONJ	104
+ADP:と VERB AUX VERB	5
+ADP:と VERB NOUN ADP	68
+ADP:と VERB NOUN AUX	4
+ADP:と VERB NOUN NOUN	12
+ADP:と VERB NOUN PUNCT	3
+ADP:と VERB NUM	7
+ADP:と VERB NUM NOUN	6
+ADP:と VERB PART	23
+ADP:と VERB PART AUX	4
+ADP:と VERB PART PART	3
+ADP:と VERB PROPN ADP	4
+ADP:と VERB PROPN NOUN	3
+ADP:と VERB PUNCT	240
+ADP:と VERB PUNCT PROPN	14
+ADP:と VERB PUNCT PUNCT	5
+ADP:と VERB SCONJ	611
+ADP:と VERB SCONJ ADP	58
+ADP:と VERB SCONJ ADV	8
+ADP:と VERB SCONJ NOUN	93
+ADP:と VERB SCONJ PART	25
+ADP:と VERB SCONJ PRON	4
+ADP:と VERB SCONJ PROPN	31
+ADP:と VERB SCONJ VERB	148
+ADP:という	236
+ADP:という ADJ AUX	7
+ADP:という ADJ AUX NOUN	6
+ADP:という ADJ NOUN	4
+ADP:という ADJ NOUN ADP	4
+ADP:という NOUN	210
+ADP:という NOUN ADP	150
+ADP:という NOUN ADP ADJ	13
+ADP:という NOUN ADP ADP	7
+ADP:という NOUN ADP PUNCT	11
+ADP:という NOUN ADP PUNCT.,	7
+ADP:という NOUN ADP VERB	77
+ADP:という NOUN AUX	28
+ADP:という NOUN AUX ADP	5
+ADP:という NOUN AUX PART	3
+ADP:という NOUN AUX PUNCT	14
+ADP:という NOUN NOUN ADP	16
+ADP:という NOUN PART	4
+ADP:という PROPN NOUN	3
+ADP:など	488
+ADP:など ADJ AUX	11
+ADP:など ADJ AUX NOUN	8
+ADP:など ADJ NOUN	3
+ADP:など ADJ NOUN ADP	3
+ADP:など ADP	330
+ADP:など ADP ADJ AUX	14
+ADP:など ADP ADJ NOUN	3
+ADP:など ADP ADP	17
+ADP:など ADP ADP NOUN	7
+ADP:など ADP NOUN	124
+ADP:など ADP NOUN ADP	78
+ADP:など ADP NOUN NOUN	34
+ADP:など ADP NOUN PUNCT	5
+ADP:など ADP NOUN SYM	3
+ADP:など ADP PART	5
+ADP:など ADP PART NOUN	4
+ADP:など ADP PROPN ADP	3
+ADP:など ADP PUNCT NOUN	5
+ADP:など ADP VERB	141
+ADP:など ADP VERB NOUN	13
+ADP:など ADP VERB PUNCT	18
+ADP:など ADP VERB SCONJ	24
+ADP:など AUX PUNCT	3
+ADP:など NOUN ADP	25
+ADP:など NOUN ADP NOUN	7
+ADP:など NOUN ADP VERB	12
+ADP:など NOUN NOUN	22
+ADP:など NOUN NOUN ADP	20
+ADP:など NUM NOUN	3
+ADP:など PUNCT	49
+ADP:など PUNCT ADJ	9
+ADP:など PUNCT ADJ NOUN	5
+ADP:など PUNCT ADV	3
+ADP:など PUNCT NOUN	26
+ADP:など PUNCT NOUN NOUN	12
+ADP:など PUNCT.,	9
+ADP:など PUNCT., ADJ	3
+ADP:など PUNCT., NOUN	5
+ADP:など PUNCT., NOUN ADP	4
+ADP:など VERB AUX	4
+ADP:など VERB SCONJ	10
+ADP:など VERB SCONJ NOUN	3
+ADP:に	4746
+ADP:に ADJ ADP	4
+ADP:に ADJ ADP AUX	3
+ADP:に ADJ AUX	64
+ADP:に ADJ AUX NOUN	38
+ADP:に ADJ NOUN	69
+ADP:に ADJ NOUN ADP	53
+ADP:に ADJ PROPN	5
+ADP:に ADJ PROPN PROPN	4
+ADP:に ADJ PUNCT	12
+ADP:に ADJ SCONJ	3
+ADP:に ADJ VERB	19
+ADP:に ADJ VERB AUX	13
+ADP:に ADJ VERB SCONJ	5
+ADP:に ADP	669
+ADP:に ADP ADJ	51
+ADP:に ADP ADJ NOUN	17
+ADP:に ADP ADJ PUNCT	9
+ADP:に ADP ADV	25
+ADP:に ADP ADV NOUN	8
+ADP:に ADP ADV VERB	9
+ADP:に ADP NOUN ADJ	4
+ADP:に ADP NOUN ADP	116
+ADP:に ADP NOUN AUX	3
+ADP:に ADP NOUN NOUN	67
+ADP:に ADP NOUN NUM	6
+ADP:に ADP NOUN PROPN	6
+ADP:に ADP NOUN PUNCT	5
+ADP:に ADP NOUN SYM	4
+ADP:に ADP NOUN VERB	3
+ADP:に ADP NUM NOUN	16
+ADP:に ADP PRON	6
+ADP:に ADP PRON ADP	6
+ADP:に ADP PROPN	73
+ADP:に ADP PROPN ADP	33
+ADP:に ADP PROPN PROPN	11
+ADP:に ADP PROPN SYM	3
+ADP:に ADP PUNCT	103
+ADP:に ADP PUNCT ADJ	9
+ADP:に ADP PUNCT ADV	5
+ADP:に ADP PUNCT PUNCT	3
+ADP:に ADP PUNCT.,	27
+ADP:に ADP PUNCT., ADV	4
+ADP:に ADP PUNCT., PROPN	5
+ADP:に ADP VERB AUX	104
+ADP:に ADP VERB NOUN	6
+ADP:に ADP VERB PUNCT	13
+ADP:に ADP VERB SCONJ	14
+ADP:に ADV ADJ	7
+ADP:に ADV ADJ NOUN	3
+ADP:に ADV NOUN	17
+ADP:に ADV NOUN ADP	11
+ADP:に ADV PART	3
+ADP:に ADV PROPN	4
+ADP:に ADV VERB	16
+ADP:に ADV VERB AUX	11
+ADP:に NOUN ADJ	5
+ADP:に NOUN ADJ AUX	3
+ADP:に NOUN ADP	487
+ADP:に NOUN ADP VERB	314
+ADP:に NOUN AUX	3
+ADP:に NOUN NOUN	185
+ADP:に NOUN NOUN ADP	128
+ADP:に NOUN NOUN NOUN	36
+ADP:に NOUN NOUN SYM	3
+ADP:に NOUN NOUN VERB	6
+ADP:に NOUN NUM	11
+ADP:に NOUN NUM NOUN	10
+ADP:に NOUN PART	3
+ADP:に NOUN PART NUM	3
+ADP:に NOUN PROPN	10
+ADP:に NOUN PROPN NOUN	6
+ADP:に NOUN PUNCT	12
+ADP:に NOUN PUNCT NOUN	4
+ADP:に NOUN SYM	7
+ADP:に NOUN SYM PROPN	4
+ADP:に NOUN VERB	41
+ADP:に NOUN VERB VERB	4
+ADP:に NUM NOUN	71
+ADP:に NUM NOUN ADP	39
+ADP:に NUM NOUN NUM	3
+ADP:に NUM NOUN VERB	7
+ADP:に NUM NUM	3
+ADP:に NUM NUM NOUN	3
+ADP:に NUM PROPN	6
+ADP:に NUM PROPN ADP	3
+ADP:に PART NUM	14
+ADP:に PART NUM NOUN	14
+ADP:に PRON ADP	12
+ADP:に PRON ADP ADP	3
+ADP:に PROPN ADP	96
+ADP:に PROPN ADP NUM	3
+ADP:に PROPN ADP PROPN	14
+ADP:に PROPN ADP VERB	44
+ADP:に PROPN NOUN	63
+ADP:に PROPN NOUN ADP	40
+ADP:に PROPN NOUN NOUN	17
+ADP:に PROPN NUM	5
+ADP:に PROPN NUM NOUN	3
+ADP:に PROPN PART	4
+ADP:に PROPN PROPN	17
+ADP:に PROPN PROPN ADP	9
+ADP:に PROPN PUNCT	3
+ADP:に PROPN SYM	15
+ADP:に PROPN SYM PROPN	12
+ADP:に PROPN VERB	5
+ADP:に PUNCT ADJ	18
+ADP:に PUNCT ADJ AUX	9
+ADP:に PUNCT ADV	9
+ADP:に PUNCT ADV PROPN	3
+ADP:に PUNCT ADV VERB	3
+ADP:に PUNCT NOUN	73
+ADP:に PUNCT NOUN ADP	40
+ADP:に PUNCT NOUN PUNCT	6
+ADP:に PUNCT NUM	6
+ADP:に PUNCT PRON	5
+ADP:に PUNCT PROPN	36
+ADP:に PUNCT PROPN ADP	14
+ADP:に PUNCT PROPN NOUN	13
+ADP:に PUNCT PUNCT	3
+ADP:に PUNCT VERB	9
+ADP:に PUNCT VERB AUX	6
+ADP:に PUNCT., ADJ	3
+ADP:に PUNCT., ADV	3
+ADP:に PUNCT., NOUN	11
+ADP:に PUNCT., NOUN NOUN	6
+ADP:に PUNCT., PROPN	5
+ADP:に PUNCT., PUNCT	3
+ADP:に VERB	2552
+ADP:に VERB ADJ AUX	3
+ADP:に VERB ADP ADP	4
+ADP:に VERB ADP NOUN	5
+ADP:に VERB ADP VERB	5
+ADP:に VERB AUX	1394
+ADP:に VERB AUX ADJ	11
+ADP:に VERB AUX ADP	33
+ADP:に VERB AUX AUX	535
+ADP:に VERB AUX NOUN	225
+ADP:に VERB AUX NUM	7
+ADP:に VERB AUX PART	30
+ADP:に VERB AUX PROPN	35
+ADP:に VERB AUX VERB	14
+ADP:に VERB NOUN	229
+ADP:に VERB NOUN ADP	160
+ADP:に VERB NOUN NOUN	34
+ADP:に VERB NOUN PUNCT.,	3
+ADP:に VERB NUM	7
+ADP:に VERB NUM NOUN	6
+ADP:に VERB PART ADP	15
+ADP:に VERB PART AUX	3
+ADP:に VERB PROPN	25
+ADP:に VERB PROPN NOUN	12
+ADP:に VERB PUNCT ADJ	13
+ADP:に VERB PUNCT ADV	3
+ADP:に VERB PUNCT NOUN	69
+ADP:に VERB PUNCT NUM	16
+ADP:に VERB PUNCT PROPN	23
+ADP:に VERB PUNCT VERB	7
+ADP:に VERB PUNCT.,	16
+ADP:に VERB PUNCT., PROPN	3
+ADP:に VERB SCONJ ADJ	17
+ADP:に VERB SCONJ ADP	34
+ADP:に VERB SCONJ ADV	4
+ADP:に VERB SCONJ AUX	228
+ADP:に VERB SCONJ NOUN	58
+ADP:に VERB SCONJ NUM	9
+ADP:に VERB SCONJ PROPN	20
+ADP:に VERB SCONJ PUNCT	90
+ADP:に VERB SCONJ PUNCT.,	11
+ADP:に VERB SCONJ VERB	51
+ADP:に VERB VERB AUX	7
+ADP:に VERB VERB SCONJ	5
+ADP:について	136
+ADP:について ADJ AUX	5
+ADP:について ADJ NOUN	3
+ADP:について ADJ NOUN ADP	3
+ADP:について ADP	53
+ADP:について ADP ADJ	6
+ADP:について ADP ADJ NOUN	4
+ADP:について ADP NOUN ADP	6
+ADP:について ADP NOUN NOUN	4
+ADP:について ADP PROPN	4
+ADP:について ADP PUNCT	17
+ADP:について ADP PUNCT NOUN	10
+ADP:について ADP PUNCT VERB	3
+ADP:について ADP PUNCT.,	7
+ADP:について ADP PUNCT., NOUN	4
+ADP:について ADV	3
+ADP:について NOUN ADP	5
+ADP:について NOUN NOUN	3
+ADP:について NOUN NOUN ADP	3
+ADP:について PART	14
+ADP:について PART NOUN	11
+ADP:について PART NOUN ADP	10
+ADP:について PUNCT	18
+ADP:について PUNCT NOUN	11
+ADP:について PUNCT NOUN NOUN	4
+ADP:について PUNCT.,	5
+ADP:について VERB AUX	16
+ADP:について VERB AUX PUNCT	7
+ADP:について VERB AUX SCONJ	3
+ADP:によって	122
+ADP:によって ADJ	9
+ADP:によって ADJ NOUN	4
+ADP:によって ADJ NOUN ADP	4
+ADP:によって ADP	15
+ADP:によって ADP ADJ	3
+ADP:によって ADP NOUN	5
+ADP:によって ADP NOUN ADP	4
+ADP:によって ADV	4
+ADP:によって NOUN ADP	20
+ADP:によって NOUN ADP NOUN	7
+ADP:によって NOUN ADP VERB	11
+ADP:によって NOUN NOUN	4
+ADP:によって NOUN NOUN ADP	4
+ADP:によって NUM	5
+ADP:によって NUM NOUN	5
+ADP:によって NUM NOUN ADP	3
+ADP:によって PROPN	9
+ADP:によって PROPN NOUN	3
+ADP:によって PROPN NOUN ADP	3
+ADP:によって PUNCT	11
+ADP:によって PUNCT ADJ	3
+ADP:によって PUNCT NOUN NOUN	4
+ADP:によって VERB AUX	32
+ADP:によって VERB AUX AUX	27
+ADP:によって VERB NOUN	3
+ADP:により	90
+ADP:により ADJ AUX	4
+ADP:により ADJ AUX NOUN	4
+ADP:により NOUN	33
+ADP:により NOUN ADP NOUN	8
+ADP:により NOUN ADP VERB	8
+ADP:により NOUN NOUN	12
+ADP:により NOUN NOUN ADP	10
+ADP:により NUM	5
+ADP:により PROPN NOUN	3
+ADP:により PROPN NOUN ADP	3
+ADP:により PUNCT	27
+ADP:により PUNCT NOUN ADP	8
+ADP:により PUNCT NOUN PUNCT	3
+ADP:により PUNCT NUM	3
+ADP:により PUNCT PROPN NOUN	3
+ADP:により VERB AUX	14
+ADP:により VERB AUX AUX	7
+ADP:により VERB AUX PUNCT	4
+ADP:により VERB AUX SCONJ	3
+ADP:による	115
+ADP:による NOUN	95
+ADP:による NOUN ADP ADJ	7
+ADP:による NOUN ADP NOUN	17
+ADP:による NOUN ADP VERB	19
+ADP:による NOUN AUX	6
+ADP:による NOUN AUX AUX	3
+ADP:による NOUN NOUN	30
+ADP:による NOUN NOUN ADP	21
+ADP:による NOUN NOUN AUX	4
+ADP:による NOUN SYM	4
+ADP:による NOUN SYM NOUN	4
+ADP:による PROPN	8
+ADP:による PROPN NOUN	6
+ADP:による PROPN NOUN NOUN	3
+ADP:による PUNCT NOUN	5
+ADP:の	7215
+ADP:の ADJ ADJ	3
+ADP:の ADJ AUX	71
+ADP:の ADJ AUX NOUN	65
+ADP:の ADJ AUX PROPN	3
+ADP:の ADJ NOUN	96
+ADP:の ADJ NOUN NOUN	18
+ADP:の ADJ NOUN PUNCT	7
+ADP:の ADJ PART	21
+ADP:の ADJ PART ADP	20
+ADP:の ADJ PROPN	4
+ADP:の ADJ VERB	3
+ADP:の ADJ VERB AUX	3
+ADP:の ADV NOUN	9
+ADP:の ADV NOUN ADP	8
+ADP:の AUX	85
+ADP:の AUX ADJ	7
+ADP:の AUX ADJ NOUN	3
+ADP:の AUX AUX PUNCT	4
+ADP:の AUX NOUN	43
+ADP:の AUX NOUN AUX	5
+ADP:の AUX NOUN NOUN	5
+ADP:の AUX PROPN	4
+ADP:の AUX PUNCT PROPN	3
+ADP:の AUX VERB	13
+ADP:の AUX VERB AUX	9
+ADP:の NOUN	5853
+ADP:の NOUN ADJ NOUN	12
+ADP:の NOUN ADP	3651
+ADP:の NOUN ADP ADJ	261
+ADP:の NOUN ADP ADP	214
+ADP:の NOUN ADP ADV	98
+ADP:の NOUN ADP NUM	83
+ADP:の NOUN ADP PRON	14
+ADP:の NOUN ADP PROPN	146
+ADP:の NOUN ADP PUNCT	206
+ADP:の NOUN ADP PUNCT.,	48
+ADP:の NOUN ADV	6
+ADP:の NOUN AUX	254
+ADP:の NOUN AUX ADJ	6
+ADP:の NOUN AUX ADV	3
+ADP:の NOUN AUX NOUN	25
+ADP:の NOUN AUX NUM	3
+ADP:の NOUN AUX PROPN	14
+ADP:の NOUN NOUN ADP	841
+ADP:の NOUN NOUN AUX	59
+ADP:の NOUN NOUN CCONJ	4
+ADP:の NOUN NOUN NOUN	222
+ADP:の NOUN NOUN NUM	11
+ADP:の NOUN NOUN PART	8
+ADP:の NOUN NOUN PROPN	17
+ADP:の NOUN NOUN PUNCT	72
+ADP:の NOUN NOUN PUNCT.,	5
+ADP:の NOUN NOUN SYM	11
+ADP:の NOUN NOUN VERB	5
+ADP:の NOUN NUM NOUN	38
+ADP:の NOUN NUM PROPN	3
+ADP:の NOUN PART	39
+ADP:の NOUN PART ADP	6
+ADP:の NOUN PART PROPN	5
+ADP:の NOUN PART PUNCT	7
+ADP:の NOUN PART VERB	6
+ADP:の NOUN PROPN ADP	36
+ADP:の NOUN PROPN NOUN	17
+ADP:の NOUN PROPN NUM	3
+ADP:の NOUN PROPN PROPN	10
+ADP:の NOUN PROPN SYM	12
+ADP:の NOUN PUNCT	382
+ADP:の NOUN PUNCT ADJ	11
+ADP:の NOUN PUNCT ADP	45
+ADP:の NOUN PUNCT CCONJ	5
+ADP:の NOUN PUNCT NUM	13
+ADP:の NOUN PUNCT PROPN	44
+ADP:の NOUN PUNCT PUNCT	5
+ADP:の NOUN PUNCT.!	6
+ADP:の NOUN PUNCT.,	22
+ADP:の NOUN PUNCT., NOUN	12
+ADP:の NOUN PUNCT., PROPN	6
+ADP:の NOUN SYM	65
+ADP:の NOUN SYM ADP	10
+ADP:の NOUN SYM PROPN	19
+ADP:の NOUN SYM PUNCT	5
+ADP:の NOUN VERB AUX	13
+ADP:の NOUN VERB NOUN	3
+ADP:の NOUN VERB PUNCT	3
+ADP:の NUM	216
+ADP:の NUM ADP	5
+ADP:の NUM ADP NOUN	4
+ADP:の NUM NOUN	198
+ADP:の NUM NOUN ADP	120
+ADP:の NUM NOUN AUX	10
+ADP:の NUM NOUN PROPN	3
+ADP:の NUM NUM NOUN	4
+ADP:の NUM PROPN ADP	3
+ADP:の PART NUM	30
+ADP:の PART NUM NOUN	26
+ADP:の PRON ADP	19
+ADP:の PRON ADP ADP	4
+ADP:の PRON ADP VERB	7
+ADP:の PRON PUNCT.,	3
+ADP:の PROPN	569
+ADP:の PROPN ADP ADJ	7
+ADP:の PROPN ADP ADP	12
+ADP:の PROPN ADP NOUN	62
+ADP:の PROPN ADP NUM	7
+ADP:の PROPN ADP PART	11
+ADP:の PROPN ADP PROPN	15
+ADP:の PROPN ADP PUNCT	16
+ADP:の PROPN ADP VERB	59
+ADP:の PROPN AUX	8
+ADP:の PROPN AUX PUNCT	4
+ADP:の PROPN NOUN	175
+ADP:の PROPN NOUN ADP	107
+ADP:の PROPN NOUN PART	4
+ADP:の PROPN NOUN PROPN	15
+ADP:の PROPN NOUN PUNCT	11
+ADP:の PROPN NUM	12
+ADP:の PROPN NUM NOUN	7
+ADP:の PROPN NUM PROPN	3
+ADP:の PROPN PART	8
+ADP:の PROPN PART NOUN	5
+ADP:の PROPN PROPN	90
+ADP:の PROPN PROPN NOUN	40
+ADP:の PROPN PROPN PUNCT	12
+ADP:の PROPN PUNCT	25
+ADP:の PROPN PUNCT ADP	5
+ADP:の PROPN SYM	48
+ADP:の PROPN SYM NOUN	13
+ADP:の PROPN VERB ADP	3
+ADP:の PUNCT ADJ	4
+ADP:の PUNCT ADJ NOUN	3
+ADP:の PUNCT ADV	3
+ADP:の PUNCT NOUN	52
+ADP:の PUNCT NOUN NOUN	26
+ADP:の PUNCT NOUN PUNCT	10
+ADP:の PUNCT NOUN SYM	4
+ADP:の PUNCT NUM	5
+ADP:の PUNCT NUM NOUN	5
+ADP:の PUNCT PROPN	31
+ADP:の PUNCT PROPN PUNCT	13
+ADP:の PUNCT PROPN SYM	6
+ADP:の VERB ADJ	3
+ADP:の VERB ADJ AUX	3
+ADP:の VERB ADP	4
+ADP:の VERB AUX	42
+ADP:の VERB AUX NOUN	28
+ADP:の VERB NOUN	48
+ADP:の VERB NOUN NOUN	8
+ADP:の VERB PROPN	5
+ADP:の VERB PUNCT	3
+ADP:の VERB SCONJ	8
+ADP:の VERB SCONJ AUX	7
+ADP:は	4824
+ADP:は ADJ	430
+ADP:は ADJ ADJ	4
+ADP:は ADJ ADP	19
+ADP:は ADJ ADP ADJ	3
+ADP:は ADJ ADP NOUN	5
+ADP:は ADJ ADP VERB	7
+ADP:は ADJ AUX	191
+ADP:は ADJ AUX ADJ	11
+ADP:は ADJ AUX ADP	8
+ADP:は ADJ AUX AUX	35
+ADP:は ADJ AUX NOUN	80
+ADP:は ADJ AUX PROPN	5
+ADP:は ADJ AUX PUNCT	21
+ADP:は ADJ NOUN ADP	58
+ADP:は ADJ NOUN AUX	12
+ADP:は ADJ NOUN NOUN	15
+ADP:は ADJ NOUN PUNCT	6
+ADP:は ADJ PART ADP	3
+ADP:は ADJ PART AUX	3
+ADP:は ADJ PUNCT	66
+ADP:は ADJ PUNCT ADP	6
+ADP:は ADJ PUNCT ADV	4
+ADP:は ADJ PUNCT.!	3
+ADP:は ADJ SCONJ NOUN	3
+ADP:は ADJ SCONJ PUNCT	9
+ADP:は ADJ SCONJ VERB	3
+ADP:は ADJ VERB AUX	8
+ADP:は ADV	252
+ADP:は ADV ADJ	42
+ADP:は ADV ADJ AUX	26
+ADP:は ADV AUX	9
+ADP:は ADV NOUN	78
+ADP:は ADV NOUN ADJ	3
+ADP:は ADV NOUN AUX	4
+ADP:は ADV NOUN NOUN	22
+ADP:は ADV NOUN PUNCT	3
+ADP:は ADV NUM NOUN	7
+ADP:は ADV PART	12
+ADP:は ADV PART NOUN	7
+ADP:は ADV PROPN	17
+ADP:は ADV PROPN ADP	8
+ADP:は ADV PROPN NOUN	8
+ADP:は ADV PUNCT	9
+ADP:は ADV PUNCT.,	6
+ADP:は ADV PUNCT., NOUN	5
+ADP:は ADV VERB AUX	37
+ADP:は ADV VERB NOUN	3
+ADP:は ADV VERB PUNCT	3
+ADP:は ADV VERB SCONJ	13
+ADP:は AUX	152
+ADP:は AUX AUX AUX	25
+ADP:は AUX AUX PUNCT	8
+ADP:は AUX AUX SCONJ	6
+ADP:は AUX NOUN ADP	10
+ADP:は AUX PART	14
+ADP:は AUX PART ADP	5
+ADP:は AUX PART PUNCT	3
+ADP:は AUX PUNCT	40
+ADP:は AUX PUNCT ADJ	3
+ADP:は AUX PUNCT NOUN	9
+ADP:は AUX PUNCT.,	14
+ADP:は AUX PUNCT., NOUN	8
+ADP:は AUX SCONJ	25
+ADP:は AUX SCONJ NOUN	7
+ADP:は AUX SCONJ PUNCT	8
+ADP:は AUX SCONJ VERB	4
+ADP:は CCONJ	3
+ADP:は NOUN ADJ	28
+ADP:は NOUN ADJ AUX	16
+ADP:は NOUN ADJ PUNCT	6
+ADP:は NOUN ADP	782
+ADP:は NOUN ADP AUX	5
+ADP:は NOUN ADP NOUN	322
+ADP:は NOUN ADP NUM	17
+ADP:は NOUN ADP PART	15
+ADP:は NOUN ADP PROPN	38
+ADP:は NOUN AUX	45
+ADP:は NOUN AUX ADP	8
+ADP:は NOUN AUX AUX	10
+ADP:は NOUN AUX SCONJ	4
+ADP:は NOUN NOUN	492
+ADP:は NOUN NOUN AUX	26
+ADP:は NOUN NOUN NUM	12
+ADP:は NOUN NOUN PART	4
+ADP:は NOUN NOUN PROPN	9
+ADP:は NOUN NOUN PUNCT	32
+ADP:は NOUN NUM	50
+ADP:は NOUN NUM ADP	7
+ADP:は NOUN PART	10
+ADP:は NOUN PART NOUN	5
+ADP:は NOUN PROPN	35
+ADP:は NOUN PROPN NOUN	15
+ADP:は NOUN PUNCT	60
+ADP:は NOUN PUNCT NOUN	22
+ADP:は NOUN PUNCT.,	5
+ADP:は NOUN PUNCT., NOUN	3
+ADP:は NOUN SYM	18
+ADP:は NOUN SYM NOUN	9
+ADP:は NOUN SYM PROPN	7
+ADP:は NOUN VERB	24
+ADP:は NOUN VERB AUX	18
+ADP:は NOUN VERB SCONJ	4
+ADP:は NUM	313
+ADP:は NUM ADV	7
+ADP:は NUM ADV NUM	6
+ADP:は NUM NOUN ADP	104
+ADP:は NUM NOUN AUX	9
+ADP:は NUM NOUN NOUN	94
+ADP:は NUM NOUN NUM	8
+ADP:は NUM NOUN PUNCT	38
+ADP:は NUM NOUN PUNCT.,	3
+ADP:は NUM NOUN VERB	9
+ADP:は NUM NUM	15
+ADP:は NUM NUM NOUN	15
+ADP:は NUM PROPN ADP	5
+ADP:は NUM PROPN PUNCT	4
+ADP:は NUM PUNCT	5
+ADP:は PART NUM	35
+ADP:は PART NUM NUM	5
+ADP:は PRON	57
+ADP:は PRON ADP	53
+ADP:は PRON ADP ADJ	4
+ADP:は PRON ADP ADV	4
+ADP:は PRON ADP NOUN	24
+ADP:は PROPN	528
+ADP:は PROPN ADP ADJ	5
+ADP:は PROPN ADP ADP	8
+ADP:は PROPN ADP ADV	4
+ADP:は PROPN ADP NOUN	98
+ADP:は PROPN ADP NUM	9
+ADP:は PROPN ADP PART	12
+ADP:は PROPN ADP PROPN	27
+ADP:は PROPN ADP PUNCT	8
+ADP:は PROPN ADP VERB	47
+ADP:は PROPN AUX PUNCT	3
+ADP:は PROPN NOUN	170
+ADP:は PROPN NOUN NOUN	43
+ADP:は PROPN NOUN NUM	6
+ADP:は PROPN NOUN PUNCT	11
+ADP:は PROPN NUM	10
+ADP:は PROPN NUM ADP	3
+ADP:は PROPN PART	11
+ADP:は PROPN PART NUM	9
+ADP:は PROPN PROPN	60
+ADP:は PROPN PROPN ADP	30
+ADP:は PROPN PROPN PROPN	5
+ADP:は PROPN PROPN PUNCT	9
+ADP:は PROPN PUNCT	20
+ADP:は PROPN PUNCT NOUN	5
+ADP:は PROPN SYM NOUN	8
+ADP:は PROPN SYM PROPN	17
+ADP:は PUNCT	863
+ADP:は PUNCT ADJ AUX	16
+ADP:は PUNCT ADJ NOUN	36
+ADP:は PUNCT ADJ PROPN	4
+ADP:は PUNCT ADV ADJ	3
+ADP:は PUNCT ADV NOUN	10
+ADP:は PUNCT ADV PROPN	6
+ADP:は PUNCT ADV VERB	6
+ADP:は PUNCT NOUN ADJ	3
+ADP:は PUNCT NOUN ADP	237
+ADP:は PUNCT NOUN AUX	7
+ADP:は PUNCT NOUN NOUN	137
+ADP:は PUNCT NOUN NUM	6
+ADP:は PUNCT NOUN PART	3
+ADP:は PUNCT NOUN PROPN	14
+ADP:は PUNCT NOUN PUNCT	17
+ADP:は PUNCT NOUN SYM	12
+ADP:は PUNCT NUM	59
+ADP:は PUNCT NUM NOUN	53
+ADP:は PUNCT NUM PROPN	5
+ADP:は PUNCT PART NUM	6
+ADP:は PUNCT PRON ADP	17
+ADP:は PUNCT PROPN	200
+ADP:は PUNCT PROPN ADP	82
+ADP:は PUNCT PUNCT NOUN	7
+ADP:は PUNCT VERB AUX	14
+ADP:は PUNCT VERB NOUN	8
+ADP:は PUNCT VERB SCONJ	4
+ADP:は PUNCT.,	194
+ADP:は PUNCT., ADJ AUX	4
+ADP:は PUNCT., ADJ NOUN	13
+ADP:は PUNCT., ADV	21
+ADP:は PUNCT., ADV NOUN	8
+ADP:は PUNCT., NOUN ADP	51
+ADP:は PUNCT., NOUN NOUN	29
+ADP:は PUNCT., NUM	8
+ADP:は PUNCT., NUM NOUN	8
+ADP:は PUNCT., PRON	12
+ADP:は PUNCT., PRON ADP	11
+ADP:は PUNCT., PROPN	29
+ADP:は PUNCT., PROPN ADP	11
+ADP:は PUNCT., PROPN NOUN	16
+ADP:は PUNCT., PUNCT PROPN	5
+ADP:は PUNCT., VERB AUX	5
+ADP:は VERB ADP	11
+ADP:は VERB ADP ADP	3
+ADP:は VERB ADP VERB	6
+ADP:は VERB AUX	302
+ADP:は VERB AUX ADP	10
+ADP:は VERB AUX AUX	156
+ADP:は VERB AUX PART	6
+ADP:は VERB NOUN	21
+ADP:は VERB NOUN ADP	15
+ADP:は VERB PART	4
+ADP:は VERB PUNCT	27
+ADP:は VERB PUNCT NOUN	8
+ADP:は VERB SCONJ	64
+ADP:は VERB SCONJ AUX	45
+ADP:は VERB SCONJ PUNCT.,	3
+ADP:は VERB VERB	5
+ADP:は VERB VERB NOUN	3
+ADP:へ	217
+ADP:へ ADP	22
+ADP:へ ADP VERB	18
+ADP:へ ADP VERB SCONJ	5
+ADP:へ NOUN ADP	11
+ADP:へ NOUN ADP VERB	10
+ADP:へ NOUN NOUN	5
+ADP:へ NOUN VERB	3
+ADP:へ NOUN VERB AUX	3
+ADP:へ NUM PROPN	4
+ADP:へ NUM PROPN PUNCT	3
+ADP:へ PART	100
+ADP:へ PART ADJ	3
+ADP:へ PART NOUN	94
+ADP:へ PART NOUN NOUN	25
+ADP:へ VERB AUX	29
+ADP:へ VERB AUX AUX	13
+ADP:へ VERB NOUN	5
+ADP:へ VERB NOUN ADP	4
+ADP:へ VERB PUNCT	12
+ADP:へ VERB SCONJ	7
+ADP:へ VERB SCONJ AUX	4
+ADP:まで	266
+ADP:まで ADJ AUX	3
+ADP:まで ADJ NOUN	4
+ADP:まで ADJ NOUN ADP	4
+ADP:まで ADP	94
+ADP:まで ADP ADP	5
+ADP:まで ADP NOUN	43
+ADP:まで ADP NOUN NOUN	12
+ADP:まで ADP NOUN PUNCT	4
+ADP:まで ADP NUM	12
+ADP:まで ADP NUM NOUN	11
+ADP:まで ADP PROPN	8
+ADP:まで ADP PROPN PROPN	3
+ADP:まで ADP PUNCT NOUN	5
+ADP:まで ADP PUNCT PROPN	4
+ADP:まで ADP VERB AUX	7
+ADP:まで ADP VERB SCONJ	3
+ADP:まで NOUN ADP	23
+ADP:まで NOUN ADP VERB	15
+ADP:まで NOUN AUX	3
+ADP:まで NOUN NOUN	14
+ADP:まで NOUN NOUN ADP	11
+ADP:まで NOUN NOUN NOUN	3
+ADP:まで NOUN PUNCT	4
+ADP:まで NUM	9
+ADP:まで NUM NOUN	9
+ADP:まで NUM NOUN ADP	6
+ADP:まで PROPN ADP	6
+ADP:まで PROPN ADP NOUN	3
+ADP:まで PROPN NOUN	4
+ADP:まで PROPN NOUN ADP	3
+ADP:まで PUNCT	16
+ADP:まで PUNCT ADJ	3
+ADP:まで PUNCT NOUN NOUN	5
+ADP:まで VERB AUX	42
+ADP:まで VERB AUX AUX	21
+ADP:まで VERB AUX SCONJ	8
+ADP:まで VERB NOUN	3
+ADP:まで VERB PUNCT	6
+ADP:まで VERB PUNCT NOUN	3
+ADP:まで VERB SCONJ	14
+ADP:まで VERB SCONJ AUX	11
+ADP:も	1497
+ADP:も ADJ	246
+ADP:も ADJ ADJ	5
+ADP:も ADJ ADP VERB	3
+ADP:も ADJ AUX ADJ	6
+ADP:も ADJ AUX ADP	6
+ADP:も ADJ AUX AUX	23
+ADP:も ADJ AUX NOUN	19
+ADP:も ADJ AUX PROPN	3
+ADP:も ADJ AUX PUNCT	19
+ADP:も ADJ AUX SCONJ	7
+ADP:も ADJ AUX VERB	14
+ADP:も ADJ NOUN ADP	28
+ADP:も ADJ NOUN AUX	6
+ADP:も ADJ NOUN NOUN	4
+ADP:も ADJ PUNCT	46
+ADP:も ADJ PUNCT ADP	3
+ADP:も ADJ SCONJ	23
+ADP:も ADJ SCONJ ADV	3
+ADP:も ADJ SCONJ PUNCT	12
+ADP:も ADJ VERB	16
+ADP:も ADJ VERB SCONJ	5
+ADP:も ADV	63
+ADP:も ADV ADJ	17
+ADP:も ADV ADJ NOUN	5
+ADP:も ADV AUX	3
+ADP:も ADV NOUN ADP	5
+ADP:も ADV PROPN	4
+ADP:も ADV PUNCT.,	3
+ADP:も ADV VERB	21
+ADP:も ADV VERB AUX	16
+ADP:も AUX	44
+ADP:も AUX AUX AUX	3
+ADP:も AUX AUX PUNCT	4
+ADP:も AUX PUNCT	25
+ADP:も CCONJ	7
+ADP:も NOUN ADJ	9
+ADP:も NOUN ADJ AUX	4
+ADP:も NOUN ADP	199
+ADP:も NOUN ADP ADJ	20
+ADP:も NOUN ADP ADV	4
+ADP:も NOUN ADP AUX	3
+ADP:も NOUN ADP NOUN	56
+ADP:も NOUN ADP PART	3
+ADP:も NOUN ADP VERB	97
+ADP:も NOUN AUX	12
+ADP:も NOUN AUX PUNCT	7
+ADP:も NOUN NOUN	76
+ADP:も NOUN NOUN ADP	52
+ADP:も NOUN NOUN AUX	4
+ADP:も NOUN NOUN NOUN	13
+ADP:も NOUN NOUN SYM	4
+ADP:も NOUN NUM	5
+ADP:も NOUN NUM NOUN	5
+ADP:も NOUN PROPN	3
+ADP:も NOUN PUNCT	10
+ADP:も NOUN SYM	3
+ADP:も NOUN VERB	7
+ADP:も NOUN VERB AUX	5
+ADP:も NUM NOUN	23
+ADP:も NUM NOUN NOUN	9
+ADP:も NUM NOUN VERB	3
+ADP:も PART NOUN	3
+ADP:も PART NUM	4
+ADP:も PRON	8
+ADP:も PRON ADP	8
+ADP:も PRON ADP NOUN	3
+ADP:も PRON ADP VERB	3
+ADP:も PROPN ADP	18
+ADP:も PROPN ADP VERB	9
+ADP:も PROPN NOUN	21
+ADP:も PROPN NOUN ADP	16
+ADP:も PROPN PROPN	3
+ADP:も PROPN PROPN ADP	3
+ADP:も PUNCT ADJ	9
+ADP:も PUNCT ADJ AUX	4
+ADP:も PUNCT ADV	3
+ADP:も PUNCT NOUN	43
+ADP:も PUNCT NOUN ADP	25
+ADP:も PUNCT PROPN	11
+ADP:も PUNCT VERB	6
+ADP:も PUNCT.,	29
+ADP:も PUNCT., NOUN	20
+ADP:も VERB	607
+ADP:も VERB ADJ	4
+ADP:も VERB ADP NOUN	3
+ADP:も VERB ADP PART	3
+ADP:も VERB AUX ADJ	3
+ADP:も VERB AUX ADP	10
+ADP:も VERB AUX AUX	98
+ADP:も VERB AUX NOUN	29
+ADP:も VERB AUX PART	5
+ADP:も VERB AUX PROPN	4
+ADP:も VERB AUX PUNCT	85
+ADP:も VERB AUX PUNCT.,	3
+ADP:も VERB AUX SCONJ	68
+ADP:も VERB NOUN ADP	9
+ADP:も VERB NOUN AUX	5
+ADP:も VERB NOUN NOUN	3
+ADP:も VERB PART AUX	3
+ADP:も VERB PUNCT	137
+ADP:も VERB PUNCT ADV	4
+ADP:も VERB PUNCT.,	4
+ADP:も VERB SCONJ AUX	65
+ADP:も VERB SCONJ NOUN	12
+ADP:も VERB SCONJ PUNCT	19
+ADP:も VERB SCONJ VERB	7
+ADP:や	539
+ADP:や ADJ NOUN	10
+ADP:や ADJ NOUN ADP	8
+ADP:や NOUN	362
+ADP:や NOUN ADP ADJ	12
+ADP:や NOUN ADP ADP	28
+ADP:や NOUN ADP ADV	3
+ADP:や NOUN ADP NOUN	75
+ADP:や NOUN ADP PART	5
+ADP:や NOUN ADP PROPN	3
+ADP:や NOUN ADP PUNCT	8
+ADP:や NOUN ADP PUNCT.,	3
+ADP:や NOUN ADP VERB	61
+ADP:や NOUN NOUN	126
+ADP:や NOUN NOUN ADP	96
+ADP:や NOUN NOUN PUNCT	7
+ADP:や NOUN PROPN	8
+ADP:や NOUN PROPN ADP	4
+ADP:や NOUN PUNCT NOUN	14
+ADP:や NOUN SYM NOUN	3
+ADP:や NUM NOUN	7
+ADP:や NUM NOUN ADP	4
+ADP:や PROPN	76
+ADP:や PROPN ADP	36
+ADP:や PROPN ADP ADP	6
+ADP:や PROPN ADP NOUN	15
+ADP:や PROPN NOUN ADP	10
+ADP:や PROPN NOUN NOUN	6
+ADP:や PROPN PROPN	9
+ADP:や PROPN PROPN NOUN	3
+ADP:や PROPN PUNCT	5
+ADP:や PROPN PUNCT NOUN	3
+ADP:や PUNCT	60
+ADP:や PUNCT NOUN	37
+ADP:や PUNCT NOUN NOUN	13
+ADP:や PUNCT NOUN PUNCT	3
+ADP:や PUNCT NOUN SYM	3
+ADP:や PUNCT PROPN	17
+ADP:や PUNCT PROPN PUNCT	6
+ADP:や PUNCT PROPN SYM	3
+ADP:や VERB NOUN	4
+ADP:や VERB NOUN ADP	3
+ADP:や VERB PUNCT	3
+ADP:や VERB PUNCT NOUN	3
+ADP:より	90
+ADP:より ADJ	9
+ADP:より ADJ AUX	6
+ADP:より ADJ AUX NOUN	3
+ADP:より ADP	26
+ADP:より ADP ADJ	8
+ADP:より ADP NOUN	11
+ADP:より ADP NOUN ADP	7
+ADP:より ADV	4
+ADP:より ADV NOUN	3
+ADP:より NOUN ADP	13
+ADP:より NOUN ADP NOUN	4
+ADP:より NOUN NOUN	7
+ADP:より NUM	3
+ADP:より NUM NOUN	3
+ADP:より PROPN	8
+ADP:より PROPN NOUN	5
+ADP:より VERB AUX	6
+ADP:より VERB PUNCT	5
+ADP:を	4737
+ADP:を ADJ ADP	7
+ADP:を ADJ ADP AUX	5
+ADP:を ADJ AUX	88
+ADP:を ADJ AUX ADJ	4
+ADP:を ADJ AUX AUX	19
+ADP:を ADJ AUX VERB	45
+ADP:を ADJ NOUN	22
+ADP:を ADJ NOUN NOUN	3
+ADP:を ADJ NOUN VERB	4
+ADP:を ADJ VERB	19
+ADP:を ADJ VERB NOUN	3
+ADP:を ADP PUNCT	6
+ADP:を ADP PUNCT NOUN	4
+ADP:を ADP VERB	4
+ADP:を ADV ADJ	4
+ADP:を ADV ADJ AUX	3
+ADP:を ADV ADP	4
+ADP:を ADV ADP VERB	4
+ADP:を ADV NOUN	11
+ADP:を ADV NOUN ADP	8
+ADP:を ADV NUM	3
+ADP:を ADV NUM NOUN	3
+ADP:を ADV VERB	58
+ADP:を ADV VERB AUX	41
+ADP:を ADV VERB PUNCT	4
+ADP:を NOUN ADJ	7
+ADP:を NOUN ADJ AUX	3
+ADP:を NOUN ADJ VERB	3
+ADP:を NOUN ADP	333
+ADP:を NOUN ADP AUX	3
+ADP:を NOUN ADP PUNCT	20
+ADP:を NOUN ADP PUNCT.,	5
+ADP:を NOUN ADP VERB	222
+ADP:を NOUN NOUN	96
+ADP:を NOUN NOUN PROPN	3
+ADP:を NOUN NOUN VERB	6
+ADP:を NOUN NUM	3
+ADP:を NOUN NUM NOUN	3
+ADP:を NOUN PROPN	9
+ADP:を NOUN PROPN ADP	4
+ADP:を NOUN PUNCT	9
+ADP:を NOUN SYM	6
+ADP:を NOUN SYM VERB	3
+ADP:を NOUN VERB	51
+ADP:を NOUN VERB AUX	42
+ADP:を NUM ADP	3
+ADP:を NUM NOUN	36
+ADP:を NUM NOUN VERB	13
+ADP:を PART NUM	3
+ADP:を PART NUM NOUN	3
+ADP:を PRON ADP	9
+ADP:を PRON ADP VERB	6
+ADP:を PROPN ADP	34
+ADP:を PROPN ADP ADV	3
+ADP:を PROPN ADP VERB	19
+ADP:を PROPN NOUN	14
+ADP:を PROPN PROPN	6
+ADP:を PROPN PROPN NOUN	4
+ADP:を PROPN SYM	4
+ADP:を PROPN VERB	5
+ADP:を PUNCT ADJ	3
+ADP:を PUNCT NOUN	35
+ADP:を PUNCT NOUN NOUN	14
+ADP:を PUNCT NOUN PUNCT	7
+ADP:を PUNCT PROPN	11
+ADP:を PUNCT PROPN ADP	4
+ADP:を PUNCT PROPN NOUN	4
+ADP:を PUNCT VERB	5
+ADP:を PUNCT., ADV	3
+ADP:を VERB	3802
+ADP:を VERB ADJ	21
+ADP:を VERB ADJ AUX	13
+ADP:を VERB ADJ NOUN	6
+ADP:を VERB ADP	78
+ADP:を VERB ADP NOUN	20
+ADP:を VERB ADP PUNCT	6
+ADP:を VERB ADV	3
+ADP:を VERB AUX ADJ	5
+ADP:を VERB AUX ADP	43
+ADP:を VERB AUX ADV	3
+ADP:を VERB AUX AUX	501
+ADP:を VERB AUX NOUN	411
+ADP:を VERB AUX NUM	4
+ADP:を VERB AUX PART	33
+ADP:を VERB AUX PROPN	53
+ADP:を VERB AUX PUNCT	426
+ADP:を VERB AUX PUNCT.,	16
+ADP:を VERB AUX SCONJ	387
+ADP:を VERB AUX VERB	24
+ADP:を VERB NOUN	369
+ADP:を VERB NOUN NOUN	58
+ADP:を VERB NOUN PUNCT	36
+ADP:を VERB NOUN VERB	4
+ADP:を VERB NUM	9
+ADP:を VERB NUM NOUN	9
+ADP:を VERB PART	41
+ADP:を VERB PART ADP	33
+ADP:を VERB PART NOUN	3
+ADP:を VERB PROPN ADP	11
+ADP:を VERB PROPN NOUN	6
+ADP:を VERB PROPN PROPN	4
+ADP:を VERB PROPN PUNCT	3
+ADP:を VERB PUNCT ADJ	21
+ADP:を VERB PUNCT ADP	4
+ADP:を VERB PUNCT ADV	7
+ADP:を VERB PUNCT NOUN	126
+ADP:を VERB PUNCT NUM	18
+ADP:を VERB PUNCT PRON	12
+ADP:を VERB PUNCT PROPN	36
+ADP:を VERB PUNCT PUNCT	4
+ADP:を VERB PUNCT VERB	9
+ADP:を VERB PUNCT.,	33
+ADP:を VERB PUNCT., ADJ	4
+ADP:を VERB PUNCT., NOUN	18
+ADP:を VERB PUNCT., PRON	3
+ADP:を VERB PUNCT., VERB	4
+ADP:を VERB SCONJ	810
+ADP:を VERB SCONJ AUX	397
+ADP:を VERB SCONJ NOUN	105
+ADP:を VERB SCONJ NUM	16
+ADP:を VERB SCONJ PRON	5
+ADP:を VERB SCONJ PUNCT.,	19
+ADP:を VERB VERB AUX	16
+ADP:を VERB VERB PUNCT	3
+ADP:を VERB VERB SCONJ	3
+AUX:ある	95
+AUX:ある NOUN ADP	9
+AUX:ある NOUN ADP NOUN	4
+AUX:ある PROPN	3
+AUX:ある PUNCT	57
+AUX:ある SCONJ	18
+AUX:ある SCONJ PUNCT	10
+AUX:いる	1089
+AUX:いる ADJ AUX	3
+AUX:いる ADJ NOUN	3
+AUX:いる ADJ NOUN ADP	3
+AUX:いる ADP	44
+AUX:いる ADP ADP	6
+AUX:いる ADP ADP VERB	4
+AUX:いる ADP NOUN	8
+AUX:いる ADP PART	5
+AUX:いる ADP PART NOUN	5
+AUX:いる ADP PUNCT	3
+AUX:いる ADP VERB	19
+AUX:いる ADP VERB PUNCT	8
+AUX:いる AUX AUX	10
+AUX:いる AUX AUX PUNCT	7
+AUX:いる AUX PUNCT	6
+AUX:いる NOUN	213
+AUX:いる NOUN ADP	150
+AUX:いる NOUN ADP ADJ	18
+AUX:いる NOUN ADP ADP	15
+AUX:いる NOUN ADP ADV	4
+AUX:いる NOUN ADP PUNCT	15
+AUX:いる NOUN ADP PUNCT.,	3
+AUX:いる NOUN AUX ADP	6
+AUX:いる NOUN AUX PUNCT	8
+AUX:いる NOUN NOUN ADP	19
+AUX:いる NOUN NOUN AUX	4
+AUX:いる NOUN PUNCT NOUN	6
+AUX:いる PART	38
+AUX:いる PART ADP	27
+AUX:いる PART ADP ADJ	4
+AUX:いる PART ADP PROPN	3
+AUX:いる PART ADP PUNCT.,	3
+AUX:いる PART AUX SCONJ	3
+AUX:いる PART PART	5
+AUX:いる PART PART ADP	3
+AUX:いる PROPN ADP	8
+AUX:いる PROPN ADP NOUN	4
+AUX:いる PROPN ADP VERB	4
+AUX:いる PROPN NOUN	5
+AUX:いる PROPN NOUN ADP	4
+AUX:いる PUNCT	662
+AUX:いる PUNCT ADP VERB	3
+AUX:いる PUNCT NOUN ADP	4
+AUX:いる PUNCT NOUN NOUN	3
+AUX:いる SCONJ ADJ	7
+AUX:いる SCONJ NOUN	7
+AUX:いる SCONJ NOUN NOUN	5
+AUX:いる SCONJ PUNCT	55
+AUX:いる SCONJ PUNCT ADJ	8
+AUX:いる SCONJ PUNCT NOUN	31
+AUX:いる SCONJ PUNCT.,	4
+AUX:いる SCONJ VERB	8
+AUX:いる SCONJ VERB AUX	5
+AUX:う	112
+AUX:う ADP	15
+AUX:う ADP NOUN	6
+AUX:う ADP NOUN ADP	5
+AUX:う ADP VERB	8
+AUX:う ADP VERB AUX	4
+AUX:う ADP VERB SCONJ	3
+AUX:う PART	28
+AUX:う PART PUNCT	18
+AUX:う PART PUNCT.?	9
+AUX:う PUNCT	41
+AUX:う PUNCT ADP	5
+AUX:う PUNCT ADP VERB	4
+AUX:う SCONJ	24
+AUX:う SCONJ NOUN	3
+AUX:う SCONJ PUNCT NOUN	4
+AUX:う SCONJ VERB	11
+AUX:う SCONJ VERB SCONJ	3
+AUX:おり	162
+AUX:おり AUX PUNCT	8
+AUX:おり NOUN ADP	6
+AUX:おり NOUN ADP NOUN	4
+AUX:おり NOUN NOUN	3
+AUX:おり NOUN NOUN ADP	3
+AUX:おり PUNCT	118
+AUX:おり PUNCT ADJ	12
+AUX:おり PUNCT ADJ NOUN	8
+AUX:おり PUNCT ADV	5
+AUX:おり PUNCT NOUN	53
+AUX:おり PUNCT NOUN ADP	34
+AUX:おり PUNCT NUM	6
+AUX:おり PUNCT NUM NOUN	6
+AUX:おり PUNCT PRON	11
+AUX:おり PUNCT PROPN	27
+AUX:おり PUNCT PROPN ADP	12
+AUX:おり PUNCT PROPN NOUN	11
+AUX:おり PUNCT.,	18
+AUX:おり PUNCT., NOUN	12
+AUX:おり PUNCT., NOUN NOUN	6
+AUX:き	109
+AUX:き AUX	95
+AUX:き AUX ADJ	3
+AUX:き AUX AUX	29
+AUX:き AUX AUX PUNCT	22
+AUX:き AUX NOUN	23
+AUX:き AUX NOUN NOUN	5
+AUX:き AUX PROPN	4
+AUX:き AUX SCONJ PUNCT	7
+AUX:き SCONJ AUX	10
+AUX:き SCONJ AUX AUX	4
+AUX:き SCONJ AUX PUNCT	5
+AUX:さ	996
+AUX:さ AUX	996
+AUX:さ AUX ADP ADP	4
+AUX:さ AUX ADP NOUN	4
+AUX:さ AUX ADP VERB	4
+AUX:さ AUX AUX	389
+AUX:さ AUX AUX ADJ	9
+AUX:さ AUX AUX NOUN	109
+AUX:さ AUX AUX NUM	5
+AUX:さ AUX AUX PROPN	21
+AUX:さ AUX NOUN ADP	58
+AUX:さ AUX NOUN AUX	7
+AUX:さ AUX NOUN NOUN	18
+AUX:さ AUX NOUN PUNCT	5
+AUX:さ AUX PART PUNCT	3
+AUX:さ AUX PROPN ADP	4
+AUX:さ AUX PROPN NOUN	4
+AUX:さ AUX PUNCT ADJ	12
+AUX:さ AUX PUNCT NOUN	49
+AUX:さ AUX PUNCT NUM	10
+AUX:さ AUX PUNCT PRON	3
+AUX:さ AUX PUNCT PROPN	20
+AUX:さ AUX PUNCT PUNCT	3
+AUX:さ AUX PUNCT VERB	3
+AUX:さ AUX PUNCT., NOUN	3
+AUX:さ AUX SCONJ	321
+AUX:さ AUX SCONJ ADP	10
+AUX:さ AUX SCONJ AUX	269
+AUX:さ AUX SCONJ PROPN	3
+AUX:し	2198
+AUX:し AUX	1014
+AUX:し AUX ADJ	6
+AUX:し AUX ADJ AUX	5
+AUX:し AUX ADP	34
+AUX:し AUX ADP ADP	6
+AUX:し AUX ADP AUX	3
+AUX:し AUX ADP VERB	17
+AUX:し AUX AUX AUX	10
+AUX:し AUX AUX NOUN	3
+AUX:し AUX AUX PUNCT	56
+AUX:し AUX AUX SCONJ	14
+AUX:し AUX NOUN	324
+AUX:し AUX NOUN NUM	5
+AUX:し AUX NOUN PROPN	5
+AUX:し AUX NOUN PUNCT	36
+AUX:し AUX NOUN PUNCT.,	4
+AUX:し AUX NOUN SYM	3
+AUX:し AUX NUM	15
+AUX:し AUX PART ADP	15
+AUX:し AUX PART AUX	5
+AUX:し AUX PROPN	44
+AUX:し AUX PROPN ADP	26
+AUX:し AUX PUNCT ADP	4
+AUX:し AUX PUNCT NOUN	7
+AUX:し AUX SCONJ ADJ	3
+AUX:し AUX SCONJ ADP	5
+AUX:し AUX SCONJ AUX	4
+AUX:し AUX SCONJ NOUN	4
+AUX:し AUX SCONJ PUNCT	36
+AUX:し AUX SCONJ PUNCT.,	4
+AUX:し AUX SCONJ VERB	27
+AUX:し NOUN ADP	15
+AUX:し NOUN ADP NOUN	5
+AUX:し NOUN ADP VERB	7
+AUX:し NOUN NOUN	9
+AUX:し NOUN NOUN NUM	3
+AUX:し NUM NOUN	3
+AUX:し PROPN NOUN	3
+AUX:し PUNCT ADJ	35
+AUX:し PUNCT ADJ NOUN	23
+AUX:し PUNCT ADJ PART	5
+AUX:し PUNCT ADV	6
+AUX:し PUNCT CCONJ	3
+AUX:し PUNCT NOUN	155
+AUX:し PUNCT NOUN ADP	86
+AUX:し PUNCT NOUN NUM	7
+AUX:し PUNCT NOUN PROPN	6
+AUX:し PUNCT NOUN SYM	3
+AUX:し PUNCT NUM	37
+AUX:し PUNCT NUM NOUN	35
+AUX:し PUNCT PART	4
+AUX:し PUNCT PART NUM	4
+AUX:し PUNCT PRON	6
+AUX:し PUNCT PRON ADP	6
+AUX:し PUNCT PROPN	49
+AUX:し PUNCT PROPN ADP	22
+AUX:し PUNCT PROPN NOUN	18
+AUX:し PUNCT PROPN SYM	5
+AUX:し PUNCT PUNCT	8
+AUX:し PUNCT PUNCT NOUN	3
+AUX:し PUNCT PUNCT PROPN	3
+AUX:し PUNCT VERB	15
+AUX:し PUNCT VERB PUNCT	3
+AUX:し PUNCT.,	22
+AUX:し PUNCT., ADV	3
+AUX:し PUNCT., NOUN ADP	7
+AUX:し SCONJ	789
+AUX:し SCONJ ADJ AUX	5
+AUX:し SCONJ ADJ NOUN	6
+AUX:し SCONJ ADP NOUN	3
+AUX:し SCONJ ADP VERB	4
+AUX:し SCONJ AUX	582
+AUX:し SCONJ AUX AUX	247
+AUX:し SCONJ AUX NOUN	66
+AUX:し SCONJ AUX PROPN	8
+AUX:し SCONJ AUX PUNCT.,	7
+AUX:し SCONJ NOUN	69
+AUX:し SCONJ NOUN ADP	49
+AUX:し SCONJ NOUN PUNCT	3
+AUX:し SCONJ PRON ADP	3
+AUX:し SCONJ PROPN ADP	5
+AUX:し SCONJ PROPN NOUN	4
+AUX:し SCONJ PUNCT NOUN	24
+AUX:し SCONJ PUNCT PROPN	7
+AUX:し SCONJ VERB AUX	40
+AUX:し SCONJ VERB NOUN	4
+AUX:し SCONJ VERB SCONJ	7
+AUX:し VERB AUX	9
+AUX:し VERB AUX NOUN	3
+AUX:し VERB AUX SCONJ	4
+AUX:する	925
+AUX:する ADJ AUX	4
+AUX:する ADJ AUX NOUN	4
+AUX:する ADP	64
+AUX:する ADP ADJ	5
+AUX:する ADP ADJ AUX	3
+AUX:する ADP ADP	11
+AUX:する ADP ADP NOUN	5
+AUX:する ADP NOUN	13
+AUX:する ADP PART	4
+AUX:する ADP PART NOUN	4
+AUX:する ADP PUNCT	6
+AUX:する ADP PUNCT NOUN	3
+AUX:する ADP PUNCT.,	3
+AUX:する ADP VERB AUX	8
+AUX:する ADP VERB PUNCT	6
+AUX:する ADP VERB SCONJ	6
+AUX:する AUX AUX	15
+AUX:する AUX AUX AUX	4
+AUX:する AUX AUX PUNCT	9
+AUX:する AUX NOUN	3
+AUX:する AUX VERB	4
+AUX:する AUX VERB AUX	3
+AUX:する NOUN	441
+AUX:する NOUN ADP	313
+AUX:する NOUN ADP ADJ	36
+AUX:する NOUN ADP NUM	7
+AUX:する NOUN ADP PUNCT	32
+AUX:する NOUN ADP VERB	159
+AUX:する NOUN AUX ADP	6
+AUX:する NOUN AUX AUX	5
+AUX:する NOUN AUX PUNCT	15
+AUX:する NOUN AUX SCONJ	5
+AUX:する NOUN NOUN ADP	34
+AUX:する NOUN NOUN AUX	4
+AUX:する NOUN NOUN NOUN	12
+AUX:する NOUN PUNCT	31
+AUX:する NUM	7
+AUX:する NUM NOUN ADP	5
+AUX:する PART	53
+AUX:する PART ADP	36
+AUX:する PART ADP ADJ	7
+AUX:する PART ADP NOUN	7
+AUX:する PART ADP PUNCT	6
+AUX:する PART NUM	4
+AUX:する PROPN	25
+AUX:する PROPN ADP NOUN	5
+AUX:する PROPN ADP VERB	4
+AUX:する PROPN NOUN	8
+AUX:する PROPN NOUN ADP	7
+AUX:する PUNCT ADP	4
+AUX:する PUNCT ADP VERB	3
+AUX:する PUNCT NOUN	12
+AUX:する PUNCT NOUN NOUN	9
+AUX:する SCONJ ADP	21
+AUX:する SCONJ ADP ADJ	3
+AUX:する SCONJ ADP NOUN	9
+AUX:する SCONJ ADP VERB	5
+AUX:する SCONJ NOUN	13
+AUX:する SCONJ NOUN ADP	9
+AUX:する SCONJ PROPN	4
+AUX:する SCONJ PUNCT	30
+AUX:する SCONJ PUNCT ADJ	4
+AUX:する SCONJ PUNCT NOUN	17
+AUX:する SCONJ PUNCT VERB	4
+AUX:する SCONJ PUNCT.,	4
+AUX:する SCONJ VERB	15
+AUX:する SCONJ VERB PUNCT	4
+AUX:ず	149
+AUX:ず ADJ	5
+AUX:ず ADJ AUX	3
+AUX:ず NOUN ADP	11
+AUX:ず NOUN ADP NOUN	5
+AUX:ず NOUN NOUN	8
+AUX:ず NOUN NOUN ADP	6
+AUX:ず NUM	3
+AUX:ず NUM NOUN	3
+AUX:ず NUM NOUN ADP	3
+AUX:ず PROPN	6
+AUX:ず PROPN ADP	4
+AUX:ず PUNCT	76
+AUX:ず PUNCT ADJ	7
+AUX:ず PUNCT ADJ AUX	3
+AUX:ず PUNCT ADV	5
+AUX:ず PUNCT ADV NOUN	4
+AUX:ず PUNCT NOUN	35
+AUX:ず PUNCT NOUN ADP	21
+AUX:ず PUNCT NUM	6
+AUX:ず PUNCT NUM NOUN	6
+AUX:ず PUNCT PROPN	8
+AUX:ず PUNCT PROPN NOUN	4
+AUX:ず PUNCT VERB	4
+AUX:ず PUNCT.,	10
+AUX:ず PUNCT., NOUN	8
+AUX:ず PUNCT., NOUN ADP	5
+AUX:ず PUNCT., NOUN NOUN	3
+AUX:ず SCONJ NOUN	3
+AUX:ず SCONJ NOUN ADP	3
+AUX:ず SCONJ PUNCT	3
+AUX:ず SCONJ VERB	6
+AUX:ず SCONJ VERB AUX	5
+AUX:ず VERB	10
+AUX:ず VERB AUX AUX	3
+AUX:せ	134
+AUX:せ AUX	77
+AUX:せ AUX NOUN	17
+AUX:せ AUX NOUN NOUN	3
+AUX:せ AUX PUNCT NOUN	3
+AUX:せ AUX PUNCT.,	3
+AUX:せ AUX SCONJ	16
+AUX:せ AUX SCONJ VERB	8
+AUX:せ PUNCT NOUN	7
+AUX:せ PUNCT NOUN ADP	5
+AUX:せ SCONJ	46
+AUX:せ SCONJ AUX	30
+AUX:せ SCONJ AUX AUX	15
+AUX:せ SCONJ AUX SCONJ	6
+AUX:せ SCONJ NOUN	4
+AUX:せ SCONJ NOUN ADP	3
+AUX:せ SCONJ PUNCT.,	3
+AUX:せ SCONJ PUNCT., NOUN	3
+AUX:せ SCONJ VERB	5
+AUX:せ SCONJ VERB AUX	4
+AUX:た	4523
+AUX:た ADJ	44
+AUX:た ADJ AUX NOUN	16
+AUX:た ADJ NOUN	22
+AUX:た ADJ NOUN ADP	14
+AUX:た ADJ NOUN NOUN	8
+AUX:た ADP ADP	24
+AUX:た ADP ADP PUNCT	6
+AUX:た ADP ADP VERB	12
+AUX:た ADP AUX	7
+AUX:た ADP AUX AUX	5
+AUX:た ADP NOUN	22
+AUX:た ADP NOUN AUX	7
+AUX:た ADP PART	5
+AUX:た ADP PUNCT	4
+AUX:た ADP VERB	72
+AUX:た ADP VERB PUNCT	32
+AUX:た AUX AUX	9
+AUX:た AUX AUX PUNCT	8
+AUX:た AUX NOUN	9
+AUX:た AUX NOUN ADP	7
+AUX:た AUX PART	3
+AUX:た AUX PUNCT	49
+AUX:た AUX PUNCT NOUN	3
+AUX:た AUX PUNCT.!	3
+AUX:た AUX PUNCT.,	6
+AUX:た AUX PUNCT., NOUN	4
+AUX:た AUX SCONJ	4
+AUX:た AUX VERB	4
+AUX:た AUX VERB AUX	4
+AUX:た NOUN	1268
+AUX:た NOUN ADJ NOUN	3
+AUX:た NOUN ADP ADJ	50
+AUX:た NOUN ADP ADP	41
+AUX:た NOUN ADP ADV	21
+AUX:た NOUN ADP AUX	4
+AUX:た NOUN ADP NOUN	247
+AUX:た NOUN ADP NUM	16
+AUX:た NOUN ADP PART	12
+AUX:た NOUN ADP PROPN	30
+AUX:た NOUN ADP PUNCT	96
+AUX:た NOUN ADP PUNCT.,	19
+AUX:た NOUN ADP VERB	260
+AUX:た NOUN AUX ADP	7
+AUX:た NOUN AUX AUX	10
+AUX:た NOUN AUX NOUN	5
+AUX:た NOUN AUX PART	3
+AUX:た NOUN AUX PUNCT	52
+AUX:た NOUN AUX PUNCT.,	3
+AUX:た NOUN AUX SCONJ	14
+AUX:た NOUN NOUN ADP	115
+AUX:た NOUN NOUN AUX	9
+AUX:た NOUN NOUN NOUN	40
+AUX:た NOUN NOUN NUM	4
+AUX:た NOUN NOUN PROPN	3
+AUX:た NOUN NOUN PUNCT	18
+AUX:た NOUN NOUN VERB	3
+AUX:た NOUN NUM	9
+AUX:た NOUN PART	6
+AUX:た NOUN PROPN	13
+AUX:た NOUN PROPN ADP	6
+AUX:た NOUN PUNCT	111
+AUX:た NOUN PUNCT ADJ	7
+AUX:た NOUN PUNCT NOUN	44
+AUX:た NOUN PUNCT NUM	3
+AUX:た NOUN PUNCT PROPN	18
+AUX:た NOUN PUNCT.,	15
+AUX:た NOUN PUNCT., ADJ	3
+AUX:た NOUN PUNCT., NOUN	9
+AUX:た NOUN SYM	8
+AUX:た NOUN SYM PROPN	3
+AUX:た NUM	48
+AUX:た NUM NOUN	45
+AUX:た NUM NOUN NOUN	12
+AUX:た PART	137
+AUX:た PART ADP	68
+AUX:た PART ADP NOUN	15
+AUX:た PART ADP NUM	7
+AUX:た PART ADP PROPN	5
+AUX:た PART ADP PUNCT	12
+AUX:た PART ADP PUNCT.,	7
+AUX:た PART AUX	47
+AUX:た PART AUX SCONJ	26
+AUX:た PART NUM	7
+AUX:た PART NUM NOUN	6
+AUX:た PRON	10
+AUX:た PRON ADP NOUN	4
+AUX:た PROPN	242
+AUX:た PROPN ADP	111
+AUX:た PROPN ADP ADJ	5
+AUX:た PROPN ADP NUM	8
+AUX:た PROPN ADP PROPN	18
+AUX:た PROPN ADP PUNCT	8
+AUX:た PROPN NOUN ADP	37
+AUX:た PROPN NOUN NOUN	21
+AUX:た PROPN NOUN PROPN	4
+AUX:た PROPN PART	3
+AUX:た PROPN PROPN	34
+AUX:た PROPN PROPN NOUN	8
+AUX:た PROPN SYM	20
+AUX:た PROPN SYM NOUN	6
+AUX:た PUNCT	2024
+AUX:た PUNCT ADP NOUN	5
+AUX:た PUNCT ADP VERB	8
+AUX:た PUNCT NOUN ADP	8
+AUX:た PUNCT NOUN NOUN	15
+AUX:た PUNCT NOUN PUNCT	4
+AUX:た PUNCT PROPN ADP	3
+AUX:た PUNCT PROPN NOUN	7
+AUX:た PUNCT PROPN PUNCT	6
+AUX:た PUNCT PROPN SYM	3
+AUX:た PUNCT.!	15
+AUX:た PUNCT., NOUN	4
+AUX:た SCONJ ADJ	9
+AUX:た SCONJ ADP	6
+AUX:た SCONJ ADP VERB	3
+AUX:た SCONJ ADV	6
+AUX:た SCONJ ADV NOUN	3
+AUX:た SCONJ AUX	12
+AUX:た SCONJ AUX PUNCT	9
+AUX:た SCONJ NOUN	28
+AUX:た SCONJ NUM	5
+AUX:た SCONJ NUM NOUN	5
+AUX:た SCONJ PRON	5
+AUX:た SCONJ PRON ADP	5
+AUX:た SCONJ PROPN	4
+AUX:た SCONJ PUNCT	293
+AUX:た SCONJ PUNCT ADV	23
+AUX:た SCONJ PUNCT NUM	27
+AUX:た SCONJ PUNCT PRON	22
+AUX:た SCONJ PUNCT PROPN	36
+AUX:た SCONJ PUNCT.,	34
+AUX:た SCONJ PUNCT., ADJ	5
+AUX:た SCONJ PUNCT., ADV	4
+AUX:た SCONJ PUNCT., NOUN	16
+AUX:た SCONJ PUNCT., PROPN	6
+AUX:た SCONJ VERB	80
+AUX:た SCONJ VERB PUNCT	12
+AUX:た SCONJ VERB SCONJ	18
+AUX:た SYM	5
+AUX:た SYM PUNCT	4
+AUX:た VERB ADP	4
+AUX:た VERB AUX	4
+AUX:た VERB NOUN	4
+AUX:だ	278
+AUX:だ ADP	49
+AUX:だ ADP NOUN ADP	3
+AUX:だ ADP VERB	37
+AUX:だ ADP VERB AUX	26
+AUX:だ AUX PUNCT	6
+AUX:だ NOUN ADP	13
+AUX:だ NOUN ADP PUNCT	3
+AUX:だ NOUN NOUN	7
+AUX:だ NOUN NOUN ADP	5
+AUX:だ PART	9
+AUX:だ PART ADP	4
+AUX:だ PUNCT	93
+AUX:だ PUNCT ADP	8
+AUX:だ PUNCT ADP VERB	7
+AUX:だ SCONJ	89
+AUX:だ SCONJ ADJ	6
+AUX:だ SCONJ ADJ AUX	4
+AUX:だ SCONJ NOUN	10
+AUX:だ SCONJ NOUN NOUN	4
+AUX:だ SCONJ PART	5
+AUX:だ SCONJ PART PUNCT	3
+AUX:だ SCONJ PUNCT	37
+AUX:だ SCONJ PUNCT ADJ	7
+AUX:だ SCONJ PUNCT PROPN	4
+AUX:だ SCONJ PUNCT.,	10
+AUX:だ SCONJ VERB	15
+AUX:だ SCONJ VERB AUX	10
+AUX:だっ	160
+AUX:だっ AUX	159
+AUX:だっ AUX ADP	8
+AUX:だっ AUX ADP VERB	6
+AUX:だっ AUX AUX PUNCT	3
+AUX:だっ AUX NOUN ADP	16
+AUX:だっ AUX NOUN NOUN	4
+AUX:だっ AUX NOUN PUNCT	3
+AUX:だっ AUX PART	9
+AUX:だっ AUX PART AUX	7
+AUX:だっ AUX PROPN	7
+AUX:だっ AUX PROPN SYM	3
+AUX:だっ AUX PUNCT	65
+AUX:だっ AUX SCONJ	36
+AUX:だっ AUX SCONJ NOUN	4
+AUX:だっ AUX SCONJ PUNCT	22
+AUX:だっ AUX SCONJ VERB	7
+AUX:で	411
+AUX:で ADJ	20
+AUX:で ADJ AUX	11
+AUX:で ADP	176
+AUX:で ADP AUX	166
+AUX:で ADP AUX ADJ	3
+AUX:で ADP AUX NOUN	15
+AUX:で ADP AUX PART	13
+AUX:で ADP AUX PUNCT	59
+AUX:で ADP AUX PUNCT.,	14
+AUX:で ADP NOUN NOUN	3
+AUX:で ADV	6
+AUX:で ADV ADJ	3
+AUX:で ADV ADJ AUX	3
+AUX:で AUX AUX	15
+AUX:で AUX AUX ADP	3
+AUX:で AUX NOUN	18
+AUX:で AUX NOUN ADP	16
+AUX:で AUX PUNCT	53
+AUX:で AUX PUNCT NOUN	12
+AUX:で AUX PUNCT PROPN	4
+AUX:で AUX SCONJ	16
+AUX:で AUX SCONJ PUNCT	7
+AUX:で AUX SCONJ PUNCT.,	3
+AUX:で NOUN ADP	15
+AUX:で NOUN ADP ADJ	4
+AUX:で NOUN ADP NOUN	4
+AUX:で NOUN NOUN	6
+AUX:で PUNCT ADJ	8
+AUX:で PUNCT ADJ AUX	5
+AUX:で PUNCT NOUN	20
+AUX:で PUNCT NOUN ADP	13
+AUX:で PUNCT NOUN NOUN	7
+AUX:で PUNCT NUM	3
+AUX:で PUNCT NUM NOUN	3
+AUX:で PUNCT PROPN	3
+AUX:で PUNCT PROPN NOUN	3
+AUX:で PUNCT.,	5
+AUX:で VERB	22
+AUX:で VERB AUX	16
+AUX:で VERB AUX NOUN	6
+AUX:で VERB NOUN	3
+AUX:で VERB NOUN ADP	3
+AUX:であっ	94
+AUX:であっ AUX	91
+AUX:であっ AUX ADP	4
+AUX:であっ AUX ADP VERB	3
+AUX:であっ AUX NOUN ADP	7
+AUX:であっ AUX PROPN	7
+AUX:であっ AUX PUNCT	54
+AUX:であっ AUX SCONJ	14
+AUX:であっ AUX SCONJ PUNCT	12
+AUX:であり	93
+AUX:であり AUX AUX	4
+AUX:であり AUX AUX PUNCT	3
+AUX:であり PUNCT	64
+AUX:であり PUNCT ADJ	8
+AUX:であり PUNCT ADJ AUX	3
+AUX:であり PUNCT NOUN	38
+AUX:であり PUNCT NOUN ADP	21
+AUX:であり PUNCT NOUN NOUN	13
+AUX:であり PUNCT NUM	6
+AUX:であり PUNCT NUM NOUN	6
+AUX:であり PUNCT PROPN	6
+AUX:であり PUNCT PROPN ADP	3
+AUX:であり PUNCT PROPN NOUN	3
+AUX:であり PUNCT.,	14
+AUX:であり PUNCT., NOUN	8
+AUX:であり PUNCT., NOUN ADP	6
+AUX:であり PUNCT., PRON	4
+AUX:であり PUNCT., PRON ADP	4
+AUX:である	404
+AUX:である ADP PART	3
+AUX:である ADP PART NOUN	3
+AUX:である ADP VERB	7
+AUX:である NOUN ADP	34
+AUX:である NOUN ADP ADJ	4
+AUX:である NOUN ADP PUNCT	5
+AUX:である NOUN NOUN	10
+AUX:である NOUN NOUN ADP	7
+AUX:である NOUN NOUN NOUN	3
+AUX:である NUM	3
+AUX:である NUM NOUN	3
+AUX:である PART ADP	4
+AUX:である PROPN	45
+AUX:である PROPN ADP NOUN	8
+AUX:である PROPN ADP PROPN	4
+AUX:である PROPN ADP VERB	3
+AUX:である PROPN NOUN ADP	10
+AUX:である PROPN PROPN	9
+AUX:である PROPN PROPN ADP	6
+AUX:である PROPN PROPN NOUN	3
+AUX:である PROPN SYM	6
+AUX:である PROPN SYM PROPN	6
+AUX:である PUNCT	240
+AUX:である PUNCT NOUN NOUN	3
+AUX:である SCONJ NOUN	5
+AUX:である SCONJ NOUN ADP	5
+AUX:である SCONJ PUNCT	22
+AUX:である SCONJ PUNCT ADJ	4
+AUX:である SCONJ PUNCT NOUN	13
+AUX:である SCONJ PUNCT PROPN	4
+AUX:である SCONJ VERB	12
+AUX:である SCONJ VERB SCONJ	4
+AUX:でし	89
+AUX:でし AUX	89
+AUX:でし AUX PUNCT	74
+AUX:でし AUX SCONJ PUNCT	7
+AUX:です	475
+AUX:です PART	28
+AUX:です PART PUNCT	15
+AUX:です PART PUNCT.!	5
+AUX:です PART PUNCT.?	6
+AUX:です PUNCT	331
+AUX:です PUNCT.!	17
+AUX:です SCONJ	99
+AUX:です SCONJ NOUN NOUN	3
+AUX:です SCONJ PUNCT	61
+AUX:です SCONJ PUNCT ADJ	8
+AUX:です SCONJ PUNCT ADV	6
+AUX:です SCONJ PUNCT PRON	8
+AUX:です SCONJ PUNCT VERB	4
+AUX:です SCONJ PUNCT.,	30
+AUX:です SCONJ PUNCT., ADJ	4
+AUX:です SCONJ PUNCT., NOUN	16
+AUX:な	761
+AUX:な ADJ	11
+AUX:な ADJ NOUN	7
+AUX:な ADJ NOUN ADP	5
+AUX:な NOUN	606
+AUX:な NOUN ADP	397
+AUX:な NOUN ADP AUX	3
+AUX:な NOUN ADP VERB	203
+AUX:な NOUN AUX	59
+AUX:な NOUN AUX AUX	14
+AUX:な NOUN AUX NOUN	4
+AUX:な NOUN AUX PUNCT.,	3
+AUX:な NOUN AUX SCONJ	8
+AUX:な NOUN NOUN	109
+AUX:な NOUN NOUN ADP	71
+AUX:な NOUN NOUN AUX	11
+AUX:な NOUN PUNCT ADP	3
+AUX:な NOUN PUNCT NOUN	5
+AUX:な NUM NOUN	3
+AUX:な PART	61
+AUX:な PART ADP NOUN	5
+AUX:な PART ADP PUNCT	5
+AUX:な PART ADP PUNCT.,	5
+AUX:な PART AUX	31
+AUX:な PART AUX ADP	3
+AUX:な PART AUX AUX	13
+AUX:な PART PART	7
+AUX:な PART PART ADP	4
+AUX:な PROPN ADP	7
+AUX:な PROPN NOUN	3
+AUX:な PUNCT NOUN	4
+AUX:な SCONJ NOUN	10
+AUX:な SCONJ NOUN NOUN	3
+AUX:な SCONJ PUNCT	25
+AUX:な SCONJ PUNCT ADJ	4
+AUX:な SCONJ PUNCT ADV	3
+AUX:な SCONJ PUNCT VERB	3
+AUX:な SCONJ VERB	4
+AUX:な VERB AUX	5
+AUX:な VERB AUX SCONJ	3
+AUX:ない	482
+AUX:ない ADP	30
+AUX:ない ADP ADP	3
+AUX:ない ADP NOUN	11
+AUX:ない ADP NOUN ADP	11
+AUX:ない ADP PART	3
+AUX:ない ADP PART NOUN	3
+AUX:ない ADP VERB AUX	5
+AUX:ない ADP VERB PUNCT	3
+AUX:ない AUX AUX	14
+AUX:ない AUX AUX PART	8
+AUX:ない AUX NOUN	5
+AUX:ない AUX NOUN ADP	5
+AUX:ない AUX PUNCT	7
+AUX:ない AUX SCONJ	3
+AUX:ない NOUN	131
+AUX:ない NOUN ADP	93
+AUX:ない NOUN ADP ADJ	11
+AUX:ない NOUN ADP NOUN	29
+AUX:ない NOUN ADP PUNCT.,	3
+AUX:ない NOUN AUX AUX	3
+AUX:ない NOUN AUX PUNCT	3
+AUX:ない NOUN NOUN ADP	9
+AUX:ない NOUN NOUN AUX	3
+AUX:ない NOUN PUNCT	9
+AUX:ない NOUN PUNCT NOUN	3
+AUX:ない PART	40
+AUX:ない PART ADP	18
+AUX:ない PART ADP ADJ	3
+AUX:ない PART ADP PUNCT.,	3
+AUX:ない PART ADP VERB	7
+AUX:ない PART AUX PUNCT	4
+AUX:ない PART AUX SCONJ	4
+AUX:ない PART PART	4
+AUX:ない PART PUNCT ADP	3
+AUX:ない PROPN ADP	3
+AUX:ない PUNCT	158
+AUX:ない PUNCT ADP	20
+AUX:ない PUNCT ADP VERB	13
+AUX:ない PUNCT PUNCT	3
+AUX:ない SCONJ	74
+AUX:ない SCONJ ADP	3
+AUX:ない SCONJ ADV	3
+AUX:ない SCONJ ADV VERB	3
+AUX:ない SCONJ NOUN	12
+AUX:ない SCONJ NOUN NOUN	4
+AUX:ない SCONJ PUNCT	30
+AUX:ない SCONJ PUNCT ADJ	4
+AUX:ない SCONJ PUNCT ADV	5
+AUX:ない SCONJ PUNCT PUNCT	3
+AUX:ない SCONJ PUNCT.,	4
+AUX:ない SCONJ VERB	14
+AUX:ない SCONJ VERB AUX	9
+AUX:ない SCONJ VERB SCONJ	5
+AUX:なかっ	99
+AUX:なかっ AUX	98
+AUX:なかっ AUX ADP	3
+AUX:なかっ AUX NOUN ADP	7
+AUX:なかっ AUX NOUN AUX	4
+AUX:なかっ AUX NOUN NOUN	3
+AUX:なかっ AUX PART	8
+AUX:なかっ AUX PART ADP	3
+AUX:なかっ AUX PART AUX	3
+AUX:なかっ AUX PROPN	6
+AUX:なかっ AUX PROPN NOUN	3
+AUX:なかっ AUX PUNCT	46
+AUX:なかっ AUX SCONJ	15
+AUX:なかっ AUX SCONJ PUNCT	8
+AUX:なかっ AUX SCONJ VERB	3
+AUX:なく	111
+AUX:なく ADJ	6
+AUX:なく ADJ AUX	3
+AUX:なく AUX AUX	12
+AUX:なく AUX AUX AUX	3
+AUX:なく AUX AUX SCONJ	3
+AUX:なく AUX NOUN	4
+AUX:なく AUX PUNCT	4
+AUX:なく AUX SCONJ	6
+AUX:なく AUX SCONJ AUX	3
+AUX:なく NOUN ADP	8
+AUX:なく NOUN ADP NOUN	6
+AUX:なく PUNCT ADJ	3
+AUX:なく PUNCT NOUN	18
+AUX:なく PUNCT NOUN NOUN	8
+AUX:なく PUNCT.,	14
+AUX:なく PUNCT., NOUN	8
+AUX:なく PUNCT., NOUN ADP	7
+AUX:なく SCONJ	17
+AUX:なく SCONJ ADP	9
+AUX:なく SCONJ ADP NOUN	3
+AUX:なく SCONJ ADP PUNCT	3
+AUX:なっ	99
+AUX:なっ AUX	58
+AUX:なっ AUX ADP	4
+AUX:なっ AUX NOUN	13
+AUX:なっ AUX NOUN ADP	10
+AUX:なっ AUX PUNCT	32
+AUX:なっ AUX SCONJ PUNCT	3
+AUX:なっ SCONJ	41
+AUX:なっ SCONJ AUX	32
+AUX:なっ SCONJ AUX AUX	13
+AUX:なっ SCONJ PUNCT NOUN	3
+AUX:に	523
+AUX:に ADJ	42
+AUX:に ADJ AUX AUX	3
+AUX:に ADJ AUX NOUN	8
+AUX:に ADJ AUX VERB	3
+AUX:に ADJ NOUN ADP	5
+AUX:に ADJ NOUN AUX	3
+AUX:に ADJ PUNCT	9
+AUX:に ADJ PUNCT NOUN	4
+AUX:に ADJ VERB	3
+AUX:に ADP	36
+AUX:に ADP ADJ	6
+AUX:に ADP NOUN	12
+AUX:に ADP NOUN NOUN	6
+AUX:に ADP PROPN	3
+AUX:に ADP PUNCT	8
+AUX:に ADP PUNCT PROPN	3
+AUX:に ADV	3
+AUX:に AUX AUX	32
+AUX:に AUX AUX AUX	8
+AUX:に AUX AUX NOUN	7
+AUX:に AUX NOUN	9
+AUX:に AUX PUNCT	5
+AUX:に AUX SCONJ	16
+AUX:に AUX SCONJ AUX	11
+AUX:に NOUN	116
+AUX:に NOUN ADP	84
+AUX:に NOUN ADP VERB	58
+AUX:に NOUN NOUN	22
+AUX:に NOUN NOUN ADP	18
+AUX:に NOUN VERB	6
+AUX:に NOUN VERB AUX	4
+AUX:に NUM	7
+AUX:に NUM NOUN ADP	4
+AUX:に PRON	3
+AUX:に PRON ADP	3
+AUX:に PRON ADP NOUN	3
+AUX:に PROPN	20
+AUX:に PROPN ADP	11
+AUX:に PROPN ADP NOUN	8
+AUX:に PROPN NOUN ADP	4
+AUX:に PUNCT NOUN	6
+AUX:に PUNCT PROPN	4
+AUX:に VERB	210
+AUX:に VERB ADP VERB	3
+AUX:に VERB AUX ADP	3
+AUX:に VERB AUX AUX	49
+AUX:に VERB AUX NOUN	22
+AUX:に VERB AUX PUNCT	17
+AUX:に VERB AUX SCONJ	35
+AUX:に VERB NOUN ADP	14
+AUX:に VERB PUNCT	13
+AUX:に VERB PUNCT NOUN	3
+AUX:に VERB SCONJ	40
+AUX:に VERB SCONJ AUX	22
+AUX:に VERB SCONJ VERB	9
+AUX:まし	398
+AUX:まし AUX	398
+AUX:まし AUX PUNCT	315
+AUX:まし AUX PUNCT.!	13
+AUX:まし AUX SCONJ	61
+AUX:まし AUX SCONJ ADV	4
+AUX:まし AUX SCONJ PRON	3
+AUX:まし AUX SCONJ PUNCT	32
+AUX:まし AUX SCONJ PUNCT.,	18
+AUX:ます	557
+AUX:ます PART	21
+AUX:ます PART PUNCT	17
+AUX:ます PART PUNCT ADP	3
+AUX:ます PUNCT	470
+AUX:ます PUNCT ADP NOUN	3
+AUX:ます PUNCT.!	15
+AUX:ます SCONJ PUNCT	29
+AUX:ます SCONJ PUNCT ADJ	6
+AUX:ます SCONJ PUNCT ADV	3
+AUX:ます SCONJ PUNCT NOUN	16
+AUX:ます SCONJ PUNCT.,	12
+AUX:ます SCONJ PUNCT., NOUN	8
+AUX:ませ	111
+AUX:ませ AUX	111
+AUX:ませ AUX AUX	21
+AUX:ませ AUX AUX PUNCT	18
+AUX:ませ AUX PUNCT	72
+AUX:ませ AUX PUNCT.!	3
+AUX:ませ AUX SCONJ PUNCT	5
+AUX:ませ AUX SCONJ PUNCT.,	6
+AUX:よう	92
+AUX:よう ADP	7
+AUX:よう ADP VERB	6
+AUX:よう ADP VERB AUX	4
+AUX:よう AUX AUX	4
+AUX:よう AUX AUX PUNCT	3
+AUX:よう AUX PUNCT	18
+AUX:よう AUX SCONJ	3
+AUX:よう AUX SCONJ PUNCT.,	3
+AUX:よう NOUN ADP	3
+AUX:よう PART	3
+AUX:よう SCONJ	31
+AUX:よう SCONJ VERB	29
+AUX:よう SCONJ VERB ADP	3
+AUX:よう SCONJ VERB SCONJ	11
+AUX:よう VERB	14
+AUX:よう VERB AUX	10
+AUX:よう VERB AUX AUX	4
+AUX:よう VERB AUX PUNCT	3
+AUX:ように	161
+AUX:ように ADJ	6
+AUX:ように ADJ AUX	3
+AUX:ように AUX	74
+AUX:ように AUX AUX	34
+AUX:ように AUX AUX AUX	4
+AUX:ように AUX AUX PUNCT	20
+AUX:ように AUX AUX SCONJ	4
+AUX:ように AUX PUNCT NOUN	3
+AUX:ように AUX SCONJ	14
+AUX:ように AUX SCONJ AUX	10
+AUX:ように NOUN ADP	12
+AUX:ように NOUN ADP NOUN	4
+AUX:ように NOUN ADP VERB	7
+AUX:ように NOUN NOUN	4
+AUX:ように NOUN NOUN ADP	4
+AUX:ように PUNCT NOUN	5
+AUX:ように PUNCT NOUN ADP	4
+AUX:ように PUNCT PROPN	4
+AUX:ように PUNCT PROPN NOUN	3
+AUX:ように PUNCT.,	5
+AUX:ように PUNCT., NOUN	3
+AUX:ように VERB	34
+AUX:ように VERB AUX	25
+AUX:ように VERB AUX AUX	11
+AUX:ように VERB AUX PUNCT	7
+AUX:ように VERB NOUN	4
+AUX:られ	224
+AUX:られ AUX	123
+AUX:られ AUX AUX PUNCT	9
+AUX:られ AUX NOUN	38
+AUX:られ AUX NOUN NOUN	7
+AUX:られ AUX NOUN PUNCT	6
+AUX:られ AUX NUM	3
+AUX:られ AUX NUM NOUN	3
+AUX:られ AUX PROPN	4
+AUX:られ AUX SCONJ PUNCT	5
+AUX:られ NOUN ADP	4
+AUX:られ PUNCT ADJ	5
+AUX:られ PUNCT ADJ NOUN	3
+AUX:られ PUNCT NOUN	10
+AUX:られ PUNCT PROPN	4
+AUX:られ SCONJ	68
+AUX:られ SCONJ AUX	61
+AUX:られ SCONJ AUX PUNCT	30
+AUX:られる	87
+AUX:られる ADP	6
+AUX:られる ADP VERB	3
+AUX:られる AUX AUX	3
+AUX:られる NOUN	23
+AUX:られる NOUN ADP	16
+AUX:られる NOUN ADP ADJ	6
+AUX:られる NOUN AUX	4
+AUX:られる NOUN NOUN ADP	3
+AUX:られる PUNCT	46
+AUX:れ	1278
+AUX:れ AUX	568
+AUX:れ AUX ADJ	12
+AUX:れ AUX ADJ NOUN	9
+AUX:れ AUX ADP	18
+AUX:れ AUX ADP NOUN	5
+AUX:れ AUX ADP VERB	9
+AUX:れ AUX AUX NOUN	5
+AUX:れ AUX AUX PUNCT	27
+AUX:れ AUX AUX SCONJ	6
+AUX:れ AUX NOUN	172
+AUX:れ AUX NOUN AUX	26
+AUX:れ AUX NUM	5
+AUX:れ AUX PART ADP	4
+AUX:れ AUX PROPN	33
+AUX:れ AUX PROPN ADP	15
+AUX:れ AUX PROPN NOUN	10
+AUX:れ AUX PROPN PROPN	5
+AUX:れ AUX PUNCT	229
+AUX:れ AUX PUNCT PROPN	5
+AUX:れ AUX SCONJ AUX	3
+AUX:れ AUX SCONJ PUNCT	27
+AUX:れ AUX SCONJ VERB	7
+AUX:れ NOUN ADP	7
+AUX:れ NOUN ADP VERB	5
+AUX:れ NOUN NOUN	5
+AUX:れ NOUN NOUN ADP	5
+AUX:れ PROPN NOUN	3
+AUX:れ PROPN NOUN ADP	3
+AUX:れ PUNCT ADJ	18
+AUX:れ PUNCT ADJ NOUN	11
+AUX:れ PUNCT ADV	3
+AUX:れ PUNCT NOUN	88
+AUX:れ PUNCT NOUN ADP	51
+AUX:れ PUNCT NOUN NUM	3
+AUX:れ PUNCT NOUN VERB	3
+AUX:れ PUNCT NUM	14
+AUX:れ PUNCT PRON	3
+AUX:れ PUNCT PROPN	25
+AUX:れ PUNCT PROPN ADP	10
+AUX:れ PUNCT PROPN PROPN	4
+AUX:れ PUNCT PUNCT	3
+AUX:れ PUNCT VERB	5
+AUX:れ PUNCT VERB AUX	4
+AUX:れ PUNCT.,	13
+AUX:れ PUNCT., NOUN ADP	4
+AUX:れ SCONJ	506
+AUX:れ SCONJ ADJ AUX	3
+AUX:れ SCONJ ADP AUX	5
+AUX:れ SCONJ AUX	448
+AUX:れ SCONJ AUX ADP	11
+AUX:れ SCONJ AUX PART	14
+AUX:れ SCONJ AUX PUNCT	192
+AUX:れ SCONJ AUX SCONJ	38
+AUX:れ SCONJ NOUN ADP	8
+AUX:れ SCONJ NOUN NOUN	6
+AUX:れ SCONJ PUNCT NOUN	4
+AUX:れ SCONJ VERB AUX	8
+AUX:れ SCONJ VERB PUNCT	3
+AUX:れ VERB AUX	4
+AUX:れる	338
+AUX:れる ADP	13
+AUX:れる ADP NOUN	5
+AUX:れる ADP VERB AUX	3
+AUX:れる AUX AUX	15
+AUX:れる AUX AUX AUX	8
+AUX:れる AUX NOUN	3
+AUX:れる NOUN	115
+AUX:れる NOUN ADP	77
+AUX:れる NOUN ADP ADJ	12
+AUX:れる NOUN ADP VERB	37
+AUX:れる NOUN AUX PUNCT	6
+AUX:れる NOUN NOUN	21
+AUX:れる NOUN NOUN ADP	14
+AUX:れる NOUN NOUN NOUN	4
+AUX:れる NUM	3
+AUX:れる PART	13
+AUX:れる PART ADP	7
+AUX:れる PART AUX	3
+AUX:れる PROPN	11
+AUX:れる PROPN ADP	6
+AUX:れる PROPN NOUN	4
+AUX:れる PROPN NOUN NOUN	4
+AUX:れる PUNCT	136
+AUX:れる SCONJ NOUN	4
+AUX:れる SCONJ NOUN ADP	4
+AUX:れる SCONJ PUNCT	16
+AUX:れる SCONJ PUNCT PROPN	3
+AUX:ん	124
+AUX:ん AUX PUNCT	18
+AUX:ん PUNCT	74
+AUX:ん PUNCT.!	4
+AUX:ん SCONJ PUNCT	5
+AUX:ん SCONJ PUNCT.,	6
+AUX:ん SCONJ PUNCT., NOUN	3
+CCONJ:しかし	113
+CCONJ:しかし ADJ NOUN	3
+CCONJ:しかし NOUN ADP	22
+CCONJ:しかし NOUN ADP NOUN	8
+CCONJ:しかし NOUN NOUN	4
+CCONJ:しかし NOUN NOUN ADP	4
+CCONJ:しかし NUM	6
+CCONJ:しかし NUM NOUN	6
+CCONJ:しかし NUM NOUN ADP	4
+CCONJ:しかし PROPN ADP	3
+CCONJ:しかし PROPN NOUN	4
+CCONJ:しかし PUNCT	48
+CCONJ:しかし PUNCT ADJ	9
+CCONJ:しかし PUNCT ADJ NOUN	7
+CCONJ:しかし PUNCT NOUN ADP	10
+CCONJ:しかし PUNCT NOUN NOUN	9
+CCONJ:しかし PUNCT NUM	5
+CCONJ:しかし PUNCT NUM NOUN	5
+CCONJ:しかし PUNCT PROPN ADP	5
+CCONJ:しかし PUNCT.,	11
+CCONJ:しかし PUNCT., NOUN	8
+CCONJ:しかし PUNCT., NOUN ADP	6
+CCONJ:また	224
+CCONJ:また ADJ NOUN	4
+CCONJ:また ADJ NOUN ADP	4
+CCONJ:また ADV	5
+CCONJ:また ADV VERB	3
+CCONJ:また ADV VERB AUX	3
+CCONJ:また NOUN ADP	25
+CCONJ:また NOUN ADP ADP	5
+CCONJ:また NOUN ADP NOUN	8
+CCONJ:また NOUN NOUN	16
+CCONJ:また NOUN NOUN NOUN	3
+CCONJ:また NUM NOUN	5
+CCONJ:また NUM NOUN ADP	4
+CCONJ:また PROPN ADP	10
+CCONJ:また PROPN ADP VERB	4
+CCONJ:また PROPN NOUN	6
+CCONJ:また PROPN NOUN ADP	5
+CCONJ:また PUNCT	114
+CCONJ:また PUNCT ADJ NOUN	5
+CCONJ:また PUNCT NOUN	64
+CCONJ:また PUNCT NOUN NOUN	29
+CCONJ:また PUNCT NOUN PROPN	3
+CCONJ:また PUNCT NUM	6
+CCONJ:また PUNCT NUM NOUN	6
+CCONJ:また PUNCT PRON ADP	3
+CCONJ:また PUNCT PROPN	25
+CCONJ:また PUNCT PROPN ADP	13
+CCONJ:また PUNCT PROPN PROPN	3
+CCONJ:また PUNCT., NOUN	11
+CCONJ:また PUNCT., NOUN ADP	7
+CCONJ:また VERB	17
+CCONJ:また VERB AUX	11
+CCONJ:また VERB AUX ADP	3
+CCONJ:また VERB SCONJ	3
+NOUN:お	251
+NOUN:お NOUN	199
+NOUN:お NOUN ADP ADJ	11
+NOUN:お NOUN ADP ADV	6
+NOUN:お NOUN ADP NOUN	40
+NOUN:お NOUN ADP VERB	41
+NOUN:お NOUN AUX	34
+NOUN:お NOUN AUX PUNCT	18
+NOUN:お NOUN NOUN ADP	14
+NOUN:お NOUN NOUN AUX	6
+NOUN:お NOUN NOUN NOUN	4
+NOUN:お NOUN NOUN PUNCT	4
+NOUN:お NOUN VERB	15
+NOUN:お NOUN VERB AUX	12
+NOUN:お VERB	50
+NOUN:お VERB AUX	35
+NOUN:お VERB AUX PUNCT	13
+NOUN:お VERB SCONJ AUX	5
+NOUN:お VERB VERB	7
+NOUN:お VERB VERB PUNCT	6
+NOUN:こと	764
+NOUN:こと ADJ	6
+NOUN:こと ADJ NOUN	3
+NOUN:こと ADJ NOUN ADP	3
+NOUN:こと ADP	678
+NOUN:こと ADP ADJ	98
+NOUN:こと ADP ADJ ADP	5
+NOUN:こと ADP ADJ AUX	44
+NOUN:こと ADP ADJ PUNCT	34
+NOUN:こと ADP ADP ADJ	4
+NOUN:こと ADP ADP NOUN	5
+NOUN:こと ADP ADP PUNCT	3
+NOUN:こと ADP ADP VERB	7
+NOUN:こと ADP ADV	13
+NOUN:こと ADP ADV VERB	5
+NOUN:こと ADP AUX	3
+NOUN:こと ADP AUX AUX	3
+NOUN:こと ADP NOUN ADJ	3
+NOUN:こと ADP NOUN ADP	49
+NOUN:こと ADP NOUN AUX	5
+NOUN:こと ADP NOUN NOUN	17
+NOUN:こと ADP NOUN VERB	3
+NOUN:こと ADP PROPN ADP	7
+NOUN:こと ADP PUNCT	76
+NOUN:こと ADP PUNCT ADJ	8
+NOUN:こと ADP PUNCT ADV	7
+NOUN:こと ADP PUNCT NUM	5
+NOUN:こと ADP PUNCT PRON	4
+NOUN:こと ADP PUNCT VERB	4
+NOUN:こと ADP PUNCT.,	12
+NOUN:こと ADP PUNCT., NOUN	6
+NOUN:こと ADP VERB	361
+NOUN:こと ADP VERB PART	5
+NOUN:こと ADP VERB PUNCT	108
+NOUN:こと ADP VERB PUNCT.,	5
+NOUN:こと AUX	38
+NOUN:こと AUX PART	5
+NOUN:こと AUX PUNCT	18
+NOUN:こと AUX SCONJ	8
+NOUN:こと AUX SCONJ PUNCT.,	4
+NOUN:こと PART PUNCT	3
+NOUN:こと PUNCT CCONJ	4
+NOUN:こと PUNCT NOUN	3
+NOUN:こと PUNCT PROPN	3
+NOUN:こと PUNCT PROPN ADP	3
+NOUN:さん	114
+NOUN:さん ADP	72
+NOUN:さん ADP ADJ	6
+NOUN:さん ADP NOUN	32
+NOUN:さん ADP PUNCT	6
+NOUN:さん ADP VERB AUX	7
+NOUN:さん ADP VERB NOUN	3
+NOUN:さん ADP VERB SCONJ	3
+NOUN:さん AUX	15
+NOUN:さん AUX AUX PUNCT	3
+NOUN:さん AUX PUNCT	9
+NOUN:さん PART	4
+NOUN:さん PUNCT	12
+NOUN:ため	93
+NOUN:ため ADP ADJ	3
+NOUN:ため ADP ADJ NOUN	3
+NOUN:ため ADP ADP	3
+NOUN:ため ADP NOUN	12
+NOUN:ため ADP NOUN NOUN	4
+NOUN:ため ADP PUNCT	6
+NOUN:ため ADP PUNCT NOUN	4
+NOUN:ため ADP VERB	7
+NOUN:ため ADP VERB AUX	5
+NOUN:ため NOUN ADP	10
+NOUN:ため NOUN ADP ADP	3
+NOUN:ため NUM	4
+NOUN:ため PROPN	7
+NOUN:ため PROPN NOUN	4
+NOUN:ため PROPN NOUN ADP	3
+NOUN:ため PUNCT	26
+NOUN:ため PUNCT NOUN	17
+NOUN:ため PUNCT NOUN ADP	10
+NOUN:ため PUNCT NOUN NOUN	6
+NOUN:ため PUNCT PROPN	5
+NOUN:ため PUNCT PROPN ADP	4
+NOUN:つ	96
+NOUN:つ ADP	78
+NOUN:つ ADP ADJ	6
+NOUN:つ ADP ADJ NOUN	3
+NOUN:つ ADP NOUN	51
+NOUN:つ ADP NOUN ADP	35
+NOUN:つ ADP PUNCT NOUN	3
+NOUN:つ ADP VERB AUX	10
+NOUN:つ ADP VERB SCONJ	6
+NOUN:つ AUX	5
+NOUN:つ VERB	4
+NOUN:もの	219
+NOUN:もの ADP ADJ	13
+NOUN:もの ADP ADJ NOUN	3
+NOUN:もの ADP ADJ PUNCT	5
+NOUN:もの ADP ADP	4
+NOUN:もの ADP ADV	4
+NOUN:もの ADP NOUN	11
+NOUN:もの ADP NOUN ADP	9
+NOUN:もの ADP PUNCT	12
+NOUN:もの ADP PUNCT NOUN	7
+NOUN:もの ADP PUNCT PROPN	3
+NOUN:もの ADP PUNCT.,	5
+NOUN:もの ADP VERB	54
+NOUN:もの ADP VERB AUX	31
+NOUN:もの ADP VERB PUNCT	9
+NOUN:もの ADP VERB SCONJ	12
+NOUN:もの AUX	92
+NOUN:もの AUX ADP	15
+NOUN:もの AUX ADP VERB	4
+NOUN:もの AUX AUX	19
+NOUN:もの AUX AUX PUNCT	14
+NOUN:もの AUX PUNCT	40
+NOUN:もの AUX PUNCT NOUN	7
+NOUN:もの AUX PUNCT.,	5
+NOUN:もの AUX SCONJ	10
+NOUN:もの AUX SCONJ PUNCT.,	4
+NOUN:もの NOUN ADP	4
+NOUN:もの PART	3
+NOUN:もの PUNCT	14
+NOUN:上	84
+NOUN:上 ADP	60
+NOUN:上 ADP ADJ	4
+NOUN:上 ADP ADJ NOUN	3
+NOUN:上 ADP NOUN	32
+NOUN:上 ADP NOUN ADP	20
+NOUN:上 ADP PUNCT	4
+NOUN:上 ADP PUNCT PUNCT	3
+NOUN:上 ADP VERB AUX	6
+NOUN:上 PUNCT	10
+NOUN:上 PUNCT ADJ	3
+NOUN:上 PUNCT NOUN	4
+NOUN:中	190
+NOUN:中 ADP	127
+NOUN:中 ADP ADJ NOUN	5
+NOUN:中 ADP ADP	16
+NOUN:中 ADP ADP NOUN	7
+NOUN:中 ADP ADP PUNCT	4
+NOUN:中 ADP ADV	8
+NOUN:中 ADP NOUN	43
+NOUN:中 ADP NOUN PUNCT	3
+NOUN:中 ADP NUM	5
+NOUN:中 ADP NUM NOUN	5
+NOUN:中 ADP PRON	4
+NOUN:中 ADP PROPN	11
+NOUN:中 ADP PROPN ADP	8
+NOUN:中 ADP PUNCT	11
+NOUN:中 ADP PUNCT NOUN	6
+NOUN:中 ADP VERB AUX	8
+NOUN:中 ADP VERB SCONJ	7
+NOUN:中 AUX	19
+NOUN:中 AUX NOUN	6
+NOUN:中 AUX NOUN ADJ	3
+NOUN:中 NOUN ADP	7
+NOUN:中 NOUN ADP NOUN	4
+NOUN:中 NOUN NOUN	4
+NOUN:中 PUNCT	22
+NOUN:中 PUNCT NOUN	9
+NOUN:中 PUNCT NOUN ADP	7
+NOUN:中 PUNCT.,	5
+NOUN:人	340
+NOUN:人 ADP	255
+NOUN:人 ADP ADJ	22
+NOUN:人 ADP ADJ SCONJ	3
+NOUN:人 ADP ADP	16
+NOUN:人 ADP ADP VERB	4
+NOUN:人 ADP ADV	7
+NOUN:人 ADP ADV VERB	4
+NOUN:人 ADP AUX	3
+NOUN:人 ADP NOUN	100
+NOUN:人 ADP NOUN ADP	66
+NOUN:人 ADP NUM	10
+NOUN:人 ADP NUM NOUN	10
+NOUN:人 ADP PART	5
+NOUN:人 ADP PART NOUN	4
+NOUN:人 ADP PROPN ADP	4
+NOUN:人 ADP PUNCT NOUN	4
+NOUN:人 ADP VERB AUX	36
+NOUN:人 ADP VERB NOUN	3
+NOUN:人 ADP VERB PUNCT	13
+NOUN:人 ADP VERB SCONJ	18
+NOUN:人 AUX	14
+NOUN:人 AUX AUX	9
+NOUN:人 AUX AUX NOUN	3
+NOUN:人 NOUN ADP	31
+NOUN:人 NOUN ADP NOUN	17
+NOUN:人 NOUN ADP VERB	12
+NOUN:人 PUNCT ADP	4
+NOUN:人 PUNCT ADP VERB	3
+NOUN:人 PUNCT NOUN	3
+NOUN:人 VERB	8
+NOUN:人 VERB SCONJ	3
+NOUN:内	90
+NOUN:内 ADP	69
+NOUN:内 ADP ADP	9
+NOUN:内 ADP ADP NOUN	5
+NOUN:内 ADP NOUN	33
+NOUN:内 ADP NOUN NOUN	13
+NOUN:内 ADP PART	3
+NOUN:内 ADP PART NOUN	3
+NOUN:内 ADP VERB AUX	12
+NOUN:内 NOUN ADP	4
+NOUN:内 NOUN NOUN	7
+NOUN:内 NOUN NOUN NOUN	4
+NOUN:円	106
+NOUN:円 ADP ADJ	4
+NOUN:円 ADP ADP	4
+NOUN:円 ADP NOUN	18
+NOUN:円 ADP NOUN NOUN	5
+NOUN:円 ADP NOUN PUNCT	3
+NOUN:円 ADP PUNCT	3
+NOUN:円 ADP VERB	25
+NOUN:円 ADP VERB AUX	15
+NOUN:円 ADP VERB NOUN	3
+NOUN:円 ADP VERB PUNCT	7
+NOUN:円 AUX	7
+NOUN:円 AUX AUX	3
+NOUN:円 AUX PUNCT	4
+NOUN:円 NOUN ADP	11
+NOUN:円 NOUN ADP PROPN	3
+NOUN:円 NOUN NOUN	3
+NOUN:円 PUNCT	24
+NOUN:円 PUNCT NUM	5
+NOUN:円 PUNCT NUM NOUN	5
+NOUN:前	106
+NOUN:前 ADP	80
+NOUN:前 ADP ADP	6
+NOUN:前 ADP NOUN	36
+NOUN:前 ADP NOUN ADP	24
+NOUN:前 ADP NOUN NOUN	10
+NOUN:前 ADP NUM	4
+NOUN:前 ADP PUNCT	9
+NOUN:前 ADP VERB AUX	10
+NOUN:前 ADP VERB SCONJ	8
+NOUN:前 NOUN ADP	11
+NOUN:前 PROPN	4
+NOUN:前 PROPN ADP	3
+NOUN:場合	84
+NOUN:場合 ADP	57
+NOUN:場合 ADP ADJ	6
+NOUN:場合 ADP ADJ PUNCT	4
+NOUN:場合 ADP ADP	6
+NOUN:場合 ADP NOUN ADP	9
+NOUN:場合 ADP NOUN NOUN	8
+NOUN:場合 ADP NUM	4
+NOUN:場合 ADP NUM NOUN	4
+NOUN:場合 ADP PUNCT	5
+NOUN:場合 ADP PUNCT NOUN	5
+NOUN:場合 ADP VERB AUX	3
+NOUN:場合 ADP VERB PUNCT	8
+NOUN:場合 PUNCT	23
+NOUN:場合 PUNCT NOUN	11
+NOUN:場合 PUNCT NOUN ADP	7
+NOUN:場合 PUNCT NOUN NOUN	4
+NOUN:場合 PUNCT PROPN	4
+NOUN:場合 PUNCT PROPN ADP	4
+NOUN:年	852
+NOUN:年 ADP ADJ	7
+NOUN:年 ADP ADJ AUX	3
+NOUN:年 ADP ADJ NOUN	3
+NOUN:年 ADP ADP	69
+NOUN:年 ADP ADP ADV	3
+NOUN:年 ADP ADP NUM	4
+NOUN:年 ADP ADP PROPN	27
+NOUN:年 ADP ADV	3
+NOUN:年 ADP NOUN	109
+NOUN:年 ADP NOUN NOUN	32
+NOUN:年 ADP NOUN NUM	7
+NOUN:年 ADP NOUN PROPN	3
+NOUN:年 ADP NOUN PUNCT	8
+NOUN:年 ADP NUM	38
+NOUN:年 ADP NUM NOUN	36
+NOUN:年 ADP PART	9
+NOUN:年 ADP PART NUM	6
+NOUN:年 ADP PROPN	71
+NOUN:年 ADP PROPN ADP	32
+NOUN:年 ADP PROPN NOUN	23
+NOUN:年 ADP PROPN SYM	9
+NOUN:年 ADP PUNCT	9
+NOUN:年 ADP PUNCT PROPN	4
+NOUN:年 ADP VERB	59
+NOUN:年 ADP VERB AUX	39
+NOUN:年 ADV	4
+NOUN:年 NOUN	371
+NOUN:年 NOUN ADP ADP	22
+NOUN:年 NOUN ADP NOUN	53
+NOUN:年 NOUN ADP NUM	9
+NOUN:年 NOUN ADP PROPN	18
+NOUN:年 NOUN ADP PUNCT	11
+NOUN:年 NOUN ADP VERB	38
+NOUN:年 NOUN NOUN ADP	17
+NOUN:年 NOUN NOUN NOUN	6
+NOUN:年 NOUN NOUN PUNCT	3
+NOUN:年 NOUN NUM	138
+NOUN:年 NOUN NUM NOUN	138
+NOUN:年 NOUN PUNCT	34
+NOUN:年 NOUN PUNCT NOUN	9
+NOUN:年 NOUN PUNCT PROPN	12
+NOUN:年 PROPN ADP	3
+NOUN:年 PROPN NOUN	6
+NOUN:年 PUNCT	74
+NOUN:年 PUNCT NOUN	21
+NOUN:年 PUNCT NOUN NOUN	11
+NOUN:年 PUNCT NOUN SYM	3
+NOUN:年 PUNCT NUM	5
+NOUN:年 PUNCT NUM NOUN	5
+NOUN:年 PUNCT PART	3
+NOUN:年 PUNCT PART NUM	3
+NOUN:年 PUNCT PROPN	33
+NOUN:年 PUNCT PROPN ADP	15
+NOUN:年 PUNCT PROPN NOUN	12
+NOUN:年 PUNCT PUNCT	3
+NOUN:年 VERB AUX	4
+NOUN:店	142
+NOUN:店 ADP ADJ	7
+NOUN:店 ADP ADP	3
+NOUN:店 ADP ADV	4
+NOUN:店 ADP NOUN	34
+NOUN:店 ADP NOUN ADP	26
+NOUN:店 ADP VERB	23
+NOUN:店 ADP VERB NOUN	3
+NOUN:店 AUX	39
+NOUN:店 AUX ADP VERB	3
+NOUN:店 AUX AUX PUNCT	3
+NOUN:店 AUX PUNCT	23
+NOUN:店 NOUN ADP	6
+NOUN:店 PUNCT	15
+NOUN:後	233
+NOUN:後 ADP	148
+NOUN:後 ADP ADJ AUX	3
+NOUN:後 ADP ADJ NOUN	3
+NOUN:後 ADP ADP PUNCT	3
+NOUN:後 ADP ADV	4
+NOUN:後 ADP NOUN	57
+NOUN:後 ADP NOUN ADP	35
+NOUN:後 ADP NOUN NOUN	16
+NOUN:後 ADP NUM	7
+NOUN:後 ADP NUM NOUN	7
+NOUN:後 ADP PROPN	29
+NOUN:後 ADP PROPN ADP	14
+NOUN:後 ADP PROPN NOUN	10
+NOUN:後 ADP PUNCT	13
+NOUN:後 ADP PUNCT PROPN	4
+NOUN:後 ADP PUNCT.,	3
+NOUN:後 ADP VERB AUX	14
+NOUN:後 ADP VERB PUNCT	3
+NOUN:後 NOUN ADP	7
+NOUN:後 NOUN ADP VERB	4
+NOUN:後 NOUN NOUN	3
+NOUN:後 NUM NOUN	3
+NOUN:後 PROPN ADP	3
+NOUN:後 PUNCT	57
+NOUN:後 PUNCT NOUN	27
+NOUN:後 PUNCT NOUN ADP	12
+NOUN:後 PUNCT NOUN NOUN	13
+NOUN:後 PUNCT NUM	12
+NOUN:後 PUNCT NUM NOUN	12
+NOUN:後 PUNCT PROPN	10
+NOUN:後 PUNCT PROPN NOUN	5
+NOUN:後 PUNCT VERB	4
+NOUN:後 PUNCT VERB AUX	4
+NOUN:後 PUNCT.,	7
+NOUN:後 PUNCT., PROPN	3
+NOUN:方	98
+NOUN:方 ADP	81
+NOUN:方 ADP ADJ	17
+NOUN:方 ADP ADJ ADP	6
+NOUN:方 ADP ADP	10
+NOUN:方 ADP ADP ADJ	3
+NOUN:方 ADP ADP NOUN	4
+NOUN:方 ADP ADV	5
+NOUN:方 ADP NOUN ADP	10
+NOUN:方 ADP NOUN NOUN	3
+NOUN:方 ADP PUNCT	7
+NOUN:方 ADP VERB AUX	7
+NOUN:方 ADP VERB SCONJ	7
+NOUN:方 AUX	7
+NOUN:方 PUNCT NOUN	3
+NOUN:方 PUNCT NOUN ADP	3
+NOUN:日	456
+NOUN:日 ADJ	3
+NOUN:日 ADP ADJ	8
+NOUN:日 ADP ADJ NOUN	6
+NOUN:日 ADP ADP	28
+NOUN:日 ADP ADP NOUN	10
+NOUN:日 ADP ADP PROPN	6
+NOUN:日 ADP ADP PUNCT	8
+NOUN:日 ADP ADP PUNCT.,	3
+NOUN:日 ADP ADV	3
+NOUN:日 ADP NOUN	78
+NOUN:日 ADP NOUN NOUN	28
+NOUN:日 ADP NOUN NUM	4
+NOUN:日 ADP NOUN PROPN	3
+NOUN:日 ADP NUM	15
+NOUN:日 ADP NUM NOUN	14
+NOUN:日 ADP PART	3
+NOUN:日 ADP PROPN	39
+NOUN:日 ADP PROPN ADP	20
+NOUN:日 ADP PROPN SYM	4
+NOUN:日 ADP PUNCT	12
+NOUN:日 ADP PUNCT PROPN	4
+NOUN:日 ADP PUNCT.,	5
+NOUN:日 ADP PUNCT., NOUN	3
+NOUN:日 ADP VERB	48
+NOUN:日 ADP VERB AUX	35
+NOUN:日 NOUN ADP	43
+NOUN:日 NOUN ADP NOUN	22
+NOUN:日 NOUN ADP NUM	4
+NOUN:日 NOUN NOUN	11
+NOUN:日 NOUN NOUN NOUN	3
+NOUN:日 NOUN NUM	5
+NOUN:日 NOUN NUM NOUN	5
+NOUN:日 NOUN PUNCT	20
+NOUN:日 NOUN PUNCT PROPN	5
+NOUN:日 NOUN PUNCT.,	4
+NOUN:日 NUM	9
+NOUN:日 NUM NOUN	9
+NOUN:日 NUM NOUN NOUN	3
+NOUN:日 NUM NOUN NUM	3
+NOUN:日 PROPN	10
+NOUN:日 PROPN ADP	6
+NOUN:日 PUNCT	85
+NOUN:日 PUNCT ADJ	3
+NOUN:日 PUNCT NOUN	27
+NOUN:日 PUNCT NOUN ADP	14
+NOUN:日 PUNCT NOUN NOUN	12
+NOUN:日 PUNCT PROPN	43
+NOUN:日 PUNCT PROPN ADP	17
+NOUN:日 PUNCT PROPN NOUN	15
+NOUN:日 PUNCT PROPN SYM	5
+NOUN:日 PUNCT PUNCT	3
+NOUN:日 PUNCT PUNCT NOUN	3
+NOUN:日 PUNCT VERB	3
+NOUN:日 PUNCT.,	8
+NOUN:日 PUNCT., NOUN	6
+NOUN:日 VERB	7
+NOUN:日 VERB AUX	5
+NOUN:日 VERB AUX PUNCT	3
+NOUN:時	151
+NOUN:時 ADP	102
+NOUN:時 ADP ADP	26
+NOUN:時 ADP ADP NOUN	10
+NOUN:時 ADP ADP PUNCT	4
+NOUN:時 ADP NOUN	35
+NOUN:時 ADP NOUN NOUN	9
+NOUN:時 ADP NOUN PUNCT	3
+NOUN:時 ADP PRON	3
+NOUN:時 ADP PUNCT	10
+NOUN:時 ADP VERB AUX	8
+NOUN:時 ADP VERB SCONJ	5
+NOUN:時 NOUN ADP	9
+NOUN:時 NOUN ADP NOUN	5
+NOUN:時 NOUN NOUN	3
+NOUN:時 NOUN PUNCT	4
+NOUN:時 NUM	17
+NOUN:時 NUM NOUN	17
+NOUN:時 NUM NOUN NOUN	4
+NOUN:時 NUM NOUN PUNCT	6
+NOUN:時 PUNCT NOUN	3
+NOUN:時 VERB	3
+NOUN:氏	130
+NOUN:氏 ADP	108
+NOUN:氏 ADP NOUN	55
+NOUN:氏 ADP NOUN AUX	6
+NOUN:氏 ADP NOUN VERB	4
+NOUN:氏 ADP PROPN	10
+NOUN:氏 ADP PROPN NOUN	6
+NOUN:氏 ADP PUNCT	9
+NOUN:氏 ADP PUNCT ADJ	3
+NOUN:氏 ADP PUNCT.,	16
+NOUN:氏 ADP PUNCT., PUNCT	3
+NOUN:氏 ADP VERB AUX	9
+NOUN:氏 NOUN ADP	10
+NOUN:氏 NOUN ADP NOUN	5
+NOUN:氏 NOUN ADP VERB	4
+NOUN:現在	103
+NOUN:現在 ADP	73
+NOUN:現在 ADP ADP	13
+NOUN:現在 ADP ADP NOUN	6
+NOUN:現在 ADP ADP PUNCT	3
+NOUN:現在 ADP NOUN ADP	9
+NOUN:現在 ADP NOUN NOUN	6
+NOUN:現在 ADP PROPN	24
+NOUN:現在 ADP PROPN ADP	13
+NOUN:現在 ADP PROPN NOUN	9
+NOUN:現在 ADP PUNCT	4
+NOUN:現在 ADP VERB AUX	3
+NOUN:現在 PROPN	3
+NOUN:現在 PUNCT	15
+NOUN:現在 PUNCT NOUN	9
+NOUN:現在 PUNCT NOUN ADP	4
+NOUN:現在 PUNCT NOUN NOUN	4
+NOUN:現在 PUNCT PROPN	4
+NOUN:現在 PUNCT PROPN NOUN	3
+NOUN:現在 PUNCT.,	4
+NOUN:目	123
+NOUN:目 ADP	105
+NOUN:目 ADP ADP NOUN	3
+NOUN:目 ADP NOUN	49
+NOUN:目 ADP NOUN PUNCT	6
+NOUN:目 ADP NUM	3
+NOUN:目 ADP NUM NOUN	3
+NOUN:目 ADP VERB	39
+NOUN:目 ADP VERB NOUN	5
+NOUN:目 ADP VERB NUM	3
+NOUN:目 ADP VERB PUNCT	6
+NOUN:目 PROPN	3
+NOUN:者	195
+NOUN:者 ADP	141
+NOUN:者 ADP ADJ	11
+NOUN:者 ADP ADJ NOUN	6
+NOUN:者 ADP ADP NOUN	3
+NOUN:者 ADP ADV	5
+NOUN:者 ADP NOUN	54
+NOUN:者 ADP NOUN ADP	35
+NOUN:者 ADP NOUN VERB	4
+NOUN:者 ADP PUNCT	10
+NOUN:者 ADP PUNCT.,	4
+NOUN:者 ADP VERB AUX	17
+NOUN:者 ADP VERB NOUN	5
+NOUN:者 ADP VERB PUNCT	7
+NOUN:者 ADP VERB SCONJ	15
+NOUN:者 AUX	14
+NOUN:者 AUX ADP	3
+NOUN:者 AUX ADP AUX	3
+NOUN:者 AUX AUX	3
+NOUN:者 NOUN ADP	16
+NOUN:者 NOUN ADP VERB	7
+NOUN:者 NOUN NOUN	4
+NOUN:者 NOUN NOUN ADP	3
+NOUN:者 NUM	4
+NOUN:者 PUNCT NOUN	4
+NOUN:間	93
+NOUN:間 ADP	73
+NOUN:間 ADP ADJ	7
+NOUN:間 ADP ADJ NOUN	5
+NOUN:間 ADP ADP	6
+NOUN:間 ADP ADP PROPN	3
+NOUN:間 ADP NOUN	33
+NOUN:間 ADP NOUN ADP	24
+NOUN:間 ADP NOUN NOUN	8
+NOUN:間 ADP NUM	6
+NOUN:間 ADP NUM NOUN	6
+NOUN:間 ADP PROPN	5
+NOUN:間 ADP VERB AUX	9
+NOUN:間 AUX	6
+NOUN:間 NOUN ADP	3
+NOUN:間 VERB	3
+NOUN:間 VERB AUX	3
+NUM:1	317
+NUM:1 ADP	15
+NUM:1 ADP NOUN	6
+NUM:1 ADP NOUN ADP	5
+NUM:1 ADP VERB	5
+NUM:1 ADP VERB AUX	3
+NUM:1 ADV	4
+NUM:1 ADV NUM	4
+NUM:1 ADV NUM NOUN	4
+NUM:1 NOUN ADP	146
+NUM:1 NOUN ADP ADJ	4
+NUM:1 NOUN ADP ADV	3
+NUM:1 NOUN ADP NOUN	55
+NUM:1 NOUN ADP NUM	12
+NUM:1 NOUN ADP PART	4
+NUM:1 NOUN ADP PUNCT	7
+NUM:1 NOUN ADP VERB	46
+NUM:1 NOUN AUX	8
+NUM:1 NOUN NOUN	67
+NUM:1 NOUN NOUN ADP	42
+NUM:1 NOUN NOUN PUNCT	8
+NUM:1 NOUN NUM	24
+NUM:1 NOUN NUM NUM	6
+NUM:1 NOUN PUNCT	9
+NUM:1 NOUN VERB	5
+NUM:1 NUM	10
+NUM:1 NUM NOUN	10
+NUM:1 NUM NOUN ADP	8
+NUM:1 PROPN	17
+NUM:1 PROPN NOUN	6
+NUM:1 PROPN NOUN ADP	4
+NUM:1 PROPN SYM	3
+NUM:10	95
+NUM:10 ADP	6
+NUM:10 ADP NOUN	3
+NUM:10 ADP NOUN ADP	3
+NUM:10 NOUN ADP	35
+NUM:10 NOUN ADP NOUN	17
+NUM:10 NOUN ADP PROPN	4
+NUM:10 NOUN AUX	3
+NUM:10 NOUN NOUN	22
+NUM:10 NOUN NOUN ADP	15
+NUM:10 NOUN NOUN VERB	3
+NUM:10 NOUN NUM	4
+NUM:10 NOUN NUM NOUN	4
+NUM:10 NOUN PUNCT	4
+NUM:10 NOUN PUNCT PROPN	3
+NUM:10 NOUN VERB	4
+NUM:10 NOUN VERB AUX	3
+NUM:10 NUM	4
+NUM:10 NUM NOUN	4
+NUM:10 NUM NOUN ADP	4
+NUM:10 PROPN	6
+NUM:10 PROPN ADP	5
+NUM:2	279
+NUM:2 ADP NOUN	4
+NUM:2 ADP NOUN ADP	3
+NUM:2 ADV	3
+NUM:2 ADV NUM	3
+NUM:2 ADV NUM NOUN	3
+NUM:2 NOUN	246
+NUM:2 NOUN ADP	130
+NUM:2 NOUN ADP NOUN	50
+NUM:2 NOUN ADP PUNCT	6
+NUM:2 NOUN ADP VERB	42
+NUM:2 NOUN AUX	7
+NUM:2 NOUN NOUN	71
+NUM:2 NOUN NOUN ADP	41
+NUM:2 NOUN NOUN AUX	3
+NUM:2 NOUN NOUN NOUN	9
+NUM:2 NOUN NOUN PUNCT	10
+NUM:2 NOUN NUM NOUN	6
+NUM:2 NOUN PUNCT NOUN	4
+NUM:2 NOUN PUNCT NUM	3
+NUM:2 NUM NOUN	4
+NUM:2 NUM NOUN ADP	3
+NUM:2 PROPN ADP	6
+NUM:2 PROPN NOUN	4
+NUM:3	238
+NUM:3 NOUN ADP	104
+NUM:3 NOUN ADP NOUN	49
+NUM:3 NOUN ADP PART	3
+NUM:3 NOUN ADP VERB	31
+NUM:3 NOUN ADV	3
+NUM:3 NOUN AUX	3
+NUM:3 NOUN NOUN	50
+NUM:3 NOUN NOUN ADP	37
+NUM:3 NOUN NOUN NOUN	6
+NUM:3 NOUN NUM	11
+NUM:3 NOUN PROPN	10
+NUM:3 NOUN PROPN ADP	4
+NUM:3 NOUN PROPN NOUN	4
+NUM:3 NOUN PUNCT	9
+NUM:3 NOUN VERB	8
+NUM:3 NOUN VERB AUX	5
+NUM:3 NUM NOUN	3
+NUM:3 PART	3
+NUM:3 PROPN	12
+NUM:3 PROPN ADP	6
+NUM:3 PROPN NOUN	3
+NUM:3 PUNCT	5
+NUM:3 PUNCT ADP	3
+NUM:3 SYM	4
+NUM:4	149
+NUM:4 ADP VERB	4
+NUM:4 NOUN	136
+NUM:4 NOUN ADP ADP	5
+NUM:4 NOUN ADP NOUN	30
+NUM:4 NOUN ADP NUM	4
+NUM:4 NOUN ADP PROPN	4
+NUM:4 NOUN ADP VERB	17
+NUM:4 NOUN AUX	5
+NUM:4 NOUN NOUN	44
+NUM:4 NOUN NOUN ADP	29
+NUM:4 NOUN NOUN PUNCT	6
+NUM:4 NOUN NUM	6
+NUM:4 NOUN NUM NOUN	5
+NUM:4 NOUN PUNCT PROPN	3
+NUM:5	97
+NUM:5 NOUN	86
+NUM:5 NOUN ADP	51
+NUM:5 NOUN ADP NOUN	22
+NUM:5 NOUN ADP NUM	5
+NUM:5 NOUN NOUN ADP	11
+NUM:5 NOUN VERB	6
+NUM:5 NOUN VERB AUX	5
+NUM:5 PART	3
+NUM:5 PART NUM	3
+NUM:一	140
+NUM:一 NOUN	138
+NUM:一 NOUN ADP	71
+NUM:一 NOUN ADP ADJ	4
+NUM:一 NOUN ADP PUNCT	4
+NUM:一 NOUN ADP VERB	28
+NUM:一 NOUN AUX	8
+NUM:一 NOUN NOUN ADP	16
+NUM:一 NOUN NOUN NOUN	7
+NUM:一 NOUN NUM NOUN	3
+NUM:一 NOUN PUNCT PROPN	3
+NUM:一 NOUN VERB	14
+NUM:一 NOUN VERB SCONJ	5
+PART:か	260
+PART:か ADP	85
+PART:か ADP ADJ AUX	4
+PART:か ADP ADP	3
+PART:か ADP ADP VERB	3
+PART:か ADP AUX	8
+PART:か ADP AUX NOUN	5
+PART:か ADP NOUN ADP	11
+PART:か ADP PUNCT NOUN	3
+PART:か ADP VERB	41
+PART:か ADP VERB NOUN	8
+PART:か ADP VERB PUNCT	5
+PART:か NOUN ADP	17
+PART:か NOUN ADP NOUN	8
+PART:か NOUN NOUN	5
+PART:か PART	14
+PART:か PART PUNCT	6
+PART:か PART PUNCT.?	3
+PART:か PUNCT	54
+PART:か PUNCT ADP	9
+PART:か PUNCT NOUN ADP	3
+PART:か PUNCT NOUN NOUN	4
+PART:か PUNCT.,	8
+PART:か PUNCT., NOUN	3
+PART:か PUNCT.?	32
+PART:か VERB	28
+PART:か VERB AUX	18
+PART:か VERB SCONJ	5
+PART:か VERB SCONJ AUX	4
+PART:の	970
+PART:の ADJ AUX	10
+PART:の ADJ AUX NOUN	9
+PART:の ADJ NOUN	8
+PART:の ADJ NOUN ADP	6
+PART:の ADP	269
+PART:の ADP ADJ	46
+PART:の ADP ADJ NOUN	10
+PART:の ADP ADJ PART	4
+PART:の ADP ADJ SCONJ	3
+PART:の ADP ADV	16
+PART:の ADP ADV ADJ	5
+PART:の ADP ADV AUX	3
+PART:の ADP NOUN	72
+PART:の ADP NOUN AUX	17
+PART:の ADP NOUN PUNCT	6
+PART:の ADP NUM	11
+PART:の ADP NUM NOUN	9
+PART:の ADP PRON	5
+PART:の ADP PROPN	13
+PART:の ADP PROPN NOUN	4
+PART:の ADP PUNCT	40
+PART:の ADP PUNCT ADJ	7
+PART:の ADP PUNCT PROPN	5
+PART:の ADP PUNCT.,	26
+PART:の ADP PUNCT., ADJ	3
+PART:の ADP PUNCT., ADV	4
+PART:の ADP VERB AUX	12
+PART:の ADP VERB NOUN	3
+PART:の ADP VERB PUNCT	3
+PART:の ADP VERB SCONJ	10
+PART:の AUX	118
+PART:の AUX ADP	12
+PART:の AUX ADP AUX	10
+PART:の AUX AUX	33
+PART:の AUX AUX PART	13
+PART:の AUX AUX PUNCT	11
+PART:の AUX AUX SCONJ	3
+PART:の AUX SCONJ	56
+PART:の AUX SCONJ PUNCT	42
+PART:の AUX SCONJ VERB	3
+PART:の NOUN	479
+PART:の NOUN ADP	322
+PART:の NOUN ADP ADJ	30
+PART:の NOUN ADP ADP	19
+PART:の NOUN ADP ADV	11
+PART:の NOUN ADP NUM	9
+PART:の NOUN ADP PROPN	8
+PART:の NOUN ADP PUNCT	21
+PART:の NOUN ADP VERB	147
+PART:の NOUN AUX	18
+PART:の NOUN AUX AUX	3
+PART:の NOUN AUX PUNCT	8
+PART:の NOUN AUX SCONJ	3
+PART:の NOUN NOUN ADP	76
+PART:の NOUN NOUN AUX	4
+PART:の NOUN NOUN NOUN	17
+PART:の NOUN NOUN PUNCT	6
+PART:の NOUN PUNCT	27
+PART:の NOUN PUNCT NOUN	3
+PART:の NUM NOUN	9
+PART:の NUM NOUN NOUN	4
+PART:の PART	43
+PART:の PART ADP	15
+PART:の PART ADP VERB	7
+PART:の PART PUNCT ADP	3
+PART:の PART PUNCT.,	3
+PART:の PART PUNCT.?	8
+PART:の PART VERB	5
+PART:の PART VERB AUX	5
+PART:の PROPN ADP	7
+PART:の PROPN ADP NOUN	4
+PART:の PROPN NOUN	10
+PART:の PROPN NOUN NOUN	5
+PART:第	168
+PART:第 NUM	168
+PART:第 NUM ADP NOUN	7
+PART:第 NUM NOUN	150
+PART:第 NUM NOUN AUX	6
+PART:第 NUM NOUN NOUN	48
+PART:第 NUM NOUN PART	4
+PART:第 NUM NOUN PROPN	15
+PART:第 NUM PROPN ADP	4
+PART:第 NUM PROPN NOUN	5
+PART:約	88
+PART:約 NUM	88
+PART:約 NUM NOUN ADP	36
+PART:約 NUM NOUN NOUN	9
+PART:約 NUM NOUN NUM	3
+PART:約 NUM NOUN PUNCT	7
+PART:約 NUM NOUN VERB	5
+PART:約 NUM NUM	18
+PART:約 NUM NUM NOUN	18
+PART:約 NUM PROPN ADP	3
+PRON:これ	189
+PRON:これ ADP	181
+PRON:これ ADP ADJ	12
+PRON:これ ADP ADJ NOUN	4
+PRON:これ ADP ADP	19
+PRON:これ ADP ADP NOUN	9
+PRON:これ ADP ADV	13
+PRON:これ ADP ADV NOUN	6
+PRON:これ ADP NOUN ADP	37
+PRON:これ ADP NOUN NOUN	20
+PRON:これ ADP NUM	5
+PRON:これ ADP NUM NOUN	5
+PRON:これ ADP PROPN	17
+PRON:これ ADP PROPN NOUN	6
+PRON:これ ADP PUNCT	19
+PRON:これ ADP PUNCT PROPN	5
+PRON:これ ADP PUNCT.,	6
+PRON:これ ADP PUNCT., NOUN	3
+PRON:これ ADP VERB AUX	16
+PRON:これ ADP VERB PUNCT	3
+PRON:これ ADP VERB SCONJ	3
+PRON:これ NOUN	7
+PRON:それ	120
+PRON:それ ADP	110
+PRON:それ ADP ADJ	9
+PRON:それ ADP ADJ AUX	5
+PRON:それ ADP ADP	19
+PRON:それ ADP ADP VERB	3
+PRON:それ ADP ADV	5
+PRON:それ ADP ADV NOUN	3
+PRON:それ ADP NOUN ADP	19
+PRON:それ ADP NOUN NOUN	7
+PRON:それ ADP NUM	4
+PRON:それ ADP NUM NOUN	4
+PRON:それ ADP VERB	30
+PRON:それ ADP VERB NOUN	4
+PRON:それ ADP VERB PUNCT	6
+PRON:それ ADP VERB SCONJ	7
+PRON:それ NOUN	7
+PRON:それ NOUN ADP	7
+PROPN:日本	114
+PROPN:日本 ADP	58
+PROPN:日本 ADP ADJ	4
+PROPN:日本 ADP ADP	13
+PROPN:日本 ADP ADP PUNCT	3
+PROPN:日本 ADP NOUN ADP	11
+PROPN:日本 ADP NOUN NOUN	7
+PROPN:日本 ADP PART	3
+PROPN:日本 ADP PART NOUN	3
+PROPN:日本 ADP VERB AUX	6
+PROPN:日本 NOUN	45
+PROPN:日本 NOUN ADP NOUN	4
+PROPN:日本 NOUN ADP VERB	6
+PROPN:日本 NOUN NOUN	26
+PROPN:日本 NOUN NOUN NOUN	15
+PROPN:日本 PART	4
+SCONJ:が	647
+SCONJ:が ADJ AUX	3
+SCONJ:が ADV	9
+SCONJ:が ADV NOUN	5
+SCONJ:が ADV NOUN ADP	4
+SCONJ:が NOUN ADP	13
+SCONJ:が NOUN NOUN	15
+SCONJ:が NOUN NOUN ADP	13
+SCONJ:が NOUN PUNCT	3
+SCONJ:が NUM NOUN	5
+SCONJ:が NUM NOUN ADP	3
+SCONJ:が PRON	5
+SCONJ:が PROPN NOUN	3
+SCONJ:が PUNCT	489
+SCONJ:が PUNCT ADJ	55
+SCONJ:が PUNCT ADJ NOUN	33
+SCONJ:が PUNCT ADV NOUN	12
+SCONJ:が PUNCT ADV PROPN	3
+SCONJ:が PUNCT ADV VERB	10
+SCONJ:が PUNCT NOUN	245
+SCONJ:が PUNCT NOUN ADP	168
+SCONJ:が PUNCT NOUN ADV	3
+SCONJ:が PUNCT NUM	35
+SCONJ:が PUNCT PART	4
+SCONJ:が PUNCT PART NUM	4
+SCONJ:が PUNCT PRON	36
+SCONJ:が PUNCT PRON ADP	34
+SCONJ:が PUNCT PROPN ADP	29
+SCONJ:が PUNCT PROPN NOUN	12
+SCONJ:が PUNCT PROPN PROPN	8
+SCONJ:が PUNCT PROPN SYM	6
+SCONJ:が PUNCT PUNCT	8
+SCONJ:が PUNCT PUNCT NOUN	6
+SCONJ:が PUNCT VERB ADP	3
+SCONJ:が PUNCT VERB AUX	7
+SCONJ:が PUNCT VERB SCONJ	3
+SCONJ:が PUNCT.,	85
+SCONJ:が PUNCT., ADJ NOUN	6
+SCONJ:が PUNCT., ADV	12
+SCONJ:が PUNCT., ADV ADJ	3
+SCONJ:が PUNCT., ADV NOUN	5
+SCONJ:が PUNCT., NOUN	45
+SCONJ:が PUNCT., NOUN ADP	29
+SCONJ:が PUNCT., PRON ADP	3
+SCONJ:が PUNCT., PROPN	11
+SCONJ:が PUNCT., PROPN NOUN	6
+SCONJ:が VERB AUX	6
+SCONJ:が VERB AUX PUNCT	3
+SCONJ:ため	196
+SCONJ:ため ADJ	5
+SCONJ:ため ADJ AUX	4
+SCONJ:ため ADP	71
+SCONJ:ため ADP ADJ AUX	5
+SCONJ:ため ADP ADP	7
+SCONJ:ため ADP ADP PUNCT	3
+SCONJ:ため ADP NOUN	28
+SCONJ:ため ADP NOUN AUX	4
+SCONJ:ため ADP NOUN NOUN	8
+SCONJ:ため ADP PROPN	3
+SCONJ:ため ADP PUNCT	11
+SCONJ:ため ADP PUNCT ADJ	4
+SCONJ:ため ADP PUNCT NOUN	5
+SCONJ:ため ADP VERB	12
+SCONJ:ため ADP VERB AUX	10
+SCONJ:ため AUX PUNCT	6
+SCONJ:ため NOUN ADP	9
+SCONJ:ため NOUN NOUN	5
+SCONJ:ため PART	3
+SCONJ:ため PROPN ADP	3
+SCONJ:ため PUNCT	80
+SCONJ:ため PUNCT ADJ AUX	3
+SCONJ:ため PUNCT ADV NOUN	5
+SCONJ:ため PUNCT NOUN	45
+SCONJ:ため PUNCT NOUN NOUN	20
+SCONJ:ため PUNCT NUM	5
+SCONJ:ため PUNCT NUM NOUN	5
+SCONJ:ため PUNCT PRON ADP	3
+SCONJ:ため PUNCT PROPN ADP	4
+SCONJ:ため PUNCT PROPN NOUN	4
+SCONJ:ため PUNCT VERB	7
+SCONJ:ため PUNCT VERB AUX	4
+SCONJ:ため VERB AUX	3
+SCONJ:て	4017
+SCONJ:て ADJ AUX	32
+SCONJ:て ADJ AUX AUX	6
+SCONJ:て ADJ AUX PUNCT	4
+SCONJ:て ADJ AUX SCONJ	4
+SCONJ:て ADJ AUX VERB	4
+SCONJ:て ADJ NOUN	32
+SCONJ:て ADJ NOUN AUX	3
+SCONJ:て ADJ NOUN PUNCT	6
+SCONJ:て ADJ PART	3
+SCONJ:て ADJ PUNCT	9
+SCONJ:て ADJ SCONJ	4
+SCONJ:て ADJ VERB	4
+SCONJ:て ADJ VERB AUX	4
+SCONJ:て ADP ADJ	27
+SCONJ:て ADP ADJ PUNCT	6
+SCONJ:て ADP ADP	6
+SCONJ:て ADP ADP PUNCT	3
+SCONJ:て ADP ADV	11
+SCONJ:て ADP ADV PROPN	3
+SCONJ:て ADP ADV VERB	6
+SCONJ:て ADP AUX	27
+SCONJ:て ADP AUX ADP	3
+SCONJ:て ADP AUX PUNCT	5
+SCONJ:て ADP NOUN	44
+SCONJ:て ADP NOUN ADP	28
+SCONJ:て ADP NOUN NOUN	10
+SCONJ:て ADP NUM	4
+SCONJ:て ADP NUM NOUN	4
+SCONJ:て ADP PROPN	4
+SCONJ:て ADP PUNCT	25
+SCONJ:て ADP PUNCT PROPN	7
+SCONJ:て ADP PUNCT.,	10
+SCONJ:て ADP PUNCT., ADJ	3
+SCONJ:て ADP VERB	24
+SCONJ:て ADP VERB SCONJ	5
+SCONJ:て ADV ADJ	6
+SCONJ:て ADV ADJ AUX	5
+SCONJ:て ADV NOUN	7
+SCONJ:て ADV NOUN NOUN	4
+SCONJ:て ADV NUM	3
+SCONJ:て ADV NUM NOUN	3
+SCONJ:て ADV VERB	15
+SCONJ:て AUX	2542
+SCONJ:て AUX ADJ AUX	6
+SCONJ:て AUX ADJ NOUN	4
+SCONJ:て AUX ADP ADP	7
+SCONJ:て AUX ADP NOUN	11
+SCONJ:て AUX ADP PART	7
+SCONJ:て AUX ADP PUNCT	4
+SCONJ:て AUX ADP VERB	27
+SCONJ:て AUX AUX	1022
+SCONJ:て AUX AUX ADJ	6
+SCONJ:て AUX AUX ADP	28
+SCONJ:て AUX AUX NOUN	149
+SCONJ:て AUX AUX PART	32
+SCONJ:て AUX AUX PROPN	36
+SCONJ:て AUX AUX PUNCT.!	4
+SCONJ:て AUX AUX SCONJ	128
+SCONJ:て AUX AUX VERB	5
+SCONJ:て AUX NOUN ADP	193
+SCONJ:て AUX NOUN AUX	25
+SCONJ:て AUX NOUN NOUN	37
+SCONJ:て AUX NOUN PROPN	3
+SCONJ:て AUX NOUN PUNCT	16
+SCONJ:て AUX PART	55
+SCONJ:て AUX PART ADP	33
+SCONJ:て AUX PART PART	7
+SCONJ:て AUX PROPN	19
+SCONJ:て AUX PROPN ADP	9
+SCONJ:て AUX PROPN NOUN	7
+SCONJ:て AUX PUNCT	858
+SCONJ:て AUX PUNCT ADV	9
+SCONJ:て AUX PUNCT NOUN	73
+SCONJ:て AUX PUNCT NUM	6
+SCONJ:て AUX PUNCT PRON	12
+SCONJ:て AUX PUNCT PROPN	26
+SCONJ:て AUX PUNCT VERB	3
+SCONJ:て AUX PUNCT.!	3
+SCONJ:て AUX PUNCT., NOUN	12
+SCONJ:て AUX SCONJ ADJ	20
+SCONJ:て AUX SCONJ ADP	10
+SCONJ:て AUX SCONJ ADV	6
+SCONJ:て AUX SCONJ AUX	36
+SCONJ:て AUX SCONJ NOUN	13
+SCONJ:て AUX SCONJ PUNCT	88
+SCONJ:て AUX SCONJ PUNCT.,	13
+SCONJ:て AUX SCONJ VERB	16
+SCONJ:て AUX VERB	4
+SCONJ:て AUX VERB AUX	3
+SCONJ:て NOUN ADP	217
+SCONJ:て NOUN ADP VERB	131
+SCONJ:て NOUN AUX	4
+SCONJ:て NOUN NOUN	97
+SCONJ:て NOUN NOUN ADP	81
+SCONJ:て NOUN NOUN VERB	4
+SCONJ:て NOUN PART	4
+SCONJ:て NOUN PART NUM	3
+SCONJ:て NOUN PROPN	3
+SCONJ:て NOUN PUNCT	8
+SCONJ:て NOUN PUNCT NOUN	5
+SCONJ:て NOUN SYM	3
+SCONJ:て NOUN SYM NOUN	3
+SCONJ:て NOUN VERB	7
+SCONJ:て NOUN VERB AUX	5
+SCONJ:て NUM ADP	3
+SCONJ:て NUM NOUN	32
+SCONJ:て PART	38
+SCONJ:て PART NOUN	26
+SCONJ:て PART NOUN ADP	20
+SCONJ:て PART NUM	6
+SCONJ:て PRON ADP	14
+SCONJ:て PRON ADP NOUN	5
+SCONJ:て PROPN	92
+SCONJ:て PROPN ADP	43
+SCONJ:て PROPN ADP NOUN	20
+SCONJ:て PROPN NOUN ADP	17
+SCONJ:て PROPN NOUN NOUN	7
+SCONJ:て PROPN PROPN	10
+SCONJ:て PROPN PROPN ADP	6
+SCONJ:て PROPN SYM	7
+SCONJ:て PROPN SYM PROPN	6
+SCONJ:て PUNCT ADJ	13
+SCONJ:て PUNCT ADJ AUX	6
+SCONJ:て PUNCT ADP	3
+SCONJ:て PUNCT ADV	11
+SCONJ:て PUNCT ADV VERB	6
+SCONJ:て PUNCT NOUN	104
+SCONJ:て PUNCT NOUN NOUN	35
+SCONJ:て PUNCT NOUN PROPN	3
+SCONJ:て PUNCT NUM	17
+SCONJ:て PUNCT PRON	8
+SCONJ:て PUNCT PROPN	34
+SCONJ:て PUNCT PROPN ADP	18
+SCONJ:て PUNCT PROPN PUNCT	3
+SCONJ:て PUNCT PROPN SYM	4
+SCONJ:て PUNCT VERB	9
+SCONJ:て PUNCT VERB SCONJ	5
+SCONJ:て PUNCT., ADV	4
+SCONJ:て PUNCT., NOUN	22
+SCONJ:て PUNCT., NOUN ADP	16
+SCONJ:て PUNCT., PRON	3
+SCONJ:て PUNCT., PRON ADP	3
+SCONJ:て PUNCT., PROPN	5
+SCONJ:て PUNCT., PROPN ADP	3
+SCONJ:て PUNCT., VERB	3
+SCONJ:て PUNCT., VERB AUX	3
+SCONJ:て SCONJ	5
+SCONJ:て SYM	3
+SCONJ:て VERB ADP	4
+SCONJ:て VERB AUX	279
+SCONJ:て VERB AUX ADP	10
+SCONJ:て VERB AUX AUX	121
+SCONJ:て VERB AUX VERB	3
+SCONJ:て VERB NOUN	20
+SCONJ:て VERB PART	4
+SCONJ:て VERB PART ADP	4
+SCONJ:て VERB PUNCT	37
+SCONJ:て VERB PUNCT NOUN	4
+SCONJ:て VERB SCONJ	42
+SCONJ:て VERB SCONJ AUX	36
+SCONJ:で	128
+SCONJ:で ADP	8
+SCONJ:で AUX	83
+SCONJ:で AUX AUX	36
+SCONJ:で AUX AUX AUX	8
+SCONJ:で AUX AUX PUNCT	17
+SCONJ:で AUX NOUN	13
+SCONJ:で AUX NOUN NOUN	3
+SCONJ:で AUX PUNCT.,	3
+SCONJ:で AUX SCONJ	7
+SCONJ:で AUX SCONJ PUNCT	3
+SCONJ:で NOUN ADP	7
+SCONJ:で NUM	4
+SCONJ:で NUM NOUN	4
+SCONJ:で NUM NOUN NOUN	3
+SCONJ:で PROPN	4
+SCONJ:で PUNCT NOUN	4
+SCONJ:で PUNCT NOUN ADP	4
+SCONJ:で VERB AUX	9
+SCONJ:で VERB AUX AUX	7
+SCONJ:と	458
+SCONJ:と ADJ	25
+SCONJ:と ADJ AUX	15
+SCONJ:と ADJ AUX AUX	4
+SCONJ:と ADJ AUX NOUN	9
+SCONJ:と ADJ NOUN ADP	3
+SCONJ:と ADJ PUNCT	5
+SCONJ:と ADV	6
+SCONJ:と NOUN	66
+SCONJ:と NOUN ADP	46
+SCONJ:と NOUN ADP NOUN	19
+SCONJ:と NOUN NOUN ADP	7
+SCONJ:と NUM	6
+SCONJ:と PRON	6
+SCONJ:と PRON ADP	6
+SCONJ:と PRON ADP VERB	6
+SCONJ:と PROPN	14
+SCONJ:と PROPN NOUN	6
+SCONJ:と PUNCT	97
+SCONJ:と PUNCT ADJ	11
+SCONJ:と PUNCT ADJ NOUN	7
+SCONJ:と PUNCT ADV NOUN	3
+SCONJ:と PUNCT NOUN ADP	24
+SCONJ:と PUNCT NOUN NOUN	19
+SCONJ:と PUNCT NUM	7
+SCONJ:と PUNCT NUM NOUN	7
+SCONJ:と PUNCT PRON ADP	4
+SCONJ:と PUNCT PROPN	18
+SCONJ:と PUNCT PROPN NOUN	6
+SCONJ:と PUNCT PROPN PROPN	4
+SCONJ:と PUNCT.,	32
+SCONJ:と PUNCT., NOUN	18
+SCONJ:と PUNCT., NOUN NOUN	6
+SCONJ:と VERB	201
+SCONJ:と VERB ADP	5
+SCONJ:と VERB AUX AUX	25
+SCONJ:と VERB AUX NOUN	12
+SCONJ:と VERB AUX PUNCT	36
+SCONJ:と VERB AUX SCONJ	34
+SCONJ:と VERB NOUN ADP	7
+SCONJ:と VERB PART	3
+SCONJ:と VERB PART ADP	3
+SCONJ:と VERB SCONJ	56
+SCONJ:と VERB SCONJ ADP	4
+SCONJ:と VERB SCONJ PUNCT	8
+SCONJ:と VERB SCONJ PUNCT.,	3
+SCONJ:ので	229
+SCONJ:ので ADJ	11
+SCONJ:ので ADJ AUX	6
+SCONJ:ので ADJ PUNCT	3
+SCONJ:ので ADV	8
+SCONJ:ので ADV VERB	5
+SCONJ:ので NOUN	43
+SCONJ:ので NOUN ADP	29
+SCONJ:ので NOUN ADP ADJ	7
+SCONJ:ので NOUN NOUN ADP	6
+SCONJ:ので NOUN VERB	3
+SCONJ:ので NUM	3
+SCONJ:ので NUM NOUN	3
+SCONJ:ので PUNCT	106
+SCONJ:ので PUNCT ADJ	16
+SCONJ:ので PUNCT ADJ NOUN	10
+SCONJ:ので PUNCT ADV	15
+SCONJ:ので PUNCT ADV PART	3
+SCONJ:ので PUNCT ADV VERB	10
+SCONJ:ので PUNCT NOUN ADP	29
+SCONJ:ので PUNCT NOUN NOUN	10
+SCONJ:ので PUNCT PRON	10
+SCONJ:ので PUNCT VERB	11
+SCONJ:ので PUNCT VERB AUX	5
+SCONJ:ので PUNCT.,	16
+SCONJ:ので PUNCT., NOUN ADP	5
+SCONJ:ので PUNCT., PRON	3
+SCONJ:ので PUNCT., PRON ADP	3
+SCONJ:ので VERB	36
+SCONJ:ので VERB AUX AUX	6
+SCONJ:ので VERB AUX SCONJ	6
+SCONJ:ので VERB PUNCT	10
+SCONJ:ので VERB SCONJ	11
+SCONJ:ば	113
+SCONJ:ば ADJ	12
+SCONJ:ば ADJ PART	4
+SCONJ:ば ADV	5
+SCONJ:ば NOUN	31
+SCONJ:ば NOUN ADP NOUN	5
+SCONJ:ば NOUN ADP VERB	6
+SCONJ:ば NOUN NOUN	10
+SCONJ:ば NOUN NOUN ADP	9
+SCONJ:ば PROPN	3
+SCONJ:ば PUNCT	32
+SCONJ:ば PUNCT NOUN ADP	7
+SCONJ:ば PUNCT NOUN NOUN	5
+SCONJ:ば PUNCT PRON	3
+SCONJ:ば PUNCT PRON ADP	3
+SCONJ:ば PUNCT PROPN	8
+SCONJ:ば PUNCT PROPN ADP	4
+SCONJ:ば PUNCT PROPN NOUN	3
+SCONJ:ば PUNCT.,	14
+SCONJ:ば PUNCT., NOUN NOUN	3
+SCONJ:ば PUNCT., PRON	4
+SCONJ:ば PUNCT., PRON ADP	4
+SCONJ:ば VERB AUX	8
+SCONJ:ば VERB AUX AUX	5
+VERB:あり	160
+VERB:あり AUX AUX	31
+VERB:あり AUX AUX PUNCT	21
+VERB:あり AUX PUNCT	36
+VERB:あり AUX SCONJ	11
+VERB:あり AUX SCONJ PUNCT	8
+VERB:あり PROPN	3
+VERB:あり PUNCT	63
+VERB:あり PUNCT ADJ	5
+VERB:あり PUNCT ADJ AUX	3
+VERB:あり PUNCT ADV	3
+VERB:あり PUNCT NOUN	37
+VERB:あり PUNCT PRON	3
+VERB:あり PUNCT PRON ADP	3
+VERB:あり PUNCT PROPN	7
+VERB:あり PUNCT PROPN ADP	5
+VERB:あり PUNCT VERB	3
+VERB:あり PUNCT VERB SCONJ	3
+VERB:あり PUNCT.,	6
+VERB:あり PUNCT., NOUN	4
+VERB:あり PUNCT., NOUN ADP	3
+VERB:あり VERB	3
+VERB:ある	457
+VERB:ある ADP	26
+VERB:ある ADP ADP	6
+VERB:ある ADP ADP VERB	5
+VERB:ある ADP VERB	13
+VERB:ある ADP VERB AUX	8
+VERB:ある AUX AUX	4
+VERB:ある NOUN	132
+VERB:ある NOUN ADJ	5
+VERB:ある NOUN ADJ AUX	3
+VERB:ある NOUN ADP ADJ	5
+VERB:ある NOUN ADP ADP	4
+VERB:ある NOUN ADP NOUN	18
+VERB:ある NOUN ADP PROPN	4
+VERB:ある NOUN ADP PUNCT	10
+VERB:ある NOUN ADP VERB	21
+VERB:ある NOUN AUX	11
+VERB:ある NOUN AUX PUNCT	9
+VERB:ある NOUN NOUN	24
+VERB:ある NOUN NOUN AUX	4
+VERB:ある NOUN PUNCT	14
+VERB:ある NOUN PUNCT NOUN	6
+VERB:ある PART	13
+VERB:ある PART ADP VERB	3
+VERB:ある PART AUX	5
+VERB:ある PROPN	22
+VERB:ある PROPN ADP NOUN	4
+VERB:ある PROPN NOUN	8
+VERB:ある PROPN PROPN	3
+VERB:ある PUNCT	200
+VERB:ある PUNCT ADP	4
+VERB:ある PUNCT ADP VERB	3
+VERB:ある SCONJ NOUN	9
+VERB:ある SCONJ NOUN ADP	6
+VERB:ある SCONJ PUNCT	29
+VERB:ある SCONJ PUNCT ADJ	4
+VERB:ある SCONJ PUNCT ADV	4
+VERB:ある SCONJ PUNCT.,	3
+VERB:ある SCONJ VERB	8
+VERB:いう	119
+VERB:いう ADP	7
+VERB:いう ADP ADP	4
+VERB:いう ADP ADP NOUN	3
+VERB:いう NOUN	13
+VERB:いう NOUN ADP	9
+VERB:いう NOUN ADP NOUN	3
+VERB:いう NOUN AUX	3
+VERB:いう PART	17
+VERB:いう PART ADP	13
+VERB:いう PART ADP ADJ	4
+VERB:いう PART ADP PUNCT	3
+VERB:いう PART ADP VERB	3
+VERB:いう PUNCT	75
+VERB:さ	90
+VERB:さ AUX	90
+VERB:さ AUX AUX PUNCT	10
+VERB:さ AUX NOUN ADP	8
+VERB:さ AUX PROPN	3
+VERB:さ AUX PUNCT	22
+VERB:さ AUX PUNCT NOUN	4
+VERB:さ AUX SCONJ	38
+VERB:さ AUX SCONJ AUX	31
+VERB:し	742
+VERB:し AUX ADP	8
+VERB:し AUX ADP VERB	5
+VERB:し AUX AUX	19
+VERB:し AUX AUX PART	3
+VERB:し AUX AUX PUNCT	10
+VERB:し AUX NOUN	44
+VERB:し AUX NOUN NOUN	8
+VERB:し AUX NOUN PUNCT	4
+VERB:し AUX PART	3
+VERB:し AUX PROPN	6
+VERB:し AUX PROPN NOUN	3
+VERB:し AUX PUNCT	47
+VERB:し AUX SCONJ	15
+VERB:し AUX SCONJ PUNCT	6
+VERB:し AUX SCONJ VERB	4
+VERB:し AUX VERB	3
+VERB:し PUNCT NOUN	9
+VERB:し PUNCT NOUN NOUN	3
+VERB:し PUNCT PROPN	3
+VERB:し SCONJ	570
+VERB:し SCONJ ADJ	15
+VERB:し SCONJ ADJ NOUN	7
+VERB:し SCONJ ADJ PUNCT	3
+VERB:し SCONJ ADP	65
+VERB:し SCONJ ADP NUM	4
+VERB:し SCONJ ADP PROPN	3
+VERB:し SCONJ ADP PUNCT	18
+VERB:し SCONJ AUX ADP	3
+VERB:し SCONJ AUX AUX	57
+VERB:し SCONJ AUX NOUN	11
+VERB:し SCONJ AUX PART	5
+VERB:し SCONJ AUX PUNCT	41
+VERB:し SCONJ AUX SCONJ	19
+VERB:し SCONJ NOUN	84
+VERB:し SCONJ NOUN NOUN	27
+VERB:し SCONJ NOUN VERB	3
+VERB:し SCONJ NUM NOUN	5
+VERB:し SCONJ PART	24
+VERB:し SCONJ PART NOUN	22
+VERB:し SCONJ PRON	4
+VERB:し SCONJ PRON ADP	4
+VERB:し SCONJ PROPN	29
+VERB:し SCONJ PROPN NOUN	11
+VERB:し SCONJ PUNCT NOUN	18
+VERB:し SCONJ PUNCT NUM	4
+VERB:し SCONJ PUNCT PROPN	14
+VERB:し SCONJ PUNCT., NOUN	7
+VERB:し SCONJ VERB	146
+VERB:し SCONJ VERB AUX	113
+VERB:し SCONJ VERB PUNCT	18
+VERB:する	126
+VERB:する ADP	15
+VERB:する ADP NOUN	6
+VERB:する ADP NOUN ADP	5
+VERB:する ADP PUNCT	3
+VERB:する NOUN	59
+VERB:する NOUN ADP	48
+VERB:する NOUN ADP PUNCT	4
+VERB:する NOUN ADP VERB	26
+VERB:する NOUN NOUN ADP	4
+VERB:する PART	6
+VERB:する PART ADP	5
+VERB:する PART ADP ADJ	3
+VERB:する PUNCT	26
+VERB:する SCONJ ADP	3
+VERB:する SCONJ NOUN	4
+VERB:する SCONJ PUNCT	6
+VERB:なっ	343
+VERB:なっ AUX ADJ	3
+VERB:なっ AUX ADJ NOUN	3
+VERB:なっ AUX NOUN	31
+VERB:なっ AUX NOUN AUX	5
+VERB:なっ AUX NOUN NOUN	5
+VERB:なっ AUX NOUN PUNCT	6
+VERB:なっ AUX NUM	3
+VERB:なっ AUX NUM NOUN	3
+VERB:なっ AUX PART	5
+VERB:なっ AUX PROPN	5
+VERB:なっ AUX PROPN ADP	3
+VERB:なっ AUX PUNCT	112
+VERB:なっ AUX SCONJ	11
+VERB:なっ AUX SCONJ PUNCT	6
+VERB:なっ AUX SCONJ VERB	5
+VERB:なっ SCONJ	169
+VERB:なっ SCONJ AUX	135
+VERB:なっ SCONJ AUX PUNCT	72
+VERB:なっ SCONJ NOUN ADP	3
+VERB:なっ SCONJ NOUN NOUN	4
+VERB:なっ SCONJ VERB AUX	5
+VERB:なる	169
+VERB:なる ADP	7
+VERB:なる AUX AUX	6
+VERB:なる AUX AUX PUNCT	4
+VERB:なる AUX VERB	4
+VERB:なる AUX VERB AUX	3
+VERB:なる NOUN	41
+VERB:なる NOUN ADP ADJ	3
+VERB:なる NOUN ADP NOUN	6
+VERB:なる NOUN ADP VERB	12
+VERB:なる NOUN NOUN	7
+VERB:なる NOUN NOUN ADP	4
+VERB:なる NOUN NOUN PUNCT	3
+VERB:なる NUM	6
+VERB:なる PART	6
+VERB:なる PROPN	5
+VERB:なる PROPN ADP	3
+VERB:なる PUNCT	72
+VERB:なる SCONJ PUNCT	8
+VERB:受け	91
+VERB:受け AUX ADP	4
+VERB:受け AUX AUX	6
+VERB:受け AUX AUX AUX	3
+VERB:受け AUX AUX PUNCT	3
+VERB:受け AUX NOUN	15
+VERB:受け AUX NOUN ADP	10
+VERB:受け AUX NOUN NOUN	3
+VERB:受け AUX PROPN	4
+VERB:受け AUX PROPN ADP	3
+VERB:受け AUX PUNCT	13
+VERB:受け PUNCT	12
+VERB:受け PUNCT NOUN	6
+VERB:受け PUNCT NOUN ADP	5
+VERB:受け SCONJ	28
+VERB:受け SCONJ AUX AUX	8
+VERB:受け SCONJ NOUN	5
+VERB:受け SCONJ VERB AUX	3
+VERB:受け VERB	3
+VERB:思い	90
+VERB:思い AUX	88
+VERB:思い AUX AUX PUNCT	5
+VERB:思い AUX PART	5
+VERB:思い AUX PART PUNCT	5
+VERB:思い AUX PUNCT	69
+VERB:思い AUX PUNCT.!	3
+VERB:思い AUX SCONJ PUNCT	5
+VERB:行っ	93
+VERB:行っ AUX NOUN	11
+VERB:行っ AUX PUNCT	11
+VERB:行っ AUX SCONJ	3
+VERB:行っ SCONJ	63
+VERB:行っ SCONJ AUX	58
+VERB:行っ SCONJ AUX AUX	41
+VERB:見	88
+VERB:見 AUX	58
+VERB:見 AUX ADP	3
+VERB:見 AUX AUX	21
+VERB:見 AUX AUX NOUN	5
+VERB:見 AUX AUX PUNCT	7
+VERB:見 AUX AUX SCONJ	5
+VERB:見 AUX NOUN	12
+VERB:見 AUX NOUN ADP	9
+VERB:見 AUX SCONJ PUNCT	3
+VERB:見 SCONJ	28
+VERB:見 SCONJ AUX	17
+VERB:見 SCONJ AUX AUX	9
+VERB:見 SCONJ NOUN	4
+VERB:見 SCONJ NOUN ADP	3
+VERB:見 SCONJ VERB	4
+
+[INWARDS:2]
+3795
+ADJ ADJ AUX:た	3
+ADJ ADJ AUX:で	3
+ADJ ADJ AUX:な	11
+ADJ ADJ NOUN ADP:は	3
+ADJ ADJ NOUN ADP:を	7
+ADJ ADP AUX AUX:た	7
+ADJ ADP AUX AUX:れ	3
+ADJ ADP AUX AUX:れる	3
+ADJ ADP AUX SCONJ:て	5
+ADJ ADP AUX:さ	6
+ADJ ADP AUX:し	4
+ADJ ADP AUX:する	4
+ADJ ADP AUX:なっ	8
+ADJ ADP NOUN ADP:が	3
+ADJ ADP NOUN ADP:を	4
+ADJ ADP VERB AUX:ます	12
+ADJ ADP VERB AUX:れる	5
+ADJ ADP VERB:いう	4
+ADJ ADP VERB:思い	12
+ADJ ADP:だけ	3
+ADJ ADP:と	86
+ADJ ADP:という	8
+ADJ AUX ADJ AUX:で	3
+ADJ AUX ADJ AUX:に	5
+ADJ AUX ADP AUX:ある	3
+ADJ AUX ADP:は	40
+ADJ AUX ADP:も	9
+ADJ AUX AUX ADP:と	3
+ADJ AUX AUX AUX:た	38
+ADJ AUX AUX AUX:まし	6
+ADJ AUX AUX NOUN:こと	7
+ADJ AUX AUX PART:か	6
+ADJ AUX AUX SCONJ:ため	4
+ADJ AUX AUX:ある	52
+ADJ AUX AUX:う	11
+ADJ AUX AUX:し	19
+ADJ AUX AUX:する	9
+ADJ AUX AUX:です	32
+ADJ AUX AUX:なっ	20
+ADJ AUX AUX:ように	5
+ADJ AUX NOUN ADP:と	39
+ADJ AUX NOUN ADP:によって	3
+ADJ AUX NOUN ADP:による	4
+ADJ AUX NOUN ADP:や	17
+ADJ AUX NOUN ADP:を	146
+ADJ AUX NOUN AUX:だっ	8
+ADJ AUX NOUN AUX:であっ	4
+ADJ AUX NOUN AUX:であり	5
+ADJ AUX NOUN AUX:でし	4
+ADJ AUX NOUN AUX:です	14
+ADJ AUX NOUN AUX:な	7
+ADJ AUX NOUN NOUN:店	7
+ADJ AUX NOUN:お	12
+ADJ AUX NOUN:店	3
+ADJ AUX NUM NOUN:人	3
+ADJ AUX NUM:3	3
+ADJ AUX PART ADP:が	4
+ADJ AUX PART AUX:です	6
+ADJ AUX PART PART:か	3
+ADJ AUX PART:の	21
+ADJ AUX PRON ADP:の	3
+ADJ AUX PROPN ADP:の	8
+ADJ AUX PROPN ADP:を	3
+ADJ AUX SCONJ:が	18
+ADJ AUX SCONJ:ため	6
+ADJ AUX SCONJ:ので	21
+ADJ AUX VERB ADP:と	3
+ADJ AUX VERB AUX:さ	17
+ADJ AUX VERB AUX:し	48
+ADJ AUX VERB AUX:する	22
+ADJ AUX VERB AUX:せ	3
+ADJ AUX VERB AUX:ように	3
+ADJ AUX VERB AUX:られ	3
+ADJ AUX VERB AUX:られる	3
+ADJ AUX VERB AUX:れ	14
+ADJ AUX VERB NOUN:こと	9
+ADJ AUX VERB SCONJ:て	35
+ADJ AUX VERB:行っ	3
+ADJ AUX VERB:見	5
+ADJ AUX:だ	34
+ADJ AUX:だっ	18
+ADJ AUX:で	193
+ADJ AUX:でし	18
+ADJ AUX:です	49
+ADJ AUX:な	648
+ADJ AUX:なっ	17
+ADJ AUX:に	523
+ADJ NOUN ADJ AUX:な	3
+ADJ NOUN ADP ADJ:ない	8
+ADJ NOUN ADP ADP:に	3
+ADJ NOUN ADP ADP:は	43
+ADJ NOUN ADP ADP:も	14
+ADJ NOUN ADP NOUN:お	4
+ADJ NOUN ADP NOUN:時	3
+ADJ NOUN ADP NUM:一	3
+ADJ NOUN ADP VERB:あり	6
+ADJ NOUN ADP VERB:ある	21
+ADJ NOUN ADP VERB:さ	3
+ADJ NOUN ADP VERB:する	4
+ADJ NOUN ADP VERB:なっ	16
+ADJ NOUN ADP VERB:なる	8
+ADJ NOUN ADP VERB:受け	11
+ADJ NOUN ADP VERB:行っ	7
+ADJ NOUN ADP VERB:見	6
+ADJ NOUN ADP:から	36
+ADJ NOUN ADP:だけ	3
+ADJ NOUN ADP:で	99
+ADJ NOUN ADP:という	3
+ADJ NOUN ADP:について	13
+ADJ NOUN ADP:によって	5
+ADJ NOUN ADP:は	173
+ADJ NOUN ADP:より	3
+ADJ NOUN ADP:を	229
+ADJ NOUN AUX ADP:と	3
+ADJ NOUN AUX ADP:は	5
+ADJ NOUN AUX AUX:た	20
+ADJ NOUN AUX SCONJ:ので	6
+ADJ NOUN AUX:だ	10
+ADJ NOUN AUX:であっ	7
+ADJ NOUN AUX:でし	8
+ADJ NOUN AUX:です	19
+ADJ NOUN AUX:な	9
+ADJ NOUN NOUN ADP:から	5
+ADJ NOUN NOUN ADP:が	17
+ADJ NOUN NOUN ADP:で	21
+ADJ NOUN NOUN ADP:と	11
+ADJ NOUN NOUN ADP:は	22
+ADJ NOUN NOUN ADP:も	6
+ADJ NOUN NOUN ADP:を	23
+ADJ NOUN NOUN AUX:でし	3
+ADJ NOUN NOUN:さん	4
+ADJ NOUN NOUN:内	4
+ADJ NOUN NOUN:店	11
+ADJ NOUN PART:か	6
+ADJ NOUN PUNCT ADP:と	5
+ADJ NOUN PUNCT ADP:の	3
+ADJ NOUN VERB AUX:し	5
+ADJ NOUN VERB AUX:する	5
+ADJ NOUN:お	18
+ADJ NOUN:こと	40
+ADJ NOUN:ため	33
+ADJ NOUN:もの	21
+ADJ NOUN:中	11
+ADJ NOUN:場合	5
+ADJ NOUN:店	8
+ADJ NOUN:後	40
+ADJ NOUN:方	7
+ADJ NOUN:時	14
+ADJ NUM NOUN ADP:が	3
+ADJ PART ADP VERB:思い	3
+ADJ PART ADP:が	16
+ADJ PART ADP:で	3
+ADJ PART ADP:と	6
+ADJ PART ADP:の	3
+ADJ PART ADP:も	5
+ADJ PART ADP:を	13
+ADJ PART AUX AUX:う	3
+ADJ PART AUX:です	10
+ADJ PART NUM:3	4
+ADJ PART NUM:5	4
+ADJ PROPN ADP:と	3
+ADJ PROPN ADP:の	10
+ADJ PROPN ADP:を	3
+ADJ PROPN NOUN ADP:と	3
+ADJ PROPN NOUN ADP:の	6
+ADJ PROPN PROPN ADP:の	3
+ADJ PUNCT ADJ AUX:な	4
+ADJ PUNCT ADJ:その	3
+ADJ PUNCT ADP VERB:し	3
+ADJ PUNCT ADP:と	14
+ADJ PUNCT NOUN ADP:が	4
+ADJ PUNCT NOUN ADP:の	10
+ADJ PUNCT NOUN ADP:は	4
+ADJ PUNCT NOUN ADP:も	4
+ADJ PUNCT NUM NOUN:年	3
+ADJ SCONJ ADP:も	9
+ADJ SCONJ NOUN ADP:の	4
+ADJ SCONJ PRON ADP:は	3
+ADJ SCONJ VERB AUX:れ	4
+ADJ SCONJ VERB:さ	3
+ADJ SCONJ VERB:し	3
+ADJ SCONJ:が	25
+ADJ SCONJ:ため	10
+ADJ SCONJ:と	21
+ADJ SCONJ:ので	22
+ADJ SCONJ:ば	4
+ADJ VERB AUX AUX:た	19
+ADJ VERB AUX SCONJ:て	23
+ADJ VERB AUX:し	35
+ADJ VERB AUX:する	13
+ADJ VERB AUX:ない	3
+ADJ VERB AUX:まし	8
+ADJ VERB AUX:ます	5
+ADJ VERB AUX:られる	3
+ADJ VERB AUX:れ	8
+ADJ VERB NOUN ADP:が	7
+ADJ VERB NOUN:こと	7
+ADJ VERB SCONJ:て	25
+ADJ VERB:あり	5
+ADJ:この	353
+ADJ:その	347
+ADJ:ない	115
+ADP ADJ ADJ AUX:に	3
+ADP ADJ ADP AUX:さ	5
+ADP ADJ ADP AUX:する	4
+ADP ADJ ADP VERB:いう	4
+ADP ADJ ADP VERB:思い	11
+ADP ADJ ADP:だけ	3
+ADP ADJ ADP:と	63
+ADP ADJ ADP:という	6
+ADP ADJ ADP:も	3
+ADP ADJ AUX ADP:と	6
+ADP ADJ AUX AUX:ある	40
+ADP ADJ AUX AUX:う	8
+ADP ADJ AUX AUX:し	15
+ADP ADJ AUX AUX:する	7
+ADP ADJ AUX AUX:た	27
+ADP ADJ AUX AUX:ない	3
+ADP ADJ AUX AUX:なっ	16
+ADP ADJ AUX NOUN:こと	7
+ADP ADJ AUX NOUN:もの	11
+ADP ADJ AUX NOUN:方	3
+ADP ADJ AUX NUM:3	3
+ADP ADJ AUX PART:の	12
+ADP ADJ AUX SCONJ:ため	4
+ADP ADJ AUX SCONJ:て	17
+ADP ADJ AUX SCONJ:ので	14
+ADP ADJ AUX:た	61
+ADP ADJ AUX:だ	24
+ADP ADJ AUX:だっ	14
+ADP ADJ AUX:で	118
+ADP ADJ AUX:でし	10
+ADP ADJ AUX:です	28
+ADP ADJ AUX:ない	5
+ADP ADJ AUX:なっ	14
+ADP ADJ AUX:に	308
+ADP ADJ AUX:ように	5
+ADP ADJ NOUN ADP:が	51
+ADP ADJ NOUN ADP:と	27
+ADP ADJ NOUN ADP:という	3
+ADP ADJ NOUN ADP:に	46
+ADP ADJ NOUN ADP:の	54
+ADP ADJ NOUN ADP:も	9
+ADP ADJ NOUN ADP:や	4
+ADP ADJ NOUN ADP:を	99
+ADP ADJ NOUN AUX:だ	5
+ADP ADJ NOUN AUX:であり	3
+ADP ADJ NOUN AUX:である	11
+ADP ADJ NOUN AUX:でし	6
+ADP ADJ NOUN NOUN:店	5
+ADP ADJ NOUN:お	6
+ADP ADJ NOUN:こと	20
+ADP ADJ NOUN:もの	10
+ADP ADJ NOUN:人	4
+ADP ADJ NOUN:年	4
+ADP ADJ NOUN:店	4
+ADP ADJ NOUN:方	3
+ADP ADJ NOUN:日	4
+ADP ADJ PART ADP:と	5
+ADP ADJ PART ADP:に	5
+ADP ADJ PART ADP:は	3
+ADP ADJ PART ADP:も	4
+ADP ADJ PART ADP:を	10
+ADP ADJ PART AUX:です	6
+ADP ADJ PART:か	9
+ADP ADJ PART:の	16
+ADP ADJ PUNCT ADJ:その	3
+ADP ADJ PUNCT ADP:と	11
+ADP ADJ SCONJ VERB:さ	3
+ADP ADJ SCONJ VERB:し	3
+ADP ADJ SCONJ:が	23
+ADP ADJ SCONJ:ため	10
+ADP ADJ SCONJ:て	28
+ADP ADJ SCONJ:と	17
+ADP ADJ SCONJ:ば	4
+ADP ADJ VERB AUX:さ	8
+ADP ADJ VERB AUX:する	12
+ADP ADJ VERB AUX:た	4
+ADP ADJ VERB AUX:ない	3
+ADP ADJ VERB AUX:ます	5
+ADP ADJ VERB SCONJ:て	17
+ADP ADJ VERB:あり	4
+ADP ADJ VERB:ある	3
+ADP ADJ:ない	101
+ADP ADP ADJ ADP:と	5
+ADP ADP ADJ AUX:で	12
+ADP ADP ADJ AUX:でし	3
+ADP ADP ADJ AUX:です	6
+ADP ADP ADJ AUX:な	28
+ADP ADP ADJ:この	6
+ADP ADP ADJ:その	10
+ADP ADP ADP:も	21
+ADP ADP NOUN ADP:から	9
+ADP ADP NOUN ADP:が	86
+ADP ADP NOUN ADP:の	87
+ADP ADP NOUN ADP:へ	5
+ADP ADP NOUN ADP:も	17
+ADP ADP NOUN ADP:や	12
+ADP ADP NOUN NUM:3	3
+ADP ADP NOUN:人	3
+ADP ADP NOUN:間	5
+ADP ADP NUM NOUN:人	8
+ADP ADP NUM NOUN:円	3
+ADP ADP NUM:10	3
+ADP ADP NUM:2	7
+ADP ADP PART:約	3
+ADP ADP PRON ADP:の	4
+ADP ADP PRON:これ	5
+ADP ADP PROPN ADP:から	4
+ADP ADP PROPN ADP:に	13
+ADP ADP PROPN ADP:の	24
+ADP ADP PROPN ADP:や	5
+ADP ADP PROPN NOUN:氏	3
+ADP ADP PROPN:日本	5
+ADP ADP VERB AUX:さ	48
+ADP ADP VERB AUX:ず	21
+ADP ADP VERB AUX:せ	6
+ADP ADP VERB AUX:ない	17
+ADP ADP VERB AUX:なかっ	8
+ADP ADP VERB AUX:ませ	6
+ADP ADP VERB AUX:ように	3
+ADP ADP VERB AUX:られ	12
+ADP ADP VERB AUX:られる	4
+ADP ADP VERB AUX:れ	28
+ADP ADP VERB AUX:れる	15
+ADP ADP VERB NOUN:こと	7
+ADP ADP VERB SCONJ:が	3
+ADP ADP VERB SCONJ:て	61
+ADP ADP VERB:なっ	16
+ADP ADP VERB:見	4
+ADP ADP:は	1148
+ADP ADP:も	412
+ADP ADV ADJ ADP:と	4
+ADP ADV ADJ AUX:で	11
+ADP ADV ADJ AUX:でし	4
+ADP ADV ADJ AUX:です	4
+ADP ADV ADJ AUX:ない	3
+ADP ADV ADJ AUX:に	6
+ADP ADV ADJ PART:の	3
+ADP ADV ADJ:ない	3
+ADP ADV ADP PART:の	3
+ADP ADV ADP:と	12
+ADP ADV AUX SCONJ:が	4
+ADP ADV AUX:だ	3
+ADP ADV AUX:である	3
+ADP ADV AUX:です	6
+ADP ADV NOUN ADP:から	4
+ADP ADV NOUN ADP:と	7
+ADP ADV NOUN ADP:に	17
+ADP ADV NOUN ADP:へ	3
+ADP ADV NOUN ADP:を	25
+ADP ADV NOUN:お	9
+ADP ADV NUM NOUN:年	5
+ADP ADV NUM:5	3
+ADP ADV PART:か	3
+ADP ADV PROPN ADP:に	5
+ADP ADV VERB ADP:に	4
+ADP ADV VERB AUX:さ	11
+ADP ADV VERB AUX:し	40
+ADP ADV VERB AUX:する	11
+ADP ADV VERB AUX:なかっ	3
+ADP ADV VERB AUX:ます	5
+ADP ADV VERB AUX:ませ	5
+ADP ADV VERB AUX:られ	3
+ADP ADV VERB AUX:れる	3
+ADP ADV VERB NOUN:こと	3
+ADP ADV VERB PART:か	4
+ADP ADV VERB SCONJ:で	4
+ADP ADV VERB SCONJ:と	3
+ADP ADV VERB:あり	6
+ADP ADV VERB:なる	3
+ADP AUX ADP AUX:なく	6
+ADP AUX ADP:は	12
+ADP AUX AUX ADP:と	3
+ADP AUX AUX AUX:う	6
+ADP AUX AUX AUX:ん	16
+ADP AUX AUX NOUN:こと	3
+ADP AUX AUX SCONJ:が	6
+ADP AUX AUX SCONJ:と	3
+ADP AUX AUX SCONJ:ので	3
+ADP AUX AUX:です	6
+ADP AUX AUX:ない	9
+ADP AUX AUX:なく	10
+ADP AUX AUX:ませ	16
+ADP AUX AUX:れる	3
+ADP AUX NOUN ADP:が	11
+ADP AUX NOUN ADP:で	5
+ADP AUX NOUN ADP:と	3
+ADP AUX NOUN ADP:の	13
+ADP AUX NOUN:もの	4
+ADP AUX PART ADP:と	4
+ADP AUX PART:か	9
+ADP AUX SCONJ AUX:いる	3
+ADP AUX SCONJ:が	12
+ADP AUX SCONJ:と	4
+ADP AUX SCONJ:ので	5
+ADP AUX VERB AUX:ます	3
+ADP AUX:ある	28
+ADP AUX:だっ	15
+ADP AUX:で	23
+ADP AUX:であっ	4
+ADP AUX:ない	73
+ADP AUX:なかっ	6
+ADP AUX:なく	47
+ADP AUX:なっ	8
+ADP AUX:よう	6
+ADP AUX:ように	36
+ADP CCONJ:また	9
+ADP NOUN ADJ AUX:た	4
+ADP NOUN ADJ AUX:で	6
+ADP NOUN ADJ:この	3
+ADP NOUN ADP ADJ:その	14
+ADP NOUN ADP ADP:から	3
+ADP NOUN ADP ADP:が	10
+ADP NOUN ADP ADP:で	20
+ADP NOUN ADP ADP:と	11
+ADP NOUN ADP ADP:に	11
+ADP NOUN ADP ADP:まで	3
+ADP NOUN ADP ADP:も	83
+ADP NOUN ADP ADP:を	15
+ADP NOUN ADP AUX:で	5
+ADP NOUN ADP AUX:よう	3
+ADP NOUN ADP AUX:ように	11
+ADP NOUN ADP NOUN:こと	10
+ADP NOUN ADP NOUN:ため	18
+ADP NOUN ADP NOUN:もの	8
+ADP NOUN ADP NOUN:上	3
+ADP NOUN ADP NOUN:中	18
+ADP NOUN ADP NOUN:人	8
+ADP NOUN ADP NOUN:場合	4
+ADP NOUN ADP NOUN:日	3
+ADP NOUN ADP NOUN:目	3
+ADP NOUN ADP NUM:1	23
+ADP NOUN ADP NUM:10	3
+ADP NOUN ADP NUM:3	14
+ADP NOUN ADP NUM:一	9
+ADP NOUN ADP PART:の	68
+ADP NOUN ADP PRON:これ	3
+ADP NOUN ADP PRON:それ	3
+ADP NOUN ADP VERB:し	239
+ADP NOUN ADP VERB:する	38
+ADP NOUN ADP VERB:受け	34
+ADP NOUN ADP VERB:行っ	24
+ADP NOUN ADP:が	892
+ADP NOUN ADP:で	543
+ADP NOUN ADP:と	514
+ADP NOUN ADP:など	88
+ADP NOUN ADP:に	1154
+ADP NOUN ADP:について	41
+ADP NOUN ADP:により	21
+ADP NOUN ADP:へ	54
+ADP NOUN ADP:や	126
+ADP NOUN ADP:を	1608
+ADP NOUN AUX ADP:と	11
+ADP NOUN AUX ADP:も	8
+ADP NOUN AUX AUX:う	4
+ADP NOUN AUX NOUN:こと	6
+ADP NOUN AUX PART:の	13
+ADP NOUN AUX SCONJ:と	10
+ADP NOUN AUX SCONJ:ので	8
+ADP NOUN AUX:だっ	39
+ADP NOUN AUX:であり	31
+ADP NOUN AUX:である	117
+ADP NOUN NOUN ADP:が	246
+ADP NOUN NOUN ADP:だけ	6
+ADP NOUN NOUN ADP:と	157
+ADP NOUN NOUN ADP:という	9
+ADP NOUN NOUN ADP:など	44
+ADP NOUN NOUN ADP:に	293
+ADP NOUN NOUN ADP:について	12
+ADP NOUN NOUN ADP:により	12
+ADP NOUN NOUN ADP:による	12
+ADP NOUN NOUN ADP:へ	14
+ADP NOUN NOUN ADP:や	37
+ADP NOUN NOUN ADP:を	340
+ADP NOUN NOUN AUX:だ	9
+ADP NOUN NOUN AUX:だっ	9
+ADP NOUN NOUN AUX:で	13
+ADP NOUN NOUN AUX:であっ	11
+ADP NOUN NOUN AUX:な	12
+ADP NOUN NOUN NOUN:さん	5
+ADP NOUN NOUN NOUN:中	3
+ADP NOUN NOUN NOUN:前	3
+ADP NOUN NOUN NOUN:氏	3
+ADP NOUN NOUN NOUN:者	14
+ADP NOUN NOUN NUM:1	4
+ADP NOUN NOUN NUM:2	6
+ADP NOUN NOUN NUM:3	3
+ADP NOUN NOUN PART:の	3
+ADP NOUN NOUN VERB:し	8
+ADP NOUN NOUN:上	13
+ADP NOUN NOUN:中	17
+ADP NOUN NOUN:人	9
+ADP NOUN NOUN:店	29
+ADP NOUN NUM ADP:で	3
+ADP NOUN NUM NOUN:つ	3
+ADP NOUN NUM NOUN:人	13
+ADP NOUN NUM NOUN:円	3
+ADP NOUN NUM NOUN:時	5
+ADP NOUN NUM:2	10
+ADP NOUN NUM:3	12
+ADP NOUN NUM:4	11
+ADP NOUN NUM:5	8
+ADP NOUN NUM:一	3
+ADP NOUN PART:か	15
+ADP NOUN PART:約	9
+ADP NOUN PROPN ADP:から	3
+ADP NOUN PROPN ADP:が	8
+ADP NOUN PROPN ADP:に	14
+ADP NOUN PROPN ADP:へ	4
+ADP NOUN PROPN ADP:を	5
+ADP NOUN PUNCT ADJ:この	3
+ADP NOUN PUNCT ADJ:その	3
+ADP NOUN PUNCT ADP:と	25
+ADP NOUN PUNCT ADP:という	4
+ADP NOUN PUNCT ADP:など	4
+ADP NOUN PUNCT ADP:は	6
+ADP NOUN SYM ADP:に	3
+ADP NOUN SYM ADP:を	3
+ADP NOUN VERB AUX:さ	21
+ADP NOUN VERB AUX:し	47
+ADP NOUN VERB AUX:する	27
+ADP NOUN VERB AUX:ず	3
+ADP NOUN VERB AUX:です	6
+ADP NOUN VERB AUX:まし	6
+ADP NOUN VERB NOUN:中	4
+ADP NOUN VERB:あり	3
+ADP NOUN VERB:ある	9
+ADP NOUN:お	94
+ADP NOUN:ため	58
+ADP NOUN:中	70
+ADP NOUN:間	31
+ADP NUM ADP:と	4
+ADP NUM ADP:の	5
+ADP NUM NOUN ADP:が	37
+ADP NUM NOUN ADP:だけ	4
+ADP NUM NOUN ADP:という	3
+ADP NUM NOUN ADP:の	113
+ADP NUM NOUN ADP:まで	31
+ADP NUM NOUN ADP:も	11
+ADP NUM NOUN ADP:を	44
+ADP NUM NOUN AUX:である	9
+ADP NUM NOUN AUX:です	4
+ADP NUM NOUN NOUN:目	27
+ADP NUM NOUN NOUN:間	6
+ADP NUM NOUN NUM:2	3
+ADP NUM NOUN PART:か	8
+ADP NUM NOUN:つ	58
+ADP NUM NOUN:人	67
+ADP NUM NUM NOUN:円	23
+ADP NUM NUM NOUN:年	3
+ADP NUM PART NUM:1	4
+ADP NUM PROPN ADP:と	7
+ADP NUM PROPN ADP:という	3
+ADP NUM:1	84
+ADP NUM:2	93
+ADP NUM:3	80
+ADP NUM:4	50
+ADP NUM:一	57
+ADP PART ADJ AUX:な	6
+ADP PART NOUN ADP:から	5
+ADP PART NOUN ADP:が	43
+ADP PART NOUN ADP:で	27
+ADP PART NOUN ADP:など	3
+ADP PART NOUN ADP:に	25
+ADP PART NOUN ADP:について	3
+ADP PART NOUN ADP:により	3
+ADP PART NOUN ADP:も	20
+ADP PART NOUN ADP:や	6
+ADP PART NOUN ADP:を	69
+ADP PART NOUN AUX:である	4
+ADP PART NOUN AUX:です	7
+ADP PART NOUN:お	3
+ADP PART NOUN:こと	12
+ADP PART NOUN:間	10
+ADP PART NUM NOUN:人	14
+ADP PART NUM:3	11
+ADP PART NUM:4	11
+ADP PART NUM:一	10
+ADP PART PROPN ADP:の	3
+ADP PART:の	470
+ADP PART:第	54
+ADP PART:約	40
+ADP PRON ADP ADP:の	3
+ADP PRON ADP NOUN:お	5
+ADP PRON ADP PART:の	3
+ADP PRON ADP:から	5
+ADP PRON ADP:だけ	5
+ADP PRON ADP:に	24
+ADP PRON ADP:の	25
+ADP PRON ADP:まで	7
+ADP PRON ADP:も	12
+ADP PRON ADP:を	23
+ADP PRON AUX:です	3
+ADP PRON PART:か	5
+ADP PROPN ADP ADJ:その	4
+ADP PROPN ADP ADP:と	3
+ADP PROPN ADP ADP:も	10
+ADP PROPN ADP NUM:2	5
+ADP PROPN ADP NUM:一	5
+ADP PROPN ADP PART:の	33
+ADP PROPN ADP VERB:し	5
+ADP PROPN ADP:から	26
+ADP PROPN ADP:が	101
+ADP PROPN ADP:で	75
+ADP PROPN ADP:と	71
+ADP PROPN ADP:という	4
+ADP PROPN ADP:に	119
+ADP PROPN ADP:へ	14
+ADP PROPN ADP:まで	4
+ADP PROPN ADP:も	11
+ADP PROPN ADP:や	19
+ADP PROPN ADP:より	4
+ADP PROPN ADP:を	92
+ADP PROPN AUX AUX:た	5
+ADP PROPN AUX:だ	3
+ADP PROPN AUX:である	6
+ADP PROPN AUX:な	3
+ADP PROPN NOUN ADP:が	45
+ADP PROPN NOUN ADP:で	45
+ADP PROPN NOUN ADP:に	59
+ADP PROPN NOUN ADP:による	4
+ADP PROPN NOUN ADP:へ	8
+ADP PROPN NOUN ADP:や	6
+ADP PROPN NOUN ADP:を	36
+ADP PROPN NOUN NUM:1	3
+ADP PROPN NOUN NUM:2	3
+ADP PROPN NOUN:さん	13
+ADP PROPN NUM:2	3
+ADP PROPN PART:か	3
+ADP PROPN PROPN ADP:が	13
+ADP PROPN PROPN ADP:に	17
+ADP PROPN PROPN ADP:や	6
+ADP PROPN PROPN NOUN:氏	15
+ADP PROPN VERB AUX:た	3
+ADP PROPN VERB SCONJ:て	4
+ADP PROPN VERB:し	4
+ADP PROPN:日本	32
+ADP PUNCT ADJ AUX:に	20
+ADP PUNCT ADJ NOUN:日	3
+ADP PUNCT ADJ:この	22
+ADP PUNCT ADP:と	3
+ADP PUNCT NOUN ADP:から	15
+ADP PUNCT NOUN ADP:が	53
+ADP PUNCT NOUN ADP:について	3
+ADP PUNCT NOUN ADP:による	3
+ADP PUNCT NOUN ADP:の	216
+ADP PUNCT NOUN ADP:や	19
+ADP PUNCT NOUN AUX:で	3
+ADP PUNCT NOUN NOUN:中	3
+ADP PUNCT NOUN NOUN:時	3
+ADP PUNCT NOUN NUM:3	3
+ADP PUNCT NUM NOUN:日	8
+ADP PUNCT NUM:1	7
+ADP PUNCT NUM:2	9
+ADP PUNCT NUM:3	7
+ADP PUNCT NUM:4	3
+ADP PUNCT PART:第	9
+ADP PUNCT PRON ADP:に	5
+ADP PUNCT PRON ADP:の	10
+ADP PUNCT PRON ADP:まで	4
+ADP PUNCT PRON ADP:を	4
+ADP PUNCT PROPN ADP:から	6
+ADP PUNCT PROPN ADP:が	15
+ADP PUNCT PROPN ADP:に	15
+ADP PUNCT PROPN ADP:の	57
+ADP PUNCT PROPN ADP:へ	3
+ADP PUNCT PROPN ADP:や	6
+ADP PUNCT PROPN NOUN:内	3
+ADP PUNCT PROPN NOUN:氏	3
+ADP PUNCT PROPN NUM:3	4
+ADP PUNCT PROPN:日本	6
+ADP PUNCT VERB AUX:さ	7
+ADP PUNCT VERB AUX:し	19
+ADP PUNCT VERB AUX:ない	3
+ADP PUNCT VERB SCONJ:て	11
+ADP PUNCT VERB:ある	6
+ADP PUNCT., ADJ:この	9
+ADP PUNCT., NOUN ADP:から	5
+ADP PUNCT., NOUN ADP:が	15
+ADP PUNCT., NOUN ADP:の	49
+ADP PUNCT., NOUN ADP:や	3
+ADP PUNCT., NUM NOUN:人	5
+ADP PUNCT., PRON ADP:の	7
+ADP PUNCT., PROPN ADP:の	7
+ADP PUNCT., PROPN NOUN:氏	8
+ADP PUNCT., VERB AUX:する	3
+ADP VERB ADJ AUX:に	3
+ADP VERB ADP ADP:で	6
+ADP VERB ADP ADP:に	3
+ADP VERB ADP ADP:の	11
+ADP VERB ADP NOUN:こと	4
+ADP VERB ADP VERB:いう	12
+ADP VERB ADP VERB:し	5
+ADP VERB ADP VERB:思い	6
+ADP VERB ADP VERB:行っ	3
+ADP VERB ADP:だけ	12
+ADP VERB ADP:と	46
+ADP VERB ADP:という	21
+ADP VERB ADP:など	31
+ADP VERB ADP:まで	8
+ADP VERB ADP:より	5
+ADP VERB AUX ADJ:この	3
+ADP VERB AUX ADP:だけ	5
+ADP VERB AUX ADP:という	25
+ADP VERB AUX ADP:など	20
+ADP VERB AUX ADP:まで	7
+ADP VERB AUX AUX:し	3
+ADP VERB AUX AUX:ず	24
+ADP VERB AUX AUX:た	1020
+ADP VERB AUX AUX:だ	5
+ADP VERB AUX AUX:ない	80
+ADP VERB AUX AUX:なく	7
+ADP VERB AUX AUX:なっ	25
+ADP VERB AUX AUX:れ	589
+ADP VERB AUX AUX:れる	115
+ADP VERB AUX NOUN:こと	153
+ADP VERB AUX NOUN:もの	39
+ADP VERB AUX NOUN:上	5
+ADP VERB AUX NOUN:人	16
+ADP VERB AUX NOUN:後	16
+ADP VERB AUX NOUN:方	11
+ADP VERB AUX NOUN:者	10
+ADP VERB AUX NUM:1	5
+ADP VERB AUX NUM:4	4
+ADP VERB AUX PART:の	78
+ADP VERB AUX PART:第	3
+ADP VERB AUX PROPN:日本	4
+ADP VERB AUX SCONJ:が	75
+ADP VERB AUX SCONJ:ため	45
+ADP VERB AUX SCONJ:と	105
+ADP VERB AUX:う	29
+ADP VERB AUX:き	3
+ADP VERB AUX:さ	769
+ADP VERB AUX:ず	81
+ADP VERB AUX:せ	55
+ADP VERB AUX:た	1267
+ADP VERB AUX:だ	56
+ADP VERB AUX:なかっ	47
+ADP VERB AUX:なく	26
+ADP VERB AUX:よう	28
+ADP VERB AUX:ように	46
+ADP VERB AUX:られ	180
+ADP VERB AUX:られる	70
+ADP VERB AUX:れる	158
+ADP VERB NOUN ADP:から	12
+ADP VERB NOUN ADP:が	132
+ADP VERB NOUN ADP:で	52
+ADP VERB NOUN ADP:と	45
+ADP VERB NOUN ADP:など	12
+ADP VERB NOUN ADP:による	3
+ADP VERB NOUN ADP:も	38
+ADP VERB NOUN ADP:を	98
+ADP VERB NOUN AUX:だ	10
+ADP VERB NOUN AUX:で	8
+ADP VERB NOUN AUX:である	15
+ADP VERB NOUN NOUN:店	6
+ADP VERB NOUN:お	6
+ADP VERB NOUN:こと	174
+ADP VERB NOUN:もの	22
+ADP VERB NOUN:人	10
+ADP VERB NOUN:場合	5
+ADP VERB NOUN:時	4
+ADP VERB NUM NOUN:年	4
+ADP VERB NUM:2	3
+ADP VERB PART ADP:は	24
+ADP VERB PART ADP:も	6
+ADP VERB PART ADP:を	11
+ADP VERB PART AUX:だ	4
+ADP VERB PART AUX:です	7
+ADP VERB PART:の	92
+ADP VERB PART:約	3
+ADP VERB PROPN ADP:と	4
+ADP VERB PROPN ADP:に	7
+ADP VERB PROPN ADP:へ	3
+ADP VERB PROPN ADP:を	3
+ADP VERB PUNCT ADJ:この	6
+ADP VERB PUNCT ADJ:その	15
+ADP VERB PUNCT ADP:と	9
+ADP VERB PUNCT ADP:など	3
+ADP VERB PUNCT NOUN:現在	4
+ADP VERB PUNCT NUM:1	4
+ADP VERB PUNCT NUM:10	3
+ADP VERB PUNCT NUM:4	3
+ADP VERB PUNCT NUM:5	3
+ADP VERB PUNCT PRON:これ	5
+ADP VERB PUNCT PRON:それ	8
+ADP VERB PUNCT., PRON:これ	3
+ADP VERB SCONJ ADJ:その	5
+ADP VERB SCONJ ADP:から	15
+ADP VERB SCONJ ADP:に	23
+ADP VERB SCONJ ADP:の	11
+ADP VERB SCONJ ADP:は	53
+ADP VERB SCONJ AUX:ある	5
+ADP VERB SCONJ AUX:いる	432
+ADP VERB SCONJ AUX:おり	67
+ADP VERB SCONJ AUX:き	54
+ADP VERB SCONJ AUX:です	3
+ADP VERB SCONJ AUX:まし	6
+ADP VERB SCONJ NOUN:現在	3
+ADP VERB SCONJ PART:の	26
+ADP VERB SCONJ PART:約	5
+ADP VERB SCONJ PRON:これ	3
+ADP VERB SCONJ SCONJ:て	3
+ADP VERB SCONJ VERB:ある	4
+ADP VERB SCONJ:が	59
+ADP VERB SCONJ:ため	60
+ADP VERB SCONJ:と	148
+ADP VERB SCONJ:ので	29
+ADP VERB VERB ADP:に	3
+ADP VERB VERB AUX:さ	9
+ADP VERB VERB AUX:し	9
+ADP VERB VERB AUX:する	5
+ADP VERB VERB SCONJ:て	12
+ADP VERB:あり	139
+ADP VERB:ある	388
+ADP VERB:いう	117
+ADP VERB:し	631
+ADP VERB:なっ	339
+ADP VERB:なる	160
+ADP VERB:受け	87
+ADP VERB:思い	85
+ADP VERB:行っ	77
+ADP:から	860
+ADP:が	3620
+ADP:だけ	113
+ADP:で	2419
+ADP:と	2729
+ADP:という	236
+ADP:など	488
+ADP:に	4746
+ADP:について	136
+ADP:によって	122
+ADP:により	90
+ADP:による	115
+ADP:の	7215
+ADP:は	4824
+ADP:へ	217
+ADP:まで	266
+ADP:も	1497
+ADP:や	539
+ADP:より	90
+ADP:を	4737
+ADV ADJ AUX AUX:た	7
+ADV ADJ AUX AUX:です	9
+ADV ADJ AUX PART:の	3
+ADV ADJ AUX:た	17
+ADV ADJ AUX:で	17
+ADV ADJ AUX:でし	6
+ADV ADJ AUX:です	7
+ADV ADJ AUX:ない	3
+ADV ADJ NOUN ADP:が	5
+ADV ADJ NOUN ADP:に	6
+ADV ADJ NOUN ADP:の	11
+ADV ADJ PART:か	3
+ADV ADJ PART:の	4
+ADV ADJ SCONJ:て	4
+ADV ADP NOUN ADP:が	4
+ADV ADP NOUN ADP:の	5
+ADV ADP PART:の	4
+ADV ADP VERB AUX:た	8
+ADV ADP VERB SCONJ:て	5
+ADV ADP VERB:し	10
+ADV ADP:から	3
+ADV ADP:と	23
+ADV ADP:は	22
+ADV ADP:も	11
+ADV ADV PART:の	3
+ADV ADV VERB SCONJ:て	3
+ADV AUX AUX:う	3
+ADV AUX SCONJ:が	4
+ADV AUX:だ	3
+ADV AUX:だっ	3
+ADV AUX:で	5
+ADV AUX:である	3
+ADV AUX:です	10
+ADV NOUN ADP ADJ:ない	4
+ADV NOUN ADP ADP:も	3
+ADV NOUN ADP PART:の	6
+ADV NOUN ADP VERB:ある	6
+ADV NOUN ADP VERB:なっ	6
+ADV NOUN ADP:が	59
+ADV NOUN ADP:と	17
+ADV NOUN ADP:について	3
+ADV NOUN ADP:へ	4
+ADV NOUN ADP:や	5
+ADV NOUN ADP:を	49
+ADV NOUN AUX:です	5
+ADV NOUN NOUN ADP:が	10
+ADV NOUN NOUN ADP:で	9
+ADV NOUN NOUN ADP:に	16
+ADV NOUN NOUN ADP:による	3
+ADV NOUN NOUN ADP:を	14
+ADV NOUN NOUN AUX:である	3
+ADV NOUN:お	19
+ADV NUM NOUN ADP:が	3
+ADV NUM NOUN ADP:で	7
+ADV NUM NOUN ADP:と	5
+ADV NUM NOUN ADP:も	4
+ADV NUM NOUN NOUN:目	4
+ADV NUM NOUN:つ	4
+ADV NUM NOUN:人	10
+ADV NUM NOUN:円	7
+ADV NUM:1	6
+ADV NUM:10	5
+ADV NUM:2	5
+ADV NUM:5	6
+ADV NUM:一	6
+ADV PART ADJ AUX:な	3
+ADV PART NOUN ADP:が	4
+ADV PART NOUN ADP:で	3
+ADV PART NOUN ADP:に	3
+ADV PART NOUN ADP:の	4
+ADV PART NOUN ADP:は	5
+ADV PART VERB:ある	3
+ADV PRON ADP:に	4
+ADV PRON ADP:の	3
+ADV PROPN ADP ADP:は	4
+ADV PROPN ADP:から	4
+ADV PROPN ADP:と	5
+ADV PROPN ADP:に	12
+ADV PROPN NOUN ADP:が	4
+ADV PROPN NOUN ADP:で	7
+ADV PROPN NOUN ADP:に	5
+ADV PUNCT ADJ:この	4
+ADV PUNCT NOUN ADP:が	5
+ADV PUNCT NOUN ADP:に	3
+ADV PUNCT NOUN ADP:の	6
+ADV PUNCT PROPN ADP:の	5
+ADV PUNCT., NOUN ADP:の	8
+ADV VERB ADP:に	5
+ADV VERB AUX AUX:ない	7
+ADV VERB AUX AUX:まし	5
+ADV VERB AUX AUX:ます	8
+ADV VERB AUX AUX:ませ	3
+ADV VERB AUX AUX:ん	5
+ADV VERB AUX NOUN:お	4
+ADV VERB AUX NOUN:もの	3
+ADV VERB AUX SCONJ:ので	3
+ADV VERB AUX:し	67
+ADV VERB AUX:ない	17
+ADV VERB AUX:なかっ	3
+ADV VERB AUX:まし	9
+ADV VERB AUX:ます	9
+ADV VERB AUX:ませ	5
+ADV VERB NOUN ADP:が	4
+ADV VERB NOUN ADP:に	6
+ADV VERB NOUN:こと	6
+ADV VERB PART:か	5
+ADV VERB SCONJ ADP:も	5
+ADV VERB SCONJ:て	86
+ADV VERB SCONJ:で	6
+ADV VERB SCONJ:と	6
+ADV VERB SCONJ:ば	3
+ADV VERB:あり	7
+ADV VERB:する	4
+ADV VERB:行っ	3
+ADV VERB:見	3
+AUX ADJ AUX AUX:た	3
+AUX ADJ AUX NOUN:お	3
+AUX ADJ AUX:な	57
+AUX ADJ NOUN ADP:が	9
+AUX ADJ NOUN ADP:で	4
+AUX ADJ NOUN ADP:に	3
+AUX ADJ NOUN ADP:の	5
+AUX ADJ NOUN ADP:は	9
+AUX ADJ NOUN AUX:で	3
+AUX ADJ NOUN:お	3
+AUX ADJ PART:の	3
+AUX ADP ADJ AUX:な	5
+AUX ADP ADP ADP:は	4
+AUX ADP ADP:で	13
+AUX ADP ADP:に	5
+AUX ADP ADP:の	9
+AUX ADP AUX AUX:た	15
+AUX ADP AUX AUX:ませ	16
+AUX ADP AUX PART:か	9
+AUX ADP AUX PART:の	4
+AUX ADP AUX SCONJ:が	9
+AUX ADP AUX SCONJ:と	3
+AUX ADP AUX:ある	27
+AUX ADP AUX:です	3
+AUX ADP AUX:ない	70
+AUX ADP AUX:なかっ	6
+AUX ADP AUX:なく	46
+AUX ADP NOUN ADP:が	11
+AUX ADP NOUN ADP:の	7
+AUX ADP NOUN ADP:は	9
+AUX ADP NOUN ADP:も	6
+AUX ADP NOUN AUX:だ	4
+AUX ADP NOUN AUX:です	4
+AUX ADP NOUN:こと	15
+AUX ADP NOUN:もの	4
+AUX ADP PART NOUN:こと	6
+AUX ADP PART:の	25
+AUX ADP VERB AUX:し	5
+AUX ADP VERB AUX:まし	4
+AUX ADP VERB AUX:ます	54
+AUX ADP VERB AUX:られ	9
+AUX ADP VERB AUX:られる	9
+AUX ADP VERB AUX:れ	8
+AUX ADP VERB AUX:れる	9
+AUX ADP VERB NOUN:こと	3
+AUX ADP VERB PART:の	6
+AUX ADP VERB SCONJ:て	29
+AUX ADP VERB:いう	56
+AUX ADP VERB:する	4
+AUX ADP VERB:思い	53
+AUX ADP VERB:見	3
+AUX ADP:だけ	18
+AUX ADP:と	251
+AUX ADP:という	72
+AUX ADP:など	31
+AUX ADP:は	170
+AUX ADP:まで	12
+AUX ADP:も	53
+AUX AUX ADJ:この	4
+AUX AUX ADJ:その	4
+AUX AUX ADP ADP:で	6
+AUX AUX ADP ADP:は	5
+AUX AUX ADP ADP:も	6
+AUX AUX ADP AUX:だっ	4
+AUX AUX ADP NOUN:こと	10
+AUX AUX ADP VERB:いう	23
+AUX AUX ADP VERB:する	3
+AUX AUX ADP:だけ	9
+AUX AUX ADP:と	81
+AUX AUX ADP:という	27
+AUX AUX ADP:に	5
+AUX AUX AUX ADJ:この	3
+AUX AUX AUX ADP:という	8
+AUX AUX AUX AUX:う	4
+AUX AUX AUX AUX:です	4
+AUX AUX AUX AUX:ない	7
+AUX AUX AUX AUX:なっ	4
+AUX AUX AUX AUX:まし	3
+AUX AUX AUX NOUN:もの	11
+AUX AUX AUX NOUN:後	4
+AUX AUX AUX PART:か	8
+AUX AUX AUX SCONJ:が	69
+AUX AUX AUX SCONJ:と	10
+AUX AUX AUX SCONJ:ので	8
+AUX AUX AUX:う	20
+AUX AUX AUX:た	705
+AUX AUX AUX:です	25
+AUX AUX AUX:なっ	21
+AUX AUX AUX:ように	12
+AUX AUX AUX:られ	4
+AUX AUX AUX:ん	55
+AUX AUX NOUN ADP:から	20
+AUX AUX NOUN ADP:が	110
+AUX AUX NOUN ADP:で	54
+AUX AUX NOUN ADP:について	4
+AUX AUX NOUN ADP:により	5
+AUX AUX NOUN ADP:の	85
+AUX AUX NOUN ADP:は	56
+AUX AUX NOUN ADP:へ	5
+AUX AUX NOUN ADP:も	46
+AUX AUX NOUN AUX:である	34
+AUX AUX NOUN AUX:でし	3
+AUX AUX NOUN NOUN:者	5
+AUX AUX NOUN:こと	139
+AUX AUX NOUN:もの	47
+AUX AUX NOUN:上	7
+AUX AUX NOUN:中	4
+AUX AUX NOUN:場合	26
+AUX AUX NOUN:後	14
+AUX AUX NOUN:方	11
+AUX AUX NOUN:時	4
+AUX AUX NUM NOUN:つ	4
+AUX AUX NUM NOUN:人	6
+AUX AUX NUM:2	5
+AUX AUX NUM:3	6
+AUX AUX PART ADP:が	13
+AUX AUX PART ADP:と	7
+AUX AUX PART ADP:は	22
+AUX AUX PART ADP:も	5
+AUX AUX PART ADP:を	5
+AUX AUX PART AUX:で	4
+AUX AUX PART AUX:です	20
+AUX AUX PART:か	41
+AUX AUX PART:第	4
+AUX AUX PROPN ADP:で	5
+AUX AUX PROPN ADP:と	8
+AUX AUX PROPN ADP:は	14
+AUX AUX PROPN NOUN:氏	4
+AUX AUX PUNCT ADJ:その	9
+AUX AUX PUNCT ADP:と	31
+AUX AUX PUNCT., ADP:と	3
+AUX AUX SCONJ ADP:から	3
+AUX AUX SCONJ ADP:に	6
+AUX AUX SCONJ ADP:は	4
+AUX AUX SCONJ AUX:いる	161
+AUX AUX SCONJ AUX:き	12
+AUX AUX SCONJ AUX:である	7
+AUX AUX SCONJ VERB:ある	8
+AUX AUX SCONJ VERB:さ	8
+AUX AUX SCONJ VERB:し	16
+AUX AUX SCONJ VERB:する	6
+AUX AUX SCONJ:が	272
+AUX AUX SCONJ:ため	47
+AUX AUX SCONJ:ので	53
+AUX AUX VERB AUX:さ	3
+AUX AUX VERB AUX:た	3
+AUX AUX VERB SCONJ:て	3
+AUX AUX:ある	57
+AUX AUX:う	78
+AUX AUX:ず	51
+AUX AUX:せ	67
+AUX AUX:た	2900
+AUX AUX:ない	233
+AUX AUX:なかっ	37
+AUX AUX:なっ	73
+AUX AUX:まし	233
+AUX AUX:ます	294
+AUX AUX:ませ	55
+AUX AUX:よう	50
+AUX AUX:ように	62
+AUX AUX:れ	760
+AUX AUX:れる	153
+AUX AUX:ん	114
+AUX NOUN ADJ AUX:な	3
+AUX NOUN ADP ADJ:ない	18
+AUX NOUN ADP ADP:から	3
+AUX NOUN ADP ADP:が	5
+AUX NOUN ADP ADP:と	6
+AUX NOUN ADP ADP:も	22
+AUX NOUN ADP AUX:で	4
+AUX NOUN ADP NOUN:お	11
+AUX NOUN ADP NOUN:こと	5
+AUX NOUN ADP NOUN:ため	5
+AUX NOUN ADP NOUN:中	7
+AUX NOUN ADP NOUN:方	3
+AUX NOUN ADP NUM:1	5
+AUX NOUN ADP NUM:2	6
+AUX NOUN ADP NUM:4	3
+AUX NOUN ADP NUM:一	4
+AUX NOUN ADP PART:の	16
+AUX NOUN ADP PRON:それ	4
+AUX NOUN ADP VERB:あり	43
+AUX NOUN ADP VERB:ある	95
+AUX NOUN ADP VERB:なっ	51
+AUX NOUN ADP VERB:なる	24
+AUX NOUN ADP VERB:見	9
+AUX NOUN ADP:が	409
+AUX NOUN ADP:だけ	7
+AUX NOUN ADP:で	185
+AUX NOUN ADP:という	7
+AUX NOUN ADP:について	13
+AUX NOUN ADP:によって	12
+AUX NOUN ADP:により	13
+AUX NOUN ADP:による	9
+AUX NOUN ADP:も	162
+AUX NOUN ADP:を	412
+AUX NOUN AUX ADP:は	23
+AUX NOUN AUX ADP:も	8
+AUX NOUN AUX AUX:う	3
+AUX NOUN AUX AUX:た	41
+AUX NOUN AUX NOUN:こと	4
+AUX NOUN AUX SCONJ:が	17
+AUX NOUN AUX SCONJ:ので	9
+AUX NOUN AUX:だ	31
+AUX NOUN AUX:で	40
+AUX NOUN AUX:であり	19
+AUX NOUN AUX:である	80
+AUX NOUN AUX:です	50
+AUX NOUN NOUN ADP:が	49
+AUX NOUN NOUN ADP:について	4
+AUX NOUN NOUN ADP:によって	3
+AUX NOUN NOUN ADP:は	35
+AUX NOUN NOUN ADP:へ	3
+AUX NOUN NOUN ADP:も	14
+AUX NOUN NOUN ADP:や	13
+AUX NOUN NOUN ADP:を	61
+AUX NOUN NOUN AUX:だ	4
+AUX NOUN NOUN AUX:でし	5
+AUX NOUN NOUN AUX:です	18
+AUX NOUN NOUN NOUN:さん	4
+AUX NOUN NOUN NOUN:者	4
+AUX NOUN NOUN:さん	7
+AUX NOUN NOUN:店	25
+AUX NOUN NOUN:者	11
+AUX NOUN PART:か	4
+AUX NOUN PROPN ADP:が	3
+AUX NOUN PUNCT ADP:と	5
+AUX NOUN PUNCT ADP:を	4
+AUX NOUN VERB AUX:する	3
+AUX NOUN VERB SCONJ:て	5
+AUX NOUN:お	35
+AUX NOUN:こと	420
+AUX NOUN:もの	132
+AUX NOUN:上	13
+AUX NOUN:人	37
+AUX NOUN:場合	50
+AUX NOUN:後	33
+AUX NOUN:方	32
+AUX NOUN:時	14
+AUX NOUN:者	21
+AUX NUM NOUN ADP:から	3
+AUX NUM NOUN ADP:が	4
+AUX NUM NOUN ADP:で	4
+AUX NUM NOUN ADP:の	19
+AUX NUM NOUN ADP:は	8
+AUX NUM NOUN ADP:を	6
+AUX NUM NOUN:つ	5
+AUX NUM NOUN:人	12
+AUX NUM:1	8
+AUX NUM:3	13
+AUX NUM:4	7
+AUX NUM:一	4
+AUX PART ADP ADJ:この	4
+AUX PART ADP:が	43
+AUX PART ADP:に	32
+AUX PART ADP:の	8
+AUX PART ADP:は	79
+AUX PART AUX AUX:う	14
+AUX PART AUX AUX:た	3
+AUX PART AUX AUX:ない	8
+AUX PART AUX SCONJ:が	38
+AUX PART AUX:だ	21
+AUX PART AUX:です	54
+AUX PART PART ADP:は	5
+AUX PART PART:か	25
+AUX PART PUNCT ADP:と	10
+AUX PART:か	86
+AUX PART:の	281
+AUX PRON ADP:の	6
+AUX PRON ADP:は	5
+AUX PROPN ADP ADP:は	6
+AUX PROPN ADP NUM:3	3
+AUX PROPN ADP:が	21
+AUX PROPN ADP:の	65
+AUX PROPN ADP:は	28
+AUX PROPN ADP:へ	3
+AUX PROPN ADP:や	7
+AUX PROPN ADP:を	25
+AUX PROPN NOUN ADP:が	9
+AUX PROPN NOUN ADP:で	8
+AUX PROPN NOUN ADP:の	24
+AUX PROPN NOUN ADP:は	17
+AUX PROPN NOUN ADP:を	8
+AUX PROPN NOUN:さん	3
+AUX PROPN NOUN:氏	8
+AUX PROPN PROPN ADP:が	6
+AUX PROPN PROPN ADP:の	13
+AUX PROPN PROPN ADP:を	6
+AUX PUNCT ADJ AUX:な	22
+AUX PUNCT ADJ NOUN:後	5
+AUX PUNCT ADJ:その	41
+AUX PUNCT ADP ADP:と	4
+AUX PUNCT ADP PART:の	5
+AUX PUNCT ADP:と	75
+AUX PUNCT ADP:という	12
+AUX PUNCT CCONJ:また	3
+AUX PUNCT NOUN ADP:から	12
+AUX PUNCT NOUN ADP:で	16
+AUX PUNCT NOUN ADP:と	17
+AUX PUNCT NOUN ADP:に	39
+AUX PUNCT NOUN ADP:は	34
+AUX PUNCT NOUN ADP:も	13
+AUX PUNCT NOUN NOUN:店	3
+AUX PUNCT NOUN NOUN:後	3
+AUX PUNCT NOUN NOUN:時	4
+AUX PUNCT NOUN:お	5
+AUX PUNCT NOUN:こと	4
+AUX PUNCT NOUN:後	4
+AUX PUNCT NOUN:現在	7
+AUX PUNCT NUM NOUN:年	42
+AUX PUNCT NUM:1	6
+AUX PUNCT NUM:10	3
+AUX PUNCT NUM:2	7
+AUX PUNCT PRON ADP:が	9
+AUX PUNCT PRON ADP:まで	5
+AUX PUNCT PRON ADP:を	3
+AUX PUNCT PRON:これ	9
+AUX PUNCT PRON:それ	8
+AUX PUNCT PROPN ADP:が	8
+AUX PUNCT PROPN ADP:と	5
+AUX PUNCT PROPN ADP:は	8
+AUX PUNCT PROPN ADP:へ	3
+AUX PUNCT PROPN ADP:を	7
+AUX PUNCT PROPN:日本	7
+AUX PUNCT VERB ADP:に	3
+AUX PUNCT VERB AUX:さ	3
+AUX PUNCT VERB AUX:する	3
+AUX PUNCT., ADJ AUX:に	3
+AUX PUNCT., ADP:と	4
+AUX PUNCT., CCONJ:また	4
+AUX PUNCT., NOUN ADP:から	3
+AUX PUNCT., NOUN ADP:に	10
+AUX PUNCT., NOUN ADP:の	19
+AUX PUNCT., NOUN ADP:も	3
+AUX PUNCT., PRON:これ	3
+AUX SCONJ ADJ ADP:と	3
+AUX SCONJ ADJ AUX:た	3
+AUX SCONJ ADJ AUX:で	5
+AUX SCONJ ADJ AUX:です	3
+AUX SCONJ ADJ AUX:に	12
+AUX SCONJ ADP ADP:は	5
+AUX SCONJ ADP:と	4
+AUX SCONJ ADP:に	23
+AUX SCONJ ADP:の	11
+AUX SCONJ AUX ADP:と	19
+AUX SCONJ AUX AUX:ず	9
+AUX SCONJ AUX AUX:た	252
+AUX SCONJ AUX AUX:ない	40
+AUX SCONJ AUX AUX:ませ	6
+AUX SCONJ AUX NOUN:こと	24
+AUX SCONJ AUX NOUN:もの	9
+AUX SCONJ AUX NOUN:場合	7
+AUX SCONJ AUX SCONJ:が	24
+AUX SCONJ AUX SCONJ:ため	6
+AUX SCONJ AUX SCONJ:ので	13
+AUX SCONJ AUX:いる	578
+AUX SCONJ AUX:おり	80
+AUX SCONJ AUX:である	9
+AUX SCONJ NOUN ADP:から	4
+AUX SCONJ NOUN ADP:が	28
+AUX SCONJ NOUN ADP:で	7
+AUX SCONJ NOUN ADP:と	9
+AUX SCONJ NOUN ADP:に	26
+AUX SCONJ NOUN ADP:も	6
+AUX SCONJ NOUN:お	5
+AUX SCONJ NUM:1	3
+AUX SCONJ PART:か	7
+AUX SCONJ PRON ADP:の	4
+AUX SCONJ PRON ADP:も	3
+AUX SCONJ PROPN ADP:に	4
+AUX SCONJ PROPN ADP:の	5
+AUX SCONJ PUNCT ADJ:その	18
+AUX SCONJ PUNCT NOUN:お	7
+AUX SCONJ PUNCT NOUN:現在	7
+AUX SCONJ PUNCT NUM:3	4
+AUX SCONJ PUNCT PART:約	3
+AUX SCONJ PUNCT PRON:これ	6
+AUX SCONJ PUNCT PRON:それ	14
+AUX SCONJ PUNCT., ADJ:この	4
+AUX SCONJ PUNCT., ADJ:その	4
+AUX SCONJ VERB ADP:など	3
+AUX SCONJ VERB AUX:ず	3
+AUX SCONJ VERB AUX:た	42
+AUX SCONJ VERB AUX:ない	3
+AUX SCONJ VERB AUX:ます	6
+AUX SCONJ VERB AUX:れ	20
+AUX SCONJ VERB AUX:れる	9
+AUX SCONJ VERB PART:の	3
+AUX SCONJ VERB SCONJ:て	55
+AUX SCONJ VERB SCONJ:ば	4
+AUX SCONJ VERB:ある	12
+AUX SCONJ VERB:さ	20
+AUX SCONJ VERB:し	41
+AUX SCONJ VERB:する	18
+AUX SCONJ VERB:行っ	3
+AUX SCONJ:が	556
+AUX SCONJ:ため	123
+AUX SCONJ:と	266
+AUX SCONJ:ので	173
+AUX VERB ADP:と	3
+AUX VERB AUX AUX:ず	3
+AUX VERB AUX AUX:まし	4
+AUX VERB AUX AUX:よう	3
+AUX VERB AUX AUX:ように	3
+AUX VERB AUX NOUN:こと	8
+AUX VERB AUX PART:の	3
+AUX VERB AUX SCONJ:が	4
+AUX VERB AUX SCONJ:と	8
+AUX VERB AUX:し	75
+AUX VERB AUX:する	33
+AUX VERB AUX:せ	4
+AUX VERB AUX:ます	8
+AUX VERB AUX:ように	3
+AUX VERB AUX:られる	4
+AUX VERB AUX:れ	20
+AUX VERB NOUN ADP:の	4
+AUX VERB NOUN ADP:は	4
+AUX VERB NOUN ADP:を	4
+AUX VERB NOUN:こと	9
+AUX VERB NOUN:方	3
+AUX VERB SCONJ:て	43
+AUX VERB:行っ	3
+AUX VERB:見	6
+AUX:ある	95
+AUX:いる	1089
+AUX:う	112
+AUX:おり	162
+AUX:き	109
+AUX:さ	996
+AUX:し	2198
+AUX:する	925
+AUX:ず	149
+AUX:せ	134
+AUX:た	4523
+AUX:だ	278
+AUX:だっ	160
+AUX:で	411
+AUX:であっ	94
+AUX:であり	93
+AUX:である	404
+AUX:でし	89
+AUX:です	475
+AUX:な	761
+AUX:ない	482
+AUX:なかっ	99
+AUX:なく	111
+AUX:なっ	99
+AUX:に	523
+AUX:まし	398
+AUX:ます	557
+AUX:ませ	111
+AUX:よう	92
+AUX:ように	161
+AUX:られ	224
+AUX:られる	87
+AUX:れ	1278
+AUX:れる	338
+AUX:ん	124
+BOF ADJ ADJ AUX:な	3
+BOF ADJ AUX ADP:は	12
+BOF ADJ AUX NOUN:お	3
+BOF ADJ AUX:な	70
+BOF ADJ AUX:に	52
+BOF ADJ NOUN ADP:から	10
+BOF ADJ NOUN ADP:が	12
+BOF ADJ NOUN ADP:で	29
+BOF ADJ NOUN ADP:と	7
+BOF ADJ NOUN ADP:に	24
+BOF ADJ NOUN ADP:について	4
+BOF ADJ NOUN ADP:の	55
+BOF ADJ NOUN ADP:は	93
+BOF ADJ NOUN ADP:も	10
+BOF ADJ NOUN ADP:や	5
+BOF ADJ NOUN NOUN:店	3
+BOF ADJ NOUN:こと	12
+BOF ADJ NOUN:ため	28
+BOF ADJ NOUN:中	4
+BOF ADJ NOUN:場合	3
+BOF ADJ NOUN:年	3
+BOF ADJ NOUN:後	26
+BOF ADJ NOUN:日	6
+BOF ADJ NOUN:時	8
+BOF ADJ PART NUM:3	3
+BOF ADJ:この	175
+BOF ADJ:その	110
+BOF ADV ADJ AUX:な	10
+BOF ADV ADP VERB:し	3
+BOF ADV ADP:は	12
+BOF ADV NOUN ADP:で	5
+BOF ADV NOUN ADP:に	7
+BOF ADV NOUN ADP:の	24
+BOF ADV NOUN ADP:は	7
+BOF ADV PART:の	7
+BOF ADV PROPN ADP:と	3
+BOF ADV PROPN ADP:の	5
+BOF ADV PUNCT ADJ:この	3
+BOF ADV VERB AUX:た	8
+BOF CCONJ ADJ AUX:な	4
+BOF CCONJ ADJ:この	5
+BOF CCONJ ADJ:その	4
+BOF CCONJ NOUN ADP:に	10
+BOF CCONJ NOUN ADP:の	23
+BOF CCONJ NOUN ADP:は	12
+BOF CCONJ NUM NOUN:年	10
+BOF CCONJ NUM NOUN:日	3
+BOF CCONJ PROPN ADP:は	7
+BOF CCONJ PUNCT ADJ:この	12
+BOF CCONJ PUNCT ADJ:その	4
+BOF CCONJ PUNCT NOUN:現在	3
+BOF CCONJ:しかし	112
+BOF CCONJ:また	191
+BOF NOUN ADJ AUX:な	5
+BOF NOUN ADP ADJ:この	3
+BOF NOUN ADP ADP:は	130
+BOF NOUN ADP AUX:ように	3
+BOF NOUN ADP NOUN:こと	3
+BOF NOUN ADP NOUN:中	15
+BOF NOUN ADP NOUN:人	7
+BOF NOUN ADP NOUN:場合	3
+BOF NOUN ADP NUM:2	5
+BOF NOUN ADP NUM:3	6
+BOF NOUN ADP PART:の	15
+BOF NOUN ADP PART:第	3
+BOF NOUN ADP PROPN:日本	4
+BOF NOUN ADP VERB:ある	10
+BOF NOUN ADP VERB:し	19
+BOF NOUN ADP VERB:受け	3
+BOF NOUN ADP VERB:見	3
+BOF NOUN ADP:から	48
+BOF NOUN ADP:の	509
+BOF NOUN ADP:は	462
+BOF NOUN ADP:も	65
+BOF NOUN ADP:や	35
+BOF NOUN AUX ADP:は	5
+BOF NOUN AUX:だ	6
+BOF NOUN AUX:で	6
+BOF NOUN AUX:な	7
+BOF NOUN NOUN ADP:で	66
+BOF NOUN NOUN ADP:について	3
+BOF NOUN NOUN ADP:の	180
+BOF NOUN NOUN ADP:は	138
+BOF NOUN NOUN ADP:も	22
+BOF NOUN NOUN ADP:や	19
+BOF NOUN NOUN AUX:な	3
+BOF NOUN NOUN NOUN:前	3
+BOF NOUN NOUN NOUN:後	5
+BOF NOUN NOUN NOUN:時	4
+BOF NOUN NOUN NOUN:者	6
+BOF NOUN NOUN NUM:1	3
+BOF NOUN NOUN:さん	10
+BOF NOUN NOUN:上	6
+BOF NOUN NOUN:中	4
+BOF NOUN NOUN:内	7
+BOF NOUN NOUN:前	6
+BOF NOUN NOUN:店	14
+BOF NOUN NOUN:後	12
+BOF NOUN NOUN:日	3
+BOF NOUN NOUN:時	6
+BOF NOUN NOUN:者	15
+BOF NOUN NUM NOUN:年	6
+BOF NOUN NUM NOUN:日	47
+BOF NOUN NUM NOUN:時	5
+BOF NOUN NUM:1	15
+BOF NOUN NUM:10	9
+BOF NOUN NUM:3	7
+BOF NOUN PROPN ADP:で	4
+BOF NOUN PROPN ADP:は	9
+BOF NOUN PROPN ADP:を	4
+BOF NOUN PROPN:日本	3
+BOF NOUN VERB AUX:する	3
+BOF NOUN VERB NOUN:中	3
+BOF NOUN:お	29
+BOF NOUN:前	9
+BOF NOUN:現在	36
+BOF NUM NOUN ADP:から	24
+BOF NUM NOUN ADP:に	102
+BOF NUM NOUN ADP:は	25
+BOF NUM NOUN ADP:より	4
+BOF NUM NOUN NOUN:後	7
+BOF NUM NOUN NOUN:現在	6
+BOF NUM NOUN:年	349
+BOF NUM:一	22
+BOF PART NUM NOUN:年	5
+BOF PART NUM NOUN:日	5
+BOF PART NUM:1	8
+BOF PART NUM:2	8
+BOF PART NUM:3	8
+BOF PART:第	39
+BOF PRON ADP ADP:は	13
+BOF PRON ADP ADP:も	15
+BOF PRON ADP:から	15
+BOF PRON ADP:で	36
+BOF PRON ADP:によって	6
+BOF PRON ADP:により	8
+BOF PRON ADP:は	92
+BOF PRON NOUN ADP:の	3
+BOF PRON PART:か	4
+BOF PRON:これ	114
+BOF PROPN ADP ADP:は	39
+BOF PROPN ADP PART:第	3
+BOF PROPN ADP VERB:ある	9
+BOF PROPN ADP:で	55
+BOF PROPN ADP:の	169
+BOF PROPN ADP:は	122
+BOF PROPN ADP:より	4
+BOF PROPN AUX:で	5
+BOF PROPN NOUN ADP:から	8
+BOF PROPN NOUN ADP:で	21
+BOF PROPN NOUN ADP:は	54
+BOF PROPN NOUN ADP:も	4
+BOF PROPN NOUN NOUN:後	3
+BOF PROPN NOUN:内	7
+BOF PROPN NOUN:氏	21
+BOF PROPN NUM ADP:は	3
+BOF PROPN NUM:1	5
+BOF PROPN PART ADP:は	3
+BOF PROPN PROPN ADP:で	5
+BOF PROPN PROPN ADP:と	6
+BOF PROPN PROPN ADP:は	16
+BOF PROPN:日本	24
+BOF PUNCT NOUN ADP:の	13
+BOF PUNCT NOUN ADP:は	4
+BOF PUNCT PRON ADP:は	3
+BOF PUNCT PROPN ADP:の	6
+BOF VERB ADP:に	6
+BOF VERB AUX AUX:れ	11
+BOF VERB AUX AUX:れる	4
+BOF VERB AUX SCONJ:て	9
+BOF VERB AUX:さ	16
+BOF VERB AUX:する	12
+BOF VERB AUX:た	19
+BOF VERB AUX:ない	3
+BOF VERB NOUN ADP:の	5
+BOF VERB NOUN ADP:は	4
+BOF VERB NOUN:中	7
+BOF VERB NOUN:後	7
+BOF VERB NOUN:方	3
+BOF VERB SCONJ:ば	3
+BOF VERB VERB AUX:た	3
+CCONJ ADJ AUX:な	6
+CCONJ ADJ AUX:に	7
+CCONJ ADJ NOUN ADP:に	4
+CCONJ ADJ NOUN ADP:は	3
+CCONJ ADJ:この	5
+CCONJ ADJ:その	5
+CCONJ NOUN ADP ADP:も	3
+CCONJ NOUN ADP VERB:し	6
+CCONJ NOUN ADP:で	9
+CCONJ NOUN ADP:と	9
+CCONJ NOUN ADP:など	3
+CCONJ NOUN ADP:の	33
+CCONJ NOUN ADP:は	16
+CCONJ NOUN NOUN ADP:で	5
+CCONJ NOUN NOUN ADP:に	9
+CCONJ NOUN NOUN ADP:の	17
+CCONJ NOUN NOUN ADP:は	10
+CCONJ NOUN NUM NOUN:日	3
+CCONJ NOUN NUM:1	3
+CCONJ NOUN:お	5
+CCONJ NUM NOUN ADP:に	8
+CCONJ NUM NOUN:年	11
+CCONJ NUM NOUN:日	3
+CCONJ PROPN ADP:に	7
+CCONJ PROPN ADP:は	8
+CCONJ PROPN NOUN ADP:の	6
+CCONJ PUNCT ADJ AUX:な	5
+CCONJ PUNCT ADJ:この	12
+CCONJ PUNCT NOUN ADP:が	12
+CCONJ PUNCT NOUN ADP:と	5
+CCONJ PUNCT NOUN ADP:の	27
+CCONJ PUNCT NOUN ADP:は	9
+CCONJ PUNCT NOUN ADP:も	3
+CCONJ PUNCT NOUN:現在	3
+CCONJ PUNCT NUM NOUN:年	8
+CCONJ PUNCT PRON ADP:の	3
+CCONJ PUNCT PROPN ADP:が	6
+CCONJ PUNCT PROPN ADP:は	8
+CCONJ PUNCT PROPN ADP:や	3
+CCONJ PUNCT., NOUN ADP:の	9
+CCONJ PUNCT., NOUN ADP:は	3
+CCONJ PUNCT., NOUN ADP:を	3
+CCONJ VERB AUX ADP:と	3
+CCONJ VERB AUX AUX:れ	3
+CCONJ VERB AUX:さ	4
+CCONJ VERB AUX:する	4
+CCONJ VERB AUX:ます	3
+CCONJ VERB SCONJ:て	5
+CCONJ:しかし	113
+CCONJ:また	224
+NOUN ADJ ADP:は	3
+NOUN ADJ AUX AUX:ある	3
+NOUN ADJ AUX SCONJ:が	3
+NOUN ADJ AUX SCONJ:て	3
+NOUN ADJ AUX:た	8
+NOUN ADJ AUX:だ	3
+NOUN ADJ AUX:で	10
+NOUN ADJ AUX:な	32
+NOUN ADJ NOUN ADP:が	5
+NOUN ADJ NOUN ADP:と	4
+NOUN ADJ NOUN ADP:に	10
+NOUN ADJ NOUN ADP:の	8
+NOUN ADJ NOUN ADP:も	3
+NOUN ADJ NOUN ADP:を	18
+NOUN ADJ NOUN AUX:である	5
+NOUN ADJ VERB NOUN:こと	4
+NOUN ADP ADJ ADP:だけ	3
+NOUN ADP ADJ ADP:と	50
+NOUN ADP ADJ AUX:た	56
+NOUN ADP ADJ AUX:だ	19
+NOUN ADP ADJ AUX:だっ	14
+NOUN ADP ADJ AUX:な	177
+NOUN ADP ADJ AUX:なっ	11
+NOUN ADP ADJ AUX:に	244
+NOUN ADP ADJ AUX:ように	4
+NOUN ADP ADJ NOUN:こと	15
+NOUN ADP ADJ NOUN:もの	10
+NOUN ADP ADJ NOUN:人	3
+NOUN ADP ADJ NOUN:店	3
+NOUN ADP ADJ NOUN:日	4
+NOUN ADP ADJ PART:の	14
+NOUN ADP ADJ SCONJ:ため	10
+NOUN ADP ADJ SCONJ:と	17
+NOUN ADP ADJ SCONJ:ので	12
+NOUN ADP ADJ VERB:あり	4
+NOUN ADP ADJ VERB:ある	3
+NOUN ADP ADJ:この	32
+NOUN ADP ADJ:その	43
+NOUN ADP ADJ:ない	90
+NOUN ADP ADP ADJ:この	5
+NOUN ADP ADP ADJ:その	9
+NOUN ADP ADP ADJ:ない	3
+NOUN ADP ADP ADP:は	9
+NOUN ADP ADP ADP:も	16
+NOUN ADP ADP NOUN:お	4
+NOUN ADP ADP NOUN:間	4
+NOUN ADP ADP NUM:1	3
+NOUN ADP ADP NUM:10	3
+NOUN ADP ADP NUM:3	4
+NOUN ADP ADP NUM:一	3
+NOUN ADP ADP PART:の	5
+NOUN ADP ADP PART:約	3
+NOUN ADP ADP VERB:あり	3
+NOUN ADP ADP VERB:ある	6
+NOUN ADP ADP VERB:し	3
+NOUN ADP ADP VERB:なっ	12
+NOUN ADP ADP VERB:なる	6
+NOUN ADP ADP:から	11
+NOUN ADP ADP:が	43
+NOUN ADP ADP:だけ	3
+NOUN ADP ADP:で	54
+NOUN ADP ADP:と	37
+NOUN ADP ADP:に	53
+NOUN ADP ADP:について	4
+NOUN ADP ADP:の	95
+NOUN ADP ADP:は	911
+NOUN ADP ADP:まで	7
+NOUN ADP ADP:を	61
+NOUN ADP ADV ADP:と	12
+NOUN ADP ADV ADP:は	3
+NOUN ADP ADV AUX:である	3
+NOUN ADP ADV AUX:です	4
+NOUN ADP ADV PART:か	3
+NOUN ADP ADV PART:の	9
+NOUN ADP ADV VERB:あり	5
+NOUN ADP ADV VERB:し	3
+NOUN ADP ADV VERB:なる	3
+NOUN ADP AUX ADP:は	8
+NOUN ADP AUX AUX:た	10
+NOUN ADP AUX AUX:です	4
+NOUN ADP AUX AUX:なく	5
+NOUN ADP AUX NOUN:もの	4
+NOUN ADP AUX:だっ	6
+NOUN ADP AUX:で	13
+NOUN ADP AUX:である	4
+NOUN ADP AUX:よう	6
+NOUN ADP AUX:ように	26
+NOUN ADP NOUN ADP:から	123
+NOUN ADP NOUN ADP:だけ	10
+NOUN ADP NOUN ADP:と	395
+NOUN ADP NOUN ADP:という	9
+NOUN ADP NOUN ADP:など	76
+NOUN ADP NOUN ADP:に	892
+NOUN ADP NOUN ADP:について	37
+NOUN ADP NOUN ADP:によって	16
+NOUN ADP NOUN ADP:により	17
+NOUN ADP NOUN ADP:による	15
+NOUN ADP NOUN ADP:の	806
+NOUN ADP NOUN ADP:は	359
+NOUN ADP NOUN ADP:まで	28
+NOUN ADP NOUN ADP:も	139
+NOUN ADP NOUN ADP:や	103
+NOUN ADP NOUN ADP:より	12
+NOUN ADP NOUN ADP:を	1214
+NOUN ADP NOUN AUX:だ	25
+NOUN ADP NOUN AUX:だっ	30
+NOUN ADP NOUN AUX:で	21
+NOUN ADP NOUN AUX:であっ	14
+NOUN ADP NOUN AUX:であり	25
+NOUN ADP NOUN AUX:である	86
+NOUN ADP NOUN AUX:でし	7
+NOUN ADP NOUN AUX:です	46
+NOUN ADP NOUN AUX:な	15
+NOUN ADP NOUN NOUN:さん	8
+NOUN ADP NOUN NOUN:上	11
+NOUN ADP NOUN NOUN:人	9
+NOUN ADP NOUN NOUN:内	9
+NOUN ADP NOUN NOUN:前	3
+NOUN ADP NOUN NOUN:後	11
+NOUN ADP NOUN NOUN:時	5
+NOUN ADP NOUN NOUN:者	32
+NOUN ADP NOUN NOUN:間	8
+NOUN ADP NOUN NUM:1	9
+NOUN ADP NOUN NUM:10	3
+NOUN ADP NOUN NUM:4	9
+NOUN ADP NOUN PART:約	9
+NOUN ADP NOUN VERB:あり	3
+NOUN ADP NOUN VERB:し	3
+NOUN ADP NOUN:こと	32
+NOUN ADP NOUN:ため	53
+NOUN ADP NOUN:もの	22
+NOUN ADP NOUN:上	13
+NOUN ADP NOUN:中	62
+NOUN ADP NOUN:人	33
+NOUN ADP NOUN:内	5
+NOUN ADP NOUN:前	16
+NOUN ADP NOUN:場合	15
+NOUN ADP NOUN:年	5
+NOUN ADP NOUN:店	11
+NOUN ADP NOUN:後	14
+NOUN ADP NOUN:方	20
+NOUN ADP NOUN:日	9
+NOUN ADP NOUN:時	16
+NOUN ADP NOUN:現在	3
+NOUN ADP NOUN:目	9
+NOUN ADP NOUN:者	5
+NOUN ADP NUM ADP:と	3
+NOUN ADP NUM ADP:の	3
+NOUN ADP NUM NOUN:つ	47
+NOUN ADP NUM NOUN:円	9
+NOUN ADP NUM NOUN:年	119
+NOUN ADP NUM NOUN:日	37
+NOUN ADP NUM NOUN:時	10
+NOUN ADP NUM:1	75
+NOUN ADP NUM:10	13
+NOUN ADP NUM:5	17
+NOUN ADP NUM:一	42
+NOUN ADP PART NOUN:間	8
+NOUN ADP PART NUM:1	11
+NOUN ADP PART NUM:2	5
+NOUN ADP PART NUM:3	9
+NOUN ADP PART NUM:4	9
+NOUN ADP PART:第	40
+NOUN ADP PART:約	35
+NOUN ADP PRON ADP:から	4
+NOUN ADP PRON ADP:だけ	4
+NOUN ADP PRON ADP:で	4
+NOUN ADP PRON ADP:に	18
+NOUN ADP PRON ADP:も	8
+NOUN ADP PRON ADP:を	17
+NOUN ADP PRON:これ	8
+NOUN ADP PRON:それ	11
+NOUN ADP PROPN ADP:から	21
+NOUN ADP PROPN ADP:で	57
+NOUN ADP PROPN ADP:と	46
+NOUN ADP PROPN ADP:という	3
+NOUN ADP PROPN ADP:など	4
+NOUN ADP PROPN ADP:による	3
+NOUN ADP PROPN ADP:の	140
+NOUN ADP PROPN ADP:は	34
+NOUN ADP PROPN ADP:も	8
+NOUN ADP PROPN ADP:より	3
+NOUN ADP PROPN NOUN:内	5
+NOUN ADP PROPN NOUN:氏	15
+NOUN ADP PROPN NUM:1	4
+NOUN ADP PROPN VERB:し	3
+NOUN ADP PUNCT ADJ:その	7
+NOUN ADP PUNCT NOUN:お	4
+NOUN ADP PUNCT NOUN:現在	5
+NOUN ADP PUNCT NUM:2	8
+NOUN ADP PUNCT PART:第	6
+NOUN ADP PUNCT PRON:これ	4
+NOUN ADP PUNCT PRON:それ	6
+NOUN ADP PUNCT PROPN:日本	5
+NOUN ADP PUNCT., ADJ:この	6
+NOUN ADP PUNCT., ADJ:その	4
+NOUN ADP VERB ADP:だけ	11
+NOUN ADP VERB ADP:と	41
+NOUN ADP VERB ADP:という	18
+NOUN ADP VERB ADP:など	28
+NOUN ADP VERB ADP:に	34
+NOUN ADP VERB ADP:まで	7
+NOUN ADP VERB AUX:う	24
+NOUN ADP VERB AUX:し	1266
+NOUN ADP VERB AUX:する	579
+NOUN ADP VERB AUX:せ	44
+NOUN ADP VERB AUX:た	1063
+NOUN ADP VERB AUX:だ	50
+NOUN ADP VERB AUX:ない	91
+NOUN ADP VERB AUX:なく	24
+NOUN ADP VERB AUX:まし	96
+NOUN ADP VERB AUX:ます	96
+NOUN ADP VERB AUX:ませ	28
+NOUN ADP VERB AUX:よう	22
+NOUN ADP VERB AUX:れ	297
+NOUN ADP VERB NOUN:こと	150
+NOUN ADP VERB NOUN:もの	20
+NOUN ADP VERB NOUN:中	14
+NOUN ADP VERB NOUN:前	3
+NOUN ADP VERB NOUN:場合	5
+NOUN ADP VERB NOUN:後	9
+NOUN ADP VERB NOUN:方	17
+NOUN ADP VERB NOUN:時	4
+NOUN ADP VERB NOUN:者	7
+NOUN ADP VERB NUM:2	3
+NOUN ADP VERB PART:か	9
+NOUN ADP VERB PART:の	68
+NOUN ADP VERB SCONJ:が	49
+NOUN ADP VERB SCONJ:ため	53
+NOUN ADP VERB SCONJ:て	1637
+NOUN ADP VERB SCONJ:で	63
+NOUN ADP VERB SCONJ:ので	24
+NOUN ADP VERB SCONJ:ば	38
+NOUN ADP VERB:あり	131
+NOUN ADP VERB:ある	341
+NOUN ADP VERB:さ	49
+NOUN ADP VERB:し	554
+NOUN ADP VERB:する	79
+NOUN ADP VERB:なっ	298
+NOUN ADP VERB:なる	142
+NOUN ADP VERB:受け	79
+NOUN ADP VERB:行っ	62
+NOUN ADP VERB:見	53
+NOUN ADP:から	670
+NOUN ADP:が	3013
+NOUN ADP:で	1960
+NOUN ADP:に	3888
+NOUN ADP:について	122
+NOUN ADP:によって	97
+NOUN ADP:により	71
+NOUN ADP:による	99
+NOUN ADP:の	5697
+NOUN ADP:へ	161
+NOUN ADP:や	435
+NOUN ADP:を	4145
+NOUN ADV VERB AUX:さ	3
+NOUN ADV VERB AUX:し	3
+NOUN AUX ADJ AUX:な	3
+NOUN AUX ADP AUX:ある	22
+NOUN AUX ADP AUX:ない	45
+NOUN AUX ADP AUX:なかっ	6
+NOUN AUX ADP PART:の	3
+NOUN AUX ADP VERB:思い	15
+NOUN AUX ADP:は	87
+NOUN AUX ADP:も	29
+NOUN AUX AUX ADP:と	5
+NOUN AUX AUX NOUN:こと	7
+NOUN AUX AUX PART:の	5
+NOUN AUX AUX SCONJ:が	25
+NOUN AUX AUX SCONJ:ため	3
+NOUN AUX AUX SCONJ:と	6
+NOUN AUX AUX SCONJ:ので	7
+NOUN AUX AUX SCONJ:ば	3
+NOUN AUX AUX:う	9
+NOUN AUX AUX:た	241
+NOUN AUX AUX:です	3
+NOUN AUX AUX:なく	3
+NOUN AUX NOUN ADP:から	4
+NOUN AUX NOUN ADP:で	5
+NOUN AUX NOUN ADP:と	7
+NOUN AUX NOUN ADP:に	4
+NOUN AUX NOUN ADP:の	12
+NOUN AUX NOUN ADP:は	4
+NOUN AUX NOUN:こと	17
+NOUN AUX PART ADP:に	11
+NOUN AUX PART ADP:の	3
+NOUN AUX PART AUX:だ	6
+NOUN AUX PART:の	35
+NOUN AUX PROPN ADP:を	4
+NOUN AUX PUNCT ADJ:その	4
+NOUN AUX PUNCT ADP:と	5
+NOUN AUX SCONJ:が	51
+NOUN AUX SCONJ:と	30
+NOUN AUX SCONJ:ので	31
+NOUN AUX SCONJ:ば	6
+NOUN AUX:だ	125
+NOUN AUX:だっ	110
+NOUN AUX:で	142
+NOUN AUX:であっ	78
+NOUN AUX:であり	84
+NOUN AUX:である	355
+NOUN AUX:でし	60
+NOUN AUX:です	232
+NOUN AUX:な	91
+NOUN CCONJ NOUN ADP:が	3
+NOUN CCONJ NOUN ADP:の	5
+NOUN NOUN ADJ AUX:に	3
+NOUN NOUN ADP ADJ:この	10
+NOUN NOUN ADP ADJ:その	9
+NOUN NOUN ADP ADP:が	17
+NOUN NOUN ADP ADP:で	16
+NOUN NOUN ADP ADP:に	15
+NOUN NOUN ADP ADP:の	28
+NOUN NOUN ADP ADP:は	256
+NOUN NOUN ADP ADP:も	70
+NOUN NOUN ADP ADP:を	24
+NOUN NOUN ADP AUX:ように	5
+NOUN NOUN ADP NOUN:お	18
+NOUN NOUN ADP NOUN:ため	17
+NOUN NOUN ADP NOUN:もの	8
+NOUN NOUN ADP NOUN:前	5
+NOUN NOUN ADP NOUN:年	3
+NOUN NOUN ADP NOUN:店	4
+NOUN NOUN ADP NOUN:後	4
+NOUN NOUN ADP NOUN:方	6
+NOUN NOUN ADP NOUN:間	6
+NOUN NOUN ADP NUM:10	6
+NOUN NOUN ADP NUM:2	18
+NOUN NOUN ADP NUM:3	16
+NOUN NOUN ADP NUM:4	8
+NOUN NOUN ADP NUM:一	17
+NOUN NOUN ADP PART:の	102
+NOUN NOUN ADP PART:約	18
+NOUN NOUN ADP PROPN:日本	6
+NOUN NOUN ADP VERB:いう	5
+NOUN NOUN ADP VERB:し	135
+NOUN NOUN ADP:だけ	11
+NOUN NOUN ADP:で	522
+NOUN NOUN ADP:と	429
+NOUN NOUN ADP:という	22
+NOUN NOUN ADP:など	101
+NOUN NOUN ADP:に	955
+NOUN NOUN ADP:により	21
+NOUN NOUN ADP:による	35
+NOUN NOUN ADP:の	1553
+NOUN NOUN ADP:は	611
+NOUN NOUN ADP:へ	44
+NOUN NOUN ADP:まで	44
+NOUN NOUN ADP:も	134
+NOUN NOUN ADP:や	121
+NOUN NOUN ADP:より	18
+NOUN NOUN AUX ADP:と	10
+NOUN NOUN AUX ADP:も	6
+NOUN NOUN AUX AUX:ない	3
+NOUN NOUN AUX AUX:なく	3
+NOUN NOUN AUX SCONJ:が	10
+NOUN NOUN AUX:で	33
+NOUN NOUN AUX:であっ	23
+NOUN NOUN AUX:であり	21
+NOUN NOUN AUX:である	85
+NOUN NOUN AUX:でし	21
+NOUN NOUN AUX:です	53
+NOUN NOUN AUX:な	22
+NOUN NOUN NOUN ADP:から	28
+NOUN NOUN NOUN ADP:が	122
+NOUN NOUN NOUN ADP:と	98
+NOUN NOUN NOUN ADP:という	5
+NOUN NOUN NOUN ADP:など	21
+NOUN NOUN NOUN ADP:について	4
+NOUN NOUN NOUN ADP:によって	3
+NOUN NOUN NOUN ADP:により	4
+NOUN NOUN NOUN ADP:による	9
+NOUN NOUN NOUN ADP:の	289
+NOUN NOUN NOUN ADP:を	166
+NOUN NOUN NOUN AUX:だ	4
+NOUN NOUN NOUN AUX:で	7
+NOUN NOUN NOUN AUX:であり	4
+NOUN NOUN NOUN AUX:である	18
+NOUN NOUN NOUN NOUN:上	4
+NOUN NOUN NOUN NOUN:内	5
+NOUN NOUN NOUN NUM:2	7
+NOUN NOUN NOUN:さん	20
+NOUN NOUN NOUN:中	9
+NOUN NOUN NOUN:内	12
+NOUN NOUN NOUN:後	18
+NOUN NOUN NOUN:日	3
+NOUN NOUN NOUN:時	15
+NOUN NOUN NOUN:氏	6
+NOUN NOUN NOUN:現在	3
+NOUN NOUN NOUN:者	45
+NOUN NOUN NUM NOUN:円	4
+NOUN NOUN NUM NOUN:日	150
+NOUN NOUN NUM:2	19
+NOUN NOUN NUM:5	10
+NOUN NOUN PART ADP:は	4
+NOUN NOUN PART:の	7
+NOUN NOUN PART:第	7
+NOUN NOUN PROPN ADP:で	7
+NOUN NOUN PROPN ADP:に	9
+NOUN NOUN PROPN ADP:を	4
+NOUN NOUN PROPN:日本	3
+NOUN NOUN PUNCT ADP:が	16
+NOUN NOUN PUNCT ADP:で	9
+NOUN NOUN PUNCT ADP:という	10
+NOUN NOUN PUNCT ADP:など	11
+NOUN NOUN PUNCT ADP:に	15
+NOUN NOUN PUNCT ADP:の	31
+NOUN NOUN PUNCT ADP:や	5
+NOUN NOUN PUNCT AUX:です	3
+NOUN NOUN SYM ADP:で	5
+NOUN NOUN SYM ADP:と	3
+NOUN NOUN SYM ADP:に	8
+NOUN NOUN SYM ADP:や	4
+NOUN NOUN VERB AUX:た	8
+NOUN NOUN VERB AUX:ます	9
+NOUN NOUN VERB AUX:れ	4
+NOUN NOUN VERB SCONJ:て	14
+NOUN NOUN VERB:し	14
+NOUN NOUN VERB:する	3
+NOUN NOUN:さん	70
+NOUN NOUN:上	42
+NOUN NOUN:内	54
+NOUN NOUN:前	46
+NOUN NOUN:店	103
+NOUN NOUN:後	79
+NOUN NOUN:時	51
+NOUN NOUN:目	92
+NOUN NOUN:者	156
+NOUN NOUN:間	34
+NOUN NUM ADP:が	4
+NOUN NUM ADP:で	3
+NOUN NUM ADP:と	5
+NOUN NUM ADP:に	5
+NOUN NUM AUX:である	3
+NOUN NUM NOUN ADP:で	29
+NOUN NUM NOUN ADP:と	20
+NOUN NUM NOUN ADP:に	128
+NOUN NUM NOUN ADP:へ	3
+NOUN NUM NOUN ADP:まで	18
+NOUN NUM NOUN ADP:より	3
+NOUN NUM NOUN ADP:を	36
+NOUN NUM NOUN AUX:だっ	3
+NOUN NUM NOUN NOUN:目	14
+NOUN NUM NOUN NUM:1	5
+NOUN NUM NOUN NUM:10	3
+NOUN NUM NOUN NUM:2	4
+NOUN NUM NOUN:日	274
+NOUN NUM NOUN:時	25
+NOUN NUM NUM NOUN:円	15
+NOUN NUM PROPN ADP:に	4
+NOUN NUM PROPN ADP:の	8
+NOUN NUM:1	86
+NOUN NUM:10	28
+NOUN NUM:4	37
+NOUN NUM:5	28
+NOUN PART ADP:と	4
+NOUN PART ADP:は	20
+NOUN PART ADP:も	5
+NOUN PART NOUN ADP:と	6
+NOUN PART NOUN ADP:の	13
+NOUN PART NOUN ADP:は	6
+NOUN PART NUM NOUN:人	5
+NOUN PART NUM:10	3
+NOUN PART NUM:2	5
+NOUN PART NUM:5	3
+NOUN PART PROPN ADP:の	3
+NOUN PART VERB AUX:さ	5
+NOUN PART VERB AUX:し	4
+NOUN PART VERB AUX:た	3
+NOUN PART VERB SCONJ:て	5
+NOUN PART VERB:し	6
+NOUN PART:か	53
+NOUN PART:約	24
+NOUN PRON ADP:は	3
+NOUN PROPN ADP ADJ:その	3
+NOUN PROPN ADP ADP:は	11
+NOUN PROPN ADP NUM:4	3
+NOUN PROPN ADP PART:の	8
+NOUN PROPN ADP VERB:ある	6
+NOUN PROPN ADP:から	10
+NOUN PROPN ADP:で	24
+NOUN PROPN ADP:と	27
+NOUN PROPN ADP:に	52
+NOUN PROPN ADP:によって	3
+NOUN PROPN ADP:へ	5
+NOUN PROPN AUX:である	3
+NOUN PROPN NOUN ADP:が	13
+NOUN PROPN NOUN ADP:に	17
+NOUN PROPN NOUN ADP:の	44
+NOUN PROPN NOUN ADP:や	3
+NOUN PROPN NOUN ADP:より	4
+NOUN PROPN NOUN NUM:2	3
+NOUN PROPN NUM:1	5
+NOUN PROPN PROPN ADP:が	3
+NOUN PROPN PROPN ADP:と	3
+NOUN PROPN PROPN ADP:を	4
+NOUN PROPN PUNCT ADP:の	3
+NOUN PROPN SYM ADP:の	5
+NOUN PUNCT ADJ AUX:で	3
+NOUN PUNCT ADJ AUX:に	11
+NOUN PUNCT ADP ADP:の	5
+NOUN PUNCT ADP ADP:は	13
+NOUN PUNCT ADP VERB:ある	4
+NOUN PUNCT ADP VERB:し	19
+NOUN PUNCT ADP VERB:なっ	7
+NOUN PUNCT ADP VERB:なる	3
+NOUN PUNCT ADP:が	29
+NOUN PUNCT ADP:で	14
+NOUN PUNCT ADP:など	24
+NOUN PUNCT ADP:に	34
+NOUN PUNCT ADP:の	65
+NOUN PUNCT ADP:は	25
+NOUN PUNCT ADP:も	5
+NOUN PUNCT ADP:や	8
+NOUN PUNCT ADP:を	64
+NOUN PUNCT AUX ADP:と	3
+NOUN PUNCT AUX AUX:た	4
+NOUN PUNCT AUX:だっ	3
+NOUN PUNCT AUX:である	7
+NOUN PUNCT AUX:です	3
+NOUN PUNCT NOUN ADP:が	31
+NOUN PUNCT NOUN ADP:で	26
+NOUN PUNCT NOUN ADP:など	23
+NOUN PUNCT NOUN ADP:によって	3
+NOUN PUNCT NOUN ADP:を	37
+NOUN PUNCT NUM NOUN:人	4
+NOUN PUNCT NUM:3	5
+NOUN PUNCT NUM:5	3
+NOUN PUNCT NUM:一	4
+NOUN PUNCT PART:第	6
+NOUN PUNCT PRON ADP:の	3
+NOUN PUNCT PRON:それ	3
+NOUN PUNCT PROPN ADP:から	6
+NOUN PUNCT PROPN ADP:で	10
+NOUN PUNCT PROPN ADP:と	16
+NOUN PUNCT PROPN ADP:など	7
+NOUN PUNCT PROPN ADP:は	23
+NOUN PUNCT PROPN ADP:より	3
+NOUN PUNCT VERB AUX:し	7
+NOUN PUNCT VERB AUX:する	3
+NOUN PUNCT VERB AUX:た	5
+NOUN PUNCT VERB SCONJ:て	5
+NOUN PUNCT VERB:し	3
+NOUN PUNCT., NOUN ADP:と	3
+NOUN PUNCT., NOUN ADP:は	5
+NOUN PUNCT., NOUN ADP:を	8
+NOUN PUNCT., PRON ADP:は	3
+NOUN SYM ADP ADP:に	4
+NOUN SYM ADP ADP:の	3
+NOUN SYM ADP ADP:も	3
+NOUN SYM ADP:が	6
+NOUN SYM ADP:など	13
+NOUN SYM ADP:に	15
+NOUN SYM ADP:は	10
+NOUN SYM ADP:や	7
+NOUN SYM ADP:を	9
+NOUN SYM NOUN ADP:と	6
+NOUN SYM NOUN ADP:は	11
+NOUN SYM NOUN ADP:を	12
+NOUN SYM PROPN ADP:で	3
+NOUN SYM PROPN ADP:と	8
+NOUN SYM PROPN ADP:など	3
+NOUN SYM PROPN ADP:に	7
+NOUN SYM PROPN ADP:を	7
+NOUN SYM VERB AUX:さ	3
+NOUN SYM VERB AUX:し	6
+NOUN VERB ADP:と	5
+NOUN VERB ADP:の	3
+NOUN VERB AUX ADP:と	7
+NOUN VERB AUX AUX:う	4
+NOUN VERB AUX AUX:た	64
+NOUN VERB AUX AUX:ない	7
+NOUN VERB AUX AUX:まし	8
+NOUN VERB AUX AUX:よう	4
+NOUN VERB AUX AUX:ん	3
+NOUN VERB AUX NOUN:こと	10
+NOUN VERB AUX PART:か	3
+NOUN VERB AUX SCONJ:て	38
+NOUN VERB AUX SCONJ:ので	3
+NOUN VERB AUX:さ	45
+NOUN VERB AUX:し	108
+NOUN VERB AUX:する	54
+NOUN VERB AUX:ず	6
+NOUN VERB AUX:せ	3
+NOUN VERB AUX:だ	4
+NOUN VERB AUX:です	8
+NOUN VERB AUX:な	3
+NOUN VERB AUX:まし	11
+NOUN VERB AUX:ます	19
+NOUN VERB AUX:ませ	3
+NOUN VERB AUX:ん	3
+NOUN VERB NOUN ADP:に	8
+NOUN VERB NOUN ADP:の	7
+NOUN VERB NOUN:中	8
+NOUN VERB NOUN:後	6
+NOUN VERB SCONJ ADP:も	5
+NOUN VERB SCONJ AUX:おり	5
+NOUN VERB SCONJ:で	7
+NOUN VERB:あり	7
+NOUN VERB:ある	20
+NOUN VERB:する	5
+NOUN:お	251
+NOUN:こと	764
+NOUN:さん	114
+NOUN:ため	93
+NOUN:つ	96
+NOUN:もの	219
+NOUN:上	84
+NOUN:中	190
+NOUN:人	340
+NOUN:内	90
+NOUN:円	106
+NOUN:前	106
+NOUN:場合	84
+NOUN:年	852
+NOUN:店	142
+NOUN:後	233
+NOUN:方	98
+NOUN:日	456
+NOUN:時	151
+NOUN:氏	130
+NOUN:現在	103
+NOUN:目	123
+NOUN:者	195
+NOUN:間	93
+NUM ADP ADP:も	3
+NUM ADP NOUN ADP:で	3
+NUM ADP NOUN ADP:と	4
+NUM ADP NOUN ADP:に	5
+NUM ADP NOUN ADP:は	3
+NUM ADP NOUN ADP:を	8
+NUM ADP VERB AUX:さ	5
+NUM ADP VERB AUX:し	3
+NUM ADP VERB AUX:する	3
+NUM ADP VERB AUX:た	6
+NUM ADP VERB SCONJ:て	6
+NUM ADP:から	7
+NUM ADP:で	12
+NUM ADP:と	17
+NUM ADP:など	3
+NUM ADP:の	38
+NUM ADV NUM NOUN:人	5
+NUM ADV NUM NOUN:円	5
+NUM AUX:である	5
+NUM NOUN ADP ADJ:この	3
+NUM NOUN ADP ADJ:その	5
+NUM NOUN ADP ADJ:ない	3
+NUM NOUN ADP ADP:に	12
+NUM NOUN ADP ADP:の	12
+NUM NOUN ADP ADP:は	106
+NUM NOUN ADP ADP:も	9
+NUM NOUN ADP NOUN:時	6
+NUM NOUN ADP NOUN:間	7
+NUM NOUN ADP NUM:2	11
+NUM NOUN ADP NUM:3	5
+NUM NOUN ADP NUM:4	5
+NUM NOUN ADP NUM:5	6
+NUM NOUN ADP PART:の	11
+NUM NOUN ADP PART:第	12
+NUM NOUN ADP VERB:なっ	17
+NUM NOUN ADP VERB:なる	9
+NUM NOUN ADP:から	94
+NUM NOUN ADP:だけ	8
+NUM NOUN ADP:と	71
+NUM NOUN ADP:という	7
+NUM NOUN ADP:に	464
+NUM NOUN ADP:の	422
+NUM NOUN ADP:は	102
+NUM NOUN ADP:まで	70
+NUM NOUN ADP:も	27
+NUM NOUN ADP:より	8
+NUM NOUN AUX AUX:た	24
+NUM NOUN AUX SCONJ:が	3
+NUM NOUN AUX:だっ	13
+NUM NOUN AUX:であっ	10
+NUM NOUN NOUN ADP:から	27
+NUM NOUN NOUN ADP:が	19
+NUM NOUN NOUN ADP:で	50
+NUM NOUN NOUN ADP:という	4
+NUM NOUN NOUN ADP:に	126
+NUM NOUN NOUN ADP:の	176
+NUM NOUN NOUN ADP:まで	19
+NUM NOUN NOUN ADP:より	4
+NUM NOUN NOUN ADP:を	39
+NUM NOUN NOUN AUX:である	5
+NUM NOUN NOUN NOUN:現在	3
+NUM NOUN NOUN NUM:1	11
+NUM NOUN NOUN NUM:10	5
+NUM NOUN NOUN NUM:3	4
+NUM NOUN NOUN NUM:4	6
+NUM NOUN NOUN:中	3
+NUM NOUN NOUN:前	21
+NUM NOUN NOUN:後	20
+NUM NOUN NOUN:現在	8
+NUM NOUN NOUN:目	88
+NUM NOUN NOUN:間	14
+NUM NOUN NUM NOUN:時	5
+NUM NOUN NUM:10	5
+NUM NOUN NUM:2	11
+NUM NOUN NUM:3	6
+NUM NOUN NUM:4	6
+NUM NOUN NUM:一	3
+NUM NOUN PART:か	13
+NUM NOUN PROPN ADP:で	5
+NUM NOUN PROPN ADP:と	3
+NUM NOUN PROPN ADP:に	4
+NUM NOUN PROPN ADP:の	4
+NUM NOUN PUNCT ADP:と	3
+NUM NOUN PUNCT ADP:の	4
+NUM NOUN PUNCT ADP:を	3
+NUM NOUN PUNCT PART:第	4
+NUM NOUN VERB ADP:と	3
+NUM NOUN VERB AUX:し	18
+NUM NOUN VERB AUX:た	11
+NUM NOUN VERB SCONJ:て	16
+NUM NOUN:つ	96
+NUM NOUN:人	200
+NUM NOUN:円	97
+NUM NOUN:年	826
+NUM NOUN:日	399
+NUM NOUN:時	44
+NUM NUM NOUN ADP:が	4
+NUM NUM NOUN ADP:で	3
+NUM NUM NOUN ADP:の	16
+NUM NUM NOUN ADP:を	14
+NUM NUM NOUN AUX:だっ	3
+NUM NUM NOUN NOUN:前	4
+NUM NUM NOUN:円	58
+NUM PART NUM ADP:の	4
+NUM PART NUM NOUN:年	3
+NUM PART NUM:1	6
+NUM PART NUM:2	3
+NUM PART NUM:3	3
+NUM PROPN ADP VERB:ある	3
+NUM PROPN ADP:から	3
+NUM PROPN ADP:と	9
+NUM PROPN ADP:という	3
+NUM PROPN ADP:の	23
+NUM PROPN ADP:を	7
+NUM PROPN AUX:で	3
+NUM PROPN NOUN ADP:が	4
+NUM PROPN NOUN ADP:に	4
+NUM PROPN NOUN ADP:の	7
+NUM PROPN NOUN ADP:を	5
+NUM PUNCT ADP:を	4
+NUM SYM ADP ADP:は	3
+NUM SYM ADP:で	5
+NUM:1	317
+NUM:10	95
+NUM:2	279
+NUM:3	238
+NUM:4	149
+NUM:5	97
+NUM:一	140
+PART ADJ AUX:な	20
+PART ADJ NOUN ADP:を	4
+PART ADP ADJ AUX:だ	3
+PART ADP ADJ AUX:で	7
+PART ADP ADJ AUX:な	10
+PART ADP ADJ:この	6
+PART ADP ADP:も	4
+PART ADP AUX:ように	4
+PART ADP NOUN ADP:が	10
+PART ADP NOUN ADP:で	8
+PART ADP NOUN ADP:の	14
+PART ADP NOUN ADP:は	3
+PART ADP NOUN ADP:も	3
+PART ADP NOUN AUX:だ	3
+PART ADP NOUN AUX:です	3
+PART ADP NOUN AUX:な	3
+PART ADP NUM NOUN:年	3
+PART ADP PUNCT ADJ:この	3
+PART ADP VERB AUX:し	10
+PART ADP VERB AUX:する	4
+PART ADP VERB AUX:ます	4
+PART ADP VERB SCONJ:て	20
+PART ADP VERB SCONJ:ば	3
+PART ADP VERB:いう	7
+PART ADP VERB:思い	5
+PART ADP:が	88
+PART ADP:と	41
+PART ADP:は	146
+PART ADP:も	34
+PART AUX ADP AUX:ない	7
+PART AUX ADP:は	10
+PART AUX AUX AUX:ん	4
+PART AUX AUX PART:か	17
+PART AUX AUX:う	20
+PART AUX AUX:ない	10
+PART AUX AUX:ませ	4
+PART AUX PART:か	3
+PART AUX SCONJ:が	52
+PART AUX:だ	28
+PART AUX:だっ	5
+PART AUX:で	12
+PART AUX:です	72
+PART NOUN ADP ADJ:ない	6
+PART NOUN ADP ADP:は	14
+PART NOUN ADP ADP:も	3
+PART NOUN ADP VERB:あり	3
+PART NOUN ADP VERB:ある	8
+PART NOUN ADP VERB:なる	7
+PART NOUN ADP:が	53
+PART NOUN ADP:で	33
+PART NOUN ADP:と	20
+PART NOUN ADP:など	3
+PART NOUN ADP:について	4
+PART NOUN ADP:により	3
+PART NOUN ADP:は	50
+PART NOUN ADP:も	26
+PART NOUN ADP:を	94
+PART NOUN AUX:で	3
+PART NOUN AUX:である	5
+PART NOUN AUX:です	7
+PART NOUN NOUN ADP:が	11
+PART NOUN NOUN ADP:で	10
+PART NOUN NOUN ADP:と	9
+PART NOUN NOUN ADP:は	13
+PART NOUN NOUN ADP:も	4
+PART NOUN NOUN ADP:を	22
+PART NOUN:お	4
+PART NOUN:こと	12
+PART NOUN:前	3
+PART NOUN:間	10
+PART NUM ADP:の	16
+PART NUM NOUN ADP:から	10
+PART NUM NOUN ADP:が	17
+PART NUM NOUN ADP:で	17
+PART NUM NOUN ADP:と	12
+PART NUM NOUN ADP:は	14
+PART NUM NOUN ADP:まで	7
+PART NUM NOUN ADP:を	9
+PART NUM NOUN:人	22
+PART NUM PROPN ADP:が	3
+PART NUM:1	52
+PART NUM:10	15
+PART NUM:2	33
+PART NUM:3	32
+PART NUM:4	18
+PART NUM:5	15
+PART NUM:一	20
+PART PART ADP VERB:いう	3
+PART PART ADP:と	6
+PART PART ADP:は	6
+PART PART:か	40
+PART PROPN ADP:で	3
+PART PROPN ADP:と	3
+PART PROPN ADP:に	4
+PART PROPN ADP:の	6
+PART PROPN NOUN ADP:の	6
+PART PUNCT ADP:と	16
+PART VERB AUX AUX:た	9
+PART VERB AUX AUX:れ	7
+PART VERB AUX SCONJ:て	3
+PART VERB AUX:さ	8
+PART VERB AUX:ない	5
+PART VERB AUX:れ	3
+PART VERB NOUN:こと	4
+PART VERB:ある	3
+PART VERB:し	7
+PART:か	260
+PART:の	970
+PART:第	168
+PART:約	88
+PRON ADP ADJ AUX:で	5
+PRON ADP ADJ AUX:な	4
+PRON ADP ADJ AUX:に	10
+PRON ADP ADJ:その	4
+PRON ADP ADP ADP:も	3
+PRON ADP ADP:が	3
+PRON ADP ADP:に	4
+PRON ADP ADP:の	10
+PRON ADP ADP:も	30
+PRON ADP NOUN ADP:から	6
+PRON ADP NOUN ADP:に	39
+PRON ADP NOUN ADP:の	49
+PRON ADP NOUN ADP:は	28
+PRON ADP NOUN ADP:も	11
+PRON ADP NOUN AUX:です	4
+PRON ADP NOUN NOUN:さん	3
+PRON ADP NOUN NOUN:店	7
+PRON ADP NOUN:お	12
+PRON ADP NOUN:前	3
+PRON ADP NOUN:場合	3
+PRON ADP NUM NOUN:年	4
+PRON ADP NUM:3	3
+PRON ADP NUM:一	3
+PRON ADP PART:の	6
+PRON ADP PRON ADP:の	3
+PRON ADP PROPN ADP:が	3
+PRON ADP PROPN ADP:と	3
+PRON ADP PROPN ADP:の	6
+PRON ADP PROPN ADP:を	4
+PRON ADP VERB AUX:し	19
+PRON ADP VERB AUX:する	15
+PRON ADP VERB AUX:せ	4
+PRON ADP VERB SCONJ:て	24
+PRON ADP VERB SCONJ:で	3
+PRON ADP:から	29
+PRON ADP:だけ	15
+PRON ADP:で	68
+PRON ADP:について	3
+PRON ADP:によって	7
+PRON ADP:により	8
+PRON ADP:は	157
+PRON ADP:まで	33
+PRON ADP:も	39
+PRON ADP:より	4
+PRON AUX:です	3
+PRON NOUN ADP:に	5
+PRON NOUN ADP:の	7
+PRON NOUN ADP:は	4
+PRON NOUN NOUN ADP:を	3
+PRON PART ADP:と	3
+PRON PART ADP:を	3
+PRON PART:か	13
+PRON:これ	189
+PRON:それ	120
+PROPN ADJ AUX:で	3
+PROPN ADJ NOUN ADP:の	3
+PROPN ADP ADJ AUX:な	19
+PROPN ADP ADJ:この	13
+PROPN ADP ADJ:その	16
+PROPN ADP ADP ADP:は	3
+PROPN ADP ADP NUM:2	3
+PROPN ADP ADP:が	5
+PROPN ADP ADP:で	5
+PROPN ADP ADP:と	6
+PROPN ADP ADP:に	7
+PROPN ADP ADP:の	16
+PROPN ADP ADP:は	107
+PROPN ADP ADP:を	3
+PROPN ADP AUX:ように	4
+PROPN ADP NOUN ADP:から	11
+PROPN ADP NOUN ADP:で	61
+PROPN ADP NOUN ADP:と	69
+PROPN ADP NOUN ADP:に	127
+PROPN ADP NOUN ADP:によって	4
+PROPN ADP NOUN ADP:により	4
+PROPN ADP NOUN ADP:による	4
+PROPN ADP NOUN ADP:の	129
+PROPN ADP NOUN ADP:は	51
+PROPN ADP NOUN ADP:も	7
+PROPN ADP NOUN ADP:を	191
+PROPN ADP NOUN AUX:で	4
+PROPN ADP NOUN AUX:であっ	3
+PROPN ADP NOUN AUX:である	19
+PROPN ADP NOUN NOUN:中	4
+PROPN ADP NOUN NOUN:者	5
+PROPN ADP NOUN NUM:2	3
+PROPN ADP NOUN:もの	3
+PROPN ADP NOUN:前	4
+PROPN ADP NOUN:後	4
+PROPN ADP NOUN:方	3
+PROPN ADP NOUN:現在	3
+PROPN ADP NUM NOUN:人	11
+PROPN ADP NUM NOUN:年	35
+PROPN ADP NUM NOUN:日	11
+PROPN ADP NUM:2	14
+PROPN ADP NUM:3	13
+PROPN ADP NUM:4	11
+PROPN ADP NUM:5	3
+PROPN ADP PART:の	88
+PROPN ADP PRON ADP:が	3
+PROPN ADP PRON ADP:に	3
+PROPN ADP PRON ADP:を	3
+PROPN ADP PRON:これ	6
+PROPN ADP PROPN ADP:が	23
+PROPN ADP PROPN ADP:など	5
+PROPN ADP PROPN ADP:に	29
+PROPN ADP PROPN ADP:の	50
+PROPN ADP PROPN ADP:は	10
+PROPN ADP PROPN ADP:を	22
+PROPN ADP PUNCT ADJ:この	3
+PROPN ADP VERB ADP:など	3
+PROPN ADP VERB AUX:さ	78
+PROPN ADP VERB AUX:し	180
+PROPN ADP VERB AUX:する	50
+PROPN ADP VERB AUX:まし	3
+PROPN ADP VERB AUX:れ	36
+PROPN ADP VERB SCONJ:が	4
+PROPN ADP VERB SCONJ:て	108
+PROPN ADP VERB SCONJ:で	12
+PROPN ADP VERB SCONJ:と	14
+PROPN ADP VERB SCONJ:ば	5
+PROPN ADP VERB:ある	31
+PROPN ADP VERB:行っ	8
+PROPN ADP VERB:見	4
+PROPN ADP:から	100
+PROPN ADP:で	243
+PROPN ADP:と	280
+PROPN ADP:など	47
+PROPN ADP:によって	16
+PROPN ADP:による	13
+PROPN ADP:の	994
+PROPN ADP:へ	47
+PROPN ADP:や	75
+PROPN ADP:より	13
+PROPN AUX ADP AUX:ない	3
+PROPN AUX ADP AUX:なく	4
+PROPN AUX ADP:は	9
+PROPN AUX AUX SCONJ:が	4
+PROPN AUX AUX:た	13
+PROPN AUX SCONJ:ば	3
+PROPN AUX:だ	5
+PROPN AUX:だっ	4
+PROPN AUX:で	20
+PROPN AUX:であっ	6
+PROPN AUX:である	14
+PROPN AUX:でし	3
+PROPN AUX:です	8
+PROPN AUX:な	9
+PROPN CCONJ PROPN ADP:の	3
+PROPN NOUN ADP ADJ:この	3
+PROPN NOUN ADP ADJ:その	4
+PROPN NOUN ADP ADP:は	44
+PROPN NOUN ADP ADP:も	11
+PROPN NOUN ADP ADP:を	3
+PROPN NOUN ADP NOUN:お	6
+PROPN NOUN ADP NUM:1	6
+PROPN NOUN ADP NUM:4	8
+PROPN NOUN ADP PART:の	34
+PROPN NOUN ADP VERB:いう	3
+PROPN NOUN ADP:で	128
+PROPN NOUN ADP:と	85
+PROPN NOUN ADP:という	7
+PROPN NOUN ADP:など	7
+PROPN NOUN ADP:によって	6
+PROPN NOUN ADP:による	6
+PROPN NOUN ADP:の	414
+PROPN NOUN ADP:は	179
+PROPN NOUN ADP:へ	22
+PROPN NOUN ADP:も	18
+PROPN NOUN ADP:より	7
+PROPN NOUN AUX:だっ	3
+PROPN NOUN NOUN ADP:から	12
+PROPN NOUN NOUN ADP:が	38
+PROPN NOUN NOUN ADP:で	30
+PROPN NOUN NOUN ADP:に	50
+PROPN NOUN NOUN ADP:の	88
+PROPN NOUN NOUN ADP:へ	3
+PROPN NOUN NOUN ADP:を	33
+PROPN NOUN NOUN NUM:1	3
+PROPN NOUN NOUN:さん	6
+PROPN NOUN NOUN:内	5
+PROPN NOUN NOUN:時	5
+PROPN NOUN NOUN:間	3
+PROPN NOUN NUM:1	5
+PROPN NOUN NUM:2	6
+PROPN NOUN PART:第	6
+PROPN NOUN PROPN ADP:が	3
+PROPN NOUN PROPN ADP:と	7
+PROPN NOUN PROPN ADP:の	23
+PROPN NOUN PROPN ADP:は	5
+PROPN NOUN PUNCT ADP:が	3
+PROPN NOUN PUNCT ADP:と	10
+PROPN NOUN PUNCT ADP:に	3
+PROPN NOUN SYM ADP:の	4
+PROPN NOUN VERB SCONJ:て	3
+PROPN NOUN:さん	39
+PROPN NOUN:上	5
+PROPN NOUN:内	29
+PROPN NOUN:氏	117
+PROPN NOUN:間	14
+PROPN NUM ADP:と	4
+PROPN NUM ADP:に	3
+PROPN NUM ADP:は	6
+PROPN NUM ADP:を	5
+PROPN NUM NOUN ADP:が	3
+PROPN NUM NOUN ADP:の	16
+PROPN NUM NOUN ADP:は	11
+PROPN NUM NOUN ADP:を	5
+PROPN NUM PROPN ADP:の	3
+PROPN NUM PUNCT ADP:を	3
+PROPN NUM:1	21
+PROPN NUM:10	4
+PROPN NUM:3	14
+PROPN NUM:4	6
+PROPN PART ADP:は	5
+PROPN PART NOUN ADP:の	5
+PROPN PART NUM:1	9
+PROPN PART NUM:10	3
+PROPN PROPN ADP ADP:も	4
+PROPN PROPN ADP PART:の	8
+PROPN PROPN ADP PRON:これ	3
+PROPN PROPN ADP:が	35
+PROPN PROPN ADP:と	35
+PROPN PROPN ADP:に	42
+PROPN PROPN ADP:は	44
+PROPN PROPN ADP:も	7
+PROPN PROPN ADP:や	9
+PROPN PROPN ADP:を	28
+PROPN PROPN AUX:で	3
+PROPN PROPN NOUN ADP:が	18
+PROPN PROPN NOUN ADP:と	11
+PROPN PROPN NOUN ADP:に	13
+PROPN PROPN NOUN ADP:は	26
+PROPN PROPN NOUN ADP:を	11
+PROPN PROPN NOUN:さん	4
+PROPN PROPN NOUN:氏	33
+PROPN PROPN NUM:1	3
+PROPN PROPN PROPN ADP:が	4
+PROPN PROPN PROPN ADP:で	3
+PROPN PROPN PROPN ADP:に	6
+PROPN PROPN PROPN ADP:の	5
+PROPN PUNCT ADP:から	3
+PROPN PUNCT ADP:が	13
+PROPN PUNCT ADP:の	27
+PROPN PUNCT ADP:は	14
+PROPN PUNCT ADP:や	5
+PROPN PUNCT ADP:を	20
+PROPN PUNCT AUX:で	3
+PROPN PUNCT NOUN ADP:など	3
+PROPN PUNCT NOUN ADP:の	12
+PROPN PUNCT NOUN ADP:は	6
+PROPN PUNCT NOUN ADP:を	4
+PROPN PUNCT NUM:2	3
+PROPN PUNCT PROPN ADP:で	3
+PROPN PUNCT PROPN ADP:と	3
+PROPN PUNCT PROPN ADP:など	6
+PROPN PUNCT PROPN ADP:は	4
+PROPN SYM ADP ADP:は	3
+PROPN SYM ADP:に	10
+PROPN SYM ADP:の	18
+PROPN SYM NOUN ADP:が	9
+PROPN SYM NOUN ADP:で	4
+PROPN SYM NOUN ADP:の	10
+PROPN SYM PROPN ADP:から	4
+PROPN SYM PROPN ADP:が	26
+PROPN SYM PROPN ADP:による	4
+PROPN SYM PROPN ADP:の	55
+PROPN SYM PROPN ADP:は	28
+PROPN SYM PROPN NOUN:間	5
+PROPN VERB AUX AUX:た	8
+PROPN VERB AUX:れ	6
+PROPN VERB NOUN ADP:に	3
+PROPN VERB NOUN:後	3
+PROPN VERB SCONJ AUX:いる	3
+PROPN VERB SCONJ:て	11
+PROPN VERB:さ	6
+PROPN VERB:し	8
+PROPN:日本	114
+PUNCT ADJ AUX ADP:は	10
+PUNCT ADJ AUX AUX:ある	3
+PUNCT ADJ AUX NOUN:こと	4
+PUNCT ADJ AUX NOUN:もの	3
+PUNCT ADJ AUX:た	3
+PUNCT ADJ AUX:な	93
+PUNCT ADJ AUX:に	72
+PUNCT ADJ NOUN ADP:から	11
+PUNCT ADJ NOUN ADP:が	19
+PUNCT ADJ NOUN ADP:で	25
+PUNCT ADJ NOUN ADP:と	12
+PUNCT ADJ NOUN ADP:に	40
+PUNCT ADJ NOUN ADP:の	48
+PUNCT ADJ NOUN ADP:も	5
+PUNCT ADJ NOUN NOUN:内	3
+PUNCT ADJ NOUN:お	6
+PUNCT ADJ NOUN:中	5
+PUNCT ADJ NOUN:後	9
+PUNCT ADJ NOUN:日	5
+PUNCT ADJ PROPN ADP:の	3
+PUNCT ADJ:この	77
+PUNCT ADJ:その	113
+PUNCT ADP ADJ AUX:な	5
+PUNCT ADP ADJ AUX:に	4
+PUNCT ADP ADP:と	18
+PUNCT ADP ADP:に	4
+PUNCT ADP ADP:の	8
+PUNCT ADP NOUN ADP:が	17
+PUNCT ADP NOUN ADP:で	15
+PUNCT ADP NOUN ADP:の	15
+PUNCT ADP NOUN ADP:は	9
+PUNCT ADP NOUN ADP:も	5
+PUNCT ADP NOUN ADP:を	40
+PUNCT ADP NOUN AUX:です	3
+PUNCT ADP NUM NOUN:日	3
+PUNCT ADP PART:の	19
+PUNCT ADP PROPN ADP:の	3
+PUNCT ADP PROPN ADP:を	3
+PUNCT ADP VERB AUX:さ	22
+PUNCT ADP VERB AUX:し	55
+PUNCT ADP VERB AUX:する	16
+PUNCT ADP VERB AUX:ます	4
+PUNCT ADP VERB AUX:ように	4
+PUNCT ADP VERB AUX:れ	18
+PUNCT ADP VERB AUX:れる	13
+PUNCT ADP VERB SCONJ:て	59
+PUNCT ADP VERB SCONJ:で	5
+PUNCT ADP VERB SCONJ:と	10
+PUNCT ADP VERB:いう	8
+PUNCT ADP VERB:し	27
+PUNCT ADP:と	280
+PUNCT ADP:という	42
+PUNCT ADP:など	41
+PUNCT ADP:へ	5
+PUNCT ADP:や	14
+PUNCT ADV ADJ AUX:で	3
+PUNCT ADV ADJ AUX:な	5
+PUNCT ADV ADP:は	3
+PUNCT ADV NOUN ADP:と	4
+PUNCT ADV NOUN ADP:に	11
+PUNCT ADV NOUN ADP:の	10
+PUNCT ADV NOUN ADP:は	7
+PUNCT ADV NOUN ADP:も	3
+PUNCT ADV NUM NOUN:年	5
+PUNCT ADV PART:の	5
+PUNCT ADV PROPN ADP:に	6
+PUNCT ADV PROPN ADP:の	3
+PUNCT ADV VERB AUX:する	4
+PUNCT ADV VERB AUX:た	12
+PUNCT ADV VERB AUX:ない	5
+PUNCT ADV VERB AUX:ます	3
+PUNCT ADV VERB SCONJ:て	14
+PUNCT ADV VERB:し	4
+PUNCT AUX ADP:と	3
+PUNCT AUX ADP:は	4
+PUNCT AUX AUX:た	6
+PUNCT AUX SCONJ:が	3
+PUNCT AUX:だ	4
+PUNCT AUX:だっ	4
+PUNCT AUX:で	7
+PUNCT AUX:である	10
+PUNCT AUX:です	4
+PUNCT CCONJ NOUN ADP:と	4
+PUNCT CCONJ NOUN ADP:の	5
+PUNCT CCONJ NOUN:お	3
+PUNCT NOUN ADJ AUX:な	4
+PUNCT NOUN ADJ AUX:に	3
+PUNCT NOUN ADP ADJ:その	4
+PUNCT NOUN ADP ADP:が	4
+PUNCT NOUN ADP ADP:に	6
+PUNCT NOUN ADP ADP:の	18
+PUNCT NOUN ADP ADP:も	25
+PUNCT NOUN ADP ADP:を	7
+PUNCT NOUN ADP NOUN:お	3
+PUNCT NOUN ADP NOUN:上	3
+PUNCT NOUN ADP NOUN:人	6
+PUNCT NOUN ADP NOUN:前	3
+PUNCT NOUN ADP NUM:2	6
+PUNCT NOUN ADP NUM:3	7
+PUNCT NOUN ADP PART:の	29
+PUNCT NOUN ADP PART:約	7
+PUNCT NOUN ADP VERB:さ	3
+PUNCT NOUN ADP VERB:し	30
+PUNCT NOUN ADP VERB:する	4
+PUNCT NOUN ADP:だけ	3
+PUNCT NOUN ADP:と	93
+PUNCT NOUN ADP:など	41
+PUNCT NOUN ADP:について	9
+PUNCT NOUN ADP:によって	16
+PUNCT NOUN ADP:による	10
+PUNCT NOUN ADP:の	647
+PUNCT NOUN ADP:は	185
+PUNCT NOUN ADP:まで	14
+PUNCT NOUN ADP:も	60
+PUNCT NOUN ADP:や	46
+PUNCT NOUN ADP:より	6
+PUNCT NOUN AUX ADP:は	5
+PUNCT NOUN AUX:だ	4
+PUNCT NOUN AUX:で	5
+PUNCT NOUN AUX:である	9
+PUNCT NOUN AUX:な	3
+PUNCT NOUN NOUN ADP:から	14
+PUNCT NOUN NOUN ADP:が	68
+PUNCT NOUN NOUN ADP:など	16
+PUNCT NOUN NOUN ADP:に	110
+PUNCT NOUN NOUN ADP:により	3
+PUNCT NOUN NOUN ADP:の	217
+PUNCT NOUN NOUN ADP:は	79
+PUNCT NOUN NOUN ADP:へ	6
+PUNCT NOUN NOUN ADP:も	16
+PUNCT NOUN NOUN ADP:や	16
+PUNCT NOUN NOUN ADP:を	73
+PUNCT NOUN NOUN AUX:で	3
+PUNCT NOUN NOUN AUX:である	3
+PUNCT NOUN NOUN NOUN:中	3
+PUNCT NOUN NOUN NOUN:後	4
+PUNCT NOUN NOUN NOUN:時	3
+PUNCT NOUN NOUN:さん	9
+PUNCT NOUN NOUN:上	7
+PUNCT NOUN NOUN:中	4
+PUNCT NOUN NOUN:内	8
+PUNCT NOUN NOUN:時	11
+PUNCT NOUN NUM NOUN:人	5
+PUNCT NOUN NUM NOUN:年	4
+PUNCT NOUN NUM:1	11
+PUNCT NOUN NUM:10	4
+PUNCT NOUN NUM:2	3
+PUNCT NOUN NUM:3	5
+PUNCT NOUN PART ADP:は	4
+PUNCT NOUN PART:第	3
+PUNCT NOUN PART:約	4
+PUNCT NOUN PROPN ADP:が	3
+PUNCT NOUN PROPN ADP:に	7
+PUNCT NOUN PROPN ADP:の	12
+PUNCT NOUN PROPN ADP:は	4
+PUNCT NOUN PUNCT ADP:が	7
+PUNCT NOUN PUNCT ADP:と	21
+PUNCT NOUN PUNCT ADP:という	3
+PUNCT NOUN PUNCT ADP:など	6
+PUNCT NOUN PUNCT ADP:の	15
+PUNCT NOUN PUNCT ADP:は	6
+PUNCT NOUN PUNCT ADP:を	20
+PUNCT NOUN SYM ADP:に	3
+PUNCT NOUN SYM ADP:は	4
+PUNCT NOUN VERB AUX:し	11
+PUNCT NOUN VERB:ある	3
+PUNCT NOUN:お	26
+PUNCT NOUN:現在	30
+PUNCT NUM NOUN ADP:から	17
+PUNCT NUM NOUN ADP:が	9
+PUNCT NUM NOUN ADP:で	10
+PUNCT NUM NOUN ADP:に	70
+PUNCT NUM NOUN ADP:の	58
+PUNCT NUM NOUN ADP:を	12
+PUNCT NUM NOUN NOUN:後	5
+PUNCT NUM NOUN PART:か	3
+PUNCT NUM NOUN:年	183
+PUNCT NUM:2	34
+PUNCT PART NUM NOUN:年	6
+PUNCT PART NUM:1	7
+PUNCT PART NUM:2	5
+PUNCT PART NUM:5	3
+PUNCT PART:第	29
+PUNCT PART:約	8
+PUNCT PRON ADP ADP:は	8
+PUNCT PRON ADP:が	23
+PUNCT PRON ADP:と	5
+PUNCT PRON ADP:に	20
+PUNCT PRON ADP:の	39
+PUNCT PRON ADP:まで	14
+PUNCT PRON ADP:を	18
+PUNCT PRON:それ	47
+PUNCT PROPN ADP ADJ:その	4
+PUNCT PROPN ADP ADP:に	3
+PUNCT PROPN ADP ADP:の	7
+PUNCT PROPN ADP ADP:も	6
+PUNCT PROPN ADP NUM:3	4
+PUNCT PROPN ADP:から	21
+PUNCT PROPN ADP:が	45
+PUNCT PROPN ADP:など	17
+PUNCT PROPN ADP:に	48
+PUNCT PROPN ADP:の	184
+PUNCT PROPN ADP:は	70
+PUNCT PROPN ADP:へ	11
+PUNCT PROPN ADP:も	4
+PUNCT PROPN ADP:や	14
+PUNCT PROPN ADP:より	3
+PUNCT PROPN ADP:を	31
+PUNCT PROPN NOUN ADP:から	7
+PUNCT PROPN NOUN ADP:が	18
+PUNCT PROPN NOUN ADP:など	3
+PUNCT PROPN NOUN ADP:に	20
+PUNCT PROPN NOUN ADP:の	73
+PUNCT PROPN NOUN ADP:も	5
+PUNCT PROPN NOUN ADP:を	18
+PUNCT PROPN NOUN:さん	7
+PUNCT PROPN NOUN:人	3
+PUNCT PROPN NOUN:内	9
+PUNCT PROPN NUM:3	7
+PUNCT PROPN PART NUM:1	3
+PUNCT PROPN PROPN ADP:と	7
+PUNCT PROPN PROPN ADP:の	23
+PUNCT PROPN PUNCT ADP:が	11
+PUNCT PROPN PUNCT ADP:と	28
+PUNCT PROPN PUNCT ADP:という	5
+PUNCT PROPN PUNCT ADP:など	5
+PUNCT PROPN PUNCT ADP:に	3
+PUNCT PROPN PUNCT ADP:や	4
+PUNCT PROPN PUNCT ADP:を	15
+PUNCT PROPN PUNCT AUX:で	3
+PUNCT PROPN SYM ADP:が	3
+PUNCT PROPN SYM ADP:で	3
+PUNCT PROPN SYM ADP:に	6
+PUNCT PROPN SYM ADP:は	4
+PUNCT PROPN SYM ADP:を	3
+PUNCT PUNCT NOUN ADP:に	3
+PUNCT PUNCT NOUN ADP:の	12
+PUNCT PUNCT NOUN ADP:を	6
+PUNCT PUNCT PROPN ADP:の	4
+PUNCT PUNCT VERB AUX:し	4
+PUNCT SCONJ:が	3
+PUNCT VERB ADP ADP:は	3
+PUNCT VERB ADP:に	7
+PUNCT VERB AUX AUX:まし	3
+PUNCT VERB AUX AUX:れ	15
+PUNCT VERB AUX AUX:れる	4
+PUNCT VERB AUX NOUN:人	3
+PUNCT VERB AUX SCONJ:て	20
+PUNCT VERB AUX:さ	19
+PUNCT VERB AUX:し	48
+PUNCT VERB AUX:する	18
+PUNCT VERB AUX:ない	6
+PUNCT VERB NOUN ADP:が	5
+PUNCT VERB NOUN ADP:に	6
+PUNCT VERB NOUN ADP:の	5
+PUNCT VERB NOUN:中	5
+PUNCT VERB SCONJ AUX:いる	8
+PUNCT VERB SCONJ:て	36
+PUNCT VERB SCONJ:で	3
+PUNCT VERB:見	3
+PUNCT., ADJ AUX ADP:は	3
+PUNCT., ADJ AUX:に	17
+PUNCT., ADJ NOUN ADP:が	7
+PUNCT., ADJ NOUN ADP:に	8
+PUNCT., ADJ NOUN ADP:の	7
+PUNCT., ADJ NOUN ADP:も	3
+PUNCT., ADJ NOUN ADP:を	10
+PUNCT., ADJ:この	16
+PUNCT., ADJ:その	15
+PUNCT., ADP:と	9
+PUNCT., ADP:という	3
+PUNCT., ADV NOUN ADP:が	5
+PUNCT., ADV PROPN ADP:の	3
+PUNCT., ADV VERB AUX:し	5
+PUNCT., ADV VERB SCONJ:て	7
+PUNCT., NOUN ADP ADP:は	21
+PUNCT., NOUN ADP NOUN:中	4
+PUNCT., NOUN ADP PART:の	6
+PUNCT., NOUN ADP VERB:し	6
+PUNCT., NOUN ADP:から	9
+PUNCT., NOUN ADP:と	10
+PUNCT., NOUN ADP:など	3
+PUNCT., NOUN ADP:によって	3
+PUNCT., NOUN ADP:による	3
+PUNCT., NOUN ADP:の	134
+PUNCT., NOUN ADP:は	20
+PUNCT., NOUN ADP:へ	3
+PUNCT., NOUN ADP:まで	3
+PUNCT., NOUN ADP:も	8
+PUNCT., NOUN ADP:や	8
+PUNCT., NOUN NOUN ADP:から	3
+PUNCT., NOUN NOUN ADP:が	12
+PUNCT., NOUN NOUN ADP:に	17
+PUNCT., NOUN NOUN ADP:の	27
+PUNCT., NOUN NOUN ADP:は	13
+PUNCT., NOUN NOUN ADP:も	3
+PUNCT., NOUN NOUN ADP:や	3
+PUNCT., NOUN NOUN ADP:を	8
+PUNCT., NOUN NOUN NOUN:者	4
+PUNCT., NOUN NOUN:者	9
+PUNCT., NOUN NUM NOUN:日	5
+PUNCT., NOUN:現在	5
+PUNCT., NUM NOUN ADP:で	3
+PUNCT., NUM NOUN ADP:の	6
+PUNCT., NUM NOUN:人	5
+PUNCT., NUM:10	4
+PUNCT., NUM:一	4
+PUNCT., PART:第	4
+PUNCT., PRON ADP:が	7
+PUNCT., PRON ADP:に	5
+PUNCT., PRON ADP:の	11
+PUNCT., PRON ADP:は	14
+PUNCT., PRON ADP:まで	3
+PUNCT., PRON ADP:を	6
+PUNCT., PRON:これ	14
+PUNCT., PRON:それ	11
+PUNCT., PROPN ADP PART:の	4
+PUNCT., PROPN ADP:が	4
+PUNCT., PROPN ADP:で	6
+PUNCT., PROPN ADP:の	15
+PUNCT., PROPN ADP:は	8
+PUNCT., PROPN ADP:を	3
+PUNCT., PROPN NOUN ADP:が	5
+PUNCT., PROPN NOUN ADP:と	4
+PUNCT., PROPN NOUN ADP:の	16
+PUNCT., PROPN NOUN ADP:は	7
+PUNCT., PROPN NOUN ADP:を	4
+PUNCT., PROPN NOUN:さん	4
+PUNCT., PROPN NOUN:氏	13
+PUNCT., PROPN PROPN NOUN:氏	7
+PUNCT., PROPN:日本	9
+PUNCT., PUNCT NOUN ADP:の	3
+PUNCT., VERB AUX:さ	4
+PUNCT., VERB AUX:し	11
+PUNCT., VERB AUX:する	4
+PUNCT., VERB:ある	3
+SCONJ ADJ ADP:と	6
+SCONJ ADJ AUX AUX:です	3
+SCONJ ADJ AUX SCONJ:ので	4
+SCONJ ADJ AUX:た	5
+SCONJ ADJ AUX:だ	3
+SCONJ ADJ AUX:で	8
+SCONJ ADJ AUX:です	5
+SCONJ ADJ NOUN ADP:が	4
+SCONJ ADJ NOUN ADP:を	7
+SCONJ ADJ PART:の	4
+SCONJ ADJ VERB AUX:し	3
+SCONJ ADP ADJ AUX:な	11
+SCONJ ADP ADP:は	12
+SCONJ ADP AUX AUX:た	6
+SCONJ ADP AUX AUX:ない	8
+SCONJ ADP AUX:いる	3
+SCONJ ADP NOUN ADP:が	12
+SCONJ ADP NOUN ADP:で	5
+SCONJ ADP NOUN ADP:に	9
+SCONJ ADP NOUN ADP:の	9
+SCONJ ADP NOUN ADP:は	3
+SCONJ ADP VERB AUX:し	8
+SCONJ ADP VERB AUX:する	4
+SCONJ ADP VERB AUX:ない	3
+SCONJ ADP VERB AUX:れ	3
+SCONJ ADP VERB SCONJ:て	4
+SCONJ ADP VERB:し	3
+SCONJ ADP:から	25
+SCONJ ADP:に	49
+SCONJ ADP:は	72
+SCONJ ADP:も	102
+SCONJ ADV NOUN ADP:が	3
+SCONJ ADV NOUN ADP:の	3
+SCONJ ADV VERB SCONJ:て	8
+SCONJ AUX ADJ AUX:な	5
+SCONJ AUX ADP ADP:は	3
+SCONJ AUX ADP PART:の	7
+SCONJ AUX ADP VERB:いう	11
+SCONJ AUX ADP:だけ	3
+SCONJ AUX ADP:と	39
+SCONJ AUX ADP:という	9
+SCONJ AUX ADP:など	5
+SCONJ AUX AUX ADP:と	17
+SCONJ AUX AUX ADP:という	7
+SCONJ AUX AUX AUX:た	129
+SCONJ AUX AUX AUX:です	7
+SCONJ AUX AUX AUX:ん	13
+SCONJ AUX AUX NOUN:方	4
+SCONJ AUX AUX NOUN:者	3
+SCONJ AUX AUX PART:の	19
+SCONJ AUX AUX SCONJ:が	77
+SCONJ AUX AUX SCONJ:ため	11
+SCONJ AUX AUX SCONJ:と	11
+SCONJ AUX AUX SCONJ:ので	19
+SCONJ AUX AUX:ず	15
+SCONJ AUX AUX:た	538
+SCONJ AUX AUX:ない	73
+SCONJ AUX AUX:なかっ	10
+SCONJ AUX AUX:なく	3
+SCONJ AUX AUX:まし	114
+SCONJ AUX AUX:ます	212
+SCONJ AUX AUX:ませ	13
+SCONJ AUX AUX:よう	13
+SCONJ AUX AUX:られ	5
+SCONJ AUX NOUN ADP:から	7
+SCONJ AUX NOUN ADP:が	50
+SCONJ AUX NOUN ADP:など	4
+SCONJ AUX NOUN ADP:に	26
+SCONJ AUX NOUN ADP:の	27
+SCONJ AUX NOUN ADP:は	19
+SCONJ AUX NOUN ADP:も	22
+SCONJ AUX NOUN AUX:だ	3
+SCONJ AUX NOUN AUX:で	6
+SCONJ AUX NOUN AUX:です	6
+SCONJ AUX NOUN AUX:な	3
+SCONJ AUX NOUN NOUN:店	4
+SCONJ AUX NOUN:お	3
+SCONJ AUX NOUN:こと	48
+SCONJ AUX NOUN:もの	14
+SCONJ AUX NOUN:人	10
+SCONJ AUX NOUN:場合	10
+SCONJ AUX NOUN:方	4
+SCONJ AUX NOUN:者	4
+SCONJ AUX PART ADP:が	10
+SCONJ AUX PART ADP:に	6
+SCONJ AUX PART ADP:も	4
+SCONJ AUX PART ADP:を	3
+SCONJ AUX PART AUX:だ	4
+SCONJ AUX PART PART:か	6
+SCONJ AUX PART:の	40
+SCONJ AUX PROPN ADP:が	3
+SCONJ AUX PROPN ADP:の	4
+SCONJ AUX PUNCT ADJ:この	3
+SCONJ AUX PUNCT ADJ:その	6
+SCONJ AUX PUNCT NOUN:後	3
+SCONJ AUX PUNCT PRON:それ	3
+SCONJ AUX SCONJ ADP:も	4
+SCONJ AUX SCONJ:が	48
+SCONJ AUX SCONJ:ため	11
+SCONJ AUX SCONJ:て	86
+SCONJ AUX SCONJ:と	28
+SCONJ AUX SCONJ:ので	25
+SCONJ AUX SCONJ:ば	7
+SCONJ AUX:いる	1086
+SCONJ AUX:おり	162
+SCONJ AUX:き	105
+SCONJ CCONJ:また	3
+SCONJ NOUN ADP ADJ:ない	6
+SCONJ NOUN ADP ADP:も	5
+SCONJ NOUN ADP PART:の	6
+SCONJ NOUN ADP VERB:さ	3
+SCONJ NOUN ADP:が	55
+SCONJ NOUN ADP:と	18
+SCONJ NOUN ADP:など	4
+SCONJ NOUN ADP:に	57
+SCONJ NOUN ADP:は	19
+SCONJ NOUN ADP:も	10
+SCONJ NOUN ADP:や	7
+SCONJ NOUN ADP:を	100
+SCONJ NOUN AUX AUX:た	3
+SCONJ NOUN NOUN ADP:が	15
+SCONJ NOUN NOUN ADP:に	23
+SCONJ NOUN NOUN ADP:の	31
+SCONJ NOUN NOUN ADP:も	6
+SCONJ NOUN NOUN ADP:や	5
+SCONJ NOUN NOUN ADP:を	23
+SCONJ NOUN NOUN:者	3
+SCONJ NOUN VERB AUX:さ	3
+SCONJ NOUN VERB AUX:し	3
+SCONJ NOUN:お	7
+SCONJ NOUN:現在	4
+SCONJ NUM NOUN NOUN:目	9
+SCONJ NUM NOUN:年	13
+SCONJ NUM:10	3
+SCONJ NUM:2	11
+SCONJ NUM:4	3
+SCONJ PART NOUN ADP:は	6
+SCONJ PART NOUN ADP:を	8
+SCONJ PART:か	9
+SCONJ PART:の	29
+SCONJ PART:約	7
+SCONJ PRON ADP:に	5
+SCONJ PRON ADP:の	7
+SCONJ PRON ADP:も	4
+SCONJ PRON ADP:を	8
+SCONJ PROPN ADP:に	14
+SCONJ PROPN ADP:は	3
+SCONJ PROPN ADP:へ	4
+SCONJ PROPN ADP:を	10
+SCONJ PROPN NOUN ADP:と	3
+SCONJ PROPN NOUN ADP:に	4
+SCONJ PROPN NOUN ADP:を	5
+SCONJ PROPN PROPN ADP:を	3
+SCONJ PROPN:日本	3
+SCONJ PUNCT ADJ AUX:です	3
+SCONJ PUNCT ADJ:この	20
+SCONJ PUNCT ADJ:その	24
+SCONJ PUNCT ADP:と	3
+SCONJ PUNCT NOUN ADP:から	5
+SCONJ PUNCT NOUN ADP:が	28
+SCONJ PUNCT NOUN ADP:で	21
+SCONJ PUNCT NOUN ADP:と	20
+SCONJ PUNCT NOUN ADP:に	49
+SCONJ PUNCT NOUN ADP:は	45
+SCONJ PUNCT NOUN ADP:まで	4
+SCONJ PUNCT NOUN ADP:も	14
+SCONJ PUNCT NOUN ADP:を	42
+SCONJ PUNCT NOUN NOUN:さん	6
+SCONJ PUNCT NOUN NOUN:店	4
+SCONJ PUNCT NOUN NOUN:者	3
+SCONJ PUNCT NOUN:お	9
+SCONJ PUNCT NOUN:後	3
+SCONJ PUNCT NOUN:現在	8
+SCONJ PUNCT NUM NOUN:年	35
+SCONJ PUNCT NUM NOUN:日	4
+SCONJ PUNCT NUM:3	5
+SCONJ PUNCT NUM:一	4
+SCONJ PUNCT PART NUM:1	3
+SCONJ PUNCT PART:第	6
+SCONJ PUNCT PART:約	3
+SCONJ PUNCT PRON ADP:から	4
+SCONJ PUNCT PRON ADP:で	5
+SCONJ PUNCT PRON ADP:に	8
+SCONJ PUNCT PRON ADP:は	9
+SCONJ PUNCT PRON ADP:も	6
+SCONJ PUNCT PRON ADP:を	6
+SCONJ PUNCT PRON:これ	8
+SCONJ PUNCT PRON:それ	19
+SCONJ PUNCT PROPN ADP:が	9
+SCONJ PUNCT PROPN ADP:と	5
+SCONJ PUNCT PROPN ADP:に	9
+SCONJ PUNCT PROPN ADP:の	24
+SCONJ PUNCT PROPN ADP:を	5
+SCONJ PUNCT PROPN NOUN:氏	3
+SCONJ PUNCT VERB AUX:する	4
+SCONJ PUNCT., ADJ AUX:な	3
+SCONJ PUNCT., ADJ AUX:に	4
+SCONJ PUNCT., ADJ:この	5
+SCONJ PUNCT., ADJ:その	4
+SCONJ PUNCT., NOUN ADP:で	8
+SCONJ PUNCT., NOUN ADP:と	3
+SCONJ PUNCT., NOUN ADP:に	11
+SCONJ PUNCT., NOUN ADP:は	6
+SCONJ PUNCT., NOUN ADP:も	3
+SCONJ PUNCT., NOUN ADP:を	6
+SCONJ PUNCT., PRON ADP:に	4
+SCONJ PUNCT., PRON ADP:は	5
+SCONJ PUNCT., PRON:これ	4
+SCONJ PUNCT., PRON:それ	6
+SCONJ PUNCT., PROPN ADP:で	3
+SCONJ SCONJ:て	5
+SCONJ VERB ADP:など	5
+SCONJ VERB AUX AUX:せ	4
+SCONJ VERB AUX AUX:なかっ	3
+SCONJ VERB AUX AUX:まし	12
+SCONJ VERB AUX AUX:ます	10
+SCONJ VERB AUX AUX:よう	4
+SCONJ VERB AUX AUX:れる	10
+SCONJ VERB AUX NOUN:こと	10
+SCONJ VERB AUX PART:の	4
+SCONJ VERB AUX SCONJ:が	8
+SCONJ VERB AUX SCONJ:ため	4
+SCONJ VERB AUX SCONJ:て	80
+SCONJ VERB AUX SCONJ:ので	3
+SCONJ VERB AUX:し	126
+SCONJ VERB AUX:られ	13
+SCONJ VERB AUX:られる	5
+SCONJ VERB AUX:れ	48
+SCONJ VERB AUX:れる	16
+SCONJ VERB NOUN ADP:が	8
+SCONJ VERB NOUN ADP:は	4
+SCONJ VERB NOUN ADP:も	5
+SCONJ VERB NOUN:こと	11
+SCONJ VERB PART ADP:が	4
+SCONJ VERB PART:の	8
+SCONJ VERB SCONJ ADP:も	4
+SCONJ VERB SCONJ AUX:き	4
+SCONJ VERB SCONJ:が	3
+SCONJ VERB SCONJ:で	9
+SCONJ VERB SCONJ:ば	5
+SCONJ VERB:さ	24
+SCONJ VERB:し	55
+SCONJ VERB:する	24
+SCONJ VERB:見	5
+SCONJ:が	647
+SCONJ:ため	196
+SCONJ:て	4017
+SCONJ:で	128
+SCONJ:と	458
+SCONJ:ので	229
+SCONJ:ば	113
+SYM ADJ AUX:に	3
+SYM ADP ADP:に	4
+SYM ADP ADP:の	4
+SYM ADP NOUN ADP:で	4
+SYM ADP NOUN ADP:の	8
+SYM ADP VERB AUX:さ	7
+SYM ADP VERB AUX:し	7
+SYM ADP VERB AUX:する	3
+SYM ADP VERB AUX:れる	4
+SYM ADP VERB SCONJ:て	3
+SYM ADP:で	22
+SYM ADP:という	5
+SYM ADP:など	15
+SYM ADP:に	27
+SYM ADP:や	13
+SYM NOUN ADP ADP:の	4
+SYM NOUN ADP VERB:し	3
+SYM NOUN ADP:が	20
+SYM NOUN ADP:と	7
+SYM NOUN ADP:など	9
+SYM NOUN ADP:の	30
+SYM NOUN ADP:は	16
+SYM NOUN ADP:や	3
+SYM NOUN NOUN ADP:が	7
+SYM NOUN NOUN ADP:と	5
+SYM NOUN NOUN ADP:の	23
+SYM NOUN NOUN ADP:は	8
+SYM NOUN NOUN ADP:を	8
+SYM NOUN PROPN ADP:が	3
+SYM NOUN PUNCT ADP:の	3
+SYM NUM ADP:で	4
+SYM NUM:2	3
+SYM PROPN ADP ADP:が	4
+SYM PROPN ADP:が	31
+SYM PROPN ADP:と	30
+SYM PROPN ADP:など	8
+SYM PROPN ADP:に	19
+SYM PROPN ADP:によって	6
+SYM PROPN ADP:による	5
+SYM PROPN ADP:は	32
+SYM PROPN ADP:を	19
+SYM PROPN NOUN ADP:が	5
+SYM PROPN NOUN ADP:と	9
+SYM PROPN NOUN ADP:に	6
+SYM PROPN NOUN ADP:を	9
+SYM PROPN NOUN:間	7
+SYM PROPN PROPN ADP:と	3
+SYM PROPN PROPN ADP:の	5
+SYM PROPN PUNCT ADP:と	3
+SYM PROPN PUNCT ADP:の	3
+SYM VERB AUX SCONJ:て	3
+SYM VERB AUX:さ	3
+SYM VERB AUX:し	7
+VERB ADJ AUX:な	25
+VERB ADJ NOUN ADP:の	5
+VERB ADJ:ない	3
+VERB ADP ADJ AUX:なっ	3
+VERB ADP ADJ:ない	3
+VERB ADP ADP:で	7
+VERB ADP ADP:に	4
+VERB ADP ADP:の	12
+VERB ADP NOUN ADP:が	8
+VERB ADP NOUN ADP:の	8
+VERB ADP NOUN ADP:は	4
+VERB ADP NOUN:お	3
+VERB ADP NOUN:こと	4
+VERB ADP VERB AUX:う	3
+VERB ADP VERB AUX:し	4
+VERB ADP VERB AUX:た	12
+VERB ADP VERB AUX:ない	3
+VERB ADP VERB AUX:まし	3
+VERB ADP VERB AUX:ます	9
+VERB ADP VERB AUX:られる	3
+VERB ADP VERB AUX:れ	3
+VERB ADP VERB AUX:れる	3
+VERB ADP VERB PART:の	5
+VERB ADP VERB SCONJ:て	23
+VERB ADP VERB:いう	17
+VERB ADP VERB:し	7
+VERB ADP VERB:思い	7
+VERB ADP VERB:行っ	4
+VERB ADP:だけ	12
+VERB ADP:と	59
+VERB ADP:という	25
+VERB ADP:など	39
+VERB ADP:に	76
+VERB ADP:まで	8
+VERB ADP:より	5
+VERB AUX ADJ AUX:な	18
+VERB AUX ADJ:この	4
+VERB AUX ADP ADP:に	3
+VERB AUX ADP ADP:の	6
+VERB AUX ADP ADP:は	6
+VERB AUX ADP ADP:も	4
+VERB AUX ADP PART:の	8
+VERB AUX ADP VERB:し	6
+VERB AUX ADP:と	77
+VERB AUX ADP:という	31
+VERB AUX ADP:など	21
+VERB AUX ADP:に	11
+VERB AUX ADP:まで	8
+VERB AUX AUX ADJ:その	3
+VERB AUX AUX ADP:だけ	6
+VERB AUX AUX ADP:など	5
+VERB AUX AUX AUX:し	4
+VERB AUX AUX AUX:た	482
+VERB AUX AUX AUX:ない	16
+VERB AUX AUX AUX:なかっ	5
+VERB AUX AUX AUX:なっ	15
+VERB AUX AUX AUX:まし	10
+VERB AUX AUX AUX:ます	6
+VERB AUX AUX AUX:よう	4
+VERB AUX AUX AUX:ように	9
+VERB AUX AUX AUX:られ	4
+VERB AUX AUX AUX:れ	3
+VERB AUX AUX NOUN:お	5
+VERB AUX AUX NOUN:こと	88
+VERB AUX AUX NOUN:上	6
+VERB AUX AUX NOUN:中	3
+VERB AUX AUX NOUN:人	3
+VERB AUX AUX NOUN:場合	19
+VERB AUX AUX NOUN:後	10
+VERB AUX AUX NUM:3	5
+VERB AUX AUX PART:の	37
+VERB AUX AUX SCONJ:て	331
+VERB AUX AUX SCONJ:と	35
+VERB AUX AUX SCONJ:ば	4
+VERB AUX AUX:し	3
+VERB AUX AUX:ず	31
+VERB AUX AUX:せ	67
+VERB AUX AUX:だ	5
+VERB AUX AUX:です	8
+VERB AUX AUX:なく	9
+VERB AUX AUX:よう	31
+VERB AUX AUX:ように	41
+VERB AUX AUX:れ	749
+VERB AUX AUX:れる	149
+VERB AUX NOUN ADP:から	17
+VERB AUX NOUN ADP:だけ	4
+VERB AUX NOUN ADP:で	73
+VERB AUX NOUN ADP:と	49
+VERB AUX NOUN ADP:など	9
+VERB AUX NOUN ADP:に	116
+VERB AUX NOUN ADP:について	6
+VERB AUX NOUN ADP:によって	6
+VERB AUX NOUN ADP:により	7
+VERB AUX NOUN ADP:の	120
+VERB AUX NOUN ADP:は	90
+VERB AUX NOUN ADP:も	65
+VERB AUX NOUN ADP:や	14
+VERB AUX NOUN AUX:だ	15
+VERB AUX NOUN AUX:だっ	9
+VERB AUX NOUN AUX:で	18
+VERB AUX NOUN AUX:であっ	4
+VERB AUX NOUN AUX:な	6
+VERB AUX NOUN NOUN:さん	3
+VERB AUX NOUN NOUN:店	12
+VERB AUX NOUN NOUN:者	4
+VERB AUX NOUN:こと	197
+VERB AUX NOUN:上	6
+VERB AUX NOUN:人	20
+VERB AUX NOUN:後	19
+VERB AUX NOUN:方	13
+VERB AUX NOUN:日	3
+VERB AUX NOUN:時	10
+VERB AUX NOUN:者	12
+VERB AUX NUM NOUN:年	5
+VERB AUX NUM:1	6
+VERB AUX NUM:4	4
+VERB AUX PART ADP:と	4
+VERB AUX PART ADP:は	42
+VERB AUX PART ADP:も	7
+VERB AUX PART ADP:を	3
+VERB AUX PART AUX:です	16
+VERB AUX PART PART:か	4
+VERB AUX PART:の	101
+VERB AUX PART:第	3
+VERB AUX PROPN ADP:から	3
+VERB AUX PROPN ADP:が	8
+VERB AUX PROPN ADP:に	10
+VERB AUX PROPN ADP:の	25
+VERB AUX PROPN:日本	4
+VERB AUX PUNCT ADJ:その	19
+VERB AUX PUNCT NOUN:こと	3
+VERB AUX PUNCT NOUN:現在	6
+VERB AUX PUNCT NUM:1	5
+VERB AUX PUNCT NUM:2	5
+VERB AUX PUNCT PRON:これ	4
+VERB AUX PUNCT PRON:それ	3
+VERB AUX PUNCT PROPN:日本	5
+VERB AUX SCONJ ADJ:その	3
+VERB AUX SCONJ ADP:から	4
+VERB AUX SCONJ ADP:に	15
+VERB AUX SCONJ ADP:の	7
+VERB AUX SCONJ ADP:は	4
+VERB AUX SCONJ ADP:も	12
+VERB AUX SCONJ AUX:おり	60
+VERB AUX SCONJ AUX:き	27
+VERB AUX SCONJ VERB:さ	11
+VERB AUX SCONJ VERB:し	22
+VERB AUX SCONJ VERB:する	10
+VERB AUX SCONJ:て	1096
+VERB AUX SCONJ:で	5
+VERB AUX SCONJ:ば	11
+VERB AUX VERB AUX:さ	3
+VERB AUX VERB AUX:し	17
+VERB AUX VERB AUX:た	6
+VERB AUX VERB AUX:れ	4
+VERB AUX:さ	986
+VERB AUX:し	2164
+VERB AUX:する	908
+VERB AUX:ず	98
+VERB AUX:せ	67
+VERB AUX:なかっ	54
+VERB AUX:ます	250
+VERB AUX:ませ	55
+VERB AUX:られ	212
+VERB AUX:られる	86
+VERB AUX:れ	518
+VERB AUX:れる	185
+VERB NOUN ADP ADJ:ない	9
+VERB NOUN ADP ADP:は	24
+VERB NOUN ADP ADP:も	8
+VERB NOUN ADP NUM:3	3
+VERB NOUN ADP PART:の	3
+VERB NOUN ADP VERB:あり	6
+VERB NOUN ADP VERB:ある	33
+VERB NOUN ADP VERB:さ	3
+VERB NOUN ADP VERB:し	23
+VERB NOUN ADP VERB:なっ	20
+VERB NOUN ADP VERB:なる	16
+VERB NOUN ADP VERB:見	4
+VERB NOUN ADP:が	170
+VERB NOUN ADP:で	61
+VERB NOUN ADP:と	51
+VERB NOUN ADP:など	14
+VERB NOUN ADP:によって	4
+VERB NOUN ADP:により	5
+VERB NOUN ADP:は	86
+VERB NOUN ADP:も	47
+VERB NOUN AUX ADP:と	3
+VERB NOUN AUX PART:の	3
+VERB NOUN AUX SCONJ:が	3
+VERB NOUN AUX:だ	14
+VERB NOUN AUX:で	10
+VERB NOUN AUX:です	19
+VERB NOUN NOUN ADP:が	12
+VERB NOUN NOUN ADP:と	8
+VERB NOUN NOUN ADP:の	24
+VERB NOUN NOUN ADP:を	15
+VERB NOUN NOUN AUX:です	6
+VERB NOUN NOUN:店	7
+VERB NOUN NOUN:者	4
+VERB NOUN PUNCT ADP:と	3
+VERB NOUN VERB AUX:さ	4
+VERB NOUN:こと	222
+VERB NOUN:もの	25
+VERB NOUN:中	46
+VERB NOUN:人	11
+VERB NOUN:前	9
+VERB NOUN:場合	6
+VERB NOUN:後	29
+VERB NOUN:方	28
+VERB NOUN:時	5
+VERB NOUN:者	10
+VERB NUM NOUN ADP:の	10
+VERB NUM:1	3
+VERB NUM:2	3
+VERB NUM:3	4
+VERB PART ADP:が	25
+VERB PART ADP:に	12
+VERB PART ADP:を	13
+VERB PART NOUN ADP:を	3
+VERB PART PART:か	12
+VERB PART:か	24
+VERB PART:の	112
+VERB PROPN ADP:が	4
+VERB PROPN ADP:に	8
+VERB PROPN ADP:は	5
+VERB PROPN ADP:へ	3
+VERB PROPN ADP:も	3
+VERB PROPN ADP:を	4
+VERB PROPN NOUN ADP:が	4
+VERB PROPN NOUN ADP:に	4
+VERB PROPN NOUN ADP:の	7
+VERB PUNCT ADJ AUX:で	3
+VERB PUNCT ADJ AUX:に	11
+VERB PUNCT ADJ:その	15
+VERB PUNCT ADP ADP:と	4
+VERB PUNCT ADP:と	11
+VERB PUNCT ADP:という	3
+VERB PUNCT ADP:など	4
+VERB PUNCT CCONJ:また	3
+VERB PUNCT NOUN ADP:から	4
+VERB PUNCT NOUN ADP:が	18
+VERB PUNCT NOUN ADP:で	5
+VERB PUNCT NOUN ADP:と	14
+VERB PUNCT NOUN ADP:に	29
+VERB PUNCT NOUN ADP:によって	5
+VERB PUNCT NOUN ADP:は	26
+VERB PUNCT NOUN ADP:まで	5
+VERB PUNCT NOUN ADP:も	8
+VERB PUNCT NOUN ADP:や	6
+VERB PUNCT NOUN ADP:を	36
+VERB PUNCT NOUN NOUN:者	3
+VERB PUNCT NOUN NUM:1	4
+VERB PUNCT NOUN:現在	4
+VERB PUNCT NUM NOUN:つ	3
+VERB PUNCT NUM NOUN:人	5
+VERB PUNCT NUM:1	4
+VERB PUNCT NUM:10	3
+VERB PUNCT NUM:2	6
+VERB PUNCT NUM:4	3
+VERB PUNCT NUM:5	3
+VERB PUNCT PRON ADP:に	3
+VERB PUNCT PRON ADP:は	3
+VERB PUNCT PRON ADP:を	3
+VERB PUNCT PRON:これ	5
+VERB PUNCT PRON:それ	8
+VERB PUNCT PROPN ADP:から	4
+VERB PUNCT PROPN ADP:で	4
+VERB PUNCT PROPN ADP:は	8
+VERB PUNCT PROPN ADP:を	6
+VERB PUNCT VERB AUX:さ	3
+VERB PUNCT VERB AUX:する	5
+VERB PUNCT VERB AUX:た	6
+VERB PUNCT., NOUN ADP:で	4
+VERB PUNCT., NOUN ADP:に	5
+VERB PUNCT., NOUN ADP:を	5
+VERB PUNCT., PRON:これ	3
+VERB SCONJ ADJ AUX:な	11
+VERB SCONJ ADJ AUX:に	5
+VERB SCONJ ADJ:その	6
+VERB SCONJ ADJ:ない	3
+VERB SCONJ ADP AUX:いる	3
+VERB SCONJ ADP:から	18
+VERB SCONJ ADP:と	5
+VERB SCONJ ADP:の	11
+VERB SCONJ ADP:は	61
+VERB SCONJ AUX ADP:という	5
+VERB SCONJ AUX ADP:など	4
+VERB SCONJ AUX AUX:なかっ	6
+VERB SCONJ AUX AUX:まし	74
+VERB SCONJ AUX AUX:ます	124
+VERB SCONJ AUX AUX:よう	10
+VERB SCONJ AUX AUX:られ	4
+VERB SCONJ AUX NOUN:人	8
+VERB SCONJ AUX NOUN:者	4
+VERB SCONJ AUX PART:か	4
+VERB SCONJ AUX PART:の	19
+VERB SCONJ AUX SCONJ:て	57
+VERB SCONJ AUX SCONJ:と	17
+VERB SCONJ AUX SCONJ:ば	5
+VERB SCONJ AUX:ある	6
+VERB SCONJ AUX:き	63
+VERB SCONJ AUX:た	4
+VERB SCONJ AUX:です	3
+VERB SCONJ AUX:まし	7
+VERB SCONJ AUX:ます	10
+VERB SCONJ NOUN ADP:から	3
+VERB SCONJ NOUN ADP:で	6
+VERB SCONJ NOUN ADP:の	46
+VERB SCONJ NOUN ADP:は	12
+VERB SCONJ NOUN ADP:や	6
+VERB SCONJ NOUN ADP:を	60
+VERB SCONJ NOUN:現在	3
+VERB SCONJ NUM NOUN:年	10
+VERB SCONJ NUM:4	3
+VERB SCONJ PART:の	28
+VERB SCONJ PART:約	5
+VERB SCONJ PRON ADP:は	3
+VERB SCONJ PRON ADP:を	5
+VERB SCONJ PRON:これ	3
+VERB SCONJ PROPN ADP:と	4
+VERB SCONJ PROPN ADP:の	10
+VERB SCONJ PROPN ADP:へ	3
+VERB SCONJ PROPN ADP:を	8
+VERB SCONJ PUNCT ADJ:この	7
+VERB SCONJ PUNCT ADJ:その	6
+VERB SCONJ SCONJ:て	5
+VERB SCONJ VERB AUX:さ	39
+VERB SCONJ VERB AUX:し	76
+VERB SCONJ VERB AUX:する	35
+VERB SCONJ VERB AUX:た	21
+VERB SCONJ VERB AUX:ない	4
+VERB SCONJ VERB AUX:られ	9
+VERB SCONJ VERB AUX:られる	4
+VERB SCONJ VERB NOUN:こと	8
+VERB SCONJ VERB PART:の	3
+VERB SCONJ VERB SCONJ:て	37
+VERB SCONJ VERB SCONJ:で	7
+VERB SCONJ VERB:ある	4
+VERB SCONJ VERB:見	3
+VERB SCONJ:て	2393
+VERB SCONJ:で	122
+VERB SCONJ:ば	67
+VERB VERB ADP:に	5
+VERB VERB AUX AUX:た	9
+VERB VERB AUX AUX:れ	8
+VERB VERB AUX AUX:ん	3
+VERB VERB AUX SCONJ:と	3
+VERB VERB AUX:さ	11
+VERB VERB AUX:た	14
+VERB VERB AUX:ませ	3
+VERB VERB AUX:れ	4
+VERB VERB NOUN:こと	3
+VERB VERB SCONJ:て	13
+VERB:あり	160
+VERB:ある	457
+VERB:いう	119
+VERB:さ	90
+VERB:し	742
+VERB:する	126
+VERB:なっ	343
+VERB:なる	169
+VERB:受け	91
+VERB:思い	90
+VERB:行っ	93
+VERB:見	88
+
+[NGRAMS:1]
+20
+ADJ	4554
+ADP	35701
+ADV	1629
+AUX	20651
+BOF	7164
+CCONJ	755
+EOF	7164
+NOUN	44520
+NUM	3917
+PART	2128
+PRON	861
+PROPN	8015
+PUNCT	15363
+PUNCT.!	131
+PUNCT.,	1106
+PUNCT..	10
+PUNCT.?	42
+SCONJ	6126
+SYM	1194
+VERB	15199
+
+[NGRAMS:2]
+228
+ADJ ADJ	46
+ADJ ADP	127
+ADJ ADV	14
+ADJ AUX	1772
+ADJ CCONJ	9
+ADJ NOUN	1667
+ADJ NUM	13
+ADJ PART	125
+ADJ PRON	6
+ADJ PROPN	66
+ADJ PUNCT	346
+ADJ PUNCT.!	15
+ADJ PUNCT.,	7
+ADJ SCONJ	147
+ADJ SYM	11
+ADJ VERB	182
+ADP ADJ	2182
+ADP ADP	2155
+ADP ADV	676
+ADP AUX	379
+ADP CCONJ	15
+ADP NOUN	11997
+ADP NUM	1019
+ADP PART	606
+ADP PRON	151
+ADP PROPN	1995
+ADP PUNCT	2043
+ADP PUNCT.,	382
+ADP SYM	5
+ADP VERB	12094
+ADV ADJ	211
+ADV ADP	66
+ADV ADV	28
+ADV AUX	38
+ADV CCONJ	3
+ADV NOUN	478
+ADV NUM	69
+ADV PART	79
+ADV PRON	12
+ADV PROPN	103
+ADV PUNCT	77
+ADV PUNCT.,	36
+ADV SYM	3
+ADV VERB	425
+AUX ADJ	195
+AUX ADP	677
+AUX ADV	34
+AUX AUX	5830
+AUX CCONJ	4
+AUX EOF	6
+AUX NOUN	3553
+AUX NUM	85
+AUX PART	488
+AUX PRON	25
+AUX PROPN	433
+AUX PUNCT	5787
+AUX PUNCT.!	63
+AUX PUNCT.,	150
+AUX PUNCT.?	4
+AUX SCONJ	2936
+AUX SYM	10
+AUX VERB	371
+BOF ADJ	608
+BOF ADV	359
+BOF CCONJ	559
+BOF NOUN	3211
+BOF NUM	583
+BOF PART	59
+BOF PRON	334
+BOF PROPN	1116
+BOF PUNCT	152
+BOF SYM	6
+BOF VERB	177
+CCONJ ADJ	37
+CCONJ ADV	13
+CCONJ NOUN	215
+CCONJ NUM	24
+CCONJ PART	2
+CCONJ PRON	9
+CCONJ PROPN	73
+CCONJ PUNCT	293
+CCONJ PUNCT.,	45
+CCONJ VERB	43
+NOUN ADJ	252
+NOUN ADP	26427
+NOUN ADV	45
+NOUN AUX	1381
+NOUN CCONJ	55
+NOUN EOF	13
+NOUN NOUN	10365
+NOUN NUM	817
+NOUN PART	280
+NOUN PRON	11
+NOUN PROPN	781
+NOUN PUNCT	2786
+NOUN PUNCT.!	22
+NOUN PUNCT.,	165
+NOUN PUNCT..	2
+NOUN SCONJ	11
+NOUN SYM	531
+NOUN VERB	575
+NUM ADP	123
+NUM ADV	15
+NUM AUX	9
+NUM NOUN	3384
+NUM NUM	89
+NUM PART	30
+NUM PROPN	177
+NUM PUNCT	45
+NUM PUNCT.,	3
+NUM PUNCT..	2
+NUM SYM	37
+NUM VERB	2
+PART ADJ	42
+PART ADP	442
+PART ADV	7
+PART AUX	160
+PART EOF	3
+PART NOUN	595
+PART NUM	456
+PART PART	68
+PART PRON	4
+PART PROPN	48
+PART PUNCT	161
+PART PUNCT.!	15
+PART PUNCT.,	18
+PART PUNCT.?	35
+PART SYM	2
+PART VERB	72
+PRON ADP	787
+PRON AUX	9
+PRON NOUN	24
+PRON NUM	4
+PRON PART	20
+PRON PUNCT	7
+PRON PUNCT.,	4
+PROPN ADJ	22
+PROPN ADP	3355
+PROPN ADV	6
+PROPN AUX	75
+PROPN CCONJ	14
+PROPN EOF	7
+PROPN NOUN	2374
+PROPN NUM	149
+PROPN PART	88
+PROPN PRON	2
+PROPN PROPN	766
+PROPN PUNCT	491
+PROPN PUNCT.!	8
+PROPN PUNCT.,	6
+PROPN PUNCT..	6
+PROPN SYM	570
+PROPN VERB	76
+PUNCT ADJ	628
+PUNCT ADP	767
+PUNCT ADV	268
+PUNCT AUX	35
+PUNCT CCONJ	64
+PUNCT EOF	6963
+PUNCT NOUN	3886
+PUNCT NUM	452
+PUNCT PART	55
+PUNCT PRON	207
+PUNCT PROPN	1536
+PUNCT PUNCT	212
+PUNCT PUNCT.,	2
+PUNCT SCONJ	4
+PUNCT SYM	7
+PUNCT VERB	277
+PUNCT.! EOF	127
+PUNCT.! PUNCT	4
+PUNCT., ADJ	110
+PUNCT., ADP	13
+PUNCT., ADV	88
+PUNCT., CCONJ	18
+PUNCT., NOUN	553
+PUNCT., NUM	34
+PUNCT., PART	7
+PUNCT., PRON	61
+PUNCT., PROPN	132
+PUNCT., PUNCT	41
+PUNCT., VERB	48
+PUNCT.. NOUN	4
+PUNCT.. NUM	3
+PUNCT.. PROPN	3
+PUNCT.? EOF	42
+SCONJ ADJ	156
+SCONJ ADP	287
+SCONJ ADV	68
+SCONJ AUX	2650
+SCONJ CCONJ	6
+SCONJ NOUN	593
+SCONJ NUM	59
+SCONJ PART	54
+SCONJ PRON	33
+SCONJ PROPN	130
+SCONJ PUNCT	1151
+SCONJ PUNCT.,	217
+SCONJ SCONJ	5
+SCONJ SYM	3
+SCONJ VERB	714
+SYM ADJ	8
+SYM ADP	178
+SYM AUX	5
+SYM NOUN	377
+SYM NUM	30
+SYM PART	6
+SYM PRON	2
+SYM PROPN	544
+SYM PUNCT	28
+SYM VERB	15
+VERB ADJ	55
+VERB ADP	297
+VERB ADV	7
+VERB AUX	8308
+VERB CCONJ	6
+VERB EOF	2
+VERB NOUN	1244
+VERB NUM	31
+VERB PART	161
+VERB PRON	4
+VERB PROPN	111
+VERB PUNCT	1739
+VERB PUNCT.!	6
+VERB PUNCT.,	71
+VERB SCONJ	3022
+VERB SYM	7
+VERB VERB	128
+
+[NGRAMS:3]
+1161
+ADJ ADJ AUX	21
+ADJ ADJ NOUN	18
+ADJ ADJ PART	4
+ADJ ADP ADJ	7
+ADJ ADP ADP	8
+ADJ ADP AUX	37
+ADJ ADP NOUN	21
+ADJ ADP PUNCT	5
+ADJ ADP VERB	44
+ADJ ADV NOUN	3
+ADJ ADV VERB	5
+ADJ AUX ADJ	74
+ADJ AUX ADP	60
+ADJ AUX ADV	11
+ADJ AUX AUX	256
+ADJ AUX NOUN	803
+ADJ AUX NUM	12
+ADJ AUX PART	28
+ADJ AUX PRON	5
+ADJ AUX PROPN	39
+ADJ AUX PUNCT	152
+ADJ AUX PUNCT.!	5
+ADJ AUX PUNCT.,	5
+ADJ AUX SCONJ	84
+ADJ AUX VERB	237
+ADJ CCONJ NOUN	3
+ADJ NOUN ADJ	12
+ADJ NOUN ADP	1155
+ADJ NOUN AUX	99
+ADJ NOUN NOUN	230
+ADJ NOUN NUM	6
+ADJ NOUN PART	11
+ADJ NOUN PROPN	12
+ADJ NOUN PUNCT	112
+ADJ NOUN PUNCT.,	4
+ADJ NOUN SYM	5
+ADJ NOUN VERB	19
+ADJ NUM NOUN	11
+ADJ PART ADP	60
+ADJ PART AUX	19
+ADJ PART NUM	27
+ADJ PART PART	10
+ADJ PART PUNCT	5
+ADJ PRON ADP	5
+ADJ PROPN ADP	21
+ADJ PROPN NOUN	23
+ADJ PROPN PROPN	11
+ADJ PROPN SYM	4
+ADJ PROPN VERB	3
+ADJ PUNCT ADJ	16
+ADJ PUNCT ADP	17
+ADJ PUNCT ADV	10
+ADJ PUNCT EOF	222
+ADJ PUNCT NOUN	54
+ADJ PUNCT NUM	4
+ADJ PUNCT PROPN	7
+ADJ PUNCT PUNCT	5
+ADJ PUNCT VERB	6
+ADJ PUNCT.! EOF	15
+ADJ PUNCT., NOUN	3
+ADJ SCONJ ADJ	11
+ADJ SCONJ ADP	11
+ADJ SCONJ ADV	8
+ADJ SCONJ NOUN	28
+ADJ SCONJ PRON	6
+ADJ SCONJ PUNCT	49
+ADJ SCONJ PUNCT.,	9
+ADJ SCONJ VERB	23
+ADJ SYM NOUN	7
+ADJ VERB ADP	3
+ADJ VERB AUX	113
+ADJ VERB NOUN	24
+ADJ VERB PUNCT	8
+ADJ VERB SCONJ	31
+ADP ADJ ADJ	20
+ADP ADJ ADP	87
+ADP ADJ ADV	5
+ADP ADJ AUX	952
+ADP ADJ CCONJ	6
+ADP ADJ NOUN	522
+ADP ADJ NUM	3
+ADP ADJ PART	63
+ADP ADJ PRON	3
+ADP ADJ PROPN	26
+ADP ADJ PUNCT	257
+ADP ADJ PUNCT.!	6
+ADP ADJ PUNCT.,	4
+ADP ADJ SCONJ	113
+ADP ADJ SYM	4
+ADP ADJ VERB	110
+ADP ADP ADJ	152
+ADP ADP ADP	45
+ADP ADP ADV	76
+ADP ADP NOUN	702
+ADP ADP NUM	72
+ADP ADP PART	13
+ADP ADP PRON	14
+ADP ADP PROPN	155
+ADP ADP PUNCT	325
+ADP ADP PUNCT.,	75
+ADP ADP VERB	526
+ADP ADV ADJ	105
+ADP ADV ADP	21
+ADP ADV ADV	12
+ADP ADV AUX	20
+ADP ADV NOUN	179
+ADP ADV NUM	20
+ADP ADV PART	30
+ADP ADV PROPN	35
+ADP ADV PUNCT	21
+ADP ADV PUNCT.,	9
+ADP ADV VERB	221
+ADP AUX ADJ	12
+ADP AUX ADP	18
+ADP AUX AUX	104
+ADP AUX NOUN	61
+ADP AUX PART	15
+ADP AUX PROPN	6
+ADP AUX PUNCT	93
+ADP AUX PUNCT.,	16
+ADP AUX SCONJ	37
+ADP AUX VERB	15
+ADP CCONJ NOUN	4
+ADP CCONJ VERB	5
+ADP NOUN ADJ	101
+ADP NOUN ADP	7237
+ADP NOUN ADV	10
+ADP NOUN AUX	417
+ADP NOUN CCONJ	6
+ADP NOUN NOUN	2866
+ADP NOUN NUM	149
+ADP NOUN PART	66
+ADP NOUN PROPN	172
+ADP NOUN PUNCT	585
+ADP NOUN PUNCT.!	10
+ADP NOUN PUNCT.,	32
+ADP NOUN SCONJ	3
+ADP NOUN SYM	129
+ADP NOUN VERB	213
+ADP NUM ADP	15
+ADP NUM ADV	7
+ADP NUM NOUN	891
+ADP NUM NUM	34
+ADP NUM PART	9
+ADP NUM PROPN	47
+ADP NUM PUNCT	6
+ADP NUM SYM	6
+ADP PART ADJ	14
+ADP PART NOUN	421
+ADP PART NUM	136
+ADP PART PROPN	19
+ADP PART PUNCT	3
+ADP PART VERB	5
+ADP PRON ADP	132
+ADP PRON AUX	3
+ADP PRON PART	6
+ADP PRON PUNCT	4
+ADP PRON PUNCT.,	3
+ADP PROPN ADP	842
+ADP PROPN AUX	23
+ADP PROPN CCONJ	3
+ADP PROPN NOUN	609
+ADP PROPN NUM	36
+ADP PROPN PART	27
+ADP PROPN PROPN	224
+ADP PROPN PUNCT	66
+ADP PROPN PUNCT.!	3
+ADP PROPN PUNCT..	3
+ADP PROPN SYM	126
+ADP PROPN VERB	29
+ADP PUNCT ADJ	167
+ADP PUNCT ADP	7
+ADP PUNCT ADV	83
+ADP PUNCT CCONJ	8
+ADP PUNCT EOF	36
+ADP PUNCT NOUN	1047
+ADP PUNCT NUM	107
+ADP PUNCT PART	15
+ADP PUNCT PRON	45
+ADP PUNCT PROPN	413
+ADP PUNCT PUNCT	31
+ADP PUNCT VERB	81
+ADP PUNCT., ADJ	47
+ADP PUNCT., ADV	40
+ADP PUNCT., CCONJ	4
+ADP PUNCT., NOUN	176
+ADP PUNCT., NUM	12
+ADP PUNCT., PRON	20
+ADP PUNCT., PROPN	46
+ADP PUNCT., PUNCT	21
+ADP PUNCT., VERB	12
+ADP VERB ADJ	43
+ADP VERB ADP	199
+ADP VERB ADV	5
+ADP VERB AUX	6453
+ADP VERB CCONJ	4
+ADP VERB NOUN	943
+ADP VERB NUM	28
+ADP VERB PART	122
+ADP VERB PRON	3
+ADP VERB PROPN	84
+ADP VERB PUNCT	1551
+ADP VERB PUNCT.!	3
+ADP VERB PUNCT.,	68
+ADP VERB SCONJ	2507
+ADP VERB SYM	3
+ADP VERB VERB	77
+ADV ADJ ADP	8
+ADV ADJ AUX	104
+ADV ADJ NOUN	50
+ADV ADJ PART	7
+ADV ADJ PUNCT	14
+ADV ADJ PUNCT.!	4
+ADV ADJ SCONJ	11
+ADV ADJ VERB	8
+ADV ADP NOUN	22
+ADV ADP PART	5
+ADV ADP PROPN	3
+ADV ADP PUNCT	6
+ADV ADP VERB	26
+ADV ADV NOUN	8
+ADV ADV PART	5
+ADV ADV VERB	9
+ADV AUX ADP	3
+ADV AUX AUX	8
+ADV AUX PUNCT	11
+ADV AUX SCONJ	6
+ADV NOUN ADJ	8
+ADV NOUN ADP	281
+ADV NOUN AUX	13
+ADV NOUN EOF	6
+ADV NOUN NOUN	129
+ADV NOUN NUM	3
+ADV NOUN PART	3
+ADV NOUN PROPN	3
+ADV NOUN PUNCT	12
+ADV NOUN SYM	3
+ADV NOUN VERB	13
+ADV NUM NOUN	69
+ADV PART ADJ	4
+ADV PART NOUN	41
+ADV PART NUM	8
+ADV PART VERB	17
+ADV PRON ADP	11
+ADV PROPN ADP	50
+ADV PROPN NOUN	41
+ADV PROPN PROPN	3
+ADV PROPN SYM	3
+ADV PROPN VERB	3
+ADV PUNCT ADJ	7
+ADV PUNCT NOUN	35
+ADV PUNCT NUM	3
+ADV PUNCT PROPN	22
+ADV PUNCT VERB	4
+ADV PUNCT., ADJ	4
+ADV PUNCT., NOUN	18
+ADV PUNCT., PRON	3
+ADV PUNCT., PROPN	6
+ADV PUNCT., VERB	3
+ADV VERB ADP	6
+ADV VERB AUX	254
+ADV VERB NOUN	22
+ADV VERB PART	8
+ADV VERB PUNCT	24
+ADV VERB SCONJ	105
+AUX ADJ ADJ	3
+AUX ADJ ADP	3
+AUX ADJ AUX	80
+AUX ADJ NOUN	71
+AUX ADJ PART	9
+AUX ADJ PUNCT	13
+AUX ADJ VERB	10
+AUX ADP ADJ	18
+AUX ADP ADP	60
+AUX ADP AUX	181
+AUX ADP NOUN	105
+AUX ADP NUM	3
+AUX ADP PART	27
+AUX ADP PROPN	8
+AUX ADP PUNCT	31
+AUX ADP PUNCT.,	5
+AUX ADP VERB	236
+AUX ADV ADJ	8
+AUX ADV ADP	3
+AUX ADV NOUN	7
+AUX ADV VERB	8
+AUX AUX ADJ	34
+AUX AUX ADP	149
+AUX AUX ADV	7
+AUX AUX AUX	1043
+AUX AUX EOF	3
+AUX AUX NOUN	955
+AUX AUX NUM	36
+AUX AUX PART	166
+AUX AUX PRON	8
+AUX AUX PROPN	159
+AUX AUX PUNCT	2298
+AUX AUX PUNCT.!	31
+AUX AUX PUNCT.,	30
+AUX AUX PUNCT.?	3
+AUX AUX SCONJ	872
+AUX AUX SYM	6
+AUX AUX VERB	29
+AUX NOUN ADJ	19
+AUX NOUN ADP	2322
+AUX NOUN ADV	5
+AUX NOUN AUX	290
+AUX NOUN NOUN	571
+AUX NOUN NUM	16
+AUX NOUN PART	14
+AUX NOUN PROPN	27
+AUX NOUN PUNCT	229
+AUX NOUN PUNCT.,	20
+AUX NOUN SYM	14
+AUX NOUN VERB	22
+AUX NUM NOUN	78
+AUX NUM PROPN	4
+AUX PART ADP	213
+AUX PART AUX	112
+AUX PART NUM	14
+AUX PART PART	34
+AUX PART PUNCT	75
+AUX PART PUNCT.!	10
+AUX PART PUNCT.,	5
+AUX PART PUNCT.?	19
+AUX PART VERB	3
+AUX PRON ADP	23
+AUX PROPN ADP	198
+AUX PROPN AUX	4
+AUX PROPN NOUN	117
+AUX PROPN NUM	6
+AUX PROPN PART	3
+AUX PROPN PROPN	57
+AUX PROPN PUNCT	11
+AUX PROPN SYM	30
+AUX PROPN VERB	3
+AUX PUNCT ADJ	124
+AUX PUNCT ADP	96
+AUX PUNCT ADV	40
+AUX PUNCT CCONJ	11
+AUX PUNCT EOF	4583
+AUX PUNCT NOUN	564
+AUX PUNCT NUM	86
+AUX PUNCT PART	7
+AUX PUNCT PRON	33
+AUX PUNCT PROPN	171
+AUX PUNCT PUNCT	26
+AUX PUNCT SCONJ	3
+AUX PUNCT VERB	42
+AUX PUNCT.! EOF	62
+AUX PUNCT., ADJ	11
+AUX PUNCT., ADP	5
+AUX PUNCT., ADV	9
+AUX PUNCT., CCONJ	9
+AUX PUNCT., NOUN	77
+AUX PUNCT., NUM	4
+AUX PUNCT., PRON	7
+AUX PUNCT., PROPN	8
+AUX PUNCT., PUNCT	10
+AUX PUNCT., VERB	9
+AUX PUNCT.? EOF	4
+AUX SCONJ ADJ	72
+AUX SCONJ ADP	82
+AUX SCONJ ADV	27
+AUX SCONJ AUX	1239
+AUX SCONJ CCONJ	4
+AUX SCONJ NOUN	226
+AUX SCONJ NUM	17
+AUX SCONJ PART	17
+AUX SCONJ PRON	14
+AUX SCONJ PROPN	38
+AUX SCONJ PUNCT	756
+AUX SCONJ PUNCT.,	138
+AUX SCONJ VERB	305
+AUX SYM ADP	3
+AUX SYM PUNCT	4
+AUX VERB ADP	13
+AUX VERB AUX	237
+AUX VERB NOUN	37
+AUX VERB PUNCT	22
+AUX VERB SCONJ	54
+AUX VERB VERB	3
+BOF ADJ ADJ	10
+BOF ADJ ADP	3
+BOF ADJ ADV	3
+BOF ADJ AUX	140
+BOF ADJ NOUN	410
+BOF ADJ NUM	4
+BOF ADJ PART	10
+BOF ADJ PROPN	14
+BOF ADJ SCONJ	4
+BOF ADJ VERB	5
+BOF ADV ADJ	38
+BOF ADV ADP	17
+BOF ADV ADV	7
+BOF ADV AUX	6
+BOF ADV NOUN	123
+BOF ADV NUM	12
+BOF ADV PART	13
+BOF ADV PRON	4
+BOF ADV PROPN	31
+BOF ADV PUNCT	45
+BOF ADV PUNCT.,	19
+BOF ADV VERB	40
+BOF CCONJ ADJ	26
+BOF CCONJ ADV	8
+BOF CCONJ NOUN	125
+BOF CCONJ NUM	19
+BOF CCONJ PRON	6
+BOF CCONJ PROPN	36
+BOF CCONJ PUNCT	278
+BOF CCONJ PUNCT.,	42
+BOF CCONJ VERB	18
+BOF NOUN ADJ	23
+BOF NOUN ADP	1791
+BOF NOUN AUX	31
+BOF NOUN CCONJ	7
+BOF NOUN NOUN	945
+BOF NOUN NUM	113
+BOF NOUN PART	15
+BOF NOUN PRON	3
+BOF NOUN PROPN	82
+BOF NOUN PUNCT	119
+BOF NOUN PUNCT.,	14
+BOF NOUN SYM	34
+BOF NOUN VERB	33
+BOF NUM ADP	3
+BOF NUM NOUN	551
+BOF NUM NUM	5
+BOF NUM PART	8
+BOF NUM PROPN	8
+BOF PART NUM	59
+BOF PRON ADP	311
+BOF PRON NOUN	12
+BOF PRON PART	5
+BOF PRON PUNCT	3
+BOF PROPN ADJ	4
+BOF PROPN ADP	542
+BOF PROPN AUX	7
+BOF PROPN NOUN	353
+BOF PROPN NUM	19
+BOF PROPN PART	12
+BOF PROPN PROPN	112
+BOF PROPN PUNCT	17
+BOF PROPN SYM	42
+BOF PROPN VERB	3
+BOF PUNCT ADJ	4
+BOF PUNCT NOUN	78
+BOF PUNCT NUM	8
+BOF PUNCT PRON	4
+BOF PUNCT PROPN	51
+BOF PUNCT VERB	4
+BOF SYM NOUN	3
+BOF VERB ADP	10
+BOF VERB AUX	91
+BOF VERB NOUN	36
+BOF VERB PROPN	3
+BOF VERB SCONJ	28
+BOF VERB VERB	7
+CCONJ ADJ AUX	15
+CCONJ ADJ NOUN	18
+CCONJ ADV ADJ	3
+CCONJ ADV VERB	6
+CCONJ NOUN ADP	114
+CCONJ NOUN NOUN	74
+CCONJ NOUN NUM	7
+CCONJ NOUN PROPN	5
+CCONJ NOUN PUNCT	5
+CCONJ NOUN VERB	3
+CCONJ NUM NOUN	23
+CCONJ PRON ADP	9
+CCONJ PROPN ADP	30
+CCONJ PROPN NOUN	29
+CCONJ PROPN PROPN	7
+CCONJ PROPN SYM	4
+CCONJ PUNCT ADJ	37
+CCONJ PUNCT ADV	8
+CCONJ PUNCT NOUN	149
+CCONJ PUNCT NUM	15
+CCONJ PUNCT PART	5
+CCONJ PUNCT PRON	13
+CCONJ PUNCT PROPN	54
+CCONJ PUNCT PUNCT	7
+CCONJ PUNCT VERB	4
+CCONJ PUNCT., ADV	3
+CCONJ PUNCT., NOUN	31
+CCONJ PUNCT., PROPN	6
+CCONJ VERB ADP	3
+CCONJ VERB AUX	27
+CCONJ VERB NOUN	5
+CCONJ VERB SCONJ	6
+NOUN ADJ ADP	11
+NOUN ADJ AUX	85
+NOUN ADJ NOUN	86
+NOUN ADJ PART	4
+NOUN ADJ PROPN	4
+NOUN ADJ PUNCT	27
+NOUN ADJ SCONJ	6
+NOUN ADJ VERB	20
+NOUN ADP ADJ	1689
+NOUN ADP ADP	1600
+NOUN ADP ADV	483
+NOUN ADP AUX	96
+NOUN ADP CCONJ	8
+NOUN ADP NOUN	8945
+NOUN ADP NUM	749
+NOUN ADP PART	414
+NOUN ADP PRON	96
+NOUN ADP PROPN	1302
+NOUN ADP PUNCT	1252
+NOUN ADP PUNCT.,	221
+NOUN ADP SYM	4
+NOUN ADP VERB	9568
+NOUN ADV ADJ	4
+NOUN ADV ADP	6
+NOUN ADV NOUN	11
+NOUN ADV PART	3
+NOUN ADV PROPN	4
+NOUN ADV VERB	15
+NOUN AUX ADJ	14
+NOUN AUX ADP	160
+NOUN AUX ADV	6
+NOUN AUX AUX	283
+NOUN AUX NOUN	98
+NOUN AUX NUM	6
+NOUN AUX PART	58
+NOUN AUX PRON	3
+NOUN AUX PROPN	50
+NOUN AUX PUNCT	509
+NOUN AUX PUNCT.!	12
+NOUN AUX PUNCT.,	21
+NOUN AUX SCONJ	147
+NOUN AUX VERB	14
+NOUN CCONJ NOUN	38
+NOUN CCONJ PROPN	9
+NOUN NOUN ADJ	31
+NOUN NOUN ADP	6457
+NOUN NOUN ADV	9
+NOUN NOUN AUX	305
+NOUN NOUN CCONJ	25
+NOUN NOUN EOF	3
+NOUN NOUN NOUN	1978
+NOUN NOUN NUM	278
+NOUN NOUN PART	79
+NOUN NOUN PROPN	151
+NOUN NOUN PUNCT	775
+NOUN NOUN PUNCT.!	4
+NOUN NOUN PUNCT.,	33
+NOUN NOUN SYM	141
+NOUN NOUN VERB	92
+NOUN NUM ADP	28
+NOUN NUM ADV	4
+NOUN NUM AUX	4
+NOUN NUM NOUN	696
+NOUN NUM NUM	22
+NOUN NUM PART	3
+NOUN NUM PROPN	39
+NOUN NUM PUNCT	14
+NOUN NUM SYM	7
+NOUN PART ADJ	18
+NOUN PART ADP	37
+NOUN PART ADV	4
+NOUN PART NOUN	69
+NOUN PART NUM	65
+NOUN PART PART	4
+NOUN PART PROPN	13
+NOUN PART PUNCT	31
+NOUN PART PUNCT.,	6
+NOUN PART VERB	28
+NOUN PRON ADP	10
+NOUN PROPN ADJ	8
+NOUN PROPN ADP	298
+NOUN PROPN AUX	9
+NOUN PROPN CCONJ	3
+NOUN PROPN NOUN	247
+NOUN PROPN NUM	20
+NOUN PROPN PART	13
+NOUN PROPN PROPN	63
+NOUN PROPN PUNCT	45
+NOUN PROPN PUNCT.,	3
+NOUN PROPN SYM	53
+NOUN PROPN VERB	16
+NOUN PUNCT ADJ	77
+NOUN PUNCT ADP	429
+NOUN PUNCT ADV	21
+NOUN PUNCT AUX	21
+NOUN PUNCT CCONJ	30
+NOUN PUNCT EOF	825
+NOUN PUNCT NOUN	786
+NOUN PUNCT NUM	78
+NOUN PUNCT PART	10
+NOUN PUNCT PRON	13
+NOUN PUNCT PROPN	381
+NOUN PUNCT PUNCT	78
+NOUN PUNCT SYM	3
+NOUN PUNCT VERB	33
+NOUN PUNCT.! EOF	21
+NOUN PUNCT., ADJ	10
+NOUN PUNCT., ADP	3
+NOUN PUNCT., ADV	7
+NOUN PUNCT., NOUN	91
+NOUN PUNCT., NUM	6
+NOUN PUNCT., PRON	7
+NOUN PUNCT., PROPN	29
+NOUN PUNCT., PUNCT	6
+NOUN PUNCT., VERB	4
+NOUN SCONJ NOUN	6
+NOUN SYM ADJ	5
+NOUN SYM ADP	95
+NOUN SYM AUX	3
+NOUN SYM NOUN	233
+NOUN SYM NUM	3
+NOUN SYM PART	4
+NOUN SYM PROPN	160
+NOUN SYM PUNCT	16
+NOUN SYM VERB	11
+NOUN VERB ADJ	4
+NOUN VERB ADP	14
+NOUN VERB AUX	361
+NOUN VERB NOUN	53
+NOUN VERB PART	8
+NOUN VERB PROPN	7
+NOUN VERB PUNCT	26
+NOUN VERB SCONJ	79
+NOUN VERB VERB	17
+NUM ADP ADJ	3
+NUM ADP ADP	8
+NUM ADP ADV	4
+NUM ADP NOUN	48
+NUM ADP NUM	8
+NUM ADP PROPN	5
+NUM ADP PUNCT	6
+NUM ADP VERB	38
+NUM ADV NUM	13
+NUM AUX PUNCT	5
+NUM NOUN ADJ	7
+NUM NOUN ADP	1708
+NUM NOUN ADV	5
+NUM NOUN AUX	72
+NUM NOUN NOUN	959
+NUM NOUN NUM	101
+NUM NOUN PART	22
+NUM NOUN PROPN	59
+NUM NOUN PUNCT	319
+NUM NOUN PUNCT.,	20
+NUM NOUN SYM	18
+NUM NOUN VERB	90
+NUM NUM NOUN	88
+NUM PART NUM	29
+NUM PROPN ADP	74
+NUM PROPN AUX	7
+NUM PROPN NOUN	43
+NUM PROPN NUM	11
+NUM PROPN PROPN	3
+NUM PROPN PUNCT	29
+NUM PROPN SYM	6
+NUM PUNCT ADP	18
+NUM PUNCT EOF	16
+NUM PUNCT NUM	3
+NUM PUNCT PROPN	3
+NUM PUNCT., NUM	3
+NUM SYM ADP	11
+NUM SYM NOUN	3
+NUM SYM NUM	19
+NUM SYM PROPN	3
+PART ADJ AUX	23
+PART ADJ NOUN	16
+PART ADP ADJ	61
+PART ADP ADP	11
+PART ADP ADV	22
+PART ADP AUX	8
+PART ADP NOUN	111
+PART ADP NUM	11
+PART ADP PRON	6
+PART ADP PROPN	14
+PART ADP PUNCT	59
+PART ADP PUNCT.,	29
+PART ADP VERB	104
+PART ADV ADJ	3
+PART AUX ADP	13
+PART AUX AUX	44
+PART AUX PART	8
+PART AUX PUNCT	25
+PART AUX SCONJ	64
+PART NOUN ADP	389
+PART NOUN AUX	19
+PART NOUN NOUN	143
+PART NOUN NUM	3
+PART NOUN PUNCT	28
+PART NOUN SYM	5
+PART NOUN VERB	4
+PART NUM ADP	29
+PART NUM AUX	3
+PART NUM NOUN	356
+PART NUM NUM	23
+PART NUM PROPN	36
+PART NUM PUNCT	5
+PART PART ADP	16
+PART PART EOF	3
+PART PART NUM	3
+PART PART PUNCT	20
+PART PART PUNCT.,	4
+PART PART PUNCT.?	11
+PART PART VERB	5
+PART PRON ADP	4
+PART PROPN ADP	20
+PART PROPN AUX	3
+PART PROPN NOUN	14
+PART PROPN PROPN	5
+PART PROPN SYM	4
+PART PUNCT ADJ	3
+PART PUNCT ADP	19
+PART PUNCT EOF	88
+PART PUNCT NOUN	25
+PART PUNCT NUM	3
+PART PUNCT PROPN	12
+PART PUNCT PUNCT	3
+PART PUNCT VERB	3
+PART PUNCT.! EOF	14
+PART PUNCT., ADJ	6
+PART PUNCT., ADP	3
+PART PUNCT., NOUN	6
+PART PUNCT.? EOF	35
+PART VERB AUX	40
+PART VERB NOUN	8
+PART VERB PART	3
+PART VERB PUNCT	5
+PART VERB SCONJ	12
+PRON ADP ADJ	52
+PRON ADP ADP	77
+PRON ADP ADV	35
+PRON ADP AUX	5
+PRON ADP NOUN	330
+PRON ADP NUM	19
+PRON ADP PART	6
+PRON ADP PRON	11
+PRON ADP PROPN	46
+PRON ADP PUNCT	44
+PRON ADP PUNCT.,	11
+PRON ADP VERB	149
+PRON AUX PART	3
+PRON AUX SCONJ	3
+PRON NOUN ADP	17
+PRON NOUN NOUN	5
+PRON NUM NOUN	3
+PRON PART ADP	11
+PRON PUNCT., NOUN	3
+PROPN ADJ AUX	10
+PROPN ADJ NOUN	8
+PROPN ADP ADJ	114
+PROPN ADP ADP	190
+PROPN ADP ADV	35
+PROPN ADP AUX	13
+PROPN ADP NOUN	1313
+PROPN ADP NUM	134
+PROPN ADP PART	102
+PROPN ADP PRON	18
+PROPN ADP PROPN	411
+PROPN ADP PUNCT	167
+PROPN ADP PUNCT.,	14
+PROPN ADP VERB	841
+PROPN AUX ADJ	3
+PROPN AUX ADP	13
+PROPN AUX AUX	15
+PROPN AUX NOUN	8
+PROPN AUX PUNCT	21
+PROPN AUX SCONJ	10
+PROPN AUX VERB	3
+PROPN CCONJ PROPN	10
+PROPN NOUN ADJ	4
+PROPN NOUN ADP	1361
+PROPN NOUN AUX	20
+PROPN NOUN CCONJ	7
+PROPN NOUN NOUN	567
+PROPN NOUN NUM	28
+PROPN NOUN PART	24
+PROPN NOUN PROPN	124
+PROPN NOUN PUNCT	185
+PROPN NOUN PUNCT.,	5
+PROPN NOUN SYM	36
+PROPN NOUN VERB	10
+PROPN NUM ADP	27
+PROPN NUM NOUN	79
+PROPN NUM PROPN	20
+PROPN NUM PUNCT	12
+PROPN NUM SYM	8
+PROPN PART ADP	6
+PROPN PART NOUN	21
+PROPN PART NUM	38
+PROPN PART PROPN	10
+PROPN PART PUNCT	5
+PROPN PART VERB	3
+PROPN PROPN ADP	338
+PROPN PROPN AUX	8
+PROPN PROPN CCONJ	3
+PROPN PROPN EOF	6
+PROPN PROPN NOUN	235
+PROPN PROPN NUM	11
+PROPN PROPN PART	6
+PROPN PROPN PROPN	53
+PROPN PROPN PUNCT	78
+PROPN PROPN SYM	22
+PROPN PROPN VERB	4
+PROPN PUNCT ADJ	6
+PROPN PUNCT ADP	149
+PROPN PUNCT ADV	3
+PROPN PUNCT AUX	8
+PROPN PUNCT CCONJ	6
+PROPN PUNCT EOF	84
+PROPN PUNCT NOUN	82
+PROPN PUNCT NUM	11
+PROPN PUNCT PROPN	116
+PROPN PUNCT PUNCT	19
+PROPN PUNCT.! EOF	7
+PROPN SYM ADP	62
+PROPN SYM NOUN	125
+PROPN SYM NUM	5
+PROPN SYM PROPN	372
+PROPN VERB ADP	7
+PROPN VERB AUX	28
+PROPN VERB NOUN	18
+PROPN VERB PART	3
+PROPN VERB SCONJ	11
+PUNCT ADJ ADJ	7
+PUNCT ADJ ADP	5
+PUNCT ADJ AUX	206
+PUNCT ADJ NOUN	347
+PUNCT ADJ PART	12
+PUNCT ADJ PROPN	17
+PUNCT ADJ PUNCT	7
+PUNCT ADJ SCONJ	5
+PUNCT ADJ SYM	3
+PUNCT ADJ VERB	15
+PUNCT ADP ADJ	21
+PUNCT ADP ADP	57
+PUNCT ADP ADV	6
+PUNCT ADP AUX	3
+PUNCT ADP NOUN	203
+PUNCT ADP NUM	12
+PUNCT ADP PART	22
+PUNCT ADP PROPN	23
+PUNCT ADP PUNCT	59
+PUNCT ADP PUNCT.,	12
+PUNCT ADP VERB	347
+PUNCT ADV ADJ	28
+PUNCT ADV ADP	9
+PUNCT ADV ADV	3
+PUNCT ADV AUX	4
+PUNCT ADV NOUN	99
+PUNCT ADV NUM	13
+PUNCT ADV PART	16
+PUNCT ADV PROPN	25
+PUNCT ADV PUNCT	4
+PUNCT ADV VERB	64
+PUNCT AUX ADP	8
+PUNCT AUX AUX	7
+PUNCT AUX PUNCT	12
+PUNCT AUX SCONJ	5
+PUNCT CCONJ ADJ	5
+PUNCT CCONJ NOUN	30
+PUNCT CCONJ PROPN	10
+PUNCT CCONJ PUNCT	10
+PUNCT CCONJ VERB	5
+PUNCT NOUN ADJ	24
+PUNCT NOUN ADP	1926
+PUNCT NOUN ADV	10
+PUNCT NOUN AUX	25
+PUNCT NOUN CCONJ	3
+PUNCT NOUN NOUN	1287
+PUNCT NOUN NUM	88
+PUNCT NOUN PART	28
+PUNCT NOUN PROPN	101
+PUNCT NOUN PUNCT	259
+PUNCT NOUN PUNCT.!	3
+PUNCT NOUN PUNCT.,	3
+PUNCT NOUN SCONJ	3
+PUNCT NOUN SYM	82
+PUNCT NOUN VERB	43
+PUNCT NUM ADP	6
+PUNCT NUM NOUN	413
+PUNCT NUM PART	5
+PUNCT NUM PROPN	16
+PUNCT NUM PUNCT	3
+PUNCT NUM SYM	5
+PUNCT PART NUM	52
+PUNCT PRON ADP	187
+PUNCT PRON NOUN	9
+PUNCT PRON PART	7
+PUNCT PROPN ADJ	3
+PUNCT PROPN ADP	540
+PUNCT PROPN AUX	7
+PUNCT PROPN NOUN	423
+PUNCT PROPN NUM	29
+PUNCT PROPN PART	18
+PUNCT PROPN PROPN	153
+PUNCT PROPN PUNCT	193
+PUNCT PROPN PUNCT.!	3
+PUNCT PROPN SYM	157
+PUNCT PROPN VERB	4
+PUNCT PUNCT ADJ	8
+PUNCT PUNCT EOF	20
+PUNCT PUNCT NOUN	104
+PUNCT PUNCT NUM	4
+PUNCT PUNCT PRON	4
+PUNCT PUNCT PROPN	45
+PUNCT PUNCT PUNCT	9
+PUNCT PUNCT VERB	13
+PUNCT SYM NOUN	3
+PUNCT VERB ADP	13
+PUNCT VERB AUX	147
+PUNCT VERB NOUN	41
+PUNCT VERB PART	3
+PUNCT VERB PROPN	4
+PUNCT VERB PUNCT	12
+PUNCT VERB SCONJ	44
+PUNCT VERB VERB	9
+PUNCT.! PUNCT EOF	4
+PUNCT., ADJ AUX	36
+PUNCT., ADJ NOUN	62
+PUNCT., ADP NOUN	5
+PUNCT., ADP VERB	5
+PUNCT., ADV ADJ	7
+PUNCT., ADV ADV	3
+PUNCT., ADV NOUN	26
+PUNCT., ADV NUM	4
+PUNCT., ADV PART	4
+PUNCT., ADV PRON	4
+PUNCT., ADV PROPN	3
+PUNCT., ADV PUNCT	3
+PUNCT., ADV PUNCT.,	5
+PUNCT., ADV VERB	25
+PUNCT., CCONJ NOUN	7
+PUNCT., CCONJ PROPN	3
+PUNCT., NOUN ADP	338
+PUNCT., NOUN NOUN	161
+PUNCT., NOUN NUM	8
+PUNCT., NOUN PROPN	6
+PUNCT., NOUN PUNCT.,	22
+PUNCT., NOUN VERB	6
+PUNCT., NUM NOUN	32
+PUNCT., PART NUM	7
+PUNCT., PRON ADP	57
+PUNCT., PROPN ADP	48
+PUNCT., PROPN NOUN	65
+PUNCT., PROPN PROPN	15
+PUNCT., PUNCT ADJ	3
+PUNCT., PUNCT NOUN	24
+PUNCT., PUNCT PROPN	10
+PUNCT., VERB AUX	32
+PUNCT., VERB NOUN	6
+PUNCT., VERB SCONJ	3
+PUNCT., VERB VERB	3
+SCONJ ADJ ADP	7
+SCONJ ADJ AUX	67
+SCONJ ADJ NOUN	39
+SCONJ ADJ PART	9
+SCONJ ADJ PUNCT	19
+SCONJ ADJ SCONJ	6
+SCONJ ADJ VERB	6
+SCONJ ADP ADJ	39
+SCONJ ADP ADP	14
+SCONJ ADP ADV	12
+SCONJ ADP AUX	29
+SCONJ ADP NOUN	80
+SCONJ ADP NUM	5
+SCONJ ADP PART	3
+SCONJ ADP PROPN	8
+SCONJ ADP PUNCT	41
+SCONJ ADP PUNCT.,	11
+SCONJ ADP VERB	43
+SCONJ ADV ADJ	12
+SCONJ ADV ADP	3
+SCONJ ADV NOUN	16
+SCONJ ADV NUM	3
+SCONJ ADV PART	3
+SCONJ ADV VERB	25
+SCONJ AUX ADJ	11
+SCONJ AUX ADP	63
+SCONJ AUX AUX	1063
+SCONJ AUX NOUN	291
+SCONJ AUX PART	57
+SCONJ AUX PROPN	19
+SCONJ AUX PUNCT	894
+SCONJ AUX PUNCT.!	3
+SCONJ AUX PUNCT.,	22
+SCONJ AUX SCONJ	218
+SCONJ AUX VERB	4
+SCONJ CCONJ NOUN	3
+SCONJ NOUN ADJ	5
+SCONJ NOUN ADP	372
+SCONJ NOUN AUX	7
+SCONJ NOUN NOUN	159
+SCONJ NOUN NUM	4
+SCONJ NOUN PART	5
+SCONJ NOUN PROPN	8
+SCONJ NOUN PUNCT	13
+SCONJ NOUN SYM	4
+SCONJ NOUN VERB	14
+SCONJ NUM ADP	3
+SCONJ NUM NOUN	53
+SCONJ PART NOUN	29
+SCONJ PART NUM	8
+SCONJ PART PUNCT	10
+SCONJ PRON ADP	31
+SCONJ PROPN ADP	58
+SCONJ PROPN NOUN	41
+SCONJ PROPN NUM	5
+SCONJ PROPN PROPN	12
+SCONJ PROPN SYM	7
+SCONJ PUNCT ADJ	114
+SCONJ PUNCT ADP	6
+SCONJ PUNCT ADV	77
+SCONJ PUNCT EOF	15
+SCONJ PUNCT NOUN	576
+SCONJ PUNCT NUM	71
+SCONJ PUNCT PART	9
+SCONJ PUNCT PRON	69
+SCONJ PUNCT PROPN	145
+SCONJ PUNCT PUNCT	12
+SCONJ PUNCT VERB	55
+SCONJ PUNCT., ADJ	24
+SCONJ PUNCT., ADV	21
+SCONJ PUNCT., NOUN	111
+SCONJ PUNCT., NUM	3
+SCONJ PUNCT., PRON	17
+SCONJ PUNCT., PROPN	28
+SCONJ PUNCT., VERB	10
+SCONJ VERB ADP	15
+SCONJ VERB AUX	449
+SCONJ VERB NOUN	36
+SCONJ VERB PART	8
+SCONJ VERB PROPN	3
+SCONJ VERB PUNCT	68
+SCONJ VERB SCONJ	126
+SCONJ VERB VERB	6
+SYM ADJ AUX	4
+SYM ADJ NOUN	3
+SYM ADP ADJ	3
+SYM ADP ADP	28
+SYM ADP NOUN	45
+SYM ADP NUM	3
+SYM ADP PART	4
+SYM ADP PROPN	15
+SYM ADP PUNCT	31
+SYM ADP VERB	48
+SYM NOUN ADP	138
+SYM NOUN NOUN	124
+SYM NOUN NUM	7
+SYM NOUN PROPN	21
+SYM NOUN PUNCT	26
+SYM NOUN SYM	52
+SYM NUM ADP	5
+SYM NUM NOUN	14
+SYM NUM PUNCT	3
+SYM NUM SYM	6
+SYM PART NUM	4
+SYM PROPN ADP	246
+SYM PROPN NOUN	102
+SYM PROPN NUM	5
+SYM PROPN PART	4
+SYM PROPN PROPN	37
+SYM PROPN PUNCT	39
+SYM PROPN SYM	109
+SYM PUNCT EOF	8
+SYM PUNCT NOUN	5
+SYM PUNCT PROPN	5
+SYM PUNCT PUNCT	5
+SYM VERB AUX	12
+VERB ADJ AUX	29
+VERB ADJ NOUN	16
+VERB ADJ PART	3
+VERB ADJ PUNCT	3
+VERB ADP ADJ	20
+VERB ADP ADP	56
+VERB ADP AUX	6
+VERB ADP NOUN	67
+VERB ADP PART	4
+VERB ADP PROPN	5
+VERB ADP PUNCT	17
+VERB ADP VERB	119
+VERB ADV VERB	3
+VERB AUX ADJ	45
+VERB AUX ADP	189
+VERB AUX ADV	6
+VERB AUX AUX	3004
+VERB AUX NOUN	1330
+VERB AUX NUM	30
+VERB AUX PART	150
+VERB AUX PRON	6
+VERB AUX PROPN	158
+VERB AUX PUNCT	1764
+VERB AUX PUNCT.!	12
+VERB AUX PUNCT.,	56
+VERB AUX SCONJ	1488
+VERB AUX VERB	64
+VERB CCONJ VERB	3
+VERB NOUN ADJ	13
+VERB NOUN ADP	819
+VERB NOUN AUX	77
+VERB NOUN NOUN	165
+VERB NOUN NUM	6
+VERB NOUN PART	6
+VERB NOUN PROPN	10
+VERB NOUN PUNCT	117
+VERB NOUN PUNCT.,	9
+VERB NOUN SYM	7
+VERB NOUN VERB	11
+VERB NUM NOUN	26
+VERB PART ADP	95
+VERB PART AUX	23
+VERB PART NOUN	7
+VERB PART NUM	5
+VERB PART PART	14
+VERB PART PUNCT	9
+VERB PART VERB	3
+VERB PRON ADP	3
+VERB PROPN ADP	48
+VERB PROPN NOUN	32
+VERB PROPN PROPN	11
+VERB PROPN PUNCT	8
+VERB PROPN VERB	6
+VERB PUNCT ADJ	61
+VERB PUNCT ADP	20
+VERB PUNCT ADV	17
+VERB PUNCT CCONJ	3
+VERB PUNCT EOF	1060
+VERB PUNCT NOUN	353
+VERB PUNCT NUM	58
+VERB PUNCT PART	3
+VERB PUNCT PRON	21
+VERB PUNCT PROPN	100
+VERB PUNCT PUNCT	13
+VERB PUNCT VERB	29
+VERB PUNCT.! EOF	6
+VERB PUNCT., ADJ	6
+VERB PUNCT., ADV	5
+VERB PUNCT., NOUN	36
+VERB PUNCT., NUM	5
+VERB PUNCT., PRON	4
+VERB PUNCT., PROPN	7
+VERB PUNCT., VERB	7
+VERB SCONJ ADJ	70
+VERB SCONJ ADP	191
+VERB SCONJ ADV	32
+VERB SCONJ AUX	1411
+VERB SCONJ NOUN	332
+VERB SCONJ NUM	38
+VERB SCONJ PART	37
+VERB SCONJ PRON	13
+VERB SCONJ PROPN	91
+VERB SCONJ PUNCT	344
+VERB SCONJ PUNCT.,	70
+VERB SCONJ SCONJ	5
+VERB SCONJ VERB	384
+VERB SYM NOUN	3
+VERB SYM PUNCT	3
+VERB VERB ADP	12
+VERB VERB AUX	63
+VERB VERB NOUN	13
+VERB VERB PUNCT	20
+VERB VERB SCONJ	15
+
+[NGRAMS:4]
+2399
+ADJ ADJ AUX NOUN	11
+ADJ ADJ NOUN ADP	15
+ADJ ADP ADP VERB	5
+ADJ ADP AUX AUX	17
+ADJ ADP AUX PUNCT	10
+ADJ ADP AUX SCONJ	7
+ADJ ADP NOUN ADP	14
+ADJ ADP VERB AUX	27
+ADJ ADP VERB PUNCT	8
+ADJ ADV VERB AUX	5
+ADJ AUX ADJ AUX	29
+ADJ AUX ADJ NOUN	20
+ADJ AUX ADJ PART	5
+ADJ AUX ADJ PUNCT	9
+ADJ AUX ADJ VERB	5
+ADJ AUX ADP ADJ	7
+ADJ AUX ADP AUX	11
+ADJ AUX ADP NOUN	15
+ADJ AUX ADP PUNCT	8
+ADJ AUX ADP VERB	11
+ADJ AUX AUX AUX	55
+ADJ AUX AUX NOUN	22
+ADJ AUX AUX PART	15
+ADJ AUX AUX PUNCT	112
+ADJ AUX AUX SCONJ	37
+ADJ AUX NOUN ADP	527
+ADJ AUX NOUN AUX	65
+ADJ AUX NOUN NOUN	155
+ADJ AUX NOUN PUNCT	27
+ADJ AUX NOUN VERB	12
+ADJ AUX NUM NOUN	10
+ADJ AUX PART ADP	12
+ADJ AUX PART AUX	9
+ADJ AUX PRON ADP	5
+ADJ AUX PROPN ADP	20
+ADJ AUX PROPN NOUN	9
+ADJ AUX PUNCT ADJ	9
+ADJ AUX PUNCT ADP	5
+ADJ AUX PUNCT EOF	84
+ADJ AUX PUNCT NOUN	33
+ADJ AUX PUNCT PROPN	9
+ADJ AUX PUNCT.! EOF	5
+ADJ AUX SCONJ AUX	12
+ADJ AUX SCONJ NOUN	11
+ADJ AUX SCONJ PUNCT	40
+ADJ AUX SCONJ PUNCT.,	5
+ADJ AUX SCONJ VERB	7
+ADJ AUX VERB ADP	5
+ADJ AUX VERB AUX	147
+ADJ AUX VERB NOUN	23
+ADJ AUX VERB PUNCT	14
+ADJ AUX VERB SCONJ	43
+ADJ NOUN ADJ AUX	5
+ADJ NOUN ADP ADJ	92
+ADJ NOUN ADP ADP	66
+ADJ NOUN ADP ADV	23
+ADJ NOUN ADP NOUN	360
+ADJ NOUN ADP NUM	31
+ADJ NOUN ADP PART	13
+ADJ NOUN ADP PRON	7
+ADJ NOUN ADP PROPN	60
+ADJ NOUN ADP PUNCT	59
+ADJ NOUN ADP PUNCT.,	11
+ADJ NOUN ADP VERB	430
+ADJ NOUN AUX ADP	9
+ADJ NOUN AUX AUX	22
+ADJ NOUN AUX NOUN	5
+ADJ NOUN AUX PART	7
+ADJ NOUN AUX PUNCT	30
+ADJ NOUN AUX SCONJ	20
+ADJ NOUN NOUN ADP	164
+ADJ NOUN NOUN AUX	15
+ADJ NOUN NOUN NOUN	32
+ADJ NOUN NOUN PUNCT	9
+ADJ NOUN NUM NOUN	6
+ADJ NOUN PROPN ADP	5
+ADJ NOUN PUNCT ADJ	7
+ADJ NOUN PUNCT ADP	16
+ADJ NOUN PUNCT EOF	19
+ADJ NOUN PUNCT NOUN	38
+ADJ NOUN PUNCT NUM	5
+ADJ NOUN PUNCT PROPN	16
+ADJ NOUN VERB AUX	13
+ADJ NUM NOUN ADP	8
+ADJ PART ADP ADJ	5
+ADJ PART ADP NOUN	20
+ADJ PART ADP VERB	24
+ADJ PART AUX SCONJ	9
+ADJ PART NUM NOUN	26
+ADJ PART PART PUNCT	6
+ADJ PROPN ADP NOUN	9
+ADJ PROPN ADP VERB	5
+ADJ PROPN NOUN ADP	13
+ADJ PROPN NOUN NOUN	8
+ADJ PROPN PROPN NOUN	5
+ADJ PUNCT ADJ AUX	7
+ADJ PUNCT ADJ NOUN	8
+ADJ PUNCT ADP NOUN	5
+ADJ PUNCT ADP VERB	9
+ADJ PUNCT NOUN ADP	26
+ADJ PUNCT NOUN NOUN	17
+ADJ SCONJ NOUN ADP	19
+ADJ SCONJ NOUN NOUN	6
+ADJ SCONJ PRON ADP	5
+ADJ SCONJ PUNCT ADJ	5
+ADJ SCONJ PUNCT NOUN	23
+ADJ SCONJ PUNCT PRON	5
+ADJ SCONJ PUNCT PROPN	5
+ADJ SCONJ PUNCT VERB	5
+ADJ SCONJ PUNCT., NOUN	6
+ADJ SCONJ VERB AUX	12
+ADJ SCONJ VERB SCONJ	7
+ADJ VERB AUX AUX	42
+ADJ VERB AUX NOUN	12
+ADJ VERB AUX PUNCT	22
+ADJ VERB AUX SCONJ	28
+ADJ VERB NOUN ADP	14
+ADJ VERB NOUN AUX	5
+ADJ VERB SCONJ AUX	15
+ADJ VERB SCONJ VERB	7
+ADP ADJ ADJ AUX	13
+ADP ADJ ADJ NOUN	7
+ADP ADJ ADP ADP	6
+ADP ADJ ADP AUX	30
+ADP ADJ ADP NOUN	14
+ADP ADJ ADP VERB	29
+ADP ADJ AUX ADJ	38
+ADP ADJ AUX ADP	24
+ADP ADJ AUX ADV	6
+ADP ADJ AUX AUX	171
+ADP ADJ AUX NOUN	350
+ADP ADJ AUX NUM	6
+ADP ADJ AUX PART	16
+ADP ADJ AUX PROPN	19
+ADP ADJ AUX PUNCT	99
+ADP ADJ AUX SCONJ	56
+ADP ADJ AUX VERB	159
+ADP ADJ NOUN ADP	368
+ADP ADJ NOUN AUX	47
+ADP ADJ NOUN NOUN	67
+ADP ADJ NOUN PUNCT	21
+ADP ADJ NOUN VERB	5
+ADP ADJ PART ADP	40
+ADP ADJ PART AUX	11
+ADP ADJ PROPN ADP	6
+ADP ADJ PROPN NOUN	7
+ADP ADJ PROPN PROPN	7
+ADP ADJ PUNCT ADJ	12
+ADP ADJ PUNCT ADP	13
+ADP ADJ PUNCT ADV	10
+ADP ADJ PUNCT EOF	164
+ADP ADJ PUNCT NOUN	41
+ADP ADJ PUNCT.! EOF	6
+ADP ADJ SCONJ ADJ	9
+ADP ADJ SCONJ ADP	10
+ADP ADJ SCONJ ADV	5
+ADP ADJ SCONJ NOUN	18
+ADP ADJ SCONJ PUNCT	40
+ADP ADJ SCONJ PUNCT.,	6
+ADP ADJ SCONJ VERB	19
+ADP ADJ VERB AUX	74
+ADP ADJ VERB NOUN	6
+ADP ADJ VERB PUNCT	6
+ADP ADJ VERB SCONJ	21
+ADP ADP ADJ ADP	5
+ADP ADP ADJ AUX	80
+ADP ADP ADJ NOUN	41
+ADP ADP ADJ PUNCT	12
+ADP ADP ADP ADJ	6
+ADP ADP ADP NOUN	12
+ADP ADP ADP VERB	17
+ADP ADP ADV ADJ	12
+ADP ADP ADV NOUN	21
+ADP ADP ADV VERB	22
+ADP ADP NOUN ADJ	14
+ADP ADP NOUN ADP	417
+ADP ADP NOUN AUX	9
+ADP ADP NOUN NOUN	189
+ADP ADP NOUN NUM	16
+ADP ADP NOUN PROPN	11
+ADP ADP NOUN PUNCT	21
+ADP ADP NOUN SYM	11
+ADP ADP NOUN VERB	11
+ADP ADP NUM NOUN	61
+ADP ADP NUM PROPN	6
+ADP ADP PART NOUN	7
+ADP ADP PART NUM	6
+ADP ADP PRON ADP	14
+ADP ADP PROPN ADP	67
+ADP ADP PROPN NOUN	48
+ADP ADP PROPN PROPN	20
+ADP ADP PROPN SYM	6
+ADP ADP PUNCT ADJ	23
+ADP ADP PUNCT ADV	11
+ADP ADP PUNCT NOUN	181
+ADP ADP PUNCT NUM	16
+ADP ADP PUNCT PRON	8
+ADP ADP PUNCT PROPN	64
+ADP ADP PUNCT PUNCT	6
+ADP ADP PUNCT VERB	14
+ADP ADP PUNCT., ADJ	7
+ADP ADP PUNCT., ADV	7
+ADP ADP PUNCT., NOUN	38
+ADP ADP PUNCT., PROPN	11
+ADP ADP VERB ADP	6
+ADP ADP VERB AUX	343
+ADP ADP VERB NOUN	33
+ADP ADP VERB PUNCT	56
+ADP ADP VERB SCONJ	74
+ADP ADV ADJ AUX	52
+ADP ADV ADJ NOUN	25
+ADP ADV ADJ PUNCT	9
+ADP ADV ADJ SCONJ	5
+ADP ADV ADP VERB	13
+ADP ADV AUX PUNCT	8
+ADP ADV AUX SCONJ	5
+ADP ADV NOUN ADJ	5
+ADP ADV NOUN ADP	104
+ADP ADV NOUN AUX	9
+ADP ADV NOUN NOUN	39
+ADP ADV NOUN PUNCT	6
+ADP ADV NOUN VERB	7
+ADP ADV NUM NOUN	20
+ADP ADV PART NOUN	15
+ADP ADV PART VERB	10
+ADP ADV PROPN ADP	16
+ADP ADV PROPN NOUN	14
+ADP ADV PUNCT NOUN	9
+ADP ADV PUNCT PROPN	6
+ADP ADV PUNCT., NOUN	6
+ADP ADV VERB AUX	138
+ADP ADV VERB NOUN	10
+ADP ADV VERB PART	6
+ADP ADV VERB PUNCT	13
+ADP ADV VERB SCONJ	47
+ADP AUX ADJ NOUN	5
+ADP AUX ADP AUX	13
+ADP AUX AUX AUX	31
+ADP AUX AUX NOUN	9
+ADP AUX AUX PUNCT	43
+ADP AUX AUX SCONJ	15
+ADP AUX NOUN ADP	47
+ADP AUX NOUN AUX	6
+ADP AUX NOUN NOUN	7
+ADP AUX PART ADP	5
+ADP AUX PUNCT ADJ	6
+ADP AUX PUNCT EOF	60
+ADP AUX PUNCT NOUN	12
+ADP AUX PUNCT PROPN	6
+ADP AUX PUNCT., NOUN	9
+ADP AUX SCONJ AUX	5
+ADP AUX SCONJ NOUN	10
+ADP AUX SCONJ PUNCT	11
+ADP AUX VERB AUX	10
+ADP CCONJ VERB AUX	5
+ADP NOUN ADJ AUX	38
+ADP NOUN ADJ NOUN	33
+ADP NOUN ADJ PUNCT	13
+ADP NOUN ADJ VERB	6
+ADP NOUN ADP ADJ	472
+ADP NOUN ADP ADP	326
+ADP NOUN ADP ADV	144
+ADP NOUN ADP AUX	32
+ADP NOUN ADP NOUN	2025
+ADP NOUN ADP NUM	143
+ADP NOUN ADP PART	82
+ADP NOUN ADP PRON	22
+ADP NOUN ADP PROPN	245
+ADP NOUN ADP PUNCT	309
+ADP NOUN ADP PUNCT.,	74
+ADP NOUN ADP VERB	3360
+ADP NOUN ADV VERB	5
+ADP NOUN AUX ADJ	6
+ADP NOUN AUX ADP	42
+ADP NOUN AUX AUX	86
+ADP NOUN AUX NOUN	32
+ADP NOUN AUX PART	20
+ADP NOUN AUX PROPN	16
+ADP NOUN AUX PUNCT	157
+ADP NOUN AUX PUNCT.!	5
+ADP NOUN AUX PUNCT.,	7
+ADP NOUN AUX SCONJ	37
+ADP NOUN NOUN ADJ	8
+ADP NOUN NOUN ADP	1942
+ADP NOUN NOUN AUX	119
+ADP NOUN NOUN CCONJ	9
+ADP NOUN NOUN NOUN	490
+ADP NOUN NOUN NUM	31
+ADP NOUN NOUN PART	16
+ADP NOUN NOUN PROPN	33
+ADP NOUN NOUN PUNCT	148
+ADP NOUN NOUN PUNCT.,	9
+ADP NOUN NOUN SYM	23
+ADP NOUN NOUN VERB	31
+ADP NOUN NUM ADP	10
+ADP NOUN NUM NOUN	128
+ADP NOUN NUM PROPN	5
+ADP NOUN PART ADP	9
+ADP NOUN PART NOUN	13
+ADP NOUN PART NUM	15
+ADP NOUN PART PROPN	5
+ADP NOUN PART PUNCT	11
+ADP NOUN PART VERB	9
+ADP NOUN PROPN ADP	68
+ADP NOUN PROPN NOUN	51
+ADP NOUN PROPN NUM	5
+ADP NOUN PROPN PROPN	16
+ADP NOUN PROPN PUNCT	7
+ADP NOUN PROPN SYM	12
+ADP NOUN PROPN VERB	5
+ADP NOUN PUNCT ADJ	16
+ADP NOUN PUNCT ADP	55
+ADP NOUN PUNCT ADV	8
+ADP NOUN PUNCT CCONJ	6
+ADP NOUN PUNCT EOF	237
+ADP NOUN PUNCT NOUN	158
+ADP NOUN PUNCT NUM	17
+ADP NOUN PUNCT PROPN	62
+ADP NOUN PUNCT PUNCT	7
+ADP NOUN PUNCT VERB	11
+ADP NOUN PUNCT.! EOF	10
+ADP NOUN PUNCT., NOUN	16
+ADP NOUN PUNCT., PROPN	8
+ADP NOUN SYM ADP	11
+ADP NOUN SYM NOUN	60
+ADP NOUN SYM PROPN	37
+ADP NOUN SYM PUNCT	6
+ADP NOUN SYM VERB	10
+ADP NOUN VERB AUX	151
+ADP NOUN VERB NOUN	18
+ADP NOUN VERB PUNCT	9
+ADP NOUN VERB SCONJ	19
+ADP NOUN VERB VERB	10
+ADP NUM ADP NOUN	7
+ADP NUM ADP VERB	5
+ADP NUM ADV NUM	6
+ADP NUM NOUN ADP	438
+ADP NUM NOUN AUX	26
+ADP NUM NOUN NOUN	250
+ADP NUM NOUN NUM	26
+ADP NUM NOUN PART	9
+ADP NUM NOUN PUNCT	77
+ADP NUM NOUN PUNCT.,	5
+ADP NUM NOUN VERB	48
+ADP NUM NUM NOUN	33
+ADP NUM PART NUM	9
+ADP NUM PROPN ADP	23
+ADP NUM PROPN NOUN	9
+ADP NUM PROPN PUNCT	7
+ADP NUM PUNCT EOF	5
+ADP NUM SYM NUM	5
+ADP PART ADJ AUX	6
+ADP PART ADJ NOUN	7
+ADP PART NOUN ADP	283
+ADP PART NOUN AUX	15
+ADP PART NOUN NOUN	96
+ADP PART NOUN PUNCT	21
+ADP PART NUM ADP	6
+ADP PART NUM NOUN	109
+ADP PART NUM NUM	11
+ADP PART NUM PROPN	5
+ADP PART PROPN ADP	7
+ADP PART PROPN NOUN	10
+ADP PRON ADP ADJ	9
+ADP PRON ADP ADP	11
+ADP PRON ADP NOUN	46
+ADP PRON ADP VERB	48
+ADP PROPN ADP ADJ	27
+ADP PROPN ADP ADP	36
+ADP PROPN ADP ADV	11
+ADP PROPN ADP NOUN	298
+ADP PROPN ADP NUM	23
+ADP PROPN ADP PART	36
+ADP PROPN ADP PROPN	76
+ADP PROPN ADP PUNCT	38
+ADP PROPN ADP PUNCT.,	5
+ADP PROPN ADP VERB	285
+ADP PROPN AUX AUX	5
+ADP PROPN AUX PUNCT	10
+ADP PROPN NOUN ADP	369
+ADP PROPN NOUN AUX	8
+ADP PROPN NOUN NOUN	138
+ADP PROPN NOUN NUM	12
+ADP PROPN NOUN PART	7
+ADP PROPN NOUN PROPN	36
+ADP PROPN NOUN PUNCT	29
+ADP PROPN NUM ADP	7
+ADP PROPN NUM NOUN	19
+ADP PROPN NUM PROPN	8
+ADP PROPN PART NOUN	5
+ADP PROPN PART NUM	13
+ADP PROPN PROPN ADP	103
+ADP PROPN PROPN NOUN	74
+ADP PROPN PROPN PROPN	10
+ADP PROPN PROPN PUNCT	28
+ADP PROPN PUNCT ADP	6
+ADP PROPN PUNCT EOF	22
+ADP PROPN PUNCT NOUN	14
+ADP PROPN PUNCT PROPN	16
+ADP PROPN SYM NOUN	32
+ADP PROPN SYM PROPN	90
+ADP PROPN VERB AUX	11
+ADP PROPN VERB NOUN	7
+ADP PUNCT ADJ AUX	56
+ADP PUNCT ADJ NOUN	86
+ADP PUNCT ADJ PROPN	6
+ADP PUNCT ADJ VERB	9
+ADP PUNCT ADP VERB	5
+ADP PUNCT ADV ADJ	8
+ADP PUNCT ADV ADP	7
+ADP PUNCT ADV NOUN	23
+ADP PUNCT ADV NUM	6
+ADP PUNCT ADV PART	6
+ADP PUNCT ADV PROPN	11
+ADP PUNCT ADV VERB	16
+ADP PUNCT NOUN ADJ	7
+ADP PUNCT NOUN ADP	516
+ADP PUNCT NOUN AUX	12
+ADP PUNCT NOUN NOUN	350
+ADP PUNCT NOUN NUM	15
+ADP PUNCT NOUN PART	9
+ADP PUNCT NOUN PROPN	25
+ADP PUNCT NOUN PUNCT	72
+ADP PUNCT NOUN SYM	28
+ADP PUNCT NOUN VERB	9
+ADP PUNCT NUM NOUN	92
+ADP PUNCT NUM PROPN	8
+ADP PUNCT PART NUM	15
+ADP PUNCT PRON ADP	39
+ADP PUNCT PROPN ADP	145
+ADP PUNCT PROPN NOUN	112
+ADP PUNCT PROPN NUM	9
+ADP PUNCT PROPN PART	11
+ADP PUNCT PROPN PROPN	33
+ADP PUNCT PROPN PUNCT	57
+ADP PUNCT PROPN SYM	39
+ADP PUNCT PUNCT NOUN	16
+ADP PUNCT PUNCT PROPN	7
+ADP PUNCT VERB AUX	44
+ADP PUNCT VERB NOUN	12
+ADP PUNCT VERB PUNCT	5
+ADP PUNCT VERB SCONJ	13
+ADP PUNCT., ADJ AUX	14
+ADP PUNCT., ADJ NOUN	27
+ADP PUNCT., ADV NOUN	10
+ADP PUNCT., ADV VERB	14
+ADP PUNCT., NOUN ADP	112
+ADP PUNCT., NOUN NOUN	56
+ADP PUNCT., NUM NOUN	12
+ADP PUNCT., PRON ADP	18
+ADP PUNCT., PROPN ADP	16
+ADP PUNCT., PROPN NOUN	24
+ADP PUNCT., PROPN PROPN	6
+ADP PUNCT., PUNCT NOUN	11
+ADP PUNCT., PUNCT PROPN	7
+ADP PUNCT., VERB AUX	8
+ADP VERB ADJ AUX	26
+ADP VERB ADJ NOUN	10
+ADP VERB ADP ADJ	15
+ADP VERB ADP ADP	42
+ADP VERB ADP AUX	5
+ADP VERB ADP NOUN	41
+ADP VERB ADP PUNCT	12
+ADP VERB ADP VERB	77
+ADP VERB AUX ADJ	32
+ADP VERB AUX ADP	140
+ADP VERB AUX ADV	6
+ADP VERB AUX AUX	2287
+ADP VERB AUX NOUN	1009
+ADP VERB AUX NUM	24
+ADP VERB AUX PART	114
+ADP VERB AUX PRON	5
+ADP VERB AUX PROPN	131
+ADP VERB AUX PUNCT	1474
+ADP VERB AUX PUNCT.!	10
+ADP VERB AUX PUNCT.,	43
+ADP VERB AUX SCONJ	1125
+ADP VERB AUX VERB	52
+ADP VERB NOUN ADJ	8
+ADP VERB NOUN ADP	633
+ADP VERB NOUN AUX	55
+ADP VERB NOUN NOUN	134
+ADP VERB NOUN NUM	5
+ADP VERB NOUN PART	5
+ADP VERB NOUN PROPN	6
+ADP VERB NOUN PUNCT	78
+ADP VERB NOUN PUNCT.,	5
+ADP VERB NOUN SYM	5
+ADP VERB NOUN VERB	7
+ADP VERB NUM NOUN	24
+ADP VERB PART ADP	75
+ADP VERB PART AUX	20
+ADP VERB PART NUM	5
+ADP VERB PART PART	11
+ADP VERB PART PUNCT	5
+ADP VERB PROPN ADP	35
+ADP VERB PROPN NOUN	28
+ADP VERB PROPN PROPN	11
+ADP VERB PUNCT ADJ	56
+ADP VERB PUNCT ADP	15
+ADP VERB PUNCT ADV	17
+ADP VERB PUNCT EOF	937
+ADP VERB PUNCT NOUN	322
+ADP VERB PUNCT NUM	53
+ADP VERB PUNCT PRON	19
+ADP VERB PUNCT PROPN	90
+ADP VERB PUNCT PUNCT	12
+ADP VERB PUNCT VERB	25
+ADP VERB PUNCT., ADJ	6
+ADP VERB PUNCT., ADV	5
+ADP VERB PUNCT., NOUN	35
+ADP VERB PUNCT., PROPN	6
+ADP VERB PUNCT., VERB	7
+ADP VERB SCONJ ADJ	57
+ADP VERB SCONJ ADP	155
+ADP VERB SCONJ ADV	31
+ADP VERB SCONJ AUX	1113
+ADP VERB SCONJ NOUN	301
+ADP VERB SCONJ NUM	33
+ADP VERB SCONJ PART	34
+ADP VERB SCONJ PRON	11
+ADP VERB SCONJ PROPN	79
+ADP VERB SCONJ PUNCT	303
+ADP VERB SCONJ PUNCT.,	58
+ADP VERB SCONJ VERB	326
+ADP VERB VERB ADP	5
+ADP VERB VERB AUX	44
+ADP VERB VERB NOUN	6
+ADP VERB VERB PUNCT	7
+ADP VERB VERB SCONJ	13
+ADV ADJ ADP VERB	5
+ADV ADJ AUX AUX	33
+ADV ADJ AUX NOUN	41
+ADV ADJ AUX PUNCT	10
+ADV ADJ AUX SCONJ	6
+ADV ADJ AUX VERB	7
+ADV ADJ NOUN ADP	27
+ADV ADJ NOUN AUX	10
+ADV ADJ NOUN NOUN	9
+ADV ADJ PUNCT EOF	10
+ADV ADJ VERB AUX	6
+ADV ADP NOUN ADP	15
+ADV ADP VERB AUX	13
+ADV ADP VERB SCONJ	8
+ADV AUX PUNCT EOF	9
+ADV AUX SCONJ PUNCT	5
+ADV NOUN ADP ADJ	31
+ADV NOUN ADP ADP	12
+ADV NOUN ADP NOUN	82
+ADV NOUN ADP PART	6
+ADV NOUN ADP PROPN	13
+ADV NOUN ADP PUNCT	5
+ADV NOUN ADP VERB	126
+ADV NOUN AUX PUNCT	5
+ADV NOUN NOUN ADP	80
+ADV NOUN NOUN AUX	7
+ADV NOUN NOUN NOUN	28
+ADV NOUN NOUN VERB	8
+ADV NOUN PUNCT EOF	7
+ADV NOUN VERB AUX	9
+ADV NUM NOUN ADP	37
+ADV NUM NOUN NOUN	19
+ADV NUM NOUN PUNCT	5
+ADV PART NOUN ADP	26
+ADV PART NOUN NOUN	7
+ADV PART NUM NOUN	8
+ADV PART VERB AUX	5
+ADV PART VERB SCONJ	5
+ADV PRON ADP NOUN	5
+ADV PROPN ADP NOUN	18
+ADV PROPN ADP VERB	22
+ADV PROPN NOUN ADP	27
+ADV PROPN NOUN NOUN	7
+ADV PUNCT NOUN ADP	17
+ADV PUNCT NOUN NOUN	11
+ADV PUNCT PROPN ADP	8
+ADV PUNCT PROPN NOUN	6
+ADV PUNCT., NOUN ADP	12
+ADV PUNCT., NOUN NOUN	6
+ADV PUNCT., PROPN NOUN	5
+ADV VERB AUX ADJ	5
+ADV VERB AUX ADP	6
+ADV VERB AUX AUX	84
+ADV VERB AUX NOUN	56
+ADV VERB AUX PART	6
+ADV VERB AUX PUNCT	33
+ADV VERB AUX SCONJ	52
+ADV VERB NOUN ADP	16
+ADV VERB PUNCT EOF	13
+ADV VERB SCONJ ADP	8
+ADV VERB SCONJ AUX	75
+ADV VERB SCONJ VERB	6
+AUX ADJ AUX AUX	7
+AUX ADJ AUX NOUN	54
+AUX ADJ AUX VERB	7
+AUX ADJ NOUN ADP	44
+AUX ADJ NOUN AUX	7
+AUX ADJ NOUN NOUN	14
+AUX ADJ PUNCT EOF	5
+AUX ADP ADJ AUX	10
+AUX ADP ADP NOUN	16
+AUX ADP ADP PUNCT	10
+AUX ADP ADP VERB	25
+AUX ADP AUX AUX	42
+AUX ADP AUX NOUN	15
+AUX ADP AUX PART	14
+AUX ADP AUX PUNCT	62
+AUX ADP AUX PUNCT.,	14
+AUX ADP AUX SCONJ	24
+AUX ADP NOUN ADP	58
+AUX ADP NOUN AUX	16
+AUX ADP NOUN NOUN	18
+AUX ADP NOUN PUNCT	9
+AUX ADP PART NOUN	24
+AUX ADP PROPN NOUN	6
+AUX ADP PUNCT EOF	5
+AUX ADP PUNCT NOUN	13
+AUX ADP PUNCT PROPN	5
+AUX ADP VERB AUX	118
+AUX ADP VERB NOUN	11
+AUX ADP VERB PART	7
+AUX ADP VERB PUNCT	62
+AUX ADP VERB SCONJ	34
+AUX ADV ADJ AUX	6
+AUX AUX ADJ AUX	17
+AUX AUX ADJ NOUN	14
+AUX AUX ADP ADP	23
+AUX AUX ADP AUX	8
+AUX AUX ADP NOUN	30
+AUX AUX ADP PART	7
+AUX AUX ADP VERB	73
+AUX AUX AUX ADJ	10
+AUX AUX AUX ADP	29
+AUX AUX AUX AUX	97
+AUX AUX AUX NOUN	154
+AUX AUX AUX NUM	5
+AUX AUX AUX PART	31
+AUX AUX AUX PROPN	28
+AUX AUX AUX PUNCT	550
+AUX AUX AUX PUNCT.!	10
+AUX AUX AUX PUNCT.,	6
+AUX AUX AUX SCONJ	115
+AUX AUX NOUN ADP	605
+AUX AUX NOUN AUX	82
+AUX AUX NOUN NOUN	145
+AUX AUX NOUN NUM	7
+AUX AUX NOUN PART	6
+AUX AUX NOUN PROPN	8
+AUX AUX NOUN PUNCT	81
+AUX AUX NOUN PUNCT.,	7
+AUX AUX NOUN SYM	5
+AUX AUX NOUN VERB	5
+AUX AUX NUM NOUN	32
+AUX AUX PART ADP	56
+AUX AUX PART AUX	37
+AUX AUX PART NUM	6
+AUX AUX PART PART	9
+AUX AUX PART PUNCT	39
+AUX AUX PART PUNCT.!	5
+AUX AUX PART PUNCT.?	10
+AUX AUX PRON ADP	8
+AUX AUX PROPN ADP	72
+AUX AUX PROPN NOUN	40
+AUX AUX PROPN PROPN	23
+AUX AUX PROPN SYM	16
+AUX AUX PUNCT ADJ	27
+AUX AUX PUNCT ADP	36
+AUX AUX PUNCT ADV	9
+AUX AUX PUNCT EOF	2046
+AUX AUX PUNCT NOUN	100
+AUX AUX PUNCT NUM	17
+AUX AUX PUNCT PRON	5
+AUX AUX PUNCT PROPN	38
+AUX AUX PUNCT PUNCT	7
+AUX AUX PUNCT VERB	9
+AUX AUX PUNCT.! EOF	31
+AUX AUX PUNCT., NOUN	15
+AUX AUX SCONJ ADJ	15
+AUX AUX SCONJ ADP	21
+AUX AUX SCONJ ADV	12
+AUX AUX SCONJ AUX	321
+AUX AUX SCONJ NOUN	42
+AUX AUX SCONJ NUM	5
+AUX AUX SCONJ PRON	6
+AUX AUX SCONJ PROPN	6
+AUX AUX SCONJ PUNCT	284
+AUX AUX SCONJ PUNCT.,	62
+AUX AUX SCONJ VERB	93
+AUX AUX VERB AUX	20
+AUX NOUN ADJ AUX	6
+AUX NOUN ADJ NOUN	7
+AUX NOUN ADP ADJ	202
+AUX NOUN ADP ADP	106
+AUX NOUN ADP ADV	47
+AUX NOUN ADP AUX	10
+AUX NOUN ADP NOUN	608
+AUX NOUN ADP NUM	36
+AUX NOUN ADP PART	21
+AUX NOUN ADP PRON	7
+AUX NOUN ADP PROPN	49
+AUX NOUN ADP PUNCT	204
+AUX NOUN ADP PUNCT.,	37
+AUX NOUN ADP VERB	995
+AUX NOUN AUX ADP	40
+AUX NOUN AUX AUX	46
+AUX NOUN AUX NOUN	11
+AUX NOUN AUX PART	10
+AUX NOUN AUX PUNCT	127
+AUX NOUN AUX PUNCT.,	8
+AUX NOUN AUX SCONJ	39
+AUX NOUN NOUN ADP	352
+AUX NOUN NOUN AUX	45
+AUX NOUN NOUN NOUN	102
+AUX NOUN NOUN NUM	10
+AUX NOUN NOUN PROPN	5
+AUX NOUN NOUN PUNCT	37
+AUX NOUN NUM NOUN	11
+AUX NOUN PROPN ADP	11
+AUX NOUN PROPN NOUN	6
+AUX NOUN PUNCT ADJ	13
+AUX NOUN PUNCT ADP	14
+AUX NOUN PUNCT CCONJ	5
+AUX NOUN PUNCT EOF	81
+AUX NOUN PUNCT NOUN	74
+AUX NOUN PUNCT PROPN	25
+AUX NOUN PUNCT., NOUN	11
+AUX NOUN SYM NOUN	8
+AUX NOUN SYM PROPN	5
+AUX NOUN VERB AUX	13
+AUX NOUN VERB SCONJ	5
+AUX NUM NOUN ADP	51
+AUX NUM NOUN NOUN	17
+AUX PART ADP ADJ	29
+AUX PART ADP ADV	12
+AUX PART ADP AUX	6
+AUX PART ADP NOUN	40
+AUX PART ADP NUM	11
+AUX PART ADP PROPN	13
+AUX PART ADP PUNCT	33
+AUX PART ADP PUNCT.,	19
+AUX PART ADP VERB	37
+AUX PART AUX ADP	8
+AUX PART AUX AUX	30
+AUX PART AUX PART	6
+AUX PART AUX PUNCT	20
+AUX PART AUX SCONJ	46
+AUX PART NUM NOUN	11
+AUX PART PART ADP	11
+AUX PART PART PUNCT	8
+AUX PART PART PUNCT.?	6
+AUX PART PUNCT ADP	10
+AUX PART PUNCT EOF	56
+AUX PART PUNCT NOUN	5
+AUX PART PUNCT.! EOF	10
+AUX PART PUNCT.? EOF	19
+AUX PRON ADP NOUN	12
+AUX PROPN ADP ADJ	8
+AUX PROPN ADP ADP	9
+AUX PROPN ADP NOUN	82
+AUX PROPN ADP NUM	10
+AUX PROPN ADP PROPN	30
+AUX PROPN ADP PUNCT	12
+AUX PROPN ADP VERB	41
+AUX PROPN NOUN ADP	76
+AUX PROPN NOUN NOUN	30
+AUX PROPN NOUN PROPN	5
+AUX PROPN PROPN ADP	36
+AUX PROPN PROPN NOUN	12
+AUX PROPN PUNCT EOF	5
+AUX PROPN SYM NOUN	6
+AUX PROPN SYM PROPN	22
+AUX PUNCT ADJ AUX	37
+AUX PUNCT ADJ NOUN	69
+AUX PUNCT ADJ PART	7
+AUX PUNCT ADP ADP	6
+AUX PUNCT ADP NOUN	19
+AUX PUNCT ADP PART	5
+AUX PUNCT ADP VERB	57
+AUX PUNCT ADV NOUN	18
+AUX PUNCT ADV VERB	6
+AUX PUNCT CCONJ NOUN	7
+AUX PUNCT NOUN ADP	306
+AUX PUNCT NOUN AUX	5
+AUX PUNCT NOUN NOUN	184
+AUX PUNCT NOUN NUM	15
+AUX PUNCT NOUN PART	5
+AUX PUNCT NOUN PROPN	10
+AUX PUNCT NOUN PUNCT	14
+AUX PUNCT NOUN SYM	8
+AUX PUNCT NOUN VERB	11
+AUX PUNCT NUM NOUN	81
+AUX PUNCT PART NUM	7
+AUX PUNCT PRON ADP	31
+AUX PUNCT PROPN ADP	61
+AUX PUNCT PROPN NOUN	62
+AUX PUNCT PROPN PROPN	15
+AUX PUNCT PROPN PUNCT	18
+AUX PUNCT PROPN SYM	12
+AUX PUNCT PUNCT NOUN	9
+AUX PUNCT PUNCT PROPN	8
+AUX PUNCT VERB AUX	22
+AUX PUNCT VERB NOUN	7
+AUX PUNCT., ADJ AUX	5
+AUX PUNCT., ADJ NOUN	6
+AUX PUNCT., NOUN ADP	47
+AUX PUNCT., NOUN NOUN	22
+AUX PUNCT., PRON ADP	7
+AUX PUNCT., PUNCT NOUN	6
+AUX PUNCT., VERB AUX	6
+AUX SCONJ ADJ AUX	37
+AUX SCONJ ADJ NOUN	14
+AUX SCONJ ADJ PUNCT	9
+AUX SCONJ ADP ADJ	8
+AUX SCONJ ADP ADP	5
+AUX SCONJ ADP AUX	10
+AUX SCONJ ADP NOUN	24
+AUX SCONJ ADP PUNCT	10
+AUX SCONJ ADP VERB	16
+AUX SCONJ ADV NOUN	9
+AUX SCONJ ADV VERB	9
+AUX SCONJ AUX ADP	30
+AUX SCONJ AUX AUX	469
+AUX SCONJ AUX NOUN	123
+AUX SCONJ AUX PART	30
+AUX SCONJ AUX PROPN	12
+AUX SCONJ AUX PUNCT	468
+AUX SCONJ AUX PUNCT.,	11
+AUX SCONJ AUX SCONJ	89
+AUX SCONJ NOUN ADP	142
+AUX SCONJ NOUN NOUN	57
+AUX SCONJ NOUN PUNCT	8
+AUX SCONJ NOUN VERB	7
+AUX SCONJ NUM NOUN	16
+AUX SCONJ PART PUNCT	8
+AUX SCONJ PRON ADP	13
+AUX SCONJ PROPN ADP	15
+AUX SCONJ PROPN NOUN	14
+AUX SCONJ PUNCT ADJ	83
+AUX SCONJ PUNCT ADV	58
+AUX SCONJ PUNCT EOF	12
+AUX SCONJ PUNCT NOUN	385
+AUX SCONJ PUNCT NUM	43
+AUX SCONJ PUNCT PART	8
+AUX SCONJ PUNCT PRON	44
+AUX SCONJ PUNCT PROPN	79
+AUX SCONJ PUNCT PUNCT	9
+AUX SCONJ PUNCT VERB	32
+AUX SCONJ PUNCT., ADJ	17
+AUX SCONJ PUNCT., ADV	14
+AUX SCONJ PUNCT., NOUN	63
+AUX SCONJ PUNCT., PRON	13
+AUX SCONJ PUNCT., PROPN	19
+AUX SCONJ PUNCT., VERB	7
+AUX SCONJ VERB ADP	6
+AUX SCONJ VERB AUX	183
+AUX SCONJ VERB NOUN	14
+AUX SCONJ VERB PUNCT	29
+AUX SCONJ VERB SCONJ	64
+AUX VERB ADP VERB	7
+AUX VERB AUX AUX	87
+AUX VERB AUX NOUN	40
+AUX VERB AUX PROPN	5
+AUX VERB AUX PUNCT	32
+AUX VERB AUX SCONJ	60
+AUX VERB NOUN ADP	22
+AUX VERB NOUN AUX	5
+AUX VERB NOUN NOUN	5
+AUX VERB NOUN PUNCT	5
+AUX VERB PUNCT EOF	12
+AUX VERB SCONJ AUX	28
+AUX VERB SCONJ NOUN	6
+AUX VERB SCONJ VERB	10
+BOF ADJ AUX ADJ	9
+BOF ADJ AUX ADP	13
+BOF ADJ AUX NOUN	84
+BOF ADJ AUX PROPN	5
+BOF ADJ AUX PUNCT	9
+BOF ADJ AUX VERB	8
+BOF ADJ NOUN ADP	288
+BOF ADJ NOUN AUX	10
+BOF ADJ NOUN NOUN	48
+BOF ADJ NOUN PART	5
+BOF ADJ NOUN PROPN	5
+BOF ADJ NOUN PUNCT	45
+BOF ADJ PART NUM	9
+BOF ADJ PROPN NOUN	8
+BOF ADV ADJ AUX	16
+BOF ADV ADJ NOUN	11
+BOF ADV ADP NOUN	9
+BOF ADV NOUN ADP	79
+BOF ADV NOUN NOUN	30
+BOF ADV NUM NOUN	12
+BOF ADV PART NOUN	10
+BOF ADV PROPN ADP	17
+BOF ADV PROPN NOUN	11
+BOF ADV PUNCT NOUN	20
+BOF ADV PUNCT PROPN	13
+BOF ADV PUNCT., NOUN	9
+BOF ADV VERB AUX	21
+BOF ADV VERB SCONJ	14
+BOF CCONJ ADJ AUX	8
+BOF CCONJ ADJ NOUN	15
+BOF CCONJ NOUN ADP	68
+BOF CCONJ NOUN NOUN	40
+BOF CCONJ NOUN NUM	6
+BOF CCONJ NUM NOUN	18
+BOF CCONJ PRON ADP	6
+BOF CCONJ PROPN ADP	18
+BOF CCONJ PROPN NOUN	13
+BOF CCONJ PUNCT ADJ	36
+BOF CCONJ PUNCT ADV	8
+BOF CCONJ PUNCT NOUN	138
+BOF CCONJ PUNCT NUM	14
+BOF CCONJ PUNCT PART	5
+BOF CCONJ PUNCT PRON	12
+BOF CCONJ PUNCT PROPN	53
+BOF CCONJ PUNCT PUNCT	7
+BOF CCONJ PUNCT., NOUN	28
+BOF CCONJ PUNCT., PROPN	6
+BOF CCONJ VERB AUX	9
+BOF CCONJ VERB SCONJ	5
+BOF NOUN ADJ AUX	8
+BOF NOUN ADJ NOUN	5
+BOF NOUN ADP ADJ	141
+BOF NOUN ADP ADP	169
+BOF NOUN ADP ADV	47
+BOF NOUN ADP AUX	8
+BOF NOUN ADP NOUN	819
+BOF NOUN ADP NUM	56
+BOF NOUN ADP PART	20
+BOF NOUN ADP PRON	9
+BOF NOUN ADP PROPN	145
+BOF NOUN ADP PUNCT	92
+BOF NOUN ADP PUNCT.,	15
+BOF NOUN ADP VERB	269
+BOF NOUN AUX ADP	8
+BOF NOUN AUX SCONJ	10
+BOF NOUN CCONJ NOUN	5
+BOF NOUN NOUN ADJ	6
+BOF NOUN NOUN ADP	631
+BOF NOUN NOUN AUX	11
+BOF NOUN NOUN NOUN	202
+BOF NOUN NOUN NUM	16
+BOF NOUN NOUN PART	14
+BOF NOUN NOUN PROPN	12
+BOF NOUN NOUN PUNCT	32
+BOF NOUN NOUN SYM	8
+BOF NOUN NOUN VERB	5
+BOF NOUN NUM NOUN	95
+BOF NOUN NUM PROPN	10
+BOF NOUN PROPN ADP	43
+BOF NOUN PROPN NOUN	27
+BOF NOUN PUNCT ADJ	6
+BOF NOUN PUNCT EOF	6
+BOF NOUN PUNCT NOUN	74
+BOF NOUN PUNCT PROPN	22
+BOF NOUN PUNCT., NOUN	7
+BOF NOUN SYM NOUN	18
+BOF NOUN SYM PROPN	16
+BOF NOUN VERB AUX	17
+BOF NOUN VERB SCONJ	6
+BOF NUM NOUN ADP	240
+BOF NUM NOUN NOUN	224
+BOF NUM NOUN NUM	10
+BOF NUM NOUN PROPN	11
+BOF NUM NOUN PUNCT	58
+BOF NUM NUM NOUN	5
+BOF NUM PART NUM	8
+BOF NUM PROPN NOUN	5
+BOF PART NUM NOUN	51
+BOF PRON ADP ADJ	16
+BOF PRON ADP ADP	30
+BOF PRON ADP ADV	14
+BOF PRON ADP NOUN	137
+BOF PRON ADP NUM	5
+BOF PRON ADP PRON	8
+BOF PRON ADP PROPN	23
+BOF PRON ADP PUNCT	32
+BOF PRON ADP PUNCT.,	8
+BOF PRON ADP VERB	33
+BOF PRON NOUN ADP	7
+BOF PROPN ADP ADJ	16
+BOF PROPN ADP ADP	53
+BOF PROPN ADP NOUN	238
+BOF PROPN ADP NUM	28
+BOF PROPN ADP PART	15
+BOF PROPN ADP PRON	5
+BOF PROPN ADP PROPN	68
+BOF PROPN ADP PUNCT	34
+BOF PROPN ADP VERB	75
+BOF PROPN NOUN ADP	205
+BOF PROPN NOUN NOUN	87
+BOF PROPN NOUN PROPN	21
+BOF PROPN NOUN PUNCT	29
+BOF PROPN NUM ADP	5
+BOF PROPN NUM NOUN	11
+BOF PROPN PROPN ADP	51
+BOF PROPN PROPN NOUN	42
+BOF PROPN PROPN PROPN	13
+BOF PROPN PROPN PUNCT	5
+BOF PROPN PUNCT PROPN	13
+BOF PROPN SYM NOUN	10
+BOF PROPN SYM PROPN	32
+BOF PUNCT NOUN ADP	23
+BOF PUNCT NOUN NOUN	26
+BOF PUNCT NOUN PUNCT	13
+BOF PUNCT NOUN SYM	7
+BOF PUNCT PROPN ADP	7
+BOF PUNCT PROPN NOUN	18
+BOF PUNCT PROPN PUNCT	9
+BOF PUNCT PROPN SYM	12
+BOF VERB AUX AUX	39
+BOF VERB AUX NOUN	31
+BOF VERB AUX SCONJ	12
+BOF VERB NOUN ADP	21
+BOF VERB NOUN PUNCT	8
+BOF VERB SCONJ AUX	9
+BOF VERB SCONJ PUNCT	6
+CCONJ ADJ AUX NOUN	7
+CCONJ ADJ AUX VERB	5
+CCONJ ADJ NOUN ADP	13
+CCONJ ADV VERB AUX	5
+CCONJ NOUN ADP ADP	12
+CCONJ NOUN ADP NOUN	33
+CCONJ NOUN ADP PROPN	9
+CCONJ NOUN ADP PUNCT	7
+CCONJ NOUN ADP VERB	39
+CCONJ NOUN NOUN ADP	56
+CCONJ NOUN NOUN NOUN	12
+CCONJ NUM NOUN ADP	14
+CCONJ NUM NOUN NOUN	7
+CCONJ PROPN ADP NOUN	7
+CCONJ PROPN ADP PROPN	6
+CCONJ PROPN ADP VERB	9
+CCONJ PROPN NOUN ADP	18
+CCONJ PROPN NOUN NOUN	10
+CCONJ PUNCT ADJ AUX	9
+CCONJ PUNCT ADJ NOUN	22
+CCONJ PUNCT NOUN ADP	77
+CCONJ PUNCT NOUN NOUN	62
+CCONJ PUNCT NUM NOUN	15
+CCONJ PUNCT PART NUM	5
+CCONJ PUNCT PRON ADP	10
+CCONJ PUNCT PROPN ADP	28
+CCONJ PUNCT PROPN NOUN	11
+CCONJ PUNCT PROPN PROPN	5
+CCONJ PUNCT., NOUN ADP	19
+CCONJ PUNCT., NOUN NOUN	9
+CCONJ VERB AUX AUX	10
+CCONJ VERB AUX NOUN	5
+CCONJ VERB AUX PUNCT	5
+NOUN ADJ AUX AUX	11
+NOUN ADJ AUX NOUN	35
+NOUN ADJ AUX PUNCT	12
+NOUN ADJ AUX SCONJ	7
+NOUN ADJ AUX VERB	9
+NOUN ADJ NOUN ADP	56
+NOUN ADJ NOUN AUX	8
+NOUN ADJ NOUN NOUN	13
+NOUN ADJ NOUN PUNCT	6
+NOUN ADJ PUNCT EOF	24
+NOUN ADJ VERB AUX	11
+NOUN ADJ VERB NOUN	5
+NOUN ADP ADJ ADJ	14
+NOUN ADP ADJ ADP	69
+NOUN ADP ADJ AUX	715
+NOUN ADP ADJ NOUN	384
+NOUN ADP ADJ PART	51
+NOUN ADP ADJ PROPN	20
+NOUN ADP ADJ PUNCT	214
+NOUN ADP ADJ PUNCT.!	5
+NOUN ADP ADJ SCONJ	102
+NOUN ADP ADJ VERB	95
+NOUN ADP ADP ADJ	117
+NOUN ADP ADP ADP	30
+NOUN ADP ADP ADV	53
+NOUN ADP ADP NOUN	540
+NOUN ADP ADP NUM	53
+NOUN ADP ADP PART	9
+NOUN ADP ADP PRON	7
+NOUN ADP ADP PROPN	128
+NOUN ADP ADP PUNCT	243
+NOUN ADP ADP PUNCT.,	62
+NOUN ADP ADP VERB	358
+NOUN ADP ADV ADJ	79
+NOUN ADP ADV ADP	18
+NOUN ADP ADV ADV	11
+NOUN ADP ADV AUX	11
+NOUN ADP ADV NOUN	121
+NOUN ADP ADV NUM	13
+NOUN ADP ADV PART	22
+NOUN ADP ADV PROPN	25
+NOUN ADP ADV PUNCT	14
+NOUN ADP ADV PUNCT.,	6
+NOUN ADP ADV VERB	161
+NOUN ADP AUX ADJ	6
+NOUN ADP AUX ADP	8
+NOUN ADP AUX AUX	24
+NOUN ADP AUX NOUN	34
+NOUN ADP AUX PUNCT	7
+NOUN ADP AUX VERB	12
+NOUN ADP NOUN ADJ	68
+NOUN ADP NOUN ADP	5432
+NOUN ADP NOUN ADV	8
+NOUN ADP NOUN AUX	304
+NOUN ADP NOUN NOUN	2128
+NOUN ADP NOUN NUM	110
+NOUN ADP NOUN PART	47
+NOUN ADP NOUN PROPN	119
+NOUN ADP NOUN PUNCT	437
+NOUN ADP NOUN PUNCT.!	7
+NOUN ADP NOUN PUNCT.,	25
+NOUN ADP NOUN SYM	85
+NOUN ADP NOUN VERB	168
+NOUN ADP NUM ADP	9
+NOUN ADP NUM ADV	7
+NOUN ADP NUM NOUN	651
+NOUN ADP NUM NUM	28
+NOUN ADP NUM PART	6
+NOUN ADP NUM PROPN	35
+NOUN ADP NUM PUNCT	6
+NOUN ADP PART ADJ	12
+NOUN ADP PART NOUN	277
+NOUN ADP PART NUM	105
+NOUN ADP PART PROPN	11
+NOUN ADP PRON ADP	83
+NOUN ADP PROPN ADP	539
+NOUN ADP PROPN AUX	13
+NOUN ADP PROPN NOUN	404
+NOUN ADP PROPN NUM	27
+NOUN ADP PROPN PART	18
+NOUN ADP PROPN PROPN	146
+NOUN ADP PROPN PUNCT	47
+NOUN ADP PROPN SYM	81
+NOUN ADP PROPN VERB	20
+NOUN ADP PUNCT ADJ	102
+NOUN ADP PUNCT ADP	5
+NOUN ADP PUNCT ADV	58
+NOUN ADP PUNCT CCONJ	5
+NOUN ADP PUNCT EOF	15
+NOUN ADP PUNCT NOUN	642
+NOUN ADP PUNCT NUM	63
+NOUN ADP PUNCT PART	9
+NOUN ADP PUNCT PRON	29
+NOUN ADP PUNCT PROPN	252
+NOUN ADP PUNCT PUNCT	20
+NOUN ADP PUNCT VERB	49
+NOUN ADP PUNCT., ADJ	27
+NOUN ADP PUNCT., ADV	26
+NOUN ADP PUNCT., NOUN	99
+NOUN ADP PUNCT., NUM	6
+NOUN ADP PUNCT., PRON	15
+NOUN ADP PUNCT., PROPN	25
+NOUN ADP PUNCT., PUNCT	13
+NOUN ADP PUNCT., VERB	7
+NOUN ADP VERB ADJ	34
+NOUN ADP VERB ADP	170
+NOUN ADP VERB AUX	5021
+NOUN ADP VERB NOUN	768
+NOUN ADP VERB NUM	25
+NOUN ADP VERB PART	88
+NOUN ADP VERB PROPN	62
+NOUN ADP VERB PUNCT	1215
+NOUN ADP VERB PUNCT.,	58
+NOUN ADP VERB SCONJ	2050
+NOUN ADP VERB VERB	61
+NOUN ADV NOUN ADP	7
+NOUN ADV VERB AUX	11
+NOUN AUX ADP AUX	116
+NOUN AUX ADP NOUN	6
+NOUN AUX ADP VERB	31
+NOUN AUX AUX ADP	6
+NOUN AUX AUX AUX	13
+NOUN AUX AUX NOUN	32
+NOUN AUX AUX PART	11
+NOUN AUX AUX PROPN	15
+NOUN AUX AUX PUNCT	142
+NOUN AUX AUX SCONJ	51
+NOUN AUX NOUN ADP	60
+NOUN AUX NOUN AUX	7
+NOUN AUX NOUN NOUN	18
+NOUN AUX NUM NOUN	6
+NOUN AUX PART ADP	19
+NOUN AUX PART AUX	22
+NOUN AUX PART PART	6
+NOUN AUX PART PUNCT	6
+NOUN AUX PROPN ADP	19
+NOUN AUX PROPN NOUN	13
+NOUN AUX PROPN PROPN	10
+NOUN AUX PROPN SYM	6
+NOUN AUX PUNCT ADJ	12
+NOUN AUX PUNCT ADP	6
+NOUN AUX PUNCT EOF	414
+NOUN AUX PUNCT NOUN	52
+NOUN AUX PUNCT NUM	7
+NOUN AUX PUNCT PROPN	10
+NOUN AUX PUNCT.! EOF	11
+NOUN AUX PUNCT., NOUN	11
+NOUN AUX SCONJ NOUN	17
+NOUN AUX SCONJ PART	5
+NOUN AUX SCONJ PUNCT	64
+NOUN AUX SCONJ PUNCT.,	21
+NOUN AUX SCONJ VERB	25
+NOUN AUX VERB AUX	10
+NOUN CCONJ NOUN ADP	17
+NOUN CCONJ NOUN NOUN	18
+NOUN CCONJ PROPN NOUN	6
+NOUN NOUN ADJ AUX	6
+NOUN NOUN ADJ NOUN	11
+NOUN NOUN ADJ PUNCT	5
+NOUN NOUN ADP ADJ	350
+NOUN NOUN ADP ADP	449
+NOUN NOUN ADP ADV	94
+NOUN NOUN ADP AUX	17
+NOUN NOUN ADP NOUN	2333
+NOUN NOUN ADP NUM	213
+NOUN NOUN ADP PART	133
+NOUN NOUN ADP PRON	26
+NOUN NOUN ADP PROPN	330
+NOUN NOUN ADP PUNCT	283
+NOUN NOUN ADP PUNCT.,	45
+NOUN NOUN ADP VERB	2181
+NOUN NOUN AUX ADP	33
+NOUN NOUN AUX AUX	70
+NOUN NOUN AUX NOUN	30
+NOUN NOUN AUX PART	11
+NOUN NOUN AUX PROPN	21
+NOUN NOUN AUX PUNCT	107
+NOUN NOUN AUX SCONJ	20
+NOUN NOUN CCONJ NOUN	17
+NOUN NOUN CCONJ PROPN	5
+NOUN NOUN NOUN ADJ	7
+NOUN NOUN NOUN ADP	1160
+NOUN NOUN NOUN AUX	48
+NOUN NOUN NOUN NOUN	435
+NOUN NOUN NOUN NUM	23
+NOUN NOUN NOUN PART	14
+NOUN NOUN NOUN PROPN	30
+NOUN NOUN NOUN PUNCT	196
+NOUN NOUN NOUN PUNCT.,	5
+NOUN NOUN NOUN SYM	39
+NOUN NOUN NOUN VERB	13
+NOUN NOUN NUM ADP	5
+NOUN NOUN NUM NOUN	249
+NOUN NOUN NUM NUM	6
+NOUN NOUN NUM PROPN	10
+NOUN NOUN PART ADJ	7
+NOUN NOUN PART ADP	7
+NOUN NOUN PART NOUN	22
+NOUN NOUN PART NUM	17
+NOUN NOUN PART PUNCT	9
+NOUN NOUN PART PUNCT.,	5
+NOUN NOUN PROPN ADP	43
+NOUN NOUN PROPN NOUN	50
+NOUN NOUN PROPN NUM	5
+NOUN NOUN PROPN PROPN	13
+NOUN NOUN PROPN PUNCT	11
+NOUN NOUN PROPN SYM	13
+NOUN NOUN PROPN VERB	5
+NOUN NOUN PUNCT ADJ	14
+NOUN NOUN PUNCT ADP	185
+NOUN NOUN PUNCT ADV	5
+NOUN NOUN PUNCT AUX	7
+NOUN NOUN PUNCT CCONJ	8
+NOUN NOUN PUNCT EOF	238
+NOUN NOUN PUNCT NOUN	175
+NOUN NOUN PUNCT NUM	14
+NOUN NOUN PUNCT PROPN	90
+NOUN NOUN PUNCT PUNCT	30
+NOUN NOUN PUNCT VERB	5
+NOUN NOUN PUNCT., NOUN	17
+NOUN NOUN PUNCT., PROPN	7
+NOUN NOUN SYM ADP	38
+NOUN NOUN SYM NOUN	62
+NOUN NOUN SYM PROPN	33
+NOUN NOUN VERB AUX	51
+NOUN NOUN VERB NOUN	8
+NOUN NOUN VERB PUNCT	6
+NOUN NOUN VERB SCONJ	17
+NOUN NUM ADP NOUN	10
+NOUN NUM ADP VERB	10
+NOUN NUM NOUN ADP	385
+NOUN NUM NOUN AUX	11
+NOUN NUM NOUN NOUN	128
+NOUN NUM NOUN NUM	26
+NOUN NUM NOUN PROPN	14
+NOUN NUM NOUN PUNCT	100
+NOUN NUM NOUN PUNCT.,	8
+NOUN NUM NOUN SYM	7
+NOUN NUM NOUN VERB	10
+NOUN NUM NUM NOUN	22
+NOUN NUM PROPN ADP	13
+NOUN NUM PROPN NOUN	7
+NOUN NUM PROPN NUM	5
+NOUN NUM PROPN PUNCT	12
+NOUN NUM PUNCT EOF	5
+NOUN PART ADJ AUX	11
+NOUN PART ADJ NOUN	7
+NOUN PART ADP NOUN	12
+NOUN PART ADP PUNCT	6
+NOUN PART ADP VERB	11
+NOUN PART NOUN ADP	43
+NOUN PART NOUN NOUN	23
+NOUN PART NUM NOUN	51
+NOUN PART NUM NUM	7
+NOUN PART NUM PROPN	5
+NOUN PART PROPN ADP	7
+NOUN PART PUNCT NOUN	11
+NOUN PART PUNCT PROPN	6
+NOUN PART VERB AUX	16
+NOUN PART VERB SCONJ	5
+NOUN PRON ADP NOUN	6
+NOUN PROPN ADJ AUX	5
+NOUN PROPN ADP ADJ	8
+NOUN PROPN ADP ADP	18
+NOUN PROPN ADP NOUN	106
+NOUN PROPN ADP NUM	18
+NOUN PROPN ADP PART	8
+NOUN PROPN ADP PROPN	34
+NOUN PROPN ADP PUNCT	10
+NOUN PROPN ADP VERB	89
+NOUN PROPN NOUN ADP	128
+NOUN PROPN NOUN NOUN	60
+NOUN PROPN NOUN NUM	6
+NOUN PROPN NOUN PROPN	14
+NOUN PROPN NOUN PUNCT	25
+NOUN PROPN NOUN SYM	7
+NOUN PROPN NUM NOUN	12
+NOUN PROPN PART NUM	8
+NOUN PROPN PROPN ADP	24
+NOUN PROPN PROPN NOUN	21
+NOUN PROPN PROPN PROPN	8
+NOUN PROPN PUNCT ADP	12
+NOUN PROPN PUNCT EOF	13
+NOUN PROPN PUNCT NOUN	9
+NOUN PROPN SYM ADP	12
+NOUN PROPN SYM NOUN	9
+NOUN PROPN SYM PROPN	32
+NOUN PROPN VERB AUX	7
+NOUN PUNCT ADJ AUX	27
+NOUN PUNCT ADJ NOUN	44
+NOUN PUNCT ADP ADJ	14
+NOUN PUNCT ADP ADP	34
+NOUN PUNCT ADP NOUN	122
+NOUN PUNCT ADP NUM	9
+NOUN PUNCT ADP PART	13
+NOUN PUNCT ADP PROPN	11
+NOUN PUNCT ADP PUNCT	30
+NOUN PUNCT ADP PUNCT.,	9
+NOUN PUNCT ADP VERB	182
+NOUN PUNCT ADV NOUN	11
+NOUN PUNCT AUX ADP	5
+NOUN PUNCT AUX PUNCT	9
+NOUN PUNCT CCONJ NOUN	16
+NOUN PUNCT CCONJ PUNCT	5
+NOUN PUNCT NOUN ADJ	6
+NOUN PUNCT NOUN ADP	312
+NOUN PUNCT NOUN NOUN	265
+NOUN PUNCT NOUN NUM	26
+NOUN PUNCT NOUN PROPN	31
+NOUN PUNCT NOUN PUNCT	104
+NOUN PUNCT NOUN SYM	24
+NOUN PUNCT NOUN VERB	9
+NOUN PUNCT NUM NOUN	74
+NOUN PUNCT PART NUM	8
+NOUN PUNCT PRON ADP	13
+NOUN PUNCT PROPN ADP	131
+NOUN PUNCT PROPN NOUN	108
+NOUN PUNCT PROPN NUM	12
+NOUN PUNCT PROPN PROPN	43
+NOUN PUNCT PROPN PUNCT	39
+NOUN PUNCT PROPN SYM	42
+NOUN PUNCT PUNCT ADJ	5
+NOUN PUNCT PUNCT EOF	11
+NOUN PUNCT PUNCT NOUN	42
+NOUN PUNCT PUNCT PROPN	10
+NOUN PUNCT PUNCT PUNCT	7
+NOUN PUNCT VERB AUX	21
+NOUN PUNCT VERB SCONJ	5
+NOUN PUNCT., ADJ NOUN	7
+NOUN PUNCT., NOUN ADP	46
+NOUN PUNCT., NOUN NOUN	23
+NOUN PUNCT., NOUN PUNCT.,	15
+NOUN PUNCT., NUM NOUN	6
+NOUN PUNCT., PRON ADP	6
+NOUN PUNCT., PROPN ADP	6
+NOUN PUNCT., PROPN NOUN	15
+NOUN PUNCT., PROPN PROPN	7
+NOUN SCONJ NOUN ADP	5
+NOUN SYM ADP ADP	19
+NOUN SYM ADP NOUN	24
+NOUN SYM ADP PROPN	10
+NOUN SYM ADP PUNCT	14
+NOUN SYM ADP VERB	22
+NOUN SYM NOUN ADP	87
+NOUN SYM NOUN NOUN	85
+NOUN SYM NOUN NUM	5
+NOUN SYM NOUN PROPN	10
+NOUN SYM NOUN PUNCT	15
+NOUN SYM NOUN SYM	28
+NOUN SYM PROPN ADP	59
+NOUN SYM PROPN NOUN	37
+NOUN SYM PROPN PROPN	22
+NOUN SYM PROPN PUNCT	12
+NOUN SYM PROPN SYM	26
+NOUN SYM VERB AUX	10
+NOUN VERB ADP VERB	5
+NOUN VERB AUX ADP	10
+NOUN VERB AUX AUX	145
+NOUN VERB AUX NOUN	61
+NOUN VERB AUX PART	11
+NOUN VERB AUX PUNCT	68
+NOUN VERB AUX SCONJ	50
+NOUN VERB NOUN ADP	31
+NOUN VERB NOUN NOUN	5
+NOUN VERB NOUN PUNCT	8
+NOUN VERB PUNCT EOF	14
+NOUN VERB PUNCT NOUN	7
+NOUN VERB SCONJ ADP	7
+NOUN VERB SCONJ AUX	39
+NOUN VERB SCONJ NOUN	7
+NOUN VERB SCONJ PUNCT	9
+NOUN VERB SCONJ VERB	9
+NOUN VERB VERB PUNCT	13
+NUM ADP ADP VERB	6
+NUM ADP NOUN ADP	29
+NUM ADP NOUN NOUN	10
+NUM ADP NOUN PUNCT	5
+NUM ADP NUM NOUN	6
+NUM ADP VERB AUX	21
+NUM ADP VERB SCONJ	8
+NUM ADV NUM NOUN	13
+NUM NOUN ADP ADJ	46
+NUM NOUN ADP ADP	154
+NUM NOUN ADP ADV	16
+NUM NOUN ADP AUX	5
+NUM NOUN ADP NOUN	631
+NUM NOUN ADP NUM	113
+NUM NOUN ADP PART	29
+NUM NOUN ADP PRON	5
+NUM NOUN ADP PROPN	169
+NUM NOUN ADP PUNCT	63
+NUM NOUN ADP PUNCT.,	6
+NUM NOUN ADP VERB	471
+NUM NOUN AUX AUX	24
+NUM NOUN AUX NOUN	8
+NUM NOUN AUX PUNCT	22
+NUM NOUN AUX SCONJ	5
+NUM NOUN NOUN ADP	523
+NUM NOUN NOUN AUX	13
+NUM NOUN NOUN NOUN	105
+NUM NOUN NOUN NUM	159
+NUM NOUN NOUN PART	11
+NUM NOUN NOUN PROPN	17
+NUM NOUN NOUN PUNCT	101
+NUM NOUN NOUN PUNCT.,	7
+NUM NOUN NOUN SYM	7
+NUM NOUN NOUN VERB	11
+NUM NOUN NUM NOUN	83
+NUM NOUN NUM NUM	12
+NUM NOUN PART NOUN	7
+NUM NOUN PART VERB	8
+NUM NOUN PROPN ADP	22
+NUM NOUN PROPN NOUN	20
+NUM NOUN PROPN PROPN	9
+NUM NOUN PUNCT ADJ	5
+NUM NOUN PUNCT ADP	11
+NUM NOUN PUNCT EOF	84
+NUM NOUN PUNCT NOUN	81
+NUM NOUN PUNCT NUM	19
+NUM NOUN PUNCT PROPN	101
+NUM NOUN PUNCT PUNCT	7
+NUM NOUN PUNCT., NOUN	11
+NUM NOUN SYM NOUN	9
+NUM NOUN VERB AUX	54
+NUM NOUN VERB NOUN	9
+NUM NOUN VERB SCONJ	17
+NUM NUM NOUN ADP	50
+NUM NUM NOUN AUX	6
+NUM NUM NOUN NOUN	16
+NUM NUM NOUN PUNCT	15
+NUM PART NUM ADP	7
+NUM PART NUM NOUN	20
+NUM PROPN ADP NOUN	25
+NUM PROPN ADP PROPN	5
+NUM PROPN ADP PUNCT	5
+NUM PROPN ADP VERB	27
+NUM PROPN NOUN ADP	23
+NUM PROPN NOUN NOUN	9
+NUM PROPN NOUN PUNCT	6
+NUM PROPN NUM NOUN	6
+NUM PROPN PUNCT EOF	13
+NUM PROPN PUNCT NOUN	8
+NUM PROPN PUNCT PROPN	5
+NUM PUNCT ADP VERB	7
+NUM SYM NUM NOUN	9
+NUM SYM NUM SYM	5
+PART ADJ AUX NOUN	19
+PART ADJ NOUN ADP	10
+PART ADP ADJ AUX	32
+PART ADP ADJ NOUN	12
+PART ADP ADJ PUNCT	7
+PART ADP ADP VERB	5
+PART ADP ADV ADJ	5
+PART ADP ADV NOUN	5
+PART ADP ADV VERB	5
+PART ADP AUX NOUN	5
+PART ADP NOUN ADP	57
+PART ADP NOUN AUX	19
+PART ADP NOUN NOUN	21
+PART ADP NOUN PUNCT	7
+PART ADP NUM NOUN	9
+PART ADP PUNCT ADJ	7
+PART ADP PUNCT EOF	6
+PART ADP PUNCT NOUN	27
+PART ADP PUNCT NUM	5
+PART ADP PUNCT PROPN	5
+PART ADP PUNCT., NOUN	11
+PART ADP VERB AUX	43
+PART ADP VERB NOUN	14
+PART ADP VERB PUNCT	12
+PART ADP VERB SCONJ	29
+PART AUX ADP AUX	10
+PART AUX AUX AUX	7
+PART AUX AUX PART	17
+PART AUX AUX PUNCT	14
+PART AUX PUNCT EOF	25
+PART AUX SCONJ PUNCT	47
+PART AUX SCONJ PUNCT.,	11
+PART NOUN ADP ADJ	33
+PART NOUN ADP ADP	21
+PART NOUN ADP ADV	13
+PART NOUN ADP NOUN	103
+PART NOUN ADP NUM	9
+PART NOUN ADP PROPN	9
+PART NOUN ADP PUNCT	22
+PART NOUN ADP VERB	174
+PART NOUN AUX PUNCT	8
+PART NOUN NOUN ADP	99
+PART NOUN NOUN AUX	6
+PART NOUN NOUN NOUN	25
+PART NOUN NOUN PUNCT	9
+PART NOUN PUNCT EOF	17
+PART NUM ADP NOUN	18
+PART NUM ADP VERB	5
+PART NUM NOUN ADP	166
+PART NUM NOUN AUX	10
+PART NUM NOUN NOUN	86
+PART NUM NOUN NUM	17
+PART NUM NOUN PART	6
+PART NUM NOUN PROPN	18
+PART NUM NOUN PUNCT	37
+PART NUM NOUN VERB	8
+PART NUM NUM NOUN	23
+PART NUM PROPN ADP	17
+PART NUM PROPN NOUN	10
+PART NUM PROPN PUNCT	6
+PART PART ADP ADJ	5
+PART PART ADP VERB	7
+PART PART PUNCT EOF	14
+PART PART PUNCT.? EOF	11
+PART PART VERB AUX	5
+PART PROPN ADP NOUN	7
+PART PROPN ADP VERB	9
+PART PROPN NOUN ADP	9
+PART PROPN NOUN NOUN	5
+PART PUNCT ADP VERB	12
+PART PUNCT NOUN ADP	9
+PART PUNCT NOUN NOUN	13
+PART PUNCT PROPN ADP	5
+PART VERB AUX AUX	20
+PART VERB AUX PUNCT	8
+PART VERB NOUN ADP	8
+PART VERB SCONJ AUX	9
+PRON ADP ADJ AUX	24
+PRON ADP ADJ NOUN	13
+PRON ADP ADJ PUNCT	5
+PRON ADP ADP ADJ	6
+PRON ADP ADP ADV	7
+PRON ADP ADP NOUN	29
+PRON ADP ADP PUNCT	8
+PRON ADP ADP VERB	12
+PRON ADP ADV NOUN	14
+PRON ADP ADV VERB	9
+PRON ADP NOUN ADJ	6
+PRON ADP NOUN ADP	214
+PRON ADP NOUN AUX	9
+PRON ADP NOUN NOUN	73
+PRON ADP NOUN PUNCT	7
+PRON ADP NOUN VERB	6
+PRON ADP NUM NOUN	18
+PRON ADP PART NOUN	5
+PRON ADP PRON ADP	10
+PRON ADP PROPN ADP	24
+PRON ADP PROPN NOUN	13
+PRON ADP PUNCT ADJ	7
+PRON ADP PUNCT NOUN	19
+PRON ADP PUNCT PROPN	10
+PRON ADP VERB AUX	77
+PRON ADP VERB NOUN	11
+PRON ADP VERB PUNCT	17
+PRON ADP VERB SCONJ	34
+PRON NOUN ADP NOUN	9
+PRON NOUN NOUN ADP	5
+PRON PART ADP VERB	6
+PROPN ADP ADJ AUX	41
+PROPN ADP ADJ NOUN	56
+PROPN ADP ADP ADJ	8
+PROPN ADP ADP ADV	8
+PROPN ADP ADP NOUN	66
+PROPN ADP ADP NUM	13
+PROPN ADP ADP PROPN	14
+PROPN ADP ADP PUNCT	31
+PROPN ADP ADP VERB	39
+PROPN ADP ADV NOUN	13
+PROPN ADP ADV VERB	11
+PROPN ADP AUX NOUN	5
+PROPN ADP NOUN ADJ	5
+PROPN ADP NOUN ADP	750
+PROPN ADP NOUN AUX	36
+PROPN ADP NOUN NOUN	342
+PROPN ADP NOUN NUM	14
+PROPN ADP NOUN PART	7
+PROPN ADP NOUN PROPN	36
+PROPN ADP NOUN PUNCT	78
+PROPN ADP NOUN SYM	25
+PROPN ADP NOUN VERB	14
+PROPN ADP NUM NOUN	123
+PROPN ADP PART NOUN	74
+PROPN ADP PART NUM	17
+PROPN ADP PART PROPN	7
+PROPN ADP PRON ADP	15
+PROPN ADP PROPN ADP	182
+PROPN ADP PROPN AUX	6
+PROPN ADP PROPN NOUN	111
+PROPN ADP PROPN PART	5
+PROPN ADP PROPN PROPN	47
+PROPN ADP PROPN PUNCT	14
+PROPN ADP PROPN SYM	34
+PROPN ADP PROPN VERB	6
+PROPN ADP PUNCT ADJ	9
+PROPN ADP PUNCT NOUN	84
+PROPN ADP PUNCT NUM	12
+PROPN ADP PUNCT PROPN	40
+PROPN ADP PUNCT VERB	6
+PROPN ADP PUNCT., NOUN	8
+PROPN ADP VERB ADP	10
+PROPN ADP VERB AUX	494
+PROPN ADP VERB NOUN	59
+PROPN ADP VERB PROPN	14
+PROPN ADP VERB PUNCT	99
+PROPN ADP VERB SCONJ	149
+PROPN ADP VERB VERB	5
+PROPN AUX ADP AUX	7
+PROPN AUX AUX PUNCT	6
+PROPN AUX NOUN ADP	5
+PROPN AUX PUNCT EOF	19
+PROPN CCONJ PROPN ADP	5
+PROPN NOUN ADP ADJ	42
+PROPN NOUN ADP ADP	65
+PROPN NOUN ADP ADV	27
+PROPN NOUN ADP NOUN	552
+PROPN NOUN ADP NUM	52
+PROPN NOUN ADP PART	42
+PROPN NOUN ADP PROPN	113
+PROPN NOUN ADP PUNCT	83
+PROPN NOUN ADP PUNCT.,	19
+PROPN NOUN ADP VERB	357
+PROPN NOUN AUX AUX	7
+PROPN NOUN AUX PUNCT	6
+PROPN NOUN NOUN ADP	313
+PROPN NOUN NOUN AUX	7
+PROPN NOUN NOUN NOUN	165
+PROPN NOUN NOUN NUM	9
+PROPN NOUN NOUN PROPN	14
+PROPN NOUN NOUN PUNCT	35
+PROPN NOUN NOUN SYM	16
+PROPN NOUN NUM NOUN	21
+PROPN NOUN PART NOUN	8
+PROPN NOUN PART NUM	8
+PROPN NOUN PROPN ADP	52
+PROPN NOUN PROPN NOUN	39
+PROPN NOUN PROPN PROPN	13
+PROPN NOUN PROPN SYM	9
+PROPN NOUN PUNCT ADP	31
+PROPN NOUN PUNCT EOF	75
+PROPN NOUN PUNCT NOUN	25
+PROPN NOUN PUNCT PROPN	34
+PROPN NOUN PUNCT PUNCT	7
+PROPN NOUN SYM ADP	13
+PROPN NOUN SYM NOUN	5
+PROPN NOUN SYM PROPN	17
+PROPN NUM ADP ADP	5
+PROPN NUM ADP NOUN	6
+PROPN NUM ADP VERB	10
+PROPN NUM NOUN ADP	45
+PROPN NUM NOUN NOUN	19
+PROPN NUM NOUN PUNCT	5
+PROPN NUM PROPN ADP	7
+PROPN NUM PUNCT ADP	7
+PROPN PART NOUN ADP	10
+PROPN PART NOUN NOUN	8
+PROPN PART NUM ADP	6
+PROPN PART NUM NOUN	14
+PROPN PART NUM PROPN	11
+PROPN PART NUM PUNCT	5
+PROPN PART PROPN ADP	5
+PROPN PROPN ADP ADJ	10
+PROPN PROPN ADP ADP	13
+PROPN PROPN ADP NOUN	130
+PROPN PROPN ADP NUM	14
+PROPN PROPN ADP PART	9
+PROPN PROPN ADP PROPN	38
+PROPN PROPN ADP PUNCT	27
+PROPN PROPN ADP VERB	87
+PROPN PROPN NOUN ADP	129
+PROPN PROPN NOUN NOUN	48
+PROPN PROPN NOUN PROPN	9
+PROPN PROPN NOUN PUNCT	29
+PROPN PROPN NOUN SYM	8
+PROPN PROPN PROPN ADP	26
+PROPN PROPN PROPN NOUN	13
+PROPN PROPN PROPN PROPN	5
+PROPN PROPN PROPN PUNCT	6
+PROPN PROPN PUNCT ADP	9
+PROPN PROPN PUNCT EOF	16
+PROPN PROPN PUNCT NOUN	15
+PROPN PROPN PUNCT PROPN	29
+PROPN PROPN SYM NOUN	6
+PROPN PROPN SYM PROPN	14
+PROPN PUNCT ADP ADP	7
+PROPN PUNCT ADP NOUN	40
+PROPN PUNCT ADP PROPN	8
+PROPN PUNCT ADP PUNCT	22
+PROPN PUNCT ADP VERB	61
+PROPN PUNCT NOUN ADP	30
+PROPN PUNCT NOUN NOUN	26
+PROPN PUNCT NOUN NUM	10
+PROPN PUNCT NOUN SYM	5
+PROPN PUNCT NUM NOUN	11
+PROPN PUNCT PROPN ADP	25
+PROPN PUNCT PROPN NOUN	22
+PROPN PUNCT PROPN PROPN	21
+PROPN PUNCT PROPN PUNCT	27
+PROPN PUNCT PROPN SYM	19
+PROPN PUNCT PUNCT EOF	6
+PROPN PUNCT PUNCT NOUN	8
+PROPN SYM ADP ADP	5
+PROPN SYM ADP NOUN	16
+PROPN SYM ADP PROPN	5
+PROPN SYM ADP PUNCT	14
+PROPN SYM ADP VERB	18
+PROPN SYM NOUN ADP	42
+PROPN SYM NOUN NOUN	34
+PROPN SYM NOUN PROPN	9
+PROPN SYM NOUN PUNCT	11
+PROPN SYM NOUN SYM	23
+PROPN SYM PROPN ADP	186
+PROPN SYM PROPN NOUN	61
+PROPN SYM PROPN PROPN	14
+PROPN SYM PROPN PUNCT	27
+PROPN SYM PROPN SYM	78
+PROPN VERB ADP VERB	5
+PROPN VERB AUX AUX	13
+PROPN VERB AUX PUNCT	5
+PROPN VERB AUX SCONJ	6
+PROPN VERB NOUN ADP	10
+PROPN VERB SCONJ AUX	7
+PUNCT ADJ ADJ NOUN	5
+PUNCT ADJ AUX ADJ	13
+PUNCT ADJ AUX ADP	12
+PUNCT ADJ AUX AUX	14
+PUNCT ADJ AUX NOUN	130
+PUNCT ADJ AUX PROPN	7
+PUNCT ADJ AUX PUNCT	5
+PUNCT ADJ AUX VERB	18
+PUNCT ADJ NOUN ADP	242
+PUNCT ADJ NOUN NOUN	61
+PUNCT ADJ NOUN PUNCT	20
+PUNCT ADJ NOUN VERB	8
+PUNCT ADJ PART NUM	11
+PUNCT ADJ PROPN ADP	6
+PUNCT ADJ PROPN NOUN	7
+PUNCT ADJ VERB AUX	5
+PUNCT ADJ VERB SCONJ	5
+PUNCT ADP ADJ AUX	11
+PUNCT ADP ADP NOUN	9
+PUNCT ADP ADP PUNCT	5
+PUNCT ADP ADP VERB	30
+PUNCT ADP NOUN ADP	135
+PUNCT ADP NOUN AUX	7
+PUNCT ADP NOUN NOUN	32
+PUNCT ADP NOUN PUNCT	11
+PUNCT ADP NOUN VERB	7
+PUNCT ADP NUM NOUN	10
+PUNCT ADP PART NOUN	20
+PUNCT ADP PROPN ADP	10
+PUNCT ADP PROPN NOUN	9
+PUNCT ADP PUNCT NOUN	34
+PUNCT ADP PUNCT PROPN	13
+PUNCT ADP PUNCT., NOUN	5
+PUNCT ADP VERB AUX	183
+PUNCT ADP VERB NOUN	22
+PUNCT ADP VERB PUNCT	51
+PUNCT ADP VERB SCONJ	79
+PUNCT ADV ADJ AUX	13
+PUNCT ADV ADJ NOUN	6
+PUNCT ADV ADP NOUN	5
+PUNCT ADV NOUN ADP	59
+PUNCT ADV NOUN NOUN	34
+PUNCT ADV NUM NOUN	13
+PUNCT ADV PART NOUN	5
+PUNCT ADV PART NUM	5
+PUNCT ADV PROPN ADP	12
+PUNCT ADV PROPN NOUN	10
+PUNCT ADV VERB AUX	38
+PUNCT ADV VERB NOUN	6
+PUNCT ADV VERB SCONJ	15
+PUNCT AUX AUX PUNCT	5
+PUNCT AUX PUNCT EOF	11
+PUNCT CCONJ NOUN ADP	15
+PUNCT CCONJ NOUN NOUN	11
+PUNCT CCONJ PROPN ADP	5
+PUNCT CCONJ PUNCT NOUN	8
+PUNCT NOUN ADJ AUX	10
+PUNCT NOUN ADJ NOUN	9
+PUNCT NOUN ADP ADJ	137
+PUNCT NOUN ADP ADP	127
+PUNCT NOUN ADP ADV	36
+PUNCT NOUN ADP AUX	8
+PUNCT NOUN ADP NOUN	890
+PUNCT NOUN ADP NUM	55
+PUNCT NOUN ADP PART	41
+PUNCT NOUN ADP PRON	9
+PUNCT NOUN ADP PROPN	106
+PUNCT NOUN ADP PUNCT	42
+PUNCT NOUN ADP VERB	473
+PUNCT NOUN AUX ADP	6
+PUNCT NOUN AUX PUNCT	5
+PUNCT NOUN NOUN ADP	735
+PUNCT NOUN NOUN AUX	10
+PUNCT NOUN NOUN NOUN	272
+PUNCT NOUN NOUN NUM	19
+PUNCT NOUN NOUN PART	6
+PUNCT NOUN NOUN PROPN	28
+PUNCT NOUN NOUN PUNCT	171
+PUNCT NOUN NOUN SYM	31
+PUNCT NOUN NOUN VERB	8
+PUNCT NOUN NUM NOUN	74
+PUNCT NOUN NUM PROPN	9
+PUNCT NOUN PART NOUN	9
+PUNCT NOUN PART NUM	8
+PUNCT NOUN PROPN ADP	36
+PUNCT NOUN PROPN NOUN	32
+PUNCT NOUN PROPN PROPN	5
+PUNCT NOUN PROPN PUNCT	12
+PUNCT NOUN PROPN SYM	10
+PUNCT NOUN PUNCT ADJ	5
+PUNCT NOUN PUNCT ADP	96
+PUNCT NOUN PUNCT AUX	7
+PUNCT NOUN PUNCT EOF	12
+PUNCT NOUN PUNCT NOUN	101
+PUNCT NOUN PUNCT PROPN	17
+PUNCT NOUN PUNCT PUNCT	15
+PUNCT NOUN SYM ADP	15
+PUNCT NOUN SYM NOUN	40
+PUNCT NOUN SYM PROPN	21
+PUNCT NOUN VERB AUX	27
+PUNCT NOUN VERB NOUN	5
+PUNCT NUM NOUN ADP	207
+PUNCT NUM NOUN AUX	7
+PUNCT NUM NOUN NOUN	154
+PUNCT NUM NOUN NUM	12
+PUNCT NUM NOUN PROPN	6
+PUNCT NUM NOUN PUNCT	11
+PUNCT NUM NOUN VERB	8
+PUNCT NUM PART NUM	5
+PUNCT NUM PROPN ADP	8
+PUNCT PART NUM NOUN	44
+PUNCT PART NUM PROPN	6
+PUNCT PRON ADP ADJ	15
+PUNCT PRON ADP ADP	24
+PUNCT PRON ADP NOUN	84
+PUNCT PRON ADP NUM	8
+PUNCT PRON ADP PROPN	13
+PUNCT PRON ADP VERB	35
+PUNCT PRON NOUN ADP	8
+PUNCT PROPN ADP ADJ	24
+PUNCT PROPN ADP ADP	31
+PUNCT PROPN ADP ADV	10
+PUNCT PROPN ADP NOUN	227
+PUNCT PROPN ADP NUM	16
+PUNCT PROPN ADP PART	19
+PUNCT PROPN ADP PROPN	95
+PUNCT PROPN ADP PUNCT	20
+PUNCT PROPN ADP VERB	92
+PUNCT PROPN NOUN ADP	213
+PUNCT PROPN NOUN NOUN	108
+PUNCT PROPN NOUN PART	7
+PUNCT PROPN NOUN PROPN	27
+PUNCT PROPN NOUN PUNCT	51
+PUNCT PROPN NOUN SYM	11
+PUNCT PROPN NUM NOUN	14
+PUNCT PROPN NUM PUNCT	6
+PUNCT PROPN PART NUM	8
+PUNCT PROPN PROPN ADP	60
+PUNCT PROPN PROPN NOUN	37
+PUNCT PROPN PROPN PROPN	11
+PUNCT PROPN PROPN PUNCT	27
+PUNCT PROPN PROPN SYM	5
+PUNCT PROPN PUNCT ADP	110
+PUNCT PROPN PUNCT AUX	7
+PUNCT PROPN PUNCT NOUN	25
+PUNCT PROPN PUNCT PROPN	33
+PUNCT PROPN PUNCT PUNCT	9
+PUNCT PROPN SYM ADP	35
+PUNCT PROPN SYM NOUN	36
+PUNCT PROPN SYM PROPN	81
+PUNCT PUNCT ADJ NOUN	6
+PUNCT PUNCT NOUN ADP	30
+PUNCT PUNCT NOUN NOUN	37
+PUNCT PUNCT NOUN PUNCT	24
+PUNCT PUNCT PROPN ADP	5
+PUNCT PUNCT PROPN NOUN	10
+PUNCT PUNCT PROPN PROPN	6
+PUNCT PUNCT PROPN PUNCT	16
+PUNCT PUNCT PROPN SYM	7
+PUNCT PUNCT VERB AUX	7
+PUNCT VERB ADP ADP	5
+PUNCT VERB AUX AUX	59
+PUNCT VERB AUX NOUN	41
+PUNCT VERB AUX PROPN	6
+PUNCT VERB AUX PUNCT	9
+PUNCT VERB AUX SCONJ	26
+PUNCT VERB NOUN ADP	22
+PUNCT VERB NOUN NOUN	9
+PUNCT VERB PUNCT EOF	5
+PUNCT VERB SCONJ AUX	16
+PUNCT VERB SCONJ VERB	11
+PUNCT., ADJ AUX ADJ	5
+PUNCT., ADJ AUX NOUN	16
+PUNCT., ADJ AUX VERB	5
+PUNCT., ADJ NOUN ADP	48
+PUNCT., ADJ NOUN NOUN	5
+PUNCT., ADV NOUN ADP	12
+PUNCT., ADV NOUN NOUN	10
+PUNCT., ADV VERB AUX	16
+PUNCT., ADV VERB SCONJ	8
+PUNCT., CCONJ NOUN ADP	6
+PUNCT., NOUN ADP ADJ	19
+PUNCT., NOUN ADP ADP	29
+PUNCT., NOUN ADP ADV	9
+PUNCT., NOUN ADP AUX	5
+PUNCT., NOUN ADP NOUN	165
+PUNCT., NOUN ADP NUM	6
+PUNCT., NOUN ADP PART	6
+PUNCT., NOUN ADP PROPN	15
+PUNCT., NOUN ADP PUNCT	5
+PUNCT., NOUN ADP VERB	78
+PUNCT., NOUN NOUN ADP	107
+PUNCT., NOUN NOUN NOUN	33
+PUNCT., NOUN NUM NOUN	8
+PUNCT., NOUN PUNCT., NOUN	19
+PUNCT., NOUN VERB AUX	5
+PUNCT., NUM NOUN ADP	20
+PUNCT., NUM NOUN NOUN	7
+PUNCT., PART NUM NOUN	6
+PUNCT., PRON ADP ADP	5
+PUNCT., PRON ADP ADV	5
+PUNCT., PRON ADP NOUN	27
+PUNCT., PRON ADP VERB	7
+PUNCT., PROPN ADP NOUN	24
+PUNCT., PROPN ADP PROPN	6
+PUNCT., PROPN ADP VERB	8
+PUNCT., PROPN NOUN ADP	45
+PUNCT., PROPN NOUN NOUN	19
+PUNCT., PROPN PROPN NOUN	11
+PUNCT., PUNCT NOUN ADP	8
+PUNCT., PUNCT NOUN NOUN	12
+PUNCT., VERB AUX AUX	19
+PUNCT., VERB AUX NOUN	7
+SCONJ ADJ AUX AUX	12
+SCONJ ADJ AUX NOUN	26
+SCONJ ADJ AUX PUNCT	8
+SCONJ ADJ AUX SCONJ	5
+SCONJ ADJ AUX VERB	7
+SCONJ ADJ NOUN ADP	24
+SCONJ ADJ NOUN NOUN	5
+SCONJ ADJ NOUN PUNCT	6
+SCONJ ADJ PUNCT EOF	14
+SCONJ ADJ VERB AUX	6
+SCONJ ADP ADJ AUX	21
+SCONJ ADP ADJ NOUN	5
+SCONJ ADP ADJ PUNCT	7
+SCONJ ADP ADP PUNCT	6
+SCONJ ADP ADV VERB	6
+SCONJ ADP AUX AUX	18
+SCONJ ADP AUX PUNCT	5
+SCONJ ADP NOUN ADP	50
+SCONJ ADP NOUN AUX	5
+SCONJ ADP NOUN NOUN	18
+SCONJ ADP NUM NOUN	5
+SCONJ ADP PUNCT ADV	5
+SCONJ ADP PUNCT NOUN	17
+SCONJ ADP PUNCT PROPN	7
+SCONJ ADP PUNCT., NOUN	7
+SCONJ ADP VERB AUX	26
+SCONJ ADP VERB SCONJ	6
+SCONJ ADV ADJ AUX	6
+SCONJ ADV NOUN ADP	8
+SCONJ ADV NOUN NOUN	6
+SCONJ ADV VERB AUX	12
+SCONJ ADV VERB SCONJ	9
+SCONJ AUX ADJ AUX	6
+SCONJ AUX ADJ NOUN	5
+SCONJ AUX ADP ADP	7
+SCONJ AUX ADP NOUN	11
+SCONJ AUX ADP PART	7
+SCONJ AUX ADP VERB	28
+SCONJ AUX AUX ADJ	6
+SCONJ AUX AUX ADP	28
+SCONJ AUX AUX AUX	180
+SCONJ AUX AUX NOUN	154
+SCONJ AUX AUX NUM	5
+SCONJ AUX AUX PART	32
+SCONJ AUX AUX PROPN	37
+SCONJ AUX AUX PUNCT	469
+SCONJ AUX AUX PUNCT.,	5
+SCONJ AUX AUX SCONJ	133
+SCONJ AUX AUX VERB	5
+SCONJ AUX NOUN ADP	201
+SCONJ AUX NOUN AUX	25
+SCONJ AUX NOUN NOUN	40
+SCONJ AUX NOUN PUNCT	17
+SCONJ AUX PART ADP	33
+SCONJ AUX PART AUX	12
+SCONJ AUX PART PART	7
+SCONJ AUX PROPN ADP	9
+SCONJ AUX PROPN NOUN	7
+SCONJ AUX PUNCT ADJ	14
+SCONJ AUX PUNCT ADP	10
+SCONJ AUX PUNCT ADV	9
+SCONJ AUX PUNCT EOF	734
+SCONJ AUX PUNCT NOUN	76
+SCONJ AUX PUNCT NUM	6
+SCONJ AUX PUNCT PRON	12
+SCONJ AUX PUNCT PROPN	27
+SCONJ AUX PUNCT., NOUN	13
+SCONJ AUX SCONJ ADJ	20
+SCONJ AUX SCONJ ADP	11
+SCONJ AUX SCONJ ADV	6
+SCONJ AUX SCONJ AUX	36
+SCONJ AUX SCONJ NOUN	13
+SCONJ AUX SCONJ PUNCT	91
+SCONJ AUX SCONJ PUNCT.,	16
+SCONJ AUX SCONJ VERB	16
+SCONJ NOUN ADP ADJ	33
+SCONJ NOUN ADP ADP	11
+SCONJ NOUN ADP ADV	5
+SCONJ NOUN ADP NOUN	98
+SCONJ NOUN ADP NUM	6
+SCONJ NOUN ADP PART	8
+SCONJ NOUN ADP PROPN	10
+SCONJ NOUN ADP VERB	197
+SCONJ NOUN NOUN ADP	128
+SCONJ NOUN NOUN AUX	5
+SCONJ NOUN NOUN NOUN	15
+SCONJ NOUN NOUN VERB	6
+SCONJ NOUN PUNCT NOUN	6
+SCONJ NOUN VERB AUX	8
+SCONJ NUM NOUN ADP	23
+SCONJ NUM NOUN NOUN	19
+SCONJ PART NOUN ADP	21
+SCONJ PART NUM NOUN	6
+SCONJ PART PUNCT EOF	7
+SCONJ PRON ADP NOUN	8
+SCONJ PRON ADP VERB	15
+SCONJ PROPN ADP NOUN	24
+SCONJ PROPN ADP PROPN	8
+SCONJ PROPN ADP VERB	21
+SCONJ PROPN NOUN ADP	23
+SCONJ PROPN NOUN NOUN	12
+SCONJ PROPN PROPN ADP	6
+SCONJ PROPN SYM PROPN	6
+SCONJ PUNCT ADJ AUX	38
+SCONJ PUNCT ADJ NOUN	64
+SCONJ PUNCT ADV ADJ	6
+SCONJ PUNCT ADV NOUN	30
+SCONJ PUNCT ADV VERB	29
+SCONJ PUNCT NOUN ADP	359
+SCONJ PUNCT NOUN NOUN	173
+SCONJ PUNCT NOUN PROPN	10
+SCONJ PUNCT NOUN PUNCT	9
+SCONJ PUNCT NOUN VERB	5
+SCONJ PUNCT NUM NOUN	65
+SCONJ PUNCT PART NUM	9
+SCONJ PUNCT PRON ADP	62
+SCONJ PUNCT PROPN ADP	69
+SCONJ PUNCT PROPN NOUN	36
+SCONJ PUNCT PROPN PROPN	15
+SCONJ PUNCT PROPN PUNCT	8
+SCONJ PUNCT PROPN SYM	11
+SCONJ PUNCT PUNCT NOUN	8
+SCONJ PUNCT VERB ADP	5
+SCONJ PUNCT VERB AUX	24
+SCONJ PUNCT VERB NOUN	7
+SCONJ PUNCT VERB SCONJ	13
+SCONJ PUNCT., ADJ AUX	8
+SCONJ PUNCT., ADJ NOUN	13
+SCONJ PUNCT., ADV NOUN	6
+SCONJ PUNCT., ADV VERB	6
+SCONJ PUNCT., NOUN ADP	70
+SCONJ PUNCT., NOUN NOUN	31
+SCONJ PUNCT., PRON ADP	16
+SCONJ PUNCT., PROPN ADP	13
+SCONJ PUNCT., PROPN NOUN	12
+SCONJ PUNCT., VERB AUX	9
+SCONJ VERB ADP NOUN	5
+SCONJ VERB AUX ADP	14
+SCONJ VERB AUX AUX	169
+SCONJ VERB AUX NOUN	51
+SCONJ VERB AUX PART	5
+SCONJ VERB AUX PUNCT	96
+SCONJ VERB AUX SCONJ	104
+SCONJ VERB NOUN ADP	28
+SCONJ VERB PART ADP	8
+SCONJ VERB PUNCT EOF	59
+SCONJ VERB PUNCT NOUN	6
+SCONJ VERB SCONJ ADP	5
+SCONJ VERB SCONJ AUX	87
+SCONJ VERB SCONJ PUNCT	13
+SCONJ VERB SCONJ VERB	8
+SYM ADP ADP NOUN	8
+SYM ADP ADP PUNCT	5
+SYM ADP ADP VERB	11
+SYM ADP NOUN ADP	25
+SYM ADP NOUN NOUN	13
+SYM ADP PROPN ADP	5
+SYM ADP PROPN NOUN	6
+SYM ADP PUNCT NOUN	16
+SYM ADP PUNCT PROPN	8
+SYM ADP VERB AUX	28
+SYM ADP VERB PUNCT	7
+SYM ADP VERB SCONJ	7
+SYM NOUN ADP ADJ	6
+SYM NOUN ADP ADP	11
+SYM NOUN ADP NOUN	40
+SYM NOUN ADP NUM	7
+SYM NOUN ADP PROPN	8
+SYM NOUN ADP PUNCT	10
+SYM NOUN ADP VERB	49
+SYM NOUN NOUN ADP	71
+SYM NOUN NOUN NOUN	28
+SYM NOUN NOUN PUNCT	9
+SYM NOUN NOUN SYM	5
+SYM NOUN PROPN ADP	8
+SYM NOUN PROPN NOUN	9
+SYM NOUN PUNCT ADP	8
+SYM NOUN PUNCT NOUN	7
+SYM NOUN PUNCT PROPN	5
+SYM NOUN SYM ADP	5
+SYM NOUN SYM NOUN	22
+SYM NOUN SYM PROPN	24
+SYM NUM NOUN ADP	8
+SYM PROPN ADP ADJ	7
+SYM PROPN ADP ADP	16
+SYM PROPN ADP NOUN	99
+SYM PROPN ADP NUM	13
+SYM PROPN ADP PART	6
+SYM PROPN ADP PROPN	32
+SYM PROPN ADP PUNCT	15
+SYM PROPN ADP VERB	57
+SYM PROPN NOUN ADP	64
+SYM PROPN NOUN NOUN	20
+SYM PROPN NOUN PUNCT	6
+SYM PROPN PROPN ADP	14
+SYM PROPN PROPN NOUN	8
+SYM PROPN PROPN SYM	8
+SYM PROPN PUNCT ADP	8
+SYM PROPN PUNCT EOF	6
+SYM PROPN PUNCT PROPN	14
+SYM PROPN SYM ADP	6
+SYM PROPN SYM NOUN	18
+SYM PROPN SYM PROPN	84
+SYM VERB AUX AUX	5
+VERB ADJ AUX NOUN	25
+VERB ADJ NOUN ADP	14
+VERB ADP ADJ AUX	11
+VERB ADP ADP ADJ	6
+VERB ADP ADP NOUN	15
+VERB ADP ADP PUNCT	13
+VERB ADP ADP VERB	16
+VERB ADP NOUN ADP	39
+VERB ADP NOUN AUX	5
+VERB ADP NOUN NOUN	17
+VERB ADP PUNCT NOUN	7
+VERB ADP VERB AUX	56
+VERB ADP VERB NOUN	10
+VERB ADP VERB PART	5
+VERB ADP VERB PUNCT	17
+VERB ADP VERB SCONJ	24
+VERB AUX ADJ AUX	19
+VERB AUX ADJ NOUN	20
+VERB AUX ADP ADJ	7
+VERB AUX ADP ADP	23
+VERB AUX ADP AUX	8
+VERB AUX ADP NOUN	40
+VERB AUX ADP PART	8
+VERB AUX ADP PUNCT	12
+VERB AUX ADP VERB	85
+VERB AUX AUX ADJ	16
+VERB AUX AUX ADP	76
+VERB AUX AUX AUX	659
+VERB AUX AUX NOUN	578
+VERB AUX AUX NUM	24
+VERB AUX AUX PART	59
+VERB AUX AUX PROPN	76
+VERB AUX AUX PUNCT	953
+VERB AUX AUX PUNCT.!	12
+VERB AUX AUX PUNCT.,	12
+VERB AUX AUX SCONJ	511
+VERB AUX AUX VERB	17
+VERB AUX NOUN ADJ	7
+VERB AUX NOUN ADP	872
+VERB AUX NOUN AUX	103
+VERB AUX NOUN NOUN	205
+VERB AUX NOUN PROPN	11
+VERB AUX NOUN PUNCT	103
+VERB AUX NOUN PUNCT.,	12
+VERB AUX NUM NOUN	29
+VERB AUX PART ADP	88
+VERB AUX PART AUX	26
+VERB AUX PART NUM	7
+VERB AUX PART PART	5
+VERB AUX PART PUNCT	16
+VERB AUX PROPN ADP	74
+VERB AUX PROPN NOUN	48
+VERB AUX PROPN PROPN	18
+VERB AUX PROPN PUNCT	6
+VERB AUX PROPN SYM	6
+VERB AUX PUNCT ADJ	55
+VERB AUX PUNCT ADP	35
+VERB AUX PUNCT ADV	14
+VERB AUX PUNCT CCONJ	6
+VERB AUX PUNCT EOF	1177
+VERB AUX PUNCT NOUN	287
+VERB AUX PUNCT NUM	51
+VERB AUX PUNCT PART	5
+VERB AUX PUNCT PRON	11
+VERB AUX PUNCT PROPN	81
+VERB AUX PUNCT PUNCT	13
+VERB AUX PUNCT VERB	28
+VERB AUX PUNCT.! EOF	12
+VERB AUX PUNCT., ADV	5
+VERB AUX PUNCT., NOUN	28
+VERB AUX PUNCT., PROPN	6
+VERB AUX PUNCT., VERB	5
+VERB AUX SCONJ ADJ	25
+VERB AUX SCONJ ADP	45
+VERB AUX SCONJ AUX	862
+VERB AUX SCONJ NOUN	126
+VERB AUX SCONJ NUM	8
+VERB AUX SCONJ PRON	7
+VERB AUX SCONJ PROPN	21
+VERB AUX SCONJ PUNCT	208
+VERB AUX SCONJ PUNCT.,	19
+VERB AUX SCONJ VERB	157
+VERB AUX VERB ADP	7
+VERB AUX VERB AUX	40
+VERB AUX VERB NOUN	6
+VERB AUX VERB SCONJ	6
+VERB NOUN ADJ AUX	5
+VERB NOUN ADJ NOUN	5
+VERB NOUN ADP ADJ	81
+VERB NOUN ADP ADP	40
+VERB NOUN ADP ADV	13
+VERB NOUN ADP NOUN	197
+VERB NOUN ADP NUM	16
+VERB NOUN ADP PART	6
+VERB NOUN ADP PROPN	20
+VERB NOUN ADP PUNCT	64
+VERB NOUN ADP PUNCT.,	9
+VERB NOUN ADP VERB	366
+VERB NOUN AUX ADP	13
+VERB NOUN AUX AUX	12
+VERB NOUN AUX PUNCT	38
+VERB NOUN AUX SCONJ	6
+VERB NOUN NOUN ADP	91
+VERB NOUN NOUN AUX	12
+VERB NOUN NOUN NOUN	33
+VERB NOUN NOUN PUNCT	21
+VERB NOUN NUM NOUN	6
+VERB NOUN PUNCT ADJ	5
+VERB NOUN PUNCT ADP	9
+VERB NOUN PUNCT EOF	40
+VERB NOUN PUNCT NOUN	37
+VERB NOUN PUNCT NUM	8
+VERB NOUN PUNCT PROPN	6
+VERB NOUN VERB AUX	6
+VERB NUM NOUN ADP	13
+VERB NUM NOUN NOUN	7
+VERB PART ADP ADJ	18
+VERB PART ADP ADV	5
+VERB PART ADP NOUN	30
+VERB PART ADP PUNCT	10
+VERB PART ADP PUNCT.,	6
+VERB PART ADP VERB	19
+VERB PART AUX AUX	8
+VERB PART AUX SCONJ	9
+VERB PART PART ADP	5
+VERB PROPN ADP NOUN	19
+VERB PROPN ADP VERB	14
+VERB PROPN NOUN ADP	19
+VERB PROPN NOUN NOUN	6
+VERB PROPN PUNCT EOF	5
+VERB PUNCT ADJ AUX	24
+VERB PUNCT ADJ NOUN	34
+VERB PUNCT ADP ADP	6
+VERB PUNCT ADP NOUN	5
+VERB PUNCT ADP VERB	7
+VERB PUNCT ADV NOUN	6
+VERB PUNCT NOUN ADP	210
+VERB PUNCT NOUN NOUN	107
+VERB PUNCT NOUN NUM	12
+VERB PUNCT NOUN PUNCT	7
+VERB PUNCT NUM NOUN	57
+VERB PUNCT PRON ADP	19
+VERB PUNCT PROPN ADP	48
+VERB PUNCT PROPN NOUN	29
+VERB PUNCT PROPN PROPN	7
+VERB PUNCT PROPN PUNCT	5
+VERB PUNCT PROPN SYM	7
+VERB PUNCT PUNCT NOUN	5
+VERB PUNCT PUNCT PROPN	6
+VERB PUNCT VERB AUX	18
+VERB PUNCT VERB SCONJ	5
+VERB PUNCT., NOUN ADP	25
+VERB PUNCT., NOUN NOUN	10
+VERB PUNCT., NUM NOUN	5
+VERB SCONJ ADJ AUX	26
+VERB SCONJ ADJ NOUN	21
+VERB SCONJ ADJ PART	5
+VERB SCONJ ADJ PUNCT	9
+VERB SCONJ ADP ADJ	27
+VERB SCONJ ADP ADP	9
+VERB SCONJ ADP ADV	9
+VERB SCONJ ADP AUX	19
+VERB SCONJ ADP NOUN	51
+VERB SCONJ ADP NUM	5
+VERB SCONJ ADP PUNCT	30
+VERB SCONJ ADP PUNCT.,	10
+VERB SCONJ ADP VERB	26
+VERB SCONJ ADV ADJ	6
+VERB SCONJ ADV VERB	12
+VERB SCONJ AUX ADJ	7
+VERB SCONJ AUX ADP	33
+VERB SCONJ AUX AUX	594
+VERB SCONJ AUX NOUN	168
+VERB SCONJ AUX PART	27
+VERB SCONJ AUX PROPN	7
+VERB SCONJ AUX PUNCT	426
+VERB SCONJ AUX PUNCT.,	11
+VERB SCONJ AUX SCONJ	129
+VERB SCONJ NOUN ADP	206
+VERB SCONJ NOUN NOUN	95
+VERB SCONJ NOUN PROPN	5
+VERB SCONJ NOUN VERB	7
+VERB SCONJ NUM NOUN	33
+VERB SCONJ PART NOUN	26
+VERB SCONJ PART NUM	5
+VERB SCONJ PRON ADP	13
+VERB SCONJ PROPN ADP	43
+VERB SCONJ PROPN NOUN	26
+VERB SCONJ PROPN PROPN	10
+VERB SCONJ PROPN SYM	6
+VERB SCONJ PUNCT ADJ	26
+VERB SCONJ PUNCT ADV	16
+VERB SCONJ PUNCT NOUN	167
+VERB SCONJ PUNCT NUM	27
+VERB SCONJ PUNCT PRON	19
+VERB SCONJ PUNCT PROPN	61
+VERB SCONJ PUNCT VERB	18
+VERB SCONJ PUNCT., ADJ	6
+VERB SCONJ PUNCT., ADV	6
+VERB SCONJ PUNCT., NOUN	42
+VERB SCONJ PUNCT., PROPN	9
+VERB SCONJ VERB ADP	9
+VERB SCONJ VERB AUX	252
+VERB SCONJ VERB NOUN	22
+VERB SCONJ VERB PUNCT	37
+VERB SCONJ VERB SCONJ	55
+VERB VERB ADP VERB	7
+VERB VERB AUX AUX	25
+VERB VERB AUX NOUN	10
+VERB VERB AUX PUNCT	9
+VERB VERB AUX SCONJ	15
+VERB VERB NOUN ADP	7
+VERB VERB PUNCT EOF	13
+VERB VERB SCONJ AUX	8
+
+[NGRAMS:5]
+2972
+ADJ ADJ AUX NOUN ADP	7
+ADJ ADJ NOUN ADP VERB	10
+ADJ ADP AUX AUX PUNCT	10
+ADJ ADP AUX PUNCT EOF	9
+ADJ ADP NOUN ADP VERB	8
+ADJ ADP VERB AUX PUNCT	18
+ADJ ADP VERB PUNCT EOF	7
+ADJ AUX ADJ AUX NOUN	15
+ADJ AUX ADJ NOUN ADP	10
+ADJ AUX ADP NOUN NOUN	8
+ADJ AUX AUX AUX AUX	8
+ADJ AUX AUX AUX NOUN	7
+ADJ AUX AUX AUX PUNCT	27
+ADJ AUX AUX NOUN ADP	18
+ADJ AUX AUX PUNCT EOF	97
+ADJ AUX AUX PUNCT NOUN	7
+ADJ AUX AUX SCONJ AUX	11
+ADJ AUX AUX SCONJ PUNCT	13
+ADJ AUX NOUN ADP ADJ	36
+ADJ AUX NOUN ADP ADP	18
+ADJ AUX NOUN ADP ADV	8
+ADJ AUX NOUN ADP NOUN	136
+ADJ AUX NOUN ADP PUNCT	26
+ADJ AUX NOUN ADP VERB	281
+ADJ AUX NOUN AUX AUX	17
+ADJ AUX NOUN AUX PUNCT	21
+ADJ AUX NOUN AUX SCONJ	10
+ADJ AUX NOUN NOUN ADP	103
+ADJ AUX NOUN NOUN AUX	12
+ADJ AUX NOUN NOUN NOUN	27
+ADJ AUX NOUN NOUN PUNCT	10
+ADJ AUX NOUN PUNCT EOF	13
+ADJ AUX NOUN VERB AUX	7
+ADJ AUX NUM NOUN ADP	8
+ADJ AUX PROPN ADP NOUN	11
+ADJ AUX PROPN NOUN ADP	7
+ADJ AUX PUNCT ADJ AUX	7
+ADJ AUX PUNCT NOUN ADP	18
+ADJ AUX PUNCT NOUN NOUN	12
+ADJ AUX SCONJ PUNCT NOUN	24
+ADJ AUX VERB AUX AUX	53
+ADJ AUX VERB AUX NOUN	27
+ADJ AUX VERB AUX PUNCT	18
+ADJ AUX VERB AUX SCONJ	39
+ADJ AUX VERB NOUN ADP	18
+ADJ AUX VERB PUNCT EOF	9
+ADJ AUX VERB SCONJ AUX	23
+ADJ AUX VERB SCONJ VERB	10
+ADJ NOUN ADP ADJ AUX	43
+ADJ NOUN ADP ADJ NOUN	25
+ADJ NOUN ADP ADP NOUN	27
+ADJ NOUN ADP ADP PUNCT	11
+ADJ NOUN ADP ADP VERB	10
+ADJ NOUN ADP ADV VERB	9
+ADJ NOUN ADP NOUN ADP	218
+ADJ NOUN ADP NOUN AUX	9
+ADJ NOUN ADP NOUN NOUN	96
+ADJ NOUN ADP NOUN PUNCT	14
+ADJ NOUN ADP NUM NOUN	29
+ADJ NOUN ADP PART NOUN	7
+ADJ NOUN ADP PROPN ADP	32
+ADJ NOUN ADP PROPN NOUN	17
+ADJ NOUN ADP PUNCT ADJ	8
+ADJ NOUN ADP PUNCT NOUN	26
+ADJ NOUN ADP PUNCT PROPN	11
+ADJ NOUN ADP VERB ADP	14
+ADJ NOUN ADP VERB AUX	224
+ADJ NOUN ADP VERB NOUN	29
+ADJ NOUN ADP VERB PUNCT	46
+ADJ NOUN ADP VERB SCONJ	106
+ADJ NOUN AUX AUX PUNCT	11
+ADJ NOUN AUX PUNCT EOF	27
+ADJ NOUN AUX SCONJ PUNCT	7
+ADJ NOUN NOUN ADP ADJ	10
+ADJ NOUN NOUN ADP ADP	15
+ADJ NOUN NOUN ADP NOUN	53
+ADJ NOUN NOUN ADP PUNCT	9
+ADJ NOUN NOUN ADP VERB	56
+ADJ NOUN NOUN NOUN ADP	18
+ADJ NOUN NOUN NOUN NOUN	10
+ADJ NOUN PUNCT ADP VERB	8
+ADJ NOUN PUNCT NOUN ADP	15
+ADJ NOUN PUNCT NOUN NOUN	17
+ADJ NOUN PUNCT PROPN ADP	10
+ADJ PART ADP NOUN ADP	11
+ADJ PART ADP VERB AUX	14
+ADJ PART AUX SCONJ PUNCT	8
+ADJ PART NUM NOUN ADP	10
+ADJ PART NUM NOUN NUM	11
+ADJ PROPN ADP NOUN ADP	7
+ADJ PUNCT NOUN ADP NOUN	12
+ADJ PUNCT NOUN NOUN ADP	10
+ADJ SCONJ NOUN ADP VERB	7
+ADJ SCONJ PUNCT NOUN ADP	13
+ADJ SCONJ PUNCT NOUN NOUN	9
+ADJ VERB AUX AUX AUX	11
+ADJ VERB AUX AUX NOUN	7
+ADJ VERB AUX AUX PUNCT	16
+ADJ VERB AUX NOUN ADP	8
+ADJ VERB AUX PUNCT EOF	14
+ADJ VERB AUX SCONJ AUX	22
+ADJ VERB NOUN ADP VERB	10
+ADP ADJ ADP AUX AUX	13
+ADP ADJ ADP AUX PUNCT	9
+ADP ADJ ADP NOUN ADP	12
+ADP ADJ ADP VERB AUX	17
+ADP ADJ ADP VERB PUNCT	7
+ADP ADJ AUX ADJ AUX	10
+ADP ADJ AUX ADJ NOUN	10
+ADP ADJ AUX ADJ PUNCT	8
+ADP ADJ AUX ADP VERB	7
+ADP ADJ AUX AUX AUX	44
+ADP ADJ AUX AUX NOUN	11
+ADP ADJ AUX AUX PART	9
+ADP ADJ AUX AUX PUNCT	75
+ADP ADJ AUX AUX SCONJ	24
+ADP ADJ AUX NOUN ADP	231
+ADP ADJ AUX NOUN AUX	29
+ADP ADJ AUX NOUN NOUN	62
+ADP ADJ AUX NOUN PUNCT	11
+ADP ADJ AUX PART AUX	7
+ADP ADJ AUX PROPN ADP	9
+ADP ADJ AUX PUNCT ADJ	7
+ADP ADJ AUX PUNCT EOF	57
+ADP ADJ AUX PUNCT NOUN	21
+ADP ADJ AUX SCONJ AUX	12
+ADP ADJ AUX SCONJ PUNCT	25
+ADP ADJ AUX VERB AUX	98
+ADP ADJ AUX VERB NOUN	18
+ADP ADJ AUX VERB PUNCT	11
+ADP ADJ AUX VERB SCONJ	25
+ADP ADJ NOUN ADP ADJ	26
+ADP ADJ NOUN ADP ADP	13
+ADP ADJ NOUN ADP NOUN	101
+ADP ADJ NOUN ADP PUNCT	15
+ADP ADJ NOUN ADP VERB	193
+ADP ADJ NOUN AUX AUX	12
+ADP ADJ NOUN AUX PUNCT	18
+ADP ADJ NOUN NOUN ADP	47
+ADP ADJ NOUN NOUN NOUN	12
+ADP ADJ NOUN PUNCT EOF	7
+ADP ADJ PART ADP NOUN	12
+ADP ADJ PART ADP VERB	19
+ADP ADJ PUNCT ADP VERB	7
+ADP ADJ PUNCT NOUN ADP	18
+ADP ADJ PUNCT NOUN NOUN	14
+ADP ADJ SCONJ NOUN ADP	12
+ADP ADJ SCONJ PUNCT NOUN	19
+ADP ADJ SCONJ VERB AUX	9
+ADP ADJ VERB AUX AUX	25
+ADP ADJ VERB AUX NOUN	9
+ADP ADJ VERB AUX PUNCT	17
+ADP ADJ VERB AUX SCONJ	18
+ADP ADJ VERB SCONJ AUX	10
+ADP ADP ADJ AUX AUX	10
+ADP ADP ADJ AUX NOUN	35
+ADP ADP ADJ AUX PUNCT	9
+ADP ADP ADJ AUX VERB	13
+ADP ADP ADJ NOUN ADP	27
+ADP ADP ADJ NOUN NOUN	8
+ADP ADP ADP VERB AUX	12
+ADP ADP ADV ADJ AUX	9
+ADP ADP ADV NOUN ADP	14
+ADP ADP ADV VERB AUX	15
+ADP ADP NOUN ADJ AUX	8
+ADP ADP NOUN ADP ADJ	29
+ADP ADP NOUN ADP ADP	13
+ADP ADP NOUN ADP NOUN	136
+ADP ADP NOUN ADP PART	8
+ADP ADP NOUN ADP PROPN	12
+ADP ADP NOUN ADP PUNCT	12
+ADP ADP NOUN ADP VERB	193
+ADP ADP NOUN NOUN ADP	132
+ADP ADP NOUN NOUN NOUN	34
+ADP ADP NOUN NUM NOUN	13
+ADP ADP NOUN PUNCT NOUN	10
+ADP ADP NOUN VERB AUX	7
+ADP ADP NUM NOUN ADP	31
+ADP ADP NUM NOUN NOUN	21
+ADP ADP PRON ADP NOUN	8
+ADP ADP PROPN ADP NOUN	26
+ADP ADP PROPN ADP PROPN	7
+ADP ADP PROPN ADP VERB	20
+ADP ADP PROPN NOUN ADP	34
+ADP ADP PROPN NOUN NOUN	11
+ADP ADP PROPN PROPN ADP	11
+ADP ADP PUNCT ADJ AUX	11
+ADP ADP PUNCT ADJ NOUN	9
+ADP ADP PUNCT NOUN ADP	98
+ADP ADP PUNCT NOUN NOUN	59
+ADP ADP PUNCT NUM NOUN	15
+ADP ADP PUNCT PRON ADP	8
+ADP ADP PUNCT PROPN ADP	28
+ADP ADP PUNCT PROPN NOUN	17
+ADP ADP PUNCT., NOUN ADP	20
+ADP ADP PUNCT., NOUN NOUN	17
+ADP ADP VERB AUX ADP	7
+ADP ADP VERB AUX AUX	140
+ADP ADP VERB AUX NOUN	42
+ADP ADP VERB AUX PUNCT	69
+ADP ADP VERB AUX SCONJ	61
+ADP ADP VERB NOUN ADP	18
+ADP ADP VERB NOUN NOUN	8
+ADP ADP VERB PUNCT EOF	38
+ADP ADP VERB PUNCT NOUN	11
+ADP ADP VERB SCONJ AUX	49
+ADP ADP VERB SCONJ PUNCT	10
+ADP ADV ADJ AUX AUX	20
+ADP ADV ADJ AUX NOUN	13
+ADP ADV ADJ NOUN ADP	15
+ADP ADV NOUN ADP ADJ	13
+ADP ADV NOUN ADP NOUN	21
+ADP ADV NOUN ADP VERB	57
+ADP ADV NOUN NOUN ADP	23
+ADP ADV NOUN NOUN NOUN	10
+ADP ADV NUM NOUN ADP	8
+ADP ADV NUM NOUN NOUN	7
+ADP ADV PART NOUN ADP	7
+ADP ADV PROPN ADP VERB	9
+ADP ADV PROPN NOUN ADP	12
+ADP ADV VERB AUX AUX	50
+ADP ADV VERB AUX NOUN	20
+ADP ADV VERB AUX PUNCT	24
+ADP ADV VERB AUX SCONJ	26
+ADP ADV VERB SCONJ AUX	37
+ADP AUX AUX AUX PART	7
+ADP AUX AUX AUX PUNCT	20
+ADP AUX AUX PUNCT EOF	34
+ADP AUX NOUN ADP NOUN	18
+ADP AUX NOUN ADP VERB	20
+ADP AUX PUNCT., NOUN ADP	7
+ADP AUX SCONJ NOUN ADP	7
+ADP NOUN ADJ AUX AUX	7
+ADP NOUN ADJ AUX NOUN	14
+ADP NOUN ADJ AUX PUNCT	8
+ADP NOUN ADJ NOUN ADP	20
+ADP NOUN ADJ NOUN AUX	7
+ADP NOUN ADJ PUNCT EOF	12
+ADP NOUN ADP ADJ ADP	18
+ADP NOUN ADP ADJ AUX	201
+ADP NOUN ADP ADJ NOUN	96
+ADP NOUN ADP ADJ PART	14
+ADP NOUN ADP ADJ PROPN	7
+ADP NOUN ADP ADJ PUNCT	57
+ADP NOUN ADP ADJ SCONJ	30
+ADP NOUN ADP ADJ VERB	38
+ADP NOUN ADP ADP ADJ	27
+ADP NOUN ADP ADP ADV	12
+ADP NOUN ADP ADP NOUN	95
+ADP NOUN ADP ADP NUM	10
+ADP NOUN ADP ADP PROPN	16
+ADP NOUN ADP ADP PUNCT	36
+ADP NOUN ADP ADP PUNCT.,	15
+ADP NOUN ADP ADP VERB	109
+ADP NOUN ADP ADV ADJ	23
+ADP NOUN ADP ADV NOUN	33
+ADP NOUN ADP ADV PROPN	8
+ADP NOUN ADP ADV VERB	49
+ADP NOUN ADP AUX AUX	8
+ADP NOUN ADP AUX NOUN	11
+ADP NOUN ADP NOUN ADJ	20
+ADP NOUN ADP NOUN ADP	1277
+ADP NOUN ADP NOUN AUX	85
+ADP NOUN ADP NOUN NOUN	429
+ADP NOUN ADP NOUN NUM	12
+ADP NOUN ADP NOUN PART	8
+ADP NOUN ADP NOUN PROPN	20
+ADP NOUN ADP NOUN PUNCT	107
+ADP NOUN ADP NOUN SYM	17
+ADP NOUN ADP NOUN VERB	40
+ADP NOUN ADP NUM NOUN	122
+ADP NOUN ADP NUM NUM	8
+ADP NOUN ADP PART NOUN	61
+ADP NOUN ADP PART NUM	13
+ADP NOUN ADP PRON ADP	21
+ADP NOUN ADP PROPN ADP	99
+ADP NOUN ADP PROPN NOUN	77
+ADP NOUN ADP PROPN PROPN	35
+ADP NOUN ADP PROPN PUNCT	9
+ADP NOUN ADP PROPN SYM	10
+ADP NOUN ADP PUNCT ADJ	21
+ADP NOUN ADP PUNCT ADV	12
+ADP NOUN ADP PUNCT NOUN	168
+ADP NOUN ADP PUNCT NUM	12
+ADP NOUN ADP PUNCT PRON	8
+ADP NOUN ADP PUNCT PROPN	60
+ADP NOUN ADP PUNCT VERB	12
+ADP NOUN ADP PUNCT., ADJ	7
+ADP NOUN ADP PUNCT., ADV	10
+ADP NOUN ADP PUNCT., NOUN	31
+ADP NOUN ADP PUNCT., PROPN	7
+ADP NOUN ADP VERB ADJ	13
+ADP NOUN ADP VERB ADP	64
+ADP NOUN ADP VERB AUX	1703
+ADP NOUN ADP VERB NOUN	266
+ADP NOUN ADP VERB NUM	9
+ADP NOUN ADP VERB PART	30
+ADP NOUN ADP VERB PROPN	14
+ADP NOUN ADP VERB PUNCT	403
+ADP NOUN ADP VERB PUNCT.,	25
+ADP NOUN ADP VERB SCONJ	801
+ADP NOUN ADP VERB VERB	26
+ADP NOUN AUX ADP AUX	28
+ADP NOUN AUX ADP VERB	10
+ADP NOUN AUX AUX NOUN	12
+ADP NOUN AUX AUX PUNCT	39
+ADP NOUN AUX AUX SCONJ	16
+ADP NOUN AUX NOUN ADP	20
+ADP NOUN AUX PART AUX	8
+ADP NOUN AUX PUNCT ADJ	8
+ADP NOUN AUX PUNCT EOF	118
+ADP NOUN AUX PUNCT NOUN	14
+ADP NOUN AUX SCONJ PUNCT	16
+ADP NOUN AUX SCONJ VERB	7
+ADP NOUN NOUN ADP ADJ	115
+ADP NOUN NOUN ADP ADP	121
+ADP NOUN NOUN ADP ADV	33
+ADP NOUN NOUN ADP NOUN	573
+ADP NOUN NOUN ADP NUM	47
+ADP NOUN NOUN ADP PART	38
+ADP NOUN NOUN ADP PROPN	67
+ADP NOUN NOUN ADP PUNCT	77
+ADP NOUN NOUN ADP PUNCT.,	17
+ADP NOUN NOUN ADP VERB	843
+ADP NOUN NOUN AUX ADP	13
+ADP NOUN NOUN AUX AUX	30
+ADP NOUN NOUN AUX NOUN	15
+ADP NOUN NOUN AUX PROPN	8
+ADP NOUN NOUN AUX PUNCT	37
+ADP NOUN NOUN AUX SCONJ	9
+ADP NOUN NOUN NOUN ADP	323
+ADP NOUN NOUN NOUN AUX	21
+ADP NOUN NOUN NOUN NOUN	85
+ADP NOUN NOUN NOUN NUM	7
+ADP NOUN NOUN NOUN PROPN	10
+ADP NOUN NOUN NOUN PUNCT	27
+ADP NOUN NOUN NUM NOUN	28
+ADP NOUN NOUN PROPN ADP	15
+ADP NOUN NOUN PROPN NOUN	7
+ADP NOUN NOUN PUNCT ADP	9
+ADP NOUN NOUN PUNCT EOF	55
+ADP NOUN NOUN PUNCT NOUN	49
+ADP NOUN NOUN PUNCT PROPN	20
+ADP NOUN NOUN SYM NOUN	12
+ADP NOUN NOUN VERB AUX	16
+ADP NOUN NOUN VERB SCONJ	8
+ADP NOUN NUM NOUN ADP	73
+ADP NOUN NUM NOUN NOUN	27
+ADP NOUN NUM NOUN PUNCT	15
+ADP NOUN PART NOUN NOUN	7
+ADP NOUN PART NUM NOUN	11
+ADP NOUN PROPN ADP NOUN	25
+ADP NOUN PROPN ADP PROPN	7
+ADP NOUN PROPN ADP VERB	24
+ADP NOUN PROPN NOUN ADP	33
+ADP NOUN PROPN NOUN NOUN	7
+ADP NOUN PROPN SYM PROPN	9
+ADP NOUN PUNCT ADJ NOUN	10
+ADP NOUN PUNCT ADP NOUN	13
+ADP NOUN PUNCT ADP VERB	26
+ADP NOUN PUNCT NOUN ADP	81
+ADP NOUN PUNCT NOUN NOUN	43
+ADP NOUN PUNCT NOUN PUNCT	19
+ADP NOUN PUNCT NOUN SYM	7
+ADP NOUN PUNCT NUM NOUN	14
+ADP NOUN PUNCT PROPN ADP	28
+ADP NOUN PUNCT PROPN PROPN	10
+ADP NOUN PUNCT PROPN SYM	11
+ADP NOUN PUNCT., NOUN ADP	10
+ADP NOUN SYM NOUN ADP	27
+ADP NOUN SYM NOUN NOUN	17
+ADP NOUN SYM NOUN SYM	10
+ADP NOUN SYM PROPN ADP	22
+ADP NOUN SYM VERB AUX	10
+ADP NOUN VERB AUX AUX	65
+ADP NOUN VERB AUX NOUN	28
+ADP NOUN VERB AUX PUNCT	29
+ADP NOUN VERB AUX SCONJ	15
+ADP NOUN VERB NOUN ADP	15
+ADP NOUN VERB SCONJ AUX	12
+ADP NOUN VERB VERB PUNCT	8
+ADP NUM NOUN ADP ADJ	11
+ADP NUM NOUN ADP ADP	31
+ADP NUM NOUN ADP NOUN	152
+ADP NUM NOUN ADP NUM	27
+ADP NUM NOUN ADP PART	8
+ADP NUM NOUN ADP PROPN	26
+ADP NUM NOUN ADP PUNCT	20
+ADP NUM NOUN ADP VERB	159
+ADP NUM NOUN AUX PUNCT	10
+ADP NUM NOUN NOUN ADP	154
+ADP NUM NOUN NOUN AUX	9
+ADP NUM NOUN NOUN NOUN	21
+ADP NUM NOUN NOUN NUM	30
+ADP NUM NOUN NOUN PUNCT	20
+ADP NUM NOUN NUM NOUN	19
+ADP NUM NOUN NUM NUM	7
+ADP NUM NOUN PUNCT EOF	26
+ADP NUM NOUN PUNCT NOUN	20
+ADP NUM NOUN PUNCT PROPN	19
+ADP NUM NOUN VERB AUX	32
+ADP NUM NOUN VERB SCONJ	9
+ADP NUM NUM NOUN ADP	15
+ADP NUM NUM NOUN NOUN	9
+ADP NUM PROPN ADP NOUN	7
+ADP NUM PROPN ADP VERB	8
+ADP PART NOUN ADP ADJ	25
+ADP PART NOUN ADP ADP	16
+ADP PART NOUN ADP ADV	11
+ADP PART NOUN ADP NOUN	68
+ADP PART NOUN ADP NUM	8
+ADP PART NOUN ADP PUNCT	18
+ADP PART NOUN ADP VERB	127
+ADP PART NOUN AUX PUNCT	8
+ADP PART NOUN NOUN ADP	72
+ADP PART NOUN NOUN NOUN	16
+ADP PART NOUN PUNCT EOF	14
+ADP PART NUM NOUN ADP	52
+ADP PART NUM NOUN NOUN	29
+ADP PART NUM NOUN PUNCT	14
+ADP PART NUM NUM NOUN	11
+ADP PRON ADP NOUN ADP	25
+ADP PRON ADP NOUN NOUN	12
+ADP PRON ADP VERB AUX	26
+ADP PRON ADP VERB PUNCT	7
+ADP PRON ADP VERB SCONJ	8
+ADP PROPN ADP ADJ AUX	10
+ADP PROPN ADP ADJ NOUN	9
+ADP PROPN ADP ADP NOUN	10
+ADP PROPN ADP ADP VERB	9
+ADP PROPN ADP NOUN ADP	178
+ADP PROPN ADP NOUN AUX	10
+ADP PROPN ADP NOUN NOUN	75
+ADP PROPN ADP NOUN PUNCT	14
+ADP PROPN ADP NUM NOUN	21
+ADP PROPN ADP PART NOUN	30
+ADP PROPN ADP PROPN ADP	36
+ADP PROPN ADP PROPN NOUN	19
+ADP PROPN ADP PROPN PROPN	7
+ADP PROPN ADP PROPN SYM	8
+ADP PROPN ADP PUNCT NOUN	20
+ADP PROPN ADP PUNCT PROPN	11
+ADP PROPN ADP VERB AUX	174
+ADP PROPN ADP VERB NOUN	17
+ADP PROPN ADP VERB PUNCT	39
+ADP PROPN ADP VERB SCONJ	46
+ADP PROPN AUX PUNCT EOF	8
+ADP PROPN NOUN ADP ADJ	10
+ADP PROPN NOUN ADP ADP	14
+ADP PROPN NOUN ADP ADV	7
+ADP PROPN NOUN ADP NOUN	140
+ADP PROPN NOUN ADP NUM	17
+ADP PROPN NOUN ADP PART	11
+ADP PROPN NOUN ADP PROPN	28
+ADP PROPN NOUN ADP PUNCT	15
+ADP PROPN NOUN ADP VERB	126
+ADP PROPN NOUN NOUN ADP	86
+ADP PROPN NOUN NOUN NOUN	32
+ADP PROPN NOUN NUM NOUN	9
+ADP PROPN NOUN PROPN ADP	14
+ADP PROPN NOUN PROPN NOUN	7
+ADP PROPN NOUN PUNCT EOF	20
+ADP PROPN NUM NOUN ADP	13
+ADP PROPN PROPN ADP NOUN	32
+ADP PROPN PROPN ADP PROPN	11
+ADP PROPN PROPN ADP PUNCT	15
+ADP PROPN PROPN ADP VERB	31
+ADP PROPN PROPN NOUN ADP	50
+ADP PROPN PROPN NOUN NOUN	13
+ADP PROPN PROPN PUNCT EOF	11
+ADP PROPN PROPN PUNCT NOUN	8
+ADP PROPN PUNCT NOUN ADP	9
+ADP PROPN PUNCT PROPN PUNCT	7
+ADP PROPN SYM NOUN ADP	11
+ADP PROPN SYM NOUN PUNCT	7
+ADP PROPN SYM PROPN ADP	56
+ADP PROPN SYM PROPN NOUN	16
+ADP PROPN SYM PROPN SYM	12
+ADP PUNCT ADJ AUX NOUN	33
+ADP PUNCT ADJ NOUN ADP	54
+ADP PUNCT ADJ NOUN NOUN	17
+ADP PUNCT ADJ NOUN PUNCT	8
+ADP PUNCT ADV NOUN ADP	15
+ADP PUNCT ADV NOUN NOUN	8
+ADP PUNCT ADV VERB AUX	9
+ADP PUNCT NOUN ADP ADJ	36
+ADP PUNCT NOUN ADP ADP	23
+ADP PUNCT NOUN ADP ADV	9
+ADP PUNCT NOUN ADP NOUN	266
+ADP PUNCT NOUN ADP NUM	14
+ADP PUNCT NOUN ADP PART	12
+ADP PUNCT NOUN ADP PROPN	33
+ADP PUNCT NOUN ADP PUNCT	7
+ADP PUNCT NOUN ADP VERB	109
+ADP PUNCT NOUN NOUN ADP	193
+ADP PUNCT NOUN NOUN NOUN	74
+ADP PUNCT NOUN NOUN PROPN	9
+ADP PUNCT NOUN NOUN PUNCT	56
+ADP PUNCT NOUN NOUN SYM	10
+ADP PUNCT NOUN NUM NOUN	15
+ADP PUNCT NOUN PROPN ADP	10
+ADP PUNCT NOUN PUNCT ADP	41
+ADP PUNCT NOUN PUNCT NOUN	11
+ADP PUNCT NOUN SYM NOUN	15
+ADP PUNCT NOUN SYM PROPN	10
+ADP PUNCT NUM NOUN ADP	41
+ADP PUNCT NUM NOUN NOUN	41
+ADP PUNCT PART NUM NOUN	14
+ADP PUNCT PRON ADP ADP	8
+ADP PUNCT PRON ADP NOUN	14
+ADP PUNCT PRON ADP VERB	7
+ADP PUNCT PROPN ADP ADJ	7
+ADP PUNCT PROPN ADP NOUN	65
+ADP PUNCT PROPN ADP PROPN	25
+ADP PUNCT PROPN ADP VERB	26
+ADP PUNCT PROPN NOUN ADP	56
+ADP PUNCT PROPN NOUN NOUN	26
+ADP PUNCT PROPN NOUN PUNCT	14
+ADP PUNCT PROPN PROPN ADP	14
+ADP PUNCT PROPN PROPN NOUN	8
+ADP PUNCT PROPN PUNCT ADP	37
+ADP PUNCT PROPN PUNCT NOUN	8
+ADP PUNCT PROPN SYM ADP	11
+ADP PUNCT PROPN SYM NOUN	9
+ADP PUNCT PROPN SYM PROPN	18
+ADP PUNCT VERB AUX AUX	19
+ADP PUNCT VERB AUX NOUN	8
+ADP PUNCT VERB AUX SCONJ	13
+ADP PUNCT VERB NOUN ADP	7
+ADP PUNCT., ADJ AUX NOUN	8
+ADP PUNCT., ADJ NOUN ADP	18
+ADP PUNCT., ADV VERB AUX	8
+ADP PUNCT., NOUN ADP ADP	7
+ADP PUNCT., NOUN ADP ADV	7
+ADP PUNCT., NOUN ADP NOUN	58
+ADP PUNCT., NOUN ADP VERB	22
+ADP PUNCT., NOUN NOUN ADP	36
+ADP PUNCT., NOUN NOUN NOUN	9
+ADP PUNCT., NUM NOUN ADP	8
+ADP PUNCT., PRON ADP NOUN	8
+ADP PUNCT., PROPN ADP NOUN	10
+ADP PUNCT., PROPN NOUN ADP	18
+ADP PUNCT., PUNCT NOUN NOUN	8
+ADP VERB ADJ AUX NOUN	22
+ADP VERB ADJ NOUN ADP	8
+ADP VERB ADP ADJ AUX	10
+ADP VERB ADP ADP NOUN	13
+ADP VERB ADP ADP PUNCT	9
+ADP VERB ADP ADP VERB	12
+ADP VERB ADP NOUN ADP	25
+ADP VERB ADP NOUN NOUN	10
+ADP VERB ADP VERB AUX	40
+ADP VERB ADP VERB PUNCT	11
+ADP VERB ADP VERB SCONJ	14
+ADP VERB AUX ADJ AUX	14
+ADP VERB AUX ADJ NOUN	16
+ADP VERB AUX ADP ADP	18
+ADP VERB AUX ADP AUX	7
+ADP VERB AUX ADP NOUN	33
+ADP VERB AUX ADP PART	7
+ADP VERB AUX ADP PUNCT	8
+ADP VERB AUX ADP VERB	57
+ADP VERB AUX AUX ADJ	16
+ADP VERB AUX AUX ADP	56
+ADP VERB AUX AUX AUX	490
+ADP VERB AUX AUX NOUN	435
+ADP VERB AUX AUX NUM	17
+ADP VERB AUX AUX PART	42
+ADP VERB AUX AUX PROPN	59
+ADP VERB AUX AUX PUNCT	746
+ADP VERB AUX AUX PUNCT.,	10
+ADP VERB AUX AUX SCONJ	393
+ADP VERB AUX AUX VERB	10
+ADP VERB AUX NOUN ADP	668
+ADP VERB AUX NOUN AUX	74
+ADP VERB AUX NOUN NOUN	152
+ADP VERB AUX NOUN PROPN	10
+ADP VERB AUX NOUN PUNCT	75
+ADP VERB AUX NOUN PUNCT.,	12
+ADP VERB AUX NUM NOUN	23
+ADP VERB AUX PART ADP	68
+ADP VERB AUX PART AUX	18
+ADP VERB AUX PART NUM	7
+ADP VERB AUX PART PUNCT	14
+ADP VERB AUX PROPN ADP	60
+ADP VERB AUX PROPN NOUN	44
+ADP VERB AUX PROPN PROPN	16
+ADP VERB AUX PUNCT ADJ	44
+ADP VERB AUX PUNCT ADP	27
+ADP VERB AUX PUNCT ADV	10
+ADP VERB AUX PUNCT EOF	990
+ADP VERB AUX PUNCT NOUN	244
+ADP VERB AUX PUNCT NUM	44
+ADP VERB AUX PUNCT PRON	8
+ADP VERB AUX PUNCT PROPN	68
+ADP VERB AUX PUNCT PUNCT	8
+ADP VERB AUX PUNCT VERB	23
+ADP VERB AUX PUNCT.! EOF	10
+ADP VERB AUX PUNCT., NOUN	23
+ADP VERB AUX SCONJ ADJ	15
+ADP VERB AUX SCONJ ADP	35
+ADP VERB AUX SCONJ AUX	641
+ADP VERB AUX SCONJ NOUN	98
+ADP VERB AUX SCONJ PROPN	20
+ADP VERB AUX SCONJ PUNCT	167
+ADP VERB AUX SCONJ PUNCT.,	14
+ADP VERB AUX SCONJ VERB	116
+ADP VERB AUX VERB AUX	32
+ADP VERB NOUN ADP ADJ	61
+ADP VERB NOUN ADP ADP	27
+ADP VERB NOUN ADP ADV	7
+ADP VERB NOUN ADP NOUN	155
+ADP VERB NOUN ADP NUM	13
+ADP VERB NOUN ADP PROPN	14
+ADP VERB NOUN ADP PUNCT	53
+ADP VERB NOUN ADP PUNCT.,	8
+ADP VERB NOUN ADP VERB	284
+ADP VERB NOUN AUX ADP	11
+ADP VERB NOUN AUX PUNCT	28
+ADP VERB NOUN NOUN ADP	74
+ADP VERB NOUN NOUN AUX	8
+ADP VERB NOUN NOUN NOUN	32
+ADP VERB NOUN NOUN PUNCT	15
+ADP VERB NOUN PUNCT EOF	29
+ADP VERB NOUN PUNCT NOUN	23
+ADP VERB NUM NOUN ADP	12
+ADP VERB PART ADP ADJ	16
+ADP VERB PART ADP NOUN	22
+ADP VERB PART ADP PUNCT	10
+ADP VERB PART ADP VERB	12
+ADP VERB PART AUX SCONJ	9
+ADP VERB PROPN ADP NOUN	12
+ADP VERB PROPN ADP VERB	12
+ADP VERB PROPN NOUN ADP	16
+ADP VERB PUNCT ADJ AUX	21
+ADP VERB PUNCT ADJ NOUN	32
+ADP VERB PUNCT NOUN ADP	192
+ADP VERB PUNCT NOUN NOUN	98
+ADP VERB PUNCT NOUN NUM	10
+ADP VERB PUNCT NUM NOUN	52
+ADP VERB PUNCT PRON ADP	17
+ADP VERB PUNCT PROPN ADP	45
+ADP VERB PUNCT PROPN NOUN	25
+ADP VERB PUNCT VERB AUX	15
+ADP VERB PUNCT., NOUN ADP	25
+ADP VERB PUNCT., NOUN NOUN	9
+ADP VERB SCONJ ADJ AUX	23
+ADP VERB SCONJ ADJ NOUN	17
+ADP VERB SCONJ ADJ PUNCT	8
+ADP VERB SCONJ ADP ADJ	21
+ADP VERB SCONJ ADP ADP	7
+ADP VERB SCONJ ADP ADV	7
+ADP VERB SCONJ ADP AUX	14
+ADP VERB SCONJ ADP NOUN	43
+ADP VERB SCONJ ADP PUNCT	27
+ADP VERB SCONJ ADP PUNCT.,	7
+ADP VERB SCONJ ADP VERB	20
+ADP VERB SCONJ ADV VERB	12
+ADP VERB SCONJ AUX ADP	27
+ADP VERB SCONJ AUX AUX	461
+ADP VERB SCONJ AUX NOUN	126
+ADP VERB SCONJ AUX PART	17
+ADP VERB SCONJ AUX PUNCT	360
+ADP VERB SCONJ AUX PUNCT.,	8
+ADP VERB SCONJ AUX SCONJ	97
+ADP VERB SCONJ NOUN ADP	189
+ADP VERB SCONJ NOUN NOUN	85
+ADP VERB SCONJ NUM NOUN	29
+ADP VERB SCONJ PART NOUN	25
+ADP VERB SCONJ PRON ADP	11
+ADP VERB SCONJ PROPN ADP	38
+ADP VERB SCONJ PROPN NOUN	21
+ADP VERB SCONJ PROPN PROPN	10
+ADP VERB SCONJ PUNCT ADJ	23
+ADP VERB SCONJ PUNCT ADV	14
+ADP VERB SCONJ PUNCT NOUN	152
+ADP VERB SCONJ PUNCT NUM	25
+ADP VERB SCONJ PUNCT PRON	15
+ADP VERB SCONJ PUNCT PROPN	53
+ADP VERB SCONJ PUNCT VERB	14
+ADP VERB SCONJ PUNCT., NOUN	36
+ADP VERB SCONJ PUNCT., PROPN	8
+ADP VERB SCONJ VERB AUX	224
+ADP VERB SCONJ VERB NOUN	17
+ADP VERB SCONJ VERB PUNCT	32
+ADP VERB SCONJ VERB SCONJ	40
+ADP VERB VERB AUX AUX	17
+ADP VERB VERB AUX NOUN	7
+ADP VERB VERB AUX PUNCT	7
+ADP VERB VERB AUX SCONJ	10
+ADP VERB VERB SCONJ AUX	7
+ADV ADJ AUX AUX PUNCT	19
+ADV ADJ AUX NOUN ADP	28
+ADV ADJ AUX NOUN NOUN	7
+ADV ADJ AUX PUNCT EOF	7
+ADV ADJ NOUN ADP VERB	16
+ADV ADP NOUN ADP NOUN	8
+ADV NOUN ADP ADJ AUX	11
+ADV NOUN ADP ADJ NOUN	9
+ADV NOUN ADP NOUN ADP	53
+ADV NOUN ADP NOUN NOUN	20
+ADV NOUN ADP VERB AUX	65
+ADV NOUN ADP VERB NOUN	9
+ADV NOUN ADP VERB PUNCT	8
+ADV NOUN ADP VERB SCONJ	34
+ADV NOUN NOUN ADP ADJ	9
+ADV NOUN NOUN ADP NOUN	23
+ADV NOUN NOUN ADP VERB	37
+ADV NOUN NOUN NOUN ADP	16
+ADV NUM NOUN ADP NOUN	11
+ADV NUM NOUN ADP VERB	15
+ADV NUM NOUN NOUN ADP	11
+ADV PART NOUN ADP NOUN	7
+ADV PART NOUN ADP VERB	11
+ADV PROPN ADP NOUN ADP	12
+ADV PROPN ADP VERB AUX	15
+ADV PROPN NOUN ADP NOUN	7
+ADV PROPN NOUN ADP VERB	9
+ADV PUNCT NOUN ADP NOUN	9
+ADV PUNCT., NOUN ADP NOUN	8
+ADV VERB AUX AUX AUX	18
+ADV VERB AUX AUX NOUN	15
+ADV VERB AUX AUX PUNCT	27
+ADV VERB AUX AUX SCONJ	17
+ADV VERB AUX NOUN ADP	30
+ADV VERB AUX NOUN AUX	9
+ADV VERB AUX NOUN NOUN	11
+ADV VERB AUX PUNCT EOF	23
+ADV VERB AUX SCONJ AUX	33
+ADV VERB AUX SCONJ PUNCT	7
+ADV VERB AUX SCONJ VERB	8
+ADV VERB NOUN ADP VERB	8
+ADV VERB SCONJ AUX AUX	32
+ADV VERB SCONJ AUX NOUN	10
+ADV VERB SCONJ AUX PUNCT	15
+ADV VERB SCONJ AUX SCONJ	9
+AUX ADJ AUX NOUN ADP	22
+AUX ADJ AUX NOUN AUX	7
+AUX ADJ AUX NOUN NOUN	18
+AUX ADJ NOUN ADP NOUN	15
+AUX ADJ NOUN ADP PUNCT	7
+AUX ADJ NOUN ADP VERB	16
+AUX ADJ NOUN NOUN ADP	8
+AUX ADP ADJ AUX NOUN	7
+AUX ADP ADP NOUN ADP	13
+AUX ADP ADP VERB AUX	18
+AUX ADP AUX AUX AUX	23
+AUX ADP AUX AUX PUNCT	10
+AUX ADP AUX NOUN ADP	12
+AUX ADP AUX PUNCT EOF	41
+AUX ADP AUX PUNCT NOUN	10
+AUX ADP AUX PUNCT., NOUN	8
+AUX ADP AUX SCONJ NOUN	7
+AUX ADP AUX SCONJ PUNCT	9
+AUX ADP NOUN ADP NOUN	10
+AUX ADP NOUN ADP VERB	31
+AUX ADP NOUN AUX PUNCT	9
+AUX ADP NOUN NOUN ADP	11
+AUX ADP NOUN PUNCT EOF	7
+AUX ADP PART NOUN ADP	14
+AUX ADP VERB AUX AUX	14
+AUX ADP VERB AUX PUNCT	70
+AUX ADP VERB AUX SCONJ	18
+AUX ADP VERB NOUN ADP	9
+AUX ADP VERB PUNCT EOF	58
+AUX ADP VERB SCONJ AUX	24
+AUX AUX ADJ AUX NOUN	12
+AUX AUX ADJ NOUN ADP	11
+AUX AUX ADP ADP PUNCT	7
+AUX AUX ADP ADP VERB	11
+AUX AUX ADP NOUN ADP	20
+AUX AUX ADP VERB AUX	33
+AUX AUX ADP VERB PUNCT	26
+AUX AUX AUX ADP NOUN	8
+AUX AUX AUX ADP VERB	14
+AUX AUX AUX AUX AUX	9
+AUX AUX AUX AUX NOUN	7
+AUX AUX AUX AUX PUNCT	53
+AUX AUX AUX AUX SCONJ	15
+AUX AUX AUX NOUN ADP	84
+AUX AUX AUX NOUN AUX	26
+AUX AUX AUX NOUN NOUN	21
+AUX AUX AUX NOUN PUNCT	17
+AUX AUX AUX PART ADP	10
+AUX AUX AUX PART PUNCT	10
+AUX AUX AUX PROPN ADP	11
+AUX AUX AUX PROPN NOUN	9
+AUX AUX AUX PUNCT ADP	9
+AUX AUX AUX PUNCT EOF	517
+AUX AUX AUX PUNCT NOUN	12
+AUX AUX AUX PUNCT.! EOF	10
+AUX AUX AUX SCONJ AUX	12
+AUX AUX AUX SCONJ PUNCT	55
+AUX AUX AUX SCONJ PUNCT.,	18
+AUX AUX AUX SCONJ VERB	12
+AUX AUX NOUN ADP ADJ	54
+AUX AUX NOUN ADP ADP	27
+AUX AUX NOUN ADP ADV	16
+AUX AUX NOUN ADP NOUN	152
+AUX AUX NOUN ADP NUM	10
+AUX AUX NOUN ADP PART	10
+AUX AUX NOUN ADP PROPN	19
+AUX AUX NOUN ADP PUNCT	65
+AUX AUX NOUN ADP PUNCT.,	13
+AUX AUX NOUN ADP VERB	234
+AUX AUX NOUN AUX AUX	11
+AUX AUX NOUN AUX PUNCT	47
+AUX AUX NOUN AUX SCONJ	9
+AUX AUX NOUN NOUN ADP	85
+AUX AUX NOUN NOUN AUX	9
+AUX AUX NOUN NOUN NOUN	35
+AUX AUX NOUN NOUN PUNCT	7
+AUX AUX NOUN PUNCT EOF	27
+AUX AUX NOUN PUNCT NOUN	25
+AUX AUX NOUN PUNCT PROPN	14
+AUX AUX NUM NOUN ADP	18
+AUX AUX NUM NOUN NOUN	12
+AUX AUX PART ADP NOUN	12
+AUX AUX PART ADP PUNCT	8
+AUX AUX PART ADP VERB	11
+AUX AUX PART AUX PUNCT	11
+AUX AUX PART AUX SCONJ	15
+AUX AUX PART PUNCT EOF	32
+AUX AUX PART PUNCT.? EOF	10
+AUX AUX PROPN ADP NOUN	30
+AUX AUX PROPN ADP PROPN	12
+AUX AUX PROPN ADP VERB	13
+AUX AUX PROPN NOUN ADP	21
+AUX AUX PROPN NOUN NOUN	14
+AUX AUX PROPN PROPN ADP	16
+AUX AUX PROPN SYM PROPN	11
+AUX AUX PUNCT ADJ AUX	10
+AUX AUX PUNCT ADJ NOUN	13
+AUX AUX PUNCT ADP VERB	24
+AUX AUX PUNCT NOUN ADP	51
+AUX AUX PUNCT NOUN NOUN	31
+AUX AUX PUNCT NUM NOUN	15
+AUX AUX PUNCT PROPN ADP	15
+AUX AUX PUNCT PROPN NOUN	10
+AUX AUX PUNCT., NOUN ADP	11
+AUX AUX SCONJ ADJ AUX	11
+AUX AUX SCONJ AUX ADP	9
+AUX AUX SCONJ AUX AUX	118
+AUX AUX SCONJ AUX NOUN	28
+AUX AUX SCONJ AUX PUNCT	131
+AUX AUX SCONJ AUX SCONJ	24
+AUX AUX SCONJ NOUN ADP	19
+AUX AUX SCONJ NOUN NOUN	13
+AUX AUX SCONJ PUNCT ADJ	25
+AUX AUX SCONJ PUNCT ADV	19
+AUX AUX SCONJ PUNCT NOUN	133
+AUX AUX SCONJ PUNCT NUM	24
+AUX AUX SCONJ PUNCT PRON	23
+AUX AUX SCONJ PUNCT PROPN	36
+AUX AUX SCONJ PUNCT VERB	12
+AUX AUX SCONJ PUNCT., ADJ	8
+AUX AUX SCONJ PUNCT., ADV	7
+AUX AUX SCONJ PUNCT., NOUN	35
+AUX AUX SCONJ VERB AUX	52
+AUX AUX SCONJ VERB PUNCT	13
+AUX AUX SCONJ VERB SCONJ	20
+AUX AUX VERB AUX AUX	7
+AUX NOUN ADP ADJ ADP	11
+AUX NOUN ADP ADJ AUX	77
+AUX NOUN ADP ADJ NOUN	28
+AUX NOUN ADP ADJ PUNCT	51
+AUX NOUN ADP ADJ SCONJ	12
+AUX NOUN ADP ADJ VERB	11
+AUX NOUN ADP ADP ADJ	10
+AUX NOUN ADP ADP NOUN	30
+AUX NOUN ADP ADP PUNCT	20
+AUX NOUN ADP ADP PUNCT.,	8
+AUX NOUN ADP ADP VERB	23
+AUX NOUN ADP ADV ADJ	9
+AUX NOUN ADP ADV NOUN	11
+AUX NOUN ADP ADV VERB	17
+AUX NOUN ADP NOUN ADP	408
+AUX NOUN ADP NOUN AUX	31
+AUX NOUN ADP NOUN NOUN	113
+AUX NOUN ADP NOUN PUNCT	26
+AUX NOUN ADP NOUN VERB	14
+AUX NOUN ADP NUM NOUN	35
+AUX NOUN ADP PART NOUN	15
+AUX NOUN ADP PRON ADP	7
+AUX NOUN ADP PROPN ADP	28
+AUX NOUN ADP PROPN NOUN	7
+AUX NOUN ADP PUNCT ADJ	15
+AUX NOUN ADP PUNCT ADV	12
+AUX NOUN ADP PUNCT NOUN	108
+AUX NOUN ADP PUNCT NUM	11
+AUX NOUN ADP PUNCT PROPN	34
+AUX NOUN ADP PUNCT PUNCT	7
+AUX NOUN ADP PUNCT VERB	9
+AUX NOUN ADP PUNCT., ADJ	7
+AUX NOUN ADP PUNCT., NOUN	17
+AUX NOUN ADP VERB ADP	16
+AUX NOUN ADP VERB AUX	469
+AUX NOUN ADP VERB NOUN	74
+AUX NOUN ADP VERB PART	12
+AUX NOUN ADP VERB PROPN	7
+AUX NOUN ADP VERB PUNCT	190
+AUX NOUN ADP VERB PUNCT.,	10
+AUX NOUN ADP VERB SCONJ	201
+AUX NOUN ADP VERB VERB	7
+AUX NOUN AUX ADP AUX	31
+AUX NOUN AUX ADP VERB	7
+AUX NOUN AUX AUX PUNCT	29
+AUX NOUN AUX AUX SCONJ	9
+AUX NOUN AUX PART AUX	7
+AUX NOUN AUX PUNCT EOF	104
+AUX NOUN AUX PUNCT NOUN	16
+AUX NOUN AUX SCONJ PUNCT	18
+AUX NOUN AUX SCONJ PUNCT.,	8
+AUX NOUN AUX SCONJ VERB	7
+AUX NOUN NOUN ADP ADJ	21
+AUX NOUN NOUN ADP ADP	12
+AUX NOUN NOUN ADP NOUN	114
+AUX NOUN NOUN ADP PROPN	15
+AUX NOUN NOUN ADP PUNCT	32
+AUX NOUN NOUN ADP VERB	135
+AUX NOUN NOUN AUX AUX	8
+AUX NOUN NOUN AUX PUNCT	26
+AUX NOUN NOUN NOUN ADP	58
+AUX NOUN NOUN NOUN AUX	7
+AUX NOUN NOUN NOUN NOUN	21
+AUX NOUN NOUN NOUN PUNCT	13
+AUX NOUN NOUN NUM NOUN	7
+AUX NOUN NOUN PUNCT EOF	23
+AUX NOUN NUM NOUN ADP	8
+AUX NOUN PUNCT ADJ AUX	7
+AUX NOUN PUNCT ADP VERB	8
+AUX NOUN PUNCT NOUN ADP	40
+AUX NOUN PUNCT NOUN NOUN	18
+AUX NOUN PUNCT PROPN ADP	8
+AUX NOUN PUNCT PROPN NOUN	9
+AUX NOUN SYM NOUN ADP	7
+AUX NUM NOUN ADP NOUN	23
+AUX NUM NOUN ADP VERB	16
+AUX NUM NOUN NOUN ADP	11
+AUX PART ADP ADJ AUX	14
+AUX PART ADP NOUN ADP	21
+AUX PART ADP NOUN AUX	8
+AUX PART ADP NOUN NOUN	8
+AUX PART ADP NUM NOUN	9
+AUX PART ADP PUNCT NOUN	14
+AUX PART ADP PUNCT., NOUN	8
+AUX PART ADP VERB AUX	13
+AUX PART ADP VERB SCONJ	12
+AUX PART AUX AUX PART	11
+AUX PART AUX AUX PUNCT	11
+AUX PART AUX PUNCT EOF	20
+AUX PART AUX SCONJ PUNCT	33
+AUX PART AUX SCONJ PUNCT.,	8
+AUX PART PUNCT ADP VERB	7
+AUX PRON ADP NOUN ADP	9
+AUX PROPN ADP NOUN ADP	58
+AUX PROPN ADP NOUN NOUN	12
+AUX PROPN ADP NUM NOUN	10
+AUX PROPN ADP PROPN ADP	15
+AUX PROPN ADP PROPN NOUN	7
+AUX PROPN ADP PUNCT NOUN	9
+AUX PROPN ADP VERB AUX	23
+AUX PROPN ADP VERB SCONJ	10
+AUX PROPN NOUN ADP NOUN	30
+AUX PROPN NOUN ADP PUNCT	10
+AUX PROPN NOUN ADP VERB	18
+AUX PROPN NOUN NOUN ADP	16
+AUX PROPN NOUN NOUN NOUN	11
+AUX PROPN PROPN ADP NOUN	14
+AUX PROPN PROPN ADP VERB	13
+AUX PROPN PROPN NOUN ADP	9
+AUX PROPN SYM PROPN ADP	13
+AUX PUNCT ADJ AUX NOUN	26
+AUX PUNCT ADJ NOUN ADP	56
+AUX PUNCT ADJ NOUN NOUN	8
+AUX PUNCT ADJ PART NUM	7
+AUX PUNCT ADP NOUN ADP	15
+AUX PUNCT ADP VERB AUX	28
+AUX PUNCT ADP VERB NOUN	7
+AUX PUNCT ADP VERB SCONJ	15
+AUX PUNCT ADV NOUN ADP	7
+AUX PUNCT ADV NOUN NOUN	9
+AUX PUNCT NOUN ADP ADJ	18
+AUX PUNCT NOUN ADP ADP	22
+AUX PUNCT NOUN ADP NOUN	138
+AUX PUNCT NOUN ADP NUM	12
+AUX PUNCT NOUN ADP PART	10
+AUX PUNCT NOUN ADP PROPN	15
+AUX PUNCT NOUN ADP VERB	80
+AUX PUNCT NOUN NOUN ADP	118
+AUX PUNCT NOUN NOUN NOUN	38
+AUX PUNCT NOUN NOUN PUNCT	16
+AUX PUNCT NOUN NUM NOUN	13
+AUX PUNCT NOUN PUNCT ADP	7
+AUX PUNCT NOUN VERB AUX	7
+AUX PUNCT NUM NOUN ADP	42
+AUX PUNCT NUM NOUN NOUN	33
+AUX PUNCT PRON ADP NOUN	18
+AUX PUNCT PROPN ADP NOUN	29
+AUX PUNCT PROPN ADP VERB	14
+AUX PUNCT PROPN NOUN ADP	37
+AUX PUNCT PROPN NOUN NOUN	17
+AUX PUNCT PROPN PROPN ADP	7
+AUX PUNCT PROPN PUNCT ADP	10
+AUX PUNCT PROPN SYM PROPN	8
+AUX PUNCT VERB AUX AUX	11
+AUX PUNCT., NOUN ADP NOUN	27
+AUX PUNCT., NOUN ADP VERB	12
+AUX PUNCT., NOUN NOUN ADP	13
+AUX PUNCT., NOUN NOUN NOUN	7
+AUX SCONJ ADJ AUX AUX	8
+AUX SCONJ ADJ AUX NOUN	14
+AUX SCONJ ADJ NOUN ADP	9
+AUX SCONJ ADP AUX AUX	9
+AUX SCONJ ADP NOUN ADP	16
+AUX SCONJ ADP VERB AUX	10
+AUX SCONJ AUX ADP VERB	9
+AUX SCONJ AUX AUX ADP	15
+AUX SCONJ AUX AUX AUX	59
+AUX SCONJ AUX AUX NOUN	75
+AUX SCONJ AUX AUX PART	13
+AUX SCONJ AUX AUX PROPN	16
+AUX SCONJ AUX AUX PUNCT	223
+AUX SCONJ AUX AUX SCONJ	54
+AUX SCONJ AUX NOUN ADP	88
+AUX SCONJ AUX NOUN AUX	7
+AUX SCONJ AUX NOUN NOUN	19
+AUX SCONJ AUX PART ADP	18
+AUX SCONJ AUX PUNCT EOF	396
+AUX SCONJ AUX PUNCT NOUN	35
+AUX SCONJ AUX PUNCT PRON	9
+AUX SCONJ AUX PUNCT PROPN	9
+AUX SCONJ AUX PUNCT., NOUN	7
+AUX SCONJ AUX SCONJ AUX	14
+AUX SCONJ AUX SCONJ NOUN	8
+AUX SCONJ AUX SCONJ PUNCT	44
+AUX SCONJ AUX SCONJ VERB	8
+AUX SCONJ NOUN ADP ADJ	11
+AUX SCONJ NOUN ADP NOUN	34
+AUX SCONJ NOUN ADP VERB	82
+AUX SCONJ NOUN NOUN ADP	47
+AUX SCONJ NUM NOUN ADP	8
+AUX SCONJ PUNCT ADJ AUX	27
+AUX SCONJ PUNCT ADJ NOUN	48
+AUX SCONJ PUNCT ADV NOUN	22
+AUX SCONJ PUNCT ADV VERB	22
+AUX SCONJ PUNCT NOUN ADP	241
+AUX SCONJ PUNCT NOUN NOUN	111
+AUX SCONJ PUNCT NOUN PROPN	8
+AUX SCONJ PUNCT NUM NOUN	41
+AUX SCONJ PUNCT PART NUM	8
+AUX SCONJ PUNCT PRON ADP	39
+AUX SCONJ PUNCT PROPN ADP	40
+AUX SCONJ PUNCT PROPN NOUN	19
+AUX SCONJ PUNCT PROPN PROPN	11
+AUX SCONJ PUNCT VERB AUX	13
+AUX SCONJ PUNCT VERB NOUN	7
+AUX SCONJ PUNCT., ADJ NOUN	11
+AUX SCONJ PUNCT., NOUN ADP	40
+AUX SCONJ PUNCT., NOUN NOUN	17
+AUX SCONJ PUNCT., PRON ADP	12
+AUX SCONJ PUNCT., PROPN ADP	10
+AUX SCONJ PUNCT., PROPN NOUN	7
+AUX SCONJ VERB AUX AUX	55
+AUX SCONJ VERB AUX NOUN	21
+AUX SCONJ VERB AUX PUNCT	50
+AUX SCONJ VERB AUX SCONJ	44
+AUX SCONJ VERB NOUN ADP	12
+AUX SCONJ VERB PUNCT EOF	26
+AUX SCONJ VERB SCONJ AUX	43
+AUX SCONJ VERB SCONJ PUNCT	8
+AUX VERB AUX AUX AUX	27
+AUX VERB AUX AUX NOUN	15
+AUX VERB AUX AUX PUNCT	17
+AUX VERB AUX AUX SCONJ	23
+AUX VERB AUX NOUN ADP	22
+AUX VERB AUX NOUN NOUN	7
+AUX VERB AUX PUNCT EOF	16
+AUX VERB AUX SCONJ AUX	38
+AUX VERB AUX SCONJ VERB	8
+AUX VERB NOUN ADP VERB	10
+AUX VERB SCONJ AUX AUX	17
+BOF ADJ AUX NOUN ADP	64
+BOF ADJ AUX NOUN NOUN	11
+BOF ADJ NOUN ADP ADJ	21
+BOF ADJ NOUN ADP ADP	21
+BOF ADJ NOUN ADP ADV	8
+BOF ADJ NOUN ADP NOUN	109
+BOF ADJ NOUN ADP NUM	13
+BOF ADJ NOUN ADP PROPN	30
+BOF ADJ NOUN ADP PUNCT	27
+BOF ADJ NOUN ADP VERB	46
+BOF ADJ NOUN NOUN ADP	40
+BOF ADJ NOUN PUNCT NOUN	25
+BOF ADJ NOUN PUNCT PROPN	11
+BOF ADJ PART NUM NOUN	9
+BOF ADV ADJ AUX NOUN	12
+BOF ADV NOUN ADP ADJ	8
+BOF ADV NOUN ADP NOUN	30
+BOF ADV NOUN ADP VERB	29
+BOF ADV NOUN NOUN ADP	25
+BOF ADV PROPN ADP NOUN	7
+BOF ADV PROPN NOUN ADP	8
+BOF ADV PUNCT NOUN ADP	11
+BOF ADV VERB AUX NOUN	9
+BOF ADV VERB SCONJ AUX	9
+BOF CCONJ ADJ NOUN ADP	12
+BOF CCONJ NOUN ADP ADP	7
+BOF CCONJ NOUN ADP NOUN	25
+BOF CCONJ NOUN ADP VERB	18
+BOF CCONJ NOUN NOUN ADP	32
+BOF CCONJ NUM NOUN ADP	11
+BOF CCONJ PROPN NOUN ADP	9
+BOF CCONJ PUNCT ADJ AUX	9
+BOF CCONJ PUNCT ADJ NOUN	21
+BOF CCONJ PUNCT NOUN ADP	72
+BOF CCONJ PUNCT NOUN NOUN	57
+BOF CCONJ PUNCT NUM NOUN	14
+BOF CCONJ PUNCT PRON ADP	10
+BOF CCONJ PUNCT PROPN ADP	28
+BOF CCONJ PUNCT PROPN NOUN	11
+BOF CCONJ PUNCT., NOUN ADP	17
+BOF CCONJ PUNCT., NOUN NOUN	8
+BOF NOUN ADP ADJ AUX	62
+BOF NOUN ADP ADJ NOUN	34
+BOF NOUN ADP ADJ PUNCT	13
+BOF NOUN ADP ADJ SCONJ	12
+BOF NOUN ADP ADP ADJ	8
+BOF NOUN ADP ADP NOUN	70
+BOF NOUN ADP ADP PROPN	14
+BOF NOUN ADP ADP PUNCT	35
+BOF NOUN ADP ADP PUNCT.,	8
+BOF NOUN ADP ADP VERB	19
+BOF NOUN ADP ADV ADJ	11
+BOF NOUN ADP ADV NOUN	14
+BOF NOUN ADP ADV VERB	11
+BOF NOUN ADP NOUN ADJ	7
+BOF NOUN ADP NOUN ADP	498
+BOF NOUN ADP NOUN AUX	33
+BOF NOUN ADP NOUN NOUN	192
+BOF NOUN ADP NOUN NUM	9
+BOF NOUN ADP NOUN PROPN	16
+BOF NOUN ADP NOUN PUNCT	46
+BOF NOUN ADP NUM NOUN	46
+BOF NOUN ADP PART NOUN	12
+BOF NOUN ADP PROPN ADP	61
+BOF NOUN ADP PROPN NOUN	43
+BOF NOUN ADP PROPN PROPN	17
+BOF NOUN ADP PROPN PUNCT	11
+BOF NOUN ADP PUNCT ADJ	7
+BOF NOUN ADP PUNCT NOUN	48
+BOF NOUN ADP PUNCT PROPN	25
+BOF NOUN ADP PUNCT., NOUN	7
+BOF NOUN ADP VERB ADP	8
+BOF NOUN ADP VERB AUX	127
+BOF NOUN ADP VERB NOUN	27
+BOF NOUN ADP VERB PUNCT	11
+BOF NOUN ADP VERB SCONJ	76
+BOF NOUN NOUN ADP ADJ	31
+BOF NOUN NOUN ADP ADP	57
+BOF NOUN NOUN ADP ADV	14
+BOF NOUN NOUN ADP NOUN	290
+BOF NOUN NOUN ADP NUM	28
+BOF NOUN NOUN ADP PART	16
+BOF NOUN NOUN ADP PROPN	47
+BOF NOUN NOUN ADP PUNCT	34
+BOF NOUN NOUN ADP VERB	104
+BOF NOUN NOUN NOUN ADP	145
+BOF NOUN NOUN NOUN NOUN	37
+BOF NOUN NOUN NOUN PUNCT	7
+BOF NOUN NOUN NUM NOUN	15
+BOF NOUN NOUN PART NOUN	7
+BOF NOUN NOUN PUNCT EOF	12
+BOF NOUN NOUN PUNCT NOUN	14
+BOF NOUN NUM NOUN ADP	47
+BOF NOUN NUM NOUN NOUN	21
+BOF NOUN NUM NOUN PUNCT	21
+BOF NOUN PROPN ADP NOUN	9
+BOF NOUN PROPN ADP PROPN	9
+BOF NOUN PROPN ADP VERB	11
+BOF NOUN PROPN NOUN ADP	14
+BOF NOUN PUNCT NOUN ADP	29
+BOF NOUN PUNCT NOUN NOUN	21
+BOF NOUN PUNCT NOUN PUNCT	16
+BOF NOUN PUNCT PROPN ADP	8
+BOF NOUN SYM NOUN ADP	9
+BOF NOUN SYM PROPN ADP	7
+BOF NOUN VERB AUX AUX	8
+BOF NUM NOUN ADP ADP	47
+BOF NUM NOUN ADP NOUN	87
+BOF NUM NOUN ADP NUM	22
+BOF NUM NOUN ADP PROPN	34
+BOF NUM NOUN ADP PUNCT	9
+BOF NUM NOUN ADP VERB	32
+BOF NUM NOUN NOUN ADP	88
+BOF NUM NOUN NOUN NOUN	21
+BOF NUM NOUN NOUN NUM	81
+BOF NUM NOUN NOUN PUNCT	27
+BOF NUM NOUN NUM NOUN	9
+BOF NUM NOUN PUNCT NOUN	16
+BOF NUM NOUN PUNCT PROPN	29
+BOF NUM PART NUM NOUN	7
+BOF PART NUM NOUN ADP	19
+BOF PART NUM NOUN NOUN	13
+BOF PRON ADP ADP NOUN	12
+BOF PRON ADP NOUN ADP	89
+BOF PRON ADP NOUN NOUN	33
+BOF PRON ADP PRON ADP	8
+BOF PRON ADP PROPN ADP	10
+BOF PRON ADP PROPN NOUN	8
+BOF PRON ADP PUNCT NOUN	13
+BOF PRON ADP PUNCT PROPN	8
+BOF PRON ADP VERB AUX	16
+BOF PROPN ADP ADJ AUX	8
+BOF PROPN ADP ADJ NOUN	8
+BOF PROPN ADP ADP NOUN	19
+BOF PROPN ADP ADP PUNCT	14
+BOF PROPN ADP NOUN ADP	128
+BOF PROPN ADP NOUN NOUN	78
+BOF PROPN ADP NOUN PUNCT	15
+BOF PROPN ADP NUM NOUN	26
+BOF PROPN ADP PART NOUN	8
+BOF PROPN ADP PROPN ADP	35
+BOF PROPN ADP PROPN NOUN	17
+BOF PROPN ADP PROPN PROPN	7
+BOF PROPN ADP PUNCT NOUN	13
+BOF PROPN ADP PUNCT PROPN	12
+BOF PROPN ADP VERB AUX	42
+BOF PROPN ADP VERB NOUN	10
+BOF PROPN ADP VERB SCONJ	17
+BOF PROPN NOUN ADP ADJ	11
+BOF PROPN NOUN ADP ADP	17
+BOF PROPN NOUN ADP NOUN	89
+BOF PROPN NOUN ADP NUM	7
+BOF PROPN NOUN ADP PART	7
+BOF PROPN NOUN ADP PROPN	24
+BOF PROPN NOUN ADP PUNCT	12
+BOF PROPN NOUN ADP VERB	25
+BOF PROPN NOUN NOUN ADP	48
+BOF PROPN NOUN NOUN NOUN	22
+BOF PROPN NOUN NOUN PUNCT	7
+BOF PROPN NOUN PROPN ADP	7
+BOF PROPN NOUN PROPN NOUN	8
+BOF PROPN NOUN PUNCT EOF	16
+BOF PROPN NOUN PUNCT PROPN	7
+BOF PROPN NUM NOUN ADP	7
+BOF PROPN PROPN ADP NOUN	25
+BOF PROPN PROPN NOUN ADP	12
+BOF PROPN PROPN NOUN NOUN	11
+BOF PROPN PROPN NOUN PUNCT	14
+BOF PROPN PROPN PROPN ADP	8
+BOF PROPN SYM PROPN ADP	18
+BOF PROPN SYM PROPN SYM	7
+BOF PUNCT NOUN ADP NOUN	15
+BOF PUNCT NOUN NOUN PUNCT	15
+BOF PUNCT NOUN PUNCT ADP	10
+BOF PUNCT PROPN NOUN PUNCT	7
+BOF PUNCT PROPN PUNCT ADP	8
+BOF PUNCT PROPN SYM ADP	8
+BOF VERB AUX AUX AUX	10
+BOF VERB AUX AUX NOUN	17
+BOF VERB AUX NOUN ADP	21
+BOF VERB AUX NOUN NOUN	8
+BOF VERB NOUN ADP ADP	7
+CCONJ NOUN ADP NOUN ADP	21
+CCONJ NOUN ADP VERB AUX	17
+CCONJ NOUN ADP VERB SCONJ	14
+CCONJ NOUN NOUN ADP NOUN	27
+CCONJ NOUN NOUN ADP VERB	17
+CCONJ NOUN NOUN NOUN ADP	10
+CCONJ PROPN NOUN NOUN ADP	8
+CCONJ PUNCT ADJ NOUN ADP	17
+CCONJ PUNCT NOUN ADP ADJ	10
+CCONJ PUNCT NOUN ADP NOUN	37
+CCONJ PUNCT NOUN ADP VERB	15
+CCONJ PUNCT NOUN NOUN ADP	47
+CCONJ PUNCT NOUN NOUN NOUN	11
+CCONJ PUNCT NUM NOUN ADP	11
+CCONJ PUNCT PRON ADP NOUN	8
+CCONJ PUNCT PROPN ADP NOUN	9
+CCONJ PUNCT PROPN ADP PROPN	9
+CCONJ PUNCT., NOUN ADP NOUN	12
+CCONJ PUNCT., NOUN NOUN ADP	7
+NOUN ADJ AUX NOUN ADP	19
+NOUN ADJ AUX NOUN NOUN	9
+NOUN ADJ AUX PUNCT EOF	9
+NOUN ADJ NOUN ADP NOUN	13
+NOUN ADJ NOUN ADP VERB	32
+NOUN ADP ADJ ADJ AUX	8
+NOUN ADP ADJ ADP AUX	24
+NOUN ADP ADJ ADP NOUN	10
+NOUN ADP ADJ ADP VERB	24
+NOUN ADP ADJ AUX ADJ	32
+NOUN ADP ADJ AUX ADP	17
+NOUN ADP ADJ AUX AUX	137
+NOUN ADP ADJ AUX NOUN	240
+NOUN ADP ADJ AUX PART	13
+NOUN ADP ADJ AUX PROPN	13
+NOUN ADP ADJ AUX PUNCT	75
+NOUN ADP ADJ AUX SCONJ	49
+NOUN ADP ADJ AUX VERB	122
+NOUN ADP ADJ NOUN ADP	279
+NOUN ADP ADJ NOUN AUX	27
+NOUN ADP ADJ NOUN NOUN	48
+NOUN ADP ADJ NOUN PUNCT	15
+NOUN ADP ADJ PART ADP	34
+NOUN ADP ADJ PART AUX	10
+NOUN ADP ADJ PUNCT ADJ	10
+NOUN ADP ADJ PUNCT ADP	9
+NOUN ADP ADJ PUNCT ADV	8
+NOUN ADP ADJ PUNCT EOF	137
+NOUN ADP ADJ PUNCT NOUN	34
+NOUN ADP ADJ SCONJ ADJ	8
+NOUN ADP ADJ SCONJ ADP	9
+NOUN ADP ADJ SCONJ NOUN	16
+NOUN ADP ADJ SCONJ PUNCT	35
+NOUN ADP ADJ SCONJ VERB	19
+NOUN ADP ADJ VERB AUX	61
+NOUN ADP ADJ VERB SCONJ	19
+NOUN ADP ADP ADJ AUX	57
+NOUN ADP ADP ADJ NOUN	37
+NOUN ADP ADP ADJ PUNCT	7
+NOUN ADP ADP ADP NOUN	8
+NOUN ADP ADP ADP VERB	14
+NOUN ADP ADP ADV ADJ	7
+NOUN ADP ADP ADV NOUN	15
+NOUN ADP ADP ADV VERB	16
+NOUN ADP ADP NOUN ADJ	10
+NOUN ADP ADP NOUN ADP	311
+NOUN ADP ADP NOUN NOUN	151
+NOUN ADP ADP NOUN NUM	13
+NOUN ADP ADP NOUN PROPN	10
+NOUN ADP ADP NOUN PUNCT	17
+NOUN ADP ADP NOUN SYM	11
+NOUN ADP ADP NOUN VERB	8
+NOUN ADP ADP NUM NOUN	48
+NOUN ADP ADP PRON ADP	7
+NOUN ADP ADP PROPN ADP	56
+NOUN ADP ADP PROPN NOUN	35
+NOUN ADP ADP PROPN PROPN	18
+NOUN ADP ADP PUNCT ADJ	18
+NOUN ADP ADP PUNCT NOUN	141
+NOUN ADP ADP PUNCT NUM	11
+NOUN ADP ADP PUNCT PROPN	45
+NOUN ADP ADP PUNCT VERB	12
+NOUN ADP ADP PUNCT., ADV	7
+NOUN ADP ADP PUNCT., NOUN	33
+NOUN ADP ADP PUNCT., PROPN	10
+NOUN ADP ADP VERB AUX	240
+NOUN ADP ADP VERB NOUN	21
+NOUN ADP ADP VERB PUNCT	32
+NOUN ADP ADP VERB SCONJ	52
+NOUN ADP ADV ADJ AUX	42
+NOUN ADP ADV ADJ NOUN	17
+NOUN ADP ADV ADJ PUNCT	7
+NOUN ADP ADV ADP VERB	12
+NOUN ADP ADV NOUN ADP	69
+NOUN ADP ADV NOUN NOUN	29
+NOUN ADP ADV NUM NOUN	13
+NOUN ADP ADV PART NOUN	10
+NOUN ADP ADV PART VERB	9
+NOUN ADP ADV PROPN ADP	10
+NOUN ADP ADV PROPN NOUN	11
+NOUN ADP ADV VERB AUX	100
+NOUN ADP ADV VERB NOUN	7
+NOUN ADP ADV VERB PUNCT	9
+NOUN ADP ADV VERB SCONJ	35
+NOUN ADP AUX ADP AUX	8
+NOUN ADP AUX AUX PUNCT	15
+NOUN ADP AUX NOUN ADP	26
+NOUN ADP AUX VERB AUX	8
+NOUN ADP NOUN ADJ AUX	22
+NOUN ADP NOUN ADJ NOUN	24
+NOUN ADP NOUN ADJ PUNCT	7
+NOUN ADP NOUN ADP ADJ	355
+NOUN ADP NOUN ADP ADP	269
+NOUN ADP NOUN ADP ADV	112
+NOUN ADP NOUN ADP AUX	23
+NOUN ADP NOUN ADP NOUN	1488
+NOUN ADP NOUN ADP NUM	112
+NOUN ADP NOUN ADP PART	62
+NOUN ADP NOUN ADP PRON	18
+NOUN ADP NOUN ADP PROPN	162
+NOUN ADP NOUN ADP PUNCT	238
+NOUN ADP NOUN ADP PUNCT.,	53
+NOUN ADP NOUN ADP VERB	2538
+NOUN ADP NOUN AUX ADP	29
+NOUN ADP NOUN AUX AUX	63
+NOUN ADP NOUN AUX NOUN	26
+NOUN ADP NOUN AUX PART	12
+NOUN ADP NOUN AUX PROPN	12
+NOUN ADP NOUN AUX PUNCT	113
+NOUN ADP NOUN AUX SCONJ	29
+NOUN ADP NOUN NOUN ADP	1446
+NOUN ADP NOUN NOUN AUX	84
+NOUN ADP NOUN NOUN CCONJ	7
+NOUN ADP NOUN NOUN NOUN	359
+NOUN ADP NOUN NOUN NUM	24
+NOUN ADP NOUN NOUN PART	13
+NOUN ADP NOUN NOUN PROPN	21
+NOUN ADP NOUN NOUN PUNCT	113
+NOUN ADP NOUN NOUN PUNCT.,	9
+NOUN ADP NOUN NOUN SYM	19
+NOUN ADP NOUN NOUN VERB	23
+NOUN ADP NOUN NUM NOUN	94
+NOUN ADP NOUN PART ADP	7
+NOUN ADP NOUN PART NOUN	8
+NOUN ADP NOUN PART NUM	14
+NOUN ADP NOUN PART PUNCT	8
+NOUN ADP NOUN PROPN ADP	44
+NOUN ADP NOUN PROPN NOUN	36
+NOUN ADP NOUN PROPN PROPN	9
+NOUN ADP NOUN PROPN SYM	11
+NOUN ADP NOUN PUNCT ADJ	13
+NOUN ADP NOUN PUNCT ADP	41
+NOUN ADP NOUN PUNCT EOF	174
+NOUN ADP NOUN PUNCT NOUN	128
+NOUN ADP NOUN PUNCT NUM	16
+NOUN ADP NOUN PUNCT PROPN	36
+NOUN ADP NOUN PUNCT VERB	9
+NOUN ADP NOUN PUNCT.! EOF	7
+NOUN ADP NOUN PUNCT., NOUN	12
+NOUN ADP NOUN PUNCT., PROPN	7
+NOUN ADP NOUN SYM ADP	7
+NOUN ADP NOUN SYM NOUN	44
+NOUN ADP NOUN SYM PROPN	21
+NOUN ADP NOUN VERB AUX	126
+NOUN ADP NOUN VERB NOUN	11
+NOUN ADP NOUN VERB PUNCT	9
+NOUN ADP NOUN VERB SCONJ	12
+NOUN ADP NUM NOUN ADP	334
+NOUN ADP NUM NOUN AUX	23
+NOUN ADP NUM NOUN NOUN	169
+NOUN ADP NUM NOUN NUM	20
+NOUN ADP NUM NOUN PART	8
+NOUN ADP NUM NOUN PUNCT	49
+NOUN ADP NUM NOUN VERB	38
+NOUN ADP NUM NUM NOUN	27
+NOUN ADP NUM PROPN ADP	17
+NOUN ADP NUM PROPN NOUN	8
+NOUN ADP PART NOUN ADP	184
+NOUN ADP PART NOUN AUX	7
+NOUN ADP PART NOUN NOUN	72
+NOUN ADP PART NOUN PUNCT	11
+NOUN ADP PART NUM NOUN	82
+NOUN ADP PART NUM NUM	9
+NOUN ADP PRON ADP ADP	7
+NOUN ADP PRON ADP NOUN	21
+NOUN ADP PRON ADP VERB	36
+NOUN ADP PROPN ADP ADJ	18
+NOUN ADP PROPN ADP ADP	22
+NOUN ADP PROPN ADP ADV	9
+NOUN ADP PROPN ADP NOUN	197
+NOUN ADP PROPN ADP NUM	12
+NOUN ADP PROPN ADP PART	23
+NOUN ADP PROPN ADP PROPN	49
+NOUN ADP PROPN ADP PUNCT	25
+NOUN ADP PROPN ADP VERB	176
+NOUN ADP PROPN NOUN ADP	241
+NOUN ADP PROPN NOUN NOUN	100
+NOUN ADP PROPN NOUN NUM	7
+NOUN ADP PROPN NOUN PROPN	22
+NOUN ADP PROPN NOUN PUNCT	21
+NOUN ADP PROPN NUM NOUN	17
+NOUN ADP PROPN NUM PROPN	7
+NOUN ADP PROPN PART NUM	10
+NOUN ADP PROPN PROPN ADP	63
+NOUN ADP PROPN PROPN NOUN	49
+NOUN ADP PROPN PROPN PROPN	8
+NOUN ADP PROPN PROPN PUNCT	19
+NOUN ADP PROPN PUNCT EOF	19
+NOUN ADP PROPN PUNCT NOUN	8
+NOUN ADP PROPN PUNCT PROPN	11
+NOUN ADP PROPN SYM NOUN	23
+NOUN ADP PROPN SYM PROPN	57
+NOUN ADP PUNCT ADJ AUX	33
+NOUN ADP PUNCT ADJ NOUN	55
+NOUN ADP PUNCT ADJ VERB	7
+NOUN ADP PUNCT ADV NOUN	18
+NOUN ADP PUNCT ADV VERB	10
+NOUN ADP PUNCT NOUN ADP	323
+NOUN ADP PUNCT NOUN AUX	7
+NOUN ADP PUNCT NOUN NOUN	209
+NOUN ADP PUNCT NOUN PROPN	15
+NOUN ADP PUNCT NOUN PUNCT	47
+NOUN ADP PUNCT NOUN SYM	18
+NOUN ADP PUNCT NUM NOUN	53
+NOUN ADP PUNCT PART NUM	9
+NOUN ADP PUNCT PRON ADP	24
+NOUN ADP PUNCT PROPN ADP	81
+NOUN ADP PUNCT PROPN NOUN	72
+NOUN ADP PUNCT PROPN PART	7
+NOUN ADP PUNCT PROPN PROPN	23
+NOUN ADP PUNCT PROPN PUNCT	37
+NOUN ADP PUNCT PROPN SYM	24
+NOUN ADP PUNCT PUNCT NOUN	9
+NOUN ADP PUNCT VERB AUX	29
+NOUN ADP PUNCT VERB SCONJ	9
+NOUN ADP PUNCT., ADJ AUX	8
+NOUN ADP PUNCT., ADJ NOUN	17
+NOUN ADP PUNCT., ADV VERB	10
+NOUN ADP PUNCT., NOUN ADP	64
+NOUN ADP PUNCT., NOUN NOUN	29
+NOUN ADP PUNCT., PRON ADP	14
+NOUN ADP PUNCT., PROPN ADP	7
+NOUN ADP PUNCT., PROPN NOUN	14
+NOUN ADP PUNCT., PUNCT NOUN	8
+NOUN ADP VERB ADJ AUX	19
+NOUN ADP VERB ADJ NOUN	9
+NOUN ADP VERB ADP ADJ	13
+NOUN ADP VERB ADP ADP	36
+NOUN ADP VERB ADP NOUN	34
+NOUN ADP VERB ADP PUNCT	12
+NOUN ADP VERB ADP VERB	65
+NOUN ADP VERB AUX ADJ	24
+NOUN ADP VERB AUX ADP	117
+NOUN ADP VERB AUX AUX	1796
+NOUN ADP VERB AUX NOUN	820
+NOUN ADP VERB AUX NUM	19
+NOUN ADP VERB AUX PART	89
+NOUN ADP VERB AUX PROPN	94
+NOUN ADP VERB AUX PUNCT	1102
+NOUN ADP VERB AUX PUNCT.,	32
+NOUN ADP VERB AUX SCONJ	874
+NOUN ADP VERB AUX VERB	40
+NOUN ADP VERB NOUN ADJ	8
+NOUN ADP VERB NOUN ADP	521
+NOUN ADP VERB NOUN AUX	45
+NOUN ADP VERB NOUN NOUN	114
+NOUN ADP VERB NOUN PUNCT	57
+NOUN ADP VERB NUM NOUN	22
+NOUN ADP VERB PART ADP	58
+NOUN ADP VERB PART AUX	14
+NOUN ADP VERB PROPN ADP	25
+NOUN ADP VERB PROPN NOUN	20
+NOUN ADP VERB PROPN PROPN	9
+NOUN ADP VERB PUNCT ADJ	50
+NOUN ADP VERB PUNCT ADP	14
+NOUN ADP VERB PUNCT ADV	13
+NOUN ADP VERB PUNCT EOF	698
+NOUN ADP VERB PUNCT NOUN	276
+NOUN ADP VERB PUNCT NUM	44
+NOUN ADP VERB PUNCT PRON	14
+NOUN ADP VERB PUNCT PROPN	72
+NOUN ADP VERB PUNCT PUNCT	9
+NOUN ADP VERB PUNCT VERB	20
+NOUN ADP VERB PUNCT., NOUN	31
+NOUN ADP VERB PUNCT., VERB	7
+NOUN ADP VERB SCONJ ADJ	44
+NOUN ADP VERB SCONJ ADP	138
+NOUN ADP VERB SCONJ ADV	23
+NOUN ADP VERB SCONJ AUX	903
+NOUN ADP VERB SCONJ NOUN	232
+NOUN ADP VERB SCONJ NUM	26
+NOUN ADP VERB SCONJ PART	32
+NOUN ADP VERB SCONJ PRON	9
+NOUN ADP VERB SCONJ PROPN	62
+NOUN ADP VERB SCONJ PUNCT	243
+NOUN ADP VERB SCONJ PUNCT.,	44
+NOUN ADP VERB SCONJ VERB	288
+NOUN ADP VERB VERB AUX	35
+NOUN ADP VERB VERB SCONJ	11
+NOUN AUX ADP AUX AUX	26
+NOUN AUX ADP AUX NOUN	10
+NOUN AUX ADP AUX PUNCT	49
+NOUN AUX ADP AUX PUNCT.,	9
+NOUN AUX ADP AUX SCONJ	14
+NOUN AUX ADP VERB AUX	23
+NOUN AUX AUX AUX PUNCT	7
+NOUN AUX AUX NOUN ADP	21
+NOUN AUX AUX PUNCT EOF	139
+NOUN AUX AUX SCONJ PUNCT	31
+NOUN AUX AUX SCONJ VERB	8
+NOUN AUX NOUN ADP NOUN	12
+NOUN AUX NOUN ADP PUNCT	8
+NOUN AUX NOUN ADP VERB	21
+NOUN AUX NOUN NOUN ADP	10
+NOUN AUX PART AUX AUX	10
+NOUN AUX PART AUX SCONJ	7
+NOUN AUX PROPN ADP NOUN	8
+NOUN AUX PROPN NOUN ADP	11
+NOUN AUX PROPN PROPN ADP	7
+NOUN AUX PUNCT ADJ NOUN	8
+NOUN AUX PUNCT NOUN ADP	29
+NOUN AUX PUNCT NOUN NOUN	18
+NOUN AUX PUNCT NUM NOUN	7
+NOUN AUX PUNCT., NOUN ADP	8
+NOUN AUX SCONJ NOUN ADP	12
+NOUN AUX SCONJ PUNCT ADJ	9
+NOUN AUX SCONJ PUNCT NOUN	37
+NOUN AUX SCONJ PUNCT PROPN	7
+NOUN AUX SCONJ PUNCT., NOUN	11
+NOUN AUX SCONJ VERB AUX	15
+NOUN AUX SCONJ VERB SCONJ	8
+NOUN CCONJ NOUN NOUN ADP	12
+NOUN NOUN ADJ NOUN ADP	9
+NOUN NOUN ADP ADJ ADP	12
+NOUN NOUN ADP ADJ AUX	149
+NOUN NOUN ADP ADJ NOUN	94
+NOUN NOUN ADP ADJ PART	11
+NOUN NOUN ADP ADJ PROPN	7
+NOUN NOUN ADP ADJ PUNCT	29
+NOUN NOUN ADP ADJ SCONJ	18
+NOUN NOUN ADP ADJ VERB	22
+NOUN NOUN ADP ADP ADJ	37
+NOUN NOUN ADP ADP ADP	12
+NOUN NOUN ADP ADP ADV	10
+NOUN NOUN ADP ADP NOUN	140
+NOUN NOUN ADP ADP NUM	16
+NOUN NOUN ADP ADP PROPN	30
+NOUN NOUN ADP ADP PUNCT	79
+NOUN NOUN ADP ADP PUNCT.,	17
+NOUN NOUN ADP ADP VERB	102
+NOUN NOUN ADP ADV ADJ	17
+NOUN NOUN ADP ADV NOUN	25
+NOUN NOUN ADP ADV VERB	28
+NOUN NOUN ADP NOUN ADJ	14
+NOUN NOUN ADP NOUN ADP	1359
+NOUN NOUN ADP NOUN AUX	73
+NOUN NOUN ADP NOUN NOUN	601
+NOUN NOUN ADP NOUN NUM	36
+NOUN NOUN ADP NOUN PART	13
+NOUN NOUN ADP NOUN PROPN	31
+NOUN NOUN ADP NOUN PUNCT	107
+NOUN NOUN ADP NOUN PUNCT.,	11
+NOUN NOUN ADP NOUN SYM	28
+NOUN NOUN ADP NOUN VERB	53
+NOUN NOUN ADP NUM NOUN	175
+NOUN NOUN ADP NUM NUM	11
+NOUN NOUN ADP NUM PROPN	15
+NOUN NOUN ADP PART NOUN	95
+NOUN NOUN ADP PART NUM	32
+NOUN NOUN ADP PRON ADP	23
+NOUN NOUN ADP PROPN ADP	123
+NOUN NOUN ADP PROPN NOUN	112
+NOUN NOUN ADP PROPN NUM	10
+NOUN NOUN ADP PROPN PART	9
+NOUN NOUN ADP PROPN PROPN	43
+NOUN NOUN ADP PROPN PUNCT	9
+NOUN NOUN ADP PROPN SYM	18
+NOUN NOUN ADP PUNCT ADJ	18
+NOUN NOUN ADP PUNCT ADV	15
+NOUN NOUN ADP PUNCT NOUN	160
+NOUN NOUN ADP PUNCT NUM	14
+NOUN NOUN ADP PUNCT PROPN	56
+NOUN NOUN ADP PUNCT VERB	8
+NOUN NOUN ADP PUNCT., ADV	7
+NOUN NOUN ADP PUNCT., NOUN	24
+NOUN NOUN ADP VERB ADJ	7
+NOUN NOUN ADP VERB ADP	29
+NOUN NOUN ADP VERB AUX	1217
+NOUN NOUN ADP VERB NOUN	175
+NOUN NOUN ADP VERB PART	11
+NOUN NOUN ADP VERB PROPN	23
+NOUN NOUN ADP VERB PUNCT	267
+NOUN NOUN ADP VERB PUNCT.,	13
+NOUN NOUN ADP VERB SCONJ	422
+NOUN NOUN ADP VERB VERB	10
+NOUN NOUN AUX ADP AUX	23
+NOUN NOUN AUX ADP VERB	7
+NOUN NOUN AUX AUX NOUN	7
+NOUN NOUN AUX AUX PROPN	7
+NOUN NOUN AUX AUX PUNCT	36
+NOUN NOUN AUX AUX SCONJ	11
+NOUN NOUN AUX NOUN ADP	19
+NOUN NOUN AUX NOUN NOUN	7
+NOUN NOUN AUX PROPN ADP	7
+NOUN NOUN AUX PROPN NOUN	8
+NOUN NOUN AUX PUNCT EOF	89
+NOUN NOUN AUX PUNCT NOUN	13
+NOUN NOUN AUX SCONJ PUNCT	8
+NOUN NOUN CCONJ NOUN NOUN	11
+NOUN NOUN NOUN ADP ADJ	44
+NOUN NOUN NOUN ADP ADP	80
+NOUN NOUN NOUN ADP ADV	13
+NOUN NOUN NOUN ADP NOUN	437
+NOUN NOUN NOUN ADP NUM	38
+NOUN NOUN NOUN ADP PART	19
+NOUN NOUN NOUN ADP PROPN	62
+NOUN NOUN NOUN ADP PUNCT	47
+NOUN NOUN NOUN ADP VERB	405
+NOUN NOUN NOUN AUX ADP	8
+NOUN NOUN NOUN AUX AUX	7
+NOUN NOUN NOUN AUX PUNCT	16
+NOUN NOUN NOUN NOUN ADP	222
+NOUN NOUN NOUN NOUN AUX	7
+NOUN NOUN NOUN NOUN NOUN	99
+NOUN NOUN NOUN NOUN PROPN	8
+NOUN NOUN NOUN NOUN PUNCT	66
+NOUN NOUN NOUN NOUN SYM	14
+NOUN NOUN NOUN NUM NOUN	18
+NOUN NOUN NOUN PROPN ADP	7
+NOUN NOUN NOUN PROPN NOUN	14
+NOUN NOUN NOUN PUNCT ADP	60
+NOUN NOUN NOUN PUNCT EOF	65
+NOUN NOUN NOUN PUNCT NOUN	29
+NOUN NOUN NOUN PUNCT PROPN	18
+NOUN NOUN NOUN PUNCT PUNCT	9
+NOUN NOUN NOUN SYM ADP	16
+NOUN NOUN NOUN SYM NOUN	11
+NOUN NOUN NOUN SYM PROPN	8
+NOUN NOUN NOUN VERB AUX	7
+NOUN NOUN NUM NOUN ADP	130
+NOUN NOUN NUM NOUN NOUN	46
+NOUN NOUN NUM NOUN NUM	13
+NOUN NOUN NUM NOUN PUNCT	40
+NOUN NOUN PART NOUN ADP	14
+NOUN NOUN PART NUM NOUN	13
+NOUN NOUN PROPN ADP NOUN	14
+NOUN NOUN PROPN ADP VERB	11
+NOUN NOUN PROPN NOUN ADP	22
+NOUN NOUN PROPN NOUN NOUN	16
+NOUN NOUN PROPN PROPN ADP	7
+NOUN NOUN PROPN SYM PROPN	7
+NOUN NOUN PUNCT ADJ NOUN	9
+NOUN NOUN PUNCT ADP ADP	15
+NOUN NOUN PUNCT ADP NOUN	58
+NOUN NOUN PUNCT ADP NUM	7
+NOUN NOUN PUNCT ADP PART	7
+NOUN NOUN PUNCT ADP PUNCT	13
+NOUN NOUN PUNCT ADP PUNCT.,	7
+NOUN NOUN PUNCT ADP VERB	68
+NOUN NOUN PUNCT NOUN ADP	55
+NOUN NOUN PUNCT NOUN NOUN	78
+NOUN NOUN PUNCT NOUN NUM	8
+NOUN NOUN PUNCT NOUN PROPN	9
+NOUN NOUN PUNCT NOUN PUNCT	14
+NOUN NOUN PUNCT NUM NOUN	13
+NOUN NOUN PUNCT PROPN ADP	19
+NOUN NOUN PUNCT PROPN NOUN	32
+NOUN NOUN PUNCT PROPN PROPN	11
+NOUN NOUN PUNCT PROPN PUNCT	17
+NOUN NOUN PUNCT PROPN SYM	7
+NOUN NOUN PUNCT PUNCT NOUN	16
+NOUN NOUN PUNCT., NOUN ADP	10
+NOUN NOUN SYM ADP ADP	8
+NOUN NOUN SYM ADP NOUN	9
+NOUN NOUN SYM ADP VERB	11
+NOUN NOUN SYM NOUN ADP	17
+NOUN NOUN SYM NOUN NOUN	37
+NOUN NOUN SYM PROPN ADP	9
+NOUN NOUN SYM PROPN NOUN	12
+NOUN NOUN VERB AUX AUX	18
+NOUN NOUN VERB AUX PUNCT	15
+NOUN NOUN VERB AUX SCONJ	8
+NOUN NOUN VERB SCONJ AUX	10
+NOUN NUM ADP NOUN ADP	7
+NOUN NUM ADP VERB AUX	7
+NOUN NUM NOUN ADP ADJ	12
+NOUN NUM NOUN ADP ADP	29
+NOUN NUM NOUN ADP NOUN	140
+NOUN NUM NOUN ADP NUM	15
+NOUN NUM NOUN ADP PROPN	53
+NOUN NUM NOUN ADP PUNCT	15
+NOUN NUM NOUN ADP VERB	106
+NOUN NUM NOUN NOUN ADP	71
+NOUN NUM NOUN NOUN NOUN	18
+NOUN NUM NOUN NOUN PUNCT	25
+NOUN NUM NOUN NUM NOUN	26
+NOUN NUM NOUN PROPN ADP	7
+NOUN NUM NOUN PUNCT EOF	19
+NOUN NUM NOUN PUNCT NOUN	29
+NOUN NUM NOUN PUNCT PROPN	38
+NOUN NUM NUM NOUN ADP	12
+NOUN NUM NUM NOUN PUNCT	8
+NOUN NUM PROPN ADP NOUN	8
+NOUN NUM PROPN PUNCT EOF	9
+NOUN PART ADJ AUX NOUN	9
+NOUN PART ADP NOUN ADP	9
+NOUN PART NOUN ADP NOUN	18
+NOUN PART NOUN ADP VERB	18
+NOUN PART NOUN NOUN ADP	14
+NOUN PART NUM NOUN ADP	25
+NOUN PART NUM NOUN NOUN	13
+NOUN PART NUM NUM NOUN	7
+NOUN PART VERB AUX AUX	9
+NOUN PROPN ADP NOUN ADP	68
+NOUN PROPN ADP NOUN NOUN	18
+NOUN PROPN ADP NOUN PUNCT	9
+NOUN PROPN ADP NUM NOUN	17
+NOUN PROPN ADP PROPN ADP	9
+NOUN PROPN ADP PROPN NOUN	14
+NOUN PROPN ADP VERB AUX	55
+NOUN PROPN ADP VERB PUNCT	14
+NOUN PROPN ADP VERB SCONJ	9
+NOUN PROPN NOUN ADP NOUN	54
+NOUN PROPN NOUN ADP PROPN	12
+NOUN PROPN NOUN ADP PUNCT	8
+NOUN PROPN NOUN ADP VERB	35
+NOUN PROPN NOUN NOUN ADP	32
+NOUN PROPN NOUN NOUN NOUN	19
+NOUN PROPN NOUN PROPN ADP	8
+NOUN PROPN NOUN PUNCT EOF	13
+NOUN PROPN NUM NOUN ADP	9
+NOUN PROPN PROPN ADP NOUN	7
+NOUN PROPN PROPN ADP VERB	8
+NOUN PROPN PROPN NOUN ADP	12
+NOUN PROPN SYM PROPN ADP	15
+NOUN PUNCT ADJ AUX NOUN	17
+NOUN PUNCT ADJ NOUN ADP	25
+NOUN PUNCT ADJ NOUN NOUN	12
+NOUN PUNCT ADP ADJ AUX	8
+NOUN PUNCT ADP ADP VERB	16
+NOUN PUNCT ADP NOUN ADP	79
+NOUN PUNCT ADP NOUN NOUN	18
+NOUN PUNCT ADP NUM NOUN	8
+NOUN PUNCT ADP PART NOUN	11
+NOUN PUNCT ADP PUNCT NOUN	20
+NOUN PUNCT ADP VERB AUX	94
+NOUN PUNCT ADP VERB NOUN	8
+NOUN PUNCT ADP VERB PUNCT	26
+NOUN PUNCT ADP VERB SCONJ	45
+NOUN PUNCT AUX PUNCT EOF	8
+NOUN PUNCT CCONJ NOUN ADP	10
+NOUN PUNCT NOUN ADP ADJ	18
+NOUN PUNCT NOUN ADP ADP	23
+NOUN PUNCT NOUN ADP ADV	7
+NOUN PUNCT NOUN ADP NOUN	140
+NOUN PUNCT NOUN ADP NUM	11
+NOUN PUNCT NOUN ADP PART	8
+NOUN PUNCT NOUN ADP PROPN	18
+NOUN PUNCT NOUN ADP PUNCT	9
+NOUN PUNCT NOUN ADP VERB	75
+NOUN PUNCT NOUN NOUN ADP	132
+NOUN PUNCT NOUN NOUN NOUN	64
+NOUN PUNCT NOUN NOUN NUM	7
+NOUN PUNCT NOUN NOUN PUNCT	43
+NOUN PUNCT NOUN NUM NOUN	23
+NOUN PUNCT NOUN PROPN ADP	11
+NOUN PUNCT NOUN PROPN NOUN	11
+NOUN PUNCT NOUN PUNCT ADP	13
+NOUN PUNCT NOUN PUNCT EOF	7
+NOUN PUNCT NOUN PUNCT NOUN	70
+NOUN PUNCT NOUN PUNCT PROPN	9
+NOUN PUNCT NOUN SYM NOUN	13
+NOUN PUNCT NUM NOUN ADP	37
+NOUN PUNCT NUM NOUN NOUN	20
+NOUN PUNCT NUM NOUN PUNCT	7
+NOUN PUNCT PART NUM NOUN	7
+NOUN PUNCT PROPN ADP ADJ	7
+NOUN PUNCT PROPN ADP ADP	9
+NOUN PUNCT PROPN ADP NOUN	45
+NOUN PUNCT PROPN ADP NUM	8
+NOUN PUNCT PROPN ADP PROPN	30
+NOUN PUNCT PROPN ADP VERB	18
+NOUN PUNCT PROPN NOUN ADP	46
+NOUN PUNCT PROPN NOUN NOUN	32
+NOUN PUNCT PROPN NOUN PROPN	9
+NOUN PUNCT PROPN NOUN PUNCT	18
+NOUN PUNCT PROPN NUM NOUN	7
+NOUN PUNCT PROPN PROPN ADP	15
+NOUN PUNCT PROPN PROPN NOUN	12
+NOUN PUNCT PROPN PUNCT ADP	22
+NOUN PUNCT PROPN PUNCT NOUN	7
+NOUN PUNCT PROPN SYM ADP	8
+NOUN PUNCT PROPN SYM NOUN	11
+NOUN PUNCT PROPN SYM PROPN	22
+NOUN PUNCT PUNCT NOUN ADP	7
+NOUN PUNCT PUNCT NOUN NOUN	19
+NOUN PUNCT PUNCT NOUN PUNCT	13
+NOUN PUNCT VERB AUX NOUN	8
+NOUN PUNCT., ADJ NOUN ADP	7
+NOUN PUNCT., NOUN ADP NOUN	19
+NOUN PUNCT., NOUN ADP VERB	10
+NOUN PUNCT., NOUN NOUN ADP	11
+NOUN PUNCT., NOUN NOUN NOUN	7
+NOUN PUNCT., NOUN PUNCT., NOUN	14
+NOUN PUNCT., PROPN NOUN ADP	10
+NOUN SYM ADP ADP VERB	10
+NOUN SYM ADP NOUN ADP	11
+NOUN SYM ADP NOUN NOUN	8
+NOUN SYM ADP VERB AUX	14
+NOUN SYM NOUN ADP NOUN	26
+NOUN SYM NOUN ADP VERB	34
+NOUN SYM NOUN NOUN ADP	45
+NOUN SYM NOUN NOUN NOUN	22
+NOUN SYM NOUN SYM NOUN	16
+NOUN SYM NOUN SYM PROPN	7
+NOUN SYM PROPN ADP NOUN	21
+NOUN SYM PROPN ADP VERB	16
+NOUN SYM PROPN NOUN ADP	23
+NOUN SYM PROPN PROPN ADP	12
+NOUN SYM PROPN SYM NOUN	9
+NOUN SYM PROPN SYM PROPN	15
+NOUN VERB AUX ADP VERB	8
+NOUN VERB AUX AUX ADP	7
+NOUN VERB AUX AUX AUX	28
+NOUN VERB AUX AUX NOUN	32
+NOUN VERB AUX AUX PUNCT	45
+NOUN VERB AUX AUX SCONJ	22
+NOUN VERB AUX NOUN ADP	40
+NOUN VERB AUX NOUN NOUN	10
+NOUN VERB AUX PART ADP	7
+NOUN VERB AUX PUNCT EOF	46
+NOUN VERB AUX PUNCT NOUN	13
+NOUN VERB AUX SCONJ AUX	28
+NOUN VERB AUX SCONJ PUNCT	7
+NOUN VERB NOUN ADP NOUN	8
+NOUN VERB NOUN ADP VERB	14
+NOUN VERB SCONJ AUX AUX	18
+NOUN VERB SCONJ AUX PUNCT	12
+NOUN VERB VERB PUNCT EOF	12
+NUM ADP NOUN ADP VERB	18
+NUM ADP VERB AUX AUX	10
+NUM ADV NUM NOUN ADP	7
+NUM NOUN ADP ADJ AUX	17
+NUM NOUN ADP ADJ NOUN	18
+NUM NOUN ADP ADP NOUN	48
+NUM NOUN ADP ADP NUM	9
+NUM NOUN ADP ADP PROPN	44
+NUM NOUN ADP ADP PUNCT	22
+NUM NOUN ADP ADP VERB	21
+NUM NOUN ADP NOUN ADP	347
+NUM NOUN ADP NOUN AUX	7
+NUM NOUN ADP NOUN NOUN	183
+NUM NOUN ADP NOUN NUM	22
+NUM NOUN ADP NOUN PROPN	14
+NUM NOUN ADP NOUN PUNCT	31
+NUM NOUN ADP NOUN VERB	14
+NUM NOUN ADP NUM NOUN	100
+NUM NOUN ADP PART NOUN	10
+NUM NOUN ADP PART NUM	18
+NUM NOUN ADP PROPN ADP	77
+NUM NOUN ADP PROPN NOUN	51
+NUM NOUN ADP PROPN NUM	9
+NUM NOUN ADP PROPN PROPN	10
+NUM NOUN ADP PROPN SYM	16
+NUM NOUN ADP PUNCT NOUN	30
+NUM NOUN ADP PUNCT PROPN	15
+NUM NOUN ADP VERB ADP	7
+NUM NOUN ADP VERB AUX	278
+NUM NOUN ADP VERB NOUN	29
+NUM NOUN ADP VERB PUNCT	72
+NUM NOUN ADP VERB SCONJ	73
+NUM NOUN AUX AUX PUNCT	12
+NUM NOUN AUX PUNCT EOF	17
+NUM NOUN NOUN ADP ADJ	14
+NUM NOUN NOUN ADP ADP	40
+NUM NOUN NOUN ADP NOUN	216
+NUM NOUN NOUN ADP NUM	36
+NUM NOUN NOUN ADP PART	7
+NUM NOUN NOUN ADP PROPN	39
+NUM NOUN NOUN ADP PUNCT	29
+NUM NOUN NOUN ADP VERB	132
+NUM NOUN NOUN NOUN ADP	58
+NUM NOUN NOUN NOUN NOUN	23
+NUM NOUN NOUN NOUN PUNCT	14
+NUM NOUN NOUN NUM NOUN	154
+NUM NOUN NOUN PART NUM	7
+NUM NOUN NOUN PUNCT ADP	12
+NUM NOUN NOUN PUNCT EOF	39
+NUM NOUN NOUN PUNCT NOUN	23
+NUM NOUN NOUN PUNCT PROPN	23
+NUM NOUN NOUN VERB AUX	7
+NUM NOUN NUM NOUN ADP	47
+NUM NOUN NUM NOUN NOUN	12
+NUM NOUN NUM NOUN PUNCT	12
+NUM NOUN NUM NUM NOUN	12
+NUM NOUN PROPN NOUN ADP	10
+NUM NOUN PROPN PROPN NOUN	7
+NUM NOUN PUNCT NOUN ADP	21
+NUM NOUN PUNCT NOUN NOUN	38
+NUM NOUN PUNCT NOUN NUM	9
+NUM NOUN PUNCT NUM NOUN	19
+NUM NOUN PUNCT PROPN ADP	42
+NUM NOUN PUNCT PROPN NOUN	35
+NUM NOUN PUNCT PROPN PROPN	7
+NUM NOUN PUNCT PROPN SYM	9
+NUM NOUN VERB AUX AUX	16
+NUM NOUN VERB AUX NOUN	10
+NUM NOUN VERB AUX PUNCT	12
+NUM NOUN VERB AUX SCONJ	13
+NUM NOUN VERB SCONJ AUX	7
+NUM NUM NOUN ADP NOUN	20
+NUM NUM NOUN ADP VERB	24
+NUM NUM NOUN NOUN ADP	15
+NUM NUM NOUN PUNCT EOF	8
+NUM PART NUM NOUN ADP	14
+NUM PROPN ADP NOUN ADP	10
+NUM PROPN ADP NOUN NOUN	8
+NUM PROPN ADP VERB AUX	18
+NUM PROPN NOUN ADP NOUN	13
+NUM PROPN NOUN ADP VERB	9
+PART ADJ AUX NOUN ADP	13
+PART ADP ADJ AUX AUX	8
+PART ADP ADJ AUX NOUN	11
+PART ADP ADJ AUX PUNCT	7
+PART ADP ADJ NOUN AUX	7
+PART ADP NOUN ADP NOUN	16
+PART ADP NOUN ADP VERB	23
+PART ADP NOUN AUX PUNCT	9
+PART ADP NOUN NOUN ADP	11
+PART ADP PUNCT NOUN ADP	17
+PART ADP PUNCT., NOUN ADP	7
+PART ADP VERB AUX AUX	14
+PART ADP VERB AUX NOUN	7
+PART ADP VERB AUX PUNCT	13
+PART ADP VERB AUX SCONJ	7
+PART ADP VERB NOUN ADP	9
+PART ADP VERB PUNCT EOF	8
+PART ADP VERB SCONJ AUX	15
+PART AUX AUX PART PUNCT	7
+PART AUX AUX PUNCT EOF	13
+PART AUX SCONJ PUNCT ADJ	8
+PART AUX SCONJ PUNCT NOUN	17
+PART NOUN ADP ADJ AUX	14
+PART NOUN ADP ADJ PUNCT	9
+PART NOUN ADP ADV VERB	8
+PART NOUN ADP NOUN ADP	60
+PART NOUN ADP NOUN NOUN	21
+PART NOUN ADP NUM NOUN	7
+PART NOUN ADP PUNCT NOUN	11
+PART NOUN ADP VERB AUX	92
+PART NOUN ADP VERB NOUN	11
+PART NOUN ADP VERB PUNCT	31
+PART NOUN ADP VERB SCONJ	32
+PART NOUN AUX PUNCT EOF	8
+PART NOUN NOUN ADP ADJ	9
+PART NOUN NOUN ADP ADP	9
+PART NOUN NOUN ADP NOUN	24
+PART NOUN NOUN ADP PUNCT	9
+PART NOUN NOUN ADP VERB	41
+PART NOUN NOUN NOUN ADP	15
+PART NOUN NOUN NOUN NOUN	7
+PART NUM ADP NOUN ADP	10
+PART NUM NOUN ADP ADP	12
+PART NUM NOUN ADP NOUN	59
+PART NUM NOUN ADP NUM	11
+PART NUM NOUN ADP PART	12
+PART NUM NOUN ADP PROPN	10
+PART NUM NOUN ADP PUNCT	9
+PART NUM NOUN ADP VERB	46
+PART NUM NOUN NOUN ADP	49
+PART NUM NOUN NOUN NOUN	16
+PART NUM NOUN NUM NOUN	13
+PART NUM NOUN PROPN NOUN	8
+PART NUM NOUN PUNCT EOF	13
+PART NUM NOUN PUNCT NOUN	11
+PART NUM NOUN PUNCT PROPN	8
+PART NUM NUM NOUN ADP	18
+PART NUM PROPN ADP VERB	9
+PART PUNCT NOUN NOUN ADP	8
+PART VERB AUX AUX PUNCT	7
+PRON ADP ADJ AUX NOUN	8
+PRON ADP ADJ AUX VERB	7
+PRON ADP ADJ NOUN ADP	9
+PRON ADP ADP NOUN ADP	22
+PRON ADP ADP VERB AUX	7
+PRON ADP ADV NOUN ADP	8
+PRON ADP NOUN ADP ADJ	15
+PRON ADP NOUN ADP ADP	7
+PRON ADP NOUN ADP ADV	7
+PRON ADP NOUN ADP NOUN	79
+PRON ADP NOUN ADP PROPN	11
+PRON ADP NOUN ADP PUNCT	7
+PRON ADP NOUN ADP PUNCT.,	7
+PRON ADP NOUN ADP VERB	72
+PRON ADP NOUN NOUN ADP	58
+PRON ADP NOUN NOUN NOUN	8
+PRON ADP NUM NOUN ADP	7
+PRON ADP NUM NOUN NOUN	7
+PRON ADP PROPN ADP VERB	11
+PRON ADP PUNCT NOUN ADP	9
+PRON ADP PUNCT NOUN NOUN	7
+PRON ADP VERB AUX AUX	25
+PRON ADP VERB AUX NOUN	20
+PRON ADP VERB AUX PUNCT	8
+PRON ADP VERB AUX SCONJ	17
+PRON ADP VERB SCONJ AUX	10
+PRON ADP VERB SCONJ NOUN	8
+PROPN ADP ADJ AUX NOUN	25
+PROPN ADP ADJ NOUN ADP	41
+PROPN ADP ADJ NOUN NOUN	8
+PROPN ADP ADP NOUN ADP	39
+PROPN ADP ADP NOUN NOUN	19
+PROPN ADP ADP NUM NOUN	9
+PROPN ADP ADP PUNCT NOUN	17
+PROPN ADP ADP PUNCT PROPN	9
+PROPN ADP ADP VERB AUX	20
+PROPN ADP ADP VERB PUNCT	11
+PROPN ADP ADV NOUN ADP	8
+PROPN ADP NOUN ADP ADJ	38
+PROPN ADP NOUN ADP ADP	22
+PROPN ADP NOUN ADP ADV	13
+PROPN ADP NOUN ADP NOUN	222
+PROPN ADP NOUN ADP NUM	14
+PROPN ADP NOUN ADP PROPN	44
+PROPN ADP NOUN ADP PUNCT	33
+PROPN ADP NOUN ADP VERB	348
+PROPN ADP NOUN AUX AUX	9
+PROPN ADP NOUN AUX PUNCT	10
+PROPN ADP NOUN NOUN ADP	223
+PROPN ADP NOUN NOUN AUX	14
+PROPN ADP NOUN NOUN NOUN	64
+PROPN ADP NOUN NOUN PUNCT	19
+PROPN ADP NOUN NUM NOUN	13
+PROPN ADP NOUN PROPN ADP	18
+PROPN ADP NOUN PROPN NOUN	8
+PROPN ADP NOUN PUNCT ADP	11
+PROPN ADP NOUN PUNCT EOF	29
+PROPN ADP NOUN PUNCT NOUN	12
+PROPN ADP NOUN PUNCT PROPN	18
+PROPN ADP NOUN SYM NOUN	10
+PROPN ADP NOUN SYM PROPN	9
+PROPN ADP NOUN VERB AUX	8
+PROPN ADP NUM NOUN ADP	52
+PROPN ADP NUM NOUN NOUN	37
+PROPN ADP NUM NOUN PUNCT	22
+PROPN ADP PART NOUN ADP	54
+PROPN ADP PART NOUN NOUN	15
+PROPN ADP PART NUM NOUN	16
+PROPN ADP PRON ADP NOUN	7
+PROPN ADP PROPN ADP ADP	9
+PROPN ADP PROPN ADP NOUN	62
+PROPN ADP PROPN ADP PART	9
+PROPN ADP PROPN ADP PROPN	11
+PROPN ADP PROPN ADP PUNCT	9
+PROPN ADP PROPN ADP VERB	69
+PROPN ADP PROPN NOUN ADP	74
+PROPN ADP PROPN NOUN NOUN	16
+PROPN ADP PROPN NOUN PROPN	8
+PROPN ADP PROPN PROPN ADP	22
+PROPN ADP PROPN PROPN NOUN	18
+PROPN ADP PROPN SYM PROPN	26
+PROPN ADP PUNCT ADJ NOUN	8
+PROPN ADP PUNCT NOUN ADP	33
+PROPN ADP PUNCT NOUN NOUN	34
+PROPN ADP PUNCT NOUN PUNCT	9
+PROPN ADP PUNCT NUM NOUN	11
+PROPN ADP PUNCT PROPN ADP	23
+PROPN ADP PUNCT PROPN NOUN	7
+PROPN ADP VERB AUX AUX	188
+PROPN ADP VERB AUX NOUN	68
+PROPN ADP VERB AUX PROPN	20
+PROPN ADP VERB AUX PUNCT	107
+PROPN ADP VERB AUX SCONJ	88
+PROPN ADP VERB NOUN ADP	36
+PROPN ADP VERB NOUN PUNCT	9
+PROPN ADP VERB PUNCT EOF	64
+PROPN ADP VERB PUNCT NOUN	12
+PROPN ADP VERB PUNCT PROPN	10
+PROPN ADP VERB SCONJ ADJ	9
+PROPN ADP VERB SCONJ ADP	9
+PROPN ADP VERB SCONJ AUX	55
+PROPN ADP VERB SCONJ NOUN	24
+PROPN ADP VERB SCONJ NUM	7
+PROPN ADP VERB SCONJ PUNCT	22
+PROPN ADP VERB SCONJ VERB	13
+PROPN NOUN ADP ADJ AUX	15
+PROPN NOUN ADP ADJ NOUN	18
+PROPN NOUN ADP ADP NOUN	19
+PROPN NOUN ADP ADP PROPN	8
+PROPN NOUN ADP ADP PUNCT	13
+PROPN NOUN ADP ADP VERB	10
+PROPN NOUN ADP ADV NOUN	8
+PROPN NOUN ADP NOUN ADP	298
+PROPN NOUN ADP NOUN AUX	20
+PROPN NOUN ADP NOUN NOUN	166
+PROPN NOUN ADP NOUN NUM	12
+PROPN NOUN ADP NOUN PROPN	9
+PROPN NOUN ADP NOUN PUNCT	21
+PROPN NOUN ADP NOUN VERB	12
+PROPN NOUN ADP NUM NOUN	49
+PROPN NOUN ADP PART NOUN	26
+PROPN NOUN ADP PART NUM	9
+PROPN NOUN ADP PROPN ADP	35
+PROPN NOUN ADP PROPN NOUN	43
+PROPN NOUN ADP PROPN PROPN	19
+PROPN NOUN ADP PROPN SYM	8
+PROPN NOUN ADP PUNCT ADJ	9
+PROPN NOUN ADP PUNCT NOUN	32
+PROPN NOUN ADP PUNCT NUM	10
+PROPN NOUN ADP PUNCT PROPN	22
+PROPN NOUN ADP PUNCT., NOUN	7
+PROPN NOUN ADP VERB AUX	214
+PROPN NOUN ADP VERB NOUN	26
+PROPN NOUN ADP VERB PROPN	7
+PROPN NOUN ADP VERB PUNCT	43
+PROPN NOUN ADP VERB SCONJ	57
+PROPN NOUN NOUN ADP ADJ	10
+PROPN NOUN NOUN ADP ADP	21
+PROPN NOUN NOUN ADP NOUN	124
+PROPN NOUN NOUN ADP NUM	16
+PROPN NOUN NOUN ADP PART	8
+PROPN NOUN NOUN ADP PROPN	27
+PROPN NOUN NOUN ADP PUNCT	13
+PROPN NOUN NOUN ADP VERB	88
+PROPN NOUN NOUN NOUN ADP	85
+PROPN NOUN NOUN NOUN NOUN	51
+PROPN NOUN NOUN NOUN PUNCT	12
+PROPN NOUN NOUN PUNCT ADP	8
+PROPN NOUN NOUN PUNCT EOF	10
+PROPN NOUN NOUN PUNCT PROPN	8
+PROPN NOUN NUM NOUN ADP	12
+PROPN NOUN PART NUM NOUN	7
+PROPN NOUN PROPN ADP NOUN	23
+PROPN NOUN PROPN ADP VERB	15
+PROPN NOUN PROPN NOUN ADP	18
+PROPN NOUN PROPN NOUN NOUN	11
+PROPN NOUN PUNCT ADP NOUN	7
+PROPN NOUN PUNCT ADP VERB	12
+PROPN NOUN PUNCT NOUN NOUN	10
+PROPN NOUN PUNCT PROPN NOUN	16
+PROPN NOUN SYM PROPN NOUN	7
+PROPN NUM NOUN ADP NOUN	24
+PROPN NUM NOUN ADP VERB	11
+PROPN NUM NOUN NOUN ADP	9
+PROPN PROPN ADP ADP VERB	7
+PROPN PROPN ADP NOUN ADP	67
+PROPN PROPN ADP NOUN NOUN	34
+PROPN PROPN ADP NOUN PUNCT	14
+PROPN PROPN ADP NUM NOUN	14
+PROPN PROPN ADP PART NOUN	7
+PROPN PROPN ADP PROPN ADP	13
+PROPN PROPN ADP PROPN NOUN	10
+PROPN PROPN ADP PROPN PROPN	14
+PROPN PROPN ADP PUNCT NOUN	13
+PROPN PROPN ADP VERB AUX	47
+PROPN PROPN ADP VERB PUNCT	17
+PROPN PROPN ADP VERB SCONJ	17
+PROPN PROPN NOUN ADP NOUN	43
+PROPN PROPN NOUN ADP PROPN	13
+PROPN PROPN NOUN ADP PUNCT	14
+PROPN PROPN NOUN ADP PUNCT.,	8
+PROPN PROPN NOUN ADP VERB	35
+PROPN PROPN NOUN NOUN ADP	24
+PROPN PROPN NOUN NOUN NOUN	15
+PROPN PROPN NOUN PUNCT EOF	18
+PROPN PROPN PROPN ADP NOUN	11
+PROPN PROPN PROPN ADP VERB	11
+PROPN PROPN PUNCT PROPN PROPN	17
+PROPN PUNCT ADP NOUN ADP	24
+PROPN PUNCT ADP NOUN NOUN	9
+PROPN PUNCT ADP PUNCT NOUN	11
+PROPN PUNCT ADP PUNCT PROPN	9
+PROPN PUNCT ADP VERB AUX	36
+PROPN PUNCT ADP VERB PUNCT	11
+PROPN PUNCT ADP VERB SCONJ	10
+PROPN PUNCT NOUN ADP NOUN	11
+PROPN PUNCT NOUN ADP PROPN	7
+PROPN PUNCT NOUN NOUN ADP	11
+PROPN PUNCT PROPN ADP ADP	8
+PROPN PUNCT PROPN NOUN ADP	13
+PROPN PUNCT PROPN PROPN PUNCT	9
+PROPN PUNCT PROPN PUNCT PROPN	21
+PROPN PUNCT PROPN SYM PROPN	15
+PROPN SYM ADP NOUN ADP	11
+PROPN SYM ADP PUNCT NOUN	8
+PROPN SYM ADP VERB AUX	10
+PROPN SYM NOUN ADP NOUN	11
+PROPN SYM NOUN ADP VERB	13
+PROPN SYM NOUN NOUN ADP	23
+PROPN SYM NOUN SYM PROPN	17
+PROPN SYM PROPN ADP ADP	11
+PROPN SYM PROPN ADP NOUN	78
+PROPN SYM PROPN ADP NUM	9
+PROPN SYM PROPN ADP PROPN	26
+PROPN SYM PROPN ADP PUNCT	12
+PROPN SYM PROPN ADP VERB	40
+PROPN SYM PROPN NOUN ADP	39
+PROPN SYM PROPN NOUN NOUN	14
+PROPN SYM PROPN PUNCT PROPN	13
+PROPN SYM PROPN SYM NOUN	9
+PROPN SYM PROPN SYM PROPN	65
+PUNCT ADJ AUX ADJ AUX	7
+PUNCT ADJ AUX NOUN ADP	90
+PUNCT ADJ AUX NOUN NOUN	27
+PUNCT ADJ AUX VERB AUX	11
+PUNCT ADJ NOUN ADP ADJ	27
+PUNCT ADJ NOUN ADP ADP	25
+PUNCT ADJ NOUN ADP ADV	7
+PUNCT ADJ NOUN ADP NOUN	75
+PUNCT ADJ NOUN ADP NUM	12
+PUNCT ADJ NOUN ADP PROPN	17
+PUNCT ADJ NOUN ADP VERB	69
+PUNCT ADJ NOUN NOUN ADP	46
+PUNCT ADJ NOUN PUNCT ADP	11
+PUNCT ADJ PART NUM NOUN	10
+PUNCT ADP ADP VERB AUX	16
+PUNCT ADP NOUN ADP ADJ	11
+PUNCT ADP NOUN ADP ADP	7
+PUNCT ADP NOUN ADP NOUN	26
+PUNCT ADP NOUN ADP PUNCT	7
+PUNCT ADP NOUN ADP VERB	75
+PUNCT ADP NOUN NOUN ADP	21
+PUNCT ADP NOUN PUNCT EOF	7
+PUNCT ADP PART NOUN ADP	18
+PUNCT ADP PUNCT NOUN ADP	12
+PUNCT ADP PUNCT NOUN NOUN	11
+PUNCT ADP PUNCT NOUN PUNCT	7
+PUNCT ADP PUNCT PROPN PUNCT	8
+PUNCT ADP VERB AUX AUX	57
+PUNCT ADP VERB AUX NOUN	23
+PUNCT ADP VERB AUX PUNCT	45
+PUNCT ADP VERB AUX SCONJ	40
+PUNCT ADP VERB NOUN ADP	18
+PUNCT ADP VERB PUNCT EOF	31
+PUNCT ADP VERB PUNCT NOUN	11
+PUNCT ADP VERB SCONJ AUX	31
+PUNCT ADP VERB SCONJ NOUN	17
+PUNCT ADP VERB SCONJ PUNCT	10
+PUNCT ADP VERB SCONJ VERB	10
+PUNCT ADV NOUN ADP NOUN	20
+PUNCT ADV NOUN ADP VERB	24
+PUNCT ADV NOUN NOUN ADP	22
+PUNCT ADV NOUN NOUN NOUN	7
+PUNCT ADV NUM NOUN ADP	9
+PUNCT ADV PROPN ADP VERB	8
+PUNCT ADV VERB AUX AUX	8
+PUNCT ADV VERB AUX NOUN	16
+PUNCT ADV VERB AUX SCONJ	9
+PUNCT ADV VERB SCONJ AUX	10
+PUNCT CCONJ NOUN NOUN ADP	7
+PUNCT NOUN ADP ADJ AUX	63
+PUNCT NOUN ADP ADJ NOUN	39
+PUNCT NOUN ADP ADJ PUNCT	10
+PUNCT NOUN ADP ADJ SCONJ	7
+PUNCT NOUN ADP ADJ VERB	8
+PUNCT NOUN ADP ADP ADJ	11
+PUNCT NOUN ADP ADP NOUN	62
+PUNCT NOUN ADP ADP PUNCT	13
+PUNCT NOUN ADP ADP VERB	28
+PUNCT NOUN ADP ADV NOUN	12
+PUNCT NOUN ADP ADV VERB	12
+PUNCT NOUN ADP NOUN ADJ	8
+PUNCT NOUN ADP NOUN ADP	563
+PUNCT NOUN ADP NOUN AUX	15
+PUNCT NOUN ADP NOUN NOUN	198
+PUNCT NOUN ADP NOUN PROPN	12
+PUNCT NOUN ADP NOUN PUNCT	55
+PUNCT NOUN ADP NOUN SYM	13
+PUNCT NOUN ADP NOUN VERB	14
+PUNCT NOUN ADP NUM NOUN	49
+PUNCT NOUN ADP PART NOUN	27
+PUNCT NOUN ADP PART NUM	12
+PUNCT NOUN ADP PRON ADP	7
+PUNCT NOUN ADP PROPN ADP	47
+PUNCT NOUN ADP PROPN NOUN	27
+PUNCT NOUN ADP PROPN PROPN	9
+PUNCT NOUN ADP PROPN SYM	12
+PUNCT NOUN ADP PUNCT NOUN	17
+PUNCT NOUN ADP PUNCT PROPN	10
+PUNCT NOUN ADP VERB ADP	12
+PUNCT NOUN ADP VERB AUX	255
+PUNCT NOUN ADP VERB NOUN	68
+PUNCT NOUN ADP VERB PUNCT	27
+PUNCT NOUN ADP VERB SCONJ	98
+PUNCT NOUN NOUN ADP ADJ	58
+PUNCT NOUN NOUN ADP ADP	58
+PUNCT NOUN NOUN ADP ADV	7
+PUNCT NOUN NOUN ADP NOUN	300
+PUNCT NOUN NOUN ADP NUM	33
+PUNCT NOUN NOUN ADP PART	24
+PUNCT NOUN NOUN ADP PROPN	48
+PUNCT NOUN NOUN ADP PUNCT	20
+PUNCT NOUN NOUN ADP VERB	177
+PUNCT NOUN NOUN NOUN ADP	143
+PUNCT NOUN NOUN NOUN NOUN	67
+PUNCT NOUN NOUN NOUN PUNCT	39
+PUNCT NOUN NOUN NOUN SYM	10
+PUNCT NOUN NOUN NUM NOUN	13
+PUNCT NOUN NOUN PROPN NOUN	9
+PUNCT NOUN NOUN PUNCT ADP	86
+PUNCT NOUN NOUN PUNCT EOF	8
+PUNCT NOUN NOUN PUNCT NOUN	39
+PUNCT NOUN NOUN PUNCT PROPN	8
+PUNCT NOUN NOUN PUNCT PUNCT	15
+PUNCT NOUN NOUN SYM ADP	8
+PUNCT NOUN NOUN SYM NOUN	18
+PUNCT NOUN NUM NOUN ADP	47
+PUNCT NOUN NUM NOUN NOUN	9
+PUNCT NOUN NUM NOUN PUNCT	11
+PUNCT NOUN PART NOUN ADP	8
+PUNCT NOUN PART NUM NOUN	7
+PUNCT NOUN PROPN ADP NOUN	19
+PUNCT NOUN PROPN ADP VERB	9
+PUNCT NOUN PROPN NOUN ADP	17
+PUNCT NOUN PROPN NOUN NOUN	7
+PUNCT NOUN PUNCT ADP ADP	9
+PUNCT NOUN PUNCT ADP NOUN	26
+PUNCT NOUN PUNCT ADP PUNCT	9
+PUNCT NOUN PUNCT ADP VERB	45
+PUNCT NOUN PUNCT NOUN ADP	34
+PUNCT NOUN PUNCT NOUN NOUN	22
+PUNCT NOUN PUNCT NOUN PUNCT	40
+PUNCT NOUN PUNCT PUNCT NOUN	9
+PUNCT NOUN SYM NOUN ADP	11
+PUNCT NOUN SYM NOUN NOUN	10
+PUNCT NOUN SYM NOUN PUNCT	9
+PUNCT NOUN SYM NOUN SYM	10
+PUNCT NOUN SYM PROPN SYM	8
+PUNCT NOUN VERB AUX AUX	12
+PUNCT NUM NOUN ADP ADJ	7
+PUNCT NUM NOUN ADP ADP	25
+PUNCT NUM NOUN ADP NOUN	81
+PUNCT NUM NOUN ADP NUM	28
+PUNCT NUM NOUN ADP PROPN	30
+PUNCT NUM NOUN ADP VERB	32
+PUNCT NUM NOUN NOUN ADP	84
+PUNCT NUM NOUN NOUN NOUN	17
+PUNCT NUM NOUN NOUN NUM	32
+PUNCT NUM NOUN NOUN PUNCT	13
+PUNCT NUM NOUN NUM NOUN	9
+PUNCT PART NUM NOUN ADP	22
+PUNCT PART NUM NOUN NOUN	11
+PUNCT PRON ADP ADP NOUN	8
+PUNCT PRON ADP NOUN ADP	54
+PUNCT PRON ADP NOUN NOUN	20
+PUNCT PRON ADP NUM NOUN	8
+PUNCT PRON ADP PROPN ADP	8
+PUNCT PRON ADP VERB AUX	19
+PUNCT PRON ADP VERB SCONJ	10
+PUNCT PROPN ADP ADJ NOUN	14
+PUNCT PROPN ADP ADP NOUN	13
+PUNCT PROPN ADP NOUN ADP	123
+PUNCT PROPN ADP NOUN NOUN	63
+PUNCT PROPN ADP NOUN PUNCT	17
+PUNCT PROPN ADP NOUN SYM	8
+PUNCT PROPN ADP NUM NOUN	14
+PUNCT PROPN ADP PART NOUN	14
+PUNCT PROPN ADP PROPN ADP	43
+PUNCT PROPN ADP PROPN NOUN	22
+PUNCT PROPN ADP PROPN PROPN	11
+PUNCT PROPN ADP PROPN SYM	8
+PUNCT PROPN ADP PUNCT NOUN	11
+PUNCT PROPN ADP VERB AUX	63
+PUNCT PROPN ADP VERB NOUN	8
+PUNCT PROPN ADP VERB SCONJ	10
+PUNCT PROPN NOUN ADP ADJ	7
+PUNCT PROPN NOUN ADP ADP	14
+PUNCT PROPN NOUN ADP NOUN	101
+PUNCT PROPN NOUN ADP NUM	9
+PUNCT PROPN NOUN ADP PART	7
+PUNCT PROPN NOUN ADP PROPN	15
+PUNCT PROPN NOUN ADP PUNCT	8
+PUNCT PROPN NOUN ADP VERB	45
+PUNCT PROPN NOUN NOUN ADP	51
+PUNCT PROPN NOUN NOUN NOUN	35
+PUNCT PROPN NOUN NOUN PUNCT	14
+PUNCT PROPN NOUN PROPN ADP	12
+PUNCT PROPN NOUN PROPN NOUN	11
+PUNCT PROPN NOUN PUNCT ADP	21
+PUNCT PROPN NOUN PUNCT PROPN	13
+PUNCT PROPN PROPN ADP NOUN	26
+PUNCT PROPN PROPN ADP PROPN	9
+PUNCT PROPN PROPN NOUN ADP	20
+PUNCT PROPN PROPN NOUN NOUN	7
+PUNCT PROPN PROPN PUNCT ADP	8
+PUNCT PROPN PROPN PUNCT PROPN	13
+PUNCT PROPN PUNCT ADP ADP	7
+PUNCT PROPN PUNCT ADP NOUN	30
+PUNCT PROPN PUNCT ADP PROPN	7
+PUNCT PROPN PUNCT ADP PUNCT	16
+PUNCT PROPN PUNCT ADP VERB	45
+PUNCT PROPN PUNCT NOUN ADP	11
+PUNCT PROPN PUNCT NOUN NOUN	9
+PUNCT PROPN PUNCT PROPN ADP	12
+PUNCT PROPN PUNCT PROPN PUNCT	11
+PUNCT PROPN SYM ADP NOUN	9
+PUNCT PROPN SYM ADP PUNCT	10
+PUNCT PROPN SYM ADP VERB	10
+PUNCT PROPN SYM NOUN ADP	10
+PUNCT PROPN SYM NOUN NOUN	13
+PUNCT PROPN SYM NOUN SYM	7
+PUNCT PROPN SYM PROPN ADP	40
+PUNCT PROPN SYM PROPN NOUN	11
+PUNCT PROPN SYM PROPN PUNCT	10
+PUNCT PROPN SYM PROPN SYM	15
+PUNCT PUNCT NOUN ADP NOUN	14
+PUNCT PUNCT NOUN ADP VERB	9
+PUNCT PUNCT NOUN NOUN NOUN	13
+PUNCT PUNCT NOUN NOUN PUNCT	10
+PUNCT PUNCT NOUN PUNCT ADP	15
+PUNCT PUNCT NOUN PUNCT PUNCT	7
+PUNCT PUNCT PROPN PUNCT ADP	12
+PUNCT VERB AUX AUX AUX	14
+PUNCT VERB AUX AUX NOUN	11
+PUNCT VERB AUX AUX PUNCT	9
+PUNCT VERB AUX AUX SCONJ	13
+PUNCT VERB AUX NOUN ADP	31
+PUNCT VERB AUX SCONJ AUX	14
+PUNCT VERB NOUN ADP NOUN	8
+PUNCT VERB NOUN ADP VERB	7
+PUNCT VERB SCONJ AUX NOUN	7
+PUNCT VERB SCONJ VERB AUX	7
+PUNCT., ADJ AUX NOUN ADP	10
+PUNCT., ADJ NOUN ADP NOUN	20
+PUNCT., ADJ NOUN ADP VERB	19
+PUNCT., ADV VERB AUX AUX	7
+PUNCT., NOUN ADP ADJ AUX	10
+PUNCT., NOUN ADP ADP NOUN	10
+PUNCT., NOUN ADP NOUN ADP	112
+PUNCT., NOUN ADP NOUN NOUN	33
+PUNCT., NOUN ADP PROPN ADP	8
+PUNCT., NOUN ADP VERB AUX	39
+PUNCT., NOUN ADP VERB NOUN	8
+PUNCT., NOUN ADP VERB SCONJ	26
+PUNCT., NOUN NOUN ADP ADJ	8
+PUNCT., NOUN NOUN ADP ADP	8
+PUNCT., NOUN NOUN ADP NOUN	45
+PUNCT., NOUN NOUN ADP VERB	30
+PUNCT., NOUN NOUN NOUN ADP	28
+PUNCT., NOUN PUNCT., NOUN PUNCT.,	9
+PUNCT., NUM NOUN ADP NOUN	7
+PUNCT., PRON ADP NOUN ADP	17
+PUNCT., PROPN ADP NOUN ADP	12
+PUNCT., PROPN ADP NOUN NOUN	8
+PUNCT., PROPN NOUN ADP NOUN	24
+PUNCT., PROPN NOUN ADP VERB	7
+PUNCT., PROPN NOUN NOUN ADP	8
+PUNCT., PROPN NOUN NOUN NOUN	10
+PUNCT., PROPN PROPN NOUN ADP	7
+PUNCT., PUNCT NOUN ADP NOUN	7
+PUNCT., PUNCT NOUN NOUN PUNCT	8
+PUNCT., VERB AUX AUX AUX	7
+PUNCT., VERB AUX NOUN ADP	7
+SCONJ ADJ AUX AUX PUNCT	7
+SCONJ ADJ AUX NOUN ADP	17
+SCONJ ADJ NOUN ADP VERB	13
+SCONJ ADP ADJ AUX NOUN	13
+SCONJ ADP AUX AUX PUNCT	8
+SCONJ ADP NOUN ADP NOUN	13
+SCONJ ADP NOUN ADP VERB	23
+SCONJ ADP NOUN NOUN ADP	10
+SCONJ ADP PUNCT NOUN ADP	9
+SCONJ ADP VERB AUX AUX	12
+SCONJ AUX ADP PART NOUN	7
+SCONJ AUX ADP VERB AUX	12
+SCONJ AUX ADP VERB PUNCT	8
+SCONJ AUX AUX ADP VERB	14
+SCONJ AUX AUX AUX AUX	15
+SCONJ AUX AUX AUX PUNCT	126
+SCONJ AUX AUX AUX SCONJ	25
+SCONJ AUX AUX NOUN ADP	96
+SCONJ AUX AUX NOUN AUX	13
+SCONJ AUX AUX NOUN NOUN	28
+SCONJ AUX AUX NOUN PUNCT	7
+SCONJ AUX AUX PART ADP	15
+SCONJ AUX AUX PART AUX	13
+SCONJ AUX AUX PROPN ADP	16
+SCONJ AUX AUX PROPN NOUN	10
+SCONJ AUX AUX PUNCT ADP	11
+SCONJ AUX AUX PUNCT EOF	439
+SCONJ AUX AUX SCONJ NOUN	13
+SCONJ AUX AUX SCONJ PUNCT	85
+SCONJ AUX AUX SCONJ PUNCT.,	12
+SCONJ AUX AUX SCONJ VERB	11
+SCONJ AUX NOUN ADP ADJ	21
+SCONJ AUX NOUN ADP ADP	17
+SCONJ AUX NOUN ADP NOUN	49
+SCONJ AUX NOUN ADP PUNCT	20
+SCONJ AUX NOUN ADP VERB	79
+SCONJ AUX NOUN AUX ADP	9
+SCONJ AUX NOUN AUX PUNCT	11
+SCONJ AUX NOUN NOUN ADP	25
+SCONJ AUX NOUN NOUN AUX	7
+SCONJ AUX NOUN PUNCT NOUN	7
+SCONJ AUX PART ADP ADJ	7
+SCONJ AUX PUNCT ADJ NOUN	9
+SCONJ AUX PUNCT NOUN ADP	43
+SCONJ AUX PUNCT NOUN NOUN	24
+SCONJ AUX PUNCT PRON ADP	11
+SCONJ AUX PUNCT PROPN ADP	12
+SCONJ AUX PUNCT PROPN NOUN	11
+SCONJ AUX SCONJ ADJ AUX	9
+SCONJ AUX SCONJ AUX AUX	14
+SCONJ AUX SCONJ AUX PUNCT	14
+SCONJ AUX SCONJ NOUN ADP	8
+SCONJ AUX SCONJ PUNCT ADJ	14
+SCONJ AUX SCONJ PUNCT ADV	7
+SCONJ AUX SCONJ PUNCT NOUN	51
+SCONJ AUX SCONJ PUNCT PROPN	9
+SCONJ AUX SCONJ VERB AUX	11
+SCONJ NOUN ADP ADJ AUX	12
+SCONJ NOUN ADP ADJ PUNCT	8
+SCONJ NOUN ADP NOUN ADP	72
+SCONJ NOUN ADP NOUN NOUN	19
+SCONJ NOUN ADP VERB AUX	99
+SCONJ NOUN ADP VERB NOUN	18
+SCONJ NOUN ADP VERB PUNCT	27
+SCONJ NOUN ADP VERB SCONJ	43
+SCONJ NOUN NOUN ADP ADJ	8
+SCONJ NOUN NOUN ADP NOUN	43
+SCONJ NOUN NOUN ADP VERB	59
+SCONJ NOUN NOUN NOUN ADP	9
+SCONJ NUM NOUN ADP NOUN	7
+SCONJ NUM NOUN ADP VERB	12
+SCONJ NUM NOUN NOUN ADP	15
+SCONJ PART NOUN ADP VERB	12
+SCONJ PRON ADP VERB AUX	8
+SCONJ PROPN ADP NOUN ADP	14
+SCONJ PROPN ADP VERB AUX	12
+SCONJ PROPN NOUN ADP VERB	13
+SCONJ PROPN NOUN NOUN ADP	8
+SCONJ PUNCT ADJ AUX NOUN	23
+SCONJ PUNCT ADJ NOUN ADP	49
+SCONJ PUNCT ADJ NOUN NOUN	10
+SCONJ PUNCT ADV NOUN ADP	21
+SCONJ PUNCT ADV NOUN NOUN	7
+SCONJ PUNCT ADV VERB AUX	20
+SCONJ PUNCT NOUN ADP ADJ	31
+SCONJ PUNCT NOUN ADP ADP	33
+SCONJ PUNCT NOUN ADP ADV	10
+SCONJ PUNCT NOUN ADP NOUN	154
+SCONJ PUNCT NOUN ADP PROPN	20
+SCONJ PUNCT NOUN ADP PUNCT	8
+SCONJ PUNCT NOUN ADP VERB	92
+SCONJ PUNCT NOUN NOUN ADP	132
+SCONJ PUNCT NOUN NOUN NOUN	24
+SCONJ PUNCT NUM NOUN ADP	34
+SCONJ PUNCT NUM NOUN NOUN	25
+SCONJ PUNCT PART NUM NOUN	7
+SCONJ PUNCT PRON ADP ADP	8
+SCONJ PUNCT PRON ADP NOUN	24
+SCONJ PUNCT PRON ADP VERB	16
+SCONJ PUNCT PROPN ADP ADP	8
+SCONJ PUNCT PROPN ADP NOUN	32
+SCONJ PUNCT PROPN ADP PROPN	9
+SCONJ PUNCT PROPN ADP VERB	14
+SCONJ PUNCT PROPN NOUN ADP	28
+SCONJ PUNCT VERB AUX AUX	7
+SCONJ PUNCT VERB AUX NOUN	8
+SCONJ PUNCT., ADJ NOUN ADP	10
+SCONJ PUNCT., NOUN ADP ADP	7
+SCONJ PUNCT., NOUN ADP NOUN	27
+SCONJ PUNCT., NOUN ADP VERB	20
+SCONJ PUNCT., NOUN NOUN ADP	27
+SCONJ PUNCT., PRON ADP NOUN	8
+SCONJ PUNCT., PROPN NOUN ADP	9
+SCONJ VERB AUX ADP VERB	7
+SCONJ VERB AUX AUX AUX	42
+SCONJ VERB AUX AUX NOUN	28
+SCONJ VERB AUX AUX PUNCT	65
+SCONJ VERB AUX AUX SCONJ	20
+SCONJ VERB AUX NOUN ADP	31
+SCONJ VERB AUX NOUN NOUN	8
+SCONJ VERB AUX PUNCT EOF	65
+SCONJ VERB AUX PUNCT NOUN	15
+SCONJ VERB AUX SCONJ AUX	67
+SCONJ VERB AUX SCONJ PUNCT	14
+SCONJ VERB AUX SCONJ VERB	8
+SCONJ VERB NOUN ADP VERB	17
+SCONJ VERB SCONJ AUX AUX	41
+SCONJ VERB SCONJ AUX PUNCT	27
+SCONJ VERB SCONJ AUX SCONJ	7
+SYM ADP ADP NOUN ADP	7
+SYM ADP NOUN ADP NOUN	9
+SYM ADP NOUN ADP VERB	10
+SYM ADP NOUN NOUN ADP	7
+SYM ADP PUNCT NOUN NOUN	7
+SYM ADP VERB AUX AUX	12
+SYM ADP VERB PUNCT EOF	7
+SYM NOUN ADP NOUN ADP	22
+SYM NOUN ADP NOUN NOUN	8
+SYM NOUN ADP NUM NOUN	7
+SYM NOUN ADP VERB AUX	27
+SYM NOUN ADP VERB PUNCT	9
+SYM NOUN ADP VERB SCONJ	7
+SYM NOUN NOUN ADP NOUN	29
+SYM NOUN NOUN ADP VERB	18
+SYM NOUN NOUN NOUN ADP	14
+SYM NOUN NOUN NOUN NOUN	11
+SYM NOUN SYM NOUN ADP	10
+SYM NOUN SYM PROPN ADP	9
+SYM NOUN SYM PROPN SYM	7
+SYM PROPN ADP ADP NOUN	7
+SYM PROPN ADP NOUN ADP	56
+SYM PROPN ADP NOUN NOUN	24
+SYM PROPN ADP NUM NOUN	12
+SYM PROPN ADP PROPN ADP	11
+SYM PROPN ADP PROPN NOUN	10
+SYM PROPN ADP PUNCT NOUN	9
+SYM PROPN ADP VERB AUX	29
+SYM PROPN ADP VERB SCONJ	14
+SYM PROPN NOUN ADP NOUN	20
+SYM PROPN NOUN ADP VERB	20
+SYM PROPN NOUN NOUN ADP	12
+SYM PROPN PUNCT PROPN SYM	12
+SYM PROPN SYM NOUN ADP	7
+SYM PROPN SYM PROPN ADP	31
+SYM PROPN SYM PROPN NOUN	13
+SYM PROPN SYM PROPN SYM	32
+VERB ADJ AUX NOUN ADP	19
+VERB ADP ADP NOUN ADP	10
+VERB ADP ADP VERB AUX	10
+VERB ADP NOUN ADP NOUN	12
+VERB ADP NOUN ADP VERB	16
+VERB ADP NOUN NOUN ADP	13
+VERB ADP VERB AUX AUX	13
+VERB ADP VERB AUX PUNCT	22
+VERB ADP VERB AUX SCONJ	9
+VERB ADP VERB NOUN ADP	7
+VERB ADP VERB PUNCT EOF	16
+VERB ADP VERB SCONJ AUX	12
+VERB AUX ADJ AUX NOUN	17
+VERB AUX ADJ NOUN ADP	12
+VERB AUX ADP ADP NOUN	9
+VERB AUX ADP ADP VERB	7
+VERB AUX ADP NOUN ADP	25
+VERB AUX ADP PART NOUN	8
+VERB AUX ADP VERB AUX	40
+VERB AUX ADP VERB PUNCT	22
+VERB AUX ADP VERB SCONJ	18
+VERB AUX AUX ADJ AUX	8
+VERB AUX AUX ADP ADP	12
+VERB AUX AUX ADP AUX	7
+VERB AUX AUX ADP NOUN	16
+VERB AUX AUX ADP VERB	33
+VERB AUX AUX AUX ADJ	9
+VERB AUX AUX AUX ADP	15
+VERB AUX AUX AUX AUX	59
+VERB AUX AUX AUX NOUN	134
+VERB AUX AUX AUX PART	13
+VERB AUX AUX AUX PROPN	26
+VERB AUX AUX AUX PUNCT	314
+VERB AUX AUX AUX PUNCT.!	8
+VERB AUX AUX AUX SCONJ	68
+VERB AUX AUX NOUN ADP	374
+VERB AUX AUX NOUN AUX	39
+VERB AUX AUX NOUN NOUN	89
+VERB AUX AUX NOUN PUNCT	51
+VERB AUX AUX NUM NOUN	21
+VERB AUX AUX PART ADP	25
+VERB AUX AUX PART AUX	13
+VERB AUX AUX PART PUNCT	13
+VERB AUX AUX PROPN ADP	39
+VERB AUX AUX PROPN NOUN	18
+VERB AUX AUX PROPN PROPN	9
+VERB AUX AUX PROPN SYM	7
+VERB AUX AUX PUNCT ADJ	20
+VERB AUX AUX PUNCT ADP	12
+VERB AUX AUX PUNCT EOF	794
+VERB AUX AUX PUNCT NOUN	69
+VERB AUX AUX PUNCT NUM	12
+VERB AUX AUX PUNCT PROPN	24
+VERB AUX AUX PUNCT.! EOF	12
+VERB AUX AUX PUNCT., NOUN	7
+VERB AUX AUX SCONJ ADJ	10
+VERB AUX AUX SCONJ ADP	16
+VERB AUX AUX SCONJ AUX	287
+VERB AUX AUX SCONJ NOUN	15
+VERB AUX AUX SCONJ PUNCT	89
+VERB AUX AUX SCONJ PUNCT.,	21
+VERB AUX AUX SCONJ VERB	55
+VERB AUX AUX VERB AUX	12
+VERB AUX NOUN ADP ADJ	82
+VERB AUX NOUN ADP ADP	36
+VERB AUX NOUN ADP ADV	17
+VERB AUX NOUN ADP NOUN	240
+VERB AUX NOUN ADP NUM	18
+VERB AUX NOUN ADP PROPN	20
+VERB AUX NOUN ADP PUNCT	80
+VERB AUX NOUN ADP PUNCT.,	14
+VERB AUX NOUN ADP VERB	355
+VERB AUX NOUN AUX ADP	18
+VERB AUX NOUN AUX AUX	15
+VERB AUX NOUN AUX PUNCT	42
+VERB AUX NOUN AUX SCONJ	14
+VERB AUX NOUN NOUN ADP	123
+VERB AUX NOUN NOUN AUX	16
+VERB AUX NOUN NOUN NOUN	31
+VERB AUX NOUN NOUN NUM	7
+VERB AUX NOUN NOUN PUNCT	15
+VERB AUX NOUN PUNCT ADP	8
+VERB AUX NOUN PUNCT EOF	35
+VERB AUX NOUN PUNCT NOUN	36
+VERB AUX NOUN PUNCT PROPN	10
+VERB AUX NOUN PUNCT., NOUN	8
+VERB AUX NUM NOUN ADP	21
+VERB AUX PART ADP ADJ	15
+VERB AUX PART ADP NOUN	15
+VERB AUX PART ADP PUNCT	15
+VERB AUX PART ADP VERB	13
+VERB AUX PART AUX AUX	8
+VERB AUX PART AUX SCONJ	14
+VERB AUX PART PUNCT EOF	10
+VERB AUX PROPN ADP NOUN	27
+VERB AUX PROPN ADP PROPN	11
+VERB AUX PROPN ADP VERB	16
+VERB AUX PROPN NOUN ADP	31
+VERB AUX PROPN NOUN NOUN	14
+VERB AUX PROPN PROPN ADP	9
+VERB AUX PUNCT ADJ AUX	12
+VERB AUX PUNCT ADJ NOUN	34
+VERB AUX PUNCT ADP NOUN	8
+VERB AUX PUNCT ADP VERB	18
+VERB AUX PUNCT ADV NOUN	7
+VERB AUX PUNCT NOUN ADP	157
+VERB AUX PUNCT NOUN NOUN	94
+VERB AUX PUNCT NOUN NUM	9
+VERB AUX PUNCT NOUN PROPN	7
+VERB AUX PUNCT NUM NOUN	48
+VERB AUX PUNCT PRON ADP	11
+VERB AUX PUNCT PROPN ADP	27
+VERB AUX PUNCT PROPN NOUN	31
+VERB AUX PUNCT PROPN PROPN	7
+VERB AUX PUNCT PROPN PUNCT	7
+VERB AUX PUNCT PROPN SYM	8
+VERB AUX PUNCT VERB AUX	13
+VERB AUX PUNCT., NOUN ADP	16
+VERB AUX PUNCT., NOUN NOUN	8
+VERB AUX SCONJ ADJ AUX	11
+VERB AUX SCONJ ADJ NOUN	9
+VERB AUX SCONJ ADP NOUN	15
+VERB AUX SCONJ ADP PUNCT	7
+VERB AUX SCONJ ADP VERB	11
+VERB AUX SCONJ AUX ADP	17
+VERB AUX SCONJ AUX AUX	333
+VERB AUX SCONJ AUX NOUN	92
+VERB AUX SCONJ AUX PART	22
+VERB AUX SCONJ AUX PROPN	11
+VERB AUX SCONJ AUX PUNCT	314
+VERB AUX SCONJ AUX PUNCT.,	10
+VERB AUX SCONJ AUX SCONJ	59
+VERB AUX SCONJ NOUN ADP	88
+VERB AUX SCONJ NOUN NOUN	27
+VERB AUX SCONJ NUM NOUN	8
+VERB AUX SCONJ PRON ADP	7
+VERB AUX SCONJ PROPN ADP	11
+VERB AUX SCONJ PROPN NOUN	7
+VERB AUX SCONJ PUNCT ADJ	23
+VERB AUX SCONJ PUNCT ADV	16
+VERB AUX SCONJ PUNCT NOUN	110
+VERB AUX SCONJ PUNCT NUM	9
+VERB AUX SCONJ PUNCT PROPN	24
+VERB AUX SCONJ PUNCT VERB	9
+VERB AUX SCONJ PUNCT., NOUN	7
+VERB AUX SCONJ VERB AUX	96
+VERB AUX SCONJ VERB NOUN	11
+VERB AUX SCONJ VERB PUNCT	11
+VERB AUX SCONJ VERB SCONJ	33
+VERB AUX VERB AUX AUX	15
+VERB AUX VERB AUX SCONJ	12
+VERB NOUN ADP ADJ AUX	36
+VERB NOUN ADP ADJ NOUN	10
+VERB NOUN ADP ADJ PUNCT	22
+VERB NOUN ADP ADP NOUN	14
+VERB NOUN ADP ADP VERB	13
+VERB NOUN ADP ADV VERB	8
+VERB NOUN ADP NOUN ADP	119
+VERB NOUN ADP NOUN AUX	10
+VERB NOUN ADP NOUN NOUN	39
+VERB NOUN ADP NOUN PUNCT	13
+VERB NOUN ADP NUM NOUN	15
+VERB NOUN ADP PROPN NOUN	9
+VERB NOUN ADP PUNCT ADJ	8
+VERB NOUN ADP PUNCT NOUN	29
+VERB NOUN ADP PUNCT PROPN	7
+VERB NOUN ADP PUNCT VERB	9
+VERB NOUN ADP VERB AUX	192
+VERB NOUN ADP VERB NOUN	19
+VERB NOUN ADP VERB PUNCT	79
+VERB NOUN ADP VERB SCONJ	60
+VERB NOUN AUX ADP AUX	9
+VERB NOUN AUX AUX PUNCT	8
+VERB NOUN AUX PUNCT EOF	36
+VERB NOUN NOUN ADP ADP	7
+VERB NOUN NOUN ADP NOUN	34
+VERB NOUN NOUN ADP VERB	36
+VERB NOUN NOUN AUX PUNCT	9
+VERB NOUN NOUN NOUN ADP	16
+VERB NOUN NOUN NOUN NOUN	11
+VERB NOUN NOUN PUNCT EOF	14
+VERB NOUN PUNCT NOUN ADP	21
+VERB NOUN PUNCT NOUN NOUN	11
+VERB NOUN PUNCT NUM NOUN	8
+VERB NUM NOUN ADP NOUN	9
+VERB PART ADP ADJ AUX	11
+VERB PART ADP NOUN ADP	12
+VERB PART ADP NOUN AUX	7
+VERB PART ADP VERB AUX	9
+VERB PROPN ADP NOUN ADP	9
+VERB PROPN ADP NOUN NOUN	7
+VERB PROPN ADP VERB AUX	7
+VERB PROPN NOUN ADP NOUN	8
+VERB PUNCT ADJ AUX NOUN	16
+VERB PUNCT ADJ NOUN ADP	27
+VERB PUNCT NOUN ADP ADJ	15
+VERB PUNCT NOUN ADP ADP	14
+VERB PUNCT NOUN ADP NOUN	81
+VERB PUNCT NOUN ADP PROPN	9
+VERB PUNCT NOUN ADP PUNCT	8
+VERB PUNCT NOUN ADP VERB	68
+VERB PUNCT NOUN NOUN ADP	68
+VERB PUNCT NOUN NOUN NOUN	26
+VERB PUNCT NOUN NUM NOUN	10
+VERB PUNCT NUM NOUN ADP	29
+VERB PUNCT NUM NOUN NOUN	23
+VERB PUNCT PRON ADP NOUN	9
+VERB PUNCT PROPN ADP NOUN	24
+VERB PUNCT PROPN ADP PROPN	9
+VERB PUNCT PROPN ADP VERB	10
+VERB PUNCT PROPN NOUN ADP	17
+VERB PUNCT PROPN NOUN NOUN	9
+VERB PUNCT VERB AUX NOUN	9
+VERB PUNCT., NOUN ADP NOUN	12
+VERB PUNCT., NOUN NOUN ADP	7
+VERB SCONJ ADJ AUX NOUN	10
+VERB SCONJ ADJ NOUN ADP	13
+VERB SCONJ ADJ PUNCT EOF	8
+VERB SCONJ ADP ADJ AUX	16
+VERB SCONJ ADP AUX AUX	9
+VERB SCONJ ADP NOUN ADP	30
+VERB SCONJ ADP NOUN NOUN	13
+VERB SCONJ ADP PUNCT NOUN	11
+VERB SCONJ ADP PUNCT PROPN	7
+VERB SCONJ ADP PUNCT., NOUN	7
+VERB SCONJ ADP VERB AUX	15
+VERB SCONJ ADV VERB AUX	8
+VERB SCONJ AUX ADP VERB	19
+VERB SCONJ AUX AUX ADP	13
+VERB SCONJ AUX AUX AUX	121
+VERB SCONJ AUX AUX NOUN	79
+VERB SCONJ AUX AUX PART	19
+VERB SCONJ AUX AUX PROPN	21
+VERB SCONJ AUX AUX PUNCT	246
+VERB SCONJ AUX AUX SCONJ	79
+VERB SCONJ AUX NOUN ADP	113
+VERB SCONJ AUX NOUN AUX	18
+VERB SCONJ AUX NOUN NOUN	21
+VERB SCONJ AUX NOUN PUNCT	11
+VERB SCONJ AUX PART ADP	15
+VERB SCONJ AUX PART AUX	7
+VERB SCONJ AUX PUNCT ADJ	8
+VERB SCONJ AUX PUNCT ADP	9
+VERB SCONJ AUX PUNCT EOF	338
+VERB SCONJ AUX PUNCT NOUN	41
+VERB SCONJ AUX PUNCT PROPN	18
+VERB SCONJ AUX SCONJ ADJ	15
+VERB SCONJ AUX SCONJ ADP	10
+VERB SCONJ AUX SCONJ AUX	22
+VERB SCONJ AUX SCONJ PUNCT	47
+VERB SCONJ AUX SCONJ PUNCT.,	11
+VERB SCONJ AUX SCONJ VERB	8
+VERB SCONJ NOUN ADP ADJ	21
+VERB SCONJ NOUN ADP NOUN	57
+VERB SCONJ NOUN ADP PROPN	7
+VERB SCONJ NOUN ADP VERB	106
+VERB SCONJ NOUN NOUN ADP	76
+VERB SCONJ NOUN NOUN NOUN	11
+VERB SCONJ NUM NOUN ADP	13
+VERB SCONJ NUM NOUN NOUN	14
+VERB SCONJ PART NOUN ADP	19
+VERB SCONJ PRON ADP VERB	7
+VERB SCONJ PROPN ADP NOUN	18
+VERB SCONJ PROPN ADP VERB	17
+VERB SCONJ PROPN NOUN ADP	17
+VERB SCONJ PROPN NOUN NOUN	7
+VERB SCONJ PUNCT ADJ AUX	8
+VERB SCONJ PUNCT ADJ NOUN	16
+VERB SCONJ PUNCT ADV NOUN	8
+VERB SCONJ PUNCT NOUN ADP	105
+VERB SCONJ PUNCT NOUN NOUN	52
+VERB SCONJ PUNCT NUM NOUN	23
+VERB SCONJ PUNCT PRON ADP	18
+VERB SCONJ PUNCT PROPN ADP	28
+VERB SCONJ PUNCT PROPN NOUN	15
+VERB SCONJ PUNCT PROPN PUNCT	7
+VERB SCONJ PUNCT VERB AUX	9
+VERB SCONJ PUNCT VERB SCONJ	8
+VERB SCONJ PUNCT., NOUN ADP	25
+VERB SCONJ PUNCT., NOUN NOUN	14
+VERB SCONJ VERB AUX ADP	7
+VERB SCONJ VERB AUX AUX	109
+VERB SCONJ VERB AUX NOUN	30
+VERB SCONJ VERB AUX PUNCT	44
+VERB SCONJ VERB AUX SCONJ	54
+VERB SCONJ VERB NOUN ADP	16
+VERB SCONJ VERB PUNCT EOF	31
+VERB SCONJ VERB SCONJ AUX	40
+VERB VERB AUX AUX NOUN	7
+VERB VERB AUX SCONJ AUX	7
+
+[NGRAMS:6]
+2524
+ADJ ADP VERB AUX PUNCT EOF	17
+ADJ AUX AUX AUX PUNCT EOF	24
+ADJ AUX NOUN ADP ADJ AUX	11
+ADJ AUX NOUN ADP NOUN ADP	83
+ADJ AUX NOUN ADP NOUN NOUN	32
+ADJ AUX NOUN ADP NOUN PUNCT	11
+ADJ AUX NOUN ADP PUNCT NOUN	21
+ADJ AUX NOUN ADP VERB AUX	139
+ADJ AUX NOUN ADP VERB NOUN	30
+ADJ AUX NOUN ADP VERB PUNCT	25
+ADJ AUX NOUN ADP VERB SCONJ	67
+ADJ AUX NOUN AUX AUX PUNCT	10
+ADJ AUX NOUN AUX PUNCT EOF	16
+ADJ AUX NOUN NOUN ADP NOUN	26
+ADJ AUX NOUN NOUN ADP PUNCT	11
+ADJ AUX NOUN NOUN ADP VERB	51
+ADJ AUX NOUN NOUN NOUN ADP	21
+ADJ AUX SCONJ PUNCT NOUN ADP	12
+ADJ AUX VERB AUX AUX AUX	15
+ADJ AUX VERB AUX AUX NOUN	9
+ADJ AUX VERB AUX AUX PUNCT	10
+ADJ AUX VERB AUX AUX SCONJ	16
+ADJ AUX VERB AUX NOUN ADP	15
+ADJ AUX VERB AUX SCONJ AUX	26
+ADJ AUX VERB SCONJ AUX AUX	15
+ADJ NOUN ADP ADJ AUX NOUN	17
+ADJ NOUN ADP ADJ NOUN ADP	18
+ADJ NOUN ADP ADP NOUN ADP	15
+ADJ NOUN ADP ADP NOUN NOUN	11
+ADJ NOUN ADP NOUN ADP ADJ	18
+ADJ NOUN ADP NOUN ADP ADP	10
+ADJ NOUN ADP NOUN ADP ADV	9
+ADJ NOUN ADP NOUN ADP NOUN	43
+ADJ NOUN ADP NOUN ADP PUNCT	15
+ADJ NOUN ADP NOUN ADP VERB	99
+ADJ NOUN ADP NOUN NOUN ADP	60
+ADJ NOUN ADP NOUN NOUN AUX	9
+ADJ NOUN ADP NOUN NOUN NOUN	16
+ADJ NOUN ADP NUM NOUN ADP	19
+ADJ NOUN ADP PROPN ADP VERB	11
+ADJ NOUN ADP PUNCT NOUN ADP	10
+ADJ NOUN ADP PUNCT NOUN NOUN	13
+ADJ NOUN ADP VERB AUX ADP	9
+ADJ NOUN ADP VERB AUX AUX	81
+ADJ NOUN ADP VERB AUX NOUN	32
+ADJ NOUN ADP VERB AUX PUNCT	47
+ADJ NOUN ADP VERB AUX SCONJ	38
+ADJ NOUN ADP VERB NOUN ADP	20
+ADJ NOUN ADP VERB PUNCT EOF	25
+ADJ NOUN ADP VERB PUNCT NOUN	10
+ADJ NOUN ADP VERB SCONJ AUX	58
+ADJ NOUN ADP VERB SCONJ NOUN	10
+ADJ NOUN ADP VERB SCONJ PUNCT	13
+ADJ NOUN AUX AUX PUNCT EOF	11
+ADJ NOUN NOUN ADP NOUN ADP	31
+ADJ NOUN NOUN ADP NOUN NOUN	17
+ADJ NOUN NOUN ADP VERB AUX	28
+ADJ NOUN NOUN ADP VERB SCONJ	11
+ADJ NOUN NOUN NOUN ADP VERB	9
+ADJ NOUN PUNCT NOUN NOUN ADP	9
+ADJ PART NUM NOUN NUM NOUN	11
+ADJ PUNCT NOUN ADP NOUN ADP	10
+ADJ SCONJ PUNCT NOUN NOUN ADP	9
+ADJ VERB AUX AUX PUNCT EOF	15
+ADJ VERB AUX SCONJ AUX AUX	10
+ADP ADJ ADP VERB AUX PUNCT	14
+ADP ADJ AUX AUX AUX PUNCT	21
+ADP ADJ AUX AUX NOUN ADP	9
+ADP ADJ AUX AUX PUNCT EOF	65
+ADP ADJ AUX AUX SCONJ PUNCT	9
+ADP ADJ AUX NOUN ADP ADJ	12
+ADP ADJ AUX NOUN ADP NOUN	51
+ADP ADJ AUX NOUN ADP VERB	143
+ADP ADJ AUX NOUN AUX PUNCT	9
+ADP ADJ AUX NOUN NOUN ADP	46
+ADP ADJ AUX PUNCT NOUN ADP	12
+ADP ADJ AUX SCONJ PUNCT NOUN	16
+ADP ADJ AUX VERB AUX AUX	37
+ADP ADJ AUX VERB AUX NOUN	16
+ADP ADJ AUX VERB AUX PUNCT	14
+ADP ADJ AUX VERB AUX SCONJ	24
+ADP ADJ AUX VERB NOUN ADP	14
+ADP ADJ AUX VERB SCONJ AUX	12
+ADP ADJ NOUN ADP NOUN ADP	55
+ADP ADJ NOUN ADP NOUN NOUN	28
+ADP ADJ NOUN ADP VERB AUX	104
+ADP ADJ NOUN ADP VERB NOUN	11
+ADP ADJ NOUN ADP VERB PUNCT	26
+ADP ADJ NOUN ADP VERB SCONJ	45
+ADP ADJ NOUN AUX AUX PUNCT	9
+ADP ADJ NOUN AUX PUNCT EOF	16
+ADP ADJ NOUN NOUN ADP NOUN	12
+ADP ADJ NOUN NOUN ADP VERB	23
+ADP ADJ NOUN NOUN NOUN ADP	10
+ADP ADJ PART ADP VERB AUX	10
+ADP ADJ PUNCT NOUN ADP NOUN	9
+ADP ADJ PUNCT NOUN NOUN ADP	9
+ADP ADJ SCONJ PUNCT NOUN ADP	10
+ADP ADJ VERB AUX AUX PUNCT	11
+ADP ADJ VERB AUX PUNCT EOF	12
+ADP ADJ VERB AUX SCONJ AUX	13
+ADP ADP ADJ AUX NOUN ADP	21
+ADP ADP ADJ NOUN ADP VERB	13
+ADP ADP NOUN ADP ADJ AUX	11
+ADP ADP NOUN ADP NOUN ADP	87
+ADP ADP NOUN ADP NOUN NOUN	30
+ADP ADP NOUN ADP VERB AUX	80
+ADP ADP NOUN ADP VERB NOUN	16
+ADP ADP NOUN ADP VERB PUNCT	32
+ADP ADP NOUN ADP VERB SCONJ	46
+ADP ADP NOUN NOUN ADP ADJ	9
+ADP ADP NOUN NOUN ADP NOUN	44
+ADP ADP NOUN NOUN ADP VERB	59
+ADP ADP NOUN NOUN NOUN ADP	22
+ADP ADP NUM NOUN ADP NOUN	17
+ADP ADP NUM NOUN NOUN ADP	14
+ADP ADP PROPN ADP NOUN ADP	14
+ADP ADP PROPN ADP VERB AUX	14
+ADP ADP PROPN NOUN ADP NOUN	13
+ADP ADP PROPN NOUN ADP VERB	14
+ADP ADP PUNCT NOUN ADP ADP	9
+ADP ADP PUNCT NOUN ADP NOUN	47
+ADP ADP PUNCT NOUN ADP PROPN	10
+ADP ADP PUNCT NOUN ADP VERB	18
+ADP ADP PUNCT NOUN NOUN ADP	38
+ADP ADP PUNCT NOUN NOUN NOUN	11
+ADP ADP PUNCT PROPN ADP NOUN	11
+ADP ADP PUNCT., NOUN ADP NOUN	12
+ADP ADP PUNCT., NOUN NOUN ADP	15
+ADP ADP VERB AUX AUX AUX	34
+ADP ADP VERB AUX AUX NOUN	24
+ADP ADP VERB AUX AUX PUNCT	37
+ADP ADP VERB AUX AUX SCONJ	30
+ADP ADP VERB AUX NOUN ADP	30
+ADP ADP VERB AUX PUNCT EOF	43
+ADP ADP VERB AUX PUNCT NOUN	15
+ADP ADP VERB AUX SCONJ AUX	40
+ADP ADP VERB AUX SCONJ PUNCT	11
+ADP ADP VERB NOUN ADP VERB	12
+ADP ADP VERB SCONJ AUX AUX	24
+ADP ADP VERB SCONJ AUX PUNCT	15
+ADP ADV ADJ AUX AUX PUNCT	9
+ADP ADV ADJ AUX NOUN ADP	9
+ADP ADV NOUN ADP NOUN ADP	15
+ADP ADV NOUN ADP VERB AUX	26
+ADP ADV NOUN ADP VERB SCONJ	13
+ADP ADV NOUN NOUN ADP VERB	14
+ADP ADV VERB AUX AUX AUX	14
+ADP ADV VERB AUX AUX PUNCT	17
+ADP ADV VERB AUX AUX SCONJ	11
+ADP ADV VERB AUX NOUN ADP	13
+ADP ADV VERB AUX PUNCT EOF	17
+ADP ADV VERB AUX SCONJ AUX	15
+ADP ADV VERB SCONJ AUX AUX	13
+ADP ADV VERB SCONJ AUX PUNCT	11
+ADP AUX AUX AUX PUNCT EOF	18
+ADP AUX NOUN ADP NOUN ADP	14
+ADP AUX NOUN ADP VERB AUX	10
+ADP NOUN ADJ NOUN ADP VERB	9
+ADP NOUN ADP ADJ AUX AUX	43
+ADP NOUN ADP ADJ AUX NOUN	53
+ADP NOUN ADP ADJ AUX PUNCT	21
+ADP NOUN ADP ADJ AUX SCONJ	16
+ADP NOUN ADP ADJ AUX VERB	45
+ADP NOUN ADP ADJ NOUN ADP	65
+ADP NOUN ADP ADJ NOUN NOUN	12
+ADP NOUN ADP ADJ PART ADP	10
+ADP NOUN ADP ADJ PUNCT EOF	32
+ADP NOUN ADP ADJ PUNCT NOUN	14
+ADP NOUN ADP ADJ SCONJ PUNCT	12
+ADP NOUN ADP ADJ VERB AUX	26
+ADP NOUN ADP ADP ADJ AUX	18
+ADP NOUN ADP ADP NOUN ADP	60
+ADP NOUN ADP ADP NOUN NOUN	18
+ADP NOUN ADP ADP PUNCT NOUN	21
+ADP NOUN ADP ADP VERB AUX	68
+ADP NOUN ADP ADP VERB NOUN	10
+ADP NOUN ADP ADP VERB SCONJ	19
+ADP NOUN ADP ADV ADJ AUX	10
+ADP NOUN ADP ADV NOUN ADP	23
+ADP NOUN ADP ADV VERB AUX	25
+ADP NOUN ADP ADV VERB SCONJ	14
+ADP NOUN ADP AUX NOUN ADP	9
+ADP NOUN ADP NOUN ADJ AUX	9
+ADP NOUN ADP NOUN ADP ADJ	82
+ADP NOUN ADP NOUN ADP ADP	44
+ADP NOUN ADP NOUN ADP ADV	23
+ADP NOUN ADP NOUN ADP NOUN	346
+ADP NOUN ADP NOUN ADP NUM	13
+ADP NOUN ADP NOUN ADP PART	12
+ADP NOUN ADP NOUN ADP PROPN	32
+ADP NOUN ADP NOUN ADP PUNCT	43
+ADP NOUN ADP NOUN ADP PUNCT.,	16
+ADP NOUN ADP NOUN ADP VERB	657
+ADP NOUN ADP NOUN AUX AUX	20
+ADP NOUN ADP NOUN AUX PUNCT	36
+ADP NOUN ADP NOUN NOUN ADP	296
+ADP NOUN ADP NOUN NOUN AUX	15
+ADP NOUN ADP NOUN NOUN NOUN	72
+ADP NOUN ADP NOUN NOUN PUNCT	17
+ADP NOUN ADP NOUN NUM NOUN	10
+ADP NOUN ADP NOUN PUNCT EOF	44
+ADP NOUN ADP NOUN PUNCT NOUN	33
+ADP NOUN ADP NOUN PUNCT PROPN	9
+ADP NOUN ADP NOUN SYM NOUN	11
+ADP NOUN ADP NOUN VERB AUX	29
+ADP NOUN ADP NUM NOUN ADP	58
+ADP NOUN ADP NUM NOUN NOUN	35
+ADP NOUN ADP NUM NOUN VERB	11
+ADP NOUN ADP PART NOUN ADP	47
+ADP NOUN ADP PART NUM NOUN	9
+ADP NOUN ADP PRON ADP VERB	10
+ADP NOUN ADP PROPN ADP NOUN	46
+ADP NOUN ADP PROPN ADP VERB	33
+ADP NOUN ADP PROPN NOUN ADP	49
+ADP NOUN ADP PROPN NOUN NOUN	18
+ADP NOUN ADP PROPN PROPN ADP	16
+ADP NOUN ADP PUNCT ADJ NOUN	14
+ADP NOUN ADP PUNCT NOUN ADP	82
+ADP NOUN ADP PUNCT NOUN NOUN	55
+ADP NOUN ADP PUNCT NOUN PUNCT	18
+ADP NOUN ADP PUNCT NUM NOUN	9
+ADP NOUN ADP PUNCT PROPN ADP	22
+ADP NOUN ADP PUNCT PROPN NOUN	16
+ADP NOUN ADP PUNCT., NOUN ADP	22
+ADP NOUN ADP VERB ADJ AUX	9
+ADP NOUN ADP VERB ADP ADP	10
+ADP NOUN ADP VERB ADP NOUN	15
+ADP NOUN ADP VERB ADP VERB	26
+ADP NOUN ADP VERB AUX ADP	46
+ADP NOUN ADP VERB AUX AUX	588
+ADP NOUN ADP VERB AUX NOUN	304
+ADP NOUN ADP VERB AUX PART	27
+ADP NOUN ADP VERB AUX PROPN	38
+ADP NOUN ADP VERB AUX PUNCT	351
+ADP NOUN ADP VERB AUX PUNCT.,	9
+ADP NOUN ADP VERB AUX SCONJ	309
+ADP NOUN ADP VERB AUX VERB	20
+ADP NOUN ADP VERB NOUN ADP	190
+ADP NOUN ADP VERB NOUN AUX	19
+ADP NOUN ADP VERB NOUN NOUN	31
+ADP NOUN ADP VERB NOUN PUNCT	16
+ADP NOUN ADP VERB PART ADP	20
+ADP NOUN ADP VERB PUNCT ADJ	19
+ADP NOUN ADP VERB PUNCT ADP	9
+ADP NOUN ADP VERB PUNCT EOF	199
+ADP NOUN ADP VERB PUNCT NOUN	107
+ADP NOUN ADP VERB PUNCT NUM	13
+ADP NOUN ADP VERB PUNCT PROPN	28
+ADP NOUN ADP VERB PUNCT VERB	13
+ADP NOUN ADP VERB PUNCT., NOUN	14
+ADP NOUN ADP VERB SCONJ ADJ	18
+ADP NOUN ADP VERB SCONJ ADP	42
+ADP NOUN ADP VERB SCONJ AUX	378
+ADP NOUN ADP VERB SCONJ NOUN	87
+ADP NOUN ADP VERB SCONJ NUM	13
+ADP NOUN ADP VERB SCONJ PART	14
+ADP NOUN ADP VERB SCONJ PROPN	20
+ADP NOUN ADP VERB SCONJ PUNCT	73
+ADP NOUN ADP VERB SCONJ PUNCT.,	17
+ADP NOUN ADP VERB SCONJ VERB	128
+ADP NOUN ADP VERB VERB AUX	15
+ADP NOUN AUX ADP AUX AUX	9
+ADP NOUN AUX ADP AUX PUNCT	9
+ADP NOUN AUX AUX NOUN ADP	9
+ADP NOUN AUX AUX PUNCT EOF	39
+ADP NOUN AUX AUX SCONJ PUNCT	14
+ADP NOUN AUX NOUN ADP VERB	9
+ADP NOUN AUX SCONJ PUNCT NOUN	10
+ADP NOUN NOUN ADP ADJ AUX	52
+ADP NOUN NOUN ADP ADJ NOUN	27
+ADP NOUN NOUN ADP ADJ PUNCT	9
+ADP NOUN NOUN ADP ADJ VERB	10
+ADP NOUN NOUN ADP ADP ADJ	12
+ADP NOUN NOUN ADP ADP NOUN	36
+ADP NOUN NOUN ADP ADP PUNCT	19
+ADP NOUN NOUN ADP ADP VERB	27
+ADP NOUN NOUN ADP ADV VERB	9
+ADP NOUN NOUN ADP NOUN ADP	363
+ADP NOUN NOUN ADP NOUN AUX	16
+ADP NOUN NOUN ADP NOUN NOUN	128
+ADP NOUN NOUN ADP NOUN NUM	10
+ADP NOUN NOUN ADP NOUN PUNCT	25
+ADP NOUN NOUN ADP NOUN VERB	10
+ADP NOUN NOUN ADP NUM NOUN	34
+ADP NOUN NOUN ADP PART NOUN	26
+ADP NOUN NOUN ADP PART NUM	9
+ADP NOUN NOUN ADP PROPN ADP	30
+ADP NOUN NOUN ADP PROPN NOUN	25
+ADP NOUN NOUN ADP PUNCT NOUN	40
+ADP NOUN NOUN ADP PUNCT PROPN	16
+ADP NOUN NOUN ADP VERB AUX	476
+ADP NOUN NOUN ADP VERB NOUN	69
+ADP NOUN NOUN ADP VERB PROPN	9
+ADP NOUN NOUN ADP VERB PUNCT	101
+ADP NOUN NOUN ADP VERB SCONJ	164
+ADP NOUN NOUN AUX ADP AUX	9
+ADP NOUN NOUN AUX AUX PUNCT	14
+ADP NOUN NOUN AUX NOUN ADP	12
+ADP NOUN NOUN AUX PUNCT EOF	28
+ADP NOUN NOUN NOUN ADP ADJ	13
+ADP NOUN NOUN NOUN ADP ADP	16
+ADP NOUN NOUN NOUN ADP NOUN	103
+ADP NOUN NOUN NOUN ADP NUM	15
+ADP NOUN NOUN NOUN ADP PROPN	15
+ADP NOUN NOUN NOUN ADP PUNCT	12
+ADP NOUN NOUN NOUN ADP VERB	132
+ADP NOUN NOUN NOUN NOUN ADP	56
+ADP NOUN NOUN NOUN NOUN NOUN	14
+ADP NOUN NOUN NOUN PUNCT EOF	15
+ADP NOUN NOUN NUM NOUN ADP	15
+ADP NOUN NOUN PUNCT NOUN ADP	20
+ADP NOUN NOUN PUNCT NOUN NOUN	20
+ADP NOUN NUM NOUN ADP NOUN	30
+ADP NOUN NUM NOUN ADP VERB	23
+ADP NOUN NUM NOUN NOUN ADP	16
+ADP NOUN PROPN ADP NOUN ADP	17
+ADP NOUN PROPN ADP VERB AUX	17
+ADP NOUN PROPN NOUN ADP NOUN	14
+ADP NOUN PROPN NOUN ADP VERB	9
+ADP NOUN PUNCT ADJ NOUN ADP	10
+ADP NOUN PUNCT ADP VERB AUX	14
+ADP NOUN PUNCT ADP VERB SCONJ	9
+ADP NOUN PUNCT NOUN ADP ADJ	9
+ADP NOUN PUNCT NOUN ADP ADP	9
+ADP NOUN PUNCT NOUN ADP NOUN	43
+ADP NOUN PUNCT NOUN ADP VERB	11
+ADP NOUN PUNCT NOUN NOUN ADP	30
+ADP NOUN PUNCT NOUN PUNCT NOUN	11
+ADP NOUN PUNCT NUM NOUN ADP	10
+ADP NOUN PUNCT PROPN ADP NOUN	11
+ADP NOUN SYM NOUN ADP VERB	14
+ADP NOUN VERB AUX AUX AUX	11
+ADP NOUN VERB AUX AUX NOUN	14
+ADP NOUN VERB AUX AUX PUNCT	22
+ADP NOUN VERB AUX AUX SCONJ	10
+ADP NOUN VERB AUX NOUN ADP	17
+ADP NOUN VERB AUX PUNCT EOF	19
+ADP NUM NOUN ADP ADP NOUN	9
+ADP NUM NOUN ADP ADP VERB	11
+ADP NUM NOUN ADP NOUN ADP	96
+ADP NUM NOUN ADP NOUN NOUN	31
+ADP NUM NOUN ADP NOUN PUNCT	11
+ADP NUM NOUN ADP NUM NOUN	26
+ADP NUM NOUN ADP PROPN ADP	10
+ADP NUM NOUN ADP PROPN NOUN	9
+ADP NUM NOUN ADP PUNCT NOUN	11
+ADP NUM NOUN ADP VERB AUX	95
+ADP NUM NOUN ADP VERB PUNCT	24
+ADP NUM NOUN ADP VERB SCONJ	29
+ADP NUM NOUN AUX PUNCT EOF	9
+ADP NUM NOUN NOUN ADP NOUN	63
+ADP NUM NOUN NOUN ADP NUM	11
+ADP NUM NOUN NOUN ADP PUNCT	9
+ADP NUM NOUN NOUN ADP VERB	52
+ADP NUM NOUN NOUN NOUN NOUN	9
+ADP NUM NOUN NOUN NUM NOUN	30
+ADP NUM NOUN NOUN PUNCT EOF	10
+ADP NUM NOUN NUM NOUN ADP	11
+ADP NUM NOUN PUNCT NOUN ADP	10
+ADP NUM NOUN PUNCT PROPN ADP	12
+ADP NUM NOUN VERB AUX AUX	11
+ADP PART NOUN ADP ADJ AUX	12
+ADP PART NOUN ADP NOUN ADP	39
+ADP PART NOUN ADP NOUN NOUN	14
+ADP PART NOUN ADP PUNCT NOUN	10
+ADP PART NOUN ADP VERB AUX	68
+ADP PART NOUN ADP VERB PUNCT	21
+ADP PART NOUN ADP VERB SCONJ	25
+ADP PART NOUN NOUN ADP NOUN	16
+ADP PART NOUN NOUN ADP VERB	30
+ADP PART NUM NOUN ADP NOUN	16
+ADP PART NUM NOUN ADP VERB	23
+ADP PART NUM NOUN NOUN ADP	16
+ADP PART NUM NOUN PUNCT EOF	10
+ADP PRON ADP NOUN ADP VERB	14
+ADP PRON ADP NOUN NOUN ADP	10
+ADP PROPN ADP NOUN ADP NOUN	37
+ADP PROPN ADP NOUN ADP VERB	105
+ADP PROPN ADP NOUN NOUN ADP	43
+ADP PROPN ADP NOUN NOUN NOUN	17
+ADP PROPN ADP NUM NOUN ADP	12
+ADP PROPN ADP PART NOUN ADP	26
+ADP PROPN ADP PROPN ADP NOUN	12
+ADP PROPN ADP PROPN ADP VERB	15
+ADP PROPN ADP PROPN NOUN ADP	14
+ADP PROPN ADP PUNCT NOUN NOUN	10
+ADP PROPN ADP VERB AUX AUX	72
+ADP PROPN ADP VERB AUX NOUN	26
+ADP PROPN ADP VERB AUX PUNCT	33
+ADP PROPN ADP VERB AUX SCONJ	28
+ADP PROPN ADP VERB NOUN ADP	13
+ADP PROPN ADP VERB PUNCT EOF	22
+ADP PROPN ADP VERB SCONJ AUX	19
+ADP PROPN NOUN ADP NOUN ADP	84
+ADP PROPN NOUN ADP NOUN NOUN	37
+ADP PROPN NOUN ADP NUM NOUN	15
+ADP PROPN NOUN ADP PART NOUN	9
+ADP PROPN NOUN ADP PROPN NOUN	10
+ADP PROPN NOUN ADP PROPN PROPN	9
+ADP PROPN NOUN ADP VERB AUX	84
+ADP PROPN NOUN ADP VERB NOUN	9
+ADP PROPN NOUN ADP VERB PUNCT	14
+ADP PROPN NOUN ADP VERB SCONJ	12
+ADP PROPN NOUN NOUN ADP NOUN	38
+ADP PROPN NOUN NOUN ADP PROPN	10
+ADP PROPN NOUN NOUN ADP VERB	27
+ADP PROPN NOUN NOUN NOUN ADP	22
+ADP PROPN NOUN PROPN ADP VERB	9
+ADP PROPN PROPN ADP NOUN ADP	15
+ADP PROPN PROPN ADP NOUN NOUN	11
+ADP PROPN PROPN ADP VERB AUX	16
+ADP PROPN PROPN NOUN ADP NOUN	13
+ADP PROPN PROPN NOUN ADP VERB	19
+ADP PROPN PROPN NOUN NOUN ADP	9
+ADP PROPN SYM PROPN ADP NOUN	24
+ADP PROPN SYM PROPN ADP VERB	18
+ADP PROPN SYM PROPN NOUN ADP	11
+ADP PROPN SYM PROPN SYM PROPN	10
+ADP PUNCT ADJ AUX NOUN ADP	21
+ADP PUNCT ADJ NOUN ADP NOUN	18
+ADP PUNCT ADJ NOUN ADP VERB	16
+ADP PUNCT ADJ NOUN NOUN ADP	14
+ADP PUNCT NOUN ADP ADJ AUX	15
+ADP PUNCT NOUN ADP ADJ NOUN	10
+ADP PUNCT NOUN ADP ADP NOUN	14
+ADP PUNCT NOUN ADP NOUN ADP	156
+ADP PUNCT NOUN ADP NOUN NOUN	69
+ADP PUNCT NOUN ADP NOUN PUNCT	20
+ADP PUNCT NOUN ADP NUM NOUN	12
+ADP PUNCT NOUN ADP PROPN ADP	12
+ADP PUNCT NOUN ADP PROPN NOUN	11
+ADP PUNCT NOUN ADP VERB AUX	58
+ADP PUNCT NOUN ADP VERB NOUN	13
+ADP PUNCT NOUN ADP VERB SCONJ	26
+ADP PUNCT NOUN NOUN ADP ADJ	11
+ADP PUNCT NOUN NOUN ADP ADP	13
+ADP PUNCT NOUN NOUN ADP NOUN	84
+ADP PUNCT NOUN NOUN ADP PART	11
+ADP PUNCT NOUN NOUN ADP PROPN	10
+ADP PUNCT NOUN NOUN ADP VERB	49
+ADP PUNCT NOUN NOUN NOUN ADP	34
+ADP PUNCT NOUN NOUN NOUN NOUN	16
+ADP PUNCT NOUN NOUN NOUN PUNCT	17
+ADP PUNCT NOUN NOUN PUNCT ADP	38
+ADP PUNCT NOUN NOUN PUNCT NOUN	10
+ADP PUNCT NOUN PUNCT ADP VERB	28
+ADP PUNCT NUM NOUN ADP NOUN	17
+ADP PUNCT NUM NOUN NOUN ADP	21
+ADP PUNCT PRON ADP NOUN ADP	9
+ADP PUNCT PROPN ADP NOUN ADP	41
+ADP PUNCT PROPN ADP NOUN NOUN	16
+ADP PUNCT PROPN ADP PROPN ADP	11
+ADP PUNCT PROPN ADP VERB AUX	16
+ADP PUNCT PROPN NOUN ADP NOUN	32
+ADP PUNCT PROPN NOUN ADP VERB	10
+ADP PUNCT PROPN NOUN NOUN ADP	12
+ADP PUNCT PROPN PUNCT ADP VERB	20
+ADP PUNCT PROPN SYM PROPN ADP	9
+ADP PUNCT., ADJ NOUN ADP NOUN	9
+ADP PUNCT., NOUN ADP NOUN ADP	39
+ADP PUNCT., NOUN ADP NOUN NOUN	11
+ADP PUNCT., NOUN ADP VERB AUX	10
+ADP PUNCT., NOUN ADP VERB SCONJ	9
+ADP PUNCT., NOUN NOUN ADP NOUN	14
+ADP PUNCT., NOUN NOUN ADP VERB	11
+ADP PUNCT., PROPN NOUN ADP NOUN	12
+ADP VERB ADJ AUX NOUN ADP	17
+ADP VERB ADP ADP NOUN ADP	9
+ADP VERB ADP NOUN ADP NOUN	9
+ADP VERB ADP NOUN ADP VERB	9
+ADP VERB ADP NOUN NOUN ADP	9
+ADP VERB ADP VERB AUX AUX	10
+ADP VERB ADP VERB AUX PUNCT	16
+ADP VERB ADP VERB PUNCT EOF	11
+ADP VERB AUX ADJ AUX NOUN	13
+ADP VERB AUX ADJ NOUN ADP	10
+ADP VERB AUX ADP NOUN ADP	18
+ADP VERB AUX ADP VERB AUX	23
+ADP VERB AUX ADP VERB PUNCT	17
+ADP VERB AUX ADP VERB SCONJ	13
+ADP VERB AUX AUX ADP NOUN	10
+ADP VERB AUX AUX ADP VERB	26
+ADP VERB AUX AUX AUX ADP	12
+ADP VERB AUX AUX AUX AUX	44
+ADP VERB AUX AUX AUX NOUN	100
+ADP VERB AUX AUX AUX PART	9
+ADP VERB AUX AUX AUX PROPN	18
+ADP VERB AUX AUX AUX PUNCT	232
+ADP VERB AUX AUX AUX SCONJ	55
+ADP VERB AUX AUX NOUN ADP	283
+ADP VERB AUX AUX NOUN AUX	29
+ADP VERB AUX AUX NOUN NOUN	64
+ADP VERB AUX AUX NOUN PUNCT	41
+ADP VERB AUX AUX NUM NOUN	15
+ADP VERB AUX AUX PART ADP	18
+ADP VERB AUX AUX PART AUX	9
+ADP VERB AUX AUX PART PUNCT	9
+ADP VERB AUX AUX PROPN ADP	26
+ADP VERB AUX AUX PROPN NOUN	16
+ADP VERB AUX AUX PUNCT ADJ	15
+ADP VERB AUX AUX PUNCT EOF	618
+ADP VERB AUX AUX PUNCT NOUN	56
+ADP VERB AUX AUX PUNCT NUM	10
+ADP VERB AUX AUX PUNCT PROPN	22
+ADP VERB AUX AUX SCONJ ADP	13
+ADP VERB AUX AUX SCONJ AUX	223
+ADP VERB AUX AUX SCONJ NOUN	13
+ADP VERB AUX AUX SCONJ PUNCT	67
+ADP VERB AUX AUX SCONJ PUNCT.,	18
+ADP VERB AUX AUX SCONJ VERB	41
+ADP VERB AUX NOUN ADP ADJ	57
+ADP VERB AUX NOUN ADP ADP	27
+ADP VERB AUX NOUN ADP ADV	13
+ADP VERB AUX NOUN ADP NOUN	184
+ADP VERB AUX NOUN ADP NUM	16
+ADP VERB AUX NOUN ADP PROPN	18
+ADP VERB AUX NOUN ADP PUNCT	65
+ADP VERB AUX NOUN ADP PUNCT.,	10
+ADP VERB AUX NOUN ADP VERB	270
+ADP VERB AUX NOUN AUX ADP	16
+ADP VERB AUX NOUN AUX PUNCT	34
+ADP VERB AUX NOUN AUX SCONJ	9
+ADP VERB AUX NOUN NOUN ADP	93
+ADP VERB AUX NOUN NOUN AUX	11
+ADP VERB AUX NOUN NOUN NOUN	26
+ADP VERB AUX NOUN PUNCT EOF	25
+ADP VERB AUX NOUN PUNCT NOUN	27
+ADP VERB AUX NOUN PUNCT PROPN	9
+ADP VERB AUX NUM NOUN ADP	17
+ADP VERB AUX PART ADP ADJ	10
+ADP VERB AUX PART ADP NOUN	13
+ADP VERB AUX PART ADP PUNCT	12
+ADP VERB AUX PART ADP VERB	10
+ADP VERB AUX PART AUX SCONJ	9
+ADP VERB AUX PART PUNCT EOF	10
+ADP VERB AUX PROPN ADP NOUN	22
+ADP VERB AUX PROPN ADP PROPN	10
+ADP VERB AUX PROPN ADP VERB	13
+ADP VERB AUX PROPN NOUN ADP	29
+ADP VERB AUX PROPN NOUN NOUN	12
+ADP VERB AUX PUNCT ADJ AUX	9
+ADP VERB AUX PUNCT ADJ NOUN	28
+ADP VERB AUX PUNCT ADP VERB	14
+ADP VERB AUX PUNCT NOUN ADP	133
+ADP VERB AUX PUNCT NOUN NOUN	80
+ADP VERB AUX PUNCT NUM NOUN	42
+ADP VERB AUX PUNCT PROPN ADP	23
+ADP VERB AUX PUNCT PROPN NOUN	26
+ADP VERB AUX PUNCT VERB AUX	10
+ADP VERB AUX PUNCT., NOUN ADP	12
+ADP VERB AUX SCONJ ADP NOUN	12
+ADP VERB AUX SCONJ AUX ADP	14
+ADP VERB AUX SCONJ AUX AUX	228
+ADP VERB AUX SCONJ AUX NOUN	66
+ADP VERB AUX SCONJ AUX PART	14
+ADP VERB AUX SCONJ AUX PROPN	10
+ADP VERB AUX SCONJ AUX PUNCT	249
+ADP VERB AUX SCONJ AUX SCONJ	49
+ADP VERB AUX SCONJ NOUN ADP	69
+ADP VERB AUX SCONJ NOUN NOUN	20
+ADP VERB AUX SCONJ PROPN ADP	11
+ADP VERB AUX SCONJ PUNCT ADJ	18
+ADP VERB AUX SCONJ PUNCT ADV	10
+ADP VERB AUX SCONJ PUNCT NOUN	93
+ADP VERB AUX SCONJ PUNCT PROPN	18
+ADP VERB AUX SCONJ VERB AUX	70
+ADP VERB AUX SCONJ VERB PUNCT	11
+ADP VERB AUX SCONJ VERB SCONJ	24
+ADP VERB AUX VERB AUX AUX	11
+ADP VERB AUX VERB AUX SCONJ	12
+ADP VERB NOUN ADP ADJ AUX	25
+ADP VERB NOUN ADP ADJ PUNCT	20
+ADP VERB NOUN ADP ADP NOUN	11
+ADP VERB NOUN ADP ADP VERB	10
+ADP VERB NOUN ADP NOUN ADP	93
+ADP VERB NOUN ADP NOUN NOUN	32
+ADP VERB NOUN ADP NOUN PUNCT	11
+ADP VERB NOUN ADP NUM NOUN	13
+ADP VERB NOUN ADP PUNCT NOUN	23
+ADP VERB NOUN ADP VERB AUX	149
+ADP VERB NOUN ADP VERB NOUN	14
+ADP VERB NOUN ADP VERB PUNCT	63
+ADP VERB NOUN ADP VERB SCONJ	48
+ADP VERB NOUN AUX PUNCT EOF	27
+ADP VERB NOUN NOUN ADP NOUN	30
+ADP VERB NOUN NOUN ADP VERB	31
+ADP VERB NOUN NOUN NOUN ADP	16
+ADP VERB NOUN NOUN NOUN NOUN	10
+ADP VERB NOUN NOUN PUNCT EOF	11
+ADP VERB NOUN PUNCT NOUN ADP	11
+ADP VERB NUM NOUN ADP NOUN	9
+ADP VERB PART ADP ADJ AUX	9
+ADP VERB PART ADP NOUN ADP	9
+ADP VERB PUNCT ADJ AUX NOUN	13
+ADP VERB PUNCT ADJ NOUN ADP	25
+ADP VERB PUNCT NOUN ADP ADJ	13
+ADP VERB PUNCT NOUN ADP ADP	14
+ADP VERB PUNCT NOUN ADP NOUN	73
+ADP VERB PUNCT NOUN ADP PROPN	9
+ADP VERB PUNCT NOUN ADP VERB	62
+ADP VERB PUNCT NOUN NOUN ADP	62
+ADP VERB PUNCT NOUN NOUN NOUN	25
+ADP VERB PUNCT NOUN NUM NOUN	9
+ADP VERB PUNCT NUM NOUN ADP	26
+ADP VERB PUNCT NUM NOUN NOUN	21
+ADP VERB PUNCT PROPN ADP NOUN	23
+ADP VERB PUNCT PROPN ADP VERB	10
+ADP VERB PUNCT PROPN NOUN ADP	14
+ADP VERB PUNCT., NOUN ADP NOUN	12
+ADP VERB SCONJ ADJ NOUN ADP	11
+ADP VERB SCONJ ADP ADJ AUX	14
+ADP VERB SCONJ ADP NOUN ADP	25
+ADP VERB SCONJ ADP NOUN NOUN	10
+ADP VERB SCONJ ADP PUNCT NOUN	9
+ADP VERB SCONJ ADP VERB AUX	13
+ADP VERB SCONJ AUX ADP VERB	15
+ADP VERB SCONJ AUX AUX ADP	10
+ADP VERB SCONJ AUX AUX AUX	92
+ADP VERB SCONJ AUX AUX NOUN	65
+ADP VERB SCONJ AUX AUX PART	10
+ADP VERB SCONJ AUX AUX PROPN	21
+ADP VERB SCONJ AUX AUX PUNCT	188
+ADP VERB SCONJ AUX AUX SCONJ	65
+ADP VERB SCONJ AUX NOUN ADP	81
+ADP VERB SCONJ AUX NOUN AUX	15
+ADP VERB SCONJ AUX NOUN NOUN	17
+ADP VERB SCONJ AUX NOUN PUNCT	10
+ADP VERB SCONJ AUX PART ADP	9
+ADP VERB SCONJ AUX PUNCT EOF	286
+ADP VERB SCONJ AUX PUNCT NOUN	33
+ADP VERB SCONJ AUX PUNCT PROPN	18
+ADP VERB SCONJ AUX SCONJ ADJ	11
+ADP VERB SCONJ AUX SCONJ AUX	17
+ADP VERB SCONJ AUX SCONJ PUNCT	38
+ADP VERB SCONJ AUX SCONJ PUNCT.,	9
+ADP VERB SCONJ NOUN ADP ADJ	17
+ADP VERB SCONJ NOUN ADP NOUN	51
+ADP VERB SCONJ NOUN ADP VERB	101
+ADP VERB SCONJ NOUN NOUN ADP	68
+ADP VERB SCONJ NOUN NOUN NOUN	11
+ADP VERB SCONJ NUM NOUN ADP	10
+ADP VERB SCONJ NUM NOUN NOUN	13
+ADP VERB SCONJ PART NOUN ADP	19
+ADP VERB SCONJ PROPN ADP NOUN	16
+ADP VERB SCONJ PROPN ADP VERB	15
+ADP VERB SCONJ PROPN NOUN ADP	13
+ADP VERB SCONJ PUNCT ADJ NOUN	14
+ADP VERB SCONJ PUNCT NOUN ADP	98
+ADP VERB SCONJ PUNCT NOUN NOUN	45
+ADP VERB SCONJ PUNCT NUM NOUN	22
+ADP VERB SCONJ PUNCT PRON ADP	14
+ADP VERB SCONJ PUNCT PROPN ADP	22
+ADP VERB SCONJ PUNCT PROPN NOUN	15
+ADP VERB SCONJ PUNCT., NOUN ADP	22
+ADP VERB SCONJ PUNCT., NOUN NOUN	11
+ADP VERB SCONJ VERB AUX AUX	99
+ADP VERB SCONJ VERB AUX NOUN	26
+ADP VERB SCONJ VERB AUX PUNCT	37
+ADP VERB SCONJ VERB AUX SCONJ	49
+ADP VERB SCONJ VERB NOUN ADP	11
+ADP VERB SCONJ VERB PUNCT EOF	27
+ADP VERB SCONJ VERB SCONJ AUX	28
+ADV ADJ AUX AUX PUNCT EOF	16
+ADV ADJ AUX NOUN ADP VERB	14
+ADV NOUN ADP NOUN ADP NOUN	17
+ADV NOUN ADP NOUN ADP VERB	27
+ADV NOUN ADP NOUN NOUN ADP	13
+ADV NOUN ADP VERB AUX AUX	21
+ADV NOUN ADP VERB AUX NOUN	10
+ADV NOUN ADP VERB AUX PUNCT	10
+ADV NOUN ADP VERB AUX SCONJ	17
+ADV NOUN ADP VERB SCONJ AUX	20
+ADV NOUN NOUN ADP NOUN ADP	14
+ADV NOUN NOUN ADP VERB AUX	23
+ADV NOUN NOUN NOUN ADP NOUN	9
+ADV NUM NOUN ADP NOUN ADP	11
+ADV NUM NOUN ADP VERB AUX	11
+ADV PART NOUN ADP VERB AUX	9
+ADV VERB AUX AUX AUX PUNCT	10
+ADV VERB AUX AUX NOUN ADP	11
+ADV VERB AUX AUX PUNCT EOF	26
+ADV VERB AUX AUX SCONJ AUX	10
+ADV VERB AUX NOUN ADP NOUN	17
+ADV VERB AUX NOUN ADP VERB	10
+ADV VERB AUX SCONJ AUX AUX	21
+ADV VERB SCONJ AUX AUX PUNCT	15
+ADV VERB SCONJ AUX PUNCT EOF	12
+AUX ADJ AUX NOUN ADP VERB	9
+AUX ADJ AUX NOUN NOUN ADP	11
+AUX ADJ NOUN ADP NOUN ADP	10
+AUX ADP AUX AUX AUX PUNCT	14
+AUX ADP NOUN ADP VERB AUX	14
+AUX ADP NOUN ADP VERB SCONJ	9
+AUX ADP PART NOUN ADP VERB	9
+AUX ADP VERB AUX PUNCT EOF	67
+AUX ADP VERB AUX SCONJ AUX	13
+AUX ADP VERB SCONJ AUX AUX	15
+AUX AUX ADP NOUN ADP VERB	9
+AUX AUX ADP VERB AUX PUNCT	23
+AUX AUX ADP VERB PUNCT EOF	24
+AUX AUX AUX AUX PUNCT EOF	49
+AUX AUX AUX AUX SCONJ PUNCT	9
+AUX AUX AUX NOUN ADP NOUN	25
+AUX AUX AUX NOUN ADP PUNCT	10
+AUX AUX AUX NOUN ADP VERB	24
+AUX AUX AUX NOUN AUX PUNCT	16
+AUX AUX AUX PART PUNCT EOF	9
+AUX AUX AUX SCONJ PUNCT NOUN	27
+AUX AUX NOUN ADP ADJ AUX	24
+AUX AUX NOUN ADP ADJ NOUN	9
+AUX AUX NOUN ADP ADJ PUNCT	15
+AUX AUX NOUN ADP NOUN ADP	101
+AUX AUX NOUN ADP NOUN NOUN	28
+AUX AUX NOUN ADP NUM NOUN	10
+AUX AUX NOUN ADP PROPN ADP	9
+AUX AUX NOUN ADP PUNCT NOUN	29
+AUX AUX NOUN ADP PUNCT PROPN	17
+AUX AUX NOUN ADP PUNCT., NOUN	9
+AUX AUX NOUN ADP VERB AUX	103
+AUX AUX NOUN ADP VERB NOUN	15
+AUX AUX NOUN ADP VERB PUNCT	51
+AUX AUX NOUN ADP VERB SCONJ	49
+AUX AUX NOUN AUX PUNCT EOF	40
+AUX AUX NOUN NOUN ADP NOUN	30
+AUX AUX NOUN NOUN ADP VERB	27
+AUX AUX NOUN NOUN NOUN ADP	19
+AUX AUX NOUN NOUN NOUN NOUN	10
+AUX AUX NOUN PUNCT NOUN ADP	12
+AUX AUX NOUN PUNCT NOUN NOUN	10
+AUX AUX PART ADP NOUN ADP	9
+AUX AUX PART AUX PUNCT EOF	11
+AUX AUX PART AUX SCONJ PUNCT	12
+AUX AUX PROPN ADP NOUN ADP	21
+AUX AUX PROPN NOUN ADP NOUN	9
+AUX AUX PUNCT ADJ NOUN ADP	13
+AUX AUX PUNCT ADP VERB AUX	13
+AUX AUX PUNCT NOUN ADP NOUN	25
+AUX AUX PUNCT NOUN NOUN ADP	20
+AUX AUX SCONJ AUX AUX AUX	14
+AUX AUX SCONJ AUX AUX NOUN	17
+AUX AUX SCONJ AUX AUX PUNCT	62
+AUX AUX SCONJ AUX AUX SCONJ	14
+AUX AUX SCONJ AUX NOUN ADP	21
+AUX AUX SCONJ AUX PUNCT EOF	111
+AUX AUX SCONJ AUX PUNCT NOUN	12
+AUX AUX SCONJ AUX SCONJ PUNCT	14
+AUX AUX SCONJ NOUN ADP VERB	13
+AUX AUX SCONJ NOUN NOUN ADP	10
+AUX AUX SCONJ PUNCT ADJ NOUN	16
+AUX AUX SCONJ PUNCT NOUN ADP	90
+AUX AUX SCONJ PUNCT NOUN NOUN	34
+AUX AUX SCONJ PUNCT NUM NOUN	22
+AUX AUX SCONJ PUNCT PRON ADP	21
+AUX AUX SCONJ PUNCT PROPN ADP	19
+AUX AUX SCONJ PUNCT., NOUN ADP	22
+AUX AUX SCONJ PUNCT., NOUN NOUN	10
+AUX AUX SCONJ VERB AUX AUX	16
+AUX AUX SCONJ VERB AUX PUNCT	19
+AUX AUX SCONJ VERB PUNCT EOF	11
+AUX AUX SCONJ VERB SCONJ AUX	12
+AUX NOUN ADP ADJ AUX AUX	20
+AUX NOUN ADP ADJ AUX NOUN	19
+AUX NOUN ADP ADJ AUX PUNCT	13
+AUX NOUN ADP ADJ AUX VERB	13
+AUX NOUN ADP ADJ NOUN ADP	15
+AUX NOUN ADP ADJ PUNCT EOF	34
+AUX NOUN ADP ADP NOUN ADP	16
+AUX NOUN ADP ADP PUNCT NOUN	9
+AUX NOUN ADP ADP VERB AUX	16
+AUX NOUN ADP ADV VERB AUX	10
+AUX NOUN ADP NOUN ADP ADJ	28
+AUX NOUN ADP NOUN ADP ADP	15
+AUX NOUN ADP NOUN ADP NOUN	107
+AUX NOUN ADP NOUN ADP PUNCT	27
+AUX NOUN ADP NOUN ADP VERB	194
+AUX NOUN ADP NOUN AUX PUNCT	12
+AUX NOUN ADP NOUN NOUN ADP	74
+AUX NOUN ADP NOUN NOUN NOUN	19
+AUX NOUN ADP NOUN NOUN PUNCT	9
+AUX NOUN ADP NOUN PUNCT EOF	14
+AUX NOUN ADP NOUN VERB AUX	11
+AUX NOUN ADP NUM NOUN ADP	17
+AUX NOUN ADP PROPN ADP VERB	11
+AUX NOUN ADP PUNCT NOUN ADP	68
+AUX NOUN ADP PUNCT NOUN NOUN	25
+AUX NOUN ADP PUNCT NUM NOUN	10
+AUX NOUN ADP PUNCT PROPN ADP	11
+AUX NOUN ADP PUNCT PROPN NOUN	12
+AUX NOUN ADP PUNCT., NOUN ADP	12
+AUX NOUN ADP VERB AUX ADP	11
+AUX NOUN ADP VERB AUX AUX	159
+AUX NOUN ADP VERB AUX NOUN	44
+AUX NOUN ADP VERB AUX PUNCT	145
+AUX NOUN ADP VERB AUX SCONJ	87
+AUX NOUN ADP VERB NOUN ADP	52
+AUX NOUN ADP VERB NOUN AUX	9
+AUX NOUN ADP VERB NOUN PUNCT	10
+AUX NOUN ADP VERB PUNCT ADJ	11
+AUX NOUN ADP VERB PUNCT EOF	121
+AUX NOUN ADP VERB PUNCT NOUN	33
+AUX NOUN ADP VERB PUNCT PROPN	9
+AUX NOUN ADP VERB SCONJ AUX	112
+AUX NOUN ADP VERB SCONJ NOUN	18
+AUX NOUN ADP VERB SCONJ PUNCT	27
+AUX NOUN ADP VERB SCONJ VERB	21
+AUX NOUN AUX ADP AUX PUNCT	16
+AUX NOUN AUX AUX PUNCT EOF	28
+AUX NOUN AUX PUNCT NOUN ADP	10
+AUX NOUN AUX SCONJ PUNCT NOUN	9
+AUX NOUN NOUN ADP ADJ AUX	9
+AUX NOUN NOUN ADP NOUN ADP	71
+AUX NOUN NOUN ADP NOUN NOUN	26
+AUX NOUN NOUN ADP PUNCT NOUN	23
+AUX NOUN NOUN ADP VERB AUX	81
+AUX NOUN NOUN ADP VERB PUNCT	19
+AUX NOUN NOUN ADP VERB SCONJ	22
+AUX NOUN NOUN AUX PUNCT EOF	24
+AUX NOUN NOUN NOUN ADP NOUN	21
+AUX NOUN NOUN NOUN ADP VERB	23
+AUX NOUN NOUN NOUN NOUN ADP	12
+AUX NOUN PUNCT NOUN ADP NOUN	20
+AUX NOUN PUNCT NOUN ADP VERB	13
+AUX NOUN PUNCT NOUN NOUN ADP	11
+AUX NUM NOUN ADP NOUN ADP	16
+AUX NUM NOUN ADP VERB AUX	9
+AUX PART ADP PUNCT NOUN ADP	10
+AUX PART AUX AUX PUNCT EOF	11
+AUX PART AUX SCONJ PUNCT NOUN	14
+AUX PROPN ADP NOUN ADP NOUN	16
+AUX PROPN ADP NOUN ADP VERB	29
+AUX PROPN ADP PROPN ADP VERB	9
+AUX PROPN ADP VERB AUX PUNCT	10
+AUX PROPN NOUN ADP NOUN ADP	22
+AUX PROPN NOUN ADP VERB AUX	12
+AUX PROPN PROPN ADP NOUN ADP	9
+AUX PROPN PROPN ADP VERB AUX	9
+AUX PUNCT ADJ AUX NOUN ADP	19
+AUX PUNCT ADJ NOUN ADP NOUN	15
+AUX PUNCT ADJ NOUN ADP VERB	21
+AUX PUNCT ADP NOUN ADP VERB	10
+AUX PUNCT ADP VERB AUX PUNCT	9
+AUX PUNCT ADP VERB SCONJ AUX	11
+AUX PUNCT NOUN ADP NOUN ADP	92
+AUX PUNCT NOUN ADP NOUN NOUN	26
+AUX PUNCT NOUN ADP NUM NOUN	11
+AUX PUNCT NOUN ADP VERB AUX	43
+AUX PUNCT NOUN ADP VERB NOUN	11
+AUX PUNCT NOUN ADP VERB SCONJ	19
+AUX PUNCT NOUN NOUN ADP ADJ	10
+AUX PUNCT NOUN NOUN ADP ADP	10
+AUX PUNCT NOUN NOUN ADP NOUN	47
+AUX PUNCT NOUN NOUN ADP VERB	30
+AUX PUNCT NOUN NOUN NOUN ADP	22
+AUX PUNCT NOUN NOUN NOUN NOUN	9
+AUX PUNCT NOUN NOUN PUNCT ADP	11
+AUX PUNCT NOUN NUM NOUN ADP	13
+AUX PUNCT NUM NOUN ADP NOUN	12
+AUX PUNCT NUM NOUN ADP NUM	9
+AUX PUNCT NUM NOUN ADP VERB	10
+AUX PUNCT NUM NOUN NOUN ADP	20
+AUX PUNCT PRON ADP NOUN ADP	12
+AUX PUNCT PROPN ADP NOUN ADP	17
+AUX PUNCT PROPN ADP NOUN NOUN	9
+AUX PUNCT PROPN ADP VERB AUX	11
+AUX PUNCT PROPN NOUN ADP NOUN	19
+AUX PUNCT PROPN NOUN NOUN ADP	13
+AUX PUNCT., NOUN ADP NOUN ADP	18
+AUX SCONJ ADJ AUX NOUN ADP	11
+AUX SCONJ AUX AUX AUX PUNCT	44
+AUX SCONJ AUX AUX NOUN ADP	41
+AUX SCONJ AUX AUX NOUN NOUN	19
+AUX SCONJ AUX AUX PUNCT EOF	204
+AUX SCONJ AUX AUX SCONJ PUNCT	36
+AUX SCONJ AUX NOUN ADP ADJ	11
+AUX SCONJ AUX NOUN ADP ADP	9
+AUX SCONJ AUX NOUN ADP NOUN	23
+AUX SCONJ AUX NOUN ADP PUNCT	9
+AUX SCONJ AUX NOUN ADP VERB	29
+AUX SCONJ AUX NOUN NOUN ADP	12
+AUX SCONJ AUX PUNCT NOUN ADP	19
+AUX SCONJ AUX PUNCT NOUN NOUN	13
+AUX SCONJ AUX SCONJ PUNCT ADJ	9
+AUX SCONJ AUX SCONJ PUNCT NOUN	19
+AUX SCONJ NOUN ADP NOUN ADP	24
+AUX SCONJ NOUN ADP VERB AUX	41
+AUX SCONJ NOUN ADP VERB SCONJ	23
+AUX SCONJ NOUN NOUN ADP NOUN	14
+AUX SCONJ NOUN NOUN ADP VERB	23
+AUX SCONJ PUNCT ADJ AUX NOUN	17
+AUX SCONJ PUNCT ADJ NOUN ADP	38
+AUX SCONJ PUNCT ADV NOUN ADP	15
+AUX SCONJ PUNCT ADV VERB AUX	15
+AUX SCONJ PUNCT NOUN ADP ADJ	16
+AUX SCONJ PUNCT NOUN ADP ADP	23
+AUX SCONJ PUNCT NOUN ADP NOUN	103
+AUX SCONJ PUNCT NOUN ADP PROPN	11
+AUX SCONJ PUNCT NOUN ADP VERB	66
+AUX SCONJ PUNCT NOUN NOUN ADP	85
+AUX SCONJ PUNCT NOUN NOUN NOUN	14
+AUX SCONJ PUNCT NUM NOUN ADP	22
+AUX SCONJ PUNCT NUM NOUN NOUN	15
+AUX SCONJ PUNCT PRON ADP NOUN	13
+AUX SCONJ PUNCT PRON ADP VERB	10
+AUX SCONJ PUNCT PROPN ADP NOUN	18
+AUX SCONJ PUNCT PROPN NOUN ADP	14
+AUX SCONJ PUNCT., ADJ NOUN ADP	9
+AUX SCONJ PUNCT., NOUN ADP NOUN	9
+AUX SCONJ PUNCT., NOUN ADP VERB	12
+AUX SCONJ PUNCT., NOUN NOUN ADP	14
+AUX SCONJ VERB AUX AUX AUX	17
+AUX SCONJ VERB AUX AUX PUNCT	20
+AUX SCONJ VERB AUX NOUN ADP	12
+AUX SCONJ VERB AUX PUNCT EOF	34
+AUX SCONJ VERB AUX PUNCT NOUN	9
+AUX SCONJ VERB AUX SCONJ AUX	26
+AUX SCONJ VERB SCONJ AUX AUX	18
+AUX SCONJ VERB SCONJ AUX PUNCT	16
+AUX VERB AUX AUX AUX PUNCT	16
+AUX VERB AUX AUX PUNCT EOF	16
+AUX VERB AUX AUX SCONJ AUX	9
+AUX VERB AUX NOUN ADP VERB	12
+AUX VERB AUX SCONJ AUX AUX	16
+AUX VERB AUX SCONJ AUX PUNCT	12
+AUX VERB SCONJ AUX AUX PUNCT	12
+BOF ADJ AUX NOUN ADP NOUN	32
+BOF ADJ AUX NOUN ADP PUNCT	10
+BOF ADJ AUX NOUN ADP VERB	14
+BOF ADJ NOUN ADP ADJ AUX	12
+BOF ADJ NOUN ADP NOUN ADP	66
+BOF ADJ NOUN ADP NOUN NOUN	32
+BOF ADJ NOUN ADP NUM NOUN	13
+BOF ADJ NOUN ADP PROPN ADP	19
+BOF ADJ NOUN ADP PUNCT NOUN	12
+BOF ADJ NOUN ADP VERB AUX	23
+BOF ADJ NOUN ADP VERB SCONJ	15
+BOF ADJ NOUN NOUN ADP NOUN	11
+BOF ADJ NOUN NOUN ADP VERB	9
+BOF ADJ NOUN PUNCT NOUN ADP	11
+BOF ADJ NOUN PUNCT NOUN NOUN	10
+BOF ADV NOUN ADP NOUN ADP	19
+BOF ADV NOUN ADP VERB AUX	14
+BOF ADV NOUN ADP VERB SCONJ	12
+BOF CCONJ NOUN ADP NOUN ADP	16
+BOF CCONJ NOUN ADP VERB SCONJ	9
+BOF CCONJ NOUN NOUN ADP NOUN	16
+BOF CCONJ PUNCT ADJ NOUN ADP	16
+BOF CCONJ PUNCT NOUN ADP ADJ	10
+BOF CCONJ PUNCT NOUN ADP NOUN	33
+BOF CCONJ PUNCT NOUN ADP VERB	15
+BOF CCONJ PUNCT NOUN NOUN ADP	43
+BOF CCONJ PUNCT NOUN NOUN NOUN	10
+BOF CCONJ PUNCT NUM NOUN ADP	10
+BOF CCONJ PUNCT PROPN ADP NOUN	9
+BOF CCONJ PUNCT PROPN ADP PROPN	9
+BOF CCONJ PUNCT., NOUN ADP NOUN	11
+BOF NOUN ADP ADJ AUX NOUN	20
+BOF NOUN ADP ADJ NOUN ADP	27
+BOF NOUN ADP ADJ PUNCT EOF	10
+BOF NOUN ADP ADP NOUN ADP	44
+BOF NOUN ADP ADP NOUN NOUN	15
+BOF NOUN ADP ADP PROPN ADP	10
+BOF NOUN ADP ADP PUNCT NOUN	28
+BOF NOUN ADP ADP VERB AUX	15
+BOF NOUN ADP NOUN ADP ADJ	47
+BOF NOUN ADP NOUN ADP ADP	45
+BOF NOUN ADP NOUN ADP ADV	15
+BOF NOUN ADP NOUN ADP NOUN	175
+BOF NOUN ADP NOUN ADP NUM	12
+BOF NOUN ADP NOUN ADP PROPN	26
+BOF NOUN ADP NOUN ADP PUNCT	33
+BOF NOUN ADP NOUN ADP VERB	133
+BOF NOUN ADP NOUN NOUN ADP	133
+BOF NOUN ADP NOUN NOUN NOUN	33
+BOF NOUN ADP NOUN PROPN ADP	9
+BOF NOUN ADP NOUN PUNCT EOF	17
+BOF NOUN ADP NOUN PUNCT NOUN	19
+BOF NOUN ADP NUM NOUN ADP	24
+BOF NOUN ADP NUM NOUN NOUN	16
+BOF NOUN ADP PART NOUN ADP	11
+BOF NOUN ADP PROPN ADP NOUN	24
+BOF NOUN ADP PROPN ADP VERB	18
+BOF NOUN ADP PROPN NOUN ADP	24
+BOF NOUN ADP PROPN PROPN ADP	10
+BOF NOUN ADP PROPN PUNCT EOF	9
+BOF NOUN ADP PUNCT NOUN ADP	22
+BOF NOUN ADP PUNCT NOUN NOUN	16
+BOF NOUN ADP VERB AUX AUX	44
+BOF NOUN ADP VERB AUX NOUN	41
+BOF NOUN ADP VERB AUX PUNCT	9
+BOF NOUN ADP VERB AUX SCONJ	16
+BOF NOUN ADP VERB NOUN ADP	22
+BOF NOUN ADP VERB SCONJ ADP	13
+BOF NOUN ADP VERB SCONJ AUX	17
+BOF NOUN ADP VERB SCONJ NOUN	12
+BOF NOUN ADP VERB SCONJ PUNCT	12
+BOF NOUN ADP VERB SCONJ VERB	9
+BOF NOUN NOUN ADP ADJ AUX	17
+BOF NOUN NOUN ADP ADP NOUN	19
+BOF NOUN NOUN ADP ADP PUNCT	13
+BOF NOUN NOUN ADP NOUN ADP	167
+BOF NOUN NOUN ADP NOUN AUX	13
+BOF NOUN NOUN ADP NOUN NOUN	76
+BOF NOUN NOUN ADP NUM NOUN	24
+BOF NOUN NOUN ADP PART NOUN	11
+BOF NOUN NOUN ADP PROPN ADP	17
+BOF NOUN NOUN ADP PROPN NOUN	12
+BOF NOUN NOUN ADP PROPN PROPN	9
+BOF NOUN NOUN ADP PUNCT NOUN	25
+BOF NOUN NOUN ADP VERB AUX	53
+BOF NOUN NOUN ADP VERB NOUN	9
+BOF NOUN NOUN ADP VERB SCONJ	35
+BOF NOUN NOUN NOUN ADP ADP	14
+BOF NOUN NOUN NOUN ADP NOUN	56
+BOF NOUN NOUN NOUN ADP PROPN	15
+BOF NOUN NOUN NOUN ADP VERB	33
+BOF NOUN NOUN NOUN NOUN ADP	24
+BOF NOUN NUM NOUN ADP NOUN	17
+BOF NOUN NUM NOUN NOUN ADP	14
+BOF NOUN NUM NOUN PUNCT PROPN	10
+BOF NOUN PUNCT NOUN ADP NOUN	12
+BOF NOUN PUNCT NOUN ADP VERB	9
+BOF NOUN PUNCT NOUN NOUN ADP	14
+BOF NOUN PUNCT NOUN PUNCT NOUN	12
+BOF NUM NOUN ADP ADP NOUN	14
+BOF NUM NOUN ADP ADP PROPN	18
+BOF NUM NOUN ADP NOUN ADP	44
+BOF NUM NOUN ADP NOUN NOUN	30
+BOF NUM NOUN ADP NUM NOUN	22
+BOF NUM NOUN ADP PROPN ADP	16
+BOF NUM NOUN ADP PROPN NOUN	11
+BOF NUM NOUN ADP VERB AUX	16
+BOF NUM NOUN NOUN ADP ADP	15
+BOF NUM NOUN NOUN ADP NOUN	37
+BOF NUM NOUN NOUN ADP VERB	11
+BOF NUM NOUN NOUN NOUN ADP	13
+BOF NUM NOUN NOUN NUM NOUN	81
+BOF NUM NOUN NOUN PUNCT PROPN	12
+BOF NUM NOUN PUNCT PROPN ADP	11
+BOF NUM NOUN PUNCT PROPN NOUN	13
+BOF PRON ADP ADP NOUN ADP	10
+BOF PRON ADP NOUN ADP NOUN	39
+BOF PRON ADP NOUN ADP PROPN	9
+BOF PRON ADP NOUN ADP VERB	15
+BOF PRON ADP NOUN NOUN ADP	27
+BOF PROPN ADP ADP NOUN ADP	11
+BOF PROPN ADP NOUN ADP ADJ	14
+BOF PROPN ADP NOUN ADP NOUN	49
+BOF PROPN ADP NOUN ADP PROPN	9
+BOF PROPN ADP NOUN ADP PUNCT	11
+BOF PROPN ADP NOUN ADP VERB	36
+BOF PROPN ADP NOUN NOUN ADP	53
+BOF PROPN ADP NOUN NOUN NOUN	10
+BOF PROPN ADP NUM NOUN PUNCT	9
+BOF PROPN ADP PROPN ADP NOUN	12
+BOF PROPN ADP PROPN ADP VERB	12
+BOF PROPN ADP PROPN NOUN ADP	12
+BOF PROPN ADP VERB AUX AUX	18
+BOF PROPN NOUN ADP NOUN ADP	43
+BOF PROPN NOUN ADP NOUN NOUN	32
+BOF PROPN NOUN ADP PROPN NOUN	9
+BOF PROPN NOUN ADP VERB AUX	12
+BOF PROPN NOUN NOUN ADP NOUN	13
+BOF PROPN NOUN NOUN NOUN NOUN	12
+BOF PROPN PROPN ADP NOUN ADP	14
+BOF PROPN PROPN NOUN PUNCT EOF	11
+BOF PUNCT NOUN ADP NOUN ADP	9
+BOF PUNCT NOUN NOUN PUNCT ADP	15
+BOF VERB AUX AUX NOUN ADP	9
+CCONJ NOUN NOUN ADP NOUN ADP	20
+CCONJ NOUN NOUN ADP VERB AUX	12
+CCONJ PUNCT NOUN ADP NOUN ADP	27
+CCONJ PUNCT NOUN NOUN ADP ADP	9
+CCONJ PUNCT NOUN NOUN ADP NOUN	18
+NOUN ADJ AUX NOUN ADP VERB	11
+NOUN ADJ NOUN ADP NOUN ADP	9
+NOUN ADJ NOUN ADP VERB AUX	16
+NOUN ADJ NOUN ADP VERB SCONJ	10
+NOUN ADP ADJ ADP AUX AUX	11
+NOUN ADP ADJ ADP NOUN ADP	9
+NOUN ADP ADJ ADP VERB AUX	15
+NOUN ADP ADJ AUX ADJ NOUN	9
+NOUN ADP ADJ AUX AUX AUX	39
+NOUN ADP ADJ AUX AUX NOUN	9
+NOUN ADP ADJ AUX AUX PUNCT	61
+NOUN ADP ADJ AUX AUX SCONJ	17
+NOUN ADP ADJ AUX NOUN ADP	165
+NOUN ADP ADJ AUX NOUN AUX	19
+NOUN ADP ADJ AUX NOUN NOUN	36
+NOUN ADP ADJ AUX PUNCT EOF	41
+NOUN ADP ADJ AUX PUNCT NOUN	17
+NOUN ADP ADJ AUX SCONJ AUX	9
+NOUN ADP ADJ AUX SCONJ PUNCT	23
+NOUN ADP ADJ AUX VERB AUX	79
+NOUN ADP ADJ AUX VERB NOUN	14
+NOUN ADP ADJ AUX VERB SCONJ	19
+NOUN ADP ADJ NOUN ADP ADJ	17
+NOUN ADP ADJ NOUN ADP ADP	11
+NOUN ADP ADJ NOUN ADP NOUN	76
+NOUN ADP ADJ NOUN ADP PUNCT	12
+NOUN ADP ADJ NOUN ADP VERB	148
+NOUN ADP ADJ NOUN AUX AUX	10
+NOUN ADP ADJ NOUN NOUN ADP	34
+NOUN ADP ADJ NOUN NOUN NOUN	10
+NOUN ADP ADJ PART ADP NOUN	12
+NOUN ADP ADJ PART ADP VERB	15
+NOUN ADP ADJ PUNCT NOUN ADP	15
+NOUN ADP ADJ PUNCT NOUN NOUN	13
+NOUN ADP ADJ SCONJ NOUN ADP	10
+NOUN ADP ADJ SCONJ PUNCT NOUN	16
+NOUN ADP ADJ SCONJ VERB AUX	9
+NOUN ADP ADJ VERB AUX AUX	22
+NOUN ADP ADJ VERB AUX PUNCT	14
+NOUN ADP ADJ VERB AUX SCONJ	14
+NOUN ADP ADP ADJ AUX NOUN	24
+NOUN ADP ADP ADJ AUX VERB	13
+NOUN ADP ADP ADJ NOUN ADP	25
+NOUN ADP ADP ADP VERB AUX	11
+NOUN ADP ADP ADV NOUN ADP	10
+NOUN ADP ADP ADV VERB AUX	11
+NOUN ADP ADP NOUN ADP ADJ	23
+NOUN ADP ADP NOUN ADP ADP	11
+NOUN ADP ADP NOUN ADP NOUN	105
+NOUN ADP ADP NOUN ADP PROPN	10
+NOUN ADP ADP NOUN ADP VERB	140
+NOUN ADP ADP NOUN NOUN ADP	104
+NOUN ADP ADP NOUN NOUN NOUN	28
+NOUN ADP ADP NOUN NUM NOUN	11
+NOUN ADP ADP NUM NOUN ADP	27
+NOUN ADP ADP NUM NOUN NOUN	15
+NOUN ADP ADP PROPN ADP NOUN	21
+NOUN ADP ADP PROPN ADP VERB	17
+NOUN ADP ADP PROPN NOUN ADP	26
+NOUN ADP ADP PROPN PROPN ADP	10
+NOUN ADP ADP PUNCT ADJ AUX	9
+NOUN ADP ADP PUNCT NOUN ADP	75
+NOUN ADP ADP PUNCT NOUN NOUN	48
+NOUN ADP ADP PUNCT NUM NOUN	11
+NOUN ADP ADP PUNCT PROPN ADP	23
+NOUN ADP ADP PUNCT PROPN NOUN	11
+NOUN ADP ADP PUNCT., NOUN ADP	17
+NOUN ADP ADP PUNCT., NOUN NOUN	15
+NOUN ADP ADP VERB AUX AUX	101
+NOUN ADP ADP VERB AUX NOUN	33
+NOUN ADP ADP VERB AUX PUNCT	42
+NOUN ADP ADP VERB AUX SCONJ	42
+NOUN ADP ADP VERB NOUN ADP	10
+NOUN ADP ADP VERB PUNCT EOF	21
+NOUN ADP ADP VERB SCONJ AUX	37
+NOUN ADP ADV ADJ AUX AUX	18
+NOUN ADP ADV ADJ AUX NOUN	11
+NOUN ADP ADV ADJ NOUN ADP	9
+NOUN ADP ADV NOUN ADP NOUN	15
+NOUN ADP ADV NOUN ADP VERB	36
+NOUN ADP ADV NOUN NOUN ADP	17
+NOUN ADP ADV PROPN NOUN ADP	9
+NOUN ADP ADV VERB AUX AUX	39
+NOUN ADP ADV VERB AUX NOUN	16
+NOUN ADP ADV VERB AUX PUNCT	15
+NOUN ADP ADV VERB AUX SCONJ	19
+NOUN ADP ADV VERB SCONJ AUX	27
+NOUN ADP AUX AUX PUNCT EOF	11
+NOUN ADP AUX NOUN ADP VERB	14
+NOUN ADP NOUN ADJ NOUN ADP	13
+NOUN ADP NOUN ADP ADJ ADP	13
+NOUN ADP NOUN ADP ADJ AUX	155
+NOUN ADP NOUN ADP ADJ NOUN	73
+NOUN ADP NOUN ADP ADJ PART	12
+NOUN ADP NOUN ADP ADJ PUNCT	39
+NOUN ADP NOUN ADP ADJ SCONJ	23
+NOUN ADP NOUN ADP ADJ VERB	28
+NOUN ADP NOUN ADP ADP ADJ	20
+NOUN ADP NOUN ADP ADP ADV	10
+NOUN ADP NOUN ADP ADP NOUN	79
+NOUN ADP NOUN ADP ADP NUM	10
+NOUN ADP NOUN ADP ADP PROPN	13
+NOUN ADP NOUN ADP ADP PUNCT	32
+NOUN ADP NOUN ADP ADP PUNCT.,	13
+NOUN ADP NOUN ADP ADP VERB	87
+NOUN ADP NOUN ADP ADV ADJ	17
+NOUN ADP NOUN ADP ADV NOUN	26
+NOUN ADP NOUN ADP ADV VERB	38
+NOUN ADP NOUN ADP AUX NOUN	10
+NOUN ADP NOUN ADP NOUN ADJ	14
+NOUN ADP NOUN ADP NOUN ADP	953
+NOUN ADP NOUN ADP NOUN AUX	67
+NOUN ADP NOUN ADP NOUN NOUN	308
+NOUN ADP NOUN ADP NOUN NUM	9
+NOUN ADP NOUN ADP NOUN PROPN	12
+NOUN ADP NOUN ADP NOUN PUNCT	71
+NOUN ADP NOUN ADP NOUN SYM	14
+NOUN ADP NOUN ADP NOUN VERB	31
+NOUN ADP NOUN ADP NUM NOUN	97
+NOUN ADP NOUN ADP PART NOUN	44
+NOUN ADP NOUN ADP PART NUM	11
+NOUN ADP NOUN ADP PRON ADP	17
+NOUN ADP NOUN ADP PROPN ADP	61
+NOUN ADP NOUN ADP PROPN NOUN	54
+NOUN ADP NOUN ADP PROPN PROPN	21
+NOUN ADP NOUN ADP PUNCT ADJ	17
+NOUN ADP NOUN ADP PUNCT ADV	9
+NOUN ADP NOUN ADP PUNCT NOUN	135
+NOUN ADP NOUN ADP PUNCT NUM	9
+NOUN ADP NOUN ADP PUNCT PROPN	45
+NOUN ADP NOUN ADP PUNCT., NOUN	24
+NOUN ADP NOUN ADP VERB ADJ	11
+NOUN ADP NOUN ADP VERB ADP	52
+NOUN ADP NOUN ADP VERB AUX	1295
+NOUN ADP NOUN ADP VERB NOUN	200
+NOUN ADP NOUN ADP VERB PART	20
+NOUN ADP NOUN ADP VERB PROPN	10
+NOUN ADP NOUN ADP VERB PUNCT	292
+NOUN ADP NOUN ADP VERB PUNCT.,	20
+NOUN ADP NOUN ADP VERB SCONJ	605
+NOUN ADP NOUN ADP VERB VERB	19
+NOUN ADP NOUN AUX ADP AUX	19
+NOUN ADP NOUN AUX AUX NOUN	10
+NOUN ADP NOUN AUX AUX PUNCT	27
+NOUN ADP NOUN AUX AUX SCONJ	13
+NOUN ADP NOUN AUX NOUN ADP	17
+NOUN ADP NOUN AUX PUNCT EOF	79
+NOUN ADP NOUN AUX PUNCT NOUN	13
+NOUN ADP NOUN AUX SCONJ PUNCT	13
+NOUN ADP NOUN NOUN ADP ADJ	88
+NOUN ADP NOUN NOUN ADP ADP	95
+NOUN ADP NOUN NOUN ADP ADV	25
+NOUN ADP NOUN NOUN ADP NOUN	417
+NOUN ADP NOUN NOUN ADP NUM	36
+NOUN ADP NOUN NOUN ADP PART	29
+NOUN ADP NOUN NOUN ADP PROPN	43
+NOUN ADP NOUN NOUN ADP PUNCT	53
+NOUN ADP NOUN NOUN ADP PUNCT.,	15
+NOUN ADP NOUN NOUN ADP VERB	635
+NOUN ADP NOUN NOUN AUX AUX	22
+NOUN ADP NOUN NOUN AUX NOUN	9
+NOUN ADP NOUN NOUN AUX PUNCT	30
+NOUN ADP NOUN NOUN NOUN ADP	241
+NOUN ADP NOUN NOUN NOUN AUX	15
+NOUN ADP NOUN NOUN NOUN NOUN	60
+NOUN ADP NOUN NOUN NOUN PROPN	9
+NOUN ADP NOUN NOUN NOUN PUNCT	17
+NOUN ADP NOUN NOUN NUM NOUN	22
+NOUN ADP NOUN NOUN PUNCT ADP	9
+NOUN ADP NOUN NOUN PUNCT EOF	37
+NOUN ADP NOUN NOUN PUNCT NOUN	41
+NOUN ADP NOUN NOUN PUNCT PROPN	13
+NOUN ADP NOUN NOUN SYM NOUN	10
+NOUN ADP NOUN NOUN VERB AUX	13
+NOUN ADP NOUN NUM NOUN ADP	54
+NOUN ADP NOUN NUM NOUN NOUN	20
+NOUN ADP NOUN NUM NOUN PUNCT	13
+NOUN ADP NOUN PART NUM NOUN	10
+NOUN ADP NOUN PROPN ADP NOUN	14
+NOUN ADP NOUN PROPN ADP VERB	14
+NOUN ADP NOUN PROPN NOUN ADP	24
+NOUN ADP NOUN PUNCT ADJ NOUN	9
+NOUN ADP NOUN PUNCT ADP NOUN	10
+NOUN ADP NOUN PUNCT ADP VERB	19
+NOUN ADP NOUN PUNCT NOUN ADP	64
+NOUN ADP NOUN PUNCT NOUN NOUN	37
+NOUN ADP NOUN PUNCT NOUN PUNCT	16
+NOUN ADP NOUN PUNCT NUM NOUN	13
+NOUN ADP NOUN PUNCT PROPN ADP	17
+NOUN ADP NOUN SYM NOUN ADP	22
+NOUN ADP NOUN SYM NOUN NOUN	11
+NOUN ADP NOUN SYM PROPN ADP	11
+NOUN ADP NOUN VERB AUX AUX	55
+NOUN ADP NOUN VERB AUX NOUN	22
+NOUN ADP NOUN VERB AUX PUNCT	26
+NOUN ADP NOUN VERB AUX SCONJ	11
+NOUN ADP NUM NOUN ADP ADP	28
+NOUN ADP NUM NOUN ADP NOUN	106
+NOUN ADP NUM NOUN ADP NUM	15
+NOUN ADP NUM NOUN ADP PROPN	19
+NOUN ADP NUM NOUN ADP PUNCT	17
+NOUN ADP NUM NOUN ADP VERB	130
+NOUN ADP NUM NOUN AUX PUNCT	9
+NOUN ADP NUM NOUN NOUN ADP	101
+NOUN ADP NUM NOUN NOUN NOUN	15
+NOUN ADP NUM NOUN NOUN NUM	20
+NOUN ADP NUM NOUN NOUN PUNCT	15
+NOUN ADP NUM NOUN NUM NOUN	13
+NOUN ADP NUM NOUN PUNCT EOF	20
+NOUN ADP NUM NOUN PUNCT NOUN	17
+NOUN ADP NUM NOUN VERB AUX	25
+NOUN ADP NUM NUM NOUN ADP	13
+NOUN ADP PART NOUN ADP ADJ	19
+NOUN ADP PART NOUN ADP ADP	12
+NOUN ADP PART NOUN ADP ADV	9
+NOUN ADP PART NOUN ADP NOUN	43
+NOUN ADP PART NOUN ADP VERB	82
+NOUN ADP PART NOUN NOUN ADP	52
+NOUN ADP PART NOUN NOUN NOUN	15
+NOUN ADP PART NUM NOUN ADP	44
+NOUN ADP PART NUM NOUN NOUN	19
+NOUN ADP PART NUM NOUN PUNCT	10
+NOUN ADP PART NUM NUM NOUN	9
+NOUN ADP PRON ADP NOUN ADP	12
+NOUN ADP PRON ADP VERB AUX	17
+NOUN ADP PROPN ADP NOUN ADP	125
+NOUN ADP PROPN ADP NOUN NOUN	45
+NOUN ADP PROPN ADP NUM NOUN	11
+NOUN ADP PROPN ADP PART NOUN	18
+NOUN ADP PROPN ADP PROPN ADP	26
+NOUN ADP PROPN ADP PROPN NOUN	11
+NOUN ADP PROPN ADP PUNCT NOUN	15
+NOUN ADP PROPN ADP VERB AUX	103
+NOUN ADP PROPN ADP VERB PUNCT	30
+NOUN ADP PROPN ADP VERB SCONJ	31
+NOUN ADP PROPN NOUN ADP ADP	10
+NOUN ADP PROPN NOUN ADP NOUN	97
+NOUN ADP PROPN NOUN ADP NUM	10
+NOUN ADP PROPN NOUN ADP PROPN	15
+NOUN ADP PROPN NOUN ADP VERB	80
+NOUN ADP PROPN NOUN NOUN ADP	62
+NOUN ADP PROPN NOUN NOUN NOUN	22
+NOUN ADP PROPN NOUN PROPN ADP	9
+NOUN ADP PROPN NOUN PUNCT EOF	14
+NOUN ADP PROPN NUM NOUN ADP	11
+NOUN ADP PROPN PROPN ADP NOUN	19
+NOUN ADP PROPN PROPN ADP VERB	20
+NOUN ADP PROPN PROPN NOUN ADP	36
+NOUN ADP PROPN PROPN PUNCT EOF	9
+NOUN ADP PROPN SYM PROPN ADP	34
+NOUN ADP PROPN SYM PROPN NOUN	11
+NOUN ADP PUNCT ADJ AUX NOUN	21
+NOUN ADP PUNCT ADJ NOUN ADP	34
+NOUN ADP PUNCT ADJ NOUN NOUN	11
+NOUN ADP PUNCT ADV NOUN ADP	13
+NOUN ADP PUNCT NOUN ADP ADJ	28
+NOUN ADP PUNCT NOUN ADP ADP	13
+NOUN ADP PUNCT NOUN ADP NOUN	167
+NOUN ADP PUNCT NOUN ADP NUM	10
+NOUN ADP PUNCT NOUN ADP PART	9
+NOUN ADP PUNCT NOUN ADP PROPN	18
+NOUN ADP PUNCT NOUN ADP VERB	66
+NOUN ADP PUNCT NOUN NOUN ADP	113
+NOUN ADP PUNCT NOUN NOUN NOUN	49
+NOUN ADP PUNCT NOUN NOUN PUNCT	34
+NOUN ADP PUNCT NOUN PUNCT ADP	27
+NOUN ADP PUNCT NOUN SYM NOUN	12
+NOUN ADP PUNCT NUM NOUN ADP	23
+NOUN ADP PUNCT NUM NOUN NOUN	24
+NOUN ADP PUNCT PROPN ADP NOUN	39
+NOUN ADP PUNCT PROPN ADP PROPN	11
+NOUN ADP PUNCT PROPN ADP VERB	14
+NOUN ADP PUNCT PROPN NOUN ADP	35
+NOUN ADP PUNCT PROPN NOUN NOUN	17
+NOUN ADP PUNCT PROPN NOUN PUNCT	10
+NOUN ADP PUNCT PROPN PUNCT ADP	25
+NOUN ADP PUNCT PROPN SYM PROPN	11
+NOUN ADP PUNCT VERB AUX AUX	9
+NOUN ADP PUNCT VERB AUX SCONJ	10
+NOUN ADP PUNCT., ADJ NOUN ADP	10
+NOUN ADP PUNCT., NOUN ADP NOUN	35
+NOUN ADP PUNCT., NOUN ADP VERB	10
+NOUN ADP PUNCT., NOUN NOUN ADP	16
+NOUN ADP PUNCT., PROPN NOUN ADP	10
+NOUN ADP VERB ADJ AUX NOUN	16
+NOUN ADP VERB ADP ADJ AUX	9
+NOUN ADP VERB ADP ADP NOUN	10
+NOUN ADP VERB ADP ADP VERB	12
+NOUN ADP VERB ADP NOUN ADP	20
+NOUN ADP VERB ADP VERB AUX	32
+NOUN ADP VERB ADP VERB PUNCT	10
+NOUN ADP VERB ADP VERB SCONJ	12
+NOUN ADP VERB AUX ADJ AUX	9
+NOUN ADP VERB AUX ADJ NOUN	13
+NOUN ADP VERB AUX ADP ADP	13
+NOUN ADP VERB AUX ADP NOUN	29
+NOUN ADP VERB AUX ADP VERB	45
+NOUN ADP VERB AUX AUX ADJ	12
+NOUN ADP VERB AUX AUX ADP	46
+NOUN ADP VERB AUX AUX AUX	391
+NOUN ADP VERB AUX AUX NOUN	345
+NOUN ADP VERB AUX AUX NUM	14
+NOUN ADP VERB AUX AUX PART	33
+NOUN ADP VERB AUX AUX PROPN	37
+NOUN ADP VERB AUX AUX PUNCT	595
+NOUN ADP VERB AUX AUX SCONJ	301
+NOUN ADP VERB AUX NOUN ADP	544
+NOUN ADP VERB AUX NOUN AUX	59
+NOUN ADP VERB AUX NOUN NOUN	123
+NOUN ADP VERB AUX NOUN PUNCT	62
+NOUN ADP VERB AUX NOUN PUNCT.,	9
+NOUN ADP VERB AUX NUM NOUN	19
+NOUN ADP VERB AUX PART ADP	57
+NOUN ADP VERB AUX PART AUX	13
+NOUN ADP VERB AUX PROPN ADP	42
+NOUN ADP VERB AUX PROPN NOUN	33
+NOUN ADP VERB AUX PROPN PROPN	10
+NOUN ADP VERB AUX PUNCT ADJ	32
+NOUN ADP VERB AUX PUNCT ADP	25
+NOUN ADP VERB AUX PUNCT EOF	734
+NOUN ADP VERB AUX PUNCT NOUN	184
+NOUN ADP VERB AUX PUNCT NUM	33
+NOUN ADP VERB AUX PUNCT PROPN	53
+NOUN ADP VERB AUX PUNCT VERB	16
+NOUN ADP VERB AUX PUNCT., NOUN	15
+NOUN ADP VERB AUX SCONJ ADJ	14
+NOUN ADP VERB AUX SCONJ ADP	27
+NOUN ADP VERB AUX SCONJ AUX	488
+NOUN ADP VERB AUX SCONJ NOUN	77
+NOUN ADP VERB AUX SCONJ PROPN	11
+NOUN ADP VERB AUX SCONJ PUNCT	132
+NOUN ADP VERB AUX SCONJ PUNCT.,	11
+NOUN ADP VERB AUX SCONJ VERB	100
+NOUN ADP VERB AUX VERB AUX	27
+NOUN ADP VERB NOUN ADP ADJ	55
+NOUN ADP VERB NOUN ADP ADP	22
+NOUN ADP VERB NOUN ADP NOUN	125
+NOUN ADP VERB NOUN ADP NUM	9
+NOUN ADP VERB NOUN ADP PUNCT	42
+NOUN ADP VERB NOUN ADP VERB	238
+NOUN ADP VERB NOUN AUX ADP	10
+NOUN ADP VERB NOUN AUX PUNCT	21
+NOUN ADP VERB NOUN NOUN ADP	62
+NOUN ADP VERB NOUN NOUN NOUN	26
+NOUN ADP VERB NOUN NOUN PUNCT	14
+NOUN ADP VERB NOUN PUNCT EOF	21
+NOUN ADP VERB NOUN PUNCT NOUN	17
+NOUN ADP VERB NUM NOUN ADP	11
+NOUN ADP VERB PART ADP ADJ	12
+NOUN ADP VERB PART ADP NOUN	19
+NOUN ADP VERB PROPN ADP NOUN	9
+NOUN ADP VERB PROPN ADP VERB	9
+NOUN ADP VERB PROPN NOUN ADP	12
+NOUN ADP VERB PUNCT ADJ AUX	20
+NOUN ADP VERB PUNCT ADJ NOUN	28
+NOUN ADP VERB PUNCT NOUN ADP	165
+NOUN ADP VERB PUNCT NOUN NOUN	83
+NOUN ADP VERB PUNCT NUM NOUN	43
+NOUN ADP VERB PUNCT PRON ADP	13
+NOUN ADP VERB PUNCT PROPN ADP	34
+NOUN ADP VERB PUNCT PROPN NOUN	22
+NOUN ADP VERB PUNCT VERB AUX	13
+NOUN ADP VERB PUNCT., NOUN ADP	21
+NOUN ADP VERB PUNCT., NOUN NOUN	9
+NOUN ADP VERB SCONJ ADJ AUX	17
+NOUN ADP VERB SCONJ ADJ NOUN	13
+NOUN ADP VERB SCONJ ADP ADJ	20
+NOUN ADP VERB SCONJ ADP AUX	11
+NOUN ADP VERB SCONJ ADP NOUN	40
+NOUN ADP VERB SCONJ ADP PUNCT	26
+NOUN ADP VERB SCONJ ADP VERB	16
+NOUN ADP VERB SCONJ AUX ADP	24
+NOUN ADP VERB SCONJ AUX AUX	356
+NOUN ADP VERB SCONJ AUX NOUN	105
+NOUN ADP VERB SCONJ AUX PART	15
+NOUN ADP VERB SCONJ AUX PUNCT	299
+NOUN ADP VERB SCONJ AUX SCONJ	80
+NOUN ADP VERB SCONJ NOUN ADP	145
+NOUN ADP VERB SCONJ NOUN NOUN	64
+NOUN ADP VERB SCONJ NUM NOUN	23
+NOUN ADP VERB SCONJ PART NOUN	23
+NOUN ADP VERB SCONJ PRON ADP	9
+NOUN ADP VERB SCONJ PROPN ADP	29
+NOUN ADP VERB SCONJ PROPN NOUN	17
+NOUN ADP VERB SCONJ PROPN PROPN	9
+NOUN ADP VERB SCONJ PUNCT ADJ	19
+NOUN ADP VERB SCONJ PUNCT ADV	12
+NOUN ADP VERB SCONJ PUNCT NOUN	123
+NOUN ADP VERB SCONJ PUNCT NUM	19
+NOUN ADP VERB SCONJ PUNCT PRON	12
+NOUN ADP VERB SCONJ PUNCT PROPN	42
+NOUN ADP VERB SCONJ PUNCT VERB	10
+NOUN ADP VERB SCONJ PUNCT., NOUN	29
+NOUN ADP VERB SCONJ VERB AUX	197
+NOUN ADP VERB SCONJ VERB NOUN	16
+NOUN ADP VERB SCONJ VERB PUNCT	28
+NOUN ADP VERB SCONJ VERB SCONJ	35
+NOUN ADP VERB VERB AUX AUX	14
+NOUN AUX ADP AUX AUX AUX	15
+NOUN AUX ADP AUX PUNCT EOF	35
+NOUN AUX ADP VERB AUX PUNCT	13
+NOUN AUX AUX NOUN ADP VERB	9
+NOUN AUX AUX SCONJ PUNCT NOUN	16
+NOUN AUX NOUN ADP NOUN ADP	9
+NOUN AUX NOUN ADP VERB AUX	10
+NOUN AUX PUNCT NOUN ADP NOUN	17
+NOUN AUX PUNCT NOUN NOUN ADP	10
+NOUN AUX SCONJ PUNCT NOUN ADP	27
+NOUN NOUN ADP ADJ AUX AUX	23
+NOUN NOUN ADP ADJ AUX NOUN	68
+NOUN NOUN ADP ADJ AUX PUNCT	12
+NOUN NOUN ADP ADJ AUX VERB	21
+NOUN NOUN ADP ADJ NOUN ADP	73
+NOUN NOUN ADP ADJ NOUN NOUN	11
+NOUN NOUN ADP ADJ PUNCT EOF	20
+NOUN NOUN ADP ADJ VERB AUX	14
+NOUN NOUN ADP ADP ADJ AUX	12
+NOUN NOUN ADP ADP ADJ NOUN	18
+NOUN NOUN ADP ADP NOUN ADP	76
+NOUN NOUN ADP ADP NOUN NOUN	48
+NOUN NOUN ADP ADP NUM NOUN	15
+NOUN NOUN ADP ADP PROPN ADP	12
+NOUN NOUN ADP ADP PUNCT NOUN	45
+NOUN NOUN ADP ADP PUNCT PROPN	17
+NOUN NOUN ADP ADP PUNCT., NOUN	9
+NOUN NOUN ADP ADP VERB AUX	75
+NOUN NOUN ADP ADP VERB PUNCT	10
+NOUN NOUN ADP ADP VERB SCONJ	11
+NOUN NOUN ADP ADV ADJ AUX	10
+NOUN NOUN ADP ADV NOUN ADP	15
+NOUN NOUN ADP ADV VERB AUX	18
+NOUN NOUN ADP NOUN ADP ADJ	77
+NOUN NOUN ADP NOUN ADP ADP	68
+NOUN NOUN ADP NOUN ADP ADV	24
+NOUN NOUN ADP NOUN ADP NOUN	372
+NOUN NOUN ADP NOUN ADP NUM	31
+NOUN NOUN ADP NOUN ADP PART	10
+NOUN NOUN ADP NOUN ADP PROPN	40
+NOUN NOUN ADP NOUN ADP PUNCT	56
+NOUN NOUN ADP NOUN ADP VERB	666
+NOUN NOUN ADP NOUN AUX AUX	12
+NOUN NOUN ADP NOUN AUX NOUN	11
+NOUN NOUN ADP NOUN AUX PUNCT	28
+NOUN NOUN ADP NOUN NOUN ADP	414
+NOUN NOUN ADP NOUN NOUN AUX	23
+NOUN NOUN ADP NOUN NOUN NOUN	97
+NOUN NOUN ADP NOUN NOUN PUNCT	30
+NOUN NOUN ADP NOUN NOUN VERB	10
+NOUN NOUN ADP NOUN NUM NOUN	34
+NOUN NOUN ADP NOUN PROPN ADP	10
+NOUN NOUN ADP NOUN PROPN NOUN	12
+NOUN NOUN ADP NOUN PUNCT EOF	48
+NOUN NOUN ADP NOUN PUNCT NOUN	33
+NOUN NOUN ADP NOUN PUNCT PROPN	9
+NOUN NOUN ADP NOUN SYM NOUN	16
+NOUN NOUN ADP NOUN VERB AUX	42
+NOUN NOUN ADP NUM NOUN ADP	79
+NOUN NOUN ADP NUM NOUN NOUN	46
+NOUN NOUN ADP NUM NOUN NUM	10
+NOUN NOUN ADP NUM NOUN PUNCT	16
+NOUN NOUN ADP NUM NOUN VERB	13
+NOUN NOUN ADP NUM NUM NOUN	11
+NOUN NOUN ADP PART NOUN ADP	58
+NOUN NOUN ADP PART NOUN NOUN	30
+NOUN NOUN ADP PART NUM NOUN	23
+NOUN NOUN ADP PROPN ADP NOUN	44
+NOUN NOUN ADP PROPN ADP PROPN	18
+NOUN NOUN ADP PROPN ADP PUNCT	9
+NOUN NOUN ADP PROPN ADP VERB	37
+NOUN NOUN ADP PROPN NOUN ADP	69
+NOUN NOUN ADP PROPN NOUN NOUN	27
+NOUN NOUN ADP PROPN PROPN ADP	15
+NOUN NOUN ADP PROPN PROPN NOUN	20
+NOUN NOUN ADP PROPN SYM PROPN	15
+NOUN NOUN ADP PUNCT ADJ NOUN	11
+NOUN NOUN ADP PUNCT NOUN ADP	68
+NOUN NOUN ADP PUNCT NOUN NOUN	61
+NOUN NOUN ADP PUNCT NOUN PUNCT	11
+NOUN NOUN ADP PUNCT NUM NOUN	11
+NOUN NOUN ADP PUNCT PROPN ADP	19
+NOUN NOUN ADP PUNCT PROPN NOUN	14
+NOUN NOUN ADP PUNCT PROPN PUNCT	9
+NOUN NOUN ADP PUNCT., NOUN ADP	13
+NOUN NOUN ADP VERB ADP VERB	9
+NOUN NOUN ADP VERB AUX ADP	21
+NOUN NOUN ADP VERB AUX AUX	447
+NOUN NOUN ADP VERB AUX NOUN	210
+NOUN NOUN ADP VERB AUX PART	21
+NOUN NOUN ADP VERB AUX PROPN	17
+NOUN NOUN ADP VERB AUX PUNCT	245
+NOUN NOUN ADP VERB AUX SCONJ	225
+NOUN NOUN ADP VERB NOUN ADP	104
+NOUN NOUN ADP VERB NOUN NOUN	44
+NOUN NOUN ADP VERB NOUN PUNCT	17
+NOUN NOUN ADP VERB PART ADP	9
+NOUN NOUN ADP VERB PROPN ADP	10
+NOUN NOUN ADP VERB PUNCT ADJ	9
+NOUN NOUN ADP VERB PUNCT EOF	153
+NOUN NOUN ADP VERB PUNCT NOUN	72
+NOUN NOUN ADP VERB PUNCT NUM	9
+NOUN NOUN ADP VERB PUNCT PROPN	13
+NOUN NOUN ADP VERB PUNCT., NOUN	9
+NOUN NOUN ADP VERB SCONJ ADP	37
+NOUN NOUN ADP VERB SCONJ AUX	158
+NOUN NOUN ADP VERB SCONJ NOUN	51
+NOUN NOUN ADP VERB SCONJ PROPN	23
+NOUN NOUN ADP VERB SCONJ PUNCT	58
+NOUN NOUN ADP VERB SCONJ PUNCT.,	11
+NOUN NOUN ADP VERB SCONJ VERB	62
+NOUN NOUN AUX ADP AUX PUNCT	10
+NOUN NOUN AUX AUX PUNCT EOF	35
+NOUN NOUN NOUN ADP ADJ AUX	17
+NOUN NOUN NOUN ADP ADJ NOUN	13
+NOUN NOUN NOUN ADP ADP NOUN	20
+NOUN NOUN NOUN ADP ADP PUNCT	13
+NOUN NOUN NOUN ADP ADP VERB	27
+NOUN NOUN NOUN ADP NOUN ADP	234
+NOUN NOUN NOUN ADP NOUN AUX	10
+NOUN NOUN NOUN ADP NOUN NOUN	126
+NOUN NOUN NOUN ADP NOUN NUM	10
+NOUN NOUN NOUN ADP NOUN PUNCT	27
+NOUN NOUN NOUN ADP NOUN VERB	12
+NOUN NOUN NOUN ADP NUM NOUN	33
+NOUN NOUN NOUN ADP PART NOUN	15
+NOUN NOUN NOUN ADP PROPN ADP	23
+NOUN NOUN NOUN ADP PROPN NOUN	13
+NOUN NOUN NOUN ADP PROPN PROPN	10
+NOUN NOUN NOUN ADP PUNCT NOUN	29
+NOUN NOUN NOUN ADP VERB AUX	221
+NOUN NOUN NOUN ADP VERB NOUN	29
+NOUN NOUN NOUN ADP VERB PUNCT	58
+NOUN NOUN NOUN ADP VERB SCONJ	77
+NOUN NOUN NOUN AUX PUNCT EOF	15
+NOUN NOUN NOUN NOUN ADP ADP	18
+NOUN NOUN NOUN NOUN ADP NOUN	79
+NOUN NOUN NOUN NOUN ADP PROPN	10
+NOUN NOUN NOUN NOUN ADP VERB	90
+NOUN NOUN NOUN NOUN NOUN ADP	50
+NOUN NOUN NOUN NOUN NOUN NOUN	24
+NOUN NOUN NOUN NOUN NOUN PUNCT	15
+NOUN NOUN NOUN NOUN PUNCT ADP	22
+NOUN NOUN NOUN NOUN PUNCT EOF	26
+NOUN NOUN NOUN NOUN PUNCT NOUN	11
+NOUN NOUN NOUN PUNCT ADP NOUN	18
+NOUN NOUN NOUN PUNCT ADP VERB	26
+NOUN NOUN NOUN PUNCT NOUN NOUN	15
+NOUN NOUN NUM NOUN ADP NOUN	42
+NOUN NOUN NUM NOUN ADP PROPN	23
+NOUN NOUN NUM NOUN ADP VERB	39
+NOUN NOUN NUM NOUN NOUN ADP	22
+NOUN NOUN NUM NOUN NOUN PUNCT	17
+NOUN NOUN NUM NOUN NUM NOUN	13
+NOUN NOUN NUM NOUN PUNCT NOUN	9
+NOUN NOUN NUM NOUN PUNCT PROPN	21
+NOUN NOUN PROPN ADP NOUN ADP	10
+NOUN NOUN PROPN NOUN ADP NOUN	9
+NOUN NOUN PUNCT ADP NOUN ADP	37
+NOUN NOUN PUNCT ADP PUNCT NOUN	10
+NOUN NOUN PUNCT ADP VERB AUX	31
+NOUN NOUN PUNCT ADP VERB PUNCT	11
+NOUN NOUN PUNCT ADP VERB SCONJ	17
+NOUN NOUN PUNCT NOUN ADP NOUN	25
+NOUN NOUN PUNCT NOUN ADP VERB	10
+NOUN NOUN PUNCT NOUN NOUN ADP	25
+NOUN NOUN PUNCT NOUN NOUN NOUN	24
+NOUN NOUN PUNCT NOUN NOUN PUNCT	23
+NOUN NOUN PUNCT PROPN ADP NOUN	10
+NOUN NOUN PUNCT PROPN NOUN ADP	10
+NOUN NOUN PUNCT PROPN NOUN NOUN	13
+NOUN NOUN PUNCT PROPN PUNCT ADP	11
+NOUN NOUN PUNCT PUNCT NOUN NOUN	11
+NOUN NOUN SYM NOUN NOUN ADP	14
+NOUN NOUN SYM NOUN NOUN NOUN	15
+NOUN NOUN VERB AUX PUNCT EOF	13
+NOUN NUM NOUN ADP ADP NOUN	9
+NOUN NUM NOUN ADP NOUN ADP	62
+NOUN NUM NOUN ADP NOUN NOUN	44
+NOUN NUM NOUN ADP NOUN PUNCT	11
+NOUN NUM NOUN ADP NUM NOUN	11
+NOUN NUM NOUN ADP PROPN ADP	25
+NOUN NUM NOUN ADP PROPN NOUN	15
+NOUN NUM NOUN ADP VERB AUX	68
+NOUN NUM NOUN ADP VERB PUNCT	13
+NOUN NUM NOUN ADP VERB SCONJ	16
+NOUN NUM NOUN NOUN ADP NOUN	23
+NOUN NUM NOUN NOUN ADP VERB	19
+NOUN NUM NOUN NOUN NOUN ADP	9
+NOUN NUM NOUN NOUN PUNCT EOF	13
+NOUN NUM NOUN NUM NOUN ADP	14
+NOUN NUM NOUN PUNCT NOUN NOUN	15
+NOUN NUM NOUN PUNCT PROPN ADP	14
+NOUN NUM NOUN PUNCT PROPN NOUN	15
+NOUN PART NOUN ADP NOUN ADP	9
+NOUN PART NUM NOUN ADP NOUN	11
+NOUN PART NUM NOUN NOUN ADP	9
+NOUN PROPN ADP NOUN ADP NOUN	17
+NOUN PROPN ADP NOUN ADP VERB	37
+NOUN PROPN ADP NOUN NOUN ADP	12
+NOUN PROPN ADP PROPN NOUN ADP	11
+NOUN PROPN ADP VERB AUX AUX	21
+NOUN PROPN ADP VERB AUX PUNCT	10
+NOUN PROPN ADP VERB AUX SCONJ	12
+NOUN PROPN ADP VERB PUNCT EOF	10
+NOUN PROPN NOUN ADP NOUN ADP	29
+NOUN PROPN NOUN ADP NOUN NOUN	15
+NOUN PROPN NOUN ADP VERB AUX	20
+NOUN PROPN NOUN NOUN ADP NOUN	12
+NOUN PROPN NOUN NOUN ADP VERB	13
+NOUN PUNCT ADJ AUX NOUN ADP	11
+NOUN PUNCT ADJ NOUN ADP NOUN	12
+NOUN PUNCT ADP ADP VERB AUX	10
+NOUN PUNCT ADP NOUN ADP NOUN	17
+NOUN PUNCT ADP NOUN ADP VERB	41
+NOUN PUNCT ADP NOUN NOUN ADP	11
+NOUN PUNCT ADP PART NOUN ADP	11
+NOUN PUNCT ADP VERB AUX AUX	27
+NOUN PUNCT ADP VERB AUX NOUN	15
+NOUN PUNCT ADP VERB AUX PUNCT	20
+NOUN PUNCT ADP VERB AUX SCONJ	21
+NOUN PUNCT ADP VERB PUNCT EOF	16
+NOUN PUNCT ADP VERB SCONJ AUX	13
+NOUN PUNCT ADP VERB SCONJ NOUN	11
+NOUN PUNCT ADP VERB SCONJ VERB	9
+NOUN PUNCT NOUN ADP ADJ AUX	11
+NOUN PUNCT NOUN ADP ADP NOUN	15
+NOUN PUNCT NOUN ADP NOUN ADP	74
+NOUN PUNCT NOUN ADP NOUN NOUN	40
+NOUN PUNCT NOUN ADP NOUN PUNCT	11
+NOUN PUNCT NOUN ADP NUM NOUN	10
+NOUN PUNCT NOUN ADP VERB AUX	45
+NOUN PUNCT NOUN ADP VERB NOUN	10
+NOUN PUNCT NOUN ADP VERB SCONJ	11
+NOUN PUNCT NOUN NOUN ADP ADP	11
+NOUN PUNCT NOUN NOUN ADP NOUN	61
+NOUN PUNCT NOUN NOUN ADP NUM	9
+NOUN PUNCT NOUN NOUN ADP PROPN	9
+NOUN PUNCT NOUN NOUN ADP VERB	27
+NOUN PUNCT NOUN NOUN NOUN ADP	31
+NOUN PUNCT NOUN NOUN NOUN NOUN	24
+NOUN PUNCT NOUN NOUN PUNCT NOUN	21
+NOUN PUNCT NOUN NUM NOUN ADP	11
+NOUN PUNCT NOUN PUNCT NOUN ADP	27
+NOUN PUNCT NOUN PUNCT NOUN NOUN	11
+NOUN PUNCT NOUN PUNCT NOUN PUNCT	31
+NOUN PUNCT NUM NOUN ADP NOUN	14
+NOUN PUNCT NUM NOUN ADP PROPN	9
+NOUN PUNCT NUM NOUN NOUN ADP	9
+NOUN PUNCT PROPN ADP NOUN ADP	23
+NOUN PUNCT PROPN ADP NOUN NOUN	12
+NOUN PUNCT PROPN ADP PROPN ADP	16
+NOUN PUNCT PROPN ADP VERB AUX	13
+NOUN PUNCT PROPN NOUN ADP NOUN	17
+NOUN PUNCT PROPN NOUN ADP VERB	13
+NOUN PUNCT PROPN NOUN NOUN ADP	14
+NOUN PUNCT PROPN NOUN NOUN NOUN	13
+NOUN PUNCT PROPN SYM PROPN ADP	14
+NOUN PUNCT PUNCT NOUN NOUN PUNCT	10
+NOUN PUNCT PUNCT NOUN PUNCT ADP	9
+NOUN PUNCT., NOUN ADP NOUN ADP	13
+NOUN SYM NOUN ADP NOUN ADP	13
+NOUN SYM NOUN ADP VERB AUX	16
+NOUN SYM NOUN NOUN ADP NOUN	16
+NOUN SYM NOUN NOUN ADP VERB	14
+NOUN SYM NOUN NOUN NOUN ADP	11
+NOUN SYM PROPN ADP NOUN ADP	11
+NOUN VERB AUX AUX AUX PUNCT	15
+NOUN VERB AUX AUX NOUN ADP	19
+NOUN VERB AUX AUX PUNCT EOF	34
+NOUN VERB AUX AUX SCONJ AUX	10
+NOUN VERB AUX NOUN ADP VERB	17
+NOUN VERB AUX SCONJ AUX AUX	14
+NOUN VERB SCONJ AUX PUNCT EOF	9
+NUM ADP NOUN ADP VERB AUX	10
+NUM NOUN ADP ADJ AUX NOUN	10
+NUM NOUN ADP ADJ NOUN ADP	14
+NUM NOUN ADP ADP NOUN ADP	24
+NUM NOUN ADP ADP NOUN NOUN	15
+NUM NOUN ADP ADP NUM NOUN	9
+NUM NOUN ADP ADP PROPN ADP	21
+NUM NOUN ADP ADP PROPN NOUN	9
+NUM NOUN ADP ADP PUNCT NOUN	9
+NUM NOUN ADP ADP PUNCT PROPN	9
+NUM NOUN ADP ADP VERB AUX	13
+NUM NOUN ADP NOUN ADP ADP	14
+NUM NOUN ADP NOUN ADP NOUN	81
+NUM NOUN ADP NOUN ADP NUM	19
+NUM NOUN ADP NOUN ADP PROPN	14
+NUM NOUN ADP NOUN ADP PUNCT	16
+NUM NOUN ADP NOUN ADP VERB	184
+NUM NOUN ADP NOUN NOUN ADP	116
+NUM NOUN ADP NOUN NOUN NOUN	41
+NUM NOUN ADP NOUN NOUN PUNCT	9
+NUM NOUN ADP NOUN NUM NOUN	20
+NUM NOUN ADP NOUN PUNCT EOF	13
+NUM NOUN ADP NOUN VERB AUX	12
+NUM NOUN ADP NUM NOUN ADP	64
+NUM NOUN ADP NUM NOUN NOUN	26
+NUM NOUN ADP PART NUM NOUN	16
+NUM NOUN ADP PROPN ADP NOUN	26
+NUM NOUN ADP PROPN ADP VERB	26
+NUM NOUN ADP PROPN NOUN ADP	33
+NUM NOUN ADP PROPN NOUN NOUN	12
+NUM NOUN ADP PROPN SYM PROPN	11
+NUM NOUN ADP PUNCT NOUN ADP	18
+NUM NOUN ADP VERB AUX AUX	122
+NUM NOUN ADP VERB AUX NOUN	28
+NUM NOUN ADP VERB AUX PUNCT	75
+NUM NOUN ADP VERB AUX SCONJ	33
+NUM NOUN ADP VERB NOUN ADP	15
+NUM NOUN ADP VERB PUNCT EOF	39
+NUM NOUN ADP VERB PUNCT NOUN	15
+NUM NOUN ADP VERB PUNCT PROPN	9
+NUM NOUN ADP VERB SCONJ AUX	30
+NUM NOUN ADP VERB SCONJ PUNCT	12
+NUM NOUN AUX AUX PUNCT EOF	12
+NUM NOUN NOUN ADP ADP NOUN	15
+NUM NOUN NOUN ADP ADP PUNCT	12
+NUM NOUN NOUN ADP NOUN ADP	125
+NUM NOUN NOUN ADP NOUN NOUN	57
+NUM NOUN NOUN ADP NOUN PUNCT	14
+NUM NOUN NOUN ADP NUM NOUN	29
+NUM NOUN NOUN ADP PROPN ADP	13
+NUM NOUN NOUN ADP PROPN NOUN	23
+NUM NOUN NOUN ADP PUNCT NOUN	17
+NUM NOUN NOUN ADP VERB AUX	67
+NUM NOUN NOUN ADP VERB NOUN	11
+NUM NOUN NOUN ADP VERB PUNCT	25
+NUM NOUN NOUN ADP VERB SCONJ	20
+NUM NOUN NOUN NOUN ADP NOUN	21
+NUM NOUN NOUN NOUN ADP VERB	21
+NUM NOUN NOUN NOUN NOUN ADP	10
+NUM NOUN NOUN NUM NOUN ADP	81
+NUM NOUN NOUN NUM NOUN NOUN	31
+NUM NOUN NOUN NUM NOUN PUNCT	32
+NUM NOUN NOUN PUNCT NOUN ADP	12
+NUM NOUN NOUN PUNCT PROPN ADP	10
+NUM NOUN NUM NOUN ADP NOUN	16
+NUM NOUN NUM NOUN ADP VERB	19
+NUM NOUN NUM NOUN NOUN ADP	9
+NUM NOUN PUNCT NOUN ADP VERB	9
+NUM NOUN PUNCT NOUN NOUN ADP	15
+NUM NOUN PUNCT NOUN NOUN NOUN	11
+NUM NOUN PUNCT NOUN NUM NOUN	9
+NUM NOUN PUNCT PROPN ADP NOUN	13
+NUM NOUN PUNCT PROPN ADP PROPN	16
+NUM NOUN PUNCT PROPN NOUN ADP	20
+NUM NOUN PUNCT PROPN NOUN NOUN	9
+NUM NUM NOUN ADP NOUN ADP	9
+NUM NUM NOUN ADP NOUN NOUN	9
+NUM NUM NOUN ADP VERB AUX	13
+PART ADP NOUN ADP NOUN ADP	10
+PART ADP NOUN ADP VERB AUX	14
+PART ADP PUNCT NOUN ADP NOUN	9
+PART ADP VERB AUX PUNCT EOF	9
+PART ADP VERB SCONJ AUX AUX	11
+PART AUX SCONJ PUNCT NOUN ADP	9
+PART NOUN ADP NOUN ADP NOUN	13
+PART NOUN ADP NOUN ADP VERB	28
+PART NOUN ADP NOUN NOUN ADP	17
+PART NOUN ADP VERB AUX AUX	40
+PART NOUN ADP VERB AUX PUNCT	16
+PART NOUN ADP VERB AUX SCONJ	19
+PART NOUN ADP VERB NOUN ADP	9
+PART NOUN ADP VERB PUNCT EOF	20
+PART NOUN ADP VERB SCONJ AUX	17
+PART NOUN NOUN ADP NOUN ADP	20
+PART NOUN NOUN ADP VERB AUX	23
+PART NOUN NOUN ADP VERB SCONJ	12
+PART NUM NOUN ADP NOUN ADP	28
+PART NUM NOUN ADP NOUN NOUN	22
+PART NUM NOUN ADP NUM NOUN	9
+PART NUM NOUN ADP PART NUM	9
+PART NUM NOUN ADP VERB AUX	17
+PART NUM NOUN ADP VERB PUNCT	11
+PART NUM NOUN ADP VERB SCONJ	9
+PART NUM NOUN NOUN ADP NOUN	18
+PART NUM NOUN NOUN ADP VERB	15
+PART NUM NOUN NOUN NOUN ADP	10
+PART NUM NUM NOUN ADP VERB	10
+PRON ADP ADP NOUN ADP VERB	9
+PRON ADP NOUN ADP ADJ AUX	10
+PRON ADP NOUN ADP NOUN ADP	49
+PRON ADP NOUN ADP NOUN NOUN	19
+PRON ADP NOUN ADP VERB AUX	33
+PRON ADP NOUN ADP VERB NOUN	11
+PRON ADP NOUN ADP VERB SCONJ	17
+PRON ADP NOUN NOUN ADP NOUN	16
+PRON ADP NOUN NOUN ADP VERB	27
+PRON ADP VERB AUX NOUN ADP	14
+PROPN ADP ADJ AUX NOUN ADP	13
+PROPN ADP ADJ AUX NOUN NOUN	9
+PROPN ADP ADJ NOUN ADP NOUN	12
+PROPN ADP ADJ NOUN ADP VERB	21
+PROPN ADP ADP NOUN ADP NOUN	15
+PROPN ADP ADP NOUN ADP VERB	15
+PROPN ADP ADP NOUN NOUN ADP	13
+PROPN ADP ADP PUNCT NOUN ADP	10
+PROPN ADP NOUN ADP ADJ AUX	15
+PROPN ADP NOUN ADP ADJ NOUN	12
+PROPN ADP NOUN ADP NOUN ADP	126
+PROPN ADP NOUN ADP NOUN NOUN	54
+PROPN ADP NOUN ADP NOUN PUNCT	16
+PROPN ADP NOUN ADP NUM NOUN	13
+PROPN ADP NOUN ADP PROPN ADP	21
+PROPN ADP NOUN ADP PROPN NOUN	13
+PROPN ADP NOUN ADP PUNCT NOUN	13
+PROPN ADP NOUN ADP PUNCT PROPN	10
+PROPN ADP NOUN ADP VERB AUX	183
+PROPN ADP NOUN ADP VERB NOUN	23
+PROPN ADP NOUN ADP VERB PUNCT	40
+PROPN ADP NOUN ADP VERB SCONJ	91
+PROPN ADP NOUN NOUN ADP ADJ	9
+PROPN ADP NOUN NOUN ADP ADP	14
+PROPN ADP NOUN NOUN ADP NOUN	67
+PROPN ADP NOUN NOUN ADP PROPN	17
+PROPN ADP NOUN NOUN ADP PUNCT	10
+PROPN ADP NOUN NOUN ADP VERB	87
+PROPN ADP NOUN NOUN NOUN ADP	42
+PROPN ADP NOUN NOUN NOUN NOUN	11
+PROPN ADP NOUN NOUN PUNCT EOF	10
+PROPN ADP NOUN NUM NOUN ADP	9
+PROPN ADP NOUN PUNCT PROPN ADP	9
+PROPN ADP NUM NOUN ADP NOUN	21
+PROPN ADP NUM NOUN ADP VERB	15
+PROPN ADP NUM NOUN NOUN ADP	25
+PROPN ADP PART NOUN ADP NOUN	19
+PROPN ADP PART NOUN ADP VERB	21
+PROPN ADP PART NOUN NOUN ADP	13
+PROPN ADP PROPN ADP NOUN ADP	33
+PROPN ADP PROPN ADP NOUN NOUN	20
+PROPN ADP PROPN ADP VERB AUX	44
+PROPN ADP PROPN ADP VERB SCONJ	12
+PROPN ADP PROPN NOUN ADP NOUN	23
+PROPN ADP PROPN NOUN ADP PROPN	10
+PROPN ADP PROPN NOUN ADP VERB	25
+PROPN ADP PROPN NOUN NOUN ADP	11
+PROPN ADP PROPN PROPN NOUN ADP	11
+PROPN ADP PROPN SYM PROPN ADP	17
+PROPN ADP PUNCT NOUN ADP NOUN	18
+PROPN ADP PUNCT NOUN ADP VERB	10
+PROPN ADP PUNCT NOUN NOUN ADP	17
+PROPN ADP VERB AUX AUX AUX	43
+PROPN ADP VERB AUX AUX NOUN	38
+PROPN ADP VERB AUX AUX PROPN	16
+PROPN ADP VERB AUX AUX PUNCT	50
+PROPN ADP VERB AUX AUX SCONJ	32
+PROPN ADP VERB AUX NOUN ADP	40
+PROPN ADP VERB AUX NOUN NOUN	11
+PROPN ADP VERB AUX PROPN ADP	10
+PROPN ADP VERB AUX PUNCT EOF	52
+PROPN ADP VERB AUX PUNCT NOUN	28
+PROPN ADP VERB AUX SCONJ AUX	52
+PROPN ADP VERB AUX SCONJ NOUN	10
+PROPN ADP VERB AUX SCONJ PUNCT	10
+PROPN ADP VERB NOUN ADP NOUN	12
+PROPN ADP VERB NOUN ADP VERB	12
+PROPN ADP VERB PUNCT NOUN ADP	9
+PROPN ADP VERB SCONJ AUX AUX	18
+PROPN ADP VERB SCONJ AUX PUNCT	21
+PROPN ADP VERB SCONJ NOUN ADP	15
+PROPN ADP VERB SCONJ PUNCT NOUN	10
+PROPN ADP VERB SCONJ VERB AUX	9
+PROPN NOUN ADP ADJ NOUN ADP	12
+PROPN NOUN ADP ADP NOUN ADP	12
+PROPN NOUN ADP NOUN ADP ADJ	12
+PROPN NOUN ADP NOUN ADP ADP	16
+PROPN NOUN ADP NOUN ADP NOUN	68
+PROPN NOUN ADP NOUN ADP PROPN	11
+PROPN NOUN ADP NOUN ADP PUNCT	12
+PROPN NOUN ADP NOUN ADP VERB	152
+PROPN NOUN ADP NOUN NOUN ADP	109
+PROPN NOUN ADP NOUN NOUN NOUN	27
+PROPN NOUN ADP NOUN NOUN PUNCT	14
+PROPN NOUN ADP NOUN NUM NOUN	10
+PROPN NOUN ADP NOUN PUNCT EOF	9
+PROPN NOUN ADP NUM NOUN ADP	20
+PROPN NOUN ADP NUM NOUN NOUN	16
+PROPN NOUN ADP PART NOUN ADP	15
+PROPN NOUN ADP PART NOUN NOUN	9
+PROPN NOUN ADP PROPN ADP NOUN	12
+PROPN NOUN ADP PROPN ADP VERB	10
+PROPN NOUN ADP PROPN NOUN ADP	25
+PROPN NOUN ADP PROPN NOUN NOUN	12
+PROPN NOUN ADP PUNCT NOUN ADP	15
+PROPN NOUN ADP PUNCT NOUN NOUN	14
+PROPN NOUN ADP VERB AUX AUX	94
+PROPN NOUN ADP VERB AUX NOUN	24
+PROPN NOUN ADP VERB AUX PUNCT	42
+PROPN NOUN ADP VERB AUX SCONJ	39
+PROPN NOUN ADP VERB NOUN ADP	14
+PROPN NOUN ADP VERB PUNCT EOF	26
+PROPN NOUN ADP VERB PUNCT NOUN	9
+PROPN NOUN ADP VERB SCONJ AUX	24
+PROPN NOUN ADP VERB SCONJ VERB	9
+PROPN NOUN NOUN ADP NOUN ADP	62
+PROPN NOUN NOUN ADP NOUN NOUN	31
+PROPN NOUN NOUN ADP NUM NOUN	15
+PROPN NOUN NOUN ADP PROPN NOUN	14
+PROPN NOUN NOUN ADP VERB AUX	53
+PROPN NOUN NOUN ADP VERB PUNCT	15
+PROPN NOUN NOUN ADP VERB SCONJ	14
+PROPN NOUN NOUN NOUN ADP NOUN	29
+PROPN NOUN NOUN NOUN ADP VERB	32
+PROPN NOUN NOUN NOUN NOUN ADP	19
+PROPN NOUN NOUN NOUN NOUN NOUN	14
+PROPN NOUN NOUN NOUN NOUN PUNCT	13
+PROPN NOUN PROPN ADP NOUN ADP	12
+PROPN NOUN PROPN ADP VERB AUX	10
+PROPN NOUN PUNCT ADP VERB AUX	9
+PROPN NUM NOUN ADP NOUN ADP	14
+PROPN NUM NOUN ADP VERB AUX	9
+PROPN PROPN ADP NOUN ADP NOUN	23
+PROPN PROPN ADP NOUN ADP VERB	31
+PROPN PROPN ADP NOUN NOUN ADP	23
+PROPN PROPN ADP VERB AUX AUX	19
+PROPN PROPN ADP VERB AUX PUNCT	13
+PROPN PROPN ADP VERB AUX SCONJ	10
+PROPN PROPN ADP VERB PUNCT EOF	13
+PROPN PROPN NOUN ADP NOUN ADP	19
+PROPN PROPN NOUN ADP NOUN NOUN	12
+PROPN PROPN NOUN ADP VERB AUX	14
+PROPN PROPN NOUN ADP VERB SCONJ	10
+PROPN PROPN NOUN NOUN ADP NOUN	11
+PROPN PUNCT ADP NOUN ADP VERB	16
+PROPN PUNCT ADP VERB AUX AUX	14
+PROPN PUNCT ADP VERB AUX PUNCT	11
+PROPN PUNCT PROPN PUNCT PROPN ADP	10
+PROPN SYM NOUN ADP VERB AUX	9
+PROPN SYM NOUN NOUN ADP NOUN	11
+PROPN SYM PROPN ADP NOUN ADP	45
+PROPN SYM PROPN ADP NOUN NOUN	18
+PROPN SYM PROPN ADP PROPN ADP	9
+PROPN SYM PROPN ADP VERB AUX	22
+PROPN SYM PROPN NOUN ADP NOUN	11
+PROPN SYM PROPN NOUN ADP VERB	12
+PROPN SYM PROPN NOUN NOUN ADP	9
+PROPN SYM PROPN PUNCT PROPN SYM	11
+PROPN SYM PROPN SYM PROPN ADP	23
+PROPN SYM PROPN SYM PROPN NOUN	10
+PROPN SYM PROPN SYM PROPN SYM	25
+PUNCT ADJ AUX NOUN ADP NOUN	25
+PUNCT ADJ AUX NOUN ADP VERB	47
+PUNCT ADJ AUX NOUN NOUN ADP	21
+PUNCT ADJ NOUN ADP ADJ AUX	16
+PUNCT ADJ NOUN ADP ADP NOUN	13
+PUNCT ADJ NOUN ADP NOUN ADP	48
+PUNCT ADJ NOUN ADP NOUN NOUN	19
+PUNCT ADJ NOUN ADP NUM NOUN	11
+PUNCT ADJ NOUN ADP VERB AUX	39
+PUNCT ADJ NOUN ADP VERB SCONJ	15
+PUNCT ADJ NOUN NOUN ADP NOUN	22
+PUNCT ADJ NOUN NOUN ADP VERB	11
+PUNCT ADP NOUN ADP NOUN ADP	17
+PUNCT ADP NOUN ADP VERB AUX	45
+PUNCT ADP NOUN ADP VERB PUNCT	10
+PUNCT ADP NOUN ADP VERB SCONJ	10
+PUNCT ADP NOUN NOUN ADP VERB	10
+PUNCT ADP PART NOUN ADP VERB	11
+PUNCT ADP VERB AUX AUX NOUN	12
+PUNCT ADP VERB AUX AUX PUNCT	22
+PUNCT ADP VERB AUX AUX SCONJ	9
+PUNCT ADP VERB AUX NOUN ADP	15
+PUNCT ADP VERB AUX PUNCT EOF	31
+PUNCT ADP VERB AUX SCONJ AUX	31
+PUNCT ADP VERB SCONJ AUX AUX	18
+PUNCT ADP VERB SCONJ AUX PUNCT	10
+PUNCT ADP VERB SCONJ NOUN ADP	11
+PUNCT ADV NOUN ADP NOUN ADP	12
+PUNCT ADV NOUN ADP VERB AUX	14
+PUNCT ADV NOUN NOUN ADP VERB	9
+PUNCT NOUN ADP ADJ AUX AUX	12
+PUNCT NOUN ADP ADJ AUX NOUN	23
+PUNCT NOUN ADP ADJ AUX VERB	12
+PUNCT NOUN ADP ADJ NOUN ADP	28
+PUNCT NOUN ADP ADP NOUN ADP	42
+PUNCT NOUN ADP ADP NOUN NOUN	14
+PUNCT NOUN ADP ADP VERB AUX	19
+PUNCT NOUN ADP NOUN ADP ADJ	34
+PUNCT NOUN ADP NOUN ADP ADP	35
+PUNCT NOUN ADP NOUN ADP ADV	14
+PUNCT NOUN ADP NOUN ADP NOUN	178
+PUNCT NOUN ADP NOUN ADP NUM	15
+PUNCT NOUN ADP NOUN ADP PART	13
+PUNCT NOUN ADP NOUN ADP PROPN	16
+PUNCT NOUN ADP NOUN ADP PUNCT	17
+PUNCT NOUN ADP NOUN ADP VERB	235
+PUNCT NOUN ADP NOUN AUX PUNCT	9
+PUNCT NOUN ADP NOUN NOUN ADP	144
+PUNCT NOUN ADP NOUN NOUN AUX	9
+PUNCT NOUN ADP NOUN NOUN NOUN	24
+PUNCT NOUN ADP NOUN NOUN PUNCT	14
+PUNCT NOUN ADP NOUN PUNCT ADP	19
+PUNCT NOUN ADP NOUN PUNCT NOUN	15
+PUNCT NOUN ADP NUM NOUN ADP	24
+PUNCT NOUN ADP NUM NOUN NOUN	11
+PUNCT NOUN ADP PART NOUN ADP	19
+PUNCT NOUN ADP PART NUM NOUN	10
+PUNCT NOUN ADP PROPN ADP NOUN	19
+PUNCT NOUN ADP PROPN ADP VERB	17
+PUNCT NOUN ADP PROPN NOUN ADP	16
+PUNCT NOUN ADP PROPN NOUN NOUN	9
+PUNCT NOUN ADP VERB AUX AUX	91
+PUNCT NOUN ADP VERB AUX NOUN	62
+PUNCT NOUN ADP VERB AUX PUNCT	45
+PUNCT NOUN ADP VERB AUX SCONJ	37
+PUNCT NOUN ADP VERB NOUN ADP	53
+PUNCT NOUN ADP VERB PUNCT EOF	16
+PUNCT NOUN ADP VERB SCONJ ADP	10
+PUNCT NOUN ADP VERB SCONJ AUX	29
+PUNCT NOUN ADP VERB SCONJ NOUN	21
+PUNCT NOUN ADP VERB SCONJ VERB	15
+PUNCT NOUN NOUN ADP ADJ AUX	28
+PUNCT NOUN NOUN ADP ADJ NOUN	16
+PUNCT NOUN NOUN ADP ADP NOUN	24
+PUNCT NOUN NOUN ADP ADP VERB	16
+PUNCT NOUN NOUN ADP NOUN ADP	171
+PUNCT NOUN NOUN ADP NOUN NOUN	84
+PUNCT NOUN NOUN ADP NOUN PUNCT	14
+PUNCT NOUN NOUN ADP NUM NOUN	28
+PUNCT NOUN NOUN ADP PART NOUN	16
+PUNCT NOUN NOUN ADP PROPN ADP	15
+PUNCT NOUN NOUN ADP PROPN NOUN	18
+PUNCT NOUN NOUN ADP VERB AUX	102
+PUNCT NOUN NOUN ADP VERB NOUN	18
+PUNCT NOUN NOUN ADP VERB PUNCT	12
+PUNCT NOUN NOUN ADP VERB SCONJ	37
+PUNCT NOUN NOUN NOUN ADP ADP	13
+PUNCT NOUN NOUN NOUN ADP NOUN	70
+PUNCT NOUN NOUN NOUN ADP VERB	36
+PUNCT NOUN NOUN NOUN NOUN ADP	28
+PUNCT NOUN NOUN NOUN NOUN NOUN	15
+PUNCT NOUN NOUN NOUN NOUN PUNCT	18
+PUNCT NOUN NOUN NOUN PUNCT ADP	23
+PUNCT NOUN NOUN PUNCT ADP NOUN	27
+PUNCT NOUN NOUN PUNCT ADP VERB	28
+PUNCT NOUN NOUN PUNCT NOUN NOUN	24
+PUNCT NOUN NOUN PUNCT PUNCT NOUN	10
+PUNCT NOUN NOUN SYM NOUN NOUN	10
+PUNCT NOUN NUM NOUN ADP ADP	9
+PUNCT NOUN NUM NOUN ADP NOUN	18
+PUNCT NOUN NUM NOUN ADP PROPN	9
+PUNCT NOUN PROPN ADP NOUN ADP	9
+PUNCT NOUN PROPN NOUN ADP NOUN	12
+PUNCT NOUN PUNCT ADP NOUN ADP	20
+PUNCT NOUN PUNCT ADP VERB AUX	24
+PUNCT NOUN PUNCT ADP VERB PUNCT	10
+PUNCT NOUN PUNCT ADP VERB SCONJ	10
+PUNCT NOUN PUNCT NOUN ADP NOUN	10
+PUNCT NOUN PUNCT NOUN NOUN ADP	9
+PUNCT NOUN PUNCT NOUN PUNCT NOUN	35
+PUNCT NUM NOUN ADP ADP PROPN	9
+PUNCT NUM NOUN ADP NOUN ADP	47
+PUNCT NUM NOUN ADP NOUN NOUN	24
+PUNCT NUM NOUN ADP NUM NOUN	25
+PUNCT NUM NOUN ADP PROPN ADP	12
+PUNCT NUM NOUN ADP PROPN NOUN	9
+PUNCT NUM NOUN ADP VERB AUX	18
+PUNCT NUM NOUN NOUN ADP NOUN	42
+PUNCT NUM NOUN NOUN ADP PROPN	14
+PUNCT NUM NOUN NOUN ADP VERB	11
+PUNCT NUM NOUN NOUN NOUN ADP	11
+PUNCT NUM NOUN NOUN NUM NOUN	27
+PUNCT PRON ADP NOUN ADP NOUN	21
+PUNCT PRON ADP NOUN ADP VERB	21
+PUNCT PRON ADP NOUN NOUN ADP	15
+PUNCT PROPN ADP ADJ NOUN ADP	13
+PUNCT PROPN ADP NOUN ADP NOUN	44
+PUNCT PROPN ADP NOUN ADP VERB	50
+PUNCT PROPN ADP NOUN NOUN ADP	43
+PUNCT PROPN ADP NOUN NOUN NOUN	12
+PUNCT PROPN ADP PROPN ADP NOUN	15
+PUNCT PROPN ADP PROPN ADP VERB	11
+PUNCT PROPN ADP PROPN NOUN ADP	17
+PUNCT PROPN ADP VERB AUX AUX	22
+PUNCT PROPN ADP VERB AUX NOUN	15
+PUNCT PROPN ADP VERB AUX PUNCT	12
+PUNCT PROPN NOUN ADP NOUN ADP	49
+PUNCT PROPN NOUN ADP NOUN NOUN	32
+PUNCT PROPN NOUN ADP NUM NOUN	9
+PUNCT PROPN NOUN ADP VERB AUX	28
+PUNCT PROPN NOUN NOUN ADP NOUN	24
+PUNCT PROPN NOUN NOUN ADP VERB	12
+PUNCT PROPN NOUN NOUN NOUN ADP	12
+PUNCT PROPN NOUN NOUN NOUN NOUN	13
+PUNCT PROPN NOUN PUNCT ADP VERB	10
+PUNCT PROPN PROPN ADP NOUN ADP	16
+PUNCT PROPN PROPN PUNCT PROPN PROPN	10
+PUNCT PROPN PUNCT ADP NOUN ADP	18
+PUNCT PROPN PUNCT ADP VERB AUX	27
+PUNCT PROPN PUNCT PROPN PUNCT PROPN	10
+PUNCT PROPN SYM NOUN NOUN ADP	9
+PUNCT PROPN SYM PROPN ADP NOUN	15
+PUNCT PROPN SYM PROPN ADP PROPN	9
+PUNCT PROPN SYM PROPN SYM PROPN	12
+PUNCT PUNCT NOUN ADP NOUN ADP	9
+PUNCT VERB AUX AUX NOUN ADP	9
+PUNCT VERB AUX NOUN ADP VERB	14
+PUNCT., ADJ NOUN ADP NOUN ADP	12
+PUNCT., ADJ NOUN ADP VERB AUX	9
+PUNCT., NOUN ADP NOUN ADP ADJ	12
+PUNCT., NOUN ADP NOUN ADP NOUN	32
+PUNCT., NOUN ADP NOUN ADP VERB	45
+PUNCT., NOUN ADP NOUN NOUN ADP	21
+PUNCT., NOUN ADP NOUN NOUN NOUN	9
+PUNCT., NOUN ADP VERB AUX NOUN	15
+PUNCT., NOUN ADP VERB AUX SCONJ	10
+PUNCT., NOUN ADP VERB SCONJ AUX	9
+PUNCT., NOUN NOUN ADP NOUN ADP	26
+PUNCT., NOUN NOUN ADP NOUN NOUN	11
+PUNCT., NOUN NOUN ADP VERB AUX	15
+PUNCT., NOUN NOUN NOUN ADP NOUN	17
+PUNCT., PRON ADP NOUN ADP VERB	10
+PUNCT., PROPN NOUN ADP NOUN ADP	12
+PUNCT., PROPN NOUN ADP NOUN NOUN	10
+SCONJ ADJ AUX NOUN ADP VERB	14
+SCONJ ADP ADJ AUX NOUN ADP	10
+SCONJ AUX AUX AUX AUX PUNCT	10
+SCONJ AUX AUX AUX PUNCT EOF	126
+SCONJ AUX AUX AUX SCONJ PUNCT	14
+SCONJ AUX AUX NOUN ADP NOUN	27
+SCONJ AUX AUX NOUN ADP PUNCT	11
+SCONJ AUX AUX NOUN ADP VERB	31
+SCONJ AUX AUX NOUN NOUN ADP	19
+SCONJ AUX AUX SCONJ PUNCT ADV	9
+SCONJ AUX AUX SCONJ PUNCT NOUN	32
+SCONJ AUX AUX SCONJ PUNCT NUM	10
+SCONJ AUX AUX SCONJ PUNCT PROPN	10
+SCONJ AUX NOUN ADP ADJ PUNCT	9
+SCONJ AUX NOUN ADP NOUN ADP	36
+SCONJ AUX NOUN ADP PUNCT NOUN	11
+SCONJ AUX NOUN ADP VERB AUX	30
+SCONJ AUX NOUN ADP VERB PUNCT	26
+SCONJ AUX NOUN ADP VERB SCONJ	17
+SCONJ AUX NOUN AUX PUNCT EOF	10
+SCONJ AUX NOUN NOUN ADP NOUN	10
+SCONJ AUX PUNCT NOUN ADP NOUN	22
+SCONJ AUX PUNCT NOUN ADP VERB	11
+SCONJ AUX PUNCT NOUN NOUN ADP	12
+SCONJ AUX SCONJ AUX PUNCT EOF	12
+SCONJ AUX SCONJ PUNCT NOUN ADP	31
+SCONJ AUX SCONJ PUNCT NOUN NOUN	16
+SCONJ NOUN ADP NOUN ADP NOUN	13
+SCONJ NOUN ADP NOUN ADP VERB	42
+SCONJ NOUN ADP NOUN NOUN ADP	14
+SCONJ NOUN ADP VERB AUX AUX	33
+SCONJ NOUN ADP VERB AUX NOUN	15
+SCONJ NOUN ADP VERB AUX PUNCT	27
+SCONJ NOUN ADP VERB AUX SCONJ	15
+SCONJ NOUN ADP VERB NOUN ADP	12
+SCONJ NOUN ADP VERB PUNCT EOF	15
+SCONJ NOUN ADP VERB PUNCT NOUN	9
+SCONJ NOUN ADP VERB SCONJ AUX	21
+SCONJ NOUN ADP VERB SCONJ PUNCT	9
+SCONJ NOUN NOUN ADP NOUN ADP	19
+SCONJ NOUN NOUN ADP NOUN NOUN	16
+SCONJ NOUN NOUN ADP VERB AUX	36
+SCONJ NOUN NOUN ADP VERB SCONJ	9
+SCONJ NUM NOUN ADP VERB AUX	10
+SCONJ PROPN ADP NOUN ADP VERB	9
+SCONJ PROPN NOUN ADP VERB AUX	9
+SCONJ PUNCT ADJ AUX NOUN ADP	16
+SCONJ PUNCT ADJ NOUN ADP ADP	9
+SCONJ PUNCT ADJ NOUN ADP NOUN	11
+SCONJ PUNCT ADJ NOUN ADP VERB	10
+SCONJ PUNCT NOUN ADP ADJ AUX	13
+SCONJ PUNCT NOUN ADP ADJ NOUN	10
+SCONJ PUNCT NOUN ADP ADP NOUN	16
+SCONJ PUNCT NOUN ADP NOUN ADP	111
+SCONJ PUNCT NOUN ADP NOUN NOUN	30
+SCONJ PUNCT NOUN ADP PROPN ADP	12
+SCONJ PUNCT NOUN ADP VERB AUX	46
+SCONJ PUNCT NOUN ADP VERB NOUN	16
+SCONJ PUNCT NOUN ADP VERB SCONJ	24
+SCONJ PUNCT NOUN NOUN ADP ADJ	17
+SCONJ PUNCT NOUN NOUN ADP ADP	9
+SCONJ PUNCT NOUN NOUN ADP NOUN	46
+SCONJ PUNCT NOUN NOUN ADP PROPN	11
+SCONJ PUNCT NOUN NOUN ADP VERB	34
+SCONJ PUNCT NOUN NOUN NOUN ADP	19
+SCONJ PUNCT NUM NOUN ADP NOUN	19
+SCONJ PUNCT NUM NOUN NOUN ADP	15
+SCONJ PUNCT PRON ADP NOUN ADP	16
+SCONJ PUNCT PRON ADP VERB AUX	9
+SCONJ PUNCT PROPN ADP NOUN ADP	18
+SCONJ PUNCT PROPN ADP VERB AUX	12
+SCONJ PUNCT PROPN NOUN ADP NOUN	10
+SCONJ PUNCT., NOUN ADP NOUN ADP	19
+SCONJ PUNCT., NOUN ADP VERB AUX	9
+SCONJ PUNCT., NOUN NOUN ADP NOUN	12
+SCONJ PUNCT., NOUN NOUN ADP VERB	9
+SCONJ VERB AUX AUX AUX PUNCT	21
+SCONJ VERB AUX AUX NOUN ADP	18
+SCONJ VERB AUX AUX PUNCT EOF	55
+SCONJ VERB AUX AUX SCONJ AUX	15
+SCONJ VERB AUX NOUN ADP VERB	12
+SCONJ VERB AUX PUNCT NOUN ADP	9
+SCONJ VERB AUX SCONJ AUX AUX	26
+SCONJ VERB AUX SCONJ AUX PUNCT	31
+SCONJ VERB NOUN ADP VERB AUX	9
+SCONJ VERB SCONJ AUX AUX AUX	11
+SCONJ VERB SCONJ AUX AUX PUNCT	16
+SCONJ VERB SCONJ AUX PUNCT EOF	21
+SYM NOUN ADP NOUN ADP VERB	13
+SYM NOUN ADP VERB AUX PUNCT	12
+SYM NOUN NOUN ADP NOUN ADP	11
+SYM NOUN NOUN ADP NOUN NOUN	10
+SYM PROPN ADP NOUN ADP NOUN	16
+SYM PROPN ADP NOUN ADP VERB	26
+SYM PROPN ADP NOUN NOUN ADP	15
+SYM PROPN ADP VERB AUX AUX	12
+SYM PROPN ADP VERB AUX PUNCT	11
+SYM PROPN NOUN ADP NOUN ADP	12
+SYM PROPN NOUN ADP VERB AUX	10
+SYM PROPN PUNCT PROPN SYM PROPN	10
+SYM PROPN SYM PROPN ADP NOUN	14
+SYM PROPN SYM PROPN NOUN ADP	9
+SYM PROPN SYM PROPN SYM PROPN	24
+VERB ADJ AUX NOUN ADP VERB	11
+VERB ADP NOUN ADP NOUN ADP	9
+VERB ADP VERB AUX PUNCT EOF	17
+VERB AUX ADJ AUX NOUN ADP	9
+VERB AUX ADP ADP NOUN ADP	9
+VERB AUX ADP NOUN ADP VERB	16
+VERB AUX ADP VERB AUX PUNCT	22
+VERB AUX ADP VERB PUNCT EOF	20
+VERB AUX ADP VERB SCONJ AUX	13
+VERB AUX AUX ADP NOUN ADP	10
+VERB AUX AUX ADP VERB AUX	17
+VERB AUX AUX AUX AUX PUNCT	30
+VERB AUX AUX AUX AUX SCONJ	11
+VERB AUX AUX AUX NOUN ADP	71
+VERB AUX AUX AUX NOUN AUX	24
+VERB AUX AUX AUX NOUN NOUN	20
+VERB AUX AUX AUX NOUN PUNCT	14
+VERB AUX AUX AUX PROPN ADP	11
+VERB AUX AUX AUX PROPN NOUN	9
+VERB AUX AUX AUX PUNCT EOF	291
+VERB AUX AUX AUX SCONJ AUX	11
+VERB AUX AUX AUX SCONJ PUNCT	28
+VERB AUX AUX AUX SCONJ VERB	11
+VERB AUX AUX NOUN ADP ADJ	35
+VERB AUX AUX NOUN ADP ADP	20
+VERB AUX AUX NOUN ADP NOUN	87
+VERB AUX AUX NOUN ADP PROPN	10
+VERB AUX AUX NOUN ADP PUNCT	40
+VERB AUX AUX NOUN ADP VERB	156
+VERB AUX AUX NOUN AUX PUNCT	22
+VERB AUX AUX NOUN NOUN ADP	54
+VERB AUX AUX NOUN NOUN NOUN	21
+VERB AUX AUX NOUN PUNCT EOF	17
+VERB AUX AUX NOUN PUNCT NOUN	17
+VERB AUX AUX NUM NOUN ADP	11
+VERB AUX AUX PART PUNCT EOF	10
+VERB AUX AUX PROPN ADP NOUN	15
+VERB AUX AUX PUNCT ADJ NOUN	10
+VERB AUX AUX PUNCT ADP VERB	9
+VERB AUX AUX PUNCT NOUN ADP	31
+VERB AUX AUX PUNCT NOUN NOUN	24
+VERB AUX AUX PUNCT NUM NOUN	11
+VERB AUX AUX PUNCT PROPN ADP	11
+VERB AUX AUX SCONJ AUX AUX	98
+VERB AUX AUX SCONJ AUX NOUN	28
+VERB AUX AUX SCONJ AUX PUNCT	122
+VERB AUX AUX SCONJ AUX SCONJ	23
+VERB AUX AUX SCONJ NOUN ADP	10
+VERB AUX AUX SCONJ PUNCT NOUN	43
+VERB AUX AUX SCONJ PUNCT PROPN	13
+VERB AUX AUX SCONJ PUNCT., NOUN	15
+VERB AUX AUX SCONJ VERB AUX	32
+VERB AUX AUX SCONJ VERB PUNCT	9
+VERB AUX NOUN ADP ADJ AUX	34
+VERB AUX NOUN ADP ADJ PUNCT	20
+VERB AUX NOUN ADP ADP NOUN	12
+VERB AUX NOUN ADP NOUN ADP	164
+VERB AUX NOUN ADP NOUN AUX	13
+VERB AUX NOUN ADP NOUN NOUN	43
+VERB AUX NOUN ADP NUM NOUN	17
+VERB AUX NOUN ADP PROPN ADP	12
+VERB AUX NOUN ADP PUNCT ADV	10
+VERB AUX NOUN ADP PUNCT NOUN	40
+VERB AUX NOUN ADP PUNCT PROPN	11
+VERB AUX NOUN ADP VERB AUX	172
+VERB AUX NOUN ADP VERB NOUN	26
+VERB AUX NOUN ADP VERB PUNCT	80
+VERB AUX NOUN ADP VERB SCONJ	58
+VERB AUX NOUN AUX ADP AUX	15
+VERB AUX NOUN AUX AUX PUNCT	10
+VERB AUX NOUN AUX PUNCT EOF	35
+VERB AUX NOUN NOUN ADP NOUN	41
+VERB AUX NOUN NOUN ADP PUNCT	11
+VERB AUX NOUN NOUN ADP VERB	46
+VERB AUX NOUN NOUN AUX PUNCT	9
+VERB AUX NOUN NOUN NOUN ADP	14
+VERB AUX NOUN NOUN NOUN NOUN	10
+VERB AUX NOUN NOUN PUNCT EOF	11
+VERB AUX NOUN PUNCT NOUN ADP	22
+VERB AUX NUM NOUN ADP NOUN	11
+VERB AUX PART AUX SCONJ PUNCT	11
+VERB AUX PROPN ADP NOUN ADP	19
+VERB AUX PROPN ADP VERB AUX	9
+VERB AUX PROPN NOUN ADP NOUN	13
+VERB AUX PUNCT ADJ AUX NOUN	9
+VERB AUX PUNCT ADJ NOUN ADP	27
+VERB AUX PUNCT NOUN ADP ADJ	12
+VERB AUX PUNCT NOUN ADP NOUN	61
+VERB AUX PUNCT NOUN ADP PROPN	11
+VERB AUX PUNCT NOUN ADP VERB	48
+VERB AUX PUNCT NOUN NOUN ADP	64
+VERB AUX PUNCT NOUN NOUN NOUN	17
+VERB AUX PUNCT NOUN NOUN PUNCT	10
+VERB AUX PUNCT NOUN NUM NOUN	9
+VERB AUX PUNCT NUM NOUN ADP	26
+VERB AUX PUNCT NUM NOUN NOUN	18
+VERB AUX PUNCT PROPN ADP NOUN	12
+VERB AUX PUNCT PROPN ADP VERB	10
+VERB AUX PUNCT PROPN NOUN ADP	19
+VERB AUX PUNCT., NOUN ADP NOUN	9
+VERB AUX SCONJ AUX AUX ADP	11
+VERB AUX SCONJ AUX AUX AUX	39
+VERB AUX SCONJ AUX AUX NOUN	57
+VERB AUX SCONJ AUX AUX PART	10
+VERB AUX SCONJ AUX AUX PROPN	14
+VERB AUX SCONJ AUX AUX PUNCT	155
+VERB AUX SCONJ AUX AUX SCONJ	37
+VERB AUX SCONJ AUX NOUN ADP	66
+VERB AUX SCONJ AUX NOUN NOUN	12
+VERB AUX SCONJ AUX PART ADP	14
+VERB AUX SCONJ AUX PUNCT EOF	264
+VERB AUX SCONJ AUX PUNCT NOUN	21
+VERB AUX SCONJ AUX SCONJ PUNCT	28
+VERB AUX SCONJ NOUN ADP NOUN	18
+VERB AUX SCONJ NOUN ADP VERB	55
+VERB AUX SCONJ NOUN NOUN ADP	24
+VERB AUX SCONJ PUNCT ADJ NOUN	17
+VERB AUX SCONJ PUNCT NOUN ADP	63
+VERB AUX SCONJ PUNCT NOUN NOUN	37
+VERB AUX SCONJ PUNCT NUM NOUN	9
+VERB AUX SCONJ PUNCT PROPN ADP	12
+VERB AUX SCONJ VERB AUX AUX	27
+VERB AUX SCONJ VERB AUX NOUN	12
+VERB AUX SCONJ VERB AUX PUNCT	21
+VERB AUX SCONJ VERB AUX SCONJ	28
+VERB AUX SCONJ VERB NOUN ADP	9
+VERB AUX SCONJ VERB PUNCT EOF	10
+VERB AUX SCONJ VERB SCONJ AUX	26
+VERB NOUN ADP ADJ AUX AUX	11
+VERB NOUN ADP ADJ AUX NOUN	9
+VERB NOUN ADP ADJ NOUN ADP	9
+VERB NOUN ADP ADJ PUNCT EOF	17
+VERB NOUN ADP NOUN ADP ADJ	12
+VERB NOUN ADP NOUN ADP NOUN	33
+VERB NOUN ADP NOUN ADP VERB	57
+VERB NOUN ADP NOUN NOUN ADP	23
+VERB NOUN ADP NOUN PUNCT EOF	9
+VERB NOUN ADP NUM NOUN ADP	14
+VERB NOUN ADP PUNCT NOUN ADP	21
+VERB NOUN ADP VERB AUX ADP	10
+VERB NOUN ADP VERB AUX AUX	58
+VERB NOUN ADP VERB AUX NOUN	19
+VERB NOUN ADP VERB AUX PUNCT	74
+VERB NOUN ADP VERB AUX SCONJ	23
+VERB NOUN ADP VERB NOUN ADP	14
+VERB NOUN ADP VERB PUNCT EOF	66
+VERB NOUN ADP VERB SCONJ AUX	25
+VERB NOUN ADP VERB SCONJ PUNCT	12
+VERB NOUN ADP VERB SCONJ VERB	10
+VERB NOUN NOUN ADP NOUN ADP	25
+VERB NOUN NOUN ADP VERB AUX	19
+VERB NOUN NOUN ADP VERB PUNCT	11
+VERB NOUN PUNCT NOUN ADP NOUN	12
+VERB NOUN PUNCT NOUN NOUN ADP	9
+VERB PUNCT ADJ AUX NOUN ADP	11
+VERB PUNCT ADJ NOUN ADP VERB	9
+VERB PUNCT NOUN ADP ADJ AUX	10
+VERB PUNCT NOUN ADP NOUN ADP	60
+VERB PUNCT NOUN ADP NOUN NOUN	12
+VERB PUNCT NOUN ADP VERB AUX	40
+VERB PUNCT NOUN ADP VERB NOUN	12
+VERB PUNCT NOUN ADP VERB SCONJ	10
+VERB PUNCT NOUN NOUN ADP NOUN	26
+VERB PUNCT NOUN NOUN ADP VERB	23
+VERB PUNCT NOUN NOUN NOUN ADP	18
+VERB PUNCT NUM NOUN ADP NOUN	10
+VERB PUNCT NUM NOUN NOUN ADP	14
+VERB PUNCT PROPN ADP NOUN ADP	10
+VERB PUNCT PROPN ADP NOUN NOUN	11
+VERB PUNCT., NOUN ADP NOUN ADP	10
+VERB SCONJ ADP ADJ AUX NOUN	9
+VERB SCONJ ADP NOUN ADP NOUN	9
+VERB SCONJ ADP NOUN ADP VERB	13
+VERB SCONJ AUX ADP VERB AUX	10
+VERB SCONJ AUX AUX ADP VERB	9
+VERB SCONJ AUX AUX AUX AUX	11
+VERB SCONJ AUX AUX AUX PUNCT	82
+VERB SCONJ AUX AUX AUX SCONJ	18
+VERB SCONJ AUX AUX NOUN ADP	55
+VERB SCONJ AUX AUX NOUN NOUN	9
+VERB SCONJ AUX AUX PART AUX	9
+VERB SCONJ AUX AUX PROPN ADP	10
+VERB SCONJ AUX AUX PUNCT EOF	235
+VERB SCONJ AUX AUX SCONJ PUNCT	49
+VERB SCONJ AUX NOUN ADP ADJ	10
+VERB SCONJ AUX NOUN ADP NOUN	26
+VERB SCONJ AUX NOUN ADP PUNCT	11
+VERB SCONJ AUX NOUN ADP VERB	50
+VERB SCONJ AUX NOUN AUX PUNCT	9
+VERB SCONJ AUX NOUN NOUN ADP	13
+VERB SCONJ AUX PUNCT NOUN ADP	24
+VERB SCONJ AUX PUNCT NOUN NOUN	11
+VERB SCONJ AUX PUNCT PROPN ADP	9
+VERB SCONJ AUX SCONJ AUX AUX	10
+VERB SCONJ AUX SCONJ AUX PUNCT	9
+VERB SCONJ AUX SCONJ PUNCT NOUN	32
+VERB SCONJ NOUN ADP ADJ AUX	10
+VERB SCONJ NOUN ADP NOUN ADP	43
+VERB SCONJ NOUN ADP NOUN NOUN	12
+VERB SCONJ NOUN ADP VERB AUX	55
+VERB SCONJ NOUN ADP VERB NOUN	10
+VERB SCONJ NOUN ADP VERB PUNCT	18
+VERB SCONJ NOUN ADP VERB SCONJ	16
+VERB SCONJ NOUN NOUN ADP NOUN	29
+VERB SCONJ NOUN NOUN ADP VERB	35
+VERB SCONJ NUM NOUN NOUN ADP	11
+VERB SCONJ PART NOUN ADP VERB	11
+VERB SCONJ PROPN ADP NOUN ADP	12
+VERB SCONJ PROPN ADP VERB AUX	10
+VERB SCONJ PROPN NOUN ADP VERB	10
+VERB SCONJ PUNCT ADJ NOUN ADP	11
+VERB SCONJ PUNCT NOUN ADP ADJ	12
+VERB SCONJ PUNCT NOUN ADP NOUN	46
+VERB SCONJ PUNCT NOUN ADP PROPN	9
+VERB SCONJ PUNCT NOUN ADP VERB	25
+VERB SCONJ PUNCT NOUN NOUN ADP	38
+VERB SCONJ PUNCT NOUN NOUN NOUN	9
+VERB SCONJ PUNCT NUM NOUN ADP	11
+VERB SCONJ PUNCT NUM NOUN NOUN	10
+VERB SCONJ PUNCT PROPN ADP NOUN	13
+VERB SCONJ PUNCT PROPN NOUN ADP	13
+VERB SCONJ PUNCT., NOUN ADP NOUN	16
+VERB SCONJ PUNCT., NOUN NOUN ADP	13
+VERB SCONJ VERB AUX AUX AUX	23
+VERB SCONJ VERB AUX AUX NOUN	23
+VERB SCONJ VERB AUX AUX PUNCT	43
+VERB SCONJ VERB AUX AUX SCONJ	12
+VERB SCONJ VERB AUX NOUN ADP	19
+VERB SCONJ VERB AUX PUNCT EOF	29
+VERB SCONJ VERB AUX SCONJ AUX	39
+VERB SCONJ VERB NOUN ADP VERB	10
+VERB SCONJ VERB SCONJ AUX AUX	22
+VERB SCONJ VERB SCONJ AUX PUNCT	9
+
+[NGRAMS:7]
+1531
+ADJ AUX NOUN ADP NOUN ADP NOUN	20
+ADJ AUX NOUN ADP NOUN ADP VERB	40
+ADJ AUX NOUN ADP NOUN NOUN ADP	18
+ADJ AUX NOUN ADP PUNCT NOUN ADP	12
+ADJ AUX NOUN ADP VERB AUX AUX	55
+ADJ AUX NOUN ADP VERB AUX NOUN	16
+ADJ AUX NOUN ADP VERB AUX PUNCT	30
+ADJ AUX NOUN ADP VERB AUX SCONJ	26
+ADJ AUX NOUN ADP VERB NOUN ADP	22
+ADJ AUX NOUN ADP VERB PUNCT EOF	15
+ADJ AUX NOUN ADP VERB SCONJ AUX	36
+ADJ AUX NOUN NOUN ADP NOUN ADP	16
+ADJ AUX NOUN NOUN ADP VERB AUX	33
+ADJ AUX NOUN NOUN NOUN ADP VERB	12
+ADJ NOUN ADP NOUN ADP NOUN ADP	27
+ADJ NOUN ADP NOUN ADP VERB AUX	46
+ADJ NOUN ADP NOUN ADP VERB PUNCT	15
+ADJ NOUN ADP NOUN ADP VERB SCONJ	26
+ADJ NOUN ADP NOUN NOUN ADP NOUN	15
+ADJ NOUN ADP NOUN NOUN ADP VERB	24
+ADJ NOUN ADP NOUN NOUN NOUN ADP	11
+ADJ NOUN ADP VERB AUX AUX AUX	19
+ADJ NOUN ADP VERB AUX AUX NOUN	16
+ADJ NOUN ADP VERB AUX AUX PUNCT	24
+ADJ NOUN ADP VERB AUX AUX SCONJ	13
+ADJ NOUN ADP VERB AUX NOUN ADP	25
+ADJ NOUN ADP VERB AUX PUNCT EOF	39
+ADJ NOUN ADP VERB AUX SCONJ AUX	20
+ADJ NOUN ADP VERB SCONJ AUX AUX	18
+ADJ NOUN ADP VERB SCONJ AUX PUNCT	22
+ADJ NOUN NOUN ADP NOUN NOUN ADP	12
+ADJ NOUN NOUN ADP VERB AUX AUX	12
+ADP ADJ ADP VERB AUX PUNCT EOF	13
+ADP ADJ AUX AUX AUX PUNCT EOF	18
+ADP ADJ AUX NOUN ADP NOUN ADP	39
+ADP ADJ AUX NOUN ADP NOUN NOUN	11
+ADP ADJ AUX NOUN ADP VERB AUX	73
+ADP ADJ AUX NOUN ADP VERB NOUN	14
+ADP ADJ AUX NOUN ADP VERB PUNCT	12
+ADP ADJ AUX NOUN ADP VERB SCONJ	35
+ADP ADJ AUX NOUN NOUN ADP VERB	27
+ADP ADJ AUX VERB AUX AUX SCONJ	14
+ADP ADJ AUX VERB AUX SCONJ AUX	15
+ADP ADJ NOUN ADP NOUN ADP VERB	30
+ADP ADJ NOUN ADP NOUN NOUN ADP	19
+ADP ADJ NOUN ADP VERB AUX AUX	34
+ADP ADJ NOUN ADP VERB AUX PUNCT	35
+ADP ADJ NOUN ADP VERB AUX SCONJ	17
+ADP ADJ NOUN ADP VERB PUNCT EOF	14
+ADP ADJ NOUN ADP VERB SCONJ AUX	31
+ADP ADP NOUN ADP NOUN ADP NOUN	26
+ADP ADP NOUN ADP NOUN ADP VERB	44
+ADP ADP NOUN ADP NOUN NOUN ADP	22
+ADP ADP NOUN ADP VERB AUX AUX	25
+ADP ADP NOUN ADP VERB AUX PUNCT	15
+ADP ADP NOUN ADP VERB AUX SCONJ	25
+ADP ADP NOUN ADP VERB NOUN ADP	13
+ADP ADP NOUN ADP VERB PUNCT EOF	22
+ADP ADP NOUN ADP VERB SCONJ AUX	20
+ADP ADP NOUN NOUN ADP NOUN ADP	28
+ADP ADP NOUN NOUN ADP VERB AUX	27
+ADP ADP NOUN NOUN ADP VERB SCONJ	17
+ADP ADP PUNCT NOUN ADP NOUN ADP	28
+ADP ADP PUNCT NOUN ADP NOUN NOUN	15
+ADP ADP PUNCT NOUN ADP VERB AUX	11
+ADP ADP PUNCT NOUN NOUN ADP NOUN	15
+ADP ADP VERB AUX AUX AUX PUNCT	17
+ADP ADP VERB AUX AUX NOUN ADP	18
+ADP ADP VERB AUX AUX PUNCT EOF	34
+ADP ADP VERB AUX AUX SCONJ AUX	18
+ADP ADP VERB AUX NOUN ADP NOUN	11
+ADP ADP VERB AUX NOUN ADP VERB	12
+ADP ADP VERB AUX SCONJ AUX AUX	12
+ADP ADP VERB AUX SCONJ AUX PUNCT	23
+ADP ADP VERB SCONJ AUX PUNCT EOF	14
+ADP ADV NOUN ADP NOUN ADP VERB	11
+ADP ADV VERB AUX AUX PUNCT EOF	16
+ADP NOUN ADP ADJ AUX AUX AUX	13
+ADP NOUN ADP ADJ AUX AUX PUNCT	16
+ADP NOUN ADP ADJ AUX NOUN ADP	34
+ADP NOUN ADP ADJ AUX NOUN NOUN	11
+ADP NOUN ADP ADJ AUX VERB AUX	28
+ADP NOUN ADP ADJ NOUN ADP NOUN	11
+ADP NOUN ADP ADJ NOUN ADP VERB	39
+ADP NOUN ADP ADP NOUN ADP NOUN	18
+ADP NOUN ADP ADP NOUN ADP VERB	27
+ADP NOUN ADP ADP NOUN NOUN ADP	12
+ADP NOUN ADP ADP PUNCT NOUN ADP	12
+ADP NOUN ADP ADP VERB AUX AUX	31
+ADP NOUN ADP ADP VERB AUX NOUN	12
+ADP NOUN ADP ADP VERB AUX PUNCT	13
+ADP NOUN ADP ADP VERB SCONJ AUX	13
+ADP NOUN ADP ADV NOUN ADP VERB	14
+ADP NOUN ADP ADV VERB SCONJ AUX	12
+ADP NOUN ADP NOUN ADP ADJ AUX	36
+ADP NOUN ADP NOUN ADP ADJ NOUN	14
+ADP NOUN ADP NOUN ADP ADJ PUNCT	12
+ADP NOUN ADP NOUN ADP ADP VERB	22
+ADP NOUN ADP NOUN ADP ADV VERB	12
+ADP NOUN ADP NOUN ADP NOUN ADP	215
+ADP NOUN ADP NOUN ADP NOUN AUX	18
+ADP NOUN ADP NOUN ADP NOUN NOUN	71
+ADP NOUN ADP NOUN ADP NOUN PUNCT	21
+ADP NOUN ADP NOUN ADP NUM NOUN	13
+ADP NOUN ADP NOUN ADP PROPN ADP	15
+ADP NOUN ADP NOUN ADP PUNCT NOUN	29
+ADP NOUN ADP NOUN ADP VERB AUX	326
+ADP NOUN ADP NOUN ADP VERB NOUN	60
+ADP NOUN ADP NOUN ADP VERB PUNCT	77
+ADP NOUN ADP NOUN ADP VERB SCONJ	158
+ADP NOUN ADP NOUN AUX AUX PUNCT	13
+ADP NOUN ADP NOUN AUX PUNCT EOF	24
+ADP NOUN ADP NOUN NOUN ADP ADJ	23
+ADP NOUN ADP NOUN NOUN ADP ADP	20
+ADP NOUN ADP NOUN NOUN ADP NOUN	81
+ADP NOUN ADP NOUN NOUN ADP VERB	144
+ADP NOUN ADP NOUN NOUN NOUN ADP	46
+ADP NOUN ADP NOUN NOUN NOUN NOUN	16
+ADP NOUN ADP NOUN PUNCT NOUN ADP	21
+ADP NOUN ADP NOUN VERB AUX AUX	15
+ADP NOUN ADP NUM NOUN ADP NOUN	17
+ADP NOUN ADP NUM NOUN ADP VERB	26
+ADP NOUN ADP NUM NOUN NOUN ADP	18
+ADP NOUN ADP PART NOUN ADP NOUN	11
+ADP NOUN ADP PART NOUN ADP VERB	20
+ADP NOUN ADP PROPN ADP NOUN ADP	35
+ADP NOUN ADP PROPN ADP VERB AUX	21
+ADP NOUN ADP PROPN NOUN ADP NOUN	17
+ADP NOUN ADP PROPN NOUN ADP VERB	16
+ADP NOUN ADP PROPN NOUN NOUN ADP	12
+ADP NOUN ADP PUNCT NOUN ADP NOUN	44
+ADP NOUN ADP PUNCT NOUN ADP VERB	15
+ADP NOUN ADP PUNCT NOUN NOUN ADP	32
+ADP NOUN ADP PUNCT NOUN NOUN NOUN	12
+ADP NOUN ADP PUNCT PROPN ADP NOUN	13
+ADP NOUN ADP PUNCT., NOUN ADP NOUN	15
+ADP NOUN ADP VERB ADP VERB AUX	12
+ADP NOUN ADP VERB AUX ADP NOUN	11
+ADP NOUN ADP VERB AUX ADP VERB	15
+ADP NOUN ADP VERB AUX AUX ADP	16
+ADP NOUN ADP VERB AUX AUX AUX	117
+ADP NOUN ADP VERB AUX AUX NOUN	112
+ADP NOUN ADP VERB AUX AUX PROPN	12
+ADP NOUN ADP VERB AUX AUX PUNCT	189
+ADP NOUN ADP VERB AUX AUX SCONJ	116
+ADP NOUN ADP VERB AUX NOUN ADP	195
+ADP NOUN ADP VERB AUX NOUN AUX	20
+ADP NOUN ADP VERB AUX NOUN NOUN	45
+ADP NOUN ADP VERB AUX NOUN PUNCT	27
+ADP NOUN ADP VERB AUX PART ADP	19
+ADP NOUN ADP VERB AUX PROPN ADP	17
+ADP NOUN ADP VERB AUX PROPN NOUN	17
+ADP NOUN ADP VERB AUX PUNCT ADJ	13
+ADP NOUN ADP VERB AUX PUNCT ADP	11
+ADP NOUN ADP VERB AUX PUNCT EOF	234
+ADP NOUN ADP VERB AUX PUNCT NOUN	53
+ADP NOUN ADP VERB AUX PUNCT PROPN	16
+ADP NOUN ADP VERB AUX SCONJ ADP	14
+ADP NOUN ADP VERB AUX SCONJ AUX	170
+ADP NOUN ADP VERB AUX SCONJ NOUN	22
+ADP NOUN ADP VERB AUX SCONJ PUNCT	54
+ADP NOUN ADP VERB AUX SCONJ VERB	28
+ADP NOUN ADP VERB AUX VERB AUX	14
+ADP NOUN ADP VERB NOUN ADP ADJ	19
+ADP NOUN ADP VERB NOUN ADP NOUN	43
+ADP NOUN ADP VERB NOUN ADP PUNCT	13
+ADP NOUN ADP VERB NOUN ADP VERB	95
+ADP NOUN ADP VERB NOUN NOUN ADP	15
+ADP NOUN ADP VERB PUNCT ADJ NOUN	13
+ADP NOUN ADP VERB PUNCT NOUN ADP	71
+ADP NOUN ADP VERB PUNCT NOUN NOUN	24
+ADP NOUN ADP VERB PUNCT NUM NOUN	13
+ADP NOUN ADP VERB PUNCT PROPN ADP	16
+ADP NOUN ADP VERB SCONJ ADP NOUN	15
+ADP NOUN ADP VERB SCONJ AUX ADP	11
+ADP NOUN ADP VERB SCONJ AUX AUX	157
+ADP NOUN ADP VERB SCONJ AUX NOUN	42
+ADP NOUN ADP VERB SCONJ AUX PUNCT	118
+ADP NOUN ADP VERB SCONJ AUX SCONJ	30
+ADP NOUN ADP VERB SCONJ NOUN ADP	58
+ADP NOUN ADP VERB SCONJ NOUN NOUN	20
+ADP NOUN ADP VERB SCONJ NUM NOUN	13
+ADP NOUN ADP VERB SCONJ PROPN ADP	13
+ADP NOUN ADP VERB SCONJ PUNCT NOUN	36
+ADP NOUN ADP VERB SCONJ PUNCT PROPN	12
+ADP NOUN ADP VERB SCONJ PUNCT., NOUN	11
+ADP NOUN ADP VERB SCONJ VERB AUX	80
+ADP NOUN ADP VERB SCONJ VERB NOUN	11
+ADP NOUN ADP VERB SCONJ VERB PUNCT	16
+ADP NOUN ADP VERB SCONJ VERB SCONJ	19
+ADP NOUN NOUN ADP ADJ AUX NOUN	21
+ADP NOUN NOUN ADP ADJ AUX VERB	12
+ADP NOUN NOUN ADP ADJ NOUN ADP	24
+ADP NOUN NOUN ADP ADP NOUN ADP	21
+ADP NOUN NOUN ADP ADP NOUN NOUN	12
+ADP NOUN NOUN ADP ADP VERB AUX	21
+ADP NOUN NOUN ADP NOUN ADP ADJ	22
+ADP NOUN NOUN ADP NOUN ADP ADP	13
+ADP NOUN NOUN ADP NOUN ADP NOUN	87
+ADP NOUN NOUN ADP NOUN ADP PUNCT	15
+ADP NOUN NOUN ADP NOUN ADP VERB	206
+ADP NOUN NOUN ADP NOUN NOUN ADP	93
+ADP NOUN NOUN ADP NOUN NOUN NOUN	17
+ADP NOUN NOUN ADP NOUN PUNCT NOUN	13
+ADP NOUN NOUN ADP NUM NOUN ADP	14
+ADP NOUN NOUN ADP PART NOUN ADP	17
+ADP NOUN NOUN ADP PROPN ADP VERB	13
+ADP NOUN NOUN ADP PROPN NOUN ADP	17
+ADP NOUN NOUN ADP PUNCT NOUN ADP	18
+ADP NOUN NOUN ADP PUNCT NOUN NOUN	13
+ADP NOUN NOUN ADP VERB AUX AUX	152
+ADP NOUN NOUN ADP VERB AUX NOUN	77
+ADP NOUN NOUN ADP VERB AUX PUNCT	110
+ADP NOUN NOUN ADP VERB AUX SCONJ	97
+ADP NOUN NOUN ADP VERB NOUN ADP	43
+ADP NOUN NOUN ADP VERB NOUN NOUN	16
+ADP NOUN NOUN ADP VERB PUNCT EOF	47
+ADP NOUN NOUN ADP VERB PUNCT NOUN	33
+ADP NOUN NOUN ADP VERB SCONJ ADP	11
+ADP NOUN NOUN ADP VERB SCONJ AUX	67
+ADP NOUN NOUN ADP VERB SCONJ NOUN	17
+ADP NOUN NOUN ADP VERB SCONJ PUNCT	24
+ADP NOUN NOUN ADP VERB SCONJ VERB	30
+ADP NOUN NOUN AUX AUX PUNCT EOF	13
+ADP NOUN NOUN NOUN ADP NOUN ADP	51
+ADP NOUN NOUN NOUN ADP NOUN NOUN	30
+ADP NOUN NOUN NOUN ADP NUM NOUN	13
+ADP NOUN NOUN NOUN ADP VERB AUX	71
+ADP NOUN NOUN NOUN ADP VERB NOUN	11
+ADP NOUN NOUN NOUN ADP VERB PUNCT	19
+ADP NOUN NOUN NOUN ADP VERB SCONJ	26
+ADP NOUN NOUN NOUN NOUN ADP NOUN	16
+ADP NOUN NOUN NOUN NOUN ADP VERB	23
+ADP NOUN NUM NOUN ADP VERB AUX	15
+ADP NOUN PUNCT NOUN ADP NOUN ADP	24
+ADP NOUN PUNCT NOUN NOUN ADP NOUN	15
+ADP NOUN VERB AUX AUX PUNCT EOF	18
+ADP NUM NOUN ADP NOUN ADP NOUN	18
+ADP NUM NOUN ADP NOUN ADP VERB	57
+ADP NUM NOUN ADP NOUN NOUN ADP	21
+ADP NUM NOUN ADP NUM NOUN ADP	15
+ADP NUM NOUN ADP VERB AUX AUX	32
+ADP NUM NOUN ADP VERB AUX NOUN	16
+ADP NUM NOUN ADP VERB AUX PUNCT	29
+ADP NUM NOUN ADP VERB AUX SCONJ	13
+ADP NUM NOUN ADP VERB SCONJ AUX	16
+ADP NUM NOUN NOUN ADP NOUN ADP	34
+ADP NUM NOUN NOUN ADP NOUN NOUN	15
+ADP NUM NOUN NOUN ADP VERB AUX	29
+ADP NUM NOUN NOUN ADP VERB PUNCT	11
+ADP NUM NOUN NOUN NUM NOUN ADP	21
+ADP PART NOUN ADP NOUN ADP VERB	20
+ADP PART NOUN ADP NOUN NOUN ADP	11
+ADP PART NOUN ADP VERB AUX AUX	31
+ADP PART NOUN ADP VERB AUX PUNCT	13
+ADP PART NOUN ADP VERB AUX SCONJ	12
+ADP PART NOUN ADP VERB PUNCT EOF	13
+ADP PART NOUN ADP VERB SCONJ AUX	14
+ADP PART NOUN NOUN ADP NOUN ADP	13
+ADP PART NOUN NOUN ADP VERB AUX	17
+ADP PROPN ADP NOUN ADP NOUN ADP	21
+ADP PROPN ADP NOUN ADP VERB AUX	55
+ADP PROPN ADP NOUN ADP VERB PUNCT	14
+ADP PROPN ADP NOUN ADP VERB SCONJ	29
+ADP PROPN ADP NOUN NOUN ADP VERB	23
+ADP PROPN ADP PART NOUN ADP VERB	11
+ADP PROPN ADP PROPN ADP VERB AUX	11
+ADP PROPN ADP VERB AUX AUX AUX	17
+ADP PROPN ADP VERB AUX AUX NOUN	18
+ADP PROPN ADP VERB AUX AUX PUNCT	21
+ADP PROPN ADP VERB AUX NOUN ADP	15
+ADP PROPN ADP VERB AUX PUNCT EOF	15
+ADP PROPN ADP VERB AUX SCONJ AUX	15
+ADP PROPN NOUN ADP NOUN ADP NOUN	15
+ADP PROPN NOUN ADP NOUN ADP VERB	50
+ADP PROPN NOUN ADP NOUN NOUN ADP	25
+ADP PROPN NOUN ADP VERB AUX AUX	31
+ADP PROPN NOUN ADP VERB AUX NOUN	12
+ADP PROPN NOUN ADP VERB AUX PUNCT	20
+ADP PROPN NOUN ADP VERB AUX SCONJ	16
+ADP PROPN NOUN NOUN ADP NOUN ADP	17
+ADP PROPN NOUN NOUN ADP NOUN NOUN	12
+ADP PROPN NOUN NOUN ADP VERB AUX	19
+ADP PROPN SYM PROPN ADP NOUN ADP	13
+ADP PUNCT ADJ AUX NOUN ADP VERB	11
+ADP PUNCT ADJ NOUN ADP NOUN ADP	15
+ADP PUNCT NOUN ADP NOUN ADP NOUN	45
+ADP PUNCT NOUN ADP NOUN ADP VERB	60
+ADP PUNCT NOUN ADP NOUN NOUN ADP	48
+ADP PUNCT NOUN ADP VERB AUX AUX	21
+ADP PUNCT NOUN ADP VERB AUX NOUN	15
+ADP PUNCT NOUN NOUN ADP NOUN ADP	45
+ADP PUNCT NOUN NOUN ADP NOUN NOUN	26
+ADP PUNCT NOUN NOUN ADP VERB AUX	27
+ADP PUNCT NOUN NOUN NOUN ADP NOUN	19
+ADP PUNCT NOUN NOUN NOUN PUNCT ADP	11
+ADP PUNCT NOUN NOUN PUNCT ADP NOUN	13
+ADP PUNCT NOUN NOUN PUNCT ADP VERB	14
+ADP PUNCT NOUN PUNCT ADP VERB AUX	16
+ADP PUNCT PROPN ADP NOUN ADP NOUN	13
+ADP PUNCT PROPN ADP NOUN ADP VERB	17
+ADP PUNCT PROPN NOUN ADP NOUN ADP	18
+ADP PUNCT PROPN PUNCT ADP VERB AUX	14
+ADP PUNCT., NOUN ADP NOUN ADP NOUN	11
+ADP PUNCT., NOUN ADP NOUN ADP VERB	15
+ADP VERB ADP VERB AUX PUNCT EOF	12
+ADP VERB AUX ADP NOUN ADP VERB	12
+ADP VERB AUX ADP VERB AUX PUNCT	13
+ADP VERB AUX ADP VERB PUNCT EOF	16
+ADP VERB AUX AUX ADP VERB AUX	12
+ADP VERB AUX AUX AUX AUX PUNCT	21
+ADP VERB AUX AUX AUX NOUN ADP	49
+ADP VERB AUX AUX AUX NOUN AUX	17
+ADP VERB AUX AUX AUX NOUN NOUN	19
+ADP VERB AUX AUX AUX NOUN PUNCT	11
+ADP VERB AUX AUX AUX PUNCT EOF	214
+ADP VERB AUX AUX AUX SCONJ PUNCT	24
+ADP VERB AUX AUX NOUN ADP ADJ	24
+ADP VERB AUX AUX NOUN ADP ADP	18
+ADP VERB AUX AUX NOUN ADP NOUN	61
+ADP VERB AUX AUX NOUN ADP PUNCT	36
+ADP VERB AUX AUX NOUN ADP VERB	119
+ADP VERB AUX AUX NOUN AUX PUNCT	16
+ADP VERB AUX AUX NOUN NOUN ADP	41
+ADP VERB AUX AUX NOUN NOUN NOUN	13
+ADP VERB AUX AUX NOUN PUNCT EOF	13
+ADP VERB AUX AUX NOUN PUNCT NOUN	14
+ADP VERB AUX AUX PROPN ADP NOUN	12
+ADP VERB AUX AUX PUNCT NOUN ADP	26
+ADP VERB AUX AUX PUNCT NOUN NOUN	17
+ADP VERB AUX AUX PUNCT PROPN ADP	11
+ADP VERB AUX AUX SCONJ AUX AUX	80
+ADP VERB AUX AUX SCONJ AUX NOUN	18
+ADP VERB AUX AUX SCONJ AUX PUNCT	99
+ADP VERB AUX AUX SCONJ AUX SCONJ	13
+ADP VERB AUX AUX SCONJ PUNCT NOUN	31
+ADP VERB AUX AUX SCONJ PUNCT PROPN	11
+ADP VERB AUX AUX SCONJ PUNCT., NOUN	12
+ADP VERB AUX AUX SCONJ VERB AUX	23
+ADP VERB AUX NOUN ADP ADJ AUX	26
+ADP VERB AUX NOUN ADP ADJ PUNCT	18
+ADP VERB AUX NOUN ADP NOUN ADP	124
+ADP VERB AUX NOUN ADP NOUN NOUN	34
+ADP VERB AUX NOUN ADP NUM NOUN	15
+ADP VERB AUX NOUN ADP PROPN ADP	11
+ADP VERB AUX NOUN ADP PUNCT NOUN	30
+ADP VERB AUX NOUN ADP VERB AUX	128
+ADP VERB AUX NOUN ADP VERB NOUN	18
+ADP VERB AUX NOUN ADP VERB PUNCT	62
+ADP VERB AUX NOUN ADP VERB SCONJ	47
+ADP VERB AUX NOUN AUX ADP AUX	13
+ADP VERB AUX NOUN AUX PUNCT EOF	28
+ADP VERB AUX NOUN NOUN ADP NOUN	30
+ADP VERB AUX NOUN NOUN ADP VERB	34
+ADP VERB AUX NOUN NOUN NOUN ADP	14
+ADP VERB AUX NOUN PUNCT NOUN ADP	17
+ADP VERB AUX PROPN ADP NOUN ADP	15
+ADP VERB AUX PROPN NOUN ADP NOUN	13
+ADP VERB AUX PUNCT ADJ NOUN ADP	22
+ADP VERB AUX PUNCT NOUN ADP NOUN	50
+ADP VERB AUX PUNCT NOUN ADP PROPN	11
+ADP VERB AUX PUNCT NOUN ADP VERB	41
+ADP VERB AUX PUNCT NOUN NOUN ADP	53
+ADP VERB AUX PUNCT NOUN NOUN NOUN	15
+ADP VERB AUX PUNCT NUM NOUN ADP	22
+ADP VERB AUX PUNCT NUM NOUN NOUN	16
+ADP VERB AUX PUNCT PROPN NOUN ADP	17
+ADP VERB AUX SCONJ AUX AUX AUX	20
+ADP VERB AUX SCONJ AUX AUX NOUN	38
+ADP VERB AUX SCONJ AUX AUX PROPN	12
+ADP VERB AUX SCONJ AUX AUX PUNCT	108
+ADP VERB AUX SCONJ AUX AUX SCONJ	30
+ADP VERB AUX SCONJ AUX NOUN ADP	50
+ADP VERB AUX SCONJ AUX PUNCT EOF	207
+ADP VERB AUX SCONJ AUX PUNCT NOUN	15
+ADP VERB AUX SCONJ AUX SCONJ PUNCT	24
+ADP VERB AUX SCONJ NOUN ADP NOUN	12
+ADP VERB AUX SCONJ NOUN ADP VERB	46
+ADP VERB AUX SCONJ NOUN NOUN ADP	18
+ADP VERB AUX SCONJ PUNCT ADJ NOUN	13
+ADP VERB AUX SCONJ PUNCT NOUN ADP	53
+ADP VERB AUX SCONJ PUNCT NOUN NOUN	31
+ADP VERB AUX SCONJ VERB AUX AUX	21
+ADP VERB AUX SCONJ VERB AUX PUNCT	12
+ADP VERB AUX SCONJ VERB AUX SCONJ	22
+ADP VERB AUX SCONJ VERB SCONJ AUX	18
+ADP VERB NOUN ADP ADJ PUNCT EOF	16
+ADP VERB NOUN ADP NOUN ADP ADJ	11
+ADP VERB NOUN ADP NOUN ADP NOUN	27
+ADP VERB NOUN ADP NOUN ADP VERB	44
+ADP VERB NOUN ADP NOUN NOUN ADP	18
+ADP VERB NOUN ADP NUM NOUN ADP	12
+ADP VERB NOUN ADP PUNCT NOUN ADP	17
+ADP VERB NOUN ADP VERB AUX AUX	50
+ADP VERB NOUN ADP VERB AUX NOUN	13
+ADP VERB NOUN ADP VERB AUX PUNCT	57
+ADP VERB NOUN ADP VERB AUX SCONJ	18
+ADP VERB NOUN ADP VERB PUNCT EOF	53
+ADP VERB NOUN ADP VERB SCONJ AUX	20
+ADP VERB NOUN ADP VERB SCONJ PUNCT	11
+ADP VERB NOUN NOUN ADP NOUN ADP	21
+ADP VERB NOUN NOUN ADP VERB AUX	15
+ADP VERB PUNCT NOUN ADP NOUN ADP	53
+ADP VERB PUNCT NOUN ADP NOUN NOUN	12
+ADP VERB PUNCT NOUN ADP VERB AUX	37
+ADP VERB PUNCT NOUN NOUN ADP NOUN	23
+ADP VERB PUNCT NOUN NOUN ADP VERB	22
+ADP VERB PUNCT NOUN NOUN NOUN ADP	17
+ADP VERB PUNCT NUM NOUN NOUN ADP	13
+ADP VERB PUNCT PROPN ADP NOUN NOUN	11
+ADP VERB SCONJ ADP NOUN ADP VERB	11
+ADP VERB SCONJ AUX AUX AUX PUNCT	60
+ADP VERB SCONJ AUX AUX AUX SCONJ	15
+ADP VERB SCONJ AUX AUX NOUN ADP	46
+ADP VERB SCONJ AUX AUX PUNCT EOF	179
+ADP VERB SCONJ AUX AUX SCONJ PUNCT	43
+ADP VERB SCONJ AUX NOUN ADP NOUN	14
+ADP VERB SCONJ AUX NOUN ADP VERB	40
+ADP VERB SCONJ AUX NOUN NOUN ADP	11
+ADP VERB SCONJ AUX PUNCT NOUN ADP	21
+ADP VERB SCONJ AUX SCONJ PUNCT NOUN	25
+ADP VERB SCONJ NOUN ADP NOUN ADP	38
+ADP VERB SCONJ NOUN ADP NOUN NOUN	11
+ADP VERB SCONJ NOUN ADP VERB AUX	52
+ADP VERB SCONJ NOUN ADP VERB PUNCT	18
+ADP VERB SCONJ NOUN ADP VERB SCONJ	14
+ADP VERB SCONJ NOUN NOUN ADP NOUN	25
+ADP VERB SCONJ NOUN NOUN ADP VERB	33
+ADP VERB SCONJ PART NOUN ADP VERB	11
+ADP VERB SCONJ PROPN ADP NOUN ADP	11
+ADP VERB SCONJ PUNCT NOUN ADP ADJ	11
+ADP VERB SCONJ PUNCT NOUN ADP NOUN	43
+ADP VERB SCONJ PUNCT NOUN ADP VERB	23
+ADP VERB SCONJ PUNCT NOUN NOUN ADP	35
+ADP VERB SCONJ PUNCT NUM NOUN ADP	11
+ADP VERB SCONJ PUNCT PROPN NOUN ADP	13
+ADP VERB SCONJ PUNCT., NOUN ADP NOUN	15
+ADP VERB SCONJ VERB AUX AUX AUX	19
+ADP VERB SCONJ VERB AUX AUX NOUN	23
+ADP VERB SCONJ VERB AUX AUX PUNCT	40
+ADP VERB SCONJ VERB AUX AUX SCONJ	12
+ADP VERB SCONJ VERB AUX NOUN ADP	18
+ADP VERB SCONJ VERB AUX PUNCT EOF	24
+ADP VERB SCONJ VERB AUX SCONJ AUX	36
+ADP VERB SCONJ VERB SCONJ AUX AUX	16
+ADV NOUN ADP NOUN ADP VERB AUX	17
+ADV VERB AUX NOUN ADP NOUN ADP	14
+ADV VERB AUX SCONJ AUX AUX PUNCT	11
+ADV VERB SCONJ AUX AUX PUNCT EOF	15
+AUX ADP AUX AUX AUX PUNCT EOF	14
+AUX AUX ADP VERB AUX PUNCT EOF	21
+AUX AUX AUX NOUN ADP NOUN ADP	18
+AUX AUX AUX NOUN ADP VERB AUX	12
+AUX AUX AUX NOUN AUX PUNCT EOF	14
+AUX AUX AUX SCONJ PUNCT NOUN ADP	16
+AUX AUX NOUN ADP NOUN ADP NOUN	30
+AUX AUX NOUN ADP NOUN ADP VERB	45
+AUX AUX NOUN ADP NOUN NOUN ADP	24
+AUX AUX NOUN ADP PUNCT NOUN ADP	15
+AUX AUX NOUN ADP VERB AUX AUX	32
+AUX AUX NOUN ADP VERB AUX PUNCT	40
+AUX AUX NOUN ADP VERB AUX SCONJ	22
+AUX AUX NOUN ADP VERB NOUN ADP	12
+AUX AUX NOUN ADP VERB PUNCT EOF	33
+AUX AUX NOUN ADP VERB SCONJ AUX	24
+AUX AUX NOUN NOUN ADP NOUN ADP	16
+AUX AUX NOUN NOUN ADP VERB AUX	15
+AUX AUX PUNCT NOUN ADP NOUN ADP	17
+AUX AUX SCONJ AUX AUX PUNCT EOF	58
+AUX AUX SCONJ AUX AUX SCONJ PUNCT	12
+AUX AUX SCONJ PUNCT ADJ NOUN ADP	11
+AUX AUX SCONJ PUNCT NOUN ADP NOUN	44
+AUX AUX SCONJ PUNCT NOUN ADP VERB	22
+AUX AUX SCONJ PUNCT NOUN NOUN ADP	22
+AUX AUX SCONJ PUNCT NUM NOUN ADP	12
+AUX AUX SCONJ VERB AUX PUNCT EOF	13
+AUX NOUN ADP ADJ AUX AUX PUNCT	12
+AUX NOUN ADP ADJ AUX NOUN ADP	13
+AUX NOUN ADP ADJ AUX VERB AUX	12
+AUX NOUN ADP NOUN ADP ADJ AUX	13
+AUX NOUN ADP NOUN ADP NOUN ADP	72
+AUX NOUN ADP NOUN ADP NOUN NOUN	17
+AUX NOUN ADP NOUN ADP PUNCT NOUN	14
+AUX NOUN ADP NOUN ADP VERB AUX	92
+AUX NOUN ADP NOUN ADP VERB NOUN	13
+AUX NOUN ADP NOUN ADP VERB PUNCT	19
+AUX NOUN ADP NOUN ADP VERB SCONJ	52
+AUX NOUN ADP NOUN NOUN ADP NOUN	12
+AUX NOUN ADP NOUN NOUN ADP VERB	46
+AUX NOUN ADP NOUN NOUN NOUN ADP	16
+AUX NOUN ADP PUNCT NOUN ADP NOUN	29
+AUX NOUN ADP PUNCT NOUN ADP VERB	22
+AUX NOUN ADP PUNCT NOUN NOUN ADP	16
+AUX NOUN ADP VERB AUX AUX AUX	32
+AUX NOUN ADP VERB AUX AUX NOUN	27
+AUX NOUN ADP VERB AUX AUX PUNCT	63
+AUX NOUN ADP VERB AUX AUX SCONJ	27
+AUX NOUN ADP VERB AUX NOUN ADP	32
+AUX NOUN ADP VERB AUX PUNCT EOF	109
+AUX NOUN ADP VERB AUX PUNCT NOUN	19
+AUX NOUN ADP VERB AUX SCONJ AUX	49
+AUX NOUN ADP VERB AUX SCONJ PUNCT	16
+AUX NOUN ADP VERB AUX SCONJ VERB	12
+AUX NOUN ADP VERB NOUN ADP VERB	27
+AUX NOUN ADP VERB PUNCT NOUN ADP	21
+AUX NOUN ADP VERB PUNCT NOUN NOUN	11
+AUX NOUN ADP VERB SCONJ AUX AUX	43
+AUX NOUN ADP VERB SCONJ AUX NOUN	12
+AUX NOUN ADP VERB SCONJ AUX PUNCT	42
+AUX NOUN ADP VERB SCONJ NOUN ADP	13
+AUX NOUN ADP VERB SCONJ PUNCT NOUN	12
+AUX NOUN ADP VERB SCONJ VERB AUX	15
+AUX NOUN AUX ADP AUX PUNCT EOF	15
+AUX NOUN NOUN ADP NOUN ADP NOUN	26
+AUX NOUN NOUN ADP NOUN ADP VERB	32
+AUX NOUN NOUN ADP NOUN NOUN ADP	20
+AUX NOUN NOUN ADP PUNCT NOUN ADP	11
+AUX NOUN NOUN ADP VERB AUX AUX	35
+AUX NOUN NOUN ADP VERB AUX NOUN	13
+AUX NOUN NOUN ADP VERB AUX PUNCT	16
+AUX NOUN NOUN ADP VERB AUX SCONJ	12
+AUX NOUN NOUN ADP VERB PUNCT EOF	11
+AUX NOUN NOUN NOUN ADP VERB AUX	14
+AUX NOUN PUNCT NOUN ADP NOUN ADP	13
+AUX PROPN ADP NOUN ADP NOUN ADP	11
+AUX PROPN ADP NOUN ADP VERB AUX	18
+AUX PROPN NOUN ADP NOUN ADP VERB	11
+AUX PUNCT ADJ AUX NOUN ADP VERB	13
+AUX PUNCT ADJ NOUN ADP VERB AUX	15
+AUX PUNCT NOUN ADP NOUN ADP NOUN	32
+AUX PUNCT NOUN ADP NOUN ADP VERB	39
+AUX PUNCT NOUN ADP NOUN NOUN ADP	21
+AUX PUNCT NOUN ADP VERB AUX AUX	16
+AUX PUNCT NOUN NOUN ADP NOUN ADP	28
+AUX PUNCT NOUN NOUN ADP NOUN NOUN	12
+AUX PUNCT NOUN NOUN ADP VERB AUX	17
+AUX PUNCT NUM NOUN NOUN ADP NOUN	13
+AUX SCONJ AUX AUX AUX PUNCT EOF	44
+AUX SCONJ AUX AUX NOUN ADP NOUN	11
+AUX SCONJ AUX AUX NOUN NOUN ADP	11
+AUX SCONJ AUX AUX SCONJ PUNCT NOUN	15
+AUX SCONJ AUX NOUN ADP NOUN ADP	14
+AUX SCONJ AUX NOUN ADP VERB PUNCT	12
+AUX SCONJ AUX SCONJ PUNCT NOUN ADP	11
+AUX SCONJ NOUN ADP NOUN ADP VERB	13
+AUX SCONJ NOUN ADP VERB AUX AUX	13
+AUX SCONJ NOUN ADP VERB AUX PUNCT	15
+AUX SCONJ NOUN NOUN ADP VERB AUX	14
+AUX SCONJ PUNCT ADJ AUX NOUN ADP	11
+AUX SCONJ PUNCT NOUN ADP ADP NOUN	12
+AUX SCONJ PUNCT NOUN ADP NOUN ADP	75
+AUX SCONJ PUNCT NOUN ADP NOUN NOUN	22
+AUX SCONJ PUNCT NOUN ADP VERB AUX	31
+AUX SCONJ PUNCT NOUN ADP VERB NOUN	12
+AUX SCONJ PUNCT NOUN ADP VERB SCONJ	19
+AUX SCONJ PUNCT NOUN NOUN ADP ADJ	13
+AUX SCONJ PUNCT NOUN NOUN ADP NOUN	28
+AUX SCONJ PUNCT NOUN NOUN ADP VERB	21
+AUX SCONJ PUNCT NOUN NOUN NOUN ADP	12
+AUX SCONJ PUNCT PROPN ADP NOUN ADP	12
+AUX SCONJ VERB AUX AUX PUNCT EOF	19
+AUX SCONJ VERB AUX SCONJ AUX PUNCT	16
+AUX SCONJ VERB SCONJ AUX PUNCT EOF	15
+AUX VERB AUX AUX AUX PUNCT EOF	15
+AUX VERB SCONJ AUX AUX PUNCT EOF	12
+BOF ADJ AUX NOUN ADP NOUN ADP	18
+BOF ADJ NOUN ADP NOUN ADP NOUN	16
+BOF ADJ NOUN ADP NOUN ADP VERB	20
+BOF ADJ NOUN ADP NOUN NOUN ADP	19
+BOF ADV NOUN ADP NOUN ADP NOUN	11
+BOF CCONJ NOUN NOUN ADP NOUN ADP	11
+BOF CCONJ PUNCT NOUN ADP NOUN ADP	26
+BOF CCONJ PUNCT NOUN NOUN ADP NOUN	17
+BOF NOUN ADP ADJ AUX NOUN ADP	15
+BOF NOUN ADP ADJ NOUN ADP VERB	11
+BOF NOUN ADP ADP NOUN ADP NOUN	16
+BOF NOUN ADP ADP NOUN ADP VERB	21
+BOF NOUN ADP ADP PUNCT NOUN ADP	14
+BOF NOUN ADP NOUN ADP ADJ AUX	18
+BOF NOUN ADP NOUN ADP ADP NOUN	15
+BOF NOUN ADP NOUN ADP NOUN ADP	109
+BOF NOUN ADP NOUN ADP NOUN NOUN	39
+BOF NOUN ADP NOUN ADP PUNCT NOUN	19
+BOF NOUN ADP NOUN ADP VERB AUX	65
+BOF NOUN ADP NOUN ADP VERB NOUN	13
+BOF NOUN ADP NOUN ADP VERB SCONJ	39
+BOF NOUN ADP NOUN NOUN ADP ADP	11
+BOF NOUN ADP NOUN NOUN ADP NOUN	50
+BOF NOUN ADP NOUN NOUN ADP VERB	39
+BOF NOUN ADP NOUN NOUN NOUN ADP	21
+BOF NOUN ADP PROPN ADP NOUN ADP	18
+BOF NOUN ADP PROPN ADP VERB AUX	12
+BOF NOUN ADP PUNCT NOUN ADP NOUN	12
+BOF NOUN ADP VERB AUX AUX NOUN	12
+BOF NOUN ADP VERB AUX AUX SCONJ	11
+BOF NOUN ADP VERB AUX NOUN ADP	29
+BOF NOUN NOUN ADP ADP NOUN ADP	11
+BOF NOUN NOUN ADP NOUN ADP ADJ	17
+BOF NOUN NOUN ADP NOUN ADP NOUN	42
+BOF NOUN NOUN ADP NOUN ADP PUNCT	14
+BOF NOUN NOUN ADP NOUN ADP VERB	56
+BOF NOUN NOUN ADP NOUN NOUN ADP	55
+BOF NOUN NOUN ADP NUM NOUN ADP	16
+BOF NOUN NOUN ADP PUNCT NOUN NOUN	12
+BOF NOUN NOUN ADP VERB AUX AUX	17
+BOF NOUN NOUN ADP VERB AUX NOUN	16
+BOF NOUN NOUN ADP VERB AUX SCONJ	11
+BOF NOUN NOUN ADP VERB SCONJ AUX	12
+BOF NOUN NOUN NOUN ADP NOUN ADP	31
+BOF NOUN NOUN NOUN ADP NOUN NOUN	16
+BOF NOUN NOUN NOUN ADP VERB AUX	13
+BOF NOUN NOUN NOUN ADP VERB SCONJ	14
+BOF NOUN NOUN NOUN NOUN ADP NOUN	13
+BOF NUM NOUN ADP NOUN ADP VERB	19
+BOF NUM NOUN ADP NOUN NOUN ADP	20
+BOF NUM NOUN ADP NUM NOUN ADP	17
+BOF NUM NOUN NOUN ADP NOUN ADP	22
+BOF NUM NOUN NOUN NUM NOUN ADP	32
+BOF NUM NOUN NOUN NUM NOUN NOUN	16
+BOF NUM NOUN NOUN NUM NOUN PUNCT	28
+BOF PRON ADP NOUN ADP NOUN ADP	25
+BOF PROPN ADP NOUN ADP NOUN ADP	21
+BOF PROPN ADP NOUN ADP NOUN NOUN	14
+BOF PROPN ADP NOUN ADP VERB AUX	21
+BOF PROPN ADP NOUN NOUN ADP NOUN	17
+BOF PROPN ADP NOUN NOUN ADP VERB	15
+BOF PROPN NOUN ADP NOUN ADP NOUN	13
+BOF PROPN NOUN ADP NOUN ADP VERB	13
+BOF PROPN NOUN ADP NOUN NOUN ADP	24
+CCONJ PUNCT NOUN NOUN ADP NOUN ADP	14
+NOUN ADP ADJ ADP VERB AUX PUNCT	13
+NOUN ADP ADJ AUX AUX AUX PUNCT	18
+NOUN ADP ADJ AUX AUX PUNCT EOF	52
+NOUN ADP ADJ AUX NOUN ADP NOUN	39
+NOUN ADP ADJ AUX NOUN ADP VERB	103
+NOUN ADP ADJ AUX NOUN NOUN ADP	24
+NOUN ADP ADJ AUX SCONJ PUNCT NOUN	15
+NOUN ADP ADJ AUX VERB AUX AUX	30
+NOUN ADP ADJ AUX VERB AUX NOUN	11
+NOUN ADP ADJ AUX VERB AUX PUNCT	12
+NOUN ADP ADJ AUX VERB AUX SCONJ	20
+NOUN ADP ADJ NOUN ADP NOUN ADP	44
+NOUN ADP ADJ NOUN ADP NOUN NOUN	18
+NOUN ADP ADJ NOUN ADP VERB AUX	80
+NOUN ADP ADJ NOUN ADP VERB PUNCT	20
+NOUN ADP ADJ NOUN ADP VERB SCONJ	34
+NOUN ADP ADJ NOUN NOUN ADP VERB	15
+NOUN ADP ADJ VERB AUX PUNCT EOF	11
+NOUN ADP ADP ADJ AUX NOUN ADP	14
+NOUN ADP ADP ADJ NOUN ADP VERB	11
+NOUN ADP ADP NOUN ADP NOUN ADP	66
+NOUN ADP ADP NOUN ADP NOUN NOUN	23
+NOUN ADP ADP NOUN ADP VERB AUX	60
+NOUN ADP ADP NOUN ADP VERB PUNCT	21
+NOUN ADP ADP NOUN ADP VERB SCONJ	35
+NOUN ADP ADP NOUN NOUN ADP NOUN	34
+NOUN ADP ADP NOUN NOUN ADP VERB	51
+NOUN ADP ADP NOUN NOUN NOUN ADP	21
+NOUN ADP ADP NUM NOUN ADP NOUN	15
+NOUN ADP ADP NUM NOUN NOUN ADP	11
+NOUN ADP ADP PROPN ADP VERB AUX	11
+NOUN ADP ADP PROPN NOUN ADP VERB	11
+NOUN ADP ADP PUNCT NOUN ADP NOUN	37
+NOUN ADP ADP PUNCT NOUN ADP VERB	13
+NOUN ADP ADP PUNCT NOUN NOUN ADP	30
+NOUN ADP ADP PUNCT., NOUN NOUN ADP	14
+NOUN ADP ADP VERB AUX AUX AUX	20
+NOUN ADP ADP VERB AUX AUX NOUN	19
+NOUN ADP ADP VERB AUX AUX PUNCT	24
+NOUN ADP ADP VERB AUX AUX SCONJ	25
+NOUN ADP ADP VERB AUX NOUN ADP	24
+NOUN ADP ADP VERB AUX PUNCT EOF	25
+NOUN ADP ADP VERB AUX SCONJ AUX	28
+NOUN ADP ADP VERB SCONJ AUX AUX	18
+NOUN ADP ADP VERB SCONJ AUX PUNCT	12
+NOUN ADP ADV NOUN ADP NOUN ADP	11
+NOUN ADP ADV NOUN ADP VERB AUX	13
+NOUN ADP ADV VERB AUX AUX PUNCT	13
+NOUN ADP ADV VERB AUX PUNCT EOF	12
+NOUN ADP ADV VERB AUX SCONJ AUX	12
+NOUN ADP ADV VERB SCONJ AUX AUX	12
+NOUN ADP NOUN ADP ADJ AUX AUX	31
+NOUN ADP NOUN ADP ADJ AUX NOUN	45
+NOUN ADP NOUN ADP ADJ AUX PUNCT	14
+NOUN ADP NOUN ADP ADJ AUX SCONJ	13
+NOUN ADP NOUN ADP ADJ AUX VERB	35
+NOUN ADP NOUN ADP ADJ NOUN ADP	49
+NOUN ADP NOUN ADP ADJ PUNCT EOF	19
+NOUN ADP NOUN ADP ADJ PUNCT NOUN	13
+NOUN ADP NOUN ADP ADJ VERB AUX	19
+NOUN ADP NOUN ADP ADP ADJ AUX	14
+NOUN ADP NOUN ADP ADP NOUN ADP	46
+NOUN ADP NOUN ADP ADP NOUN NOUN	17
+NOUN ADP NOUN ADP ADP PUNCT NOUN	21
+NOUN ADP NOUN ADP ADP VERB AUX	52
+NOUN ADP NOUN ADP ADP VERB SCONJ	16
+NOUN ADP NOUN ADP ADV NOUN ADP	19
+NOUN ADP NOUN ADP ADV VERB AUX	21
+NOUN ADP NOUN ADP ADV VERB SCONJ	14
+NOUN ADP NOUN ADP NOUN ADP ADJ	65
+NOUN ADP NOUN ADP NOUN ADP ADP	38
+NOUN ADP NOUN ADP NOUN ADP ADV	17
+NOUN ADP NOUN ADP NOUN ADP NOUN	261
+NOUN ADP NOUN ADP NOUN ADP PROPN	24
+NOUN ADP NOUN ADP NOUN ADP PUNCT	28
+NOUN ADP NOUN ADP NOUN ADP VERB	487
+NOUN ADP NOUN ADP NOUN AUX AUX	16
+NOUN ADP NOUN ADP NOUN AUX PUNCT	29
+NOUN ADP NOUN ADP NOUN NOUN ADP	208
+NOUN ADP NOUN ADP NOUN NOUN AUX	15
+NOUN ADP NOUN ADP NOUN NOUN NOUN	50
+NOUN ADP NOUN ADP NOUN NOUN PUNCT	13
+NOUN ADP NOUN ADP NOUN PUNCT EOF	25
+NOUN ADP NOUN ADP NOUN PUNCT NOUN	27
+NOUN ADP NOUN ADP NOUN VERB AUX	21
+NOUN ADP NOUN ADP NUM NOUN ADP	47
+NOUN ADP NOUN ADP NUM NOUN NOUN	31
+NOUN ADP NOUN ADP PART NOUN ADP	33
+NOUN ADP NOUN ADP PROPN ADP NOUN	23
+NOUN ADP NOUN ADP PROPN ADP VERB	24
+NOUN ADP NOUN ADP PROPN NOUN ADP	32
+NOUN ADP NOUN ADP PROPN NOUN NOUN	13
+NOUN ADP NOUN ADP PROPN PROPN ADP	12
+NOUN ADP NOUN ADP PUNCT ADJ NOUN	11
+NOUN ADP NOUN ADP PUNCT NOUN ADP	62
+NOUN ADP NOUN ADP PUNCT NOUN NOUN	46
+NOUN ADP NOUN ADP PUNCT NOUN PUNCT	15
+NOUN ADP NOUN ADP PUNCT PROPN ADP	18
+NOUN ADP NOUN ADP PUNCT PROPN NOUN	11
+NOUN ADP NOUN ADP PUNCT., NOUN ADP	17
+NOUN ADP NOUN ADP VERB ADP NOUN	15
+NOUN ADP NOUN ADP VERB ADP VERB	20
+NOUN ADP NOUN ADP VERB AUX ADP	37
+NOUN ADP NOUN ADP VERB AUX AUX	433
+NOUN ADP NOUN ADP VERB AUX NOUN	252
+NOUN ADP NOUN ADP VERB AUX PART	19
+NOUN ADP NOUN ADP VERB AUX PROPN	24
+NOUN ADP NOUN ADP VERB AUX PUNCT	268
+NOUN ADP NOUN ADP VERB AUX SCONJ	236
+NOUN ADP NOUN ADP VERB AUX VERB	14
+NOUN ADP NOUN ADP VERB NOUN ADP	143
+NOUN ADP NOUN ADP VERB NOUN AUX	14
+NOUN ADP NOUN ADP VERB NOUN NOUN	22
+NOUN ADP NOUN ADP VERB NOUN PUNCT	13
+NOUN ADP NOUN ADP VERB PART ADP	15
+NOUN ADP NOUN ADP VERB PUNCT ADJ	18
+NOUN ADP NOUN ADP VERB PUNCT EOF	138
+NOUN ADP NOUN ADP VERB PUNCT NOUN	86
+NOUN ADP NOUN ADP VERB PUNCT PROPN	19
+NOUN ADP NOUN ADP VERB SCONJ ADJ	14
+NOUN ADP NOUN ADP VERB SCONJ ADP	35
+NOUN ADP NOUN ADP VERB SCONJ AUX	287
+NOUN ADP NOUN ADP VERB SCONJ NOUN	66
+NOUN ADP NOUN ADP VERB SCONJ PROPN	14
+NOUN ADP NOUN ADP VERB SCONJ PUNCT	58
+NOUN ADP NOUN ADP VERB SCONJ PUNCT.,	12
+NOUN ADP NOUN ADP VERB SCONJ VERB	96
+NOUN ADP NOUN AUX AUX PUNCT EOF	27
+NOUN ADP NOUN AUX AUX SCONJ PUNCT	11
+NOUN ADP NOUN NOUN ADP ADJ AUX	39
+NOUN ADP NOUN NOUN ADP ADJ NOUN	19
+NOUN ADP NOUN NOUN ADP ADP NOUN	31
+NOUN ADP NOUN NOUN ADP ADP PUNCT	12
+NOUN ADP NOUN NOUN ADP ADP VERB	22
+NOUN ADP NOUN NOUN ADP NOUN ADP	259
+NOUN ADP NOUN NOUN ADP NOUN AUX	11
+NOUN ADP NOUN NOUN ADP NOUN NOUN	94
+NOUN ADP NOUN NOUN ADP NOUN PUNCT	21
+NOUN ADP NOUN NOUN ADP NUM NOUN	26
+NOUN ADP NOUN NOUN ADP PART NOUN	20
+NOUN ADP NOUN NOUN ADP PROPN ADP	18
+NOUN ADP NOUN NOUN ADP PROPN NOUN	16
+NOUN ADP NOUN NOUN ADP PUNCT NOUN	30
+NOUN ADP NOUN NOUN ADP VERB AUX	358
+NOUN ADP NOUN NOUN ADP VERB NOUN	49
+NOUN ADP NOUN NOUN ADP VERB PUNCT	81
+NOUN ADP NOUN NOUN ADP VERB SCONJ	120
+NOUN ADP NOUN NOUN AUX AUX PUNCT	12
+NOUN ADP NOUN NOUN AUX PUNCT EOF	23
+NOUN ADP NOUN NOUN NOUN ADP ADP	13
+NOUN ADP NOUN NOUN NOUN ADP NOUN	74
+NOUN ADP NOUN NOUN NOUN ADP NUM	13
+NOUN ADP NOUN NOUN NOUN ADP PROPN	12
+NOUN ADP NOUN NOUN NOUN ADP VERB	102
+NOUN ADP NOUN NOUN NOUN NOUN ADP	40
+NOUN ADP NOUN NOUN NOUN NOUN NOUN	11
+NOUN ADP NOUN NOUN NUM NOUN ADP	12
+NOUN ADP NOUN NOUN PUNCT NOUN ADP	16
+NOUN ADP NOUN NOUN PUNCT NOUN NOUN	18
+NOUN ADP NOUN NUM NOUN ADP NOUN	23
+NOUN ADP NOUN NUM NOUN ADP VERB	16
+NOUN ADP NOUN NUM NOUN NOUN ADP	13
+NOUN ADP NOUN PROPN ADP VERB AUX	11
+NOUN ADP NOUN PUNCT ADP VERB AUX	11
+NOUN ADP NOUN PUNCT NOUN ADP NOUN	34
+NOUN ADP NOUN PUNCT NOUN NOUN ADP	27
+NOUN ADP NOUN SYM NOUN ADP VERB	11
+NOUN ADP NOUN VERB AUX AUX NOUN	11
+NOUN ADP NOUN VERB AUX AUX PUNCT	20
+NOUN ADP NOUN VERB AUX NOUN ADP	12
+NOUN ADP NOUN VERB AUX PUNCT EOF	17
+NOUN ADP NUM NOUN ADP NOUN ADP	72
+NOUN ADP NUM NOUN ADP NOUN NOUN	20
+NOUN ADP NUM NOUN ADP NUM NOUN	15
+NOUN ADP NUM NOUN ADP VERB AUX	76
+NOUN ADP NUM NOUN ADP VERB PUNCT	22
+NOUN ADP NUM NOUN ADP VERB SCONJ	23
+NOUN ADP NUM NOUN NOUN ADP NOUN	45
+NOUN ADP NUM NOUN NOUN ADP VERB	30
+NOUN ADP NUM NOUN NOUN NUM NOUN	20
+NOUN ADP PART NOUN ADP NOUN ADP	28
+NOUN ADP PART NOUN ADP VERB AUX	48
+NOUN ADP PART NOUN ADP VERB PUNCT	11
+NOUN ADP PART NOUN ADP VERB SCONJ	14
+NOUN ADP PART NOUN NOUN ADP NOUN	13
+NOUN ADP PART NOUN NOUN ADP VERB	21
+NOUN ADP PART NUM NOUN ADP NOUN	15
+NOUN ADP PART NUM NOUN ADP VERB	19
+NOUN ADP PROPN ADP NOUN ADP NOUN	27
+NOUN ADP PROPN ADP NOUN ADP VERB	72
+NOUN ADP PROPN ADP NOUN NOUN ADP	25
+NOUN ADP PROPN ADP PART NOUN ADP	15
+NOUN ADP PROPN ADP PROPN ADP VERB	12
+NOUN ADP PROPN ADP VERB AUX AUX	45
+NOUN ADP PROPN ADP VERB AUX NOUN	16
+NOUN ADP PROPN ADP VERB AUX PUNCT	22
+NOUN ADP PROPN ADP VERB AUX SCONJ	12
+NOUN ADP PROPN ADP VERB PUNCT EOF	17
+NOUN ADP PROPN ADP VERB SCONJ AUX	11
+NOUN ADP PROPN NOUN ADP NOUN ADP	58
+NOUN ADP PROPN NOUN ADP NOUN NOUN	26
+NOUN ADP PROPN NOUN ADP VERB AUX	52
+NOUN ADP PROPN NOUN NOUN ADP NOUN	29
+NOUN ADP PROPN NOUN NOUN ADP VERB	20
+NOUN ADP PROPN NOUN NOUN NOUN ADP	16
+NOUN ADP PROPN PROPN NOUN ADP VERB	13
+NOUN ADP PROPN SYM PROPN ADP NOUN	17
+NOUN ADP PUNCT ADJ AUX NOUN ADP	16
+NOUN ADP PUNCT NOUN ADP ADJ AUX	14
+NOUN ADP PUNCT NOUN ADP NOUN ADP	99
+NOUN ADP PUNCT NOUN ADP NOUN NOUN	43
+NOUN ADP PUNCT NOUN ADP NOUN PUNCT	14
+NOUN ADP PUNCT NOUN ADP VERB AUX	30
+NOUN ADP PUNCT NOUN ADP VERB SCONJ	20
+NOUN ADP PUNCT NOUN NOUN ADP NOUN	49
+NOUN ADP PUNCT NOUN NOUN ADP VERB	27
+NOUN ADP PUNCT NOUN NOUN NOUN ADP	24
+NOUN ADP PUNCT NOUN NOUN NOUN PUNCT	12
+NOUN ADP PUNCT NOUN NOUN PUNCT ADP	22
+NOUN ADP PUNCT NOUN PUNCT ADP VERB	19
+NOUN ADP PUNCT NUM NOUN NOUN ADP	14
+NOUN ADP PUNCT PROPN ADP NOUN ADP	25
+NOUN ADP PUNCT PROPN NOUN ADP NOUN	22
+NOUN ADP PUNCT PROPN PUNCT ADP VERB	16
+NOUN ADP PUNCT., NOUN ADP NOUN ADP	25
+NOUN ADP VERB ADJ AUX NOUN ADP	12
+NOUN ADP VERB ADP VERB AUX PUNCT	14
+NOUN ADP VERB AUX ADP NOUN ADP	16
+NOUN ADP VERB AUX ADP VERB AUX	16
+NOUN ADP VERB AUX ADP VERB PUNCT	15
+NOUN ADP VERB AUX AUX ADP VERB	20
+NOUN ADP VERB AUX AUX AUX ADP	11
+NOUN ADP VERB AUX AUX AUX AUX	36
+NOUN ADP VERB AUX AUX AUX NOUN	80
+NOUN ADP VERB AUX AUX AUX PROPN	14
+NOUN ADP VERB AUX AUX AUX PUNCT	177
+NOUN ADP VERB AUX AUX AUX SCONJ	48
+NOUN ADP VERB AUX AUX NOUN ADP	218
+NOUN ADP VERB AUX AUX NOUN AUX	24
+NOUN ADP VERB AUX AUX NOUN NOUN	51
+NOUN ADP VERB AUX AUX NOUN PUNCT	35
+NOUN ADP VERB AUX AUX NUM NOUN	13
+NOUN ADP VERB AUX AUX PART ADP	13
+NOUN ADP VERB AUX AUX PROPN ADP	16
+NOUN ADP VERB AUX AUX PUNCT ADJ	13
+NOUN ADP VERB AUX AUX PUNCT EOF	495
+NOUN ADP VERB AUX AUX PUNCT NOUN	44
+NOUN ADP VERB AUX AUX PUNCT PROPN	17
+NOUN ADP VERB AUX AUX SCONJ AUX	166
+NOUN ADP VERB AUX AUX SCONJ NOUN	12
+NOUN ADP VERB AUX AUX SCONJ PUNCT	51
+NOUN ADP VERB AUX AUX SCONJ PUNCT.,	13
+NOUN ADP VERB AUX AUX SCONJ VERB	35
+NOUN ADP VERB AUX NOUN ADP ADJ	43
+NOUN ADP VERB AUX NOUN ADP ADP	24
+NOUN ADP VERB AUX NOUN ADP ADV	12
+NOUN ADP VERB AUX NOUN ADP NOUN	146
+NOUN ADP VERB AUX NOUN ADP NUM	15
+NOUN ADP VERB AUX NOUN ADP PROPN	14
+NOUN ADP VERB AUX NOUN ADP PUNCT	56
+NOUN ADP VERB AUX NOUN ADP VERB	220
+NOUN ADP VERB AUX NOUN AUX ADP	13
+NOUN ADP VERB AUX NOUN AUX PUNCT	25
+NOUN ADP VERB AUX NOUN NOUN ADP	73
+NOUN ADP VERB AUX NOUN NOUN NOUN	22
+NOUN ADP VERB AUX NOUN PUNCT EOF	21
+NOUN ADP VERB AUX NOUN PUNCT NOUN	26
+NOUN ADP VERB AUX NUM NOUN ADP	15
+NOUN ADP VERB AUX PART ADP NOUN	12
+NOUN ADP VERB AUX PROPN ADP NOUN	15
+NOUN ADP VERB AUX PROPN NOUN ADP	22
+NOUN ADP VERB AUX PUNCT ADJ NOUN	20
+NOUN ADP VERB AUX PUNCT ADP VERB	12
+NOUN ADP VERB AUX PUNCT NOUN ADP	99
+NOUN ADP VERB AUX PUNCT NOUN NOUN	64
+NOUN ADP VERB AUX PUNCT NUM NOUN	31
+NOUN ADP VERB AUX PUNCT PROPN ADP	17
+NOUN ADP VERB AUX PUNCT PROPN NOUN	22
+NOUN ADP VERB AUX SCONJ ADP NOUN	11
+NOUN ADP VERB AUX SCONJ AUX ADP	13
+NOUN ADP VERB AUX SCONJ AUX AUX	176
+NOUN ADP VERB AUX SCONJ AUX NOUN	50
+NOUN ADP VERB AUX SCONJ AUX PART	13
+NOUN ADP VERB AUX SCONJ AUX PUNCT	179
+NOUN ADP VERB AUX SCONJ AUX SCONJ	42
+NOUN ADP VERB AUX SCONJ NOUN ADP	54
+NOUN ADP VERB AUX SCONJ NOUN NOUN	16
+NOUN ADP VERB AUX SCONJ PUNCT ADJ	15
+NOUN ADP VERB AUX SCONJ PUNCT NOUN	75
+NOUN ADP VERB AUX SCONJ PUNCT PROPN	11
+NOUN ADP VERB AUX SCONJ VERB AUX	59
+NOUN ADP VERB AUX SCONJ VERB SCONJ	21
+NOUN ADP VERB NOUN ADP ADJ AUX	22
+NOUN ADP VERB NOUN ADP ADJ PUNCT	19
+NOUN ADP VERB NOUN ADP NOUN ADP	81
+NOUN ADP VERB NOUN ADP NOUN NOUN	23
+NOUN ADP VERB NOUN ADP PUNCT NOUN	20
+NOUN ADP VERB NOUN ADP VERB AUX	127
+NOUN ADP VERB NOUN ADP VERB PUNCT	52
+NOUN ADP VERB NOUN ADP VERB SCONJ	41
+NOUN ADP VERB NOUN AUX PUNCT EOF	20
+NOUN ADP VERB NOUN NOUN ADP NOUN	24
+NOUN ADP VERB NOUN NOUN ADP VERB	27
+NOUN ADP VERB NOUN NOUN NOUN ADP	14
+NOUN ADP VERB PUNCT ADJ AUX NOUN	12
+NOUN ADP VERB PUNCT ADJ NOUN ADP	22
+NOUN ADP VERB PUNCT NOUN ADP ADJ	12
+NOUN ADP VERB PUNCT NOUN ADP ADP	13
+NOUN ADP VERB PUNCT NOUN ADP NOUN	63
+NOUN ADP VERB PUNCT NOUN ADP VERB	52
+NOUN ADP VERB PUNCT NOUN NOUN ADP	51
+NOUN ADP VERB PUNCT NOUN NOUN NOUN	23
+NOUN ADP VERB PUNCT NUM NOUN ADP	25
+NOUN ADP VERB PUNCT NUM NOUN NOUN	15
+NOUN ADP VERB PUNCT PROPN ADP NOUN	18
+NOUN ADP VERB PUNCT PROPN NOUN ADP	12
+NOUN ADP VERB SCONJ ADP ADJ AUX	13
+NOUN ADP VERB SCONJ ADP NOUN ADP	23
+NOUN ADP VERB SCONJ ADP VERB AUX	11
+NOUN ADP VERB SCONJ AUX ADP VERB	13
+NOUN ADP VERB SCONJ AUX AUX AUX	71
+NOUN ADP VERB SCONJ AUX AUX NOUN	53
+NOUN ADP VERB SCONJ AUX AUX PROPN	20
+NOUN ADP VERB SCONJ AUX AUX PUNCT	138
+NOUN ADP VERB SCONJ AUX AUX SCONJ	53
+NOUN ADP VERB SCONJ AUX NOUN ADP	70
+NOUN ADP VERB SCONJ AUX NOUN AUX	12
+NOUN ADP VERB SCONJ AUX NOUN NOUN	13
+NOUN ADP VERB SCONJ AUX PUNCT EOF	233
+NOUN ADP VERB SCONJ AUX PUNCT NOUN	30
+NOUN ADP VERB SCONJ AUX PUNCT PROPN	17
+NOUN ADP VERB SCONJ AUX SCONJ AUX	14
+NOUN ADP VERB SCONJ AUX SCONJ PUNCT	34
+NOUN ADP VERB SCONJ NOUN ADP ADJ	11
+NOUN ADP VERB SCONJ NOUN ADP NOUN	43
+NOUN ADP VERB SCONJ NOUN ADP VERB	77
+NOUN ADP VERB SCONJ NOUN NOUN ADP	52
+NOUN ADP VERB SCONJ PART NOUN ADP	17
+NOUN ADP VERB SCONJ PROPN ADP NOUN	11
+NOUN ADP VERB SCONJ PROPN ADP VERB	12
+NOUN ADP VERB SCONJ PUNCT ADJ NOUN	12
+NOUN ADP VERB SCONJ PUNCT NOUN ADP	81
+NOUN ADP VERB SCONJ PUNCT NOUN NOUN	34
+NOUN ADP VERB SCONJ PUNCT NUM NOUN	18
+NOUN ADP VERB SCONJ PUNCT PRON ADP	12
+NOUN ADP VERB SCONJ PUNCT PROPN ADP	16
+NOUN ADP VERB SCONJ PUNCT PROPN NOUN	12
+NOUN ADP VERB SCONJ PUNCT., NOUN ADP	18
+NOUN ADP VERB SCONJ VERB AUX AUX	90
+NOUN ADP VERB SCONJ VERB AUX NOUN	24
+NOUN ADP VERB SCONJ VERB AUX PUNCT	32
+NOUN ADP VERB SCONJ VERB AUX SCONJ	41
+NOUN ADP VERB SCONJ VERB PUNCT EOF	25
+NOUN ADP VERB SCONJ VERB SCONJ AUX	24
+NOUN AUX ADP AUX AUX AUX PUNCT	11
+NOUN AUX ADP VERB AUX PUNCT EOF	13
+NOUN AUX AUX SCONJ PUNCT NOUN ADP	12
+NOUN AUX PUNCT NOUN ADP NOUN ADP	11
+NOUN AUX SCONJ PUNCT NOUN ADP VERB	11
+NOUN NOUN ADP ADJ AUX AUX PUNCT	11
+NOUN NOUN ADP ADJ AUX NOUN ADP	47
+NOUN NOUN ADP ADJ AUX VERB AUX	15
+NOUN NOUN ADP ADJ NOUN ADP NOUN	20
+NOUN NOUN ADP ADJ NOUN ADP VERB	40
+NOUN NOUN ADP ADP ADJ NOUN ADP	11
+NOUN NOUN ADP ADP NOUN ADP NOUN	25
+NOUN NOUN ADP ADP NOUN ADP VERB	33
+NOUN NOUN ADP ADP NOUN NOUN ADP	29
+NOUN NOUN ADP ADP NOUN NOUN NOUN	13
+NOUN NOUN ADP ADP PUNCT NOUN ADP	21
+NOUN NOUN ADP ADP PUNCT NOUN NOUN	21
+NOUN NOUN ADP ADP VERB AUX AUX	30
+NOUN NOUN ADP ADP VERB AUX PUNCT	18
+NOUN NOUN ADP NOUN ADP ADJ AUX	36
+NOUN NOUN ADP NOUN ADP ADJ NOUN	17
+NOUN NOUN ADP NOUN ADP ADP NOUN	22
+NOUN NOUN ADP NOUN ADP ADP PUNCT	11
+NOUN NOUN ADP NOUN ADP ADP VERB	23
+NOUN NOUN ADP NOUN ADP NOUN ADP	227
+NOUN NOUN ADP NOUN ADP NOUN AUX	13
+NOUN NOUN ADP NOUN ADP NOUN NOUN	89
+NOUN NOUN ADP NOUN ADP NOUN PUNCT	20
+NOUN NOUN ADP NOUN ADP NUM NOUN	27
+NOUN NOUN ADP NOUN ADP PROPN ADP	11
+NOUN NOUN ADP NOUN ADP PROPN NOUN	19
+NOUN NOUN ADP NOUN ADP PUNCT NOUN	31
+NOUN NOUN ADP NOUN ADP PUNCT PROPN	12
+NOUN NOUN ADP NOUN ADP VERB ADP	12
+NOUN NOUN ADP NOUN ADP VERB AUX	341
+NOUN NOUN ADP NOUN ADP VERB NOUN	52
+NOUN NOUN ADP NOUN ADP VERB PUNCT	82
+NOUN NOUN ADP NOUN ADP VERB SCONJ	153
+NOUN NOUN ADP NOUN AUX PUNCT EOF	19
+NOUN NOUN ADP NOUN NOUN ADP ADJ	20
+NOUN NOUN ADP NOUN NOUN ADP ADP	35
+NOUN NOUN ADP NOUN NOUN ADP NOUN	121
+NOUN NOUN ADP NOUN NOUN ADP PROPN	12
+NOUN NOUN ADP NOUN NOUN ADP PUNCT	21
+NOUN NOUN ADP NOUN NOUN ADP VERB	176
+NOUN NOUN ADP NOUN NOUN NOUN ADP	74
+NOUN NOUN ADP NOUN NOUN NOUN NOUN	11
+NOUN NOUN ADP NOUN NOUN PUNCT EOF	11
+NOUN NOUN ADP NOUN NOUN PUNCT NOUN	13
+NOUN NOUN ADP NOUN NUM NOUN ADP	17
+NOUN NOUN ADP NOUN PUNCT NOUN ADP	13
+NOUN NOUN ADP NOUN PUNCT NOUN NOUN	12
+NOUN NOUN ADP NOUN VERB AUX AUX	16
+NOUN NOUN ADP NUM NOUN ADP NOUN	27
+NOUN NOUN ADP NUM NOUN ADP VERB	30
+NOUN NOUN ADP NUM NOUN NOUN ADP	29
+NOUN NOUN ADP PART NOUN ADP NOUN	12
+NOUN NOUN ADP PART NOUN ADP VERB	27
+NOUN NOUN ADP PART NOUN NOUN ADP	21
+NOUN NOUN ADP PART NUM NOUN ADP	12
+NOUN NOUN ADP PROPN ADP NOUN ADP	20
+NOUN NOUN ADP PROPN ADP NOUN NOUN	16
+NOUN NOUN ADP PROPN ADP PROPN ADP	11
+NOUN NOUN ADP PROPN ADP VERB AUX	24
+NOUN NOUN ADP PROPN NOUN ADP NOUN	28
+NOUN NOUN ADP PROPN NOUN ADP VERB	27
+NOUN NOUN ADP PROPN NOUN NOUN ADP	12
+NOUN NOUN ADP PROPN PROPN NOUN ADP	13
+NOUN NOUN ADP PROPN SYM PROPN ADP	11
+NOUN NOUN ADP PUNCT NOUN ADP NOUN	35
+NOUN NOUN ADP PUNCT NOUN NOUN ADP	37
+NOUN NOUN ADP PUNCT NOUN NOUN NOUN	14
+NOUN NOUN ADP VERB AUX ADP VERB	12
+NOUN NOUN ADP VERB AUX AUX AUX	86
+NOUN NOUN ADP VERB AUX AUX NOUN	96
+NOUN NOUN ADP VERB AUX AUX PROPN	12
+NOUN NOUN ADP VERB AUX AUX PUNCT	158
+NOUN NOUN ADP VERB AUX AUX SCONJ	65
+NOUN NOUN ADP VERB AUX NOUN ADP	135
+NOUN NOUN ADP VERB AUX NOUN AUX	16
+NOUN NOUN ADP VERB AUX NOUN NOUN	41
+NOUN NOUN ADP VERB AUX NOUN PUNCT	14
+NOUN NOUN ADP VERB AUX PART ADP	12
+NOUN NOUN ADP VERB AUX PUNCT EOF	149
+NOUN NOUN ADP VERB AUX PUNCT NOUN	55
+NOUN NOUN ADP VERB AUX PUNCT PROPN	14
+NOUN NOUN ADP VERB AUX SCONJ AUX	133
+NOUN NOUN ADP VERB AUX SCONJ NOUN	20
+NOUN NOUN ADP VERB AUX SCONJ PUNCT	34
+NOUN NOUN ADP VERB AUX SCONJ VERB	26
+NOUN NOUN ADP VERB NOUN ADP NOUN	28
+NOUN NOUN ADP VERB NOUN ADP VERB	47
+NOUN NOUN ADP VERB NOUN NOUN ADP	22
+NOUN NOUN ADP VERB NOUN NOUN NOUN	12
+NOUN NOUN ADP VERB PUNCT NOUN ADP	39
+NOUN NOUN ADP VERB PUNCT NOUN NOUN	28
+NOUN NOUN ADP VERB SCONJ AUX AUX	57
+NOUN NOUN ADP VERB SCONJ AUX NOUN	21
+NOUN NOUN ADP VERB SCONJ AUX PUNCT	55
+NOUN NOUN ADP VERB SCONJ AUX SCONJ	16
+NOUN NOUN ADP VERB SCONJ NOUN ADP	27
+NOUN NOUN ADP VERB SCONJ NOUN NOUN	20
+NOUN NOUN ADP VERB SCONJ PUNCT NOUN	34
+NOUN NOUN ADP VERB SCONJ VERB AUX	50
+NOUN NOUN NOUN ADP ADJ AUX NOUN	11
+NOUN NOUN NOUN ADP ADP VERB AUX	18
+NOUN NOUN NOUN ADP NOUN ADP ADP	14
+NOUN NOUN NOUN ADP NOUN ADP NOUN	66
+NOUN NOUN NOUN ADP NOUN ADP NUM	11
+NOUN NOUN NOUN ADP NOUN ADP VERB	109
+NOUN NOUN NOUN ADP NOUN NOUN ADP	87
+NOUN NOUN NOUN ADP NOUN NOUN NOUN	19
+NOUN NOUN NOUN ADP NOUN NOUN PUNCT	11
+NOUN NOUN NOUN ADP NOUN PUNCT EOF	12
+NOUN NOUN NOUN ADP NOUN VERB AUX	11
+NOUN NOUN NOUN ADP NUM NOUN ADP	18
+NOUN NOUN NOUN ADP PUNCT NOUN NOUN	12
+NOUN NOUN NOUN ADP VERB AUX AUX	91
+NOUN NOUN NOUN ADP VERB AUX NOUN	35
+NOUN NOUN NOUN ADP VERB AUX PUNCT	45
+NOUN NOUN NOUN ADP VERB AUX SCONJ	36
+NOUN NOUN NOUN ADP VERB NOUN NOUN	11
+NOUN NOUN NOUN ADP VERB PUNCT EOF	41
+NOUN NOUN NOUN ADP VERB PUNCT NOUN	13
+NOUN NOUN NOUN ADP VERB SCONJ AUX	24
+NOUN NOUN NOUN ADP VERB SCONJ PUNCT	14
+NOUN NOUN NOUN NOUN ADP NOUN ADP	43
+NOUN NOUN NOUN NOUN ADP NOUN NOUN	21
+NOUN NOUN NOUN NOUN ADP VERB AUX	54
+NOUN NOUN NOUN NOUN ADP VERB PUNCT	14
+NOUN NOUN NOUN NOUN ADP VERB SCONJ	12
+NOUN NOUN NOUN NOUN NOUN ADP NOUN	20
+NOUN NOUN NOUN NOUN NOUN ADP VERB	16
+NOUN NOUN NOUN NOUN NOUN NOUN ADP	13
+NOUN NOUN NOUN NOUN PUNCT ADP VERB	12
+NOUN NOUN NOUN PUNCT NOUN NOUN NOUN	11
+NOUN NOUN NUM NOUN ADP NOUN ADP	14
+NOUN NOUN NUM NOUN ADP NOUN NOUN	17
+NOUN NOUN NUM NOUN ADP VERB AUX	26
+NOUN NOUN NUM NOUN NOUN PUNCT EOF	11
+NOUN NOUN PUNCT ADP NOUN ADP VERB	21
+NOUN NOUN PUNCT NOUN ADP NOUN ADP	12
+NOUN NOUN PUNCT NOUN NOUN ADP NOUN	11
+NOUN NOUN PUNCT NOUN NOUN NOUN NOUN	11
+NOUN NOUN PUNCT NOUN NOUN PUNCT NOUN	14
+NOUN NUM NOUN ADP NOUN ADP NOUN	15
+NOUN NUM NOUN ADP NOUN ADP VERB	34
+NOUN NUM NOUN ADP NOUN NOUN ADP	24
+NOUN NUM NOUN ADP NOUN NOUN NOUN	16
+NOUN NUM NOUN ADP VERB AUX AUX	37
+NOUN NUM NOUN ADP VERB AUX PUNCT	12
+NOUN NUM NOUN ADP VERB AUX SCONJ	13
+NOUN NUM NOUN NOUN ADP NOUN ADP	11
+NOUN NUM NOUN NOUN ADP NOUN NOUN	11
+NOUN PROPN ADP NOUN ADP VERB AUX	20
+NOUN PROPN NOUN ADP NOUN ADP VERB	16
+NOUN PUNCT ADP NOUN ADP NOUN ADP	11
+NOUN PUNCT ADP NOUN ADP VERB AUX	22
+NOUN PUNCT ADP VERB AUX PUNCT EOF	16
+NOUN PUNCT ADP VERB AUX SCONJ AUX	15
+NOUN PUNCT NOUN ADP NOUN ADP NOUN	28
+NOUN PUNCT NOUN ADP NOUN ADP VERB	31
+NOUN PUNCT NOUN ADP NOUN NOUN ADP	26
+NOUN PUNCT NOUN ADP VERB AUX AUX	18
+NOUN PUNCT NOUN ADP VERB AUX NOUN	13
+NOUN PUNCT NOUN NOUN ADP NOUN ADP	37
+NOUN PUNCT NOUN NOUN ADP NOUN NOUN	17
+NOUN PUNCT NOUN NOUN ADP VERB AUX	18
+NOUN PUNCT NOUN NOUN NOUN ADP NOUN	16
+NOUN PUNCT NOUN NOUN PUNCT NOUN NOUN	14
+NOUN PUNCT NOUN PUNCT NOUN PUNCT NOUN	28
+NOUN PUNCT PROPN NOUN ADP NOUN ADP	11
+NOUN VERB AUX AUX AUX PUNCT EOF	14
+NUM NOUN ADP ADP NOUN NOUN ADP	11
+NUM NOUN ADP NOUN ADP NOUN ADP	48
+NUM NOUN ADP NOUN ADP NOUN NOUN	19
+NUM NOUN ADP NOUN ADP NUM NOUN	16
+NUM NOUN ADP NOUN ADP VERB AUX	99
+NUM NOUN ADP NOUN ADP VERB PUNCT	31
+NUM NOUN ADP NOUN ADP VERB SCONJ	32
+NUM NOUN ADP NOUN NOUN ADP NOUN	35
+NUM NOUN ADP NOUN NOUN ADP VERB	57
+NUM NOUN ADP NOUN NOUN NOUN ADP	23
+NUM NOUN ADP NOUN NUM NOUN ADP	14
+NUM NOUN ADP NUM NOUN ADP ADP	12
+NUM NOUN ADP NUM NOUN ADP NOUN	17
+NUM NOUN ADP NUM NOUN ADP VERB	20
+NUM NOUN ADP NUM NOUN NOUN ADP	18
+NUM NOUN ADP PROPN ADP NOUN ADP	15
+NUM NOUN ADP PROPN ADP VERB AUX	15
+NUM NOUN ADP PROPN NOUN ADP NOUN	15
+NUM NOUN ADP PROPN NOUN ADP VERB	13
+NUM NOUN ADP VERB AUX AUX AUX	38
+NUM NOUN ADP VERB AUX AUX NOUN	15
+NUM NOUN ADP VERB AUX AUX PUNCT	45
+NUM NOUN ADP VERB AUX AUX SCONJ	16
+NUM NOUN ADP VERB AUX NOUN ADP	18
+NUM NOUN ADP VERB AUX PUNCT EOF	46
+NUM NOUN ADP VERB AUX SCONJ AUX	23
+NUM NOUN ADP VERB SCONJ AUX AUX	13
+NUM NOUN NOUN ADP NOUN ADP NOUN	34
+NUM NOUN NOUN ADP NOUN ADP VERB	68
+NUM NOUN NOUN ADP NOUN NOUN ADP	37
+NUM NOUN NOUN ADP NOUN NOUN NOUN	11
+NUM NOUN NOUN ADP NUM NOUN ADP	12
+NUM NOUN NOUN ADP VERB AUX AUX	35
+NUM NOUN NOUN ADP VERB AUX PUNCT	18
+NUM NOUN NOUN ADP VERB PUNCT EOF	13
+NUM NOUN NOUN NOUN ADP NOUN ADP	12
+NUM NOUN NOUN NUM NOUN ADP NOUN	23
+NUM NOUN NOUN NUM NOUN ADP PROPN	19
+NUM NOUN NOUN NUM NOUN ADP VERB	23
+NUM NOUN NOUN NUM NOUN NOUN ADP	12
+NUM NOUN NOUN NUM NOUN NOUN PUNCT	13
+NUM NOUN NOUN NUM NOUN PUNCT PROPN	21
+PART NOUN ADP NOUN ADP VERB AUX	16
+PART NOUN ADP VERB AUX AUX AUX	12
+PART NOUN ADP VERB AUX AUX PUNCT	15
+PART NOUN ADP VERB AUX PUNCT EOF	12
+PART NOUN ADP VERB AUX SCONJ AUX	11
+PART NUM NOUN ADP NOUN ADP VERB	17
+PART NUM NOUN ADP NOUN NOUN ADP	13
+PART NUM NOUN NOUN ADP NOUN ADP	14
+PRON ADP NOUN ADP NOUN ADP NOUN	13
+PRON ADP NOUN ADP NOUN ADP VERB	26
+PRON ADP NOUN ADP NOUN NOUN ADP	13
+PRON ADP NOUN ADP VERB AUX AUX	15
+PRON ADP NOUN NOUN ADP NOUN ADP	11
+PRON ADP NOUN NOUN ADP VERB AUX	18
+PROPN ADP ADJ NOUN ADP VERB AUX	11
+PROPN ADP NOUN ADP NOUN ADP NOUN	30
+PROPN ADP NOUN ADP NOUN ADP VERB	67
+PROPN ADP NOUN ADP NOUN NOUN ADP	43
+PROPN ADP NOUN ADP PROPN ADP NOUN	13
+PROPN ADP NOUN ADP VERB AUX AUX	69
+PROPN ADP NOUN ADP VERB AUX NOUN	28
+PROPN ADP NOUN ADP VERB AUX PROPN	12
+PROPN ADP NOUN ADP VERB AUX PUNCT	35
+PROPN ADP NOUN ADP VERB AUX SCONJ	27
+PROPN ADP NOUN ADP VERB NOUN ADP	12
+PROPN ADP NOUN ADP VERB PUNCT EOF	19
+PROPN ADP NOUN ADP VERB SCONJ AUX	38
+PROPN ADP NOUN ADP VERB SCONJ VERB	18
+PROPN ADP NOUN NOUN ADP NOUN ADP	43
+PROPN ADP NOUN NOUN ADP NOUN NOUN	16
+PROPN ADP NOUN NOUN ADP VERB AUX	53
+PROPN ADP NOUN NOUN ADP VERB SCONJ	17
+PROPN ADP NOUN NOUN NOUN ADP NOUN	17
+PROPN ADP NOUN NOUN NOUN ADP VERB	15
+PROPN ADP NUM NOUN ADP NOUN ADP	11
+PROPN ADP NUM NOUN ADP VERB AUX	11
+PROPN ADP NUM NOUN NOUN ADP NOUN	11
+PROPN ADP PART NOUN ADP VERB AUX	11
+PROPN ADP PROPN ADP NOUN ADP VERB	22
+PROPN ADP PROPN ADP NOUN NOUN ADP	14
+PROPN ADP PROPN ADP VERB AUX AUX	18
+PROPN ADP PROPN NOUN ADP NOUN ADP	15
+PROPN ADP PROPN NOUN ADP VERB AUX	21
+PROPN ADP VERB AUX AUX AUX PUNCT	24
+PROPN ADP VERB AUX AUX NOUN ADP	27
+PROPN ADP VERB AUX AUX PUNCT EOF	38
+PROPN ADP VERB AUX AUX SCONJ AUX	20
+PROPN ADP VERB AUX NOUN ADP NOUN	14
+PROPN ADP VERB AUX NOUN ADP VERB	16
+PROPN ADP VERB AUX PUNCT NOUN ADP	11
+PROPN ADP VERB AUX SCONJ AUX AUX	25
+PROPN ADP VERB AUX SCONJ AUX PUNCT	16
+PROPN ADP VERB SCONJ AUX PUNCT EOF	17
+PROPN NOUN ADP NOUN ADP NOUN ADP	51
+PROPN NOUN ADP NOUN ADP NOUN NOUN	11
+PROPN NOUN ADP NOUN ADP VERB AUX	84
+PROPN NOUN ADP NOUN ADP VERB PUNCT	21
+PROPN NOUN ADP NOUN ADP VERB SCONJ	35
+PROPN NOUN ADP NOUN NOUN ADP NOUN	31
+PROPN NOUN ADP NOUN NOUN ADP VERB	47
+PROPN NOUN ADP NOUN NOUN NOUN ADP	17
+PROPN NOUN ADP VERB AUX AUX AUX	27
+PROPN NOUN ADP VERB AUX AUX NOUN	18
+PROPN NOUN ADP VERB AUX AUX PUNCT	29
+PROPN NOUN ADP VERB AUX AUX SCONJ	11
+PROPN NOUN ADP VERB AUX NOUN ADP	18
+PROPN NOUN ADP VERB AUX PUNCT EOF	26
+PROPN NOUN ADP VERB AUX SCONJ AUX	20
+PROPN NOUN ADP VERB SCONJ AUX PUNCT	12
+PROPN NOUN NOUN ADP NOUN ADP NOUN	17
+PROPN NOUN NOUN ADP NOUN ADP VERB	32
+PROPN NOUN NOUN ADP NOUN NOUN ADP	16
+PROPN NOUN NOUN ADP NOUN NOUN NOUN	11
+PROPN NOUN NOUN ADP VERB AUX AUX	23
+PROPN NOUN NOUN ADP VERB PUNCT EOF	12
+PROPN NOUN NOUN NOUN ADP NOUN ADP	18
+PROPN NOUN NOUN NOUN ADP VERB AUX	18
+PROPN PROPN ADP NOUN ADP NOUN ADP	16
+PROPN PROPN ADP NOUN ADP VERB AUX	15
+PROPN PROPN ADP NOUN ADP VERB SCONJ	11
+PROPN PROPN ADP NOUN NOUN ADP VERB	12
+PROPN PUNCT ADP NOUN ADP VERB AUX	11
+PROPN SYM PROPN ADP NOUN ADP NOUN	11
+PROPN SYM PROPN ADP NOUN ADP VERB	22
+PROPN SYM PROPN SYM PROPN SYM PROPN	20
+PUNCT ADJ AUX NOUN ADP NOUN ADP	12
+PUNCT ADJ AUX NOUN ADP VERB AUX	27
+PUNCT ADJ AUX NOUN ADP VERB SCONJ	11
+PUNCT ADJ NOUN ADP NOUN ADP VERB	24
+PUNCT ADJ NOUN ADP NOUN NOUN ADP	12
+PUNCT ADJ NOUN ADP VERB AUX AUX	17
+PUNCT ADJ NOUN NOUN ADP NOUN ADP	15
+PUNCT ADP NOUN ADP VERB AUX AUX	18
+PUNCT ADP NOUN ADP VERB AUX PUNCT	12
+PUNCT ADP VERB AUX AUX PUNCT EOF	16
+PUNCT ADP VERB AUX SCONJ AUX PUNCT	19
+PUNCT ADP VERB SCONJ AUX AUX PUNCT	12
+PUNCT NOUN ADP ADJ AUX NOUN ADP	19
+PUNCT NOUN ADP ADP NOUN ADP NOUN	16
+PUNCT NOUN ADP ADP NOUN ADP VERB	17
+PUNCT NOUN ADP NOUN ADP ADJ AUX	13
+PUNCT NOUN ADP NOUN ADP ADP NOUN	11
+PUNCT NOUN ADP NOUN ADP ADP VERB	13
+PUNCT NOUN ADP NOUN ADP NOUN ADP	125
+PUNCT NOUN ADP NOUN ADP NOUN NOUN	32
+PUNCT NOUN ADP NOUN ADP NUM NOUN	15
+PUNCT NOUN ADP NOUN ADP PART NOUN	11
+PUNCT NOUN ADP NOUN ADP VERB AUX	125
+PUNCT NOUN ADP NOUN ADP VERB NOUN	23
+PUNCT NOUN ADP NOUN ADP VERB PUNCT	19
+PUNCT NOUN ADP NOUN ADP VERB SCONJ	58
+PUNCT NOUN ADP NOUN NOUN ADP ADJ	11
+PUNCT NOUN ADP NOUN NOUN ADP NOUN	47
+PUNCT NOUN ADP NOUN NOUN ADP VERB	58
+PUNCT NOUN ADP NOUN NOUN NOUN ADP	12
+PUNCT NOUN ADP NOUN PUNCT NOUN ADP	11
+PUNCT NOUN ADP NUM NOUN NOUN ADP	11
+PUNCT NOUN ADP PROPN ADP NOUN ADP	12
+PUNCT NOUN ADP PROPN NOUN ADP NOUN	11
+PUNCT NOUN ADP VERB AUX AUX AUX	17
+PUNCT NOUN ADP VERB AUX AUX NOUN	29
+PUNCT NOUN ADP VERB AUX AUX PUNCT	16
+PUNCT NOUN ADP VERB AUX AUX SCONJ	14
+PUNCT NOUN ADP VERB AUX NOUN ADP	44
+PUNCT NOUN ADP VERB AUX PUNCT EOF	25
+PUNCT NOUN ADP VERB AUX SCONJ AUX	18
+PUNCT NOUN ADP VERB NOUN ADP NOUN	18
+PUNCT NOUN ADP VERB NOUN ADP VERB	20
+PUNCT NOUN ADP VERB SCONJ AUX AUX	12
+PUNCT NOUN ADP VERB SCONJ NOUN ADP	12
+PUNCT NOUN ADP VERB SCONJ VERB AUX	11
+PUNCT NOUN NOUN ADP ADJ AUX NOUN	17
+PUNCT NOUN NOUN ADP ADJ NOUN ADP	14
+PUNCT NOUN NOUN ADP ADP NOUN ADP	14
+PUNCT NOUN NOUN ADP ADP VERB AUX	14
+PUNCT NOUN NOUN ADP NOUN ADP ADJ	16
+PUNCT NOUN NOUN ADP NOUN ADP NOUN	51
+PUNCT NOUN NOUN ADP NOUN ADP VERB	81
+PUNCT NOUN NOUN ADP NOUN NOUN ADP	54
+PUNCT NOUN NOUN ADP NOUN NOUN NOUN	14
+PUNCT NOUN NOUN ADP NUM NOUN NOUN	11
+PUNCT NOUN NOUN ADP PROPN NOUN ADP	13
+PUNCT NOUN NOUN ADP VERB AUX AUX	29
+PUNCT NOUN NOUN ADP VERB AUX NOUN	29
+PUNCT NOUN NOUN ADP VERB AUX PUNCT	16
+PUNCT NOUN NOUN ADP VERB AUX SCONJ	20
+PUNCT NOUN NOUN ADP VERB NOUN ADP	14
+PUNCT NOUN NOUN NOUN ADP NOUN ADP	46
+PUNCT NOUN NOUN NOUN ADP NOUN NOUN	16
+PUNCT NOUN NOUN NOUN ADP VERB AUX	22
+PUNCT NOUN NOUN NOUN NOUN ADP VERB	15
+PUNCT NOUN NOUN PUNCT ADP NOUN ADP	19
+PUNCT NOUN NOUN PUNCT ADP VERB AUX	15
+PUNCT NOUN NOUN PUNCT NOUN NOUN PUNCT	12
+PUNCT NOUN NUM NOUN ADP NOUN ADP	11
+PUNCT NOUN PUNCT NOUN PUNCT NOUN ADP	13
+PUNCT NOUN PUNCT NOUN PUNCT NOUN PUNCT	16
+PUNCT NUM NOUN ADP NOUN ADP NOUN	12
+PUNCT NUM NOUN ADP NOUN ADP VERB	22
+PUNCT NUM NOUN ADP NOUN NOUN ADP	14
+PUNCT NUM NOUN ADP NUM NOUN ADP	17
+PUNCT NUM NOUN ADP VERB AUX AUX	13
+PUNCT NUM NOUN NOUN ADP NOUN ADP	24
+PUNCT NUM NOUN NOUN ADP NOUN NOUN	12
+PUNCT NUM NOUN NOUN NUM NOUN ADP	20
+PUNCT PRON ADP NOUN ADP NOUN ADP	14
+PUNCT PROPN ADP NOUN ADP NOUN ADP	25
+PUNCT PROPN ADP NOUN ADP VERB AUX	25
+PUNCT PROPN ADP NOUN ADP VERB SCONJ	15
+PUNCT PROPN ADP NOUN NOUN ADP NOUN	17
+PUNCT PROPN ADP NOUN NOUN ADP VERB	13
+PUNCT PROPN NOUN ADP NOUN ADP NOUN	14
+PUNCT PROPN NOUN ADP NOUN ADP VERB	25
+PUNCT PROPN NOUN ADP NOUN NOUN ADP	18
+PUNCT PROPN NOUN ADP VERB AUX AUX	14
+PUNCT PROPN PUNCT ADP NOUN ADP VERB	11
+PUNCT PROPN PUNCT ADP VERB AUX AUX	12
+PUNCT., NOUN ADP NOUN ADP NOUN ADP	19
+PUNCT., NOUN ADP NOUN ADP VERB AUX	23
+PUNCT., NOUN ADP NOUN ADP VERB SCONJ	14
+PUNCT., NOUN ADP VERB AUX NOUN ADP	11
+PUNCT., NOUN NOUN ADP NOUN ADP VERB	13
+PUNCT., NOUN NOUN NOUN ADP NOUN ADP	13
+SCONJ AUX AUX NOUN ADP NOUN ADP	20
+SCONJ AUX AUX NOUN ADP VERB AUX	16
+SCONJ AUX AUX SCONJ PUNCT NOUN ADP	24
+SCONJ AUX NOUN ADP NOUN ADP VERB	19
+SCONJ AUX NOUN ADP VERB PUNCT EOF	19
+SCONJ AUX PUNCT NOUN ADP NOUN ADP	16
+SCONJ AUX SCONJ PUNCT NOUN ADP NOUN	17
+SCONJ AUX SCONJ PUNCT NOUN NOUN ADP	15
+SCONJ NOUN ADP NOUN ADP VERB AUX	22
+SCONJ NOUN ADP VERB AUX PUNCT EOF	18
+SCONJ NOUN NOUN ADP NOUN ADP VERB	14
+SCONJ NOUN NOUN ADP NOUN NOUN ADP	12
+SCONJ NOUN NOUN ADP VERB AUX AUX	12
+SCONJ NOUN NOUN ADP VERB AUX SCONJ	14
+SCONJ PUNCT NOUN ADP ADP NOUN ADP	11
+SCONJ PUNCT NOUN ADP NOUN ADP NOUN	34
+SCONJ PUNCT NOUN ADP NOUN ADP VERB	48
+SCONJ PUNCT NOUN ADP NOUN NOUN ADP	23
+SCONJ PUNCT NOUN ADP VERB AUX AUX	15
+SCONJ PUNCT NOUN ADP VERB AUX SCONJ	11
+SCONJ PUNCT NOUN ADP VERB NOUN ADP	15
+SCONJ PUNCT NOUN NOUN ADP NOUN ADP	26
+SCONJ PUNCT NOUN NOUN ADP NOUN NOUN	14
+SCONJ PUNCT NOUN NOUN ADP VERB AUX	19
+SCONJ PUNCT NUM NOUN ADP NOUN ADP	11
+SCONJ VERB AUX AUX AUX PUNCT EOF	19
+SCONJ VERB AUX SCONJ AUX AUX PUNCT	17
+SCONJ VERB AUX SCONJ AUX PUNCT EOF	29
+SCONJ VERB SCONJ AUX AUX PUNCT EOF	16
+SYM PROPN SYM PROPN SYM PROPN SYM	15
+VERB AUX ADP VERB AUX PUNCT EOF	21
+VERB AUX AUX AUX AUX PUNCT EOF	27
+VERB AUX AUX AUX NOUN ADP NOUN	23
+VERB AUX AUX AUX NOUN ADP VERB	20
+VERB AUX AUX AUX NOUN AUX PUNCT	15
+VERB AUX AUX AUX SCONJ PUNCT NOUN	17
+VERB AUX AUX NOUN ADP ADJ AUX	18
+VERB AUX AUX NOUN ADP NOUN ADP	54
+VERB AUX AUX NOUN ADP NOUN NOUN	20
+VERB AUX AUX NOUN ADP PUNCT NOUN	16
+VERB AUX AUX NOUN ADP PUNCT PROPN	14
+VERB AUX AUX NOUN ADP VERB AUX	66
+VERB AUX AUX NOUN ADP VERB NOUN	11
+VERB AUX AUX NOUN ADP VERB PUNCT	37
+VERB AUX AUX NOUN ADP VERB SCONJ	29
+VERB AUX AUX NOUN AUX PUNCT EOF	19
+VERB AUX AUX NOUN NOUN ADP NOUN	20
+VERB AUX AUX NOUN NOUN ADP VERB	18
+VERB AUX AUX NOUN NOUN NOUN ADP	13
+VERB AUX AUX PUNCT NOUN ADP NOUN	15
+VERB AUX AUX PUNCT NOUN NOUN ADP	15
+VERB AUX AUX SCONJ AUX AUX NOUN	15
+VERB AUX AUX SCONJ AUX AUX PUNCT	53
+VERB AUX AUX SCONJ AUX AUX SCONJ	11
+VERB AUX AUX SCONJ AUX NOUN ADP	21
+VERB AUX AUX SCONJ AUX PUNCT EOF	104
+VERB AUX AUX SCONJ AUX SCONJ PUNCT	13
+VERB AUX AUX SCONJ PUNCT NOUN ADP	30
+VERB AUX NOUN ADP ADJ PUNCT EOF	14
+VERB AUX NOUN ADP NOUN ADP ADJ	14
+VERB AUX NOUN ADP NOUN ADP NOUN	44
+VERB AUX NOUN ADP NOUN ADP PUNCT	11
+VERB AUX NOUN ADP NOUN ADP VERB	74
+VERB AUX NOUN ADP NOUN NOUN ADP	27
+VERB AUX NOUN ADP PUNCT NOUN ADP	26
+VERB AUX NOUN ADP PUNCT NOUN NOUN	11
+VERB AUX NOUN ADP VERB AUX AUX	53
+VERB AUX NOUN ADP VERB AUX NOUN	14
+VERB AUX NOUN ADP VERB AUX PUNCT	59
+VERB AUX NOUN ADP VERB AUX SCONJ	33
+VERB AUX NOUN ADP VERB NOUN ADP	15
+VERB AUX NOUN ADP VERB PUNCT EOF	52
+VERB AUX NOUN ADP VERB PUNCT NOUN	15
+VERB AUX NOUN ADP VERB SCONJ AUX	38
+VERB AUX NOUN NOUN ADP NOUN ADP	27
+VERB AUX NOUN NOUN ADP VERB AUX	31
+VERB AUX NOUN PUNCT NOUN ADP NOUN	11
+VERB AUX PUNCT ADJ NOUN ADP VERB	11
+VERB AUX PUNCT NOUN ADP NOUN ADP	41
+VERB AUX PUNCT NOUN ADP NOUN NOUN	13
+VERB AUX PUNCT NOUN ADP VERB AUX	27
+VERB AUX PUNCT NOUN NOUN ADP NOUN	28
+VERB AUX PUNCT NOUN NOUN ADP VERB	16
+VERB AUX PUNCT NOUN NOUN NOUN ADP	12
+VERB AUX PUNCT NUM NOUN NOUN ADP	14
+VERB AUX SCONJ AUX AUX AUX PUNCT	31
+VERB AUX SCONJ AUX AUX NOUN ADP	32
+VERB AUX SCONJ AUX AUX NOUN NOUN	13
+VERB AUX SCONJ AUX AUX PUNCT EOF	141
+VERB AUX SCONJ AUX AUX SCONJ PUNCT	21
+VERB AUX SCONJ AUX NOUN ADP NOUN	15
+VERB AUX SCONJ AUX NOUN ADP VERB	24
+VERB AUX SCONJ AUX PUNCT NOUN ADP	12
+VERB AUX SCONJ AUX SCONJ PUNCT NOUN	13
+VERB AUX SCONJ NOUN ADP NOUN ADP	12
+VERB AUX SCONJ NOUN ADP VERB AUX	26
+VERB AUX SCONJ NOUN ADP VERB SCONJ	13
+VERB AUX SCONJ NOUN NOUN ADP VERB	13
+VERB AUX SCONJ PUNCT ADJ NOUN ADP	16
+VERB AUX SCONJ PUNCT NOUN ADP NOUN	23
+VERB AUX SCONJ PUNCT NOUN ADP VERB	16
+VERB AUX SCONJ PUNCT NOUN NOUN ADP	31
+VERB AUX SCONJ VERB AUX AUX PUNCT	12
+VERB AUX SCONJ VERB AUX PUNCT EOF	13
+VERB AUX SCONJ VERB AUX SCONJ AUX	16
+VERB AUX SCONJ VERB SCONJ AUX AUX	12
+VERB NOUN ADP NOUN ADP NOUN ADP	23
+VERB NOUN ADP NOUN ADP VERB AUX	27
+VERB NOUN ADP NOUN ADP VERB PUNCT	11
+VERB NOUN ADP NOUN ADP VERB SCONJ	13
+VERB NOUN ADP NOUN NOUN ADP VERB	12
+VERB NOUN ADP PUNCT NOUN ADP NOUN	11
+VERB NOUN ADP VERB AUX AUX AUX	12
+VERB NOUN ADP VERB AUX AUX PUNCT	34
+VERB NOUN ADP VERB AUX NOUN ADP	11
+VERB NOUN ADP VERB AUX PUNCT EOF	58
+VERB NOUN ADP VERB AUX SCONJ AUX	15
+VERB NOUN ADP VERB SCONJ AUX AUX	12
+VERB NOUN NOUN ADP NOUN ADP VERB	16
+VERB PUNCT NOUN ADP NOUN ADP NOUN	16
+VERB PUNCT NOUN ADP NOUN ADP VERB	33
+VERB PUNCT NOUN ADP VERB AUX AUX	15
+VERB PUNCT NOUN ADP VERB NOUN ADP	11
+VERB PUNCT NOUN NOUN ADP NOUN ADP	13
+VERB PUNCT NOUN NOUN ADP VERB AUX	13
+VERB SCONJ AUX AUX AUX PUNCT EOF	82
+VERB SCONJ AUX AUX AUX SCONJ PUNCT	12
+VERB SCONJ AUX AUX NOUN ADP NOUN	16
+VERB SCONJ AUX AUX NOUN ADP VERB	22
+VERB SCONJ AUX AUX SCONJ PUNCT NOUN	17
+VERB SCONJ AUX NOUN ADP NOUN ADP	22
+VERB SCONJ AUX NOUN ADP VERB AUX	21
+VERB SCONJ AUX NOUN ADP VERB PUNCT	14
+VERB SCONJ AUX NOUN ADP VERB SCONJ	11
+VERB SCONJ AUX PUNCT NOUN ADP NOUN	14
+VERB SCONJ AUX SCONJ PUNCT NOUN ADP	20
+VERB SCONJ NOUN ADP NOUN ADP VERB	25
+VERB SCONJ NOUN ADP VERB AUX AUX	20
+VERB SCONJ NOUN ADP VERB SCONJ AUX	11
+VERB SCONJ NOUN NOUN ADP NOUN ADP	14
+VERB SCONJ NOUN NOUN ADP VERB AUX	22
+VERB SCONJ PUNCT NOUN ADP NOUN ADP	32
+VERB SCONJ PUNCT NOUN ADP VERB AUX	14
+VERB SCONJ PUNCT NOUN NOUN ADP NOUN	16
+VERB SCONJ VERB AUX AUX AUX PUNCT	13
+VERB SCONJ VERB AUX AUX NOUN ADP	16
+VERB SCONJ VERB AUX AUX PUNCT EOF	34
+VERB SCONJ VERB AUX SCONJ AUX AUX	20
+VERB SCONJ VERB AUX SCONJ AUX PUNCT	14
+
+[NGRAMS:8]
+728
+ADJ AUX NOUN ADP NOUN ADP VERB AUX	22
+ADJ AUX NOUN ADP VERB AUX AUX PUNCT	17
+ADJ AUX NOUN ADP VERB AUX AUX SCONJ	14
+ADJ AUX NOUN ADP VERB AUX PUNCT EOF	19
+ADJ AUX NOUN ADP VERB AUX SCONJ AUX	16
+ADJ AUX NOUN ADP VERB NOUN ADP VERB	13
+ADJ AUX NOUN ADP VERB SCONJ AUX AUX	16
+ADJ NOUN ADP NOUN ADP NOUN ADP VERB	14
+ADJ NOUN ADP NOUN ADP VERB AUX AUX	17
+ADJ NOUN ADP NOUN NOUN ADP VERB AUX	15
+ADJ NOUN ADP VERB AUX AUX PUNCT EOF	19
+ADJ NOUN ADP VERB SCONJ AUX PUNCT EOF	16
+ADP ADJ AUX NOUN ADP NOUN ADP VERB	16
+ADP ADJ AUX NOUN ADP VERB AUX AUX	29
+ADP ADJ AUX NOUN ADP VERB AUX PUNCT	19
+ADP ADJ AUX NOUN ADP VERB AUX SCONJ	15
+ADP ADJ AUX NOUN ADP VERB SCONJ AUX	21
+ADP ADJ AUX NOUN NOUN ADP VERB AUX	13
+ADP ADJ NOUN ADP VERB AUX PUNCT EOF	31
+ADP ADJ NOUN ADP VERB SCONJ AUX PUNCT	13
+ADP ADP NOUN ADP NOUN ADP NOUN ADP	17
+ADP ADP NOUN ADP NOUN ADP VERB AUX	28
+ADP ADP NOUN ADP VERB AUX SCONJ AUX	16
+ADP ADP NOUN NOUN ADP NOUN ADP VERB	20
+ADP ADP VERB AUX AUX AUX PUNCT EOF	15
+ADP ADP VERB AUX SCONJ AUX PUNCT EOF	20
+ADP NOUN ADP ADJ AUX AUX PUNCT EOF	13
+ADP NOUN ADP ADJ AUX NOUN ADP VERB	20
+ADP NOUN ADP ADJ NOUN ADP VERB AUX	22
+ADP NOUN ADP NOUN ADP ADP VERB AUX	17
+ADP NOUN ADP NOUN ADP NOUN ADP ADJ	18
+ADP NOUN ADP NOUN ADP NOUN ADP NOUN	54
+ADP NOUN ADP NOUN ADP NOUN ADP VERB	113
+ADP NOUN ADP NOUN ADP NOUN NOUN ADP	52
+ADP NOUN ADP NOUN ADP PUNCT NOUN ADP	15
+ADP NOUN ADP NOUN ADP VERB AUX AUX	100
+ADP NOUN ADP NOUN ADP VERB AUX NOUN	60
+ADP NOUN ADP NOUN ADP VERB AUX PUNCT	83
+ADP NOUN ADP NOUN ADP VERB AUX SCONJ	64
+ADP NOUN ADP NOUN ADP VERB NOUN ADP	43
+ADP NOUN ADP NOUN ADP VERB PUNCT EOF	34
+ADP NOUN ADP NOUN ADP VERB PUNCT NOUN	22
+ADP NOUN ADP NOUN ADP VERB SCONJ AUX	77
+ADP NOUN ADP NOUN ADP VERB SCONJ PUNCT	15
+ADP NOUN ADP NOUN ADP VERB SCONJ VERB	27
+ADP NOUN ADP NOUN AUX AUX PUNCT EOF	13
+ADP NOUN ADP NOUN NOUN ADP NOUN ADP	55
+ADP NOUN ADP NOUN NOUN ADP NOUN NOUN	19
+ADP NOUN ADP NOUN NOUN ADP VERB AUX	73
+ADP NOUN ADP NOUN NOUN ADP VERB NOUN	19
+ADP NOUN ADP NOUN NOUN ADP VERB PUNCT	19
+ADP NOUN ADP NOUN NOUN ADP VERB SCONJ	27
+ADP NOUN ADP NOUN NOUN NOUN ADP NOUN	14
+ADP NOUN ADP NOUN NOUN NOUN ADP VERB	20
+ADP NOUN ADP NOUN NOUN NOUN NOUN ADP	13
+ADP NOUN ADP NUM NOUN ADP VERB AUX	15
+ADP NOUN ADP PROPN ADP NOUN ADP VERB	20
+ADP NOUN ADP PUNCT NOUN ADP NOUN ADP	29
+ADP NOUN ADP VERB AUX AUX AUX NOUN	25
+ADP NOUN ADP VERB AUX AUX AUX PUNCT	49
+ADP NOUN ADP VERB AUX AUX AUX SCONJ	17
+ADP NOUN ADP VERB AUX AUX NOUN ADP	75
+ADP NOUN ADP VERB AUX AUX NOUN AUX	14
+ADP NOUN ADP VERB AUX AUX PUNCT EOF	165
+ADP NOUN ADP VERB AUX AUX PUNCT NOUN	13
+ADP NOUN ADP VERB AUX AUX SCONJ AUX	59
+ADP NOUN ADP VERB AUX AUX SCONJ PUNCT	24
+ADP NOUN ADP VERB AUX AUX SCONJ VERB	19
+ADP NOUN ADP VERB AUX NOUN ADP NOUN	50
+ADP NOUN ADP VERB AUX NOUN ADP PUNCT	23
+ADP NOUN ADP VERB AUX NOUN ADP VERB	83
+ADP NOUN ADP VERB AUX NOUN NOUN ADP	27
+ADP NOUN ADP VERB AUX PUNCT NOUN ADP	31
+ADP NOUN ADP VERB AUX PUNCT NOUN NOUN	16
+ADP NOUN ADP VERB AUX SCONJ AUX AUX	61
+ADP NOUN ADP VERB AUX SCONJ AUX NOUN	16
+ADP NOUN ADP VERB AUX SCONJ AUX PUNCT	70
+ADP NOUN ADP VERB AUX SCONJ AUX SCONJ	15
+ADP NOUN ADP VERB AUX SCONJ NOUN ADP	15
+ADP NOUN ADP VERB AUX SCONJ PUNCT NOUN	32
+ADP NOUN ADP VERB AUX SCONJ VERB AUX	19
+ADP NOUN ADP VERB NOUN ADP NOUN ADP	33
+ADP NOUN ADP VERB NOUN ADP VERB AUX	53
+ADP NOUN ADP VERB NOUN ADP VERB PUNCT	19
+ADP NOUN ADP VERB NOUN ADP VERB SCONJ	16
+ADP NOUN ADP VERB PUNCT NOUN ADP NOUN	28
+ADP NOUN ADP VERB PUNCT NOUN ADP VERB	23
+ADP NOUN ADP VERB PUNCT NOUN NOUN ADP	18
+ADP NOUN ADP VERB SCONJ AUX AUX AUX	35
+ADP NOUN ADP VERB SCONJ AUX AUX NOUN	26
+ADP NOUN ADP VERB SCONJ AUX AUX PUNCT	54
+ADP NOUN ADP VERB SCONJ AUX AUX SCONJ	22
+ADP NOUN ADP VERB SCONJ AUX NOUN ADP	28
+ADP NOUN ADP VERB SCONJ AUX PUNCT EOF	91
+ADP NOUN ADP VERB SCONJ AUX SCONJ PUNCT	15
+ADP NOUN ADP VERB SCONJ NOUN ADP NOUN	17
+ADP NOUN ADP VERB SCONJ NOUN ADP VERB	32
+ADP NOUN ADP VERB SCONJ NOUN NOUN ADP	16
+ADP NOUN ADP VERB SCONJ PUNCT NOUN ADP	23
+ADP NOUN ADP VERB SCONJ VERB AUX AUX	32
+ADP NOUN ADP VERB SCONJ VERB AUX PUNCT	15
+ADP NOUN ADP VERB SCONJ VERB AUX SCONJ	17
+ADP NOUN ADP VERB SCONJ VERB PUNCT EOF	15
+ADP NOUN ADP VERB SCONJ VERB SCONJ AUX	13
+ADP NOUN NOUN ADP ADJ AUX NOUN ADP	17
+ADP NOUN NOUN ADP ADJ NOUN ADP VERB	13
+ADP NOUN NOUN ADP NOUN ADP NOUN ADP	58
+ADP NOUN NOUN ADP NOUN ADP NOUN NOUN	15
+ADP NOUN NOUN ADP NOUN ADP VERB AUX	97
+ADP NOUN NOUN ADP NOUN ADP VERB NOUN	15
+ADP NOUN NOUN ADP NOUN ADP VERB PUNCT	28
+ADP NOUN NOUN ADP NOUN ADP VERB SCONJ	55
+ADP NOUN NOUN ADP NOUN NOUN ADP NOUN	31
+ADP NOUN NOUN ADP NOUN NOUN ADP VERB	38
+ADP NOUN NOUN ADP NOUN NOUN NOUN ADP	13
+ADP NOUN NOUN ADP VERB AUX AUX AUX	26
+ADP NOUN NOUN ADP VERB AUX AUX NOUN	37
+ADP NOUN NOUN ADP VERB AUX AUX PUNCT	57
+ADP NOUN NOUN ADP VERB AUX AUX SCONJ	21
+ADP NOUN NOUN ADP VERB AUX NOUN ADP	51
+ADP NOUN NOUN ADP VERB AUX PUNCT EOF	62
+ADP NOUN NOUN ADP VERB AUX PUNCT NOUN	30
+ADP NOUN NOUN ADP VERB AUX SCONJ AUX	62
+ADP NOUN NOUN ADP VERB NOUN ADP VERB	18
+ADP NOUN NOUN ADP VERB PUNCT NOUN ADP	18
+ADP NOUN NOUN ADP VERB SCONJ AUX AUX	24
+ADP NOUN NOUN ADP VERB SCONJ AUX PUNCT	26
+ADP NOUN NOUN ADP VERB SCONJ VERB AUX	23
+ADP NOUN NOUN NOUN ADP NOUN ADP VERB	30
+ADP NOUN NOUN NOUN ADP NOUN NOUN ADP	17
+ADP NOUN NOUN NOUN ADP VERB AUX AUX	31
+ADP NOUN NOUN NOUN ADP VERB AUX PUNCT	13
+ADP NOUN NOUN NOUN NOUN ADP VERB AUX	18
+ADP NUM NOUN ADP NOUN ADP VERB AUX	33
+ADP NUM NOUN ADP NOUN ADP VERB SCONJ	16
+ADP NUM NOUN ADP NOUN NOUN ADP VERB	13
+ADP NUM NOUN ADP VERB AUX AUX PUNCT	14
+ADP NUM NOUN ADP VERB AUX PUNCT EOF	19
+ADP NUM NOUN NOUN ADP NOUN ADP VERB	21
+ADP NUM NOUN NOUN ADP VERB AUX AUX	16
+ADP PROPN ADP NOUN ADP NOUN ADP VERB	13
+ADP PROPN ADP NOUN ADP VERB AUX AUX	24
+ADP PROPN ADP NOUN ADP VERB SCONJ AUX	14
+ADP PROPN ADP NOUN NOUN ADP VERB AUX	16
+ADP PROPN ADP VERB AUX AUX PUNCT EOF	16
+ADP PROPN NOUN ADP NOUN ADP VERB AUX	25
+ADP PROPN NOUN ADP NOUN NOUN ADP VERB	15
+ADP PUNCT NOUN ADP NOUN ADP NOUN ADP	34
+ADP PUNCT NOUN ADP NOUN ADP VERB AUX	26
+ADP PUNCT NOUN ADP NOUN ADP VERB SCONJ	15
+ADP PUNCT NOUN ADP NOUN NOUN ADP NOUN	14
+ADP PUNCT NOUN ADP NOUN NOUN ADP VERB	21
+ADP PUNCT NOUN NOUN ADP NOUN ADP NOUN	14
+ADP PUNCT NOUN NOUN ADP NOUN ADP VERB	20
+ADP PUNCT NOUN NOUN ADP NOUN NOUN ADP	19
+ADP PUNCT NOUN NOUN NOUN ADP NOUN ADP	13
+ADP VERB AUX AUX AUX AUX PUNCT EOF	19
+ADP VERB AUX AUX AUX NOUN ADP NOUN	14
+ADP VERB AUX AUX AUX NOUN ADP VERB	15
+ADP VERB AUX AUX AUX SCONJ PUNCT NOUN	15
+ADP VERB AUX AUX NOUN ADP ADJ AUX	13
+ADP VERB AUX AUX NOUN ADP NOUN ADP	41
+ADP VERB AUX AUX NOUN ADP PUNCT NOUN	14
+ADP VERB AUX AUX NOUN ADP PUNCT PROPN	14
+ADP VERB AUX AUX NOUN ADP VERB AUX	51
+ADP VERB AUX AUX NOUN ADP VERB PUNCT	27
+ADP VERB AUX AUX NOUN ADP VERB SCONJ	23
+ADP VERB AUX AUX NOUN AUX PUNCT EOF	13
+ADP VERB AUX AUX NOUN NOUN ADP NOUN	13
+ADP VERB AUX AUX NOUN NOUN ADP VERB	16
+ADP VERB AUX AUX PUNCT NOUN ADP NOUN	14
+ADP VERB AUX AUX SCONJ AUX AUX PUNCT	42
+ADP VERB AUX AUX SCONJ AUX NOUN ADP	16
+ADP VERB AUX AUX SCONJ AUX PUNCT EOF	83
+ADP VERB AUX AUX SCONJ PUNCT NOUN ADP	21
+ADP VERB AUX NOUN ADP NOUN ADP NOUN	37
+ADP VERB AUX NOUN ADP NOUN ADP VERB	55
+ADP VERB AUX NOUN ADP NOUN NOUN ADP	21
+ADP VERB AUX NOUN ADP PUNCT NOUN ADP	19
+ADP VERB AUX NOUN ADP VERB AUX AUX	40
+ADP VERB AUX NOUN ADP VERB AUX PUNCT	43
+ADP VERB AUX NOUN ADP VERB AUX SCONJ	28
+ADP VERB AUX NOUN ADP VERB PUNCT EOF	40
+ADP VERB AUX NOUN ADP VERB SCONJ AUX	32
+ADP VERB AUX NOUN NOUN ADP NOUN ADP	19
+ADP VERB AUX NOUN NOUN ADP VERB AUX	25
+ADP VERB AUX PUNCT NOUN ADP NOUN ADP	31
+ADP VERB AUX PUNCT NOUN ADP VERB AUX	24
+ADP VERB AUX PUNCT NOUN NOUN ADP NOUN	22
+ADP VERB AUX PUNCT NOUN NOUN ADP VERB	15
+ADP VERB AUX SCONJ AUX AUX AUX PUNCT	16
+ADP VERB AUX SCONJ AUX AUX NOUN ADP	21
+ADP VERB AUX SCONJ AUX AUX PUNCT EOF	98
+ADP VERB AUX SCONJ AUX AUX SCONJ PUNCT	16
+ADP VERB AUX SCONJ AUX NOUN ADP VERB	19
+ADP VERB AUX SCONJ NOUN ADP VERB AUX	22
+ADP VERB AUX SCONJ PUNCT NOUN ADP NOUN	20
+ADP VERB AUX SCONJ PUNCT NOUN ADP VERB	13
+ADP VERB AUX SCONJ PUNCT NOUN NOUN ADP	25
+ADP VERB NOUN ADP NOUN ADP NOUN ADP	21
+ADP VERB NOUN ADP NOUN ADP VERB AUX	18
+ADP VERB NOUN ADP VERB AUX AUX PUNCT	31
+ADP VERB NOUN ADP VERB AUX PUNCT EOF	44
+ADP VERB NOUN NOUN ADP NOUN ADP VERB	16
+ADP VERB PUNCT NOUN ADP NOUN ADP NOUN	14
+ADP VERB PUNCT NOUN ADP NOUN ADP VERB	29
+ADP VERB PUNCT NOUN ADP VERB AUX AUX	13
+ADP VERB SCONJ AUX AUX AUX PUNCT EOF	60
+ADP VERB SCONJ AUX AUX NOUN ADP NOUN	14
+ADP VERB SCONJ AUX AUX NOUN ADP VERB	17
+ADP VERB SCONJ AUX AUX SCONJ PUNCT NOUN	14
+ADP VERB SCONJ AUX NOUN ADP NOUN ADP	13
+ADP VERB SCONJ AUX NOUN ADP VERB AUX	17
+ADP VERB SCONJ AUX SCONJ PUNCT NOUN ADP	14
+ADP VERB SCONJ NOUN ADP NOUN ADP VERB	24
+ADP VERB SCONJ NOUN ADP VERB AUX AUX	19
+ADP VERB SCONJ NOUN NOUN ADP NOUN ADP	13
+ADP VERB SCONJ NOUN NOUN ADP VERB AUX	20
+ADP VERB SCONJ PUNCT NOUN ADP NOUN ADP	29
+ADP VERB SCONJ PUNCT NOUN ADP VERB AUX	13
+ADP VERB SCONJ PUNCT NOUN NOUN ADP NOUN	14
+ADP VERB SCONJ VERB AUX AUX NOUN ADP	16
+ADP VERB SCONJ VERB AUX AUX PUNCT EOF	31
+ADP VERB SCONJ VERB AUX SCONJ AUX AUX	20
+ADP VERB SCONJ VERB AUX SCONJ AUX PUNCT	13
+AUX AUX NOUN ADP NOUN ADP NOUN ADP	23
+AUX AUX NOUN ADP NOUN ADP VERB AUX	25
+AUX AUX NOUN ADP NOUN NOUN ADP VERB	17
+AUX AUX NOUN ADP VERB AUX AUX PUNCT	16
+AUX AUX NOUN ADP VERB AUX PUNCT EOF	34
+AUX AUX NOUN ADP VERB AUX SCONJ AUX	14
+AUX AUX SCONJ PUNCT NOUN ADP NOUN ADP	30
+AUX NOUN ADP NOUN ADP NOUN ADP NOUN	20
+AUX NOUN ADP NOUN ADP NOUN ADP VERB	40
+AUX NOUN ADP NOUN ADP VERB AUX AUX	28
+AUX NOUN ADP NOUN ADP VERB AUX NOUN	21
+AUX NOUN ADP NOUN ADP VERB AUX PUNCT	17
+AUX NOUN ADP NOUN ADP VERB AUX SCONJ	19
+AUX NOUN ADP NOUN ADP VERB SCONJ AUX	29
+AUX NOUN ADP NOUN NOUN ADP VERB AUX	26
+AUX NOUN ADP PUNCT NOUN ADP NOUN ADP	17
+AUX NOUN ADP PUNCT NOUN ADP VERB AUX	15
+AUX NOUN ADP VERB AUX AUX AUX PUNCT	20
+AUX NOUN ADP VERB AUX AUX NOUN ADP	22
+AUX NOUN ADP VERB AUX AUX PUNCT EOF	53
+AUX NOUN ADP VERB AUX NOUN ADP VERB	13
+AUX NOUN ADP VERB AUX SCONJ AUX AUX	15
+AUX NOUN ADP VERB AUX SCONJ AUX PUNCT	24
+AUX NOUN ADP VERB NOUN ADP VERB AUX	16
+AUX NOUN ADP VERB SCONJ AUX AUX PUNCT	25
+AUX NOUN ADP VERB SCONJ AUX PUNCT EOF	39
+AUX NOUN NOUN ADP NOUN ADP NOUN ADP	15
+AUX NOUN NOUN ADP NOUN ADP VERB AUX	27
+AUX PUNCT NOUN ADP NOUN ADP NOUN ADP	22
+AUX PUNCT NOUN ADP NOUN ADP VERB AUX	23
+AUX PUNCT NOUN NOUN ADP NOUN ADP VERB	14
+AUX SCONJ PUNCT NOUN ADP NOUN ADP NOUN	23
+AUX SCONJ PUNCT NOUN ADP NOUN ADP VERB	35
+AUX SCONJ PUNCT NOUN ADP NOUN NOUN ADP	17
+AUX SCONJ PUNCT NOUN NOUN ADP NOUN ADP	14
+AUX SCONJ VERB AUX SCONJ AUX PUNCT EOF	16
+BOF CCONJ PUNCT NOUN NOUN ADP NOUN ADP	13
+BOF NOUN ADP NOUN ADP NOUN ADP NOUN	40
+BOF NOUN ADP NOUN ADP NOUN ADP VERB	42
+BOF NOUN ADP NOUN ADP NOUN NOUN ADP	27
+BOF NOUN ADP NOUN ADP VERB AUX AUX	19
+BOF NOUN ADP NOUN ADP VERB AUX NOUN	23
+BOF NOUN ADP NOUN NOUN ADP NOUN ADP	29
+BOF NOUN ADP NOUN NOUN ADP VERB AUX	17
+BOF NOUN NOUN ADP NOUN ADP NOUN ADP	25
+BOF NOUN NOUN ADP NOUN ADP NOUN NOUN	13
+BOF NOUN NOUN ADP NOUN ADP VERB AUX	25
+BOF NOUN NOUN ADP NOUN ADP VERB SCONJ	13
+BOF NOUN NOUN ADP NOUN NOUN ADP VERB	18
+BOF NUM NOUN NOUN NUM NOUN PUNCT PROPN	18
+NOUN ADP ADJ AUX AUX AUX PUNCT EOF	16
+NOUN ADP ADJ AUX NOUN ADP NOUN ADP	29
+NOUN ADP ADJ AUX NOUN ADP VERB AUX	50
+NOUN ADP ADJ AUX NOUN ADP VERB SCONJ	26
+NOUN ADP ADJ AUX NOUN NOUN ADP VERB	16
+NOUN ADP ADJ AUX VERB AUX SCONJ AUX	13
+NOUN ADP ADJ NOUN ADP NOUN ADP VERB	24
+NOUN ADP ADJ NOUN ADP VERB AUX AUX	25
+NOUN ADP ADJ NOUN ADP VERB AUX PUNCT	28
+NOUN ADP ADJ NOUN ADP VERB SCONJ AUX	23
+NOUN ADP ADP NOUN ADP NOUN ADP NOUN	17
+NOUN ADP ADP NOUN ADP NOUN ADP VERB	36
+NOUN ADP ADP NOUN ADP NOUN NOUN ADP	17
+NOUN ADP ADP NOUN ADP VERB AUX AUX	17
+NOUN ADP ADP NOUN ADP VERB AUX SCONJ	18
+NOUN ADP ADP NOUN ADP VERB SCONJ AUX	14
+NOUN ADP ADP NOUN NOUN ADP NOUN ADP	21
+NOUN ADP ADP NOUN NOUN ADP VERB AUX	22
+NOUN ADP ADP NOUN NOUN ADP VERB SCONJ	16
+NOUN ADP ADP PUNCT NOUN ADP NOUN ADP	23
+NOUN ADP ADP VERB AUX AUX NOUN ADP	16
+NOUN ADP ADP VERB AUX AUX PUNCT EOF	21
+NOUN ADP ADP VERB AUX AUX SCONJ AUX	15
+NOUN ADP ADP VERB AUX SCONJ AUX PUNCT	18
+NOUN ADP NOUN ADP ADJ AUX NOUN ADP	26
+NOUN ADP NOUN ADP ADJ AUX VERB AUX	22
+NOUN ADP NOUN ADP ADJ NOUN ADP VERB	27
+NOUN ADP NOUN ADP ADP NOUN ADP VERB	24
+NOUN ADP NOUN ADP ADP VERB AUX AUX	24
+NOUN ADP NOUN ADP NOUN ADP ADJ AUX	30
+NOUN ADP NOUN ADP NOUN ADP ADP VERB	20
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP	162
+NOUN ADP NOUN ADP NOUN ADP NOUN AUX	15
+NOUN ADP NOUN ADP NOUN ADP NOUN NOUN	52
+NOUN ADP NOUN ADP NOUN ADP NOUN PUNCT	19
+NOUN ADP NOUN ADP NOUN ADP PUNCT NOUN	21
+NOUN ADP NOUN ADP NOUN ADP VERB AUX	234
+NOUN ADP NOUN ADP NOUN ADP VERB NOUN	45
+NOUN ADP NOUN ADP NOUN ADP VERB PUNCT	60
+NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	117
+NOUN ADP NOUN ADP NOUN AUX PUNCT EOF	18
+NOUN ADP NOUN ADP NOUN NOUN ADP ADJ	13
+NOUN ADP NOUN ADP NOUN NOUN ADP ADP	16
+NOUN ADP NOUN ADP NOUN NOUN ADP NOUN	59
+NOUN ADP NOUN ADP NOUN NOUN ADP VERB	100
+NOUN ADP NOUN ADP NOUN NOUN NOUN ADP	34
+NOUN ADP NOUN ADP NOUN PUNCT NOUN ADP	17
+NOUN ADP NOUN ADP NUM NOUN ADP NOUN	16
+NOUN ADP NOUN ADP NUM NOUN ADP VERB	20
+NOUN ADP NOUN ADP NUM NOUN NOUN ADP	16
+NOUN ADP NOUN ADP PART NOUN ADP VERB	13
+NOUN ADP NOUN ADP PROPN ADP NOUN ADP	20
+NOUN ADP NOUN ADP PROPN ADP VERB AUX	14
+NOUN ADP NOUN ADP PUNCT NOUN ADP NOUN	34
+NOUN ADP NOUN ADP PUNCT NOUN NOUN ADP	26
+NOUN ADP NOUN ADP VERB AUX AUX AUX	82
+NOUN ADP NOUN ADP VERB AUX AUX NOUN	81
+NOUN ADP NOUN ADP VERB AUX AUX PUNCT	144
+NOUN ADP NOUN ADP VERB AUX AUX SCONJ	87
+NOUN ADP NOUN ADP VERB AUX NOUN ADP	161
+NOUN ADP NOUN ADP VERB AUX NOUN AUX	16
+NOUN ADP NOUN ADP VERB AUX NOUN NOUN	38
+NOUN ADP NOUN ADP VERB AUX NOUN PUNCT	24
+NOUN ADP NOUN ADP VERB AUX PART ADP	14
+NOUN ADP NOUN ADP VERB AUX PUNCT EOF	180
+NOUN ADP NOUN ADP VERB AUX PUNCT NOUN	40
+NOUN ADP NOUN ADP VERB AUX SCONJ AUX	127
+NOUN ADP NOUN ADP VERB AUX SCONJ NOUN	20
+NOUN ADP NOUN ADP VERB AUX SCONJ PUNCT	42
+NOUN ADP NOUN ADP VERB AUX SCONJ VERB	23
+NOUN ADP NOUN ADP VERB NOUN ADP ADJ	13
+NOUN ADP NOUN ADP VERB NOUN ADP NOUN	34
+NOUN ADP NOUN ADP VERB NOUN ADP VERB	73
+NOUN ADP NOUN ADP VERB PUNCT NOUN ADP	55
+NOUN ADP NOUN ADP VERB PUNCT NOUN NOUN	20
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX	122
+NOUN ADP NOUN ADP VERB SCONJ AUX NOUN	31
+NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT	90
+NOUN ADP NOUN ADP VERB SCONJ AUX SCONJ	23
+NOUN ADP NOUN ADP VERB SCONJ NOUN ADP	43
+NOUN ADP NOUN ADP VERB SCONJ NOUN NOUN	14
+NOUN ADP NOUN ADP VERB SCONJ PUNCT NOUN	30
+NOUN ADP NOUN ADP VERB SCONJ VERB AUX	60
+NOUN ADP NOUN ADP VERB SCONJ VERB SCONJ	16
+NOUN ADP NOUN NOUN ADP ADJ AUX NOUN	17
+NOUN ADP NOUN NOUN ADP ADJ NOUN ADP	18
+NOUN ADP NOUN NOUN ADP ADP NOUN ADP	17
+NOUN ADP NOUN NOUN ADP ADP VERB AUX	17
+NOUN ADP NOUN NOUN ADP NOUN ADP ADJ	14
+NOUN ADP NOUN NOUN ADP NOUN ADP NOUN	69
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB	139
+NOUN ADP NOUN NOUN ADP NOUN NOUN ADP	70
+NOUN ADP NOUN NOUN ADP NOUN NOUN NOUN	14
+NOUN ADP NOUN NOUN ADP PART NOUN ADP	13
+NOUN ADP NOUN NOUN ADP PUNCT NOUN ADP	15
+NOUN ADP NOUN NOUN ADP VERB AUX AUX	113
+NOUN ADP NOUN NOUN ADP VERB AUX NOUN	57
+NOUN ADP NOUN NOUN ADP VERB AUX PUNCT	84
+NOUN ADP NOUN NOUN ADP VERB AUX SCONJ	72
+NOUN ADP NOUN NOUN ADP VERB NOUN ADP	37
+NOUN ADP NOUN NOUN ADP VERB PUNCT EOF	37
+NOUN ADP NOUN NOUN ADP VERB PUNCT NOUN	28
+NOUN ADP NOUN NOUN ADP VERB SCONJ AUX	50
+NOUN ADP NOUN NOUN ADP VERB SCONJ PUNCT	20
+NOUN ADP NOUN NOUN ADP VERB SCONJ VERB	22
+NOUN ADP NOUN NOUN NOUN ADP NOUN ADP	33
+NOUN ADP NOUN NOUN NOUN ADP NOUN NOUN	22
+NOUN ADP NOUN NOUN NOUN ADP VERB AUX	55
+NOUN ADP NOUN NOUN NOUN ADP VERB PUNCT	14
+NOUN ADP NOUN NOUN NOUN ADP VERB SCONJ	18
+NOUN ADP NOUN NOUN NOUN NOUN ADP NOUN	14
+NOUN ADP NOUN NOUN NOUN NOUN ADP VERB	14
+NOUN ADP NOUN PUNCT NOUN ADP NOUN ADP	19
+NOUN ADP NOUN VERB AUX AUX PUNCT EOF	17
+NOUN ADP NUM NOUN ADP NOUN ADP VERB	44
+NOUN ADP NUM NOUN ADP NOUN NOUN ADP	14
+NOUN ADP NUM NOUN ADP VERB AUX AUX	25
+NOUN ADP NUM NOUN ADP VERB AUX NOUN	13
+NOUN ADP NUM NOUN ADP VERB AUX PUNCT	26
+NOUN ADP NUM NOUN ADP VERB SCONJ AUX	13
+NOUN ADP NUM NOUN NOUN ADP NOUN ADP	27
+NOUN ADP NUM NOUN NOUN ADP VERB AUX	18
+NOUN ADP PART NOUN ADP NOUN ADP VERB	15
+NOUN ADP PART NOUN ADP VERB AUX AUX	19
+NOUN ADP PROPN ADP NOUN ADP NOUN ADP	17
+NOUN ADP PROPN ADP NOUN ADP VERB AUX	35
+NOUN ADP PROPN ADP NOUN ADP VERB SCONJ	21
+NOUN ADP PROPN ADP NOUN NOUN ADP VERB	13
+NOUN ADP PROPN ADP VERB AUX AUX AUX	13
+NOUN ADP PROPN NOUN ADP NOUN ADP VERB	34
+NOUN ADP PROPN NOUN ADP NOUN NOUN ADP	17
+NOUN ADP PROPN NOUN ADP VERB AUX AUX	17
+NOUN ADP PROPN NOUN ADP VERB AUX PUNCT	14
+NOUN ADP PROPN NOUN NOUN ADP NOUN ADP	13
+NOUN ADP PROPN NOUN NOUN ADP VERB AUX	15
+NOUN ADP PUNCT NOUN ADP NOUN ADP NOUN	27
+NOUN ADP PUNCT NOUN ADP NOUN ADP VERB	42
+NOUN ADP PUNCT NOUN ADP NOUN NOUN ADP	30
+NOUN ADP PUNCT NOUN ADP VERB AUX AUX	14
+NOUN ADP PUNCT NOUN NOUN ADP NOUN ADP	29
+NOUN ADP PUNCT NOUN NOUN ADP VERB AUX	14
+NOUN ADP PUNCT NOUN NOUN NOUN ADP NOUN	14
+NOUN ADP PUNCT PROPN NOUN ADP NOUN ADP	14
+NOUN ADP VERB AUX ADP VERB PUNCT EOF	15
+NOUN ADP VERB AUX AUX AUX AUX PUNCT	19
+NOUN ADP VERB AUX AUX AUX NOUN ADP	38
+NOUN ADP VERB AUX AUX AUX NOUN AUX	14
+NOUN ADP VERB AUX AUX AUX NOUN NOUN	16
+NOUN ADP VERB AUX AUX AUX PUNCT EOF	162
+NOUN ADP VERB AUX AUX AUX SCONJ PUNCT	23
+NOUN ADP VERB AUX AUX NOUN ADP ADJ	18
+NOUN ADP VERB AUX AUX NOUN ADP NOUN	51
+NOUN ADP VERB AUX AUX NOUN ADP PUNCT	28
+NOUN ADP VERB AUX AUX NOUN ADP VERB	92
+NOUN ADP VERB AUX AUX NOUN NOUN ADP	32
+NOUN ADP VERB AUX AUX PUNCT NOUN ADP	22
+NOUN ADP VERB AUX AUX PUNCT NOUN NOUN	13
+NOUN ADP VERB AUX AUX SCONJ AUX AUX	56
+NOUN ADP VERB AUX AUX SCONJ AUX NOUN	16
+NOUN ADP VERB AUX AUX SCONJ AUX PUNCT	75
+NOUN ADP VERB AUX AUX SCONJ PUNCT NOUN	24
+NOUN ADP VERB AUX AUX SCONJ VERB AUX	20
+NOUN ADP VERB AUX NOUN ADP ADJ AUX	18
+NOUN ADP VERB AUX NOUN ADP ADJ PUNCT	13
+NOUN ADP VERB AUX NOUN ADP NOUN ADP	101
+NOUN ADP VERB AUX NOUN ADP NOUN NOUN	26
+NOUN ADP VERB AUX NOUN ADP NUM NOUN	14
+NOUN ADP VERB AUX NOUN ADP PUNCT NOUN	27
+NOUN ADP VERB AUX NOUN ADP VERB AUX	102
+NOUN ADP VERB AUX NOUN ADP VERB NOUN	16
+NOUN ADP VERB AUX NOUN ADP VERB PUNCT	49
+NOUN ADP VERB AUX NOUN ADP VERB SCONJ	41
+NOUN ADP VERB AUX NOUN AUX PUNCT EOF	22
+NOUN ADP VERB AUX NOUN NOUN ADP NOUN	24
+NOUN ADP VERB AUX NOUN NOUN ADP VERB	27
+NOUN ADP VERB AUX NOUN PUNCT NOUN ADP	17
+NOUN ADP VERB AUX PUNCT ADJ NOUN ADP	15
+NOUN ADP VERB AUX PUNCT NOUN ADP NOUN	39
+NOUN ADP VERB AUX PUNCT NOUN ADP VERB	28
+NOUN ADP VERB AUX PUNCT NOUN NOUN ADP	44
+NOUN ADP VERB AUX PUNCT NUM NOUN ADP	18
+NOUN ADP VERB AUX PUNCT PROPN NOUN ADP	15
+NOUN ADP VERB AUX SCONJ AUX AUX NOUN	32
+NOUN ADP VERB AUX SCONJ AUX AUX PUNCT	83
+NOUN ADP VERB AUX SCONJ AUX AUX SCONJ	27
+NOUN ADP VERB AUX SCONJ AUX NOUN ADP	41
+NOUN ADP VERB AUX SCONJ AUX PUNCT EOF	149
+NOUN ADP VERB AUX SCONJ AUX SCONJ PUNCT	18
+NOUN ADP VERB AUX SCONJ NOUN ADP VERB	34
+NOUN ADP VERB AUX SCONJ NOUN NOUN ADP	14
+NOUN ADP VERB AUX SCONJ PUNCT NOUN ADP	41
+NOUN ADP VERB AUX SCONJ PUNCT NOUN NOUN	29
+NOUN ADP VERB AUX SCONJ VERB AUX AUX	16
+NOUN ADP VERB AUX SCONJ VERB AUX SCONJ	20
+NOUN ADP VERB AUX SCONJ VERB SCONJ AUX	15
+NOUN ADP VERB NOUN ADP ADJ PUNCT EOF	15
+NOUN ADP VERB NOUN ADP NOUN ADP NOUN	25
+NOUN ADP VERB NOUN ADP NOUN ADP VERB	37
+NOUN ADP VERB NOUN ADP PUNCT NOUN ADP	14
+NOUN ADP VERB NOUN ADP VERB AUX AUX	40
+NOUN ADP VERB NOUN ADP VERB AUX PUNCT	52
+NOUN ADP VERB NOUN ADP VERB AUX SCONJ	14
+NOUN ADP VERB NOUN ADP VERB PUNCT EOF	43
+NOUN ADP VERB NOUN ADP VERB SCONJ AUX	14
+NOUN ADP VERB NOUN NOUN ADP NOUN ADP	18
+NOUN ADP VERB NOUN NOUN ADP VERB AUX	13
+NOUN ADP VERB PUNCT NOUN ADP NOUN ADP	47
+NOUN ADP VERB PUNCT NOUN ADP VERB AUX	31
+NOUN ADP VERB PUNCT NOUN NOUN ADP NOUN	19
+NOUN ADP VERB PUNCT NOUN NOUN ADP VERB	18
+NOUN ADP VERB PUNCT NOUN NOUN NOUN ADP	15
+NOUN ADP VERB SCONJ AUX AUX AUX PUNCT	50
+NOUN ADP VERB SCONJ AUX AUX NOUN ADP	37
+NOUN ADP VERB SCONJ AUX AUX PUNCT EOF	130
+NOUN ADP VERB SCONJ AUX AUX SCONJ PUNCT	36
+NOUN ADP VERB SCONJ AUX NOUN ADP VERB	38
+NOUN ADP VERB SCONJ AUX PUNCT NOUN ADP	18
+NOUN ADP VERB SCONJ AUX SCONJ PUNCT NOUN	23
+NOUN ADP VERB SCONJ NOUN ADP NOUN ADP	32
+NOUN ADP VERB SCONJ NOUN ADP VERB AUX	41
+NOUN ADP VERB SCONJ NOUN ADP VERB PUNCT	15
+NOUN ADP VERB SCONJ NOUN NOUN ADP NOUN	19
+NOUN ADP VERB SCONJ NOUN NOUN ADP VERB	25
+NOUN ADP VERB SCONJ PUNCT NOUN ADP NOUN	35
+NOUN ADP VERB SCONJ PUNCT NOUN ADP VERB	19
+NOUN ADP VERB SCONJ PUNCT NOUN NOUN ADP	26
+NOUN ADP VERB SCONJ PUNCT., NOUN ADP NOUN	13
+NOUN ADP VERB SCONJ VERB AUX AUX AUX	18
+NOUN ADP VERB SCONJ VERB AUX AUX NOUN	21
+NOUN ADP VERB SCONJ VERB AUX AUX PUNCT	35
+NOUN ADP VERB SCONJ VERB AUX NOUN ADP	16
+NOUN ADP VERB SCONJ VERB AUX PUNCT EOF	23
+NOUN ADP VERB SCONJ VERB AUX SCONJ AUX	31
+NOUN ADP VERB SCONJ VERB SCONJ AUX AUX	14
+NOUN NOUN ADP ADJ AUX NOUN ADP VERB	29
+NOUN NOUN ADP ADJ NOUN ADP NOUN ADP	14
+NOUN NOUN ADP ADJ NOUN ADP VERB AUX	22
+NOUN NOUN ADP ADP NOUN ADP NOUN ADP	15
+NOUN NOUN ADP ADP NOUN ADP VERB AUX	17
+NOUN NOUN ADP ADP NOUN NOUN ADP VERB	13
+NOUN NOUN ADP ADP PUNCT NOUN NOUN ADP	13
+NOUN NOUN ADP NOUN ADP ADJ NOUN ADP	14
+NOUN NOUN ADP NOUN ADP ADP NOUN ADP	16
+NOUN NOUN ADP NOUN ADP NOUN ADP ADP	16
+NOUN NOUN ADP NOUN ADP NOUN ADP NOUN	55
+NOUN NOUN ADP NOUN ADP NOUN ADP VERB	121
+NOUN NOUN ADP NOUN ADP NOUN NOUN ADP	59
+NOUN NOUN ADP NOUN ADP NOUN NOUN NOUN	15
+NOUN NOUN ADP NOUN ADP NUM NOUN ADP	14
+NOUN NOUN ADP NOUN ADP PUNCT NOUN ADP	15
+NOUN NOUN ADP NOUN ADP VERB AUX ADP	15
+NOUN NOUN ADP NOUN ADP VERB AUX AUX	113
+NOUN NOUN ADP NOUN ADP VERB AUX NOUN	62
+NOUN NOUN ADP NOUN ADP VERB AUX PUNCT	74
+NOUN NOUN ADP NOUN ADP VERB AUX SCONJ	61
+NOUN NOUN ADP NOUN ADP VERB NOUN ADP	32
+NOUN NOUN ADP NOUN ADP VERB PUNCT EOF	48
+NOUN NOUN ADP NOUN ADP VERB PUNCT NOUN	20
+NOUN NOUN ADP NOUN ADP VERB SCONJ AUX	75
+NOUN NOUN ADP NOUN ADP VERB SCONJ NOUN	18
+NOUN NOUN ADP NOUN ADP VERB SCONJ PUNCT	15
+NOUN NOUN ADP NOUN ADP VERB SCONJ VERB	27
+NOUN NOUN ADP NOUN NOUN ADP NOUN ADP	77
+NOUN NOUN ADP NOUN NOUN ADP NOUN NOUN	29
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX	113
+NOUN NOUN ADP NOUN NOUN ADP VERB PUNCT	18
+NOUN NOUN ADP NOUN NOUN ADP VERB SCONJ	34
+NOUN NOUN ADP NOUN NOUN NOUN ADP NOUN	20
+NOUN NOUN ADP NOUN NOUN NOUN ADP VERB	33
+NOUN NOUN ADP NUM NOUN ADP NOUN ADP	19
+NOUN NOUN ADP NUM NOUN ADP VERB AUX	18
+NOUN NOUN ADP NUM NOUN NOUN ADP NOUN	15
+NOUN NOUN ADP PART NOUN ADP VERB AUX	16
+NOUN NOUN ADP PROPN NOUN ADP NOUN ADP	22
+NOUN NOUN ADP PROPN NOUN ADP VERB AUX	16
+NOUN NOUN ADP PUNCT NOUN ADP NOUN ADP	19
+NOUN NOUN ADP PUNCT NOUN NOUN ADP NOUN	22
+NOUN NOUN ADP VERB AUX AUX AUX NOUN	17
+NOUN NOUN ADP VERB AUX AUX AUX PUNCT	42
+NOUN NOUN ADP VERB AUX AUX NOUN ADP	65
+NOUN NOUN ADP VERB AUX AUX NOUN PUNCT	17
+NOUN NOUN ADP VERB AUX AUX PUNCT EOF	121
+NOUN NOUN ADP VERB AUX AUX PUNCT NOUN	16
+NOUN NOUN ADP VERB AUX AUX SCONJ AUX	43
+NOUN NOUN ADP VERB AUX NOUN ADP ADJ	13
+NOUN NOUN ADP VERB AUX NOUN ADP NOUN	30
+NOUN NOUN ADP VERB AUX NOUN ADP VERB	66
+NOUN NOUN ADP VERB AUX NOUN NOUN ADP	22
+NOUN NOUN ADP VERB AUX PUNCT NOUN ADP	29
+NOUN NOUN ADP VERB AUX PUNCT NOUN NOUN	19
+NOUN NOUN ADP VERB AUX SCONJ AUX AUX	48
+NOUN NOUN ADP VERB AUX SCONJ AUX NOUN	14
+NOUN NOUN ADP VERB AUX SCONJ AUX PUNCT	38
+NOUN NOUN ADP VERB AUX SCONJ AUX SCONJ	14
+NOUN NOUN ADP VERB AUX SCONJ NOUN ADP	17
+NOUN NOUN ADP VERB AUX SCONJ PUNCT NOUN	22
+NOUN NOUN ADP VERB AUX SCONJ VERB AUX	17
+NOUN NOUN ADP VERB NOUN ADP NOUN ADP	16
+NOUN NOUN ADP VERB NOUN ADP VERB AUX	21
+NOUN NOUN ADP VERB NOUN ADP VERB PUNCT	14
+NOUN NOUN ADP VERB NOUN NOUN ADP VERB	14
+NOUN NOUN ADP VERB PUNCT NOUN ADP NOUN	18
+NOUN NOUN ADP VERB PUNCT NOUN NOUN ADP	13
+NOUN NOUN ADP VERB SCONJ AUX AUX AUX	13
+NOUN NOUN ADP VERB SCONJ AUX AUX PUNCT	25
+NOUN NOUN ADP VERB SCONJ AUX NOUN ADP	13
+NOUN NOUN ADP VERB SCONJ AUX PUNCT EOF	42
+NOUN NOUN ADP VERB SCONJ NOUN ADP VERB	14
+NOUN NOUN ADP VERB SCONJ NOUN NOUN ADP	19
+NOUN NOUN ADP VERB SCONJ PUNCT NOUN ADP	21
+NOUN NOUN ADP VERB SCONJ VERB AUX AUX	24
+NOUN NOUN NOUN ADP NOUN ADP NOUN ADP	42
+NOUN NOUN NOUN ADP NOUN ADP NOUN NOUN	16
+NOUN NOUN NOUN ADP NOUN ADP VERB AUX	56
+NOUN NOUN NOUN ADP NOUN ADP VERB PUNCT	14
+NOUN NOUN NOUN ADP NOUN ADP VERB SCONJ	26
+NOUN NOUN NOUN ADP NOUN NOUN ADP NOUN	30
+NOUN NOUN NOUN ADP NOUN NOUN ADP VERB	43
+NOUN NOUN NOUN ADP VERB AUX AUX AUX	19
+NOUN NOUN NOUN ADP VERB AUX AUX NOUN	18
+NOUN NOUN NOUN ADP VERB AUX AUX PUNCT	39
+NOUN NOUN NOUN ADP VERB AUX NOUN ADP	25
+NOUN NOUN NOUN ADP VERB AUX PUNCT EOF	28
+NOUN NOUN NOUN ADP VERB AUX SCONJ AUX	21
+NOUN NOUN NOUN ADP VERB SCONJ PUNCT NOUN	13
+NOUN NOUN NOUN NOUN ADP NOUN ADP VERB	15
+NOUN NOUN NOUN NOUN ADP NOUN NOUN ADP	15
+NOUN NOUN NOUN NOUN ADP VERB AUX AUX	25
+NOUN NOUN NUM NOUN ADP VERB AUX AUX	19
+NOUN NOUN PUNCT ADP NOUN ADP VERB AUX	13
+NOUN NUM NOUN ADP NOUN ADP VERB AUX	16
+NOUN NUM NOUN ADP VERB AUX AUX AUX	14
+NOUN PUNCT NOUN ADP NOUN ADP NOUN ADP	16
+NOUN PUNCT NOUN ADP NOUN ADP VERB AUX	17
+NOUN PUNCT NOUN NOUN ADP NOUN ADP NOUN	16
+NOUN PUNCT NOUN NOUN ADP NOUN ADP VERB	14
+NOUN PUNCT NOUN PUNCT NOUN PUNCT NOUN PUNCT	15
+NUM NOUN ADP NOUN ADP NOUN ADP NOUN	13
+NUM NOUN ADP NOUN ADP NOUN ADP VERB	27
+NUM NOUN ADP NOUN ADP NOUN NOUN ADP	13
+NUM NOUN ADP NOUN ADP VERB AUX AUX	42
+NUM NOUN ADP NOUN ADP VERB AUX PUNCT	22
+NUM NOUN ADP NOUN ADP VERB AUX SCONJ	19
+NUM NOUN ADP NOUN ADP VERB PUNCT EOF	17
+NUM NOUN ADP NOUN ADP VERB SCONJ AUX	14
+NUM NOUN ADP NOUN NOUN ADP NOUN ADP	21
+NUM NOUN ADP NOUN NOUN ADP VERB AUX	31
+NUM NOUN ADP NUM NOUN ADP NOUN ADP	13
+NUM NOUN ADP NUM NOUN ADP VERB AUX	15
+NUM NOUN ADP VERB AUX AUX AUX PUNCT	13
+NUM NOUN ADP VERB AUX AUX PUNCT EOF	33
+NUM NOUN NOUN ADP NOUN ADP NOUN ADP	24
+NUM NOUN NOUN ADP NOUN ADP VERB AUX	37
+NUM NOUN NOUN ADP NOUN ADP VERB SCONJ	13
+NUM NOUN NOUN ADP NOUN NOUN ADP VERB	18
+NUM NOUN NOUN ADP VERB AUX AUX PUNCT	14
+NUM NOUN NOUN ADP VERB AUX PUNCT EOF	14
+NUM NOUN NOUN NUM NOUN ADP VERB AUX	18
+PART NOUN ADP VERB AUX AUX PUNCT EOF	14
+PROPN ADP NOUN ADP NOUN ADP NOUN ADP	19
+PROPN ADP NOUN ADP NOUN ADP VERB AUX	37
+PROPN ADP NOUN ADP NOUN ADP VERB SCONJ	17
+PROPN ADP NOUN ADP NOUN NOUN ADP VERB	22
+PROPN ADP NOUN ADP VERB AUX AUX NOUN	18
+PROPN ADP NOUN ADP VERB AUX AUX PUNCT	18
+PROPN ADP NOUN ADP VERB AUX NOUN ADP	18
+PROPN ADP NOUN ADP VERB AUX PUNCT EOF	21
+PROPN ADP NOUN ADP VERB AUX SCONJ AUX	16
+PROPN ADP NOUN ADP VERB SCONJ AUX PUNCT	16
+PROPN ADP NOUN NOUN ADP NOUN ADP VERB	28
+PROPN ADP NOUN NOUN ADP VERB AUX AUX	18
+PROPN ADP NOUN NOUN ADP VERB AUX SCONJ	13
+PROPN ADP PROPN ADP NOUN ADP VERB AUX	13
+PROPN ADP VERB AUX AUX AUX PUNCT EOF	24
+PROPN NOUN ADP NOUN ADP NOUN ADP VERB	28
+PROPN NOUN ADP NOUN ADP VERB AUX AUX	29
+PROPN NOUN ADP NOUN ADP VERB AUX PUNCT	22
+PROPN NOUN ADP NOUN ADP VERB AUX SCONJ	14
+PROPN NOUN ADP NOUN ADP VERB SCONJ AUX	17
+PROPN NOUN ADP NOUN NOUN ADP NOUN ADP	17
+PROPN NOUN ADP NOUN NOUN ADP VERB AUX	21
+PROPN NOUN ADP VERB AUX AUX AUX PUNCT	14
+PROPN NOUN ADP VERB AUX AUX PUNCT EOF	25
+PROPN NOUN NOUN ADP NOUN ADP VERB AUX	16
+PROPN SYM PROPN SYM PROPN SYM PROPN SYM	14
+PUNCT ADJ NOUN ADP NOUN ADP VERB AUX	14
+PUNCT ADP VERB AUX SCONJ AUX PUNCT EOF	17
+PUNCT NOUN ADP ADP NOUN ADP NOUN ADP	15
+PUNCT NOUN ADP NOUN ADP NOUN ADP NOUN	34
+PUNCT NOUN ADP NOUN ADP NOUN ADP VERB	60
+PUNCT NOUN ADP NOUN ADP NOUN NOUN ADP	20
+PUNCT NOUN ADP NOUN ADP VERB AUX AUX	43
+PUNCT NOUN ADP NOUN ADP VERB AUX NOUN	27
+PUNCT NOUN ADP NOUN ADP VERB AUX PUNCT	19
+PUNCT NOUN ADP NOUN ADP VERB AUX SCONJ	20
+PUNCT NOUN ADP NOUN ADP VERB NOUN ADP	16
+PUNCT NOUN ADP NOUN ADP VERB SCONJ AUX	22
+PUNCT NOUN ADP NOUN NOUN ADP NOUN ADP	27
+PUNCT NOUN ADP NOUN NOUN ADP VERB AUX	34
+PUNCT NOUN ADP VERB AUX AUX NOUN ADP	15
+PUNCT NOUN ADP VERB AUX AUX PUNCT EOF	16
+PUNCT NOUN ADP VERB AUX NOUN ADP NOUN	15
+PUNCT NOUN ADP VERB AUX NOUN ADP VERB	15
+PUNCT NOUN NOUN ADP NOUN ADP NOUN ADP	26
+PUNCT NOUN NOUN ADP NOUN ADP NOUN NOUN	15
+PUNCT NOUN NOUN ADP NOUN ADP VERB AUX	40
+PUNCT NOUN NOUN ADP NOUN ADP VERB SCONJ	16
+PUNCT NOUN NOUN ADP NOUN NOUN ADP NOUN	18
+PUNCT NOUN NOUN ADP NOUN NOUN ADP VERB	15
+PUNCT NOUN NOUN ADP VERB AUX NOUN ADP	19
+PUNCT NOUN NOUN NOUN ADP NOUN ADP NOUN	15
+PUNCT NOUN NOUN NOUN ADP NOUN ADP VERB	24
+PUNCT NOUN PUNCT NOUN PUNCT NOUN PUNCT NOUN	14
+PUNCT PROPN NOUN ADP NOUN ADP VERB AUX	14
+SCONJ AUX AUX SCONJ PUNCT NOUN ADP NOUN	13
+SCONJ AUX SCONJ PUNCT NOUN ADP NOUN ADP	13
+SCONJ PUNCT NOUN ADP NOUN ADP NOUN ADP	21
+SCONJ PUNCT NOUN ADP NOUN ADP VERB AUX	30
+SCONJ PUNCT NOUN NOUN ADP NOUN ADP VERB	15
+SCONJ VERB AUX SCONJ AUX AUX PUNCT EOF	17
+SYM PROPN SYM PROPN SYM PROPN SYM PROPN	13
+VERB AUX AUX AUX NOUN ADP NOUN ADP	16
+VERB AUX AUX AUX NOUN AUX PUNCT EOF	14
+VERB AUX AUX NOUN ADP NOUN ADP NOUN	15
+VERB AUX AUX NOUN ADP NOUN ADP VERB	27
+VERB AUX AUX NOUN ADP NOUN NOUN ADP	17
+VERB AUX AUX NOUN ADP VERB AUX AUX	19
+VERB AUX AUX NOUN ADP VERB AUX PUNCT	29
+VERB AUX AUX NOUN ADP VERB AUX SCONJ	14
+VERB AUX AUX NOUN ADP VERB PUNCT EOF	26
+VERB AUX AUX NOUN NOUN ADP NOUN ADP	13
+VERB AUX AUX SCONJ AUX AUX PUNCT EOF	51
+VERB AUX NOUN ADP NOUN ADP NOUN ADP	30
+VERB AUX NOUN ADP NOUN ADP VERB AUX	27
+VERB AUX NOUN ADP NOUN ADP VERB SCONJ	24
+VERB AUX NOUN ADP NOUN NOUN ADP VERB	18
+VERB AUX NOUN ADP VERB AUX AUX PUNCT	23
+VERB AUX NOUN ADP VERB AUX PUNCT EOF	46
+VERB AUX NOUN ADP VERB AUX SCONJ AUX	16
+VERB AUX NOUN ADP VERB SCONJ AUX AUX	19
+VERB AUX NOUN ADP VERB SCONJ AUX PUNCT	13
+VERB AUX NOUN NOUN ADP VERB AUX AUX	16
+VERB AUX PUNCT NOUN ADP NOUN ADP NOUN	16
+VERB AUX PUNCT NOUN ADP NOUN ADP VERB	21
+VERB AUX PUNCT NOUN NOUN ADP NOUN ADP	16
+VERB AUX SCONJ AUX AUX AUX PUNCT EOF	31
+VERB AUX SCONJ PUNCT NOUN ADP NOUN ADP	19
+VERB NOUN ADP VERB AUX AUX PUNCT EOF	30
+VERB PUNCT NOUN ADP NOUN ADP NOUN ADP	13
+VERB PUNCT NOUN ADP NOUN ADP VERB AUX	17
+VERB SCONJ AUX AUX SCONJ PUNCT NOUN ADP	13
+VERB SCONJ AUX NOUN ADP NOUN ADP VERB	14
+VERB SCONJ NOUN ADP NOUN ADP VERB AUX	14
+
+[NGRAMS:9]
+271
+ADP NOUN ADP NOUN ADP NOUN ADP NOUN ADP	37
+ADP NOUN ADP NOUN ADP NOUN ADP VERB AUX	51
+ADP NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	31
+ADP NOUN ADP NOUN ADP NOUN NOUN ADP VERB	29
+ADP NOUN ADP NOUN ADP VERB AUX AUX AUX	21
+ADP NOUN ADP NOUN ADP VERB AUX AUX NOUN	20
+ADP NOUN ADP NOUN ADP VERB AUX AUX PUNCT	28
+ADP NOUN ADP NOUN ADP VERB AUX AUX SCONJ	23
+ADP NOUN ADP NOUN ADP VERB AUX NOUN ADP	42
+ADP NOUN ADP NOUN ADP VERB AUX PUNCT EOF	61
+ADP NOUN ADP NOUN ADP VERB AUX SCONJ AUX	33
+ADP NOUN ADP NOUN ADP VERB NOUN ADP VERB	21
+ADP NOUN ADP NOUN ADP VERB PUNCT NOUN ADP	15
+ADP NOUN ADP NOUN ADP VERB SCONJ AUX AUX	27
+ADP NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT	29
+ADP NOUN ADP NOUN ADP VERB SCONJ VERB AUX	16
+ADP NOUN ADP NOUN NOUN ADP NOUN ADP VERB	32
+ADP NOUN ADP NOUN NOUN ADP VERB AUX AUX	21
+ADP NOUN ADP NOUN NOUN ADP VERB AUX PUNCT	15
+ADP NOUN ADP NOUN NOUN ADP VERB AUX SCONJ	17
+ADP NOUN ADP NOUN NOUN ADP VERB NOUN ADP	15
+ADP NOUN ADP VERB AUX AUX AUX NOUN ADP	17
+ADP NOUN ADP VERB AUX AUX AUX PUNCT EOF	44
+ADP NOUN ADP VERB AUX AUX NOUN ADP NOUN	16
+ADP NOUN ADP VERB AUX AUX NOUN ADP VERB	29
+ADP NOUN ADP VERB AUX AUX SCONJ AUX AUX	19
+ADP NOUN ADP VERB AUX AUX SCONJ AUX PUNCT	24
+ADP NOUN ADP VERB AUX NOUN ADP NOUN ADP	33
+ADP NOUN ADP VERB AUX NOUN ADP VERB AUX	38
+ADP NOUN ADP VERB AUX NOUN ADP VERB PUNCT	17
+ADP NOUN ADP VERB AUX SCONJ AUX AUX PUNCT	30
+ADP NOUN ADP VERB AUX SCONJ AUX PUNCT EOF	55
+ADP NOUN ADP VERB AUX SCONJ PUNCT NOUN ADP	16
+ADP NOUN ADP VERB AUX SCONJ PUNCT NOUN NOUN	15
+ADP NOUN ADP VERB NOUN ADP NOUN ADP VERB	17
+ADP NOUN ADP VERB NOUN ADP VERB AUX PUNCT	23
+ADP NOUN ADP VERB NOUN ADP VERB PUNCT EOF	16
+ADP NOUN ADP VERB PUNCT NOUN ADP NOUN ADP	25
+ADP NOUN ADP VERB PUNCT NOUN ADP VERB AUX	17
+ADP NOUN ADP VERB SCONJ AUX AUX AUX PUNCT	24
+ADP NOUN ADP VERB SCONJ AUX AUX NOUN ADP	17
+ADP NOUN ADP VERB SCONJ AUX AUX PUNCT EOF	51
+ADP NOUN ADP VERB SCONJ AUX NOUN ADP VERB	17
+ADP NOUN ADP VERB SCONJ NOUN ADP VERB AUX	18
+ADP NOUN ADP VERB SCONJ VERB AUX AUX PUNCT	15
+ADP NOUN ADP VERB SCONJ VERB AUX SCONJ AUX	16
+ADP NOUN NOUN ADP NOUN ADP NOUN ADP VERB	39
+ADP NOUN NOUN ADP NOUN ADP VERB AUX AUX	26
+ADP NOUN NOUN ADP NOUN ADP VERB AUX NOUN	17
+ADP NOUN NOUN ADP NOUN ADP VERB AUX PUNCT	26
+ADP NOUN NOUN ADP NOUN ADP VERB AUX SCONJ	17
+ADP NOUN NOUN ADP NOUN ADP VERB PUNCT EOF	18
+ADP NOUN NOUN ADP NOUN ADP VERB SCONJ AUX	31
+ADP NOUN NOUN ADP NOUN NOUN ADP NOUN ADP	20
+ADP NOUN NOUN ADP NOUN NOUN ADP VERB AUX	23
+ADP NOUN NOUN ADP VERB AUX AUX NOUN ADP	24
+ADP NOUN NOUN ADP VERB AUX AUX PUNCT EOF	45
+ADP NOUN NOUN ADP VERB AUX AUX SCONJ AUX	16
+ADP NOUN NOUN ADP VERB AUX NOUN ADP VERB	24
+ADP NOUN NOUN ADP VERB AUX PUNCT NOUN ADP	18
+ADP NOUN NOUN ADP VERB AUX SCONJ AUX AUX	21
+ADP NOUN NOUN ADP VERB AUX SCONJ AUX PUNCT	15
+ADP NOUN NOUN ADP VERB SCONJ AUX PUNCT EOF	20
+ADP NUM NOUN ADP NOUN ADP VERB AUX SCONJ	15
+ADP PUNCT NOUN ADP NOUN NOUN ADP VERB AUX	17
+ADP VERB AUX AUX NOUN ADP NOUN ADP VERB	23
+ADP VERB AUX AUX NOUN ADP VERB AUX AUX	15
+ADP VERB AUX AUX NOUN ADP VERB AUX PUNCT	21
+ADP VERB AUX AUX NOUN ADP VERB PUNCT EOF	20
+ADP VERB AUX AUX SCONJ AUX AUX PUNCT EOF	40
+ADP VERB AUX NOUN ADP NOUN ADP NOUN ADP	25
+ADP VERB AUX NOUN ADP NOUN ADP VERB AUX	22
+ADP VERB AUX NOUN ADP NOUN ADP VERB SCONJ	15
+ADP VERB AUX NOUN ADP VERB AUX AUX PUNCT	18
+ADP VERB AUX NOUN ADP VERB AUX PUNCT EOF	31
+ADP VERB AUX NOUN ADP VERB SCONJ AUX AUX	17
+ADP VERB AUX PUNCT NOUN ADP NOUN ADP VERB	18
+ADP VERB AUX SCONJ AUX AUX AUX PUNCT EOF	16
+ADP VERB AUX SCONJ PUNCT NOUN ADP NOUN ADP	17
+ADP VERB NOUN ADP VERB AUX AUX PUNCT EOF	28
+ADP VERB PUNCT NOUN ADP NOUN ADP VERB AUX	16
+AUX AUX NOUN ADP NOUN ADP NOUN ADP VERB	15
+AUX AUX NOUN ADP VERB AUX AUX PUNCT EOF	16
+AUX AUX SCONJ PUNCT NOUN ADP NOUN ADP VERB	16
+AUX NOUN ADP NOUN ADP NOUN ADP VERB AUX	17
+AUX NOUN ADP NOUN ADP VERB AUX NOUN ADP	16
+AUX NOUN ADP VERB AUX AUX AUX PUNCT EOF	18
+AUX NOUN ADP VERB AUX SCONJ AUX PUNCT EOF	21
+AUX NOUN ADP VERB SCONJ AUX AUX PUNCT EOF	25
+AUX SCONJ PUNCT NOUN ADP NOUN ADP VERB AUX	24
+BOF NOUN ADP NOUN ADP NOUN ADP NOUN ADP	25
+BOF NOUN ADP NOUN ADP NOUN ADP VERB AUX	15
+BOF NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	15
+NOUN ADP ADJ AUX NOUN ADP VERB AUX AUX	17
+NOUN ADP ADJ AUX NOUN ADP VERB SCONJ AUX	15
+NOUN ADP ADJ NOUN ADP VERB AUX PUNCT EOF	25
+NOUN ADP ADP NOUN ADP NOUN ADP VERB AUX	23
+NOUN ADP ADP NOUN NOUN ADP NOUN ADP VERB	17
+NOUN ADP ADP VERB AUX SCONJ AUX PUNCT EOF	16
+NOUN ADP NOUN ADP NOUN ADP ADP VERB AUX	16
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP ADJ	15
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP NOUN	39
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP VERB	88
+NOUN ADP NOUN ADP NOUN ADP NOUN NOUN ADP	39
+NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX	78
+NOUN ADP NOUN ADP NOUN ADP VERB AUX NOUN	41
+NOUN ADP NOUN ADP NOUN ADP VERB AUX PUNCT	56
+NOUN ADP NOUN ADP NOUN ADP VERB AUX SCONJ	44
+NOUN ADP NOUN ADP NOUN ADP VERB NOUN ADP	33
+NOUN ADP NOUN ADP NOUN ADP VERB PUNCT EOF	26
+NOUN ADP NOUN ADP NOUN ADP VERB PUNCT NOUN	17
+NOUN ADP NOUN ADP NOUN ADP VERB SCONJ AUX	54
+NOUN ADP NOUN ADP NOUN ADP VERB SCONJ VERB	18
+NOUN ADP NOUN ADP NOUN NOUN ADP NOUN ADP	39
+NOUN ADP NOUN ADP NOUN NOUN ADP NOUN NOUN	15
+NOUN ADP NOUN ADP NOUN NOUN ADP VERB AUX	47
+NOUN ADP NOUN ADP NOUN NOUN ADP VERB NOUN	15
+NOUN ADP NOUN ADP NOUN NOUN ADP VERB PUNCT	15
+NOUN ADP NOUN ADP NOUN NOUN ADP VERB SCONJ	18
+NOUN ADP NOUN ADP PUNCT NOUN ADP NOUN ADP	22
+NOUN ADP NOUN ADP VERB AUX AUX AUX NOUN	20
+NOUN ADP NOUN ADP VERB AUX AUX AUX PUNCT	33
+NOUN ADP NOUN ADP VERB AUX AUX NOUN ADP	55
+NOUN ADP NOUN ADP VERB AUX AUX PUNCT EOF	130
+NOUN ADP NOUN ADP VERB AUX AUX SCONJ AUX	39
+NOUN ADP NOUN ADP VERB AUX AUX SCONJ PUNCT	19
+NOUN ADP NOUN ADP VERB AUX AUX SCONJ VERB	15
+NOUN ADP NOUN ADP VERB AUX NOUN ADP NOUN	39
+NOUN ADP NOUN ADP VERB AUX NOUN ADP PUNCT	21
+NOUN ADP NOUN ADP VERB AUX NOUN ADP VERB	72
+NOUN ADP NOUN ADP VERB AUX NOUN NOUN ADP	24
+NOUN ADP NOUN ADP VERB AUX PUNCT NOUN ADP	23
+NOUN ADP NOUN ADP VERB AUX SCONJ AUX AUX	43
+NOUN ADP NOUN ADP VERB AUX SCONJ AUX PUNCT	53
+NOUN ADP NOUN ADP VERB AUX SCONJ PUNCT NOUN	28
+NOUN ADP NOUN ADP VERB AUX SCONJ VERB AUX	15
+NOUN ADP NOUN ADP VERB NOUN ADP NOUN ADP	25
+NOUN ADP NOUN ADP VERB NOUN ADP VERB AUX	43
+NOUN ADP NOUN ADP VERB NOUN ADP VERB PUNCT	15
+NOUN ADP NOUN ADP VERB PUNCT NOUN ADP NOUN	22
+NOUN ADP NOUN ADP VERB PUNCT NOUN ADP VERB	20
+NOUN ADP NOUN ADP VERB PUNCT NOUN NOUN ADP	15
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX AUX	23
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX NOUN	22
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX PUNCT	44
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX SCONJ	18
+NOUN ADP NOUN ADP VERB SCONJ AUX NOUN ADP	20
+NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT EOF	70
+NOUN ADP NOUN ADP VERB SCONJ NOUN ADP VERB	26
+NOUN ADP NOUN ADP VERB SCONJ PUNCT NOUN ADP	19
+NOUN ADP NOUN ADP VERB SCONJ VERB AUX AUX	22
+NOUN ADP NOUN NOUN ADP NOUN ADP NOUN ADP	45
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB AUX	68
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB PUNCT	17
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB SCONJ	35
+NOUN ADP NOUN NOUN ADP NOUN NOUN ADP NOUN	21
+NOUN ADP NOUN NOUN ADP NOUN NOUN ADP VERB	26
+NOUN ADP NOUN NOUN ADP VERB AUX AUX AUX	17
+NOUN ADP NOUN NOUN ADP VERB AUX AUX NOUN	30
+NOUN ADP NOUN NOUN ADP VERB AUX AUX PUNCT	45
+NOUN ADP NOUN NOUN ADP VERB AUX NOUN ADP	37
+NOUN ADP NOUN NOUN ADP VERB AUX PUNCT EOF	48
+NOUN ADP NOUN NOUN ADP VERB AUX PUNCT NOUN	24
+NOUN ADP NOUN NOUN ADP VERB AUX SCONJ AUX	46
+NOUN ADP NOUN NOUN ADP VERB NOUN ADP VERB	15
+NOUN ADP NOUN NOUN ADP VERB SCONJ AUX AUX	17
+NOUN ADP NOUN NOUN ADP VERB SCONJ AUX PUNCT	19
+NOUN ADP NOUN NOUN ADP VERB SCONJ VERB AUX	16
+NOUN ADP NOUN NOUN NOUN ADP NOUN ADP VERB	19
+NOUN ADP NOUN NOUN NOUN ADP VERB AUX AUX	25
+NOUN ADP NUM NOUN ADP NOUN ADP VERB AUX	26
+NOUN ADP NUM NOUN ADP VERB AUX PUNCT EOF	18
+NOUN ADP NUM NOUN NOUN ADP NOUN ADP VERB	17
+NOUN ADP PUNCT NOUN ADP NOUN ADP NOUN ADP	22
+NOUN ADP PUNCT NOUN ADP NOUN ADP VERB AUX	18
+NOUN ADP VERB AUX AUX AUX AUX PUNCT EOF	18
+NOUN ADP VERB AUX AUX NOUN ADP NOUN ADP	34
+NOUN ADP VERB AUX AUX NOUN ADP VERB AUX	40
+NOUN ADP VERB AUX AUX NOUN ADP VERB PUNCT	21
+NOUN ADP VERB AUX AUX NOUN ADP VERB SCONJ	19
+NOUN ADP VERB AUX AUX SCONJ AUX AUX PUNCT	29
+NOUN ADP VERB AUX AUX SCONJ AUX PUNCT EOF	62
+NOUN ADP VERB AUX AUX SCONJ PUNCT NOUN ADP	16
+NOUN ADP VERB AUX NOUN ADP NOUN ADP NOUN	29
+NOUN ADP VERB AUX NOUN ADP NOUN ADP VERB	43
+NOUN ADP VERB AUX NOUN ADP NOUN NOUN ADP	16
+NOUN ADP VERB AUX NOUN ADP PUNCT NOUN ADP	19
+NOUN ADP VERB AUX NOUN ADP VERB AUX AUX	28
+NOUN ADP VERB AUX NOUN ADP VERB AUX PUNCT	36
+NOUN ADP VERB AUX NOUN ADP VERB AUX SCONJ	25
+NOUN ADP VERB AUX NOUN ADP VERB PUNCT EOF	29
+NOUN ADP VERB AUX NOUN ADP VERB SCONJ AUX	28
+NOUN ADP VERB AUX NOUN NOUN ADP VERB AUX	19
+NOUN ADP VERB AUX PUNCT NOUN ADP NOUN ADP	24
+NOUN ADP VERB AUX PUNCT NOUN ADP VERB AUX	19
+NOUN ADP VERB AUX PUNCT NOUN NOUN ADP NOUN	18
+NOUN ADP VERB AUX SCONJ AUX AUX NOUN ADP	17
+NOUN ADP VERB AUX SCONJ AUX AUX PUNCT EOF	75
+NOUN ADP VERB AUX SCONJ AUX AUX SCONJ PUNCT	15
+NOUN ADP VERB AUX SCONJ AUX NOUN ADP VERB	16
+NOUN ADP VERB AUX SCONJ NOUN ADP VERB AUX	18
+NOUN ADP VERB AUX SCONJ PUNCT NOUN NOUN ADP	24
+NOUN ADP VERB NOUN ADP NOUN ADP NOUN ADP	20
+NOUN ADP VERB NOUN ADP NOUN ADP VERB AUX	15
+NOUN ADP VERB NOUN ADP VERB AUX AUX PUNCT	25
+NOUN ADP VERB NOUN ADP VERB AUX PUNCT EOF	39
+NOUN ADP VERB PUNCT NOUN ADP NOUN ADP VERB	26
+NOUN ADP VERB SCONJ AUX AUX AUX PUNCT EOF	50
+NOUN ADP VERB SCONJ AUX NOUN ADP VERB AUX	16
+NOUN ADP VERB SCONJ NOUN ADP NOUN ADP VERB	21
+NOUN ADP VERB SCONJ NOUN ADP VERB AUX AUX	16
+NOUN ADP VERB SCONJ NOUN NOUN ADP VERB AUX	15
+NOUN ADP VERB SCONJ PUNCT NOUN ADP NOUN ADP	24
+NOUN ADP VERB SCONJ VERB AUX AUX PUNCT EOF	27
+NOUN ADP VERB SCONJ VERB AUX SCONJ AUX AUX	17
+NOUN NOUN ADP NOUN ADP NOUN ADP NOUN ADP	25
+NOUN NOUN ADP NOUN ADP NOUN ADP NOUN NOUN	16
+NOUN NOUN ADP NOUN ADP NOUN ADP VERB AUX	66
+NOUN NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	26
+NOUN NOUN ADP NOUN ADP NOUN NOUN ADP NOUN	24
+NOUN NOUN ADP NOUN ADP NOUN NOUN ADP VERB	20
+NOUN NOUN ADP NOUN ADP VERB AUX AUX AUX	23
+NOUN NOUN ADP NOUN ADP VERB AUX AUX NOUN	28
+NOUN NOUN ADP NOUN ADP VERB AUX AUX PUNCT	41
+NOUN NOUN ADP NOUN ADP VERB AUX AUX SCONJ	18
+NOUN NOUN ADP NOUN ADP VERB AUX NOUN ADP	36
+NOUN NOUN ADP NOUN ADP VERB AUX PUNCT EOF	51
+NOUN NOUN ADP NOUN ADP VERB AUX SCONJ AUX	36
+NOUN NOUN ADP NOUN ADP VERB NOUN ADP VERB	17
+NOUN NOUN ADP NOUN ADP VERB SCONJ AUX AUX	35
+NOUN NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT	19
+NOUN NOUN ADP NOUN NOUN ADP NOUN ADP NOUN	19
+NOUN NOUN ADP NOUN NOUN ADP NOUN ADP VERB	42
+NOUN NOUN ADP NOUN NOUN ADP NOUN NOUN ADP	20
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX AUX	35
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX NOUN	19
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX PUNCT	30
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX SCONJ	20
+NOUN NOUN ADP NOUN NOUN NOUN ADP VERB AUX	18
+NOUN NOUN ADP PUNCT NOUN NOUN ADP NOUN ADP	15
+NOUN NOUN ADP VERB AUX AUX AUX PUNCT EOF	41
+NOUN NOUN ADP VERB AUX AUX NOUN ADP VERB	30
+NOUN NOUN ADP VERB AUX AUX SCONJ AUX AUX	15
+NOUN NOUN ADP VERB AUX AUX SCONJ AUX PUNCT	20
+NOUN NOUN ADP VERB AUX NOUN ADP NOUN ADP	21
+NOUN NOUN ADP VERB AUX NOUN ADP VERB AUX	31
+NOUN NOUN ADP VERB AUX NOUN ADP VERB SCONJ	16
+NOUN NOUN ADP VERB AUX SCONJ AUX AUX PUNCT	23
+NOUN NOUN ADP VERB AUX SCONJ AUX PUNCT EOF	30
+NOUN NOUN ADP VERB SCONJ AUX AUX PUNCT EOF	22
+NOUN NOUN NOUN ADP NOUN ADP NOUN ADP VERB	24
+NOUN NOUN NOUN ADP NOUN ADP VERB AUX AUX	18
+NOUN NOUN NOUN ADP NOUN NOUN ADP NOUN ADP	17
+NOUN NOUN NOUN ADP NOUN NOUN ADP VERB AUX	25
+NOUN NOUN NOUN ADP VERB AUX AUX PUNCT EOF	29
+NUM NOUN ADP NOUN ADP NOUN ADP VERB AUX	15
+NUM NOUN ADP NOUN ADP VERB AUX AUX PUNCT	18
+NUM NOUN NOUN ADP NOUN ADP NOUN ADP VERB	15
+NUM NOUN NOUN ADP NOUN ADP VERB AUX AUX	15
+PROPN NOUN ADP NOUN ADP NOUN ADP VERB AUX	16
+PROPN NOUN ADP NOUN ADP VERB AUX PUNCT EOF	18
+PUNCT NOUN ADP NOUN ADP NOUN ADP NOUN ADP	23
+PUNCT NOUN ADP NOUN ADP NOUN ADP VERB AUX	27
+PUNCT NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	16
+PUNCT NOUN ADP NOUN ADP VERB AUX AUX PUNCT	16
+PUNCT NOUN ADP NOUN ADP VERB AUX NOUN ADP	19
+PUNCT NOUN NOUN NOUN ADP NOUN ADP VERB AUX	16
+VERB AUX AUX NOUN ADP NOUN ADP VERB AUX	15
+VERB AUX AUX NOUN ADP VERB AUX PUNCT EOF	24
+VERB AUX NOUN ADP NOUN ADP NOUN ADP VERB	16
+VERB AUX NOUN ADP VERB AUX AUX PUNCT EOF	18
+
+[NGRAMS:10]
+59
+ADP NOUN ADP NOUN ADP NOUN ADP NOUN ADP VERB	26
+ADP NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX	19
+ADP NOUN ADP NOUN ADP NOUN ADP VERB SCONJ AUX	18
+ADP NOUN ADP NOUN ADP VERB AUX AUX PUNCT EOF	27
+ADP NOUN ADP NOUN ADP VERB AUX NOUN ADP VERB	25
+ADP NOUN ADP NOUN ADP VERB AUX SCONJ AUX PUNCT	17
+ADP NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT EOF	23
+ADP NOUN ADP VERB AUX AUX SCONJ AUX PUNCT EOF	17
+ADP NOUN ADP VERB AUX NOUN ADP NOUN ADP VERB	17
+ADP NOUN ADP VERB AUX SCONJ AUX AUX PUNCT EOF	27
+ADP NOUN ADP VERB NOUN ADP VERB AUX PUNCT EOF	17
+ADP NOUN ADP VERB SCONJ AUX AUX AUX PUNCT EOF	24
+ADP NOUN NOUN ADP NOUN ADP NOUN ADP VERB AUX	19
+ADP NOUN NOUN ADP NOUN ADP VERB AUX PUNCT EOF	20
+ADP VERB AUX AUX NOUN ADP VERB AUX PUNCT EOF	18
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP NOUN ADP	25
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP VERB AUX	40
+NOUN ADP NOUN ADP NOUN ADP NOUN ADP VERB SCONJ	22
+NOUN ADP NOUN ADP NOUN ADP NOUN NOUN ADP VERB	21
+NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX AUX	17
+NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX PUNCT	20
+NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX SCONJ	20
+NOUN ADP NOUN ADP NOUN ADP VERB AUX NOUN ADP	29
+NOUN ADP NOUN ADP NOUN ADP VERB AUX PUNCT EOF	42
+NOUN ADP NOUN ADP NOUN ADP VERB AUX SCONJ AUX	21
+NOUN ADP NOUN ADP NOUN ADP VERB NOUN ADP VERB	17
+NOUN ADP NOUN ADP NOUN ADP VERB SCONJ AUX AUX	21
+NOUN ADP NOUN ADP NOUN ADP VERB SCONJ AUX PUNCT	21
+NOUN ADP NOUN ADP NOUN NOUN ADP NOUN ADP VERB	26
+NOUN ADP NOUN ADP VERB AUX AUX AUX PUNCT EOF	28
+NOUN ADP NOUN ADP VERB AUX AUX NOUN ADP VERB	21
+NOUN ADP NOUN ADP VERB AUX NOUN ADP NOUN ADP	27
+NOUN ADP NOUN ADP VERB AUX NOUN ADP VERB AUX	33
+NOUN ADP NOUN ADP VERB AUX SCONJ AUX AUX PUNCT	21
+NOUN ADP NOUN ADP VERB AUX SCONJ AUX PUNCT EOF	42
+NOUN ADP NOUN ADP VERB NOUN ADP VERB AUX PUNCT	18
+NOUN ADP NOUN ADP VERB PUNCT NOUN ADP NOUN ADP	19
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX AUX PUNCT	17
+NOUN ADP NOUN ADP VERB SCONJ AUX AUX PUNCT EOF	41
+NOUN ADP NOUN NOUN ADP NOUN ADP NOUN ADP VERB	29
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB AUX AUX	23
+NOUN ADP NOUN NOUN ADP NOUN ADP VERB SCONJ AUX	24
+NOUN ADP NOUN NOUN ADP VERB AUX AUX NOUN ADP	21
+NOUN ADP NOUN NOUN ADP VERB AUX AUX PUNCT EOF	35
+NOUN ADP NOUN NOUN ADP VERB AUX NOUN ADP VERB	18
+NOUN ADP VERB AUX AUX NOUN ADP NOUN ADP VERB	19
+NOUN ADP VERB AUX AUX SCONJ AUX AUX PUNCT EOF	28
+NOUN ADP VERB AUX NOUN ADP NOUN ADP NOUN ADP	18
+NOUN ADP VERB AUX NOUN ADP NOUN ADP VERB AUX	17
+NOUN ADP VERB AUX NOUN ADP VERB AUX PUNCT EOF	25
+NOUN ADP VERB NOUN ADP VERB AUX AUX PUNCT EOF	22
+NOUN NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX	19
+NOUN NOUN ADP NOUN ADP VERB AUX AUX NOUN ADP	20
+NOUN NOUN ADP NOUN ADP VERB AUX AUX PUNCT EOF	37
+NOUN NOUN ADP NOUN ADP VERB AUX NOUN ADP VERB	17
+NOUN NOUN ADP NOUN NOUN ADP NOUN ADP VERB AUX	21
+NOUN NOUN ADP NOUN NOUN ADP VERB AUX PUNCT EOF	17
+NOUN NOUN ADP VERB AUX SCONJ AUX AUX PUNCT EOF	22
+NOUN NOUN NOUN ADP NOUN ADP NOUN ADP VERB AUX	17
+
+[NGRAMS:11]
+1
+NOUN ADP NOUN ADP NOUN ADP VERB AUX AUX PUNCT EOF	20
+
