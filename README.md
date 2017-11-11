@@ -14,3 +14,6 @@ After the quick learning phase it generates (and it's able to load) a (text) .mg
 It natively works in *utf8* - but you can switch it to codepage (changing this setting into the code)
 
 To use it you in your project you simply need to add to your project *mgtagger_postag.c* + *mgtagger_private.h* / *mgtagger.h*
+
+*mgtagger* at the moment doesn't do tokenization (even if it's a built-in basic tokenizer that may fit for some languages - not surely
+for Japanese, Chinese or Thai, anyway) - it just assign a POS to tokens after its analysis.
