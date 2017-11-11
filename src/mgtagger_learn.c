@@ -182,7 +182,7 @@ int ULEX_reduce(LEX*l)
    LEMMA     *cur=&l->lemmas[i];
    const char*unk=cur->lemma;
    const char*p=strstr(unk,"*");
-   int        len=strlen(unk);
+   int        len=(int)strlen(unk);
    if(len>Mlen)
     Mlen=len;
    if(len<mlen)
@@ -193,7 +193,7 @@ int ULEX_reduce(LEX*l)
    {
     LEMMA*cur=&l->lemmas[i];
     const char*unk=cur->lemma,*p=strstr(unk,"*");
-    int        len=strlen(unk);
+    int        len=(int)strlen(unk);
     if(len==ll)
      if(p&&(strlen(p+1)>2))
       {
@@ -406,7 +406,7 @@ void NGRAMSTREE_ITEM_delete(NGRAMSTREE_ITEM*n)
 
 void NGRAMSTREE_toNGRAMS(NGRAMSTREE_ITEM*t,NGRAMS*out,char*seq,int deep,int flags)
 { 
- int len=strlen(seq);
+ int len=(int)strlen(seq);
  while(t)
   {
    if(deep)

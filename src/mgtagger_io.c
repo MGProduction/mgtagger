@@ -110,7 +110,7 @@ int mgtokens_readfromconllu(mgtokens*pieces,FILE*f,char*line,int linesize,int fo
    int  ll;   
    skip=atoi(multi+1)-atoi(itemid);
    fgets(line,linesize,f);
-   ll=strlen(line);
+   ll=(int)strlen(line);
    while((line[ll-1]=='\n')||(line[ll-1]=='\r'))
     line[--ll]=0;       
    l=gettoken(line,tmp,'\t');
@@ -151,7 +151,7 @@ int mgtokens_readfromconllu(mgtokens*pieces,FILE*f,char*line,int linesize,int fo
     prontype=1;
    if((strcmp(p.opos,"VERB")==0)||(strcmp(p.opos,"AUX")==0))
     {vform=1;vpers=1;number=1;vtense=1;}  
-   l=strlen(p.opos);
+   l=(int)strlen(p.opos);
    while(g&&*g)
     {
      char info[96];
@@ -284,7 +284,7 @@ int mgtokens_readfromconllu(mgtokens*pieces,FILE*f,char*line,int linesize,int fo
   while(skip--)
    fgets(line,linesize,f);
  
- return strlen(p.fit)+((p.flags&1)==0);
+ return ((int)strlen(p.fit))+((p.flags&1)==0);
 }
 
 // --------------------------------------------------------------------
@@ -319,7 +319,7 @@ int mgtokens_readfromsequence(mgtokens*pieces,const char*line,char separator_cha
    strcpy(p.opos,pos);   
    mgtokens_add(pieces,&p);
    
-   kbs+=strlen(lemma)+1;
+   kbs+=(int)strlen(lemma)+1;
    
    while(line[i]==' ') i++;
    if((line[i]=='\n')||(line[i]=='\r'))
@@ -356,7 +356,7 @@ int mgtokens_readfromtext(mgtokens*pieces,const char*line)
    p.fit=_strdup(lemma);
    mgtokens_add(pieces,&p);
    
-   kbs+=strlen(lemma)+1;
+   kbs+=(int)strlen(lemma)+1;
    
    while(line[i]==' ') i++;
    if((line[i]=='\n')||(line[i]=='\r'))

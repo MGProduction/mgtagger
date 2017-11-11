@@ -145,7 +145,7 @@ wchar_t utf8_towchar(const char* s, int* adv)
 	return u;
 }
 
-size_t utf8_strlen(const char*str)
+int utf8_strlen(const char*str)
 {
  int l=0;
  while(*str)
@@ -158,7 +158,7 @@ size_t utf8_strlen(const char*str)
  return l; 
 }
 
-size_t utf8_strlwr(char*str)
+int utf8_strlwr(char*str)
 {
  int l=0;
  while(*str)
@@ -217,7 +217,7 @@ const char*utf8_gettoken(const char*line,char*token,wchar_t sep)
 
 int isinset(const char*what,const char*in)
 {
- int        len=strlen(what);
+ int       len=(int)strlen(what);
  const char*p=strstr(in,what);
  while(p)
   {
@@ -240,7 +240,7 @@ const char*gettoken(const char*line,char*token,char sep)
 
 void removeendingcrlf(char*line)
 {
- int l=strlen(line);
+ int l=(int)strlen(line);
  while((line[l-1]=='\n')||(line[l-1]=='\r'))
   line[--l]=0;       
 }
@@ -327,8 +327,9 @@ int applyrule(const char*fit,int fitlen,const char*rule,char*base,int*tail)
 
 int utf8_getbestbaseform(LEX*inflections,const char*fit,const char*pos,char*base)
 {
- int  i,j,bestscore=0,fitlen=strlen(fit);
- char bestbase[256];
+ int    i,j,bestscore=0;
+ int    fitlen=(int)strlen(fit);
+ char   bestbase[256];
  *bestbase=0;
  for(i=0;i<inflections->num;i++)
   {
@@ -456,7 +457,7 @@ int NGRAMS_findID(NGRAMS*l,const char*pos)
  nn.ngram=(char*)pos;
  pn=(NGRAM*)bsearch(&nn,l->ngrams,l->num,sizeof(l->ngrams[0]),NGRAM_comparesz);
  if(pn)
-  return pn-l->ngrams;
+  return (int)(pn-l->ngrams);
  else
   return -1; 
 }
@@ -486,7 +487,7 @@ int slex_delete(slex*s)
  int i,size=0;
  for(i=0;i<s->num;i++)
   {
-   size+=strlen(s->str[i])+1;
+   size+=(int)strlen(s->str[i])+1;
    free(s->str[i]);
   } 
  size+=s->size*sizeof(char*); 
@@ -529,7 +530,7 @@ int LEMMACNT_compare(const void*a,const void*b)
 
 int LEMMALENCNT_compare(const void*a,const void*b)
 {
- return ((((LEMMA*)b)->cnt)-(utf8_strlen(((LEMMA*)b)->lemma)-3))-((((LEMMA*)a)->cnt)-(utf8_strlen(((LEMMA*)a)->lemma)-3));
+ return (int)(((((LEMMA*)b)->cnt)-(utf8_strlen(((LEMMA*)b)->lemma)-3))-((((LEMMA*)a)->cnt)-(utf8_strlen(((LEMMA*)a)->lemma)-3)));
 }
 
 int POS_compare(const void*a,const void*b)
@@ -783,7 +784,7 @@ void LEX_delete(LEX*l)
   {
    size+=sizeof(l->lemmas[i].poss[0])*l->lemmas[i].size;
    free(l->lemmas[i].poss);
-   size+=strlen(l->lemmas[i].lemma)+1;
+   size+=(int)strlen(l->lemmas[i].lemma)+1;
    free((char*)l->lemmas[i].lemma);   
   }
  size+=slex_delete(&l->pos);
@@ -894,7 +895,7 @@ int utf8_LEX_known2unknown(const char*known,char*pattern,int tail)
 
 int ansi_LEX_known2unknown(const char*known,char*pattern,int tail)
 {
- int len=strlen(known);
+ int len=(int)strlen(known);
  if(len>1+tail)
   {
    int i,ii,dig=0;
@@ -1039,7 +1040,7 @@ void mgtokens_add(mgtokens*p,mgtoken*pp)
    p->size+=64;
    p->pieces=(mgtoken*)realloc(p->pieces,p->size*sizeof(mgtoken));
   }
- pp->textlen=strlen(pp->fit); 
+ pp->textlen=(short)strlen(pp->fit); 
  memcpy(&p->pieces[p->num],pp,sizeof(mgtoken));
  p->num++;
 }
@@ -1093,8 +1094,9 @@ float mgtagger_gettransition_forward(mgtagger*mg,mgtokens*p,int i,const char*che
  float retvalue=0;
  if((mg->ngrams[ngrams-1].num)&&(i-(ngrams-1)>=-1)&&(i-(ngrams-1)<=p->num))
   {
-   char  tpos[pos_size*16+16];
-   int   j,l=0;
+   char   tpos[pos_size*16+16];
+   int    l=0;
+   int    j;
    NGRAM*n=NULL,*nb;
    *tpos=0;
    if(((ngrams==2)||(ngrams==3)||(ngrams==4))&&(i-(ngrams-1)>=0)&&p->pieces[i-(ngrams-1)].lemma&&(p->pieces[i-(ngrams-1)].lemma->flags&lemma_hifreq)&&g_useinwards)
@@ -1111,7 +1113,7 @@ float mgtagger_gettransition_forward(mgtagger*mg,mgtokens*p,int i,const char*che
        else        
         strcat(tpos,mgtokens_getpos(p,i-(ngrams-j-1)));     
       } 
-     l=strlen(tpos);  
+     l=(int)strlen(tpos);  
      if(*tpos) strcat(tpos," ");
      strcat(tpos,check); 
         
@@ -1135,7 +1137,7 @@ float mgtagger_gettransition_forward(mgtagger*mg,mgtokens*p,int i,const char*che
        if(*tpos) strcat(tpos," ");
        strcat(tpos,mgtokens_getpos(p,i-(ngrams-j-1)));     
       } 
-     l=strlen(tpos);  
+     l=(int)strlen(tpos);  
      if(*tpos) strcat(tpos," ");
      strcat(tpos,check); 
      n=NGRAMS_find(&mg->ngrams[ngrams-1],tpos);                
@@ -1158,14 +1160,15 @@ float mgtagger_gettransition_backward(mgtagger*mg,mgtokens*p,int i,const char*ch
  float retvalue=0;
  if((mg->ngrams[ngrams-1].num)&&(i>=-1)&&(i+(ngrams-1)<=p->num))
   {
-   char  tpos[pos_size*16+16];
-   int   j,l=0;
+   char   tpos[pos_size*16+16];
+   int    j;
+   int    l=0;
    NGRAM*n=NULL,*nb;
    *tpos=0;
    if(((ngrams==2)||(ngrams==3)||(ngrams==4))&&(i+ngrams-1<p->num)&&p->pieces[i+ngrams-1].lemma&&(p->pieces[i+ngrams-1].lemma->flags&lemma_hifreq)&&g_useinwards)
     {
      strcat(tpos,check);          
-     l=strlen(tpos);  
+     l=(int)strlen(tpos);  
      for(j=1;j<ngrams;j++)
       {
        if(*tpos) strcat(tpos," ");
@@ -1192,7 +1195,7 @@ float mgtagger_gettransition_backward(mgtagger*mg,mgtokens*p,int i,const char*ch
    if(1)
     { 
      strcpy(tpos,check);
-     l=strlen(tpos);  
+     l=(int)strlen(tpos);  
      for(j=1;j<ngrams;j++)
       {
        if(*tpos) strcat(tpos," ");
@@ -2185,7 +2188,7 @@ int mgtagger_genericparser(mgtagger*mg,const char*text,mgtokens*pieces,int flags
        int     len=0;
        char    lemma[256];
        memset(&p,0,sizeof(p));
-       p.textpos=text-otext;
+       p.textpos=(int)(text-otext);
        if(len=LEX_scanutf8(&mg->lex,text,lemma))
         {
          p.fit=_strdup(lemma); 
