@@ -53,6 +53,11 @@
 
 #define compare_flag 0
 //#define compare_flag 256
+#if defined(_DEBUG)
+int  bActivateLOG=1;
+#else
+int  bActivateLOG=0;
+#endif
 
 FILE*g_log;
 LEX *g_err;
@@ -211,15 +216,21 @@ int main(int argc, char* argv[])
    LEX_new(&err);
    if(argc>4) 
     format=atoi(argv[4]);   
-   g_debug=fopen("debug.txt","wb+"); 
-   g_log=fopen("log.txt","wb+"); 
+   // --- g_debug=fopen("debug.txt","wb+"); 
+   if(bActivateLOG) 
+    g_log=fopen("log.txt","wb+"); 
+   else
+    g_log=NULL; 
    g_err=&err;   
    postag(argv[2],argv[3],NULL,format);
-   fprintf(g_log,"\r\n\r\n");
-   LEX_write(&err,NULL,"errors",g_log,1,1);
+   if(g_log)
+    {
+     fprintf(g_log,"\r\n\r\n");
+     LEX_write(&err,NULL,"errors",g_log,1,1);
+     fclose(g_log);
+    } 
    LEX_delete(&err);
-   fclose(g_debug);
-   fclose(g_log);
+   // --- fclose(g_debug);
   } 
  else 
  if((argc>3)&&(strcmp(argv[1],"b")==0))
@@ -230,13 +241,19 @@ int main(int argc, char* argv[])
    if(argc>5) 
     format=atoi(argv[5]);   
    mgtagger_learn(argv[2],argv[4],format,0);
-   g_log=fopen("log.txt","wb+"); 
+   if(bActivateLOG) 
+    g_log=fopen("log.txt","wb+"); 
+   else
+    g_log=NULL; 
    g_err=&err;      
    postag(argv[3],argv[4],NULL,format);
-   fprintf(g_log,"\r\n\r\n");
-   LEX_write(&err,NULL,"errors",g_log,1,1);
+   if(g_log)
+    {
+     fprintf(g_log,"\r\n\r\n");
+     LEX_write(&err,NULL,"errors",g_log,1,1);
+     fclose(g_log);
+    } 
    LEX_delete(&err);
-   fclose(g_log);
   } 
  else 
  if((argc>2)&&((strcmp(argv[1],"tag")==0)||(strcmp(argv[1],"t")==0)))
