@@ -65,7 +65,7 @@ extern FILE*g_debug;
 
 // --------------------------------------------------------------------
 
-int postag(const char*input,const char*mgfile,const char*output,int format)
+int postag(const char*input,const char*mgfile,const char*output,int format,int html)
 {
  FILE*f=fopen(input,"rb");
  if(f)
@@ -90,6 +90,14 @@ int postag(const char*input,const char*mgfile,const char*output,int format)
      if(output&&*output)
       {
        FILE*out=fopen(output,"wb+");
+       if(html)
+        {
+         fprintf(out,"<html><head><style>\n");
+         fprintf(out,"ul#display-inline-block-example,ul#display-inline-block-example li {margin:0;padding:2px;font-family:Verdana;font-size:12px;background-color:silver;}\n");
+         fprintf(out,"ul#display-inline-block-example li {display:inline-block;min-height:10px;background:white;vertical-align:top;text-align:center;border:2px solid silver; /* For IE 7 */ zoom: 1;*display: inline;}\n");
+         fprintf(out,".lemma{background-color:#ecf0f1;color:#34495e;font-size:14px;min-width:100;padding-bottom:2px;padding-top:2px;} .base{background-color:#bdc3c7;font-weight:bold;color:#2c3e50;min-width:100;padding-bottom:2px;padding-top:2px;} .pos{background-color:#7f8c8d;font-weight:bold;color:white;min-width:100;padding-bottom:2px;padding-top:2px;}\n");
+         fprintf(out,"</style></head><body>\n");
+        }
        while(!feof(f))
         {
          fgets(line,linesize,f);
@@ -99,15 +107,30 @@ int postag(const char*input,const char*mgfile,const char*output,int format)
           {
            int i;
            mgtagger_postag_debug(&mg,&pieces,compare_flag,g_log,g_err);
+           if(html)
+            fprintf(out,"<ul id=\"display-inline-block-example\">\n");
            for(i=0;i<pieces.num;i++)
             {
              if(i)
               fprintf(out," ");
-             fprintf(out,"%s/%s",pieces.pieces[i].fit,pieces.pieces[i].pos);
+             if(html)
+              if(pieces.pieces[i].base)
+               fprintf(out,"<li><div class=\"lemma\">%s</div><div class=\"base\">%s</div><div class=\"pos\">%s</div></li>\n",pieces.pieces[i].fit,pieces.pieces[i].base,pieces.pieces[i].pos);
+              else
+               fprintf(out,"<li><div class=\"lemma\">%s</div><div class=\"base\">-</div><div class=\"pos\">%s</div></li>\n",pieces.pieces[i].fit,pieces.pieces[i].pos);
+             else
+              fprintf(out,"%s/%s",pieces.pieces[i].fit,pieces.pieces[i].pos);
             }
-           fprintf(out,"\r\n"); 
+           if(html)
+            fprintf(out,"</ul>\n"); 
+           else 
+            fprintf(out,"\r\n"); 
           } 
         }  
+       if(html)
+        {
+         fputs("</body></html>\n",f);
+        }        
        fclose(out); 
       }
      else 
@@ -222,7 +245,7 @@ int main(int argc, char* argv[])
    else
     g_log=NULL; 
    g_err=&err;   
-   postag(argv[2],argv[3],NULL,format);
+   postag(argv[2],argv[3],NULL,format,0);
    if(g_log)
     {
      fprintf(g_log,"\r\n\r\n");
@@ -246,7 +269,7 @@ int main(int argc, char* argv[])
    else
     g_log=NULL; 
    g_err=&err;      
-   postag(argv[3],argv[4],NULL,format);
+   postag(argv[3],argv[4],NULL,format,0);
    if(g_log)
     {
      fprintf(g_log,"\r\n\r\n");
@@ -257,7 +280,7 @@ int main(int argc, char* argv[])
   } 
  else 
  if((argc>2)&&((strcmp(argv[1],"tag")==0)||(strcmp(argv[1],"t")==0)))
-  postag(argv[2],(argc>3)?argv[4]:NULL,argv[3],0);
+  postag(argv[2],(argc>3)?argv[4]:NULL,argv[3],0,(argc>4)?1:0);
  else
  if((argc>1)&&(strcmp(argv[1],"i")==0))
   {   
